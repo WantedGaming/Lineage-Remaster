@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィンダウッド城ゲートキーパー</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		ご機嫌いかがですか？私はウィンダウッド城の専属ゲートキーパーです。<br/>
+		どこか行きたい場所はございますか？
+		城外に出られるときはぜひご利用ください。<br/>
+		<br/><br/>
+		<a action="teleportURL">他の地域にテレポートする</a>
+		
+		</p>
+
+	</dialog>
+
+</npcdialog>

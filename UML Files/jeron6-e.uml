@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェロン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 はははは。さぁ、教本だ。お前はたいしたもんじゃ。すごいぞ！<br/>
+		 世の中には金がありあまっているようだな…ははは…<br/>
+		 <br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

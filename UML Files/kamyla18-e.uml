@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+ドレイクの財宝庫にあるものの中で、使えそうなのはこの程度ですね。<br/><br/>
+お気に召すものをどうぞ。<br/><br/>
+<a link="kamyla20">名誉の剣</a><br/>
+<a link="kamyla21">アビス デュアルブレード</a><br/>
+<a link="kamyla22">サイレンス クロスボウ</a><br/>
+<a link="kamyla23">漆黒の水晶球</a><br/>
+<a link="kamyla24">信義の盾</a><br/>
+</p>
+</dialog>
+</npcdialog>

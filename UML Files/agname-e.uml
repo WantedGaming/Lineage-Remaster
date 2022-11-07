@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p>This is <var src="0"/>owned<var src="1"/>by the<font fg="ffffff"><var src="2"/></font>Blood Pledge.</p>
+  </dialog>
+</npcdialog>

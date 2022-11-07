@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>来たのか？最近はどうだ？</p>
+		<p>平和そうに見えるが、今こそ気持ちをしっかりと持たなければならない。</p>
+		<p>怠惰こそが我々にとって最も大きな敵だからな。</p>
+ 	</dialog>
+
+</npcdialog>

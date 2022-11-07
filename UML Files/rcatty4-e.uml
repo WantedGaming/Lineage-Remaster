@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ケティ</name>
+    <job>[武器防具商人]</job>
+  </npc>
+  	<dialog align="left">
+		<p>あなたのような悪党に売る物はありません。</p>
+	</dialog>
+</npcdialog>

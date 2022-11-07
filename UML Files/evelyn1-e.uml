@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>私みたいな見た目のモンスターがいるらしいけど、もし本当に遭遇したら怖くて震え上がっちゃうと思うわ。</p>
+  </dialog>
+</npcdialog>

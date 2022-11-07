@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゾード</name>
+		<job>[古代品商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+    <p>いらっしゃい。</p><br/>
+		<p>今持っている武器や防具に満足できないですか？
+		もっと強い武器を持ちたいと思いますか？
+		<br/>
+		</p><p>ここは普通の店とは違いますよ。運が良ければより強い武器や防具を手に入れられるでしょう。
+		運が良ければね… </p><br/>
+		<p>だがな、もし運が悪ければ。フフフ…
+		<br/>
+		</p><p align="center">
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<br/>
+		</p><p align="left">
+		<a action="jode1">古代品商人について聞く</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">ユキ：</font></p>
+    <p><br/>う…しばらく待たれよ…</p>
+	<p>時空の流れが不安定なのだ。</p>
+	<p>集中する時間が必要だ…少し時間が経ってから声をかけてくれ…。</p>
+  </dialog>
+</npcdialog>

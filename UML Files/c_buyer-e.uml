@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">ペット雑貨商人 <name/>：</font><br/></p>
+	<p>私は、冒険者たちのペットに必要なアイテムたちを扱っています！<br/><br/><br/></p>
+	<p>何をお探しですか？<br/></p>
+	<panel type="Panel_Shop_Bt_Buy">
+		<button action="buy"/>
+	</panel>
+  </dialog>
+</npcdialog>

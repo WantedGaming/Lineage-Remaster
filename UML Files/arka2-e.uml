@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ほぅ…礼儀正しい若者じゃのう。<br/>
+		 そうでなくても今回の祭りで色んな大会をするそうでな、ワシも参加したのじゃが、やはり若い者には敵わなくてのぅ…<br/>
+		 仕方ないから釣りでもしようかと思ったんじゃが、歳のせいで目が良く見えなくて針に糸を通せなかったんじゃ。<br/>
+		 <br/>
+		 そこでなのじゃが、ちょっと力を貸してくれんか？<br/>
+		 アルティメットバトル、幽霊屋敷、釣り、料理の最強の者にのみ手に入る珍しいアイテムを、ワシの代わりに取ってきてくれんか？<br/>
+		 <br/>
+		 ワシでは到底取れそうにないのでのぅ。お前さんに頼みたいのじゃ。<br/>
+		 取ってきてくれたら、ワシが生涯をかけて完成させた力作の<font fg="ffffaf">マジックドール</font>を渡そう。どうじゃ？<br/>
+		<br/><br/>
+		<a link="arka3">珍しいアイテムですか？</a><br/><br/>
+		<a action="request bag of arka">珍しいアイテムを持ってきました。</a><br/>
+		<br/>
+		<br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>エヴァの聖地の、さらにまた海底の奥深くにいる<font fg="ffffaf">サエル</font>様を探して、パプリオンの呪いを解いてください。</p>
+		<p>サエル様に会ったら<font fg="ffffaf">神聖なエヴァの水</font>を飲んでください。水の気を感じられるでしょう。</p>
+		<p>お会いして間もないですが、あなたならば成し遂げられると思っています。</p>
+		<p>サエル様の呪いを解くことができたら、その証にサエル様がいつも身につけておられた<font fg="ffffaf">サエルのリング</font>を持ってきてください。</p>
+		<p>それでは、幸運を祈ります。エヴァ様の祝福があらんことを…。</p>
+	</dialog>
+	
+</npcdialog>
+

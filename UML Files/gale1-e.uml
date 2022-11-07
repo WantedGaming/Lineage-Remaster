@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		前に会ったある冒険者は、あの海底に一人で降りてパプリオンと対決したって言ってたな。<br/>勝敗は決まらなかったらしいが、一体誰がそんな話を信じるよ？お前なら信じるか？そいつの言ったことは全部嘘っぱちだってのは分かりきってるんだ。<br/><br/>
+		水中都市で、あるガマ蛙人間が薬を売ってるって話もあるんだが、それだって全然信じられねぇ。そうだろ？
+		</p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileLoginUI>
+  <Window Name = "Message_Window" X = "171" Y = "153" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6488;3">
+    <MultiLabel Name = "Message_Label" X = "29" Y = "31" FontSize = "12" Width = "394" Height = "190" VAlign = "center" LineMargin = "3"/>
+    <Button Name = "Ok_Button" X = "47" Y = "237" BaseSurf = "6489" HighlightSurf = "6490" PushSurf = "6491" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_MessageWin"/>
+    <Button Name = "Cancel_Button" X = "262" Y = "237" BaseSurf = "6492" HighlightSurf = "6493" PushSurf = "6494" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_MessageWin"/>
+    <Image Name = "Back_Image" Surf = "6487;1"/>
+  </Window>
+  <Window Name = "Login_Window" X = "0" Y = "0" Activate = "0" BasePng = "100163">
+    <Image X="309" Y="261" Png="100164;1"/>
+    <Button Name = "Login_Button" X="470" Y="520" BasePng = "100174;1" PushPng = "100175;1" MouseEvent = "Login_LoginWin">
+      <Label X="103" Y="17" String="4581" FontSize="20"/>
+    </Button>
+  </Window>
+  <Window Name = "ServerSelectWindow" X = "0" Y = "0" Activate = "0" BasePng="100173">
+    <Label Name="LabelServerSelect" X="25" Y="20" String="251" FontSize="20"/>
+    <Button Name="ButtonServer" X="176" Y="156" BasePng="100179;1">
+      <Label Name="LabelButtonServer" Width="268" Height="63" FontSize="20" HAlign="center" VAlign="center"/>
+    </Button>
+    <Button Name="ButtonUp" X = "572" Y = "137" BasePng="100217;2;16" MouseEvent = "ServerSelectWin_UpSlot"/>
+    <Button Name="ButtonDown" X = "572" Y = "540" BasePng="100218;2;16" MouseEvent = "ServerSelectWin_DownSlot"/>
+    <Button Name="ButtonBack" X = "64" Y = "610" Width="100" Height="31" MouseEvent = "ServerSelectWin_Cancel">
+      <Image X="0" Y="3" Png="100176;1"/>
+      <Label X="40" Width="50" Height="31" String="4584" FontSize="20" HAlign="center" VAlign="middle"/>
+    </Button>
+    <Button Name="ButtonAutoConnect" X="682" Y="600" Width="100" Height="40">
+      <Image Name="CheckAutoConnect" X="0" Y="3" Png="100181;1"/>
+      <Label Name="LabelAutoConnect" X="70" Height="40" String="4586" FontSize="20" HAlign="center" VAlign="center"/>
+    </Button>
+    <Button Name = "ButtonEnter" X = "862" Y = "590" BasePng="100174;1" PushPng="100175;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ServerSelectWin_Ok">
+      <Label X="113" Y="17" String="37" FontSize="20"/>
+    </Button>
+  </Window>
+</MobileLoginUI>

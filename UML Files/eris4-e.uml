@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>あ、ご苦労様です。</p>
+		<p><a link="eris20">「イリスの命令書：霊魂の安息」を渡す</a></p>
+		<p><a action="D">「イリスの命令書：同盟の意志」を渡す</a></p>
+  </dialog>
+</npcdialog>

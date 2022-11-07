@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>モリ</name>
+		<job>案内員</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		お～い、そこの君！<br/>
+		元気にしていたかい？！<br/>
+		<br/>
+		運動会をしているところに行くって？<br/>
+		<font fg="ffffaf">熱気球</font>に乗らないと行けないところだけど、僕ならそこへ送れそうだ。<br/>
+		熱気球は毎日午前11時～午後11時まで運行しているよ。<br/>
+		<br/>
+		そうだ、<font fg="ffffaf">くれぐれも気をつけるんだぞ。ラフォンスがどうしてあんな風になったのかよく考えてみろ。</font><br/>
+		<br/>
+		さあ、準備はできたか？テレポート費用は<font fg="ffffaf">100Adena</font>！！
+		出発～！！<br/>
+		</p>
+		<br/>
+		<panel type="Panel_Teleport">
+			<button action="non_npc a"/>
+		</panel>
+		<br/>
+		<br/>
+		<br/>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>あなたの信念が光りを放つ時です。</p>
+	<p>周りから悪口を言われて気が弱くなりがちですが、惑わされず信念を持って行動すれば、よい結果が出せるはずです。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

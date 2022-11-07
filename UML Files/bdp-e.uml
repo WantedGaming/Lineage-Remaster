@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジリアン</name>
+		<job>月の騎士</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		血に染まったアデンを取り戻すために、<font fg="ffafff">赤き騎士団</font>が立ち上がった。<br/><br/>
+		平和を取り戻すために、やむなく再び武器を手に取ったが、<br/><br/>
+		デポロジューさまを守るためなら、私は何でもやってのける…
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

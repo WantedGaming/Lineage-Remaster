@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">祭壇：</font><br/><br/></p>
+   <p>エルモア マーシャルの魂を慰めました。</p>
+   <p>彼らが解こうとしていた者たちの品物が渡されました。</p>
+   <p><font fg="ffffaf">ソルシャイカのソウルクリスタル</font>を使って錆びた笛を復元できます。</p>
+   <p>復元した笛を使って、<font fg="ffffaf">ソルシャイカの魂</font>を呼び出すことができます。</p>
+   <p><font fg="ffffaf">ケンラウヘルのゴールデン スティック</font>を使って彼を制圧し、<font fg="ffffaf">封印されたソルシャイカの遺品</font>を持ってきましょう。</p>
+  </dialog>
+</npcdialog>

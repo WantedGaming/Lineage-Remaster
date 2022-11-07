@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 ギラン名物のポップコーンを召し上がったことは？美味しくておいしくてほっぺが落ちちゃいます！<br/>
+		 口の中にほおばったとたん、言葉では言い尽くせないぐらい幸せな気持ちになるんです。食料品店で売っているから、いつかは必ず召し上がれ。<br/>
+		 それを食べるためにわざわざ遠くから来る人もいるんですよ。<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		あのさぁ…大きな声では言えない話なんだけど…<br></br>
+		もともとグルーディオ領地の領主はグルディア伯爵だったんだけど、ケンラウヘル陛下との戦争に負けてから、この地を今のケント伯爵が治めることになったんだ。知ってた？<br></br>
+		ところが新しく赴任した領主が自分の領地にまったく関心がなかったんだ。<br></br>
+		だからラスタバドのやつらが最初にこのケント領をターゲットに選んだと思うよ…<br></br>
+		いろいろ世論が騒ぐからフェスティバルを開くっていってもシラケるだけだって…<br></br>
+		</p>
+		
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p><font fg="ffaaff">風にさらわれドンコ失踪？</font><br/><br/></p>
+	<p>勇士様…</p>
+	<p>先日アデン大陸の南部を襲った巨大な台風を覚えていますか？</p>
+	<p>夏休みをとって海に遊びに行っていたドンコが行方不明になったんです。<br/><br/></p>
+	<p>ペットマッチ管理人のドンコがいないので、彼が戻るまでペットマッチができないそうです。</p>
+	<p>早く彼を探さなくてはなりませんね。<br/><br/></p>
+	<p><img src="331" link="newsboy"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

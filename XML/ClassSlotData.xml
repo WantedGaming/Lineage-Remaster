@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<ClassSlotData>
+	<!--Prince-->
+	<Class id="0">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Item" id="23067" nameId="13916"/>
+			<!--Templar Demon Blood-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="2"/>
+			<!--Shield-->
+			<Slot index="6" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch-->
+		</Page>
+	</Class>
+	<!--Knight-->
+	<Class id="1">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Item" id="23066" nameId="13917"/>
+			<!--Templar Brave Potion-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="2"/>
+			<!--Shield-->
+			<Slot index="6" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--Elf-->
+	<Class id="2">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Spell" id="129"/>
+			<!--Body To Mind-->
+			<Slot index="2" type="Spell" id="131"/>
+			<!--Triple Arrow-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="6" type="Item" id="23068" nameId="13918"/>
+			<!--Templar Elven Waffle-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--Magician-->
+	<Class id="3">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="2" type="Spell" id="17"/>
+			<!--Turn Undead-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="6" type="Spell" id="24"/>
+			<!--Fireball-->
+			<Slot index="7" type="Spell" id="31"/>
+			<!--Meditation-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--DarkElf-->
+	<Class id="4">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Spell" id="100"/>
+			<!--Moving Acceleration-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="2"/>
+			<!--Shield-->
+			<Slot index="6" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--DragonKnight-->
+	<Class id="5">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Spell" id="185"/>
+			<!--Blood Lust-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="186"/>
+			<!--Four Slayer-->
+			<Slot index="6" type="Spell" id="183"/>
+			<!--Magma Breath-->
+			<Slot index="7" type="Spell" id="180"/>
+			<!--Dragon Skin-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--Illusionist-->
+	<Class id="6">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Item" id="23069" nameId="13919"/>
+			<!--Templar Yggdra Fruit-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="200"/>
+			<!--Mirror Image-->
+			<Slot index="6" type="Spell" id="202"/>
+			<!--Smash Energy-->
+			<Slot index="7" type="Spell" id="203"/>
+			<!--Illusion (Ogre)-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--Warrior-->
+	<Class id="7">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Item" id="23066" nameId="13917"/>
+			<!--Templar Brave Potion-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="2"/>
+			<!--Shield-->
+			<Slot index="6" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--Fencer-->
+	<Class id="8">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Item" id="23066" nameId="13917"/>
+			<!--Templar Brave Potion-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="2"/>
+			<!--Shield-->
+			<Slot index="6" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+	<!--Lancer-->
+	<Class id="9">
+		<Page index="0">
+			<Slot index="0" type="Item" id="30205" nameId="26535"/>
+			<!--Templar Reds Potion-->
+			<Slot index="1" type="Item" id="9638" nameId="1343"/>
+			<!--Templar Haste Potion-->
+			<Slot index="2" type="Item" id="23066" nameId="13917"/>
+			<!--Templar Brave Potion-->
+			<Slot index="3" type="Action" id="26"/>
+			<!--PSS-->
+			<Slot index="4" type="Item" id="3297" nameId="1338"/>
+			<!--Templar Return Scroll-->
+			<Slot index="5" type="Spell" id="2"/>
+			<!--Shield-->
+			<Slot index="6" type="Spell" id="3"/>
+			<!--Energy Bolt-->
+			<Slot index="7" type="Spell" id="4"/>
+			<!--Teleport-->
+			<SubSlot index="15" type="Action" id="22"/>
+			<!--PvP Mode Switch--->
+		</Page>
+	</Class>
+</ClassSlotData>

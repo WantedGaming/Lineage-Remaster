@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>攻城戦参加申請</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[攻城参加登録官]</job>
+		<text>攻城戦に参戦する勇士たちを管理し、安価で補給品を支援</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 おい、そこの君！<br/>
+		 敵の侵奪をだまって見てるつもりか？<br/><br/><br/>
+		 攻城戦に参加したければ、このパッケージを持っていけ。<br/>
+		 中には<font fg="ffbfaf">攻城戦勇士の証</font>が入ってる。<br/>
+		 <font fg="ffffaf">君のサーバーが勝利したら</font>それなりの報賞がもらえるぞ。<br/><br/>
+		 なくても参加できるが、<font fg="ffffaf">攻城戦で勝利したときにサーバー報賞をもらいたければ</font>持っていくんだな。<br/><br/>
+		 ついでに<font fg="ffbfaf">貴重なアイテム</font>も入れといたから、うまく活用してくれ。<br/>
+		<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p>
+		<br/>
+		 当然、無料ではやらないぞ。最低限の戦争資金を支援すると思えばいい。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

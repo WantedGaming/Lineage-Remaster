@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フレックソン</name>
+		<job>Mercenary Captain</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		おや？あんた、誰だい？<br/>
+		おや？あんた、誰だい？もしかして、我が「鋼鉄のギルド」の入団希望者か？それとも依頼人？<br/>
+		え？ちがう？じゃあ俺に気安く声をかけないで欲しいね。俺は忙しいんでね。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

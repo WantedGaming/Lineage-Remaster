@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name><var src="name"/></name>
+		<job>[魔法錬金術師]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> 錬金術には世界を変えることのできる無限の可能性があります。
+		 特に<font fg="FFF064">エリクサー</font>のような貴重な物は錬金術が生み出した傑作といえるでしょう。<br/>
+		<br/>
+		 ふつうの製作と<font fg="ffffaf">錬金術</font>は比べ物になりません。とても繊細で複雑なのですから。
+		 純粋な材料を使用すれば、もし失敗しても材料の一部は戻ってきます。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

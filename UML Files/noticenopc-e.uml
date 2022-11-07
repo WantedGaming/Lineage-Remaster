@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Notice</title>
+
+<dialog>
+<p>Your (old) PC Registration Service will automatically cancel your security service subscription when the service ends on Wednesday, July 20, 2016.</p>
+<p>The PC to which the customer is currently connected cannot subscribe to the new PC registration service.</p>
+<p>Therefore, we are unable to change to the new PC Registration Service. To enhance the security of your account, please cancel your current (old) PC Registration Service and then use the NC OTP or Telephone Authentication Service.</p>
+<br/>
+<p><font fg="1270ff">To change security services, please use the "Change Security Service" at the bottom of the screen to make the change smoothly.</font></p>
+<br/>
+<p>To prevent account theft, we ask that you strengthen your own security and subscribe to security services.</p>
+<p>(This security notice will no longer be displayed if you cancel the (old) PC Registration Service and subscribe to the NC OTP or Telephone Authentication Service.)</p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, , enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ローゼン</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+			<p>あなたのような人には絶対に何も売りません！</p>
+	</dialog>
+	
+</npcdialog>

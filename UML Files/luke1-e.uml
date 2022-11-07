@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>あんた、どこ出身？</p>
+	<p>オーレン？ハイネ？ハハハ、</p> 
+	<p>そんな疑り深い目でみなさんなって。</p> 
+	<p>オレはただあんたにいい仕事場でも紹介してやろうと思っただけだよ。</p> 
+	<p>ここはほんと色々金儲けのチャンスがある場所なんだって…</p>
+  </dialog>
+</npcdialog>

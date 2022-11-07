@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<dialog>
+<p><var src="0"/>How are you doing, Lord?</p>
+<br/>
+<p>Total Hired Mercenaries:<var src="1"/></p>
+<p>Deployable Mercenaries:<var src="2"/></p>
+</dialog>
+
+</npcdialog>

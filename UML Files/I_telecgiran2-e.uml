@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>ギラン城の専属ゲートキーパー</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 移動できる地域は以下のとおりです。どちらに行かれますか？<br/>
+		<br/><br/>
+		<a action="teleport i giranc-tower">ギラン城ガーディアンタワー</a><br/>
+		<a action="teleport i giranc-gate1">ギラン城中門内側</a><br/>
+		<a action="teleport i giranc-gate2">ギラン城外城門内側</a><br/>
+		<a action="teleport i giranc-village">ギラン城下町</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

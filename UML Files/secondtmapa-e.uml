@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+			<p>(地図には焼かれた家らしき絵が描かれている)</p>
+	</dialog>
+	
+</npcdialog>

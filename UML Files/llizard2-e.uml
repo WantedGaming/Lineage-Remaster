@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>疲れ果てたリザードマン ファイター</name>
+  </npc>
+  <dialog>
+	<p>はぁ…あなたを信じてもいいのか？</p>
+	<p>本当に長老があなたにこの事を話したのか？</p>
+  </dialog>
+</npcdialog>

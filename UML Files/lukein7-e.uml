@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+	<p>そうか…なら仕方ないわな。</p> 
+	<p>他の人をあたってみるとしよう… </p>
+	<p>とにかく、頑張ってくだされ。</p> 
+	<p>島の奥には珍しい動物やらモンスターがわんさかいるから気をつけてな。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>もうあなたには推薦書を書いて差し上げたと思いますが？</p>
+		<p>錬金術師「ペリター」と宝石細工職人「ルームティス」を訪ねてみてください。</p>
+		<p>私の推薦書があれば、あなたに役立つ情報と協力が得られますからね。</p>
+  </dialog>
+</npcdialog>

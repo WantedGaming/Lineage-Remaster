@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが26から35のあなたのためのキツめの狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。
+		<br/><br/>
+		<a link="guide_2_3_1"><font fg="ffffaf">ギランの町の南にある森</font></a><br/>：<a action="teleport guide2_3_1"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_2_3_5"><font fg="ffffaf">地下侵攻路2階</font></a><br/>：<a action="teleport guide2_3_5"><var src="1"/>Adenaでテレポートします。</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

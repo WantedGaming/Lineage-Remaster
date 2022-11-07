@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p><font fg="ffaaff">属性エンチャント拡張！？</font><br/><br/></p>
+	<p>象牙の塔のウィザードたちが、5段階まで属性エンチャントできる スクロールを作るのに成功したそうです。<br/><br/></p>
+	<p>ところでこれが…ウィザードたちの話によると、若干未完成！</p>
+	<p>みたいです…<br/><br/></p>
+	<p>うむ…4段階は大丈夫でも5段階は失敗する確率があるというので、少し緊張しますね。<br/><br/></p>
+	<p>僕も属性エンチャントしなくっちゃ～！</p>
+	<p><br/></p>
+	<p><img src="331" link="newsboy"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

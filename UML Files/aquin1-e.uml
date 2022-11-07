@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">アクィン：</font><br/><br/></p>
+    <p>私たちは他の人とは違うんだってママとパパが言ってたの。だから村に住めなくて、あちこちに移ってるんだって。</p>
+    <p>でも、そのせいでみんな大変なの…私も友だちが欲しい…一つの場所にずっと住めたらいいのに。みんな私たちと一緒に暮らすのがいやだから駄目だって。<br/><br/><br/></p>
+    <p><a link="aquin2">反王について聞く</a></p>
+  </dialog>
+</npcdialog>

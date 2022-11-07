@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>魔獣軍王の印章を集めて来られたのですね。</p>
+		<p>ご苦労様でした。推薦書を書いて差し上げましょう。</p>
+  </dialog>
+</npcdialog>

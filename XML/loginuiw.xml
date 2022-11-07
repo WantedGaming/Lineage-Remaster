@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoginUI>
+  <Window Name = "Message_Window" X = "283" Y = "173" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6488;3">
+    <MultiLabel Name = "Message_Label" X = "29" Y = "31" FontSize = "12" Width = "394" Height = "190" VAlign = "center" LineMargin = "3"/>
+    <Button Name = "Ok_Button" X = "47" Y = "237" BaseSurf = "6489" HighlightSurf = "6490" PushSurf = "6491" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_MessageWin"/>
+    <Button Name = "Cancel_Button" X = "262" Y = "237" BaseSurf = "6492" HighlightSurf = "6493" PushSurf = "6494" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_MessageWin"/>
+    <Image Name = "Back_Image" Surf = "6487;1"/>
+  </Window>
+  <Window Name = "Notice_Window" X = "294" Y = "92" Modal = "1" Activate = "0" BaseSurf = "7019;3">
+    <MultiLabel Name = "Message_Label" X = "28" Y = "28" FontSize = "12" Width = "352" Height = "180" VAlign = "top" LineMargin = "4"/>
+    <ScrollBar Name = "Notice_Scrollbar" X = "406" Y = "37" Width = "15" Height = "130" ScrollStart = "0" ScrollHeight = "162" Vertical = "1" MaxValue = "1" MouseEvent = "ScrollWheel_NoticeWin">
+      <Button Name = "Up_Button" X = "0" Y = "-9" BaseSurf = "7026;1" PushSurf = "7027;1" MouseEvent = "ScrollUp_NoticeWin"/>
+      <Button Name = "Down_Button" X = "0" Y = "162" BaseSurf = "7028;1" PushSurf = "7029;1" MouseEvent = "ScrollDown_NoticeWin"/>
+      <Button Name = "Move_Button" X = "0" Y = "12" BaseSurf = "7030;1" PushSurf = "7031;1" MouseEvent = "ScrollMove_NoticeWin"/>
+    </ScrollBar>
+    <Button Name = "Skip_Button" X = "70" Y = "208" BaseSurf = "6533;4" HighlightSurf = "6534;4" PushSurf = "6535;4" OverSound = "6530" PushSound = "6536" MouseEvent = "Skip_NoticeWin"/>
+    <Button Name = "Ok_Button" X = "322" Y = "208" BaseSurf = "6530;4" HighlightSurf = "6531;4" PushSurf = "6532;4" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_NoticeWin"/>
+    <Image Name = "Back_Shadow_Image" X = "0" Y = "0" Surf = "7018;4"/>
+  </Window>
+  <Window Name = "InfoAgree_Window" X = "0" Y = "0" Modal = "1" Activate = "0" BaseSurf = "8594">
+    <MultiLabel Name = "Message_Label" X = "218" Y = "110" FontSize = "12" Width = "574" Height = "360" VAlign = "top" LineMargin = "2"/>
+    <ScrollBar Name = "Scrollbar" X = "808" Y = "157" Width = "15" Height = "242" ScrollStart = "0" ScrollHeight = "274" Vertical = "1" MaxValue = "1" MouseEvent = "ScrollWheel_InfoAgreeWin">
+      <Button Name = "Up_Button" X = "0" Y = "-9" BaseSurf = "7026;1" PushSurf = "7027;1" MouseEvent = "ScrollUp_InfoAgreeWin"/>
+      <Button Name = "Down_Button" X = "0" Y = "274" BaseSurf = "7028;1" PushSurf = "7029;1" MouseEvent = "ScrollDown_InfoAgreeWin"/>
+      <Button Name = "Move_Button" X = "0" Y = "12" BaseSurf = "7030;1" PushSurf = "7031;1" MouseEvent = "ScrollMove_InfoAgreeWin"/>
+    </ScrollBar>
+    <Button Name = "Agree_Button" X = "651" Y = "527" BaseSurf = "6942" HighlightSurf = "6943" PushSurf = "6944" OverSound = "6530" PushSound = "6536" MouseEvent = "Agree_InfoAgreeWin"/>
+    <Button Name = "Disagree_Button" X = "473" Y = "527" BaseSurf = "6945" HighlightSurf = "6946" PushSurf = "6947" OverSound = "6530" PushSound = "6536" MouseEvent = "Disagree_InfoAgreeWin"/>
+	<Button Name = "OK_Button" X = "651" Y = "527" BaseSurf = "7093" HighlightSurf = "7094" PushSurf = "7095" OverSound = "6530" PushSound = "6536" MouseEvent = "Disagree_InfoAgreeWin"/>
+  </Window>
+  <Window Name = "Setting_Window" X = "294" Y = "173" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6488;3">
+	<Control Name = "Graphic_Group" Y = "60">
+		<Label Name = "Graphic_Label" String = "3925" X = "46"/>
+		<Button Name = "400X300" X = "140" BaseSurf = "8844;1" HighlightSurf = "8844;1" PushSurf = "8844;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeGraphic_SettingWin"/>
+		<Button Name = "800X600" X = "193" BaseSurf = "8845;1" HighlightSurf = "8845;1" PushSurf = "8845;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeGraphic_SettingWin"/>
+		<Button Name = "1200X900" X = "246" BaseSurf = "8846;1" HighlightSurf = "8846;1" PushSurf = "8846;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeGraphic_SettingWin"/>
+		<Button Name = "1600X1200" X = "304" Activate="0" BaseSurf = "6539;1" HighlightSurf = "6539;1" PushSurf = "6539;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeGraphic_SettingWin"/>
+		<Button Name = "FullScreen_Button" X = "367" BaseSurf = "6541;1" HighlightSurf = "6541;1" PushSurf = "6541;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeGraphic_SettingWin"/>
+		<Button Name = "WindowMode_Button" X = "367" BaseSurf = "6542;1" HighlightSurf = "6542;1" PushSurf = "6542;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeGraphic_SettingWin"/>
+	</Control>
+	<Control Name = "Sound_Group" Y = "100">
+		<Label Name = "Sound_Label" String = "3926" X = "46"/>
+		<Button Name = "Mute_Button" X = "140" BaseSurf = "6540;1" HighlightSurf = "6540;1" PushSurf = "6540;1" OverSound = "6530" PushSound = "6536" MouseEvent = "Mute_SettingWin"/>
+		<Label Name = "MuteOn_Label" Caption = "On" X = "184"/>
+	</Control>
+	<Control Name = "Font_Group" Y = "140">
+		<Label Name = "Font_Label" String = "3927" X = "46"/>
+		<Button Name = "Dodum" X = "140" BaseSurf = "6545;1" HighlightSurf = "6545;1" PushSurf = "6545;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeFont_SettingWin"/>
+		<Button Name = "Batang" X = "230" BaseSurf = "6546;1" HighlightSurf = "6546;1" PushSurf = "6546;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeFont_SettingWin"/>
+		<Button Name = "Kan" X = "320" BaseSurf = "6547;1" HighlightSurf = "6547;1" PushSurf = "6547;1" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangeFont_SettingWin"/>
+	</Control>
+    <Button Name = "Ok_Button" X = "154" Y = "237" BaseSurf = "6489" HighlightSurf = "6490" PushSurf = "6491" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_SettingWin"/>
+    <Image Name = "Back_Image" Surf = "6487;1"/>
+  </Window>
+  <Window Name = "Login_Window" X = "0" Y = "0" Activate = "0" BaseSurf = "8593">
+    <InputBox Name = "ID_Input" X = "432" Y = "385" Width = "160" Height = "20" English = "1" LimitText = "64" FontSize = "12" FocusSound = "6536" />
+    <InputBox Name = "Password_Input" X = "432" Y = "421" Width = "160" Height = "32" Password = "1" LimitText = "16" FontSize = "12" FocusSound = "6536" />
+    <Button Name = "Login_Button" X = "416" Y = "453" BaseSurf = "6995;1" HighlightSurf = "6996;1" PushSurf = "6997;1" OverSound = "6530" MouseEvent = "Login_LoginWin"/>
+	<CheckButton Name = "Intergrate_Check" X = "441" Y = "509" BaseSurf = "6985" PushSurf = "6986" MouseEvent = "Intergrate_LoginWin"/>
+	<Image Name = "Intergrate_Image" X = "472" Y = "509" Surf = "6987;1"/>
+    <Image Name = "Lineage_Mark_Multi" X = "428" Y = "246" Surf = "6994;3"/>
+    <Image Name = "Lineage_Mark_Screen" X = "428" Y = "246" Surf = "6993;4"/>
+    <Image Name = "Account_EditBox_Back" X = "423" Y = "376" Surf = "8596"/>
+    <Image Name = "Password_EditBox_Back" X = "423" Y = "411" Surf = "8598"/>
+    <Image Name = "Account_Image" X = "342" Y = "376" Surf = "8595"/>
+    <Image Name = "Password_Image" X = "342" Y = "411" Surf = "8597"/>
+    <Button Name = "ChangePass_Button" X = "879" Y = "497" BaseSurf = "8602" HighlightSurf = "8603" PushSurf = "8604" OverSound = "6530" PushSound = "6536" MouseEvent = "ChangePassword_LoginWin"/>
+    <!-- <Image Name = "ChangePass_Button_Multi" X = "658" Y = "463" Surf = "7006;3"/>-->
+    <Button Name = "OTP_Button" X = "879" Y = "526" BaseSurf = "8608" HighlightSurf = "8609" PushSurf = "8610" OverSound = "6530" PushSound = "6536" MouseEvent = "OTP_LoginWin"/>
+    <!-- <Image Name = "OTP_Button_Multi" X = "658" Y = "492" Surf = "7009;3"/>-->
+    <Button Name = "Setting_Button" X = "879" Y = "554" BaseSurf = "8599" HighlightSurf = "8600" PushSurf = "8601" OverSound = "6530" PushSound = "6536" MouseEvent = "Setting_LoginWin"/>
+	<!-- 
+    <Button Name = "Credit_Button" X = "653" Y = "521" BaseSurf = "7010;4" HighlightSurf = "7011;4" PushSurf = "7011;4" OverSound = "6530" PushSound = "6536" MouseEvent = "Credit_LoginWin"/>
+    <Image Name = "Credit_Button_Multi" X = "653" Y = "521" Surf = "7012;3"/>
+	-->
+    <Button Name = "Exit_Button" X = "879" Y = "599" BaseSurf = "8605" HighlightSurf = "8606" PushSurf = "8607" OverSound = "6530" PushSound = "6536" MouseEvent = "Exit_LoginWin"/>
+    <!-- <Image Name = "Exit_Button_Multi" X = "658" Y = "565" Surf = "7015;3"/>-->
+    <!-- <Image Name = "Back_Image" X = "0" Y = "0"/> -->
+  </Window>
+  <Window Name = "Credit_Window" X = "0" Y = "0" Activate = "0" BaseSurf = "8611">
+    <TextScroller X = "100" Y = "50" Width = "300" Height = "460" TextFile = "credits" FontSize = "12"/>
+  </Window>
+</LoginUI>

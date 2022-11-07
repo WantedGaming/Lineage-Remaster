@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ブラック ウィザード レイダー：</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>あまり無念で悔しくて、このままでは狂ってしまいそうだ！胸が張り裂けて死んでしまいそうだ！</p>
+		<p>あんたが誰でも構わない！私の話を聞いてくれ！私の復讐に手を貸してくれ！</p>
+		<p>ライアさえいなければ、あのいまいましいライアさえいなければ、私にこんな悲惨なことは起きなかったはずなんだ…</p>
+		<p>全部あいつのせいなんだ！</p>
+		<p>何とかしてくれ！毎日毎日をはちきれんばかりの怒りを押さえながら生きるのは嫌だ…</p>
+		<p><a link="rader2">ライアについて訊く</a></p>
+	</dialog>
+
+</npcdialog>

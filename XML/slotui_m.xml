@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<MobileSlotUI Toggle="false" Enable="true">
+
+<SlotListControl Name="LeftSlotCont" X="13" Y="194">
+	
+	<SlotOpenButtonControl Name="SlotOpenButton">
+		<Button Name="SlotOpen0" X="9" Y="141" Width="44" Height="44" BasePng="100058;4" PushPng="100058;4" ImgBoundary="1" MouseEvent="ToggleBtnClick"/>
+		<Button Name="SlotOpen1" X="86" Y="141" Width="44" Height="44" BasePng="100058;4" PushPng="100058;4" ImgBoundary="1" MouseEvent="ToggleBtnClick"/>
+		<Button Name="SlotOpen2" X="165" Y="141" Width="44" Height="44" BasePng="100058;4" PushPng="100058;4" ImgBoundary="1" MouseEvent="ToggleBtnClick"/>
+	</SlotOpenButtonControl>
+	
+	<Control Name="SlotJoint0" X="0"/>
+	<Control Name="SlotJoint1" X="82"/>
+		
+	<SlotList Name="SlotList0" X="0" Y="0" SlotListContIndex="0" SlotListIndex="0">
+		<SlotButton Name="Slot0" X="0" Y="0" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="0" SlotIndex="0" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot1" X="0" Y="84" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="0" SlotIndex="1" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot2" X="0" Y="168" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="0" SlotIndex="2" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot3" X="0" Y="252" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="0" SlotIndex="3" MouseEvent="SlotBtnClick"/>
+	</SlotList>
+		
+	<SlotList Name="SlotList1" X="0" Y="0"  SlotListContIndex="0" SlotListIndex="1">
+		<SlotButton Name="Slot0" X="0" Y="0" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="1" SlotIndex="0" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot1" X="0" Y="84" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="1" SlotIndex="1" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot2" X="0" Y="168" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="1" SlotIndex="2" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot3" X="0" Y="252" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="0" SlotListIndex="1" SlotIndex="3" MouseEvent="SlotBtnClick"/>
+	</SlotList>
+		
+</SlotListControl>
+	
+<SlotListControl Name="RightSlotCont" X="1031" Y="194">
+	
+	<SlotOpenButtonControl Name="SlotOpenButton">
+		<Button Name="SlotOpen0" X="109" Y="141" Width="44" Height="44" BasePng="100061;4" PushPng="100061;4" ImgBoundary="1" MouseEvent="ToggleBtnClick"/>
+		<Button Name="SlotOpen1" X="49" Y="141" Width="44" Height="44" BasePng="100061;4" PushPng="100061;4" ImgBoundary="1" MouseEvent="ToggleBtnClick"/>
+		<Button Name="SlotOpen2" X="-29" Y="141" Width="44" Height="44" BasePng="100061;4" PushPng="100061;4" ImgBoundary="1" MouseEvent="ToggleBtnClick"/>
+	</SlotOpenButtonControl>
+	
+	<Control Name="SlotRegisterJoint" X="-396"/>	
+	<Control Name="SlotJoint0" X="82"/>
+	<Control Name="SlotJoint1" X="0"/>
+		
+	<SlotList Name="SlotList0" X="0" Y="0" SlotListContIndex="1" SlotListIndex="0">
+		<SlotButton Name="Slot0" X="0" Y="0" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="0" SlotIndex="0" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot1" X="0" Y="84" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="0" SlotIndex="1" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot2" X="0" Y="168" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="0" SlotIndex="2" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot3" X="0" Y="252" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="0" SlotIndex="3" MouseEvent="SlotBtnClick"/>
+	</SlotList>
+		
+	<SlotList Name="SlotList1" X="0" Y="0" SlotListContIndex="1" SlotListIndex="1">
+		<SlotButton Name="Slot0" X="0" Y="0" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="1" SlotIndex="0" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot1" X="0" Y="84" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="1" SlotIndex="1" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot2" X="0" Y="168" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="1" SlotIndex="2" MouseEvent="SlotBtnClick"/>
+		<SlotButton Name="Slot3" X="0" Y="252" BasePng="100065;1" PushPng="100065;1" SlotListContIndex="1" SlotListIndex="1" SlotIndex="3" MouseEvent="SlotBtnClick"/>
+	</SlotList>
+		
+</SlotListControl>
+
+</MobileSlotUI>

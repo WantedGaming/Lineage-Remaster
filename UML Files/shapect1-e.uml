@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ラマダ</name>
+		<job>[イベントNPC]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+        お望みの姿に変身させてあげましょう。選んでください。<br>
+        <br><a action="a">52 バルログ</a>
+        <br><a action="b">52 デスナイト</a>
+        <br><a action="c">52 アサシン</a>
+        <br><a action="d">52 ジェネラル</a>
+        <br><a action="e">52 ダークエルフ</a>
+        <br>
+        <br><a action="f">55 バルログ</a>
+        <br><a action="g">55 デスナイト</a>
+        <br><a action="h">55 アサシン</a>
+        <br><a action="i">55 ジェネラル</a>
+        <br><a action="j">55 ダークエルフ</a>
+        <br>
+        <br><a action="k">60 バルログ</a>
+        <br><a action="l">60 デスナイト</a>
+        <br><a action="m">60 アサシン</a>
+        <br><a action="n">60 ジェネラル</a>
+        <br><a action="o">60 ダークエルフ</a>
+        <br>
+        <br><a action="p">65 バルログ</a>
+        <br><a action="q">65 デスナイト</a>
+        <br><a action="r">65 アサシン</a>
+        <br><a action="s">65 ジェネラル</a>
+        <br><a action="t">65 ダークエルフ</a>
+        <br>
+        <br><a action="u">70 バルログ</a>
+        <br><a action="v">70 デスナイト</a>
+        <br><a action="w">70 アサシン</a>
+        <br><a action="x">70 ジェネラル</a>
+        <br><a action="y">70 ダークエルフ</a>
+		</p>
+		</p>
+   </dialog>
+</npcdialog>
+

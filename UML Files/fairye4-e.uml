@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<portrait>PO_002</portrait>
+		<name>フェアリー</name>
+		<job>[森の守護者]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>うちの羽が欲しいって？気にいらないけど、確かにうちの羽は見ただけで欲しくなるほど美しくはあるよね。うちはまた作ればいいんだから、かまわないんだけど…</p>
+		<p>ところで、知ってる？これはもともとうちらが故郷の精霊界を通るために精霊のエネルギーを集めたものなんだよ。あなたたちエルフも精霊界にはとどまれないけど、<font fg="ffffaf">羽を使えば</font>精霊界を通ってどこへだって<font fg="ffffaf">テレポート</font>できるんだ。</p>
+		<p>でもあなたたちはうちらの美しい羽にミスリルをかぶせて<font fg="ffffaf">剣だとか武器だとか</font>を作ってるじゃない？ほんと、やな感じ！でもまぁ、うちに<font fg="ffafff">ミスリルの糸</font>と<font fg="ffafff">フェアリー ダスト</font>をくれればあげてもいいわよ。</p>
+		<p>今度のフェアリー祭りのときにそれを使って着飾ったら、すっごくかわいいだろうなぁ。へへっ。</p>
+		<p><img src="331" link="fairye1"/></p>
+  </dialog>
+</npcdialog>

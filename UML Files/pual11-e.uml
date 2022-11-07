@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>鍛冶屋ピュアル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>どんな<font fg="ffafff">ガーダー</font>が必要ですか？</p>
+		<p><a link="pual7">古代弓射手のガーダーを作る</a></p>
+		<p><a link="pual8">古代闘士のガーダーを作る</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<MainCharInfoUI>
+	<Window Name="MainCharInfo" X="0" Y="473" BaseSurf="3168;1" Toggle="false" MostTop="1" Activate="1" Transparent="false">
+		<!--MiniGame-->
+		<!--		<Button Name="MiniGameButton" X="23" Y="5" BasePng="11236;1" OverPng="11237;1" PushPng="11237;1" MouseEvent="MiniGameBtn"/>		-->
+		<!-- LiTo -->
+		<!--<UICheckButton Name="LitoButton" X="23" Y="5" BasePng="4100;1" OverPng="4101;1" PushPng="4101;1" MouseEvent="LitoMenuBtn">
+			<Tooltip Name="Desc_Tooltip" X="15" Y="-24" String="4774"/>
+		</UICheckButton>-->
+		<!--MonsterDex-->
+		<UICheckButton Name="MonsterDexButton" X="46" Y="5" BasePng="11756;1" OverPng="11757;1" PushPng="11757;1" MouseEvent="MonsterDexBtn">
+			<Tooltip Name="NotifyTooltip" X="-46" Y="-28" Caption="" FontColor="0,255,0" ShowTime="3000"/>
+			<Tooltip Name="Desc_Tooltip" X="15" Y="-24" String="4688"/>
+			<Effect Name="AlarmEffect" X="-6" Y="-12" Effect="156" Loop="1" Delay="300000" Activate="0"/>
+		</UICheckButton>
+		<!--EventAlarm-->
+		<UICheckButton Name="EventAlarmButton" X="69" Y="5" BasePng="11729" OverPng="11730" PushPng="11730" MouseEvent="EventAlamrBtn">
+			<Tooltip Name="Desc_Tooltip" X="15" Y="-24" String="4674"/>
+			<Effect Name="AlarmEffect" X="-6" Y="-12" Effect="152" Activate="0"/>
+		</UICheckButton>
+		<!--Ranking-->
+		<UICheckButton Name="Ranking_Button" X="92" Y="5" BasePng="3358" HighlightPng="3359" PushPng="3359" MouseEvent="HighRankingBtn">
+			<Tooltip Name="Desc_Tooltip" X="15" Y="-24" String="4538"/>
+		</UICheckButton>
+		<!-- level -->
+		<Control Name="Level" X="11" Y="24" Width="120" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="604" Opacity="0"/>
+			<Button Name="LevelDetailBtn" X="0" Y="0" BaseSurf="5726;1" HighlightSurf="5727;1" PushSurf="5727;1" MouseEvent="LevelDetailBtn"/>
+			<Label Name="Number" X="17" Y="3" Caption="0.0000%;2" Width="100" HAlign="center"/>
+			<Gauge Name="LevelGauge" X="17" Y="1" Surf="3169"/>
+		</Control>
+		<Control Name="Adena" X="11" Y="44" Width="120" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="2000" Opacity="0"/>
+			<Button Name="AdenaToggleBtn" X="0" Y="0" BaseSurf="3701;1" HighlightSurf="3702;1" PushSurf="3702;1" MouseEvent="AdenaToggleBtn"/>
+			<Button Name="TamToggleBtn" X="0" Y="0" BaseSurf="3704;1" HighlightSurf="3705;1" PushSurf="3705;1" MouseEvent="AdenaToggleBtn"/>
+			<Button Name="BerryToggleBtn" X="0" Y="0" BaseSurf="6065;1" HighlightSurf="6066;1" PushSurf="6066;1" MouseEvent="AdenaToggleBtn"/>
+			<Label Name="Number" X="17" Y="3" Caption="0;2" Width="90" HAlign="right"/>
+		</Control>
+		<Control Name="AC" X="11" Y="66" Width="60" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="2" String="605" Opacity="0"/>
+			<Label Name="Number" X="17" Y="3" Caption="0;2" Width="35" HAlign="center"/>
+		</Control>
+		<Control Name="MR" X="71" Y="66" Width="60" Height="16">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="1601" Opacity="0"/>
+			<Label Name="Number" X="17" Y="3" Caption="0;2" Width="35" HAlign="center"/>
+		</Control>
+		<Control Name="Align" X="11" Y="85" Width="60" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="606" Opacity="0"/>
+			<Label Name="Number" X="17" Y="3" Caption="0;2" Width="35" HAlign="center"/>
+			<Image Name="Icon" X="0" Y="0" Surf="3172;1"/>
+		</Control>
+		<Control Name="SP" X="71" Y="85" Width="60" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="1602" Opacity="0"/>
+			<Label Name="Number" X="17" Y="3" Caption="0;2" Width="35" HAlign="center"/>
+		</Control>
+		<Control Name="Carry" X="11" Y="105" Width="60" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="607" Opacity="0"/>
+			<Button Name="Icon" X="0" Y="0" BaseSurf="5162;1" HighlightSurf="5162;1" PushSurf="5162;1" MouseEvent="CarryWarnBtn"/>
+			<Label Name="Number" X="17" Y="3" Caption="0%;2" Width="35" HAlign="center"/>
+			<Gauge Name="Gauge" X="17" Y="1" Surf="3173"/>
+		</Control>
+		<Control Name="Food" X="71" Y="105" Width="60" Height="18">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="608" Opacity="0"/>
+			<Button Name="Icon" X="0" Y="0" BaseSurf="5160;1" HighlightSurf="5160;1" PushSurf="5160;1" MouseEvent="FoodWarnBtn"/>
+			<Label Name="Number" X="17" Y="3" Caption="0%;2" Width="35" HAlign="center"/>
+			<Gauge Name="Gauge" X="17" Y="1" Surf="3173"/>
+		</Control>
+		<Control Name="ShoutTime" X="71" Y="105" Width="60" Height="18" Activate="0">
+			<Tooltip Name="Desc_Tooltip" Y="-20" X="20" String="1926" Opacity="0"/>
+			<Label Name="Number" X="17" Y="3" Caption="100%;2" Width="35" HAlign="center"/>
+			<Gauge Name="Gauge" X="17" Y="1" Surf="3165"/>
+			<Button Name="Btn" X="17" Y="1" BaseSurf="3165" HighlightSurf="3166" PushSurf="3165" MouseEvent="ShoutTimeBtn"/>
+		</Control>
+	</Window>
+</MainCharInfoUI>

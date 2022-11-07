@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>レベルが11から25のあなたのための狩り場を教えましょう。狩り場を選べば詳しく説明して、テレポートもしますよ。</p>
+		<br/>
+		<p><a link="guide_1_2_1"><font fg="ffffaf">ウッドベック村の西にあるグルーディン村へ向う道</font></a><a action="teleport guide1_2_1"><var src="0"/>：Adenaでテレポートします。</a></p>
+		<br/>
+		<br/>
+		<p><a link="guide_1_2_3"><font fg="ffffaf">ウッドベックの砂漠の外側あたり</font></a><a action="teleport guide1_2_3"><var src="1"/>：Adenaでテレポートします。</a></p>
+		<br/>
+		<br/>
+		<p><a link="guide_1_2_4"><font fg="ffffaf">アデンの西を流れる川のあたり</font></a><a action="teleport guide1_2_4"><var src="2"/>：Adenaでテレポートします。</a></p>
+		<br/>
+		<br/>
+		<p><a action="teleportURLB">もっと楽なところを教えてください</a></p>
+		<p><a action="teleportURLD">もっとしんどいところを教えてください</a></p>
+	</dialog>
+</npcdialog>

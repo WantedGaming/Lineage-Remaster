@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emoticons>
+	<!-- id는 1부터 시작합니다. -->
+	<emoticon id="1" file="53" icon="6492" default="true">
+		<desc>Greet</desc>
+	</emoticon>
+	<emoticon id="2" file="54" icon="6493">
+		<desc>Cheer</desc>
+	</emoticon>
+	<emoticon id="3" file="55" icon="6491">
+		<desc>Taunt</desc>
+	</emoticon>
+	<emoticon id="4" file="56" icon="6490">
+		<desc>Curious</desc>
+	</emoticon>
+	<emoticon id="5" file="57" icon="6532">
+		<desc>Aggro</desc>
+	</emoticon>
+	<emoticon id="6" file="58" icon="6533" default="true">
+		<desc>Heart</desc>
+	</emoticon>
+	<emoticon id="7" file="59" icon="6534">
+		<desc>Tired</desc>
+	</emoticon>
+	<emoticon id="8" file="60" icon="6535">
+		<desc>Sorry</desc>
+	</emoticon>
+	<emoticon id="9" file="61" icon="6536">
+		<desc>Embrass</desc>
+	</emoticon>
+	<emoticon id="10" file="62" icon="6537" default="true">
+		<desc>Surprised</desc>
+	</emoticon>
+	<emoticon id="11" file="63" icon="6538">
+		<desc>sos</desc>
+	</emoticon>
+</emoticons>

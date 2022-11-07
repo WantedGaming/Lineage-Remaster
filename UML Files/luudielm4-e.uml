@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルーディエル</name>
+  </npc>
+  <dialog>
+	<p>ええっ、魔族？</p> 
+	<p>やっぱ違いますねぇ。</p> 
+	<p>エルヴン ワッフルは作れますけど、食べちゃいけませんよ。</p>
+  </dialog>
+</npcdialog>

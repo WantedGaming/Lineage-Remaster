@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>希望のロウソク</title>
+	<npc>
+		<portrait></portrait>
+		<name>マリー</name>
+		<job>希望のロウソク少女</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>
+		 希望のロウソクをお渡ししました。<br/>
+		 これを使って、ロロと一緒に記憶をさかのぼってみてください。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

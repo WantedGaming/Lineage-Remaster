@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 なんだ、オメエ？はよ道あけんかい！</p>
+		 <p>オレぁギランのジャック様だ！
+		</p>
+		
+	</dialog>
+</npcdialog>

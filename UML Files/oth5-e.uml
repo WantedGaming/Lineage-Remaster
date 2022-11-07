@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+<p>象牙の塔のエリオン様は、お元気かな？以前、象牙の塔にちょっと立ち寄った時エリオン様をみかけたんだけど、ちょっと寂しそうに見えたんだ…。</p>
+<p>エルフの森を離れてずいぶん経つから…きっとそのせいかな。</p>
+<br/>
+<p><a link="oth4">ハーディンについて聞く</a></p>
+</dialog>
+
+</npcdialog>

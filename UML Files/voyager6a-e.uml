@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p> あり、がとう…ありが、とう…<br/>
+		<br/>
+    こ、これが…欠けた、航海日誌…
+    足りない、ページは…1,3,5,7,9…ページだ…<br/>
+    欠けた、ページを…探してくれ…<br/>
+		<br/>
+    たぶん、この、洞窟にいる…怪物が、持っている、だろう…<br/>
+		<br/>
+    礼は、必ずする…我々の、船の宝…必ず、必ずする… </p>
+  </dialog>
+</npcdialog>

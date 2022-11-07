@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+ 	<p> 私を惑わせるおつもりですか？ふふふっ。本当、面白いお方ですね。</p>
+	<p> ですが、ちょっと時間をもらえますか。いきなり告白されたので、ちょっと慌てちゃいます。</p>
+  </dialog>
+</npcdialog>

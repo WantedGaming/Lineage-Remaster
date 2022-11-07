@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+  	<portrait>PO_002</portrait>
+    <name>森とエルフの母</name>
+  </npc>
+  <dialog>
+    <p>まぁ、何時の間にかあなたも一人前のエルフに成長したのですね。この上なく嬉しいことです。これからあなたが受ける成人の儀式はとても難しいものです。近頃、この森にやってきて、私たちエルフだけではなく森全体に危害を加えようとしているダークエルフのウィザードがいます。彼の名前はダークマール。ダークマールを倒すことが、あなたに与えられる課題です。</p>
+	<p><br/></p>
+    <p><a action="quest 12 motherEE2">成人の儀式を行う</a></p>
+  </dialog>
+</npcdialog>

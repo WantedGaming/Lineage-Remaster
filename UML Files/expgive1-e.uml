@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>You can still receive experience payments.</p>
+		<p><img src="331" link="expgive"/></p>
+  </dialog>
+</npcdialog>

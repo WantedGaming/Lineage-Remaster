@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンターの助手</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		こんにちは。<br/>
+		グンター様の<font fg="ffaaff">手紙</font>を受け取られたので、話せる島の南にいるエルダーを訪ねてみてください。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

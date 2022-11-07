@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		<center><img src="3320"/></center>
+		<img src="3435" tooltip="グンター^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="young gunter"/>
+		<img src="3439" tooltip="ゾウ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="young joewoo"/>
+		<img src="3440" tooltip="ジリアン^(ボウ/ガントレット)" action="young gilian"/>
+		<br/>
+		<img src="3441" tooltip="ブルディカ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="young bluedica"/>
+		<img src="3431" tooltip="デスナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="death 80"/>
+		<img src="3433" tooltip="ランスマスター^(スピア/チェーンソード)" action="spearm 80"/>
+		<br/>
+		<img src="3744" tooltip="ダークエルフ^(ボウ/ガントレット)" action="darkelf 80"/>
+		<br/>
+		<br/>
+		<img src="331" link="monlist"/>
+		</p>
+	</dialog>
+</npcdialog>

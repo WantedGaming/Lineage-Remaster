@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>Is it because my eyes are too expensive? I'm sorry, but there doesn't seem to be anything I could buy from you.</p>
+	</dialog>
+
+</npcdialog>

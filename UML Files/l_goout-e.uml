@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの軍師</name>
+  </npc>
+  <dialog>
+    <p>お前にはこの地に留まる資格が満たされておらぬ！</p> 
+	<p>目の前から失せろ！</p>
+  </dialog>
+</npcdialog>

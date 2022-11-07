@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>強化ウィザード</title>
+  <npc>
+	<name>オリム</name>
+    <job>[強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p>製作して欲しい魔法を選ぶといい。</p>
+	<p>スクロールの数は<font fg="ffffaa"><var src="5"/>枚</font>だ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p>[1段階：総手数料<font fg="ffaaff"><var src="0"/></font>Adena]</p>
+	<p><img src="5514" tooltip="ライト^(1段階)" action="A"/></p>
+	<p><img src="5515" tooltip="シールド^(1段階)" action="B"/></p>
+	<p><img src="5517" tooltip="エネルギー ボルト^(1段階)" action="C"/></p>
+	<p><img src="5520" tooltip="ホーリー ウェポン^(1段階)" action="D"/></p>
+	<p><img src="5521" tooltip="ヒール^(1段階)" action="E"/></p>
+	<p><br/></p>
+	<p>[2段階：総手数料<font fg="ffaaff"><var src="1"/></font>Adena]</p>
+	<p><img src="5522" tooltip="ディクリース ウェイト^(2段階)" action="F"/></p>
+	<p><img src="5523" tooltip="ディテクション^(2段階)" action="G"/></p>
+	<p><img src="5525" tooltip="エンチャント ウェポン^(2段階)" action="H"/></p>
+	<p><img src="5526" tooltip="キュア ポイズン^(2段階)" action="I"/></p>
+	<p><img src="5527" tooltip="ファイアー アロー^(2段階)" action="J"/></p>
+	<p><br/></p>
+	<p>[3段階：総手数料<font fg="ffaaff"><var src="2"/></font>Adena]</p>
+	<p><img src="5528" tooltip="ライトニング^(3段階)" action="K"/></p>
+	<p><img src="5529" tooltip="ブレスド アーマー^(3段階)" action="L"/></p>
+	<p><img src="5530" tooltip="エキストラ ヒール^(3段階)" action="M"/></p>
+	<p><img src="5532" tooltip="フローズン クラウド^(3段階)" action="N"/></p>
+	<p><img src="5533" tooltip="ターン アンデッド^(3段階)" action="O"/></p>
+	<p>[4段階：総手数料<font fg="ffaaff"><var src="3"/></font>Adena]</p>
+	<p><br/></p>
+	<p><img src="5534" tooltip="メディテーション^(4段階)" action="P"/></p>
+	<p><img src="5535" tooltip="ファイアー ボール^(4段階)" action="Q"/></p>
+	<p><img src="5537" tooltip="フィジカル エンチャント：DEX^(4段階)" action="R"/></p>
+	<p><img src="5538" tooltip="カウンター マジック^(4段階：魔力の石)" action="S"/></p>
+	<p><img src="5539" tooltip="スロー^(4段階：魔力の石)" action="T"/></p>
+	<p>[5段階：総手数料<font fg="ffaaff"><var src="4"/></font>Adena]</p>
+	<p><br/></p>
+	<p><img src="5540" tooltip="グレーター ヒール^(5段階)" action="U"/></p>
+	<p><img src="5541" tooltip="リムーブ カーズ^(5段階)" action="V"/></p>
+	<p><img src="5542" tooltip="マナ ドレイン^(5段階)" action="W"/></p>
+	<p><img src="5543" tooltip="コーン オブ コールド^(5段階)" action="X"/></p>
+	<p><img src="5544" tooltip="コール ライトニング^(5段階)" action="Y"/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

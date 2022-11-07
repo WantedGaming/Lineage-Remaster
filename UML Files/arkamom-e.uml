@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ベルリジャ</name>
+		<job>キャラクター Magic Doll Crafting</job>
+		<text>私は奉献石を扱う工芸職人で、父のアルカの後を継ぐためにマジックドールを研究しています。</text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">ベルリジャ：</font></p>
+		<p><br/>
+		こんにちは、私は封印された品々を研究し、芸術品に昇華させている 
+		工芸職人です。隣にいるのが私の父であり、師匠のアルカです。 
+		父の指導の元、人形に命を吹き込む研究をしています。
+		<br/><br/>
+		<a action="petball">奉献石の封印を解除する</a><br/>
+		<a link="arkamom2">キャラクターに戻す方法は？</a><br/>
+		<a link="arkamom4">キャラクター マジックドールとは？</a><br/>
+		<br/>
+		最近、アデン大陸で<font fg="fff00">奉献石</font>という、人間が封印された不思議な封印石があるそうです。
+		それを持ってきてくれたら、それを使って私が人形に命を吹き込んであげます。
+		<br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

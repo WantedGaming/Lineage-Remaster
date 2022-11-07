@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">旅人：</font><br/><br/></p>
+    <p>私はまだ疲れていません！見てください！この筋肉を！</p>
+    <p> ...</p>
+    <p>ただ…村についたら真っ先に冷たい水を飲みたいです…</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>warehouse</icon>
+<title>倉庫</title>
+  <npc>
+    <name>ターキン</name>
+		<job>[統合倉庫番]</job>
+  </npc>
+  <dialog>
+	<p>おいおい、誰がお前みたいな半人前のアイテムを預かるって？預けたいんなら、もっと名を上げてから来るんだな。</p>
+  </dialog>
+</npcdialog>

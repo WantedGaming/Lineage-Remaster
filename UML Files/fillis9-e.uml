@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>銅像を作るには各モンスターの<font fg="ffffaf">魂10個</font>必要なのじゃ。</p>
+		<p>他の材料はわしが準備するがの…材料費だってばかにならんぞ。材料費として<font fg="ffffaf">10万Adena</font>だけもらえるかのう。</p>
+		<p>わしが最高のものを作ってやるわい。好みの銅像を選ぶがよい。</p>
+		<p><a action="b">デーモンの銅像</a></p>
+		<p><a action="c">ドレイクの銅像</a></p>
+		<p><a action="d">クーガーの銅像</a></p>
+		<p><a action="e">アイリスの銅像</a></p>
+		<p><a action="f">グレート ミノタウルスの銅像</a></p>
+  </dialog>
+</npcdialog>

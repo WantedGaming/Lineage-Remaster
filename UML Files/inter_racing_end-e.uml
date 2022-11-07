@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>レース ポータル：</name>
+		<job>[Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>        
+		<br/><br/>
+		* 熱気球は7月3日までです。<br/>
+		<br/>
+				マジックドール運動会が開かれている競技場へ行く<font fg="ffffaf">熱気球の力が無いのか</font>もしれません…<br/><br/><br/>
+
+		</p>
+	</dialog>
+</npcdialog>

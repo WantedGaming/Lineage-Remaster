@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ペイハス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>騎士の方がどうして私をお探しに？騎士の方に私がお教えすることはないと思いますが。それに私も基本的な魔法だけをお教えしているだけですし。<br/></p>
+		<p>その鋭い武器と頑丈なメイルがあれば、魔法は必要ないと思いますよ。<br/></p>
+				
+	</dialog>
+
+</npcdialog>

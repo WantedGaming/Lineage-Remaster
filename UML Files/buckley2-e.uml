@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		金持ちのところの娘さんが失踪したそうですよ。<br/>
+		家出じゃないですかね～？<br/>
+		一回行ってみますか？<font fg="ffaaff">ここから北西</font>に進むと出てくる大きな家ですよ。 
+		大きな家ですからすぐに見つかると思います。オホホホ～<br/>
+		
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

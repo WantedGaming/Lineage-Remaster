@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>アジトにいるメイドってかわいいと思わないか？俺は物静かで従順な感じの子が好きなんだ…クク。</p>
+	<p>最近は地下通路ってとこにも送ってくれるそうだけど、行ったことあるかい？</p>
+	<p>金があれば、一軒家を買うんだけどなぁ。</p>
+	</dialog>
+</npcdialog>

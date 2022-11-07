@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エマエルト</name>
+		<job>[雑貨商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>う～ん…あなたのような悪人とは取引きしたくありません。</p>
+	</dialog>
+</npcdialog>

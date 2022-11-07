@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 グハァ…お前のような輩をよく知っている。手にしたもののためには、どんなこともいとわない。<br/>
+		 ヤヒ様との謁見を申し入れたな？グハハハハッ…自分の胸に問うがいい。お前がヤヒ様に謁見するだけの資格があるかどうかをな！<br/>
+		<br/>
+		<a action="2">私が持つブラッドクリスタルの欠片をすべて捧げます…</a>
+		</p>
+	</dialog>
+</npcdialog>

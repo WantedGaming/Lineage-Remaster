@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<portrait>PO_002</portrait>
+		<name>フェアリー</name>
+		<job>[森の守護者]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>女王様はいつもエルフの森の中で一番お気に入りの、<font fg="ffffaf">聖なる神殿の東側にある花畑</font>で休んでおられたんだけど。</p>
+		<p>とにかく、時々あの方の美しいピンクの羽を見られることがうちらの喜びなんだぁ～</p>
+		<p><img src="331" link="fairye1"/></p>
+  </dialog>
+</npcdialog>

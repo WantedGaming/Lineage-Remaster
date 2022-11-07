@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>オリムの幻影</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>忘却の道へ進めば、もう元には戻れない…ふふ…</p>
+		<p>自分自身で新たな道を切り開くことが唯一の道だ…当然その意思は持っているだろうが…もう一度考えるか…</p>
+		<p>すぐにでも儀式は始められる…覚悟が決まったら言うがよい…時間はそうかからぬ…ふふ</p>
+		<p><a action="0">儀式を始めてください</a></p>
+	</dialog>
+	
+</npcdialog>

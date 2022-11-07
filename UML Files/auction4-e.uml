@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>アジト競売</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>競売管理者</name>
+		<job></job>
+		<text>アジト競売の進行担当</text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		<font fg="ffffff">競売物件通知</font><br/>
+		<br/><br/><br/>
+		お客さまが興味を持っている<br/><br/>
+		競売物件：<br/>
+		<font fg="ffffaf"><var src="0"/></font><br/>
+		
+		<br/><br/>
+		競売登録価格<br/>
+		<font fg="ffffaf"><var src="1"/></font>Adenaで<br/>
+		競売登録されました。<br/><br/><br/><br/>
+		
+		<a action="go_auction">競売場に移動しますか？</a><br/><br/>
+		(手数料：2,000Adena)<br/>
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

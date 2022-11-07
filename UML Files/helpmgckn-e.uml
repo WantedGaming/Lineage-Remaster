@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ナイトの技術</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">Help：ナイト技術</font><br/></p>
+	<p><a link="helpmgckn0">一般</a><br/></p>
+	<p><a link="helpmgckn1">ナイト技術</a><br/></p>
+	<p><a link="helpmgckn11">その他</a><br/></p>
+	<p><img src="331" link="help"/><br/><br/></p>
+	</dialog>
+</npcdialog>

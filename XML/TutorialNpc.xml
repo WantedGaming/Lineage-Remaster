@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeginnerGuideNpcEventRoot>
+	<EventCase EventType="0"> <!-- By event [level up dialogue event = 0] -->
+		<ClassCase ClassType="100">  <!-- by class[Monarch=0, Knight=1, Elf=2, Wizard=3,dark elf=4, dragon knight=5, Illusionist=6, Warrior=7, ALL=100] -->
+			<LevelCase Level="1" Priority="1">
+				<RandAction index="0"><!-- Random Action 0 (For a single action, you only need to create one randAction)-->
+					<Talk Time="30" TodayIndex="32"/>
+					<Enable Time="30" State="0"/>
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="2" Priority="1">
+				<RandAction index="0"><!-- Random Action 0 (For a single action, you only need to create one randAction)-->
+					<Talk Time="30" TodayIndex="18"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="3" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="30" TodayIndex="43"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="4" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="20"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="5" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="25"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="6" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="27"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="7" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="40"/>
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="8" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="48"/>
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="9" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="43"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+			<LevelCase Level="10" Priority="1">
+				<RandAction index="0"><!-- 렌덤 액션0(단일 액션의 경우는 randAction을 하나만 만들면 된다)-->
+					<Talk Time="50" TodayIndex="42"/>  <!-- 투데이 -->
+				</RandAction>
+			</LevelCase>
+		</ClassCase>
+	</EventCase>
+</BeginnerGuideNpcEventRoot>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><br/>
+		<font fg="ffffaf">[Teleport]</font>
+		</p>
+		<panel type="Panel_Teleport_Ruun_01">
+		   <button action="a"/>
+        </panel>
+		<panel type="Panel_Teleport_Ruun_03">
+		   <button action="b"/>
+        </panel>
+	<p>こんにちは。<br/>
+	ルウン城への入場をお助けいたします。<br/>
+	<br/>
+	入場券をお持ちでしたら<font fg="ffaaff">1回無料</font>で入場いただけます。<br/>
+	<br/>
+	また、招待券をお持ちであれば<font fg="ffaaff">制限時間内</font>は何度でも入場できます。<br/>
+	<br/>
+	ここはルウン君主の影響を受ける地域のため、<font fg="ffaaff">テレポート不可</font>です。<br/>
+	<br/>
+	<br/>
+	<br/>
+	</p>
+  </dialog>
+</npcdialog>

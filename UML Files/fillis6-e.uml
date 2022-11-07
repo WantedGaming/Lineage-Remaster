@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>ほう…そんなことには興味ないじゃと？</p>
+		<p>じゃが、仕方のないことじゃ。いつでもいい、もし後で興味が湧いたらわしを訪ねて来ておくれ。</p>
+		<p>なんじゃ、製作書代でくれた5万Adenaまで返してもらおうってわけじゃあるまい？ふぉっふぉっふぉっ…金が惜しいという表情じゃのう。くっくっく。そんなに惜しいのなら、狩りをし続けるんじゃな。</p>
+		<p><a action="1">剥製の製作依頼を取り消す</a></p>
+  </dialog>
+</npcdialog>

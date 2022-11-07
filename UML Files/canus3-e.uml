@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">訓練隊長カナス：</font><br/><br/></p>
+    <p>金が足りないのか！？</p>
+    <p>なら見せん！！</p>
+  </dialog>
+</npcdialog>

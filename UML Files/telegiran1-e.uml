@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Wizard Wilma</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Hello, I am Wizard Wilma.  Dispatched from the Ivory Towers.</p>
+		<p>The Ivory Towers does alot to put magic in good use.</p>
+		<p>I can help you teleport to another location.</p>
+		<p>Where do you want to go?</p>
+		<p><a action="teleportURL">Another Village</a></p>
+		<p><a link="guidestart">Help with Hunting Areas</a></p>
+	</dialog>
+
+</npcdialog>

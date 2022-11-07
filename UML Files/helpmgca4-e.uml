@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>風の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">風の精霊魔法：レベル4</font><br/></p>
+	<p><font fg="ffffaf">ストーム アイ：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：40/0<br/>
+	持続時間：960秒<br/>
+	対象：パーティーメンバー<br/>
+	効果：パーティーメンバー全員に命中率+2、遠距離攻撃のダメージ+3向上する効果を与えます。<br/></p>
+	<p><img src="331" link="helpmgca"/><br/><br/></p>
+	</dialog>
+</npcdialog>

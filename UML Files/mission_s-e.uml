@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>シルレインの指令書</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		  同盟のバッジを作るには、我々の持っている原石を加工せねばなりません。<br/>
+		  そのためにはイエティの息吹が10枚必要です。<br/>
+		  オーレン付近に出没するイエティから得られます。<br/>
+		<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

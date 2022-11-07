@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>釣り場</title>
+	<npc>
+		<portrait></portrait>
+		<name>ポール</name>
+		<job>釣り場ガイド</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 どこに行くの？<br/>
+		<br/><br/>
+		<a action="teleport fishing-c">中央に行く</a><br/>
+		<a action="teleport fishing-e">東に行く</a><br/>
+		<a action="teleport fishing-w">西に行く</a><br/>
+		<a action="teleport fishing-s">南に行く</a><br/>
+		<a action="teleport fishing-n">北に行く</a><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

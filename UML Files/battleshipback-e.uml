@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>Hey, I'll be in trouble if my true identity is exposed.</p>
+	<p>So please kill me quickly.</p>
+	<p><br/></p>
+	<p>What? You're going outside?</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a action="a">Leave Battleship</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

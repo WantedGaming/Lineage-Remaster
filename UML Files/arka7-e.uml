@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 今回アルティメットバトルが新しくなったそうじゃ。<br/><br/>
+		 アルティメットバトルで強力なモンスターを倒すと獲得できる勇者の証を集めて、<font fg="ffffaf">印章販売人</font>に渡すと、<font fg="ffffaf">勝利の印章</font>を手に入れられる。<br/><br/>
+		 それをワシに持ってきてくれ。<br/>
+		 <br/>
+		<br/>
+		<img src="331" link="arka3"></img>
+		<br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

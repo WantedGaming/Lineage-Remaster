@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font></p>
+		<p><br/>
+		 この前の空を見ましたか？<br/><br/>
+		 ピカって光ったら、村の近くに底なしの穴が出来てたんですよ！<br/>
+		  子を持つ親としては、こんな物騒な場所で育てないといけないので心配です。<br/>
+		 <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

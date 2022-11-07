@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>次元のオーブ</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>異次元に行くためには次元のオーブを使用しなければならないようだ。</p>
+		<p><br height="50"/><a action="a">ギルタスの聖地に移動する</a></p>
+		
+	</dialog>
+</npcdialog>

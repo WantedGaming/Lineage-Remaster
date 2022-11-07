@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの鍛冶屋</name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 お前にはアリスの叫びが聞えるか！？耳を澄すのだ。もっと力を、より大きな力を手に入れたいと叫ぶ声が聞えてくるだろう？<br/>
+		 要点だけ言おう。バルログの肺臓50個と、ブラッドクリスタルの欠片100個をもって来い！お前のそのアリスとカヘル ヤヒ様の栄光のために！うははははは！<br/>
+		<br/>
+		<a action="a">材料をすべて用意しました</a>
+		</p>
+	</dialog>
+</npcdialog>

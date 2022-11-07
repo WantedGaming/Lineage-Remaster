@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルララ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		お待ちください！<br/><br/>
+		<font fg="ffffaf">暖かいルビーの懐炉</font>と<font fg="ffffaf">冷たい雪の結晶200個</font>が必要です。<br/>
+		暖かいルビーの懐炉は、<font fg="ffffaf">お知らせ表示</font>の<font fg="ffffaf">イベントタブ</font>から購入できますし、冷たい雪の結晶はパタラシ村を襲撃した<font fg="ffffaf">アイスクイーンの部下たち</font>を倒すと獲得できます。<br/>
+		<br/>
+		ですが…<font fg="ffffaf">レベル60</font>になっていない勇士様には差し上げられません。もう少し強くなってからまたいらしてください！<br/>
+		 <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

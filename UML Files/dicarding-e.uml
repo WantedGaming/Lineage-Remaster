@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>古代の予言にある英雄たち、そして彼らを率いる存在。果たして現れてくれるのだろうか…<br/>
+		<br/>
+		<br/>
+		<a link="dicarding4">戦争を引き起こしたダークエルフについて</a><br/></p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>エルフ精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">共通精霊魔法：レベル2</font><br/></p>
+	<p><font fg="ffffaf">クリアー マインド：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：10/0<br/>
+	材料：精霊の玉1個<br/>
+	持続時間：1200秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、術者のSTR/DEX/INTが+1向上します。<br/></p>
+	
+	<p><font fg="ffffaf">レジスト エレメント：</font><br/>
+	種類：付与<br/>
+	性向：Neutral/Passive<br/>
+	消耗MP/HP：0/0<br/>
+	持続時間：常時<br/>
+	対象：術者<br/>
+	効果：MR+5%、全ての属性抵抗+5%が適用されます。<br/></p>
+	<p><img src="331" link="helpmgcn"/><br/><br/></p>
+	</dialog>
+</npcdialog>

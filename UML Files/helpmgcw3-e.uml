@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>水の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">水の精霊魔法：レベル3</font><br/></p>
+	<p><font fg="ffffaf">アクア ショット：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：15/0<br/>
+	持続時間：960秒<br/>
+	対象：術者<br/>
+	効果：術者の遠距離攻撃命中を4向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">ウォーター ライフ：</font><br/>
+	種類：治癒<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：1/0<br/>
+	材料：精霊の玉1個<br/>
+	待機時間：64秒<br/>
+	対象：術者から15セル内のPCの1人<br/>
+	効果：ウォーター ライフを受けた対象にヒールを使用すると、2倍の効果になります。<br/>
+	待機時間内にヒールを使用しない場合、効果は消滅します。<br/></p>
+	<p><img src="331" link="helpmgcw"/><br/><br/></p>
+	</dialog>
+</npcdialog>

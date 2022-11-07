@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>徴兵官</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>誇り高き赤き騎士団の勇士様。</p>
+		<p>私がお渡しする赤き騎士団のアミュレットを身につけて、アデン大陸を旅すれば"赤き騎士団の証"を買うことができます。</p>
+		<p>その赤き騎士団の証を持ってウッドベック村にいる赤き騎士団の前哨基地に向かってください。</p>
+		<p>そこで我らの君主、デポロジュー様がお待ちです。</p>
+	</dialog>
+</npcdialog>

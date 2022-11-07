@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<WidgetMainUI>
+    <Window Name = "WidgetEditMain_Window" BaseSurf = "3512;1">
+		<Button Name = "Exit_Button" X = "786" Y = "14" BaseSurf = "3510" PushSurf = "3511" MouseEvent = "CloseWidgetEditWindow"/>
+		<Button Name = "Widget0_Image" X = "100" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget1_Image" X = "150" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget2_Image" X = "200" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget3_Image" X = "250" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget4_Image" X = "300" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget5_Image" X = "350" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget5_Image" X = "400" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name = "Widget5_Image" X = "400" Y = "100" BaseSurf = "5535" PushSurf = "5535" HighlightSurf = "5535" MouseEvent = "SelectWidget"/>
+		<Button Name="Export_Button" BaseSurf="4337" PushSurf="4339;1" HighlightSurf="4338" DisableSurf="4340" X="67" Y="385" MouseEvent="Export"/>
+		<Button Name="Import_Button" BaseSurf="4341" PushSurf="4343;1" HighlightSurf="4342" DisableSurf="4344" X="134" Y="385" MouseEvent="Import"/>
+	</Window>
+</WidgetMainUI>

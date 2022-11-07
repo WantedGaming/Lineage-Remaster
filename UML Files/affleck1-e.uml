@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Affleck：</font><br/><br/></p>
+    <p>Hello, my name is Affleck, I am a wizard.</p>
+    <p>I am currently working with wizards sent from the Ivory Tower to stop the monsters in the Tower of Hubris from getting out.</p>
+    <p>The monsters in the Tower of Hubris are far more powerful than those in the Ivory Tower.</p>
+  </dialog>
+</npcdialog>

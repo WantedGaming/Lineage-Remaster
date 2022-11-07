@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>プレゼント</title>
+	<dialog>
+		<p>
+		<font fg="ffffff">=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</font>
+		<br/>
+		プレゼントした人<br/>
+		<var src="2030"/>(<var src="2029"/>)<br/><br/>
+		プレゼント アイテム<br/>
+		<var src="2031"/><br/>
+		<br/>
+		<var src="2032"/><br/>
+		<font fg="ffffff">=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</font>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

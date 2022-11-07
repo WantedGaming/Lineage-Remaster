@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+まだディエゴに会えてないのですね。<br/><br/>
+何度でもお送りしますから、どうかお気をつけて…<br/><br/>
+<a action="d">頑張ります</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 グルーディン村の東側の出口から出て、3時の方角に道に沿って進むと分かれ道になっています。北へ道をとると、巨大な岩でできた古墳のようなメインランドのダンジョンが見えてきます。入口も見えるはずです。<br/>
+		 それは7階建ての長いダンジョンです。1階と2階には<font fg="ffafff">オーク ファイター</font>、<font fg="ffafff">オーク アーチャー</font>、それに<font fg="ffafff">スケルトン</font>、<font fg="ffafff">スケルトン アーチャー</font>、<font fg="ffafff">ゾンビ</font>、<font fg="ffafff">グール</font>とかのアンデッド系がよく出るんですよ。<br/>
+		 2階に上がると、<font fg="ffafff">スケルトン パイク</font>と<font fg="ffafff">バグベアー</font>がいますよ。やつらは誰かを見ると見境なしに襲いかかってくるんです。気を抜かないでくださいね。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

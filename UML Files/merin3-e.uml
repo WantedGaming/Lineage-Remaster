@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>メーリン</name>
+		<job>[ペット管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		紀州犬の子犬の引取料として50万Adenaを受け取っています。<br/>
+		無料でお譲りするのはちょっと…。<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>治療師 ハデスティ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>汝の魂が大空の雲で安らぎを得られますよう、肉体が静寂の闇で温もりを宿しますよう…。
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

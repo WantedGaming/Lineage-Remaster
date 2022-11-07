@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの鍛冶屋</name>
+  </npc>
+  <dialog>
+    <p>くひゃひゃ、我らが守護者よ、何のご用かね？</p>
+    <p><a action="1">貴様の能力を借りにきた</a></p>
+  </dialog>
+</npcdialog>

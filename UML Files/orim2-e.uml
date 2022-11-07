@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>影法師 オリム</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+
+<dialog>
+<p>私の師匠であり友でもあった人、人々から「大魔術師」と称賛されるほどの天才ウィザード ハーディン…</p>
+<p>私は彼の<a link="orim4">秘密</a>を知っている、しかも私だけが…。そのせいで、かつての<a link="orim5">仲間</a>たちはここで私を探しているのだ。</p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>People call me Ellyonne. As you can see, I am an elf.</p>
+		<p>I don't know if it was just the influence of a gruff, positive human being, but I suddenly ran out of the elven forest. I wonder how long it has been since then.</p>
+		<p>Naluen, I wonder how Theodore is doing...I guess the cranky Grandma Nerfa is still the same.</p>
+		<p>The guardians who always greeted me happily in the elven forest... the smell of the mother tree that seemed to seep into my heart... but I seem to have forgotten the taste of the fruit of the ent.</p>
+	</dialog>
+</npcdialog>

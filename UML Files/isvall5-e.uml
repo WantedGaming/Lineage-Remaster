@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Isval</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> The times that boats dock here are as follows.</p>
+		<p><br height="30"/><font fg="ffffaf">
+		                     01：30～02：00<br/>
+		                     03：30～04：00<br/>
+		                     05：30～06：00<br/>
+		                     07：30～08：00<br/>
+		                     09：30～10：00<br/>
+		                     11：30～12：00<br/>
+		                     13：30～14：00<br/>
+		                     15：30～16：00<br/>
+		                     17：30～18：00<br/>
+		                     19：30～20：00<br/>
+		                     21：30～22：00<br/>
+		                     23：30～24：00<br/></font><br height="30"/></p>
+
+ 		<p><img src="331" link="isvall4"/></p>
+		
+	</dialog>
+</npcdialog>

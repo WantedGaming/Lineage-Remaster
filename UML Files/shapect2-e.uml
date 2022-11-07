@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>選ばれなかった者</name>
+		<job>test</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>お望みの姿に変身させてあげましょう。選んでください。</p>
+		<p><a action="a">a01</a></p>
+		<p><a action="b">a02</a></p>
+		<p><a action="c">a03</a></p>
+		<p><a action="d">a04</a></p>
+		<p><a action="e">a05</a></p>
+		<p><a action="f">a06</a></p>
+		<p><a action="g">a07</a></p>
+		<p><a action="h">a08</a></p>
+		<p><a action="i">a09</a></p>
+		<p><a action="j">a10</a></p>
+		<p><a action="k">a11</a></p>
+		<p><a action="l">a12</a></p>
+		<p></p>
+		<p><a action="m">b01</a></p>
+		<p><a action="n">b02</a></p>	
+		<p><a action="o">b03</a></p>
+		<p><a action="p">b04</a></p>
+		<p><a action="q">b05</a></p>	
+		<p><a action="r">b06</a></p>
+		<p><a action="s">b07</a></p>
+		<p><a action="t">b08</a></p>	
+		<p><a action="u">b09</a></p>
+		<p><a action="v">b10</a></p>
+		<p><a action="w">b11</a></p>	
+		<p><a action="x">b12</a></p>
+		<p><a action="y">b13</a></p>
+		<p></p>
+		<p><a action="z">c01</a></p>
+		<p><a action="1">c02</a></p>	
+		<p><a action="2">c03</a></p>
+		<p><a action="3">c04</a></p>
+		<p><a action="4">c05</a></p>	
+		<p><a action="5">c06</a></p>
+		<p><a action="6">c07</a></p>
+		<p><a action="7">c08</a></p>	
+		<p><a action="8">c09</a></p>
+		<p><a action="9">c10</a></p>
+		<p><a action="0">c11</a></p>	
+		<p><a action="!">c12</a></p>
+		<p><a action="@">c13</a></p>
+		<p><a action="#">c14</a></p>
+		<p><a action="$">c15</a></p>
+		<p><a action="%">c16</a></p>	
+		<p><a action="^">c17</a></p>
+		<p><a action="">c18</a></p>
+		<p><a action="*">c19</a></p>	
+	</dialog>
+
+</npcdialog>
+
+

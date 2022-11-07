@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>グレン</name>
+		<job>武器防具商人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>何をお探しですか？</p>
+		<p></p><p>うちの商品は品質が良いことで有名ですよ。</p>
+		<p><br/><br/><br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p></p><br/>
+		<p><a link="glen3">Ask about recent prices</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

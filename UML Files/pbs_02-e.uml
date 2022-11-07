@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+  </npc>
+  <dialog>
+	<p>さあ！！アデン大陸を救いに行ってください！</p>
+  </dialog>
+</npcdialog>

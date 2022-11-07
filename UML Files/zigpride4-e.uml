@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジークフリード</name>
+	</npc>
+	<dialog>
+		<p>こら！こんな状態でギルタスと戦うだと？！<br/>
+		<br/>
+		なんてことを！すぐに引け！</p>
+	</dialog>
+	
+</npcdialog>

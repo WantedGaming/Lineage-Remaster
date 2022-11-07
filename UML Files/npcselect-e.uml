@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<dialog>
+	<p>If you have hired soldiers, you can have them deployed. Who will you choose?</p>
+	<p>When deploying soldiers to a clan member, place the clan member to your left and select the soldier to deploy.</p>
+	<br/>
+	<p><a action="mercenarySelect0"><var src="0"/></a></p>
+	<p><a action="mercenarySelect1"><var src="1"/></a></p>
+	<p><a action="mercenarySelect2"><var src="2"/></a></p>
+	<p><a action="mercenarySelect3"><var src="3"/></a></p>
+	<p><a action="mercenarySelect4"><var src="4"/></a></p>
+	<p><a action="mercenarySelect5"><var src="5"/></a></p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<StoryPaperUI>
+
+	<Window Name="StoryPaper_Window" X="0" Y="0" BaseSurf="4242;1" Moveable="20" Transparent="false" KeyboardEvent="Close" MouseEvent="Dummy">
+	
+		<Button Name="Exit_Button" X="147" Y="8" BaseSurf="4248" PushSurf="4249" MouseEvent="Close"/>
+		
+		<HyperText Name="HyperText" X="10" Y="115" Width="145" Height="142">
+   		<ScrollBar Name="ScrollBar" X="140" Y="15" Width="14" Height="112" ScrollStart="0" ScrollHeight="124" Vertical="1">
+   			<Image Name="Background_Image" X="4" Y="0" Surf="4243;2;15"/>
+   			<Button Name="Up_Button" X="1" Y="-8" BaseSurf="4244;2;15" PushSurf="4244" MouseEvent="Dummy"/>
+   			<Button Name="Down_Button" X="1" Y="112" BaseSurf="4245;2;15" PushSurf="4245" MouseEvent="Dummy"/>
+   			<Button Name="Move_Button" X="0" Y="12" BaseSurf="4246;2;15" PushSurf="4247;1" MouseEvent="Dummy"/>
+   		</ScrollBar>
+  		<HyperText Name="SubHyperText" X="-5" Y="-89" Width="145" Height="100"/>
+  	</HyperText>
+				
+	</Window>
+
+</StoryPaperUI>

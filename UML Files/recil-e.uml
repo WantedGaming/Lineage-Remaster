@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>イシルロテ</name>
+    <job>[赤き騎士団]</job>
+  </npc>
+  	<dialog align="left">
+		<p>こんにちは。私はロエン…いえ、イシルロテです。</p>
+		<p>ハイネ城主様と緊密に議論すべき事項がありましたので、訪問しています。</p>
+		<p>あっ！ウッドベック村にいるデポロジュー様と一度お会いしてください。</p>
+		<p>ギルタスとの戦いでお疲れのはずですが…あまりに無理をされたのではないかと、常に心配なのです。</p>
+		<p>あっ、私としたことが…あ…怪しい兆しが見つかりましたら、私に必ずお話しください。</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>あなたがパプリオンを倒した証として<font fg="ffffaf">ブルー ドラゴンの鱗</font>を持って来てくだされば、エヴァ様の祝福が込められた<font fg="ffffaf">エヴァのシールド</font>をお作りいたします。</p>
+		<p><font fg="ffffaf">タワー シールド</font>1個と<font fg="ffffaf">マーメイドの鱗</font>100枚、そして<font fg="ffffaf">ブルー ドラゴンの鱗</font>10枚が必要です。</p>
+		<p><a action="request shield of eva">エヴァのシールドをつくる</a></p>
+  </dialog>
+</npcdialog>

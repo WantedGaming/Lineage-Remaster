@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ハイネの南西側の門から出て、道に沿って進むと、ハイネ城と船着場、川に囲まれた大きな森にたどり着きます。そこには<font fg="ffafff">フローティング アイ</font>、<font fg="ffafff">ジャイアント スパイダー</font>、<font fg="ffafff">ドレッド スパイダー</font>などのおなじみのモンスターのみならず、<font fg="ffafff">トロッグ</font>、<font fg="ffafff">ラミア</font>、<font fg="ffafff">タートル ドラゴン</font>などの今まで見たことなかった水属性のモンスターもいるんですよ。<br/>
+		 水属性のモンスターなんて朝飯前！と思いますか。それとも今までとは違うモンスターと戦ってみたいですか。それだったら、ここに行ったほうがいいですよ。それでは、健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

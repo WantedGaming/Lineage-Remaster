@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハイト</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>もとの次元にお戻りになられますか？</p>
+		<p><br height="50"/><a action="a">もとの次元に戻る</a></p>
+		<br/>
+		
+	</dialog>
+</npcdialog>

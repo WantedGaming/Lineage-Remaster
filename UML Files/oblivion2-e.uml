@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>アブリション</name>
+	<job>船着場管理人</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+
+<dialog>
+	<p>忘れられた島は完全に閉鎖されから、もう用はないだろう。元気でな。</p>
+	<p><img src="p16330" action="sell"/></p>
+</dialog>
+
+</npcdialog>

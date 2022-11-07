@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p> ここにドルーガバッグがある。<br/>
+		<br/>
+    心して聞け。我々が相手にしようとしているドラゴンは、太古から生き続ける恐ろしいやつらだ。<br/>
+    多くの勇士がやつらの黒い息吹に消えていった。無謀な勇気よりも、仲間を信じて賢明な行動するよう願っている。<br/>
+		<br/>
+    それと、ドラゴンの魔眼には不思議な力を持っているという伝説がある。<br/>
+		<br/>
+    ドラゴン スレイヤーの誕生を待っているぞ。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>釣り場</title>
+	<npc>
+		<portrait></portrait>
+		<name>ポール</name>
+		<job>釣り場ガイド</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 えっ？Adena持ってないの？<br/>
+		 入場料は<font fg="ffff0">1000Adena</font>だよ。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

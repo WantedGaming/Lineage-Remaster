@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ヘイナ</name>
+		<job>[旅に出た新婦]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> ニーバスが私を探していると？<br/>
+		<br/>
+ 私はただ…少し頭を冷やしたくて旅に出ただけなのに、彼ったらまったく…フフフ<br/>
+ <br/>
+ こんなところまで私を探しに来てくれたのに、手ぶらで帰すわけにはいかないわね。
+ この手紙をニーバスに渡してくれたらお礼をするわ。<br/>
+ <br/>
+ 気をつけてね！<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

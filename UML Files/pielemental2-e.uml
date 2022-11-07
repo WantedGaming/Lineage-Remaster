@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>古代の精霊</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>                          
+		 </p><p>隣にいる精霊のオーブは、精霊の墓と繋がっています。オーブの力があなたを精霊の墓までお送りすることでしょう。
+		 </p><p>もしあなたが'<font fg="ffaaff">ソウル クリスタル</font>をお持ちなら、その力で<font fg="ffaaff">精霊の墓</font>まで行くこともできます。
+		 <br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+		<p>br
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

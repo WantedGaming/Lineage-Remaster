@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>デューク デフィルの5名の血盟…義理の騎士バルセン、トリアのオレイン、エンデのセバスチャン、高潔なカストロ、そして大魔法使いハーディン。
+		</p><p>彼らはみな当代きってのツワモノどもだ。私は剣についてはよく知らんが、ハーディン様は本当に立派なお方だとも。あの方こそ真の<a link="gerengp4">魔法の究極</a>までのぼりつめた方だ。
+		
+		</p>
+	</dialog>
+</npcdialog>

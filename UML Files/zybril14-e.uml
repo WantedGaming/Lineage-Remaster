@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>サエル様の呪いを解いたと？それをどうやって証明できますか？</p>
+		<p>サエル様がいつも身につけておられた<font fg="ffffaf">リング</font>を証として持ってきてください。</p>
+	
+	</dialog>
+	
+</npcdialog>

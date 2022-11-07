@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<ReCharStatusUI Toggle = "true">
+	<Window Name = "EquipWindow" X = "0" Y = "0" Width = "183" Height = "337" BasePng = "10271" Moveable = "30" MouseEvent = "Dummy" KeyboardEvent = "CloseWindow" Activate = "0">
+		<Button Name = "CloseWindow_Button" X = "141" Y = "6" BaseSurf = "8701;1" HighlightSurf = "8702;1" PushSurf = "8703;1" MouseEvent = "CloseWindow"/>
+		<Control Name = "IconControl" Width = "183" Height = "337">
+			<ItemIcon Name = "Earring_Icon" Width = "32" Height = "32" X = "26" Y = "41" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4186"/>
+			</ItemIcon>
+			<ItemIcon Name = "Helm_Icon" Width = "32" Height = "32" X = "75" Y = "41" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4187"/>
+			</ItemIcon>
+			<ItemIcon Name = "Earring59_Icon" Width = "32" Height = "32" X = "124" Y = "41" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4186"/>
+			</ItemIcon>
+			<ItemIcon Name = "Shirt_Icon" Width = "32" Height = "32" X = "26" Y = "82" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4188"/>
+			</ItemIcon>
+			<ItemIcon Name = "Necklace_Icon" Width = "32" Height = "32" X = "75" Y = "82" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4189"/>
+			</ItemIcon>
+			<ItemIcon Name = "Cloak_Icon" Width = "32" Height = "32" X = "124" Y = "82" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4190"/>
+			</ItemIcon>
+			<ItemIcon Name = "Glove_Icon" Width = "32" Height = "32" X = "26" Y = "123" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4191"/>
+			</ItemIcon>
+			<ItemIcon Name = "Armor_Icon" Width = "32" Height = "32" X = "75" Y = "123" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4192"/>
+			</ItemIcon>
+			<ItemIcon Name = "Shield_Icon" Width = "32" Height = "32" X = "124" Y = "123" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4193"/>
+			</ItemIcon>
+			<ItemIcon Name = "Weapon1_Icon" Width = "32" Height = "32" X = "26" Y = "164" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4194"/>
+			</ItemIcon>
+			<ItemIcon Name = "Waist_Icon" Width = "32" Height = "32" X = "75" Y = "164" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4195"/>
+			</ItemIcon>
+			<ItemIcon Name = "Weapon2_Icon" Width = "32" Height = "32" X = "124" Y = "164" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4194"/>
+			</ItemIcon>
+			<ItemIcon Name = "Ring1_Icon" Width = "32" Height = "32" X = "26" Y = "205" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+			</ItemIcon>
+			<ItemIcon Name = "Boots_Icon" Width = "32" Height = "32" X = "75" Y = "205" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4197"/>
+			</ItemIcon>
+			<ItemIcon Name = "Ring2_Icon" Width = "32" Height = "32" X = "124" Y = "205" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+			</ItemIcon>
+			<ItemIcon Name = "RingLv55_Icon" Width = "32" Height = "32" X = "26" Y = "246" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+			</ItemIcon>
+			<ItemIcon Name = "Rune_Icon" Width = "32" Height = "32" X = "75" Y = "246" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4198"/>
+			</ItemIcon>
+			<ItemIcon Name = "RingLv81_Icon" Width = "32" Height = "32" X = "124" Y = "246" MouseEvent = "RemoveItem">
+				<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+			</ItemIcon>
+		</Control>
+		<Control Name = "EmptyImageControl" Width = "183" Height = "337">
+			<Image Name = "EarringSlot_Image" Width = "32" Height = "32" X = "25" Y = "40" Surf="5479;3"/>
+			<Image Name = "HelmSlot_Image" Width = "32" Height = "32" X = "74" Y = "40" Surf="5479;3"/>
+			<Image Name = "Earring59Slot_Image" Width = "32" Height = "32" X = "123" Y = "40" Surf="5479;3"/>
+			<Image Name = "ShirtSlot_Image" Width = "32" Height = "32" X = "25" Y = "81" Surf="5479;3"/>
+			<Image Name = "NecklaceSlot_Image" Width = "32" Height = "32" X = "74" Y = "81" Surf="5479;3"/>
+			<Image Name = "CloakSlot_Image" Width = "32" Height = "32" X = "123" Y = "81" Surf="5479;3"/>
+			<Image Name = "GloveSlot_Image" Width = "32" Height = "32" X = "25" Y = "122" Surf="5479;3"/>
+			<Image Name = "ArmorSlot_Image" Width = "32" Height = "32" X = "74" Y = "122" Surf="5479;3"/>
+			<Image Name = "ShieldSlot_Image" Width = "32" Height = "32" X = "123" Y = "122" Surf="5479;3"/>
+			<Image Name = "Weapon1Slot_Image" Width = "32" Height = "32" X = "25" Y = "163" Surf="5479;3"/>
+			<Image Name = "WaistSlot_Image" Width = "32" Height = "32" X = "74" Y = "163" Surf="5479;3"/>
+			<Image Name = "Weapon2Slot_Image" Width = "32" Height = "32" X = "123" Y = "163" Surf="5479;3"/>
+			<Image Name = "Ring1Slot_Image" Width = "32" Height = "32" X = "25" Y = "204" Surf="5479;3"/>
+			<Image Name = "BootsSlot_Image" Width = "32" Height = "32" X = "74" Y = "204" Surf="5479;3"/>
+			<Image Name = "Ring2Slot_Image" Width = "32" Height = "32" X = "123" Y = "204" Surf="5479;3"/>
+			<Image Name = "RingLv55Slot_Image" Width = "32" Height = "32" X = "25" Y = "245" Surf="5479;3"/>
+			<Image Name = "RuneSlot_Image" Width = "32" Height = "32" X = "74" Y = "245" Surf="5479;3"/>
+			<Image Name = "RingLv81Slot_Image" Width = "32" Height = "32" X = "123" Y = "245" Surf="5479;3"/>
+		</Control>
+		<Control Name = "UnlockImageControl" Width = "183" Height = "337">
+			<Image Name = "UnlockEarring59Slot_Image" Width = "32" Height = "32" X = "125" Y = "42" Png="10280"/>		
+			<Image Name = "UnlockRingLv55Slot_Image" Width = "32" Height = "32" X = "27" Y = "247" Png="10281"/>
+			<Image Name = "UnlockRingLv81Slot_Image" Width = "32" Height = "32" X = "125" Y = "247" Png="10281"/>
+		</Control>
+		<Button Name = "ExpandStatusInfo_Button" X = "160" Y = "148" BasePng = "10415;1" HighlightPng = "10416;1" PushPng = "10416;1" MouseEvent = "ExpandStatus"/>
+		<Image Name = "RingLv76_Image" Width = "32" Height = "32" X = "27" Y = "247" Png = "10293"/>
+		<Image Name = "DisableWeapon2" Width = "32" Height = "32" X = "125" Y = "165" Png = "10419"/>
+	</Window>
+	<Window Name = "ExpandStatusWindow" X = "0" Y = "0" Width = "659" Height = "337" BasePng = "10272" Moveable = "30" MouseEvent = "Dummy" KeyboardEvent = "CloseWindow" Activate = "0">
+		<Button Name = "CloseWindow_Button" X = "378" Y = "8" BaseSurf = "8701;1" HighlightSurf = "8702;1" PushSurf = "8703;1" MouseEvent = "CloseWindow"/>
+		<Control Name = "EquipPart_Control" Width = "180" Height = "337">
+			<Control Name = "IconControl" Width = "180" Height = "337">
+				<ItemIcon Name = "Earring_Icon" Width = "32" Height = "32" X = "26" Y = "41" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4186"/>
+				</ItemIcon>
+				<ItemIcon Name = "Helm_Icon" Width = "32" Height = "32" X = "75" Y = "41" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4187"/>
+				</ItemIcon>
+				<ItemIcon Name = "Earring59_Icon" Width = "32" Height = "32" X = "124" Y = "41" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4186"/>
+				</ItemIcon>
+				<ItemIcon Name = "Shirt_Icon" Width = "32" Height = "32" X = "26" Y = "82" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4188"/>
+				</ItemIcon>
+				<ItemIcon Name = "Necklace_Icon" Width = "32" Height = "32" X = "75" Y = "82" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4189"/>
+				</ItemIcon>
+				<ItemIcon Name = "Cloak_Icon" Width = "32" Height = "32" X = "124" Y = "82" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4190"/>
+				</ItemIcon>
+				<ItemIcon Name = "Glove_Icon" Width = "32" Height = "32" X = "26" Y = "123" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4191"/>
+				</ItemIcon>
+				<ItemIcon Name = "Armor_Icon" Width = "32" Height = "32" X = "75" Y = "123" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4192"/>
+				</ItemIcon>
+				<ItemIcon Name = "Shield_Icon" Width = "32" Height = "32" X = "124" Y = "123" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4193"/>
+				</ItemIcon>
+				<ItemIcon Name = "Weapon1_Icon" Width = "32" Height = "32" X = "26" Y = "164" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4194"/>
+				</ItemIcon>
+				<ItemIcon Name = "Waist_Icon" Width = "32" Height = "32" X = "75" Y = "164" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4195"/>
+				</ItemIcon>
+				<ItemIcon Name = "Weapon2_Icon" Width = "32" Height = "32" X = "124" Y = "164" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4194"/>
+				</ItemIcon>
+				<ItemIcon Name = "Ring1_Icon" Width = "32" Height = "32" X = "26" Y = "205" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+				</ItemIcon>
+				<ItemIcon Name = "Boots_Icon" Width = "32" Height = "32" X = "75" Y = "205" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4197"/>
+				</ItemIcon>
+				<ItemIcon Name = "Ring2_Icon" Width = "32" Height = "32" X = "124" Y = "205" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+				</ItemIcon>
+				<ItemIcon Name = "RingLv55_Icon" Width = "32" Height = "32" X = "26" Y = "246" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+				</ItemIcon>
+				<ItemIcon Name = "Rune_Icon" Width = "32" Height = "32" X = "75" Y = "246" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4198"/>
+				</ItemIcon>
+				<ItemIcon Name = "RingLv81_Icon" Width = "32" Height = "32" X = "124" Y = "246" MouseEvent = "RemoveItem">
+					<Tooltip Name = "Desc_Tooltip" X = "1" Y = "32" String = "4196"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "EmptyImageControl" Width = "180" Height = "337">
+				<Image Name = "EarringSlot_Image" Width = "32" Height = "32" X = "25" Y = "40" Surf="5479;3"/>
+				<Image Name = "HelmSlot_Image" Width = "32" Height = "32" X = "74" Y = "40" Surf="5479;3"/>
+				<Image Name = "Earring59Slot_Image" Width = "32" Height = "32" X = "123" Y = "40" Surf="5479;3"/>
+				<Image Name = "ShirtSlot_Image" Width = "32" Height = "32" X = "25" Y = "81" Surf="5479;3"/>
+				<Image Name = "NecklaceSlot_Image" Width = "32" Height = "32" X = "74" Y = "81" Surf="5479;3"/>
+				<Image Name = "CloakSlot_Image" Width = "32" Height = "32" X = "123" Y = "81" Surf="5479;3"/>
+				<Image Name = "GloveSlot_Image" Width = "32" Height = "32" X = "25" Y = "122" Surf="5479;3"/>
+				<Image Name = "ArmorSlot_Image" Width = "32" Height = "32" X = "74" Y = "122" Surf="5479;3"/>
+				<Image Name = "ShieldSlot_Image" Width = "32" Height = "32" X = "123" Y = "122" Surf="5479;3"/>
+				<Image Name = "Weapon1Slot_Image" Width = "32" Height = "32" X = "25" Y = "163" Surf="5479;3"/>
+				<Image Name = "WaistSlot_Image" Width = "32" Height = "32" X = "74" Y = "163" Surf="5479;3"/>
+				<Image Name = "Weapon2Slot_Image" Width = "32" Height = "32" X = "123" Y = "163" Surf="5479;3"/>
+				<Image Name = "Ring1Slot_Image" Width = "32" Height = "32" X = "25" Y = "204" Surf="5479;3"/>
+				<Image Name = "BootsSlot_Image" Width = "32" Height = "32" X = "74" Y = "204" Surf="5479;3"/>
+				<Image Name = "Ring2Slot_Image" Width = "32" Height = "32" X = "123" Y = "204" Surf="5479;3"/>
+				<Image Name = "RingLv55Slot_Image" Width = "32" Height = "32" X = "25" Y = "245" Surf="5479;3"/>
+				<Image Name = "RuneSlot_Image" Width = "32" Height = "32" X = "74" Y = "245" Surf="5479;3"/>
+				<Image Name = "RingLv81Slot_Image" Width = "32" Height = "32" X = "123" Y = "245" Surf="5479;3"/>
+			</Control>
+			<Control Name = "UnlockImageControl" Width = "180" Height = "337">
+				<Image Name = "UnlockEarring59Slot_Image" Width = "32" Height = "32" X = "125" Y = "42" Png="10280"/>		
+				<Image Name = "UnlockRingLv55Slot_Image" Width = "32" Height = "32" X = "27" Y = "247" Png="10281"/>
+				<Image Name = "UnlockRingLv81Slot_Image" Width = "32" Height = "32" X = "125" Y = "247" Png="10281"/>
+			</Control>
+			<Button Name = "ExpandStatusInfo_Button" X = "160" Y = "148" BasePng = "10417;1" HighlightPng = "10418;1" PushPng = "10418;1" MouseEvent = "CloseStatus"/>
+			<Image Name = "RingLv76_Image" Width = "32" Height = "32" X = "27" Y = "247" Png = "10293"/>
+			<Image Name = "DisableWeapon2" Width = "32" Height = "32" X = "125" Y = "165" Png = "10419"/>
+		</Control>
+		<Control Name = "StatusPart_Control" X = "181" Y = "33" Width = "224" Height = "297">
+			<Control Name = "CharacterInfo_Control" Width = "224" Height = "73">
+				<Control Name = "CharacterInfoBase">
+					<Label Name = "Level_Label" X = "37" Y = "7" Width = "30" Height = "14" Caption = "lev;1"/>
+					<Label Name = "PK_Label" X = "95" Y = "7" Width = "30" Height = "14" Caption = "PK;1"/>
+				</Control>	
+				<Button Name = "Adena_Button" X = "18" Y = "26" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" MouseEvent = "SetCharacterInfo">
+					<Image Name = "Adena_Image" X = "1" Y = "1" Surf = "9030"/>
+					<Label Name = "Adena_Label" X = "18" Y = "3" Width = "74" HAlign = "center" Caption = "adena;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" String = "2813" Time = "800"/>
+				</Button>
+				<Button Name = "Tam_Button" X = "114" Y = "26" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" MouseEvent = "SetCharacterInfo">
+					<Image Name = "Tam_Image" X = "1" Y = "1" Surf = "9031"/>
+					<Label Name = "Tam_Label" X = "18" Y = "3" Width = "74" HAlign = "center" Caption = "tam;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" String = "4176" Time = "800"/>
+				</Button>
+				<Button Name = "Nutrition_Button" X = "18" Y = "48" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" MouseEvent = "SetCharacterInfo">
+					<Image Name = "Nutrition_Image" X = "1" Y = "1" Surf = "9032"/>
+					<Label Name = "Nutrition_Label" X = "18" Y = "3" Width = "74" HAlign = "center" Caption = "nutrition;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" String = "608" Time = "800"/>
+				</Button>
+				<Button Name = "Carry_Button" X = "114" Y = "48" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" MouseEvent = "SetCharacterInfo">
+					<Image Name = "Carry_Image" X = "1" Y = "1" Surf = "9033"/>
+					<Label Name = "Carry_Label" X = "18" Y = "3" Width = "74" HAlign = "center" Caption = "carry;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" String = "3876" Time = "800"/>
+				</Button>
+			</Control>
+			<Control Name = "BaseStatus_Control" Y = "90" Width = "224" Height = "88">
+				<Label Name = "Str_Label" X = "75" Y = "0" Width = "33" Height = "14" HAlign = "center" Caption = "Str"/>
+				<Label Name = "Int_Label" X = "181" Y = "0" Width = "33" Height = "14" HAlign = "center" Caption = "Int"/>
+				<Label Name = "Dex_Label" X = "75" Y = "20" Width = "33" Height = "14" HAlign = "center" Caption = "Dex"/>
+				<Label Name = "Wis_Label" X = "181" Y = "20" Width = "33" Height = "14" HAlign = "center" Caption = "Wis"/>
+				<Label Name = "Con_Label" X = "75" Y = "40" Width = "33" Height = "14" HAlign = "center" Caption = "Con"/>
+				<Label Name = "Cha_Label" X = "181" Y = "40" Width = "33" Height = "14" HAlign = "center" Caption = "Cha"/>
+			</Control>
+			<Control Name = "Status_Control" Y = "162" Width = "224" Height = "116">
+				<Button Name = "Status00" X = "17" Y = "6" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status00_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status00_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status00;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status01" X = "113" Y = "6" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status01_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status01_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status01;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status02" X = "17" Y = "28" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status02_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status02_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status02;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status03" X = "113" Y = "28" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status03_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status03_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status03;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status04" X = "17" Y = "50" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status04_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status04_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status04;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status05" X = "113" Y = "50" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status05_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status05_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status05;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status06" X = "17" Y = "72" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status06_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status06_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status06;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status07" X = "113" Y = "72" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status07_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status07_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status07;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status08" X = "17" Y = "94" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status08_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status08_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status08;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+				<Button Name = "Status09" X = "113" Y = "94" Height = "22" BasePng = "10274" HighlightPng = "10275" PushPng = "10275" DropEvent = "BookmarkStatusInfo" MouseEvent = "SetStatusInfo">
+					<Image Name = "Status09_Image" X = "1" Y = "1" Surf = "9005"/>
+					<Label Name = "Status09_Label" X = "18" Y = "4" Width = "74" HAlign = "center" Caption = "Status09;1"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" Time = "800"/>
+				</Button>
+			</Control>
+			<Button Name = "ViewAll_Button" X = "142" Y = "279" BasePng = "10278;1" HighlightPng = "10279;1" PushPng = "10279;1" MouseEvent = "OpenStatusList"/>
+		</Control>
+		<Window Name = "StatusListWindow" X = "418" Y = "0" Width = "241" Height = "337" BasePng = "10273" MouseEvent = "Dummy" KeyboardEvent = "CloseStatusWindow" Activate = "0">
+			<Button Name = "CloseButton" X = "210" Y = "7" BaseSurf = "8701;1" HighlightSurf = "8702;1" PushSurf = "8703;1" MouseEvent = "CloseStatusWindow"/>
+			<List Name = "StatusList" X = "19" Y = "40" Width = "194" Height = "298" Vertical = "1" Gap = "3">
+				<Button Name = "Status00_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status00_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status00_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status00_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status01_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status01_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status01_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status01_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status02_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status02_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status02_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status02_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status03_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status03_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status03_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status03_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status04_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status04_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status04_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status04_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status05_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status05_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status05_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status05_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status06_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status06_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status06_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status06_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status07_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status07_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status07_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status07_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status08_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status08_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status08_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status08_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status09_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status09_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status09_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status09_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+				<Button Name = "Status10_Button" Width = "193" Height = "23" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusListInfo">
+					<Image Name = "Status10_Image" X = "3" Y = "3" Surf = "9005"/>
+					<Label Name = "Status10_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+					<Label Name = "Status10_Value" X = "138" Y = "5" Width = "50" Caption = "value"/>
+					<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "150" Y = "-10" Time = "800"/>
+				</Button>
+			</List>
+			<ScrollBar Name = "StatusScrollBar" X = "217" Y = "35" Width = "19" Height = "292" ScrollStart = "18" ScrollHeight = "257" Vertical = "1" MouseEvent = "StatusScroll">
+				<Button Name = "Up_Button" BaseSurf = "8699" HighlightSurf = "8700" PushSurf = "8700" MouseEvent = "StatusScrollButton"/>
+				<Button Name = "Move_Button" X = "1" Y = "29" BaseSurf = "8695" HighlightSurf = "8696" PushSurf = "8696" MouseEvent = "StatusScrollButton"/>
+				<Button Name = "Down_Button" Y = "275" BaseSurf = "8697" HighlightSurf = "8698" PushSurf = "8698" MouseEvent = "StatusScrollButton"/>
+			</ScrollBar>
+		</Window>
+	</Window>
+</ReCharStatusUI>

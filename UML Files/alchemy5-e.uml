@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>You extract the magic catalyst from Marble's Legacy.<br/></p>
+    <p>For each marble legacy, you can extract 20 magic stones, 40 spirit balls, and 10 black magic stones. Which one do you want to extract?<br/><br/><br/></p>
+    <p><a link="alchemy13">magic stone</a><br/></p>
+    <p><a link="alchemy14">spirit ball</a><br/></p>
+    <p><a link="alchemy15">black magic stone</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy4"/><br/></p>
+  </dialog>
+</npcdialog>

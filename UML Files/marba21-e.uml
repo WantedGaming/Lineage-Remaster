@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		ほーら…君にぴったりの装備が完成したぞ。この装備を全部身につければ、より素晴らしい効果が現れるぞ。
+		<br/>
+		どうかこれからも変わらずに、正義のために戦ってくれ。それじゃあ、幸運を祈る。
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

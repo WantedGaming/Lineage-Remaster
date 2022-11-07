@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ラスタバド各軍のバッジ10個か軍王たちの印章1個を集めてくだされば、推薦書を書きましょう。</p>
+  </dialog>
+</npcdialog>

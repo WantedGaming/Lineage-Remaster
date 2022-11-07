@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name><var src="name"/></name>
+		<job>[火田村のテレポーター]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>火田村はグルーディオの北側に位置する黒き森にあるよ。</p>
+		<p>もともと北側にいたオークたちが住んでいて、人間は近づかなかった場所なんだけど、とても悪い反王がグルーディオ領地を一気に掃討した戦争があったじゃない。</p>
+		<p>その戦争で家や畑を失った住民がその森を燃やして畑にしていたの。だから最近できた村なのよ。</p>
+		<p>森を追い出された北側のオークたちは要塞を建てて、しょっちゅう攻め込んでくるの。食べていくのもやっとなのにどうすることもできないでしょ？</p>
+	</dialog>
+
+</npcdialog>

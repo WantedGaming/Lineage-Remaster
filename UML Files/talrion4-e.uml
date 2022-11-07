@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	
+	<dialog>
+		
+		<p>私は<font fg="ffff00">ベヒモス</font>を守るドラゴンナイト<font fg="fff000">タリオン</font>です。<br/></p>
+		<p>私たちの父<font fg="fff000">光の竜アウラキア</font>様はイリュージョニストを助け<font fg="fff000">暗黒竜ハルパス</font>の陰謀を阻止したとおっしゃいました。<br/></p>
+		<p><font fg="fff000">アウラキア</font>様のご加護があらんことを…</p>
+
+	</dialog>
+
+</npcdialog>

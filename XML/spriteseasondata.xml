@@ -1,0 +1,11 @@
+<?xml version ="1.0"?>
+<SpriteSeasonDatas>
+	<Season id="1" repeat="1">
+		<From month="3" day="10"/>
+		<To month="5" day="10"/>
+	</Season>
+	<Season id="2" repeat="0">
+		<From year="2015" month="12" day="20"/>
+		<To year="2015" month="12" day="30"/>
+	</Season>
+</SpriteSeasonDatas>

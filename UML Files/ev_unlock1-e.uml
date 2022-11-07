@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>やあ。私はピクシーの封印解除の専門家だ。<br/><br/></p>
+	<p>ピクシーの封印解除において、私ほどの実力を持つ者は他にいないだろう。<br/><br/></p>
+	<p><font fg="ffaaff">フェザー様にもらったアイテムの魔法封印解除が必要なら、いつでも私に言ってくれ！</font><br/><br/></p>
+	<p><a action="request craft">ピクシーの封印を解除してください</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>何としても、このフェガがお力になろうと思ったのですが...すみません。買えそうな物がありません。</p>
+	</dialog>
+
+</npcdialog>

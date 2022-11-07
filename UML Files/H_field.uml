@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p>赤く光る水晶に視線を奪われる。透き通ったその光に惹きつけられる。<br/></p>
+	<p><br/></p>
+	<p><a action="H_Field">風竜の棲処入場 2,000Adena</a><br/><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

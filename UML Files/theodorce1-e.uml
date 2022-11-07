@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>君は悪に自分自身を委ねているね。怒りの前では私も時として自分の理性を保てないときがあるが、 </p>
+		<p>だからといって、本能のままに自らを委ねるつもりはこれっぽっちもない。君も早く破滅的な欲望の沼から抜け出すんだ。</p>
+	</dialog>
+
+</npcdialog>

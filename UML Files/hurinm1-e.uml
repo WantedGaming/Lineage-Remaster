@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>全てを呑み込む火花のような存在のあなたがどうして<a link="hurinM2">守護者</a>を避けてここまで来れたのでしょうか？<br/><br/></p>
+	<p>南の森から聞こえてくる悲鳴は、結局あなた方がずっと昔に招いた報いだと思います…。</p> 
+  </dialog>
+</npcdialog>

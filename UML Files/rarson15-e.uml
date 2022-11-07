@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>それには寄付金300Adenaが必要です。アデン聖堂に寄付金を渡して<font fg="ffffaf">聖水</font>をもらっています。</p>
+		<p><a action="D">寄付金300Adenaを渡す</a></p>
+	</dialog>
+
+</npcdialog>

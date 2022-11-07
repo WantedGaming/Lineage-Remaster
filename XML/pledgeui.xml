@@ -1,0 +1,456 @@
+<?xml version="1.0"?>
+<PledgeUI Toggle="true">
+	<Window Name = "ChangeRank_PopupWindow" X = "0" Y = "0" Width="55" Height="102" Moveable = "0" MouseEvent = "Dummy" Popup = "1" Activate = "0">
+		<Button Name="Rank0_Button" X = "0" Y = "0" BaseSurf = "5636" HighlightSurf = "5637" PushSurf = "5638;1" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank1_Button" X = "0" Y = "20" BaseSurf = "5639" HighlightSurf = "5640" PushSurf = "5641" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank2_Button" X = "0" Y = "40" BaseSurf = "6218" HighlightSurf = "6219" PushSurf = "6220" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank3_Button" X = "0" Y = "60" BaseSurf = "5642" HighlightSurf = "5643" PushSurf = "5644" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank4_Button" X = "0" Y = "80" BaseSurf = "5645" HighlightSurf = "5646" PushSurf = "5647" MouseEvent = "ChangeRank"/>
+	</Window>
+	<Window Name = "Noticeuserinfo_Window" X = "0" Y = "0" BaseSurf = "4512;1" FrameSurf = "4487;1" Moveable = "20" KeyboardEvent = "CloseUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "260" Y = "13" BaseSurf = "4429" PushSurf = "4430" MouseEvent = "CloseUI"/>
+		<Control Name = "Pledgename_Control" X = "19" Y = "25" Width = "189" Height = "20">
+			<Emblem Name = "Pledge_Emblem" EmblemID = "1" Y = "2" Width="20"/>
+			<Label Name = "Pledge_Label" X = "17" Y="-2" Width = "169" Height = "20" VAlign = "middle" HAlign = "left" Caption = "IU;1"/>
+		</Control>
+		<Control Name = "Noticebutton_Control" X = "183" Y = "24" Width = "66" Height = "21">
+			<Button Name = "Writenotice_Button" BaseSurf = "4488" HighlightSurf = "4489" PushSurf = "4490;1" MouseEvent = "WriteNotice"/>
+			<Button Name = "Savenotice_Button" BaseSurf = "4491" HighlightSurf = "4492" PushSurf = "4493;1" MouseEvent = "SaveNotice"/>
+		</Control>
+		<Button Name = "ModifyMemo_Button" X = "217" Y = "24" BaseSurf = "4452" HighlightSurf = "4453" PushSurf = "4454;1" MouseEvent = "ModifyMemo"/>
+		<Button Name = "Pledgenotice_Button" X = "16" Y = "41" BaseSurf = "4455" PushSurf = "4455" MouseEvent = "CloseNotice">
+			<Button Name = "Noticetri_Button" X = "200" Y = "0" BaseSurf = "4456" HighlightSurf = "4457" PushSurf="4456" MouseEvent = "CloseNotice"/>
+		</Button>
+		<Control Name = "Notice_Control" X = "21" Y = "63" Width = "225" Height = "112">
+			<MultiLabel Name = "Notice_Label" X =" 0" Y="0" Width = "225" Height = "109" VAlign = "top" HAlign = "left"/>
+			<MultiEdit Name = "Notice_Edit" X =" 0" Y="0"  Width = "225" Height = "109" LimitText="160"  LimitLine = "9"/>
+		</Control>
+		<List Name = "Sort_List" X = "16" Y = "181" Width = "208" Height = "21" Horizontal = "1">
+			<Button Name = "Classsort_Button" BaseSurf = "4458" HighlightSurf = "4459" PushSurf = "4459" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Namesort_Button" BaseSurf = "4460" HighlightSurf = "4461" PushSurf = "4461" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Ranksort_Button" BaseSurf = "4462" HighlightSurf = "4463" PushSurf = "4463" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Statsort_Button" BaseSurf = "4464" HighlightSurf = "4465" PushSurf = "4465" MouseEvent = "SortUserInfo"/>
+		</List>
+		<List Name = "Userinfo_List" X = "21" Y = "202" Width = "214" Height = "222" Vertical = "1">
+			<List Name = "Userinfo0_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo1_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo2_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo3_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo4_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo5_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo6_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo7_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo8_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo9_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo10_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo11List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+		</List>
+		<ScrollBar Name = "Userinfo_Scrollbar" X = "255" Y = "67" Width = "12" Height = "293" ScrollStart = "14" ScrollHeight = "262" Vertical = "1" MouseEvent = "UserInfoScroll">
+			<Image Name = "Background_Image" Y = "14" Surf = "4443;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "UserInfoScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "UserInfoScrollButton"/>
+			<Button Name = "Down_Button" Y = "277" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "UserInfoScrollButton"/>
+		</ScrollBar>
+		<Label Name = "OrganizationDay_Label" X = "139" Y = "383" Width = "100" Height = "25" VAlign = "middle" HAlign = "center" Caption = "OrgDate : 2012/12/12"/>
+		<Label Name = "UnitePledge_Label" X = "18" Y = "383" Width = "100" Height = "25" VAlign = "middle" HAlign = "left" Caption = "UNITE" FontColor="113,113,113"/>
+	</Window>
+	<Window Name = "Nonoticeuserinfo_Window" X = "0" Y = "0" BaseSurf = "4450;1" FrameSurf = "4451;1" Moveable = "20" KeyboardEvent = "CloseUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "260" Y = "13" BaseSurf = "4429" PushSurf = "4430" MouseEvent = "CloseUI"/>
+		<Control Name = "Pledgename_Control" X = "19" Y = "25" Width = "189" Height = "20">
+			<Emblem Name = "Pledge_Emblem" EmblemID = "1" Y = "2" Width="20" />
+			<Label Name = "Pledge_Label" X = "17" Y = "-2" Width = "169" Height = "20" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+		</Control>
+		<Button Name = "ModifyMemo_Button" X = "217" Y = "24" BaseSurf = "4452" HighlightSurf = "4453" PushSurf = "4454;1" MouseEvent = "ModifyMemo"/>
+		<Button Name = "Pledgenotice_Button" X = "16" Y = "41" BaseSurf = "4455" PushSurf = "4455" MouseEvent = "OpenNotice">
+			<Button Name = "Noticetri_Button" X = "200" Y = "0" BaseSurf = "4494" HighlightSurf = "4495" PushSurf="4494" MouseEvent = "OpenNotice"/>
+		</Button>
+		<List Name = "Sort_List" X = "16" Y = "61" Width = "208" Height = "21" Horizontal = "1">
+			<Button Name = "Classsort_Button" BaseSurf = "4458" HighlightSurf = "4459" PushSurf = "4459" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Namesort_Button" BaseSurf = "4460" HighlightSurf = "4461" PushSurf = "4461" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Ranksort_Button" BaseSurf = "4462" HighlightSurf = "4463" PushSurf = "4463" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Statsort_Button" BaseSurf = "4464" HighlightSurf = "4465" PushSurf = "4465" MouseEvent = "SortUserInfo"/>
+		</List>
+		<List Name = "Userinfo_List" X = "21" Y = "82" Width = "204" Height = "339" Vertical = "1">
+			<List Name = "Userinfo0_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo1_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo2_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo3_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo4_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo5_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo6_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo7_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo8_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo9_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo10_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo11_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo12_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo13_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo14_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo15_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo16_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo17_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo18_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+			<List Name = "Userinfo19_List" Width = "204" Height = "15" Horizontal = "1" Gap = "1">
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "19">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test"/>
+				</Image>
+				<Label Name = "Name_Label" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "GetStateTooltip">
+					<Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+				<Label Name = "Rank_Label" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "Prince" MouseEvent = "OpenPopup"/>
+				<Label Name = "Memo_Label" Width = "97" Height = "15"  VAlign = "middle" HAlign = "left" Caption = "Auction">
+				  <Tooltip Name = "Desc_Tooltip" Text = "Test" HatNewline = "0"/>
+				</Label>
+			</List>
+		</List>
+		<ScrollBar Name = "Userinfo_Scrollbar" X = "255" Y = "67" Width = "12" Height = "293" ScrollStart = "14" ScrollHeight = "262" Vertical = "1" MouseEvent = "UserInfoScroll">
+			<Image Name = "Background_Image" Y = "14" Surf = "4443;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "Dummy"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "Dummy"/>
+			<Button Name = "Down_Button" Y = "277" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "Dummy"/>
+		</ScrollBar>
+		<Label Name = "OrganizationDay_Label" X = "139" Y = "383" Width = "100" Height = "25" VAlign = "middle" HAlign = "center" Caption = "OrgDate : 2012/12/12"/>
+		<Label Name = "UnitePledge_Label" X = "18" Y = "383" Width = "100" Height = "25" VAlign = "middle" HAlign = "left" Caption = "UNITE" FontColor="113,113,113"/>
+	</Window>
+</PledgeUI>

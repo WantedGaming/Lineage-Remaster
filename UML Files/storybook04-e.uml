@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[アデンの英雄]：</font></p>
+	<p><br/></p>
+	<p>西に巨大な軍事力を持つ<font fg="ffffaf">グレシア</font>、東に豊富な資源を有する<font fg="ffffaf">エルモア</font>が位置し、両国からの度重なる侵略によって一時たりとも平和であったことのない<font fg="ffffaf">悲運の地</font>、それが<font fg="ffffaf">アデン</font>である。</p>
+	<p><br/></p>
+	<p>しかし長きに渡る戦争の歴史によって、どの国も得ることのできなかったものがあった。</p>
+	<p><br/></p>
+	<p>それは多くの<font fg="ffffaf">英雄</font>たちと、後世に伝えられた<font fg="ffffaf">逸話と歴史</font>である。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf">救国王トラビス</font>、<font fg="ffffaf">英雄王ラウル</font>をはじめとする歴代の王はもちろん、<font fg="ffffaf">アデン</font>を恐怖に陥れ<font fg="ffffaf">反王ケンラウヘル</font>と呼ばれた<font fg="ffffaf">イズケイル</font>さえも、その能力を疑うものはいないだろう。</p>
+	<p><br/></p>
+	<p>また<font fg="ffffaf">オーレン</font>の象牙の塔が輩出した数多くのウィザードやエルフの森に住む純粋なものたち、沈黙の洞窟に身を潜めているダークエルフ、時間と空間を飛び越えてきた神の守護者たちも<font fg="ffffaf">英雄の地アデン</font>とともに歴史の1ページに記されるだろう。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook05">* 戦雲漂う大陸</a></p>
+	<p><br/></p>
+	<p><a link="storybook06">* エルモア</a></p>
+	<p><br/></p>
+	<p><a link="storybook07">* 救国の英雄トバリス6世</a></p>
+	<p><br/></p>
+	<p><a link="storybook08">* 鋼鉄のギルド</a></p>
+	<p><br/></p>
+	<p><a link="storybook09">* 蜂起</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

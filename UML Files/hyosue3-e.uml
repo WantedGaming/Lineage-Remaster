@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+   <npc>
+    <name>ホシュ</name>
+    <job>[錬金術師]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">錬金術師ホシュ：</font></p>
+    <p><br/>うぅむ…砂漠のトルネードは突然現れ、また突然消えてしまう。<br/></p>
+	<p>だがこのトルネードを上手く活用すれば、遠い場所や歩いては行けない場所へも行けるんじゃないだろうか？<br/><br/></p>
+	<p>とにかく、それは重要ではない。サンドワームエリアを見物したければ、わしに2,000Adenaをよこしな！<br/><br/></p>
+	<p><a action="a">サンドワームエリアを観覧する</a></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

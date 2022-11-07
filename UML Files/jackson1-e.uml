@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジャクソン</name>
+		<job>[雑貨商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>なんだ？値段が高いってか？ちょっと待ちなよ、グルーディオからここまで品物持ってきてんだぜ。もうチョイもらわなきゃ、俺も食っていけねぇよ。 </p>
+		<p>そうじゃなくたってグルーディオの税率、<font fg="ffffff"><var src="0"/>%</font>もすんだぜ、儲けもねぇのにさ…文句なら、オーク城の領主に言いな。</p>
+
+	</dialog>
+</npcdialog>

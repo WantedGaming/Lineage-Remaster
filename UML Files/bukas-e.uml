@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">ブカの証書：</font></p>
+		<p><br/>
+		 汚染された精霊地域を研究中のドゥダ-マラ ブカです。
+		 精霊地域を探査中に以下の物が手に入ったら、必ず私のところに持ってきてください。<br/>
+		<br/>
+		 汚れた火のコア<br/>
+		 汚れた水のコア<br/>
+		 汚れた地のコア<br/>
+		 汚れた風のコア<br/>
+		 汚れた精霊のコア<br/>
+		<br/>
+		 種類が多いので失くさないように気をつけてください。ではよろしくお願いします。<br/>
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

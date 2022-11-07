@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>Knights of Aden</name>
+		<job>[Event NPCs]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<font fg="ffffaf">アデン国王の年賀状</font>と<font fg="ffffaf">アデン国王のプレミアム コイン8個</font>は手に入ったか？<br/>
+		準備が整ったら私のもとへ来い…ただし！<font fg="ffffaf">100Adena</font>支払ってもらうぞ、ホホホ。<br/>
+		<br/><br/><br/></p>
+		<p>
+		<font fg="25a6d6"><a action="non_npc a">すぐに行きます！</a></font><br/>		
+		</p>
+		</dialog>
+</npcdialog>

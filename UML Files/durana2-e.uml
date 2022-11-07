@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[船着場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		船賃が高いと思っちゃいけないよ。<br/><br/>
+		<br/><br/>
+		グルーディオまでの船路はとにかく険しいから、船を漕ぐのも楽じゃないんだ。<br/><br/>
+		<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+  </dialog>
+</npcdialog>

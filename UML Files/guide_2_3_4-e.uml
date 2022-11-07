@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 グルーディン村の東側の出口から出て、3時の方角に道に沿って進むと分かれ道になっています。北へ道をとると、巨大な岩でできた古墳のようなメインランドのダンジョンが見えてきます。入口も見えるはずです。この3階には巨大な文字の形の有名な迷路があるんですよ。<br/>
+		 3階と4階には、<font fg="ffafff">スケルトン</font>、<font fg="ffafff">スケルトン アーチャー</font>、<font fg="ffafff">ゾンビ</font>、<font fg="ffafff">グール</font>、それに<font fg="ffafff">スパルトイ</font>とかのアンデッド系がよく出るんですよ。さらに<font fg="ffafff">ドレッドスパイダー</font>に<font fg="ffafff">ジャイアント スパイダー</font>、<font fg="ffafff">バグベアー</font>、<font fg="ffafff">ケルベロス</font>とかいろいろいますよ。中には人間を見れば見境なしに攻撃してくるやつもいるから気をつけてください。<br/>
+		 おっと、これを言い忘れるところでした。ときどき、<font fg="ffafff">バルタザール</font>、<font fg="ffafff">カスパー</font>、<font fg="ffafff">メルキオール</font>、<font fg="ffafff">セマ</font>の4人のネクロマンサーが現れるんですよ。やつらは能力も高いし、パーティーを組んでて一緒に行動しているから、見かけたら避けてください。それでは、健闘を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

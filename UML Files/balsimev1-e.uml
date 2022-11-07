@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Balsim</name>
+		<job>Merchant</job>
+		<text>Peac-Loving Shady Orc Merchant</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Oh...a horrible <font fg="ffffff">spider.</font><br/>
+		 They are in the <font fg="ffffff">woods</font> near here. If you see them, run away immediately.<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p><font fg="fff00">レベル50</font>の試練も経ていないとは…もう一度ドラゴン征伐の準備ができたのか自らを振り返ってみろ。</p>
+ 
+  </dialog>
+</npcdialog>

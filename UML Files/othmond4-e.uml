@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+    <text>領主様、何をご所望ですか？</text>
+  </npc>
+  <dialog>
+	<p>傭兵を雇うには先に城への資金入金を済ませていなければなりません。</p>
+	<p>傭兵を配置させた後に傭兵隊長 ハルトを訪ねれば、傭兵を引き取ることができます。</p>
+	<p action="employ">傭兵を雇用する</p>
+	<p action="arrange">雇用した傭兵を配置する</p>
+	<p action="archer">櫓に弓士を配置する</p>
+  </dialog>
+</npcdialog>

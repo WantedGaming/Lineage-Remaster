@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェイプ</name>
+		<job>[いたずら好き]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>
+		 エセム兄ちゃんはちょっと前に子犬を見に行くって出て行ったよ。まだいると思うから、行ってみなよ。
+		 お姉ちゃんが選んだプレゼントは、エセム兄ちゃんが絶対気に入ると思うよ。<br/>
+		 グッドラック！<br/>
+		<br/>
+		<a link="jp9">もっとプレゼントをあげたいんだけど…</a><br/>
+		
+		 
+		 
+		</p>
+	</dialog>
+</npcdialog>

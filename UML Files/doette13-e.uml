@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+<font fg="ffffff">ミスリル</font>を精製して得られる金属なんだけど、 
+これでメッキした武器は、ミスリルのやつよりもずっと 
+強力に仕上がるから、言ってみれば神の金属だね。でも精製方法は<font fg="ffffff">フェアリー クイーン</font>しか知らないそうだよ。 
+フェアリー クイーンに会うには、村の北西にあるロウフル神殿に行く途中に出てくる、<font fg="ffffff">花畑</font>のそばに行けば会えるそうだよ。
+でも、フェアリーは気まぐれな種族だから、彼女の前ではくれぐれも気を使って礼儀正しくするんだよ。
+<br/>
+あ、オリハルコンには<font fg="ffffff">傷ついたり腐食した武器をなおす効果</font>もあるんだよ。ブロッブで腐食した武器にはそれが一番だよ。
+</p> 
+  </dialog>
+</npcdialog>

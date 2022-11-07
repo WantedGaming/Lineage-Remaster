@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<PledgeUI Toggle="true">
+	<Window Name = "ChangeRank_PopupWindow" X = "0" Y = "0" Width="55" Height="102" Moveable = "0" MouseEvent = "Dummy" Popup = "1" Activate = "0">
+		<Button Name="Rank0_Button" X = "0" Y = "0" BaseSurf = "5636" HighlightSurf = "5637" PushSurf = "5638;1" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank1_Button" X = "0" Y = "20" BaseSurf = "5639" HighlightSurf = "5640" PushSurf = "5641" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank2_Button" X = "0" Y = "40" BaseSurf = "6218" HighlightSurf = "6219" PushSurf = "6220" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank3_Button" X = "0" Y = "60" BaseSurf = "5642" HighlightSurf = "5643" PushSurf = "5644" MouseEvent = "ChangeRank"/>
+		<Button Name="Rank4_Button" X = "0" Y = "80" BaseSurf = "5645" HighlightSurf = "5646" PushSurf = "5647" MouseEvent = "ChangeRank"/>
+	</Window>
+	<Window Name = "JoinConfirm_Window" X = "0" Y = "0" Width="48" Height="41" Moveable = "0" MouseEvent = "Dummy" Popup = "1" Activate = "0">
+		<Button Name="Accept_Button" X = "0" Y = "0" BaseSurf = "7898" HighlightSurf = "7899" PushSurf = "7900;1" MouseEvent = "AcceptJoinRequest"/>
+		<Button Name="Refuse_Button" X = "0" Y = "20" BaseSurf = "7895" HighlightSurf = "7896" PushSurf = "7897;1" MouseEvent = "RefuseJoinRequest"/>
+	</Window>
+	<Window Name = "ManageMember_Window" X = "0" Y = "0" Width = "68" Height = "43" Moveable = "0" MouseEvent = "Dummy" Popup = "1" Activate = "0">
+		<Button Name = "InputNick_Button" Height = "20" BasePng = "10742;1" HighlightPng = "10743;1" PushPng = "10744;1" MouseEvent = "InputNickName"/>
+		<Button Name = "Ban_Button" BasePng = "10733;1" HighlightPng = "10734;1" PushPng = "10735;1" MouseEvent = "BanPledgeMember"/>
+		<Button Name = "Left_Button" BasePng = "10736;1" HighlightPng = "10737;1" PushPng = "10738;1" MouseEvent = "LeftPledge"/>
+		<Button Name = "Dissmiss_Button" BasePng = "10739;1" HighlightPng = "10740;1" PushPng = "10741;1" MouseEvent = "LeftPledge"/>
+	</Window>
+	<Window Name = "PledgeOption_Window" X = "0" Y = "0" BasePng = "10745;1" MouseEvent = "Dummy" KeyboardEvent = "CloseOption" Activate = "0">
+		<Button Name = "CloseOption_Button" X = "256" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseOption"/>
+		<CheckButton Name = "EnableJoin_Button" X = "20" Y = "66" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "EnableJoinState"/>
+		<Control Name = "JoinType_Control" X = "68" Y = "82" Width = "110" Height = "74">
+			<ComboBox Name = "ListType_Combobox" X = "50" Y = "0" Width = "83" Height = "74">
+				<Label Name = "Text_Label" Caption = "item00" X = "3" Y = "-1" Width = "77" Height = "23" HAlign = "center" VAlign = "middle"/>
+				<Button Name = "Expand_Button" X = "0" Y = "0" BasePng = "10746" HighlightPng="10747" PushPng = "10747" MouseEvent = "ExpandJoinType"/>
+				<UpDownList Name = "Expand_List" X = "0" Y = "19" PageSize = "0" Width = "84" Height = "55" Vertical = "1" Gap = "1">
+					<Image Name = "Background_Image" X = "0" Y = "0" Png = "10750"/>
+					<CheckButton Name = "Item1_Button" X = "3" Width = "77" Height = "17" String = "3922" PushPng="10751;4" FontColor = "144,136,123" Align = "center" MouseEvent = "ChangeJoinType"/>
+					<CheckButton Name = "Item2_Button" X = "3" Width = "77" Height = "17" String = "3923" PushPng="10751;4" FontColor = "144,136,123" Align = "center" MouseEvent = "ChangeJoinType"/>
+					<CheckButton Name = "Item3_Button" X = "3" Width = "77" Height = "17" String = "3924" PushPng="10751;4" FontColor = "144,136,123" Align = "center" MouseEvent = "ChangeJoinType"/>
+				</UpDownList>
+			</ComboBox>
+			<Button Name = "ChangePassword_Button" X = "138" Y = "0" Width = "33" Height = "17" BasePng = "10720" HighlightPng="10721" PushPng = "10722;1" MouseEvent = "ChangePassword"/>
+			<Label Name = "JoinType_Label" X = "-5" Y = "3" Width = "50" Height = "15" String = "4075" FontColor = "205,200,175"/>
+		</Control>
+		<CheckButton Name = "Emblem_Button"  X = "20" Y = "125" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "ShowPledgeEmblem"/>
+		<Control Name = "WarState_Control" X = "28" Y = "164" Width = "260" Height = "50">
+			<Label Name = "WarState_Label" X = "0" Y = "24" Width = "210" Height = "15" FontColor = "188,108,14" Caption = "IU"/>
+			<Button Name = "DeclareWar_Button" X = "0" Y = "0" BasePng = "10752;1" HighlightPng = "10753;1" PushPng = "10753;1" MouseEvent = "ChangeWarState"/>
+			<Button Name = "CeaseWar_Button" X = "73" Y = "0" BasePng = "10756;1" HighlightPng = "10757;1" PushPng = "10757;1" MouseEvent = "ChangeWarState"/>
+			<Button Name = "Surrender_Button" X = "145" Y = "0" BasePng = "10754;1" HighlightPng = "10755;1" PushPng = "10755;1" MouseEvent = "ChangeWarState"/>
+		</Control>
+		<Button Name = "AddFocusPledge_Button" X = "170" Y = "208" BasePng = "10766" HighlightPng = "10767" PushPng = "10768;1" MouseEvent = "AddFocusPledge"/>
+		<Button Name = "DelFocusPledge_Button" X = "206" Y = "208" BasePng = "10769" HighlightPng = "10770" PushPng = "10771;1" MouseEvent = "DelFocusPledge"/>
+		<Control Name = "FocusPledge_Control" X = "0" Y = "206" Width = "279" Height = "75">
+			<Control Name = "PledgeName_List" X = "20" Y = "19" Width = "255" Height = "67">
+				<Control Name = "WatchPledge_Control01" X = "0" Y = "0" Width = "127" Height = "15">
+					<CheckButton Name = "Pledge_Check01" X = "0" Y = "0" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckFocusPledge"/>
+					<Label Name = "Pledge_Name01" X = "17" Y="2" Width = "100" FontColor = "171,163,131" Caption = "IU"/>
+				</Control>
+				<Control Name = "WatchPledge_Control02" X = "113" Y = "0" Width = "127" Height = "15">
+					<CheckButton Name = "Pledge_Check02" X = "0" Y = "0" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckFocusPledge"/>
+					<Label Name = "Pledge_Name02" X = "17" Y="2" Width = "100" FontColor = "171,163,131" Caption = "IU"/>
+				</Control>
+				<Control Name = "WatchPledge_Control03" X = "0" Y = "18" Width = "127" Height = "15">
+					<CheckButton Name = "Pledge_Check03" X = "0" Y = "0" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckFocusPledge"/>
+					<Label Name = "Pledge_Name03" X = "17" Y="2" Width = "100" FontColor = "171,163,131" Caption = "IU"/>
+				</Control>
+				<Control Name = "WatchPledge_Control04" X = "113" Y = "18" Width = "127" Height = "15">
+					<CheckButton Name = "Pledge_Check04" X = "0" Y = "0" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckFocusPledge"/>
+					<Label Name = "Pledge_Name04" X = "17" Y="2" Width = "100" FontColor = "171,163,131" Caption = "IU"/>
+				</Control>
+				<Control Name = "WatchPledge_Control05" X = "0" Y = "36" Width = "127" Height = "15">
+					<CheckButton Name = "Pledge_Check05" X = "0" Y = "0" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckFocusPledge"/>
+					<Label Name = "Pledge_Name05" X = "17" Y="2" Width = "100" FontColor = "171,163,131" Caption = "IU"/>
+				</Control>
+				<Control Name = "WatchPledge_Control06" X = "113" Y = "36" Width = "127" Height = "15">
+					<CheckButton Name = "Pledge_Check06" X = "0" Y = "0" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckFocusPledge"/>
+					<Label Name = "Pledge_Name06" X = "17" Y="2" Width = "100" FontColor = "171,163,131" Caption = "IU"/>
+				</Control>
+			</Control>
+			<ScrollBar Name = "PledgeListScroll" X = "248" Y = "0" Width = "13" Height = "73" ScrollStart = "14" ScrollHeight = "46" Vertical = "1" MouseEvent = "PledgeListScroll">
+				<Button Name = "Up_Button" BaseSurf = "9202" HighlightSurf = "9203" PushSurf = "9203" MouseEvent = "PledgeListScrollButton"/>
+				<Button Name = "Move_Button" X="1" Y = "14" BaseSurf = "9204;1" HighlightSurf = "9205;1" PushSurf = "9205;1" MouseEvent = "PledgeListScrollButton"/>
+				<Button Name = "Down_Button" Y = "60" BaseSurf = "9206" HighlightSurf = "9207" PushSurf = "9207" MouseEvent = "PledgeListScrollButton"/>
+			</ScrollBar>
+		</Control>
+	</Window>
+	<Control Name = "BoardImage" X = "0" Y = "0" Width = "285" Height = "413" MouseEvent = "Dummy" Activate = "0"/>
+	<Window Name = "EmblemList_Window" X = "0" Y = "0" Width = "193" Height = "160" BasePng = "10758;1" Moveable = "0" Popup = "1" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Close_Button" X = "170" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseEmblemUI"/>
+		<Button Name = "Help_Button" X = "151" Y = "7" BasePng = "10760;1" PushPng = "10761;1">
+			<Tooltip Name = "Desc_Tooltip" Text = "dummy"/>
+		</Button>
+		<Control Name = "Button_List" X = "29" Y = "45" Width = "15" Height = "85" Vertical = "1">
+			<RadioButton Name = "Check_Button01" X = "0" Y = "3" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "SelectEmblem"/>
+			<RadioButton Name = "Check_Button02" X = "0" Y = "19" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "SelectEmblem"/>
+			<RadioButton Name = "Check_Button03" X = "0" Y = "35" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "SelectEmblem"/>
+			<RadioButton Name = "Check_Button04" X = "0" Y = "51" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "SelectEmblem"/>
+			<RadioButton Name = "Check_Button05" X = "0" Y = "67" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "SelectEmblem"/>
+		</Control>
+		<List Name = "Emblem_List" X = "47" Y = "47" Width = "110" Height = "85" Vertical = "1" Gap="1">
+			<Control Name = "Emblem01" Width = "120" Height = "15">
+				<Emblem Name = "Pledge_Emblem01" Y = "2" EmblemID = "1" Width = "16" Height = "12"/>
+				<Label Name = "Filename_Label01" X = "18" Y = "2" Width = "90" Height = "15" HAlign = "left" VAlign = "middle" Caption = "IU"/>
+			</Control>
+			<Control Name = "Emblem02" Width = "120" Height = "15">
+				<Emblem Name = "Pledge_Emblem02" Y = "2" EmblemID = "1" Width = "16" Height = "12"/>
+				<Label Name = "Filename_Label02" X = "18" Y = "2" Width = "90" Height = "15" HAlign = "left" VAlign = "middle" Caption = "IU"/>
+			</Control>
+			<Control Name = "Emblem03" Width = "120" Height = "15">
+				<Emblem Name = "Pledge_Emblem03" Y = "2" EmblemID = "1" Width = "16" Height = "12"/>
+				<Label Name = "Filename_Label03" X = "18" Y = "2" Width = "90" Height = "15" HAlign = "left" VAlign = "middle" Caption = "IU"/>
+			</Control>
+			<Control Name = "Emblem04" Width = "120" Height = "15">
+				<Emblem Name = "Pledge_Emblem04" Y = "2" EmblemID = "1" Width = "16" Height = "12"/>
+				<Label Name = "Filename_Label04" X = "18" Y = "2" Width = "90" Height = "15" HAlign = "left" VAlign = "middle" Caption = "IU"/>
+			</Control>
+			<Control Name = "Emblem05" Width = "120" Height = "15">
+				<Emblem Name = "Pledge_Emblem05" Y = "2" EmblemID = "1" Width = "16" Height = "12"/>
+				<Label Name = "Filename_Label05" X = "18" Y = "2" Width = "90" Height = "15" HAlign = "left" VAlign = "middle" Caption = "IU"/>
+			</Control>
+		</List>
+		<Button Name = "OK_Button" X = "70" Y = "137" BasePng = "10762" HighlightPng = "10763" PushPng = "10764;1" MouseEvent = "SaveEmblem"/>
+		<ScrollBar Name = "EmblemList_Scroll" X = "172" Y = "43" Width = "17" Height = "93" ScrollStart = "14" ScrollHeight = "65" Vertical = "1" MouseEvent = "EmblemInfoScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10759;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" HighlightSurf = "4447;1" PushSurf = "4447;1" MouseEvent = "EmblemInfoScrollBtn"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" HighlightSurf = "4449;1" PushSurf = "4449;1" MouseEvent = "EmblemInfoScrollBtn"/>
+			<Button Name = "Down_Button" Y = "79" BaseSurf = "4444;1" HighlightSurf = "4445;1" PushSurf = "4445;1" MouseEvent = "EmblemInfoScrollBtn"/>
+		</ScrollBar>
+	</Window>
+
+	<Window Name = "Noticeuserinfo_Window" X = "0" Y = "0" Width = "285" Height = "413" BasePng = "10719;1" Moveable = "20" KeyboardEvent = "CloseUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseUI"/>
+		<Control Name = "Pledgename_Control" X = "57" Y = "55" Width = "190" Height = "30">
+			<Emblem Name = "Pledge_Emblem" Y = "1" EmblemID = "1" Width = "16" Height = "12" MouseEvent = "PopupEmblem">
+				<Tooltip Name = "Desc_Tooltip" String="4496"/>
+			</Emblem>
+			<Label Name = "Pledge_Label" X = "19" Y = "1" Height = "15" VAlign = "middle" HAlign = "left" FontColor="113,113,113" Caption = ";1"/>
+			<Image Name = "Agit_Image" Y = "-1" Width = "18" Surf = "7910"/>
+			<Image Name = "Castle_Image" Y = "-1" Width = "18" Surf = "7911"/>
+			<Label Name = "OrganizationDay_Label" X = "82" Y = "17" Width = "100" Height = "15" VAlign = "middle" HAlign = "left" FontColor="113,113,113" Caption = "2012/12/12"/>
+			<Label Name = "UnitePledge_Label" X = "0" Y = "17" Width = "35" Height = "15" VAlign = "middle" HAlign = "left" Caption = "UNITE" FontColor="113,113,113">
+				<Tooltip Name = "Desc_Tooltip" Text = "dummy"/>
+			</Label>
+		</Control>
+		<Control Name = "Noticebutton_Control" X = "27" Y = "135" Width = "18" Height = "18">
+			<Button Name = "Writenotice_Button" BasePng = "10726" HighlightPng = "10725;1" PushPng = "10725;1" MouseEvent = "WriteNotice">
+				<Tooltip Name = "Desc_Tooltip" String="4116"/>
+			</Button>
+			<Button Name = "Savenotice_Button" BasePng = "10728" HighlightPng = "10727;1" PushPng = "10727;1" MouseEvent = "SaveNotice" Activate="false">
+				<Tooltip Name = "Desc_Tooltip" String="4117"/>
+			</Button>
+		</Control>
+		<Button Name = "ShowOption_Button" X = "223" Y = "69" Width = "33" Height = "17" BasePng = "10720" HighlightPng = "10721" PushPng = "10722;1" Activate = "0" MouseEvent = "OpenOption"/>
+	
+		<Button Name = "Pledgenotice_Button" X = "225" Y = "90" BaseSurf = "4456" PushSurf = "4457" MouseEvent = "CloseNotice">
+			<Button Name = "Noticetri_Button" X = "0" Y = "0" BaseSurf = "4456" HighlightSurf = "4457" PushSurf="4456" MouseEvent = "CloseNotice"/>
+		</Button>
+		<Control Name = "Notice_Control" X = "28" Y = "110" Width = "248" Height = "107">
+			<MultiLabel Name = "Notice_Label" X ="5" Y="3" Width = "218" Height = "99" VAlign = "top" HAlign = "left" FontColor="113,113,113"/>
+			<MultiEdit Name = "Notice_Edit" X ="5" Y="3" Width = "218" Height = "99" LimitLine = "9"/>
+			<ScrollBar Name = "Notice_ScrollBar" X = "236" Y = "-2" Width = "12" Height = "107" ScrollStart = "14" ScrollHeight = "79" Vertical = "1" MouseEvent = "NoticeScroll">
+				<Image Name = "Background_Image" Y = "14" Png = "10730;1"/>
+				<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "NoticeScrollButton"/>
+				<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "NoticeScrollButton"/>
+				<Button Name = "Down_Button" Y = "93" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "NoticeScrollButton"/>
+			</ScrollBar>
+		</Control>
+		<List Name = "Sort_List" X = "25" Y = "216" Width = "208" Height = "21" Horizontal = "1">
+			<Button Name = "Classsort_Button" BaseSurf = "4458" HighlightSurf = "4459" PushSurf = "4459" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Namesort_Button" BaseSurf = "4460" HighlightSurf = "4461" PushSurf = "4461" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Ranksort_Button" BaseSurf = "4462" HighlightSurf = "4463" PushSurf = "4463" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Statsort_Button" BaseSurf = "4464" HighlightSurf = "4465" PushSurf = "4465" MouseEvent = "SortUserInfo"/>
+		</List>
+		<List Name = "Userinfo_List" X = "31" Y = "235" Width = "229" Height = "165" Vertical = "1">
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+		</List>
+		<ScrollBar Name = "Userinfo_Scrollbar" X = "264" Y = "233" Width = "12" Height = "166" ScrollStart = "14" ScrollHeight = "138" Vertical = "1" MouseEvent = "UserInfoScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10731;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "UserInfoScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "UserInfoScrollButton"/>
+			<Button Name = "Down_Button" Y = "152" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "UserInfoScrollButton"/>
+		</ScrollBar>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+	</Window>
+	<Window Name = "Nonoticeuserinfo_Window" X = "0" Y = "0" Width = "285" Height = "413" BasePng="10718;1" Moveable = "30" KeyboardEvent = "CloseUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseUI"/>
+		<Control Name = "Pledgename_Control" X = "57" Y = "55" Width = "190" Height = "30">
+			<Emblem Name = "Pledge_Emblem" Y = "1" EmblemID = "1" Width = "16" Height = "12" MouseEvent = "PopupEmblem"/>
+			<Label Name = "Pledge_Label" X = "19" Y = "1" Height = "15" VAlign = "middle" HAlign = "left" FontColor="113,113,113" Caption = ";1"/>
+			<Image Name = "Agit_Image" Y = "-1" Width = "18" Surf = "7910"/>
+			<Image Name = "Castle_Image" Y = "-1" Width = "18" Surf = "7911"/>
+			<Label Name = "OrganizationDay_Label" X = "82" Y = "17" Width = "100" Height = "15" VAlign = "middle" HAlign = "left" FontColor="113,113,113" Caption = "2012/12/12"/>
+			<Label Name = "UnitePledge_Label" X = "0" Y = "17" Width = "35" Height = "15" VAlign = "middle" HAlign = "left" Caption = "UNITE" FontColor="113,113,113">
+				<Tooltip Name = "Desc_Tooltip" Text = "dummy"/>
+			</Label>
+		</Control>
+		<Button Name = "ShowOption_Button" X = "223" Y = "69" Width = "33" Height = "17" BasePng = "10720" HighlightPng = "10721" PushPng = "10722;1" Activate = "0" MouseEvent = "OpenOption"/>
+		
+		<Button Name = "Pledgenotice_Button" X = "25" Y = "89" BaseSurf = "4455" PushSurf = "4455" MouseEvent = "OpenNotice">
+			<Button Name = "Noticetri_Button" X = "200" Y = "0" BaseSurf = "4494" HighlightSurf = "4495" PushSurf="4494" MouseEvent = "OpenNotice"/>
+		</Button>
+		<List Name = "Sort_List" X = "25" Y = "108" Width = "208" Height = "21" Horizontal = "1">
+			<Button Name = "Classsort_Button" BaseSurf = "4458" HighlightSurf = "4459" PushSurf = "4459" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Namesort_Button" BaseSurf = "4460" HighlightSurf = "4461" PushSurf = "4461" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Ranksort_Button" BaseSurf = "4462" HighlightSurf = "4463" PushSurf = "4463" MouseEvent = "SortUserInfo"/>
+			<Button Name = "Statsort_Button" BaseSurf = "4464" HighlightSurf = "4465" PushSurf = "4465" MouseEvent = "SortUserInfo"/>
+		</List>
+		<List Name = "Userinfo_List" X = "31" Y = "127" Width = "229" Height = "270" Vertical = "1">
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+			<Include Xml="CommunityTab.xml" Root="UserinfoList"/>
+		</List>
+		<ScrollBar Name = "Userinfo_Scrollbar" X = "264" Y = "105" Width = "12" Height = "272" ScrollStart = "14" ScrollHeight = "244" Vertical = "1" MouseEvent = "UserInfoScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10729;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "UserInfoScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "UserInfoScrollButton"/>
+			<Button Name = "Down_Button" Y = "258" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "UserInfoScrollButton"/>
+		</ScrollBar>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+	</Window>
+</PledgeUI>

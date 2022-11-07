@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extracting magical catalysts from Saiha's relics.<br/></p>
+    <p>You can extract 25 Magic Stones, 60 Spirit Orbs, and 20 Black Magic Stones from each Saiha Legacy. Which one do you want to extract?<br/><br/><br/></p>
+    <p><a link="alchemy16">magic stone</a><br/></p>
+    <p><a link="alchemy17">spirit ball</a><br/></p>
+    <p><a link="alchemy18">black magic stone</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy4"/><br/></p>
+  </dialog>
+</npcdialog>

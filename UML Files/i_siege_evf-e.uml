@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>象牙の塔所属のウィザード。時空の向こうに発見された城を奪還するため、派遣任務を担っている。</text>
+	</npc>
+	<dialog>
+		<p>
+		現在は進入禁止です。<br/><br/>
+		未知の地域なので、危険を考慮して限られた時間(19時30分～21時30分)にのみ入場が許可されています。また、<font fg="ffffaf">レベル60以上</font>の実力を持つ方にのみご協力をお願いしています。<br/>
+		</p>
+	</dialog>
+</npcdialog>

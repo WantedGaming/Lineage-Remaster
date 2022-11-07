@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>[ファアグリオの鍛冶屋の弟子]</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	<dialog>
+		<p><br/>
+		 こんにちは！ファアグリオの結晶体の製作は、師匠に代わって私がすることになりました。<br/>
+		<br/>
+		 強化されたアイテムを持ってくれば、私が製作いたします！<br/>
+		<br/>
+		<br/>
+		<a action="itemresolve">結晶体を精錬する</a><br/>
+		<br/>
+		<br/>		
+		</p>
+	</dialog>
+</npcdialog>
+

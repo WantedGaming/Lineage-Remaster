@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そいつを直したいなら、遠征隊員のアーマーと高級ブルークリスタル5個、高級グリーンクリスタル5個、高級レッドクリスタル5個、汚れたエントの表皮6枚、そしてオリハルコン100個が必要だ。そうすれば君が使いやすいようにアーマーを直してあげよう。
+		<br/>
+		<br/>
+		<a action="3">アーマーを直してください</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

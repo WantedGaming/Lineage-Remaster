@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>鍛冶屋</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クエン</name>
+		<job>[鍛冶屋]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		[ブラックミスリル]<br></br>
+		火山灰1個<br></br>
+		黒精霊石1個<br></br>
+		ブロッブの胃液1個<br></br>
+		ブラックミスリルの原石5個<br></br>
+		手数料5000Adena<br></br>
+
+		[ランプ スチール]<br></br>
+		鋼鉄の原石5個<br></br>
+		ランプ メタル5個<br></br>
+		手数料500Adena<br></br>
+
+		[シルバー]<br></br>
+		シルバーのピース10個<br></br>
+		手数料500Adena<br></br>
+
+		[ゴールド]<br></br>
+		ゴールドのピース10個<br></br>
+		手数料1000Adena<br></br>
+
+		[プラチナ]<br></br>
+		プラチナのピース10個<br></br>
+		手数料5000Adena<br></br>
+
+		[薄い金属板]<br></br>
+		ランプ メタル10個<br></br>
+		手数料500Adena<br></br>
+
+		[シルバー プレート]<br></br>
+		シルバー5個<br></br>
+		ランプ スチール3個<br></br>
+		手数料1000Adena<br></br>
+
+		[ゴールド プレート]<br></br>
+		ゴールド5個<br></br>
+		ランプ スチール3個<br></br>
+		手数料3000Adena<br></br>
+
+		[プラチナ プレート]<br></br>
+		プラチナ5個<br></br>
+		ランプ スチール3個<br></br>
+		手数料10,000Adena<br></br>
+
+		[ブラックミスリル プレート]<br></br>
+		ブラックミスリル10個<br></br>
+		ミスリル プレート1個<br></br>
+		オリハルコン プレート1個<br></br>
+		プラチナ プレート1個<br></br>
+		ゴールド プレート1個<br></br>
+		シルバー プレート1個<br></br>
+		手数料10,000Adena<br></br>
+
+		<img src="331" link="kuen5"/>
+				
+		</p>
+		
+		</dialog>
+	
+</npcdialog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <type>shop</type>
+  <mode>buygeneral</mode>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>판도라</name>
+    <job>[ 상인 ]</job>
+    <text>어서오세요.</text>
+  </npc>
+</npcdialog>

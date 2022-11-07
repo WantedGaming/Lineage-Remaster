@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 呪われた思念体たちが閉じ込められている場所だと聞いています。何か問題が
+		 起きたようなので、確認してきてください。<br/>
+		 移動の際、少額の費用が発生しますので、ご注意ください。
+		<br/><br/>
+		<a action="teleport orc_sihone">シフォンのポータルへ移動</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

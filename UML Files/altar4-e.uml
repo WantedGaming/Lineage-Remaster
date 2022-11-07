@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>祭壇</name>
+  </npc>
+  <dialog>
+   <p>ゴーストの息吹20個と花束が必要です。<br/><br/><br/></p>
+   <p>[花の種類を選択]</p>
+   <p><a action="A">キクの花束</a></p>
+   <p><a action="B">デイジーの花束</a></p>
+   <p><a action="C">バラの花束</a></p>
+   <p><a action="D">カラーの花束</a></p>
+   <p><a action="E">ヒマワリの花束</a></p>
+   <p><a action="F">フリージアの花束</a></p>
+  </dialog>
+</npcdialog>

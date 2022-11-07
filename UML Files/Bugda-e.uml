@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><var src="name"/>：</font><br/></p>
+	<p>Yılmen told me that you have contributed greatly in Aden.</p>
+	<p>I would like to commend you for your work and will exchange the items I have for the certificates you have collected.<br/></p>
+	<panel type="Panel_Shop_Bt_Buy">
+		<button action="buy"/>
+	</panel>
+  </dialog>
+</npcdialog>

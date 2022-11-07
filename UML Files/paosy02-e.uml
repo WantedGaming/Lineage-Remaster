@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>フェオシ</name>
+    <job>[エバートの妻]</job>
+    <text>ご機嫌よう。フェオシといいます。</text>
+  </npc>
+  <dialog>
+	<p>私に何かご用ですか？ </p> 
+	<p>うん…エバートが作った新作を売らないと…</p>
+	</dialog>
+</npcdialog>

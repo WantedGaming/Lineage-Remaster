@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>レイブン</name>
+		<job>[イベント報賞]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		何？もう終わった？<br/>
+		<br/>
+		それなりに強い精鋭部隊だから、こんなに早く終わるはずがないんだが…<br/>
+		どんなに実力があっても、時間がかかる仕事なんだ。<br/>
+		 <font fg="ffffaf">精鋭部隊の証100個</font>と
+		<font fg="ffffaf">破れた取引帳簿</font>を持ってきてくれ。
+		取引帳簿は商団員のセラムが持っているぞ。
+		<font fg="ffffaf">ドラゴンの宝箱1個</font>を一緒に持ってくれば、追加報賞があるからな。<br/>
+		<br/>
+	<br/>
+	    だが、<font fg="afffff">レベル60</font>に到達していないなら、報賞は<br/>
+	    渡せないぞ。
+		<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

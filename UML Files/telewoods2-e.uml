@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Wizard Tray</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>You can teleport to the following villages with fees from here.</p>
+		<p>Which village would you like to visit?</p>
+		<p><a action="teleport woods-gludin">Gludin Village:<var src="0"/>Adena</a></p>
+		<p><a action="teleport woods-silver">Silver Knight Town:<var src="1"/>Adena</a></p>
+		<p><a action="teleport woods-kent">Kent Castle Town:<var src="2"/>Adena</a></p>
+		<p><a action="teleport woods-willow">Firefield Village:<var src="3"/>Adena</a></p>
+		<p><a action="teleport woods-heine">Heine Castle Town:<var src="4"/>Adena</a></p>
+		<p><a action="teleport woods-giran">Giran Castle Town:<var src="5"/>Adena</a></p>
+		<p><a action="teleport woods-aden">Aden:<var src="6"/>Adena</a></p>
+		<p><a action="teleport woods-werldern">Werldern Village<var src="7"/>Adena</a></p>
+		<p><a action="teleport woods-oren">Oren Village:<var src="8"/>Adena</a></p>
+		<p><a action="teleport woods-lowful">Lawful Temple:<var src="9"/>Adena</a></p>
+		<p><a action="teleport woods-chaos">Chaotic Temple:<var src="10"/>Adena</a></p>
+		<p><a action="teleport woods-grape">Wizard Lab:<var src="11"/>Adena</a></p>
+		<p><a action="teleport woods-island">Talking Island:<var src="12"/>Adena</a></p>
+		<p><a action="teleport woods-scave">Cave of Silence:<var src="13"/>Adena</a></p>
+		<p><a action="teleport woods-diad">Diad Fortress:<var src="14"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

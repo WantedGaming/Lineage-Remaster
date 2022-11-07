@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+    <p>ようこそ、この老いぼれになにか用でもあるのかね？</p> 	
+    <p><a link="lukein11">この指輪を見ていただけますか？</a></p>
+	</dialog>
+</npcdialog>

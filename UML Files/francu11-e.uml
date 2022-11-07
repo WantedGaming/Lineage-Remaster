@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>そうだな…君を信じて任せるよ。頼んだぞ。…ありがとう。<br/><br/>
+		</p><p><a action="b">外に出してもらえますか？</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

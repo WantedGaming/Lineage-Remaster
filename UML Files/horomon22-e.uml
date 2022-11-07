@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+  <dialog>
+    <p>過ぎたるは及ばざるがごとしという言葉がありますね。<br/></p>
+    <p>何でも度が過ぎると、却って災いとなることがあります。</p>
+    <p>今日はささやかな幸せが、とても大切に感じられる日となるでしょう。</p>
+  </dialog>
+</npcdialog>

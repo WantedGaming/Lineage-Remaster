@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>君主魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">君主の魔法：レベル1君主魔法</font><br/></p>
+	<p><font fg="ffffaf">トゥルーターゲット：</font><br/>
+	種類：操作<br/>
+	性向：Lawful<br/>
+	消耗MP/HP：2/0<br/>
+	持続時間：一瞬<br/>
+	対象：指定されたPCまたはNPCの1人<br/>
+	効果：術者から15セル内の1体の対象(プレイヤー及びNPC)を追跡するエフェクトが出力され、対象が受けるダメージ量が1%増加します。<br/>
+	術者のレベルが15上がるごとに、ダメージ量が1%増加します。<br/>
+	エフェクトと追加ダメージは、術者の血盟員やパーティーメンバーにのみ表示/適用されます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

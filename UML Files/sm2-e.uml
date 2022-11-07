@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>今日は何故か気分が良いですね。良いことが起きそうだ。<br/></p>
+			
+		<p><a link="sm3">わ…私の気持ちを受け取ってください。ずっと前からあなたのことが好きでした。</a><br/></p>
+			
+	</dialog>
+
+</npcdialog>

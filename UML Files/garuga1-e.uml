@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		当然ご存知でしょうが、ここから遠く南のほうに行くと、アデン王国があります。行ったことはありますか？<br/><br/>
+		初めてその光景を見たときは圧倒されてしまいました。
+		こんな小さな村なら何十個も入ってしまうほどとても大きな都市でした。<br/><br/>
+		本当に何とも表現の仕様がないほど壮観な眺めでした…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Wanted Gaming Server</name>
+		<job>[Event]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/> 
+		 Server Watch is the official reporter for various Lineage-related information.<br/>
+		<br/>
+		 If you have any game-related information that you are usually curious about, or any hot topics that are happening on this server
+		Please let the server manager know through the various community contacts.<br/>
+		<br/>
+		 <a action="A">We will give you a special buff for our server.</a><br/>
+		<br/>
+		</p>
+		 <p>We will do our best to make the community more convenient and enjoyable.<br/></p>
+		<p align="right">From Wanted Gaming Server Team</p>
+		
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffaf">剥製可能モンスターリスト</font><br/><br/></p>
+    <p>ジャイアント アント ソルジャー</p>
+    <p>ベアー</p>
+    <p>ラミア</p>
+    <p>ブラック タイガー</p>
+    <p>鹿</p>
+    <p>ハーピー</p>
+  </dialog>
+</npcdialog>

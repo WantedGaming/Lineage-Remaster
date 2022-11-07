@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+        <p><br/>
+        The magic of the spirits is, as the term implies, the magic of receiving and using the power of the spirits, who are the embodiment of the fundamental power of this world.<br/></p>
+        <p>If you want to learn another attribute, you must throw away what you have and regain purity again.</p>
+        <p>What can you do in exchange for restoring purity?</p>
+        <br/>
+        <panel type="Panel_Initialization_01_Bt">
+            <button action="count"/>
+            <button link="ellyonne14"/>
+        </panel>
+		
+	</dialog>
+</npcdialog>

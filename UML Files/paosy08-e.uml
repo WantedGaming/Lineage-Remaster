@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>フェオシ</name>
+    <job>[エバートの妻]</job>
+    <text>ご機嫌よう。フェオシといいます。</text>
+  </npc>
+  <dialog>
+	<p> 使うTシャツと<font fg="ffffaf">同じエンチャント数値の変換石</font>を使うことも絶対に忘れないでくださいね！</p>
+	<p>それともう一つ！一度変えたTシャツは、<font fg="ffffaf">元に戻せなくなる</font>ので、忘れずに覚えておいてくださいね！</p>
+  </dialog>
+</npcdialog>

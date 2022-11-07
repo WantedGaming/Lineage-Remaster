@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>Keplisha</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>影の神殿で狩りをしている途中、ヤヒに遭遇し一撃で倒されてしまうでしょう。<br/><br/></p>
+	<p>今日はどこで狩りをしても、苦戦は避けられないでしょう。できるだけ村で休むことをお勧めします。狩りに出なければならない場合は大勢で出かけましょう。一人で狩ると100%災いを被ってしまうでしょう。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

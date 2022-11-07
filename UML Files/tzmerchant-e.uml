@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<portrait>PO_006</portrait>
+		<name>Aden Merchant Guild</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Welcome. We are Aden Merchant Guild, which operates throughout the continent.</p>
+		<p>We buy different things from our customers and supply them to merchants in different villages.</p>
+		<p>What do you want to sell? </p>
+		<p></p>
+		<panel type="Panel_Shop_Bt_Sell">
+				<button action="sell"/>
+			</panel>
+	</dialog>
+
+</npcdialog>

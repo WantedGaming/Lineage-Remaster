@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>…</p>
+		<p><a action="exitghost">戻る</a></p>
+  </dialog>
+</npcdialog>

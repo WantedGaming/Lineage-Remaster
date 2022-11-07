@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 バルログ様が与えてくださる永遠なる霊魂の安息を望むなら、バルログ様に捧げるソウルクリスタルを手に入れることだ…<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Aldran</name>
+    <job>Priest in Training</job>
+  </npc>
+  <dialog>
+    <p>I don't think they have found the <font fg="ffafff">remains</font> yet.</p>
+    <p>Please! We want to let these suffering souls rest in peace. We need your help.<br/><br/><br/></p>
+  </dialog>
+</npcdialog>

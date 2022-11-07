@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブルディカ</name>
+		<job>ダークエルフ長老</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 君のおかげでダークエルフの誇りを汚す者たちの実態が分かってきた。
+		 これからさらに重大な事案が起きるだろうな…その時が来たらまた君の力を借りたい。<br/><br/>
+		 それまでどうか身体に気をつけてくれ。君の歩む道が栄光に包まれるよう祈っている。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

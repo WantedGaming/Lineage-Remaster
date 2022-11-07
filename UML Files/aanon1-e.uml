@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><br/>
+	<font fg="ffffff">Blacksmith：</font>Whoa, there you are! What do you need fixed
+	this time?</p>
+	<panel type="Panel_Shop_Bt_Repair">
+			<button action="fix"/>
+    </panel>
+    <p><br/>
+		<a link="aanon2">Why do weapon break?</a><br/><br/><br/>
+		
+	</p>
+	</dialog>
+</npcdialog>

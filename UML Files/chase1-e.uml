@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>チェイス</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>	
+		 ここに腕のいい鍛冶職人たちが集まっているって聞いたが、本当だったようだな！
+		 特に、あそこにいるアデルリオって鍛冶屋は最高の武器を作れそうだ！
+		<br/>
+		<br/>
+		 ここの鍛冶屋に依頼して、できた品物を地上の村で売れば大儲けだな！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

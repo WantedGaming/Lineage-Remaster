@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの補佐官</name>
+  </npc>
+  <dialog>
+    <p>守護者よ、これはバルログ様が授ける尊敬の象徴。</p>
+    <p><a action="1">イアリングを受け取る</a></p>
+  </dialog>
+</npcdialog>

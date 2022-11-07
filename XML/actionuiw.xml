@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ActionUI Toggle="true">
+	<Window Name="Action_Window" MouseEvent="Dummy" KeyboardEvent="KeyboardEvent" BaseSurf="6284;1" FrameSurf="6285;1" Moveable="30" >
+		<ActionIconGrid Name="Grid" X="33" Y="53" Width="136" Height="204" MouseEvent="GridEvent" Row="6" Column="4" UnitWidth="32" UnitHeight="32" UnitGap="2" Drag="1" >
+			<Image Name="Selection_Image" Width="34" Height="34" Surf="5333;1" />
+			<ScrollBar Name="ScrollBar" X="148" Y="5" Width="12" Height="190" Vertical="1" ScrollStart="14" ScrollHeight="152" MaxValue="8" >
+				<Image Name="Background_Image" X="1" Y="14" Width="9" Surf="5210;1" />
+				<Button Name="Up_Button" Width="12" Height="14" MouseEvent="Dummy" BaseSurf="2042;1" PushSurf="2043;1" />
+				<Button Name="Down_Button" Y="181" Width="12" Height="14" MouseEvent="Dummy" BaseSurf="2040;1" PushSurf="2041;1" />
+				<Button Name="Move_Button" Y="16" Width="11" Height="16" MouseEvent="Dummy" BaseSurf="2044;1" PushSurf="2045;1" />
+			</ScrollBar>
+		</ActionIconGrid>
+		<Button Name="Exit_Button" X="179" Y="9" MouseEvent="ExitButtonPressed" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" />
+		<Control Name = "Tab_Control" X = "29" Y = "28">
+			<RadioButton Name = "TotalSpell_Button" BaseSurf = "6263;1" PushSurf = "6264;1" HighlightSurf = "6265;1" MouseEvent = "TabButtonPressed"/>
+			<RadioButton Name = "ClassSpell_Button" X = "58" BaseSurf = "6266;1" PushSurf = "6267;1" HighlightSurf = "6268;1" MouseEvent = "TabButtonPressed"/>
+			<RadioButton Name = "TotalAction_Button" X = "108" BaseSurf = "6275;1" PushSurf = "6276;1" HighlightSurf = "6277;1" MouseEvent = "TabButtonPressed"/>
+		</Control>
+		<Label Name = "SpellPower_Label" X = "67" Y = "271" Width = "24" Height = "13" Caption="1" HAlign="center" VAlign="middle"/>
+		<Label Name = "MagicResist_Label" X = "151" Y = "271" Width = "24" Height = "13" Caption="22" HAlign="center" VAlign="middle"/>
+	</Window>
+	<Button Name="ActionUI_Button" X="884" Y="510" Width="26" Height="21" MouseEvent="OpenButtonPressed" MostTop="1" BaseSurf="5156;1" HighlightSurf="5157;1" PushSurf="5157;1"/>
+</ActionUI>

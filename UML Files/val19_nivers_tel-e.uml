@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>ニーバス</name>
+		<job>[愛を失った新郎]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ヘイナを見つけたって？彼女が私に<font fg="ffffaf">手紙</font>を？<br/>
+ <br/>
+ ああ…ヘイナ！<br/>
+ はやく<font fg="ffffaf">ヘイナからの返信</font>をください。<br/>
+ 私に近づけるように<font fg="ffffaf">100Adena</font>で魔法を掛けて差し上げます。<br/></p>
+		<p>
+		<font fg="25a6d6"><a action="non_npc a">魔法をかけてください</a></font><br/>		
+		</p>
+	</dialog>
+</npcdialog>

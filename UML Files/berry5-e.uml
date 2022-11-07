@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Berry</name>
+		<job>General Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+<br/>
+ I don't want to be associated with people like you, no matter how much business I do!<br/>
+</p>
+
+		
+	</dialog>
+</npcdialog>

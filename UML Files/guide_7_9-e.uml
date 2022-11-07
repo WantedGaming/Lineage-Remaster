@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 いつからかここが湿地に変化して、ジャイアントスパイダーが棲息するのに適した場所になってしまいました。ジャイアントスパイダーたちはとても移動速度が早いので、
+		 ヘイスト ポーションを常備して下さい。巨大なジャイアント スパイダーも登場するそうなので、常にまわりに注意してください。私、足が多い生き物はうんざりなんです。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

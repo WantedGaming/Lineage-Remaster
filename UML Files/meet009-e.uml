@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 「真なる魔族の長よ！どうかお受け取りください！」<br/>
+		 <br/>
+		 グルル…バルログ様はかなりご満悦のご様子だ。
+		 だが、まだまだ先は長いぞ…<br/>
+		<br/>
+		<a action="c">ソウルクリスタルの欠片をもう100個捧げる</a>
+		</p>
+	</dialog>
+</npcdialog>

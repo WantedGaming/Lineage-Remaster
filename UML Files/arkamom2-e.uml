@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ベルリジャ</name>
+		<job>キャラクター Magic Doll Crafting</job>
+		<text>私は奉献石を扱う工芸職人で、父のアルカの後を継ぐためにマジックドールを研究しています。</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		私に1万Adenaをくれたら、キャラクター マジックドールの封印を解いてあげます。
+		<br/><br/>
+		封印を解除したら、キャラクター マジックドールは消えて、封印されたキャラクターは
+		すぐに使用できます。
+		<br/><br/><br/>
+		<a action="restore">キャラクターに戻す</a><br/><br/><br/>
+		<img src="331" link="arkamom"/><br/>
+		</p>
+	</dialog>
+</npcdialog>

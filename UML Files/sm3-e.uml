@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>え？これは何ですか？<br/></p>
+			
+		<p><a action="A">本を渡す</a><br/></p>
+		<p><a action="B">帽子を渡す</a><br/></p>
+		<p><a action="C">ワインを渡す</a><br/></p>
+		<p><a action="D">鍵を渡す</a><br/></p>
+			
+	</dialog>
+
+</npcdialog>

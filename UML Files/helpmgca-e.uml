@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>風の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">エルフの精霊魔法：風属性系</font><br/></p>
+	<p><a link="helpmgca3">レベル3：風の精霊魔法</a><br/></p>
+	<p><a link="helpmgca4">レベル4：風の精霊魔法</a><br/></p>
+	<p><a link="helpmgca5">レベル5：風の精霊魔法</a><br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		久しぶりだな、友よ！<br/>
+		<br/>
+		ん？どうしてそんなに見つめてくるんだ？<br/>
+		どうした？俺の顔色が悪いのか？ハハハ！<br/>
+		<br/>
+		まあいい！やることやってしまおうか。<br/>
+		欠片は用意してきたか？<br/>
+		<br/>
+		<a action="1">欠片を3個持ってきました</a><br/>
+		<a action="2">欠片を5個持ってきました</a><br/>
+		<br/>
+		<a link="coma4">自分で直接選びます</a><br/>
+		<br/>
+		休んでる間、欠片を3個で受け取る魔法を込めてコインをたくさん作って置いたんだ。<br/><br/>
+		これで当分の間は大丈夫だろうけど、もうこの仕事を続けるのは難しそうだな。
+		あ～、はやく空気の良いハイネに隠居して、残りの余生を過ごしたいぜ。<br/>
+		<br/>
+		ミニゲームの管理人たちには、俺の事情を伝えておいたから、 
+		もうミニゲームの勝利の欠片は手に入らないぜ。<br/>
+		<br/>
+		<a link="coma2">今すぐやめてしまうんですか？</a><br/>
+		<br/></p>
+		</dialog>
+	
+</npcdialog>
+

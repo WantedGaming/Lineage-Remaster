@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>オレは地域の治安維持に忙しいんだ。早く用件を言ってくれ。
+		<br/><br/>
+		<a action="ktguard6">現在の領主が誰なのかを聞く</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

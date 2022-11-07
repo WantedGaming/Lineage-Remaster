@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name><var src="name"/></name>
+		<job>[VIP商店]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> ようこそ。VIPのお客様！<br/>
+		 <br/>
+		 VIPのお客様のために洗練した商品を取り扱っております。<br/>
+		 <br/>
+		 どうぞごらんになってください。きっと満足していただけるでしょう。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

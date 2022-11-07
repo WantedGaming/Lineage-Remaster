@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>釣り場</title>
+	<npc>
+		<portrait></portrait>
+		<name>ポール</name>
+		<job>釣り場ガイド</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 魔法の釣りってのはさ、エサがある時には釣り竿がひとりでに釣り上げてくれるんだ。<br/>
+		 そりゃもちろん、エサがなけりゃできないよ。<br/>
+		 いいかい、釣りってのはさ…<br/>
+		<br/><br/>
+		<a link="fk_in_4">魔法の釣りの仕方</a><br/><br/>
+		<a link="fk_in_7">エサ</a><br/><br/>
+		<a link="fk_in_8">フィッシュ</a><br/><br/><br/><br/>
+		<br/><img src="331" link="fk_in_1"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>

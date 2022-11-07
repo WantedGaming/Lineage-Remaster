@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>私の魔力はさほど強くない。変身も長持ちしないのだ。</p>
+		<p>さあ、急ぎたまえ。頼んだぞ。</p>
+		<p>そなたの双肩にはアデンの運命がかかっているのだからな。</p>
+	</dialog>
+	
+</npcdialog>

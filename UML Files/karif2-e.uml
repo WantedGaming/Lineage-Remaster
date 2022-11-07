@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">Karif：</font>
+<br/><br/>
+俺の名前はカリフ。<br/><br/>
+お主らに伝わる伝説の武器を再現しようと、気が遠くなるような時間を研究に費やし、ここまできたのだ。<br/><br/>
+伝説の武器にはそれに合う<a link="karif2h">材料</a>が必要なのだが…<br/><br/>
+伝説の武器に関心がなければ、持っている宝石でも分けてくれ。報賞はするから…<br/><br/>
+<a action="request craft">伝説の武器の製作を依頼する</a><br/><br/>
+<a link="karif8b">あなたみたいなドワーフに会ったことがあります</a><br/><br/>
+<a link="karif9b">宝石をあげましょうか？</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

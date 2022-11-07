@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>細やかなシューヌ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/> 
+		最高の材料を持ってきてくれたら、俺がローブを作ってみせよう。<br/><br/>
+		 <a action="request craft">ドラゴンのローブを作る</a><br/>
+		<br/><br/>
+		 服を作るにはきちんとサイズを測らなきゃ。生地の種類も数百種類だし。
+		 特にシルクを縫い合わせるんだったら、サイズをちゃんと測って計算しておかなきゃ。なにせシルクは貴重なんだから。
+		 魔力の増幅が必要なローブは、シルクと比べて数十倍の労力と緻密な計算が必要なんだ。
+		 <font fg="ffaaff">ドラゴンのローブ</font>とは、竜が持っている驚くべき魔法の力を封印したローブのことなんだ。一般人が身につけると精神を支配されてしまう…<br/><br/>
+		 そのため、<font fg="ffaaff">ウィザード</font>と<font fg="ffaaff">イリュージョニスト</font>だけがこのローブを着ることを許されているんだそうだ。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

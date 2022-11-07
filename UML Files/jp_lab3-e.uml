@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>標本は十分な量が集まらないと我々の研究に役立てられません。</p>
+		<p>できるだけ多くの標本を集めてきてください。</p>
+		<p>では、頼みましたよ！</p>
+	</dialog>
+
+</npcdialog>

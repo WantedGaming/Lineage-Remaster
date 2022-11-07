@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>風の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">風の精霊魔法：レベル5</font><br/></p>
+	<p><font fg="ffffaf">ストーム ショット：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：30/0<br/>
+	持続時間：960秒<br/>
+	対象：術者<br/>
+	効果：術者の遠距離攻撃の命中率を3、攻撃ダメージを6向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">サイクロン：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：30/0<br/>
+	材料：精霊の玉2個<br/>
+	持続時間：960秒<br/>
+	対象：術者<br/>
+	効果：一定確率で遠距離攻撃力が1.5倍に向上します。発動率はレベル85から、レベル1ごとに1%ずつ向上します。<br/></p>
+	
+	<p><font fg="ffffaf">ストライカー ゲイル：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：15/0<br/>
+	材料：精霊の玉2個<br/>
+	持続時間：12秒<br/>
+	対象：術者から6セル内のPC<br/>
+	効果：持続時間中、一定確率で相手の遠距離攻撃に対する回避力を低下させます。<br/></p>
+
+	<p><font fg="ffffaf">ハリケーン：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：30/0<br/>
+	使用条件：ボウ装備<br/>
+	材料：エルヴン ワッフル1個<br/>
+	持続時間：480秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、術者の遠距離攻撃および移動速度を向上させます。<br/></p>
+	<p><img src="331" link="helpmgca"/><br/><br/></p>
+	</dialog>
+</npcdialog>

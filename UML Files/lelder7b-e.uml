@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+	<p>まだ戦士はみつからないのか？</p> 
+	<p>彼はどこかで疲れ果てているはず。</p> 
+	<p>早く探し出して連れてきておくれ。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ネルバ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<p><font fg="ffaaff">古いレポート</font>と<font fg="ffaaff">ウィザード ストーン</font>を渡してくれたら、5種類のルーンのうち1つを作ってあげるにゃ。<br/><br/></p>
+		
+		<p><a action="A">力のエリクサー ルーン</a><br/></p>
+		<p><a action="B">機敏のエリクサー ルーン</a><br/></p>
+		<p><a action="C">体力のエリクサー ルーン</a><br/></p>
+		<p><a action="D">知力のエリクサー ルーン</a><br/></p>
+		<p><a action="E">知恵のエリクサー ルーン</a><br/><br/><br/></p>
+ 
+		<p>このウィザード ストーンはメインランドのダンジョンで見つけたものに間違いないにゃ？<br/><br/></p>
+		
+		<p>私が弟子に真似して作った出来の悪いものを持ってきては、ルーンを作ってくれと頼む人がいるんだにゃ。<br/><br/></p>
+		
+		<p>弟子の話に乗せられた人たちを見過ごすこともできなくて、これまで集めておいた石でルーンを作ってあげていたんだけどにゃ、</p>
+		<p>薄っぺらな仕掛けじゃ立派なウィザードには絶対になれないことを、その弟子も気付かなければならないんだけどにゃ…</p>
+		
+	</dialog>
+
+</npcdialog>

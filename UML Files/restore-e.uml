@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_041</portrait>
+		<name>アガタ</name>
+		<job>善の使者</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>私はアインハザードの慈愛の名において、辛い経験をした人々に祝福をもたらす使命を受けてここにいます。</p>
+		<panel type="Panel_Restore_Bt">
+				<button action="restoration open"/>
+        </panel>
+		<p> あなたは冒険の途中で不幸な事故によって失ったものを取り戻しにきたのですか？ただし、大切なものを取り戻すためには相応のAdenaが必要です。 </p>
+		<p> また、あなたが失った経験値とアイテムは<font fg="ffffaf">一定の時間が過ぎたり、一定数以上累積</font>すると、永遠に取り戻すことができなくなります。取り戻さなければならないものならば、私のところまで急いで来てください。</p>
+		<br/> 
+		<p> アデン ワールドにはまだ多くの危険が潜んでいますので、必ず<font fg="ffafff">アインハザードの加護</font>を持っていかれてください。</p>
+		<p>アインハザードの祝福がありますように…</p>	
+	</dialog>
+	
+</npcdialog>	

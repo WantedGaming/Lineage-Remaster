@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>影法師 オリム</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>仲間…といっても私より年下のやつらばかりだ。もしかしてここまで降りてくる途中で会ったんじゃないか？ハハハ、カスパーは変わらないようだな。</p>
+<p>ハーディンの命令で彼らがここで無駄に私を探しているのは問題ないんだが…</p>
+<br/>
+<p>セマ…彼女だけは…もう一度会いたいと思う…</p>
+</dialog>
+
+</npcdialog>

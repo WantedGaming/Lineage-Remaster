@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+	<!--
+ tag description polymorph - open  : be related to Level_List Button of polymorphUI.  if <open='0'> : The Button is disable.	<open='1'> : The Button is enable. ref. If You don`t write the open tag, It`ll be <open='0'>.  category 근거리특화(검) = 1 근거리특화(이도류) = 2 근거리특화(창) = 3 원거리특화(활) = 4 원거리특화(마법) = 5 이동특화 = 6 pc방 = 7 기타 = 8   pc방 변신은 id 81~86으로 고정되어 있고 랭킹 변신은 id 90으로 고정되어 있습니다. 
+	-->
+<polymorphlist>
+	<normallist>
+		<polymorph eventOpenLevel="1" category="1">
+			<monster id="412" level="98" eventLevel="94" action="lv98 jin death knight platinum" desc="18692" png="23155" type="gray"/>
+			<monster id="413" level="96" eventLevel="92" action="lv96 arch knight rn" desc="33980" png="23138" type="gray"/>
+			<monster id="415" level="94" eventLevel="90" action="lv94 gold knight rn" desc="33979" png="23137" type="gray"/>
+			<monster id="417" level="92" eventLevel="87" action="lv92 silver knight rn" desc="33978" png="23136" type="gray"/>
+			<monster id="418" level="90" eventLevel="85" action="lv90 dark knight rn" desc="33977" png="23135" type="gray"/>
+			<!--monster	id="400"	level="87" eventLevel="80" action="lv87 jin death knight" desc="29238" png="17256"	type="gray"/-->
+			<monster id="414" level="87" eventLevel="80" action="lv87 jin death knight purple rn" desc="18692" png="23151" type="gray"/>
+			<monster id="416" level="85" eventLevel="75" action="lv85 jin death knight red" desc="18692" png="14460" type="gray"/>
+			<!--monster	id="1"	level="84"	eventLevel="65"	action="lv84 jin death knight" desc="18692" png="14460" type="gray"/-->
+			<!--monster	id="2"	level="82"	eventLevel="65"	action="lv82 jin death knight" desc="18692" png="14461" type="gray"/-->
+			<monster id="3" level="80" eventLevel="65" action="lv80 jin death knight" desc="18692" png="14462" type="gray"/>
+			<monster id="4" level="75" eventLevel="60" action="lv75 jin death knight" desc="18692" png="14463" type="gray"/>
+			<!--monster	id="5"	level="70"	eventLevel="60"	action="lv70 phonos knight" desc="25466"	png="14464"	type="gray"/-->
+			<monster id="419" level="1" eventLevel="1" action="lv1 phonos knight" desc="25466" png="14464" type="gray"/>
+			<!--monster	id="6"	level="1"	eventLevel="1"	action="lv1 arch knight" desc="15032"	png="14465"	type="gray"/-->
+			<!--monster	id="8"	level="1"	eventLevel="1"	action="lv1 sword master" desc="15128"	png="14466"	type="gray"/-->
+			<!--monster	id="9"	level="1"	eventLevel="1"	action="lv1 silver knight" desc="15124" png="14467"	type="gray"/-->
+			<!--monster	id="10"	level="1"	eventLevel="1"	action="lv1 dark knight" desc="15120" png="14468"	type="gray"/-->
+			<monster id="12" level="1" eventLevel="1" action="lv1 black knight chief" desc="15109" png="14470" type="gray"/>
+			<monster id="77" level="1" eventLevel="1" action="lv1 skeleton" desc="15074" png="14528" type="gray"/>
+			<monster id="20" level="1" eventLevel="1" action="lv1 assassin master" desc="15110" png="14476" type="gray"/>
+			<monster id="21" level="1" eventLevel="1" action="lv1 blaze" desc="15104" png="14477" type="gray"/>
+			<!--monster	id="22"	level="1"	eventLevel="1" action="lv1 cargo" desc="15105" png="14478" type="gray"/-->
+			<monster id="11" level="1" eventLevel="1" action="lv1 dreik" desc="15103" png="14469" type="gray"/>
+			<monster id="71" level="1" eventLevel="1" action="lv1 orc fighter" desc="15084" png="14522" type="gray"/>
+			<monster id="78" level="1" eventLevel="1" action="lv1 werewolf" desc="15085" png="14529" type="gray"/>
+			<monster id="76" level="1" eventLevel="1" action="lv1 lesser demon" desc="15111" png="14527" type="gray"/>
+			<monster id="73" level="1" eventLevel="1" action="lv1 orc" desc="15073" png="14524" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="2">
+			<!--monster	id="401"	level="87" eventLevel="80" action="lv87 zin shadow" desc="29239" png="17257"	type="gray"/-->
+			<!--monster	id="14"	level="84" eventLevel="65" action="lv84 arch assassin" desc="25462" png="14471"	type="gray"/-->
+			<!--monster	id="15"	level="82" eventLevel="65" action="lv82 shadow master" desc="25462" png="14472"	type="gray"/-->
+			<!--monster	id="16"	level="80" eventLevel="65" action="lv80 silver shadow" desc="25462" png="14473"	type="gray"/-->
+			<!--monster	id="17"	level="75" eventLevel="60" action="lv75 dark shadow" desc="15121" png="14474"	type="gray"/-->
+			<!--monster	id="18"	level="70" eventLevel="60" action="lv70 phonos assassin" desc="25466" png="14475"	type="gray"/-->
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="3">
+			<monster id="420" level="98" eventLevel="94" action="lv98 guard spear platinum" desc="19612" png="23158" type="gray"/>
+			<monster id="421" level="96" eventLevel="92" action="lv96 arch lance master" desc="33992" png="23150" type="gray"/>
+			<monster id="423" level="94" eventLevel="90" action="lv94 gold lance master" desc="33991" png="23149" type="gray"/>
+			<monster id="425" level="92" eventLevel="87" action="lv92 silver lance master" desc="33990" png="23148" type="gray"/>
+			<monster id="426" level="90" eventLevel="85" action="lv90 dark lance master" desc="33989" png="23147" type="gray"/>
+			<!--monster	id="402" level="87"	eventLevel="80"	action="lv87 lance master" desc="29240"	png="17258" type="gray"/-->
+			<monster id="422" level="87" eventLevel="80" action="lv87 guard spear purple rn" desc="19612" png="23154" type="gray"/>
+			<monster id="424" level="85" eventLevel="75" action="lv85 guard spear red rn" desc="19612" png="23161" type="gray"/>
+			<!--monster	id="25"	level="84"	eventLevel="65"	action="lv84 lance master" desc="25463"	png="14480"	type="gray"/-->
+			<!--monster	id="26"	level="82"	eventLevel="65"	action="lv82 lance master" desc="25463"	png="14481"	type="gray"/-->
+			<!--monster	id="27"	level="80"	eventLevel="65"	action="lv80 lance master" desc="25463"	png="14482"	type="gray"/-->
+			<monster id="449" level="80" eventLevel="65" action="lv80 guard spear blue rn" desc="19612" png="23162" type="gray"/>
+			<!--monster	id="28"	level="75"	eventLevel="60"	action="lv75 lance master" desc="15116"	png="14483"	type="gray"/-->
+			<monster id="427" level="75" eventLevel="60" action="lv75 guard spear green rn" desc="19612" png="23160" type="gray"/>
+			<!--monster	id="29"	level="70"	eventLevel="60"	action="lv70 phonos lance" desc="25467"	png="14484"	type="gray"/-->
+			<monster id="428" level="1" eventLevel="1" action="lv1 phonos lance" desc="25467" png="14484" type="gray"/>
+			<monster id="30" level="1" eventLevel="1" action="lv1 night watch" desc="15154" png="14485" type="gray"/>
+			<monster id="31" level="1" eventLevel="1" action="lv1 darkelf spear" desc="15096" png="14486" type="gray"/>
+			<monster id="32" level="1" eventLevel="1" action="lv1 black knight" desc="15112" png="14487" type="gray"/>
+			<monster id="33" level="1" eventLevel="1" action="lv1 darkelf carrier" desc="15089" png="14488" type="gray"/>
+			<monster id="72" level="1" eventLevel="1" action="lv1 dudamara orc" desc="15075" png="14523" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="4">
+			<monster id="429" level="98" eventLevel="94" action="lv98 guard archer platinum" desc="19612" png="23157" type="gray"/>
+			<monster id="430" level="96" eventLevel="92" action="lv96 arch scouter rn" desc="33984" png="23142" type="gray"/>
+			<monster id="432" level="94" eventLevel="90" action="lv94 gold scouter rn" desc="33983" png="23141" type="gray"/>
+			<monster id="434" level="92" eventLevel="87" action="lv92 silver scouter rn" desc="33982" png="23140" type="gray"/>
+			<monster id="435" level="90" eventLevel="85" action="lv90 dark scouter rn" desc="33981" png="23139" type="gray"/>
+			<monster id="431" level="87" eventLevel="80" action="lv87 guard archer purple rn" desc="19612" png="23153" type="gray"/>
+			<monster id="433" level="85" eventLevel="75" action="lv85 guard archer red rn" desc="19612" png="23173" type="gray"/>
+			<!--monster	id="36"	level="84"	eventLevel="65"	action="lv84 owen" desc="21800"	png="14490"	type="gray"/-->
+			<!--monster	id="37"	level="82"	eventLevel="65"	action="lv82 owen" desc="21799"	png="14491"	type="gray"/-->
+			<!--monster	id="38"	level="80"	eventLevel="65"	action="lv80 high elf" desc="25464"	png="14492"	type="gray"/-->
+			<monster id="450" level="80" eventLevel="65" action="lv80 guard archer blue rn" desc="19612" png="23174" type="gray"/>
+			<!--monster	id="39"	level="75"	eventLevel="60"	action="lv75 jin darkelf" desc="21798"	png="14493"	type="gray"/-->
+			<monster id="436" level="75" eventLevel="60" action="lv75 guard archer green rn" desc="19612" png="23175" type="gray"/>
+			<!--monster	id="40"	level="70"	eventLevel="60"	action="lv70 phonos bow" desc="25468"	png="14494"	type="gray"/-->
+			<!--monster	id="41"	level="1"	eventLevel="1" action="lv1 darkelf"	desc="15118"	png="14495"	type="gray"/-->
+			<monster id="437" level="1" eventLevel="1" action="lv1 high elf" desc="25464" png="14492" type="gray"/>
+			<monster id="438" level="1" eventLevel="1" action="lv1 jin darkelf" desc="21798" png="14493" type="gray"/>
+			<monster id="439" level="1" eventLevel="1" action="lv1 phonos bow" desc="25468" png="14494" type="gray"/>
+			<monster id="42" level="1" eventLevel="1" action="lv1 darkelf thief" desc="15098" png="14496" type="gray"/>
+			<!--monster	id="43"	level="1"	eventLevel="1" action="lv1 arch scouter" desc="15134"	png="14497"	type="gray"/-->
+			<!--monster	id="44"	level="1"	eventLevel="1" action="lv1 arrow master" desc="15130"	png="14498"	type="gray"/-->
+			<!--monster	id="45"	level="1"	eventLevel="1" action="lv1 silver ranger" desc="15026" png="14499"	type="gray"/-->
+			<!--monster	id="46"	level="1"	eventLevel="1" action="lv1 dark ranger" desc="15122" png="14500"	type="gray"/-->
+			<monster id="74" level="1" eventLevel="1" action="lv1 orc scout" desc="15087" png="14525" type="gray"/>
+			<monster id="75" level="1" eventLevel="1" action="lv1 orc archer" desc="15076" png="14526" type="gray"/>
+			<monster id="79" level="1" eventLevel="1" action="lv1 fire bowman" desc="15113" png="14530" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="5">
+			<monster id="440" level="98" eventLevel="94" action="lv98 zin baphomet platinum" desc="25465" png="23156" type="gray"/>
+			<monster id="441" level="96" eventLevel="92" action="lv96 arch magister rn" desc="33988" png="23146" type="gray"/>
+			<monster id="443" level="94" eventLevel="90" action="lv94 gold magister rn" desc="33987" png="23145" type="gray"/>
+			<monster id="445" level="92" eventLevel="87" action="lv92 silver magister rn" desc="33986" png="23144" type="gray"/>
+			<monster id="446" level="90" eventLevel="85" action="lv90 dark magister rn" desc="33985" png="23143" type="gray"/>
+			<!--monster	id="403"	level="87"	eventLevel="80"	action="lv87 zin baphomet" desc="29241" png="17261" type="gray"/-->
+			<monster id="442" level="87" eventLevel="80" action="lv87 zin baphomet purple rn" desc="25465" png="23152" type="gray"/>
+			<monster id="444" level="85" eventLevel="75" action="lv85 zin baphomet red" desc="25465" png="14501" type="gray"/>
+			<!--monster	id="49"	level="84"	eventLevel="65"	action="lv84 baphomet master" desc="25465" png="14501" type="gray"/-->
+			<!--monster	id="50"	level="82"	eventLevel="65"	action="lv82 baphomet master" desc="25465" png="14502" type="gray"/-->
+			<monster id="51" level="80" eventLevel="65" action="lv80 baphomet master" desc="25465" png="14503" type="gray"/>
+			<!--monster	id="52"	level="75"	eventLevel="60"	action="lv75 jin baphomet"	desc="15108" png="14514" type="gray"/-->
+			<monster id="447" level="75" eventLevel="60" action="lv75 zin baphomet green" desc="25465" png="23159" type="gray"/>
+			<!--monster	id="53"	level="70"	eventLevel="60"	action="lv70 phonos master" desc="25469" png="14505" type="gray"/-->
+			<monster id="448" level="1" eventLevel="1" action="lv1 phonos master" desc="25469" png="14505" type="gray"/>
+			<!--monster	id="54"	level="1"	eventLevel="1"	action="lv1 wizardry master" desc="15131" png="14504" type="gray"/-->
+			<!--monster	id="55"	level="1"	eventLevel="1" action="lv1 arch magister" desc="15135" png="14506" type="gray"/-->
+			<!--monster	id="56"	level="1"	eventLevel="1" action="lv1 silver magister" desc="15127" png="14507" type="gray"/-->
+			<!--monster	id="57"	level="1"	eventLevel="1" action="lv1 dark magister" desc="15123" png="14508" type="gray"/-->
+			<monster id="58" level="1" eventLevel="1" action="lv1 black wizard" desc="15114" png="14509" type="gray"/>
+			<monster id="59" level="1" eventLevel="1" action="lv1 dark elder" desc="15117" png="14510" type="gray"/>
+			<monster id="60" level="1" eventLevel="1" action="lv1 elder" desc="15077" png="14511" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="6">
+			<monster id="61" level="1" eventLevel="1" action="lv1 dwarf" desc="15078" png="14512" type="gray"/>
+			<monster id="62" level="1" eventLevel="1" action="lv1 cockatrice" desc="15100" png="14513" type="gray"/>
+			<monster id="64" level="1" eventLevel="1" action="lv1 beleth" desc="15119" png="14515" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="7">
+			<monster id="90" level="0" eventLevel="80" action="ranking class polymorph" desc="21987" png="3414" type="gray"/>
+			<!--monster id="404"	level="87" eventLevel="80" action="lv87 guard archer purple" desc="29242" png="17259"	type="gray"/-->
+			<!--monster id="405"	level="87" eventLevel="80" action="lv87 guard spear purple" desc="29242" png="17260" type="gray"/-->
+			<!--monster id="65"	level="84" eventLevel="65" action="lv84 guard archer red" desc="15060"	png="14516"	type="gray"/-->
+			<!--monster id="66"	level="84" eventLevel="65" action="lv84 guard spear red" desc="15061"	png="14517"	type="gray"/-->
+			<!--monster id="67"	level="82" eventLevel="65" action="lv82 guard archer blue" desc="15060"	png="14518"	type="gray"/-->
+			<!--monster id="68"	level="82" eventLevel="65" action="lv82 guard spear blue" desc="15061"	png="14519"	type="gray"/-->
+			<!--monster id="69"	level="80" eventLevel="65" action="lv80 guard archer green" desc="15060"	png="14520"	type="gray"/-->
+			<!--monster id="70"	level="80" eventLevel="65" action="lv80 guard spear green" desc="15061"	png="14521"	type="gray"/-->
+			<monster id="91" level="80" eventLevel="65" action="basic class polymorph" desc="31342" png="18655" type="gray"/>
+		</polymorph>
+		<polymorph category="8">
+			<monster id="82" level="1" eventLevel="1" action="15 pc harphy morph" desc="21020" png="14551" type="gray"/>
+			<monster id="83" level="1" eventLevel="1" action="15 pc kids" desc="21021" png="14552" type="gray"/>
+			<monster id="87" level="1" eventLevel="1" action="pc heaven knight" desc="21022" png="14553" type="gray"/>
+			<monster id="85" level="1" eventLevel="1" action="15 pc orange morph" desc="21023" png="14554" type="gray"/>
+			<monster id="86" level="1" eventLevel="1" action="15 pc kelenis girl" desc="21024" png="14555" type="gray"/>
+		</polymorph>
+	</normallist>
+	<advancelist>
+		<polymorph eventOpenLevel="1" category="1">
+			<monster id="311" level="100" eventLevel="96" action="maple lv100 zillian" desc="35857" png="15476" type="gray"/>
+			<monster id="312" level="100" eventLevel="96" action="maple lv100 crister" desc="35858" png="15477" type="gray"/>
+			<monster id="313" level="99" eventLevel="95" action="maple lv100 doppelganger king" desc="35856" png="15475" type="gray"/>
+			<monster id="301" level="88" eventLevel="80" action="maple lv88 gunter" desc="25472" png="15470" type="gray"/>
+			<monster id="112" level="88" eventLevel="80" action="maple lv88 bluedica" desc="25473" png="15471" type="gray"/>
+			<monster id="302" level="86" eventLevel="80" action="maple lv86 curts" desc="25477" png="15465" type="gray"/>
+			<monster id="113" level="86" eventLevel="80" action="maple lv86 slave" desc="25478" png="15466" type="gray"/>
+			<monster id="451" level="98" eventLevel="94" action="maple lv98 jin death knight platinum" desc="18692" png="23155" type="gray"/>
+			<monster id="452" level="96" eventLevel="92" action="maple lv96 arch knight rn" desc="33980" png="23138" type="gray"/>
+			<monster id="453" level="94" eventLevel="90" action="maple lv94 gold knight rn" desc="33979" png="23137" type="gray"/>
+			<monster id="454" level="92" eventLevel="87" action="maple lv92 silver knight rn" desc="33978" png="23136" type="gray"/>
+			<monster id="455" level="90" eventLevel="85" action="maple lv90 dark knight rn" desc="33977" png="23135" type="gray"/>
+			<!--monster	id="406"	level="87"	eventLevel="80"	action="maple lv87 jin death knight" desc="29238" png="17250" type="gray"/-->
+			<monster id="456" level="87" eventLevel="80" action="maple lv87 jin death knight purple rn" desc="18692" png="23151" type="gray"/>
+			<monster id="457" level="85" eventLevel="75" action="maple lv85 jin death knight red" desc="18692" png="14460" type="gray"/>
+			<monster id="102" level="80" eventLevel="65" action="maple lv80 jin death knight" desc="18692" png="14612" type="gray"/>
+			<monster id="103" level="75" eventLevel="60" action="maple lv75 jin death knight" desc="18692" png="14613" type="gray"/>
+			<monster id="458" level="1" eventLevel="1" action="lv1 phonos knight" desc="25466" png="14464" type="gray"/>
+			<monster id="111" level="1" eventLevel="1" action="maple lv1 black knight chief" desc="15109" png="14620" type="gray"/>
+			<monster id="177" level="1" eventLevel="1" action="maple lv1 skeleton" desc="15074" png="14678" type="gray"/>
+			<monster id="119" level="1" eventLevel="1" action="maple lv1 assassin master" desc="15110" png="14626" type="gray"/>
+			<monster id="121" level="1" eventLevel="1" action="maple lv1 blaze" desc="15104" png="14627" type="gray"/>
+			<monster id="110" level="1" eventLevel="1" action="maple lv1 dreik" desc="15103" png="14619" type="gray"/>
+			<!--monster	id="100"	level="84"	eventLevel="65"	action="maple lv84 jin death knight" desc="18692" png="14610" type="gray"/-->
+			<!--monster	id="101"	level="82"	eventLevel="65"	action="maple lv82 jin death knight" desc="18692" png="14611" type="gray"/-->
+			<!--monster	id="104"	level="70"	eventLevel="60"	action="maple lv70 phonos knight" desc="25466"	png="14614"	type="gray"/-->
+			<!--monster	id="105"	level="1"	eventLevel="1"	action="maple lv1 arch knight" desc="15032"	png="14615"	type="gray"/-->
+			<!--monster	id="106"	level="1"	eventLevel="1"	action="maple lv1 death knight" desc="15015" png="14705"	type="gray"/-->
+			<!--monster	id="107"	level="1"	eventLevel="1"	action="maple lv1 sword master" desc="15128"	png="14616"	type="gray"/-->
+			<!--monster	id="108"	level="1"	eventLevel="1"	action="maple lv1 silver knight" desc="15124" png="14617"	type="gray"/-->
+			<!--monster	id="109"	level="1"	eventLevel="1"	action="maple lv1 dark knight" desc="15120" png="14618"	type="gray"/-->
+			<!--monster	id="122"	level="1"	eventLevel="1"	action="maple lv1 cargo" desc="15105" png="14628"	type="gray"/-->
+			<monster id="171" level="1" eventLevel="1" action="maple lv1 orc fighter" desc="15084" png="14672" type="gray"/>
+			<monster id="178" level="1" eventLevel="1" action="maple lv1 werewolf" desc="15085" png="14679" type="gray"/>
+			<monster id="176" level="1" eventLevel="1" action="maple lv1 lesser demon" desc="15111" png="14677" type="gray"/>
+			<monster id="173" level="1" eventLevel="1" action="maple lv1 orc" desc="15073" png="14674" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="2">
+			<!--monster	id="407"	level="87" eventLevel="80" action="maple lv87 jin shadow" desc="29239" png="17251"	type="gray"/-->
+			<!--monster	id="114"	level="84" eventLevel="65"	action="maple lv84 arch assassin" desc="25462" png="14621" type="gray"/-->
+			<!--monster	id="115"	level="82" eventLevel="65"	action="maple lv82 shadow master" desc="25462" png="14622" type="gray"/-->
+			<!--monster	id="116"	level="80" eventLevel="65"	action="maple lv80 silver shadow" desc="25462" png="14623" type="gray"/-->
+			<!--monster	id="117"	level="75" eventLevel="60"	action="maple lv75 dark shadow" desc="15121" png="14624" type="gray"/-->
+			<!--monster	id="118"	level="70" eventLevel="60"	action="maple lv70 phonos assassin" desc="25466" png="14625" type="gray"/-->
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="3">
+		    <monster id="314" level="100" eventLevel="96" action="maple lv100 atun" desc="35859" png="15478" type="gray"/>
+			<monster id="305" level="88" eventLevel="80" action="maple lv88 prokel" desc="25474" png="15472" type="gray"/>
+			<monster id="306" level="86" eventLevel="80" action="maple lv86 iris" desc="25479" png="15467" type="gray"/>
+			<monster id="459" level="98" eventLevel="94" action="maple lv98 guard spear platinum" desc="19612" png="23158" type="gray"/>
+			<monster id="460" level="96" eventLevel="92" action="maple lv96 arch lance master" desc="33992" png="23150" type="gray"/>
+			<monster id="461" level="94" eventLevel="90" action="maple lv94 gold lance master" desc="33991" png="23149" type="gray"/>
+			<monster id="462" level="92" eventLevel="87" action="maple lv92 silver lance master" desc="33990" png="23148" type="gray"/>
+			<monster id="463" level="90" eventLevel="85" action="maple lv90 dark lance master" desc="33989" png="23147" type="gray"/>
+			<!--monster	id="408"	level="87" eventLevel="80" action="maple lv87 jin master" desc="29240" png="17252"	type="gray"/-->
+			<monster id="464" level="87" eventLevel="80" action="maple lv87 guard spear purple rn" desc="19612" png="23154" type="gray"/>
+			<monster id="465" level="85" eventLevel="75" action="maple lv85 guard spear red rn" desc="19612" png="23161" type="gray"/>
+			<!--monster	id="125"	level="84"	eventLevel="65"	action="maple lv84 lance master" desc="25463" png="14630" type="gray"/-->
+			<!--monster	id="126"	level="82"	eventLevel="65"	action="maple lv82 lance master" desc="25463" png="14631" type="gray"/-->
+			<!--monster	id="127"	level="80"	eventLevel="65"	action="maple lv80 lance master" desc="25463" png="14632" type="gray"/-->
+			<monster id="466" level="80" eventLevel="65" action="maple lv80 guard spear blue rn" desc="19612" png="23162" type="gray"/>
+			<!--monster	id="128"	level="75"	eventLevel="60"	action="maple lv75 lance master" desc="15116"	png="14633" type="gray"/-->
+			<monster id="467" level="75" eventLevel="60" action="maple lv75 guard spear green rn" desc="19612" png="23160" type="gray"/>
+			<!--monster	id="129"	level="70"	eventLevel="60"	action="maple lv70 phonos lance" desc="25467"	png="14634"	type="gray"/-->
+			<monster id="468" level="1" eventLevel="1" action="maple lv1 phonos lance" desc="25467" png="14484" type="gray"/>
+			<monster id="130" level="1" eventLevel="1" action="maple lv1 night watch" desc="15154" png="14635" type="gray"/>
+			<monster id="131" level="1" eventLevel="1" action="maple lv1 darkelf spear" desc="15096" png="14636" type="gray"/>
+			<monster id="132" level="1" eventLevel="1" action="maple lv1 black knight" desc="15112" png="14637" type="gray"/>
+			<monster id="133" level="1" eventLevel="1" action="maple lv1 darkelf carrier" desc="15089" png="14638" type="gray"/>
+			<monster id="172" level="1" eventLevel="1" action="maple lv1 dudamara orc" desc="15075" png="14673" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="4">
+		    <monster id="315" level="100" eventLevel="96" action="maple lv100 ishilotte" desc="35861" png="15479" type="gray"/>
+			<monster id="307" level="88" eventLevel="80" action="maple lv88 zillian" desc="25475" png="15473" type="gray"/>
+			<monster id="308" level="86" eventLevel="80" action="maple lv86 helvine" desc="25480" png="15468" type="gray"/>
+			<monster id="469" level="98" eventLevel="94" action="maple lv98 guard archer platinum" desc="19612" png="23157" type="gray"/>
+			<monster id="470" level="96" eventLevel="92" action="maple lv96 arch scouter rn" desc="33984" png="23142" type="gray"/>
+			<monster id="471" level="94" eventLevel="90" action="maple lv94 gold scouter rn" desc="33983" png="23141" type="gray"/>
+			<monster id="472" level="92" eventLevel="87" action="maple lv92 silver scouter rn" desc="33982" png="23140" type="gray"/>
+			<monster id="473" level="90" eventLevel="85" action="maple lv90 dark scouter rn" desc="33981" png="23139" type="gray"/>
+			<monster id="474" level="87" eventLevel="80" action="maple lv87 guard archer purple rn" desc="19612" png="23153" type="gray"/>
+			<monster id="475" level="85" eventLevel="75" action="maple lv85 guard archer red rn" desc="19612" png="23173" type="gray"/>
+			<!--monster	id="136" level="84"	eventLevel="65"	action="maple lv84 owen" desc="21800"	png="14640"	type="gray"/-->
+			<!--monster	id="137" level="82"	eventLevel="65"	action="maple lv82 owen" desc="21799"	png="14641"	type="gray"/-->
+			<!--monster	id="138" level="80"	eventLevel="65"	action="maple lv80 high elf" desc="25464"	png="14642"	type="gray"/-->
+			<monster id="476" level="80" eventLevel="65" action="maple lv80 guard archer blue rn" desc="19612" png="23174" type="gray"/>
+			<!--monster	id="139" level="75"	eventLevel="60"	action="maple lv75 jin darkelf" desc="21798"	png="14643"	type="gray"/-->
+			<monster id="477" level="75" eventLevel="60" action="maple lv75 guard archer green rn" desc="19612" png="23175" type="gray"/>
+			<!--monster	id="140" level="70"	eventLevel="60"	action="maple lv70 phonos bow" desc="25468"	png="14644"	type="gray"/-->
+			<!--monster	id="141" level="1"	eventLevel="1" action="maple lv1 darkelf"	desc="15118"	png="14645"	type="gray"/-->
+			<monster id="478" level="1" eventLevel="1" action="maple lv1 high elf" desc="25464" png="14492" type="gray"/>
+			<monster id="479" level="1" eventLevel="1" action="maple lv1 jin darkelf" desc="21798" png="14493" type="gray"/>
+			<monster id="480" level="1" eventLevel="1" action="maple lv1 phonos bow" desc="25468" png="14494" type="gray"/>
+			<monster id="142" level="1" eventLevel="1" action="maple lv1 darkelf thief" desc="15098" png="14646" type="gray"/>
+			<!--monster	id="143" level="1"	eventLevel="1" action="maple lv1 arch scouter" desc="15134"	png="14647"	type="gray"/-->
+			<!--monster	id="144" level="1"	eventLevel="1" action="maple lv1 arrow master" desc="15130"	png="14648"	type="gray"/-->
+			<!--monster	id="145" level="1"	eventLevel="1" action="maple lv1 silver ranger" desc="15026" png="14649"	type="gray"/-->
+			<!--monster	id="146" level="1"	eventLevel="1" action="maple lv1 dark ranger" desc="15122" png="14650"	type="gray"/-->
+			<monster id="174" level="1" eventLevel="1" action="maple lv1 orc scout" desc="15087" png="14675" type="gray"/>
+			<monster id="175" level="1" eventLevel="1" action="maple lv1 orc archer" desc="15076" png="14676" type="gray"/>
+			<monster id="179" level="1" eventLevel="1" action="maple lv1 fire bowman" desc="15113" png="14680" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="5">
+		    <monster id="316" level="100" eventLevel="96" action="maple lv100 joewoo" desc="35860" png="15480" type="gray"/>
+			<monster id="309" level="88" eventLevel="80" action="maple lv88 joewoo" desc="25476" png="15474" type="gray"/>
+			<monster id="310" level="86" eventLevel="80" action="maple lv86 hardin" desc="25481" png="15469" type="gray"/>
+			<monster id="481" level="98" eventLevel="94" action="maple lv98 zin baphomet platinum" desc="25465" png="23156" type="gray"/>
+			<monster id="482" level="96" eventLevel="92" action="maple lv96 arch magister rn" desc="33988" png="23146" type="gray"/>
+			<monster id="483" level="94" eventLevel="90" action="maple lv94 gold magister rn" desc="33987" png="23145" type="gray"/>
+			<monster id="484" level="92" eventLevel="87" action="maple lv92 silver magister rn" desc="33986" png="23144" type="gray"/>
+			<monster id="485" level="90" eventLevel="85" action="maple lv90 dark magister rn" desc="33985" png="23143" type="gray"/>
+			<!--monster id="409"	level="87" eventLevel="80" action="maple lv87 jin baphomet" desc="29241" png="17255"	type="gray"/-->
+			<monster id="486" level="87" eventLevel="80" action="maple lv87 zin baphomet purple rn" desc="25465" png="23152" type="gray"/>
+			<monster id="487" level="85" eventLevel="75" action="maple lv85 zin baphomet red" desc="25465" png="14501" type="gray"/>
+			<!--monster id="149"	level="84"	eventLevel="65"	action="maple lv84 baphomet master" desc="25465" png="14651"	type="gray"/-->
+			<!--monster id="150"	level="82"	eventLevel="65"	action="maple lv82 baphomet master" desc="25465" png="14652"	type="gray"/-->
+			<monster id="151" level="80" eventLevel="65" action="maple lv80 baphomet master" desc="25465" png="14653" type="gray"/>
+			<!--monster id="152"	level="75"	eventLevel="60"	action="maple lv75 jin baphomet"	desc="15108" png="14664"	type="gray"/-->
+			<monster id="488" level="75" eventLevel="60" action="maple lv75 zin baphomet green" desc="25465" png="23159" type="gray"/>
+			<!--monster id="153"	level="70"	eventLevel="60"	action="maple lv70 phonos master" desc="25469" png="14655"	type="gray"/-->
+			<monster id="489" level="1" eventLevel="1" action="maple lv1 phonos master" desc="25469" png="14505" type="gray"/>
+			<!--monster id="154"	level="1"	eventLevel="1"	action="maple lv1 wizardry master" desc="15131" png="14654"	type="gray"/-->
+			<!--monster id="155"	level="1"	eventLevel="1" action="maple lv1 arch magister" desc="15135"	png="14656"	type="gray"/-->
+			<!--monster id="156"	level="1"	eventLevel="1" action="maple lv1 silver magister" desc="15127"	png="14657"	type="gray"/-->
+			<!--monster id="157"	level="1"	eventLevel="1" action="maple lv1 dark magister" desc="15123"	png="14658"	type="gray"/-->
+			<monster id="158" level="1" eventLevel="1" action="maple lv1 black wizard" desc="15114" png="14659" type="gray"/>
+			<monster id="159" level="1" eventLevel="1" action="maple lv1 dark elder" desc="15117" png="14660" type="gray"/>
+			<monster id="160" level="1" eventLevel="1" action="maple lv1 elder" desc="15077" png="14661" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="6">
+			<monster id="161" level="1" eventLevel="1" action="maple lv1 dwarf" desc="15078" png="14662" type="gray"/>
+			<monster id="162" level="1" eventLevel="1" action="maple lv1 cockatrice" desc="15100" png="14663" type="gray"/>
+			<monster id="164" level="1" eventLevel="1" action="maple lv1 beleth" desc="15119" png="14665" type="gray"/>
+		</polymorph>
+		<polymorph eventOpenLevel="1" category="7">
+			<monster id="333" level="0" eventLevel="80" action="maple ranking class polymorph" desc="21987" png="3414" type="gray"/>
+			<!--monster id="410"	level="87" eventLevel="80" action="maple lv87 guard archer purple" desc="29242" png="17253" type="gray"/-->
+			<!--monster id="411"	level="87" eventLevel="80" action="maple lv87 guard spear purple" desc="29242"	png="17254" type="gray"/-->
+			<!--monster id="165"	level="84" eventLevel="65" action="maple lv84 guard archer red" desc="15060" png="14666" type="gray"/-->
+			<!--monster id="166"	level="84" eventLevel="65" action="maple lv84 guard spear red" desc="15061"	png="14667" type="gray"/-->
+			<!--monster id="167"	level="82" eventLevel="65" action="maple lv82 guard archer blue" desc="15060" png="14668"	type="gray"/-->
+			<!--monster id="168"	level="82" eventLevel="65" action="maple lv82 guard spear blue" desc="15061" png="14669" type="gray"/-->
+			<!--monster id="169"	level="80" eventLevel="65" action="maple lv80 guard archer green" desc="15060" png="14670" type="gray"/-->
+			<!--monster id="170"	level="80" eventLevel="65" action="maple lv80 guard spear green" desc="15061"	png="14671"	type="gray"/-->
+			<monster id="334" level="80" eventLevel="65" action="maple basic class polymorph" desc="31342" png="18655" type="gray"/>
+		</polymorph>
+		<polymorph category="8">
+			<monster id="182" level="1" eventLevel="1" action="maple 15 pc harphy morph" desc="21020" png="14700" type="gray"/>
+			<monster id="183" level="1" eventLevel="1" action="maple 15 pc kids" desc="21021" png="14701" type="gray"/>
+			<monster id="187" level="1" eventLevel="1" action="maple pc heaven knight" desc="21022" png="14702" type="gray"/>
+			<monster id="185" level="1" eventLevel="1" action="maple 15 pc orange morph" desc="21023" png="14703" type="gray"/>
+			<monster id="186" level="1" eventLevel="1" action="maple 15 pc kelenis girl" desc="21024" png="14704" type="gray"/>
+		</polymorph>
+	</advancelist>
+	<speciallist>
+		<polymorph nameId="27782" eventOpenLevel="2020">
+			<monster id="80" level="1" eventLevel="1" action="lv eighty five new deathknight red" desc="18692" png="14460" type="gray"/>
+			<monster id="88" level="1" eventLevel="1" action="lv new guard spear red" desc="19612" png="23161" type="gray"/>
+			<monster id="89" level="1" eventLevel="1" action="lv new guard archer red" desc="19612" png="14516" type="gray"/>
+			<monster id="92" level="1" eventLevel="1" action="new baphomet red" desc="25465" png="14501" type="gray"/>
+		</polymorph>
+	</speciallist>
+	<speciallist>
+		<polymorph nameId="28446" eventOpenLevel="2020">
+			<monster id="505" level="1" eventLevel="1" action="event pledge death knight" desc="33584" png="18677" type="gray"/>
+			<monster id="506" level="1" eventLevel="1" action="event pledge darkelf" desc="34629" png="18678" type="gray"/>
+		</polymorph>
+		<polymorph nameId="28635" eventOpenLevel="2020">
+			<monster id="80" level="1" eventLevel="1" action="lv eighty five new deathknight red" desc="18692" png="14460" type="gray"/>
+			<monster id="88" level="1" eventLevel="1" action="lv new guard spear red" desc="19612" png="23161" type="gray"/>
+			<monster id="89" level="1" eventLevel="1" action="lv new guard archer red" desc="19612" png="14516" type="gray"/>
+			<monster id="92" level="1" eventLevel="1" action="new baphomet red" desc="25465" png="14501" type="gray"/>
+		</polymorph>
+		<polymorph nameId="4069" eventOpenLevel="2020">
+			<monster id="511" level="1" eventLevel="1" action="scroll arch knight" desc="33980" png="23138" type="gray"/>
+			<monster id="512" level="1" eventLevel="1" action="scroll arch lance master" desc="33992" png="23150" type="gray"/>
+			<monster id="513" level="1" eventLevel="1" action="scroll arch scouter" desc="33984" png="23142" type="gray"/>
+			<monster id="514" level="1" eventLevel="1" action="scroll arch mage" desc="33988" png="23146" type="gray"/>
+		</polymorph>
+		<polymorph nameId="4109" eventOpenLevel="2020">
+			<monster id="511" level="1" eventLevel="1" action="scroll arch knight" desc="33980" png="23138" type="gray"/>
+			<monster id="512" level="1" eventLevel="1" action="scroll arch lance master" desc="33992" png="23150" type="gray"/>
+			<monster id="513" level="1" eventLevel="1" action="scroll arch scouter" desc="33984" png="23142" type="gray"/>
+			<monster id="514" level="1" eventLevel="1" action="scroll arch mage" desc="33988" png="23146" type="gray"/>
+		</polymorph>	
+		<polymorph nameId="30209">
+			<monster id="311" level="100" eventLevel="96" action="maple lv100 zillian ev" desc="35857" png="15476" type="gray"/>
+			<monster id="312" level="100" eventLevel="96" action="maple lv100 crister ev" desc="35858" png="15477" type="gray"/>
+		    <monster id="314" level="100" eventLevel="96" action="maple lv100 atun ev" desc="35859" png="15478" type="gray"/>
+		    <monster id="315" level="100" eventLevel="96" action="maple lv100 ishilotte ev" desc="35861" png="15479" type="gray"/>
+		    <monster id="316" level="100" eventLevel="96" action="maple lv100 joewoo ev" desc="35860" png="15480" type="gray"/>
+			<monster id="313" level="99" eventLevel="95" action="maple lv100 doppelganger king ev" desc="35856" png="15475" type="gray"/>
+		    <monster id="301" level="88" eventLevel="80" action="maple lv88 gunter ev" desc="25472" png="15470" type="gray"/>
+			<monster id="112" level="88" eventLevel="80" action="maple lv88 bluedica ev" desc="25473" png="15471" type="gray"/>
+			<monster id="302" level="86" eventLevel="80" action="maple lv86 curts ev" desc="25477" png="15465" type="gray"/>
+			<monster id="113" level="86" eventLevel="80" action="maple lv86 slave ev" desc="25478" png="15466" type="gray"/>
+			<monster id="305" level="88" eventLevel="80" action="maple lv88 prokel ev" desc="25474" png="15472" type="gray"/>
+			<monster id="306" level="86" eventLevel="80" action="maple lv86 iris ev" desc="25479" png="15467" type="gray"/>
+			<monster id="307" level="88" eventLevel="80" action="maple lv88 zillian ev" desc="25475" png="15473" type="gray"/>
+			<monster id="308" level="86" eventLevel="80" action="maple lv86 helvine ev" desc="25480" png="15468" type="gray"/>
+			<monster id="309" level="88" eventLevel="80" action="maple lv88 joewoo ev" desc="25476" png="15474" type="gray"/>
+			<monster id="310" level="86" eventLevel="80" action="maple lv86 hardin ev" desc="25481" png="15469" type="gray"/>
+		</polymorph>
+	</speciallist>
+</polymorphlist>

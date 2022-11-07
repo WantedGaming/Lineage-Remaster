@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シュエルメ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+			
+		<p>袋のなかをもう一度確認してください。<br/></p>
+		<p>見せてくださるといっていた証がなかったり<br/></p>
+		<p>あるいは寄付金が足りないようですね。<br/><br/></p>
+		 
+		<p>私はベール様のそばを絶対離れませんから、早く倉庫に行って探してきてください。<br/></p>
+		
+	</dialog>
+
+
+</npcdialog>

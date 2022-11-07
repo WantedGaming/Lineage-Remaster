@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>レイスン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffafff">5万Adena</font>が無いんですか？苦労して作ったんですから、タダでは渡せませんよ！<br/>
+		 これってハンドメイドなんですから！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

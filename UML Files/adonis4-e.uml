@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Adonis</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+    <p>It looks like I don't need to push myself any further today.
+I've had enough help already.</p>
+  </dialog>
+</npcdialog>

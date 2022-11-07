@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+<p>ごきげんよう。こうして同じ種族の者と会えて嬉しいよ。君もエルフの森を守るために遣わされたのだろ？</p>
+<p>オークからの侵略を防ぐためには、まずやつらのことを良く知ることが先決だと思う。</p>
+<p>オークのなかで魔法を使うやつらがいるんだが、その魔法は長い歴史を持つ相当なものだそうだ。</p>
+<p>これまで明らかにされていないところが多いんだが、継続して研究すればオークの魔法について分かってくると思う。</p>
+<br/>
+<p><a link="oth3">オーク族の魔法について</a></p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>カウル</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		…あ…預けたい物があればオレにくれ。
+		</p>
+		 <panel type="Panel_Storage_Button">
+			<Button action="deposit"/>
+			<Button action="retrieve"/>
+			<Button action="deposit-pledge"/>
+			<Button action="retrieve-pledge"/>
+			<Button action="deposit-char"/>
+			<Button action="retrieve-char"/>
+		</panel>
+		<p><br/>
+		 <a action="history">血盟倉庫使用リスト確認</a><br/>
+		<br/>
+		料金は荷物ひとつあたりの料金で、アイテムを受け取る際に支払えばいい。
+		一般倉庫：100Adena<br/>
+		血盟倉庫：500Adena<br/>
+		
+		<br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

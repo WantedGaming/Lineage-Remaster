@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>アブリション</name>
+	<job>船着場管理人</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+
+<dialog>
+<p>忘れられた島の船着場に船が止まっている時間は次のとおりです。</p>
+<p>参考までに、今は<var src="999"/>です。</p>
+<br/>
+	<p><font fg="ffffaf">01：30～02：30</font></p>
+	<p><font fg="ffffaf">04：30～05：30</font></p>
+	<p><font fg="ffffaf">07：30～08：30</font></p>
+	<p><font fg="ffffaf">10：30～11：30</font></p>
+	<p><font fg="ffffaf">13：30～14：30</font></p>
+	<p><font fg="ffffaf">16：30～17：30</font></p>
+	<p><font fg="ffffaf">19：30～20：30</font></p>
+	<p><font fg="ffffaf">22：30～23：30</font></p>
+	<br/>
+	<p><img src="331" link="oblivion1"/></p>
+</dialog>
+
+</npcdialog>

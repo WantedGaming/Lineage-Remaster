@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>市場ガード</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>調子はどうだ？変なやつを見かけたらすぐ知らせてくれ。 </p>
+		<p>気をつけろよ。</p>
+		<p><a action="teleport giran-trade-zone-giran">ギラン城下町に戻る</a></p>
+	</dialog>
+
+</npcdialog>

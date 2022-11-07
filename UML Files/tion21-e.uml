@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>水の精粋を持ってくる任務を終えたら、今持っている「訓練騎士のマント」を良いものに交換してやろう。</p>
+		<p>次の任務を遂行するには、次の段階の「訓練騎士のマント」を持っていなければならない。</p>
+		<p>この選択にはお前の命が掛かっているぞ。今マントに強化効果を付与することもできるが、交換後にその効果はすべて消えてしまうぞ。</p>
+		<p>もし最初の任務で獲得した「訓練騎士のマント」に満足しているなら、これ以上任務を遂行しなくてもよいぞ！</p>
+		<p>ポイズンサーペントの一員になりたいなら、些細なことを押し付けてはならないぞ。</p>
+		<p><a action="D">水の精粋を渡す</a></p>
+	</dialog>
+
+</npcdialog>

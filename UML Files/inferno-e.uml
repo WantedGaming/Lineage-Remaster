@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>炎の商人</name>
+  </npc>
+  <dialog>
+      <panel type="Panel_Shop_Bt_Buy">
+		<button action="buy"/>
+    </panel>
+    <p align="left"><font fg="ffffff">炎の商人：</font></p>
+    <p><br/>ポーション…安く…売る…<br/></p>
+    <p>ここでだけ…使える…<br/></p>
+  </dialog>
+</npcdialog>

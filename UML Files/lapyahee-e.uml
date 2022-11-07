@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>研究員</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>研究員</name>
+		<job>[Craft]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		<font fg="ffaaff">バルログ</font>の手下どもが我らみたいな姿に変身した後、いつも奴らの付属品みたいなのが残るんだ。</br>
+		そういったのを再利用して何やら作っているんだが、それがかなり評判でね。</br>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

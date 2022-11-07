@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エニャ</name>
+		<job>[Teleporter]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>私は、まだ未熟な方々が旅に出るための準備を手伝っています。</p>
+		<p>隠された渓谷は、経験の浅い者たちが集まって修行をする場所です。</p>
+		<p><a action="teleportURL">隠された渓谷へ</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エラン</name>
+		<job>[ペット管理人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>あの、動物をお預けになるのでしょうか？</p><br/>
+		<p><a action="depositnpc">動物を預ける</a></p>
+		<p><a action="withdrawnpc">動物を引き取る</a></p>
+		<p><a action="transfer">動物を譲渡する</a></p><br/>
+		<p>であれば、こちらでは<var src="0"/>Adenaというお値打ち価格で皆さんの動物をお預りします。</p>
+		<p><a link="helppet02">動物を手なずける方法を聞く</a></p>
+		<p>もちろん手なずけた動物は常にそばに置くのがベストでしょうけど、人にはそれなりに事情というものが生じます。そんなときはこちらへお越しください。</p>
+		<p>ただし魔法で手なずけたモンスターは、お預かりできませんよ。怖くて面倒みれませんのでね。</p>
+	</dialog>
+</npcdialog>

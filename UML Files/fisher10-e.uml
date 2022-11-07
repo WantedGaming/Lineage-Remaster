@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィッシャー</name>
+		<job>[侍従長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>現在、門を修理する資金がありません。</p>
+  </dialog>
+</npcdialog>

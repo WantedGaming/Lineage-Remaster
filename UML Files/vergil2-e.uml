@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>防具商店</title>
+  <npc>
+    <name>バージル</name>
+    <job>[防具商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <p>悪人を守る防具はないよ。</p>
+  </dialog>
+</npcdialog>

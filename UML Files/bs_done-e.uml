@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>強化ウィザード</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>強化ウィザード</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 さあ！アデン大陸を救うために頑張ってください！
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

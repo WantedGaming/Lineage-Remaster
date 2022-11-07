@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オークロン</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>私はオークの共同体から<var src="0"/>血盟とだけ取引するように命令を受けている。悪いけど外部の他のギルド員を探しておくれ。</p>
+</dialog>
+
+</npcdialog>

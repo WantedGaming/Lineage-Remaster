@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ケント傭兵隊長</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>戦争に勝利できたのは、我々の力だけではなく、</p>
+		<p>アデンのすべての民が一致団結し、力を合わせて戦ったからだと私は思っています。</p>
+		<p>戦争は終わりましたが、我々は最後までこの村を外部の侵略から守る義務があります！</p>
+		<p>…実のところ、戦争が終わって行き場が無いって事情もあります。</p>
+		<p>戦争が終われば、傭兵の仕事がなくなるってことですから、これからの事を考えると心配です…</p>
+
+	</dialog>
+
+</npcdialog>

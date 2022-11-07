@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<GameRankingUI>
+  <Window Name = "GameRanking_Window" X = "189" Y = "48" BaseSurf = "5558;1" Moveable = "36" MouseEvent = "Dummy" Activate = "0">
+    <Image Name = "Title_Image" X = "162" Y = "14" Surf = "5567;1"/>
+    <Button Name = "Exit_Button" X = "408" Y = "14" BaseSurf = "4645" PushSurf = "4646" MouseEvent = "Exit"/>
+    <Button Name = "Personal_TabButton" X = "19" Y = "42" BaseSurf = "5579" HighlightSurf = "5580" PushSurf = "5581" MouseEvent = "TabClick"/>
+    <Button Name = "Level_TabButton" X = "83" Y = "42" BaseSurf = "5582" HighlightSurf = "5583" PushSurf = "5584" MouseEvent = "TabClick"/>
+    <Button Name = "Pledge_TabButton" X = "147" Y = "42" BaseSurf = "5585" HighlightSurf = "5586" PushSurf = "5587" MouseEvent = "TabClick"/>
+    <Button Name = "Weapon_TabButton" X = "211" Y = "42" BaseSurf = "5588" HighlightSurf = "5589" PushSurf = "5590" MouseEvent = "TabClick"/>
+    <Button Name = "Money_TabButton" X = "275" Y = "42" BaseSurf = "5591" HighlightSurf = "5592" PushSurf = "5593" MouseEvent = "TabClick"/>
+    <Button Name = "Kill_TabButton" X = "339" Y = "42" BaseSurf = "5594" HighlightSurf = "5595" PushSurf = "5596" MouseEvent = "TabClick"/>
+    <Label Name = "Update_Label" Caption = "Last Update" X = "300" Y = "340" Align = "right" Width = "100" Height = "17"/>
+    <Control Name = "Personal_Control" Activate = "0">
+      <Label Name = "Name_Label" X = "124" Y = "117" Align = "left" Width = "70" Height = "17"/>
+      <Label Name = "Level_Label" X = "98" Y = "147" Align = "left" Width = "62" Height = "17"/>
+      <Label Name = "Pledge_Label" X = "98" Y = "177" Align = "left" Width = "62" Height = "17"/>
+      <Label Name = "Weapon_Label" X = "98" Y = "207" Align = "left" Width = "62" Height = "17"/>
+      <Label Name = "Adena_Label" X = "98" Y = "237" Align = "left" Width = "62" Height = "17"/>
+      <Label Name = "Cash_Label" X = "124" Y = "267" Align = "left" Width = "62" Height = "17"/>
+      <Label Name = "Kill_Label" X = "98" Y = "297" Align = "left" Width = "62" Height = "17"/>
+      <Image Name = "Back_Image" X = "18" Y = "68" Surf = "5573"/>
+    </Control>
+    <Control Name = "Level_Control" Activate = "0">
+      <List Name = "Ranker_List" X = "19" Y = "88" Width = "384" Height = "230" Vertical = "1">
+        <Control Name = "List0_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List1_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5598;1"/>
+        </Control>
+        <Control Name = "List2_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5599;1"/>
+        </Control>
+        <Control Name = "List3_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List4_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List5_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List6_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List7_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List8_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List9_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "102" Height = "17"/>
+          <Label Name = "Level_Label" Caption = "Level" X = "143" Y = "4" Align = "center" Width = "95" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "240" Y = "4" Align = "center" Width = "82" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+      </List>
+      <Image Name = "Back_Image" X = "18" Y = "68" Surf = "5574"/>
+    </Control>
+    <Control Name = "Pledge_Control" Activate = "0">
+      <List Name = "Ranker_List" X = "19" Y = "88" Width = "384" Height = "230" Vertical = "1">
+        <Control Name = "List0_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List1_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List2_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List3_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List4_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List5_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List6_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List7_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List8_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+        <Control Name = "List9_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "37" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "39" Y = "4" Align = "center" Width = "93" Height = "17"/>
+          <Label Name = "Lord_Label" Caption = "Lord" X = "134" Y = "4" Align = "center" Width = "91" Height = "17"/>
+          <Label Name = "Member_Label" Caption = "0" X = "227" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Point_Label" Caption = "0" X = "291" Y = "4" Align = "center" Width = "91" Height = "17"/>
+        </Control>
+      </List>
+      <Image Name = "Back_Image" X = "18" Y = "68" Surf = "5575"/>
+    </Control>
+    <Control Name = "Weapon_Control" Activate = "0">
+      <List Name = "Ranker_List" X = "19" Y = "88" Width = "384" Height = "230" Vertical = "1">
+        <Control Name = "List0_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List1_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List2_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List3_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List4_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List5_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List6_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List7_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List8_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+        <Control Name = "List9_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "132" Height = "17"/>
+          <Label Name = "Enchant_Label" Caption = "0" X = "170" Y = "4" Align = "center" Width = "64" Height = "17"/>
+          <Label Name = "Attr_Label" Caption = "0" X = "234" Y = "4" Align = "center" Width = "62" Height = "17"/>
+          <Label Name = "Owner_Label" Caption = "0" X = "296" Y = "4" Align = "center" Width = "88" Height = "17"/>
+        </Control>
+      </List>
+      <Image Name = "Back_Image" X = "18" Y = "68" Surf = "5576"/>
+    </Control>
+    <Control Name = "Money_Control" Activate = "0">
+      <List Name = "Ranker0_List" X = "19" Y = "88" Width = "190" Height = "230" Vertical = "1">
+        <Control Name = "List0_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List1_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List2_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List3_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List4_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List5_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List6_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List7_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List8_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List9_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+      </List>
+      <List Name = "Ranker1_List" X = "213" Y = "88" Width = "190" Height = "230" Vertical = "1">
+        <Control Name = "List0_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List1_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List2_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List3_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List4_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List5_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List6_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List7_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List8_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+        <Control Name = "List9_Control" Width = "190" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "90" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "90" Y = "4" Align = "center" Width = "100" Height = "17"/>
+        </Control>
+      </List>
+      <Image Name = "Back_Image" X = "18" Y = "68" Surf = "5577"/>
+    </Control>
+    <Control Name = "Kill_Control" Activate = "0">
+      <List Name = "Ranker_List" X = "19" Y = "88" Width = "384" Height = "230" Vertical = "1">
+        <Control Name = "List0_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List1_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List2_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List3_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List4_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List5_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List6_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List7_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List8_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+        <Control Name = "List9_Control" Width = "384" Height = "22">
+          <Label Name = "Rank_Label" Caption = "1" X = "0" Y = "4" Align = "center" Width = "38" Height = "17"/>
+          <Label Name = "Name_Label" Caption = "Name" X = "38" Y = "4" Align = "center" Width = "94" Height = "17"/>
+          <Label Name = "Class_Label" Caption = "Class" X = "132" Y = "4" Align = "center" Width = "69" Height = "17"/>
+          <Label Name = "Point" Caption = "0" X = "201" Y = "4" Align = "center" Width = "122" Height = "17"/>
+          <Image Name = "Diff_Image" X = "347" Y = "5" Surf = "5597;1"/>
+        </Control>
+      </List>
+      <Image Name = "Back_Image" X = "18" Y = "68" Surf = "5578"/>
+    </Control>
+    <Control Name = "Page_Control">
+      <Label Name = "PageLabel" Caption = "0 / 0" X = "181" Y = "316" Align = "center" Width = "62" Height = "17"/>
+      <Button Name = "First_Button" X = "143" Y = "317" BaseSurf = "5559;1" PushSurf = "5560;1" MouseEvent = "FirstPage"/>
+      <Button Name = "Prev_Button" X = "161" Y = "317" BaseSurf = "5563;1" PushSurf = "5564;1" MouseEvent = "PrevPage"/>
+      <Button Name = "Next_Button" X = "248" Y = "317" BaseSurf = "5565;1" PushSurf = "5566;1" MouseEvent = "NextPage"/>
+      <Button Name = "Last_Button" X = "264" Y = "317" BaseSurf = "5561;1" PushSurf = "5562;1" MouseEvent = "LastPage"/>
+    </Control>
+  </Window> 
+</GameRankingUI>

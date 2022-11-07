@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Enhanced Wizard</title>
+	<npc>
+		<portrait>PO_015</portrait>
+		<name><var src="name"/></name>
+		<job>[Enhanced Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Hello, for <font fg="ffffaf">1000 adena</font> I can give you some buff or create some <a link="bs_m5">spell scrolls</a> for you at a discounted price.<br/><br/>
+		</p>
+		<p><font fg="afffff">[Receive Enchance Magic]</font></p>
+		<panel type="Panel_Enchant_Bt_Strength">
+				<button action="a"/>
+        </panel>
+		<p>
+		<font fg="ffffaf">Coin:</font><a action="z"> Receive Blessing</a><br/>
+		<br/><br/>
+		<font fg="afffff">[Spell Scroll Craft]</font><br/>
+		<br/><br/>
+		<sp/><sp/><sp/><a action="1">1 - Spell Scroll</a><br></br><sp/><sp/><sp/><a action="2">5 - Spell Scroll</a><br></br><sp/><sp/><sp/><a action="3">10 - Spell Scroll</a><br></br><sp/><sp/><sp/><a action="4">100 - Spell Scroll</a><br></br><sp/><sp/><sp/><a action="5">500 - Spell Scroll</a><br/>
+		<br/><br/><br/>
+		 The flow of magic on the continent of Aden is changing.<br/><br/>By order of Master Talas, we are here to help adventurers to protect this world.<br/><br/>
+Please note that we are charging a small fee for the training of our wizards.
+		<br/><br/><br/>
+		<a link="bs_02">What do you mean?</a><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

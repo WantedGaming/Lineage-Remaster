@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>秘技</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ドラゴンナイトの秘技：一般論</font><br/></p>
+	<p><font fg="ffffaf">魔法別キャラクター学習可能レベル</font>：<br/>
+	ドラゴンナイトの秘技1：レベル20<br/>
+	ドラゴンナイトの秘技2：レベル40<br/>
+	ドラゴンナイトの秘技3：レベル60<br/>
+	ドラゴンナイトの秘技4：レベル80<br/>
+	パッシブ魔法：レベル80/レベル85<br/></p>
+	
+	<p><font fg="ffffaf">魔法 一般：</font><br/>
+	ドラゴンナイトの秘技のうち、攻撃魔法は<font fg="afffff">INT</font>の影響を受け、物理魔法の場合、<font fg="afffff">相手の防御能力</font>の影響を受けません。<br/></p>
+
+	<p><font fg="ffffaf">魔法材料：</font><br/>
+	ドラゴンナイトの秘技の中には<font fg="afffff">刻印のボーン ピース</font>という触媒が無いと使用できない魔法があります。<br/>
+	必要な数値は、各魔法のヘルプに書かれています。<br/></p>
+
+	<p><font fg="ffffaf">魔法を習う：</font><br/>
+	ドラゴンナイトの秘技を習得するには、<font fg="afffff">ドラゴンナイトの書板</font>という一種の魔法書が必要です。<br/>
+	各魔法別に<font fg="afffff">ドラゴンナイトの書板</font>を獲得した後に、アイテムをダブルクリックすると習得できます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

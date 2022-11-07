@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>フェオシ</name>
+    <job>[エバートの妻]</job>
+    <text>ご機嫌よう。フェオシといいます。</text>
+  </npc>
+  <dialog>
+	<p> <font fg="ffffaf">香水/紋章</font>を使われるのですね？何を私にくださいますか？</p>
+	<p><a action="a">パンドラの腕力のフローラル フレグランス：Tシャツ</a></p>
+	<p><a action="b">パンドラの機敏のフローラル フレグランス：Tシャツ</a></p>
+	<p><a action="c">パンドラの知力のフローラル フレグランス：Tシャツ</a></p>
+	<p><a action="d">パンドラの精神のフローラル フレグランス：Tシャツ</a></p>
+	<p><a action="e">パンドラの体力のフローラル フレグランス：Tシャツ</a></p>
+	<p><a action="f">パンドラの魅力のフローラル フレグランス：Tシャツ</a></p>
+	<p><a action="g">パンドラの精霊の紋様：Tシャツ</a></p>
+	<p><a action="h">パンドラのスタンの紋様：Tシャツ</a></p>
+	<p><a action="i">パンドラのホールドの紋様：Tシャツ</a></p>
+	<p><a action="j">パンドラの石化の紋様：Tシャツ</a></p>
+	<p><a action="k">パンドラの回復の紋様：Tシャツ</a></p>
+	<p><a action="l">パンドラの鋼鉄の紋様：Tシャツ</a></p>
+	<p><a action="m">パンドラの滅魔の紋様：Tシャツ</a></p>
+	<p><a action="n">パンドラの体力の紋様：Tシャツ</a></p>
+	<p><a action="o">パンドラのマナの紋様：Tシャツ</a></p>
+  </dialog>
+</npcdialog>

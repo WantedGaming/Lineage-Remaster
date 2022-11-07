@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ワシの友人のジェフという老人には、おかしなことにとても美しい婦人がいるんだよ。<br/></p>
+		<p>あんなに美しい婦人をどうやって手に入れたのか尋ねても、まったく教えてくれない。クンクン。<br/></p>
+		<p>何か秘密があるに違いない。<br/></p>
+		<p>さぁ、ワシがやる真実のティーバッグを持っていきな。<br/></p>
+		<p>このティーバッグでお茶を飲むと、自分でも知らずにペラペラと真実をしゃべってしまうだろう。クンクン。<br/></p>
+    <p>おっと…その友人がどこにいるか教えていなかったな。<br/></p>
+    <p>ジェフはだ…ここの掲示板越しに見える家に住んでいる。<br/></p>
+    <p>さぁ、早く行け！クンクン。<br/></p>
+	</dialog>
+
+</npcdialog>

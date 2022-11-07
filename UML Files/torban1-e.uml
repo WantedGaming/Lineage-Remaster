@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>トーバン</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>近頃オークの勢力が大きくなる一方です。 </p>
+		<p>オークはそれほど強くないと思われがちですが、この森のオークは他と大きく違います。</p>
+		<p>身体が大きく、頭も良いです。特に、一糸乱れず動くフォノス オークの部隊は本当にあの鈍臭いやつらと同じなのかと疑うほどです。</p>
+		<p>やつらは最近問題を起こしていて、もう我々の手には負えなくなっているのです。</p>
+		<p>ライラがオークのトーテムを集めているのを見ましたか？</p>
+		<p>ものすごい量を集めていて、見ているだけで気持ち悪くなるんです。</p>
+	</dialog>
+
+</npcdialog>

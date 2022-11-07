@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ピアス</name>
+  </npc>
+  <dialog>
+	<p>えぇっ、どうしてそんな冷たいことを言うんですか？あなたはきっと、戦争と人を殺すことしか知らない冷血漢ですね。</p>
+	<p>ハデスティ様がこの世で一番哀れに思う種族は、あなたのように愛も知らずに一生涯戦うことしか知らない人ですよ。</p>
+  </dialog>
+</npcdialog>

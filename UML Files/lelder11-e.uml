@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+	<p>まだなのか？どうか頼む。</p> 
+	<p>倒すのはシュノーヴァだけじゃ。そして一族の宝を取り戻しておくれ。</p>
+  </dialog>
+</npcdialog>

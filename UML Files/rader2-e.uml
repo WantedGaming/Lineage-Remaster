@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ブラック ウィザード レイダー：</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>訊くな！口にするのも忌々しい！</p>
+		<p>いや、聞いてくれ…頼む…そして、私のために復讐してくれ。どうかお願いだ…</p>
+		<p>以前私は、魔力に長けたブラック ウィザードのリーダーだった。だが、ライアが気に入らないという理由だけで、地上に追いやられてしまった。</p>
+		<p>ライア…私が彼女に何をしたというのか…今となっては理由など、もうどうでもいい。</p>
+		<p>私の復讐に手を貸してくれるか？もし私のためにライアの手下を倒し、その証拠を持ってきてくれたら、私が大事にしている、あるものを授けよう。</p>
+		<p>私の全てを奪っていった存在…ライア…</p>
+		<p>その名だけは死んでも忘れることができないだろう。絶対に！</p>
+		<p><a action="request ring of summoning control">レイダーが望んでいるものを渡す</a></p>
+		<p><img src="331" link="rader1"/></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>セリフ</title>
+  <npc>
+    <name>バルログの鍛冶屋</name>
+  </npc>
+  <dialog>
+    <p>くふふ…この美しく魅力あるヤヒの装備を見よ。</p> 
+	<p>俺が作ったものだが、俺でさえも目を奪われるな。</p>
+	<p>よし、何か用があるのか？</p> 
+	<p>忙しいからな。</p>  
+	<p>用があるなら早く言えよ。</p>
+    <p><a action="request craft">ヤヒの装備を注文する</a></p>
+	</dialog>
+</npcdialog>

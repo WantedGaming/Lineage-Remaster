@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ココ</name>
+		<job>ウィザード</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ようこそ、私はウィザードのココと申します。<br/>
+		 今は隠された渓谷のティーオに頼まれ、選ばれし者たちを地下ダンジョンに送ってあげています。<br/>
+		<br/><br/>
+		<a action="teleportURL">地下ダンジョンに行きます</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

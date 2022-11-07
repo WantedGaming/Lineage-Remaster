@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 話せる島の村の南西側に出口から外に出て、そのまままっすぐ進むと、木がぽつんぽつんと生えている林からうっそうとした森に変わります。その森にはいろいろ出るんですよ。<font fg="ffafff">ウェアウルフ</font>、<font fg="ffafff">ライカンスロープ</font>、<font fg="ffafff">ジャイアント スパイダー</font>、<font fg="ffafff">ドレッド スパイダー</font>、<font fg="ffafff">オーク ファイター</font>、それに<font fg="ffafff">オーク アーチャー</font>まで。やつらは群れを成しているから、1体でも攻撃を受けたら集団で襲ってきますよ。<br/>
+		 だから、やつらの動きをよ～く観察して、攻撃するタイミングをねらってください。それからもう1つ。夜にはアンデッドが出るから、くれぐれも気をつけてくださいよ。では、健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>私はブルディカ様の補佐官、<font fg="fff064">イリス</font>と言います。</p>
+		<p><a link="eris2">ラスタバドの悲劇</a>は終わりを迎えましたが、この世にはまだ多くの魂がさまよっています。</p>
+		<p>哀れな魂が安息を迎えられるように、あなたも力を貸してくれませんか？</p>
+		<p><a action="A">あなたに協力しましょう</a></p>
+		<p><a link="eris20">任務を完了しました</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Arena Guide</name>
+  </npc>
+  <dialog>
+   <p>This is a dueling arena. This is where you can fight not only monsters but also other adventurers.</p><br/>
+   <p>Once inside, it is a place where <font fg="ffffff">adventurers are allowed to attack each other.</font> If you want to go inside with that in mind, I will send you inside.</p><br/>
+   <p>Please note, however, that once inside, you are responsible for any unforeseen circumstances that may arise.<br/><br/></p>
+   <p><a link="arenaguide">Ask Details</a></p>
+   <p><a action="teleportURL">Enter Arena</a></p>
+  </dialog>
+</npcdialog>

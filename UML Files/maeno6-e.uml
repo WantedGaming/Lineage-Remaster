@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>○○</name>
+  </npc>
+  <dialog>
+    <p>お楽しみいただけたでしょうか？</p>
+    <p>今はマジックドール運動会が行われていません。</p>
+    <p>今後も皆様の声援にお応えして、より良いイベントを企画中です。</p>
+    <p>そうだ、成功した応援のラッパは交換できますよ。</p>
+    <p><a action="sell">応援のラッパを売ってください</a></p>
+    <p>ラッパ商人は運動場の開始と決勝地点、または下の広場にいます。</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<MobileInventory Toggle="true" Moveable="false">
+  <Window Name="BackgroundWindow" X="790" Y="0" BasePng="100256;2;10" Moveable="false" MouseEvent="Dummy" KeyboardEvent="Dummy">
+	<Window Name="BaseWindow" X="0" Y="0" BasePng="100257;1" FramePng="100258;4" Moveable="false" MouseEvent="Dummy" KeyboardEvent="Dummy">
+		<Button Name="CloseButton" X="364" Y="275" BasePng="100268;4" HighlightPng="100268;4" PushPng="100268;4" MouseEvent="HandleClose"/>
+		<Label Name="InventoryName" Caption="INVENTORY" X="24" Y="41" Width="127" Height="26" FontSize="12" HAlign="center" VAlign="middle"/>
+		<ComboBox Name="FilterCombo" X="243" Y="41">
+			<Label Name="Text_Label" Align="center" Width="134" Height="26"/>
+			<Button Name="Expand_Button" Width="134" Height="26" MouseEvent="HandleExpandFilter"/>
+			<Image X="100" Name="ComboListDisable" Png="100263;1" Enable="true"/>
+			<Image X="100" Name="ComboListEnable" Png="100264;4" Enable="false"/>
+			
+			<UpDownList Name="Expand_List" Y="27" Width="134" Height="145" PageSize="0" Vertical="1" Gap="0">
+				<Image Name="Background_Image" Png="100265;2;10"/>
+				<CheckButton Name="Item0_Button" Width="134" Height="36" CheckPng="100266;4" String="878" FontColor="255,255,255" Align="center" MouseEvent="HandleComboItem"/>
+				<CheckButton Name="Item1_Button" Width="134" Height="36" CheckPng="100266;4" String="879" FontColor="255,255,255" Align="center" MouseEvent="HandleComboItem"/>
+				<CheckButton Name="Item2_Button" Width="134" Height="36" CheckPng="100266;4" String="880" FontColor="255,255,255" Align="center" MouseEvent="HandleComboItem"/>
+				<CheckButton Name="Item3_Button" Width="134" Height="36" CheckPng="100266;4" String="881" FontColor="255,255,255" Align="center" MouseEvent="HandleComboItem"/>
+			</UpDownList>
+		</ComboBox>
+		<InventoryItemGrid Name="InventoryItemGrid" X="54" Y="124" Width="288" Height="364"  Row="5" Column="4" UnitWidth="63" UnitHeight="63" UnitGap="12" Drag="1">
+			<MultiDrawableImage Name="MultiSelectImage" Png="100267;4" X="-7" Y="-7"/>
+			<MultiDrawableImage Name="InvEquipImage" X="1" Y="1" Png="100138;1" />
+			<MultiDrawableImage Name="EquipMarkImage" Width="33" Height="33" X="1" Y="1"  Png="100134;1" />
+			<MultiDrawableImage Name="SealedMark" Width="33" Height="33" X="24" Y="24" Icon="2702;0;1" />
+			<MultiDrawableImage Name="SpecialSealedMark" Width="33" Height="33" X="24" Icon="4118;0;1" />
+			<MultiDrawableImage Name="QuestItemMark" X="3" Y="25" Png="100135;1"/>
+			<MultiDrawableImage Name="BMItemUseLimitMark" X="2" Y="2" Surf="5618;1" />
+			<Image Name="Selection_Image" Width="34" Height="34" Surf="536;1" />
+			<ScrollBar Name="ScrollBar" X="211" Y="100000" Width="6" Height="345" Vertical="1" ScrollStart="0" ScrollHeight="345" MouseEvent="InventoryScroll" MaxValue="0">
+				<Button Name="Move_Button" X="0" Y="0" MouseEvent="InventoryScroll" BasePng="100085;4" HighlightPng="100085;4" PushPng="100085;4"/>
+			</ScrollBar>
+		</InventoryItemGrid>
+	</Window>
+  </Window>
+  <DisableBoardImage Name="DisableBoard" CustomAlpha="10" CustomColor="0,0,0" Enable="false"/>
+ </MobileInventory>

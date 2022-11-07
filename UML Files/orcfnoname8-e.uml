@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>長老ノナメ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>調査はどうなっておるのじゃ？まだ何の進展もないのか？</p>
+<p>これは我が部族だけにとどまらず、他の部族にも関わる問題じゃ。責任を持って調査に望んでくれ。</p>
+<br/>
+<p><a action="Z"/>調査をやめます</p>
+</dialog>
+
+</npcdialog>

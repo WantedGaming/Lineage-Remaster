@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>侍従長 オービル</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>現在、資金不足により城の機能が麻痺した状態です。どう対処するか指示してください。</p>
+<br/>
+<p><a link="orville1">オービルに指示を出す</a></p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>セラム</name>
+		<job>[イベント商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>こんにちは。<br/>
+		秘密の商団の元気印、セラムです！<br/>
+		あなたがピンチヒッターの方ですか？<br/>
+		レイブンが思ったよりも見る目があって良かったです。<br/>
+		本当は仲間がやるはずだったんですが、今年は事情があって来れなくなってしまって。<br/>
+		<br/>
+		残念に思っていたんですが、あなたを見たら楽しみになってきました！<br/>
+		仲間よりも良い仕事をすれば、毎年私たちと取引することになるかもしれないので、思う存分実力を発揮してください！<br/>
+		秘密の商団ですが、報酬はしっかりとありますよ。<br/>
+		それでは頑張ってきてください！<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="non_npc buy"/></panel>
+	</dialog>
+</npcdialog>

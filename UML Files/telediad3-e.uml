@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ダニエル</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		ここからお送りできる狩り場と料金は以下のとおりです。<br/>
+		どの狩り場に行きますか？<br/>
+		<br/><br/>
+		<a action="teleport diad-occ">Underground Invasion:<var src="0"/>Adena</a><br/>
+		<a action="teleport diad-oumdun">オーム ダンジョン：<var src="1"/>Adena</a><br/>
+		<a action="teleport diad-mincave">鉱物ダンジョン：<var src="2"/>Adena</a><br/>
+		<a action="teleport diad-las">ラスタバド ダンジョン：<var src="3"/>Adena</a><br/>
+		
+		</p>
+
+	</dialog>
+
+</npcdialog>

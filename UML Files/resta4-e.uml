@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レスタ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>仲間…いい言葉だよな。ひとつの志を共にする友人…くぅ～っ泣けるねぇ！！</p>
+		<p>お…？それにしてもあんた、俺を知ってるのかい？会ったことあるのか？俺はあんたに会うのは初めてなんだが？さすがにそこまで話せる相手じゃないだろう？	</p>
+	</dialog>
+	
+</npcdialog>

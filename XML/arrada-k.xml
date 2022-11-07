@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>Talk_TitleIcon_Bag</icon>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>Arrada</name>
+    <job>[ General Merchant ]</job>
+    <text>Welcome,
+    </text>
+  </npc>
+  <dialog>
+    <panel>
+      <type>Panel_Shop_Button</type>
+      <button>
+	<action>buy</action>
+	<link>arrada_buy</link>
+      </button>
+      <button>
+	<action>sell</action>
+	<link>arrada_sell</link>
+      </button>
+    </panel>
+    <p>Welcome.  We sell items necessary for beginners.</p>
+    <p>Consumables brought here can only be used up to Level 69.</p>
+    <p>So be careful, as they can not be used outside of Talking Island!</p>
+    <p>See something you like? Take your time.</p>
+  </dialog>
+</npcdialog>

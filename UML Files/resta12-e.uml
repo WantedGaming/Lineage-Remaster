@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レスタ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>あ…でも…それはそうだが…ちょっとだけ俺に時間をくれよ。</p>
+		<p>考えてもみろよ。俺たち常識人だろ？だろ？旦那と息子に立て続けて死に別れて失意にくれている彼女に、どうやって惚れたはれたって言えばいいんだ？不謹慎じゃねーか！</p>
+		<p>ああ、もちろん約束は守るさ、守るっつってんだろ。でもな、時間をくれ。いつかはちゃんと言うからさ。なっ？</p>
+		<p><a link="resta13">まったく！なにウジウジしてるんですか！指輪貸してください！</a>	</p>
+	</dialog>
+	
+</npcdialog>

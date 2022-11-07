@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p><a link="perita6">浄化のポーションが欲しいです</a></p>
+	<p><a link="perita9">ミステリアス ポーションが欲しいです</a></p>
+	<p><a link="perita35">イアリングを変換したいです</a></p>
+	<p><a link="perita4">呪われたブラック イアリングについて知りたいです</a></p>
+	
+	<p><a action="p">持っている「呪われたブラック イアリング」</a>の種類を確認する</p>
+	<p><a action="q">持っている「ブラック イアリング」</a>の種類を確認する</p>
+	<p><a action="s">持っている「ミステリアス ブラック イアリング」</a>の種類を確認する</p>
+  </dialog>
+</npcdialog>

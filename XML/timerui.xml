@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<TimerUI>
+<Window Name="Background_Multi" X="-35" Y="4" Width="322" Height="48" BasePng="10698;3" FramePng="10699;4" Activate="1">
+		<Image Name="CurTime_Min100" X="32" Y="5" Width="16" Height="22" Png="10666;4" /> 
+		<Image Name="CurTime_Min10" X="41" Y="5" Width="16" Height="22" Png="10666;4"/> 
+		<Image Name="CurTime_Min1" X="52" Y="5" Width="16" Height="22" Png="10666;4"/> 
+		<Image Name="CurTime_Sec10" X="69" Y="5" Width="16" Height="22" Png="10666;4"/> 
+		<Image Name="CurTime_Sec1" X="80" Y="5" Width="16" Height="22" Png="10666;4"/> 
+		<Image Name="CurTime_Colon" X="64" Y="5" Width="6" Height="16" Png="10676;4"/> 
+		<Label Name="EventDescription" X="95" Y="7" Width="70" />
+</Window>
+</TimerUI>

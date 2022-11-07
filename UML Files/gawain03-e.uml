@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ガウェイン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 なかなかよく作られた武器をお持ちですね。<br/><br/><br/>
+		 <font fg="ffffaf">+9破滅者のチェーンソード</font>と<font fg="ffffaf">1000万Adena</font>で<br/>+8の新しい武器を作ることができます。<br/><br/>
+		 <font fg="ffffaf">+8破滅者のチェーンソード</font>と<font fg="ffffaf">500万Adena</font>で<br/>+7の新しい武器を作ることができます。<br/>
+		  どちらにいたしますか？<br/><br/><br/>
+		<a action="C">+7幻影のチェーンソード</a><br/><br/>
+		<a action="D">+8幻影のチェーンソード</a><br/><br/>
+		
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

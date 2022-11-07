@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffffaf">レア タートル</font>は最高の釣り師のみ釣ることができるという伝説の亀じゃ。<br/>
+		 ワシは子供の頃に一度だけ見たことがある。それから誰かが釣ったという話は聞いておらん。<br/>
+		 <br/>
+		 戦争が終わってから、趣味として釣りをする人も増えたそうじゃからな。
+		 死ぬ前にあのレア タートルをもう一度見たいと期待しておる。<br/>
+		 <br/>
+		<br/>
+		<img src="331" link="arka3"></img>
+		<br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

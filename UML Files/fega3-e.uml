@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フェガ</name>
+		<job>[武器防具商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p> <font fg="ffffff"><var src="0"/>%</font>だ。</p>
+  </dialog>
+</npcdialog>

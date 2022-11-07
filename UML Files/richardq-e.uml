@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+				<p>反王の軍勢に加担していたオークたちも、すでに全て消え去りました。</p>
+				<p>この平和がいつまでも続くといいですね。</p>
+				<p>最近アデン王国で過ごした日々をときどき思い出します。</p>
+				<p>あ…感傷的になってますね。</p>
+				<p>おつかれさまです。</p>
+	</dialog>
+	
+</npcdialog>

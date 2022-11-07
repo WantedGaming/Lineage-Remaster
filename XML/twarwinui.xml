@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<TerritoryWarWinUI>
+  <Window Name = "Party_Window" X = "2" Y = "48" BaseSurf = "3922" Modal = "1" Moveable = "1" Activate = "0">
+    <Button Name = "PartyWin_Exit" X = "528" Y = "2" BaseSurf = "3923" PushSurf = "3924" MouseEvent = "PartyWinExitButton"/>
+    <Button Name = "PartyWin_Ok" X = "439" Y = "164" BaseSurf = "3925" HighlightSurf = "3926" PushSurf = "3927;1" MouseEvent = "PartyWinOkButton"/>
+    <Button Name = "PartyWin_Search" X = "516" Y = "52" BaseSurf = "3928" HighlightSurf = "3929" PushSurf = "3930;1" MouseEvent = "PartyWinSearchButton"/>
+  </Window>
+  <Window Name = "History_Window" X = "2" Y = "48" BaseSurf = "3915" Modal = "1" Moveable = "1" Activate = "0">
+    <Button Name = "HistoryWin_Exit" X = "528" Y = "2" BaseSurf = "3916" HighlightSurf = "3917" PushSurf = "3917" MouseEvent = "HistoryWinExitButton"/>
+    <Button Name = "HistoryWin_Up" X = "260" Y = "4" BaseSurf = "3918" HighlightSurf = "3919" PushSurf = "3919" MouseEvent = "HistoryWinUpButton"/>
+    <Button Name = "HistoryWin_Down" X = "260" Y = "209" BaseSurf = "3920" HighlightSurf = "3921" PushSurf = "3921" MouseEvent = "HistoryWinDownButton"/>
+  </Window>
+  <Window Name = "MissionMenu_Window" X = "10" Y = "10" BaseSurf = "3913" Modal = "1" Moveable = "1" Activate = "0">
+    <Label Name = "MissionMenu_Name1" X = "2" Y = "2" Width = "70" Height = "17" Align = "center" String = "2507"/>
+    <Label Name = "MissionMenu_Name2" X = "2" Y = "20" Width = "70" Height = "17" Align = "center" String = "2508"/>
+    <Label Name = "MissionMenu_Name3" X = "2" Y = "38" Width = "70" Height = "17" Align = "center" String = "2509"/>
+    <Label Name = "MissionMenu_Name4" X = "2" Y = "56" Width = "70" Height = "17" Align = "center" String = "2510"/>
+    <Image Name = "MissionMenu_Image1" X = "77" Y = "2" Surf = "3897;1"/>
+    <Image Name = "MissionMenu_Image2" X = "77" Y = "20" Surf = "3899;1"/>
+    <Image Name = "MissionMenu_Image3" X = "77" Y = "38" Surf = "3901;1"/>
+    <Image Name = "MissionMenu_Image4" X = "77" Y = "56" Surf = "3903;1"/>
+  </Window>
+  <Window Name = "TargetPosMenu_Window" X = "10" Y = "10" BaseSurf = "3914" Modal = "1" Moveable = "1" Activate = "0">
+    <Label Name = "MissionMenu_TargetPos1" X = "2" Y = "2" Width = "96" Height = "17" Align = "center" String = "2511"/>
+    <Label Name = "MissionMenu_TargetPos2" X = "2" Y = "20" Width = "96" Height = "17" Align = "center" String = "2512"/>
+    <Label Name = "MissionMenu_TargetPos3" X = "2" Y = "38" Width = "96" Height = "17" Align = "center" String = "2513"/>
+    <Label Name = "MissionMenu_TargetPos4" X = "2" Y = "56" Width = "96" Height = "17" Align = "center" String = "2514"/>
+    <Label Name = "MissionMenu_TargetPos5" X = "2" Y = "74" Width = "96" Height = "17" Align = "center" String = "2515"/>
+    <Label Name = "MissionMenu_TargetPos6" X = "2" Y = "92" Width = "96" Height = "17" Align = "center" String = "2516"/>
+    <Label Name = "MissionMenu_TargetPos7" X = "2" Y = "110" Width = "96" Height = "17" Align = "center" String = "2517"/>
+    <Label Name = "MissionMenu_TargetPos8" X = "2" Y = "128" Width = "96" Height = "17" Align = "center" String = "2518"/>
+    <Label Name = "MissionMenu_TargetPos9" X = "2" Y = "146" Width = "96" Height = "17" Align = "center" String = "2519"/>
+    <Label Name = "MissionMenu_TargetPos10" X = "2" Y = "164" Width = "96" Height = "17" Align = "center" String = "2520"/>
+    <Label Name = "MissionMenu_TargetPos11" X = "2" Y = "182" Width = "96" Height = "17" Align = "center" String = "2521"/>
+    <Label Name = "MissionMenu_TargetPos12" X = "2" Y = "200" Width = "96" Height = "17" Align = "center" String = "2522"/>
+  </Window>
+  <Window Name = "Mission_Window" X = "100" Y = "120" BaseSurf = "3891" Modal = "1" Moveable = "1" Activate = "0">
+    <Label Name = "MissionWin_PartyName1" X = "4" Y = "24" Width = "70" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_PartyName2" X = "4" Y = "42" Width = "70" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_PartyName3" X = "4" Y = "60" Width = "70" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_PartyName4" X = "4" Y = "78" Width = "70" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_PartyName5" X = "4" Y = "96" Width = "70" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_PartyName6" X = "4" Y = "114" Width = "70" Height = "17" Align = "center"/>
+    <Button Name = "MissionWin_MissionMark1" X = "88" Y = "24" BaseSurf = "3897;1" HighlightSurf = "3898;1" PushSurf = "3898;1" MouseEvent = "MissionWinMissionMarkButton"/>
+    <Button Name = "MissionWin_MissionMark2" X = "88" Y = "42" BaseSurf = "3897;1" HighlightSurf = "3898;1" PushSurf = "3898;1" MouseEvent = "MissionWinMissionMarkButton"/>
+    <Button Name = "MissionWin_MissionMark3" X = "88" Y = "60" BaseSurf = "3897;1" HighlightSurf = "3898;1" PushSurf = "3898;1" MouseEvent = "MissionWinMissionMarkButton"/>
+    <Button Name = "MissionWin_MissionMark4" X = "88" Y = "78" BaseSurf = "3897;1" HighlightSurf = "3898;1" PushSurf = "3898;1" MouseEvent = "MissionWinMissionMarkButton"/>
+    <Button Name = "MissionWin_MissionMark5" X = "88" Y = "96" BaseSurf = "3897;1" HighlightSurf = "3898;1" PushSurf = "3898;1" MouseEvent = "MissionWinMissionMarkButton"/>
+    <Button Name = "MissionWin_MissionMark6" X = "88" Y = "114" BaseSurf = "3897;1" HighlightSurf = "3898;1" PushSurf = "3898;1" MouseEvent = "MissionWinMissionMarkButton"/>
+    <Label Name = "MissionWin_TargetPos1" X = "116" Y = "24" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_TargetPos2" X = "116" Y = "42" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_TargetPos3" X = "116" Y = "60" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_TargetPos4" X = "116" Y = "78" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_TargetPos5" X = "116" Y = "96" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_TargetPos6" X = "116" Y = "114" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_CurPos1" X = "213" Y = "24" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_CurPos2" X = "213" Y = "42" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_CurPos3" X = "213" Y = "60" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_CurPos4" X = "213" Y = "78" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_CurPos5" X = "213" Y = "96" Width = "96" Height = "17" Align = "center"/>
+    <Label Name = "MissionWin_CurPos6" X = "213" Y = "114" Width = "96" Height = "17" Align = "center"/>
+    <Button Name = "Top_Party_Button" X = "3" Y = "3" BaseSurf = "3905" PushSurf = "3906" MouseEvent = "MissionWinTopPartyButton"/>
+    <Button Name = "Top_Mission_Button" X = "75" Y = "3" BaseSurf = "3907" PushSurf = "3908" MouseEvent = "MissionWinTopMissionButton"/>
+    <Button Name = "Top_TargetPos_Button" X = "116" Y = "3" BaseSurf = "3909" PushSurf = "3910" MouseEvent = "MissionWinTopTargetPosButton"/>
+    <Button Name = "Top_CurrentPos_Button" X = "213" Y = "3" BaseSurf = "3911" PushSurf = "3912" MouseEvent = "MissionWinTopCurrentPosButton"/>
+    <Button Name = "Exit_Button" X = "311" Y = "2" BaseSurf = "3892" PushSurf = "3893" MouseEvent = "MissionWinExitButton"/>
+    <Button Name = "Ok_Button" X = "128" Y = "134" BaseSurf = "3894" HighlightSurf = "3895" PushSurf = "3896;1" MouseEvent = "MissionWinOkButton"/>
+    <ScrollBar Name = "MissionWin_Scrollbar" X = "310" Y = "22" ScrollStart = "16" ScrollHeight = "80" Vertical = "1">
+      <Image Name = "Background_Image" Surf = "3884"/>
+      <Button Name = "Up_Button" X = "3" Y ="3" BaseSurf = "3885" PushSurf = "3886" MouseEvent = "MissionWinScrollUpButton"/>
+      <Button Name = "Down_Button" X = "3" Y = "96" BaseSurf = "3887" PushSurf = "3888" MouseEvent = "MissionWinScrollDownButton"/>
+      <Button Name = "Move_Button" X = "3" BaseSurf = "3889;1" PushSurf = "3890;1" MouseEvent = "MissionWinScrollMoveButton"/>
+    </ScrollBar>
+  </Window>
+  <Window Name = "Main_Window" X = "10" Y = "10" BaseSurf = "3859" Modal = "1" Moveable = "1">
+    <Image Name = "Multi_Top" X = "3" Y = "3" Surf = "3860;3"/>
+    <Image Name = "Multi_Bottom" X = "3" Y = "306" Surf = "3861;3"/>
+    <Image Name = "Multi_Left" X = "3" Y = "30" Surf = "3862;3"/>
+    <Image Name = "Multi_Right" X = "540" Y = "30" Surf = "3863;3"/>
+    <Button Name = "Area_Button" X = "518" Y = "6" BaseSurf = "3865" PushSurf = "3866" MouseEvent = "MyAreaButton"/>
+    <Button Name = "Exit_Button" X = "535" Y = "6" BaseSurf = "3867" PushSurf = "3868" MouseEvent = "ExitButton"/>
+    <Image Name = "Menu_Back" X = "500" Y = "1" Surf = "3864;1"/>
+    <Button Name = "Status_Button" X = "10" Y = "318" BaseSurf = "3869" Highlight = "3870" PushSurf = "3871;1" MouseEvent = "StatusButton"/>
+    <Button Name = "Party1_Button" X = "85" Y = "318" BaseSurf = "3872" Highlight = "3873" PushSurf = "3874;1" MouseEvent = "PartyPledgeButton"/>
+    <Button Name = "Party2_Button" X = "160" Y = "318" BaseSurf = "3875" Highlight = "3876" PushSurf = "3877;1" MouseEvent = "PartyMercenaryButton"/>
+    <Button Name = "Result_Button" X = "235" Y = "318" BaseSurf = "3878" Highlight = "3879" PushSurf = "3880;1" MouseEvent = "ResultButton"/>
+    <Button Name = "Mission_Button" X = "454" Y = "318" BaseSurf = "3881" Highlight = "3882" PushSurf = "3883;1" MouseEvent = "MissionButton"/>
+  </Window>
+</TerritoryWarWinUI>

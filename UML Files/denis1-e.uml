@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>デニス</name>
+  </npc>
+  <dialog>
+    <p>うぁー！あの剣、見てみ！あなたはナイト？え？違うの？<br/>
+		ボクはデニス。11歳なんだ。もうすぐ<a link="denis2">ゲラド</a>様にお願いして、ナイトになるための試験を受けるんだ！</p>
+  </dialog>
+</npcdialog>

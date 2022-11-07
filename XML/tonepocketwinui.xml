@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<TonePocketWindowUI>
+	<SkinWindow Name = "TonePocket_Window" X = "192" Y = "82"  Moveable = "20" KeyboardEvent = "CloseBoard" MouseEvent = "Dummy">
+		<Skin Name="Skin" BaseSurf="3782;1" FrameSurf="3783;1"/>
+  	<Skin Name="Skin" BaseSurf="3776;1" FrameSurf="3777;1" Default="1"/>
+  	<Skin Name="Skin" BaseSurf="3784;1" FrameSurf="3785;1"/>
+		<Skin Name="Skin" BaseSurf="3786;1" FrameSurf="3787;1"/>
+		<Skin Name="Skin" BaseSurf="3788;1" FrameSurf="3789;1"/>
+		<Tab Name="ToneInfoTab" X="14" Y="283" Gap="37" Width = "149" Height = "22" MouseEvent="ToneInfoTab">
+			<Button Name = "ToneInfoTab1" BaseSurf = "3761" MouseEvent = "Dummy"/>
+			<Button Name = "ToneInfoTab2" BaseSurf = "3762" MouseEvent = "Dummy"/>
+			<Button Name = "ToneInfoTab3" BaseSurf = "3763" MouseEvent = "Dummy"/>
+			<Button Name = "ToneInfoTab4" BaseSurf = "3764" MouseEvent = "Dummy"/>
+		  <Tooltip Name = "Desc_Tooltip" String="2486" Area="0" Y = "20"/>
+			<Tooltip Name = "Desc_Tooltip" String="2485" Area="0" X = "37" Y = "20"/>
+			<Tooltip Name = "Desc_Tooltip" String="879" Area="0" X = "74" Y = "20"/>
+			<Tooltip Name = "Desc_Tooltip" String="883" Area="0" X = "111" Y = "20"/>
+		</Tab>
+		<Control Name="CharacterFullInfo">
+  		<Label Name = "CharacterToneFullInfo" X="23" Y="140" Width = "133" Height = "137" Caption="Character Tone Info"/>
+	  	<Image Name = "CharacterFullInfoLine_Image" X="17" Y="135" Surf = "3833;1"/>
+  		<Image Name = "CharacterFullInfoBack_Image" X="18" Y="136" Surf = "3834;2;10"/>
+	  	<Button Name = "CharacterInfoShort_Button" X = "141" Y = "264" BaseSurf = "3839" HighlightSurf="3840" PushSurf = "3839" MouseEvent = "CharacterInfo"/>
+		</Control>
+		<Control Name="CharacterShortInfo" Activate="0">
+  		<Label Name = "CharacterToneShortInfo" X="23" Y="264" Width = "133" Height = "15" Caption="Character Tone Info"/>
+		  <Image Name = "CharacterShortInfoLine_Image" X="17" Y="261" Surf = "3837;1"/>
+  		<Image Name = "CharacterShortInfoBack_Image" X="18" Y="262" Surf = "3838;2"/>
+  		<Button Name = "CharacterInfoFull_Button" X = "141" Y = "264" BaseSurf = "3835" HighlightSurf="3836" PushSurf = "3835" MouseEvent = "CharacterInfo"/>
+		</Control>
+		<Control Name="ToneInfoCharacterImage">
+  		<Image Name = "CharacterImage1" X="15" Y="19" Surf = "3819;1"/>
+  		<Image Name = "CharacterImage2" X="15" Y="19" Surf = "3820;1" Activate="0"/>
+  		<Image Name = "CharacterImage3" X="15" Y="19" Surf = "3821;1" Activate="0"/>
+  		<Image Name = "CharacterImage4" X="15" Y="19" Surf = "3822;1" Activate="0"/>
+  		<Image Name = "CharacterImage5" X="15" Y="19" Surf = "3823;1" Activate="0"/>
+  		<Image Name = "CharacterImage6" X="15" Y="19" Surf = "3824;1" Activate="0"/>
+  		<Image Name = "CharacterImage7" X="15" Y="19" Surf = "3825;1" Activate="0"/>
+  		<Image Name = "CharacterImage8" X="15" Y="19" Surf = "3826;1" Activate="0"/>
+  		<Image Name = "CharacterImage9" X="15" Y="19" Surf = "3827;1" Activate="0"/>
+  		<Image Name = "CharacterImage10" X="15" Y="19" Surf = "3828;1" Activate="0"/>
+  		<Image Name = "CharacterImage10" X="16" Y="19" Surf = "3829;1" Activate="0"/>
+  		<Image Name = "CharacterImage11" X="16" Y="19" Surf = "3830;1" Activate="0"/>
+  		<Image Name = "CharacterImage12" X="16" Y="19" Surf = "3831;1" Activate="0"/>
+  		<Image Name = "CharacterImage13" X="16" Y="19" Surf = "3832;1" Activate="0"/>
+		</Control>
+		<Control Name="CharacterMemoriesInfo" Activate="0">
+			<MultiEdit Name = "LineageMemory_Edit" X="21" Y = "42" Width = "130" Height = "145" LimitText="150" ReadOnly="1" Text="fdsfgasgk"/>
+			<MultiEdit Name = "MySays_Edit" X="21" Y = "214" Width = "135" Height = "60"/>
+  		<Image Name = "LineageMemory_Image" X="17" Y="21" Surf = "3767;1" />
+  		<Image Name = "MySays_Image" X="17" Y="192" Surf = "3765;1" />
+		</Control>
+		<Control Name="CharacterStatusInfo" Activate="0">
+		  <Image Name="CharacterStatusMaleFrame_Image" X="1" Y="7" Surf="2458;1"/>
+ 		  <Image Name="CharacterStatusFemaleFrame_Image" X="1" Y="7" Surf="2459;1" Activate="0"/>
+		</Control>
+		<Control Name="CharacterEquipInfo" Activate="0">
+  		<Image Name="CharacterEquipFrame_Image" X="1" Y="7" Surf="2450;1"/>
+		</Control>
+		<Button Name = "LeftTrigger_Button" X = "168" Y = "28" BaseSurf = "3778;1" PushSurf = "3778;1" HighlightSurf="3779;1" MouseEvent = "LeftTrigger"/>
+		<Control Name ="ToneInfoWindowCtrl" Activate="0">
+  		<Button Name = "Exit_A_Button" X = "166" Y = "11" BaseSurf = "3667" PushSurf = "3668" MouseEvent = "CloseBoard"/>
+		</Control>
+		<Control Name = "ToneListWindowCtrl" MouseEvent = "Dummy">
+  		<Button Name = "Exit_B_Button" X = "334" Y = "11" BaseSurf = "3667" PushSurf = "3668" MouseEvent = "CloseBoard"/>
+  		<Button Name = "RightTrigger_Button" X = "333" Y = "28" BaseSurf = "3780;1" PushSurf = "3780;1" HighlightSurf="3781;1" MouseEvent = "RightTrigger"/>
+  		<Button Name = "TalkButton" X = "187" Y = "296" BaseSurf = "3793" HighlightSurf="3794" PushSurf = "3795;1" MouseEvent = "TalkButton"/>
+  		<Button Name = "BagButton" X = "232" Y = "296" BaseSurf = "3790" HighlightSurf="3791" PushSurf = "3792;1" MouseEvent = "BagButton"/>
+  		<Label Name = "ListNumberLabel" X="280" Y="298" Width = "42" Height = "15" Align="right" Caption="256;1" BackColor="150"/>
+  		<Button Name = "TrashButton" X = "324" Y = "296" BaseSurf = "3800;1" HighlightSurf="3801;1" PushSurf = "3802;1" MouseEvent = "TrashButton"/>
+  		<GridTone Name = "GridTone" X = "190" Y = "20" Row="7" Column="4" UnitGap="1" UnitWidth="33" UnitHeight="33" MouseEvent="GridTone">
+  		  <Image Name="Selection_Image" Surf="536;1"/>
+  		  <ScrollBar Name = "Scrollbar" X = "141" Y = "57" ScrollStart = "0" ScrollHeight = "165" Vertical = "1">
+			    <Image Name = "Background_Image" Surf = "3811"/>
+			    <Button Name = "Up_Button" X="-1" Y ="-14" BaseSurf = "3812;1" HighlightSurf="3813;1" PushSurf = "3812;1" MouseEvent = "Dummy"/>
+			    <Button Name = "Down_Button" X="-1" Y = "164" BaseSurf = "3814;1" HighlightSurf="3815;1" PushSurf = "3814;1" MouseEvent = "Dummy"/>
+			    <Button Name = "Move_Button" X="-1" BaseSurf = "3816;1" HighlightSurf="3817;1" PushSurf = "3816;1" MouseEvent = "Dummy"/>
+  		  </ScrollBar>
+  		</GridTone>
+  		<ToneList Name="ToneList" X="190" Y="20" Width = "155" Height="280" Gap="1" Vertical="1" Activate="0">
+  		  <CheckButton Name="Tone0_Button" PushSurf="536;4" Activate="1">
+  		    <List Name="Tone0_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item0_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone0_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone0_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone0_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone1_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone1_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item1_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone1_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone1_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone1_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone2_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone2_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item2_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone2_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone2_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone2_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone3_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone3_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item3_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone3_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone3_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone3_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone4_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone4_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item4_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone4_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone4_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone4_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone5_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone5_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item5_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone5_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone5_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone5_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone6_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone6_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item6_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone6_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone6_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone6_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <CheckButton Name="Tone7_Button" PushSurf="536;4" Activate="0">
+  		    <List Name="Tone7_List" Width="155" Height="35" Gap="1" Horizontal="1">
+      		  <ItemIcon Name="Item7_Icon" Width="33" Height="33"/>
+      		  <List Name="Tone7_SubList" Width="101" Height="35" Gap="1" Vertical="1">
+        		  <List Name="Tone7_SubList0" Width="101" Height="15" Gap="1" Horizontal="1">
+        		    <Label Name="Name_Label" Width="75" Height="15" Caption="KnightPwol"/>
+         		    <Label Name="Plegde_Label" Width="25" Height="15" Caption="fsdf"/>
+        		  </List>
+        		  <List Name="Tone7_SubList1" Width="101" Height="15" Gap="1" Horizontal="1">
+         		    <Label Name="Level_Label" Width="60" Height="15" Caption="Lv: 88"/>
+         		    <Label Name="Class_Label" Width="40" Height="15" Caption="Knight"/>
+        		  </List>
+      		  </List>
+  		    </List>
+  		  </CheckButton>
+  		  <ScrollBar Name = "Scrollbar" X = "141" Y = "57" ScrollStart = "0" ScrollHeight = "165" Vertical = "1">
+			    <Image Name = "Background_Image" Surf = "3811"/>
+			    <Button Name = "Up_Button" X="-1" Y ="-14" BaseSurf = "3812;1" HighlightSurf="3813;1" PushSurf = "3812;1" MouseEvent = "Dummy"/>
+			    <Button Name = "Down_Button" X="-1" Y = "164" BaseSurf = "3814;1" HighlightSurf="3815;1" PushSurf = "3814;1" MouseEvent = "Dummy"/>
+			    <Button Name = "Move_Button" X="-1" BaseSurf = "3816;1" HighlightSurf="3817;1" PushSurf = "3816;1" MouseEvent = "Dummy"/>
+  		  </ScrollBar>
+  		</ToneList>
+  		<Tab Name="ToneListTab" X="188" Y="258" Gap="33" Width = "142" Height = "22" MouseEvent="ToneListTab" Activate="0">
+	  		<Button Name = "ToneListTab1" BaseSurf = "3809" MouseEvent = "Dummy"/>
+  			<Button Name = "ToneListTab2" BaseSurf = "3810" MouseEvent = "Dummy"/>
+			  <Tooltip Name = "Desc_Tooltip" String="0" Area="0" Y = "20"/>
+  			<Tooltip Name = "Desc_Tooltip" String="3" Area="0" X = "37" Y = "20"/>
+  		</Tab>
+		</Control>
+		<Control Name = "ToneCombineWindowCtrl" MouseEvent = "Dummy" Activate="0">
+  		<Label Name = "TonePocketLabel" X="364" Y="23" Width = "110" Height = "20" Caption="Tone Pocket Name"/>
+  		<Image Name = "SelectionImage" X="400" Y="89" Surf = "3818;2;30" Activate="0"/>
+  		<Button Name = "Exit_C_Button" X = "485" Y = "11" BaseSurf = "3667" PushSurf = "3668" MouseEvent = "CloseBoard"/>
+  		<Button Name = "RightButton" X = "441" Y = "55" BaseSurf = "3796" HighlightSurf="3797" PushSurf = "3796" MouseEvent = "RightButton"/>
+  		<Button Name = "LeftButton" X = "374" Y = "55" BaseSurf = "3798" HighlightSurf="3799" PushSurf = "3798" MouseEvent = "LeftButton"/>
+  		<Button Name = "LockButton" X = "428" Y = "260" BaseSurf = "3803" HighlightSurf="3804" PushSurf = "3805;1" MouseEvent = "LockButton"/>
+  		<Button Name = "AutoButton" X = "400" Y = "296" BaseSurf = "3806" HighlightSurf="3807" PushSurf = "3808;1" MouseEvent = "AutoButton"/>
+  		<ItemIcon Name="ToneCombinePocketIcon" X = "403" Y = "49" Width = "33" Height = "33"/>
+  		<ToneBoard Name ="ToneCombinationBoard">
+  		  <ItemIcon Name="ToneCombine0" X = "403" Y = "91" Width = "33" Height = "33"/>
+   		  <ItemIcon Name="ToneCombine1" X = "363" Y = "111" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombine2" X = "403" Y = "130" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombine3" X = "443" Y = "111" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombine4" X = "363" Y = "150" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombine5" X = "403" Y = "169" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombine6" X = "443" Y = "150" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombineEX0" X = "363" Y = "208" Width = "33" Height = "33"/>
+  		  <ItemIcon Name="ToneCombineEX1" X = "403" Y = "208" Width = "33" Height = "33"/>
+   		  <ItemIcon Name="ToneCombineEX2" X = "443" Y = "208" Width = "33" Height = "33"/>
+  		</ToneBoard>
+  		<ItemIcon Name="ToneCombineAvailableMagicIcon" Icon="383" X = "379" Y = "252" Width = "33" Height = "33"/>
+		</Control>
+	</SkinWindow>
+</TonePocketWindowUI>

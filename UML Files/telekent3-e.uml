@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィザード スタンリー</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>The hunting grounds and fees that can be sent from here are as follows.</p>
+		<p>Which hunting ground are you going to?</p>
+		<p><a action="teleport kent-gludun">Gludio Dungeon:<var src="0"/>Adena</a></p>
+		<p><a action="teleport kent-girdun">Giran Dungeon:<var src="1"/>Adena</a></p>
+		<p><a action="teleport kent-train">SKT Dungeon:<var src="2"/>Adena</a></p>
+		<p><a action="teleport kent-mirr">Mirror Forest:<var src="3"/>Adena</a></p>
+		<p><a action="teleport kent-dragon">Dragon Valley:<var src="4"/>Adena</a></p>
+		<p><a action="teleport kent-reed">Wheat Field:<var src="5"/>Adena</a></p>
+		<p><a action="teleport kent-oasis">Desert Oasis:<var src="6"/>Adena</a></p>
+		<p><a action="teleport kent-under">Underground Invasion:<var src="7"/>Adena</a></p>
+		<p><a action="teleport kent-eva">Heine Dungeon:<var src="8"/>Adena</a></p>
+		<p><a action="teleport kent-gypsy">Gypsy Town:<var src="9"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

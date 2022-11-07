@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ピアス</name>
+  </npc>
+  <dialog>
+	<p>ブレイブ ストーンをくれるんでしたら、微弱ながらもヘビースティングを少し分けてあげます…。</p>
+	<p><a action="request heavy sting knife">ブレイブ ストーンを分ける</a></p>
+	<img src="331"/> <p><a link="pears2"></a></p>
+  </dialog>
+</npcdialog>

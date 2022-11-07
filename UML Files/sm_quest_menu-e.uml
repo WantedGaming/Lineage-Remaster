@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>レイブン</name>
+		<job>[イベント報賞]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		やあ、私は秘密の商団のリーダー、レイブンだ。<br/>
+		秘密の商団といっても、闇の何とかみたいな集団じゃなくて<br/>
+		あまり情報を明かしていないだけだから、誤解しないでくれ。<br/>
+		急にお願いしてしまったが、やはり君にして良かったよ。<br/>
+		だから是非とも頑張ってもらいたい。<br/>
+		報賞はしっかりあるから心配しないでくれ。<br/>
+		<br/>
+		<font fg="ffffaf">精鋭部隊の証100個</font>と、セラムが持っている<font fg="ffffaf">破れた取引帳簿</font>を持ってきてくれ。<br/>
+		<br/>
+		それと、<font fg="afffff">100Adena</font>あれば、いつでもわしの近くまで召喚するぞ。
+		</p>
+ 		    <panel type="Panel_Teleport">
+			<button action="non_npc a"/>
+		</panel>
+		<br/>
+	</dialog>
+</npcdialog>
+ 

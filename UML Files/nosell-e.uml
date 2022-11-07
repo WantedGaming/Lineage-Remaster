@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p>We're sorry, but there are currently no items that you would like to purchase.</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

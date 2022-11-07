@@ -1,0 +1,101 @@
+<LoadingData>
+	<DataSet Id="3"> <!-- ID는 서버의 InterKind와 동일하게 설정해야 합니다! 테베라스 -->
+		<Image>
+			<png num="11310"/>
+			<png num="11311"/>
+		</Image>
+		<Tip>
+			<desc num="21855"/>
+			<desc num="21856"/>
+			<desc num="21857"/>
+			<desc num="21858"/>
+			<desc num="21859"/>
+			<desc num="21860"/>
+			<desc num="21861"/>
+			<desc num="21862"/>
+			<desc num="21863"/>
+			<desc num="21864"/>
+			<desc num="21865"/>
+			<desc num="21866"/>
+			<desc num="21867"/>
+			<desc num="21868"/>
+			<desc num="21869"/>
+			<desc num="21870"/>
+			<desc num="21871"/>
+			<desc num="21872"/>
+			<desc num="21873"/>
+			<desc num="21874"/>
+		</Tip>
+	</DataSet>
+	
+	
+	<DataSet Id="4"> <!--잊혀진 섬-->
+		<Image>
+			<png num="12033"/>
+		</Image>
+		<Tip>
+		</Tip>
+	</DataSet>
+	
+	<DataSet Id="6"> <!--리토 전장 (아레나서버) -->
+		<Image>
+			<png num="13038"/>
+			<png num="13186"/>
+			<png num="13187"/>
+			<png num="14007"/>
+		</Image>
+		<Tip>
+			<desc num="24159"/>
+			<desc num="24160"/>
+			<desc num="24161"/>
+			<desc num="24162"/>
+			<desc num="24163"/>
+			<desc num="24164"/>
+			<desc num="24165"/>
+			<desc num="24166"/>
+			<desc num="24167"/>
+		</Tip>
+		<Sound>
+			<wav num="7783"/>
+		</Sound>
+	</DataSet>
+	<DataSet Id="7"> <!-- 오만의 탑 인터서버 (로딩화면 없도록 처리) -->
+		<Image>
+			<png num="-1"/>
+		</Image>
+		<Tip>
+			<desc num="-1"/>
+		</Tip>
+	</DataSet>
+	<DataSet Id="8"> <!-- 인터서버공성 -->
+		<Image>
+			<png num="-1"/>
+		</Image>
+		<Tip>
+			<desc num="-1"/>
+		</Tip>
+	</DataSet>
+	<DataSet Id="9"> <!-- 인터서버 마법인형 레이스 -->
+		<Image>
+			<png num="19938"/>
+		</Image>
+		<Tip>
+			<desc num="30018"/>
+			<desc num="30019"/>
+			<desc num="30020"/>
+			<desc num="30021"/>
+			<desc num="30022"/>
+		</Tip>
+	</DataSet>	
+	<DataSet Id="10"> <!-- 인스턴스 던젼 4.0 -->
+		<Image>
+			<png num="20184"/>
+		</Image>
+		<Tip>
+			<desc num="29944"/>
+		</Tip>
+		<Sound>
+			<wav num="7783"/>
+		</Sound>
+	</DataSet>
+</LoadingData>

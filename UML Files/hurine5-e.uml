@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>ぼんやり光る羽に小さな体を持つ、  
+	魔法に詳しい種族です。アインハザード様はエルフがこの世に生まれる直前に、森に咲いた花に飛び交う蝶に  
+	風の精霊をかけあわせてフェアリー族をお作りになったそうです。</p>
+	<p><font fg="ffffff">ミスリルの原石</font>から<font fg="ffffff">ミスリル</font>を精製する魔法を持っているのは、フェアリーだけなんですよ。
+	それに、彼らが時々くれる<font fg="ffffff">フェアリーの羽</font>は、ミスリルでメッキをして様々な<font fg="ffffff">ソードの刀身</font>をつくることもできます。
+	あ！フェアリーについては、私よりもミスリルとメッキの伝承者である<font fg="ffffff">ドエット</font>がもっとよく知ってると思います。私の知ってることもほとんど彼が教えてくれたことですから。</p>
+  </dialog>
+</npcdialog>

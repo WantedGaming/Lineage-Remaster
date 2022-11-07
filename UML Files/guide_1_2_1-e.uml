@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ウッドベック村の西側の出口から外に出てまっすぐ行くと、グルーディン村へと向う道があります。そのあたりには<font fg="ffafff">ライカンスロープ</font>などの<font fg="ffafff">ウェアウルフ</font>、<font fg="ffafff">オーク ファイター</font>、<font fg="ffafff">オーク ウィザード</font>が出るそうです。<br/>
+		 初心者用の狩り場を卒業したばかりの人にオススメですよ。それでは、健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

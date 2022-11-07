@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>メリン</name>
+		<job>[商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		ちょいと、待ちな！うちの店をなんだと思って、図々しく物をよこせだなんてほざいてんのさ？！あんたみたいな不良に売るモンなんてないよ！
+		</p>
+	</dialog>
+</npcdialog>

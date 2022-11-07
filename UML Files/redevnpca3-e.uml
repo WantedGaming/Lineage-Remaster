@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>徴兵官</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>勇士様は、推薦書がないようです。</p>
+		<p>もう一度申し上げますが、赤き騎士団に加入するためにはデポロジュー様から選ばれた者のみ支給される、加入推薦書が必要です。</p>
+		<p><a link="redevnpca4">推薦書はどこでもらえますか？</a></p>
+	</dialog>
+</npcdialog>

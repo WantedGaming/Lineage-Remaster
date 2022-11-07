@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	
+	<dialog>
+				
+	
+		<p>古代の精霊言語で書かれています。<br/></p>
+
+		<p>解析：ピクシーの羽を持たない者…その者のため…神聖な場所へ…<br/><br/></p>
+		
+		<p><font fg="ffffaf">入場時間</font>：<font fg="ffaaff">30分</font><br/></p>
+		<p><font fg="ffffaf">帰還可否</font>：<font fg="ffaaff">可能</font><br/></p>
+		<p><font fg="ffffaf">テレポート可否</font>：<font fg="ffaaff">不可</font><br/></p>
+		<p><font fg="ffffaf">移動費用</font>：<font fg="ffaaff">ピクシーの羽30個</font><br/><br/></p>
+		<p><a action="a">古代精霊の墓の入口に行く</a><br/><br/></p>
+		<p><a action="b">古代精霊の墓の中央に行く</a><br/></p>
+
+				
+	</dialog>
+
+</npcdialog>

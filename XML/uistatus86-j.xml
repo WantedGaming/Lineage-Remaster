@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+
+<!--Main Status Configulation-->
+
+<MainStatusConfigulation>
+
+  <LEFT_WINDOW x = "0" y = "475">
+  
+    <MAIN_WINDOW>
+      <MAIN_FRAME surfNumber = "3168" xRPos = "0" yRPos = "0"/>
+    </MAIN_WINDOW>
+  
+    <LEVEL_WINDOW>
+      <LEVEL_BAR surfNumber = "3169" xRPos = "11" yRPos = "26"/>
+      <LEVEL_NUMBER xRPos = "43" yRPos = "29"/>
+      <EXP_PERCENT_A xRPos = "78" yRPos = "29"/>
+      <EXP_PERCENT_B xRPos = "79" yRPos = "29"/>
+    </LEVEL_WINDOW>
+    
+  
+    <KARMA_WINDOW>
+      <BALOG_BASE surfNumber="3707" xRPos="7" yRPos="41"/>
+      <BALOG_BTN surfNumber="3704~3706" xRPos="8" yRPos="42"/>
+      <BALOG_BAR surfNumber="3708" xRPos = "24" yRPos = "46"/>
+      <YAHEE_BAR surfNumber="3709" xRPos = "68" yRPos = "46"/>
+    </KARMA_WINDOW>
+
+
+    <AC_WINDOW>
+      <AC_NUMBER xRPos = "41" yRPos = "69"/>
+    </AC_WINDOW>
+
+    <ALIGN_WINDOW>
+      <CHAOTIC_ICON surfNumber = "3170" xRPos = "10" yRPos = "86"/>
+      <LAWFUL_ICON surfNumber = "3171" xRPos = "10" yRPos = "86"/>
+      <NEUTRAL_ICON surfNumber = "3172" xRPos = "10" yRPos = "86"/>
+      <ALIGN_NUMBER xRPos = "41" yRPos = "89"/>
+    </ALIGN_WINDOW>
+  
+    <CARRY_GAUGE_WINDOW>
+      <LOW_GAUGE_BAR surfNumber = "3173" xRPos = "24" yRPos = "107"/>
+      <MID_GAUGE_BAR surfNumber = "3174" xRPos = "24" yRPos = "107"/>
+      <HIGH_GAUGE_BAR surfNumber = "3175" xRPos = "24" yRPos = "107"/>
+      <CARRY_GAUGE_NUMBER xRPos = "41" yRPos = "109"/>
+    </CARRY_GAUGE_WINDOW>
+  
+    <MR_WINDOW>
+      <MR_PERCENTAGE xRPos = "105" yRPos = "69"/>
+    </MR_WINDOW>
+  
+    <SP_WINDOW>
+      <SP_NUMBER xRPos = "105" yRPos = "89"/>
+    </SP_WINDOW>
+  
+    <FOOD_GAUGE_WINDOW>
+      <FOOD_GUAGE_BAR surfNumber = "3173" xRPos = "87" yRPos = "107"/>
+      <FOOD_MAX_BAR surfNumber = "3174" xRPos = "87" yRPos = "107"/>
+      <FOOD_MAX_BAR_SHOUT surfNumber = "3164" xRPos = "87" yRPos = "106"/>
+      <FOOD_GUAGE_BAR_SHOUT surfNumber = "3165" xRPos = "87" yRPos = "106"/>
+      <FOOD_NUMBER xRPos = "105" yRPos = "109"/>
+    </FOOD_GAUGE_WINDOW>
+  
+    <ADENA_WINDOW>
+      <ADENA_BTN surfNumber="3701~3703" xRPos="8" yRPos="42"/>
+      <ADENA_VALUE xRPos="115" yRPos="48"/>
+    </ADENA_WINDOW>
+
+    <BUTTON_2STAGE_LIST>
+      <IMAGE_BUTTON title = "Shout" action = "14" surfNumber = "3165" xRPos = "87" yRPos = "106"/> <!--3165 ~ 3166 -->
+    </BUTTON_2STAGE_LIST>
+
+    <BUTTON_3STAGE_LIST>
+      <IMAGE_BUTTON3 title = "UIShop" action = "9" surfName = "" surfNumber = "3125" xRPos = "2" yRPos = "-20"/> <!-- 3125 ~ 3127 -->
+    </BUTTON_3STAGE_LIST>
+
+  </LEFT_WINDOW>
+  
+  
+  <CENTER_WINDOW x = "129" y = "470" stepSize = "36">
+  
+    <CHAT_MAIN_WINDOW>
+      <CHAT_WINDOW surfNumber = "3279" xRPos = "0" yPos = "600"/>
+      <CHAT_BORN surfNumber = "3280" xRPos = "0" yPos = "600"/>
+      <CHAT_BAR surfName = "SURF_RENEWAL_CHAT_BAR" surfNumber = "2273" xRPos = "10" yRPos = "114"/>
+
+      <LCHAT_WINDOW surfNumber = "3288" xRPos = "0" yPos = "600"/>
+      <LCHAT_BORN surfNumber = "3289" xRPos = "0" yPos = "600"/>
+      <RCHAT_WINDOW surfNumber = "3290" xRPos = "260" yPos = "600"/>
+      <RCHAT_BORN surfNumber = "3291" xRPos = "260" yPos = "600"/>
+    </CHAT_MAIN_WINDOW>
+    
+    <CHAT_STEP_CONTROL>
+      <CHAT_UP surfName = "SURF_RENEWAL_CHAT_UP_OFF" surfNumber = "2274" xRPos = "345" yRPos = "115"/>
+      <CHAT_UP_FOCUS_ON surfName = "SURF_RENEWAL_CHAT_UP_FOCUS_ON" surfNumber = "2275"/>
+      <CHAT_UP_FOCUS surfName = "SURF_RENEWAL_CHAT_UP_FOCUS" surfNumber = "2276"/>
+      <CHAT_DOWN surfName = "SURF_RENEWAL_CHAT_DOWN_OFF" surfNumber = "2277" xRPos = "345" yRPos = "115"/>
+      <CHAT_DOWN_FOCUS_ON surfName = "SURF_RENEWAL_CHAT_DOWN_FOCUS_ON" surfNumber = "2278"/>
+      <CHAT_DOWN_FOCUS surfName = "SURF_RENEWAL_CHAT_DOWN_FOCUS" surfNumber = "2279"/>
+    </CHAT_STEP_CONTROL>
+
+    <CHAT_SCROLL_CONTROL>
+      <SCROLL1 surfNumber = "3281" xRPos = "346" yRPos = "37"/>
+      <SCROLL2 surfNumber = "3282" />
+      <SCROLL3 surfNumber = "3283" />
+      <SCROLL4 surfNumber = "3284" />
+      <SCROLL_UP_OFF surfName = "SURF_RENEWAL_CHAT_SCROLL_UP_OFF" surfNumber = "2284" xRPos = "346" yRPos = "30"/>
+      <SCROLL_UP_ON surfName = "SURF_RENEWAL_CHAT_SCROLL_UP_ON" surfNumber = "2285"/>
+      <SCROLL_DOWN_OFF surfName = "SURF_RENEWAL_CHAT_SCROLL_DOWN_OFF" surfNumber = "2286" xRPos = "346" yRPos = "107"/>
+      <SCROLL_DOWN_ON surfName = "SURF_RENEWAL_CHAT_SCROLL_DOWN_ON" surfNumber = "2287"/>
+      <SCROLL_KNOB surfName = "SURF_RENEWAL_CHAT_SCROLL_KNOB" surfNumber = "2288"/>
+      <SCROLL_KNOB_ON surfName = "SURF_RENEWAL_CHAT_SCROLL_KNOB_ON" surfNumber = "2289"/>
+    </CHAT_SCROLL_CONTROL>
+    
+    <CHAT_ICON>
+      <CHAT_ICON_FRAME surfNumber = "3285" xRPos = "164" yRPos = "4"/>
+      
+      <CHAT_ICON_ACTIVE_ON surfNumber = "3286" xRPos = "299" yRPos = "5"/>
+      <CHAT_ICON_ACTIVE surfNumber = "3287" xRPos = "299" yRPos = "5"/>
+      <GENERAL_CHAT_ON surfName = "SURF_GENERAL_CHAT_ICON" surfNumber = "2290" xRPos = "179" yRPos = "5"/>
+      <GENERAL_CHAT surfName = "SURF_GENERAL_CHAT_ICON_ON" surfNumber = "2291" xRPos = "179" yRPos = "5"/>
+      <PARTY_CHAT_ON surfName = "SURF_PARTY_CHAT_ICON" surfNumber = "2292" xRPos = "198" yRPos = "5"/>
+      <PARTY_CHAT surfName = "SURF_PARTY_CHAT_ICON_ON" surfNumber = "2293" xRPos = "198" yRPos = "5"/>
+      <PLEDGE_CHAT_ON surfName = "SURF_PLEDGE_CHAT_ICON" surfNumber = "2294" xRPos = "221" yRPos = "5"/>
+      <PLEDGE_CHAT surfName = "SURF_PLEDGE_CHAT_ICON_ON" surfNumber = "2295" xRPos = "221" yRPos = "5"/>
+      <TRADE_CHAT_ON surfName = "SURF_TRADE_CHAT_ICON" surfNumber = "2296" xRPos = "240" yRPos = "5"/>
+      <TRADE_CHAT surfName = "SURF_TRADE_CHAT_ICON_ON" surfNumber = "2297" xRPos = "240" yRPos = "5"/>
+	    <SYSTEM_CHAT_ON surfName = "SURF_SYSTEM_CHAT_ICON" surfNumber = "2975" xRPos = "258" yRPos = "5"/>
+      <SYSTEM_CHAT surfName = "SURF_SYSTEM_CHAT_ICON_ON" surfNumber = "2976" xRPos = "258" yRPos = "5"/>
+    </CHAT_ICON>
+    
+    <LANGUAGE_ICON>
+      <HANGUL surfName = "SURF_RENEWAL_CHAT_HAN_ICON" surfNumber = "2298" xRPos = "36" yRPos = "100"/>
+      <ENGLISH surfName = "SURF_RENEWAL_CHAT_ENG_ICON" surfNumber = "2299"/>
+    </LANGUAGE_ICON>
+
+	<CHANNEL_ICON>
+	  <GENERAL_CHANNEL surfName = "SURF_RENEWAL_GENERAL_CHANNEL_OFF" surfNumber = "2977" xRPos = "8" yRPos = "115"/>
+      <GENERAL_CHANNEL_ON surfName = "SURF_RENEWAL_GENERAL_CHANNEL_ON" surfNumber = "2978"/>
+      <GENERAL_CHANNEL_FOCUS surfName = "SURF_RENEWAL_GENERAL_CHANNEL_FOCUS" surfNumber = "2979"/>
+	  <BLOOD_CHANNEL surfName = "SURF_RENEWAL_BLOOD_CHANNEL_OFF" surfNumber = "2980" xRPos = "8" yRPos = "100"/>
+      <BLOOD_CHANNEL_ON surfName = "SURF_RENEWAL_BLOOD_CHANNEL_ON" surfNumber = "2981"/>
+      <BLOOD_CHANNEL_FOCUS surfName = "SURF_RENEWAL_BLOOD_CHANNEL_FOCUS" surfNumber = "2982"/>
+	  <PARTY_CHANNEL surfName = "SURF_RENEWAL_PARTY_CHANNEL_OFF" surfNumber = "2983" xRPos = "8" yRPos = "85"/>
+      <PARTY_CHANNEL_ON surfName = "SURF_RENEWAL_PARTY_CHANNEL_ON" surfNumber = "2984"/>
+      <PARTY_CHANNEL_FOCUS surfName = "SURF_RENEWAL_PARTY_CHANNEL_FOCUS" surfNumber = "2985"/>
+	  <WHOLE_CHANNEL surfName = "SURF_RENEWAL_WHOLE_CHANNEL_OFF" surfNumber = "2986" xRPos = "8" yRPos = "70"/>
+      <WHOLE_CHANNEL_ON surfName = "SURF_RENEWAL_WHOLE_CHANNEL_ON" surfNumber = "2987"/>
+      <WHOLE_CHANNEL_FOCUS surfName = "SURF_RENEWAL_WHOLE_CHANNEL_FOCUS" surfNumber = "2988"/>
+	  <TRADE_CHANNEL surfName = "SURF_RENEWAL_TRADE_CHANNEL_OFF" surfNumber = "2989" xRPos = "8" yRPos = "55"/>
+      <TRADE_CHANNEL_ON surfName = "SURF_RENEWAL_TRADE_CHANNEL_ON" surfNumber = "2990"/>
+      <TRADE_CHANNEL_FOCUS surfName = "SURF_RENEWAL_TRADE_CHANNEL_FOCUS" surfNumber = "2991"/>
+	  <CHANNEL_CHANNEL surfName = "SURF_RENEWAL_CHANNEL_CHANNEL_OFF" surfNumber = "2992" xRPos = "8" yRPos = "40"/>
+      <CHANNEL_CHANNEL_ON surfName = "SURF_RENEWAL_CHANNEL_CHANNEL_ON" surfNumber = "2993"/>
+      <CHANNEL_CHANNEL_FOCUS surfName = "SURF_RENEWAL_CHANNEL_CHANNEL_FOCUS" surfNumber = "2994"/>
+	  <ALLIANCE_CHANNEL surfName = "SURF_RENEWAL_ALLIANCE_CHANNEL_OFF" surfNumber = "2995" xRPos = "8" yRPos = "25"/>
+      <ALLIANCE_CHANNEL_ON surfName = "SURF_RENEWAL_ALLIANCE_CHANNEL_ON" surfNumber = "2996"/>
+      <ALLIANCE_CHANNEL_FOCUS surfName = "SURF_RENEWAL_ALLIANCE_CHANNEL_FOCUS" surfNumber = "2997"/>
+	  <UPPER_CHANNEL surfName = "SURF_RENEWAL_UPPER_CHANNEL_OFF" surfNumber = "2998" xRPos = "8" yRPos = "10"/>
+      <UPPER_CHANNEL_ON surfName = "SURF_RENEWAL_UPPER_CHANNEL_ON" surfNumber = "2999"/>
+      <UPPER_CHANNEL_FOCUS surfName = "SURF_RENEWAL_UPPER_CHANNEL_FOCUS" surfNumber = "3000"/>
+	</CHANNEL_ICON>
+
+	
+  </CENTER_WINDOW>
+  
+  <RIGHT_WINDOW x = "643" y = "476">
+  
+    <MACRO_MAIN_WINDOW>
+      <MACRO_FRAME surfNumber = "3176" xRPos = "0" yRPos = "0"/> 
+    </MACRO_MAIN_WINDOW>
+
+    <BUTTON_2STAGE_LIST> <!-- 2 images per 1 button -->
+<!--  <IMAGE_BUTTON title = "Help" action = "0" surfNumber = "2301" xRPos = "24" yRPos = "91"/> -->
+      <IMAGE_BUTTON title = "Mail" action = "1" surfNumber = "3177" xRPos = "27" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Status" action = "2" surfNumber = "3179" xRPos = "46" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Spell" action = "3" surfNumber = "3181" xRPos = "63" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Item" action = "4" surfNumber = "3183" xRPos = "81" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Pledge" action = "5" surfNumber = "3185" xRPos = "96" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Option" action = "6" surfNumber = "3187" xRPos = "121" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Quit" action = "7" surfNumber = "3189" xRPos = "136" yRPos = "94"/>
+      <IMAGE_BUTTON title = "Map" action = "13" surfNumber = "3202" xRPos = "4" yRPos = "94"/>
+    </BUTTON_2STAGE_LIST>
+
+    <BUTTON_ONOFF_LIST> <!-- 2 images per 1 button -->
+      <ONOFF_BUTTON title = "MACRO_LOCK" action = "8" surfNumber = "3191" xRPos = "-9" yRPos = "37"/>
+    </BUTTON_ONOFF_LIST>
+    
+    <!-- UI Shop Button-->
+    <BUTTON_3STAGE_LIST>
+    <!--<IMAGE_BUTTON3 title = "UIShop" action = "9" surfName = "" surfNumber = "2319" xRPos = "88" yRPos = "6"/>--> <!-- 2319 ~ 2321 -->
+    </BUTTON_3STAGE_LIST>
+
+    <BUTTON_TAB_LIST> <!-- 3 images per 1 button -->
+      <TAB_BUTTON title = "MACRO_SELECT" action = "10" surfNumber = "3193" xRPos = "15" yRPos = "5"/>
+      <TAB_BUTTON title = "MACRO_SELECT" action = "11" surfNumber = "3196" xRPos = "37" yRPos = "5"/>
+      <TAB_BUTTON title = "MACRO_SELECT" action = "12" surfNumber = "3199" xRPos = "60" yRPos = "5"/>
+    </BUTTON_TAB_LIST>
+    
+    <ETC>
+      <SELECT_MARK surfName = "SURF_RENEWAL_MAIN_MACRO_SELECT" surfNumber = "2331" xRPos = "12" yRPos = "19"/> 
+      <MACRO_ICON surfName = "" surfNumber = "" xRPos = "14" yRPos = "21"/>
+    </ETC>
+
+  </RIGHT_WINDOW>
+  
+  <FLOAT_WINDOW>  <!-- in Binary File -->
+    <HPMP_WINDOW>
+    </HPMP_WINDOW>
+  </FLOAT_WINDOW>
+  
+  <EX_MACRO_WINDOW x = "485" y = "475">
+    <MAIN_WINDOW>
+      <EX_MACRO_FRAME surfNumber = "3226" xRPos = "0" yRPos = "0"/> 
+    </MAIN_WINDOW>
+  </EX_MACRO_WINDOW>
+  
+  <MINI_MAP_WINDOW x = "485" y = "475">
+    <MAIN_WINDOW>
+      <MINI_MAP_BASE surfNumber = "3274" xRPos = "12" yRPos = "20"/> 
+      <MINI_MAP_FRAME surfNumber = "3275" xRPos = "0" yRPos = "0"/> 
+    </MAIN_WINDOW>
+  </MINI_MAP_WINDOW>
+  
+  
+  <LCHAT_WINDOW x="129" y="470" stepSize="36">
+  
+  </LCHAT_WINDOW>
+  
+  
+  <RCHAT_WINDOW x="129" y="470" stepSize="36">
+  
+  </RCHAT_WINDOW>
+
+
+</MainStatusConfigulation>
+  

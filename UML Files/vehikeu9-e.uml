@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>おいおい…本当に何も知らないんだな！ここに来たのは初めてか？<br/>
+    <br/>
+    まだ深海層まで行ったことはないだろ？
+    あそこは水中も水中だから、息をするにはエヴァのポーションが必要なんだよ。</p>
+    <p><a link="vehikeu10">深海層にはどう行けばいいんだ</a></p>
+  </dialog>
+</npcdialog>

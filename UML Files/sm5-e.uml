@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>私が尊敬する英雄の偉人伝じゃないですか！ただ、すでに他の方からプレゼントされたんです。<br/></p>
+		<p>けれどレディーの誠意は受け取らなければね。ありがとう。<br/></p>
+					
+	</dialog>
+
+</npcdialog>

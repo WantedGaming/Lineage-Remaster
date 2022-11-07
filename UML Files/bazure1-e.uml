@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>しかし、これほどまでに多くの部族が、たった一人の指導者の下にまとまることは、私が知る限りこれが初めてだ。セゲムアトゥバには、バラバラの部族たちをまとめられるほど能力のある人物ということだ。<br/><br/><br/>
+		 …そんなセゲムアトゥバも、君たち人間には屈するしかないとはな…
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>1番目の記憶の欠片</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>		
+		 正体不明の力によって地殻変動が引き起こされた。<br/>
+		 <br/>
+		 瞬時に空間が出来て、溶岩がロイヤルセルに流れ込んできた。<br/>
+		 <br/>
+		 我々の巣はあっという間に溶岩に飲み込まれた。<br/>
+		<br/>
+		<br/>
+		</p>		
+	</dialog>
+</npcdialog>

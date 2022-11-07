@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ドビワ</name>
+    <job>[Tシャツ洗濯職人]</job>
+  </npc>
+  <dialog>
+	<p>わたくし、強力な石けんを集めて神秘的な変換石を作ってさしあげているの。</p>
+	<p>この変換石は、体から永久に動かない腕力のTシャツやスタン耐性のTシャツのようなものを、ヘルベルトが作る<font fg="afffff">Tシャツ</font>に変換してくれるんです。</p>
+	<p>それも<font fg="afffff">1段階強化されたもの</font>に！</p>	
+	
+	<p><a link="paosy106">パンドラの強力石けん：Tシャツ</a></p>
+	<p><a link="paosy107">変換石を誤って受け取りました</a></p>
+   </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Control>
+	<Label Name="EventAlarmSlot" Width="175" Height="18" Background="true" BackgroundColor="0,0,0" BackgroundAlpha="14">
+		<Button Name="InfomationButton" X="4" Y="4" BasePng = "11732;1" HighlightPng = "11733;1" PushPng = "11733;1" MouseEvent = "EventInformation"/>
+		<Button Name="EventButton" X="22" Y="4" Width="140" Height="16" MouseEvent = "EventAction">
+			<Button Name="OnAirImg" X="5" BasePng="13168;1" OverPng="13169;1" PushPng="13169;1" Activate="0" MouseEvent="OpenLinTV"/>
+			<Button Name="TeleportImg" X="5" BasePng="12386;1" OverPng="12387;1" PushPng="12387;1" Activate="0" MouseEvent="Teleport"/>
+			<Label Name="DDayLabel" Width="40" Text="D-0" HAlign="center" BackColor="0,0,0"/>
+			<Label Name="DDaySeparator" X="40" Width="10" Caption="|" HAlign="center" BackColor="0,0,0" FontColor="160,160,160"/>
+			<ScrollLabel Name="EventDescriptionLabel" X="50" Width="95" BackColor="0,0,0" CycleMS="2000" ScrollMS="1000"/>
+		</Button>
+	</Label>
+	<Label Name="EventAlarmItemSlot" Width="175" Height="18" Background="true" BackgroundColor="0,0,0" BackgroundAlpha="14">
+		<Button Name="InfomationButton" X="4" Y="4" BasePng = "11732;1" HighlightPng = "11733;1" PushPng = "11733;1" MouseEvent = "EventItemInformation"/>
+		<Button Name="EventButton" X="22" Y="4" Width="140" Height="16" MouseEvent = "EventItemAction">
+			<Label Name="DDayLabel" Width="40" Text="D-0" HAlign="center" BackColor="0,0,0"/>
+			<Label Name="DDaySeparator" X="40" Width="10" Caption="|" HAlign="center" BackColor="0,0,0" FontColor="160,160,160"/>
+			<ScrollLabel Name="EventDescriptionLabel" X="50" Width="95" BackColor="0,0,0" CycleMS="2000" ScrollMS="1000"/>
+		</Button>
+	</Label>
+</Control>

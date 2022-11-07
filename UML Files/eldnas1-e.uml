@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エルドナーシュ</name>
+  </npc>
+  <dialog>
+	<p>
+<font fg="FF9976">冷寒の気</font>を持っておらんのか？
+<br/>
+もし<font fg="FF9976">冷寒の気</font>をすべて使ってしまったのなら、
+<br/>火竜の棲処にいるモンスターは、熱気に耐えるために<font fg="FF9976">冷寒の気</font>を持っておる。
+<br/>そこにおるモンスターを狩るといいだろう。
+</p>
+  </dialog>
+</npcdialog>

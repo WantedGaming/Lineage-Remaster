@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ネルファ</name>
+    <job>[エルフ製作職人]</job>
+  </npc>
+  <dialog>
+	<p>なんだ？おまえエルフじゃないな？森の子ではないおまえが、どうやってここまでこれたんだ？さっさと消えうせな！</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

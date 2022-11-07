@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジークフリード</name>
+	</npc>
+	<dialog>
+		<p>アデン大陸の平和を守るため、今日も悪戦苦闘されているデポロジュー様を思うと、夜も眠れない。<br/>
+		<br/>
+		こら！お前、もう少し修練してから来い！<br/>
+		まだ遅くはないからな！	</p>
+	</dialog>
+	
+</npcdialog>

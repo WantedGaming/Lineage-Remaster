@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロビンフッド</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>おお、なんてことだ！材料が足りないじゃないか！もう一度説明するぞ。</p>
+		<p>ルナ ロング ボウの材料は<font fg="ffffaf">グリフォンの羽</font>30個、</p>
+		<p><font fg="ffffaf">ミスリルの糸</font>40個、</p>
+		<p><font fg="ffffaf">オリハルコン ホーン</font>1個、</p>
+		<p><font fg="ffffaf">オリハルコン プレート</font>12個だ。</p>
+		<p>覚えられないようなら、私が渡したメモを見るように。必要な材料を書いておいたからな。	</p>
+	</dialog>
+	
+</npcdialog>
+

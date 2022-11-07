@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ギランの町から南に向って、領地を抜けてから5時の方角にもうちょっとだけ進むと、ギランのダンジョンの入口にたどり着きます。その1階には、近所に住んでいる人間の姿形をしたモンスターがいますよ。地下にもぐってからはさらに強くなったそうなんですよ。<br/>
+		 <font fg="ffafff">ギラン インプ</font>と<font fg="ffafff">ギラン インプ エルダー</font>は遠距離からすばやく攻撃してきますよ。<font fg="ffafff">ギラン ガースト</font>と<font fg="ffafff">ギラン ガースト ロード</font>は毒攻撃をしかけてくるので気をつけてくださいね。その他にも<font fg="ffafff">ギラン トロッグ</font>が槍攻撃をしかけてくるでしょう。それでは、ご健闘を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

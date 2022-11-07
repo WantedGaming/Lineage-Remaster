@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/><br/>
+		
+		[ブラックミスリル]<br/>
+		火山灰1個<br/>
+		黒精霊石1個<br/>
+		ブロッブの胃液1個<br/>
+		ブラックミスリルの原石5個<br/>
+		手数料5000Adena<br/><br/>
+		
+		[ランプ スチール]<br/>
+		鋼鉄の原石5個<br/>
+		ランプ メタル5個<br/>
+		手数料500Adena<br/><br/>
+		
+		[シルバー]<br/>
+		シルバーのピース10個<br/>
+		手数料500Adena<br/><br/>
+		
+		[ゴールド]<br/>
+		ゴールドのピース10個<br/>
+		手数料1000Adena<br/><br/>
+		
+		[プラチナ]<br/>
+		プラチナのピース10個<br/>
+		手数料5000Adena<br/><br/>
+		
+		[薄い金属板]<br/>
+		ランプ メタル10個<br/>
+		手数料500Adena<br/><br/>
+		
+		[シルバー プレート]<br/>
+		シルバー5個<br/>
+		ランプ スチール3個<br/>
+		手数料1000Adena<br/><br/>
+		
+		[ゴールド プレート]<br/>
+		ゴールド5個<br/>
+		ランプ スチール3個<br/>
+		手数料3000Adena<br/><br/>
+		
+		[プラチナ プレート]<br/>
+		プラチナ5個<br/>
+		ランプ スチール3個<br/>
+		手数料10,000Adena<br/><br/>
+		
+		[ブラックミスリル プレート]<br/>
+		ブラックミスリル10個<br/>
+		ミスリル プレート1個<br/>
+		オリハルコン プレート1個<br/>
+		プラチナ プレート1個<br/>
+		ゴールド プレート1個<br/>
+		シルバー プレート1個<br/>
+		手数料10,000Adena<br/><br/><br/>
+		
+		<img src="331" link="frim3"/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

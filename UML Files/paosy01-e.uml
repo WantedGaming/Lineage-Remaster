@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>フェオシ</name>
+    <job>[エバートの妻]</job>
+    <text>ご機嫌よう。フェオシといいます。</text>
+  </npc>
+  <dialog>
+	<p> 私の夫はあの有名な布地商人の<font fg="ffaaff">エバート</font>です。</p>
+	<p> 私はもともと神秘の変換石を作っていたんですけど、今は仕事を辞めて夫の手伝いをしています。今回は新しく作った<font fg="ffaaff">純白のティー印章</font>を一度お試しください。</p> 
+	<p> <a link="paosy06">既存の香水/紋章を使う</a></p>
+	<p>そうだ！<font fg="ffffaa">香水</font>の場合は<font fg="ffaaff">15万</font>、<font fg="ffffaa">紋章</font>の場合は<font fg="ffaaff">30万</font>の手数料がそれぞれかかります。</p>
+	</dialog>
+</npcdialog>

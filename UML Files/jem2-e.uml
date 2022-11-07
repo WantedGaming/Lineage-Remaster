@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゼム</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+<p>死を迎える時、すべての生き物はどうなると思いますか？</p>
+		<p></p><p>ゾンビのように、魔法で魂を吹き込まれたモンスターでも、生き物と言えるのでしょうか…。</p>
+		<p></p><p>あ、ごめんなさい紹介が遅れましたね。私はウィザードのゼムと申します。生き物に魔力を吹き込む研究をしています。</p>
+		<p></p><p>私の目標は、いつかこの研究から生まれた魔法を、誰にでも使えるように広めることなのです。</p>
+		<p><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

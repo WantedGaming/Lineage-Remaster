@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Mercenary：</font><br/><br/></p>
+    <p>We are a mercenarices sent to wage war against the Dark Elves.
+ The war is over, but we have a duty to protect this village from outside aggression until the end!</p>
+  </dialog>
+</npcdialog>

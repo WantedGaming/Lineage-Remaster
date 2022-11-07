@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アラクネ</name>
+		<job>森の守護者</job>
+		<text></text>
+	</npc>
+  <dialog>   
+   <p><font fg="ffafff">糸</font>に<font fg="ffafff">ミスリル</font>を混ぜて、<font fg="ffafff">ミスリルの糸</font>を作ると、弾力はそのままで、より丈夫になる。</p>
+   <p>エルフたちはそれを<font fg="ffffaf">ネルファさまに渡して、防具や高級のグローブ、ブーツ</font>を作っているだろ？ </p>
+   <p>どれだけエルフたちが、我々のお世話になっているのか分かったか？<br/><br/><br/></p>
+   <p><img src="331" link="arachnee2"></img></p>
+	 </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>ゴラ・アグニ…はアグニ族の族長だ。彼の考え方はかなり変わっていて、以前から人間との共存を口にしてきた。だが、誰も彼の話に聞く耳を持たなかった。</p>
+	<p>それで彼は、自分の部族だけを率いて、人間社会に出て行ったのだ。そして大きな成功を収めたのだよ。</p>
+	<p>ここにいる部族共同体の他の部族の者たちは、彼のことを異端者として見なしている。だが彼は人間社会で築いた財産を、常に我々部族共同体のために使ってきたんだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

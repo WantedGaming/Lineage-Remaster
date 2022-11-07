@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p><font fg="ffafff">ミスリル プレート</font>は<a link="narhenE7">アラクネの抜け殻</a>に<font fg="ffafff">ミスリル</font>をかぶせたプレートで、軽くて硬いので主に<font fg="ffffaf">鎧やシールド</font>など防具をつくるのに使用されるそうですね。<br/><br/></p>
+	<p>これよりもっと強力な<font fg="ffafff">オリハルコン プレート</font>もあるそうですが、金属についてはメッキの伝承者である<font fg="ffffaf">ドエット</font>が詳しいので一度訪ねてみてください。<br/><br/></p>
+	<p><img src="331" link="narhenE2"></img></p>
+  </dialog>
+</npcdialog>

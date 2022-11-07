@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>数学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 私が開発した<font fg="ffaaff">機械</font>の製作を手伝ってくれるのか？<br/>
+		<br/>
+		<br/>
+		 <a action="request craft">機械を作ってください</a><br/>
+		 <a link="blaise2">どんな機械ですか？</a><br/>
+		<br/>
+		<br/>
+		 君、もしかして<font fg="ffffaa">数学</font>に興味はないかね？<br/><br/>
+		 Adenaという通貨が世界を動かす今、数学的感覚は生きていく上に必要不可欠なのだよ。
+		 だが！単位が大きくなり、計算が複雑になるほど、人は計算ミスを起こすリスクが高まる！<br/><br/>
+		 そこで私は数年の研究の末に、<font fg="ffffaa">自動で計算してくれる機械</font>を開発したのだ！<br/>
+		<br/><br/><br/>
+		 …しかし、詐欺にあって全財産を失くしてしまって、この機械を商品化するための材料や資金が足りないのだ…
+		 いったいどうすれば良いんだ…<br/>
+		 
+		  
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

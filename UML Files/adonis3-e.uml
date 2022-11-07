@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Adonis</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+    <p>It seems you do not have enough Adena.</p>
+  </dialog>
+</npcdialog>

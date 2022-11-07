@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>私には…あなたの未来が見えます。荘厳かつ輝かしい戦いを…強大な敵と価値ある戦利品…あなたが迎えることになる未来です…</p>
+		<p><a link="esmereld2">未来について聞いてみる</a></p>
+  </dialog>
+</npcdialog>

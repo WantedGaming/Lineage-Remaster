@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Karif</name>
+		<job>[アイテム製作師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ブラインドデュアルブレード1個</p>
+		<p><a link="karifdh1">グランカインの涙</a>3個</p>
+		<p><a link="karifdh2">アイスクイーンの心臓</a>9個</p>
+		<p><a link="karifdh3">カオスレザー(水)</a>10枚</p>
+		<p>最高級ルビー3個</p>
+		<p><a link="karifdh4">ドラゴンの心臓</a>1個</p>
+		<p>手数料10万Adena</p>
+		<img src="331" link="karif4"/>
+	</dialog>
+
+</npcdialog>

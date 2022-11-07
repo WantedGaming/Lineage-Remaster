@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 どんな理由かはわかりませんが、アントたちが土の中から砂漠上に上がってきました。どうも…ハルパスと何か関係があると思います。
+		 アントたちは何かを保護するため、しっかりと警戒を緩めずにいるそうです。<font fg="ffafff">アントクイーン</font>なのでしょうか…とにかく、体に気をつけてください。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>Sinners must always be punished.</p>
+    <p>If there is a God, I will die and go to hell, but if not, someone has to punish me!</p>
+  </dialog>
+</npcdialog>

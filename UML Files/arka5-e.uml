@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffffaf">王宮シェフのスパイス</font>は、アデン王宮の主席シェフ人のみが持てるものスパイスじゃそうじゃ。<br/>
+		 代々、宮廷料理の秘法と共に伝授されるだけに、非常に貴重なものだそうだ。<br/>
+		 <br/><br/>
+		 …そんなものをどうやって手に入れるんだじゃと？それが分からんからお前さんに頼んでいるんじゃ！<br/><br/>
+		 虎穴に入らずんば虎子を得ずと言うじゃろ？<font fg="ffffaf">アデンの王宮シェフ</font>に会うにはアデンに向かう必要があるじゃろうな？<br/>
+		  <br/>
+		<br/>
+		<img src="331" link="arka3"></img>
+		<br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

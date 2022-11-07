@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>勇猛のメダル</title>
+
+	<dialog align="left">
+		<p><br/>勇猛なアデンの勇士に与えられるメダル<br/><br/><br/><br/>
+		<font fg="ffafff">[獲得場所]</font><br/>
+		- オリムの秘密研究室<br/>
+		- ワニ島の秘密<br/>
+		- 夢幻の島<br/>
+		- 血盟集結地<br/>
+		- ユニコーンテンプル<br/>
+		- 酷寒の神殿<br/>
+		- アルティメットバトル<br/>
+		- アウラキア浄化<br/><br/><br/><br/>
+		<font fg="ffafff">[使用対象]</font><br/>
+		- グルーディン村にいる交換人バルカを通してアイテムを購入<br/>
+		- グルーディン村にいる製作職人ワルガを通してアイテムを製作<br/>
+		</p>
+	</dialog>
+
+</npcdialog>

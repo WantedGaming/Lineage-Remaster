@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 剣で<font fg="ffafff">城門</font>のような硬いものを攻撃して刃がかけたり、武器や防具を腐食させるモンスターと戦った時に損傷するぞ！ 
+		 <font fg="ffafff">ストーン ゴーレム</font>のような硬いやつに、剣や槍のような武器で戦うことも無謀だぞ！<br/><br/>
+		 ちゃんとダメージを与えられない上に、武器が壊れてしまう場合がある。 
+		 アックスやモーニングスターのような<font fg="ffafff">鈍器</font>武器なら硬いやつでも平気だぞ！<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

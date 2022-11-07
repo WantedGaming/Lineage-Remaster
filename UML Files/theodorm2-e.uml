@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ここで我がエルフの影の一族と会うとは。光栄だな。 </p>
+		<p>先の戦争はお前たちの故郷であるラスタバドから始まったというは本当か？</p>
+		<p>聞いたところでは、そこのリーダーはシンググレイブダンテスと言うのだろ？</p>
+		<p>シンググレイブ…いったい何故地下深くで星の墓を守る者たちが滅亡へ向かって歩み始めたのか、個人的にとても興味があるがな。</p>
+		<p>すべてを墓にしてしまおうなんて気になったんじゃないか。</p>
+	</dialog>
+
+</npcdialog>

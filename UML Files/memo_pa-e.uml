@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>プロケルのメモ：</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>		
+		 ご苦労だった。<br/>
+		 先日依頼した<font fg="ffffaf">ドラゴン スケール ガーダー</font>はできたのか。<br/>
+		 でき次第、このメモを持ってきた者に託してくれたまえ。<br/>
+		  <br/>
+		 プロケル 
+		<br/>
+		<br/>
+		</p>		
+	</dialog>
+</npcdialog>

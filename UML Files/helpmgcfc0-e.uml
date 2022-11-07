@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>フェンサー技術</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">フェンサーの技術：一般論</font><br/></p>
+	
+	<p><font fg="ffffaf">フェンサーの技術レベル：</font><br/>
+	フェンサーの技術は、危機的な瞬間に潜在能力を自動で発動させるタイプと、自分の意志で発動させるタイプに分かれます。<br/>
+	ファアグリオの力によって技術を習得し、<font fg="afffff">レベル</font>が上がるほど習得できる技術も増加します。<br/></p>
+
+	<p><font fg="ffffaf">魔法材料：</font><br/>
+	フェンサーの技術の中には<font fg="afffff">結晶体</font>という材料が無いと使用できない技術があります。<br/>
+	必要な数値は、各魔法のヘルプに書かれています。<br/></p>
+	
+	<p><font fg="ffffaf">技術を習う：</font><br/>
+	どこからでも技術の紋様が刻まれたフェンサーの書を使うことで技術を習得できます。<br/>
+	すべてのフェンサーの書は、決まった場所にいる<font fg="afffff">クエスト関連NPC</font>や<font fg="afffff">モンスター</font>から獲得できます。<br/></p>
+	
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	
+	</dialog>
+</npcdialog>

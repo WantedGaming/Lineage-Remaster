@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[リング細工職人]</job>
+  </npc>
+  <dialog>
+	<p>はい？私をお呼びになりました？あら、ごめんなさい、錬金術の研究に没頭してて、呼ばれたのに気付きませんでした。</p>
+	<p>うーん…今私が研究しているものと言えば、小さくてキラキラ光るリング！たった今実験が成功したところです！勇士様にもきっとお似合いですよ。 </p>
+	<p>初めて会う方と取引はできませんが、狭くてカビ臭いラスタバドの正門から離れられて気分が良いので、なんでも言ってくださいね。</p>
+	<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+  </dialog>
+</npcdialog>

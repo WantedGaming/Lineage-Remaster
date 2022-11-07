@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+  </npc>
+  <dialog>
+	<p>現在は戦争中のため、修理できません。</p>
+  </dialog>
+</npcdialog>

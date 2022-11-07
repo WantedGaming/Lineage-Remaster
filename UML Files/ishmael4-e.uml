@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>傭兵を雇うには先に城への資金入金を済ませていなければなりません。
+		傭兵を配置させた後に傭兵隊長 フントを訪ねれば、傭兵を引き取ることができます。
+		<br/>
+		<br/>
+		<a action="employ">傭兵を雇用する</a><br/><br/>
+		<a action="arrange">雇用した傭兵を配置する</a><br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Now, let's extract the magic catalyst from the attribute stones you brought.</p>
+    <p>Which attribute stones did you bring?<br/><br/><br/></p>
+    <p><a link="alchemy5">Marble Legacy</a><br/></p>
+    <p><a link="alchemy6">Saiha Legacy</a><br/></p>
+    <p><a link="alchemy7">Eva Legacy</a><br/></p>
+    <p><a link="alchemy8">Faagrio Legacy</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy1"/><br/></p>
+  </dialog>
+</npcdialog>

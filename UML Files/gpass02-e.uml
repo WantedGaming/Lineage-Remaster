@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">次元の扉：</font></p>
+		<p>
+		<br/></p><p>
+		 空に浮かんだバルログの顔があなたを見てあざ笑っている。どこか異質的であなたを見透かしているような笑いだ。<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

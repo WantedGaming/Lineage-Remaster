@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>warehouse</icon> <!-- dialog, shop, enchant, warehouse  -->
+	<title>倉庫</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クリオム</name>
+		<job>[倉庫番]</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>僕はギルドから<var src="0"/>血盟とだけ取引するように命令を受けている。</p>
+		<p>悪いけど外部の他のドワーフの倉庫を探しておくれ。</p>
+	</dialog>
+	
+</npcdialog>

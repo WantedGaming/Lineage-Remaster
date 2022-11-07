@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 象牙の塔の村から出て、氷の山に登り、共同墓地を過ぎると国境の要塞にたどり着きます。国境の要塞の東には、鏡の森まで続く崖があります。<br/>
+		 そのあたりには、エルモアとの戦争で命を落としてアンデッドになった<font fg="ffafff">エルモア ゾンビ ソルジャー</font>や<font fg="ffafff">エルモア ゾンビ ウィザード</font>がいて、人間を襲います。その他にも<font fg="ffafff">アイアン ゴーレム</font>が人間を見れば脅しをかけてきます。さらに、<font fg="ffafff">イエティ</font>、<font fg="ffafff">スノーマン</font>、<font fg="ffafff">サーベル タイガー</font>もいるんですよ。先制攻撃をしかけてくるモンスターには気をつけてください。では、幸運を祈ります。<br/>
+		</p>
+	</dialog>
+</npcdialog>

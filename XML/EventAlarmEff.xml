@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlarmEffect> 
+	<!--ServerMap/NotificationDesign.xml 파일에 설정한 NotificationId와 매칭되는 effect설정-->
+	
+	<Notification ID="1" EffectNum="168" DescNum="14738" />
+	<Notification ID="2" EffectNum="164" DescNum="14739" />
+	<Notification ID="3" EffectNum="163" DescNum="14740" />	
+	<Notification ID="9" EffectNum="167" DescNum="24428" />	
+	<Notification ID="11" EffectNum="166" DescNum="24697" />
+	<Notification ID="16" EffectNum="187" DescNum="29760" />
+</AlarmEffect>

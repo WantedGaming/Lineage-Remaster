@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<!--Menu Configulation-->
+
+<MenuConfigulation>
+
+<MENU_LOADING x = "0" y = "0">
+	<SURF_IMAGE surfName = "PNG_RENEWAL_MENU_LOADING" surfNumber = "1466"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_LOADING" surfNumber = "2112" xPos = "295" yPos = "374"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_DELIBERATION_MARK01" surfNumber = "2115" xPos = "442" yPos = "9"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_DELIBERATION_MARK02" surfNumber = "2116" xPos = "442" yPos = "9"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_METER_BAR" surfNumber = "2117" xPos = "242" yPos = "392"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_METER_BAR_RED" surfNumber = "2118" xPos = "242" yPos = "392"/>
+</MENU_LOADING>
+
+<MENU_LOGIN x = "0" y = "0">
+	<SURF_IMAGE surfName = "PNG_RENEWAL_MENU_LOGIN" surfNumber = "1467"/>
+</MENU_LOGIN>
+
+<MSG_BOX x = "0" y = "0">
+	<SURF_IMAGE surfName = "SURF_RENEWAL_WIN_MSG_BOX" surfNumber = "2175" xPos = "163" yPos = "140"/>
+	<IMAGE surfName = "SURF_RENEWAL_WIN_MSG_BOX_MUL" surfNumber = "2188" xPos = "163" yPos = "140"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_OK_OFF" surfNumber = "2189"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_SCROLLBAL" surfNumber = "5122"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_SCROLL_UP" surfNumber = "5123"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_SCROLL_DOWN" surfNumber = "5125"/>
+</MSG_BOX>
+
+<MENU_CHARSEL x = "0" y = "0">
+	<SURF_IMAGE surfName = "SURF_RENEWAL_MENU_CHAR_SEL_BG" surfNumber = "2106"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_BTN_CHAR_SEL_OK_OFF" surfNumber = "2094" xPos = "163" yPos = "140"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_BTN_CHAR_SEL_CANCEL_OFF" surfNumber = "2096" xPos = "163" yPos = "140"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_CHAR_SEL_DOOR1" surfNumber = "2107" xPos = "19" yPos = "22"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_CHAR_SEL_DOOR2" surfNumber = "2108" xPos = "174" yPos = "22"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_CHAR_SEL_DOOR3" surfNumber = "2109" xPos = "329" yPos = "22"/>
+	<IMAGE surfName = "SURF_RENEWAL_IMG_CHAR_SEL_DOOR3" surfNumber = "2110" xPos = "485" yPos = "22"/>
+</MENU_CHARSEL>
+
+<MENU_CHAR_CREATE x = "0" y = "0">
+	<SURF_IMAGE surfName = "SURF_RENEWAL_WIN_CREAT_CHAR" surfNumber = "2196"/>
+</MENU_CHAR_CREATE>
+
+<MSG_AS x = "0" y = "0">
+	<SURF_IMAGE surfName = "SURF_RENEWAL_WIN_AS" surfNumber = "5600" xPos = "0" yPos = "0"/>
+	<IMAGE surfName = "SURF_RENEWAL_WIN_AS" surfNumber = "5600" xPos = "0" yPos = "0"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_AS_OK_OFF" surfNumber = "5601" xPos = "492" yPos = "428"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_AS_CHANGE_OFF" surfNumber = "5604" xPos = "48" yPos = "428"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_AS_REGISTER_OFF" surfNumber = "5607" xPos = "210" yPos = "428"/>
+	<IMAGE surfName = "SURF_RENEWAL_MSG_SCROLLBASE" surfNumber = "5610" xPos = "604" yPos = "89"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_SCROLLBAL_OFF" surfNumber = "5611" xPos = "600" yPos = "230"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_SCROLL_UP_OFF" surfNumber = "5613" xPos = "598" yPos = "80"/>
+	<IMAGE_BTN surfName = "SURF_RENEWAL_MSG_SCROLL_DOWN_OFF" surfNumber = "5615" xPos = "598" yPos = "367"/>
+</MSG_AS>
+
+</MenuConfigulation>

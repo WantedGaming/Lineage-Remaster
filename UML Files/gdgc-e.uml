@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>戦争用品販売所 隊長</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		ここは戦争に必要な物を<br/>
+		販売する場所だ！<br/>
+		<br/>
+		よって一般人は出入りを<br/>
+		禁止せよという命令が城から下された。<br/>
+		<br/>
+		今すぐここから立ち去れ！<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

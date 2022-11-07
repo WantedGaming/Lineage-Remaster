@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>赤き騎士がここに何の用でしょう？</p>
+		<p>お前たちが通る地域は廃墟になると聞いたが。もしやここもそうするつもりなのか？</p>
+		<p>お前たちがここに来た本当の理由は分からないが、噂が現実にならないよう祈っているよ。</p>
+	</dialog>
+
+</npcdialog>

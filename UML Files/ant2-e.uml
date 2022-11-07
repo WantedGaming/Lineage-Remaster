@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p>?? ??：<br/><br/><br/></p>
+    <p>?... ??... ???... ????... ?????...</p>
+  </dialog>
+</npcdialog>

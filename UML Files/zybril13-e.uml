@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p><font fg="ffffaf">精霊の涙</font>が10個必要です。聞くところによると、エルフの森のダンジョンに現れる<font fg="ffffaf">汚れたフェアリー</font>を倒すと獲得できるそうです。	</p>
+	</dialog>
+	
+</npcdialog>

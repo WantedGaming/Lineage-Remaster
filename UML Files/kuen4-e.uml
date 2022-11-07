@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>鍛冶屋</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クエン</name>
+		<job>[鍛冶屋]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		<font fg="ffaaff">聖水</font>と<font fg="ffaaff">ミスリル</font>30個は持ってきたんすか。<br></br>
+		材料が書かれた<font fg="ffaaff">クエンのメモ</font>と材料を渡してくれれば<font fg="ffaaff">神聖なミスリル パウダー</font>を作りますぜ。<br></br>
+		<a action="request holy mithril dust">神聖なミスリル パウダーを製作する</a>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>おお、アインハザードよ…ありがとうございます。本当にありがとうございます。</p>
+		<p>本当にご苦労だった。そなたがこの世を救ったのだ。なんと礼を言えばいいのやら…</p>
+		<p>さあ、このマナ クリスタルを受け取りたまえ。そなたの苦労に比べれば本当につまらないものだが、こういう形でしか感謝を伝えられない。</p>
+		<p>改めて礼を言う。本当にありがとう。</p>
+	</dialog>
+	
+</npcdialog>

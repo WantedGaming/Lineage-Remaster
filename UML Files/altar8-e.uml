@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>祭壇</name>
+  </npc>
+  <dialog>
+   <p>死者の魂を慰める材料が足りません。<br/><br/></p>
+   <p><a link="altar1">他の者たちの魂を慰める</a></p>
+  </dialog>
+</npcdialog>

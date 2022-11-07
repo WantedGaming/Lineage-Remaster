@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>ケルトン</name>
+		<job>[西側テレポーター]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		君は異なる次元の見棄てられた者たちの地を知っているか？<br/>
+		<br/>
+		エルモア王国で反乱を企てようとして、追放された者たちがいる場所だ。<br/>
+		<br/>
+		噂によると、その土地の主と呼ばれる者がいるようだが…<br/>
+		<br/>		
+		ここは<font fg="ffaaff">レベル90～91</font>までの者だけが、出入りできる場所だ。<br/>
+		<br/></p>
+		<panel type="Panel_Field_Abandoned_04_Bt">
+				<button action="a"/>
+        </panel>
+		<p>
+		<br/>
+		入場料は1万Adenaで、帰還スクロールを使用するかキャラクターが死亡した場合、オーレン村に移動する。<br/>
+		</p>
+	</dialog>
+</npcdialog>

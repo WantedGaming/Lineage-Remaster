@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャベス</name>
+		<job>精霊魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>精霊魔法は大きく火、水、風、土、そして共通系と属性が分かれます。<br/></p>		
+		<p>最後の共通系は、経験を十分積んだエルフであれば誰でも習得することができますが、その他は精霊の力はひとつに融合させることが難しく、<font fg="ffafff">4つの属性のうち1つを選択</font>する必要があります。<br/><br/></p>		
+
+		<p><a link="siabeth2">火属性を習得する</a><br/></p>
+		<p><a link="siabeth3">水属性を習得する</a><br/></p>
+		<p><a link="siabeth4">風属性を習得する</a><br/></p>
+		<p><a link="siabeth5">土属性を習得する</a><br/><br/></p>
+ 
+		<p>また、選択した後に別の属性の魔法を習得したい場合には、それまで習得した魔法をすべて取り消し、再度習得しなければなりませんので、慎重に選んでください。<br/></p>
+		
+		<p><a action="init">精霊力を取り消す</a><br/></p>
+
+		<p><img src="331" link="siabeth"/></p>
+ 
+	</dialog>
+
+</npcdialog>

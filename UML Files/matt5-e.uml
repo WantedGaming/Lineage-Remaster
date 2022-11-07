@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>マット</name>
+    <job>[ウィザード]</job>
+  </npc>
+  <dialog>
+    <p> シルバーナイトタウンでは、冒険を始めたばかりの皆様が安心してお楽しみいただけるようサポートをしています。</p>
+    <p><br/></p>
+	<p> もっと大きな地域を探検してみたい！というお気持ちはわかりますが、ここを離れたら二度と戻ってこられない可能性もあることを忘れないでください。</p>
+	<p><br/></p>
+	<p> 他の村に行かれますか？</p>
+	<p><br/></p>
+	<p> <a action="teleportURL">他の村に行きたいです</a></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

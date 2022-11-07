@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>束縛された魂</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 詳しくは知らないが…魔族のスクロールは、魔族が自分たちの魔力を強化させるために作ったスクロールだ…<br/><br/>
+		 もしも誰かが魔族のスクロールを使えば、その生命体が持つ魂の一部を奪い、「魂の球」という小さな玉に変えてしまうのだ…<br/><br/>
+		 私も、はるか前に使った時以来、見たことが無い…遠い昔のことではっきりとは覚えていないが…使った瞬間、意識が遠くなって…忘却の沼に落ちていった…
+		 魂の一部が身体から抜けていく感覚はこういったものか…と感じるだろう。<br/>
+		<br/><br/><br/>
+		<img src="331" link="bsoul2"></img>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

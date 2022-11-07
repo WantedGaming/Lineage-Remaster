@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>トリー</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		私たちの村を助けてくれる勇士様ですね！<br/>
+		<br/>
+		もし<font fg="ffffaf">爆弾</font>が必要なら言ってください。いくらでも製作しますから。<br/>
+		それと、<font fg="ffffaf">冷たい雪の結晶</font>を持ってきてくだされば、<font fg="ffffaf">パタラシ村の特製料理</font>をプレゼントします！<br/>
+		<br/></p>
+		<panel type="Panel_Shop_Bt_Craft">
+			<button action="non_npc request craft"/>
+		</panel>
+		
+		
+	</dialog>
+</npcdialog>

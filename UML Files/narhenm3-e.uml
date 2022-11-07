@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>それじゃ、あなたがあの有名な竜の代理人なんですか。</p> 
+	<p>それはすごいですね。アデンであなたのような方をお見かけするなんて！</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

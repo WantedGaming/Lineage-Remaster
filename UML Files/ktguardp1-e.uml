@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		オイ！今この城は外部からの出入り禁止…<br></br>
+		っと、あなた様は「赤き騎士の家」ご出身の方ですね。<br></br>
+		はい…最近領地の近くで大きな戦闘が起きたばかりですので…<br></br>
+		現在私たちは、城の治安を維持するだけで手一杯の状況にございます。<br></br>
+    まことに申し訳ございませんが…<br></br>
+		城内の雰囲気が落ち着いてから、またお越しくださいませんか？<br></br>
+		なにぶん上からの命令ですので…今はお通しするわけには参りません。<br></br>
+		</p>
+	</dialog>
+	
+</npcdialog>

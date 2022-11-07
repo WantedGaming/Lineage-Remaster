@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>チキー</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ほぉ…ここにも人が来るようだな。
+		 君もここに隠された何かを探しに来たのか？<br/>
+		<br/>
+		 ここの物の値段は少々高いが、命に比べれば安いものだ。<br/>
+		<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

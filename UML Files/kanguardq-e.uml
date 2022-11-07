@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">警備隊長カーン：</font>
+<br/><br/>
+俺は村の警備隊長カーンだ。<br/><br/>
+お前もダークエルフなら俺の名前くらいは知ってるよな？<br/><br/>
+怪しい真似なんてやめろ！ただでは済まさねえ！<br/><br/>
+修練に関することなら、<font fg="ffffaf">シルバーナイトタウンで基礎訓練教官</font>を訪ねてみろ！<br/><br/>
+<a action="quest 11 kanguard2">任務を遂行します</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

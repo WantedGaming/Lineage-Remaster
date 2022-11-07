@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>アデン国王の補佐官</name>
+		<job>[イベント報賞]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		やあ、こんにちは。<br/>
+		<br/>
+		国王からの特命を受けてやって来た、国王の補佐官とは私のことだ。<br/>
+		<br/>
+		ミソフィア様の<font fg="ffffaf">招待状</font>と<font fg="ffffaf">ミソフィアの心(PC)100個</font>を集めたら、
+		特別な報賞を出そう。<br/>
+		ミソフィア様のブーツを強化できる<font fg="ffffaf">特製ブーツ強化アイテム</font>と<font fg="ffffaf">アデン国王のプレミアム コイン</font>だ。<br/>
+		<br/>
+		ちなみに<font fg="ffffaf">ミソフィアの心</font>は<font fg="ffffaf">100個以上持っていれば、持っている個数すべてを</font>渡さなければならないぞ。<br/>
+		<br/>
+		</p>
+    <panel type="Panel_Exp_Reward">
+				<button action="a"/>
+				<button action="b"/>
+				<button action="c"/>
+				<button action="d"/>
+    </panel>
+		<p>
+		私の報賞は<font fg="ffffaf">レベル52が基準で、レベル55以下</font>の場合はもっと強くなってから来てくれ。<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, , enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラフォンス</name>
+		<job>シェフ</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>はは。いらっしゃいませ。 </p>
+		<p>天上の味がこもったお弁当を販売しています。</p>
+			<panel type="Panel_Shop_Bt_Buy">
+				<button action="buy"/>
+			</panel>
+		<p><a link="rrafons16">それぞれのお弁当かごには何が入っていますか？</a></p>
+	</dialog>
+	
+</npcdialog>

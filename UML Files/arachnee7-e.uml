@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アラクネ</name>
+		<job>森の守護者</job>
+		<text></text>
+	</npc>
+  <dialog>   
+   <p>我らが紡ぎ出す銀色の糸は様々な物を包んで凝固させるのに使うそうだ。</p>
+   <p>ネルファさまはもう糸を出さないが、もともと我らは<font fg="ffafff">エントの枝</font>を食べて糸を出す生態だ。</p>
+   <p>もっとはやく糸が欲しいなら、<font fg="ffffaf">お腹を叩いて</font>刺激を与えたら、すぐに糸を出せるかもしれん。<br/><br/></p> 
+   <p><img src="331" link="arachnee3"></img></p>
+	 </dialog>
+</npcdialog>

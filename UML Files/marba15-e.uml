@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		おお、君か！君の勇気ある行動は、決して忘れられないだろう。
+		<br/>
+		どれどれ…新しい武器は体になじんでいるかい？よく似合ってるじゃないか。その装備を全部身につければ、より素晴らしい効果が現れるぞ。
+		君も感じてるだろうが、エルフのダンジョンの汚染が思ったより深刻らしい。一体どうしてこんなことになってしまったのか…
+		<br/><br/>
+		どうかこれからも変わらずに、正義のために戦ってくれ。それじゃあ、幸運を祈る。
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

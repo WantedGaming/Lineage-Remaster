@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<CalcUI Toggle="true">		
+	<Window Name="CalculatorWindow" X="370" Y="150" BaseSurf="2119;1" MoveableX="-15" Moveable="20" MouseEvent="Dummy" KeyboardEvent="KeyBoard">
+		<Button Name="Exit" X="143" Y="7" BaseSurf="1962;1" PushSurf="1963;1" HighlightSurf="1962;1" MouseEvent="Close"/>
+		
+		<Label Name="Display" X="21" Y="29" Width="81" Height="17" HAlign="right" Caption="0"/>
+		<Control Name="Numbers">
+			<Button Name="7" X="21" Y="48" BaseSurf="2144" PushSurf="2145" HighlightSurf="2146" MouseEvent="Number" Tag="7"/>
+			<Button Name="8" X="48" Y="48" BaseSurf="2147" PushSurf="2148" HighlightSurf="2149" MouseEvent="Number" Tag="8"/>
+			<Button Name="9" X="75" Y="48" BaseSurf="2150" PushSurf="2151" HighlightSurf="2152" MouseEvent="Number" Tag="9"/>
+			
+			<Button Name="4" X="21" Y="65" BaseSurf="2135" PushSurf="2136" HighlightSurf="2137" MouseEvent="Number" Tag="4"/>
+			<Button Name="5" X="48" Y="65" BaseSurf="2138" PushSurf="2139" HighlightSurf="2140" MouseEvent="Number" Tag="5"/>
+			<Button Name="6" X="75" Y="65" BaseSurf="2141" PushSurf="2142" HighlightSurf="2143" MouseEvent="Number" Tag="6"/>
+			
+			<Button Name="1" X="21" Y="82" BaseSurf="2126" PushSurf="2127" HighlightSurf="2128" MouseEvent="Number" Tag="1"/>
+			<Button Name="2" X="48" Y="82" BaseSurf="2129" PushSurf="2130" HighlightSurf="2131" MouseEvent="Number" Tag="2"/>
+			<Button Name="3" X="75" Y="82" BaseSurf="2132" PushSurf="2133" HighlightSurf="2134" MouseEvent="Number" Tag="3"/>
+			
+			<Button Name="0" X="21" Y="99" BaseSurf="2123" PushSurf="2124" HighlightSurf="2125" MouseEvent="Number" Tag="0"/>
+		</Control>
+		
+		<Control Name="Operators">
+			<Button Name="Add" X="111" Y="48" BaseSurf="2153" PushSurf="2154" HighlightSurf="2155" MouseEvent="Operation" Tag="1"/>
+			<Button Name="Sub" X="111" Y="65" BaseSurf="2156" PushSurf="2157" HighlightSurf="2158" MouseEvent="Operation" Tag="2"/>
+			<Button Name="Mul" X="111" Y="82" BaseSurf="2159" PushSurf="2160" HighlightSurf="2161" MouseEvent="Operation" Tag="3"/>
+			<Button Name="Div" X="111" Y="99" BaseSurf="2162" PushSurf="2163" HighlightSurf="2164" MouseEvent="Operation" Tag="4"/>
+		</Control>
+		
+		<Control Name="Buttons">
+			<Button Name="Delete" X="111" Y="29" BaseSurf="2168" PushSurf="2169" HighlightSurf="2170" MouseEvent="Del"/>
+			<Button Name="C" X="49" Y="99" BaseSurf="2171" PushSurf="2172" HighlightSurf="2173" MouseEvent="C"/>
+			<Button Name="Equal" X="77" Y="99" BaseSurf="2165" PushSurf="2166" HighlightSurf="2167" MouseEvent="Equal"/>
+		</Control>
+		<Image Name="Background" X="-3" Y="-8" Surf="2120;1"/>
+	</Window>
+	
+	
+
+
+
+
+</CalcUI>

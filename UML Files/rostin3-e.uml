@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>よく思い出してくれよ。本当に俺に預けたのか。</p>
+		<p><a link="helpnpc">動物を手なずける方法を聞く</a>	</p>
+	</dialog>
+	
+</npcdialog>

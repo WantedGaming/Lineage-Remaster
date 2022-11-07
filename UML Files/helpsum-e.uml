@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>召喚</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">キャラクター：召喚</font></p>
+	<p><font fg="ffffaf">ウィザードの召喚：</font><br/>
+	サモン モンスター魔法で<font fg="afffff">1時間</font>コントロールできるモンスターを召喚できます。<br/>
+	召喚できる数は<font fg="afffff">CHA</font>の影響を受けます。通常、<font fg="afffff">タンカー</font>と<font fg="afffff">サモンコントロール リング</font>を装備後に召喚できる<font fg="afffff">ディーラー、遠距離型</font>があります。<br/>
+	一般サモン モンスターは<font fg="afffff">レベル28</font>までの召喚モンスターです。<br/>
+	特殊サモン モンスターは<font fg="afffff">レベル28から88</font>までの召喚モンスターです。<br/>
+	<font fg="afffff">サモンコントロール リング</font>と相対的に高いCHA数値が必要です。<br/></p>
+	
+	<p><font fg="ffffaf">エルフの召喚：</font><br/>
+	サモン レッサー エレメンタル、サモン グレーター エレメンタル魔法で<font fg="afffff">1時間</font>コントロールできる精霊を召喚できます。<br/>
+	召喚できる数は<font fg="afffff">CHAに関係なく1つ</font>です。<br/></p>
+	
+	<p><font fg="ffffaf">テイミング モンスター：</font><br/>
+	ウィザードとエルフの場合、テイミング モンスター魔法を習えます。<br/>
+	この魔法をモンスターに使った場合、<font fg="afffff">1時間</font>コントロールできます。<br/>
+	ただし、すべてのモンスターをコントロールできるわけではありません。死んだモンスターを復活させた場合、テイミング モンスターにはできません。<br/>
+	召喚できる数はCHAの影響を受けます。<br/></p>
+	
+	<p><font fg="ffffaf">クリエイト ゾンビ：</font><br/>
+	モンスターの死体に対してクリエイト ゾンビを使うと、<font fg="afffff">1時間</font>コントロールできるゾンビを召喚できます。<br/>
+	召喚者のレベルに合わせて召喚できるゾンビのレベルが高くなります。<br/></p>
+	
+	<p><font fg="ffffaf">マジックドール：</font><br/>
+	リネージュ内のミニゲーム、クエストで様々な効果のあるマジックドールが得られます。<br/>
+	マジックドールは結晶体を触媒として召喚します。召喚できるマジックドールは1種類だけです。<br/>
+	ただし、CHAの影響は受けません。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

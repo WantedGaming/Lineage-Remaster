@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャベス</name>
+		<job>精霊魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>ほう…水属性ですか？<br/></p>
+		<p>水は精霊のなかで最も穏やかな性格です。<br/></p>
+		<p>可憐な水の精霊は、他人に害を加えることに関心がほとんどありません。<br/></p>
+		<p>彼らの力は慈愛という形で表れ、それがウィザードの魔法をも凌ぐ治癒の力を持ちます。<br/></p>
+		<p><font fg="ffafff">戦うことより傷ついた人を助けることに喜びを感じるならば、水属性を選択</font>してください。<br/></p>
+ 
+		
+		<p><a action="water">水属性を習得する</a><br/></p>
+		 
+		<p><img src="331" link="siabeth1"/></p>
+ 
+	</dialog>
+
+</npcdialog>

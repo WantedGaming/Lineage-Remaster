@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>メニューアイコンバー</title>
+  <dialog>
+	<p><br/><font fg="ffffaf">メニューアイコンバー使用：</font><br/>
+	画面の右最下段にあるメニューバーアイコンをクリックすると次のような機能が利用できます。<br/></p>
+	<p><font fg="ffffaf">ヘルプウィンドウ：</font><br/> <font fg="afffff">Ctrl+H</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">ステータスウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">キャラクター</font>をクリックするか、<font fg="afffff">Ctrl+A</font>を使います。<br/></p>
+	<p><font fg="ffffaf">魔法ウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">魔法</font>をクリックするか、<font fg="afffff">Ctrl+S</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">アイテムウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">かばん</font>をクリックするか、<font fg="afffff">Tab</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">血盟ウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">血盟</font>をクリックするか、<font fg="afffff">Ctrl+C</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">友人ウィンドウ：</font><br/> <font fg="afffff">友人</font>アイコンをクリックします。<br/></p>
+	<p><font fg="ffffaf">メールウィンドウ：</font><br/>右下にある<font fg="afffff">封筒</font>のアイコンをクリックします。<br/></p>
+	<p><font fg="ffffaf">オプションウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">設定</font>をクリックするか、<font fg="afffff">Ctrl+V</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">行動ウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">行動</font>をクリックするか、<font fg="afffff">Ctrl+D</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">モンスター図鑑ウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">図鑑</font>をクリックするか、<font fg="afffff">Ctrl+B</font>キーを使います。<br/></p>
+	<p><font fg="ffffaf">アップセンターウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">アップセンター</font>をクリックするか、<font fg="afffff">Ctrl+Z</font>を使います。<br/></p>
+	<p><font fg="ffffaf">PSSウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">PSS</font>をクリックするか、<font fg="afffff">Alt+W</font>を使います。<br/></p>
+	<p><font fg="ffffaf">モード変更：</font><br/>メニューバーをクリックして<font fg="afffff">モード変更</font>をクリックします。<br/></p>
+	<p><font fg="ffffaf">システムウィンドウ：</font><br/>メニューバーをクリックして<font fg="afffff">終了</font>をクリックするか、<font fg="afffff">Ctrl+Q</font>または、<font fg="afffff">Alt+X</font>キーを使います。<br/></p>
+	<p><img src="331" link="helpgen"/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>花火...みたいに財産をパーっと使ってしまったのではないでしょう？とにかく今買えそうな物はないです。</p>
+	</dialog>
+
+</npcdialog>

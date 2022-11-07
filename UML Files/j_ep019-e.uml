@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">バルログ：</font>
+<br/><br/>
+貴様…利用されているようだな。<br/><br/>
+ハーディンなら無理もないな。<br/><br/>
+だが良かったな…<br/><br/>
+また貴様は完全には利用されてはいない。<br/><br/>
+<a link="j_ep018">あなたは何者ですか？</a><br/>
+<a link="j_ep020">あの方とは誰ですか？</a><br/>
+<a link="j_ep021">「ケレニス」を知っていますか？</a><br/>
+<a link="j_ep022">モンスターたちはあなたの手下ですか？</a><br/>
+<a link="j_ep023">あなたは何をしようとしていたのですか？</a><br/>
+<a link="j_ep024">あなたはハーディンを知ってますか？</a><br/>
+</p>
+</dialog>
+</npcdialog>

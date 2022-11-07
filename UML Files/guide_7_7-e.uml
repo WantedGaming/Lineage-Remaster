@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ドワーフが集団で生活している小さな村です。ドワーフたちは各種宝石と原石を好み、いつも地面に落ちているちょっとした光にも
+		 敏感だそうです。彼らは団結力に優れているので、もしもまかり間違ったらすぐに逃げてくださいね。それから、私も光るものが大好きです！<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

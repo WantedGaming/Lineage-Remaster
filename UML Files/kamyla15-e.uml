@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+…表情からすると、ホセに会ってきたようですね。<br/><br/>
+無事お戻りになったことが、何よりも幸いですわ。<br/><br/>
+<a link="kamyla16">ホセのラブレターを渡す</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

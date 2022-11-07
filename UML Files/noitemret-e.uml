@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="warehouse" title="倉庫">
+  <npc>
+    <portrait>1</portrait>
+    <name>ドリン</name>
+    <job>[統合倉庫番]</job>
+    <text>いらっしゃいませ。</text>
+  </npc>
+  <dialog>
+    <p>I don't see any luggage held in your name. Please check again.</p>
+  </dialog>
+</npcdialog>

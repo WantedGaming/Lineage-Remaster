@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>オーブ</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>闇の軍団が支配している地域にテレポートできるオーブ</p>
+		<p><br height="50"/><a action="a">闇の軍団の村に移動する</a></p>
+		
+	</dialog>
+</npcdialog>

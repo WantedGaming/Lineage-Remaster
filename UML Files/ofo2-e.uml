@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+<p>おい、あの噂を知らないのか？デューク デフィル王とガドリア王妃の間に生まれた子どもを、デューク デフィルの血盟がケンラウヘルの手から守るためにどこかに隠しているって話は有名じゃないか。その王子が大きくなって、自分の座を取り戻そうと、アデン王国に帰ってきたって話だよ。</p>
+<p>その王子が良い王子かは分からないが、少なくとも今よりはマシなはずだ。</p>
+</dialog>
+
+</npcdialog>

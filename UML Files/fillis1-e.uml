@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		  わしは剥製作りに生涯をささげて来たんじゃ。じゃが、もうこの年となっては狩りもできん。この才能も宝の持ち腐れじゃて。
+		<br/>
+		 見たところ、ハンターの素質を持っているようじゃな。どうじゃ、わしと手を組んでみんか。
+		 お前さんが狩ったもんを、わしが剥製にするんじゃ。<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+		<p>
+		<br/>
+		 <font fg="ffaaff">ボスモンスター</font>はこんなのがいるぞ。<br/>
+		 <font fg="ffffaf">デーモン<br/>
+		 ドレイク<br/>
+		 クーガー<br/>
+		 アイリス<br/>
+		 グレート ミノタウルス<br/></font>
+		 <br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

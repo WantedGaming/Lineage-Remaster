@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+    <p>ほう、この指輪は…どこかで見たことのある指輪だな？</p> 	
+    <p>とにかく、いわくつきの指輪のような感じがするのう。</p> 	
+    <p>これ以上は何も訊かないことにしよう。</p> 
+    <p>しかし、この指輪をワシに見せてくれた理由だけは教えてくれないかね？</p>
+    <p><a action="2">指輪を綺麗に磨いてもらえませんか？</a></p>
+	</dialog>
+</npcdialog>

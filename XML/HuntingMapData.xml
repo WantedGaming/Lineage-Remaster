@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ZoneAttr = Safety, Normal, Combat, Hazard -->
+<HuntingMap>
+	<Data Map="4" LocationDesc="653" Name="Dragon Valley Beach" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="468" Name="Mirror Forest" Action="GD_mirror">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="650" Name="Silver Knight Field" Action="GD_siver field">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="481" Name="Wilderness" Action="GD_tough desert">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="649" Name="Quiet Forest" Action="GD_cam forest">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="466" Name="Dense Woodland" Action="GD_jungle">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="328" Name="Elmore Battlefield" Action="GD_elmor">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="0" Name="Aden" >
+	</Data>
+	<Data Map="9" LocationDesc="0" Name="Talking Island Field" ZoneAttr="Combat">
+	</Data>
+	<Data Map="732" LocationDesc="0" Name="Alligator Island" >
+	</Data>
+	<Data Map="733" LocationDesc="0" Name="Dream Island" >
+	</Data>
+	<Data Map="731" LocationDesc="0" Name="Orim's Secret Lab" >
+	</Data>
+	<Data Map="736" LocationDesc="0" Name="Aurakia Purification" >
+	</Data>
+	<Data Map="1209" LocationDesc="0" Name="Temple of Ancient Gods" >
+	</Data>	
+	<Data Map="4" LocationDesc="464" Name="Ruins of Death" Action="GD_ruin of death">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="463" Name="Orc Settlements" Action="GD_orc forest">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="339" Name="Desert" Action="GD_desert">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="342" Name="Heine Forest" Action="GD_heine">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+
+	<Data Map="4" LocationDesc="479" Name="Tomb of the Dead" Action="GD_tombs">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="652" Name="Wastelands" Action="GD_dry desert">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="465" Name="Dark Dragon Scar" Action="GD_halpas">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="657" Name="Dry Desert" Action="GD_desert">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="4" LocationDesc="666" Name="Cursed Mine" Action="F_luun">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+	</Conditions>
+	</Data>
+	<Data Map="15420" Name="Oren Snow Mountain" Action="GD_orenwall">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="15410" Name="Lindvior Cave" Action="GD_lindvior">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="15440" Name="Valakas Cave" Action="GD_valakas">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="15430" Name="Dragon Valley" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="491" Name="Atuba Orc Hideout 1F" Action="GD_atuba" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="492" Name="Atuba Orc Hideout 2F" Action="GD_atuba" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="493" Name="Atuba Orc Hideout 3F" Action="GD_atuba" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+
+	<Data Map="19" Name="Elven Dungeon 1F" Action="GD_elven">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="20" Name="Elven Dungeon 2F" Action="GD_elven">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="21" Name="Elven Dungeon 2F" Action="GD_elven">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>	
+	<Data Map="30" Name="Dragon Valley Dungeon 1F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="31" Name="Dragon Valley Dungeon 2F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="32" Name="Dragon Valley Dungeon 3F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="33" Name="Dragon Valley Dungeon 4F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="35" Name="Dragon Valley Dungeon 5F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="36" Name="Dragon Valley Dungeon 6F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="37" Name="Dragon Valley Dungeon 7F" Action="GD_dragon valley">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="53" Name="Giran Prison 1F" Action="GD_kiran prizon">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="54" Name="Giran Prison 2F" Action="GD_kiran prizon">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="59" Name="Heine Dungeon 1F" Action="GD_eva kingdom" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="60" Name="Heine Dungeon 2F" Action="GD_eva kingdom" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="61" Name="Heine Dungeon 3F" Action="GD_eva kingdom" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+
+	<Data Map="282" Name="Ivory Tower 4F" Action="GD_ivory tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="283" Name="Ivory Tower 5F" Action="GD_ivory tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="284" Name="Ivory Tower 6F" Action="GD_ivory tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="285" Name="Ivory Tower 7F" Action="GD_ivory tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="430" Name="Ancient Spirit Tomb" Action="GD_pcbang">
+		<Conditions>
+			<Item NameID="25754" Count="1"/>
+		</Conditions>
+	</Data>
+	<Data Map="624" Name="Ancient Giant Tomb" Action="GD_pcbang">
+		<Conditions>
+			<Item NameID="25754" Count="1"/>
+		</Conditions>
+	</Data>
+	<Data Map="777" Name="Land of the Forsaken" Action="GD_trash mans land" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="807" Name="Gludio Dungeon 1F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="808" Name="Gludio Dungeon 2F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="809" Name="Gludio Dungeon 3F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="810" Name="Gludio Dungeon 4F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="811" Name="Gludio Dungeon 5F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="812" Name="Gludio Dungeon 6F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="813" Name="Gludio Dungeon 7F" Action="GD_gludio">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="1318" Name="Dark Dragon Dungeon 1F" Action="GD_chaoticD">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="1319" Name="Dark Dragon Dungeon 2F" Action="GD_chaoticD">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="1936" Name="Unicorn Temple" Action="GD_unicon">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="2936" Name="Unicorn Temple(BOOST)" Action="GD_unicon">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="3000" Name="Arcane Temple" Action="GD_bitter cold">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="3050" Name="Arcane Temple(HARD)" Action="GD_bitter cold">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="101" Name="Tower of Insolence 1F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="102" Name="Tower of Insolence 2F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="103" Name="Tower of Insolence 3F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="104" Name="Tower of Insolence 4F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="105" Name="Tower of Insolence 5F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="106" Name="Tower of Insolence 6F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="107" Name="Tower of Insolence 7F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="108" Name="Tower of Insolence 8F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="109" Name="Tower of Insolence 9F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="110" Name="Tower of Insolence 10F" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="111" Name="Pride Tower Top" Action="GD_oman tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+
+	<Data Map="12852" Name="Tower of Control 1F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12853" Name="Tower of Control 2F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12854" Name="Tower of Control 3F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12855" Name="Tower of Control 4F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12856" Name="Tower of Control 5F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12857" Name="Tower of Control 6F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12858" Name="Tower of Control 7F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12859" Name="Tower of Control 8F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12860" Name="Tower of Control 9F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12861" Name="Tower of Control 10F" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12862" Name="Tower of Control Top" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="1209" Name="Ancient Temple of God" Action="GD_jibae tower">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="15881" Name="Hidden Ant Cave" Action="GD_ant cave">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="15891" Name="Ant Queen Cave" Action="GD_ant cave">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data> 
+	<Data Map="1" Name="Talking Island Dungeon 1F" LevelMin="61" LevelMax="64" Action="GD_talk island" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="2" Name="Talking Island Dungeon 2F" LevelMin="61" LevelMax="64" Action="GD_taining_dungeon2" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="10" Name="Black Battleship 1F" LevelMin="1" LevelMax="69" Action="GD_black ship" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="11" Name="Black Battleship 2F" LevelMin="1" LevelMax="69" Action="GD_black ship" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="12" Name="Black Battleship 3F" LevelMin="1" LevelMax="69" Action="GD_black ship" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="25" Name="SKT Dungeon 1F" Action="GD_traning_dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="26" Name="SKT Dungeon 2F" Action="GD_traning_dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="27" Name="SKT Dungeon 3F" Action="GD_traning_dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="28" Name="SKT Dungeon 4F" Action="GD_traning_dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="494" Name="Hidden Atuba Orc Hideout" Action="GD_hidden dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="62" Name="Hidden Eva Kingdom Waterway" Action="GD_hidden dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="779" Name="Hidden Land of the Abandoned" Action="GD_hidden dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="293" Name="Hidden Ivory Tower" Action="GD_hidden dungeon" ZoneAttr="Combat">
+		<Conditions>
+			<Item NameID="23" Count="1" Bless="BLESSED"/>
+		</Conditions>
+	</Data>
+	<Data Map="140" LocationDesc="0" Name="Dragon's Habitat" >
+	</Data>
+	<Data Map="70" LocationDesc="0" Name="Forgotten Island" >
+	</Data>
+</HuntingMap>

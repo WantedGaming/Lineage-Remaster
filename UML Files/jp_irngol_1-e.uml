@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>私はゾウ様の部下のアイアン ゴーレムだ。</p>
+		<p>何かお望みか？</p>
+		<p>ゾウ様が作られた魔法の粉と、+6象牙の塔の武器があるなら、エルモアの武器が作れるゴーレムの契約と交換する。</p>
+		<p><a link="jp_irngol_2">ゴーレムの契約を作る</a></p>
+		<p><a link="jp_irngol_3">ゴーレムの契約をエルモアの武器と交換する</a></p>
+	</dialog>
+
+</npcdialog>

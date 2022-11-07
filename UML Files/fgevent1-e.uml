@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フォアカン</name>
+		<job>[アデン近衛隊長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>国王の指令が書かれているから<font fg="ffafff">手紙</font>を読め。早く！</p>
+  </dialog>
+</npcdialog>

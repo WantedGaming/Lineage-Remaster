@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デュバル</name>
+  </npc>
+  <dialog>
+    <p>
+ 危険な場所だからといって案内するのに金をもらうのは申し訳ないが、<br/>
+ 最近はあまり稼げていないから、こうでもしないと生きていけないんだ。わかってくれ。<br/>
+ 何が起きるかわからないから、手遅れになる前に戻ってこいよ。<br/>
+<br/>
+ <a action="teleport orctown-hiddendock">隠された船着場へ：<var src="0"/>Adena</a>
+</p>
+  </dialog>
+</npcdialog>

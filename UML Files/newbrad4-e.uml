@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ブラッド</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>おまえのいる場所からは神聖な地域に行くことができない。</p>
+	<p><br/></p>
+	<p>もしおまえが…</p>
+	<p>ネットカフェという特別な場所にいれば分からんがな。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

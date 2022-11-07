@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		アイアン シールドを作るには、タワー シールド1つとランプ メタル200個が必要だ。手数料は16000Adenaだよ。<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request iron shield"/></panel><p align="center">アイアン シールドをつくる</p><br/>
+
+	</dialog>
+</npcdialog>

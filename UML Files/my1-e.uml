@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+ 	<p> ランランラン～大切な果実となるその道へ～ランラン～<br/></p>
+	<p> まあっ！！私の歌、聞かれちゃいました？ふふふっ。今日はなぜか気分がいいんです。何かいいことありそうな気がします。<br/></p>
+  </dialog>
+</npcdialog>

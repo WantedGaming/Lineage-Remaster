@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ホルン</name>
+    <job>[魔法伝授者]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">ホルン：</font></p>
+    <p><br/>私はこの森の<a link="horun4">守護者</a>の中では、エントが一番好きなの。</p>
+	<p>彼らはアインハザードのすべての創造物の中で一番無口だけど、一番物事を知ってるのよ。多分、<a link="horun5">世界樹</a>と一番深い交流があるのも、おんなじ植物のエントじゃないかしら？</p>
+    <p>…</p>
+	<p>彼らから<a link="horun6">枝とか表皮</a>をもらえるってだけじゃないってば～<br/></p>
+	<p>…こう考えてみると、<a link="horun3">お師匠様</a>もエントとは深い縁で結ばれてたんだわね。<br/><br/></p>
+	<p><a link="horunEv1">魔法を習得する</a></p>
+  </dialog>
+</npcdialog>

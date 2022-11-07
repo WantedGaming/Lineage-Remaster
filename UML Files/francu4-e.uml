@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>…まさか…そんなことになってようとは…<br/>
+		</p><p>カミーラが幽霊になって…未だにあの暗くおぞましい場所で、誰かが自分を見つけてくれるのを、そして奴らを裁いてくれるのを待っているなんて…<br/>
+		</p><p>しかし…奴らだとてもう生きてはいないだろうに…恐ろしい話だ。まあ…何も知らなかったカミーラなら、そうする理由が十分にあるだろう。俺のことも、恨んでるだろうしな…<br/><br/>
+		</p><p><a link="francu5">なぜドレイクを裏切ったのですか？</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

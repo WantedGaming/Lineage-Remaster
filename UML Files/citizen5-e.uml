@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 「酒場に勇士多けれど、歯医者の患者に勇士おらず」って言葉があってだな。<br/>
+		 どれほど強い敵でも、重要なのは結局根性なんだよ！<br/>
+		<br/>
+		 昨日は酔っ払った馬鹿が俺に突っかかって来たから、顔に一発お見舞いしてやったら逃げて行きやがったぜ。 
+		 本当にこの村は情けない男しかいないな！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

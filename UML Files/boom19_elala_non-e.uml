@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Lara</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		Brave man, help me!<br/><br/>
+		The Ice Queen and her men made a mess of the village of Patarasi.<br/>
+		We tried to protect it somehow, but it was beyond our ability to do so.<br/>
+		<br/>
+		If you kill a bad monster and bring me a <font fg="ffffaf">cold snowflake</font> as proof, I'll be sure to repay you!<br/>
+		Yes, I know our village is a bit cold for the brave men, so take one of those <font fg="ffffaf">warm ruby pocket hearths</font> with you!<br/>
+		We'll be waiting for you then!<br/></p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="non_npc buy"/>
+		</panel>
+	</dialog>
+</npcdialog>

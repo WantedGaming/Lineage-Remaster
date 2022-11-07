@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+	<p>最近では様々な魔法の触媒である魔力の石、精霊の玉、黒魔石を徐々に見なくなっています。その理由をご存知ですか？</p>
+	<p>その原因は長期化のする戦争と関係があります。戦争が長引き、無分別に乱用される高位魔法によって大気中のマナが枯渇していったため、魔法の触媒たちが生成されにくくなっているのです。</p>
+	<p>そこで我々錬金術師たちは、この事態の対策を研究してきました。最初は魔法の触媒を代用できるものを探しました。</p>
+	<p><br/></p>
+	<p><a link="new_alchemy3">どんな成果がありましたか？</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

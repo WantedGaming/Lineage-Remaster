@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Adonis</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		Please, please defeat the monsters in the upper levels.<br/>
+		There will be <font fg="ffffaf">5,000 adena</font> teleport fee.
+		<br/><br/><br/>
+		<a action="1">Enter Ivory Tower 4F</a><br/>
+		<br/><br/><br/>
+		This is a harsh place and only <font fg="ffaaff">level 80</font> and above may enter.
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

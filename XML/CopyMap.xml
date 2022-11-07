@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CopyMapList>
+	<CopyMap basemap="201" copymap="201~208"/>
+	<CopyMap basemap="209" copymap="209~212"/>
+	<CopyMap basemap="213" copymap="213~216"/>
+	<CopyMap basemap="217" copymap="217~220"/>
+	<CopyMap basemap="221" copymap="221~236"/>
+	<CopyMap basemap="701" copymap="702~724"/>
+	<CopyMap basemap="5125" copymap="5126~5134"/>
+	<CopyMap basemap="5140" copymap="5141~5142"/>
+	<CopyMap basemap="5143" copymap="5144~5145"/>
+	<CopyMap basemap="5153" copymap="5153~5165"/>
+	<CopyMap basemap="2000" copymap="2001~2003"/>
+	<CopyMap basemap="5167" copymap="5168~5190"/>
+	<CopyMap basemap="2699" copymap="2700~2797"/>
+	<CopyMap basemap="2600" copymap="2601~2698"/>
+	<CopyMap basemap="5300" copymap="5301~5302"/>
+	<CopyMap basemap="9000" copymap="9000~9099"/>
+	<CopyMap basemap="9101" copymap="9102~9200"/>
+	<CopyMap basemap="5303" copymap="5303~5383"/>
+	<CopyMap basemap="5384" copymap="5384~5434"/>
+	<CopyMap basemap="5435" copymap="5435~5455"/>
+	<CopyMap basemap="7100" copymap="7106~7130"/>
+	<!--CopyMap basemap="101~200" copymap="10001~10100"/-->
+	<!-- Antharas -->
+	<CopyMap basemap="1005" copymap="1005~1010"/>
+	<CopyMap basemap="1005" copymap="1029~1034"/>
+	<CopyMap basemap="1005" copymap="1053~1058"/>
+	<!-- Fafurion -->
+	<CopyMap basemap="1011" copymap="1011~1016"/>
+	<CopyMap basemap="1011" copymap="1035~1040"/>
+	<CopyMap basemap="1011" copymap="1059~1064"/>
+	<!-- 린드비오르 동굴 -->
+	<CopyMap basemap="1017" copymap="1017~1022"/>
+	<CopyMap basemap="1017" copymap="1041~1046"/>
+	<CopyMap basemap="1017" copymap="1065~1070"/>
+	<!-- 발라카스 동굴 -->
+	<CopyMap basemap="1023" copymap="1023~1028"/>
+	<CopyMap basemap="1071" copymap="1071~1088"/>
+	<CopyMap basemap="1101" copymap="1101~1118"/>
+	<CopyMap basemap="1131" copymap="1131~1148"/>
+	<CopyMap basemap="1161" copymap="1162~1178"/>
+	<CopyMap basemap="1191" copymap="1192~1208"/>
+	<!-- 얼던 리뉴얼 -->
+	<CopyMap basemap="2101" copymap="2101~2150"/>
+	<CopyMap basemap="2151" copymap="2151~2200"/>
+	<CopyMap basemap="3000" copymap="3001~3049"/>
+	<CopyMap basemap="3050" copymap="3051~3099"/>
+	<CopyMap basemap="4003" copymap="4004~4052"/>
+	<!-- 화이트데이 이벤트 -->
+	<CopyMap basemap="5551" copymap="5552~5553"/>
+	<!-- [대만] 대전장 -->
+	<CopyMap basemap="7787" copymap="7788~7796"/>
+	<!-- 보스키 관련 -->
+	<CopyMap basemap="1400" copymap="1400~1498"/>
+	<!-- 낚시 관련 -->
+	<CopyMap basemap="5490" copymap="5490~5499"/>
+	<!-- 공성 2.0 런칭 이벤트용 -->
+	<CopyMap basemap="2301" copymap="2302~2350"/>
+	<CopyMap basemap="1936" copymap="1936~1997"/>
+	<CopyMap basemap="2936" copymap="2936~2997"/>
+	<!-- 시혼의탑 -->
+	<CopyMap basemap="2402" copymap="2402~2451"/>
+	<CopyMap basemap="2453" copymap="4205~4254"/>
+	<CopyMap basemap="2504" copymap="2504~2553"/>
+	<CopyMap basemap="2504" copymap="4103~4152"/>
+	<CopyMap basemap="2504" copymap="4256~4305"/>
+	<!-- 환영 시리즈 맵 -->
+	<CopyMap basemap="479" copymap="8030"/>
+	<CopyMap basemap="452" copymap="8031"/>
+	<CopyMap basemap="453" copymap="8032"/>
+	<CopyMap basemap="471" copymap="8033"/>
+	<CopyMap basemap="475" copymap="8034"/>
+	<CopyMap basemap="495" copymap="8035"/>
+	<CopyMap basemap="492" copymap="8036"/>
+	<CopyMap basemap="461" copymap="8037"/>
+	<CopyMap basemap="462" copymap="8038"/>
+	<CopyMap basemap="537" copymap="8039"/>
+	<!-- 추석 이벤트 복사맵 -->
+	<CopyMap basemap="6400" copymap="6400~6439"/>
+	<!-- [일본] 니노 마루 복사맵 -->
+	<CopyMap basemap="8001" copymap="8001~8003"/>
+	<!-- 드상 프로모션 이벤트 맵 -->
+	<CopyMap basemap="10101" copymap="10101~10103"/>
+	<!-- [대만] (국왕의 수렵 포고령) 이벤트 복사맵 -->
+	<!--
+ <CopyMap basemap="633" copymap="633~637"/ 
+	-->
+	<!-- [대만] 토너먼트 관련 복사맵 -->
+	<!--
+ <CopyMap basemap="303" copymap="639~639"/ 
+	-->
+	<CopyMap basemap="6323" copymap="6324~6331"/>
+	<!-- 오림 해상전 맵복사 추가 -->
+	<CopyMap basemap="9401" copymap="9402~9599"/>
+	<CopyMap basemap="9601" copymap="9602~9699"/>
+	<!-- 16주년 이벤트 3주차 -->
+	<!--CopyMap basemap = "1501" copymap = "1501~1505"/-->
+	<CopyMap basemap="1526" copymap="1526~1550"/>
+	<CopyMap basemap="1551" copymap="1551~1575"/>
+	<CopyMap basemap="1576" copymap="1576~1600"/>
+	<!-- 잊혀진 섬 런칭 이벤트 -->
+	<CopyMap basemap="10200" copymap="10201~10209"/>
+	<CopyMap basemap="10210" copymap="10211~10219"/>
+	<!-- 테베라스 이벤트 -->
+	<CopyMap basemap="10500" copymap="10510~10519"/>
+	<CopyMap basemap="10501" copymap="10521~10529"/>
+	<CopyMap basemap="10502" copymap="10531~10539"/>
+	<CopyMap basemap="12152" copymap="12153~12252"/>
+	<CopyMap basemap="12257" copymap="12257~12356"/>
+	<!-- 클라우디아 채널 복사 맵 -->
+	<!--CopyMap basemap = "7783" copymap = "12359~12367"/-->
+	<!-- 거미동굴 채널 복사 맵 -->
+	<CopyMap basemap="12146" copymap="12601~12649"/>
+	<!-- 죽은자의 성소1층 채널 복사 맵 -->
+	<CopyMap basemap="12147" copymap="12650~12698"/>
+	<!-- 죽은자의 성소2층 채널 복사 맵 -->
+	<CopyMap basemap="12148" copymap="12699~12707"/>
+	<!-- 지하세계 채널 복사 맵 -->
+	<CopyMap basemap="12149" copymap="12748~12756"/>
+	<!-- 아덴월드리뉴얼 해적섬 던전 미러맵 -->
+	<!-- 아덴월드리뉴얼 말하는섬 던전 미러맵 -->
+	<CopyMap basemap="1" copymap="12870~12884"/>
+	<CopyMap basemap="2" copymap="12885~12899"/>
+	<!-- 아덴월드리뉴얼 수련 던전 미러맵 -->
+	<CopyMap basemap="25" copymap="15650~15664"/>
+	<CopyMap basemap="26" copymap="15700~15714"/>
+	<CopyMap basemap="27" copymap="15750~15764"/>
+	<CopyMap basemap="28" copymap="15800~15814"/>
+	<!-- 아덴월드리뉴얼 에바 왕국 미러맵 -->
+	<!-- 리토 -->
+	<CopyMap basemap="13001" copymap="13100~13599"/>
+	<CopyMap basemap="13002" copymap="13600~13699"/>
+	<CopyMap basemap="13003" copymap="13700~13799"/>
+	<CopyMap basemap="13004" copymap="13800~13899"/>
+	<CopyMap basemap="13005" copymap="13900~13999"/>
+	<CopyMap basemap="13006" copymap="14000~14099"/>
+	<!-- 리토(대회전) -->
+	<CopyMap basemap="13051" copymap="14500~14599"/>
+	<CopyMap basemap="13052" copymap="14600~14699"/>
+	<CopyMap basemap="13053" copymap="14700~14799"/>
+	<CopyMap basemap="13054" copymap="14800~14899"/>
+	<CopyMap basemap="13055" copymap="14900~14999"/>
+	<CopyMap basemap="13056" copymap="15000~15099"/>
+	<CopyMap basemap="13057" copymap="15100~15199"/>
+	<CopyMap basemap="13058" copymap="15200~15299"/>
+	<CopyMap basemap="13059" copymap="15300~15399"/>
+	<!-- 말하는 섬 -->
+	<!-- 초보존 개편 -->
+	<!-- 붉은 기사단 수련장 -->
+	<CopyMap basemap="3" copymap="12901~12919"/>
+	<!-- 돼지 사냥 10-->
+	<CopyMap basemap="7" copymap="12920~12929"/>
+	<!-- 흑기사단 정찰병 사냥 10-->
+	<CopyMap basemap="8" copymap="12930~12939"/>
+	<!-- 검은전함 갑판 5-->
+	<CopyMap basemap="10" copymap="12940~12959"/>
+	<!-- 검은전함 선실 5-->
+	<CopyMap basemap="11" copymap="12960~12979"/>
+	<!-- 검은전함 지휘실 5-->
+	<CopyMap basemap="12" copymap="12980~12999"/>
+	<!-- 말섬 채널 복사 맵 -->
+	<!--CopyMap basemap="9" copymap="12359~12367"/-->
+	<!-- 성장의 섬 채널 복사 맵 -->
+	<CopyMap basemap="623" copymap="15461~15465"/>
+	<!-- 생명의 숲 채널 복사 맵 -->
+	<CopyMap basemap="2041" copymap="2042~2046"/>
+	<CopyMap basemap="2047" copymap="2048~2052"/>
+	<CopyMap basemap="2053" copymap="2054~2058"/>
+	<CopyMap basemap="2059" copymap="2060~2064"/>
+	<!-- 글루디오 연구실 하 복사 맵 -->
+	<!--CopyMap basemap="730" copymap="3500~3797"/-->
+	<CopyMap basemap="731" copymap="3500~3797"/>
+	<CopyMap basemap="732" copymap="4400~4697"/>
+	<CopyMap basemap="733" copymap="4700~4897"/>
+	<CopyMap basemap="734" copymap="3150~3449"/>
+	<!-- 말하는 섬 마을 복사 맵 -->
+	<CopyMap basemap="0" copymap="15850~15852"/>
+	<CopyMap basemap="840" copymap="841~854"/>
+	<CopyMap basemap="855" copymap="856~869"/>
+	<CopyMap basemap="890" copymap="891~894"/>
+	<!-- 일본 M18 에피소드 이벤트 -->
+	<CopyMap basemap="5900" copymap="5901~5907"/>
+	<CopyMap basemap="5908" copymap="5909~5914"/>
+	<!-- [일본] 이벤트 맵 -->
+	<CopyMap basemap="7100" copymap="7101~7104"/>
+	<CopyMap basemap="7771" copymap="7771~7780"/>
+	<CopyMap basemap="7701" copymap="7701~7710"/>
+	<CopyMap basemap="5501" copymap="8044~8045"/>
+	<!-- 일본 70~75레벨 부스팅 맵 -->
+	<CopyMap basemap="15441" copymap="15441~15445"/>
+	<!-- 일본 2017 크리스마스 이벤트 맵 -->
+	<CopyMap basemap="630" copymap="15500~15501"/>
+	<CopyMap basemap="751" copymap="752~766"/>
+	<CopyMap basemap="12014" copymap="12015~12023"/>
+	<CopyMap basemap="15502" copymap="15503~15504"/>
+	<!-- 일본 2019 신년 이벤트 맵 -->
+	<CopyMap basemap="15447" copymap="15448~15449"/>
+	<!-- 일본 2019 여름 이벤트 맵 8001 복사 맵-->
+	<CopyMap basemap="15600" copymap="15601~15603"/>
+	<!-- 일본 2019 17주년 이벤트 맵 -->
+	<CopyMap basemap="7007" copymap="15450~15455"/>
+	<!-- 일본 2020 겨율 지프리 이벤트 맵 -->
+	<CopyMap basemap="140" copymap="141~159"/>
+	<!-- Japan 2022 20th Anniversary Event Map -->
+	<CopyMap basemap="6007" copymap="6008~6016"/>
+	<CopyMap basemap="650" copymap="651~659"/>
+	<CopyMap basemap="670" copymap="671~679"/>
+	<CopyMap basemap="680" copymap="681~689"/>
+	<CopyMap basemap="690" copymap="691~699"/>
+	<CopyMap basemap="736" copymap="16000~16199"/>
+</CopyMapList>

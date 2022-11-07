@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>パウ</name>
+    <job>[ペット管理人]</job>
+	<text>飼っている動物は最後まで責任持って守れよ。</text>
+  </npc>
+  <dialog>
+	<p>ちょっと待ってくれるか？これだけ片付けたらすぐ行くから。</p>
+	<p><a link="helpnpc">動物を手なずける方法を聞く</a></p>
+  </dialog>
+</npcdialog>

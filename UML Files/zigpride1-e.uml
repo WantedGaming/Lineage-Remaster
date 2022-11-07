@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジークフリード</name>
+	</npc>
+	<dialog>
+		<p>事情通によれば、ギルタスを捉えていた異界の亀裂が弱まっているとのことだそうだ。<br/>
+		<br/>
+		デポロジュー様はギルタス征伐のために前哨基地をここに建設され、勇猛な勇士を集めるための準備をしているとのことだ！<br/>
+		しばし待たれよ！すぐに…血の戦争が始まるのだ！<br/>
+		<br/>
+		君はラスタバドの状況を調べにいくのか？<br/>
+		<br/>
+		<br/>
+		<a action="a">ラスタバドの村に移動する</a></p>
+	</dialog>
+	
+</npcdialog>

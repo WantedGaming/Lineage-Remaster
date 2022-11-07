@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		仕事をやめた後も体は良くならないから、今となっては目の前にいる人も区別がつかないね…<br/>
+		<br/>
+		一日中殆ど家で過ごしてるから人間観察することもなかったのだが、こうやってでも訪ねてきてくれるのは本当ありがたいね。<br/>
+		<br/>
+		誰かわからなさそうにしてるからってがっかりしないでくれ。<br/>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

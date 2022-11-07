@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Ancient Giant Elder</name>
+  </npc>
+  <dialog>
+   <p>A long time ago, we were punished for defying Grand Kain, and we were buried in this land along with our existence. </p>
+   <p>And the demons, who had long wanted to know the mystery of the source of our power, took death from us and bound us to this land.<br/></p>
+   <p> <a link="agelder3">What are the Grave Guardians?</a></p>
+  </dialog>
+</npcdialog>

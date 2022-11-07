@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p>私の勘は無視できないぞ。まさに今がドラゴンキーを手に入れるチャンスだからな。<br/>
+		<br/>
+    万が一、ドラゴンキーを手に入れたら私にも一度見せてくれ。君の幸運を味わってみたいからな。<br/>
+		<br/>
+    君が選ばれし者であることを願っているよ…</p>
+ 
+  </dialog>
+</npcdialog>

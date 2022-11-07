@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>レリーの補佐官</name>
+  </npc>
+  <dialog>
+    <p>それは<font fg="fff00">ドルーガ家</font>の先祖、1世からレリー様にあたる7世まで伝わる<font fg="ffffaf">家宝</font>のことです。</p>
+    <p><a link="laryaide4">1世の家宝を要求する</a></p>
+    <p><a link="laryaide5">2世の家宝を要求する</a></p>
+    <p><a link="laryaide6">3世の家宝を要求する</a></p>
+    <p><a link="laryaide7">4世の家宝を要求する</a></p>
+    <p><a link="laryaide8">5世の家宝を要求する</a></p>
+    <p><a link="laryaide9">6世の家宝を要求する</a></p>
+    <p><a link="laryaide10">7世の家宝を要求する</a></p>	
+    <p><a img="" src="331" link="laryaide2"></a></p>
+	</dialog>
+</npcdialog>

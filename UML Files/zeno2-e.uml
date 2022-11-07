@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジェノ</name>
+		<job>テレポーター</job>
+	</npc>
+	<dialog>
+		<p>分かりました。隠された渓谷ですね？<br/>
+		<br/>
+		次にお会いするときは、今よりも成長した姿でお会いしたいですね。<br/>
+		<br/>
+		<br/>
+		<a action="0">隠された渓谷に行く</a></p>
+
+	</dialog>
+	
+</npcdialog>
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p><font fg="fff064">魂の結晶体</font>20個はどこにありますか？</p>
+		<p>魂の解放のために尽力してください。</p>
+  </dialog>
+</npcdialog>

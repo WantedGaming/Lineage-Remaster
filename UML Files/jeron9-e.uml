@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェロン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 メデューサの血を持って来てくれるかい。<br/>
+		 でなければ、100万Adenaを持ってくるか。ははは…<br/>
+		 <br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

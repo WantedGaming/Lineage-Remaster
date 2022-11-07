@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>メティス</name>
+    <job>[少年]</job>
+  </npc>
+  	<dialog align="left">
+		<p>アデンでの冒険もかなり長くなりましたね。</p>
+		<p><font fg="ffffaf">アデンの外の世界</font>であなたのような人を探しています。</p>
+		<p>特に<font fg="ffffaf">事業企画</font>がメインのところで、あなたの<font fg="ffffaf">これまでの経験</font>と<font fg="ffffaf">熱意</font>にとても関心を寄せているといいます。</p>
+		<p>別の世界で新たな冒険をする気持ちがありましたら、今すぐ<font fg="ffffaf">公式ホームページ</font>を確認してください。</p>
+		<p>ちなみに、募集期間は<font fg="ffffaf">4月28日～5月9日</font>までです。</p>
+	</dialog>
+</npcdialog>

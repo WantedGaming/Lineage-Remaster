@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SelectUI>
+  <Window Name = "Message_Window" X = "171" Y = "153" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6488;3">
+    <MultiLabel Name = "Message_Label" X = "29" Y = "31" FontSize = "12" Width = "394" Height = "190" VAlign = "center" LineMargin = "3"/>
+    <Button Name = "Ok_Button" X = "47" Y = "237" BaseSurf = "6489" HighlightSurf = "6490" PushSurf = "6491" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_MessageWin"/>
+    <Button Name = "Cancel_Button" X = "262" Y = "237" BaseSurf = "6492" HighlightSurf = "6493" PushSurf = "6494" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_MessageWin"/>
+    <Image Name = "Back_Image" Surf = "6487;1"/>
+  </Window>
+  <Window Name = "OTP_Window" X = "244" Y = "199" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BasePng = "15287;1">
+    <InputBox Name = "Number_Input" X = "73" Y = "77" Numeric = "1" Password = "1" LimitText = "8" Width = "120" Height = "20" FontSize = "12"/>
+    <Button Name = "Ok_Button" X = "81" Y = "143" BaseSurf = "6489" HighlightSurf = "6490" PushSurf = "6491" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_OTPWin"/>
+    <Image Name = "Back_Image" Surf = "6983;1"/>
+  </Window>
+  <Window Name = "Security_Window" X = "131" Y = "102" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6976;3">
+    <HyperText Name = "Info_HyperText" File = "NoticeSS" X = "37" Y = "37" Width = "460" Height = "270"/>
+    <Button Name = "Ok_Button" X = "53" Y = "338" BaseSurf = "6977" HighlightSurf = "6978" PushSurf = "6979" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_SecurityWin"/>
+    <Button Name = "Cancel_Button" X = "302" Y = "338" BaseSurf = "6980" HighlightSurf = "6981" PushSurf = "6982" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_SecurityWin"/>
+    <Image Name = "Back_Image" Surf = "6975;1"/>
+  </Window>
+  <Window Name = "TeleAuth_Window" X = "244" Y = "212" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6949;3">
+	<Image Name = "Tele_Image" X = "128" Y = "105"/>
+    <MultiLabel Name = "Message_Label" X = "32" Y = "32" FontSize = "12" Width = "240" Height = "70" VAlign = "center"/>
+    <Image Name = "Back_Image" Surf = "6948;1"/>
+  </Window>
+  <Window Name = "CharacterPassword_Window" X = "232" Y = "108" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6952;3">
+	<Button Name = "0_Button" X = "81" Y = "105" BaseSurf = "6965" HighlightSurf = "6965" PushSurf = "6965" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "1_Button" X = "117" Y = "105" BaseSurf = "6966" HighlightSurf = "6966" PushSurf = "6966" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "2_Button" X = "153" Y = "105" BaseSurf = "6967" HighlightSurf = "6967" PushSurf = "6967" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "3_Button" X = "189" Y = "105" BaseSurf = "6968" HighlightSurf = "6968" PushSurf = "6968" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "4_Button" X = "225" Y = "105" BaseSurf = "6969" HighlightSurf = "6969" PushSurf = "6969" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "5_Button" X = "81" Y = "137" BaseSurf = "6970" HighlightSurf = "6970" PushSurf = "6970" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "6_Button" X = "117" Y = "137" BaseSurf = "6971" HighlightSurf = "6971" PushSurf = "6971" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "7_Button" X = "153" Y = "137" BaseSurf = "6972" HighlightSurf = "6972" PushSurf = "6972" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "8_Button" X = "189" Y = "137" BaseSurf = "6973" HighlightSurf = "6973" PushSurf = "6973" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Button Name = "9_Button" X = "225" Y = "137" BaseSurf = "6974" HighlightSurf = "6974" PushSurf = "6974" OverSound = "6530" PushSound = "6536" MouseEvent = "Num_CharacterPasswordWin"/>
+	<Label Name = "Input_Label" FontSize = "12" X = "86" Y = "76" Width = "100" Height = "20"/>
+    <MultiLabel Name = "Desc_Label" FontSize = "12" X = "37" Y = "247" Width = "259" Height = "54" LineMargin = "3"/>
+	<Button Name = "Modify_Button" X = "92" Y = "327" BaseSurf = "6953" HighlightSurf = "6954" PushSurf = "6955" OverSound = "6530" PushSound = "6536" MouseEvent = "Modify_CharacterPasswordWin"/>
+	<Button Name = "Init_Button" X = "30" Y = "184" BaseSurf = "6956" HighlightSurf = "6957" PushSurf = "6958" OverSound = "6530" PushSound = "6536" MouseEvent = "Init_CharacterPasswordWin"/>
+	<Button Name = "Cancel_Button" X = "123" Y = "184" BaseSurf = "6962" HighlightSurf = "6963" PushSurf = "6964" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_CharacterPasswordWin"/>
+    <Button Name = "Ok_Button" X = "216" Y = "184" BaseSurf = "6959" HighlightSurf = "6960" PushSurf = "6961" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_CharacterPasswordWin"/>
+    <Image Name = "Back_Image" Surf = "6951;1"/>
+  </Window>
+  <Window Name = "TutorialProgress_Window" X = "232" Y = "190" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "8757;1">
+	<Button Name = "Close_Button" X = "286" Y = "22" BaseSurf = "8747" PushSurf="8748" MouseEvent = "CloseTutorial"/>
+	<MultiLabel Name = "Message_Label" X = "32" Y = "32" FontSize = "12" Width = "240" Height = "70" VAlign = "center" String="4083"/>
+	<Button Name = "Confirm_Button" X = "32" Y = "162" BaseSurf = "8759" HighlightSurf = "8760" PushSurf="8761" MouseEvent = "ConfirmTutorial"/>
+	<Button Name = "Skip_Button" X = "185" Y = "162" BaseSurf = "8749"  HighlightSurf = "8750" PushSurf="8751" MouseEvent = "SkipTutorial"/>
+  </Window>
+  <Window Name = "Character_Select_Window" X = "0" Y = "0" BaseSurf = "6421" Activate = "0">
+    <Effect Name = "Character_Ani" X = "529" Y = "91"/>
+	<List Name = "BigSlot_List" X = "31" Y = "28" Width = "237" Height = "496" Vertical = "1">
+      <Control Name = "Slot_Control" Width = "337" Height = "124">
+		<Image Name = "RankStar" X = "12" Y = "12" Png = "3406;1" Activate = "0"/>
+		<Image Name = "RankStar_Multi" X = "12" Y = "12" Png = "3410;3" Activate = "0"/>
+		<Image Name = "Slot_Back" Surf = "6429;3">
+			<Button Name = "Select_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+			</Button>
+			<Button Name = "WaitDelete_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+				<Image Name = "WaitToDel_Image" X = "254" Y = "24" Surf = "6486;1"/>
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3912"/>
+			</Button>
+			<Button Name = "Create_Button" BaseSurf = "6426;1" HighlightSurf = "6427;1" PushSurf = "6428;1" OverSound = "6531" PushSound = "6537" MouseEvent = "CreateChar_SelectWin">
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3911"/>
+			</Button>
+		</Image>
+		<Image Name = "Slot_Lock_Back" Surf = "6425;3">
+			<Button Name = "Lock_Button" BaseSurf = "6422;1" HighlightSurf = "6423;1" PushSurf = "6424;1" MouseEvent = "SlotLock_SelectWin"/>
+		</Image>
+      </Control>
+	  <Control Name = "Slot_Control" Width = "337" Height = "124">
+		<Image Name = "RankStar" X = "12" Y = "12" Png = "3406;1" Activate = "0"/>
+		<Image Name = "RankStar_Multi" X = "12" Y = "12" Png = "3410;3" Activate = "0"/>
+		<Image Name = "Slot_Back" Surf = "6429;3">
+			<Button Name = "Select_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+			</Button>
+			<Button Name = "WaitDelete_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+				<Image Name = "WaitToDel_Image" X = "254" Y = "24" Surf = "6486;1"/>
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3912"/>
+			</Button>
+			<Button Name = "Create_Button" BaseSurf = "6426;1" HighlightSurf = "6427;1" PushSurf = "6428;1" OverSound = "6531" PushSound = "6537" MouseEvent = "CreateChar_SelectWin">
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3911"/>
+			</Button>
+		</Image>
+		<Image Name = "Slot_Lock_Back" Surf = "6425;3">
+			<Button Name = "Lock_Button" BaseSurf = "6422;1" HighlightSurf = "6423;1" PushSurf = "6424;1" MouseEvent = "SlotLock_SelectWin"/>
+		</Image>
+      </Control>
+	  <Control Name = "Slot_Control" Width = "337" Height = "124">
+		<Image Name = "RankStar" X = "12" Y = "12" Png = "3406;1" Activate = "0"/>
+		<Image Name = "RankStar_Multi" X = "12" Y = "12" Png = "3410;3" Activate = "0"/>
+		<Image Name = "Slot_Back" Surf = "6429;3">
+			<Button Name = "Select_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+			</Button>
+			<Button Name = "WaitDelete_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+				<Image Name = "WaitToDel_Image" X = "254" Y = "24" Surf = "6486;1"/>
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3912"/>
+			</Button>
+			<Button Name = "Create_Button" BaseSurf = "6426;1" HighlightSurf = "6427;1" PushSurf = "6428;1" OverSound = "6531" PushSound = "6537" MouseEvent = "CreateChar_SelectWin">
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3911"/>
+			</Button>
+		</Image>
+		<Image Name = "Slot_Lock_Back" Surf = "6425;3">
+			<Button Name = "Lock_Button" BaseSurf = "6422;1" HighlightSurf = "6423;1" PushSurf = "6424;1" MouseEvent = "SlotLock_SelectWin"/>
+		</Image>
+      </Control>
+	  <Control Name = "Slot_Control" Width = "337" Height = "124">
+		<Image Name = "RankStar" X = "12" Y = "12" Png = "3406;1" Activate = "0"/>
+		<Image Name = "RankStar_Multi" X = "12" Y = "12" Png = "3410;3" Activate = "0"/>
+		<Image Name = "Slot_Back" Surf = "6429;3">
+			<Button Name = "Select_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+			</Button>
+			<Button Name = "WaitDelete_Button" BaseSurf = "6430;1" HighlightSurf = "6431;1" PushSurf = "6432;1" OverSound = "6531" PushSound = "6537" MouseEvent = "SelectChar_SelectWin">
+				<Label Name = "Level_Label" X = "82" Y = "32" String = "dummy;1" Align = "left" Width = "50" Height = "17"/>
+				<Label Name = "Name_Label" X = "117" Y = "32" String = "dummy;1" Align = "left" Width = "70" Height = "17"/>
+				<Image Name = "WaitToDel_Image" X = "254" Y = "24" Surf = "6486;1"/>
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3912"/>
+			</Button>
+			<Button Name = "Create_Button" BaseSurf = "6426;1" HighlightSurf = "6427;1" PushSurf = "6428;1" OverSound = "6531" PushSound = "6537" MouseEvent = "CreateChar_SelectWin">
+				<Tooltip Name = "Desc_Tooltip" X = "10" Y = "-6" Width = "300" String = "3911"/>
+			</Button>
+		</Image>
+		<Image Name = "Slot_Lock_Back" Surf = "6425;3">
+			<Button Name = "Lock_Button" BaseSurf = "6422;1" HighlightSurf = "6423;1" PushSurf = "6424;1" MouseEvent = "SlotLock_SelectWin"/>
+		</Image>
+      </Control>
+	</List>
+    <List Name = "CharacterInfo_List" X = "582" Y = "407" Width = "250" Height = "162" Vertical = "1">
+      <Label Name = "Name_Label" Align = "left" Width = "150" Height = "26" FontSize = "12"/>
+      <Label Name = "Level_Label" Align = "left" Width = "150" Height = "26" FontSize = "12"/>
+      <Label Name = "Class_Label" Align = "left" Width = "150" Height = "26" FontSize = "12"/>
+      <Label Name = "Pledge_Label" Align = "left" Width = "150" Height = "26" FontSize = "12"/>
+      <Label Name = "Alignment_Label" Align = "left" Width = "150" Height = "26" FontSize = "12"/>
+      <Label Name = "Birthday_Label" Align = "left" Width = "150" Height = "26" FontSize = "12"/>
+    </List>
+    <Image Name = "DeleteDelay_Image" X = "529" Y = "91"/>
+	<Button Name = "Up_Button" X = "375" Y = "218" BaseSurf = "6411;4" HighlightSurf = "6411;4" PushSurf = "6412;4" OverSound = "6530" PushSound = "6536" MouseEvent = "UpSlot_SelectWin"/>
+    <Button Name = "Down_Button" X = "375" Y = "271" BaseSurf = "6413;4" HighlightSurf = "6413;4" PushSurf = "6414;4" OverSound = "6530" PushSound = "6536" MouseEvent = "DownSlot_SelectWin"/>
+    <Button Name = "Enter_Button" X = "550" Y = "354" BaseSurf = "6404" HighlightSurf = "6405" PushSurf = "6406" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_SelectWin"/>
+    <Button Name = "Back_Button" X = "14" Y = "535" BaseSurf = "6415;4" HighlightSurf = "6416;4" PushSurf = "6417;4" OverSound = "6530" PushSound = "6814" MouseEvent = "Cancel_SelectWin"/>
+    <Button Name = "Delete_Button" X = "284" Y = "535" BaseSurf = "6407" HighlightSurf = "6408" PushSurf = "6409" OverSound = "6530" PushSound = "6536" MouseEvent = "DeleteChar_SelectWin"/>
+    <Image Name = "CharacterInfo_Back" X = "435" Y = "371" Surf = "6410"/>
+    <Image Name = "Back_Image" X = "0" Y = "0"/>
+  </Window>
+  <Window Name = "CharacterName_Change_Window" X = "0" Y = "0" Activate = "0">
+    <TextScroller Name = "ChangeName_Info" X = "32" Y = "120" Width = "300" Height = "420" TextFile = "merge_name" FontSize = "12"/>
+    <Image Name = "Title_Screen" X = "23" Y = "20" Surf = "7233;4"/>
+    <Image Name = "Title_Multi" X = "23" Y = "20" Surf = "7234;3"/>
+    <Image Name = "Characer_Name" X = "370" Y = "460" Surf = "7237;4"/>
+    <Edit Name = "Name_Edit" X = "498" Y = "467" Width = "172" Height = "22" LimitText = "12" FontSize = "12" FocusSound = "6536" />
+    <Button Name = "Ok_Button" X = "593" Y = "533" BaseSurf = "7033" HighlightSurf = "7034" PushSurf = "7035" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_CharacterNameChangeWin"/>
+	<Button Name = "Cancel_Button" X = "406" Y = "533" BaseSurf = "7036" HighlightSurf = "7037" PushSurf = "7038" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_PledgeNameMergeWin"/>
+    <Image Name = "Edit_Back" X = "492" Y = "460" Surf = "6989"/>
+    <Image Name = "TextScroll_Back" X = "28" Y = "85" Surf = "6988"/>
+    <Image Name = "Back_Image" X = "0" Y = "0"/>
+  </Window>
+  <Window Name = "CharacterName_Merge_Window" X = "0" Y = "0" Activate = "0">
+    <TextScroller Name = "ChangeName_Info" X = "32" Y = "120" Width = "300" Height = "420" TextFile = "merge_name" FontSize = "12"/>
+    <Image Name = "Title_Screen" X = "23" Y = "20" Surf = "7233;4"/>
+    <Image Name = "Title_Multi" X = "23" Y = "20" Surf = "7234;3"/>
+    <Image Name = "Characer_Name" X = "406" Y = "460" Surf = "7237"/>
+    <Edit Name = "Name_Edit" X = "498" Y = "467" Width = "172" Height = "22" LimitText = "12" FontSize = "12" FocusSound = "6536" />
+    <Button Name = "Ok_Button" X = "593" Y = "533" BaseSurf = "7033" HighlightSurf = "7034" PushSurf = "7035" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_CharacterNameMergeWin"/>
+    <Button Name = "Cancel_Button" X = "406" Y = "533" BaseSurf = "7036" HighlightSurf = "7037" PushSurf = "7038" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_CharacterNameMergeWin"/>
+    <Image Name = "Edit_Back" X = "492" Y = "460" Surf = "6989"/>
+    <Image Name = "TextScroll_Back" X = "28" Y = "85" Surf = "6988"/>
+    <Image Name = "Back_Image" X = "0" Y = "0"/>
+  </Window>
+  <Window Name = "PledgeName_Merge_Window" X = "0" Y = "0" Activate = "0" BaseSurf = "7232">
+    <TextScroller Name = "ChangeName_Info" X = "32" Y = "120" Width = "300" Height = "420" TextFile = "merge_pledge" FontSize = "12"/>
+    <Image Name = "Title_Screen" X = "23" Y = "20" Surf = "7235;4"/>
+    <Image Name = "Title_Multi" X = "23" Y = "20" Surf = "7236;3"/>
+    <Image Name = "Pledge_Name" X = "370" Y = "460" Surf = "7238;4"/>
+    <Edit Name = "Name_Edit" X = "498" Y = "467" Width = "172" Height = "22" LimitText = "16" FontSize = "12" FocusSound = "6536"/>
+    <Button Name = "Ok_Button" X = "593" Y = "533" BaseSurf = "7033" HighlightSurf = "7034" PushSurf = "7035" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_PledgeNameMergeWin"/>
+    <Button Name = "Cancel_Button" X = "406" Y = "533" BaseSurf = "7036" HighlightSurf = "7037" PushSurf = "7038" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_PledgeNameMergeWin"/>
+    <Image Name = "Edit_Back" X = "492" Y = "460" Surf = "6989"/>
+    <Image Name = "TextScroll_Back" X = "28" Y = "85" Surf = "6988"/>
+    <Image Name = "Back_Image" X = "0" Y = "0"/>
+  </Window>
+  <Include Xml="ExitWindow.xml" Root="ExitWindow" Name="ExitWindow"/>
+</SelectUI>

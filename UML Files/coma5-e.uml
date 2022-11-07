@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		ちゃんと全部合わせて5個になるよう選んだか？<br/>
+		<font fg="ffffaa">デスマッチ</font>：<a action="a">1個</a>/<a action="b">2個</a>/<a action="c">3個</a>/<a action="d">4個</a>/<a action="e">5個</a><br/>
+		<font fg="ffffaa">幽霊屋敷：</font><a action="f">1個</a>/<a action="g">2個</a>/<a action="h">3個</a>/<a action="i">4個</a>/<a action="j">5個</a><br/>
+		<font fg="ffffaa">ペットレース</font>：<a action="k">1個</a>/<a action="l">2個</a>/<a action="m">3個</a>/<a action="n">4個</a>/<a action="o">5個</a><br/>
+		<font fg="ffffaa">ペットマッチ</font>：<a action="p">1個</a>/<a action="q">2個</a>/<a action="s">3個</a>/<a action="t">4個</a>/<a action="u">5個</a><br/>
+		<font fg="ffffaa">アルティメットバトル：</font><a action="v">1個</a>/<a action="w">2個</a>/<a action="x">3個</a>/<a action="y">4個</a>/<a action="z">5個</a><br/>
+		<br/>デスマッチの欠片：<font fg="ffaaff"><var src="0"/>個</font><br/>
+		幽霊屋敷の欠片：<font fg="ffaaff"><var src="1"/>個</font><br/>
+		ペットレースの欠片：<font fg="ffaaff"><var src="2"/>個</font><br/>
+		ペットマッチの欠片：<font fg="ffaaff"><var src="3"/>個</font><br/>
+		アルティメットバトルの欠片：<font fg="ffaaff"><var src="4"/>個</font><br/><br/>
+		<a action="4">全部選びました</a>
+		<br/><a action="3">最初から選び直します</a>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

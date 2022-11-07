@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<UserObtainUI Toggle="true">
+  <Window Name="UserObtain_Window" X="0" Y="0" BaseSurf = "5194;1" FrameSurf="5195;1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent="Keyboard">
+    <Button Name = "CloseWindow_Button" X = "215" Y = "9" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseWindow"/>
+    <Label Name="Total_Label" X = "30" Y="20" Height="13" Width="20" String="3126;1"/>
+    <List Name = "ObtainNewItem_List" X = "18" Y = "37" Width = "194" Height = "250" Vertical = "1" Gap = "1">
+      <CheckButton Name = "Item0_Button" Width ="194" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="2">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+      <CheckButton Name = "Item1_Button" Width ="186" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="1">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+      <CheckButton Name = "Item2_Button" Width ="186" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="1">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+      <CheckButton Name = "Item3_Button" Width ="186" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="1">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+      <CheckButton Name = "Item4_Button" Width ="186" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="1">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+      <CheckButton Name = "Item5_Button" Width ="186" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="1">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+      <CheckButton Name = "Item6_Button" Width ="186" Height="35" MouseEvent = "ItemsListClick" Activate = "0">
+        <List Name = "Item_List" Width = "186" Height = "35" Horizontal = "1" Gap = "1">
+					<ItemIcon Name = "Item_Image" Width = "34" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35" Y="5" Opacity="0"/>
+					</ItemIcon>
+					<List Name = "ItemInfo_List" Y="2" Width="150" Height="35" Vertical ="1" Gap="1">
+					  <Label Name="ItemName_Label" X = "4" Y = "4" Width = "140" Height = "15" Align="left" Caption="example"/>
+				    <Label Name="ItemCount_Label" X = "130" Y = "5" Width = "19" Align="right" Height = "13" BackColor="0,0,0"/>
+					</List>
+				</List>
+      </CheckButton>
+    </List>
+    <WheelControl Name="ItemsList_WheelArea" X = "18" Y = "37" Width = "194" Height = "250">
+      <ScrollBar Name = "ItemsList_Scrollbar" X = "199" Y = "0" MaxValue = "9" ChangeValue = "1" ScrollStart = "16" ScrollHeight = "224" Vertical = "1" MouseEvent="ItemListScroll">
+        <Image Name = "Background_Image" Surf = "5196;1" X ="0" Y="14"/>
+        <Button Name = "Up_Button" X = "0" Y ="0" BaseSurf = "4178;1" PushSurf = "4179;1" MouseEvent = "Dummy"/>
+        <Button Name = "Down_Button" X = "0" Y = "236" BaseSurf = "4180;1" PushSurf = "4181;1" MouseEvent = "Dummy"/>
+        <Button Name = "Move_Button" X = "0" Y = "16" BaseSurf = "4182;1" PushSurf = "4183;1" MouseEvent = "Dummy"/>
+      </ScrollBar>
+    </WheelControl>
+  </Window>
+</UserObtainUI>

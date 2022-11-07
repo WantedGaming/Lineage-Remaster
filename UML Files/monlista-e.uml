@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<center><img src="2609"/></center>
+		<img src="3397" tooltip="オーク" link="monlists"/>
+		<img src="3391" tooltip="オーク スカウト" link="monlists"/>
+		<img src="3395" tooltip="ドワーフ" link="monlists"/>
+		<br/>
+		<img src="2614" tooltip="グール" link="monlists"/>
+		<img src="2621" tooltip="スケルトン" link="monlists"/>
+		<img src="2622" tooltip="スケルトン アーチャー" link="monlists"/>
+		<br/>
+		<img src="3396" tooltip="ウェアウルフ" link="monlists"/>
+		<img src="2616" tooltip="ライカンスロープ" link="monlists"/>
+		<img src="2617" tooltip="バグベアー" link="monlists"/>
+		<br/>
+		<img src="3393" tooltip="ジャイアント アント" link="monlists"/>
+		<img src="3429" tooltip="ジャイアント アント ソルジャー" link="monlists"/>
+		<img src="2620" tooltip="ドレッドスパイダー" link="monlists"/>
+		<br/>
+		<img src="2612" tooltip="ガースト" link="monlists"/>
+		<img src="3388" tooltip="リザードマン" link="monlists"/>
+		<img src="3399" tooltip="ミドル オーム" link="monlists"/>
+		<br/>
+		<img src="3394" tooltip="コカトリス" link="monlists"/>
+		<img src="3401" tooltip="キウィ パロット" link="monlists"/>
+		<img src="3402" tooltip="ワイルド ファング" link="monlists"/>
+		<br/>
+		<img src="3400" tooltip="ラクーン" link="monlists"/>
+		<img src="3387" tooltip="オウルベアー" link="monlists"/>
+		<img src="3389" tooltip="ラットマン" link="monlists"/>
+		<br/>
+		<img src="3390" tooltip="ドラゴン フライ" link="monlists"/>
+		<img src="3392" tooltip="サキュバス" link="monlists"/>
+		<img src="3398" tooltip="ゼラチン キューブ" link="monlists"/>
+		<br/><br>
+		<br/>
+		<img src="331" link="monlists"/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>強化ウィザード</title>
+  <npc>
+    <name>オリム</name>
+    <job>[強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p>その魔法を作るには、君はまだ実力不足のようだな。もっと自分の身の丈に合った魔法を選ぶといい。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

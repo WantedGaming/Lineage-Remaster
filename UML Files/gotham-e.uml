@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ ゴッサム</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		 <panel type="Panel_Storage_Button">
+			<Button action="deposit"/>
+			<Button action="retrieve"/>
+			<Button action="deposit-pledge"/>
+			<Button action="retrieve-pledge"/>
+			<Button action="deposit-char"/>
+			<Button action="retrieve-char"/>
+		</panel>
+		<p><br/>
+		 <a action="history">血盟倉庫使用リスト確認</a><br/><br/><br/>
+		 アイテムをお預かりします。我ら「鋼鉄のギルド」は長い歴史を持ったしっかりした組織です。
+		 何でも安心してお預けください。<br/>
+		 <br/>
+		<br/>
+		 費用は品物1個あたりの費用で、代金は引き取る時にお支払いください。<br/>
+		一般倉庫：100Adena<br/>
+		血盟倉庫：500Adena<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

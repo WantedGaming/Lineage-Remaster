@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+	<p>すまんが、ワシには無理かもしれん…</p> 
+	<p>いや、無理じゃ。</p> 
+	<p>この指輪をこれ以上どうしろというんじゃ？</p>
+  </dialog>
+</npcdialog>

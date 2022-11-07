@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ゲレン師匠が亡くなるときにくださった贈り物を、モンスターたちが盗んでいったんだ。<br/>
+		その<font fg="ffffaf">贈り物</font>は、私に協力してくれた者たちへの<font fg="ffffaf">お礼</font>にするはずだった。もちろん取り返したら君も使ってくれ。<br/><br/>
+		 <font fg="ffffaf">1000Adena</font>でそこまで送ってやる。<br/><br/>
+		<a action="A">* 乾いた荒地に入場</a><br/><br/>
+		 <font fg="ffffaf">チッパー</font>に再び頼んで<font fg="ffffaf">水風船</font>も作ってもらった。魔法の水を注いだから、他の場所では使えないだろう。<br/><br/>
+		  <font fg="b078ab">一日に40分</font>、ネットカフェなら<font fg="b078ab">さらに40分</font>とどまることができる。<br/><br/>
+		 私が助けを求めるのは<font fg="b078ab">6月10日6時</font>までだ。<br/><br/>
+		 幸運を祈るぞ…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

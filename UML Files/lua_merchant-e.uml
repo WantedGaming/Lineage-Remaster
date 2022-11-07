@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベント商人</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ルアー</name>
+		<job>[補給商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>こんにちは。<br/>
+		吹き荒れる戦場の強烈さがここまで感じられますね。<br/>
+		私は皆さんの頼りになる補給品お助け役<font fg="ffffaf">ルアー</font>です！<br/>
+		<br/>
+		闇の戦場のなかで<br/>
+		皆さんのお役に少しでも立ちたくて、<br/>
+		<br/>
+		補給品の種類を増やしてきました！<br/>
+		<br/>
+		<font fg="ffffaf">毎日</font>忘れずに<br/> 
+		私のところにいらしてください！<br/><br/>
+		<font fg="ffffaf">毎日午前6時から購入可能</font>であることも<br/>
+		お忘れなきよう！<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	</dialog>
+</npcdialog>

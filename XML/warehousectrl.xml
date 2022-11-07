@@ -1,0 +1,38 @@
+<Controls>
+  
+  <ComboBox Name="SortListCombo" >
+    <Label Name="Text_Label" X="1" Y="1" Align="center" Width="88" Height="16"/>
+    <Button Name="Expand_Button" BasePng="2844" HighlightPng="2845" PushPng="2845" MouseEvent="HandleMouseExpandButton"/>
+    <UpDownList Name="Expand_List" Y="19" Width="93" Height="89" PageSize="0" Vertical="1" Gap="1">
+      <Image Name="Background_Image" Png="3341"/>
+      <CheckButton Name="Item0_Button" X="3" Width="87" Height="16" CheckPng="2852" String="4012" FontColor="144,136,123" Align="center" MouseEvent="HandleMouseComboItem"/>
+      <CheckButton Name="Item1_Button" X="3" Width="87" Height="16" CheckPng="2852" String="1804" FontColor="144,136,123" Align="center" MouseEvent="HandleMouseComboItem"/>
+      <CheckButton Name="Item2_Button" X="3" Width="87" Height="16" CheckPng="2852" String="1805" FontColor="144,136,123" Align="center" MouseEvent="HandleMouseComboItem"/>
+      <CheckButton Name="Item3_Button" X="3" Width="87" Height="16" CheckPng="2852" String="1808" FontColor="144,136,123" Align="center" MouseEvent="HandleMouseComboItem"/>
+      <CheckButton Name="Item4_Button" X="3" Width="87" Height="16" CheckPng="2852" String="1809" FontColor="144,136,123" Align="center" MouseEvent="HandleMouseComboItem"/>
+    </UpDownList>
+  </ComboBox>
+
+  <Control Name="TabControl">
+    <CheckButton Name="TabCheckButton0" X="0" BasePng="3238" CheckPng="3237" PushCheck="0" Width="51" Height="22" MouseEvent="HandleMouseTabButton">
+      <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="878" Area="0" Opacity="0"/>
+    </CheckButton>
+    <CheckButton Name="TabCheckButton2" X="51" BasePng="3240" CheckPng="3239" PushCheck="0" Width="51" Height="22" MouseEvent="HandleMouseTabButton">
+      <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="879" Area="0" Opacity="0"/>
+    </CheckButton>
+    <CheckButton Name="TabCheckButton3" X="102" BasePng="3242" CheckPng="3241" PushCheck="0" Width="51" Height="22" MouseEvent="HandleMouseTabButton">
+      <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="880" Area="0" Opacity="0"/>
+    </CheckButton>
+    <CheckButton Name="TabCheckButton4" X="153" BasePng="3244" CheckPng="3243" PushCheck="0" Width="51" Height="22" MouseEvent="HandleMouseTabButton">
+      <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="881" Area="0" Opacity="0"/>
+    </CheckButton>
+  </Control>
+  
+  <ScrollBar Name="ScrollBar"  X="209" Y="7" Width="17" Height="249" Vertical="1" MaxValue="0" ScrollStart="14" ScrollHeight="251" MouseEvent="WareHouseScroll">
+    <Image Name="Background_Image" X="0" Y="14" Surf="3024;1"/>
+    <Button Name="Move_Button" X="0" Y="14" MouseEvent="WareHouseScroll" BaseSurf="3029;1" HighlightSurf="3029;1" PushSurf="3030;1" />
+    <Button Name="Up_Button" X="0" Y="0" MouseEvent="WareHouseScroll" BaseSurf="3027;1" HighlightSurf="3027;1" PushSurf="3028;1" />
+    <Button Name="Down_Button" X="0" Y="238" MouseEvent="WareHouseScroll" BaseSurf="3025;1" HighlightSurf="3025;1" PushSurf="3026;1" />
+  </ScrollBar>
+
+</Controls>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<center><img src="2602"/></center>
+		<img src="2663" tooltip="カーツ^(ダガー/ソード/ツーハンド ソード)" link="monlists"/>
+		<img src="2664" tooltip="ブラックナイト^(スピア/チェーンソード)" link="monlists"/>
+		<img src="2670" tooltip="アサシン マスター^(デュアルブレード/クロウ/キーリンク)" link="monlists"/>
+		<br/>
+		<img src="2654" tooltip="バフォメット^(スタッフ)" link="monlists"/>
+		<img src="3420" tooltip="ミノタウルス^(アックス)" link="monlists"/>
+		<img src="2659" tooltip="ダークエルフ ガード^(ボウ/ガントレット)" link="monlists"/>
+		<br/>
+		<center><img src="2604"/></center>
+		<img src="2666" tooltip="デスナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" link="monlists"/>
+		<img src="2667" tooltip="ランスマスター^(スピア/チェーンソード)" link="monlists"/>
+		<img src="3422" tooltip="ドレイク^(デュアルブレード/クロウ/キーリンク)" link="monlists"/>
+		<br/>
+		<img src="3423" tooltip="シンクレア^(スタッフ)" link="monlists"/>
+		<img src="3421" tooltip="グレート ミノタウルス^(アックス)" link="monlists"/>
+		<img src="2665" tooltip="ダークエルフ^(ボウ/ガントレット)" link="monlists"/>
+		<br/>
+		<br/>
+		<br/>
+		<img src="331" link="monlists"/>
+		</p>
+	</dialog>
+</npcdialog>

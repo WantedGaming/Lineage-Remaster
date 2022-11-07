@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>グレン</name>
+		<job>武器防具商人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p><font fg="ffffff"><var src="0"/>%</font>ですな。</p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

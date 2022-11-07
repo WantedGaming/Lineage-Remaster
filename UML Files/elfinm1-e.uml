@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エルフィン</name>
+  </npc>
+  <dialog>
+	<p>
+ よくエルフの森に足を踏み入れた。
+<br/>
+ アラクネ族が作った物がいくら欲しいからってここまで来るのは無謀じゃないのか？
+<br/>
+とにかく、君たちとは取引きできないので守護者たちに見つかる前にこの森から離れるように。
+</p>
+  </dialog>
+</npcdialog>

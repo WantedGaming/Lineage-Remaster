@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ヤヒ：</font>
+<br/><br/>
+ハーディン？よく知っているぞ。<br/><br/>
+我々の忠実な下僕の一人とも言えるな？グハハハ！<br/><br/>
+<a link="j_ep010">あなたは何者ですか？</a><br/>
+<a link="j_ep011">ハーディンは何をしようとしているのですか？</a><br/>
+<a link="j_ep012">あの方とは誰ですか？</a><br/>
+<a link="j_ep013">「ケレニス」を知っていますか？</a><br/>
+<a link="j_ep014">モンスターたちはあなたの手下ですか？</a><br/>
+<a link="j_ep015">あなたは何をしようとしていたのですか？</a><br/>
+</p>
+</dialog>
+</npcdialog>

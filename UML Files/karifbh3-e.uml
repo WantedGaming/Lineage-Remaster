@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Karif</name>
+		<job>[アイテム製作師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>カオス レザーはアデン城下町にいるバミュトって奴が作ることができる。</p>
+		<p>いくら腕がいいとはいえ、俺一人で材料を全部作れるはずないだろ？</p>
+		<img src="331" link="karifbow"/>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+  <dialog>
+    <p>私のプレゼントに期待をしすぎて、少しがっかりされたようですね。申し訳ございません。</p>
+    <p>ですが、このちょっとした困惑を事前に体験することで、将来起こりうる困難を無事に乗り越えていけるのです。</p>
+    <p>あなたの未来が幸福で満ち溢れることを祈っております。<br/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ホルン</name>
+    <job>[魔法伝授者]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">ホルン：</font></p>
+    <p><br/>この森でよく見受けられる、<font fg="ffffff">ファングス</font>というモンスターを殺せば手に入りますよ。<br/><br/></p>
+	<p><a link="horunEv1">魔法を習得する</a></p>
+  </dialog>
+</npcdialog>

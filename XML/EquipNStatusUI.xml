@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<EquipNStatusUI Toggle="true">
+	<Window Name="Equip_Window" X="0" Y="0" BasePng = "13068;1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard">
+		<Button Name = "CloseWindow_Button" X="160" Y="7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseWindow"/>
+		<Control Name="DefaultEquipSet">
+			<Control Name="EquipSlots">
+				<Image Name="Earring" Width="32" Height="32" X="28" Y="32" Surf="5479;1" Activate="0">  <!--0-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="13">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Helmet" Width="32" Height="32" X="74" Y="32" Surf="5479;1" Activate="0"> <!--1-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="1">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Earring59" Width="32" Height="32" X="119" Y="32" Surf="5479;1" Activate="0"> <!--2-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="26">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="L_Shoulder" Width="32" Height="32" X="28" Y="70" Surf="5479;1" Activate="0"> <!--3-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="30">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Necklace" Width="32" Height="32" X="74" Y="70" Surf="5479;1" Activate="0"> <!--4-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="11">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="R_Shoulder" Width="32" Height="32" X="119" Y="70" Surf="5479;1" Activate="0"> <!--5-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="29">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Glove" Width="32" Height="32" X="28" Y="108" Surf="5479;1" Activate="0"> <!--6-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="7">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Shirt" Width="32" Height="32" X="74" Y="108" Surf="5479;1" Activate="0"> <!--7-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="3">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Cloak" Width="32" Height="32" X="119" Y="108" Surf="5479;1" Activate="0"> <!--8-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="4">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Weapon" Width="32" Height="32" X="28" Y="146" Surf="5479;1" Activate="0"> <!--9-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="9">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Armor" Width="32" Height="32" X="74" Y="146" Surf="5479;1" Activate="0"> <!--10-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="2">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Shield" Width="32" Height="32" X="119" Y="146" Surf="5479;1" Activate="0"> <!--11-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="8">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Ring1" Width="32" Height="32" X="28" Y="184" Surf="5479;1" Activate="0"> <!--12-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="19">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Waist" Width="32" Height="32" X="74" Y="184" Surf="5479;1" Activate="0"> <!--13-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="12">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Ring2" Width="32" Height="32" X="119" Y="184" Surf="5479;1" Activate="0"> <!--14-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="20">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Ring76" Width="32" Height="32" X="28" Y="222" Surf="5479;1" Activate="0"> <!--15-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="21">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Pants" Width="32" Height="32" X="74" Y="222" Surf="5479;1" Activate="0"> <!--16-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="5">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Ring81" Width="32" Height="32" X="119" Y="222" Surf="5479;1" Activate="0"> <!--17-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="22">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Rune" Width="32" Height="32" X="28" Y="260" Surf="5479;1" Activate="0"> <!--18-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="23">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Boots" Width="32" Height="32" X="74" Y="260" Surf="5479;1" Activate="0"> <!--19-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="6">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+				<Image Name="Heraldry" Width="32" Height="32" X="119" Y="260" Surf="5479;1" Activate="0"> <!--20-->
+					<ItemIcon Name="Icon" Width="32" Height="32" X="1" Y="1" MouseEvent="RemoveItem" Tag="28">
+						<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25"/>
+					</ItemIcon>
+				</Image>
+			</Control>
+			<Control Name="Slot_Tooltips">
+				<Control Name="Earring" Width="32" Height="32" X="28" Y="32">  <!--0-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4186"/>
+				</Control>
+				<Control Name="Helmet" Width="32" Height="32" X="74" Y="32"> <!--1-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4187"/>
+				</Control>
+				<Control Name="Earring59" Width="32" Height="32" X="119" Y="32"> <!--2-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4186"/>
+				</Control>
+				<Control Name="L_Shoulder" Width="32" Height="32" X="28" Y="70"> <!--3-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "5237"/>
+				</Control>
+				<Control Name="Necklace" Width="32" Height="32" X="74" Y="70"> <!--4-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4189"/>
+				</Control>
+				<Control Name="R_Shoulder" Width="32" Height="32" X="119" Y="70"> <!--5-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "5241"/>
+				</Control>
+				<Control Name="Glove" Width="32" Height="32" X="28" Y="108"> <!--6-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4191"/>
+				</Control>
+				<Control Name="Shirt" Width="32" Height="32" X="74" Y="108"> <!--7-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "5239"/>
+				</Control>
+				<Control Name="Cloak" Width="32" Height="32" X="119" Y="108"> <!--8-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4190"/>
+				</Control>
+				<Control Name="Weapon" Width="32" Height="32" X="28" Y="146"> <!--9-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4194"/>
+				</Control>
+				<Control Name="Armor" Width="32" Height="32" X="74" Y="146"> <!--10-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4192"/>
+				</Control>
+				<Control Name="Shield" Width="32" Height="32" X="119" Y="146"> <!--11-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "5242"/>
+				</Control>
+				<Control Name="Ring1" Width="32" Height="32" X="28" Y="184"> <!--12-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4196"/>
+				</Control>
+				<Control Name="Waist" Width="32" Height="32" X="74" Y="184"> <!--13-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4195"/>
+				</Control>
+				<Control Name="Ring2" Width="32" Height="32" X="119" Y="184"> <!--14-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4196"/>
+				</Control>
+				<Control Name="Ring76" Width="32" Height="32" X="28" Y="222"> <!--15-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4196"/>
+				</Control>
+				<Control Name="Pants" Width="32" Height="32" X="74" Y="222"> <!--16-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "5240"/>
+				</Control>
+				<Control Name="Ring81" Width="32" Height="32" X="119" Y="222"> <!--17-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4196"/>
+				</Control>
+				<Control Name="Rune" Width="32" Height="32" X="28" Y="260"> <!--18-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "5238"/>
+				</Control>
+				<Control Name="Boots" Width="32" Height="32" X="74" Y="260"> <!--19-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "4197"/>
+				</Control>
+				<Control Name="Heraldry" Width="32" Height="32" X="119" Y="260"> <!--20-->
+					<Tooltip Name="Desc_Tooltip" Y = "32" VAlign="bottom" OpacityRate = "25" String = "379"/>
+				</Control>
+			</Control>
+
+			<Image Name="EarringSlot59" X="119" Y="32" Surf="6295"/>
+			<Image Name="RingSlot76" X="28" Y="222" Surf="5376"/>
+			<Image Name="RingSlot81" X="119" Y="222" Surf="5376"/>
+			<Image Name="PauldronSlotL" X="28" Y="70" Png="15424"/>
+			<Image Name="PauldronSlotR" X="119" Y="70" Png="15425"/>	
+			<Constants>
+				<Bag Name="OpenSlotData">
+					<String Name="0">RingSlot76</String>
+					<String Name="1">RingSlot81</String>
+					<String Name="2">EarringSlot59</String>
+					<String Name="4">PauldronSlotR</String>
+					<String Name="5">PauldronSlotL</String>
+				</Bag>
+			</Constants>
+		</Control>
+		<Control Name="ButtonControl" Y="300" Width="183" Height="25">
+			<RadioButton Name="Set1Button" X="112" BasePng="13043;1" HighlightPng="13044;1" PushPng="13045;1" MouseEvent="ChangeSet">
+				<Tooltip Name="Desc_Tooltip" String="4905"/>
+			</RadioButton>
+			<RadioButton Name="Set2Button" X="139" BasePng="13046;1" HighlightPng="13047;1" PushPng="13048;1" MouseEvent="ChangeSet">
+				<Tooltip Name="Desc_Tooltip" String="4906"/>
+			</RadioButton>
+		</Control>
+		<Button Name="SaveButton" X="20" Y="300" BasePng="13064;1" HighlightPng="13066;1" PushPng="13067;1" DisablePng="13065;1" MouseEvent="SaveEquipmentSet">
+			<Tooltip Name="Desc_Tooltip" String="4904"/>
+		</Button>
+		<List Name = "Maintab_List" X = "15" Y = "318" Width = "149" Height = "22" Horizontal = "1">
+			<RadioButton Name = "EquipTab_Button" BaseSurf = "5366" PushSurf = "5366" DisableSurf = "5367" MouseEvent = "ChangeTab">
+			  <Tooltip Name = "Desc_Tooltip" String="882" Area="0" Top="0" X = "1" Y = "20"/>
+			</RadioButton>
+			<RadioButton Name = "StatusTab_Button" BaseSurf = "5368" PushSurf = "5368" DisableSurf = "5369" MouseEvent = "ChangeTab">
+			  <Tooltip Name = "Desc_Tooltip" String="883" Area="0" Top="0" X = "1" Y = "20"/>
+			</RadioButton>
+		</List>
+	</Window>
+
+	<Window Name="Status_Window" X="0" Y="0" BasePng = "13071;1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" Activate="0">
+		<Button Name = "CloseWindow_Button" X = "160" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseWindow"/>
+		<Control Name="LevGauge" X = "58" Y = "34">
+			<Label Name = "Label" X = "2" Y = "1" Width = "100" Height = "10" String="1;2" HAlign="center" VAlign="middle"/>
+			<Gauge Name = "Image" Png="10898;1"/>
+		</Control>
+		<Control Name="HPGauge" X = "58" Y = "51">
+			<Label Name = "Label" X = "2" Y = "1" Width = "100" Height = "10" String="1;2" HAlign="center" VAlign="middle"/>
+			<Gauge Name = "Image" Png="10899;1"/>
+		</Control>
+		<Control Name="MPGauge" X = "58" Y = "68">
+			<Label Name = "Label" X = "2" Y = "1" Width = "100" Height = "10" String="1;2" HAlign="center" VAlign="middle"/>
+			<Gauge Name = "Image" Png="10900;1"/>
+		</Control>
+		<Label Name = "Elixir" X = "56" Y = "90" Width = "33" Height = "12" HAlign = "center" VAlign = "middle" Caption = "0">
+			<Tooltip Name = "Desc_Tooltip" String="4500"/>
+		</Label>
+		<Label Name = "PkCount" X = "128" Y = "90" Width = "33" Height = "12" HAlign="center" VAlign="middle" Caption="0">
+			<Tooltip Name = "Desc_Tooltip" String="4501"/>
+		</Label>
+		<Control Name="CharBaseStatus">
+			<Label Name = "Str" X = "44" Y = "125" Width = "35" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+				<Button Name = "Up_Button" X = "37" Y = "1" BasePng = "10906" HighlightPng = "10906" PushPng = "10908;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+				<Button Name = "Down_Button" X = "37" Y = "1" BasePng = "10901" HighlightPng = "10901" PushPng = "10902;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Int" X = "118" Y = "125" Width = "35" Height = "12" HAlign="center" VAlign="middle" Caption="12">
+				<Button Name = "Up_Button" X = "37" Y = "1" BasePng = "10906" HighlightPng = "10906" PushPng = "10908;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+				<Button Name = "Down_Button" X = "37" Y = "1" BasePng = "10901" HighlightPng = "10901" PushPng = "10902;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Dex" X = "44" Y = "138" Width = "35" Height = "12" HAlign="center" VAlign="middle" Caption="13">
+				<Button Name = "Up_Button" X = "37" Y = "1" BasePng = "10906" HighlightPng = "10906" PushPng = "10908;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+				<Button Name = "Down_Button" X = "37" Y = "1" BasePng = "10901" HighlightPng = "10901" PushPng = "10902;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Wis" X = "118" Y = "138" Width = "35" Height = "12" HAlign="center" VAlign="middle" Caption="14">
+				<Button Name = "Up_Button" X = "37" Y = "1" BasePng = "10906" HighlightPng = "10906" PushPng = "10908;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+				<Button Name = "Down_Button" X = "37" Y = "1" BasePng = "10901" HighlightPng = "10901" PushPng = "10902;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Con" X = "44" Y = "151" Width = "35" Height = "12" HAlign="center" VAlign="middle" Caption="15">
+				<Button Name = "Up_Button" X = "37" Y = "1" BasePng = "10906" HighlightPng = "10906" PushPng = "10908;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+				<Button Name = "Down_Button" X = "37" Y = "1" BasePng = "10901" HighlightPng = "10901" PushPng = "10902;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Cha" X = "118" Y = "151" Width = "35" Height = "12" HAlign="center" VAlign="middle" Caption="26">
+				<Button Name = "Up_Button" X = "37" Y = "1" BasePng = "10906" HighlightPng = "10906" PushPng = "10908;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+				<Button Name = "Down_Button" X = "37" Y = "1" BasePng = "10901" HighlightPng = "10901" PushPng = "10902;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+		</Control>
+		<Label Name = "MagicLevel" X = "95" Y = "187" Width = "20" Height = "12" HAlign="center" VAlign="middle" Caption="6" FontColor="191,221,255">
+			<Tooltip Name = "Desc_Tooltip" String="4227"/>
+		</Label>
+		<Label Name = "MagicBonus" X = "95" Y = "200" Width = "20" Height = "12" HAlign="center" VAlign="middle" Caption="1" FontColor="191,221,255">
+			<Tooltip Name = "Desc_Tooltip" String="4228"/>
+		</Label>
+		<Control Name="Align" X = "122" Y = "187" >
+			<Image Name = "Image" Surf="2455;1"/>
+			<Label Name = "Label" Y = "13" Width = "40" Height = "12" Align="center" Caption="3251">
+				<Tooltip Name = "Desc_Tooltip" X="1" Caption="0"/>
+			</Label>
+		</Control>
+		<Label Name = "EarthResist" X = "55" Y = "235" Width = "18" Height = "12" HAlign="center" VAlign="middle" Caption="7" FontColor="191,235,180">
+			<Tooltip Name = "Desc_Tooltip" String="4163"/>
+		</Label>
+		<Label Name = "FireResist" X = "125" Y = "235" Width = "18" Height = "12" HAlign="center" VAlign="middle" Caption="8" FontColor="252,202,206">
+			<Tooltip Name = "Desc_Tooltip" String="4164"/>
+		</Label>
+		<Label Name = "WaterResist" X = "55" Y = "249" Width = "18" Height = "12" HAlign="center" VAlign="middle" Caption="9" FontColor="191,221,255">
+			<Tooltip Name = "Desc_Tooltip" String="4166"/>
+		</Label>
+		<Label Name = "WindResist" X = "125" Y = "249" Width = "18" Height = "12" HAlign="center" VAlign="middle" Caption="10" FontColor="190,190,190">
+			<Tooltip Name = "Desc_Tooltip" String="4165"/>
+		</Label>
+		<Label Name = "DG" X = "38" Y = "267" Width = "24" Height = "12" Align="center" Caption="0">
+			<Tooltip Name = "Desc_Tooltip" String="4502"/>
+		</Label>
+		<Label Name = "ER" X = "86" Y = "267" Width = "24" Height = "12" Align="center" Caption="0">
+			<Tooltip Name = "Desc_Tooltip" String="4503"/>
+		</Label>
+		<Label Name = "ME" X = "138" Y = "267" Width = "24" Height = "12" Align="center" Caption="0">
+			<Tooltip Name = "Desc_Tooltip" String="4504"/>
+		</Label>
+		<CheckButton Name = "StatusBonus_Button" X = "51" Y = "291" BasePng = "10904" PushPng = "10905" MouseEvent="ShowStatInfoTooltip"/>
+		<List Name = "Maintab_List" X = "15" Y = "318" Width = "149" Height = "22" Horizontal = "1">
+			<RadioButton Name = "EquipTab_Button" BaseSurf = "5366" PushSurf = "5366" DisableSurf = "5367" MouseEvent = "ChangeTab">
+			  <Tooltip Name = "Desc_Tooltip" String="882" Area="0" Top="0" X = "1" Y = "20"/>
+			</RadioButton>
+			<RadioButton Name = "StatusTab_Button" BaseSurf = "5368" PushSurf = "5368" DisableSurf = "5369" MouseEvent = "ChangeTab">
+			  <Tooltip Name = "Desc_Tooltip" String="883" Area="0" Top="0" X = "1" Y = "20"/>
+			</RadioButton>
+		</List>
+	</Window>
+	<Window Name="NStatus_Window" X="0" Y="0" BasePng = "4316;1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" Activate="0">
+		<Button Name = "CloseWindow_Button" X = "160" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseWindow"/>
+		<Control Name ="Class_Control" X="19" Y="28">
+			<Image Name="RankImage" X="83" Y="3" Png="4327;1"/>
+			<Image Name="ClassMulti" Png="4347;3"/>
+			<Image Name="ClassScreen" Png="4348;4"/>
+			<Image Name="ClassImage" Png="4332"/>
+		</Control>
+		<Image Name="TotalRankDiff" X="142" Y="69" Png="4327;1"/>
+		<Image Name="ClassRankDiff" X="142" Y="86" Png="4327;1"/>
+		<Label Name = "TotalRank" X = "94" Y = "66" Width = "64" Height = "12" HAlign="center" VAlign="middle" Caption="-"/>
+		<Label Name = "ClassRank" X = "94" Y = "83" Width = "64" Height = "12" HAlign="center" VAlign="middle" Caption="-"/>
+		<List Name = "InfoTab_List" X = "21" Y = "104" Width = "94" Height = "17" Horizontal = "1" Gap ="1">
+			<RadioButton Name = "Info1_Button" BasePng = "4321" OverPng = "4322" PushPng = "4323" MouseEvent = "ShowInfo"/>
+			<RadioButton Name = "Info2_Button" BasePng = "4324" OverPng = "4325" PushPng = "4326" MouseEvent = "ShowInfo"/>
+		</List>
+		<Control Name="Info1_Control">
+			<Label Name = "HP" X = "62" Y = "129" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Label Name = "AddHP" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+					<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+			</Label>
+			<Label Name = "MP" X = "62" Y = "143" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Label Name = "AddMP" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+					<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+			</Label>
+			<Control Name="CharBaseStatus">
+				<Label Name = "Str" X = "62" Y = "179" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+					<Label Name = "AddValue" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+						<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+					</Label>
+					<Button Name = "Up_Button" X = "95" Y = "1" BasePng = "4354" HighlightPng = "4355" PushPng = "4356;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+					<Button Name = "Down_Button" X = "95" Y = "1" BasePng = "4351" HighlightPng = "4352" PushPng = "4353;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+				<Label Name = "Dex" X = "62" Y = "193" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="13">
+					<Label Name = "AddValue" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+						<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+					</Label>
+					<Button Name = "Up_Button" X = "95" Y = "1" BasePng = "4354" HighlightPng = "4355" PushPng = "4356;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+					<Button Name = "Down_Button" X = "95" Y = "1" BasePng = "4351" HighlightPng = "4352" PushPng = "4353;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+				<Label Name = "Con" X = "62" Y = "207" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="15">
+					<Label Name = "AddValue" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+						<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+					</Label>
+					<Button Name = "Up_Button" X = "95" Y = "1" BasePng = "4354" HighlightPng = "4355" PushPng = "4356;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+					<Button Name = "Down_Button" X = "95" Y = "1" BasePng = "4351" HighlightPng = "4352" PushPng = "4353;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+				<Label Name = "Int" X = "62" Y = "221" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="12">
+					<Label Name = "AddValue" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+						<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+					</Label>
+					<Button Name = "Up_Button" X = "95" Y = "1" BasePng = "4354" HighlightPng = "4355" PushPng = "4356;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+					<Button Name = "Down_Button" X = "95" Y = "1" BasePng = "4351" HighlightPng = "4352" PushPng = "4353;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+				<Label Name = "Wis" X = "62" Y = "235" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="14">
+					<Label Name = "AddValue" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+						<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+					</Label>
+					<Button Name = "Up_Button" X = "95" Y = "1" BasePng = "4354" HighlightPng = "4355" PushPng = "4356;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+					<Button Name = "Down_Button" X = "95" Y = "1" BasePng = "4351" HighlightPng = "4352" PushPng = "4353;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+				<Label Name = "Cha" X = "62" Y = "249" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="26">
+					<Label Name = "AddValue" X = "47" Width = "42" Height = "12" HAlign="center" VAlign="middle" Caption="11">
+						<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+					</Label>
+					<Button Name = "Up_Button" X = "95" Y = "1" BasePng = "4354" HighlightPng = "4355" PushPng = "4356;1" DisablePng = "10907" PushSound = "6534" MouseEvent = "StatPointUP"/>
+					<Button Name = "Down_Button" X = "95" Y = "1" BasePng = "4351" HighlightPng = "4352" PushPng = "4353;1" PushSound = "6534" MouseEvent = "StatPointDown"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="13" HAlign="center" OpacityRate = "25"/>
+				</Label>
+			</Control>
+			<Label Name = "Elixir" X = "46" Y = "272" Width = "38" Height = "12" HAlign = "center" VAlign = "middle" Caption = "0">
+				<Tooltip Name = "Desc_Tooltip" String="4500" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "PkCount" X = "115" Y = "272" Width = "38" Height = "12" HAlign="center" VAlign="middle" Caption="0">
+				<Tooltip Name = "Desc_Tooltip" String="4501" OpacityRate = "25"/>
+			</Label>
+		</Control>
+		<Control Name="Info2_Control">
+			<Label Name = "Ability_Hit" X = "62" Y = "144" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Ability_Resist" X = "109" Y = "144" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Spirit_Hit" X = "62" Y = "158" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Spirit_Resist" X = "109" Y = "158" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "DragonSpell_Hit" X = "62" Y = "172" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "DragonSpell_Resist" X = "109" Y = "172" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Fear_Hit" X = "62" Y = "186" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "Fear_Resist" X = "109" Y = "186" Width = "42" Height = "12" HAlign="center" VAlign="middle">
+				<Tooltip Name="Desc_Tooltip" X="40" Y="13" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "EarthResist" X = "43" Y = "224" Width = "40" Height = "12" HAlign="center" VAlign="middle" Caption="7">
+				<Tooltip Name = "Desc_Tooltip" String="4163" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "FireResist" X = "115" Y = "224" Width = "40" Height = "12" HAlign="center" VAlign="middle" Caption="8">
+				<Tooltip Name = "Desc_Tooltip" String="4164" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "WaterResist" X = "43" Y = "238" Width = "40" Height = "12" HAlign="center" VAlign="middle" Caption="9">
+				<Tooltip Name = "Desc_Tooltip" String="4166" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "WindResist" X = "115" Y = "238" Width = "40" Height = "12" HAlign="center" VAlign="middle" Caption="10">
+				<Tooltip Name = "Desc_Tooltip" String="4165" HAlign="center" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "DG" X = "47" Y = "274" Width = "20" Height = "12" Align="center" Caption="0">
+				<Tooltip Name = "Desc_Tooltip" String="4502" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "ER" X = "88" Y = "274" Width = "20" Height = "12" Align="center" Caption="0">
+				<Tooltip Name = "Desc_Tooltip" String="4503" OpacityRate = "25"/>
+			</Label>
+			<Label Name = "ME" X = "133" Y = "274" Width = "20" Height = "12" Align="center" Caption="0">
+				<Tooltip Name = "Desc_Tooltip" String="4504" OpacityRate = "25"/>
+			</Label>
+		</Control>
+		<CheckButton Name = "StatusBonus_Button" X = "51" Y = "296" BasePng = "4318" OverPng = "4319" PushPng = "4320;1" MouseEvent="ShowStatInfoTooltip"/>
+		<List Name = "Maintab_List" X = "15" Y = "318" Width = "149" Height = "22" Horizontal = "1">
+			<RadioButton Name = "EquipTab_Button" BaseSurf = "5366" PushSurf = "5366" DisableSurf = "5367" MouseEvent = "ChangeTab">
+			  <Tooltip Name = "Desc_Tooltip" String="882" Area="0" Top="0" X = "1" Y = "20" OpacityRate = "25"/>
+			</RadioButton>
+			<RadioButton Name = "StatusTab_Button" BaseSurf = "5368" PushSurf = "5368" DisableSurf = "5369" MouseEvent = "ChangeTab">
+			  <Tooltip Name = "Desc_Tooltip" String="883" Area="0" Top="0" X = "1" Y = "20" OpacityRate = "25"/>
+			</RadioButton>
+		</List>
+	</Window>
+</EquipNStatusUI>

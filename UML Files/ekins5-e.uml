@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エキンス</name>
+    <job>[Growth Wizard]</job>
+  </npc>
+  <dialog>
+	<p>
+<font fg="ffaaff"> ユニコーンの成長の証</font>、<font fg="ffaaff">成長の玉の欠片</font>か、<font fg="ffaaff">成長の玉</font>をお持ちではないようですね。
+<br/>もう一度確認してみてください。
+</p>
+  </dialog>
+</npcdialog>

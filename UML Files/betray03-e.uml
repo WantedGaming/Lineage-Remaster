@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>揺らぐ者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 殺せ！引き裂け！踏み潰せ！<br/>
+		 カヘル ヤヒ様の機嫌を損ねたあの「純潔なる血痕」たちを倒すのだ！<br/>		<br/>
+
+		 貴様の忠誠心を、カヘル ヤヒ様に示すのだ！<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

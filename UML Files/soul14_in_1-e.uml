@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+	
+		<p>古代の精霊言語で書かれています。<br/></p>
+
+		<p><font fg="ffffaf">* 古代精霊の墓</font><br/></p>
+		<p><a action="a">[入口]</a><a action="b">[中央]</a><br/><br/></p>
+
+		<p><font fg="ffffaf">* 象牙の塔：ヤヒ陣営</font><br/></p>
+		<p><a action="c">[4階]</a><a action="d">[5階]</a><a action="e">[6階]</a><a action="f">[7階]</a><br/><br/></p>
+
+		<p><font fg="ffffaf">* 冷寒のダンジョン(PC)</font><br/></p>
+		<p><a action="g">[入場]</a><br/><br/></p>
+
+		<p>解析：特別な場所にいる者…神聖な場所へと案内してあ…</p>
+
+				
+	</dialog>
+
+</npcdialog>

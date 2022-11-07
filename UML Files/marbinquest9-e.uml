@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[Growth Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 寒い、寒い…。<br/>
+		<br/>
+		 あっ、勇士様、本当にお久しぶりですね。<br/>
+		<br/>
+		 前にお手伝いいただいたおかげで、酷寒の怒りを静める方法を見つけることができました。<br/>
+		 <br/>
+		 あとはブラッド様の調査結果を待つのみです。<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

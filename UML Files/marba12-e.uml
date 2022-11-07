@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		そいつを直したいなら、遠征隊員のブレイサーとブルークリスタル5個、ホワイトクリスタル5個、バイオレットクリスタル5個、汚れたエントの表皮3枚、そしてミスリルの糸10束が必要だ。そうすれば君が使いやすいようにグローブを直してあげよう。
+		<br/>
+		<br/>
+		<a action="4">グローブを直してください</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+英雄のリングか。<br/>
+お前からは神秘の力を感じる。しかしここは聖域だ。<br/>
+長居は禁物だ。すまんな。
+</p>
+  </dialog>
+</npcdialog>

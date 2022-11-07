@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>タラス</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>象牙の塔では長きに渡りデーモンを封印してきた。しかし、その封印の力が弱まっており、より強い封印が必要となった。封印にはアンデッドの骨の一部が必要なのじゃが、問題は現時点で象牙の塔にアンデッドの骨がないことなんじゃ。ディカルデン公爵が協力しにいらしてくださったが、いまだ明確な方法を見いだせておらん。お前が持っている神秘のスタッフを見るに、誰が作ったかは知らんが欠陥があるようじゃ。もしお前がアンデッドの骨の一部を持ってきてくれるなら、その神秘のスタッフに魔法をかけて直してやろう。</p>
+		<p><br/></p>
+		<p><br/></p>
+		<p><a action="request crystal staff">アンデッドのボーンピースを渡す</a><br/></p>
+		<p><img src="331" link="talassE1"/></p>
+
+	</dialog>
+
+</npcdialog>

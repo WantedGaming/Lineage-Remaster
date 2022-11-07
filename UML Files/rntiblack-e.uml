@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><var src="name"/>：</font><br/></p>
+	<p>偉大なる<font fg="ffffaf">ケンラウヘル</font>国王に栄光あれ！<br/><br/></p>
+	<p>反乱者は誰なのか考えてみてください。<br/><br/></p>
+	<p>現在、天下はケンラウヘル国王のものです。<br/><br/></p>
+	<p>それを妬んでいるのはまさにあなたたち。<br/><br/></p>
+	<p><font fg="ffffaf">赤き騎士団</font>ではないでしょうか？<br/><br/></p>
+	<p>今すぐにでも武器を下ろすべきです。</p>
+  </dialog>
+</npcdialog>

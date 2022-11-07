@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>Keplisha</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>パプリオンに出くわしてほうほうの体で逃げ出すが、今度はシーダンサー100体に出くわすでしょう。絶体絶命のピンチです。<br/><br/></p>
+	<p>今日は死の影がつきまとう一日です。油断一秒怪我一生です。村でゆっくり休むのがいいでしょう。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

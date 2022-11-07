@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extract 20 Black Magic Stones from Saiha's Legacy.<br/></p>
+    <p>How many Saiha's Legacy do you extract the magical stone? 1,000 Adena is required per piece, as there is a lot of work involved in extracting the materials.<br/><br/><br/></p>
+    <p><a action="p">1</a><br/></p>
+    <p><a action="q">10</a><br/></p>
+    <p><a action="r">50</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy6"/><br/></p>
+  </dialog>
+</npcdialog>

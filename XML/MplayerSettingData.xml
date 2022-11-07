@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MplayerSettingData>
+	<!-- id : match lin.bin	-->
+	<!-- enabled : 1 = use, 0 = not use	-->
+	<!-- title : alarm title in string.tbl if not exist, set default	-->
+	<!-- body : alarm message in string.tbl	-->
+	<!-- comment : just display -->
+	<Data id="0" enabled="1" title="6870" body="6871" comment="PSS"/>
+	<Data id="1" enabled="1" body="6872" comment="Level up" />
+	<Data id="2" enabled="1" body="6873" comment="Get item">
+			<!-- Weapon_chainsword -->
+		<Item nameid="13806"/>
+		<Item nameid="25981"/>	<!-- rev -->
+			<!-- Armour_helm -->
+		<Item nameid="980"/>
+		<Item nameid="981"/>
+		<Item nameid="982"/>
+		<Item nameid="983"/>
+		<Item nameid="13807"/>
+		<Item nameid="26019"/>	<!-- rev -->
+			<!-- Armour_robe -->
+		<Item nameid="978"/>
+			<!-- Armour_cloak -->
+		<Item nameid="16431"/>
+		<Item nameid="16438"/>
+			<!-- Armour_gloves -->
+		<Item nameid="545" />
+		<Item nameid="26014"/>	<!-- rev -->
+		<Item nameid="16430"/>
+		<Item nameid="16437"/>
+			<!-- Armour_boots -->
+		<Item nameid="979"/>
+		<Item nameid="26027"/>	<!-- rev -->
+		<Item nameid="16429"/>
+		<Item nameid="16436"/>
+			<!-- Armour_shield -->
+		<Item nameid="12856"/>
+		<Item nameid="26010"/>	<!-- rev -->
+			<!-- Armour_pants -->
+		<Item nameid="15812"/>
+		<Item nameid="16428"/>
+		<Item nameid="16435"/>
+			<!-- Accessory_earring -->
+		<Item nameid="17787"/>
+		<Item nameid="17788"/>
+		<Item nameid="17789"/>
+		<Item nameid="17790"/>
+			<!-- Accessory_amulet -->
+		<Item nameid="14986"/>
+		<Item nameid="15099"/>
+		<Item nameid="15288"/>
+		<Item nameid="26062"/>	<!-- rev -->
+		<Item nameid="26063"/>	<!-- rev -->
+		<Item nameid="26064"/>	<!-- rev -->
+			<!-- Accessory_ring -->
+		<Item nameid="64"/>
+		<Item nameid="65"/>
+		<Item nameid="17734"/>
+		<Item nameid="26081"/>	<!-- rev -->
+			<!-- Accessory_belt -->
+		<Item nameid="16437"/>
+		<Item nameid="16665"/>
+		<Item nameid="26078"/>	<!-- rev -->
+			<!-- Merchandise_potion -->
+		<Item nameid="14092"/>
+		<Item nameid="27346"/>		
+			<!-- Merchandise_dragon heart -->
+		<Item nameid="733"/>
+		<Item nameid="1017"/>
+		<Item nameid="1025"/>
+		<Item nameid="1033"/>
+		<Item nameid="1041"/>
+		<Item nameid="26103"/>	<!-- rev -->
+		<Item nameid="26114"/>	<!-- rev -->
+		<Item nameid="26115"/>	<!-- rev -->
+		<Item nameid="26116"/>	<!-- rev -->
+		<Item nameid="26117"/>	<!-- rev -->
+			<!-- Merchandise_item material -->
+		<Item nameid="250"/>
+		<Item nameid="15149"/>
+		<Item nameid="15150"/>
+			<!-- Merchandise_dragon scales -->
+		<Item nameid="407"/>
+		<Item nameid="408"/>
+		<Item nameid="409"/>
+		<Item nameid="410"/>
+			<!-- Merchandise_oman tower -->
+		<Item nameid="12168"/>
+		<Item nameid="808"/>
+		<Item nameid="809"/>
+		<Item nameid="810"/>
+		<Item nameid="811"/>
+		<Item nameid="945"/>
+		<Item nameid="946"/>
+		<Item nameid="947"/>
+		<Item nameid="948"/>
+		<Item nameid="949"/>
+		<Item nameid="26104"/>	<!-- rev -->
+		<Item nameid="26105"/>	<!-- rev -->
+		<Item nameid="26106"/>	<!-- rev -->
+		<Item nameid="26107"/>	<!-- rev -->
+		<Item nameid="26108"/>	<!-- rev -->
+		<Item nameid="26109"/>	<!-- rev -->
+		<Item nameid="26110"/>	<!-- rev -->
+		<Item nameid="26111"/>	<!-- rev -->
+		<Item nameid="26112"/>	<!-- rev -->
+		<Item nameid="26113"/>	<!-- rev -->
+			<!-- prince spells -->
+		<Item nameid="25958"/>	<!-- rev -->
+		<Item nameid="26242"/>
+		<Item nameid="26486"/>
+			<!-- knight spells -->
+		<Item nameid="25662"/>
+			<!-- elf spells -->
+		<Item nameid="2430"/>
+		<Item nameid="2433"/>
+		<Item nameid="2434"/>
+		<Item nameid="17808"/>
+		<Item nameid="25946"/>	<!-- rev -->
+		<Item nameid="25953"/>	<!-- rev -->
+			<!-- wizard spells -->
+		<Item nameid="221"/>
+		<Item nameid="225"/>
+		<Item nameid="16775"/>
+		<Item nameid="25949"/> <!-- rev -->
+			<!-- darkelf spells -->
+			<!-- dragonk spells -->
+		<Item nameid="26401"/>
+			<!-- illusionist spells -->
+		<Item nameid="26402"/>
+		<Item nameid="26403"/>
+			<!-- warrior spells -->
+		<Item nameid="15126"/>
+		<Item nameid="25950"/>	<!-- rev -->
+			<!-- fencer spells -->
+		<Item nameid="27180"/>
+		<Item nameid="25963"/>	<!-- rev -->
+		<Item nameid="27170"/>
+		<Item nameid="25962"/>	<!-- rev -->
+		<Item nameid="27175"/>
+		<Item nameid="27176"/>
+			<!-- fishing -->
+		<Item nameid="16076"/>
+		<Item nameid="15015"/>
+		<Item nameid="15017"/>
+	</Data>
+	<Data id="3" enabled="1" body="6874" comment="Die" />
+	<Data id="4" enabled="1" body="6875" comment="Sell item" />
+	<Data id="5" enabled="1" body="6876" comment="Update rank" />	
+	<Data id="6" enabled="1" body="7027" comment="Connect Server" />
+	<Data id="7" enabled="1" body="7074" comment="Quit Fishing" />
+
+</MplayerSettingData>

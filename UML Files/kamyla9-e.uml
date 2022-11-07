@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+フランコには会えましたか？<br/><br/>
+彼はなぜ私を…ドレイクをも騙して裏切ったのか…聞いたとおりに私に話してください。<br/><br/>
+<a action="c">説明し、設計図を見せる</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

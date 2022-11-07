@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>商人</title>
+	<npc>
+		<portrait>PO_008</portrait>
+		<name>マルコ</name>
+		<job>釣り場商人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 いらっしゃい。成長の釣り竿の話を聞いてきたのか。ハハハ。<br/>
+		 ほーらウマそうな<font fg="ffaaff">エサ</font>、魚たちも大好きなんだ。今度は大物を釣り上げられるだろ。<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Button">
+			<button action="buy"/>
+			<button action="sell"/>
+		</panel>
+		<p><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

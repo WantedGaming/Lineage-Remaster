@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>デニス</name>
+  </npc>
+  <dialog>
+    <p>ゲラド様は世界で一番強い騎士なんだよ！前にオーク ファイターと戦って勝ったのだって見たんだから！あんたなんか、オークを見ただけでビビっちゃうんじゃないの？</p>
+  </dialog>
+</npcdialog>

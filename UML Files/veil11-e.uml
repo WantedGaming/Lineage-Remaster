@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p>ポケットに<font fg="fff00">100Adena</font>もないとは…もう一度ドラゴン征伐の準備ができたのか自らを振り返ってみろ。</p>
+  </dialog>
+</npcdialog>

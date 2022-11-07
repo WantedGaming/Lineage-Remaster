@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ピアト</name>
+  </npc>
+  <dialog>
+	<p>ヤヌス様より象牙の塔：ヤヒ陣営に移動する方法を教えて頂いたので無料で移動できるようにしています。</p>
+	<p><a action="R">象牙の塔：ヤヒ陣営4階</a></p>
+	<p><a action="S">象牙の塔：ヤヒ陣営5階</a></p>
+	<p><a action="T">象牙の塔：ヤヒ陣営6階</a></p>
+	<p><a action="U">象牙の塔：ヤヒ陣営7階</a></p>
+	<p>もしくは、地上に行かれますか？</p>
+	<p><a action="B">ギラン城下町に送ってください</a></p>
+	<p><a action="V">デポロジューのところに送ってください</a></p>
+	<p><a link="pctel4">他の村に行きたいです</a></p>
+  </dialog>
+</npcdialog>

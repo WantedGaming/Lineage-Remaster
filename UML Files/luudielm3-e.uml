@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルーディエル</name>
+  </npc>
+  <dialog>
+	<p>あなたは誰ですか。</p> 
+	<p>人間…ですか。ちがうかな…</p> 
+	<p>それはそうとして、私の作ったエルヴン ワッフルはエルフでなければ消化できないんですよ。</p> 
+	<p>おそらくあなたにも無理でしょうね。</p>
+  </dialog>
+</npcdialog>

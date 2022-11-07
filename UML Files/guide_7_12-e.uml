@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 船の墓場は水面、船内、深海の3つの区域に分かれていて、深海の区域へ入場するとHPが徐々に減ります。
+		 なので、水属性で息ができるエヴァの祝福を必ずお持ちください。麻痺や毒の状態異常をかけるモンスターも多いので
+		 シアン ポーションやエントの枝もたくさん準備しましょう。
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

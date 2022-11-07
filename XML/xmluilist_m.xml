@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<uilist>
+	<file name="MainCharInfoUI.xml"/>
+	<file name="MiniMapUI_M.xml" load="true"/>
+	<file name="WidgetSubSlot.xml" load="true"/>
+	<file name="WidgetSlot.xml" load="true"/>
+	<file name="CampaignUI.xml" load="true"/>
+	<file name="ChatUI.xml" load="true"/>
+	<file name="MainButtonUI.xml" load="true"/>
+	<file name="CraftUI.xml" />
+	<file name="QuickMotionUI.xml" />
+	<file name="SiegeUI.xml"/>
+	<file name="ArcaManageUI.xml"/>
+	<file name="AttendanceUI.xml"/>
+	<file name="SpellUI_M.xml" />
+	<file name="BehaviourUI.xml"/>	
+	<file name="AgitAuctionUI.xml"/>
+	<file name="PetSummonUI.xml"/>
+	<file name="PromoteDollUI.xml" load="true"/>
+	<file name="TimerUI.xml"/>
+	<file name="RoundScoreUI.xml"/>	
+	<file name="PartyUI.xml"/>
+	<file name="MapUI.xml"/>
+	<file name="TmpInvUI.xml"/>
+	<file name="InterSvrEvent.xml"/>
+	<file name="LoadingWindow.xml"/>
+	<file name="HuntingInfoUI.xml"/>
+	<file name="LaLaMapMsgUI.xml"/>
+	<file name="ExchangeUI.xml"/>
+	<file name="ThebeRankUI.xml"/>
+	<file name="MGPuzzleUI.xml"/>
+	<file name="MGMainUI.xml"/>
+	<file name="PetStatus.xml"/>
+	<file name="PetInvUI.xml"/>
+	<file name="HighRankUI.xml"/>
+    <file name="HpMpBar_M.xml"/>
+	<file name="VirtualPad_M.xml"/>
+	<file name="MainButton_M.xml"/>
+	<file name="SlotUI_M.xml"/>
+	<file name="OptionUI_M.xml"/>
+	<file name="InventoryUI_M.xml"/>
+  <file name="LoginUI_M.xml"/>
+  <file name="SelectUISlot_M.xml"/>
+  <file name="SelectUI_M.xml"/>
+</uilist>

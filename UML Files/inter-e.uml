@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>インター</name>
+		<job>[統合倉庫番]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		俺はインターだ。
+		<br/><br/></p>
+     <panel type="Panel_Storage_Button">
+       <button action="deposit" />
+       <button action="retrieve" />
+     </panel>
+		<br/>
+		<p>
+		 品物を預かる俺たち「鋼鉄のギルド」は長い歴史を持つ組織だ。
+		 何でも預けてくれ。<br/>
+		 そうだ、ここでは血盟倉庫が利用できない。
+		<br/>
+		 料金は荷物ひとつあたり100Adena、支払いは荷物を引き取るときだよ。
+		
+		<br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

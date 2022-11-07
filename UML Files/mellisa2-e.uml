@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>メリサ</name>
+		<job>[商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		申し訳ありませんが、他のお店をあたって下さい。
+		</p>
+	</dialog>
+</npcdialog>

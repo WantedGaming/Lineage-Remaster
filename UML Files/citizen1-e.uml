@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 ああ…戦争が終わって良かったです。<br/>
+		 南の村でお祭りが開かれているようですが、一緒に見に行きませんか？<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

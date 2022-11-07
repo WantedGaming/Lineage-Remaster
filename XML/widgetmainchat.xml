@@ -1,0 +1,580 @@
+<?xml version="1.0"?>
+<MainChatWidget Name="MainChat">
+
+<Control Name="ChatWindows" X="0" Y="0" Width="380" Height="120">
+	<Control Name="ConfirmWin" X="6" Y="58" Activate="0">
+		<MultiLabel Name="ConfirmMsg" X="10" Y="8" Caption="" Width = "330" Height="26" VAlign="top"/>
+		<Button Name="YesButton" X="280" Y="20" Width="25" Height="13" MouseEvent="ConfirmYes" Activate="1" >
+			<Label Name="Text_Label" X="0" Y="0" Caption="YES" FontColor="128,128,0" HighlightColor="255,255,0" />
+		</Button>
+		<Button Name="NoButton" X="320" Y="20" Width="25" Height="13" MouseEvent="ConfirmNo" Activate="1" >
+			<Label Name="Text_Label" X="0" Y="0" Caption="NO" FontColor="128,128,0" HighlightColor="255,255,0" />
+		</Button>
+		<Image Name="ConfirmBack" X="0" Y="0" Surf="8356"/>
+	</Control>
+	<Control Name="InputChannels" X="5" Y="97" Activate="0">
+		<RadioButton Name="InputCh_Normal" X="0" Y="0" BaseSurf="8300" OverSurf="8301" PushSurf="8301" MouseEvent="SelectInputChannel"/>
+		<RadioButton Name="InputCh_All" X="0" Y="-20" BaseSurf="8302" OverSurf="8303" PushSurf="8303" MouseEvent="SelectInputChannel"/>
+		<RadioButton Name="InputCh_Party" X="0" Y="-40" BaseSurf="8304" OverSurf="8305" PushSurf="8305" MouseEvent="SelectInputChannel"/>
+		<RadioButton Name="InputCh_Pledge" X="0" Y="-60" BaseSurf="8306" OverSurf="8307" PushSurf="8307" MouseEvent="SelectInputChannel"/>
+		<RadioButton Name="InputCh_Class" X="0" Y="-80" BaseSurf="8308" OverSurf="8309" PushSurf="8309" MouseEvent="SelectInputChannel"/>
+	 </Control>
+			
+			
+			
+	 <Window Name="ChatType1" X="0" Y="0" Activate="1" BaseSurf="8345;1">
+		<Control Name="Channels" X="0" Y="0">
+			 <RadioButton Name="Channel_Total" X="28" Y="4" BaseSurf="8354" PushSurf="8355" OverSurf="8355" MouseEvent="ClickChannel">
+				 <Window Name="ChannelSettingWindow" X="-33" Y="-150" Activate="0" BaseSurf="8318;3" FrameSurf="8340;1" MouseEvent="Dummy">
+					<CheckButton Name="Channel_normal" X="9" Y="27" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_whisper" X="9" Y="41" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_all" X="9" Y="55" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_party" X="9" Y="69" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_pledge" X="9" Y="83" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_class" X="9" Y="97" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_system" X="9" Y="111" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+				</Window>
+			</RadioButton>
+			 <RadioButton Name="Channel_All" X="82" Y="4" BaseSurf="8336" PushSurf="8337" OverSurf="8337" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4305" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Party" X="136" Y="4" BaseSurf="8357" PushSurf="8358" OverSurf="8358" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4306" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Pledge" X="190" Y="4" BaseSurf="8361" PushSurf="8362" OverSurf="8362" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4307" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Class" X="244" Y="4" BaseSurf="8351" PushSurf="8352" OverSurf="8352" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4308" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_System" X="298" Y="4" BaseSurf="8329" PushSurf="8330" OverSurf="8330" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+			 </RadioButton>
+		</Control>	 
+		
+		<Control Name="ChatView" X="0" Y="0">
+			<MultiLabel Name="ChatLabel" X="10" Y="24" Width="350" Height="72" HAlign="left" VAlign="bottom" Activate="0"/>
+		</Control>
+
+		 <Button Name="InputChannel" X="5" Y="97" BaseSurf="8300" OverSurf="8301" PushSurf="8301" MouseEvent="ClickInputChannel"/>
+		 <Button Name="LangIndicator" X="49" Y="98" Width="17" Height="18" BaseSurf="8332" OverSurf="8332" PushSurf="8333"/>
+		 <Control Name="TextField" X="49" Y="97" Width="306" Height="18" MouseEvent="MainLineClick"/>
+		 <Button Name="ChatSizeUp" X="355" Y="98" BaseSurf="8343" OverSurf="8342" PushSurf="8342" MouseEvent="ChangeSize"/>
+		 
+		<ScrollBar Name="ScrollBarType1" X="356" Y="7" ScrollStart="16" ScrollHeight="58" Vertical="1"  MaxValue="144">
+			<Image Name="Background_Image" X="0" Y="16" Surf="8323;3"/>
+			<Button Name="Up_Button" X="0" Y="0" BaseSurf="8327;1" OverSurf="8328;1" PushSurf="8328;1" />
+			<Button Name="Down_Button" X="0" Y="74" BaseSurf="8325;1" OverSurf="8326;1" PushSurf="8326;1" />
+			<Button Name="Move_Button" X="0" Y="16" BaseSurf="8322;1" OverSurf="8315;1" PushSurf="8315;1" />
+		</ScrollBar>
+	 </Window>
+	 
+	 
+	 
+	 <Window Name="ChatType2" X="0" Y="-36" Activate="0" BaseSurf="8310;1"> <!--Base,FrameSurf change -->
+		 <Control Name="Channels" X="0" Y="0">
+			 <RadioButton Name="Channel_Total" X="28" Y="4" BaseSurf="8354" PushSurf="8355" OverSurf="8355" MouseEvent="ClickChannel">
+				<Window Name="ChannelSettingWindow" X="-33" Y="-150" Activate="0" BaseSurf="8318;3" FrameSurf="8340;1" MouseEvent="Dummy">
+					<CheckButton Name="Channel_normal" X="9" Y="27" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_whisper" X="9" Y="41" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_all" X="9" Y="55" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_party" X="9" Y="69" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_pledge" X="9" Y="83" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_class" X="9" Y="97" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_system" X="9" Y="111" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+				</Window>
+			 </RadioButton>
+			 <RadioButton Name="Channel_All" X="82" Y="4" BaseSurf="8336" PushSurf="8337" OverSurf="8337" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4305" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Party" X="136" Y="4" BaseSurf="8357" PushSurf="8358" OverSurf="8358" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4306" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Pledge" X="190" Y="4" BaseSurf="8361" PushSurf="8362" OverSurf="8362" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4307" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Class" X="244" Y="4" BaseSurf="8351" PushSurf="8352" OverSurf="8352" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4308" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_System" X="298" Y="4" BaseSurf="8329" PushSurf="8330" OverSurf="8330" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+			 </RadioButton>
+		</Control>
+		
+		 <Control Name="ChatView" X="0" Y="0">
+			<MultiLabel Name="ChatLabel" X="10" Y="24" Width="350" Height="108" HAlign="left" VAlign="bottom" Activate="0"/>
+		 </Control>
+		 
+		 <Button Name="InputChannel" X="5" Y="133" BaseSurf="8300" OverSurf="8301" PushSurf="8301" MouseEvent="ClickInputChannel"/>
+		 <Button Name="LangIndicator" X="49" Y="134" Width="17" Height="18" BaseSurf="8332" OverSurf="8332" PushSurf="8332"/>
+		 <Control Name="TextField" X="49" Y="133" Width="306" Height="18" MouseEvent="MainLineClick"/>
+		 <Button Name="ChatSizeUp" X="355" Y="134" BaseSurf="8343" OverSurf="8342" PushSurf="8342;1" MouseEvent="ChangeSize"/>
+
+		 <ScrollBar Name="ScrollBarType2" X="356" Y="7" ScrollStart="16" ScrollHeight="94" Vertical="1"  MaxValue="141">
+			<Image Name="Background_Image" X="0" Y="16" Surf="8314;3"/>										<!--scroll base-->
+			<Button Name="Up_Button" X="0" Y="0" BaseSurf="8327;1" OverSurf="8328;1" PushSurf="8328;1" />
+			<Button Name="Down_Button" X="0" Y="110" BaseSurf="8325;1" OverSurf="8326;1" PushSurf="8326;1" />
+			<Button Name="Move_Button" X="0" Y="16" BaseSurf="8322;1" OverSurf="8315;1" PushSurf="8315;1"  />
+		</ScrollBar>
+	</Window>
+	
+	
+	
+	 <Window Name="ChatType3" X="0" Y="-72" Activate="0" BaseSurf="8334;1">  <!--Base,FrameSurf change-->
+		<Control Name="Channels" X="0" Y="0">
+			 <RadioButton Name="Channel_Total" X="28" Y="4" BaseSurf="8354" PushSurf="8355" OverSurf="8355" MouseEvent="ClickChannel">
+				<Window Name="ChannelSettingWindow" X="-33" Y="-150" Activate="0" BaseSurf="8318;3" FrameSurf="8340;1" MouseEvent="Dummy">
+					<CheckButton Name="Channel_normal" X="9" Y="27" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_whisper" X="9" Y="41" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_all" X="9" Y="55" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_party" X="9" Y="69" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_pledge" X="9" Y="83" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_class" X="9" Y="97" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_system" X="9" Y="111" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+				</Window>
+			 </RadioButton>
+			 <RadioButton Name="Channel_All" X="82" Y="4" BaseSurf="8336" PushSurf="8337" OverSurf="8337" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4305" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Party" X="136" Y="4" BaseSurf="8357" PushSurf="8358" OverSurf="8358" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4306" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Pledge" X="190" Y="4" BaseSurf="8361" PushSurf="8362" OverSurf="8362" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4307" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Class" X="244" Y="4" BaseSurf="8351" PushSurf="8352" OverSurf="8352" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4308" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_System" X="298" Y="4" BaseSurf="8329" PushSurf="8330" OverSurf="8330" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+			 </RadioButton>
+		</Control>
+	 
+	 <Control Name="ChatView" X="0" Y="0">
+		 <MultiLabel Name="ChatLabel" X="10" Y="24" Width="350" Height="144" HAlign="left" VAlign="bottom" Activate="0"/>
+	 </Control>
+	 
+	 <Button Name="InputChannel" X="5" Y="169" BaseSurf="8300" OverSurf="8301" PushSurf="8301" MouseEvent="ClickInputChannel"/>
+	 <Button Name="LangIndicator" X="49" Y="170" Width="17" Height="18" BaseSurf="8332" OverSurf="8332" PushSurf="8332"/>
+	 <Control Name="TextField" X="49" Y="169" Width="306" Height="18" MouseEvent="MainLineClick"/>
+	 <Button Name="ChatSizeUp" X="355" Y="170" BaseSurf="8343" OverSurf="8342" PushSurf="8342;1" MouseEvent="ChangeSize"/>
+
+	 <ScrollBar Name="ScrollBarType3" X="356" Y="7" ScrollStart="16" ScrollHeight="130" Vertical="1"  MaxValue="138">
+		<Image Name="Background_Image" X="0" Y="16" Surf="8338;3"/>										<!--scrollbase change-->
+		<Button Name="Up_Button" X="0" Y="0" BaseSurf="8327;1" OverSurf="8328;1" PushSurf="8328;1" />
+		<Button Name="Down_Button" X="0" Y="146" BaseSurf="8325;1" OverSurf="8326;1" PushSurf="8326;1" />
+		<Button Name="Move_Button" X="0" Y="16" BaseSurf="8322;1" OverSurf="8315;1" PushSurf="8315;1"  />
+	</ScrollBar>
+	</Window>
+	
+	
+	
+	 <Window Name="ChatType4" X="0" Y="-108" Activate="0" BaseSurf="8347;1">
+		 <Control Name="Channels" X="0" Y="0">
+			 <RadioButton Name="Channel_Total" X="28" Y="4" BaseSurf="8354" PushSurf="8355" OverSurf="8355" MouseEvent="ClickChannel">
+				<Window Name="ChannelSettingWindow" X="-33" Y="-150" Activate="0" BaseSurf="8318;3" FrameSurf="8340;1" MouseEvent="Dummy">
+					<CheckButton Name="Channel_normal" X="9" Y="27" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_whisper" X="9" Y="41" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_all" X="9" Y="55" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_party" X="9" Y="69" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_pledge" X="9" Y="83" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_class" X="9" Y="97" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+					<CheckButton Name="Channel_system" X="9" Y="111" BaseSurf="8320" PushSurf="8319" MouseEvent="SetChannelOption"/>
+				</Window>
+			 </RadioButton>
+			 <RadioButton Name="Channel_All" X="82" Y="4" BaseSurf="8336" PushSurf="8337" OverSurf="8337" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4305" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Party" X="136" Y="4" BaseSurf="8357" PushSurf="8358" OverSurf="8358" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4306" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Pledge" X="190" Y="4" BaseSurf="8361" PushSurf="8362" OverSurf="8362" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4307" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_Class" X="244" Y="4" BaseSurf="8351" PushSurf="8352" OverSurf="8352" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+				<Tooltip Name="Desc_Tooltip" X="1" Y="0" BackColor="0,0,0" String="4308" Time="700"/>
+			 </RadioButton>
+			 <RadioButton Name="Channel_System" X="298" Y="4" BaseSurf="8329" PushSurf="8330" OverSurf="8330" MouseEvent="ClickChannel">
+				<Window Name="ColorSettingWindow" X="-33" Y="-50" Activate="0" BaseSurf="8316;3" FrameSurf="8360;1" MouseEvent="Dummy">
+					<RadioButton Name="Color0" X="3" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color1" X="17" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color2" X="31" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color3" X="45" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color4" X="59" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color5" X="73" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color6" X="87" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color7" X="101" Y="3" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color8" X="3" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color9" X="17" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color10" X="31" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color11" X="45" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color12" X="59" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color13" X="73" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color14" X="87" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+					<RadioButton Name="Color15" X="101" Y="16" PushSurf="8317;4" Activate ="1" MouseEvent="ChangeColor"/>
+				</Window>
+			</RadioButton>
+		</Control>
+		 
+		 <Control Name="ChatView" X="0" Y="0">
+			<MultiLabel Name="ChatLabel" X="10" Y="24" Width="350" Height="180" HAlign="left" VAlign="bottom" Activate="0"/>
+		 </Control>
+		 
+		 <Button Name="InputChannel" X="5" Y="205" BaseSurf="8300" OverSurf="8301" PushSurf="8301" MouseEvent="ClickInputChannel"/>
+		 <Button Name="LangIndicator" X="49" Y="206" Width="17" Height="18" BaseSurf="8332" OverSurf="8332" PushSurf="8332"/>
+		 <Control Name="TextField" X="49" Y="205" Width="306" Height="18" MouseEvent="MainLineClick"/>
+		 <Button Name="ChatSizeUp" X="355" Y="206" BaseSurf="8312" OverSurf="8313" PushSurf="8313;1" MouseEvent="ChangeSize"/> <!--Be Down Image-->
+
+		 <ScrollBar Name="ScrollBarType4" X="356" Y="7" ScrollStart="16" ScrollHeight="166" Vertical="1"   MaxValue="135">
+			<Image Name="Background_Image" X="0" Y="16" Surf="8339;3"/>
+			<Button Name="Up_Button" X="0" Y="0" BaseSurf="8327;1" OverSurf="8328;1" PushSurf="8328;1" />
+			<Button Name="Down_Button" X="0" Y="182" BaseSurf="8325;1" OverSurf="8326;1" PushSurf="8326;1" />
+			<Button Name="Move_Button" X="0" Y="16" BaseSurf="8322;1" OverSurf="8315;1" PushSurf="8315;1"  />
+		</ScrollBar>
+	</Window>
+	 
+</Control> <!--ChatWindows-->
+
+
+	
+
+</MainChatWidget>

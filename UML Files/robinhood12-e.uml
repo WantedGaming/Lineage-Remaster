@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロビンフッド</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>出来た！すごいぞ！私のほっぺたをつねってもらえるかい？まさか夢ではないだろうな？</p>
+		<p>死ぬ前に「ルナ ロング ボウ」がまた見れるなんて！すべては君のおかげだよ。</p>
+		<p>さあ！この弓を受取るがいい。伝説のロング ボウを手にしたのだ、君こそがエルフの伝説のアーチャーとなったのだぞ！	</p>
+	</dialog>
+	
+</npcdialog>
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>失敗したのか。それは残念だな…それはともかく、無事で何よりだ。</p>
+		<p>なーに、チャンスなどまたある。別の手を考えてみようじゃないか。</p>
+		<p><br/><br/></p>
+		<p><a action="w">今すぐ、再生の聖所にもう一度向かいます</a><br/></p>
+	</dialog>
+	
+</npcdialog>

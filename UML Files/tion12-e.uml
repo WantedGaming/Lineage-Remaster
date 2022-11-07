@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>まだ原因を突き止められていないのか？</p>
+		<p>いいだろう。特別にヒントを与えてやる。</p>
+		<p>その昔、水竜パプリオンを封印することに成功したが、そのとき呪われた血が流れ、ハイネの水中生物をモンスターへと変えてしまった。</p>
+		<p>そのうち<font fg="ffffaf">水竜のガーディアン</font>は<font fg="ffffaf">パプリオンの血痕</font>をそのまま取り込まず、結晶体を持っているそうだ。</p>
+		<p>さあ、ヒントはやったぞ。ぐずぐずしないで早く動け！</p>
+	</dialog>
+
+</npcdialog>
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">ヤヒの鍛冶屋：</font><br/><br/></p>
+   <p>ふむ…お前からは俺が望む何かは見えないな。</p>
+   <p>あの忌々しい純潔なる血痕を消し去り、さらには奴らのリーダーであるバルログを倒して、その証として、奴が使っている武器の「アリス」を持ってくるんだ。</p>
+   <p>それだけが、偉大なる指導者カヘル ヤヒ様に忠誠を示さる方法だ！</p>
+  </dialog>
+</npcdialog>

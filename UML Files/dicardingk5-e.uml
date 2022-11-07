@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ご苦労。さすが勇猛なナイトだ。どれ見てみよう。うーん…ふむ…</p>
+		<p><br/></p>
+		<p>やはり…ラスタバド。いや、ダンテスと関連があるのだろうか。これをいかに見るべきか。うーん…</p>
+		<p><br/><br/></p>
+		<p><a link="dicardingk6">勅書について聞く</a><br/></p>
+	</dialog>
+	
+</npcdialog>

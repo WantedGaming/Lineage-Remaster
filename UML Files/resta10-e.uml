@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レスタ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>おうよ、俺の約束だろうがなんだろうが何でもしてやるぜ。もしあんたが望むなら、真っ裸でこの島を一周してやってもいいぞ。</p>
+		<p>俺は約束は守る男だ。もし…いやいや、プフフ、当然探し出せないだろうが、指輪を持って来れなかった時は覚悟したほうがいいぜ？</p>
+		<p>そうだな、指輪を探せなかったら、潔く逃げた方がいいな。そしてこの島には二度と足を踏み入れるんじゃねぇぞ。ふふふ…	</p>
+	</dialog>
+	
+</npcdialog>

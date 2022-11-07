@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+<p>ハーディンは、私たちエルフと親密な関係をもっている。</p>
+<p>ハーディンから魔法の知識を少し学んだ。彼はエルフの森から東方に行くとある洞窟で暮らしている。</p>
+<br/>
+<p><img src="331" link="oth5"/></p>
+</dialog>
+
+</npcdialog>

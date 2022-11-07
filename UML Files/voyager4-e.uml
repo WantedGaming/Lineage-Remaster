@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>\
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p> ふ、船が、沈没し…ほとんどの…船員が、死んで、しまった…<br/>
+    私も…やはり、そのときに…死んでしまったのだろう…航海日誌も、そのときに…<br/>
+		<br/>
+    だが…このままでは、死ねない…私の航海日誌…航海、日誌…<br/>
+		<br/>
+    か、完成…できなくても…私の、人生…であった遺品が、消えてしまう…それだけは、嫌だ…<br/>
+		<br/>
+    その、きみ…私の、頼み…聞いて、くれないか？</p>
+    <p><br/></p>
+    <p><a link="voyager5">どんな頼みですか？</a></p>
+
+  </dialog>
+</npcdialog>

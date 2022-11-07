@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>warehouse</icon> <!-- dialog, shop, enchant, warehouse  -->
+	<title>倉庫</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クード</name>
+		<job>[倉庫番]</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>あの…お客様はまだお荷物を預けられるレベルではありませんね。</p>
+		<p>もうちょっと腕を磨いてからお越しくださいませ。</p>
+	</dialog>
+	
+</npcdialog>

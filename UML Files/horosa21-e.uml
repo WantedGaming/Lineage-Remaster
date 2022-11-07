@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><font fg="ffffaf">今日の運勢です。</font><br/><br/><br/></p>
+    <p>北にはあなたとの新しい縁が待ってます。西には珍しいアイテムがあります。</p>
+    <p>どっちに行っても神の祝福が満ちているので、幸せな一日となるでしょう。</p>
+    <p>ただし、欲張って両方を狙うと、どっちも手に入らない場合もあるので、一番大事だと思うことに集中した方が良いでしょう。<br/><br/><br/></p>
+    <p><a link="keplisha3">占い結果を心に留めておきます</a><br/></p>
+  </dialog>
+</npcdialog>

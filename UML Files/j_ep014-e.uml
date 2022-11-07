@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ヤヒ：</font>
+<br/><br/>
+お前…賢いと言うべきか？…馬鹿だと言うべきか？<br/><br/>
+見れば分かるだろ？<br/><br/>
+<a link="j_ep010">あなたは何者ですか？</a><br/>
+<a link="j_ep011">ハーディンは何をしようとしているのですか？</a><br/>
+<a link="j_ep012">あの方とは誰ですか？</a><br/>
+<a link="j_ep013">「ケレニス」を知っていますか？</a><br/>
+<a link="j_ep015">あなたは何をしようとしていたのですか？</a><br/>
+<a link="j_ep016">あなたはハーディンを知ってますか？</a><br/>
+</p>
+</dialog>
+</npcdialog>

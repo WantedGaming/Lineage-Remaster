@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ウォリアーの技術</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ウォリアーの技術：一般論</font><br/></p>
+	<p><font fg="ffffaf">ウォリアーの技術レベル：</font><br/>
+	ウォリアーの技術は、危機的な瞬間に潜在能力を自動で発動させるタイプと、自分の意志で発動させるタイプに分かれます。<br/>
+	特定の紋様を身体に刻み、技術を習得し、<font fg="afffff">レベル</font>が上がるほど習得できる技術も増加します。<br/>
+	一般的な魔法はナイトと同じく、1段階をすべて習得できます。<font fg="afffff">レベル50</font>以降は、NPC「ホルン」をとおして習得できます。<br/></p>
+	
+	<p><font fg="ffffaf">技術を習う：</font><br/>
+	どこからでも技術の紋様が刻まれた石版を使うことで技術を習得できます。<br/>
+	すべての石版は、決まった場所にいる<font fg="afffff">クエスト関連NPC</font>や<font fg="afffff">モンスター</font>から獲得できます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

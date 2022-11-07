@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シビーレ</name>
+		<job>Merchant</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		
+		<p>こんにちは。シビーレです。<br/></p>
+		<p>ここまでお疲れ様でした。ですが頂上にいる<font fg="fff000">風竜リンドビオル</font>はこれまでとは段違いに強いドラゴンです。<br/></p>
+		<p>やつを相手にするにはいろいろと備えが必要になりますが、ちょうど私がお役に立ちそうなものを持っていますので、必要なものがないか見ていってください。<br/></p>
+		
+	</dialog>
+
+</npcdialog>

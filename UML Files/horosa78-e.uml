@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><font fg="ffffaf">今日の運勢です。</font><br/><br/><br/></p>
+    <p>「やればできる」、「うまくいく」と信じる心が奇跡を呼ぶこともあります。</p>
+    <p>今日の運勢がそれを証明してくれます。</p>
+    <p>マンネリを打破して夢を大きく抱けば、思った通りの成果が出るでしょう。<br/><br/><br/></p>
+    <p><a link="keplisha3">占い結果を心に留めておきます</a><br/></p>
+  </dialog>
+</npcdialog>

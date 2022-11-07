@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title>Warehouse</title>
+	<npc>
+		<portrait></portrait>
+		<name>エクセロン</name>
+		<job>Sokoban</job>
+		<text></text>
+	</npc>
+	<dialog>
+		 <panel type="Panel_Storage_Button">
+			<Button action="deposit"/>
+			<Button action="retrieve"/>
+			<Button action="deposit-pledge"/>
+			<Button action="retrieve-pledge"/>
+			<Button action="deposit-char"/>
+			<Button action="retrieve-char"/>
+		</panel>
+		<p><br/>
+		 We "Steel Guild" take care of your items.  We have a long history of taking care of goods.
+		 Depoist items for safe keeping.<br/>
+		 <br/>
+		<br/>
+		 The cost is per item and is required when withdrawing the item deposited.<br/>
+		General Warehouse:100Adena<br/>
+		CLan Warehouse:500Adena<br/>
+		 <br/>
+		<img src="5207"></img> <a link="warechar2">Additional Warehouse Usage</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

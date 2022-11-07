@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResetStatUI>
+  <Window Name = "Message_Window" X = "171" Y = "153" Modal = "1" Top = "1" DarkBack = "1" Activate = "0" BaseSurf = "6488;3">
+    <MultiLabel Name = "Message_Label" X = "29" Y = "31" FontSize = "12" Width = "394" Height = "190" VAlign = "center" LineMargin = "3"/>
+    <Button Name = "Ok_Button" X = "47" Y = "237" BaseSurf = "6489" HighlightSurf = "6490" PushSurf = "6491" OverSound = "6530" PushSound = "6536" MouseEvent = "Ok_MessageWin"/>
+    <Button Name = "Cancel_Button" X = "262" Y = "237" BaseSurf = "6492" HighlightSurf = "6493" PushSurf = "6494" OverSound = "6530" PushSound = "6536" MouseEvent = "Cancel_MessageWin"/>
+    <Image Name = "Back_Image" Surf = "6487;1"/>
+  </Window>
+  <Window Name = "ResetStat_Win" X = "0" Y = "0" Width = "800" Height = "600" Activate = "0">
+    <Image Name = "Title_Screen" X = "23" Y = "20" Surf = "8670;4"/>
+    <Image Name = "Title_Multi" X = "23" Y = "20" Surf = "8671;3"/>
+	<Label Name = "Level" X = "191" Y = "179" Align = "left" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+	<Label Name = "HitPoint" X = "191" Y = "210" Align = "left" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+	<Label Name = "ManaPoint" X = "191" Y = "241" Align = "left" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+	<Label Name = "ArmorClass" X = "191" Y = "272" Align = "left" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+    <Control Name = "Stat_Change_Control" X = "-394" Y = "-7">
+        <Control Name = "Strength" X = "12">
+          <Label Name = "Point" X = "498" Y = "354" Align = "center" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+          <Button Name = "Down_Button" X = "520" Y = "357" BaseSurf = "6504" HighlightSurf = "6504" PushSurf = "6505" PushSound = "6534" MouseEvent = "Down_ResetStatWin"/>
+          <Button Name = "Up_Button" X = "542" Y = "357" BaseSurf = "6506" HighlightSurf = "6506" PushSurf = "6507" PushSound = "6534" MouseEvent = "Up_ResetStatWin"/>
+        </Control>
+        <Control Name = "Dexterity" X = "12">
+          <Label Name = "Point" X = "498" Y = "375" Align = "center" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+          <Button Name = "Down_Button" X = "520" Y = "377" BaseSurf = "6504" HighlightSurf = "6504" PushSurf = "6505" PushSound = "6534" MouseEvent = "Down_ResetStatWin"/>
+          <Button Name = "Up_Button" X = "542" Y = "377" BaseSurf = "6506" HighlightSurf = "6506" PushSurf = "6507" PushSound = "6534" MouseEvent = "Up_ResetStatWin"/>
+        </Control>
+		 <Control Name = "Constitution" X = "12">
+          <Label Name = "Point" X = "498" Y = "395" Align = "center" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+          <Button Name = "Down_Button" X = "520" Y = "397" BaseSurf = "6504" HighlightSurf = "6504" PushSurf = "6505" PushSound = "6534" MouseEvent = "Down_ResetStatWin"/>
+          <Button Name = "Up_Button" X = "542" Y = "397" BaseSurf = "6506" HighlightSurf = "6506" PushSurf = "6507" PushSound = "6534" MouseEvent = "Up_ResetStatWin"/>
+        </Control>
+        <Control Name = "Intelligence" X = "-9">
+          <Label Name = "Point" X = "666" Y = "355" Align = "center" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+          <Button Name = "Down_Button" X = "628" Y = "357" BaseSurf = "6504" HighlightSurf = "6504" PushSurf = "6505" PushSound = "6534" MouseEvent = "Down_ResetStatWin"/>
+          <Button Name = "Up_Button" X = "650" Y = "357" BaseSurf = "6506" HighlightSurf = "6506" PushSurf = "6507" PushSound = "6534" MouseEvent = "Up_ResetStatWin"/>
+        </Control>
+        <Control Name = "Wisdom" X = "-9">
+          <Label Name = "Point" X = "666" Y = "375" Align = "center" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+          <Button Name = "Down_Button" X = "628" Y = "377" BaseSurf = "6504" HighlightSurf = "6504" PushSurf = "6505" PushSound = "6534" MouseEvent = "Down_ResetStatWin"/>
+          <Button Name = "Up_Button" X = "650" Y = "377" BaseSurf = "6506" HighlightSurf = "6506" PushSurf = "6507" PushSound = "6534" MouseEvent = "Up_ResetStatWin"/>
+        </Control>
+        <Control Name = "Charisma" X = "-9">
+          <Label Name = "Point" X = "666" Y = "395" Align = "center" Caption = "0" Width = "22" Height = "20" FontSize = "12" />
+          <Button Name = "Down_Button" X = "628" Y = "397" BaseSurf = "6504" HighlightSurf = "6504" PushSurf = "6505" PushSound = "6534" MouseEvent = "Down_ResetStatWin"/>
+          <Button Name = "Up_Button" X = "650" Y = "397" BaseSurf = "6506" HighlightSurf = "6506" PushSurf = "6507" PushSound = "6534" MouseEvent = "Up_ResetStatWin"/>
+        </Control>
+	   <Label Name = "Remain_Point" X = "578" Y = "377" Align = "center" Caption = "0" Width = "32" Height = "22" FontSize = "12"/>
+	   <Image Name = "Back_Image" X = "402" Y = "97" Png = "10933;1"/>
+    </Control>
+	<Control Name = "Customizing_Win">
+	  <Control Name = "Stat_Dmg" X = "440" Y="144">
+		<Label Name = "Base_Stat_Desc_1" Align = "left" String = "3857" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_1" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+      </Control>
+	  <Control Name = "Stat_Hit" X = "440" Y = "162">
+		<Label Name = "Base_Stat_Desc_2" Align = "left" String = "3858" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+        <Label Name = "Base_Stat_Point_2" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Cri" X = "440" Y = "180">
+		<Label Name = "Base_Stat_Desc_3" Align = "left" String = "3859" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_3" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Carry" X = "440" Y = "198">
+		<Label Name = "Base_Stat_Desc_4" Align = "left" String = "3860" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_4" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Missile_Dmg" X = "440" Y = "235">
+		<Label Name = "Base_Stat_Desc_5" Align = "left" String = "3861" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_5" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_Missile_Hit" X = "440" Y = "253">
+		<Label Name = "Base_Stat_Desc_6" Align = "left" String = "3862" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_6" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Missile_Cri" X = "440" Y = "271">
+		<Label Name = "Base_Stat_Desc_7" Align = "left" String = "3863" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_7" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_AC" X = "440" Y = "289">
+		<Label Name = "Base_Stat_Desc_8" Align = "left" String = "3864" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_8" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_ER" X = "440" Y = "307">
+		<Label Name = "Base_Stat_Desc_9" Align = "left" String = "3865" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_9" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_Magic_Dmg" X = "620" Y = "144">
+		<Label Name = "Base_Stat_Desc_10" Align = "left" String = "3866" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_10" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Magic_Hit" X = "620" Y = "162">
+		<Label Name = "Base_Stat_Desc_11" Align = "left" String = "3867" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_11" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_Magic_Cri" X = "620" Y = "180">
+		<Label Name = "Base_Stat_Desc_12" Align = "left" String = "3868" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_12" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Magic_Bonus" X = "620" Y = "198">
+		<Label Name = "Base_Stat_Desc_13" Align = "left" String = "3869" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_13" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_MP_Reduce" X = "620" Y = "216">
+		<Label Name = "Base_Stat_Desc_14" Align = "left" String = "3870" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_14" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_MaxHP" X = "440" Y = "326">
+		<Label Name = "Base_Stat_Desc_15" Align = "left" String = "3871" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_15" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_HP_Recover" X = "440" Y = "344">
+		<Label Name = "Base_Stat_Desc_16" Align = "left" String = "3872" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_16" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_HP_Potion" X = "440" Y = "362">
+		<Label Name = "Base_Stat_Desc_17" Align = "left" String = "3873" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_17" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_Carry" X = "440" Y = "380">
+		<Label Name = "Base_Stat_Desc_4" Align = "left" String = "3874" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_4" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_MaxMP" X = "620" Y = "235">
+		<Label Name = "Base_Stat_Desc_18" Align = "left" String = "3875" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_18" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_MPRecover" X = "620" Y = "253">
+		<Label Name = "Base_Stat_Desc_19" Align = "left" String = "3876" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_19" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Control Name = "Stat_MP_Potion" X = "620" Y = "271">
+		<Label Name = "Base_Stat_Desc_20" Align = "left" String = "3877" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_20" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+	  <Control Name = "Stat_MR" X = "620" Y = "289">
+		<Label Name = "Base_Stat_Desc_21" Align = "left" String = "3878" Width = "100" Height = "22" FontSize = "12" FontColor = "150,150,150"/>
+		<Label Name = "Base_Stat_Point_21" X = "107" Y = "1" Align = "center" Caption = "0" Width = "40" Height = "20" FontSize = "12" FontColor = "150,150,150"/>
+	  </Control>
+      <Button Name = "Exit_Button" X = "734" Y = "112" BaseSurf = "6502" HighlightSurf = "6502" PushSurf = "6503" MouseEvent = "Exit_CustomizingWin"/>
+      <Image Name = "Customizing_Back" X = "386" Y = "90" Png = "10935;1"/>
+    </Control>
+    <Button Name = "10Level_Button" X = "23" Y = "443" BaseSurf = "8684" HighlightSurf = "8685" PushSurf = "8686;1" OverSound = "6530" PushSound = "6536" MouseEvent = "Level10_ResetStatWin"/>
+	<Button Name = "1Level_Button" X = "146" Y = "443" BaseSurf = "8681" HighlightSurf = "8682" PushSurf = "8683;1" OverSound = "6530" PushSound = "6536" MouseEvent = "Level1_ResetStatWin"/>
+    <Button Name = "OK_Button" X = "269" Y = "443" BaseSurf = "8687" HighlightSurf = "8688" PushSurf = "8689;1" OverSound = "6530" PushSound = "6536" MouseEvent = "OK_ResetStatWin"/>
+	<Image Name = "Progress_Reset_On" X = "203" Y = "533" Surf = "8674"/>
+	<Image Name = "Progress_Reset_Off" X = "203" Y = "533" Surf = "8673"/>
+	<Image Name = "Progress_LevelUp_On" X = "419" Y = "533" Surf = "8676"/>
+	<Image Name = "Progress_LevelUp_Off" X = "419" Y = "533" Surf = "8675"/>
+	<Image Name = "Progress_Done_On" X = "563" Y = "533" Surf = "8678"/>
+	<Image Name = "Progress_Done_Off" X = "563" Y = "533" Surf = "8677"/>
+	<Image Name = "Progress_Arrow1_On" X = "362" Y = "533" Surf = "8680;4"/>
+	<Image Name = "Progress_Arrow1_Off" X = "362" Y = "533" Surf = "8679;4"/>
+	<Image Name = "Progress_Arrow2_On" X = "507" Y = "533" Surf = "8680;4"/>
+	<Image Name = "Progress_Arrow2_Off" X = "507" Y = "533" Surf = "8679;4"/>
+	<Image Name = "ProgressStatus_Back" X = "0" Y = "506" Surf = "8672;4"/>
+	<MultiLabel Name = "Msg_Label" X = "403" Y = "438" FontSize = "12" Width = "370" Height = "50" VAlign = "center" LineMargin = "3"/>
+	<Label Name = "Tip_Label" X = "200" Y = "574" Align = "center" String = "4082" Width = "400" Height = "20" FontSize = "12"/>
+	<Image Name = "Msg_Back_screen" X = "398" Y = "438" Surf = "8734;4"/>
+	<Image Name = "Msg_Back_multi" X = "398" Y = "438" Surf = "8735;3"/>
+    <BoardImage Name = "BG_Image" X = "0" Y = "0" Width = "800" Height = "600" CustomColor= "0,0,0" CustomAlpha = "16"/>
+    <Image Name = "Back_Image" X = "0" Y = "0" Surf = "7156"/>
+  </Window>
+</ResetStatUI>

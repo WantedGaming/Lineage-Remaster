@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+    <text>領主様、何をご所望ですか？</text>
+  </npc>
+  <dialog>
+	<li link="othmondhp1">助言を求める</li>
+	<br/>
+    <p action="inex">収入/支出の報告を受ける</p>
+    <p action="tax">税率を調節する</p>
+    <p action="tax">資金を引き出す</p>
+    <p action="cdeposit">資金を入金する</p>
+	<li link="othmond4">助言を求める</li>
+	<p action="action=">城門を管理する</p>
+	<p action="asktime">次の攻城戦の時間を決める</p>
+	<p action="security">城内の治安を管理する</p>
+  </dialog>
+</npcdialog>

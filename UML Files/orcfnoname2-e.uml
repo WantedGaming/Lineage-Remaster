@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>長老ノナメ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+
+<dialog>
+<p>わしのような年寄に興味を持つ者がおるとわな。</p>
+<p>わしはオーク族の長老アトゥバ ノナメじゃ。生命の木に関する一切を管理しておる。</p>
+<br/>
+<p><a link="orcfnoname3"/>生命の木…？</p>
+</dialog>
+
+</npcdialog>

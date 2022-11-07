@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeginnerGuideNpcEventRoot>
+	<EventCase EventType="0"> <!-- 이벤트별[레벨 업 대사 이벤트=0] -->
+		<ClassCase ClassType="0">  <!-- 클래스별[군주=0, 기사=1, 엘프=2, 마법사=3,다크엘프=4, 용기사=5, 환술사=6, 전사=7] -->
+			<LevelCase Level="5" DescIndex="0"/>  <!-- 레벨별 출력 할 대사[Level=대사 출력할 레벨 DescIndex="desc*.* 파일에서의 인덱스]"-->
+			<LevelCase Level="10" DescIndex="1"/>
+		</ClassCase>
+		<ClassCase ClassType="0,1,2,3,4,5,6,7">
+			<LevelCase EventLevel="5" DescIndex=""/>
+			<LevelCase EventLevel="15" DescIndex="3"/>
+			<LevelCase EventLevel="20" DescIndex="3"/>
+			<LevelCase EventLevel="30" DescIndex="3" time="10"/>
+			<LevelCase EventLevel="30" DescIndex="3" time="10"/>
+			<LevelCase EventLevel="30" DescIndex="3" time="10"/>
+			<LevelCase EventLevel="40" DescIndex="3"/>
+			<LevelCase EventLevel="50" DescIndex="3"/>
+			<LevelCase EventLevel="52" DescIndex="3"/>
+			<LevelCase EventLevel="54" DescIndex="3"/>
+			<LevelCase EventLevel="55" DescIndex="3"/>
+			<LevelCase EventLevel="56" DescIndex="3"/>
+			<LevelCase EventLevel="57" DescIndex="3"/>
+			<LevelCase EventLevel="58" DescIndex="3"/>
+			<LevelCase EventLevel="59" DescIndex="3"/>
+			<LevelCase EventLevel="60" DescIndex="3"/>
+		</ClassCase>
+		<ClassCase ClassType="7">
+
+			<LevelCase EventLevel="15" DescIndex="2"/> <!--전사 스킬 안내-->
+			<LevelCase EventLevel="30" DescIndex="2"/>
+			<LevelCase EventLevel="45" DescIndex="3"/>
+			<LevelCase EventLevel="50" DescIndex="2"/>
+			<LevelCase EventLevel="55" DescIndex="2"/>
+			<LevelCase EventLevel="60" DescIndex="3"/>
+			<LevelCase EventLevel="70" DescIndex="2"/>
+			<LevelCase EventLevel="75" DescIndex="2"/>
+			<LevelCase EventLevel="82" DescIndex="3"/>
+		</ClassCase>
+
+
+
+
+	</EventCase>
+</BeginnerGuideNpcEventRoot>

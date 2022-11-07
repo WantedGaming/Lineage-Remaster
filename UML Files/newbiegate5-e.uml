@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リッキー</name>
+    <job>[修練のテレポーター]</job>
+  </npc>
+  <dialog>
+	<p>俺はレベル45からレベル51の修練者が困難に打ち勝てるように手助けをしている。</p>
+	<p><br/></p>
+	<p>さらなる高みを目指してくれ…</p>
+	<p><br/></p>
+	<p><a action="a">隠された渓谷に送ってください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

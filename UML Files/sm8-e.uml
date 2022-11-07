@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>あなたのように素晴らしい女性を好きにならない男はいません。私もそうです。<br/></p>
+		<p>私から言うべきことなのに、先に言わせてしまってごめん。もしまだ間に合うなら、こんな私でも受け入れてくれませんか？<br/></p>
+							
+	</dialog>
+
+</npcdialog>

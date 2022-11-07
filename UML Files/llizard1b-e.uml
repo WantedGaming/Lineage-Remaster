@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>疲れ果てたリザードマン ファイター</name>
+  </npc>
+  <dialog>
+    <p>はぁ…はぁっ…に、人間か…</p>
+    <p>あなたとは関係のないことだ。私には構わないでくれ…</p>
+    <p>長老からあなたを迎えに行くよう頼まれました。</p>
+    <p><a action="start">さあ、帰りましょう</a></p>
+  </dialog>
+</npcdialog>

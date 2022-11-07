@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レッサー デーモン</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ここまで来るとは…さすがだな。</p>
+		<p>生きていくために絶えず闘うものたちよ。</p>
+		<p>貴様たちの功績は尊敬に値する。褒めてやろう。</p>
+		<p>今は貴様らの時代。</p>
+		<p>だが、この世界が貴様らのために存在しているなんて夢物語は見るんじゃないぞ。</p>
+		<p>覚えておけ！我々が常に貴様らの闇にいることを！</p>
+		<p>貴様らが生きるその裏で繰り広げられる圧倒的な破壊と戦争に栄光があらんことを…</p>
+	</dialog>
+
+</npcdialog>

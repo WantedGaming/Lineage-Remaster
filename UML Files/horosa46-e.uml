@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><font fg="ffffaf">今日の運勢です。</font><br/><br/><br/></p>
+    <p>血盟に入っていない人は望みの血盟に入れるでしょう。すでに加入している人は大役を任されることとなります。</p>
+    <p>またポスト相応のアイテムも手に入って、とてもよい日となるでしょう。<br/><br/><br/></p>
+    <p><a link="keplisha3">占い結果を心に留めておきます</a><br/></p>
+  </dialog>
+</npcdialog>

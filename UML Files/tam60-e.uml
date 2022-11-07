@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><font fg="ffffaf">[変身リスト]</font></p>
+    
+	<p align="center">
+    
+	<img src="5649" tooltip="ケント傭兵(ナイト)^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="tam 60a"/><blank width="10"/>
+    <img src="5650" tooltip="ケント傭兵(パイクマン)^(スピア/チェーンソード)" action="tam 60b"/><br/><br/>
+    <img src="5651" tooltip="ケント傭兵(アーチャー)^(ボウ/ガントレット)" action="tam 60c"/><blank width="10"/>
+    <img src="5652" tooltip="ケント傭兵(ウィザード)^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="tam 60d"/><br/><br/>
+    
+	<br/><br/><br/><br/>
+	
+	<img src="5653" tooltip="ハイネ傭兵(ナイト)^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="tam 60e"/><blank width="10"/>
+    <img src="5654" tooltip="ハイネ傭兵(パイクマン)^(スピア/チェーンソード)" action="tam 60f"/><br/><br/>
+    <img src="5655" tooltip="ハイネ傭兵(アーチャー)^(ボウ/ガントレット)" action="tam 60g"/><blank width="10"/>
+    <img src="5656" tooltip="ハイネ傭兵(ウィザード)^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="tam 60h"/><br/><br/>
+	
+    </p>
+	
+  </dialog>
+</npcdialog>

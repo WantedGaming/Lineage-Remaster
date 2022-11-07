@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>イリュージョニストの幻術魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">イリュージョニストの幻術魔法：レベル1</font><br/></p>
+	<p><font fg="ffffaf">ミラー イメージ：</font><br/>
+	種類：付与<br/>
+	性向：Illusion<br/>
+	消耗MP/HP：20/0<br/>
+	持続時間：1200秒<br/>
+	対象：術者<br/>
+	効果：自分の姿をブレさせ、攻撃を受ける確率を低下させます。<br/></p>
+	
+	<p><font fg="ffffaf">コンフュージョン：</font><br/>
+	種類：操作<br/>
+	性向：Illusion<br/>
+	消耗MP/HP：15/10<br/>
+	持続時間：8秒<br/>
+	対象：術者から3セル内のPCまたはNPCの1人<br/>
+	効果：敵を混乱させ、精神ダメージと同時に一時的に魔法を使用できないようにします。<br/></p>
+	
+	<p><font fg="ffffaf">スマッシュ エネルギー：</font><br/>
+	種類：変化<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：5/0<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：混沌の気を集中させ、対象にビーム状の魔法ダメージを与えます。<br/></p>
+	
+	<p><font fg="ffffaf">イリュージョン[オーガ]：</font><br/>
+	種類：付与<br/>
+	性向：Illusion<br/>
+	消耗MP/HP：20/0<br/>
+	持続時間：128秒<br/>
+	対象：術者<br/>
+	効果：対象をオーガだと錯覚させる幻想に陥らせます。攻撃力+4、命中率+4向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">キューブ[オーガ]：</font><br/>
+	種類：操作<br/>
+	性向：Illusion<br/>
+	消耗MP/HP：30/0<br/>
+	材料：属性石3個<br/>
+	持続時間：128秒<br/>
+	対象：パーティーメンバー<br/>
+	効果：パーティーメンバー全体に、近距離ダメージ+4、近距離命中+4<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>その礼儀正しい友人のことなら<font fg="ffffff">モリエン</font>という女の子がよく知っている。最近その子はアラクネから糸を紡ぐ方法を教えてもらっているそうだから。8本の腕があるからできることなのに、2本の腕でどうやって再現するんだか。</p>
+	</dialog>
+
+</npcdialog>

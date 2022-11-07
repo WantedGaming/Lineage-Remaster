@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アラクネ</name>
+		<job>森の守護者</job>
+		<text></text>
+	</npc>
+  <dialog>   
+   <p>お前に恨みはないが、我らの創造神の名の下に。エルフの住処を侵した罪を罰するぞ。</p>
+	 </dialog>
+</npcdialog>

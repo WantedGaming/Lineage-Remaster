@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="ffffff">変身したいモンスターを選択してください。</font><br/><br/>
+		
+		<a action="skeleton nbmorph">スケルトン</a><br/>
+		<a action="lycanthrope nbmorph">ライカンスロープ</a><br/>
+		<a action="shelob nbmorph">ジャイアント スパイダー</a><br/>
+		<a action="ghoul nbmorph">グール</a><br/>
+		<a action="ghast nbmorph">ガースト</a><br/>
+		<a action="atuba orc nbmorph">アトゥバ オーク</a><br/>
+		<a action="skeleton axeman nbmorph">スケルトン アックスマン</a><br/>
+		<a action="troll nbmorph">トロール</a><br/>
+				
+		</p>
+	</dialog>
+</npcdialog>

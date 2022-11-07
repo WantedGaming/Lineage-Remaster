@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdenTeleportUI Toggle="true">
+	<Window Name="TeleportListWindow" Width="149" Height="322" BasePng="15595" MouseEvent="Dummy">
+		<List Name = "Teleport_List" X = "17" Y = "36" Width = "120" Height = "310" Vertical = "1" Gap="2">
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+			<Include Xml="AdenTelSub.xml" Root="TeleportInfo"/>
+		</List>			
+		<ScrollBar Name = "TelList_Scroll" X = "135" Y = "35" Width = "11" Height = "282" ScrollStart = "14" ScrollHeight = "252" Vertical = "1" MouseEvent="ScrollList">
+			<Button Name = "Up_Button" BaseSurf = "2836" PushSurf = "2837" MouseEvent="ScrollListButton"/>
+			<Button Name = "Move_Button" Y = "13" BaseSurf = "2834;1" PushSurf = "2835;1" MouseEvent="ScrollListButton"/>
+			<Button Name = "Down_Button" Y = "267" BaseSurf = "2838" PushSurf = "2839" MouseEvent="ScrollListButton"/>
+		</ScrollBar>
+		<Image Name="BackImage" Png="15595"/>
+	</Window>
+	<Window Name="AdenTeleportWin" X="124" Y="89" BasePng="3518" FramePng="3518;1" Moveable="20" KeyboardEvent="KeyBoard" MouseEvent="Dummy">
+		<Button Name="Close_Button" X="528" Y="4" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent="Close_Button"/>
+		<Button Name = "FoldList_Button" X = "3" Y = "263" BaseSurf = "8894;1" OverSurf="8893;1" PushSurf = "8893;1" MouseEvent = "FoldList"/>
+		<Control Name="TeleportList">			<!--Tag AdenTelData.xml data의 id값-->
+			<!--Town-->
+			<Control Name="Village0" X="53" Y="255" Tag="0">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village1" X="107" Y="209" Tag="1">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village2" X="65" Y="168" Tag="2">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village3" X="179" Y="243" Tag="3">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village4" X="296" Y="228" Tag="4">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village5" X="185" Y="165" Tag="5">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village6" X="111" Y="130" Tag="6">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village7" X="250" Y="130" Tag="7">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village8" X="365" Y="160" Tag="8">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village9" X="253" Y="90" Tag="9">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village10" X="276" Y="40" Tag="10">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village11" X="450" Y="135" Tag="11">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village12" X="107" Y="100" Tag="12">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village13" X="145" Y="57" Tag="13">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village14" X="400" Y="15" Tag="14">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village15" X="40" Y="74" Tag="15">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			<Control Name="Village16" X="165" Y="195" Tag="39">
+				<Include Xml="AdenTelSub.xml" Root="Town"/>
+			</Control>
+			
+			<!--Dungeon-->
+			<Control Name="Dungeon0" X="18" Y="260" Tag="16">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon1" X="155" Y="213" Tag="17">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon2" X="66" Y="145" Tag="18">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon3" X="297" Y="205" Tag="19">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon4" X="251" Y="245" Tag="20">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon5" X="178" Y="88" Tag="21">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon6" X="405" Y="177" Tag="22">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon7" X="240" Y="35" Tag="23">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+			<Control Name="Dungeon8" X="310" Y="15" Tag="24">
+				<Include Xml="AdenTelSub.xml" Root="Dungeon"/>
+			</Control>
+
+			<!--Field-->
+			<Control Name="Field0" X="52" Y="280" Tag="25">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field1" X="26" Y="169" Tag="26">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field2" X="128" Y="182" Tag="27">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field3" X="224" Y="230" Tag="28">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field4" X="158" Y="120" Tag="29">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field5" X="231" Y="184" Tag="30">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field6" X="218" Y="70" Tag="31">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field7" X="321" Y="123" Tag="32">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field8" X="335" Y="190" Tag="33">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field9" X="405" Y="157" Tag="34">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field10" X="322" Y="66" Tag="35">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field11" X="390" Y="86" Tag="36">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field11" X="473" Y="102" Tag="37">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+			<Control Name="Field12" X="310" Y="36" Tag="38">
+				<Include Xml="AdenTelSub.xml" Root="Field"/>
+			</Control>
+		</Control>
+
+		<Control Name="Adena" X="360" Y="290">
+			<Image Name="AdenaImg" X="1" Y="1" Png="11752;1">
+				<Tooltip Name="Desc_Tooltip" String="4710"/>
+			</Image>
+			<Label Name="AdenaCount" X="21" Y="4" Caption=""/>
+			<Image Name="Background" X="0" Y="0" Png="11751;3"/>
+		</Control>
+
+		<CheckButton Name="RecommandSpot" X="455" Y="220" BasePng="12320;1" HighlightPng="12321;1" PushPng="12322;1" PushCheck="false" MouseEvent="RecommandSpot" Tag="0"/>
+		<Control Name="SelectButtons" X="450" Y="248">
+			<Control Name="Town" X="0" Y="0">
+				<Image Name="Icon" X="9" Y="-2" Png="11750;1"/>
+				<CheckButton Name="CheckBox" X="70" Y="5" BasePng="11747" CheckPng="11748" PushCheck="false" SetCheck="1" MouseEvent="Check_Button" Tag="0"/>
+				<Image Name="Background" X="0" Y="0" Png="11753;3"/>
+			</Control>
+
+			<Control Name="Dungeon" X="0" Y="21">
+				<Image Name="Icon" X="9" Y="-2" Png="11749;1"/>
+				<CheckButton Name="CheckBox" X="70" Y="5" BasePng="11747" CheckPng="11748" PushCheck="false" SetCheck="1" MouseEvent="Check_Button" Tag="1"/>
+				<Image Name="Background" X="0" Y="0" Png="11753;3"/>
+			</Control>
+
+			<Control Name="Field" X="0" Y="41">
+				<Image Name="Icon" X="9" Y="3" Png="11755;1"/>
+				<CheckButton Name="CheckBox" X="70" Y="5" BasePng="11747" CheckPng="11748" PushCheck="false" SetCheck="1" MouseEvent="Check_Button" Tag="2"/>
+				<Image Name="Background" X="0" Y="0" Png="11753;3"/>
+			</Control>
+		</Control>
+		<Image Name = "Frame" X="0" Y="0" Png="3518;1"/>
+		<Image Name = "Map_Image" X = "1" Y = "5" Png = "10001;0;21"/>
+	</Window>
+</AdenTeleportUI>

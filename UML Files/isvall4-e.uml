@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Isval</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		 <p>Master Depolodieu's order was to once again operate a ship to the Forgotten Island.</p>
+		<p><a link="isvall5">Check Ship's Hours</a><br/></p>
+		 <panel type="Panel_Shop_bt_Buy">
+      <button action="buy"/>
+    </panel>
+		<p>Are you going to the Forgotten Islands? Remember, just like before, not a single ship headed for Forgotten Island has come back yet...</p>
+		
+		
+	</dialog>
+</npcdialog>

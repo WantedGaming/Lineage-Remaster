@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラフォンス</name>
+		<job>シェフ</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>今回新しく開発した料理は、食べた人みんなが満足できるように作りました。それぞれのお弁当かごに入っているものは、次のとおりです。</p>
+		<p><font fg="ffffaa">[腕力のお弁当かご]</font></p>
+		<p>腕力のお弁当かごに入っている<font fg="ffaaaa">力強い和牛ステーキ</font>は絶品です。</p>
+		<p><font fg="ffffaa">[機敏のお弁当かご]</font></p>
+		<p>機敏のお弁当かごに入っている<font fg="ffaaaa">素早い鮭の煮付</font>はもうたまらない味です。 </p>
+		<p><font fg="ffffaa">[知力のお弁当かご]</font></p>
+		<p>知力のお弁当かごには<font fg="ffaaaa">賢い七面鳥焼き</font>がありますが、死ぬほどおいしいです。</p>
+		<p><font fg="ffffaa">[成長のお弁当かご]</font></p>
+		<p>成長のお弁当かごの<font fg="ffaaaa">修練の鶏スープ</font>は心まで溶かしてくれます。</p>
+		<p><img src="331" link="rrafons"/></p>
+	</dialog>
+	
+</npcdialog>

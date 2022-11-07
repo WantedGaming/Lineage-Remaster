@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+この世を終末に追いつめようとしている張本人が、こんな辺鄙な所に何の御用でしょう……。<br/>
+あなた方は自らを燃やして周りを照らす炎のように、この世のものを呑み込み自分たちの世を作っている。<br/>
+しかし、いつか悟る日がくるでしょう。これ以上呑み込むものがなくなってしまったその時が、炎が燃え尽きる時であることを……。
+</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>ここはレベル<font fg="ffafff">76～99</font>のみが入場できる。</p>
+		<p>次元の扉は次元の隙間が最も広がったときに開くことができる。
+		<font fg="ffafff">12時、15時、18時、21時</font>に限られるから注意してくれ。</p>
+		
+	</dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>さあ、これが最後の関門だ！</p>
+		<p>お前も知っての通り、我らポイズンサーペントの最終目標は<font fg="ffffaf">水竜パプリオン</font>だ。竜に立ち向かうだけの勇気がある者なのか試させてもらうとしよう。</p>
+		<p>エヴァの聖地に水竜の血液から生まれたモンスターがいるという噂を聞いた。そいつらを倒してその証拠を持ってこい！</p>
+		<p>これに立ち向かう勇気がなければ、水竜なんて到底太刀打ちできないだろう。</p>
+		<p><a link="tion22">任務を完了しました</a></p>
+	</dialog>
+
+</npcdialog>

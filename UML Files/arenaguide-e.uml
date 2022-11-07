@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>決闘場案内</title>
+	<npc>
+		<portrait></portrait>
+		<name>コロシアム管理人</name>
+		<job>決闘場案内員</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 画面左側に、現在地の地域属性を確認できます。地域属性は4種類あり、<font fg="ffffff">Safe Zone</font>、<font fg="ffffff">Normal Zone</font>、<font fg="ffffff">Combat Zone</font>、最後に<font fg="ffffff">Free PK Zone</font>です。<br/>
+		 <br/>
+		 順に説明していきましょう。<font fg="ffffff">Safe Zone</font>はその名のとおり安全地帯です。ここではプレイヤー同士の攻撃はできません。モンスターに対してのみ攻撃できます。まだ未熟なプレイヤーのためのエリアはすべて安全地帯です。外に出ると、村や一部の地域をのみが安全地帯になります。<br/>
+		 <br/>
+		 <font fg="ffffff">Normal Zone</font>は、ほぼすべての地域が一般地域です。モンスターはもちろん、プレイヤー同士でも攻撃でき、倒すことも可能です。ただし、プレイヤーを倒すとカオティック キャラクターとなり、警備兵から攻撃されるようになります。倒されたプレイヤーも経験値の減少やアイテムを紛失するというペナルティがあります。<br/>
+		 <br/>
+		 次に<font fg="ffffff">Combat Zone</font>です。この地域は、狭い通路や家の前が該当する地域です。互いに攻撃できますが、どちらにもペナルティがありません。攻撃しても警備兵と敵対することもなく、倒されても経験値の減少やアイテムの紛失はありません。<br/>
+		 <br/>
+		 最後に<font fg="ffffff">Free PK Zone</font>です。この地域はお互い戦って力を比べる地域です。攻撃して相手を倒してもCombat Zoneと同じくペナルティはありません。ですが、倒された側はNormal Zoneと同じだけのペナルティを受けます。世は弱肉強食の世界ってことです。<br/>
+		 <br/>
+		 この地域は安全ですが、外に出たら安全地帯はほとんどありません。各地域の属性を熟知して注意してください。<br/>
+		<br/>
+		<img src="331" link="agout"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>

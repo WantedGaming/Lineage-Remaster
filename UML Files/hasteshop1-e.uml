@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		いらっしゃい。<br/>
+		<br/>
+		 ようこそ、TAMショップへ！<br/>
+		<br/>
+		 お手持ちの<font fg="ffffaf">500Adena</font>をくだされば、長時間もつ強化魔法をかけて差し上げますよ。<br/> 
+		<br/> 
+		 <a action="A">強化魔法を受ける</a><br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

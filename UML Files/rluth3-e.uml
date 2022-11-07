@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ロッテ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="0"/>%</font>です。</p>
+		<p>戦争が終わったおかげで、税金も安定してきたようですね。	</p>
+	</dialog>
+	
+</npcdialog>

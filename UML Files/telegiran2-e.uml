@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィザード ウィルマ</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Villages you can travel from here with their fees.</p>
+		<p>Which village do you want to travel to?</p>
+		<p><a action="teleport giran-kent">Kent Castle Town:<var src="0"/>Adena</a></p>
+		<p><a action="teleport giran-heine">Heine Castle Town:<var src="1"/>Adena</a></p>
+		<p><a action="teleport giran-werldern">Werldern Village:<var src="2"/>Adena</a></p>
+		<p><a action="teleport giran-silver">シルバーナイトタウン：<var src="3"/>Adena</a></p>
+		<p><a action="teleport giran-gludin">Gludin Village:<var src="4"/>Adena</a></p>
+		<p><a action="teleport giran-oren">Oren Village:<var src="5"/>Adena</a></p>
+		<p><a action="teleport giran-aden">Aden:<var src="6"/>Adena</a></p>
+		<p><a action="teleport giran-woods">ウッドベック村：<var src="7"/>Adena</a></p>
+		<p><a action="teleport giran-willow">Firefield Village:<var src="8"/>Adena</a></p>
+		<p><a action="teleport giran-lowful">Lawful Temple:<var src="9"/>Adena</a></p>
+		<p><a action="teleport giran-chaos">Chaotic Temple:<var src="10"/>Adena</a></p>
+		<p><a action="teleport giran-grape">ウィザードの研究室：<var src="11"/>Adena</a></p>
+		<p><a action="teleport giran-island">Talking Island:<var src="12"/>Adena</a></p>
+		<p><a action="teleport giran-scave">Cave of Silence:<var src="13"/>Adena</a></p>
+		<p><a action="teleport giran-diad">ディアド要塞：<var src="14"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

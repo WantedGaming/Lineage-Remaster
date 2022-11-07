@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの補佐官</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>将軍候補様がお見えになったぞ！</p>
+		<p>ここの生活には満足か？人間同士の関係はどうだ？</p>
+		<p>お前には魔族の血が混ざっているのは確かだな。</p>
+		<p>お前の許可なしに調査は当然しないがな。事実が明らかになれば、ヤヒ様直属の将軍という道が現実味を帯びてくるだろう。</p>
+		<p>俺の話に興味はないか？</p>
+		<p><a action="8">まだ分からないと言いながらアミュレットを受け取る</a></p>
+	</dialog>
+
+</npcdialog>

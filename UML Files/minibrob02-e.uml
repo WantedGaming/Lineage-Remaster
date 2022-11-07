@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>汚れたブロッブ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 具合の悪そうなブロッブが一匹見える。<br/>
+		 まだ汚れたブロッブは見たことがないが、ダンジョンの汚染の影響を受けた最初のブロッブのようだ。<br/>
+		 このブロッブに何かを与えれば、今までとは違った何かが手に入りそうな気がする。<br/>
+		 魔族が言っていたのが、このブロッブのようだ。<br/>
+		<br/><a action="k">魔族から手に入れた精髄を与えてみる</a>
+		</p>
+	</dialog>
+</npcdialog>

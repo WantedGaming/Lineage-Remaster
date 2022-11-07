@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<UserPlayStatsUI Toggle="true">
+  <Window Name="UserPlayStats_Window" X="0" Y="0" BasePng = "12339;1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent="Keyboard">
+    <Button Name = "CloseWindow_Button" X = "196" Y = "7" Base="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseWindow"/>
+    <Button Name = "Restart_Button" X = "35" Y = "44" BasePng = "12344" HighlightPng="12345" PushPng = "12346" MouseEvent = "Restart"/>
+    <Button Name = "Quit_Button" X = "135" Y = "44" BasePng = "12341" HighlightPng="12342" PushPng = "12343" MouseEvent = "Quit"/>    
+    <List Name="UserPlayStats_List" X = "29" Y = "117" Width="150" Height="60" Vertical="1" Gap="0">
+		<List Name = "UserGetExp_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5324;1" Y = "3"/>
+			<Label Name="Exp_Label" Width = "75" Height = "13" Align="left" String="3123" FontColor="127,162,180"/>
+		    <Label Name="ExpNumber_Label" Width = "75" Height="13" Align="right" Caption="0.0%" FontColor="153,175,190"/>
+		</List>
+		<List Name = "MonsterKill_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5324;1" Y = "3"/>
+			<Label Name="MonsterKill_Label" Width = "75" Height = "13" Align="left" String="3124" FontColor="127,162,180"/>
+		    <Label Name="MonsterKillCounter_Label" Width = "75" Height="13" Align="right" Caption="0" FontColor="153,175,190"/>
+		</List>
+		<List Name = "UserGetAdena_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5324;1" Y = "3"/>
+			<Label Name="Adena_Label" Width = "75" Height = "13" Align="left" String="3125" FontColor="127,162,180"/>
+		    <Label Name="AdenaNumber_Label" Width = "75" Height="13" Align="right" Caption="0" FontColor="153,175,190"/>
+		</List>
+		<List Name = "UserGetItem_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5324;1" Y = "3"/>
+			<Label Name="GetItem_Label" Width = "75" Height = "13" Align="left" String="3126" FontColor="127,162,180"/>
+		    <Label Name="GetItemNumber_Label" Width = "55" Height="13" Align="right" Caption="0" FontColor="153,175,190"/>
+		    <Button Name="NewItemList_Button" Y = "-3" Width = "18" BaseSurf = "5325" HighlightSurf ="5326" PushSurf = "5327;1" MouseEvent = "OpenNewItemList">
+  		    <Tooltip Name = "Desc_Tooltip" X = "-125" Y = "15" String="3131" Area="1"/>
+			</Button>
+		</List>
+	</List>
+	<Button Name = "Reset_Button" X = "37" Y = "175" BaseSurf = "5330" HighlightSurf="5331" PushSurf = "5332;1" MouseEvent = "Reset"/>
+	<Image Name="DungeonTime_Image" Surf="5328;1" X = "30" Y = "198"/>
+	<List Name="DungeonTime_List" X="29" Y = "219" Width="150" Height="60" Vertical="1" Gap="0">
+		<List Name = "DungeonTimeSub1_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5329;1" Y = "2"/>
+			<Label Name="DungeonName_Label" Width = "75" Height = "13" Align="left" Caption="G" FontColor="145,129,174">
+			</Label>
+			<Label Name="DungeonTime_Label" Width = "75" Height="13" Align="right" Caption="0" FontColor="158,150,174"/>
+		</List>
+		<List Name = "DungeonTimeSub2_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5329;1" Y = "2"/>
+			<Label Name="DungeonName_Label" Width = "75" Height = "13" Align="left" Caption="S" FontColor="145,129,174">
+			</Label>
+			<Label Name="DungeonTime_Label" Width = "75" Height="13" Align="right" Caption="0" FontColor="158,150,174"/>
+		</List>
+		<List Name = "DungeonTimeSub3_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5329;1" Y = "2"/>
+			<Label Name="DungeonName_Label" Width = "75" Height = "13" Align="left" Caption="L" FontColor="145,129,174">
+			</Label>
+			<Label Name="DungeonTime_Label" Width = "75" Height="13" Align="right" Caption="0" FontColor="158,150,174"/>
+		</List>
+		<List Name = "DungeonTimeSub4_List" Width="150" Height="15" Horizontal="1" Gap="2">
+			<Image Name="Icon_Image" Surf="5329;1" Y = "2"/>
+			<Label Name="DungeonName_Label" Width = "75" Height = "13" Align="left" Caption="" FontColor="145,129,174">
+			</Label>
+			<Label Name="DungeonTime_Label" Width = "75" Height="13" Align="right" Caption="" FontColor="158,150,174"/>
+		</List>
+	</List>
+	<Button Name = "Prev_Button" X = "95" Y = "282" BasePng = "15530;1" HighlightPng="15531;1" PushPng = "15532;1" MouseEvent = "PrevDungeonTime"/>
+	<Button Name = "Next_Button" X = "116" Y = "282" BasePng = "15533;1" HighlightPng="15534;1" PushPng= "15535;1" MouseEvent = "NextDungeonTime"/>
+  </Window>
+</UserPlayStatsUI>

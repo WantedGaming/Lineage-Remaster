@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>クロレンス</name>
+		<job>長老随行員</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 本当か！ 
+		<br/>
+		<br/>
+		 友の意志を継いで、今度は私が全身全霊をかけて、歴史書を後世に伝えよう。<br/>
+		 私に歴史書を渡してくれ。そのお礼として、長老のみが知っているラスタバド最高の武器を作る秘宝を教えよう。
+		 鍛冶屋のアデルリオのところにそれを持って行けば、武器を作ってくれるだろう。<br/>
+		<br/>
+		<br/>
+		<a action="request las weapon manual">ラスタバドの歴史書を渡す</a>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

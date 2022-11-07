@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エドシフェ</name>
+  </npc>
+  <dialog>
+	<p>
+ ああ、どうしても敵と戦いたいだなんて、ありがたいお言葉ですね。<br/>
+ どうかあなたが幸運と共にあらんことを…<br/>
+<br/>
+<a action="B">ラスタバドへ進撃する</a>
+<br/>
+<a action="C">欲望の洞窟へ進撃する</a>
+<br/>
+<a action="D">船の墓場へ進撃する</a>
+</p>
+  </dialog>
+</npcdialog>

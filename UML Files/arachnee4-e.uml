@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アラクネ</name>
+		<job>森の守護者</job>
+		<text></text>
+	</npc>
+  <dialog>
+   <p>我々の繊細で正確な腕は、どんなものでも作れるが、その中でも糸を紡ぐことに関しては圧倒的だと自負している。</p>
+   <p>特に<font fg="ffafff">パンのタテガミ</font>から紡いだ<font fg="ffafff">糸</font>は弾力があって丈夫で、エルフたちが使う<font fg="ffafff">ボウ</font>や、着ている<font fg="ffafff">衣服やマント、グローブ、ブーツ</font>と多岐にわたって使われている。</p>
+   <p><img src="331" link="arachnee2"></img></p>
+	 </dialog>
+</npcdialog>

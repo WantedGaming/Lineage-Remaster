@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>3番目の記憶の欠片</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 女王様は我々に砂漠の蟻のダンジョンに行くよう命じられた。<br/>
+		 <br/>
+		 我々は戦った。<br/>
+		 <br/>
+		 しかし連中の力は予想を遥かに上回るものだった。<br/>
+		 <br/>
+		 度重なる人間との戦闘で進歩したのだろう。<br/>
+		 <br/>
+		 ジャイアント アントの女王は我々を洗脳して息の根を締め上げてきた。<br/>
+		<br/>
+		</p>
+		
+	</dialog>
+</npcdialog>

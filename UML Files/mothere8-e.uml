@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+  	<portrait>PO_002</portrait>
+    <name>森とエルフの母</name>
+  </npc>
+  <dialog>
+    <p>この森の生き物は、<font fg="ffffff">自給自足</font>で生活しているいうことを忘れてはいませんね？必要なものは自分で材料を集めて作るというのが、この森の基本的なルールなんですね。</p>
+	<p>…とは言っても、大抵のものは材料を集めて<font fg="ffffff">ネルファ</font>のところに行けば作ってもらえます。<font fg="ffffff">材料などは守護者たちから手に入れるか、森のどこか</font>で集めることができます。村にいるエルフたちに聞いてみなさい。役に立つ情報が得られるはずですよ。</p>
+  </dialog>
+</npcdialog>

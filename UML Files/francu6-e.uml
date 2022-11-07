@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>もちろんだ。カミーラも、俺も。ディエゴ…あいつはどうだったのかわからない。<br/>
+		</p><p>何を考えてるのかわからないような奴だったからな。<br/><br/>
+		</p><p>すべての元凶であるホセは、カミーラへの想いが強すぎるあまり、頭がイカれちまったのさ。<br/><br/>
+		</p><p><a link="francu7">ホセはカミーラが好きだったんですか？</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

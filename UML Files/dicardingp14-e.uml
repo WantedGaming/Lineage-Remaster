@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そうかそうか。それはご苦労だった。 <username/> 君主よ。そなたのおかげでこのアデンは、ひとまず危機を脱することができた。</p>
+		<p>これは、そなたの成し遂げたことの足元にも及ばないつまらないものだが、私からの感謝のしるしだ。どうか受け取ってくれたまえ。</p>
+		<p>そなたの偉大さは一生忘れないだろう。汝の行く末にアインハザードのご加護のあらんことを！</p>
+	</dialog>
+	
+</npcdialog>

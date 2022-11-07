@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>		
+		エルフのダンジョンは遠い昔、人間との戦争で作られた最後の砦だった。
+		我が先祖たちは種族の誇りとプライドを守るため、その場所で壮烈な最期を迎えた。
+		そこに行くときは、厳かな心構えで入るんだぞ。
+		</p>
+	</dialog>
+</npcdialog>

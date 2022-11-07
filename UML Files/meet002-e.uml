@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 グルル…おろか者よ！<br/>
+		 もう一度訊こう。心からバルログ様との謁見を望むのか？バルログ様はお前のさらなる忠誠を望んでおられる。<br/>
+		<br/>
+		<a action="2">私が持つソウルクリスタルをすべてバルログ様へ捧げます…</a>
+		</p>
+	</dialog>
+</npcdialog>

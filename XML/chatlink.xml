@@ -1,0 +1,11 @@
+<ChatLink>
+	<System>
+		<Data Text="Service Center" Link="http://test.html"/>
+		<Data Text="plaync.co.kr" Link="http://test.html"/>
+		<Data Text="1:1 Inquiry" Link="http://test.html"/>
+		<Data Text="Change Password" Link="http://test.html"/>
+		<Data Text="Ticket Payment" Link="http://test.html"/>	
+		<Data Text="Privacy" Link="http://test.html"/>	
+		<Data Text="Game Master" Link="http://test.html"/>	
+	</System>
+</ChatLink>

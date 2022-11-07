@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon>
+  <title>Shop</title>
+<npc>
+	<name>影法師 オリム</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+	<p>私を探しにここまで来るとは、君も強くなるためにすべてを捧げた者のようだな…</p>
+	<p>どうして人は皆、それほどまでして強くなりたいのか…<a link="orim2">あの人</a>もそうだった。まあ今となっては関係ない話だが。 </p>
+	<p>私の魔力が欲しいなら、それ相応の代価をもらうぞ。それもこれもすべては<a link="orim3">研究</a>のためだがな。</p>
+<br/>
+
+<panel type="Panel_Shop_Bt_Buy">
+	<button action="buy"/>
+</panel>  
+</dialog>
+
+</npcdialog>

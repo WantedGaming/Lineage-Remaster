@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ネルバ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<p>私はゲレン様の弟子のネルバだにゃ！</p>
+		<p>レベル55になるとルーンを作れるようになるにゃ。</p>
+		<p>必要なら私の幼い頃の記憶に残る<font fg="ffaaff">古いレポート</font>を持ってきてちょ～だいにゃ。 </p>
+		<p>もちろん<font fg="ffaaff">ウィザード ストーン</font>は必須だにゃ！</p>
+		<p>その石ころはレベル55達成クエストで獲得できるにゃ～</p>
+		<p>ってか人間の言葉をしゃべるの、結構しんどいにゃ…</p>
+	</dialog>
+
+</npcdialog>

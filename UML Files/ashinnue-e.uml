@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Ashinnue</name>
+		<job>Pet Gear Merchant</job>
+		<text>I love pets so much I opened a store!</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Hello! Welcome to the "Pet Shop of Horrors!"<br/><br/>
+		 My name is Ashinnue and I deal with pet equipment.<br/>
+		 I asked my brother to get me into this business for everyone who loves their pets!<br/><br/>
+		 My favorite pet of all time is the husky. That fluffy fur, that cute face! Isn't it really irresistible? Ehehehehe~!<br/>
+		 <br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		
+		<p><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

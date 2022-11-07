@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name><var src="name"/></name>
+		<job>[火田村のテレポーター]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>おい、そこのお兄さん。おっと、そんなふうに睨まないで。あなたに良い話をひとつするから。</p>
+		<p>見たところ、重罪を犯して行くところがないように見えるが…<a link="telefire4">火田村</a>で働かないか？</p>
+		<p>最近できた村で警備兵もなく、あなたのような重罪人もたくさん住んでいるそうだ。</p>
+		<p>同じ境遇の者同士<font fg="ffffff">罪を悔いながら生きていくには良い村</font>だよ。</p>
+		<p>どうだい？悪くないだろうからもし気があれば言ってくれ。</p>
+		<p><a action="teleportURL">興味深い話ですね</a></p>
+	</dialog>
+
+</npcdialog>

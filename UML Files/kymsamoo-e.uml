@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+   <npc>
+    <name>カイムサム</name>
+    <job>[雑貨商人]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p align="left"><font fg="ffffff">カイムサム：</font></p>
+    <p><br/>準備はしっかりと。これが鋼鉄ギルドの掟。</p>
+	<p>いつ何が起こるかわからないからな。</p>
+	<p>忘れ物があるんだったら、俺が売ってやるよ！</p>
+  </dialog>
+</npcdialog>

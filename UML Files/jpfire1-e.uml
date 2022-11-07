@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> お前が信じようが信じまいが関係ないが、俺は火と鍛冶屋の神がこの地に転生した姿だ。<br/>
+		 <br/>
+		 望む物があれば言ってみろ。<br/>
+		 <br/>
+		 もちろん材料はお前が用意するのだ。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

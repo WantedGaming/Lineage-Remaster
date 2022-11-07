@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><font fg="ffffaf">[変身リスト]</font></p>
+    <p align="center">
+    <img src="3436" tooltip="ケンラウヘル^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="ayoung ken lauel"/><blank width="10"/>
+    <img src="3434" tooltip="ケレニス^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="ayoung kelenis"/><blank width="10"/>
+    <img src="3437" tooltip="ヘルバイン^(ボウ/ガントレット)" action="ayoung helvine"/>
+    <img src="3438" tooltip="ダンテス^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="ayoung dantes"/><blank width="10"/>
+    </p>
+  </dialog>
+</npcdialog>

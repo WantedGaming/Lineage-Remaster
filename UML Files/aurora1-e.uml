@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>オーロラ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>
+		 私はギラン城下町からここに引っ越してきました。父は鉱物ダンジョンから出るブラックミスリルを集める仕事をしています。
+		 アデン大陸で売られているミスリルのほとんどは、私の父が取ってきたものです。
+		<br/>
+		<br/>
+		 ここは地下ですから、嫌な臭いがこもりますけど、耐えられない程ではないです。それに象牙の塔のウィザードをとおして、いつでも地上にいけますからね。
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

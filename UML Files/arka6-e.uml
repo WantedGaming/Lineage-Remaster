@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffffaf">幽霊屋敷</font>という場所で、アデンの猛者たちが自分たちの胆力を競うという噂は聞いた。 
+		 そこで最強のものに与えられる報賞の中に<font fg="ffffaf">スケルトンの聖杯</font>というのがあるそうじゃ。<br/>
+		 それを持ってきてくれ。おそらくワシの人生最高のコレクションになるはずじゃ。<br/>
+		 <br/>
+		<br/>
+		<img src="331" link="arka3"></img>
+		<br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

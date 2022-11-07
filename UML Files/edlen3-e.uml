@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+	<name><var src="name"/></name>
+    <job>[Unicorn Temple Manager]</job>
+  </npc>
+  <dialog>
+	<p>
+<font fg="ffaaff">成長の玉</font>、もしくは<font fg="ffaaff">成長の玉の欠片</font>がありませんね。
+<br/>
+隣にいるクルナから購入できますよ。
+</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルーディエル</name>
+  </npc>
+  <dialog>
+	<p>人間のあなたもエルヴン ワッフルがお好きなの？</p> 
+	<p>もちろん材料さえあれば作ってさしあげますが、人間が食べたらきっとお腹を壊しますよ。</p> 
+	<p>人間の内臓が神の食物を消化できるとは思えませんが？</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 象牙の塔の村の東側の出口から外に出て、5時の方角に降りていくと、雪が溶けている地域があります。かつて、エルモアとアデンが血で血を洗う戦闘を繰り広げたところです。エルモアの戦跡と呼ばれてます。<br/>
+		 戦争で命を落としたエルモア人がアンデッドになって現れます。<font fg="ffafff">ゾンビ</font>、<font fg="ffafff">グール</font>、<font fg="ffafff">エルモア ゾンビ ソルジャー</font>、<font fg="ffafff">エルモア ゾンビ ウィザード</font>、<font fg="ffafff">エルモア ゾンビ ジェネラル</font>などです。やつらは生命体を見れば見境なく襲い掛かってきます。能力値は高くないんですが、群れになってることが多いので気をつけてください。では、幸運を祈ります。<br/>
+		</p>
+	</dialog>
+</npcdialog>

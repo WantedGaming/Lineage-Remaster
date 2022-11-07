@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>In order to continue using the house, <font fg="ffffff">taxes</font> are given to the lord of the area where the house is located at regular intervals.</p>
+	<br/>
+    <p>Ten days after purchase, you will receive your first tax declaration. After you receive your tax declaration, select <font fg="ffffff">Pay Tax</font> and pay the amount indicated on the declaration.</p>
+	<br/>
+    <p>Tax declarations are sent <font fg="ffffff">every 10 days,</font> and if payment is not made by the due date written on the next declaration, a reminder will be sent once.</p>
+	<br/>
+	<p>Please note that if the payment is not made by the due date written in the demand letter, the ownership of the house will be revoked and the house will be put up for auction.</p>
+	<br/>
+    <p>Once dispossessed, the purchase cost of the house cannot be recovered.</p><br/>
+    <p>All notices are sent by letter paper.<br/><br/></p>
+    <p><a link="aghelp1">Ask about houses</a><br/></p>
+    <p><a link="aghelp3">Ask about properties</a><br/></p>
+  </dialog>
+</npcdialog>

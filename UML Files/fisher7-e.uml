@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィッシャー</name>
+		<job>[侍従長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>ここをどこだと心得て、忍び込んできたのか！</p>
+		<p>警備兵！この者どもを即刻この場から引きずり出せ！</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">ユキ：</font></p>
+    <p><br/>仲間と共に来たのか？</p>
+	<p>ここから経つ前に、君らの代表と少し話をさせてとくれ。</p>
+	<p>いくつか伝えておかねばならんことがあるのでな。<br/><br/></p>
+	<p>もう少し待っとくれ。</p>
+	<p>君を含めて少なくとも3人以上で来てもらわんと困る。</p>
+  </dialog>
+</npcdialog>

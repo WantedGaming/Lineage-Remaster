@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オーク ガード</name>
+	<job>オーク警備兵</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>次の攻城戦の時間はまだ決まっていない。</p>
+</dialog>
+
+</npcdialog>

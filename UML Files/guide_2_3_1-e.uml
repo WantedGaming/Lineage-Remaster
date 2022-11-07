@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ギランの町のかつてのバグベアーレース場の跡から見て、5時の方角に出口があります。その出口から外に出て、道沿いに南東の方向に進むと領地を抜けてすぐのところにちょっと危険な森があります。そこには<font fg="ffafff">ジャイアント スパイダー</font>、<font fg="ffafff">ドレッド スパイダー</font>など足の速いクモ系のモンスターに、<font fg="ffafff">ウェアウルフ</font>、<font fg="ffafff">ダークエルフ</font>も出るんですけど、それがまたけっこうな数なんですよ。<br/>
+		 ダークエルフは遠距離から攻撃を仕掛けてくるでしょ？それにトルネード魔法も使うからてこずる相手です。気をつけてくださいね。ご健闘を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

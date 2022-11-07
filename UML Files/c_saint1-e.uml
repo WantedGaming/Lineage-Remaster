@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>Ronda</name>
+    <job>[Pet Spiritist]</job>
+  </npc>
+  <dialog>
+	<p>エヴァ様のご加護の元、ペットたちの魂を癒やしています。経験値の回復は、一番<font fg="ffafff">最後に失った経験値のみ</font>回復できます。 </p>
+	<p></p>
+	<p><a action="a">経験値を回復する</a></p>
+	<p></p>
+	<p>ペットのアミュレットを忘却させると、<font fg="ffafff">ペットを他人に譲渡が可能</font>です。ただし、ペットの記憶はすべて消滅してしまいます。</p>
+	<p></p>
+	<p><a link="c_saint9">ペットのアミュレットを忘却させる</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

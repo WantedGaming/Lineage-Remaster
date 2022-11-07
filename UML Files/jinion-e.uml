@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="0"/></name>
+		<job>[初心者製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>モンスターたちが次々に村を襲撃している。<br/><br/>
+		村のために力を貸してくれないか。お礼にかつての感覚を呼び覚まし、<font fg="ffaaff">修練者の必須アイテム</font>を作ってやろう。<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+
+	</dialog>
+</npcdialog>

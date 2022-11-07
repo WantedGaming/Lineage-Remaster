@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フェガ</name>
+		<job>[武器防具商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>近頃みたいに危険な世の中では、防具を着ないといけないよ。</p>
+		<p>さぁ、物は多いから一度選んでみてよ。</p>
+		<p><a action="fega3">Ask about recent prices</a></p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+  </dialog>
+</npcdialog>

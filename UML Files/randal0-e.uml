@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ランダル</name>
+    <job>[ポーション商人]</job>
+  </npc>
+  <dialog align="left">
+    <p>いらっしゃい。何が欲しいんだ？</p>
+    <p>この仕事も長いことやってるから、かなりたくさんの事がわかってきたんだ。持続力があるポーションを濃縮すれば、<font fg="ffafff">重さも軽くなって長持ちする性質</font>を持つようになること！ </p>
+    <p>でもな、作り方は秘密だからな。はっはっはっ！恨むなよ…</p>
+    <p><a action="request craft">濃縮ポーションを作ってください</a></p>
+  </dialog>
+</npcdialog>

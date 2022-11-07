@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		おいおい…欠片が足りねーぞ！<br/>
+		俺が隠居する間に済ませた方が良いぞ。<br/><br/>
+		はやく足りない欠片を集めてくるんだな！
+		<br/><br/>
+		<a action="3">直接選びます</a><br/> 
+		<br/>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

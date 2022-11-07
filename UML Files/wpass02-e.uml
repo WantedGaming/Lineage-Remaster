@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name>次元の扉</name>
+  </npc>
+  <dialog>
+    <p>宙に浮かぶ奇妙な絵がこちらを威嚇するような表情をしている。<br/>
+		<br/>
+		立ち止まっていると、バッグの中で元素の支配者が柔らかな光を発している。<br/>
+		<br/>
+    元素の支配者を手に持ち、絵に近づきたいという衝動にかられる。</p>
+		<p><br/></p>
+		<p><a action="a">元素の支配者を近くまで持って行く</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog align="left">
+    <p><font fg="ffffff"><name/>：</font><br/><br/></p>
+		<p>私の名前はロハン。この村の自警団長を任されている者だ。</p>
+		<p>この村には何の用で来た？</p>
+		<p>この村は、森のオークだけではなく、ケント城の為政者からも狙われているのだ。 </p>
+		<p>領主は領民の暮らしに興味はなく、税収が減ることにはとても敏感でね…</p>
+		<p>もちろん、そんな奴でも同じ人間だから、凶暴な<a link="rohan2">オーク</a>比べればマシってものだ。</p>
+		<p>だけど最近、村には大きな変化があった。それはこの村が<font fg="ffafff">ペットたちの住処</font>になったことだ。おかげでオークたちもおいそれとやってこれなくなって、村の作物も荒らされずに済むから収穫は増えた。</p>
+		<p>だから守り甲斐があるってもんだ！ハハハ！	</p>
+	</dialog>
+	
+</npcdialog>

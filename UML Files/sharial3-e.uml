@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャリエル</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>ここからお送りできる狩り場と料金は以下のとおりです。<br/></p>
+		<p>どの狩り場に行きますか？<br/><br/></p>
+				
+		<p><a action="teleport silveria-gypsy">Gypsy Town:<var src="0"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-girdun">Giran Dungeon:<var src="1"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-mirr">Mirror Forest:<var src="2"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-dragon">Dragon Valley:<var src="3"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-eva">Heine Dungeon:<var src="4"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-reed">Wheat Field:<var src="5"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-gludun">Gludio Dungeon:<var src="6"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-oasis">Desert Oasis:<var src="7"/>Adena</a><br/></p>
+		<p><a action="teleport silveria-under">Underground Invasion:<var src="8"/>Adena</a><br/></p>
+
+	</dialog>
+
+</npcdialog>

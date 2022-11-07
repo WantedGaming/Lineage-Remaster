@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<PromoteMagicDollDisplay>
+<!--공통 설명-->
+<!--이펙트의 경우 globaleffect에 정의하고, 해당 id를 여기에 설정합니다.-->
+<!--이펙트가 아닌 이미지의 경우 png의 번호를 설정합니다. (.img파일 안됨) -->
+<!-- AlchemyId는 서버의 alchemy.xml 파일에 설정한 alchemyId와 동일합니다. -->
+
+
+
+
+<!--ProbUpEffect는 합성 확률이 증가할때 나오는 이펙트입니다. -->
+<!-- 마법 인형 등록슬롯이 빈 개수가 EmptySlotCount와 같을 경우 설정한 id의 globaleffect가 출력됩니다. -->
+<ProbUpEffect>
+	<Effect Id="127" EmptySlotCount="1"/>
+	<Effect Id="129" EmptySlotCount="0"/>
+</ProbUpEffect>
+
+
+
+<!--각 단계별 합성에 대한 연출 정보를 지정합니다.-->
+<!-- BlinkEffect : 슬롯에 인형을 등록할 경우, 배경에 깜박이는 이펙트. 깜박이는 속도는 린빈에서 조절합니다.-->
+<!-- BeginEffect : 합성이 시작되면 배경에 보여지는 루핑되는 이펙트-->
+<!-- HyperEffect : 대성공이 가능할 경우의 BeginEffect. 현재는 단계가 번갈아가면서 보여지는 이펙트 -->
+<!-- PredictionEffect : 암시 이펙트 -->
+<!-- CompleteEffect : 합성 결과가 표시될 때 보여질 이펙트. 성공과 실패 시, 대성공 성공과 실패 시 각각 설정. -1로 설정하면 출력하지 않습니다.-->
+<!-- ResultBG : 합성 결과 화면에서 보여져야 할 배경.(png) 성공과 실패 시, 대성공 성공과 실패 시 각각 설정.-1로 설정하면 출력하지 않습니다.-->
+<DisplayInfo>
+	<Info AlchemyId="1">
+		<BlinkEffect id="118"/>
+		<BeginEffect id="112" Hyper="134"/>
+		<PredictionEffect id="131" Prob=""/>
+		<CompleteEffect Success="122" Fail="-1" HyperSuccess="123"/>
+		<ResultBG Success="10873" Fail="-1" HyperSuccess="10874"/>
+	</Info>
+	
+	<Info AlchemyId="2">
+		<BlinkEffect id="119"/>
+		<BeginEffect id="113" Hyper="135"/>
+		<PredictionEffect id="131" Prob=""/>
+		<CompleteEffect Success="123" Fail="122" HyperSuccess="124"/>
+		<ResultBG Success="10874" Fail="10873" HyperSuccess="10875"/>
+	</Info>
+	
+	<Info AlchemyId="3">
+		<BlinkEffect id="120"/>
+		<BeginEffect id="114" Hyper="136"/>
+		<PredictionEffect id="131" Prob=""/>
+		<CompleteEffect Success="124" Fail="123" HyperSuccess="125"/>
+		<ResultBG Success="10875" Fail="10874" HyperSuccess="10876"/>
+	</Info>
+	
+	<Info AlchemyId="4">
+		<BlinkEffect id="121"/>
+		<BeginEffect id="115" Hyper="137"/>
+		<PredictionEffect id="131" Prob=""/>
+		<CompleteEffect Success="125" Fail="124" HyperSuccess="126" />
+		<ResultBG Success="10876" Fail="10875" HyperSuccess="-1"/>
+	</Info>
+	
+	<Info AlchemyId="5">
+		<BlinkEffect id="122"/>
+		<BeginEffect id="116" Hyper="138"/>
+		<PredictionEffect id="131" Prob=""/>
+		<CompleteEffect Success="126" Fail="125" HyperSuccess="-1" />
+		<ResultBG Success="-1" Fail="10876" HyperSuccess="-1"/>
+	</Info>	
+</DisplayInfo>
+</PromoteMagicDollDisplay>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+<dialog>
+	<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+  <p><font fg="ffffff">ルイス湖</font>かい？ルイス湖は、ギランの方面に行くとあるよ。<br/>
+	アデン内にあるすべての湖の中で最も大きな湖なんだ。また、いつも濃い霧が立ち込めているおかげで、<font fg="ffffff">霧の湖</font>という名でも知られてるんだよ。</p>
+  </dialog>
+</npcdialog>

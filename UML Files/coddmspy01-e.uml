@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">test：</font></p>
+		<p><br/>
+		 testする！<br/>
+		 <br/>
+		<a action="request mtosr1">よこしな！</a></p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

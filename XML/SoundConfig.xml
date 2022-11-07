@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 사운드 종류별 최종 볼륨 출력 비율 -->
+<VolumeRatio>
+	<Volume Name="EFFECT" Type = "0" Ratio="90"/>	<!-- 효과음 -->
+	<Volume Name="ENV" Type = "1" Ratio="50"/>	<!-- 환경음 -->
+	<Volume Name="VOICE" Type = "2" Ratio="100"/>	<!-- 보이스 -->
+	<Volume Name="MUSIC" Type = "3" Ratio="40"/>	<!-- 배경음 -->
+	
+	<EffectSound Name="Effect Sound Setting">
+		<!-- 이펙트 사운드가 동시에 MaxSound 갯수 이상 출력되면 보스/자신을 제외하고 나머지 이펙트 볼륨을 Ratio 비율로 설정 -->
+		<AutoVolume Name="Auto Volume" MaxSound="13" Ratio="0"/>
+		
+		<!-- -이펙트 사운드 오브젝트별 볼륨 비율-->
+		<!-- 플레이 하려는 사운드와 같은 사운드가  MaxSameSound 갯수 이상 출력중 이면 사운드 출력 안함 -->
+		<EffectVolume Name="PC" Type = "0" Ratio="80" MaxSameSound = "2"/>	<!-- 자신(pc) -->
+		<EffectVolume Name="BOSS MONSTER" Type = "1" Ratio="100"/>	<!-- 보스 몬스터 -->
+		<EffectVolume Name="MONSTER" Type = "2" Ratio="55" MaxSameSound = "2"/>	<!-- 일반 몬스터 -->
+		<EffectVolume Name="USER" Type = "3" Ratio="65" MaxSameSound = "4"/>	<!--  다른유저 -->
+	</EffectSound>
+</VolumeRatio>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	
+	<dialog>
+		
+		<p>うわ…なんで取れないんだ<br/></p>
+		<p>うっ、ヴァラカスと目が合った気が…<br/><br/></p>
+		<p>やばい～逃げなきゃ～！助けて～<br/></p>
+
+
+				
+	</dialog>
+
+</npcdialog>

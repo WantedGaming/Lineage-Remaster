@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>花屋主人シャロン</name>
+		<job>花束商人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>あなたは花とはとても似合わないわ！<br/></p>
+		<p>無礼な素振りを改めないなら警備兵を呼びますよ！<br/><br/></p>
+
+	</dialog>
+
+
+</npcdialog>

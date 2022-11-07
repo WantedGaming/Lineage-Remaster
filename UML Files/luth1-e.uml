@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ロッテ</name>
+  </npc>
+  <dialog>
+	<p>お客様、大変申し訳ないのですが…</p>
+	<p>怪しい人物には物を売ってはならない決まりになっております。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 使用時間を使い切ってしまったか、今は乾いた荒地に人が多すぎるかのどちらかだな。<br/>
+		 ここは一日に40分だけ使用できる。<br/>
+		 時間を使い切ってしまったのでなければ、もう少し待ってもらえるか？<br/><br/>
+		<a action="A">* 乾いた荒地に入場</a><br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

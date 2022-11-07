@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィッシャー</name>
+		<job>[侍従長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>現在の城門の状態は以下のとおりです。</p>
+		<p><var src="0"/></p>
+		<p><var src="1"/></p>
+		<p><var src="2"/></p>
+		<p><var src="3"/></p>
+		<p><a action="healegate_heine outer gate north">外城北門を修理する</a></p>
+		<p><a action="healegate_heine outer gate south">外城南門を修理する</a></p>
+		<p><a action="autorepairon">城門自動修理命令を下す</a></p>
+		<p><a action="autorepairoff">城門自動修理命令を取り消す</a></p>
+  </dialog>
+</npcdialog>

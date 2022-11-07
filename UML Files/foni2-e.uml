@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Foni</name>
+		<job>Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p><font fg="ffffff"><var src="0"/>%</font>Yes, that's right. Gush, you can tell by this that we're not making much money, right?
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

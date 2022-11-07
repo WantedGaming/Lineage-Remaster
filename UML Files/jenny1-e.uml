@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		狩人のデレックがつくるボウは、本当に素晴らしい逸品なんですよ。威力はちょっと弱いんだけど、本当に使い易くつくられてるの。あたしみたいな人でも簡単に目標に命中させられるくらいなんだから。
+		</p>  
+	</dialog>
+</npcdialog>

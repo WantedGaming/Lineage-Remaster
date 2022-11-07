@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[怪しい収集家]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		こんにちは。私はエルフの羽に宿った魔法エネルギーの研究をしています。<br/><br/> <font fg="ffffaf">ピクシーの金色の羽8個</font>を持ってきてくだされば、<font fg="ffffaf">グンターの印章1個</font>と交換いたしましょう。<br/><br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

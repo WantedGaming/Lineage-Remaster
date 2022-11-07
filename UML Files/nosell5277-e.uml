@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>ハハハ。</p>
+		<p>お前さんは透明の魚でも捕まえたのかい？</p>
+		<p>悪いが、わしは目に見える魚しか買わないんじゃ。</p>
+		<p>ハハハ。</p>
+	</dialog>
+
+</npcdialog>

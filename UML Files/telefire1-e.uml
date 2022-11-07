@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name><var src="name"/></name>
+		<job>[火田村のテレポーター]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>こんにちは。私は火田村に移住する人を探しに来たんだ。</p>
+		<p>森を開墾するのに人手が足りず、オーク要塞のオークたちの攻撃を防ぐ戦士も足りていないんだ。</p>
+		<p>だから<font fg="ffffff">犯罪者や罪人、グランカインの信者</font>でも、村に来てくれるなら構わない。</p>
+		<p>しかし、かなり荒れた人たちばかりで、あなたのような良い人にはお勧めしたくないな。</p>
+		<p><a link="telefire4">火田村とは？</a></p>
+	</dialog>
+
+</npcdialog>

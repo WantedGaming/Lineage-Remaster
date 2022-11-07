@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>First level 99</name>
+		<job>[Event]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="fffaff">
+		<br/>
+		Hey, did you hear that?
+		<br/>
+		<br/>
+		I'm talking about the birth of Aden World's first Level 99 Hero!<br/>
+		<br/>
+		The protagonists of this amazing history are.<br/>
+		<font fg="ffafff">[BSキム・ファンソン]</font> from <font fg="ffffaf">Server 1</font><br/>
+		<br/>
+		<br/>
+		To truly celebrate our <font fg="ffffaf">first Level 99</font> achievement, we present you with a special <font fg="ffafff">Métis buff</font> with Métis's sentiments.
+		<br/>
+		Come and celebrate with us, brave sir!<br/>
+		<br/>
+		<br/>
+		Welcome to the first level 99 brave souls!<br/>
+		<br/>
+		<br/>
+		<font fg="afffff"><a action="A">* Celebrate your first level 99</a></font><br/>
+		<br/>
+		(When clicked, buff is obtained)
+		<br/></font>
+		</p>
+	</dialog>
+</npcdialog>

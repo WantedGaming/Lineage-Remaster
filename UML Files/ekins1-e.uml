@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エキンス</name>
+    <job>[Growth Wizard]</job>
+  </npc>
+  <dialog>
+	<p>
+こんにちは。
+私は成長と経験の魔法を研究しているエキンスです。<br/>
+魔法の詠唱に必要な物をお持ちでないようですね。<br/>
+<font fg="ffaaff">隣のクルナからユニコーンの成長の証</font>を買ってください。<br/>
+ それか、現在クルナが売っていない<font fg="ffaaff">成長の玉</font>と<font fg="ffaaff">成長の玉の欠片</font>が材料になります。
+</p>
+  </dialog>
+</npcdialog>

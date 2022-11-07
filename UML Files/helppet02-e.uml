@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ペット</title>
+  <dialog>
+	<p><font fg="ffffaf">ペットの獲得方法：</font><br/>
+	火田村のNPCマニーを訪ねてかごを購入後、ダブルクリックするとペットのアミュレットが獲得できます。<br/><br/>
+	<font fg="afffff">パンダ(ペット)、カンガルー(ペット)</font>は<font fg="afffff">モンスター図鑑週間クエスト</font>報賞として獲得できます。<br/><br/>
+	<font fg="afffff">タイガー(ペット)、紀州犬(ペット)、レッド ハッチリン(ペット)、ブルー ハッチリン(ペット)、ゴールド ドラゴン(ペット)</font>は獲得できません。<br/></p>
+	<p><img src="331" link="helppet"/><br/><br/></p>
+	</dialog>
+</npcdialog>

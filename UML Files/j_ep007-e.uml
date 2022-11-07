@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ケレニス</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		これで終わりよ。がんばってね、オリム！<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Britt</name>
+		<job>General Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Welcome! The water city of Heine is famous! I'm Brit, the general merchant!<br/>
+		 We have everything except what we didn't stock! Take a look!<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p></p><br/>
+		<p><a action="s_merchant3">Ask about recent prices</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>中央移動魔法陣</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		<br/>市場内で<font fg="e8aee7">すばやい移動</font>を手伝う魔法陣です。<br/>
+		<br/>
+		<a action="teleport Mobjtele1">[市場の中心に移動する]</a><br/>
+		<br/>
+		＊チャットウィンドウに<font fg="e8aee7">/商人検索[半角スペース]キャラクター名</font>と入力すれば、市場のどこでも簡単に商人を探すことができます。<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

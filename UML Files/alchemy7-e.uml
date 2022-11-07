@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extracting a magical catalyst from Eva's legacy.<br/></p>
+    <p>You can extract 30 Magic Stones, 50 Spirit Orbs, and 20 Black Magic Stones from each Eva Legacy. Which one do you want to extract?<br/><br/><br/></p>
+    <p><a link="alchemy19">magic stone</a><br/></p>
+    <p><a link="alchemy20">spirit ball</a><br/></p>
+    <p><a link="alchemy21">black magic stone</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy4"/><br/></p>
+  </dialog>
+</npcdialog>

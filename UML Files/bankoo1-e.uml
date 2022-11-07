@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バンク</name>
+		<job>ハッチリン交換人</job>
+		<text>ハッチリンの卵を持ってくると、ハッチリンと交換してくれる。</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 なんだ～？<br/>
+		 まさか、ハンクやマンクと間違えてるんじゃないだろうな？<br/><br/>
+		 わしの尻の方が魅力的じゃ！二度と間違えるんじゃないぞ！<br/><br/>
+		 ハッチリンの卵を持ってきたら、かわいいハッチリンと交換してやるぞ！
+		 こいつが大きくなってドラゴンになったら、燃やされるか食われるだろうな！<br/>クックックッ…<br/><br/>でも、心配するな！<br/><br/>
+		 ドラゴンになるまで数百年はかかるからのぅ。
+		<br/><br/><br/>
+		<a action="buy 7">グリーンハッチリンの卵と交換する</a><br/>
+		<a action="buy 8">イエローハッチリンの卵と交換する</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

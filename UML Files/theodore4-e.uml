@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ネルファは<a link="theodorE5">アラクネ</a>族の長老として<font fg="ffffff">森とエルフの母の横の洞窟</font>に住んでいるんだ。彼女は太古から世界樹と共生しながら、エルフが<font fg="ffffff">必要とするもの</font>を作っておられるそうだ。それがアインハザード様が彼女に下した運命だから。数千年にわたって…抜け出すことのできない運命を負って…私はグランカインに従っているわけではないが、時々アインハザード様の意志を疑うときがあるんだ。危険な考えだろうか？</p>
+	</dialog>
+
+</npcdialog>

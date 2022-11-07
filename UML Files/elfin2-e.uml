@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>エルフィン</name>
+	<job>General Merchant</job>
+  </npc>
+  <dialog>
+	<p>
+ 純粋なエルフの地に足を踏み入れるには適当じゃない状態っぽいね。もう少し自分自身を浄化させる必要がありそうだね。<br/>
+</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ささやき：</font>
+<br/><br/>
+東側の下の足場は<var src="0"/>を持っている。<br/><br/>
+それからヒントは常に第三者の視点からのものだ。<br/><br/>
+</p>
+</dialog>
+</npcdialog>

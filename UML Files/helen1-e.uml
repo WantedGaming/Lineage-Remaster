@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ねえ、聞いた？</p>
+		<p>タロス伯爵がギラン監獄に移送されたって！</p>
+		<p>そもそも、あのマーリンっていうウィザードも生意気なのよ。</p>
+		<p>あんな監獄と村を繋ぐなんて…</p>
+	</dialog>
+	
+</npcdialog>

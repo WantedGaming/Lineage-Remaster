@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>マット</name>
+    <job>[ウィザード]</job>
+  </npc>
+  <dialog>
+    <p> ようこそ。私は象牙の塔から派遣されてきた、ウィザードのマットです。</p>
+    <p><br/></p>
+	<p> 私をとおして<font fg="ffafff">お望みの場所にすばやく移動</font>できます。</p>
+	<p><br/></p>
+	<p> どちらにご案内しましょうか？</p>
+	<p><br/></p>
+	<p> <a link="matt7">狩り場に行きたいです</a></p>
+	<p><br/></p>
+	<p> <a link="matt5">他の村に行きたいです</a></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

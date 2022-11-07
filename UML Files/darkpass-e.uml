@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p align="left"><br/><font fg="ffffff">闇のフリーパス券</font><br/><br/></p>
+	<p>[レベル別報賞獲得時に必要なアイテム情報]<br/></p>
+	<p>レベル55：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン1個</font><br/></p>
+	<p>レベル56：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン1個</font><br/></p>
+	<p>レベル57：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン1個</font><br/></p>
+	<p>レベル58：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン2個</font><br/></p>
+	<p>レベル59：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン2個</font><br/></p>
+	<p>レベル60：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン2個</font><br/></p>
+	<p>レベル61：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン3個</font><br/></p>
+	<p>レベル62：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン3個</font><br/></p>
+	<p>レベル63：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン3個</font><br/></p>
+	<p>レベル64：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン4個</font><br/></p>
+	<p>レベル65：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン4個</font><br/></p>
+	<p>レベル66：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン4個</font><br/></p>
+	<p>レベル67：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン5個</font><br/></p>
+	<p>レベル68：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン5個</font><br/></p>
+	<p>レベル69：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン5個</font><br/></p>
+	<p>レベル70：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン6個</font><br/></p>
+	<p>レベル71：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン6個</font><br/></p>
+	<p>レベル72：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン6個</font><br/></p>
+	<p>レベル73：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン7個</font><br/></p>
+	<p>レベル74：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン7個</font><br/></p>
+	<p>レベル75：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン7個</font><br/></p>
+	<p>レベル76：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン8個</font><br/></p>
+	<p>レベル77：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン8個</font><br/></p>
+	<p>レベル78：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン9個</font><br/></p>
+	<p>レベル79：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン9個</font><br/></p>
+	<p>レベル80：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン10個</font><br/></p>
+	<p>レベル81：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン10個</font><br/></p>
+	<p>レベル82：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン11個</font><br/></p>
+	<p>レベル83：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン11個</font><br/></p>
+	<p>レベル84：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン12個</font><br/></p>
+	<p>レベル85：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン12個</font><br/></p>
+	<p>レベル86：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン13個</font><br/></p>
+	<p>レベル87：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン15個</font><br/></p>
+	<p>レベル88：<font fg="ffffaf">闇のフリーパス券1枚</font>+<font fg="ffafff">英雄のコイン20個</font><br/></p>
+	<p></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[エルモア]：</font></p>
+	<p><br/></p>
+	<p>巨大な軍事力を持つ<font fg="ffffaf">エルモア</font>は、<font fg="ffffaf">アデン</font>と隣接する<font fg="ffffaf">グレシア</font>とも同等に戦えるほど力をつけていたが、一方で典型的な武官であった国王<font fg="ffffaf">トラビス5世</font>が政治や国家再建にこれといった力を発揮しなかった<font fg="ffffaf">アデン</font>は依然国としては脆弱のままだった。</p>
+	<p><br/></p>
+	<p>このチャンスを<font fg="ffffaf">エルモア</font>が逃すはずがなかった。</p>
+	<p><br/></p>
+	<p>もはや敵がいない<font fg="ffffaf">エルモア</font>は、<font fg="ffffaf">3次エルモア大戦</font>勃発後、たったの3年で<font fg="ffffaf">グルーディオ</font>と<font fg="ffffaf">ウィンダウッド</font>を占領する快挙を成し遂げた。</p>
+	<p><br/></p>
+	<p>さらに、この大戦の最中に<font fg="ffffaf">トラビス5世</font>は風土病により逝去することになる。</p>
+	<p><br/></p>
+	<p>国王を失った<font fg="ffffaf">アデン</font>は最後まで力を振り絞って耐えたが、<font fg="ffffaf">エルモア</font>の攻勢を防ぐには役不足であった。</p>
+	<p><br/></p>
+	<p>豪華な絨毯が敷き詰められていた宮廷は壊され、王冠も戦争の最中になくなり、父からの王位を継承した<font fg="ffffaf">トラビス6世</font>が受け継いだのは、先代の王の古びたクロークただひとつだった。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf">エルモア</font>は何の経験もない若輩者が国王になったことをあざ笑ったが、この若き国王が後の世で<font fg="ffffaf">救国王</font>と呼ばれることになる。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook07">* 救国の英雄トバリス6世</a></p>
+	<p><br/></p>
+	<p><a link="storybook08">* 鋼鉄のギルド</a></p>
+	<p><br/></p>
+	<p><a link="storybook09">* 蜂起</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

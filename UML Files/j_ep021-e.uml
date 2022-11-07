@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">バルログ：</font>
+<br/><br/>
+ケレニスは、エヴァの娘。水の精霊。そしてまだ子供。<br/><br/>
+そして…<br/><br/><br/>
+…いや、ここまでだ。<br/><br/>
+<a link="j_ep018">あなたは何者ですか？</a><br/>
+<a link="j_ep019">ハーディンは何をしようとしているのですか？</a><br/>
+<a link="j_ep020">あの方とは誰ですか？</a><br/>
+<a link="j_ep022">モンスターたちはあなたの手下ですか？</a><br/>
+<a link="j_ep023">あなたは何をしようとしていたのですか？</a><br/>
+<a link="j_ep024">あなたはハーディンを知ってますか？</a><br/>
+</p>
+</dialog>
+</npcdialog>

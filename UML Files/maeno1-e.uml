@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>○○</name>
+  </npc>
+  <dialog>
+    <p>これより、マジックドールたちによる運動会を開催いたします。</p>
+    <p>運動会は<font fg="e8aee7">10分ごと</font>に、<font fg="e8aee7">7日間</font>限定で行われます。</p>	
+    <p>キャラクターあたり、1試合につき最大<font fg="e8aee7">10,000</font>個まで応援のラッパを購入できます。</p>
+    <p><a action="status">マジックドールたちの戦績をご覧ください</a></p>
+    <p><a action="buy">応援のラッパをお買い求めください</a></p>
+    <p><a action="sell">成功したラッパを交換してください</a></p>
+    <p>運動会は毎日午後<font fg="ffaaff">6時</font>～夜の<font fg="ffaaff">1時</font>まで開催されます。</p>
+    <p>ただし、攻城戦が行われる<font fg="ffaaff">日曜日</font>の午後<font fg="ffaaff">8時</font>～午後<font fg="ffaaff">9時</font>の間は運動会は開催されません。</p>
+    <p>最後に、イベントが終了すると応援のラッパは<font fg="ffaaff">削除</font>されますので、その前に成功した応援のラッパを交換してください。</p>
+	</dialog>
+</npcdialog>

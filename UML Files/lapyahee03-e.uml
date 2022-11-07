@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>研究員</name>
+  </npc>
+  <dialog>
+    <p>シバインの尾50個、シバインの牙100個、血のついた砂10個を持って来てくれ。</p>
+	<p>それくらいあれば、ここにある材料と合わせて作れそうなんだ。</p>
+    <p><a action="request spear of guardian">シバインのスピアーを製作する</a></p>
+  </dialog>
+</npcdialog>

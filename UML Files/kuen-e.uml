@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>メモ</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<!-- <name>쿠엔</name> -->
+		<!-- <job>[ 대장장이 ]</job> -->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		<font fg="fffff">クエンのメモ<br></br>
+		必要品リスト<br></br>
+		ミスリル30個<br></br>
+		聖水1個<br></br>
+		クエンのメモ<br></br>
+		</font>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

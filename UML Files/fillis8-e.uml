@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>やれやれ、噂が広まるのは早いのぅ。</p>
+		<p>これはここだけの話じゃがな、ボスモンスターを何匹か倒して魂を持って来たら、特別な銅像を作ってやるぞ。</p>
+		<p>こういうのを倒せばいい。</p>
+		<p><font fg="ffffaf">
+		- デーモン<br/>
+		- ドレイク<br/>
+		- クーガー<br/>
+		- アイリス<br/>
+		- グレート ミノタウルス</font></p>
+		<p><a link="fillis9">どんな材料がいるんですか</a></p>
+  </dialog>
+</npcdialog>

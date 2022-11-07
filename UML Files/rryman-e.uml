@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>こんにちは。グルーディン村へ来られたことを歓迎します。</p>
+		<p>私はいとこのロリアを手伝ってここで働いてます。</p>
+		<p>ギランの辺りはドラゴンの戦いによる被害があるそうですが、ここは安全ですよ。</p>
+		<p>近くに危険なモンスターもいませんし、ここは最高の場所だと思いますよ。</p>
+	</dialog>
+	
+</npcdialog>

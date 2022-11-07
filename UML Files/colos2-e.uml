@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name><name/></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 現在、コロシアムは整備中です。
+		 次の競技時間は<var src="0"/>です。5分前から入場できます。<br/>
+		 予定している競技のルールは以下のとおりです。<br/>
+		<br/>
+		最低参加可能レベル：レベル<var src="3"/>以上<br/>
+		最高参加可能レベル：レベル<var src="4"/>以下<br/>
+		テレポート：<var src="5"/><br/>
+		復活：<var src="6"/><br/>
+		ポーション使用：<var src="7"/><br/>
+		HP自然回復：<var src="8"/><br/>
+		MP自然回復：<var src="9"/><br/>
+		サモン/テイミング モンスター及びペット使用：<var src="10"/><br/>
+		PvP方式：<var src="11"/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

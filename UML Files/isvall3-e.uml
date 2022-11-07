@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Isval</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		 <p>Forgotten Islands is where even the most skilled adventurers fear to tread.</p>
+		<p>With your current skills I think it's a bit early to go to the Forgotten Island, don't you? I think you'd better get more experiences before you go there. Come back again.</p>
+		<p>One more thing. Please remember that it is not a place where you can casually go just because it is strong.</p>
+	</dialog>
+</npcdialog>

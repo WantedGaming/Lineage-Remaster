@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+    <p>母のお使いで、オーレン村に行く必要があるんですけど、一人で行く勇気がありません。</p>
+    <p>遅くなる前に出発したいけど、村の外には怖いモンスターが出るって話ですよね？</p>
+    <p>誰かが一緒に行ってくれたら安心なんですけどね…<br/><br/><br/></p>
+    <p><a action="start">一緒に行きましょう</a></p>
+  </dialog>
+</npcdialog>

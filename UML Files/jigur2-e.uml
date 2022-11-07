@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[ピクシーの箱交換員]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> 元気か？久しぶりだな…今回もまた<font fg="ffffaf">ピクシーの魂</font>を集めてくれないか？手伝ってくれたら<font fg="ffffaf">光るピクシーの箱</font>をやろう…<br/><br/>
+		<font fg="ffffaf">準備品：ピクシーの魂30個</font><br/><br/>
+		<a action="G">光るピクシーの箱をください</a><br/><br/> 
+		
+		 <font fg="ffffaf">ピクシーの魂</font>は<font fg="ffffaf">怪しい天上の渓谷</font>のモンスターを狩れば手に入るぞ。<br/><br/>
+		<a action="A">怪しい天上の渓谷1区域にテレポート</a><br/>
+		<a action="B">怪しい天上の渓谷2区域にテレポート</a><br/>
+		<a action="C">怪しい天上の渓谷3区域にテレポート</a><br/>
+		<a action="D">怪しい天上の渓谷4区域にテレポート</a><br/>
+		<a action="E">怪しい天上の渓谷5区域にテレポート</a><br/>
+		<a action="F">怪しい天上の渓谷6区域にテレポート</a><br/>
+		
+		 ちなみに<font fg="ffffaf">怪しい天上の渓谷</font>は1日に1時間しか入れないぞ。<br/>
+		 それから、光るピクシーの箱も1日に1回しか渡せないから、覚えておけ。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

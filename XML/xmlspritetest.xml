@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SpriteTestUI Toggle="true">
+	<Window Name="Window" X="100" Y="50" Width="600" Height="400" DevImage="1" DevColor="50,50,50">
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="0" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="1" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="2" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="3" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="4" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="5" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="6" Header="1" AutoPlay="true"/>
+		<Sprite Name="TestSprite" Width="200" Height="200" X="250" Y="180" SpriteId="0" Action="0" Direction="7" Header="1" AutoPlay="true"/>
+	</Window>
+</SpriteTestUI>

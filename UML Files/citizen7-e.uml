@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 これはどこかの賢者の言葉なんだが<br/>
+		 <br/>
+		 「逆境が人に美しさを与える。それはガマガエルのように醜く、毒を含んでいようとも、その中は宝石を含んでいる。」ってな<br/>
+		 <br/>
+		 君のためになるかは分からないけど、どんな苦難が訪れようとも、仲間と一緒ならきっと克服できると思っているよ。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<SpecialPolymorphUI>
+  <Window Name = "Polymorph_Window" X = "272" Y = "68" BaseSurf = "6251;1" FrameSurf = "6252;1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "Exit_Keyboard">
+    <Button Name = "Exit_Button" X = "225" Y = "15" BaseSurf = "4429" PushSurf = "4430" MouseEvent = "Exit_Mouse"/>
+    <Button Name = "Ok_Button" X = "60" Y = "321" BaseSurf = "4949" HighlightSurf = "4950" PushSurf = "4951;1" MouseEvent = "Ok_Mouse"/>
+    <Button Name = "Cancel_Button" X = "127" Y = "321" BaseSurf = "4952" HighlightSurf = "4953" PushSurf = "4954;1" MouseEvent = "Cancel_Mouse"/>
+    <Image Name = "Title_Image" X = "24" Y = "43" Surf = "6253;1"/>
+    <ScrollBar Name = "Poly_Scrollbar" X = "216" Y = "180" Width = "15" Height = "125" ScrollStart = "0" ScrollHeight = "125" Vertical = "1" MaxValue = "1" MouseEvent = "ScrollWheel_Mouse">
+      <Image Name = "Background_Image" X = "0" Y = "0" Surf = "4948;1"/>
+      <Button Name = "Up_Button" X = "1" Y = "-16" BaseSurf = "4178;1" PushSurf = "4179;1" MouseEvent = "Dummy"/>
+      <Button Name = "Down_Button" X = "0" Y = "125" BaseSurf = "4180;1" PushSurf = "4181;1" MouseEvent = "Dummy"/>
+      <Button Name = "Move_Button" X = "1" Y = "12" BaseSurf = "4182;1" PushSurf = "4183;1" MouseEvent = "Dummy"/>
+    </ScrollBar>
+    <Control Name = "PolymorphList_Control" X = "20" Y = "55" Activate = "1">
+      <List Name = "PolymorphTotal_List" X = "5" Y = "11" Width = "180" Height = "240" Vertical = "1" Gap = "0">
+        <List Name = "Polymorph0_List" Width = "180" Height = "80" Horizontal = "1" Gap = "0">
+          <ListItem Name = "Polymorph0_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+          <ListItem Name = "Polymorph1_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+          <ListItem Name = "Polymorph2_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+        </List>
+        <List Name = "Polymorph1_List" Width = "180" Height = "80" Horizontal = "1" Gap = "0">
+          <ListItem Name = "Polymorph0_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+          <ListItem Name = "Polymorph1_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+          <ListItem Name = "Polymorph2_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+        </List>
+        <List Name = "Polymorph2_List" Width = "180" Height = "80" Horizontal = "1" Gap = "0">
+          <ListItem Name = "Polymorph0_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+          <ListItem Name = "Polymorph1_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+          <ListItem Name = "Polymorph2_Button" BaseSurf = "3397" OverSurf = "5029;4" DisableOverSurf = "13" MouseEvent = "Polymorph_Mouse">
+            <Image Name = "Lock_Image" X = "39" Y = "61" Surf = "6254;1"/>
+            <Tooltip Name = "Desc_Tooltip" X = "1" Y = "1" Text = "Summon Monster" Area = "0" HAlign = "center" VAlign = "bottom" FontColor = "255,255,255" BackColor = "0,0,0"/>
+          </ListItem>
+        </List>
+      </List>
+    </Control>
+  </Window>
+</SpecialPolymorphUI>

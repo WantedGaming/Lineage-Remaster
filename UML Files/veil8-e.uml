@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p> 今ちょうどすべての勇士がドラゴンを倒す準備ができたところだろう。<br/>
+		<br/>
+    ドラゴン征伐についての君の想いは分かるが…どうも運が味方していないのは確かのよう。<br/>
+		<br/>
+    何にせよ選ぶことが君の役目であるからな…</p>
+ 
+  </dialog>
+</npcdialog>

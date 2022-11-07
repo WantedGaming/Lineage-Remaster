@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>オーク要塞の専属ゲートキーパー</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 私はオーク要塞のゲートキーパーだ。<br/>
+		 外城や村など、各地にテレポートできる魔法を習得した。<br/>
+		 行きたいときはいつでも言ってくれ。<br/>
+		<br/><br/>
+		<a action="teleportURL">他の地域にテレポートする</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>倉庫番</name>
+    <job>[倉庫番]</job>
+  </npc>
+  <dialog>
+	<p>倉庫がいっぱいで、これ以上アイテムをお預かりできません。</p>
+	<p>本日も私どもドワーフの鋼鉄ギルドをご利用いただきありがとうございます。</p>
+	<p>よい一日をお過ごしください。</p>
+  </dialog>
+</npcdialog>

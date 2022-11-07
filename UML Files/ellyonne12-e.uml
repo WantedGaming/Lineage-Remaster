@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p><br/>
+		Purity is the reason why only elves can use spirit magic.</p>
+		<p>It's not that hard for elves, who are inherently pure at heart, to regain their purity again.</p>
+		<p>Just remember that it costs more to restore purity with each iteration.</p>
+		<p><font fg="ffafff"><a><var src="0"/></a>Adena</font>Do you want to remove the series?</p>
+		<br/>
+		<panel type="Panel_Initialization_Bt">
+			<button action="money"/>
+        </panel>
+		<p><br/></p>
+		<p><img src="331" link="ellyonne11"/></p>
+	</dialog>
+</npcdialog>

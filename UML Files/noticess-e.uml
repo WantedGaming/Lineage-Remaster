@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Notice</title>
+
+<dialog>
+
+<p>Your customer has not yet subscribed to a security service.</p>
+<br/>
+<p><font fg="1270ff">By subscribing to our security service, you will not only be able to use the game safely, but also buff your in-game</font></p>
+<br/>
+<p><font fg="1270ff">I can get it.</font></p>
+<br/>
+<p><font fg="1270ff">Subscribing to the Security Service is a smooth process.</font></p>
+<br/>
+<p><font fg="1270ff">You can subscribe to this service.</font></p>
+<br/>
+<p>In order to prevent account theft, customers should strengthen their own security and</p>
+<br/>
+<p>We appreciate your cooperation in subscribing to our security service.</p>
+<br/>
+<p>(This security notice will not appear if you subscribe to the security service.)</p>
+<br/>
+</dialog>
+
+</npcdialog>

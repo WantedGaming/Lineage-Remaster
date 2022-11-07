@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SihonTimer Toggle="true">
+<Window Name="Background_Multi" X="0" Y="0" Width="322" Height="48" BaseSurf="7733;3" Moveable="20">
+	<Image Name="Background_Screen" X="0" Y="0" Width="322" Height="48" Surf="7734;4" />
+	<Control Name="CurTime" X="26" Y="13" Width="209" Height="52" >
+		<Image Name="CurTime_Min10" X="0" Y="0" Width="16" Height="22" Surf="7723;1" />
+		<Image Name="CurTime_Min1" X="16" Y="0" Width="16" Height="22" Surf="7723;1" />
+		<Image Name="CurTime_Sec10" X="43" Y="0" Width="16" Height="22" Surf="7723;1" />
+		<Image Name="CurTime_Sec1" X="59" Y="0" Width="16" Height="22" Surf="7723;1" />
+		<Image Name="CurTime_Colon" X="35" Y="3" Width="6" Height="16" Surf="7735;1" />
+	</Control>
+	<Control Name="Top1Time" X="156" Y="5" Width="139" Height="52" >
+		 <Image Name="Top1_Min10" X="0" Y="0" Width="8" Height="10" Surf="7737;1" />
+		 <Image Name="Top1_Min1" X="8" Y="0" Width="8" Height="10" Surf="7737;1" />
+		 <Image Name="Top1_Sec10" X="20" Y="0" Width="8" Height="10" Surf="7737;1" />
+		 <Image Name="Top1_Sec1" X="28" Y="0" Width="8" Height="10" Surf="7737;1" />
+		 <Image Name="Top1_Colon" X="16" Y="3" Width="4" Height="7" Surf="7747;1" />
+		 <Label Name="Top1_Name" X="45" Y="0" Width="133" Height="10" FontColor="255,139,168" BackColor="0,0,0"/>
+		 <Image Name="Top1_letter" X="-40" Y="0" Width="36" Height="38" Surf="7736;1" />
+	</Control>
+	<Control Name="Top2Time" X="156" Y="19" Width="139" Height="56" >
+		 <Image Name="Top2_Min10" X="0" Y="0" Width="8" Height="10" Surf="7748;1" />
+		 <Image Name="Top2_Min1" X="8" Y="0" Width="8" Height="10" Surf="7748;1" />
+		 <Image Name="Top2_Sec10" X="20" Y="0" Width="8" Height="10" Surf="7748;1" />
+		 <Image Name="Top2_Sec1" X="28" Y="0" Width="8" Height="10" Surf="7748;1" />
+		 <Image Name="Top2_colon" X="16" Y="3" Width="4" Height="7" Surf="7758;1" />
+		 <Label Name="Top2_Name" X="45" Y="0" Width="133" Height="10" FontColor="255,203,185" BackColor="0,0,0"/>
+		 <Image Name="Top2_letter" X="-40" Y="0" Width="36" Height="38" Surf="7908;1" />
+	</Control>
+	<Control Name="Top3_Time" X="156" Y="33" Width="165" Height="47" >
+		 <Image Name="Top3_Min10" X="0" Y="0" Width="8" Height="10" Surf="7759;1" />
+		 <Image Name="Top3_Min1" X="8" Y="0" Width="8" Height="10" Surf="7759;1" />
+		 <Image Name="Top3_Sec10" X="20" Y="0" Width="8" Height="10" Surf="7759;1" />
+		 <Image Name="Top3_Sec1" X="28" Y="0" Width="8" Height="10" Surf="7759;1" />
+		 <Image Name="Top3_colon" X="16" Y="3" Width="4" Height="7" Surf="7769;1" />
+		 <Label Name="Top3_Name" X="45" Y="0" Width="133" Height="10" FontColor="241,244,239" BackColor="0,0,0"/>
+		 <Image Name="Top3_letter" X="-40" Y="0" Width="36" Height="38" Surf="7909;1" />
+	</Control>
+</Window>
+</SihonTimer>

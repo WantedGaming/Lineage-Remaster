@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ペット</title>
+  <dialog>
+	<p><font fg="ffffaf">ペットの種類：</font><br/>
+	ペットは<font fg="afffff">ペット、闘犬、猛獣、神獣</font>の4種類に区分され、各系列によって学べる野性の種類が異なります。<br/></p>
+	
+	<p><font fg="ffafff">ペット：</font><br/>
+	パンダ、ビーグル、コリー、セント バーナード<br/>
+	キャット、タヌキ、ウサギ、カンガルー<br/>
+	<font fg="ffafff">闘犬：</font><br/>
+	ドーベルマン、シェパード、ハスキー、紀州犬<br/>
+	<font fg="ffafff">猛獣：</font><br/>
+	ウルフ、キツネ、ベアー、タイガー<br/>
+	<font fg="ffafff">神獣：</font><br/>
+	レッド ハッチリン、ブルー ハッチリン、<br/> 
+	ゴールド ドラゴン、グリフォン、ユニコーン<br/></p>
+		
+	<p><font fg="ffffaf">ペットの属性：</font><br/>
+	<font fg="afffff">水、火、地、風、光</font>の5種類があり、ペットの一般攻撃に属性ダメージが追加されます。<br/>
+	<font fg="afffff">水、火、地、風</font>はモンスターの弱点や武器属性と同じ概念で、光属性はアンデッド追加ダメージのようにアンデッドモンスターを攻撃するときに追加ダメージを与える概念です。<br/></p>
+	<p><img src="331" link="helppet"/><br/><br/></p>
+		
+	</dialog>
+</npcdialog>

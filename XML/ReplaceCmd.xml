@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmdlist>
+	<command id = "1">
+		<input>위시</input>
+		<original>hsiw</original>
+	</command>
+	<command id = "2">
+		<input>putstatue;컨221</input>
+		<original>control 221</original>
+	</command>
+	<command id = "3">
+		<input>removestatue;컨222</input>
+		<original>control 222</original>
+	</command>
+	<command id = "4">
+		<input>텔;텔레;텔레포트;tel</input>
+		<original>teleport</original>
+	</command>
+		<command id = "5">
+		<input>intertel;인터텔</input>
+		<original>intertel</original>
+	</command>
+</cmdlist>

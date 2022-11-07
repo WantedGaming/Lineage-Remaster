@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>スパイによると、<font fg="ffff0">エヴァ王国のダンジョン</font>でオークの群れが何か探しているらしい。</p>
+		<p>やつらの首長<font fg="fff00">オーク密使 リーダー</font>だけが知っている機密情報を調べてくるのが君の任務だ！</p>
+		<p>私が書いた手紙を持って<font fg="fff00">エルラス</font>を訪ねれば、やつらに会うのに必要な<font fg="ffafff">変身スクロール</font>をくれるはずだ。</p>
+		<p>だが、変身だけではまだ不十分だ。</p>
+		<p>鉱物の袋を<font fg="fff00">鍛冶屋ピュアル</font>に渡せば<font fg="ffafff">オーク密使のバッジ</font>を作ってくれる。</p>
+		<p>君の活躍を期待しているぞ。</p>
+	</dialog>
+	
+</npcdialog>

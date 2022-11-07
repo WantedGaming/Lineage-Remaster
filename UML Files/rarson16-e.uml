@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>では<font fg="ffffaf">聖水</font>をどうぞ。</p>
+		<p>この<font fg="ffffaf">聖水</font>を使えば、ゴーストに出くわしても聖なる力で攻撃できます。</p>
+	</dialog>
+
+</npcdialog>

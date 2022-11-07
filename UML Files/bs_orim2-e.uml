@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>強化ウィザード</title>
+  <npc>
+    <name>オリム</name>
+    <job>[強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p>材料が足りないようだな。 </p>
+	<p>基本的に、段階が合った<font fg="ffaaaa">ブランク スクロール</font>と<font fg="ffaaaa">手数料</font>が必要だ。それとカウンター マジック/スローの魔法の場合、<font fg="ffaaaa">魔力の石</font>も必要になる。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

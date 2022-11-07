@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p> 私が、これまでの、人生を…航海日誌に、書き記してきた…<br/>
+		<br/>
+    こ、航海日誌、だけが…生きる、理由で…<br/>
+    航海日誌を…か、完成させることが…私の、夢だった…<br/>
+		<br/>
+    だが…ここで、日誌を、完成させる、前に…船が、沈没、してしまった…</p>
+		<p><br/></p>
+   <p><a link="voyager4">航海日誌はどこにあるのですか？</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 象牙の塔の村から出て東の方にまっすぐ行くと、木の生い茂った森が見えます。その途中には、かつてのエルモアとの戦争の痕跡が残ってるんですけど、先制攻撃をしかけてくるアンデッドがいるので気をつけてくださいね。<br/>
+		 <font fg="ffafff">スノーマン</font>、<font fg="ffafff">オウルベアー</font>、<font fg="ffafff">サーベル タイガー</font>、<font fg="ffafff">イエティ</font>などのモンスターが出ますよ。そんなに手ごわい相手じゃないですけどね。それでは、ご健闘を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

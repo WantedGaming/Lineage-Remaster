@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>セゲムアトゥバ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>武器購入</p>
+		<p><var src="1"/>Adena</p>
+
+		<p>食料購入</p>
+		<p><var src="2"/>Adena</p>
+
+		<p>傭兵維持費</p>
+		<p><var src="3"/>Adena</p>
+
+		<p>その他 諸費用</p>
+		<p><var src="4"/>Adena</p>
+	</dialog>
+	
+</npcdialog>

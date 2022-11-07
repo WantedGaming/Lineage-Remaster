@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>おいこら、お前は最後までタメ口だな。まあいいさ、お客さんは神様だからな。<br/>
+    <br/>
+		ここから5時の方向に少し行くと、木の板が浮かんでいる場所が見えるはずだ。
+    そこに船があるから、そのなかを通って下っていけばいい。<br/>
+    <br/>
+		じゃなきゃ、洞窟の壁に沿って7時の方向に下ると、細長い水たまりがあるんだが。
+    その近くにある大きな船に乗っていけば行けるぞ。</p>
+		</dialog>
+</npcdialog>

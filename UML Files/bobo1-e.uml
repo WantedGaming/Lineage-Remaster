@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Bobo</name>
+		<job>Smuggler</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Shh! Quiet...!<br/>
+		 Don't speak too loud or the old guys will take you away.<br/><br/><br/>
+		 I am Bobo. I'm here to pretend to be dead and do business.
+		 If there's something you want, just tell me. Whisper it.<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		
+		
+	</dialog>
+</npcdialog>

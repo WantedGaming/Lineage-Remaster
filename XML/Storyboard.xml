@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<StoryBoards>
+	<StoryBoard id="0">
+		<IntFromToAnimation targetName="OriginalExp" targetProperty="PositionY" duration="600" from="15" to="-8"  easingFunction="Back" easingMode="EaseOut"/>
+		<ColorFromToAnimation targetName="OriginalExp" targetProperty="FontColor" duration="1000" from="204,173,200" to="204,173,200"/>
+		<BoolKeyFrameAnimation targetName="OriginalExp" targetProperty="Enable" duration="1400">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+			<KeyFrame time="100%" value="false" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+		<IntFromToAnimation targetName="RealExp" targetProperty="PositionY" duration="600" beginTime="800" from="15" to="-8"  easingFunction="Back" easingMode="EaseOut"/>
+		<ColorFromToAnimation targetName="RealExp" targetProperty="FontColor" duration="1000" beginTime="800" from="51,255,0" to="51,255,0"/>
+		<BoolKeyFrameAnimation targetName="RealExp" targetProperty="Enable" duration="3000" beginTime="800">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+			<KeyFrame time="100%" value="false" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+	</StoryBoard>
+	<StoryBoard id="1">
+		<IntKeyFrameAnimation targetName="MoveBackImg" targetProperty="PositionX" duration="1500">
+			<KeyFrame time="0%" value="800" type="Easing"/>
+			<KeyFrame time="40%" value="183" type="Easing" easingFunction="Cubic" easingMode="Out"/>
+			<KeyFrame time="50%" value="183" type="Linear"/>
+			<KeyFrame time="60%" value="183" type="Linear"/>
+			<KeyFrame time="100%" value="-455" type="Easing" easingFunction="Cubic" easingMode="In"/>
+		</IntKeyFrameAnimation>
+		<BoolKeyFrameAnimation targetName="MoveBackImg" targetProperty="Enable" duration="1500">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+			<KeyFrame time="100%" value="false" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+	</StoryBoard>
+	<StoryBoard id="2">
+		<IntFromToAnimation targetName="MonsterBackImg" targetProperty="PositionX" duration="1000" from="800" to="49" easingFunction="Back" easingMode="EaseIn"/>
+		<BoolKeyFrameAnimation targetName="MonsterBackImg" targetProperty="Enable" duration="1000">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+	</StoryBoard>
+	<StoryBoard id="3">
+		<IntFromToAnimation targetName="FightNotiLabel" targetProperty="PositionY" duration="600" from="0" to="-10"  easingFunction="Back" easingMode="EaseOut"/>
+		<ColorFromToAnimation targetName="FightNotiLabel" targetProperty="FontColor" duration="1000" from="255,255,0" to="255,255,0"/>
+		<BoolKeyFrameAnimation targetName="FightNotiLabel" targetProperty="Enable" duration="1400">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+			<KeyFrame time="100%" value="false" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+	</StoryBoard>
+	<StoryBoard id="4">
+		<IntFromToAnimation targetName="ComboLabel" targetProperty="PositionY" duration="600" from="30" to="10"  easingFunction="Back" easingMode="EaseOut"/>
+		<ColorFromToAnimation targetName="ComboLabel" targetProperty="FontColor" duration="600" from="255,0,0" to="255,255,0"/>
+		<BoolKeyFrameAnimation targetName="ComboLabel" targetProperty="Enable" duration="600">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+			<KeyFrame time="100%" value="false" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+	</StoryBoard>
+	<StoryBoard id="5">
+		<IntFromToAnimation targetName="FriendshipNoti" targetProperty="PositionY" duration="600" from="-15" to="-35"  easingFunction="Back" easingMode="EaseOut"/>
+		<BoolKeyFrameAnimation targetName="FriendshipNoti" targetProperty="Enable" duration="1400">
+			<KeyFrame time="0%" value="true" type="Descrete"/>
+			<KeyFrame time="100%" value="false" type="Descrete"/>
+		</BoolKeyFrameAnimation>
+	</StoryBoard>
+</StoryBoards>

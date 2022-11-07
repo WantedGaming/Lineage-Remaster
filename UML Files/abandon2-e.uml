@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Scar</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		I am working here because my brother Squall asked me to.<br/>
+		Land of the Abandoned is only accessible to <font fg="ffaaff">Level 75</font> and above.<br/><br/>
+		<br/><br/>
+		<a action="a">Enter Land of the Abandoned</a>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

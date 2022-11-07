@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name><var src="name"/></name>
+  </npc>
+  <dialog>
+    <p>こんにちは。<br/>
+		<br/>
+    私はみなさんがより便利に利用できるよう<font fg="ffaaff">ミニゲームワールド</font>内の移動をサポートしています。<br/>
+		<br/>
+		<br/>何かお手伝いいたしましょうか？<br/>
+		<br/>
+		<br/>
+    <a action="teleportURL">他のところに行きたいです</a></p>
+  </dialog>
+</npcdialog>
+

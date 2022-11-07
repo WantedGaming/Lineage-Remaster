@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そなたはこの場所に相応しくはないようだ…</p>
+		<p><br/></p>
+		<p>レベル30以上、レベル70未満の勇士だけが入る資格がある。</p>
+		<p><br/></p>
+		<p><br/></p>
+	</dialog>
+</npcdialog>

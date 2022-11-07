@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Hero Accessory Exchange Coupon</title>
+
+	<dialog align="left">
+		<p>Available at the stone statue in Giran Castle Town.<br/> 
+		Item will be consumed when exchanging with same enchantment value.<br/> 
+		</p>
+		<p><font fg="FFFF00">※Available Items※</font><br/>
+		+6Rumtis Earring or Above<br/>
+		+6Snapper Ring or Above<br/>
+		+6Dragon T-shirt or Above<br/>
+		+6Rumtis Amulet or Above<br/>
+		+6Emblems or Above (composite)<br/>
+		+6Insignia or Above (synthetic)</p>			
+		</dialog>
+</npcdialog>

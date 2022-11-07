@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ユリエ：</font>
+<br/><br/>
+もちろんです！<br/><br/>
+時空の壺を差しあげます。<br/><br/>
+時空の壺を使えば、実際に触れることができますよ。<br/><br/>
+基本的な原理は、大気中のマナを吸収して作動すると思ってください！<br/><br/>
+<a action="c">時空の壺をもらう</a><br/>
+</p>
+</dialog>
+</npcdialog>

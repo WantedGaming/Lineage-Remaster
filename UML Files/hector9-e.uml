@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name>鍛冶屋 ヘクター</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		ランプ スチールか…</p><br/>
+		<p>ランプ スチール1個を作るには鋼鉄の原石5個とランプ メタル5個、それに500Adenaが必要だ。
+		材料さえ持ってくればすぐ作ってやるよ。<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request lump of steel"/></panel><p align="center">ランプ スチールを作る</p><br/>
+
+	</dialog>
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>フォイ</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>ふぅ、このくらいは大したことありませんね。</p>
+		<p>実は、秘密なんですが、メインランドのダンジョンの入口に柱が立っているじゃないですか。</p>
+		<p>その柱を軽く引っ掻いて出たクズでウィザードの石を作って師匠にお見せしたら、ルーンを作ってくださるんですよ！</p>
+		<p>いつもなら、厄介者だと毎日怒られていますが、それとなく驚いたようですね、ふふっ。</p>
+		<p>そうだ、<font fg="ffaaff">ルーンの魔力除去剤</font>は師匠が作ったルーンの魔力を除去する時に使います。</p>
+		<p>ルーンの魔力を除去した後、リドル兄さんに持っていけば、新しい魔法を刻む事ができるでしょう。</p>
+		<p>リドル兄さんは、絶対面倒くさいことばかり私に押し付けるです。</p>
+		<p><img src="331" link="poi1"/></p>
+	</dialog>
+
+</npcdialog>

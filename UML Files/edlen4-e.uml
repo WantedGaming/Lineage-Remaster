@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+	<name><var src="name"/></name>
+    <job>[Unicorn Temple Manager]</job>
+  </npc>
+  <dialog>
+	<p>
+ユニコーンテンプルに入るためには鍵が必要です。
+<br/>
+入るための鍵は、<font fg="ffaaff">ユニコーンテンプル商人のクルナ</font>から購入してください。<font fg="ffaaff">ユニコーンテンプルの宝物</font>からも手に入ります。
+<br/>
+ユニコーンテンプルの鍵を手に入れられたら、またお越しください。
+</p>
+  </dialog>
+</npcdialog>

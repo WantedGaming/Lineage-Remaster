@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィザード アスター</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>こんにちは、オーレンの「象牙の塔」から派遣されたウィザードのアスターです。</p>
+		<p>象牙の塔では魔法を有意義に活用するために様々なことを行っています。</p>
+		<p>私は別の空間への移動をお手伝いしています。</p>
+		<p>行きたい場所はありますか？</p>
+		<p><a action="teleportURL">他の村に行きたいです</a></p>
+		<p><a link="guidestart">狩り場の案内をお願いします</a></p>
+	</dialog>
+
+</npcdialog>

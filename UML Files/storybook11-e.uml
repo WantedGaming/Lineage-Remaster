@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[大虐殺：グルーディオ]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">王族の血</font>を引く者たちが<font fg="ffffaf">反王</font>の脅威から逃げるため、そして腐敗した象牙の塔から離れた多くのウィザードが身を守るために集まった場所が<font fg="ffffaf">グルーディオ</font>だった。</p>
+	<p><br/></p>
+	<p>首都<font fg="ffffaf">アデン</font>から遠く離れているだけでなく、<font fg="ffffaf">話せる島</font>に向かう唯一の船が出ている場所であるため、ここには<font fg="ffffaf">反王</font>から逃れてきた人たちで溢れていた。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf">反王</font>がここを見逃すわけもなく、ダークウィザード<font fg="ffffaf">ケレニス</font>が黒魔法で精神を支配した<font fg="ffffaf">ウィザード</font>たちを引き連れ<font fg="ffffaf">グルーディオ</font>へ向かった。</p>
+	<p><br/></p>
+	<p>だが、平凡な人たちが集まった<font fg="ffffaf">グルーディオ</font>であっても、生きるためへの抵抗はあまりに強かった。</p>
+	<p><br/></p>
+	<p>王室を守ってきた<font fg="ffffaf">ウィザード</font>たちを中心に、正義を失った王国から離れた<font fg="ffffaf">ナイト</font>たちが傭兵となり
+	<p><font fg="ffffaf">ケレニス</font>の軍隊と約10日間、昼夜問わずに戦った。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf">村</font>は焼け野原となり、<font fg="ffffaf">グランカインの神殿</font>があった草原まで後退しながらも抵抗したが、結局黒魔術に掛かったウィザードたちに勝つことはできなかった。</p>
+	<p><br/></p>
+	<p>今でもそこは黒魔法が残る呪いの地としておびただしい数のゾンビが徘徊している。</p></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

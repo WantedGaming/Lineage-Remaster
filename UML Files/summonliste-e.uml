@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<dialog>
+				
+		<p>モンスターも選択してください。<br/></p>
+		
+		<p><br/><br/></p>
+		<p><font fg="ffffaf">一般モンスター</font><br/></p>
+		<p><br/>レベル28以上<br/></p>
+		<p><a action="7">ホブゴブリン</a><br/></p>
+		<p><a action="263">アイドロン</a><br/></p>
+		<p><a action="519">インプ</a><br/></p>
+		<p><br/>レベル32以上<br/></p>
+		<p><a action="8">ガンジ オーク</a><br/></p>
+		<p><a action="264">ドゥダ-マラ オーク</a><br/></p>
+		<p><a action="520">オーク スカウト</a><br/></p>
+		<p><br/>レベル36以上<br/></p>
+		<p><a action="9">ワイルド ファング</a><br/></p>
+		<p><a action="265">ワイルド ベノム</a><br/></p>
+		<p><a action="521">ワイルド マジック</a><br/></p>
+		<p><br/>レベル40以上<br/></p>
+		<p><a action="10">バグベアー</a><br/></p>
+		<p><a action="266">キング バグベアー</a><br/></p>
+		<p><a action="522">アイスマン</a><br/></p>
+		<p><br/>レベル44以上<br/></p>
+		<p><a action="11">マッド リザードマン</a><br/></p>
+		<p><a action="267">ヘビー リザードマン</a><br/></p>
+		<p><a action="523">ハイ リザードマン</a><br/></p>
+		<p><br/>レベル48以上<br/></p>
+		<p><a action="12">サラマンダー</a><br/></p>
+		<p><a action="268">バーニング ウォリアー</a><br/></p>
+		<p><a action="524">バーニング アーチャー</a><br/></p>
+		<p><br/>レベル52以上<br/></p>
+		<p><a action="13">ダイアーベア</a><br/></p>
+		<p><a action="269">ダイアーウルフ</a><br/></p>
+		<p><a action="525">ダイアーバット</a><br/></p>
+		<p><br/></p>
+		<p><font fg="ffffaf">特殊モンスター</font><br/></p>
+		<p><br/>レベル56以上<br/></p>
+		<p><a action="14">ジャイアント ガード アント</a><br/></p>
+		<p><a action="270">アッシド アントの群れ</a><br/></p>
+		<p><a action="526">アッシド アント</a><br/></p>
+		<p><br/>レベル60以上<br/></p>
+		<p><a action="15">ヘルクリーチャー</a><br/></p>
+		<p><a action="271">グレーター ダーク エレメンタル</a><br/></p>
+		<p><a action="527">オーテュ</a><br/></p>
+		<p><br/>レベル64以上<br/></p>
+		<p><a action="16">ヘルバウンド</a><br/></p>
+		<p><br/>レベル68以上<br/></p>
+		<p><a action="17">ドッペルゲンガー ボス</a><br/></p>
+		<p><br/>レベル72以上<br/></p>
+		<p><a action="18">グレート ミノタウルス</a><br/></p>
+		<p><a action="274">クーガー</a><br/></p>
+		<p><br/><br/></p>
+		
+	</dialog>
+
+</npcdialog>

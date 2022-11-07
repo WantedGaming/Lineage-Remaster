@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 ギランは交易の中心地として有名な都市だ。私もこの地で一旗揚げようと、全財産を投げ売って故郷を離れ、ギランに来たんだ。<br/><br/>
+		 しかし、想像以上に盛んな街だから、ここで何をやればいいか見当がつかないな。<br/>
+		</p>
+	</dialog>
+</npcdialog>

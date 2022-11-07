@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<MonsterDexUI Toggle="true">
+	<Window Name="MainWindow" X="150" Y="50" Moveable="20" BasePng="11786;1" MouseEvent="Dummy" KeyboardEvent="CloseUI">
+		<Button Name="CloseButton" X="474" Y="25" BasePng="11768;1" HighlightPng="11769;1" PushPng="11770;1" MouseEvent="CloseUI"/>
+		<Button Name="AboutButton" X="474" Y="48" BasePng="11771;1" HighlightPng="11772;1" PushPng="11773;1" MouseEvent="AboutDex"/>
+		<CheckButton Name="QButton" X="474" Y="80" BasePng="4290;1" HighlightPng="4291;1" PushPng="4292;1" CheckPng = "4292;1" MouseEvent="QuestButton"/>
+		<CheckButton Name="HButton" X="474" Y="119" BasePng="4287;1" HighlightPng="4288;1" PushPng="4289;1" CheckPng = "4289;1" MouseEvent="HistoryButton"/>
+		<Control Name="LeftPage" X="0" Y="0">
+			<ComboBox Name="Category" X="27" Y="25" Width="66" Height="103" >
+				<Label Name="Text_Label" String="4663" X="2" Y="4" Width="44" Height="15" HAlign="center" VAlign="middle"/>
+				<Button Name="Expand_Button" BasePng="11774;1" HighlightPng="11775;1" PushPng="11776;1" MouseEvent="ExpandCategory"/>
+				<UpDownList Name="Expand_List" X="0" Y="22" PageSize="0" Width="66" Height="81" Vertical="1" Gap="1">
+					<Image Name="Background_Image" Y="-1" Png="11777;2;23">
+						<Image Name="Frame" Png="11778;1"/>
+					</Image>
+					<Button Name = "Category_Region" X="3" Width="60" Height="15" String="4663" HighlightPng="11779;4" PushPng="11779;4" FontColor="255,255,255" Align="center" MouseEvent = "SelectCategory"/>
+					<Button Name = "Category_Level" X="3" Width="60" Height="15" String="4664" HighlightPng="11779;4" PushPng="11779;4" FontColor="255,255,255" Align="center" MouseEvent = "SelectCategory"/>
+					<Button Name = "Category_State" X="3" Width="60" Height="15" String="4665" HighlightPng="11779;4" PushPng="11779;4" FontColor="255,255,255" Align="center" MouseEvent = "SelectCategory"/>
+					<Button Name = "Category_Name" X="3" Width="60" Height="15" String="27" HighlightPng="11779;4" PushPng="11779;4" FontColor="255,255,255" Align="center" MouseEvent = "SelectCategory"/>
+					<Button Name = "Category_Grade" X="3" Width="60" Height="15" String="4697" HighlightPng="11779;4" PushPng="11779;4" FontColor="255,255,255" Align="center" MouseEvent = "SelectCategory"/>
+				</UpDownList>
+			</ComboBox>
+			<ComboBox Name="Detail" X="101" Y="25" Width="134" Height="217" >
+				<ScrollLabel Name="Text_Label" String="4666" X="2" Y="4" Width="112" Height="15" CycleMS="2000" ScrollMS="500" HAlign="center" VAlign="middle"/>
+				<Button Name="Expand_Button" BasePng="11780;1" HighlightPng="11781;1" PushPng="11782;1" MouseEvent="ExpandDetail"/>
+				<WheelControl Name="Expand_List_Wheel" X="0" Y="22" Width="134" Height="217" Activate="0">
+					<ScrollBar Name = "Down_Scrollbar" X = "115" Width = "17" Height = "193" ScrollStart = "14" ScrollHeight = "163" Vertical = "1">
+						<Image Name = "Background_Image" Y = "-1" Png = "12032;1"/>
+						<Button Name = "Up_Button" X="2" Y="1" BasePng = "12030;1" HighlightPng = "12031;1" PushPng = "12031;1"/>
+						<Button Name = "Move_Button" X="3" Y = "14" BasePng = "12026;1" HighlightPng = "12027;1" PushPng = "12027;1"/>
+						<Button Name = "Down_Button" X="2" Y = "176" BasePng = "12028;1" HighlightPng = "12029;1" PushPng = "12029;1"/>
+					</ScrollBar>
+				</WheelControl>
+			</ComboBox>
+			<Image Name="SelectImg" X="32" Y="60" Png="12158;4"/>
+			<Control Name="MonsterCardList" X="33" Y="61">
+				<Button Name="MonsterCard1" X="0" Y="0" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>						
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>				
+				<Button Name="MonsterCard2" X="68" Y="0" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard3" X="136" Y="0" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard4" X="0" Y="92" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard5" X="68" Y="92" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard6" X="136" Y="92" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard7" X="0" Y="184" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard8" X="68" Y="184" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard9" X="136" Y="184" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<Image Name="Rewardable_OutLine" X="-1" Y="-1" Activate = "0" Png="20056;4"/>
+					<List Name="Rank" Horizontal="1" X="6" Y="4">
+						<Image Name="Rank1" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank2" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+						<Image Name="Rank3" Png="11849;1">
+							<Image Name="ActivateImg" Png="11848;1" Activate="0"/>
+						</Image>
+					</List>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+			</Control>
+			<Button Name="10PrevPage" X="60" Y="334" BasePng="11834;1" HighlightPng="11835;1" PushPng="11836;1" MouseEvent="JumpTo10PrevPage">
+				<Button Name="10PrevPageMulti" BasePng="11837;3" PushPng="11838;3"/>
+			</Button>
+			<Button Name="PrevPage" X="87" Y="333" BasePng="11802;1" HighlightPng="11842;1" PushPng="11843;1" MouseEvent="ToPrevPage">
+				<Button Name="PrevPageMulti" BasePng="11803;3" PushPng="11844;3"/>
+			</Button>
+			<Button Name="NextPage" X="154" Y="333" BasePng="11800;1" HighlightPng="11839;1" PushPng="11840;1" MouseEvent="ToNextPage">
+				<Button Name="NextPageMulti" BasePng="11801;3" PushPng="11841;3"/>
+			</Button>
+			<Button Name="10NextPage" X="175" Y="334" BasePng="11829;1" HighlightPng="11830;1" PushPng="11831;1" MouseEvent="JumpTo10NextPage">
+				<Button Name="10PrevPageMulti" BasePng="11832;3" PushPng="11833;3"/>
+			</Button>
+			<Image Name="PageCount" X="110" Y="338" Png="11799;1">
+				<Label Name="PageLabel" Y = "1" Width="42" Height="17" HAlign="center" VAlign="middle"/>
+			</Image>
+		</Control>
+		<Control Name="RightPage" X="250" Y="0">
+			<ScrollLabel Name="MonsterName" X="48" Y="29" Width="130" Height="15" CycleMS="2000" ScrollMS="500" HAlign="center" VAlign="middle"/>
+			<Image Name="FrameImg" X="-1" Y="1" Png="11858;1">
+				<Image Name="FrameMulti" Png="11859;3"/>
+			</Image>
+			<Button Name="ChangeToDetailButton" DrawDisableScreen="1" X="171" Y="82" BasePng="11855;1" HighlightPng="11856;1" PushPng="11857;1" MouseEvent="ChangeDetailView">
+				<Button Name="ReturnToSpriteButton" DrawDisableScreen="1" BasePng="11874;1" HighlightPng="11875;1" PushPng="11876;1" Activate="0" MouseEvent="ReturnSpriteView"/>
+			</Button>
+			<Button Name="ChangeToDropButton" DrawDisableScreen="1" X="31" Y="82" BasePng="12022;1" HighlightPng="12023;1" PushPng="12024;1" MouseEvent="ChangeDropView">
+				<Button Name="ReturnToSpriteButton" DrawDisableScreen="1" BasePng="11874;1" HighlightPng="11875;1" PushPng="11876;1" Activate="0" MouseEvent="ReturnSpriteView"/>
+			</Button>
+			
+			<Image Name="MapView" X="20" Y="67" Png="10100;6" SetPart="0,0,186,198" Activate="0">
+				<ScrollLabel Name="MapName" X="38" Y="15" Width="110" Height="25" HAlign="center" VAlign="middle" FontColor="255,241,181" BackColor="0,0,0"/>
+			</Image>
+			<Image Name="RankBG" X="20" Y="242" Png="11854;2;14">
+				<Label Name="CurCount" X="90" Width="85" Height="23" HAlign="right" VAlign="middle" Acitvate="0"/>
+				<List Name="Rank" X="9" Y="2" Horizontal="1" Activate="0">
+					<Button Name="Rank1" Width="22" BasePng="11845;1" HighlightPng="11846;1" PushPng="11847;1" MouseEvent="ChangeRewardView"/>
+					<Button Name="Rank2" Width="22" BasePng="11845;1" HighlightPng="11846;1" PushPng="11847;1" MouseEvent="ChangeRewardView"/>
+					<Button Name="Rank3" Width="22" BasePng="11845;1" HighlightPng="11846;1" PushPng="11847;1" MouseEvent="ChangeRewardView"/>
+				</List>
+			</Image>
+			<Image Name="SpriteBackImage" X="20" Y="67" Width="234" Height="226" Png="11879;6" Part="24,24,186,198">
+				<UIAnim Name="EffectAnimation" Width="186" Height="178" Track="15"/>
+				<Sprite Name="MonsterSprite" Width="234" Height="226" Part="24,24,186,198" SpriteId="-1" Header="6" Action="3" Direction="5" AutoPlay="true" BGPng="11879"/>
+			</Image>
+			<Image Name="MonsterInfoBackImg" X="20" Y="67" Png="11797" Activate="0">
+				<Label Name="DetailInfo" X="63" Y="21" String="4687" FontColor="255,241,181" BackColor="0,0,0"/>
+				<Label Name="Level" X="18" Y="45" Width="50" String="4664">
+					<Label Name="Value" X="100" Width="55" HAlign="right"/>
+				</Label>
+				<Label Name="AC" X="18" Y="60" Width="50" String="605">
+					<Label Name="Value" X="100" Width="55" HAlign="right" textColor="#008080"/>
+				</Label>
+				<Label Name="MR" X="18" Y="75" Width="50" String="3878">
+					<Label Name="Value" X="100" Width="55" HAlign="right"/>
+				</Label>
+				<Label Name="HP" X="18" Y="90" Width="50" String="4590">
+					<Label Name="Value" X="100" Width="55" HAlign="right"/>
+				</Label>
+				<Label Name="MP" X="18" Y="105" Width="50" String="4589">
+					<Label Name="Value" X="100" Width="55" HAlign="right"/>
+				</Label>
+				<Label Name="WeakElement" X="18" Y="120" Width="50" String="4670">
+					<Label Name="Value" X="100" Width="55" HAlign="right"/>
+				</Label>
+				<Label Name="Size" X="18" Y="135" Width="50" String="4671">
+					<Label Name="Value" X="100" Width="55" HAlign="right"/>
+				</Label>
+				<MultiLabel Name="Etc" X="18" Y="150" Width="155" Height="30" LimitLine="2"/>
+			</Image>
+			<Image Name="MonsterDropList" X="20" Y="67" Png="11797" Activate="0">
+				<Label Name="DropItem" X="57" Y="21" String="4696" FontColor="255,241,181" BackColor="0,0,0"/>
+				<GridControl Name="ItemList" X="27" Y="50" GridControlName="icon" Row="3" Column="4" UnitWidth="32" UnitHeight="32" UnitGap="1" Drag="false"/>
+				<Image Name="ItemListBG" X="14" Y="39" Png="12021"/>
+			</Image>
+			<Button Name="Teleport" X="54" Y="326" DrawDisableScreen="1" BasePng="11794;1" HighlightPng="11795;1" PushPng="11796;1" DisablePng="11828;1" MouseEvent="AskTeleport"/>
+			<Control Name="HistoryReward">
+				<List Name="RewardList" X="16" Y="280" Horizontal="1" Activate="0">
+					<Control Name="Reward0" Width="37" Height="36">
+						<Control Name="Complete">
+							<Image Name="ClearMu" Png="11761;3">
+								<Image Name="ClearSc" Png="11762;4"/>
+							</Image>
+							<Image Name="ClearBackMu" Png="11759;3">
+								<Image Name="ClearBackSc" Png="11760;4"/>
+							</Image>
+						</Control>
+						<Image Name="DisableImg" Png="11792;2;16"/>
+						<CheckButton Name="CheckOn" Width="36" Height="36" BasePng = "10748" PushPng="10749" VAlign="bottom" HAlign="right" MouseEvent="SelectReward" PushCheck="0"/>
+						<Image Name="RewardIcon">
+							<Image Name="SpellScreen" Icon="7245"/>
+						</Image>
+						<Image Name="SelectImg" X="-1" Y="-2" Png="11793"/>
+						<Tooltip Name="Desc_Tooltip"/>
+					</Control>
+					<Control Name="Reward1" Width="37" Height="36">
+						<Control Name="Complete">
+							<Image Name="ClearMu" Png="11761;3">
+								<Image Name="ClearSc" Png="11762;4"/>
+							</Image>
+							<Image Name="ClearBackMu" Png="11759;3">
+								<Image Name="ClearBackSc" Png="11760;4"/>
+							</Image>
+						</Control>
+						<Image Name="DisableImg" Png="11792;2;16"/>
+						<CheckButton Name="CheckOn" Width="36" Height="36" BasePng = "10748" PushPng="10749" VAlign="bottom" HAlign="right" MouseEvent="SelectReward" PushCheck="0"/>
+						<Image Name="RewardIcon">
+							<Image Name="SpellScreen" Icon="7245"/>
+						</Image>
+						<Image Name="SelectImg" X="-1" Y="-2" Png="11793"/>
+						<Tooltip Name="Desc_Tooltip"/>
+					</Control>
+					<Control Name="Reward2" Width="37" Height="36">
+						<Control Name="Complete">
+							<Image Name="ClearMu" Png="11761;3">
+								<Image Name="ClearSc" Png="11762;4"/>
+							</Image>
+							<Image Name="ClearBackMu" Png="11759;3">
+								<Image Name="ClearBackSc" Png="11760;4"/>
+							</Image>
+						</Control>
+						<Image Name="DisableImg" Png="11792;2;16"/>
+						<CheckButton Name="CheckOn" Width="36" Height="36" BasePng = "10748" PushPng="10749" VAlign="bottom" HAlign="right" MouseEvent="SelectReward" PushCheck="0"/>
+						<Image Name="RewardIcon">
+							<Image Name="SpellScreen" Icon="7245"/>
+						</Image>
+						<Image Name="SelectImg" X="-1" Y="-2" Png="11793"/>
+						<Tooltip Name="Desc_Tooltip"/>
+					</Control>
+					<Control Name="Reward3" Width="37" Height="36">
+						<Control Name="Complete">
+							<Image Name="ClearMu" Png="11761;3">
+								<Image Name="ClearSc" Png="11762;4"/>
+							</Image>
+							<Image Name="ClearBackMu" Png="11759;3">
+								<Image Name="ClearBackSc" Png="11760;4"/>
+							</Image>
+						</Control>
+						<Image Name="DisableImg" Png="11792;2;16"/>
+						<CheckButton Name="CheckOn" Width="36" Height="36" BasePng = "10748" PushPng="10749" VAlign="bottom" HAlign="right" MouseEvent="SelectReward" PushCheck="0"/>
+						<Image Name="RewardIcon">
+							<Image Name="SpellScreen" Icon="7245"/>
+						</Image>
+						<Image Name="SelectImg" X="-1" Y="-2" Png="11793"/>
+						<Tooltip Name="Desc_Tooltip"/>
+					</Control>
+				</List>
+				<Image Name="RewardSlot" X="14" Y="278" Png="11791"/>
+				<Button Name="GetReward" X="169" Y="278" DrawDisableScreen="1" BasePng="11787;1" HighlightPng="11789;1" PushPng="11790;1" DisablePng="11788;1" MouseEvent="GetReward">
+					<Label Name="RewardCount" Y="20" Width="43" Height="16" HAlign="center" VAlign="middle"/> 
+				</Button>
+			</Control>
+			<Control Name="QuestReward">
+				<UIAnim Name="SlotEffect" X = "3" Y = "264" Track = "45" Activate = "0" />
+				<Control Name = "RewardBox" >
+					<Control Name="NoItemRewardBox">
+						<Button Name="Reward0" X="14" Y="278" BasePng="14239;1" HighlightPng="14240;1" PushPng="14241;1" DisablePng="14242;1" Tag = "0" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="1" Y="-48"/>
+						</Button>
+						<!--
+						<Button Name="Reward1" X="81" Y="278" BasePng="14251;1" HighlightPng="14252;1" PushPng="14253;1" DisablePng="14254;1" Tag = "1" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-66" Y="-68"/>
+						</Button>
+						-->
+						<Button Name="Reward2" X="81" Y="278" BasePng="14263;1" HighlightPng="14264;1" PushPng="14265;1" DisablePng="14266;1" Tag = "1" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-66" Y="-68"/>
+						</Button>
+						<Button Name="Reward3" X="148" Y="278" BasePng="15412;1" HighlightPng="15413;1" PushPng="15414;1" DisablePng="15415;1" Tag = "2" MouseEvent="QuestReward">
+							<Button Name="HighLevelButton"  BasePng="15522;1" HighlightPng="15523;1" PushPng="15524;1" DisablePng="15525;1" Activate="0"/>
+							<Tooltip Name = "Desc_Tooltip" X="-133" Y="-68"/>
+						</Button>
+					</Control>
+					<Control Name="RevelRewardBox">
+						<Button Name="Reward0" X="14" Y="278" BasePng="14243;1" HighlightPng="14244;1" PushPng="14245;1" DisablePng="14246;1" Tag = "0" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="1" Y="-48"/>
+						</Button>
+						<!--
+						<Button Name="Reward1" X="81" Y="278" BasePng="14255;1" HighlightPng="14256;1" PushPng="14257;1" DisablePng="14258;1" Tag = "1" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-66" Y="-68"/>
+						</Button>
+						-->
+						<Button Name="Reward2" X="81" Y="278" BasePng="14267;1" HighlightPng="14268;1" PushPng="14269;1" DisablePng="14270;1" Tag = "1" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-66" Y="-68"/>
+						</Button>
+						<Button Name="Reward3" X="148" Y="278" BasePng="15416;1" HighlightPng="15417;1" PushPng="15418;1" DisablePng="15419;1" Tag = "2" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-133" Y="-68"/>
+						</Button>
+					</Control>
+					<Control Name="HeroRewardBox">
+						<Button Name="Reward0" X="14" Y="278" BasePng="14247;1" HighlightPng="14248;1" PushPng="14249;1" DisablePng="14250;1" Tag = "0" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="1" Y="-48"/>
+						</Button>
+						<!--
+						<Button Name="Reward1" X="81" Y="278" BasePng="14259;1" HighlightPng="14260;1" PushPng="14261;1" DisablePng="14262;1" Tag = "1" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-66" Y="-68"/>
+						</Button>
+						-->
+						<Button Name="Reward2" X="81" Y="278" BasePng="14271;1" HighlightPng="14272;1" PushPng="14273;1" DisablePng="14274;1" Tag = "1" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-66" Y="-68"/>
+						</Button>
+						<Button Name="Reward3" X="148" Y="278" BasePng="15420;1" HighlightPng="15421;1" PushPng="15422;1" DisablePng="15423;1" Tag = "2" MouseEvent="QuestReward">
+							<Tooltip Name = "Desc_Tooltip" X="-133" Y="-68"/>
+						</Button>
+					</Control>
+				</Control>
+			</Control>
+		</Control>
+		<Control Name="LeftPage_Quest" X="0" Y="0">
+			<UIAnim Name="StarEffect1" X = "62" Y = "0" Track = "41" Activate = "0" />
+			<UIAnim Name="StarEffect2" X = "124" Y = "0" Track = "41" Activate = "0" />
+			<UIAnim Name="BigStarEffect" X = "44" Y = "0" Track = "42" Activate = "0" />
+			<UIAnim Name="AllStarEffect" X = "44" Y = "0" Track = "43" Activate = "0" />
+			<Control Name="StarControl">
+				<Image Name="Star1" X="88" Y="28" Png="4311;4"/>
+				<Image Name="Star2" X="150" Y="28" Png="4311;4"/>
+				<Image Name="BigStar" X="111" Y="16" Png="4312;4"/>
+			</Control>
+			<Control Name="LineClearControl" X="33" Y="61">
+				<Image Name = "Clear_Screen" X="0" Y="0" Png = "4309;3">
+					<UIAnim Name="ClearEffect" X = "-34" Y = "-40" Track = "46" Activate = "0" />
+					<Image Name = "Clear_Multi" X="0" Y="0" Png = "4310;4"/>
+				</Image>
+				<Image Name = "Clear_Screen" X="0" Y="92" Png = "4309;3">
+					<UIAnim Name="ClearEffect" X = "-34" Y = "-40" Track = "46" Activate = "0" />
+					<Image Name = "Clear_Multi" X="0" Y="0" Png = "4310;4"/>
+				</Image>
+				<Image Name = "Clear_Screen" X="0" Y="184" Png = "4309;3">
+					<UIAnim Name="ClearEffect" X = "-34" Y = "-40" Track = "46" Activate = "0" />
+					<Image Name = "Clear_Multi" X="0" Y="0" Png = "4310;4"/>
+				</Image>
+			</Control>
+			<Image Name="SelectImg" X="32" Y="60" Png="12158;4"/>
+			<Control Name="MonsterCardList" X="33" Y="61">
+				<Button Name="MonsterCard1" X="0" Y="0" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4306;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>				
+				<Button Name="MonsterCard2" X="68" Y="0" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4306;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard3" X="136" Y="0" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4306;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard4" X="0" Y="92" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4307;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard5" X="68" Y="92" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4307;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard6" X="136" Y="92" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4307;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard7" X="0" Y="184" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4308;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard8" X="68" Y="184" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4308;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+				<Button Name="MonsterCard9" X="136" Y="184" BasePng="11798" PushPng="11798" MouseEvent="ShowMonsterInfo">
+					<UIAnim Name="SlotEffect" X = "-19" Y = "-28" Track = "44" Activate = "0" />
+					<Control Name="ClearMark" X = "7" Y = "13">
+						<Image Name = "Clear_Multi" Png = "2937;4"/>
+						<Image Name = "Clear_Screen" Png = "2936;3"/>
+						<Image Name = "ClearBack_Multi" Png = "2935;4"/>
+						<Image Name = "ClearBack_Screen" Png = "2934;3"/>
+					</Control>
+					<Image Name = "LevelFrame" Png = "4308;4"/>
+					<Image Name="LevelBox" X="35" Y="62" Surf="4945;1">
+						<Label Name="Level" Y="1" Width="21" Height="15" HAlign="center" VAlign="middle"/>
+					</Image>
+					<Gauge Name="ProgressBar" X="2" Y="79" Png="11765">
+						<Tooltip Name="Desc_Tooltip" X="1" Y="-15"/>
+					</Gauge>
+					<Image Name="GaugeBase" X="2" Y="79" Png="11763"/>
+					<Tooltip Name="Desc_Tooltip" X="1" Y="1"/>
+				</Button>
+			</Control>
+		</Control>
+	</Window>
+</MonsterDexUI>

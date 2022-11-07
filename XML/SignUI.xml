@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SignUI Toggle="true">
+	<Window Name="SignWindow" X="0" Y="0" BaseSurf = "1969;1" Moveable = "30" MouseEvent = "Dummy" KeyboardEvent = "Keyboard" >
+		<Image Name="Icon" X="24" Y="45" Width="180" Height="40" Icon="133;0;1"/>
+		<MultiLabel Name="TextArea" X="24" Y="100" Width="180" Height="180" HAlign="left" VAlign="top" FontColor="190,190,190"/>
+		<Button Name="Close" X="215" Y="9" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent="CloseBtn"/>
+		<Image Name = "FrameImage" X = "0" Y = "0" Surf = "1969;1"/>
+		<Image Name = "BaseImage" X = "6" Y = "9" Surf = "1968;1"/>
+	</Window>
+</SignUI>

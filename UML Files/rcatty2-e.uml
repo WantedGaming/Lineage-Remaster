@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ケティ</name>
+    <job>[武器防具商人]</job>
+  </npc>
+  	<dialog align="left">
+		<p>こんにちは。</p>
+		<p>最近グルーディオには見どころがいっぱいできたんですよ！</p>
+		<p>こないだも新しくできたお化け屋敷に行ってみたんですけど、すっごく面白かったです。</p>
+		<p>みんなが戦争の苦しみを忘れて幸せそうにしている姿を見ると、私まで嬉しくなるんですよ。</p>
+		<p>ああ、そうだ！村の北に剥製を作る商人も来ているって話ですよ！一度行ってみたらどうですか。ほんと、見どころが多いですよ。</p>
+	</dialog>
+</npcdialog>

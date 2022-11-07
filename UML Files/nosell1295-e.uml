@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>I don't want anything right now. Perhaps "Warner" in the northwest direction might buy something.</p>
+	</dialog>
+
+</npcdialog>

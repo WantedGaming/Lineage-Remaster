@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>パーティーオプション</name>
+  </npc>
+  <dialog>
+	<p action="invite"> 招待</p>
+	<p action="outparty"> 脱退</p>
+	<p action="banish"> 追放</p>
+	<p action="party"> パーティメンバー</p>
+
+	<li src="331" link="option"/>
+  </dialog>
+</npcdialog>

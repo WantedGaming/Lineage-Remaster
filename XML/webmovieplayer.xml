@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<WebMoviePlayer>        
+	<Window Name = "MainWin" X = "0" Y = "0" Width = "800" Height = "600" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" HighTop = "1" Activate = "1">
+		<Web Name = "Web" Url = "file://../Text/video.html" Width = "800" Height="600" X = "0" Y = "0" KeyboardEvent = "KeyBoardWeb"/>
+	</Window>
+</WebMoviePlayer>

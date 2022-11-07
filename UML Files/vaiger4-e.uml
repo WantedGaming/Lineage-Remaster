@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <image>Talk_NPC_002</image>
+    <name>バイガー</name>
+    <job>[傭兵隊長]</job>
+    <text>傭兵が必要ですか？</text>
+  </npc>
+  <dialog>
+    <p>うん？どなたですか？<br/>
+    <br/>
+    もしや我がポイズンサーペント」への入団希望者か？でなければ依頼人？<br/>
+    <br/>
+    うん？どちらも違う？それなら私に気安く話しかけないでくれ。忙しいんだ。</p>
+  </dialog>
+</npcdialog>

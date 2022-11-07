@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>市場ガード</name>
+		<job>[警備兵]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		調子はどうだ？変なやつを見かけたらすぐ知らせてくれ。 
+		気をつけろよ。<br/>
+		<br/>
+		<br/>
+		<a action="teleport giran-trade-zone-giran">[ギラン城下町に移動する]</a><br/>
+		<br/>
+		＊チャットウィンドウに<font fg="e8aee7">/商人検索[半角スペース]キャラクター名</font>と入力すれば、市場のどこでも簡単に商人を探すことができます。<br/>
+		</p>
+	</dialog>
+</npcdialog>

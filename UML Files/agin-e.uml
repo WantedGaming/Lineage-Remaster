@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Arena Guide</name>
+  </npc>
+  <dialog>
+    <p> I am relieved to hear that you are getting out of the dueling arena safely. However, please be careful outside the dueling arena. Someone may attack you outside the dueling arena.<br/></p>
+    <p><a action="teleportURL">Leave Arena</a><br/></p>
+  </dialog>
+</npcdialog>

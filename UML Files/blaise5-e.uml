@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>数学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 君は私を馬鹿にしているのか？<br/><br/>
+		 計算する機械を作るには、私が言った材料が一つ残らず必要なのだ！
+		 このままでは機械を作れないではないか！<br/>
+		<br/><br/>
+		 材料は薄い金属板1枚とランプ スチール5個。それと1000Adenaだ！<br/><br/><br/>
+		 さっさと材料を集めてきてくれ！
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

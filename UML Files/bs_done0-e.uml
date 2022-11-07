@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>強化ウィザード</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>強化ウィザード</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		魔法かけました！ですが、本物のドラゴンの血痕より
+		<br/>
+		持続時間が短いです。<br/><br/>この点を気をつけてください。
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

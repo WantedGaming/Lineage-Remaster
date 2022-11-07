@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの補佐官</name>
+  </npc>
+  <dialog>
+    <p>今後バルログ様の偉業を開始する場所は、火の特性を充分活かすことのできる…</p>
+    <p><a action="9">今は話しかけられる状況じゃないようだ</a></p>
+  </dialog>
+</npcdialog>

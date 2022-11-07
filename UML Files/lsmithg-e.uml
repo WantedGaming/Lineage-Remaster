@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの鍛冶屋</name>
+  </npc>
+  <dialog>
+    <p>くひゃひゃ、俺の言ってることがわからないのか？</p>
+    <p>偉大なるお方よ、</p>
+    <p><a action="a">ヤヒのシャツを作ってくださいますようお願いします</a></p>
+    <p><a action="b">ヤヒのアーマーを作ってくださいますようお願いします</a></p>
+    <p><a action="c">ヤヒのマントを作ってくださいますようお願いします</a></p>
+    <p><a action="d">ヤヒのグローブを作ってくださいますようお願いします</a></p>
+    <p><a action="e">ヤヒのブーツを作ってくださいますようお願いします</a></p>
+    <p><a action="f">ヤヒのリングを作ってくださいますようお願いします</a></p>
+    <p><a action="g">ヤヒのアミュレットを作ってくださいますようお願いします</a></p>
+  </dialog>
+</npcdialog>

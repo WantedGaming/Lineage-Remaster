@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャベス</name>
+		<job>精霊魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>火は最も純粋な力を象徴する精霊です。<br/></p>		
+		<p>内に秘めたエネルギーを爆発させ、他のものを破壊、浄化する力を持っているといいます。<br/></p>		
+		<p>そのため火属性の精霊魔法の特徴として、4属性のうちで最も攻撃力があります。<br/></p>
+		<p><font fg="ffafff">近距離武器で敵を倒す力を望むならば、火属性を選択</font>してください。<br/><br/></p>
+		
+		<p><a action="fire">火属性を習得する</a><br/></p>
+		 
+		<p><img src="331" link="siabeth1"/></p>
+ 
+	</dialog>
+
+</npcdialog>

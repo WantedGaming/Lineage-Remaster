@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハリン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 紀州犬とタイガーは特別なエサで手なずけることができます。<br/>
+		 育てるときも一般的な肉ではなく、専用のエサを与えるんですよ。<br/>
+		 必要な分だけ選んでくださいね。お安くしますよ。<br/>
+		<br/><br/><br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジャンク</name>
+		<job>[統合倉庫番]</job>
+		<text></text>
+	</npc>
+	<dialog>
+	  <panel type="Panel_Storage_Button">
+	   <button action="deposit"/>
+	   <button action="retrieve"/>
+	   <button action="deposit-pledge"/>
+	   <button action="retrieve-pledge"/>
+	   <button action="deposit-char"/>
+	   <button action="retrieve-char"/>
+	  </panel>
+		<p>
+
+		<br/><br/>
+		この市場は、他のどの町や村よりも安全な場所です。
+		<br/>
+		お預けのアイテムについての心配はいりません。
+		<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

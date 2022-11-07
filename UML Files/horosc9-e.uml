@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>Keplisha</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font></p>
+    <p>狩りをしようとしても、モンスターどもに出くわして逃げ回ります。時間を無駄にするでしょう。狩りの邪魔になることが多くて、報賞も減るでしょう。</p>
+	<p>こんな日は狩りをするよりワールドチャットで人脈管理に力を入れましょう。<br/><br/></p>
+	<p><a link="keplisha3">助言を聞く</a></p>
+  </dialog>
+</npcdialog>

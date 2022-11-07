@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<RenewalMailUI Toggle = "true">
+	<Window Name = "MailList_Window" X = "0" Y = "0" Width = "285" Height = "413" BasePng = "10782;1" Moveable = "30" KeyboardEvent = "CloseMailUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseMailUI"/>
+		<Label Name = "Count_Label" X = "28" Y = "385" Width = "225" HAlign = "right" Caption = "" FontColor = "144,136,123"/>
+		<ComboBox Name = "ListType_Combobox" X = "30" Y = "53" Width = "83" Height = "74">
+			<Label Name = "Text_Label" Caption = "item00" X = "2" Y = "0" Width = "77" Height = "23" HAlign = "center" VAlign = "middle"/>
+			<Button Name = "Expand_Button" X = "0" Y = "2" BasePng = "10746" HighlightPng="10747" PushPng = "10747" MouseEvent = "ComboBox_Expand"/>
+			<UpDownList Name = "Expand_List" X = "0" Y = "19" PageSize = "0" Width = "84" Height = "55" Vertical = "1" Gap = "1">
+				<Image Name = "Background_Image" X = "0" Y = "0" Png = "10750"/>
+				<CheckButton Name = "Item1_Button" X = "2" Width = "77" Height = "17" String = "4071" PushPng="10751;4" FontColor = "144,136,123" Align = "center" MouseEvent = "ListType_Select"/>
+				<CheckButton Name = "Item2_Button" X = "2" Width = "77" Height = "17" String = "4072" PushPng="10751;4" FontColor = "144,136,123" Align = "center" MouseEvent = "ListType_Select"/>
+				<CheckButton Name = "Item3_Button" X = "2" Width = "77" Height = "17" String = "4073" PushPng="10751;4" FontColor = "144,136,123" Align = "center" MouseEvent = "ListType_Select"/>
+			</UpDownList>
+		</ComboBox>
+		<List Name = "ButtonList" X = "120" Y = "56" Width = "135" Height = "17" Horizontal = "1" Gap="1">
+			<Button Name = "Write_Button" BasePng = "10794" HighlightPng = "10795" PushPng = "10796;1" MouseEvent = "WriteMail"/>
+			<Button Name = "Store_Button" BasePng = "10806" HighlightPng = "10807" PushPng = "10808;1" MouseEvent = "SaveMail"/>
+			<Button Name = "Delete_Button" BasePng = "10791" HighlightPng = "10792" PushPng = "10793;1" MouseEvent = "DeleteMail"/>
+			<Button Name = "Exclude_Button" BasePng = "10800" HighlightPng = "10801" PushPng = "10802;1" MouseEvent = "ExcludeMail"/>
+		</List>
+		<List Name = "SortList" X = "26" Y = "78" Width = "210" Height = "16" Horizontal = "1">
+			<CheckButton Name = "AllSelectBtn" Y="1" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "AllSelect"/>
+			<Button Name = "From_Button" BasePng = "10787" HighlightPng = "10788" PushPng = "10788" MouseEvent = "SortMailItem"/>
+			<Button Name = "Subject_Button" BasePng = "10789" HighlightPng = "10790" PushPng = "10790" MouseEvent = "SortMailItem"/>
+			<Button Name = "Date_Button" BasePng = "10783" HighlightPng = "10784" PushPng = "10784" MouseEvent = "SortMailItem"/>
+		</List>
+		<List Name = "MailList" X= "26" Y = "96" Width = "210" Height = "286" Vertical = "1">
+			<CheckButton Name = "MailInfo00" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo01" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo02" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo03" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo04" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo05" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo06" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo07" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo08" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo09" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo10" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo11" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo12" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo13" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo14" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo15" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo16" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo17" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+			<CheckButton Name = "MailInfo18" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "SelectMailItem">
+				<Label Name = "From_Label" X = "18" Width = "74" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Subject_Label" X = "93" Width = "94" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+				<Label Name = "Date_Label" X= "186" Width = "47" Height = "15" VAlign = "middle" HAlign = "center" Caption = "IU" MouseEvent = "ReadMailEvent"/>
+			</CheckButton>
+		</List>
+		<ScrollBar Name = "Userinfo_Scrollbar" X = "264" Y = "105" Width = "12" Height = "272" ScrollStart = "14" ScrollHeight = "244" Vertical = "1" MouseEvent = "MailListScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10729;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "MailListScrollButton_Mouse"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "MailListScrollButton_Mouse"/>
+			<Button Name = "Down_Button" Y = "258" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "MailListScrollButton_Mouse"/>
+		</ScrollBar>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+	</Window>
+	<Window Name = "ReadMail_Window" X = "0" Y = "0" Width = "285" Height = "413" BasePng = "10811;1" Moveable = "30" KeyboardEvent = "CloseReadMailUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseReadMailUI"/>
+		<List Name = "ReadButton_List" X = "119" Y = "56" Width = "136" Height = "17" Horizontal = "1" Gap="1">
+			<Button Name = "Reply_Button" BasePng = "10892" HighlightPng = "10893" PushPng = "10894;1" MouseEvent = "ReplyMail"/>
+			<Button Name = "Store_Button" BasePng = "10806" HighlightPng = "10807" PushPng = "10808;1" MouseEvent = "SaveMail"/>
+			<Button Name = "Delete_Button" BasePng = "10791" HighlightPng = "10792" PushPng = "10793;1" MouseEvent = "DeleteMail"/>
+			<Button Name = "Exclude_Button" BasePng = "10800" HighlightPng = "10801" PushPng = "10802;1" MouseEvent = "ExcludeMail"/>
+		</List>
+		<Edit Name = "From_Label" X = "105" Y = "79" Width = "150" Height = "17" LimitText = "280" ReadOnly = "1"/>
+		<Edit Name = "Subject_Label" X = "105" Y = "98" Width = "150" Height = "17" LimitText = "280" ReadOnly = "1"/>
+		<MultiEdit Name = "MailText_Label" X = "38" Y = "128" Width = "207" Height = "245" VAlign = "top" HAlign = "left" ReadOnly = "1" LimitText = "256"/>
+		<Button Name = "OK_Button" X = "85" Y = "56" BasePng = "11180" HighlightPng = "11181" PushPng = "11182;1" MouseEvent = "CloseReadMailUI"/>
+		<ScrollBar Name = "ReadMail_Scrollbar" X = "264" Y = "105" Width = "12" Height = "272" ScrollStart = "14" ScrollHeight = "244" Vertical = "1" MouseEvent = "MailWindowScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10729;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "MailWindowScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "MailWindowScrollButton"/>
+			<Button Name = "Down_Button" Y = "258" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "MailWindowScrollButton"/>
+		</ScrollBar>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+		<Button Name="Prev_Button" X="35" Y="58" BaseSurf="5429;1" HighlightSurf="5430;1" PushSurf="5430;1" MouseEvent="ReadPrevMail"/>
+		<Button Name="Next_Button" X="52" Y="58" BaseSurf="5432;1" HighlightSurf="5433;1" PushSurf="5433;1" MouseEvent="ReadNextMail"/>
+	</Window>
+	<Window Name = "WriteMail_Window" X = "0" Y = "0" Width = "285" Height = "413" BasePng = "10810;1" Moveable = "30" KeyboardEvent = "CloseWriteMailUI" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseWriteMailUI"/>
+		<List Name = "WriteButton_List" X = "188" Y = "56" Width = "67" Height = "17" Horizontal = "1" Gap="1">
+			<Button Name = "Send_Button" BasePng = "10797" HighlightPng = "10798" PushPng = "10799;1" MouseEvent = "SendMail"/>
+			<Button Name = "Cancel_Button" BasePng = "10803" HighlightPng = "10804" PushPng = "10805;1" MouseEvent = "CloseWriteMailUI"/>
+		</List>
+		<Edit Name = "To_Label" X = "105" Y = "79" Width = "150" Height = "17" LimitText = "280" KeyboardEvent = "ToNextFocus"/>
+		<Edit Name = "Subject_Label" X = "105" Y = "98" Width = "150" Height = "17" LimitText = "20" KeyboardEvent = "ToNextFocus"/>
+		<MultiEdit Name = "MailText_Label" X = "38" Y = "128" Width = "207" Height = "245" VAlign = "top" HAlign = "left" LimitText = "256" KeyboardEvent = "ToNextFocus" GuideString="544"/>
+		<CheckButton Name = "CheckBox_Button" X = "156" Y = "391" Width = "15" Height = "15" BasePng = "10748" PushPng = "10749" MouseEvent = "CheckPledgeMail"/>
+		<ScrollBar Name = "WriteMail_Scrollbar" X = "264" Y = "105" Width = "12" Height = "272" ScrollStart = "14" ScrollHeight = "244" Vertical = "1" MouseEvent = "MailWindowScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10729;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "MailWindowScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "MailWindowScrollButton"/>
+			<Button Name = "Down_Button" Y = "258" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "MailWindowScrollButton"/>
+		</ScrollBar>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+		<Label Name="Cost_Label" X="38" Y="58" FontColor="150,150,150"/>
+	</Window>
+</RenewalMailUI>

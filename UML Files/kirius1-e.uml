@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>テレポーター</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>キリウス</name>
+		<job>[Teleporter]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+	<p>ようこそ。私は象牙の塔から派遣されてきた、ウィザードのキリウスです。</p>
+	<p>象牙の塔では魔法を有意義に活用するために様々なことを行っています。</p>
+	<p>私は別の空間への移動をお手伝いしています。</p>
+	<p>行きたい場所はありますか？</p>
+	<br></br>
+	<p><a action="teleportURL">他の村に行きたいです</a></p>
+	<br></br>
+	<p><a link="guidestart">狩り場の案内をお願いします</a></p>
+	
+	</dialog>
+
+</npcdialog>

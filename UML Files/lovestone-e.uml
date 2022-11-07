@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>セリフ</title>
+  <npc>
+    <name>愛の宝石</name>
+  </npc>
+  <dialog>
+    <p><subHtml src="331"/></p>
+    <p><font fg="000000">マジックドールから出てきた愛の宝石…</font></p> 
+	<p><font fg="000000">きらきらと光るのが、何かの結晶体の集まりのようです。</font></p>  
+	<p><font fg="000000">こんぺいとうのようにも見える、この愛の宝石で、愛の鉢が買えるといいます。</font></p> 
+	</dialog>
+</npcdialog>

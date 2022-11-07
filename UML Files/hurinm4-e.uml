@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>すごいですね。私と話ができる人がいるなんて！<br/></p>
+	<p>守護者があなたを解き放ってくれたんですか。あなたから感じられる力は…</p> 
+  </dialog>
+</npcdialog>

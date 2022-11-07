@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>闘技場</title>
+	<npc>
+		<portrait></portrait>
+		<name>闘技場入場管理人</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 いらっしゃいませ。闘技場で起きている競技を観覧してみませんか？観覧料は100Adenaです。 </p>
+		<p><br/><br/>
+		<a action="ent">観覧モードで闘技場の中に入る</a><br/><br/>
+		<a link="colticket2">闘技場観覧について聞く</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

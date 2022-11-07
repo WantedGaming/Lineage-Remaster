@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name>次元の扉</name>
+  </npc>
+  <dialog>
+    <p>突出した部分に手を近づけると、バックの中でこれまで集めた印章が震え始めた。<br/>
+		<br/>
+    手を近づけるほどに震えが強まり、突出した部分に手を触れた瞬間にバックの中で集めた印章が粉々になってしまいそうだ。</p>
+		<p><br/></p>
+		<p><a action="d">手を近づける</a><br/>
+		<br/>
+    <a action="e">やめる</a></p>
+  </dialog>
+</npcdialog>

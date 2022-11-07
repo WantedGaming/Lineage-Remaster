@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[ブレイズ]：</font></p>
+	<p><br/></p>
+	<p>暗殺秘密結社の団長である<font fg="ffffaf">ブレイズ</font>。</p>
+	<p>彼女は<font fg="ffffaf">ハーフエルフ(ヒューマンとエルフの間に生まれた者)</font>として苦難の人生を歩んで来たが、<font fg="ffffaf">ラスタバド</font>の誰からもその存在すら認められなかった。</p>
+	<p>しかし、<font fg="ffffaf">ブルディカ</font>と<font fg="ffffaf">スレイヴ</font>は彼女を同じ種族と認め、素晴らしい逸材だとし地上世界(アデン)でのスパイ活動の任務を与えた。</p>
+	<p>任務のため沈黙の洞窟を経由してドラゴンバレーに入った彼女は<font fg="ffffaf">ハーピー</font>との戦闘で重傷を負う。</p>
+	<p>与えられた任務をどうしても遂行したいという気持ちから、深手を負いながら<font fg="ffffaf">アデン城</font>へと向かった。</p>
+	<p>「ああ…あれが人間が建てたという豪華な城か…種族から捨てられ、暗い洞窟に隠れる我々が何と惨めなことか…」</p>
+	<p>城を見つめながら、彼女は自分の種族が置かれた現実を目の当たりにし、悲しみに沈んだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

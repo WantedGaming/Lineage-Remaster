@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>スクロールも多く体がオーラに包まれるため、フィールドよりもダンジョンで狩る方がスムーズにレベルアップとアイテムが手に入るでしょう。</p>
+	<p>ドラゴンバレー ダンジョンに向かいましょう。ほしがっていた魔法書が手に入るはずです。</p>
+	<p>特に脚の多いモンスターから幸運のアイテムがドロップされるでしょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

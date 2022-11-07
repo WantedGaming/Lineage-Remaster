@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>You think you're good at what you do? You seem to have a lot of confidence.</p>
+		<p>Fair enough. If you're so confident, then defeat the <font fg="ffffaf">Evil Spirits in Heiene Dungeon</font> and bring me <font fg="ffffaf">5 Notes</font> from the departed as proof!</p>
+		<p><a action="A">Give 5 Notes</a></p>
+	</dialog>
+
+</npcdialog>

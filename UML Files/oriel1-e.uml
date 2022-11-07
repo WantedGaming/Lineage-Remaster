@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+<p>昔、父さんが海で溺れたことがあるんだけど、その時<font fg="ffffff">イレッカドム</font>っていうめちゃくちゃ大きいあんこうに遭っちゃって死にかけたことがあるんだ。助かったのは本当に神様のおかげだよ。尖った歯で噛み付いたり、頭から1本生えてる角の先から電気が出て感電させるんだって。あんな恐ろしいやつから逃げれたなんて、父さんは本当に運も良かったよ。</p>
+</dialog>
+
+</npcdialog>

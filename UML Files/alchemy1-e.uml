@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Hello. I am an alchemist sent from the Ivory Tower and a member of the Alchemy Association.</p>
+    <p>Are you interested in the magic catalyst, which has been reduced to a trickle in recent years?<br/><br/><br/></p>
+    <p><a link="alchemy2">I'd like to know</a><br/></p>
+    <p><a link="alchemy4">Extract Magic Catalyst</a><br/></p>
+    <p><a link="alchemy9">Separate Elemental Stones</a><br/></p>
+  </dialog>
+</npcdialog>

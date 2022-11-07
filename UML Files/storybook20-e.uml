@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[悪魔の策略]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">ヘルバイン</font>は自らが手にした巨大な力を持って<font fg="ffffaf">ダンテス</font>に<font fg="ffffaf">魔族の力</font>を受け入れるよう説得した。</p>
+	<p><font fg="ffffaf">グランカイン</font>の神託を受けた<font fg="ffffaf">ダンテス</font>による儀式で種族全体が自分と同じ力を持つことができる、というのが<font fg="ffffaf">ヘルバイン</font>の話で、<font fg="ffffaf">ヘルバイン</font>が<font fg="ffffaf">ディアド</font>を作る姿は<font fg="ffffaf">ダンテス</font>と<font fg="ffffaf">長老会</font>の心を動かした。</p>
+	<p><font fg="ffffaf">ケンラウヘル</font>もまた<font fg="ffffaf">ラスタバド</font>の軍隊とともに出征し、<font fg="ffffaf">魔族の力</font>を<font fg="ffffaf">ダークエルフ</font>に与え、<font fg="ffffaf">デポロジュー</font>の赤き騎士団が守っていた<font fg="ffffaf">ギラン城</font>をいとも簡単に占領してみせた。</p>
+	<p>これをきっかけに用心深かかった<font fg="ffffaf">ダンテス</font>は<font fg="ffffaf">魔族の力</font>を得るための儀式を行うことに決めたのだった。</p>
+	<p><font fg="ffffaf">火炎の影</font>はその後も<font fg="ffffaf">ヘルバイン</font>と<font fg="ffffaf">ケンラウヘル</font>に<font fg="ffffaf">魔族の力</font>と<font fg="ffffaf">アンデッド魔族軍</font>を援護し、勝機を掴んだように思えた赤き騎士団は相次ぐ敗北により再び出直すこととなった。</p>
+	<p>一方、魔族神殿の<font fg="ffffaf">堕落</font>は、<font fg="ffffaf">火炎の影</font>による別の計画を進めるために<font fg="ffffaf">異界に向かう目</font>をいたるところに建てていた。まるで、これから起きる悲劇が必然であることを暗示するかのように。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

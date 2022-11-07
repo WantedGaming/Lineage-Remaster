@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロビンフッド</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>あっ、そのリングは…？さては君だな。待っていたぞ。弓の製作に成功したよ。いよいよ伝説のロング ボウを再びこの手にする時間が近づきつつあるんだ！！</p>
+		<p>おっと、ちょっと興奮しすぎたかな。ここまでは運が味方をしてくれたようだな。だがこれからが問題なのだ。</p>
+		<p>万が一私の失敗で完成できなくても私を恨まないでくれるかい？材料の用意はできているだろう？それでは私のリングと材料を渡してくれ。</p>
+		<p><a action="E">ロビンフッドのリングと材料を渡す</a>	</p>
+	</dialog>
+	
+</npcdialog>

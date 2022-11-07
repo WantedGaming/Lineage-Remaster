@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>私の助けが必要ならいつでも来ると良い。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a action="a">* ドワーフ地域に移動する</a></p>
+	<p><a action="b">* ダンジョン入口に移動する</a></p>
+	<p><a action="c">* オーク地域に移動する</a></p>
+	<p><a action="d">* スパイダー地域に移動する</a></p>
+	<p><a action="e">* ブラックナイトの前哨基地に移動する</a></p>
+	<p><a action="f">* ブラック バトルシップに移動する</a></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">テオンに伝わる話</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

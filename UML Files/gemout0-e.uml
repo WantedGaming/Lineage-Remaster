@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>宝石細工職人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 私に何かご用でも？<br/>
+		 もし、氷水晶洞窟でめずらしい宝石でも手に入れたら寄ってください。
+		 今はお見受けしたところめぼしいものはお持ちでないようですね。
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

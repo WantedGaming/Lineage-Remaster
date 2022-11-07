@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ピアス</name>
+  </npc>
+  <dialog>
+	<p>えっ！貴重なワイズ ストーンを分けてくれるなんて…</p>
+	<p>本当に何と言っていいやら…</p>
+	<p>少ないが、これは俺からの誠意だ。</p> 
+	<p>どうか受け取ってくれ。</p>
+	<p><a action="request pears itembag">ワイズ ストーンを分ける</a></p>
+	<img src="331"/> <p><a link="pears2"></a></p>
+  </dialog>
+</npcdialog>

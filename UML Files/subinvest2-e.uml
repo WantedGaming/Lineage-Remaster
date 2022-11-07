@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<dialog>
+				
+		<p> えっ？あなた、行っても大丈夫なんですか？<br/></p>
+		<p>単に送り状を捨てるもんじゃないな。本当に行くのか？<br/></p>
+		<p>あなたが行きたいって言ったんですからね！私は責任取りませんよ！<br/></p>
+		<p><a action="B">はい、送ってください</a><br/></p>
+		
+		
+	</dialog>
+
+</npcdialog>

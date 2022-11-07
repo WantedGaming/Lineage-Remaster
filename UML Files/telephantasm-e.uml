@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Edren</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>You have a youth that I do not have, and I can teach you things that you do not yet know.</p>
+		<p>If you give this poor Edren some adena, I will share knowledge to the dreams.</p>
+		<p>You can then awaken your own subconscious, which you do not even know yet.</p>
+		<p>You know what they say, what you dream about comes true.</p>
+		<p>The experience there is located between dream and reality, so it will satisfy your adventurous spirit.</p>
+		<p><a action="teleportURL">Dream Island</a></p>
+	</dialog>
+
+</npcdialog>

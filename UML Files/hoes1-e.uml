@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>ホーエス</name>
+  </npc>
+  <dialog>
+	<p>もしかして魔法の品はお好きですか？</p>
+	<p>よく分からないけど、貴重なものに見えるものを持っているんです。</p>
+	<p>私は必要ないので、欲しければ安く売りますよ？</p>
+	<panel type="Panel_Shop_button">
+		<button action="buy">
+		<button action="sell">
+	</panel>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="hoes2">こんな貴重なものをどこで手に入れたのですか？</a></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

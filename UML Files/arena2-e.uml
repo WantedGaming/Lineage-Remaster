@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>レンタル料は1人あたり<var src="1"/>Adenaです。<br/><br/></p>
+    <p>入場チケットを何枚購入しますか？</p>
+  </dialog>
+</npcdialog>

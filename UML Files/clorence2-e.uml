@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>クロレンス</name>
+		<job>長老随行員</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 彼にはアタロゼという弟子がいた。その弟子なら歴史書の行方を知っているかもしれない。
+		 そう遠くには行っていないはずだ。探してみてくれ。<br/>
+		<br/>
+		 同じ過ちを繰り返さないために、その歴史書を集めたいのだ。
+		 そして、私は歴史の生き証人として、後世に伝え続ける。<br/>
+		<br/>
+		<br/>
+		<a link="clorence3">アタロゼと会いました</a>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

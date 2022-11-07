@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ランダル</name>
+    <job>[ポーション商人]</job>
+  </npc>
+  <dialog align="left">
+    <p>ナイト専用のアイテムで、ブレイブ ポーションより優れた効能があるんだ。</p>
+    <p><a action="A" numberInput="20">濃縮ブレイブ ポーション</a> </p>
+    <p>材料：ブレイブ ポーション3個、1,000Adena</p>
+    <p><img src="331" link="randal0"/></p>
+  </dialog>
+</npcdialog>

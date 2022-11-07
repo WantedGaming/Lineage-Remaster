@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 私の夫は商人でした。<br/>
+		 アデンと話せる島を行き来していた貿易商でした。<br/><br/>
+		 あの日は…星光も闇に飲み込まれた真っ暗な夜でした。<br/>
+		 マントをかぶった方が家にやって来て手紙を渡してきました…手紙にはダークエルフ軍の襲撃を受けて、夫が死んだと書かれていました。<br/><br/>
+		 戦争が終わったのは良いことですけど…戦争は多くを奪っていきました。私はこれからどう生きればいいのか分かりません…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

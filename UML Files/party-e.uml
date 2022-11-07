@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>パーティ情報</name>
+  </npc>
+  <dialog>
+	<p>パーティーリーダー：</p> 
+	<var src="0"/>
+	<p>パーティメンバー：</p>
+	<var src="1"/>
+	<var src="2"/>
+	<var src="3"/>
+	<var src="4"/>
+	<var src="5"/>
+	<var src="6"/>
+	<var src="7"/>
+  </dialog>
+</npcdialog>

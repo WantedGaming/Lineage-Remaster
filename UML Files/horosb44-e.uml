@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>フィールドよりもダンジョンで狩ればモンスターも多く、スムーズに経験値を上げることができるでしょう。</p>
+	<p>特にギランダンジョンを使えばポーションや望みのスクロールも手に入るでしょう。</p>
+	<p>出かける前にポーションや帰還スクロールを持っていることを確認しましょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,4774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zoneinfo>
+	<effecttreelist>
+		<tree map="4" x="32972" y="32440" range="5" seffectid="60" class="2"/>
+		<tree map="4" x="33004" y="32252" range="5" seffectid="60" class="2"/>
+		<tree map="4" x="33158" y="32335" range="5" seffectid="60" class="2"/>
+		<tree map="4" x="33054" y="32337" range="17" seffectid="60" class="2"/>
+		<tree map="622" x="32766" y="32830" range="10" seffectid="102"/>
+		<!-- PC방 -->
+		<tree map="1000" x="32801" y="32863" range="15" seffectid="134"/>
+		<tree map="1001" x="32800" y="32864" range="15" seffectid="133"/>
+	</effecttreelist>
+	<!--	The font color of the region name is changed based on your level.	How to calculate local color	1. 최소 <= 자신 레벨 <= 최대 인 경우 0	2. 최소 - 레벨 값이 20보다 큰 경우 20, 최대 - 레벨 값이 -20보다 작은 경우 -20	3. 최소 > 레벨 인 경우 최소 - 레벨, 최대 < 레벨 인 경우 최대 - 레벨	4. 해당 값을 기준으로 아래 표에 설정된 색상이 출력됩니다.	레벨 없음 : RGB(255,255,255)	-16 ~ -99 : RGB(255,255,255)	-11 ~ -15 : RGB(255,250,230)	- 6 ~ -10 : RGB(255,245,200)	- 1 ~ - 5 : RGB(255,240,170)			0 : RGB(255,230,140)	  1 ~   5 : RGB(255,200,110)	  6 ~  10 : RGB(255,130,80)	 11 ~  15 : RGB(255,60,40)	 16 ~  99 : RGB(255,0,0)	-->
+	<colorlist>
+		<!--level setting-->
+		<zonecolor id="0">
+			<level min="-100" max="-21"/>
+			<color r="255" g="255" b="255"/>
+		</zonecolor>
+		<zonecolor id="1">
+			<level min="-20" max="-16"/>
+			<color r="255" g="255" b="255"/>
+		</zonecolor>
+		<zonecolor id="2">
+			<level min="-15" max="-11"/>
+			<color r="255" g="250" b="230"/>
+		</zonecolor>
+		<zonecolor id="3">
+			<level min="-99" max="-6"/>
+			<color r="255" g="245" b="200"/>
+		</zonecolor>
+		<zonecolor id="4">
+			<level min="-5" max="-1"/>
+			<color r="255" g="240" b="170"/>
+		</zonecolor>
+		<zonecolor id="5">
+			<level min="0" max="0"/>
+			<color r="255" g="230" b="140"/>
+		</zonecolor>
+		<zonecolor id="6">
+			<level min="1" max="5"/>
+			<color r="255" g="200" b="110"/>
+		</zonecolor>
+		<zonecolor id="7">
+			<level min="6" max="10"/>
+			<color r="255" g="130" b="80"/>
+		</zonecolor>
+		<zonecolor id="8">
+			<level min="11" max="15"/>
+			<color r="255" g="60" b="40"/>
+		</zonecolor>
+		<zonecolor id="9">
+			<level min="16" max="99"/>
+			<color r="255" g="0" b="0"/>
+		</zonecolor>
+		<!--set color only-->
+		<zonecolor id="10">
+			<color r="100" g="230" b="255"/>
+		</zonecolor>
+		<!--Village/ship/safe area-->
+		<zonecolor id="11">
+			<color r="200" g="100" b="250"/>
+		</zonecolor>
+		<!--성/내성-->
+		<zonecolor id="12">
+			<color r="120" g="250" b="150"/>
+		</zonecolor>
+		<!--indun-->
+		<zonecolor id="13">
+			<color r="160" g="250" b="240"/>
+		</zonecolor>
+		<!--special place-->
+		<zonecolor id="14">
+			<color r="250" g="250" b="30"/>
+		</zonecolor>
+		<!--event-->
+	</colorlist>
+	<!--Start copy map setting-->
+	<alias num="736">
+		<map from="16000" to="16199"/>
+	</alias>
+	<alias num="1005">
+		<map from="1006" to="1010"/>
+	</alias>
+	<alias num="1011">
+		<map from="1012" to="1016"/>
+	</alias>
+	<alias num="1017">
+		<map from="1018" to="1022"/>
+	</alias>
+	<alias num="1023">
+		<map from="1024" to="1028"/>
+	</alias>
+	<alias num="1029">
+		<map from="1030" to="1034"/>
+	</alias>
+	<alias num="1035">
+		<map from="1036" to="1040"/>
+	</alias>
+	<alias num="1041">
+		<map from="1042" to="1046"/>
+	</alias>
+	<alias num="1047">
+		<map from="1048" to="1052"/>
+	</alias>
+	<alias num="1053">
+		<map from="1054" to="1058"/>
+	</alias>
+	<alias num="1059">
+		<map from="1060" to="1064"/>
+	</alias>
+	<alias num="1065">
+		<map from="1066" to="1070"/>
+	</alias>
+	<alias num="1071">
+		<map from="1072" to="1088"/>
+	</alias>
+	<alias num="1101">
+		<map from="1102" to="1118"/>
+	</alias>
+	<alias num="1131">
+		<map from="1132" to="1148"/>
+	</alias>
+	<alias num="1161">
+		<map from="1162" to="1178"/>
+	</alias>
+	<alias num="1191">
+		<map from="1192" to="1208"/>
+	</alias>
+	<alias num="1936">
+		<map from="1937" to="1997"/>
+	</alias>
+	<alias num="2936">
+	<map from="2937" to="2997"/>
+	</alias>
+	<alias num="3000">
+		<map from="3001" to="3049"/>
+	</alias>
+	<alias num="3050">
+		<map from="3051" to="3099"/>
+	</alias>
+	<alias num="4003">
+		<map from="4004" to="4052"/>
+	</alias>
+	<alias num="5501">
+		<map from="5502" to="5503"/>
+	</alias>
+	<alias num="5490">
+		<map from="5491" to="5499"/>
+	</alias>
+	<alias num="9000">
+		<map from="9001" to="9099"/>
+	</alias>
+	<alias num="9101">
+		<map from="9102" to="9199"/>
+	</alias>
+	<alias num="2101">
+		<map from="2102" to="2150"/>
+	</alias>
+	<alias num="2600">
+		<map from="2601" to="2698"/>
+	</alias>
+	<alias num="2699">
+		<map from="2700" to="2797"/>
+	</alias>
+	<!--190213 발렌타인이벤트 시작-->
+	<alias num="12014">
+		<map from="12015" to="12023"/>
+	</alias>
+	<!--190213 발렌타인이벤트 끝-->
+	<alias num="12152">
+		<map from="12153" to="12252"/>
+	</alias>
+	<alias num="12257">
+		<map from="12258" to="12356"/>
+	</alias>
+	<!--alias num="7783">		<map from="12359" to="12458"/>	</alias-->
+	<alias num="12146">
+		<map from="12601" to="12649"/>
+	</alias>
+	<alias num="12147">
+		<map from="12650" to="12698"/>
+	</alias>
+	<alias num="12148">
+		<map from="12699" to="12747"/>
+	</alias>
+	<alias num="12149">
+		<map from="12748" to="12796"/>
+	</alias>
+	<alias num="13001">
+		<map from="13100" to="13599"/>
+	</alias>
+	<alias num="13002">
+		<map from="13600" to="13699"/>
+	</alias>
+	<alias num="13003">
+		<map from="13700" to="13799"/>
+	</alias>
+	<alias num="13004">
+		<map from="13800" to="13899"/>
+	</alias>
+	<alias num="13005">
+		<map from="13900" to="13999"/>
+	</alias>
+	<alias num="13006">
+		<map from="14000" to="14099"/>
+	</alias>
+	<alias num="13051">
+		<map from="14500" to="14599"/>
+	</alias>
+	<alias num="13052">
+		<map from="14600" to="14699"/>
+	</alias>
+	<alias num="13053">
+		<map from="14700" to="14799"/>
+	</alias>
+	<alias num="13054">
+		<map from="14800" to="14899"/>
+	</alias>
+	<alias num="13055">
+		<map from="14900" to="14999"/>
+	</alias>
+	<alias num="13056">
+		<map from="15000" to="15099"/>
+	</alias>
+	<alias num="13057">
+		<map from="15100" to="15199"/>
+	</alias>
+	<alias num="13058">
+		<map from="15200" to="15299"/>
+	</alias>
+	<alias num="13059">
+		<map from="15300" to="15399"/>
+	</alias>
+	<!-- 초보존 개편 복사맵 설정 시작 -->
+	<alias num="0">
+		<map from="15850" to="15851"/>
+	</alias>
+	<alias num="1">
+		<map from="12870" to="12874"/>
+	</alias>
+	<alias num="2">
+		<map from="12885" to="12889"/>
+	</alias>
+	<alias num="3">
+		<map from="12901" to="12919"/>
+	</alias>
+	<alias num="7">
+		<map from="12920" to="12929"/>
+	</alias>
+	<alias num="8">
+		<map from="12930" to="12939"/>
+	</alias>
+	<!-- alias num="9">
+		<map>12359</map>
+	</alias -->
+	<alias num="10">
+		<map from="12940" to="12959"/>
+	</alias>
+	<alias num="11">
+		<map from="12960" to="12979"/>
+	</alias>
+	<alias num="12">
+		<map from="12980" to="12999"/>
+	</alias>
+	<alias num="25">
+		<map from="15650" to="15658"/>
+	</alias>
+	<alias num="26">
+		<map from="15700" to="15708"/>
+	</alias>
+	<alias num="27">
+		<map from="15750" to="15758"/>
+	</alias>
+	<alias num="28">
+		<map from="15800" to="15808"/>
+	</alias>
+	<!-- 초보존 개편 복사맵 설정 종료 -->
+	<!--드래곤 서식지 복사맵-->
+	<alias num="140">
+		<map from="141" to="159"/>
+	</alias>
+	<!--드래곤 서식지 복사맵 종료-->
+	<!--the 수렵 이벤트 복사맵 시작-->
+	<alias num="132">
+		<map from="133" to="134"/>
+	</alias>
+	<alias num="135">
+		<map from="136" to="137"/>
+	</alias>	
+	<!--the 수렵 이벤트 복사맵 시작-->
+	<!--미러맵 설정 시작-->
+	<alias num="441">
+		<map>12501</map>
+	</alias>
+	<alias num="442">
+		<map>12502</map>
+	</alias>
+	<alias num="443">
+		<map>12503</map>
+	</alias>
+	<alias num="444">
+		<map>12504</map>
+	</alias>
+	<alias num="420">
+		<map>12505</map>
+	</alias>
+	<alias num="550">
+		<map>12506</map>
+	</alias>
+	<alias num="558">
+		<map>12507</map>
+	</alias>
+	<alias num="1">
+		<map>12508</map>
+	</alias>
+	<alias num="2">
+		<map>12509</map>
+	</alias>
+	<alias num="25">
+		<map>12513</map>
+	</alias>
+	<alias num="26">
+		<map>12514</map>
+	</alias>
+	<alias num="27">
+		<map>12515</map>
+	</alias>
+	<alias num="28">
+		<map>12516</map>
+	</alias>
+	<alias num="55">
+		<map>12519</map>
+	</alias>
+	<alias num="56">
+		<map>12520</map>
+	</alias>
+	<alias num="59">
+		<map from="16000" to="16010"/>
+	</alias>
+	<alias num="60">
+		<map from="16011" to="16020"/>
+	</alias>
+	<alias num="61">
+		<map>12523</map>
+		<map from="16021" to="16030"/>
+	</alias>
+	<alias num="63">
+		<map>12524</map>
+	</alias>
+	<alias num="101">
+		<map>12526</map>
+	</alias>
+	<alias num="102">
+		<map>12527</map>
+	</alias>
+	<alias num="103">
+		<map>12528</map>
+	</alias>
+	<alias num="104">
+		<map>12529</map>
+	</alias>
+	<alias num="105">
+		<map>12530</map>
+	</alias>
+	<alias num="106">
+		<map>12531</map>
+	</alias>
+	<alias num="107">
+		<map>12532</map>
+	</alias>
+	<alias num="108">
+		<map>12533</map>
+	</alias>
+	<alias num="109">
+		<map>12534</map>
+	</alias>
+	<alias num="110">
+		<map>12535</map>
+	</alias>
+	<alias num="111">
+		<map>12536</map>
+	</alias>
+	<alias num="121">
+		<map>12537</map>
+	</alias>
+	<alias num="122">
+		<map>12538</map>
+	</alias>
+	<alias num="123">
+		<map>12539</map>
+	</alias>
+	<alias num="124">
+		<map>12540</map>
+	</alias>
+	<alias num="125">
+		<map>12541</map>
+	</alias>
+	<alias num="126">
+		<map>12542</map>
+	</alias>
+	<alias num="127">
+		<map>12543</map>
+	</alias>
+	<alias num="128">
+		<map>12544</map>
+	</alias>
+	<alias num="129">
+		<map>12545</map>
+	</alias>
+	<alias num="130">
+		<map>12546</map>
+	</alias>
+	<alias num="131">
+		<map>12547</map>
+	</alias>
+	<alias num="521">
+		<map>12558</map>
+	</alias>
+	<alias num="522">
+		<map>12559</map>
+	</alias>
+	<alias num="523">
+		<map>12560</map>
+	</alias>
+	<alias num="524">
+		<map>12561</map>
+	</alias>
+	<alias num="600">
+		<map>12562</map>
+	</alias>
+	<alias num="601">
+		<map>12563</map>
+	</alias>
+	<alias num="603">
+		<map>12564</map>
+	</alias>
+	<alias num="604">
+		<map>12565</map>
+	</alias>
+	<alias num="605">
+		<map>12566</map>
+	</alias>
+	<alias num="606">
+		<map>12567</map>
+	</alias>
+	<alias num="607">
+		<map>12568</map>
+	</alias>
+	<alias num="1501">
+		<map from="1501" to="1505"/>
+	</alias>
+	<!--미러맵 설정 끝-->
+	<alias num="623">
+		<map from="15461" to="15465"/>
+	</alias>
+	<!--성장의 섬 미러맵 설정 끝-->
+	<!--생명의 숲 미러맵 설정-->
+	<alias num="2041">
+		<map from="2042" to="2046"/>
+	</alias>
+	<alias num="2047">
+		<map from="2048" to="2052"/>
+	</alias>
+	<alias num="2053">
+		<map from="2054" to="2058"/>
+	</alias>
+	<alias num="2059">
+		<map from="2060" to="2064"/>
+	</alias>
+	<!--생명의 숲 미러맵 설정 끝-->
+	<!--190123 폭탄이벤트 시작-->
+	<alias num="820">
+		<map from="821" to="826"/>
+	</alias>
+	<alias num="830">
+		<map from="831" to="834"/>
+	</alias>
+	<!--190123 폭탄이벤트 끝-
+	<alias num="635">
+		<map from="636" to="639"/>
+	</alias>
+	<alias num="640">
+		<map from="641" to="644"/>
+	</alias>
+	<alias num="645">
+		<map from="646" to="649"/>
+	</alias>
+	<alias num="650">
+		<map from="651" to="654"/>
+	</alias>-->
+	<alias num="840">
+		<map from="841" to="854"/>
+	</alias>
+	<alias num="855">
+		<map from="856" to="869"/>
+	</alias>
+	<!-- Table 적재용 Start -->
+	<alias num="16384">
+		<map from="16385" to="16483"/>
+	</alias>
+	<alias num="16896">
+		<map from="16897" to="16900"/>
+	</alias>
+	<alias num="17408">
+		<map from="17409" to="17507"/>
+	</alias>
+	<alias num="17920">
+		<map from="17921" to="17924"/>
+	</alias>	
+	<alias num="18432">
+		<map from="18433" to="18531"/>
+	</alias>	
+	<alias num="18944">
+		<map from="18945" to="18948"/>
+	</alias>	
+	<alias num="19456">
+		<map from="19457" to="19555"/>
+	</alias>		
+	<alias num="19968">
+		<map from="19969" to="19972"/>
+	</alias>		
+	<alias num="20480">
+		<map from="20481" to="20679"/>
+	</alias>		
+	<alias num="20992">
+		<map from="20993" to="21001"/>
+	</alias>		
+	<alias num="21504">
+		<map from="21505" to="21603"/>
+	</alias>		
+	<alias num="22016">
+		<map from="22017" to="22020"/>
+	</alias>		
+	<alias num="22528">
+		<map from="22529" to="22627"/>
+	</alias>		
+	<alias num="23040">
+		<map from="23041" to="23044"/>
+	</alias>		
+	<alias num="23552">
+		<map from="23553" to="23751"/>
+	</alias>		
+	<alias num="24064">
+		<map from="24065" to="24073"/>
+	</alias>		
+	<alias num="24576">
+		<map from="24577" to="24675"/>
+	</alias>
+	<alias num="25088">
+		<map from="25089" to="25097"/>
+	</alias>	
+	<zone>
+		<name>Inn</name>
+		<map num="16384"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="16896"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="17408"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="17920"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="18432"/>
+	</zone>
+	<zone>
+		<name>Inn</name>
+		<map num="18944"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="19456"/>
+	</zone>		
+	<zone>
+		<name>Inn</name>
+		<map num="19968"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="20480"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="20992"/>
+	</zone>		
+	<zone>
+		<name>Inn</name>
+		<map num="21504"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="22016"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="22528"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="23040"/>
+	</zone>		
+	<zone>
+		<name>Inn</name>
+		<map num="23552"/>
+	</zone>			
+	<zone>
+		<name>Inn</name>
+		<map num="24064"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="24576"/>
+	</zone>	
+	<zone>
+		<name>Inn</name>
+		<map num="25088"/>
+	</zone>
+	<zone>		
+		<name>House</name>	
+		<map num="4995"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="4996"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="4997"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="4998"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="4999"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5000"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5001"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5002"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5003"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5004"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5005"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5006"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5007"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5008"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5009"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5010"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5011"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5012"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5013"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5014"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5015"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5016"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5017"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5018"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5019"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5020"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5021"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5022"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5023"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5024"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5025"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5026"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5027"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5028"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5029"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5030"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5031"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5032"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5033"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5034"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5035"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5036"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5037"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5038"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5039"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5040"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5041"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5042"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5043"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5044"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5045"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5046"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5047"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5048"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5049"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5050"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5051"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5052"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5053"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5054"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5055"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5056"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5057"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5058"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5059"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5060"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5061"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5062"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5063"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5064"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5065"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5066"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5067"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5068"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5069"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5070"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5071"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5072"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5073"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5074"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5075"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5076"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5077"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5078"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5079"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5080"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5081"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5082"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5083"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5084"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5085"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5086"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5087"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5088"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5089"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5090"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5091"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5092"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5093"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5094"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5095"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5096"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5097"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5098"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5099"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5100"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5101"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5102"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5103"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5104"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5105"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5106"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5107"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5108"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5109"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5110"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5111"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5112"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5113"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5114"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5115"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5116"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5117"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5118"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5119"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5120"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5121"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5122"/>	
+	</zone>		
+	<zone>		
+		<name>House</name>	
+		<map num="5123"/>	
+	</zone>		
+	<!-- Table loading end-->
+	<!-- 21_3q bomb event-->
+	<alias num="650">
+		<map from="651" to="659"/>
+	</alias>
+	<alias num="670">
+		<map from="671" to="679"/>
+	</alias>
+	<!--22nd Anniversary 2nd Event-->
+	<zone>
+		<name>Talking Island</name>
+		<color id="10"/>
+		<map num="0" left="32543" top="32905" right="32671" bottom="32987"/>
+		<background id="100"/>
+		<!--MapSystem86.xml 에 정의된 ID 번호-->
+	</zone>
+	<zone>
+		<name>Talking Island - North</name>
+		<level min="30" max="40"/>
+		<map num="9" left="32641" top="32827" right="32709" bottom="32891"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Settlements</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32466" top="32777" right="32550" bottom="32839"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Settlements</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32477" top="32838" right="32539" bottom="32847"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Settlements</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32508" top="32847" right="32527" bottom="32855"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Settlements</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32549" top="32813" right="32553" bottom="32837"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Settlements</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32551" top="32822" right="32556" bottom="32836"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Settlements</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32556" top="32823" right="32560" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Swamps</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32375" top="32881" right="32409" bottom="32962"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Swamps</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32406" top="32901" right="32449" bottom="32961"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Swamps</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32347" top="32961" right="32373" bottom="32988"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Orc Swamps</name>
+		<level min="40" max="50"/>
+		<map num="9" left="32364" top="32932" right="32378" bottom="32971"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Dwarf Village</name>
+		<level min="30" max="40"/>
+		<map num="9" left="32463" top="32902" right="32523" bottom="32958"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Dwarf Village</name>
+		<level min="30" max="40"/>
+		<map num="9" left="32640" top="33041" right="32679" bottom="33079"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Spider Forest</name>
+		<level min="45" max="50"/>
+		<map num="9" left="32422" top="33012" right="32546" bottom="33128"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Abandoned Dock</name>
+		<level min="45" max="50"/>
+		<map num="9" left="32480" top="33176" right="32502" bottom="33201"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Abandoned Village</name>
+		<level min="45" max="50"/>
+		<map num="9" left="32368" top="32964" right="32422" bottom="33019"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Abandoned Village</name>
+		<level min="45" max="50"/>
+		<map num="9" left="32421" top="32961" right="32452" bottom="32993"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Abandoned Village</name>
+		<level min="45" max="50"/>
+		<map num="9" left="32627" top="33183" right="32670" bottom="33220"/>
+	</zone>
+	<zone>
+		<name>Talking Island - Abandoned Village</name>
+		<level min="45" max="50"/>
+		<map num="9" left="32557" top="33075" right="32591" bottom="33096"/>
+	</zone>
+	<zone>
+		<name>Talking Island - BK Outpost</name>
+		<level min="50" max="55"/>
+		<map num="9" left="32681" top="33129" right="32723" bottom="33168"/>
+	</zone>
+	<zone>
+		<name>Talking Island</name>
+		<level min="30" max="55"/>
+		<map num="9" left="32256" top="32768" right="32767" bottom="33279"/>
+		<bookmark id="1"/>
+	</zone>
+	<zone>
+		<name>Talking Island Dungeon 1F</name>
+		<level min="40" max="45"/>
+		<map num="1"/>
+	</zone>
+	<zone>
+		<name>Talking Island Dungeon 2F</name>
+		<level min="50" max="60"/>
+		<map num="2"/>
+	</zone>
+	<!-- Start of novice zone reorganization -->
+	<zone>
+		<name>Red Knight Training Camp</name>
+		<color id="10"/>
+		<level min="1" max="30"/>
+		<background id="157"/>
+		<map num="3" left="32669" top="32796" right="32744" bottom="32866"/>
+	</zone>
+	<zone>
+		<name>Swamp of the Red Knights</name>
+		<color id="10"/>
+		<level min="1" max="30"/>
+		<map num="7"/>
+	</zone>
+	<zone>
+		<name>Hidden Road</name>
+		<color id="10"/>
+		<level min="1" max="30"/>
+		<map num="8"/>
+	</zone>
+	<zone>
+		<name>Spider Cave</name>
+		<level min="1" max="30"/>
+		<map num="12146"/>
+		<parentmap num="3" loc="32731,32811"/>
+	</zone>
+	<zone>
+		<name>Sanctuary of the Dead</name>
+		<level min="1" max="30"/>
+		<map num="12147"/>
+		<parentmap num="3" loc="32731,32811"/>
+	</zone>
+	<zone>
+		<name>Black Battleship 1F</name>
+		<level min="50" max="55"/>
+		<map num="10"/>
+		<parentmap num="9" loc="32645,33220"/>
+	</zone>
+	<zone>
+		<name>Black Battleship 2F</name>
+		<level min="50" max="55"/>
+		<map num="11"/>
+		<parentmap num="9" loc="32645,33220"/>
+	</zone>
+	<zone>
+		<name>Black Battleship 3F</name>
+		<level min="50" max="55"/>
+		<map num="12"/>
+		<parentmap num="9" loc="32645,33220"/>
+	</zone>
+	<zone>
+		<name>Boat to Gludio</name>
+		<color id="10"/>
+		<map num="5"/>
+		<background id="2"/>
+	</zone>
+	<zone>
+		<name>Boat to Talking Island</name>
+		<color id="10"/>
+		<map num="6"/>
+		<background id="3"/>
+	</zone>
+	<zone>
+		<name>Underground Passageway</name>
+		<level min="55" max="80"/>
+		<map num="14"/>
+	</zone>
+	<zone>
+		<name>Kent Castle Town</name>
+		<color id="11"/>
+		<map num="15"/>
+		<background id="119"/>
+	</zone>
+	<zone>
+		<name>Hardin's Laboratory</name>
+		<color id="10"/>
+		<map num="16"/>
+		<bookmark id="17"/>
+	</zone>
+	<zone>
+		<name>Nerfa's Cave</name>
+		<color id="10"/>
+		<map num="17"/>
+	</zone>
+	<zone>
+		<name>Dupergenon Dungeon</name>
+		<color id="13"/>
+		<map num="18"/>
+	</zone>
+	<zone>
+		<name>Elf Dungeon 1F</name>
+		<level min="65" max="70"/>
+		<map num="19"/>
+	</zone>
+	<zone>
+		<name>Elf Dungeon 2F</name>
+		<level min="75" max="80"/>
+		<map num="20"/>
+	</zone>
+	<zone>
+		<name>Elf Dungeon 3F</name>
+		<level min="80" max="85"/>
+		<map num="21"/>
+	</zone>
+	<zone>
+		<name>SKT Dungeon 1F</name>
+		<level min="71" max="75"/>
+		<map num="25"/>
+	</zone>
+	<zone>
+		<name>SKT Dungeon 2F</name>
+		<level min="76" max="79"/>
+		<map num="26"/>
+	</zone>
+	<zone>
+		<name>SKT Dungeon 3F</name>
+		<level min="80" max="84"/>
+		<map num="27"/>
+	</zone>
+	<zone>
+		<name>SKT Dungeon 4F</name>
+		<level min="85" max="88"/>
+		<map num="28"/>
+	</zone>
+	<zone>
+		<name>Windawood Inner Castle</name>
+		<color id="11"/>
+		<map num="29"/>
+		<background id="120"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 1F</name>
+		<level min="80" max="81"/>
+		<map num="30"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 2F</name>
+		<level min="81" max="82"/>
+		<map num="31"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 3F</name>
+		<level min="82" max="85"/>
+		<map num="32"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 4F</name>
+		<level min="85" max="86"/>
+		<map num="33"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 5F</name>
+		<level min="86" max="88"/>
+		<map num="35"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 6F</name>
+		<level min="88" max="90"/>
+		<map num="36"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley Dungeon 7F</name>
+		<level min="90" max="92"/>
+		<map num="37"/>
+	</zone>
+	<zone>
+		<name>Giran Inner Castle</name>
+		<color id="11"/>
+		<map num="52"/>
+		<background id="121"/>
+	</zone>
+	<zone>
+		<name>Giran Prison 1F</name>
+		<level min="74" max="75"/>
+		<map num="53"/>
+	</zone>
+	<zone>
+		<name>Giran Prison 2F</name>
+		<level min="75" max="76"/>
+		<map num="54"/>
+	</zone>
+	<zone>
+		<name>Giran Prison 3F</name>
+		<level min="77" max="78"/>
+		<map num="55"/>
+	</zone>
+	<zone>
+		<name>Giran Prison 4F</name>
+		<level min="78" max="79"/>
+		<map num="56"/>
+	</zone>
+	<zone>
+		<name>Eva Kingdom Waterway 1F</name>
+		<level min="80" max="99"/>
+		<map num="59"/>
+	</zone>
+	<zone>
+		<name>Eva Kingdom Waterway 2F</name>
+		<level min="80" max="99"/>
+		<map num="60"/>
+	</zone>
+	<zone>
+		<name>Eva Kingdom Waterway 3F</name>
+		<level min="80" max="99"/>
+		<map num="61"/>
+	</zone>
+	<zone>
+		<name>Hidden Eva Kingdom Waterway</name>
+		<level min="80" max="99"/>
+		<map num="62"/>
+	</zone>
+	<zone>
+		<name>Eva Kingdom</name>
+		<level min="86" max="88"/>
+		<map num="63"/>
+		<background id="123"/>
+	</zone>
+	<zone>
+		<name>Heine Inner Castle</name>
+		<color id="11"/>
+		<map num="64"/>
+		<background id="124"/>
+	</zone>
+	<zone>
+		<name>Water Dragon Lair</name>
+		<level min="89" max="92"/>
+		<map num="65"/>
+		<background id="6"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island</name>
+		<level min="80" max="90"/>
+		<map num="70"/>
+		<background id="128"/>
+	</zone>
+	<zone>
+		<name>Oren Ivory Tower 1F</name>
+		<color id="10"/>
+		<map num="75"/>
+	</zone>
+	<zone>
+		<name>Oren Ivory Tower 2F</name>
+		<color id="10"/>
+		<map num="76"/>
+	</zone>
+	<zone>
+		<name>Oren Ivory Tower 3F</name>
+		<color id="10"/>
+		<map num="77"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island Boat</name>
+		<color id="10"/>
+		<map num="83"/>
+		<background id="11"/>
+	</zone>
+	<zone>
+		<name>Heine Boat</name>
+		<color id="10"/>
+		<map num="84"/>
+		<background id="12"/>
+	</zone>
+	<zone>
+		<name>Giran Colosseum</name>
+		<color id="12"/>
+		<map num="88"/>
+	</zone>
+	<zone>
+		<name>Giran Colosseum</name>
+		<color id="12"/>
+		<map num="89"/>
+	</zone>
+	<zone>
+		<name>Giran Colosseum</name>
+		<color id="12"/>
+		<map num="90"/>
+	</zone>
+	<zone>
+		<name>Talking Island Colosseum</name>
+		<color id="12"/>
+		<map num="91"/>
+	</zone>
+	<zone>
+		<name>Gludio Colosseum</name>
+		<color id="12"/>
+		<map num="92"/>
+	</zone>
+	<zone>
+		<name>Kent Colosseum</name>
+		<color id="12"/>
+		<map num="93"/>
+	</zone>
+	<zone>
+		<name>Windawood Colosseum</name>
+		<color id="12"/>
+		<map num="94"/>
+	</zone>
+	<zone>
+		<name>Silver Knight Town Colosseum</name>
+		<color id="12"/>
+		<map num="95"/>
+	</zone>
+	<zone>
+		<name>Fire Dragon Lair Colosseum</name>
+		<color id="12"/>
+		<map num="96"/>
+	</zone>
+	<zone>
+		<name>Heine Colosseum</name>
+		<color id="12"/>
+		<map num="97"/>
+	</zone>
+	<zone>
+		<name>Weldren Colosseum</name>
+		<color id="12"/>
+		<map num="98"/>
+	</zone>
+	<zone>
+		<name>Manager's Room</name>
+		<color id="13"/>
+		<map num="99"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 1F</name>
+		<level min="83" max="85"/>
+		<map num="101"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 2F</name>
+		<level min="83" max="85"/>
+		<map num="102"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 3F</name>
+		<level min="83" max="85"/>
+		<map num="103"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 4F</name>
+		<level min="83" max="85"/>
+		<map num="104"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 5F</name>
+		<level min="83" max="85"/>
+		<map num="105"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 6F</name>
+		<level min="86" max="88"/>
+		<map num="106"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 7F</name>
+		<level min="86" max="88"/>
+		<map num="107"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 8F</name>
+		<level min="89" max="92"/>
+		<map num="108"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 9F</name>
+		<level min="89" max="92"/>
+		<map num="109"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence 10F</name>
+		<level min="89" max="92"/>
+		<map num="110"/>
+	</zone>
+	<zone>
+		<name>Tower of Insolence Top Floor</name>
+		<level min="89" max="92"/>
+		<map num="111"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower Secret Laboratory</name>
+		<color id="13"/>
+		<map num="270"/>
+	</zone>
+	<zone>
+		<name>Aden Inner Castle</name>
+		<color id="11"/>
+		<map num="300"/>
+		<background id="130"/>
+	</zone>
+	<zone>
+		<name>Silent Cave Village</name>
+		<color id="10"/>
+		<map num="304" left="32768" top="32768" right="32959" bottom="33023"/>
+		<background id="131"/>
+		<bookmark id="15"/>
+	</zone>
+	<zone>
+		<name>Burdika's Cave</name>
+		<color id="10"/>
+		<map num="305"/>
+		<bookmark id="16"/>
+	</zone>
+	<zone>
+		<name>Hell</name>
+		<level min="70" max="80"/>
+		<map num="666"/>
+	</zone>
+	<zone>
+		<name>Ruins of Death</name>
+		<level min="65" max="67"/>
+		<map num="4" left="32702" top="32598" right="32913" bottom="32740"/>
+	</zone>
+	<zone>
+		<name>Ruins of Death</name>
+		<level min="65" max="67"/>
+		<map num="4" left="32709" top="32740" right="32826" bottom="32772"/>
+	</zone>
+	<zone>
+		<name>Tomb of the Dead</name>
+		<level min="65" max="67"/>
+		<map num="4" left="32795" top="32879" right="32930" bottom="32967"/>
+	</zone>
+	<zone>
+		<name>Orc Settlements</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32668" top="32192" right="32745" bottom="32277"/>
+	</zone>
+	<zone>
+		<name>Dry Desert</name>
+		<level min="83" max="85"/>
+		<map num="4" left="32806" top="33076" right="32895" bottom="33098"/>
+	</zone>
+	<zone>
+		<name>Dry Desert</name>
+		<level min="83" max="85"/>
+		<map num="4" left="32690" top="33098" right="32940" bottom="33377"/>
+	</zone>
+	<zone>
+		<name>Dry Desert</name>
+		<level min="83" max="85"/>
+		<map num="4" left="32670" top="33123" right="32689" bottom="33349"/>
+	</zone>
+	<zone>
+		<name>Dry Desert</name>
+		<level min="83" max="85"/>
+		<map num="4" left="32652" top="33223" right="32667" bottom="33349"/>
+	</zone>
+	<zone>
+		<name>Wastelands</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32718" top="33372" right="32960" bottom="33534"/>
+	</zone>
+	<zone>
+		<name>Oren Snow Mountain</name>
+		<level min="86" max="88"/>
+		<map num="4" left="34100" top="32177" right="34303" bottom="32371"/>
+	</zone>
+	<zone>
+		<name>Oren Snow Mountain</name>
+		<level min="86" max="88"/>
+		<map num="4" left="34144" top="32370" right="34303" bottom="32431"/>
+	</zone>
+	<zone>
+		<name>Elmore Battlefield</name>
+		<level min="83" max="85"/>
+		<map num="4" left="33997" top="32387" right="34109" bottom="32570"/>
+	</zone>
+	<zone>
+		<name>Elmore Outpost</name>
+		<level min="83" max="85"/>
+		<map num="4" left="33969" top="32597" right="34028" bottom="32660"/>
+	</zone>
+	<zone>
+		<name>Elmore Watchtower</name>
+		<level min="83" max="85"/>
+		<map num="4" left="34131" top="32569" right="34195" bottom="32640"/>
+	</zone>
+	<zone>
+		<name>Alligator Island</name>
+		<level min="77" max="79"/>
+		<map num="4" left="33469" top="33181" right="33534" bottom="33234"/>
+	</zone>
+	<zone>
+		<name>Alligator Island</name>
+		<level min="77" max="79"/>
+		<map num="4" left="33498" top="33172" right="33523" bottom="33182"/>
+	</zone>
+	<zone>
+		<name>Jungle Area</name>
+		<level min="74" max="76"/>
+		<map num="4" left="33731" top="32764" right="33880" bottom="33023"/>
+	</zone>
+	<zone>
+		<name>Wind Dragon Lair</name>
+		<level min="89" max="92"/>
+		<map num="4" left="34112" top="32750" right="34303" bottom="32959"/>
+	</zone>
+	<zone>
+		<name>Mirror Forest</name>
+		<level min="83" max="85"/>
+		<map num="4" left="33689" top="33278" right="33811" bottom="33471"/>
+	</zone>
+	<zone>
+		<name>Dark Dragon Scar</name>
+		<level min="83" max="85"/>
+		<map num="4" left="33155" top="32952" right="33434" bottom="33038"/>
+	</zone>
+	<zone>
+		<name>Twilight Mountains</name>
+		<level min="80" max="83"/>
+		<map num="4" left="34236" top="33103" right="34303" bottom="33515"/>
+	</zone>
+	<zone>
+		<name>Twilight Mountains</name>
+		<level min="80" max="83"/>
+		<map num="4" left="34200" top="33275" right="34239" bottom="33519"/>
+	</zone>
+	<zone>
+		<name>Kent Castle</name>
+		<color id="11"/>
+		<map num="4" left="33088" top="32720" right="33199" bottom="32833"/>
+	</zone>
+	<zone>
+		<name>Orc Fortress</name>
+		<color id="11"/>
+		<map num="4" left="32750" top="32246" right="32841" bottom="32347"/>
+		<background id="107"/>
+		<bookmark id="2"/>
+	</zone>
+	<zone>
+		<name>Windawood Castle</name>
+		<color id="11"/>
+		<map num="4" left="32566" top="33350" right="32717" bottom="33462"/>
+	</zone>
+	<zone>
+		<name>Giran Castle</name>
+		<color id="11"/>
+		<map num="4" left="33558" top="32599" right="33709" bottom="32759"/>
+	</zone>
+	<zone>
+		<name>Heine Castle</name>
+		<color id="11"/>
+		<map num="4" left="33457" top="33308" right="33575" bottom="33500"/>
+	</zone>
+	<zone>
+		<name>Aden Castle</name>
+		<color id="11"/>
+		<map num="4" left="34011" top="33173" right="34163" bottom="33332"/>
+	</zone>
+	<zone>
+		<name>Wilderness</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32932" top="33047" right="33024" bottom="33200"/>
+	</zone>
+	<zone>
+		<name>Wilderness</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32956" top="33200" right="33024" bottom="33319"/>
+	</zone>
+	<zone>
+		<name>Wilderness</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32921" top="33319" right="33024" bottom="33372"/>
+	</zone>
+	<zone>
+		<name>Wilderness</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32896" top="33372" right="32960" bottom="33535"/>
+	</zone>
+	<zone>
+		<name>Wilderness</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32960" top="33372" right="33024" bottom="33472"/>
+	</zone>
+	<zone>
+		<name>Wilderness</name>
+		<level min="68" max="70"/>
+		<map num="4" left="33024" top="33060" right="33062" bottom="33280"/>
+	</zone>
+	<zone>
+		<name>Quiet Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33062" top="33092" right="33108" bottom="33119"/>
+	</zone>
+	<zone>
+		<name>Quiet Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33062" top="33076" right="33094" bottom="33092"/>
+	</zone>
+	<zone>
+		<name>Quiet Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33062" top="33119" right="33241" bottom="33280"/>
+	</zone>
+	<zone>
+		<name>Quiet Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33241" top="33143" right="33253" bottom="33280"/>
+	</zone>
+	<zone>
+		<name>Quiet Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33253" top="33199" right="33269" bottom="33235"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33121" top="33280" right="33248" bottom="33330"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33248" top="33311" right="33255" bottom="33330"/>
+	</zone>
+	<zone>
+		<name>West Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33024" top="33280" right="33121" bottom="33330"/>
+	</zone>
+	<zone>
+		<name>South Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="32960" top="33472" right="33106" bottom="33535"/>
+	</zone>
+	<zone>
+		<name>South Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33024" top="33430" right="33106" bottom="33472"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33152" top="33330" right="33269" bottom="33535"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33269" top="33366" right="33287" bottom="33499"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33287" top="33412" right="33299" bottom="33501"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33299" top="33449" right="33311" bottom="33478"/>
+	</zone>
+	<zone>
+		<name>East Side Forest</name>
+		<level min="65" max="67"/>
+		<map num="4" left="33106" top="33408" right="33152" bottom="33535"/>
+	</zone>
+	<zone>
+		<name>Silver Knight Town</name>
+		<color id="10"/>
+		<map num="4" left="33106" top="33330" right="33152" bottom="33408"/>
+		<background id="112"/>
+	</zone>
+	<zone>
+		<name>Silver Knight Town</name>
+		<color id="10"/>
+		<map num="4" left="33024" top="33330" right="33106" bottom="33430"/>
+		<background id="112"/>
+	</zone>
+	<zone>
+		<name>Silver Knight Town Area</name>
+		<level min="65" max="70"/>
+		<map num="4" left="32896" top="33023" right="33088" bottom="33087"/>
+		<bookmark id="7"/>
+	</zone>
+	<zone>
+		<name>Silver Knight Town Area</name>
+		<level min="65" max="70"/>
+		<map num="4" left="32896" top="33087" right="33280" bottom="33535"/>
+		<bookmark id="7"/>
+	</zone>
+	<zone>
+		<name>Gypsy Town</name>
+		<color id="10"/>
+		<map num="4" left="33946" top="32917" right="33989" bottom="32967"/>
+		<background id="118"/>
+	</zone>
+	<zone>
+		<name>Wind Dragon Scar</name>
+		<level min="75" max="80"/>
+		<map num="4" left="34002" top="32873" right="34098" bottom="32961"/>
+	</zone>
+	<zone>
+		<name>Fire Field Village</name>
+		<color id="10"/>
+		<map num="4" left="32708" top="32412" right="32773" bottom="32485"/>
+		<background id="117"/>
+		<bookmark id="2"/>
+	</zone>
+	<zone>
+		<name>Orc Forest</name>
+		<level min="68" max="70"/>
+		<map num="4" left="32511" top="32191" right="32960" bottom="32537"/>
+		<bookmark id="2"/>
+	</zone>
+	<zone>
+		<name>Wizard's Laboratory</name>
+		<color id="10"/>
+		<map num="4" left="32838" top="32770" right="32895" bottom="32827"/>
+		<background id="148"/>
+		<bookmark id="3"/>
+	</zone>
+	<zone>
+		<name>Gludio Village</name>
+		<color id="10"/>
+		<map num="4" left="32581" top="32704" right="32655" bottom="32834"/>
+		<background id="101"/>
+		<bookmark id="3"/>
+	</zone>
+	<zone>
+		<name>Gludio Village</name>
+		<level min="55" max="60"/>
+		<map num="4" left="32512" top="32537" right="32960" bottom="33023"/>
+		<bookmark id="3"/>
+	</zone>
+	<zone>
+		<name>Woodbeck Village</name>
+		<color id="10"/>
+		<map num="4" left="32578" top="33152" right="32659" bottom="33218"/>
+		<background id="109"/>
+		<bookmark id="4"/>
+	</zone>
+	<zone>
+		<name>Woodbeck Village</name>
+		<color id="10"/>
+		<map num="4" left="32601" top="33218" right="32646" bottom="33233"/>
+		<background id="109"/>
+		<bookmark id="4"/>
+	</zone>
+	<zone>
+		<name>Windawood</name>
+		<level min="55" max="60"/>
+		<map num="4" left="32512" top="33023" right="32960" bottom="33535"/>
+		<bookmark id="4"/>
+	</zone>
+	<zone>
+		<name>Elven Forest</name>
+		<color id="10"/>
+		<map num="4" left="33028" top="32304" right="33091" bottom="32376"/>
+		<background id="108"/>
+		<bookmark id="5"/>
+	</zone>
+	<zone>
+		<name>Elven Forest</name>
+		<level min="55" max="60"/>
+		<map num="4" left="32960" top="32191" right="33216" bottom="32511"/>
+		<bookmark id="5"/>
+	</zone>
+	<zone>
+		<name>Kent Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33033" top="32724" right="33082" bottom="32814"/>
+		<background id="114"/>
+		<bookmark id="6"/>
+	</zone>
+	<zone>
+		<name>Kent</name>
+		<level min="64" max="73"/>
+		<map num="4" left="32960" top="32511" right="33280" bottom="33023"/>
+		<bookmark id="6"/>
+	</zone>
+	<zone>
+		<name>Kent</name>
+		<level min="64" max="73"/>
+		<map num="4" left="33088" top="33023" right="33280" bottom="33087"/>
+		<bookmark id="6"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley</name>
+		<level min="86" max="88"/>
+		<map num="4" left="33216" top="32191" right="33472" bottom="32511"/>
+		<bookmark id="8"/>
+	</zone>
+	<zone>
+		<name>Weldren Village</name>
+		<color id="10"/>
+		<map num="4" left="33679" top="32471" right="33755" bottom="32531"/>
+		<background id="110"/>
+		<bookmark id="9"/>
+	</zone>
+	<zone>
+		<name>Fire Dragon Lair</name>
+		<level min="86" max="88"/>
+		<map num="4" left="33524" top="32218" right="33798" bottom="32457"/>
+	</zone>
+	<zone>
+		<name>Weldren</name>
+		<level min="77" max="86"/>
+		<map num="4" left="33472" top="32191" right="33856" bottom="32511"/>
+		<bookmark id="9"/>
+	</zone>
+	<zone>
+		<name>Weldren</name>
+		<level min="77" max="79"/>
+		<map num="4" left="33536" top="32511" right="33856" bottom="32575"/>
+		<bookmark id="9"/>
+	</zone>
+	<zone>
+		<name>Giran Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33332" top="32632" right="33502" bottom="32895"/>
+		<background id="103"/>
+		<bookmark id="10"/>
+	</zone>
+	<zone>
+		<name>Giran Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33502" top="32692" right="33548" bottom="32895"/>
+		<background id="103"/>
+		<bookmark id="10"/>
+	</zone>
+	<zone>
+		<name>Giran</name>
+		<level min="61" max="76"/>
+		<map num="4" left="33280" top="32511" right="33536" bottom="33023"/>
+		<bookmark id="10"/>
+	</zone>
+	<zone>
+		<name>Giran</name>
+		<level min="61" max="76"/>
+		<map num="4" left="33536" top="32575" right="33920" bottom="33023"/>
+		<bookmark id="10"/>
+	</zone>
+	<zone>
+		<name>Heine Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33556" top="33197" right="33654" bottom="33312"/>
+		<background id="115"/>
+		<bookmark id="11"/>
+	</zone>
+	<zone>
+		<name>Heine Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33571" top="33312" right="33619" bottom="33367"/>
+		<background id="115"/>
+		<bookmark id="11"/>
+	</zone>
+	<zone>
+		<name>Heine Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33578" top="33367" right="33654" bottom="33457"/>
+		<background id="115"/>
+		<bookmark id="11"/>
+	</zone>
+	<zone>
+		<name>Heine</name>
+		<level min="70" max="76"/>
+		<map num="4" left="33280" top="33023" right="33792" bottom="33535"/>
+		<bookmark id="11"/>
+	</zone>
+	<zone>
+		<name>Oren Village</name>
+		<color id="10"/>
+		<map num="4" left="34011" top="32218" right="34090" bottom="32326"/>
+		<background id="104"/>
+		<bookmark id="12"/>
+	</zone>
+	<zone>
+		<name>Oren</name>
+		<level min="74" max="82"/>
+		<map num="4" left="33856" top="32191" right="33920" bottom="32575"/>
+		<bookmark id="12"/>
+	</zone>
+	<zone>
+		<name>Oren</name>
+		<level min="74" max="82"/>
+		<map num="4" left="33920" top="32127" right="34304" bottom="32739"/>
+		<bookmark id="12"/>
+	</zone>
+	<zone>
+		<name>Ruun Castle Village</name>
+		<color id="10"/>
+		<map num="4" left="34375" top="32156" right="34437" bottom="32217"/>
+		<background id="167"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Cursed Mines</name>
+		<level min="90" max="99"/>
+		<map num="4" left="34304" top="32240" right="34490" bottom="32439"/>
+	</zone>
+	<zone>
+		<name>Ruun</name>
+		<color id="10"/>
+		<map num="4" left="34249" top="32384" right="34310" bottom="32447"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Ruun</name>
+		<color id="10"/>
+		<map num="4" left="34297" top="32144" right="34477" bottom="32430"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Aden Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33856" top="33072" right="34229" bottom="33273"/>
+		<background id="106"/>
+		<bookmark id="13"/>
+	</zone>
+	<zone>
+		<name>Aden Castle Town</name>
+		<color id="10"/>
+		<map num="4" left="33856" top="33273" right="34175" bottom="33435"/>
+		<background id="106"/>
+		<bookmark id="13"/>
+	</zone>
+	<zone>
+		<name>Aden</name>
+		<level min="74" max="82"/>
+		<map num="4" left="33920" top="32739" right="34304" bottom="33023"/>
+		<bookmark id="13"/>
+	</zone>
+	<zone>
+		<name>Aden</name>
+		<level min="74" max="82"/>
+		<map num="4" left="33792" top="33023" right="34304" bottom="33535"/>
+		<bookmark id="13"/>
+	</zone>
+	<zone>
+		<name>Aden Continent</name>
+		<level min="-1" max="0"/>
+		<map num="4" left="32512" top="32192" right="34303" bottom="33535"/>
+	</zone>
+	<zone>
+		<name>Dragon's Habitat</name>
+		<level min="85" max="99"/>
+		<map num="140"/>
+	</zone>
+	<zone>
+	<name>Aden Kingdom Hunting Grounds (Normal) </name>
+		<level min="75" max="99"/>
+		<map num="132"/>
+	</zone>	
+	<zone>
+	<name>Aden Kingdom Hunting Grounds (Advance)</name>
+		<level min="75" max="99"/>
+		<map num="135"/>
+	</zone>		
+	<zone>
+		<name>Dwarf Lake</name>
+		<level min="55" max="65"/>
+		<map num="420"/>
+		<background id="18"/>
+	</zone>
+	<zone>
+		<name>Tomb of the Ancient Spirits</name>
+		<level min="70" max="79"/>
+		<map num="430"/>
+		<background id="19"/>
+	</zone>
+	<zone>
+		<name>Pirate Island Village</name>
+		<color id="10"/>
+		<map num="440" left="32380" top="33018" right="32476" bottom="33095"/>
+		<background id="139"/>
+	</zone>
+	<zone>
+		<name>Priate Island</name>
+		<level min="30" max="45"/>
+		<map num="440" left="32256" top="32768" right="32767" bottom="33279"/>
+	</zone>
+	<zone>
+		<name>Magic Doll Race</name>
+		<level min="52" max="99"/>
+		<map num="38"/>
+	</zone>
+	<zone>
+		<name>Pirate Island Dungeon 1F</name>
+		<level min="45" max="50"/>
+		<map num="441"/>
+	</zone>
+	<zone>
+		<name>Pirate Island Dungeon 2F</name>
+		<level min="48" max="52"/>
+		<map num="442"/>
+	</zone>
+	<zone>
+		<name>Pirate Island Dungeon 3F</name>
+		<level min="52" max="55"/>
+		<map num="443"/>
+	</zone>
+	<zone>
+		<name>Pirate Island Dungeon 4F</name>
+		<level min="-1" max="0"/>
+		<map num="444"/>
+	</zone>
+	<zone>
+		<name>Hidden Boat Dock</name>
+		<color id="10"/>
+		<map num="445"/>
+		<background id="21"/>
+	</zone>
+	<zone>
+		<name>Hidden Dock Line Boat</name>
+		<color id="10"/>
+		<map num="446"/>
+		<background id="22"/>
+	</zone>
+	<zone>
+		<name>Priate Island Boat</name>
+		<color id="10"/>
+		<map num="447"/>
+		<background id="23"/>
+	</zone>
+	<zone>
+		<name>Priate Island</name>
+		<level min="40" max="50"/>
+		<map num="480"/>
+		<background id="25"/>
+	</zone>
+	<zone>
+		<name>Carmilla's Room</name>
+		<level min="-1" max="0"/>
+		<map num="481"/>
+	</zone>
+	<zone>
+		<name>Lastabad Central Square</name>
+		<level min="80" max="90"/>
+		<map num="479"/>
+	</zone>
+	<zone>
+		<name>Underground Dueling Arena</name>
+		<level min="80" max="90"/>
+		<map num="495"/>
+	</zone>
+	<zone>
+		<name>Assault Force Training Ground</name>
+		<level min="80" max="90"/>
+		<map num="452"/>
+	</zone>
+	<zone>
+		<name>Demon King's Office</name>
+		<level min="85" max="90"/>
+		<map num="453"/>
+	</zone>
+	<zone>
+		<name>Black Magic Laboratory</name>
+		<level min="80" max="90"/>
+		<map num="461"/>
+	</zone>
+	<zone>
+		<name>Demon King's Office</name>
+		<level min="85" max="90"/>
+		<map num="462"/>
+	</zone>
+	<zone>
+		<name>Devil Road Altar</name>
+		<level min="80" max="90"/>
+		<map num="471"/>
+	</zone>
+	<zone>
+		<name>Underworld King's Office</name>
+		<level min="85" max="90"/>
+		<map num="475"/>
+	</zone>
+	<zone>
+		<name>Shadow Temple Outer Walls</name>
+		<level min="75" max="79"/>
+		<map num="521"/>
+		<background id="26"/>
+	</zone>
+	<zone>
+		<name>Shadow Temple 1F</name>
+		<level min="80" max="83"/>
+		<map num="522"/>
+	</zone>
+	<zone>
+		<name>Shadow Temple 2F</name>
+		<level min="83" max="85"/>
+		<map num="523"/>
+	</zone>
+	<zone>
+		<name>Shadow Temple 3F</name>
+		<level min="85" max="89"/>
+		<map num="524"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Surface</name>
+		<level min="60" max="65"/>
+		<map num="550"/>
+		<background id="29"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="551"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="552"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="553"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="554"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="555"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="556"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Onboard</name>
+		<level min="62" max="65"/>
+		<map num="557"/>
+	</zone>
+	<zone>
+		<name>Ship Graveyard: Undersea</name>
+		<level min="65" max="75"/>
+		<map num="558"/>
+		<background id="30"/>
+	</zone>
+	<zone>
+		<name>Cave of Desire Outer Walls</name>
+		<level min="75" max="79"/>
+		<map num="600"/>
+		<background id="31"/>
+	</zone>
+	<zone>
+		<name>Cave of Desire Lobby</name>
+		<level min="79" max="82"/>
+		<map num="601"/>
+	</zone>
+	<zone>
+		<name>Balrog Audience Room</name>
+		<level min="-1" max="0"/>
+		<map num="602"/>
+	</zone>
+	<zone>
+		<name>Balrog's Cave</name>
+		<level min="85" max="86"/>
+		<map num="603"/>
+	</zone>
+	<zone>
+		<name>Water Room</name>
+		<level min="80" max="83"/>
+		<map num="604"/>
+	</zone>
+	<zone>
+		<name>Flame Room</name>
+		<level min="80" max="83"/>
+		<map num="605"/>
+	</zone>
+	<zone>
+		<name>Storm Room</name>
+		<level min="80" max="83"/>
+		<map num="606"/>
+	</zone>
+	<zone>
+		<name>Earthquake Room</name>
+		<level min="80" max="83"/>
+		<map num="607"/>
+	</zone>
+	<zone>
+		<name>Yahee's Laboratory</name>
+		<level min="-1" max="0"/>
+		<map num="608"/>
+	</zone>
+	<zone>
+		<name>Village of Returning Heroes</name>
+		<color id="10"/>
+		<map num="621"/>
+		<background id="37"/>
+	</zone>
+	<zone>
+		<name>Tomb of the Ancient Giants</name>
+		<level min="75" max="99"/>
+		<map num="624"/>
+	</zone>
+	<zone>
+		<name>Uninhabited Island</name>
+		<color id="13"/>
+		<map num="738"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 1F</name>
+		<level min="68" max="74"/>
+		<map num="807"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 2F</name>
+		<level min="74" max="76"/>
+		<map num="808"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 3F</name>
+		<level min="76" max="79"/>
+		<map num="809"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 4F</name>
+		<level min="79" max="80"/>
+		<map num="810"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 5F</name>
+		<level min="82" max="84"/>
+		<map num="811"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 6F</name>
+		<level min="84" max="86"/>
+		<map num="812"/>
+	</zone>
+	<zone>
+		<name>Gludio Dungeon 7F</name>
+		<level min="86" max="88"/>
+		<map num="813"/>
+	</zone>
+	<zone>
+		<name>Silveria Village</name>
+		<color id="10"/>
+		<map num="1000"/>
+		<background id="143"/>
+		<bookmark id="18"/>
+	</zone>
+	<zone>
+		<name>Behemoth Village</name>
+		<color id="10"/>
+		<map num="1001"/>
+		<background id="144"/>
+		<bookmark id="19"/>
+	</zone>
+	<zone>
+		<name>Antharas;s Cave</name>
+		<level min="80" max="85"/>
+		<map num="1071"/>
+	</zone>
+	<zone>
+		<name>Fafurion's Cave</name>
+		<level min="80" max="85"/>
+		<map num="1011"/>
+	</zone>
+	<zone>
+		<name>Fafurion's Cave</name>
+		<level min="80" max="85"/>
+		<map num="1101"/>
+	</zone>
+	<zone>
+		<name>Lindvior's Cave</name>
+		<level min="80" max="85"/>
+		<map num="1017"/>
+	</zone>
+	<zone>
+		<name>Lindvior's Cave</name>
+		<level min="80" max="85"/>
+		<map num="1131"/>
+	</zone>
+	<zone>
+		<name>Valakas's Cave</name>
+		<level min="80" max="85"/>
+		<map num="1161"/>
+	</zone>
+	<zone>
+		<name>Dark Dragon Dungeon 1F</name>
+		<level min="85" max="99"/>
+		<map num="1318"/>
+	</zone>
+	<zone>
+		<name>Dark Dragon Dungeon 2F</name>
+		<level min="85" max="99"/>
+		<map num="1319"/>
+	</zone>
+	<zone>
+		<name>Fishing Area</name>
+		<color id="10"/>
+		<map num="5490"/>
+	</zone>
+	<zone>
+		<name>Land of Reminiscence</name>
+		<color id="10"/>
+		<map num="5166"/>
+	</zone>
+	<zone>
+		<name>Blessed Lands</name>
+		<color id="10"/>
+		<map num="5167"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower Secret Laboratory</name>
+		<color id="12"/>
+		<map num="9100"/>
+	</zone>
+	<zone>
+		<name>Secret Laboratory of the Past</name>
+		<color id="12"/>
+		<map num="9000" left="32704" top="32704" right="32767" bottom="32767"/>
+	</zone>
+	<zone>
+		<name>Past Talking Island Dungeon 2F</name>
+		<level min="80" max="90"/>
+		<map num="9000" left="32640" top="32768" right="32831" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Past Talking Island</name>
+		<level min="80" max="90"/>
+		<map num="9000" left="32704" top="32896" right="32767" bottom="32959"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower Secret Laboratory</name>
+		<color id="12"/>
+		<map num="9202"/>
+	</zone>
+	<zone>
+		<name>Regular Ship Deck(Easy)</name>
+		<level min="55" max="70"/>
+		<map num="9101" left="32768" top="32768" right="32831" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Aldin Ship Basement Level 1(Easy)</name>
+		<level min="55" max="70"/>
+		<map num="9101" left="32640" top="32768" right="32703" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Pirate Ship Basement Level 1(Easy)</name>
+		<level min="55" max="70"/>
+		<map num="9101" left="32768" top="32832" right="32831" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Ghost Ship Basement Level 1(Easy)</name>
+		<level min="55" max="70"/>
+		<map num="9101" left="32704" top="32832" right="32767" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Magic Ship Underground Level 1(Easy)</name>
+		<level min="55" max="70"/>
+		<map num="9101" left="32704" top="32768" right="32767" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Magic Ship Underground Level 1(Easy)</name>
+		<level min="55" max="70"/>
+		<map num="9101" left="32640" top="32832" right="32703" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Liner Deck(Normal)</name>
+		<level min="70" max="80"/>
+		<map num="9401" left="32768" top="32768" right="32831" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Aldin Ship Basement Level 1(Normal)</name>
+		<level min="70" max="80"/>
+		<map num="9401" left="32640" top="32768" right="32703" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Pirate Ship Basement Level 1(Normal)</name>
+		<level min="70" max="80"/>
+		<map num="9401" left="32768" top="32832" right="32831" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Ghost Ship Basement Level 1(Normal)</name>
+		<level min="70" max="80"/>
+		<map num="9401" left="32704" top="32832" right="32767" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Magic Ship Underground Level 1(Normal)</name>
+		<level min="70" max="80"/>
+		<map num="9401" left="32704" top="32768" right="32767" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Magic Ship Underground Level 1(Normal)</name>
+		<level min="70" max="80"/>
+		<map num="9401" left="32640" top="32832" right="32703" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Liner Deck(Hard)</name>
+		<color id="12"/>
+		<map num="9601" left="32768" top="32768" right="32831" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Aldin Ship Basement Level 1(Hard)</name>
+		<color id="12"/>
+		<map num="9601" left="32640" top="32768" right="32703" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Pirate Ship Basement Level 1(Hard)</name>
+		<color id="12"/>
+		<map num="9601" left="32768" top="32832" right="32831" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Ghost Ship Basement Level 1(Hard)</name>
+		<color id="12"/>
+		<map num="9601" left="32704" top="32832" right="32767" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Magic Ship Underground Level 1(Hard)</name>
+		<color id="12"/>
+		<map num="9601" left="32704" top="32768" right="32767" bottom="32831"/>
+	</zone>
+	<zone>
+		<name>Magic Ship Underground Level 1(Hard)</name>
+		<color id="12"/>
+		<map num="9601" left="32640" top="32832" right="32703" bottom="32895"/>
+	</zone>
+	<zone>
+		<name>Metis Playground Zone 1</name>
+		<color id="14"/>
+		<map num="2006"/>
+		<background id="50"/>
+	</zone>
+	<zone>
+		<name>Metis Playground Zone 2</name>
+		<color id="14"/>
+		<map num="2008"/>
+		<background id="50"/>
+	</zone>
+	<zone>
+		<name>Metis Playground Zone 3</name>
+		<color id="14"/>
+		<map num="2009"/>
+		<background id="50"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="271"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="272"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="273"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="274"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="275"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="276"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="277"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold</name>
+		<level min="70" max="90"/>
+		<map num="278"/>
+	</zone>
+	<zone>
+		<name>Temple of Cold</name>
+		<color id="12"/>
+		<map num="2101"/>
+	</zone>
+	<zone>
+		<name>Outdoor Wedding Hall</name>
+		<color id="13"/>
+		<map num="5554"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower 4F</name>
+		<level min="80" max="85"/>
+		<map num="282"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower 5F</name>
+		<level min="86" max="95"/>
+		<map num="283"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower 6F</name>
+		<level min="86" max="95"/>
+		<map num="284"/>
+	</zone>
+	<zone>
+		<name>Ivory Tower 7F</name>
+		<level min="86" max="95"/>
+		<map num="285"/>
+	</zone>
+	<zone>
+		<name>Hidden Ivory Tower</name>
+		<level min="50" max="95"/>
+		<map num="293"/>
+	</zone>
+	<zone>
+		<name>Floating Island</name>
+		<color id="10"/>
+		<map num="622"/>
+		<background id="146"/>
+	</zone>
+	<zone>
+		<name>Fire Dragon's Lair</name>
+		<level min="89" max="92"/>
+		<map num="2210"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.1 </name>
+		<color id="12"/>
+		<map num="1400"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.2 </name>
+		<color id="12"/>
+		<map num="1401"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.3 </name>
+		<color id="12"/>
+		<map num="1402"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.4 </name>
+		<color id="12"/>
+		<map num="1403"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.5 </name>
+		<color id="12"/>
+		<map num="1404"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.6 </name>
+		<color id="12"/>
+		<map num="1405"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.7 </name>
+		<color id="12"/>
+		<map num="1406"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.8 </name>
+		<color id="12"/>
+		<map num="1407"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.9 </name>
+		<color id="12"/>
+		<map num="1408"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.10 </name>
+		<color id="12"/>
+		<map num="1409"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.11 </name>
+		<color id="12"/>
+		<map num="1410"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.12 </name>
+		<color id="12"/>
+		<map num="1411"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.13 </name>
+		<color id="12"/>
+		<map num="1412"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.14 </name>
+		<color id="12"/>
+		<map num="1413"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.15 </name>
+		<color id="12"/>
+		<map num="1414"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.16 </name>
+		<color id="12"/>
+		<map num="1415"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.17 </name>
+		<color id="12"/>
+		<map num="1416"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.18 </name>
+		<color id="12"/>
+		<map num="1417"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.19 </name>
+		<color id="12"/>
+		<map num="1418"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.20 </name>
+		<color id="12"/>
+		<map num="1419"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.21 </name>
+		<color id="12"/>
+		<map num="1420"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.22 </name>
+		<color id="12"/>
+		<map num="1421"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.23 </name>
+		<color id="12"/>
+		<map num="1422"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.24 </name>
+		<color id="12"/>
+		<map num="1423"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.25 </name>
+		<color id="12"/>
+		<map num="1424"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.26 </name>
+		<color id="12"/>
+		<map num="1425"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.27 </name>
+		<color id="12"/>
+		<map num="1426"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.28 </name>
+		<color id="12"/>
+		<map num="1427"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.29 </name>
+		<color id="12"/>
+		<map num="1428"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.30 </name>
+		<color id="12"/>
+		<map num="1429"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.31 </name>
+		<color id="12"/>
+		<map num="1430"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.32 </name>
+		<color id="12"/>
+		<map num="1431"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.33 </name>
+		<color id="12"/>
+		<map num="1432"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.34 </name>
+		<color id="12"/>
+		<map num="1433"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.35 </name>
+		<color id="12"/>
+		<map num="1434"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.36 </name>
+		<color id="12"/>
+		<map num="1435"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.37 </name>
+		<color id="12"/>
+		<map num="1436"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.38 </name>
+		<color id="12"/>
+		<map num="1437"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.39 </name>
+		<color id="12"/>
+		<map num="1438"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.40 </name>
+		<color id="12"/>
+		<map num="1439"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.41 </name>
+		<color id="12"/>
+		<map num="1440"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.42 </name>
+		<color id="12"/>
+		<map num="1441"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.43 </name>
+		<color id="12"/>
+		<map num="1442"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.44 </name>
+		<color id="12"/>
+		<map num="1443"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.45 </name>
+		<color id="12"/>
+		<map num="1444"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.46 </name>
+		<color id="12"/>
+		<map num="1445"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.47 </name>
+		<color id="12"/>
+		<map num="1446"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.48 </name>
+		<color id="12"/>
+		<map num="1447"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.49 </name>
+		<color id="12"/>
+		<map num="1448"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.50 </name>
+		<color id="12"/>
+		<map num="1449"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.51 </name>
+		<color id="12"/>
+		<map num="1450"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.52 </name>
+		<color id="12"/>
+		<map num="1451"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.53 </name>
+		<color id="12"/>
+		<map num="1452"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.54 </name>
+		<color id="12"/>
+		<map num="1453"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.55 </name>
+		<color id="12"/>
+		<map num="1454"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.56 </name>
+		<color id="12"/>
+		<map num="1455"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.57 </name>
+		<color id="12"/>
+		<map num="1456"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.58 </name>
+		<color id="12"/>
+		<map num="1457"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.59 </name>
+		<color id="12"/>
+		<map num="1458"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.60 </name>
+		<color id="12"/>
+		<map num="1459"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.61 </name>
+		<color id="12"/>
+		<map num="1460"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.62 </name>
+		<color id="12"/>
+		<map num="1461"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.63 </name>
+		<color id="12"/>
+		<map num="1462"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.64 </name>
+		<color id="12"/>
+		<map num="1463"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.65 </name>
+		<color id="12"/>
+		<map num="1464"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.66 </name>
+		<color id="12"/>
+		<map num="1465"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.67 </name>
+		<color id="12"/>
+		<map num="1466"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.68 </name>
+		<color id="12"/>
+		<map num="1467"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.69 </name>
+		<color id="12"/>
+		<map num="1468"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.70 </name>
+		<color id="12"/>
+		<map num="1469"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.71 </name>
+		<color id="12"/>
+		<map num="1470"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.72 </name>
+		<color id="12"/>
+		<map num="1471"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.73 </name>
+		<color id="12"/>
+		<map num="1472"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.74 </name>
+		<color id="12"/>
+		<map num="1473"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.75 </name>
+		<color id="12"/>
+		<map num="1474"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.76 </name>
+		<color id="12"/>
+		<map num="1475"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.77 </name>
+		<color id="12"/>
+		<map num="1476"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.78 </name>
+		<color id="12"/>
+		<map num="1477"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.79 </name>
+		<color id="12"/>
+		<map num="1478"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.80 </name>
+		<color id="12"/>
+		<map num="1479"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.81 </name>
+		<color id="12"/>
+		<map num="1480"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.82 </name>
+		<color id="12"/>
+		<map num="1481"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.83 </name>
+		<color id="12"/>
+		<map num="1482"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.84 </name>
+		<color id="12"/>
+		<map num="1483"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.85 </name>
+		<color id="12"/>
+		<map num="1484"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.86 </name>
+		<color id="12"/>
+		<map num="1485"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.87 </name>
+		<color id="12"/>
+		<map num="1486"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.88 </name>
+		<color id="12"/>
+		<map num="1487"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.89 </name>
+		<color id="12"/>
+		<map num="1488"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.90 </name>
+		<color id="12"/>
+		<map num="1489"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.91 </name>
+		<color id="12"/>
+		<map num="1490"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.92 </name>
+		<color id="12"/>
+		<map num="1491"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.93 </name>
+		<color id="12"/>
+		<map num="1492"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.94 </name>
+		<color id="12"/>
+		<map num="1493"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.95 </name>
+		<color id="12"/>
+		<map num="1494"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.96 </name>
+		<color id="12"/>
+		<map num="1495"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.97 </name>
+		<color id="12"/>
+		<map num="1496"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.98 </name>
+		<color id="12"/>
+		<map num="1497"/>
+	</zone>
+	<zone>
+		<name>Military Training Center No.99 </name>
+		<color id="12"/>
+		<map num="1498"/>
+	</zone>
+	<zone>
+		<name>Market</name>
+		<color id="10"/>
+		<map num="800"/>
+		<background id="147"/>
+	</zone>
+	<zone>
+		<name>Orc Inner Castle</name>
+		<color id="11"/>
+		<map num="260"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Hidden Storehouse</name>
+		<color id="13"/>
+		<map num="999"/>
+	</zone>
+	<zone>
+		<name>Dream Island</name>
+		<level min="60" max="70"/>
+		<map num="1931"/>
+		<background id="14"/>
+	</zone>
+	<zone>
+		<name>Dream Island</name>
+		<level min="60" max="70"/>
+		<map num="1932"/>
+		<background id="14"/>
+	</zone>
+	<zone>
+		<name>Unicorn Temple Entry Road</name>
+		<color id="12"/>
+		<map num="1935"/>
+	</zone>
+	<zone>
+		<name>Unicorn Temple</name>
+		<color id="12"/>
+		<map num="1936"/>
+	</zone>
+	<zone>
+		<name>Fire Dragon's Haven</name>
+		<color id="12"/>
+		<map num="2600"/>
+	</zone>
+	<zone>
+		<name>Fire Dragon's Haven</name>
+		<color id="12"/>
+		<map num="2699"/>
+	</zone>
+	<zone>
+		<name>Unicorn Temple Entry Road(Boost)</name>
+		<color id="12"/>
+		<map num="2935"/>
+	</zone>
+	<zone>
+		<name>Unicorn Temple(Boost)</name>
+		<color id="12"/>
+		<map num="2936"/>
+	</zone>
+	<zone>
+		<name>Lower Waterfront</name>
+		<level min="10" max="15"/>
+		<map num="7783" left="32602" top="32728" right="32690" bottom="32791"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Upper Waterfront</name>
+		<level min="15" max="20"/>
+		<map num="7783" left="32714" top="32727" right="32792" bottom="32775"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Orc Settlements</name>
+		<level min="40" max="45"/>
+		<map num="7783" left="32498" top="32741" right="32572" bottom="32789"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Grasslands</name>
+		<level min="25" max="35"/>
+		<map num="7783" left="32469" top="32806" right="32571" bottom="32988"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Swamps</name>
+		<level min="45" max="50"/>
+		<map num="7783" left="32599" top="32913" right="32776" bottom="33013"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Claudia Village</name>
+		<color id="10"/>
+		<map num="7783" left="32600" top="32834" right="32671" bottom="32901"/>
+		<background id="152"/>
+		<bookmark id="20"/>
+	</zone>
+	<zone>
+		<name>Claudia</name>
+		<level min="-1" max="0"/>
+		<map num="7783" left="32448" top="32704" right="32831" bottom="33023"/>
+	</zone>
+	<zone>
+		<name>Theberus Desert</name>
+		<color id="14"/>
+		<map num="10500"/>
+	</zone>
+	<zone>
+		<name>Theberus Pyramid Underground</name>
+		<color id="14"/>
+		<map num="10501"/>
+	</zone>
+	<zone>
+		<name>Theberus Pyramid Inner</name>
+		<color id="14"/>
+		<map num="10502"/>
+	</zone>
+	<zone>
+		<name>Claudia Castle</name>
+		<nameimage png="3550"/>
+		<level min="53" max="55"/>
+		<map num="12152"/>
+		<parentmap num="7783" loc="32768,32959"/>
+	</zone>
+	<zone>
+		<name>Sanctuary of the Dead 2F</name>
+		<nameimage png="3548"/>
+		<level min="43" max="45"/>
+		<map num="12148"/>
+		<parentmap num="7783" loc="32560,32739"/>
+	</zone>
+	<zone>
+		<name>Underground World</name>
+		<nameimage png="3549"/>
+		<level min="35" max="40"/>
+		<map num="12149"/>
+		<parentmap num="7783" loc="32515,32951"/>
+	</zone>
+	<zone>
+		<name>Temple of Einhasad</name>
+		<nameimage png="3546"/>
+		<level min="53" max="55"/>
+		<map num="12150"/>
+		<parentmap num="7783" loc="32772,32959"/>
+	</zone>
+	<zone>
+		<name>Temple of Einhasad</name>
+		<nameimage png="3546"/>
+		<level min="53" max="55"/>
+		<map num="12358"/>
+		<parentmap num="7783" loc="32767,32959"/>
+	</zone>
+	<zone>
+		<name>Temple of Einhasad</name>
+		<nameimage png="3546"/>
+		<level min="53" max="55"/>
+		<map num="12257"/>
+		<parentmap num="7783" loc="32767,32959"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12014"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12015"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12016"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12017"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12018"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12019"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12020"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12021"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12022"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="12023"/>
+	</zone>
+	<zone>
+		<name>Server Number Hideout</name>
+		<color id="10"/>
+		<map num="2236"/>
+	</zone>
+	<zone>
+		<name>Dungeon of Cold(PC)</name>
+		<level min="70" max="90"/>
+		<map num="5555"/>
+	</zone>
+	<zone>
+		<name>Colosseum(PC)</name>
+		<color id="12"/>
+		<map num="5556"/>
+	</zone>
+	<zone>
+		<name>Colosseum(Giran 1)</name>
+		<color id="12"/>
+		<map num="5557"/>
+	</zone>
+	<zone>
+		<name>Colosseum(Giran 2)</name>
+		<color id="12"/>
+		<map num="5558"/>
+	</zone>
+	<zone>
+		<name>Colosseum(Giran 3)</name>
+		<color id="12"/>
+		<map num="5559"/>
+	</zone>
+	<zone>
+		<name>Colosseum(Giran 4)</name>
+		<color id="12"/>
+		<map num="5560"/>
+	</zone>
+	<zone>
+		<name>Colosseum(Giran 5)</name>
+		<color id="12"/>
+		<map num="5561"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island</name>
+		<level min="80" max="90"/>
+		<map num="1700"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island</name>
+		<level min="80" max="90"/>
+		<map num="1701"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island</name>
+		<level min="80" max="90"/>
+		<map num="1702"/>
+	</zone>
+	<zone>
+		<name>Golem Research Institute</name>
+		<level min="80" max="90"/>
+		<map num="1703"/>
+	</zone>
+	<zone>
+		<name>Golem Research Institute</name>
+		<level min="80" max="90"/>
+		<map num="1704"/>
+	</zone>
+	<zone>
+		<name>Golem Research Institute</name>
+		<level min="80" max="90"/>
+		<map num="1705"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island Ship</name>
+		<color id="10"/>
+		<map num="1706"/>
+	</zone>
+	<zone>
+		<name>Inn</name>
+		<color id="10"/>
+		<map num="17492"/>
+	</zone>
+	<zone>
+		<name>Metis Playground Zone 1</name>
+		<color id="14"/>
+		<map num="7904"/>
+		<background id="86"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island Intermediate Region</name>
+		<color id="10"/>
+		<map num="1707"/>
+	</zone>
+	<zone>
+		<name>Dragon's Dwelling: Fafurion Huos</name>
+		<level min="55" max="64"/>
+		<map num="814"/>
+	</zone>
+	<zone>
+		<name>Islands of Growth</name>
+		<color id="13"/>
+		<map num="623"/>
+	</zone>
+	<zone>
+		<name>Suspicious Sky Valley Region 2</name>
+		<color id="3"/>
+		<map num="1911"/>
+	</zone>
+	<zone>
+		<name>Suspicious Sky Valley Region 3</name>
+		<color id="3"/>
+		<map num="1912"/>
+	</zone>
+	<zone>
+		<name>Enchanted Village</name>
+		<color id="3"/>
+		<map num="5501"/>
+	</zone>
+	<zone>
+		<name>Enchanted Village</name>
+		<color id="3"/>
+		<map num="5502"/>
+	</zone>
+	<zone>
+		<name>Enchanted Village</name>
+		<color id="3"/>
+		<map num="5503"/>
+	</zone>
+	<zone>
+		<name>Enchanted Island</name>
+		<color id="3"/>
+		<map num="5510"/>
+	</zone>
+	<zone>
+		<name>Land of the Hidden Giants</name>
+		<color id="3"/>
+		<map num="150"/>
+	</zone>
+	<zone>
+		<name>Land of the Hidden Giants</name>
+		<color id="3"/>
+		<map num="151"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island</name>
+		<level min="80" max="90"/>
+		<map num="1720"/>
+	</zone>
+	<zone>
+		<name>Golem Research Institute</name>
+		<level min="80" max="90"/>
+		<map num="1721"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island Intermediate Region</name>
+		<color id="10"/>
+		<map num="1722"/>
+	</zone>
+	<zone>
+		<name>Tomb of the Ancient Spirits</name>
+		<level min="70" max="99"/>
+		<map num="7977"/>
+		<background id="19"/>
+	</zone>
+	<zone>
+		<name>Waiting Room</name>
+		<color id="14"/>
+		<map num="13000"/>
+	</zone>
+	<zone>
+		<name>Final Showdown</name>
+		<color id="14"/>
+		<map num="13001"/>
+		<nameimage png="13119"/>
+	</zone>
+	<zone>
+		<name>Arena</name>
+		<color id="14"/>
+		<map num="13002"/>
+		<nameimage png="13120"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Trap Battle</name>
+		<color id="14"/>
+		<map num="13003"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Battle Hunters</name>
+		<color id="14"/>
+		<map num="13004"/>
+		<nameimage png="13122"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Monster Battle</name>
+		<color id="14"/>
+		<map num="13005"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Arena - Tower Defense</name>
+		<color id="14"/>
+		<map num="13006"/>
+		<nameimage png="13120"/>
+	</zone>
+	<zone>
+		<name>Final Showdown</name>
+		<color id="14"/>
+		<map num="13051"/>
+		<nameimage png="13119"/>
+	</zone>
+	<zone>
+		<name>Arena</name>
+		<color id="14"/>
+		<map num="13052"/>
+		<nameimage png="13120"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Trap Battle</name>
+		<color id="14"/>
+		<map num="13053"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Monster Battle</name>
+		<color id="14"/>
+		<map num="13054"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Tower of Insolence</name>
+		<color id="14"/>
+		<map num="13055"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Dragon Valley</name>
+		<color id="14"/>
+		<map num="13056"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Tower of Insolence Top</name>
+		<color id="14"/>
+		<map num="13057"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Warsquare - Polymorph Battle</name>
+		<color id="14"/>
+		<map num="13058"/>
+		<nameimage png="13121"/>
+	</zone>
+	<zone>
+		<name>Arena - Tower Defense</name>
+		<color id="14"/>
+		<map num="13059"/>
+		<nameimage png="13120"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island</name>
+		<map num="1708"/>
+	</zone>
+	<zone>
+		<name>Golem Research Institute</name>
+		<map num="1709"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island待機室</name>
+		<map num="1710"/>
+	</zone>
+	<zone>
+		<name>Barrier of Domination 1F</name>
+		<level min="83" max="90"/>
+		<map num="15403"/>
+	</zone>
+	<zone>
+		<name>Barrier of Domination 2F</name>
+		<level min="83" max="90"/>
+		<map num="15404"/>
+	</zone>
+	<zone>
+		<name>Wind Dragon's Lair</name>
+		<level min="80" max="90"/>
+		<map num="15410"/>
+	</zone>
+	<zone>
+		<name>Oren Snow Mountain</name>
+		<level min="81" max="90"/>
+		<map num="15420"/>
+	</zone>
+	<zone>
+		<name>Dragon Valley</name>
+		<level min="83" max="90"/>
+		<map num="15430"/>
+	</zone>
+	<zone>
+		<name>Fire Dragon's Lair</name>
+		<level min="85" max="90"/>
+		<map num="15440"/>
+	</zone>
+	<zone>
+		<name>Hidden Cool Castle</name>
+		<color id="3"/>
+		<map num="149"/>
+	</zone>
+	<zone>
+		<name>Hidden Cool Castle(PC)</name>
+		<color id="3"/>
+		<map num="150"/>
+	</zone>
+	<zone>
+		<name>Square of Encounter(PC)</name>
+		<color id="3"/>
+		<map num="142"/>
+	</zone>
+	<zone>
+		<name>Kingdom of Fairy</name>
+		<color id="3"/>
+		<map num="1501"/>
+	</zone>
+	<zone>
+		<name>The Hidden Temple of Love(PC)</name>
+		<color id="3"/>
+		<map num="5910"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 1F</name>
+		<level min="83" max="85"/>
+		<map num="12852"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 2F</name>
+		<level min="83" max="85"/>
+		<map num="12853"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 3F</name>
+		<level min="83" max="85"/>
+		<map num="12854"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 4F</name>
+		<level min="83" max="85"/>
+		<map num="12855"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 5F</name>
+		<level min="83" max="85"/>
+		<map num="12856"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 6F</name>
+		<level min="86" max="88"/>
+		<map num="12857"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 7F</name>
+		<level min="86" max="88"/>
+		<map num="12858"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 8F</name>
+		<level min="89" max="92"/>
+		<map num="12859"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 9F</name>
+		<level min="89" max="92"/>
+		<map num="12860"/>
+	</zone>
+	<zone>
+		<name>Tower of Control 10F</name>
+		<level min="89" max="92"/>
+		<map num="12861"/>
+	</zone>
+	<zone>
+		<name>Tower of Control - Top</name>
+		<level min="89" max="92"/>
+		<map num="12862"/>
+	</zone>
+	<zone>
+		<name>Talking Island Fishing Area</name>
+		<color id="10"/>
+		<map num="15466"/>
+	</zone>
+	<zone>
+		<name>Giran Fishing Area</name>
+		<color id="10"/>
+		<map num="15467"/>
+	</zone>
+	<zone>
+		<name>Forgotten Island Fishing Area</name>
+		<color id="10"/>
+		<map num="15468"/>
+	</zone>
+	<zone>
+		<name>Forest of Life - Fire</name>
+		<color id="13"/>
+		<map num="2041"/>
+	</zone>
+	<zone>
+		<name>Forest of Life - Water</name>
+		<color id="13"/>
+		<map num="2047"/>
+	</zone>
+	<zone>
+		<name>Forest of Life - Earth</name>
+		<color id="13"/>
+		<map num="2053"/>
+	</zone>
+	<zone>
+		<name>Forest of Life - Wind</name>
+		<color id="13"/>
+		<map num="2059"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="1234"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="1235"/>
+	</zone>
+	<zone>
+		<name>Burning Road</name>
+		<color id="3"/>
+		<map num="1236"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="820"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="821"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="822"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="823"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="824"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="825"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village</name>
+		<color id="3"/>
+		<map num="826"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village(PC)</name>
+		<color id="3"/>
+		<map num="830"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village(PC)</name>
+		<color id="3"/>
+		<map num="831"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village(PC)</name>
+		<color id="3"/>
+		<map num="832"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village(PC)</name>
+		<color id="3"/>
+		<map num="833"/>
+	</zone>
+	<zone>
+		<name>Patarasi Village(PC)</name>
+		<color id="3"/>
+		<map num="834"/>
+	</zone>
+	<!-- interserver Siege start -->
+	<zone>
+		<name>Kent Castle</name>
+		<color id="11"/>
+		<map num="15481"/>
+	</zone>
+	<zone>
+		<name>Giran Castle</name>
+		<color id="11"/>
+		<map num="15482"/>
+	</zone>
+	<zone>
+		<name>Orc Fortress</name>
+		<color id="11"/>
+		<map num="15483"/>
+		<background id="107"/>
+	</zone>
+	<zone>
+		<name>Heine Castle</name>
+		<color id="11"/>
+		<map num="15484"/>
+	</zone>
+	<zone>
+		<name>Windawood Castle</name>
+		<color id="11"/>
+		<map num="15485"/>
+	</zone>
+	<zone>
+		<name>Dwarven Fortress</name>
+		<color id="11"/>
+		<map num="15486"/>
+		<background id="107"/>
+	</zone>
+	<zone>
+		<name>Kent Inner Castle</name>
+		<color id="11"/>
+		<map num="15491"/>
+		<background id="119"/>
+	</zone>
+	<zone>
+		<name>Giran Inner Castle</name>
+		<color id="11"/>
+		<map num="15492"/>
+		<background id="121"/>
+	</zone>
+	<zone>
+		<name>Orc Inner Fortress</name>
+		<color id="11"/>
+		<map num="15493"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Heine Inner Castle</name>
+		<color id="11"/>
+		<map num="15494"/>
+		<background id="124"/>
+	</zone>
+	<zone>
+		<name>Windawood Inner Castle</name>
+		<color id="11"/>
+		<map num="15495"/>
+		<background id="120"/>
+	</zone>
+	<zone>
+		<name>Dwarven Inner Fortress</name>
+		<color id="11"/>
+		<map num="15496"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Heine Guardian Territory</name>
+		<color id="11"/>
+		<map num="15490" left="32698" top="32786" right="32774" bottom="32860"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Red Knights Garrison</name>
+		<color id="11"/>
+		<map num="15490" left="32665" top="32793" right="32698" bottom="32854"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Gold Castle Garrison</name>
+		<color id="11"/>
+		<map num="15490" left="32706" top="32860" right="32766" bottom="32893"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Black Knight Garrison </name>
+		<color id="11"/>
+		<map num="15490" left="32775" top="32793" right="32809" bottom="32853"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Eva's Garden</name>
+		<color id="11"/>
+		<map num="15489"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Windawood Guardian Territory</name>
+		<color id="11"/>
+		<map num="15498" left="32661" top="32792" right="32713" bottom="32818"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Windawood Guardian Territory</name>
+		<color id="11"/>
+		<map num="15498" left="32713" top="32768" right="32799" bottom="32838"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Red Knights Garrison</name>
+		<color id="11"/>
+		<map num="15498" left="32657" top="32822" right="32690" bottom="32875"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Gold Castle Garrison</name>
+		<color id="11"/>
+		<map num="15498" left="32602" top="32791" right="32656" bottom="32825"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Black Knight Garrison </name>
+		<color id="11"/>
+		<map num="15498" left="32656" top="32732" right="32696" bottom="32789"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>The Garden of Azur</name>
+		<color id="11"/>
+		<map num="15499"/>
+		<background id="151"/>
+	</zone>
+	<zone>
+		<name>Clan Gathering Zone</name>
+		<level min="75" max="99"/>
+		<map num="751"/>
+	</zone>
+	<alias num="751">
+		<map from="752" to="766"/>
+	</alias>
+	<zone>
+		<name>Land of the Abandoned</name>
+		<level min="75" max="99"/>
+		<map num="777"/>
+	</zone>
+	<zone>
+		<name>Land of the Abandoned(PC)</name>
+		<level min="75" max="99"/>
+		<map num="778"/>
+	</zone>	
+	<zone>
+		<name>Hidden Land of the Abandoned</name>
+		<level min="75" max="99"/>
+		<map num="779"/>
+	</zone>
+	<alias num="777">
+		<map from="15500" to="15549"/>
+	</alias>
+	<zone>
+		<name>Gludio Laboratory (Beginner)</name>
+		<color id="12"/>
+		<map num="730"/>
+	</zone>
+	<zone>
+		<name>Orim's Secret Laboratory</name>
+		<color id="12"/>
+		<map num="731"/>
+	</zone>
+	<alias num="731">
+		<map from="3500" to="3797"/>
+	</alias>
+	<zone>
+		<name>Rosas Island - Battle Barracks</name>
+		<color id="12"/>
+		<map num="732" left="33344" top="33152" right="33471" bottom="33279"/>
+		<background id="164"/>
+	</zone>
+	<zone>
+		<name>Rosas Island - Underground Canal</name>
+		<color id="12"/>
+		<map num="732" left="33408" top="33344" right="33535" bottom="33471"/>
+		<background id="165"/>
+	</zone>
+	<zone>
+		<name>Rosas Island</name>
+		<color id="12"/>
+		<map num="732" left="33536" top="33152" right="33663" bottom="33279"/>
+		<background id="166"/>
+	</zone>
+	<alias num="732">
+		<map from="4400" to="4699"/>
+	</alias>
+	<zone>
+		<name>Dream Island</name>
+		<color id="12"/>
+		<map num="733"/>
+	</zone>
+	<alias num="733">
+		<map from="4700" to="4899"/>
+	</alias>
+	<zone>
+		<name>Space - Time Dimension</name>
+		<color id="12"/>
+		<map num="734"/>
+	</zone>
+	<alias num="734">
+		<map from="3150" to="3449"/>
+	</alias>
+	<zone>
+		<name>Atuba Orc Hideout 1F</name>
+		<level min="86" max="99"/>
+		<map num="491"/>
+	</zone>
+	<zone>
+		<name>Atuba Orc Hideout 2F</name>
+		<level min="85" max="99"/>
+		<map num="492"/>
+	</zone>
+	<zone>
+		<name>Atuba Orc Hideout 3F</name>
+		<level min="85" max="99"/>
+		<map num="493"/>
+	</zone>
+	<zone>
+		<name>Hidden Atuba Orc Hideout</name>
+		<level min="85" max="99"/>
+		<map num="494"/>
+	</zone>
+	<zone>
+		<name>Mysterious Eva Kingdom Waterway 1F</name>
+		<level min="75" max="89"/>
+		<map num="6000"/>
+	</zone>
+	<zone>
+		<name>Mysterious Eva Kingdom Waterway 2F</name>
+		<level min="75" max="89"/>
+		<map num="6001"/>
+	</zone>	
+	<zone>
+		<name>Mysterious Eva Kingdom Waterway 3F</name>
+		<level min="75" max="89"/>
+		<map num="6002"/>
+	</zone>	
+	<zone>
+		<name>Mysterious Atuba Orc Hideout 1F</name>
+		<level min="75" max="89"/>
+		<map num="6003"/>
+	</zone>
+	<zone>
+		<name>Mysterious Atuba Orc Hideout 2F</name>
+		<level min="75" max="89"/>
+		<map num="6004"/>
+	</zone>
+	<zone>
+		<name>Mysterious Atuba Orc Hideout 3F</name>
+		<level min="75" max="89"/>
+		<map num="6005"/>
+	</zone>	
+	<zone>
+		<name>Antharas Cave</name>
+		<map num="1071" left="32581" top="32704" right="32655" bottom="32834"/>
+		<background id="158"/>
+	</zone>
+	<zone>
+		<name>Antaras Cave Boss Room</name>
+		<map num="1071" left="32696" top="32564" right="32896" bottom="32764"/>
+		<background id="159"/>
+	</zone>
+	<zone>
+		<name>Fafurion Cave</name>
+		<map num="1101" left="32875" top="32704" right="32655" bottom="32834"/>
+		<background id="160"/>
+	</zone>
+	<zone>
+		<name>Fafurion Cave Boss Room</name>
+		<map num="1101" left="32898" top="32743" right="33189" bottom="32943"/>
+		<background id="161"/>
+	</zone>
+	<zone>
+		<name>Lindvior Cave</name>
+		<map num="1131" left="32635" top="32767" right="32835" bottom="32967"/>
+		<background id="162"/>
+	</zone>
+	<zone>
+		<name>Lindvior Cave Boss Room</name>
+		<map num="1131" left="32735" top="32785" right="32935" bottom="32985"/>
+		<background id="163"/>
+	</zone>
+	<zone>
+		<name>Antharas Habitat</name>
+		<map num="1180" left="32721" top="32625" right="32831" bottom="32742"/>
+	</zone>
+	<zone>
+		<name>Fafurion Habitat</name>
+		<map num="1181" left="32913" top="32794" right="33020" bottom="32880"/>
+	</zone>
+	<zone>
+		<name>Lindvior Habitat</name>
+		<map num="1182" left="32789" top="32838" right="32889" bottom="32935"/>
+	</zone>
+	<zone>
+		<name>Valakas Habitat</name>
+		<map num="1183" left="32716" top="32837" right="32831" bottom="32947"/>
+	</zone>
+	<zone>
+		<name>Fierce Colosseum</name>
+		<map num="750" left="32517" top="33230" right="32820" bottom="33534"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15871"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15872"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15873"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15874"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15875"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15876"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15877"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15878"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15879"/>
+	</zone>
+	<zone>
+		<name>Hidden Garrison</name>
+		<level min="1" max="99"/>
+		<map num="15900"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15881"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15882"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15883"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15884"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15885"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15886"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15887"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15888"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15889"/>
+	</zone>
+	<zone>
+		<name>Hidden Ant Cave</name>
+		<level min="1" max="99"/>
+		<map num="15901"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15891"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15892"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15893"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15894"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15895"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15896"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15897"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15898"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15899"/>
+	</zone>
+	<zone>
+		<name>Ant Queen Cave</name>
+		<level min="1" max="99"/>
+		<map num="15902"/>
+	</zone>
+	<zone>
+		<name>Harpas Hideout</name>
+		<map num="1191" left="32714" top="32864" right="32818" bottom="32934"/>
+	</zone>
+	<zone>
+		<name>Temple of Ancient God</name>
+		<map num="1209"/>
+	</zone>
+	<zone>
+		<name>Time - Space of Reincarnation</name>
+		<map num="1210"/>
+	</zone>
+	<zone>
+		<name>Temple of Cold</name>
+		<color id="12"/>
+		<map num="3000"/>
+	</zone>
+	<zone>
+		<name>Temple of Cold(HARD)</name>
+		<color id="12"/>
+		<map num="3050"/>
+	</zone>
+	<zone>
+		<name>Ruun Square</name>
+		<color id="12"/>
+		<map num="4000"/>
+	</zone>
+	<zone>
+		<name>Ruun Castle</name>
+		<color id="12"/>
+		<map num="4001"/>
+	</zone>
+	<zone>
+		<name>Ruun Inner Castle</name>
+		<color id="12"/>
+		<map num="4002"/>
+	</zone>
+	<zone>
+		<name>Monarch Room</name>
+		<color id="12"/>
+		<map num="4003"/>
+	</zone>
+		<zone>
+		<name>Gardens of Aurakia</name>
+		<map num="736"/>
+	</zone>
+	<zone>
+		<name>Land of the Abandoned (East)</name>
+		<map num="11900"/>
+	</zone>
+	<zone>
+		<name>Land of the Abandoned (West)</name>
+		<map num="12900"/>
+	</zone>
+	<zone>
+		<name>Decisive Colosseum</name>
+		<map num="646"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="650"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="651"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="652"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="653"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="654"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="655"/>
+	</zone><zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="656"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="657"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="658"/>
+	</zone><zone>
+		<name>Battlefield of Honor(Normal)</name>
+		<map num="659"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="670"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="671"/>
+	</zone><zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="672"/>
+	</zone><zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="673"/>
+	</zone><zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="674"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="675"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="676"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="677"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="678"/>
+	</zone>
+	<zone>
+		<name>Battlefield of Honor(Mystery)</name>
+		<map num="679"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(1)</name>
+		<color id="3"/>
+		<map num="7787"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(2)</name>
+		<color id="3"/>
+		<map num="7788"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(3)</name>
+		<color id="3"/>
+		<map num="7789"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(4)</name>
+		<color id="3"/>
+		<map num="7790"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(5)</name>
+		<color id="3"/>
+		<map num="7791"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(6)</name>
+		<color id="3"/>
+		<map num="7792"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(7)</name>
+		<color id="3"/>
+		<map num="7793"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(8)</name>
+		<color id="3"/>
+		<map num="7794"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(9)</name>
+		<color id="3"/>
+		<map num="7795"/>
+	</zone>
+	<zone>
+		<name>Aden King's Training Grounds(10)</name>
+		<color id="3"/>
+		<map num="7796"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="840"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="841"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="842"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="843"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="844"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="845"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="846"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="847"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="848"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="849"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="850"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="851"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="852"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="853"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Advanced)</name>
+		<color id="3"/>
+		<map num="854"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="855"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="856"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="857"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="858"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="859"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="860"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="861"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="862"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="863"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="864"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="865"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="866"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="867"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="868"/>
+	</zone>
+	<zone>
+		<name>Clan Dungeon (Normal)</name>
+		<color id="3"/>
+		<map num="869"/>
+	</zone>
+</zoneinfo>

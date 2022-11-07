@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+			現在この地域の<a link="ktguard4">治安</a>が悪いので、特に城内での活動は自重するように。 
+			<br></br>
+			<a action="ktguard6">現在の領主が誰なのかを聞く</a>
+		</p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">Karif：</font>
+<br/><br/>
+ いくら隠居していたとは言ってもな。このアデン最高の商人である俺を知らないだと！？お前はそれでもアデンに住んでいると言えるのか？<br/><br/>
+ 特に俺は宝石を集めるのが趣味でな。いい物を持ってるなら、出してみろ。<br/><br/>
+<a link="karif9b">宝石をあげましょうか？</a><br/><br/>
+<a link="karif9c">あげるものはありません</a><br/><br/>
+<img src="331" link="karif9"/>
+</p>
+</dialog>
+</npcdialog>

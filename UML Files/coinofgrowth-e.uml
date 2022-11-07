@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p align="left"><br/><font fg="ffffff">[Battlefield Fragment]</font><br/></p>
+	<p>- Event Collections <br/></p>
+	<p><br/></p>
+	<p><font fg="ffffff">[Instructions]</font><br/></p>
+	<p>-Visit the <font fg="ffffff">Battlefield Fragment Merchant</font> in <font fg="ffffff">Capaital Aden.</font><br/></p>
+	<p><sp/><sp/>You can use <font fg="ffffff">Battlefield Fragments</font> to<font fg="ffff36">purchase</font> hunting items.<br/></p>
+	</dialog>
+</npcdialog>

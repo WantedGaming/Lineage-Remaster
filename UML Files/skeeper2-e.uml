@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>我々はダークエルフとの戦争のため派遣された傭兵隊です。<br/></p>
+		<p>戦争は終わりましたが、我々は最後までこの村を外部の侵略から守る義務があります！<br/></p>
+				
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>徴兵官</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>アデンの勇士様。ようこそおいでくださいました。</p>
+		<p>勇士様はデポロジュー様がアデンに戻られたことをご存知でしたか？</p>
+		<p>私はあの方の命を受け、赤き騎士団を募集するため派遣された「赤き騎士団」の徴兵官です。</p>
+		<p>赤き騎士団は「赤き騎士団の加入推薦書」を持った、選ばれた勇士のみが加入できるところです。</p>
+		<p><a action="a">加入推薦書を見せる</a></p>
+		<p><a link="redevnpca5">私も赤き騎士団の団員です</a></p>
+	</dialog>
+</npcdialog>

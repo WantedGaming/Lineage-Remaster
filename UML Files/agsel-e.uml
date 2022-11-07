@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p>Name:<var src="0"/></p>
+    <p>Location:<var src="1"/></p>
+    <p>Size:<var src="2"/>cell</p>
+    <p>Previous Owner:<var src="3"/></p>
+    <p>Current Bids:<var src="4"/></p>
+    <p>Current Bid Amount:<var src="5"/>Adena</p>
+    <p>Deadline:<var src="6"/>month <var src="7"/>day <var src="8"/>time<br/><br/></p>
+    <p><a action="map">Check Location</a></p>
+    <p><a action="apply">Bid on Auction</a></p>
+  </dialog>
+</npcdialog>

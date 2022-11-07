@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">ユキ：</font></p>
+    <p><br/>3～5人の仲間を集めてきたか？<br/><br/></p>
+	<p>もしものときのことを考えると、それくらいの人数は必要だ。</p>
+	<p>そうでなければ過去に送ることはできん。すまんな。</p>
+  </dialog>
+</npcdialog>

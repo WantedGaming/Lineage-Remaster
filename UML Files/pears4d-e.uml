@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ピアス</name>
+  </npc>
+  <dialog>
+	<p>うそだろ…これは伝説のカイザー ストーンじゃないか。こんな貴重な石を分けてくれるなんて…</p>
+	<p>本当にありがとうございます。きっとこのカイザー ストーンを見たら、ハデスティ様も俺のことを見てくれるかもしれません。</p>
+	<p>感謝の印としてこれを差し上げます。これは村にいる友達のスクワティからもらった特別なガントレットです。私が大事に使っていたものです。</p>
+	<p><a action="request jin gauntlet">カイザー ストーンを分ける</a></p>
+	<img src="331"/> <p><a link="pears2"></a></p>
+  </dialog>
+</npcdialog>

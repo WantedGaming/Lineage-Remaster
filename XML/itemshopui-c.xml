@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<ItemShopUI>
+	<Button Name = "Itemshopopen_Button" X = "737" Y = "470" MostTop = "1" BaseSurf = "4070;1" HighlightSurf = "4071;1" PushSurf = "4071;1" MouseEvent = "OpenItemShop" Activate = "0">
+    <!--<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2817"/>-->
+		<Effect Name = "Itemshopon_Effect" X = "-9" Y = "-19" MostTop = "1" Effect = "24" Delay = "1000"/>
+		<Effect Name = "Itemshopoff_Effect" X = "-9" Y = "-19" MostTop = "1" Effect = "25" Delay = "5000" Loop = "1"/>
+	</Button>
+	<!--<Button Name = "Itemshopopen_Button" X = "745" Y = "470" MostTop = "1" BaseSurf = "4239;1" HighlightSurf = "4239;1" MouseEvent = "Dummy"/>-->
+  <Window Name = "Msgdialog_Window" X = "180" Y = "180" BaseSurf = "4101;1" FrameSurf = "4102;1" Modal = "1" Moveable = "18" KeyboardEvent = "MsgDialog" MouseEvent = "Dummy" Activate = "0">
+    <MultiLabel Name = "Message_Label" X = "20" Y = "20" Width = "186" Height = "109" VAlign = "botton" HAlign = "center"/>
+    <Control Name = "Dialogbutton_Control" X = "33" Y = "134" Width = "164" Height = "17">
+      <Button Name = "Payment_Button" BaseSurf = "4103" PushSurf = "4104;1" HighlightSurf = "4105" MouseEvent = "Payment"/>
+      <Button Name = "Cancel_Button" X = "90" BaseSurf = "4106" PushSurf = "4107;1" HighlightSurf = "4108" MouseEvent = "CloseMsgDialog"/>
+      <Button Name = "OK_Button" BaseSurf = "4112" PushSurf = "4113;1" HighlightSurf = "4114" MouseEvent = "DialogOK"/>
+      <Button Name = "NO_Button" X = "90" BaseSurf = "4109" PushSurf = "4110;1" HighlightSurf = "4111" MouseEvent = "CloseMsgDialog"/>
+    </Control>
+    <Button Name = "Closedialog_Button" X = "213" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseMsgDialog"/>
+  </Window>
+	<Window Name = "Itempushdialog_Window" X = "250" Y = "180" Top = "1" BaseSurf = "4120;1" FrameSurf = "4121;1" Moveable = "18" KeyboardEvent = "ClosePushDialog" MouseEvent = "Dummy" Activate = "0">
+    <ItemIcon Name = "Item_Icon" X = "135" Y = "53" Width = "35" Height = "35">
+      <Tooltip Name = "Desc_Tooltip" X = "35"/>
+    </ItemIcon>
+    <Label Name = "AskUser_Label" X = "100" Y = "32" Width = "80" Height = "20" Caption = "UserName" Align = "left"/>
+		<Label Name = "Price_Label" X = "135" Y = "92" Width = "55" Height = "20" Align = "left"/>
+		<Button Name = "Accept_Button" X = "33" Y = "134" BaseSurf = "4088" PushSurf = "4089;1" HighlightSurf = "4090" MouseEvent = "PushDialogAccept"/>
+		<Button Name = "Cancel_Button" X = "123" Y = "134" BaseSurf = "4085" PushSurf = "4086;1" HighlightSurf = "4087" MouseEvent = "PushDialogDeny"/>
+		<Button Name = "Closedialog_Button" X = "213" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "ClosePushDialog"/>
+		<Image Name = "Price_Image" X = "115" Y = "91" Surf = "4122"/>
+		<Image Name = "Item_Image" X = "134" Y = "52" Surf = "4123"/>
+	</Window>
+	<Window Name = "Itemshopmain_Window" X = "210" Y = "145" BaseSurf = "3998;1" FrameSurf = "3999;1" Moveable = "18" KeyboardEvent = "CloseItemShop" MouseEvent = "Dummy">
+		<Control Name = "Dialog_Control" Width = "557" Height = "310"> 
+      <Window Name = "Friendlist_Window" X = "288" Y = "53" BaseSurf = "4115;1" FrameSurf = "4116;1" Modal = "1" KeyboadEvent = "FriendDialog" MouseEvent = "Dummy" Activate = "0">
+        <Button Name = "Closedialog_Button" X = "272" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseFriendDialog"/>
+        <List Name = "Friend_List1" X = "31" Y = "53" Width = "160" Height = " 111" Vertical = "1" Gap = "9">
+          <List Name = "Frienditem0_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem1_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem2_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem3_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem4_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem5_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+        </List>
+        <List Name = "Friend_List2" X = "147" Y = "53" Width = "160" Height = " 111" Vertical = "1" Gap = "9">
+          <List Name = "Frienditem0_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem1_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem2_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem3_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem4_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+          <List Name = "Frienditem5_List" Width = "166" Height = "11" Horizontal = "1" Gap = "5">
+            <CheckButton Name = "Frienditem_Button" PushSurf = "4117" MouseEvent = "SelectFriend"/>
+            <Label Name = "Friendname_Label" Width = "150" Height = "11"/>
+          </List>
+        </List>
+        <ScrollBar Name = "Friendlist_Scrollbar" X = "269" Y = "44" Width = "12" Height = "113" ScrollStart = "14" ScrollHeight = "99" Vertical = "1" MouseEvent = "FriendlistScroll">
+          <Image Name = "Background_Image" X = "1" Y = "14" Surf = "6002;1"/>
+          <Button Name = "Up_Button" BaseSurf = "4061;1" PushSurf = "4062;1" MouseEvent = "Dummy"/>
+          <Button Name = "Move_Button" Y = "14" BaseSurf = "4063;1" PushSurf = "4064;1" MouseEvent = "Dummy"/>
+          <Button Name = "Down_Button" Y = "113" BaseSurf = "4065;1" PushSurf = "4066;1" MouseEvent = "Dummy"/>
+        </ScrollBar>
+        <Button Name = "Accept_Button" X = "54" Y = "183" BaseSurf = "4088" PushSurf = "4089;1" HighlightSurf = "4090" MouseEvent = "FriendDialogAccept"/>
+        <Button Name = "Cancel_Button" X = "160" Y = "183" BaseSurf = "4085" PushSurf = "4086;1" HighlightSurf = "4087" MouseEvent = "CloseFriendDialog"/>
+      </Window>
+      <Window Name = "Userinput_Window" X = "288" Y = "53" BaseSurf = "4118;1" FrameSurf = "4119;1" Modal = "1" KeyboardEvent = "UserDialog" MouseEvent = "Dummy" Activate = "0">
+        <Button Name = "Closedialog_Button" X = "213" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseUserDialog"/>
+        <Edit Name = "Userinput_Edit" X = "95" Y = "65" Width = "102" Height = "20" LimitText = "18"/>
+        <Button Name = "Accept_Button" X = "33" Y = "183" BaseSurf = "4088" PushSurf = "4089;1" HighlightSurf = "4090" MouseEvent = "UserDialogAccept"/>
+        <Button Name = "Cancel_Button" X = "123" Y = "183" BaseSurf = "4085" PushSurf = "4086;1" HighlightSurf = "4087" MouseEvent = "CloseUserDialog"/>
+      </Window>
+			<Window Name = "Basedialog_Window" X = "60" Y = "45" Width = "228" Height = "220" Modal = "1" KeyboardEvent = "MainDialog" MouseEvent = "Dummy" Activate = "0">
+				<Button Name = "Closedialog_Button" X = "213" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseMainDialog"/>
+				<List Name = "Dialogtab_List" X = "20" Y = "18" Width = "189" Height = "20" Horizontal = "1" Gap = "1">
+					<RadioButton Name = "Buy_Button" BaseSurf = "4073" HighlightSurf = "4074" PushSurf = "4074" MouseEvent = "ChangeDialogTab">
+						<!--<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>-->
+					</RadioButton>
+					<RadioButton Name = "Gift_Button" BaseSurf = "4075" HighlightSurf = "4076" PushSurf = "4076" MouseEvent = "ChangeDialogTab">
+            <!--<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>-->
+					</RadioButton>
+					<RadioButton Name = "Ask_Button" BaseSurf = "4077" HighlightSurf = "4078" PushSurf = "4078" MouseEvent = "ChangeDialogTab">
+						<!--<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>-->
+					</RadioButton>
+				</List>
+				<List Name = "Item_List" X = "27" Y = "70" Width = "174" Height = "35" Horizontal = "1" Gap = "5">
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "135" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</List>
+				<Label Name = "Itemprice_Label" X = "77" Y = "114" Width = "70" Height = "20" Align = "right"/>
+				<Control Name = "Count_Control" X = "98" Y = "144" Width = "104" Height = "45">
+					<Button Name = "Minus_Button" Y = "3" BaseSurf = "4079" HighlightSurf = "4080" MouseEvent = "Count"/>
+					<Button Name = "Plus_Button" X = "82" Y = "3" BaseSurf = "4081" HighlightSurf = "4082" MouseEvent = "Count"/>
+					<Edit Name = "Count_Edit" X = "25" Y = "5" OnlyNumber = "1" Width = "61" Height = "20" KeyboardEvent = "Count"/>
+					<Label Name = "Endprice_Label" X = "19" Y = "22" Width = "58" Height = "20" Align = "right"/>
+				</Control>
+				<Control Name = "Dialogbutton_Control" X = "33" Y = "198" Width = "164" Height = "17">
+          <Control Name = "Buy_Button" Activate = "0">
+            <Button Name = "Accept_Button" BaseSurf = "4088" PushSurf = "4089;1" HighlightSurf = "4090" MouseEvent = "MainDialogAccept"/>
+            <Button Name = "Cancel_Button" X = "90" BaseSurf = "4085" PushSurf = "4086;1" HighlightSurf = "4087" MouseEvent = "CloseMainDialog"/>
+          </Control>
+          <Control Name = "Gift_Button" Activate = "0">
+            <Button Name = "Friendlist_Button" BaseSurf = "4095" PushSurf = "4096;1" HighlightSurf = "4097" MouseEvent = "OpenFriendDialog"/>
+            <Button Name = "User_Button" X = "90" BaseSurf = "4098" PushSurf = "4099;1" HighlightSurf = "4100" MouseEvent = "OpenUserDialog"/>
+          </Control>
+          <Control Name = "Ask_Button" Activate = "0">
+            <Button Name = "Friendlist_Button" BaseSurf = "4095" PushSurf = "4096;1" HighlightSurf = "4097" MouseEvent = "OpenFriendDialog"/>
+            <Button Name = "Cancel_Button" X = "90" BaseSurf = "4085" PushSurf = "4086;1" HighlightSurf = "4087" MouseEvent = "CloseMainDialog"/>
+          </Control>
+				</Control>
+				<Control Name = "Basewindow_Control">
+					<Window Name = "Buydialog_Window" BaseSurf = "4083;1" FrameSurf = "4084;1" Activate = "0" />
+					<Window Name = "Giftdialog_Window" BaseSurf = "4091;1" FrameSurf = "4092;1" Activate = "0" />
+					<Window Name = "Askdialog_Window" BaseSurf = "4093;1" FrameSurf = "4094;1" Activate = "0" />
+				</Control>
+			</Window>
+		</Control>
+		<Window Name = "Itemshopbest_Window" X = "-174" BaseSurf = "4054;1" FrameSurf = "4055;1" MouseEvent = "Dummy" Activate = "0">
+      <Control Name = "BestNew" X = "13" Y = "39">
+        <List Name = "SubTab_List" Y = "1" Width = "76" Height = "31" Vertical = "1" Gap = "1">
+          <RadioButton Name = "Best_Button" X = "3" PushSurf = "6318" MouseEvent = "ChangeBestSubTab">
+            <Label Name = "Best_Label" String = "3703" Width = "70" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "New_Button" X = "3" PushSurf = "6318" MouseEvent = "ChangeBestSubTab">
+            <Label Name = "New_Label" String = "3704" Width = "70" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+        </List>
+        <Image Name = "Back_Image" Surf = "6317"/>
+      </Control>
+			<List Name = "Besttab_List" X = "14" Y = "18" Width = "156" Height = "20" Horizontal = "1" Gap = "2">
+				<RadioButton Name = "Alltab_Button" BaseSurf = "4058" PushSurf = "4059" HighlightSurf = "4059" MouseEvent = "ChangeBestTabEx"/>
+				<RadioButton Name = "Additiontab_Button" BaseSurf = "4056" PushSurf = "4057" HighlightSurf = "4057" MouseEvent = "ChangeBestTabEx"/>
+			</List>
+			<List Name = "Item_BestList" X = "17" Y = "63" Width = "141" Height = "228" Vertical = "1" Gap = "1">
+				<Control Name = "SubItem0_Control" Width = "141" Height = "35" MouseEvent = "SelectBestItem">
+          <Image Name = "Select_Image" Surf = "6221;4"/>
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "100" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</Control>
+				<Control Name = "SubItem1_Control" Width = "141" Height = "35" MouseEvent = "SelectBestItem">
+          <Image Name = "Select_Image" Surf = "6221;4"/>
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "100" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</Control>
+				<Control Name = "SubItem2_Control" Width = "141" Height = "35" MouseEvent = "SelectBestItem">
+          <Image Name = "Select_Image" Surf = "6221;4"/>
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "100" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</Control>
+				<Control Name = "SubItem3_Control" Width = "141" Height = "35" MouseEvent = "SelectBestItem">
+          <Image Name = "Select_Image" Surf = "6221;4"/>
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "100" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</Control>
+				<Control Name = "SubItem4_Control" Width = "141" Height = "35" MouseEvent = "SelectBestItem">
+          <Image Name = "Select_Image" Surf = "6221;4"/>
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "100" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</Control>
+				<Control Name = "SubItem5_Control" Width = "141" Height = "35" MouseEvent = "SelectBestItem">
+          <Image Name = "Select_Image" Surf = "6221;4"/>
+					<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+						<Tooltip Name = "Desc_Tooltip" X = "35"/>
+					</ItemIcon>
+          <MultiLabel Name = "Name_Label" X = "40" Width = "100" Height = "35" HAlign = "left" VAlign = "middle"/>
+				</Control>
+			</List>
+			<ScrollBar Name = "Bestlist_Scrollbar" X = "166" Y = "68" Width = "12" Height = "205" ScrollStart = "14" ScrollHeight = "177" Vertical = "1" MouseEvent = "BestlistScroll">
+				<Image Name = "Background_Image" X = "1" Y = "14" Surf = "4060;1"/>
+				<Button Name = "Up_Button" BaseSurf = "4061;1" PushSurf = "4062;1" MouseEvent = "Dummy"/>
+				<Button Name = "Move_Button" Y = "14" BaseSurf = "4063;1" PushSurf = "4064;1" MouseEvent = "Dummy"/>
+				<Button Name = "Down_Button" Y = "191" BaseSurf = "4065;1" PushSurf = "4066;1" MouseEvent = "Dummy"/>
+			</ScrollBar>
+      <Image Name = "SubMenu_Frame" X = "62" Y = "41" Surf = "6312;1"/>
+      <Image Name = "SubMenu_Base" X = "62" Y = "41" Surf = "6311"/>
+			<!--<Button Name = "Reload_Button" X = "66" Y = "287" BaseSurf = "4067" PushSurf = "4068;1" HighlightSurf = "4069" MouseEvent = "BestReload"/>-->
+      <Button Name = "Buy_Button" X = "29" Y = "286" BaseSurf = "4024" HighlightSurf = "4025" PushSurf = "4024" MouseEvent = "BuyBestItem">
+        <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>
+      </Button>
+      <Button Name = "Gift_Button" X = "70" Y = "286" BaseSurf = "4022" HighlightSurf = "4023" PushSurf = "4022" MouseEvent = "GiftBestItem">
+        <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>
+      </Button>
+      <Button Name = "Ask_Button" X = "111" Y = "286" BaseSurf = "4020" HighlightSurf = "4021" PushSurf = "4020" MouseEvent = "AskBestItem">
+        <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>
+      </Button>
+		</Window>
+    <Control Name = "MainSubTab">
+      <Control Name = "Enchant" X = "107" Y = "39">
+        <List Name = "SubTab_List" Y = "1" Width = "85" Height = "31" Vertical = "1" Gap = "1">
+          <RadioButton Name = "Tab0_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "11">
+            <Label Name = "Tab0_Label" String = "3705" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab1_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "12">
+            <Label Name = "Tab1_Label" String = "3706" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab2_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "13">
+            <Label Name = "Tab1_Label" String = "3707" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+        </List>
+        <Image Name = "Back_Image" Surf = "6320"/>
+      </Control>
+      <Control Name = "AddAbility" X = "193" Y = "39">
+        <List Name = "SubTab_List" Y = "1" Width = "85" Height = "31" Vertical = "1" Gap = "1">
+          <RadioButton Name = "Tab0_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "21">
+            <Label Name = "Tab0_Label" String = "3708" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab1_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "22">
+            <Label Name = "Tab1_Label" String = "3709" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+        </List>
+        <Image Name = "Back_Image" Surf = "6319"/>
+      </Control>
+      <Control Name = "Asistant" X = "279" Y = "39">
+        <List Name = "SubTab_List" Y = "1" Width = "85" Height = "31" Vertical = "1" Gap = "1">
+          <RadioButton Name = "Tab0_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "31">
+            <Label Name = "Tab0_Label" String = "3710" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab1_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "32">
+            <Label Name = "Tab1_Label" String = "3711" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab2_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "33">
+            <Label Name = "Tab1_Label" String = "3712" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+        </List>
+        <Image Name = "Back_Image" Surf = "6320"/>
+      </Control>
+      <Control Name = "Convenient" X = "365" Y = "39">
+        <List Name = "SubTab_List" Y = "1" Width = "85" Height = "31" Vertical = "1" Gap = "1">
+          <RadioButton Name = "Tab0_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "41">
+            <Label Name = "Tab0_Label" String = "3713" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab1_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "42">
+            <Label Name = "Tab1_Label" String = "3714" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+        </List>
+        <Image Name = "Back_Image" Surf = "6319"/>
+      </Control>
+      <Control Name = "Pet" X = "451" Y = "39">
+        <List Name = "SubTab_List" Y = "1" Width = "85" Height = "31" Vertical = "1" Gap = "1">
+          <RadioButton Name = "Tab0_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "51">
+            <Label Name = "Tab0_Label" String = "3715" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+          <RadioButton Name = "Tab1_Button" X = "3" PushSurf = "6321" MouseEvent = "ChangeMainSubTab" Tag = "52">
+            <Label Name = "Tab1_Label" String = "3716" Width = "80" Height = "13" HAlign = "center" VAlign = "middle"/>
+          </RadioButton>
+        </List>
+        <Image Name = "Back_Image" Surf = "6319"/>
+      </Control>
+    </Control>
+		<List Name = "Tab_List" X = "21" Y = "18" Width = "623" Height = "20" Horizontal = "1" Gap = "2">
+			<RadioButton Name = "Alltab_Button" BaseSurf = "4002" PushSurf = "4003" HighlightSurf = "4003" MouseEvent = "ChangeTabEx"/>
+			<RadioButton Name = "Additiontab_Button" BaseSurf = "4004" PushSurf = "4005" HighlightSurf = "4005" MouseEvent = "ChangeTabEx"/>
+			<RadioButton Name = "Assisttab_Button" BaseSurf = "4006" PushSurf = "4007" HighlightSurf = "4007" MouseEvent = "ChangeTabEx"/>
+			<RadioButton Name = "Shapetab_Button" BaseSurf = "4008" PushSurf = "4009" HighlightSurf = "4009" MouseEvent = "ChangeTabEx"/>
+			<RadioButton Name = "Pettab_Button" BaseSurf = "4010" PushSurf = "4011" HighlightSurf = "4011" MouseEvent = "ChangeTabEx"/>
+			<RadioButton Name = "Eventtab_Button" BaseSurf = "4012" PushSurf = "4013" HighlightSurf = "4013" MouseEvent = "ChangeTabEx"/>
+		</List>
+		<List Name = "Item_List" X = "24" Y = "64" Width = "355" Height = "200" Vertical = "1" Gap = "3">
+			<RadioButton Name = "SubItem0_Button" PushSurf = "4018;3" MouseEvent = "SelectItem">
+				<Image Name = "Info_Image" X = "25" Y = "-3" Surf = "4048;1"/>
+				<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+					<Tooltip Name = "Desc_Tooltip" X = "35"/>
+				</ItemIcon>
+				<MultiLabel Name = "Name_Label" X = "40" Width = "102" Height = "35" HAlign = "left" VAlign = "middle"/>
+				<Image Name = "Price_Image" X = "148" Y = "8" Surf = "4019">
+					<Label Name = "Price_Label" Width = "70" Height = "21" Align = "right"/>
+				</Image>
+        <Button Name = "Buy_Button" X = "228" Y = "8" BaseSurf = "4024" HighlightSurf = "4025" MouseEvent = "BuyItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>
+        </Button>
+        <Button Name = "Gift_Button" X = "269" Y = "8" BaseSurf = "4022" HighlightSurf = "4023" MouseEvent = "GiftItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>
+        </Button>
+				<Button Name = "Ask_Button" X = "310" Y = "8" BaseSurf = "4020" HighlightSurf = "4021" MouseEvent = "AskItem">
+					<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>
+				</Button>
+			</RadioButton>
+			<RadioButton Name = "SubItem1_Button" PushSurf = "4018;3" MouseEvent = "SelectItem">
+				<Image Name = "Info_Image" X = "25" Y = "-3" Surf = "4049;1"/>
+				<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+					<Tooltip Name = "Desc_Tooltip" X = "35"/>
+				</ItemIcon>
+        <MultiLabel Name = "Name_Label" X = "40" Width = "102" Height = "35" HAlign = "left" VAlign = "middle"/>
+				<Image Name = "Price_Image" X = "148" Y = "8" Surf = "4019">
+					<Label Name = "Price_Label" Width = "70" Height = "21" Align = "right"/>
+				</Image>
+        <Button Name = "Buy_Button" X = "228" Y = "8" BaseSurf = "4024" HighlightSurf = "4025" MouseEvent = "BuyItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>
+        </Button>
+        <Button Name = "Gift_Button" X = "269" Y = "8" BaseSurf = "4022" HighlightSurf = "4023" MouseEvent = "GiftItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>
+        </Button>
+        <Button Name = "Ask_Button" X = "310" Y = "8" BaseSurf = "4020" HighlightSurf = "4021" MouseEvent = "AskItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>
+        </Button>
+			</RadioButton>
+			<RadioButton Name = "SubItem2_Button" PushSurf = "4018;3" MouseEvent = "SelectItem">
+				<Image Name = "Info_Image" X = "25" Y = "-3" Surf = "4048;1"/>
+				<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+					<Tooltip Name = "Desc_Tooltip" X = "35"/>
+				</ItemIcon>
+        <MultiLabel Name = "Name_Label" X = "40" Width = "102" Height = "35" HAlign = "left" VAlign = "middle"/>
+				<Image Name = "Price_Image" X = "148" Y = "8" Surf = "4019">
+					<Label Name = "Price_Label" Width = "70" Height = "21" Align = "right"/>
+				</Image>
+        <Button Name = "Buy_Button" X = "228" Y = "8" BaseSurf = "4024" HighlightSurf = "4025" MouseEvent = "BuyItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>
+        </Button>
+        <Button Name = "Gift_Button" X = "269" Y = "8" BaseSurf = "4022" HighlightSurf = "4023" MouseEvent = "GiftItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>
+        </Button>
+        <Button Name = "Ask_Button" X = "310" Y = "8" BaseSurf = "4020" HighlightSurf = "4021" MouseEvent = "AskItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>
+        </Button>
+			</RadioButton>
+			<RadioButton Name = "SubItem3_Button" PushSurf = "4018;3" MouseEvent = "SelectItem">
+				<Image Name = "Info_Image" X = "25" Y = "-3" Surf = "4049;1"/>
+				<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+					<Tooltip Name = "Desc_Tooltip" X = "35"/>
+				</ItemIcon>
+        <MultiLabel Name = "Name_Label" X = "40" Width = "102" Height = "35" HAlign = "left" VAlign = "middle"/>
+				<Image Name = "Price_Image" X = "148" Y = "8" Surf = "4019">
+					<Label Name = "Price_Label" Width = "70" Height = "21" Align = "right"/>
+				</Image>
+        <Button Name = "Buy_Button" X = "228" Y = "8" BaseSurf = "4024" HighlightSurf = "4025" MouseEvent = "BuyItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>
+        </Button>
+        <Button Name = "Gift_Button" X = "269" Y = "8" BaseSurf = "4022" HighlightSurf = "4023" MouseEvent = "GiftItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>
+        </Button>
+        <Button Name = "Ask_Button" X = "310" Y = "8" BaseSurf = "4020" HighlightSurf = "4021" MouseEvent = "AskItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>
+        </Button>
+			</RadioButton>
+			<RadioButton Name = "SubItem4_Button" PushSurf = "4018;3" MouseEvent = "SelectItem">
+				<Image Name = "Info_Image" X = "25" Y = "-3" Surf = "4048;1"/>
+				<ItemIcon Name = "Image_Icon" Width = "35" Height = "35">
+					<Tooltip Name = "Desc_Tooltip" X = "35"/>
+				</ItemIcon>
+        <MultiLabel Name = "Name_Label" X = "40" Width = "102" Height = "35" HAlign = "left" VAlign = "middle"/>
+				<Image Name = "Price_Image" X = "148" Y = "8" Surf = "4019">
+					<Label Name = "Price_Label" Width = "70" Height = "21" Align = "right"/>
+				</Image>
+        <Button Name = "Buy_Button" X = "228" Y = "8" BaseSurf = "4024" HighlightSurf = "4025" MouseEvent = "BuyItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2818"/>
+        </Button>
+        <Button Name = "Gift_Button" X = "269" Y = "8" BaseSurf = "4022" HighlightSurf = "4023" MouseEvent = "GiftItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2819"/>
+        </Button>
+        <Button Name = "Ask_Button" X = "310" Y = "8" BaseSurf = "4020" HighlightSurf = "4021" MouseEvent = "AskItem">
+          <Tooltip Name = "Desc_Tooltip" Width = "100" String = "2820"/>
+        </Button>
+			</RadioButton>
+		</List>
+		<Control Name = "Itemdesc_Control" Activate = "0">
+			<Image Name = "Itemdesc_Image" X = "386" Y = "68"/>
+			<MultiLabel Name = "Itemdesc_Label" X = "386" Y = "185" Width = "140" Height = "66" HAlign = "left" VAlign = "botton"/>
+			<Label Name = "Itemdescprice_Label" X = "419" Y = "258" Width = "72" Height = "20" Align = "right"/>
+		</Control>
+		<Control Name = "Page_Control" X = "0" Y ="0">
+			<Button Name = "Firstpage_Button" X = "102" Y = "259" BaseSurf = "4026;1" HighlightSurf = "4027;1" MouseEvent = "PageControl"/>
+			<Button Name = "Prev10page_Button" X = "121" Y = "259" BaseSurf = "4028;1" HighlightSurf = "4029;1" MouseEvent = "PageControl"/>
+			<Button Name = "Prevpage_Button" X = "147" Y = "259" BaseSurf = "4030;1" HighlightSurf = "4031;1" MouseEvent = "PageControl"/>
+			<Button Name = "Nextpage_Button" X = "248" Y = "259" BaseSurf = "4033;1" HighlightSurf = "4034;1" MouseEvent = "PageControl"/>
+			<Button Name = "Next10page_Button" X = "265" Y = "259" BaseSurf = "4035;1" HighlightSurf = "4036;1" MouseEvent = "PageControl"/>
+			<Button Name = "Lastpage_Button" X = "291" Y = "259" BaseSurf = "4037;1" HighlightSurf = "4038;1" MouseEvent = "PageControl"/>
+			<Image Name = "Page_Image" X = "171" Y = "256" Surf = "4032">
+				<Label Name = "Page_Label" Width = "66" Height = "20" Align = "center"/>
+			</Image>
+		</Control>
+		<Control Name = "Search_Control">
+			<Edit Name = "Search_Edit" X = "72" Y = "289" Width = "109" Height = "17" KeyboardEvent = "Search"/>
+			<Button Name = "Search_Button" X = "180" Y = "284" BaseSurf = "4039" HighlightSurf = "4040" MouseEvent = "Search"/>
+			<Button Name = "Cancel_Button" X = "199" Y = "284" BaseSurf = "4041" HighlightSurf = "4042" MouseEvent = "CancelSearch"/>
+		</Control>
+		<Label Name = "Cash_Label" X = "264" Y = "284" Width = "85" Height = "20" Align = "right"/>
+		<Button Name = "Expendwin_Button" X = "1" Y = "28" BaseSurf = "4014;1" HighlightSurf = "4015;1" MouseEvent = "ExpendWindow"/>
+		<Button Name = "Payment_Button" X = "530" Y = "34" BaseSurf = "4016;1" HighlightSurf = "4017;1" MouseEvent = "Payment">
+			<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2822"/>
+		</Button>
+    <Button Name = "GotCha_Button" X = "530" Y = "161" BaseSurf = "6399;1" HighlightSurf = "6400;1" MouseEvent = "OpenGotCha">
+      <Tooltip Name = "Desc_Tooltip" Width = "100" String = "3739"/>
+    </Button>
+		<Button Name = "Warehouse_Button" X = "436" Y = "287" BaseSurf = "4043" PushSurf = "4044;1" HighlightSurf = "4045" MouseEvent = "OpenWarehouse">
+			<Tooltip Name = "Desc_Tooltip" Width = "100" String = "2821"/>
+		</Button>
+		<Button Name = "Exit_Button" X = "540" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseItemShop"/>
+	</Window>
+</ItemShopUI>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リッキー</name>
+    <job>[修練のテレポーター]</job>
+  </npc>
+  <dialog>
+	<p>英雄になりたいのであれば、私が手を貸してあげよう。どこに行きたいかね？</p>
+	<p><br/></p>
+	<p><font fg="ffafff">修練の教えを受ける</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">[Lv10～29]シルバーナイトタウン周辺</font></p>
+	<p><a action="c">ロウフル神殿</a>/<a action="d">カオティックテンプル</a></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">[Lv10～44]シルバーナイトタウンのダンジョン</font></p>
+	<p><a action="A">シルバーナイトタウンのダンジョン</a></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">[Lv45～51]暴風修練エリア</font></p>
+	<p><a action="E">暴風修練エリア</a></p>
+	<p><br/></p>
+	<p><font fg="ffafff">村への移動を頼む</font></p>
+	<p><br/></p>
+	<p><a action="a">隠された渓谷に送ってください</a></p>
+	<p><a action="b">ギラン城下町に送ってください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

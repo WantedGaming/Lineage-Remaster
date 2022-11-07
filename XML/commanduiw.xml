@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<CommandUI>
+	<Control Name = "Command_Control" X = "377" Y = "494" Width = "232" Height = "40" MostTop = "1">
+		<CheckButton Name = "Main_Button" Y = "20" BaseSurf = "5039;1" HighlightSurf = "5040;1" PushSurf = "5040;1" MouseEvent = "OpenUI">
+			<Tooltip Name = "Desc_Tooltip" String = "3084"/>
+		</CheckButton>
+		<Image Name = "Bubble_Image" X = "36" Y = "20" Surf = "5041;1" Activate = "0">
+			<Button Name = "Whisper_Button" X = "10" Y = "1" BaseSurf = "5042;1" HighlightSurf = "5043;1" PushSurf = "5043;1" MouseEvent = "Whisper">
+				<Tooltip Name = "Desc_Tooltip" String = "369"/>
+			</Button>
+			<Button Name = "Trade_Button" X = "29" Y = "1" BaseSurf = "5044;1" HighlightSurf = "5045;1" PushSurf = "5045;1" MouseEvent = "Trade">
+				<Tooltip Name = "Desc_Tooltip" String = "399"/>
+			</Button>
+			<Button Name = "Friend_Button" X = "52" Y = "1" BaseSurf = "5046;1" HighlightSurf = "5047;1" PushSurf = "5047;1" MouseEvent = "Friend">
+				<Tooltip Name = "Desc_Tooltip" String = "947"/>
+			</Button>
+			<Button Name = "Party_Button" X = "71" Y = "1" BaseSurf = "5048;1" HighlightSurf = "5049;1" PushSurf = "5049;1" MouseEvent = "Party">
+				<Tooltip Name = "Desc_Tooltip" String = "413"/>
+			</Button>
+			<CheckButton Name = "Shop_Button" X = "90" Y = "1" BaseSurf = "5050;1" HighlightSurf = "5051;1" PushSurf = "5051;1" MouseEvent = "Shop">
+				<Tooltip Name = "Desc_Tooltip" String = "907"/>
+			</CheckButton>
+		</Image>
+		<List Name = "Shop_List" Width = "232" Height = "20" Gap = "1" Horizontal = "1" Activate = "0">
+			<Button Name = "Openshop_Button" BaseSurf = "5052;1" HighlightSurf = "5053;1" PushSurf = "5053;1" MouseEvent = "OpenShop"/>
+			<Button Name = "Closeshop_Button" BaseSurf = "5054;1" HighlightSurf = "5055;1" PushSurf = "5055;1" MouseEvent = "CloseShop"/>
+			<Button Name = "Searchshop_Button" BaseSurf = "5056;1" HighlightSurf = "5057;1" PushSurf = "5057;1" MouseEvent = "SearchShop"/>
+			<Button Name = "Macro_Button" BaseSurf = "5058;1" HighlightSurf = "5059;1" PushSurf = "5059;1" MouseEvent = "Macro"/>
+		</List>
+	</Control>
+</CommandUI>

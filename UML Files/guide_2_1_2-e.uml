@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ギランの町から見て12時の方向にある出口から外に出て道に沿って進むと、いつのまにかギラン領地を離れて森に入ります。そこには<font fg="ffafff">ガースト</font>、<font fg="ffafff">ライカンスロープ</font>、<font fg="ffafff">ウェアウルフ</font>がいるんですよ。<br/>
+		 これといって強いモンスターはいないんですけど、狭いところにモンスターがうじゃうじゃいるので気をつけてください。ガーストなんかと戦ったら沈黙してしまう毒を使うから要注意ですよ。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

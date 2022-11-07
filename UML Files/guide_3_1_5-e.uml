@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ギランの町から南に向って、領地を抜けてから5時の方角にもうちょっとだけ進むと、ギランのダンジョンの入口にたどり着きます。ギランのダンジョンの2階には人間型から突然変異した爬虫類、魚類型のモンスターが現れます。<br/>
+		 <font fg="ffafff">ギラン バクーク</font>、<font fg="ffafff">ギラン リザードマン</font>、<font fg="ffafff">ギラン ラミア</font>、<font fg="ffafff">ギラン クラブマン</font>とかがいるそうですよ。先制攻撃をしかけてくるやつはいませんが、なにせ狭いダンジョンですから、モンスターに囲まれることのないように気をつけてください。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

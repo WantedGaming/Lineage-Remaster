@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+  <dialog>
+    <p>運命に逆らうこと！それが本当の運命ではないかと思います。</p>
+    <p>あなたの幸運を祈り、不幸な運勢で傷ついてしまったあなたの心が少しでも癒されるように、ありったけの祝福を差し上げます。</p>
+  </dialog>
+</npcdialog>

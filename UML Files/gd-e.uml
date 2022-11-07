@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの鍛冶屋</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 こいつ！よくもここに入って来れたな！？すばしっこい奴め！
+		 私がお前を始末してやる！
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

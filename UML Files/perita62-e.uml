@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p>あなたが持っている「ミステリアス ブラック イアリング」の種類はウィザード、ウォリアー、ナイトクラス合計3種類です。</p>
+	
+	<p><a link="perita5">別の取引をしたいです</a></p>
+  </dialog>
+</npcdialog>

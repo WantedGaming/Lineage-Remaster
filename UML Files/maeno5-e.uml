@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>○○</name>
+  </npc>
+  <dialog>
+    <p>さぁさぁ、ただいま次の運動会の準備中です。</p>
+    <p>準備が終わるまでもう少しお待ちください！</p>
+    <p><a action="sell">成功した応援のラッパを交換してください</a></p>
+    <p>ちなみに運動会は毎日午後<font fg="ffaaff">6時</font>～夜の<font fg="ffaaff">1時</font>まで開催されます。</p>
+    <p>ただし、攻城戦が行われる<font fg="ffaaff">日曜日</font>の午後<font fg="ffaaff">8時</font>～午後<font fg="ffaaff">9時</font>の間は運動会は開催されません。</p>
+    <p>最後に、イベントが終了すると応援ラッパはすべて<font fg="ffaaff">削除</font>されますので、その前に成功した応援のラッパを交換してください。</p>
+	</dialog>
+</npcdialog>

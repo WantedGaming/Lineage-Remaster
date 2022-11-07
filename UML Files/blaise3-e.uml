@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>数学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 なに？まさか君は<font fg="ffffaa">機械</font>の内部構造を知りたいのか？
+		 この<font fg="ffffaa">機械</font>の内部構造については秘密だ！ 
+		 まぁ、どのみち君に説明したところで、この複雑な構造は理解できないだろうな！<br/>
+		 ハッ！…もしかして、機械の構造を盗んで売る気なのか？…ぐぬぬ<br/>
+		<br/><br/>
+		 まあいい、今は私が言った材料をさっさと持って来るのだ！<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

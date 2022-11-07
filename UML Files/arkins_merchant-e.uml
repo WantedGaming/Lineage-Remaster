@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベント商人</title>
+	<npc>
+		<portrait>PO_001</portrait>
+		<name>アルキン</name>
+		<job>[英雄コイン販売人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>ダ…ダーク訓練場って聞いたことありますか？<br/>
+		闇の力が強烈に感じられる過酷な訓練が…<br/>
+		受けられるそうです！<br/>
+		<br/>
+		<font fg="ffffaf">エルーカ</font>というダーク訓練場管理人のところに行ってみてください。<br/>
+		辛い訓練の分だけ、<br/>
+		経験値も十分にもらえるそうです。<br/>
+		<br/>
+		<font fg="ffffaf">英雄のコイン</font>は<br/>
+		これまでと同じように私から買うことができます！<br/>
+		<br/>
+		<font fg="ffffaf">英雄のコイン</font>は現在のレベルによって必要な数が<br/>
+		違うので、よく確認してから購入してください！<br/>
+		(<font fg="ffafff">闇のフリーパス券</font>をダブルクリックすると買えます！)
+		<br/>
+		<br/>
+		ダーク訓練場管理人<font fg="ffffaf">エルーカ</font>は<br/>
+		<font fg="ffafff">話せる島の村</font>と<font fg="ffafff">ギラン城下町</font>にいると言っていました。<br/>
+		<br/>
+		<font fg="ffafff">闇のフリーパス券</font>と<font fg="ffffaf">英雄のコイン</font>を持って<br/>
+		<br/>
+		<font fg="ffffaf">エルーカ</font>を訪ねて報賞を受け取ってください！<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	</dialog>
+</npcdialog>

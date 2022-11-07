@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+
+<!--Extra Window Configulation-->
+
+<ExtraWindowConfigulation>
+
+  <QUIT_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_QUIT_BASE" surfNumber = "1951" xPos = "4" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_QUIT_FRAME" surfNumber = "1952"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "147" yPos = "15"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_RESTART" surfNumber = "1953" xRPos = "31" yRPos = "41"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_QUIT" surfNumber = "1956" xRPos = "31" yRPos = "62"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_CANCEL" surfNumber = "1959" xRPos = "31" yRPos = "83"/>
+  </QUIT_WINDOW>
+
+  <NEW_QUIT_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_QUIT_NEW_BASE" surfNumber = "3150" xPos = "3" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_QUIT_NEW_FRAME" surfNumber = "3151"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "147" yPos = "15"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_RESTART" surfNumber = "1953" xRPos = "31" yRPos = "41"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_SERVERLIST" surfNumber = "3152" xRPos = "31" yRPos = "61"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_HOMEPAGE" surfNumber = "3155" xRPos = "31" yRPos = "81"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_QUIT" surfNumber = "1956" xRPos = "31" yRPos = "101"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_QUIT_CANCEL" surfNumber = "1959" xRPos = "31" yRPos = "121"/>
+  </NEW_QUIT_WINDOW>
+
+  <MESSAGE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_MESSAGE_BASE" surfNumber = "1964" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_MESSAGE_FRAME" surfNumber = "1965"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_OK" surfNumber = "1966" xPos = "70" yPos = "118"/>
+  </MESSAGE_WINDOW>
+
+  <HYPER_TEXT_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_HYPER_TEXT_BASE" surfNumber = "1968" xPos = "6" yPos = "9"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_HYPER_TEXT_FRAME" surfNumber = "1969"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "225" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_SCROLLBAR_LONG" surfNumber = "1970" xPos = "217" yPos = "51"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "217" yPos = "275"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "217" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+  </HYPER_TEXT_WINDOW>
+
+  <VOLUME_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_VOLUME_BASE" surfNumber = "1971" xPos = "6" yPos = "10"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_VOLUME_TEXT_FRAME" surfNumber = "1972"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_BACK_OFF" surfNumber = "1973" xRPos = "70" yRPos = "238"/>
+
+    <IMAGE surfName = "SURF_RENEWAL_SOUND_SCROLLBAR," surfNumber = "1976" xPos = "34" yPos = "74"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_KNOB_OFF" surfNumber = "1977"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_LEFT_ARROW_OFF" surfNumber = "1979" xPos = "23" yPos = "72"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_RIGHT_ARROW_OFF" surfNumber = "1981" xPos = "159" yPos = "72"/>
+
+    <IMAGE surfName = "SURF_RENEWAL_SOUND_SCROLLBAR," surfNumber = "1976" xPos = "34" yPos = "118"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_KNOB_OFF" surfNumber = "1977"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_LEFT_ARROW_OFF" surfNumber = "1979" xPos = "23" yPos = "116"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_RIGHT_ARROW_OFF" surfNumber = "1981" xPos = "159" yPos = "116"/>
+
+    <IMAGE surfName = "SURF_RENEWAL_SOUND_SCROLLBAR," surfNumber = "1976" xPos = "34" yPos = "162"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_KNOB_OFF" surfNumber = "1977"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_LEFT_ARROW_OFF" surfNumber = "1979" xPos = "23" yPos = "160"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_RIGHT_ARROW_OFF" surfNumber = "1981" xPos = "159" yPos = "160"/>
+
+    <IMAGE surfName = "SURF_RENEWAL_SOUND_SCROLLBAR," surfNumber = "1976" xPos = "34" yPos = "204"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_KNOB_OFF" surfNumber = "1977"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_LEFT_ARROW_OFF" surfNumber = "1979" xPos = "23" yPos = "202"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_SOUND_SCROLL_RIGHT_ARROW_OFF" surfNumber = "1981" xPos = "159" yPos = "206"/>
+  </VOLUME_WINDOW>
+
+  <TRADE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_TRADE_BASE" surfNumber = "1983" xPos = "6" yPos = "9"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_TRADE_FRAME" surfNumber = "1984"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "225" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_SCROLLBAR_LONG" surfNumber = "1970" xPos = "217" yPos = "51"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "217" yPos = "275"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "217" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_UP_OFF" surfNumber = "1985"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_DOWN_OFF" surfNumber = "1987"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_TRADE_ADENA" surfNumber = "1990" xPos = "19" yPos = "23"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_TRADE_TOTAL" surfNumber = "1991" xPos = "19" yPos = "23"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_BUY_OFF" surfNumber = "1992" xPos = "60" yPos = "292"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_CANCEL_OFF" surfNumber = "1994" xPos = "127" yPos = "292"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_OK_OFF" surfNumber = "1996" xPos = "60" yPos = "292"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_SELL_OFF" surfNumber = "1998" xPos = "60" yPos = "292"/>
+  </TRADE_WINDOW>
+
+  <TRANSACTION_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_TRANSACT_BASE" surfNumber = "2000" xPos = "6" yPos = "10"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_TRANSACT_FRAME" surfNumber = "2001"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_TRANSACT_TEXT_FRAME" surfNumber = "2008" xPos = "15" yPos = "213"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_TRANSACT_OK" surfNumber = "2002" xRPos = "36" yRPos = "252"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_BTN_TRANSACT_CANCEL" surfNumber = "2005" xRPos = "104" yRPos = "252"/>
+    <ITEM_LIST_ADJUST surfNumber = "0" xPos = "26" yPos = "49" tag = "91"/>
+  </TRANSACTION_WINDOW>
+
+  <MACRO_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_MACRO_BASE" surfNumber = "2009" xPos = "6" yPos = "10"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_MACRO_FRAME" surfNumber = "2010"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "225" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_MACRO_TEXT_FRAME" surfNumber = "2011" xPos = "11" yPos = "44"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_PLAY" surfNumber = "2012" xRPos = "175" yRPos = "44"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_PLAY" surfNumber = "2012" xRPos = "175" yRPos = "61"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_PLAY" surfNumber = "2012" xRPos = "175" yRPos = "78"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_PLAY" surfNumber = "2012" xRPos = "175" yRPos = "95"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_PLAY" surfNumber = "2012" xRPos = "175" yRPos = "112"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_STOP" surfNumber = "2014" xRPos = "125" yRPos = "135"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_MACRO_PLAY_ALL" surfNumber = "2016" xRPos = "43" yRPos = "135"/>
+    <ITEM_LIST_ADJUST surfNumber = "0" xPos = "20" yPos = "47" tag = "0"/>
+  </MACRO_WINDOW>
+
+  <ADENA_EXCHANGE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_BASE" surfNumber = "4388"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_FRAME" surfNumber = "4389"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_SCROLLBAR_SHORT" surfNumber = "4390" xPos = "171" yPos = "81"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "171" yPos = "159"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "171" yPos = "67"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_SCROLLBAR_SHORT" surfNumber = "4390" xPos = "171" yPos = "225"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "171" yPos = "303"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "171" yPos = "211"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_OK_OFF" surfNumber = "1996" xPos = "36" yPos = "327"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_CANCEL_OFF" surfNumber = "1994" xPos = "104" yPos = "327"/>
+    <ITEM_LIST_ADJUST surfNumber = "0" xPos = "20" yPos = "69" tag = "144"/>
+  </ADENA_EXCHANGE_WINDOW>
+
+  <EXCHANGE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_BASE" surfNumber = "2018" xPos = "6" yPos = "9"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_FRAME" surfNumber = "2019"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_SCROLLBAR_SHORT" surfNumber = "2020" xPos = "171" yPos = "61"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "171" yPos = "140"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "171" yPos = "47"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_EXCHANGE_SCROLLBAR_SHORT" surfNumber = "2020" xPos = "171" yPos = "185"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "171" yPos = "264"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "171" yPos = "171"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_OK_OFF" surfNumber = "1996" xPos = "36" yPos = "287"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_TRADE_CANCEL_OFF" surfNumber = "1994" xPos = "104" yPos = "287"/>
+    <ITEM_LIST_ADJUST surfNumber = "0" xPos = "20" yPos = "49" tag = "124"/>
+  </EXCHANGE_WINDOW>
+
+  <CALCULATE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_CALC_BASE" surfNumber = "2119" xPos = "3" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_CALC_FRAME" surfNumber = "2120"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "147" yPos = "15"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_0_OFF" surfNumber = "2123" xPos = "24" yPos = "107"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_1_OFF" surfNumber = "2126" xPos = "24" yPos = "90"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_ADD_OFF" surfNumber = "2153" xPos = "114" yPos = "56"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_SUB_OFF" surfNumber = "2156" xPos = "114" yPos = "73"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_MUL_OFF" surfNumber = "2159" xPos = "114" yPos = "90"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_DIV_OFF" surfNumber = "2162" xPos = "114" yPos = "107"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_BS_OFF" surfNumber = "2168" xPos = "114" yPos = "37"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_C_OFF" surfNumber = "2171" xPos = "52" yPos = "107"/>
+    <STAGE3_BTN surfName = "SURF_RENEWAL_CALC_EQU_OFF" surfNumber = "2165" xPos = "80" yPos = "107"/>
+  </CALCULATE_WINDOW>
+
+  <PET_QUICK_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_PET_QUICK_BASE" surfNumber = "2242" xPos = "0" yPos = "0"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_PET_QUICK_FRAME" surfNumber = "2243"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_PET_QUICK_AGGRESSIVE_OFF" surfNumber = "2244" xPos = "11" yPos = "14"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_PET_QUICK_DEFENSIVE_OFF" surfNumber = "2250" xPos = "36" yPos = "15"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_PET_QUICK_DISPERSE_OFF" surfNumber = "2790" xPos = "61" yPos = "15"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_PET_QUICK_LOOK_OUT_OFF" surfNumber = "2788" xPos = "86" yPos = "15"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_PET_QUICK_REST_OFF" surfNumber = "2248" xPos = "111" yPos = "14"/>
+  </PET_QUICK_WINDOW>
+
+  <BOOK_MARK_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_BOOK_MARK_BASE" surfNumber = "2252" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_BOOK_MARK_FRAME" surfNumber = "2253"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_SCROLLBAR" surfNumber = "2039" xPos = "171" yPos = "55"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "171" yPos = "222"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "171" yPos = "41"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+  </BOOK_MARK_WINDOW>
+
+  <COOK_BOOK_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_COOK_BOOK_BASE" surfNumber = "2254" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_COOK_BOOK_FRAME" surfNumber = "2255"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_SCROLLBAR" surfNumber = "2039" xPos = "171" yPos = "55"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "171" yPos = "222"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "171" yPos = "41"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_1" surfNumber = "2545" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_2" surfNumber = "2546" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_3" surfNumber = "2547" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_4" surfNumber = "2548" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_5" surfNumber = "2549" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_6" surfNumber = "2550" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_7" surfNumber = "2551" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_8" surfNumber = "2552" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_9" surfNumber = "2553" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_10" surfNumber = "2554" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_11" surfNumber = "2555" xPos = "116" yPos = "257"/>
+    <IMAGE surfName = "SURF_RENEWAL_IMG_COOK_BOOK_GUAGE" surfNumber = "2256" xPos = "35" yPos = "251"/>
+  </COOK_BOOK_WINDOW>
+
+  <DRAGON_GATE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_DRAGON_GATE_BOARD_BASE" surfNumber = "2556" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_DRAGON_GATE_BOARD_FRAME" surfNumber = "2557"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "179" yPos = "15"/>
+    <STAGE3_BTN surfName = "SURF_DRAGON_GATE_BOARD_BTN_CANCEL" surfNumber = "2558" xRPos = "70" yRPos = "103"/>
+    <IMAGE_BTN surfName = "SURF_DRAGON_GATE_BOARD_BTN_ANTHARAS" surfNumber = "2562" xRPos = "25" yRPos = "54"/>
+    <IMAGE_BTN surfName = "SURF_DRAGON_GATE_BOARD_BTN_FAFURION" surfNumber = "2565" xRPos = "98" yRPos = "54"/>
+    <IMAGE_BTN surfName = "SURF_DRAGON_GATE_BOARD_BTN_LINDVIOR" surfNumber = "2568" xRPos = "25" yRPos = "76"/>
+    <IMAGE_BTN surfName = "SURF_DRAGON_GATE_BOARD_BTN_VALAKAS" surfNumber = "2571" xRPos = "98" yRPos = "76"/>
+  </DRAGON_GATE_WINDOW>
+
+  <PARTY_INTERFACE x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_800_PARTY_BASE" surfNumber = "3204" xPos = "110" yPos = "533"/>
+    <SURF_IMAGE surfName = "SURF_800_PARTY_BASE" surfNumber = "3204"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_CHAR_STATUS" surfNumber = "3205" xRPos = "121" yRPos = "521"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_STATUS" surfNumber = "3208" xRPos = "146" yRPos = "521"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_LT_BTN_PET_STATUS" surfNumber = "3298" xRPos = "175" yRPos = "521"/>
+    <IMAGE surfName = "T_IMG_PARTY_LT_PET_WIN" surfNumber = "3301" xPos = "110" yPos = "533"/>
+    <IMAGE surfName = "SURF_800_PARTY_STATUS_GAUGE" surfNumber = "3211" xPos = "0" yPos = "0"/>
+    <IMAGE surfName = "SURF_800_PARTY_STATUS_GAUGE_RED" surfNumber = "3212" xPos = "0" yPos = "0"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_LEAVE_OFF" surfNumber = "3302" xRPos = "180" yRPos = "614"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_BAN_OFF" surfNumber = "3305" xRPos = "200" yRPos = "614"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_DELEGATE_OFF" surfNumber = "3308" xRPos = "219" yRPos = "614"/>
+    <IMAGE surfName = "SURF_800_PARTY_CURSOR_SELECTED" surfNumber = "3219" xPos = "0" yPos = "0"/>
+  </PARTY_INTERFACE>
+
+  <ADENA_WAREHOUSE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_BASE" surfNumber = "4476"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_FRAME" surfNumber = "4477"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_EXIT_OFF" surfNumber = "3031" xPos = "225" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_BAR" surfNumber = "3024" xPos = "217" yPos = "61"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_UP_OFF" surfNumber = "3025" xPos = "217" yPos = "47"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_DOWN_OFF" surfNumber = "3027" xPos = "217" yPos = "285"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_CONTROL_OFF" surfNumber = "3029"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_UP_OFF" surfNumber = "3003"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_DOWN_OFF" surfNumber = "3005"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TOTAL" surfNumber = "3007" xPos = "19" yPos = "25"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_OK_OFF" surfNumber = "3014" xPos = "60" yPos = "345"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_CANCEL_OFF" surfNumber = "3017" xPos = "127" yPos = "345"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_NAME" surfNumber = "3008" xPos = "117" yPos = "35"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_UP_OFF" surfNumber = "3010" xPos = "150" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_DOWN_OFF" surfNumber = "3012" xPos = "150" yPos = "37"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_AMOUNT" surfNumber = "3009" xPos = "162" yPos = "35"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_UP_OFF" surfNumber = "3010" xPos = "206" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_DOWN_OFF" surfNumber = "3012" xPos = "206" yPos = "37"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_ALL" surfNumber = "3020" xPos = "17" yPos = "300"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_EQUIP" surfNumber = "3021" xPos = "17" yPos = "300"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_QUEST" surfNumber = "3022" xPos = "17" yPos = "300"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_ETC" surfNumber = "3023" xPos = "17" yPos = "300"/>
+    <IMAGE_BTN surfName = "SURF_MAIN_ICON_MAIL_OFF" surfNumber = "2303"/>
+    <IMAGE_BTN surfName = "SURF_MAIN_ICON_MAIL_ON" surfNumber = "2304"/>
+    <IMAGE_BTN surfName = "" surfNumber = "4426" xPos = "15" yPos = "322"/>
+    <IMAGE_BTN surfName = "" surfNumber = "4423" xPos = "15" yPos = "322"/>
+  </ADENA_WAREHOUSE_WINDOW>
+
+  <WAREHOUSE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_BASE" surfNumber = "3001" xPos = "6" yPos = "9"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_FRAME" surfNumber = "3002"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_EXIT_OFF" surfNumber = "3031" xPos = "225" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_BAR" surfNumber = "3024" xPos = "217" yPos = "61"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_UP_OFF" surfNumber = "3025" xPos = "217" yPos = "47"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_DOWN_OFF" surfNumber = "3027" xPos = "217" yPos = "285"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SCROLL_CONTROL_OFF" surfNumber = "3029"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_UP_OFF" surfNumber = "3003"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_DOWN_OFF" surfNumber = "3005"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TOTAL" surfNumber = "3007" xPos = "19" yPos = "25"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_OK_OFF" surfNumber = "3014" xPos = "60" yPos = "326"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_CANCEL_OFF" surfNumber = "3017" xPos = "127" yPos = "326"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_NAME" surfNumber = "3008" xPos = "117" yPos = "35"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_UP_OFF" surfNumber = "3010" xPos = "150" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_DOWN_OFF" surfNumber = "3012" xPos = "150" yPos = "37"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_AMOUNT" surfNumber = "3009" xPos = "162" yPos = "35"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_UP_OFF" surfNumber = "3010" xPos = "206" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WAREHOUSE_SORT_DOWN_OFF" surfNumber = "3012" xPos = "206" yPos = "37"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_ALL" surfNumber = "3020" xPos = "17" yPos = "300"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_EQUIP" surfNumber = "3021" xPos = "17" yPos = "300"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_QUEST" surfNumber = "3022" xPos = "17" yPos = "300"/>
+    <IMAGE surfName = "SURF_RENEWAL_WAREHOUSE_TAB_ETC" surfNumber = "3023" xPos = "17" yPos = "300"/>
+    <IMAGE_BTN surfName = "SURF_MAIN_ICON_MAIL_OFF" surfNumber = "2303"/>
+    <IMAGE_BTN surfName = "SURF_MAIN_ICON_MAIL_ON" surfNumber = "2304"/>
+  </WAREHOUSE_WINDOW>
+
+  <CASH_SHOP_WINDOW x = "0" y ="0">
+    <SURF_IMAGE surfName = "SURF_CASH_SHOP_LIST_BASE" surfNumber = "3114" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_CASH_SHOP_RECO_BASE" surfNumber = "3116" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_CASH_SHOP_HELP_BASE" surfNumber = "3118" xPos = "6" yPos = "8"/>
+    <SURF_IMAGE surfName = "SURF_CASH_SHOP_LIST_FRAME" surfNumber = "3115"/>
+    <SURF_IMAGE surfName = "SURF_CASH_SHOP_RECO_FRAME" surfNumber = "3117"/>
+    <SURF_IMAGE surfName = "SURF_CASH_SHOP_HELP_FRAME" surfNumber = "3119"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_SCROLL_BAR" surfNumber = "3103" xPos = "226" yPos = "53"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_SCROLL_UP" surfNumber = "3104" xPos = "225" yPos = "39"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_SCROLL_DOWN" surfNumber = "3106" xPos = "225" yPos = "280"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_SCROLL_CONTROL" surfNumber = "3108"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_EXIT" surfNumber = "3110" xPos = "333" yPos = "15"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_HELP" surfNumber = "3112" xPos = "347" yPos = "15"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TAB_1" surfNumber = "3120" xPos = "12" yPos = "39"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TAB_2" surfNumber = "3121" xPos = "12" yPos = "39"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TAB_3" surfNumber = "3122" xPos = "12" yPos = "39"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TAB_4" surfNumber = "3123" xPos = "12" yPos = "39"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TAB_5" surfNumber = "3124" xPos = "12" yPos = "39"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TAB_DIS" surfNumber = "3145" xPos = "12" yPos = "39"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_BUY" surfNumber = "3128" xPos = "121" yPos = "296"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_PREV" surfNumber = "3131" xPos = "121" yPos = "296"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_CANCEL" surfNumber = "3134" xPos = "187" yPos = "296"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_DESC" surfNumber = "3137" xPos = "238" yPos = "21"/>
+    <IMAGE_BTN surfName = "SURF_CASH_SHOP_RELOAD" surfNumber = "3140" xPos = "155" yPos = "21"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_CASH_IMAGE" surfNumber = "3144"/>
+    <IMAGE surfName = "SURF_CASH_SHOP_TOTAL_CASH_IMAGE" surfNumber = "3143" xPos = "26" yPos = "26"/>
+  </CASH_SHOP_WINDOW>
+
+  <PARTY_PET_RT_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_800_PARTY_RT_WINDOW" surfNumber = "3220" xPos = "595" yPos = "515"/>
+    <SURF_IMAGE surfName = "SURF_800_PARTY_RT_WINDOW" surfNumber = "3220"/>
+    <IMAGE surfName = "SURF_800_PET_RT_WINDOW" surfNumber = "3221" xPos = "0" yPos = "18"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_RT_BTN_PARTY_STATUS" surfNumber = "3295" xRPos = "11" yRPos = "6"/>
+    <STAGE3_BTN surfName = "SURF_800_PET_RT_BTN_PET_STATUS" surfNumber = "3222" xRPos = "36" yRPos = "6"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_LEAVE_OFF" surfNumber = "3302" xRPos = "82" yRPos = "100"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_BAN_OFF" surfNumber = "3305" xRPos = "102" yRPos = "100"/>
+    <STAGE3_BTN surfName = "SURF_800_PARTY_BTN_PARTY_DELEGATE_OFF" surfNumber = "3308" xRPos = "122" yRPos = "100"/>
+    <IMAGE surfName = "SURF_800_PARTY_CURSOR_SELECTED" surfNumber = "3219" xPos = "0" yPos = "0"/>
+    <IMAGE surfName = "SURF_800_PARTY_STATUS_GAUGE_GREY" surfNumber = "3225" xPos = "0" yPos = "0"/>
+  </PARTY_PET_RT_WINDOW>
+
+  <MACRO_EXTEND_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_800_MACRO_EXTEND_WINDOW" surfNumber = "3226" xPos = "485" yPos = "475"/>
+    <SURF_IMAGE surfName = "SURF_800_MACRO_EXTEND_WINDOW" surfNumber = "3226"/>
+  </MACRO_EXTEND_WINDOW>
+
+  <TIME_MAIN_WINDOW x = "0" y = "0">
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_MULTY" surfNumber = "3453" xPos = "323" yPos = "50"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_SCREEN" surfNumber = "3454" xPos = "323" yPos = "48"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_0" surfNumber = "3442" xPos = "351" yPos = "54"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_1" surfNumber = "3442" xPos = "365" yPos = "54"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_2" surfNumber = "3442" xPos = "379" yPos = "54"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_COLON" surfNumber = "3452" xPos = "398" yPos = "54"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_3" surfNumber = "3442" xPos = "407" yPos = "54"/>
+    <IMAGE surfName = "SURF_TIME_WIN_MAIN_4" surfNumber = "3442" xPos = "421" yPos = "54"/>
+  </TIME_MAIN_WINDOW>
+
+  <TIME_SUB_WINDOW x = "0" y = "0">
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_MULTY_1" surfNumber = "3455" xPos = "0" yPos = "193"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_SCREEN_1" surfNumber = "3456" xPos = "0" yPos = "192"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_MULTY_2" surfNumber = "3455" xPos = "0" yPos = "225"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_SCREEN_2" surfNumber = "3456" xPos = "0" yPos = "224"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_MULTY_3" surfNumber = "3455" xPos = "0" yPos = "257"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_SCREEN_3" surfNumber = "3456" xPos = "0" yPos = "256"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_TEXT_1" surfNumber = "3457" xPos = "4" yPos = "196"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_TEXT_2" surfNumber = "3458" xPos = "4" yPos = "228"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_TEXT_3" surfNumber = "3459" xPos = "4" yPos = "260"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_BOX_1" surfNumber = "3460" xPos = "0" yPos = "211"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_BOX_2" surfNumber = "3460" xPos = "0" yPos = "243"/>
+    <IMAGE surfName = "SURF_TIME_WIN_SUB_BOX_3" surfNumber = "3461" xPos = "0" yPos = "275"/>
+    <IMAGE surfName = "TEXT_TIME_WIN_SUB_TIME_1" surfNumber = "0" xPos = "10" yPos = "212"/>
+    <IMAGE surfName = "TEXT_TIME_WIN_SUB_TIME_2" surfNumber = "0" xPos = "10" yPos = "244"/>
+    <IMAGE surfName = "TEXT_TIME_WIN_SUB_TIME_3" surfNumber = "0" xPos = "10" yPos = "276"/>
+    <IMAGE surfName = "SURF_TIME_WIN_UP_1" surfNumber = "3462" xPos = "71" yPos = "213"/>
+    <IMAGE surfName = "SURF_TIME_WIN_UP_2" surfNumber = "3462" xPos = "71" yPos = "245"/>
+    <IMAGE surfName = "SURF_TIME_WIN_UP_3" surfNumber = "3462" xPos = "71" yPos = "277"/>
+  </TIME_SUB_WINDOW>
+
+  <WEB_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_INGAME_BROWSER_FRAME0" surfNumber = "4130"/>
+    <SURF_IMAGE surfName = "SURF_INGAME_BROWSER_FRAME1" surfNumber = "4131"/>
+    <SURF_IMAGE surfName = "SURF_INGAME_BROWSER_FRAME2" surfNumber = "4132"/>
+    <IMAGE_BTN surfName = "SURF_INGAME_BROWSER_CLOSE_BTN" surfNumber = "5716" xPos = "336" yPos = "9"/>
+    <IMAGE_BTN surfName = "SURF_INGAME_BROWSER_HOME_BTN" surfNumber = "5718" xPos = "315" yPos = "9"/>
+    <WEB_CTRL surfName = "" surfNumber = "0" url = "http://g.lineage.plaync.co.kr/ingame/index" xPos = "11" yPos = "29" />
+  </WEB_WINDOW>
+
+  <GIFT_MESSAGE_WINDOW x = "0" y = "0">
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_HYPER_TEXT_BASE" surfNumber = "1968" xPos = "6" yPos = "9"/>
+    <SURF_IMAGE surfName = "SURF_RENEWAL_WIN_HYPER_TEXT_FRAME" surfNumber = "1969"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_BTN_QUIT_X" surfNumber = "1962" xPos = "225" yPos = "15"/>
+    <IMAGE surfName = "SURF_RENEWAL_WIN_SCROLLBAR_LONG" surfNumber = "1970" xPos = "217" yPos = "51"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_DEC_BUT_OFF" surfNumber = "2040" xPos = "217" yPos = "275"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_INC_BUT_OFF" surfNumber = "2042" xPos = "217" yPos = "37"/>
+    <IMAGE_BTN surfName = "SURF_RENEWAL_WIN_KNOB_BUT_OFF" surfNumber = "2044"/>
+  </GIFT_MESSAGE_WINDOW>
+
+  <NOTICE_WINDOW x = "0" y = "0">
+    <IMAGE_BTN surfName = "SURF_AUCTION_NOTICE_OFF" surfNumber = "3716" xRPos = "618" yRPos = "442"/>
+  </NOTICE_WINDOW>
+
+</ExtraWindowConfigulation>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name></name>
+		<job>船着場管理人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		
+		<p>グルーディオの船着場に船が止まっている時間は次のとおりです。<br/></p>
+		<p>参考までに、今は<var src="999"/>です。<br/></p>		
+		
+		<p><font fg="ffffaf">00：00～01：00</font></p>
+		<p><font fg="ffffaf">03：00～04：00</font></p>
+		<p><font fg="ffffaf">06：00～07：00</font></p>
+		<p><font fg="ffffaf">09：00～10：00</font></p>
+		<p><font fg="ffffaf">12：00～13：00</font></p>
+		<p><font fg="ffffaf">15：00～16：00</font></p>
+		<p><font fg="ffffaf">18：00～19：00</font></p>
+		<p><font fg="ffffaf">21：00～22：00</font></p>
+
+		<p><img src="331" link="ShipEvM1"/></p>		
+	</dialog>
+
+</npcdialog>

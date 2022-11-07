@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<font fg="fff00">[ヴァラカス マジックアーマー]</font><br/>
+		レッド ドラゴン スケイル メイル 1個<br/>
+		ヴァラカスの心臓 2個<br/>
+		最高級ルビー1個<br/>
+		フェニックスの心臓 5個<br/>
+		手数料50,000Adena<br/><br/>
+		<font fg="fff00">[パプリオン マジックアーマー]</font><br/>
+		ブルー ドラゴン スケイル メイル 1個<br/>
+		パプリオンの心臓 2個<br/>
+		最高級エメラルド1個<br/>
+		アイスクイーンの心臓 5個<br/>
+		手数料50,000Adena<br/><br/>
+		<font fg="fff00">[リンドビオル マジックアーマー]</font><br/>
+		ホワイト ドラゴン スケイル メイル 1個<br/>
+		リンドビオルの心臓 2個<br/>
+		最高級サファイア1個<br/>
+		ドレイクの心臓 5個<br/>
+		手数料50,000Adena<br/><br/>
+		<font fg="fff00">[アンタラス マジックアーマー]</font><br/>
+		グリーン ドラゴン スケイル メイル 1個<br/>
+		アンタラスの心臓 2個<br/>
+		最高級ダイアモンド1個<br/>
+		ゴーレムの心臓 5個<br/>
+		手数料50,000Adena<br/><br/>
+		<img src="331" link="ivelviin4"/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

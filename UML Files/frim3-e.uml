@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/><br/>
+		材料で俺が作れる物といえばこのぐらいだ。<br/>
+		<br/>
+		<a link="frim4">必要な材料を見る</a><br/><br/>
+		
+		<a action="request black mithril">ブラックミスリル</a><br/>
+		<a action="request lump of steel">ランプ スチール</a><br/>
+		<a action="request silver bar">シルバー</a><br/>
+		<a action="request gold bar">ゴールド</a><br/>
+		<a action="request platinum bar">プラチナ</a><br/><br/>
+		
+		<a action="request slim plate">薄い金属板</a><br/>
+		<a action="request silver plate">シルバー プレート</a><br/>
+		<a action="request gold plate">ゴールド プレート</a><br/>
+		<a action="request platinum plate">プラチナ プレート</a><br/>
+		<a action="request black mithril plate">ブラックミスリル プレート</a><br/>
+		
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

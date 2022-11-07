@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ウェルダン村の7時の方角にある出口から外に出て、西に向ってまっすぐ行くと橋があります。そこを渡って今度は北へ進むと、火竜の棲処にたどり着けるでしょう。その奥には噴火口があるんですが、その中にヴァラカスの棲処が存在します。<br/>
+		 ヴァラカスの棲処の噴火口のそばには危険なモンスターが出るんですよ。<font fg="ffafff">サラマンダー</font>、<font fg="ffafff">アシタジオ</font>、<font fg="ffafff">ホーン ケルベロス</font>、<font fg="ffafff">ラヴァ ゴーレム</font>のような手ごわいモンスターに、<font fg="ffafff">イフリート</font>や<font fg="ffafff">フェニックス</font>まで…1人では行きづらそうだったら、パーティーを組んだり、強い冒険者と一緒に行くことをお勧めします。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

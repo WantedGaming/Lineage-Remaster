@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>リドル</name>
+		<job>錬金術師</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ようこそ。私はセイルーン様の弟子リドルと申します。</p>
+		<p>師匠を手伝い、永遠に消えないルーンについて研究しています。</p>
+		<p>私が担当している分野は、ルーンに付与された魔法の力を変えることです。</p>
+		<p>まだ未熟ですが、必要でしたらルーンに刻まれた魔力を変えることもできます。</p>
+		<p>ルーンに刻まれた魔力を変えるには、まず魔力を失ったルーンが必要です。</p>
+		<p>ルーンの魔力除去剤は研究室の外にいるフォイから買えますので、必要なら一度お立ち寄りください。</p>
+	</dialog>
+	
+</npcdialog>

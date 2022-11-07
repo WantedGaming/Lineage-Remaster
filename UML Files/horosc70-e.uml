@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>石橋も叩いて渡るべきです。後ろで敵が狙っていますよ。<br/><br/></p>
+	<p>どこに行くにも他の人と一緒に行動しましょう。一人では太刀打ちできない試練に遭遇するでしょう。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>怪しいテレポーター</name>
+  </npc>
+  <dialog>
+	<p>私に払うAdenaが足りていないみたいですから、確認してください。</p>
+  </dialog>
+</npcdialog>

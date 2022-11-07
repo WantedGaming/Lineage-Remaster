@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Keplisha</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>あの…私が渡した壺はどこですか。</p>
+		<p>まさか、私との契約を軽んじて、どこかに壺を捨ててしまったのではないでしょうね。</p>
+		<p>あるいは、何らかの気によって<font fg="ffffaf">壺の力が封印</font>されてしまったのでしょうか。</p>
+		<p>本当に悲しい事実ですが、あなたからは壺のオーラが感じられません。</p>
+
+	</dialog>
+
+</npcdialog>

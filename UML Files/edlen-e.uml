@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+	<portrait>PO_016</portrait>
+	<name><var src="name"/></name>
+	<job>[Unicorn Temple Manager]</job>
+	<text></text>
+  </npc>
+  <dialog>
+	<p>
+	<br/>
+	<font fg="ffffaf">[Teleport]</font><br/>
+	</p>
+
+	<p>
+	<font fg="ffffaf">Boost：</font> Temple Key <font fg="ffafff">3</font><br/><font fg="ffffaf">General：</font> Temple Key <font fg="ffafff">1</font>
+	<br/>
+	</p>
+	<panel type="Panel_Unicorn_Bt">
+		<button action="tel_unicorn_temple_boost"/>
+		<button action="tel_unicorn_temple"/>
+    </panel>
+	<p>
+	<font fg="ffffaf">[Boost Mode]</font>
+	<br/>
+	<p>- Increased appearance rate of Abyssie and Asmodan</p>
+	<br/>
+	<p>- EXP x3</p>
+	<br/>
+	<p>- Rewards x3</p>
+	<br/>
+	<br/>
+	</p>
+    <p>Peace has returned to the Dream Island, but a more powerful presence is pressing in on the Unicorn Temple.</p>
+    <p>Please protect the Unicorn Temple.</p>
+    </dialog>
+</npcdialog>

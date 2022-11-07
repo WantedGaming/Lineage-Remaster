@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+	<p>まあ、お前が乗り気じゃないなら仕方あるまい。</p> 
+	<p>まったくの赤の他人で種族も違うお前が、我が一族のために何かをしてくれるはずがないのは当たり前のことだしな。</p>
+  </dialog>
+</npcdialog>

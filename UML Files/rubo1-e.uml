@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>仲間を救うことができずに、胸が痛みます。彼らがあんな結末を迎えようとは誰が予測したでしょうか。</p>
+		<p>気の毒な彼らを忘れることなんかできません。彼らのほとんどが生き残るために戦い、そして途中で逃げ出した者も捕虜となり命を落としたりしました。</p>
+		<p>いったい誰のために戦い、命を落とさねばならなかいのかすらも知らずに…こうやって生きていること自体が苦痛でなりません。	</p>
+	</dialog>
+	
+</npcdialog>

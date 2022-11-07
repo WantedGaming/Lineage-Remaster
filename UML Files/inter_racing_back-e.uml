@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>レース ポータル：</name>
+		<job>[Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		        <br/>
+		        <font fg="ffffaf">
+		            熱気球がどんどん上っていく！！<br/><br/><br/>
+		        </font>
+		            熱気球に乗って本土に戻る。<br/><br/>
+					
+					* 熱気球は7月3日までです。<br/>
+		</p>
+		<panel type="Panel_Teleport">
+			<button action="non_npc a" />
+		</panel>
+		 <br/>
+		
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>この帽子、とても欲しかったんですよ。私の好みをよく知ってくれているのですね。<br/></p>
+						
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>お前さんとぼけてるんじゃないぞ。わしが説明してやったじゃろう！</p>
+		<p>剥製の製作には材料が100個必要なのじゃと。</p>
+		<p>100個あるかどうか、きちんと確認してから来るのじゃ！</p>
+  </dialog>
+</npcdialog>

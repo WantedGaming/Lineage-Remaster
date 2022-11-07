@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェイソン</name>
+		<job>[材木商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>くそっ、斧の刃がぼろぼろだ…ヘクターに頼んで砥いでもらわないとなぁ…忙しいからまたあとで来てくれ。
+		</p>
+		
+	</dialog>
+</npcdialog>

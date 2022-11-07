@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>Alfred</name>
+		    <job>[武器防具商人]</job>
+  </npc>
+  <dialog>
+   <p>Welcome, please let us know if there is anything you need.</p>
+   <p>Since the fortress of Diad is gone, I moved here to do business.</p>
+   <panel type="Panel_Shop_Bt_buy">
+      <button action="buy"/>
+    </panel>
+  </dialog>
+</npcdialog>

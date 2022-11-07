@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>金に困っているようには見えんがのう…お前さんはそれっぽちの金も持っていないというのか？</p>
+		<p>なんてことじゃ、若いもんが人生を無駄にしてるのう！</p>
+  </dialog>
+</npcdialog>

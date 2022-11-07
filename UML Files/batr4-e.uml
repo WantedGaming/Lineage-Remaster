@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バトール</name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffffaf">サファイア キーリンク</font>を作るための材料はすべて揃っていますか？<br/>
+		 追加で必要な材料は以下のとおりです。<br/>
+		 <br/>
+		 <font fg="ffffaf">最高級サファイア</font>3個<br/>
+		<br/>
+		<br/>
+		<a action="request sapphire kiringku">サファイア キーリンクを製作する</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

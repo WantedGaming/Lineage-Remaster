@@ -1,0 +1,1290 @@
+<?xml version="1.0"?>
+
+<!-- Global Effect Configulation -->
+<!-- GLOBAL_EFFECT geId: You must write number in order from 0 to x. -->
+<!-- SEQUENCE sqId: You must write number in order from 0 to x. -->
+
+<Global_Effect_Configulation>
+
+  <!-- PNG Resource -->
+  <PNG_RESOURCE num = "15968"/>
+
+  <!-- lindvior weather ground 2 change -->
+  <GLOBAL_EFFECT geId = "0" triggerType = "action" triggerNum = "8054-20" nFrame = "9">
+    <SEQUENCE sqId = "0" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "1" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "2" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31~9:80'31]
+    </SEQUENCE>
+
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "1" triggerType = "action" nFrame = "17">
+    <SEQUENCE sqId = "3" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "17" seqType = "manual">
+      [10:30'15 10:30'16 10:30'17 10:40'18 10:40'19 10:40'20 10:50'21 10:50'22 10:50'23 10:50'24 10:60'25 10:60'26 10:60'27 10:60'28 10:70'29 10:70'30 10:500'31>2]
+    </SEQUENCE>
+
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "2" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "4" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:25!34~9:25>3]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "3" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "5" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:2000'31 10:100'29 10:100'27 10:100'25 10:100'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather ground 3 change -->
+  <GLOBAL_EFFECT geId = "4" triggerType = "action" triggerNum = "8055-20" nFrame = "9">
+    <SEQUENCE sqId = "6" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "7" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "8" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather sky11 change -->
+  <GLOBAL_EFFECT geId = "5" triggerType = "action" triggerNum = "8047-20" nFrame = "9">
+    <SEQUENCE sqId = "9" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "10" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "11" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather sky12 change -->
+  <GLOBAL_EFFECT geId = "6" triggerType = "action" triggerNum = "8056-20" nFrame = "9">
+    <SEQUENCE sqId = "12" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "13" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "14" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather sky1 change -->
+  <GLOBAL_EFFECT geId = "7" triggerType = "action" triggerNum = "8057-20" nFrame = "9">
+    <SEQUENCE sqId = "15" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "16" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "17" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- EP0 Part2 -->
+  <GLOBAL_EFFECT geId = "8" triggerType = "packet" triggerNum = "4" nFrame = "9">
+    <SEQUENCE sqId = "18" alias = "15"/>
+    <SEQUENCE sqId = "19" alias = "16"/>
+    <SEQUENCE sqId = "20" alias = "17"/>
+  </GLOBAL_EFFECT>
+
+  <!--
+  basePos = "thinHPBar1",
+	          "thinHPBar2",
+	          "thinHPBar3",
+	          "thinMPBar1",
+          	"thinMPBar2",
+          	"thinMPBar3",
+          	"thickHPBar1",
+          	"thickHPBar2",
+          	"thickHPBar3",
+          	"thickMPBar1",
+          	"thickMPBar2",
+          	"thickMPBar3",
+          	"sunBox",
+          	"oneLineHPMPBar1",
+          	"oneLineHPMPBar2",
+          	"oneLineHPMPBar3",
+          	"twoLineHPMPBar1",
+          	"twoLineHPMPBar2",
+          	"twoLineHPMPBar3",
+ -->
+
+   <!-- Level UP HP/MP Bar Effect -->
+  <GLOBAL_EFFECT geId = "9" triggerType = "notUsed" triggerNum = "3936-0" nFrame = "27">
+    <SEQUENCE sqId = "21" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "thinHPBar1" pos = "0,0" nFrame = "27" seqType = "auto" frameIncrease = "true">
+      [11:150'31~37:150'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "22" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "thinMPBar1" pos = "0,0" nFrame = "27" seqType = "auto" frameIncrease = "true">
+      [11:150'31~37:150'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "23" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "sunBox" pos = "0,0" nFrame = "27" seqType = "auto" frameIncrease = "true">
+      [11:150'31~37:150'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- shout of extence effect -->
+    <GLOBAL_EFFECT geId = "10" triggerType = "packet" triggerNum = "5" nFrame = "22">
+    <SEQUENCE sqId = "24" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "70,558" nFrame = "22" seqType = "auto" frameIncrease = "true">
+      [38:80'31!5536~59:80'31]
+    </SEQUENCE>
+  	</GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "11" triggerType = "action" triggerNum = "0" nFrame = "18">
+    <SEQUENCE sqId = "25" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "oneLineHPMPBar1" pos = "-50,-50" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [60:75'31~77:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "26" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "oneLineHPMPBar2" pos = "-26,-50" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [60:75'31~77:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "27" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "oneLineHPMPBar3" pos = "-0,-50" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [60:75'31~77:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "28" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "twoLineHPMPBar1" pos = "-37,-47" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [78:75'31~95:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "29" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "twoLineHPMPBar2" pos = "-37,-47" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [78:75'31~95:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "30" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "twoLineHPMPBar3" pos = "-37,-47" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [78:75'31~95:75'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Ep0 Part2 Score Display -->
+  <GLOBAL_EFFECT geId="12" triggerType="action" triggerNum="0" nFrame="20">
+    <SEQUENCE sqId="31" imgType="gePng" attr="normal" pos="0,0" nFrame="20" seqType="auto" frameIncrease="false" fade="true" fadeStep="1">
+      [10:150'0~10:150'19]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId="13" triggerType="action" triggerNum="0" nFrame="1">
+    <SEQUENCE sqId="32" imgType="gePng" attr="normal" pos="0,0" nFrame="1" seqType="manual">
+      [10:16000'21]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- shout of extence effect2 -->
+  <GLOBAL_EFFECT geId = "14" triggerType = "packet" triggerNum = "5" nFrame = "22">
+   <SEQUENCE sqId = "24" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "70,558" nFrame = "22" seqType = "auto" frameIncrease = "true">
+    [38:80'31~59:80'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- mainland renewal mirage effect -->
+  <GLOBAL_EFFECT geId = "15" triggerType = "action" triggerNum = "0" nFrame = "21">
+   <SEQUENCE sqId = "33" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true" fade="true" fadeStep="2">
+    [100:100'0~120:100'31>16]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "16" triggerType = "action" triggerNum = "0" nFrame = "21" repeatNum="60">
+   <SEQUENCE sqId = "34" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true">
+    [100:100'31~120:100'31>17]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "17" triggerType = "action" triggerNum = "0" nFrame = "21">
+   <SEQUENCE sqId = "35" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true" fade="true" fadeStep="-2">
+    [100:100'31~120:100'0]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- mainland renewal mirage lighting effect -->
+  <GLOBAL_EFFECT geId = "18" triggerType = "action" triggerNum = "0" nFrame = "21" repeatNum="3">
+     <SEQUENCE sqId = "36" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true">
+    [121:150'31~141:150'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- GM monitoring effect:ping warn-->
+  <GLOBAL_EFFECT geId = "19" triggerType = "packet" triggerNum = "0" nFrame = "16" repeatNum="-1">
+   <SEQUENCE sqId = "37" imgType = "gePng" attr = "normal" layerLevel = "onUI" pos = "0,0" nFrame = "16" seqType="auto" frameIncrease="false" fade="true" fadeStep="1">
+    [142:30'5~142:30'21]
+   </SEQUENCE>
+   <SEQUENCE sqId = "38" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,100" nFrame = "16" seqType="auto" frameIncrease="false">
+    [143:30~143:30]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- GM monitoring effect:NPC server down-->
+  <GLOBAL_EFFECT geId = "20" triggerType = "packet" triggerNum = "0" nFrame = "16" repeatNum="-1">
+   <SEQUENCE sqId = "39" alias = "37"/>
+   <SEQUENCE sqId = "40" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,100" nFrame = "16" seqType="auto" frameIncrease="false">
+    [144:30~144:30]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- GM monitoring effect:cache server down-->
+  <GLOBAL_EFFECT geId = "21" triggerType = "packet" triggerNum = "0" nFrame = "16" repeatNum="-1">
+   <SEQUENCE sqId = "41" alias = "37"/>
+   <SEQUENCE sqId = "42" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,100" nFrame = "16" seqType="auto" frameIncrease="false">
+    [145:30~145:30]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- GM monitoring effect:main server down-->
+  <GLOBAL_EFFECT geId = "22" triggerType = "packet" triggerNum = "0" nFrame = "16" repeatNum="-1">
+   <SEQUENCE sqId = "43" alias = "37"/>
+   <SEQUENCE sqId = "44" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,100" nFrame = "16" seqType="auto" frameIncrease="false">
+    [146:30~146:30]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+<!-- mainland renewal rain effect -->
+  <GLOBAL_EFFECT geId = "23" triggerType = "action" triggerNum = "0" nFrame = "20" repeatNum="-1">
+     <SEQUENCE sqId = "45" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "20" seqType = "auto" frameIncrease = "true">
+    [147:100'31~166:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+ <!-- tencent itemshop button effect on-->
+  <GLOBAL_EFFECT geId = "24" triggerType = "action" triggerNum = "0" nFrame = "10">
+    <SEQUENCE sqId = "46" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "10" seqType = "auto" frameIncrease = "true">
+      [167:80'31~176:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+ <!-- tencent itemshop button effect off-->
+  <GLOBAL_EFFECT geId = "25" triggerType = "action" triggerNum = "0" nFrame = "21">
+    <SEQUENCE sqId = "47" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "21" seqType = "auto" frameIncrease = "true">
+      [177:80'31~197:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <!-- pandora's box button effect on-->
+  <GLOBAL_EFFECT geId = "26" triggerType = "action" triggerNum = "0" nFrame = "10">
+    <SEQUENCE sqId = "46" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "10" seqType = "auto" frameIncrease = "true">
+      [198:80'31!5925~207:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+ <!-- pandora's box button effect off-->
+  <GLOBAL_EFFECT geId = "27" triggerType = "action" triggerNum = "0" nFrame = "21">
+    <SEQUENCE sqId = "47" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "21" seqType = "auto" frameIncrease = "true">
+      [208:80'31!5925~228:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- lindvior random tel blue-->
+  <GLOBAL_EFFECT geId = "28" triggerType = "packet" triggerNum = "6" nFrame = "7">
+   <SEQUENCE sqId = "48" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "7" seqType = "manual" frameIncrease = "true" fadeStep="1">
+    [229:80'31 229:80'15 229:80'0 229:80'15 229:80'31 229:80'15 229:80'0]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- lindvior random tel2 red-->
+  <GLOBAL_EFFECT geId = "29" triggerType = "packet" triggerNum = "7" nFrame = "7">
+   <SEQUENCE sqId = "49" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "7" seqType = "manual" frameIncrease = "true" fadeStep="1">
+    [230:80'31 230:80'15 230:80'0 230:80'15 230:80'31 230:80'15 230:80'0]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- lindvior random tel2 white-->
+  <GLOBAL_EFFECT geId = "30" triggerType = "packet" triggerNum = "8" nFrame = "7">
+   <SEQUENCE sqId = "50" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "7" seqType = "manual" frameIncrease = "true" fadeStep="1">
+    [231:80'31 231:80'15 231:80'0 231:80'15 231:80'31 231:80'15 231:80'0]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- lindvior random tel2 violet-->
+  <GLOBAL_EFFECT geId = "31" triggerType = "packet" triggerNum = "9" nFrame = "7">
+   <SEQUENCE sqId = "51" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "7" seqType = "manual" frameIncrease = "true" fadeStep="1">
+    [232:80'31 232:80'15 232:80'0 232:80'15 232:80'31 232:80'15 232:80'0]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+    <!-- lindvior weather change -->
+  <GLOBAL_EFFECT geId = "32" triggerType = "action" triggerNum = "8036-20" nFrame = "9">
+    <SEQUENCE sqId = "52" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "53" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "54" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- tencent itemshop button effect on-->
+  <GLOBAL_EFFECT geId = "33" triggerType = "action" triggerNum = "0" nFrame = "19">
+    <SEQUENCE sqId = "55" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "19" seqType = "auto" frameIncrease = "true">
+      [233:80'31~251:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "34" triggerType = "action" triggerNum = "0" nFrame = "13">
+    <SEQUENCE sqId = "56" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "13" seqType = "auto" frameIncrease = "true">
+      [252:80'31~264:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "35" triggerType = "action" triggerNum = "0" nFrame = "18" repeatNum="-1">
+    <SEQUENCE sqId = "58" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [1:500'0 265:120'31 266:120'31 267:120'31 268:120'31 269:120'31 270:120'31 271:120'31 272:120'31 273:120'31 274:120'31 275:120'31 276:120'31 277:120'31 278:120'31 279:120'31 280:120'31 281:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "36" triggerType = "action" triggerNum = "0" nFrame = "20" repeatNum="-1">
+   <SEQUENCE sqId = "59" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "20" seqType = "auto" frameIncrease = "true">
+    [282:80'31~301:80'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "37" triggerType = "action" triggerNum = "0" nFrame = "20" repeatNum="1">
+   <SEQUENCE sqId = "60" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "20" seqType = "auto" frameIncrease = "true">
+    [282:80'31~301:80'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+	<GLOBAL_EFFECT geId = "38" triggerType = "action" triggerNum = "7" nFrame = "7">
+		<SEQUENCE sqId = "61" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "7" seqType = "manual" frameIncrease = "true" fadeStep="1">
+			[302:80'31 302:80'15 302:80'0 302:80'15 302:80'31 302:80'15 302:80'0]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+	<GLOBAL_EFFECT geId = "39" triggerType = "action" triggerNum = "0" nFrame = "24">
+		<SEQUENCE sqId = "62" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+			[303:80'31~326:80'31]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+	<GLOBAL_EFFECT geId = "40" triggerType = "action" triggerNum = "0" nFrame = "9">
+		<SEQUENCE sqId = "63" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "9" seqType = "auto" frameIncrease = "true">
+			[327:80'31~335:80'31]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - Prince [Male]-->
+  <GLOBAL_EFFECT geId = "41" triggerType = "action" triggerNum = "0" nFrame = "53" repeatNum="1">
+    <SEQUENCE sqId = "63" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "53" seqType = "auto" frameIncrease = "true">
+      [714:83'31!1598~766:83'31>42]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "42" triggerType = "action" triggerNum = "0" nFrame = "32" repeatNum="-1">
+    <SEQUENCE sqId = "64" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "32" seqType = "auto" frameIncrease = "true">
+      [767:110'31~798:110'31>42]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - Prince [Female]-->
+  <GLOBAL_EFFECT geId = "43" triggerType = "action" triggerNum = "0" nFrame = "34" repeatNum="1">
+    <SEQUENCE sqId = "65" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "34" seqType = "auto" frameIncrease = "true">
+      [629:83'31!1597~662:83'31>44]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "44" triggerType = "action" triggerNum = "0" nFrame = "48" repeatNum="-1">
+    <SEQUENCE sqId = "66" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "48" seqType = "auto" frameIncrease = "true">
+      [663:83'31~710:83'31>44]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - Knight [Male]-->
+  <GLOBAL_EFFECT geId = "45" triggerType = "action" triggerNum = "0" nFrame = "49" repeatNum="1">
+    <SEQUENCE sqId = "67" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "49" seqType = "auto" frameIncrease = "true">
+      [378:50'31!1602~426:50'31>46]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "46" triggerType = "action" triggerNum = "0" nFrame = "22">
+    <SEQUENCE sqId = "68" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "22" seqType = "auto" frameIncrease = "true">
+      [427:83'31~448:83'31>46]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - Knight [Female]-->
+  <GLOBAL_EFFECT geId = "47" triggerType = "action" triggerNum = "0" nFrame = "36" repeatNum="1">
+    <SEQUENCE sqId = "69" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "36" seqType = "auto" frameIncrease = "true">
+      [315:55'31!1601~350:55'31>48]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "48" triggerType = "action" triggerNum = "0" nFrame = "24">
+    <SEQUENCE sqId = "70" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+      [351:83'31~374:83'31>48]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - Elf [Male]-->
+  <GLOBAL_EFFECT geId = "49" triggerType = "action" triggerNum = "0" nFrame = "51" repeatNum="1">
+    <SEQUENCE sqId = "71" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "51" seqType = "auto" frameIncrease = "true">
+      [245:83'31!1596~295:83'31>50]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "50" triggerType = "action" triggerNum = "0" nFrame = "16" repeatNum="-1">
+    <SEQUENCE sqId = "72" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "16" seqType = "auto" frameIncrease = "true">
+      [296:83'31~311:83'31>50]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - Elf [Female]-->
+  <GLOBAL_EFFECT geId = "51" triggerType = "action" triggerNum = "0" nFrame = "56" repeatNum="1">
+    <SEQUENCE sqId = "73" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "56" seqType = "auto" frameIncrease = "true">
+      [166:50'31!1595~221:50'31>52]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "52" triggerType = "action" triggerNum = "0" nFrame = "20" repeatNum="-1">
+    <SEQUENCE sqId = "74" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "20" seqType = "auto" frameIncrease = "true">
+      [222:83'31~241:83'31>52]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - Magician [Male]-->
+  <GLOBAL_EFFECT geId = "53" triggerType = "action" triggerNum = "0" nFrame = "65" repeatNum="1">
+    <SEQUENCE sqId = "75" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "65" seqType = "auto" frameIncrease = "true">
+      [531:55'31!1600~595:55'31>54]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "54" triggerType = "action" triggerNum = "0" nFrame = "30" repeatNum="-1">
+    <SEQUENCE sqId = "76" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "30" seqType = "auto" frameIncrease = "true">
+      [596:55'31~625:55'31>54]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - Magician [Female]-->
+  <GLOBAL_EFFECT geId = "55" triggerType = "action" triggerNum = "0" nFrame = "46" repeatNum="1">
+    <SEQUENCE sqId = "77" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "46" seqType = "auto" frameIncrease = "true">
+      [452:55'31!1599~497:55'31>56]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "56" triggerType = "action" triggerNum = "0" nFrame = "30" repeatNum="-1">
+    <SEQUENCE sqId = "78" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "30" seqType = "auto" frameIncrease = "true">
+      [498:55'31~527:55'31>56]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - DarkElf [Male]-->
+  <GLOBAL_EFFECT geId = "57" triggerType = "action" triggerNum = "0" nFrame = "49" repeatNum="1">
+    <SEQUENCE sqId = "79" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "49" seqType = "auto" frameIncrease = "true">
+      [90:83'31!1604~138:83'31>58]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "58" triggerType = "action" triggerNum = "0" nFrame = "24" repeatNum="-1">
+    <SEQUENCE sqId = "80" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+      [139:83'31~162:83'31>58]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - DarkElf [Female]-->
+  <GLOBAL_EFFECT geId = "59" triggerType = "action" triggerNum = "0" nFrame = "38" repeatNum="1">
+    <SEQUENCE sqId = "81" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "38" seqType = "auto" frameIncrease = "true">
+      [25:83'31!1603~62:83'31>60]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "60" triggerType = "action" triggerNum = "0" nFrame = "24" repeatNum="-1">
+    <SEQUENCE sqId = "82" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+      [63:83'31~86:83'31>60]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - DragonKnight [Male]-->
+  <GLOBAL_EFFECT geId = "61" triggerType = "action" triggerNum = "0" nFrame = "43" repeatNum="1">
+    <SEQUENCE sqId = "83" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "43" seqType = "auto" frameIncrease = "true">
+      [841:75'31!4764~883:75'31>62]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "62" triggerType = "action" triggerNum = "0" nFrame = "22" repeatNum="-1">
+    <SEQUENCE sqId = "84" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "22" seqType = "auto" frameIncrease = "true">
+      [884:83'31~905:83'31>62]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - DragonKnight [Female]-->
+  <GLOBAL_EFFECT geId = "63" triggerType = "action" triggerNum = "0" nFrame = "33" repeatNum="1">
+    <SEQUENCE sqId = "85" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "33" seqType = "auto" frameIncrease = "true">
+      [908:83'31!4765~940:83'31>64]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "64" triggerType = "action" triggerNum = "0" nFrame = "22" repeatNum="-1">
+    <SEQUENCE sqId = "86" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "22" seqType = "auto" frameIncrease = "true">
+      [941:83'31~962:83'31>64]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- Select Scene Animation - Illusionist [Male]-->
+  <GLOBAL_EFFECT geId = "65" triggerType = "action" triggerNum = "0" nFrame = "45" repeatNum="1">
+    <SEQUENCE sqId = "87" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "45" seqType = "auto" frameIncrease = "true">
+      [968:83'31!4766~1012:83'31>66]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "66" triggerType = "action" triggerNum = "0" nFrame = "22" repeatNum="-1">
+    <SEQUENCE sqId = "88" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "22" seqType = "auto" frameIncrease = "true">
+      [1013:83'31~1034:83'31>66]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - Illusionist [Female]-->
+  <GLOBAL_EFFECT geId = "67" triggerType = "action" triggerNum = "0" nFrame = "63" repeatNum="1">
+    <SEQUENCE sqId = "89" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "63" seqType = "auto" frameIncrease = "true">
+      [1039:83'31!4767~1101:83'31>68]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "68" triggerType = "action" triggerNum = "0" nFrame = "24" repeatNum="-1">
+    <SEQUENCE sqId = "90" imgType = "png" attr = "screen" pos = "529,91" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+      [1102:83'31~1125:83'31>68]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "69" triggerType = "action" triggerNum = "0" nFrame = "13">
+    <SEQUENCE sqId = "56" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "13" seqType = "auto" frameIncrease = "true">
+      [336:80'31~348:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- [Taiwan] GotCha Result Congratulation -->
+  <GLOBAL_EFFECT geId = "70" triggerType = "action" triggerNum = "0" nFrame = "10">
+    <SEQUENCE sqId = "91" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "10" seqType = "auto" frameIncrease = "true">
+      [349:120'31!6697~358:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- [Taiwan] GotCha Button Effect -->
+  <GLOBAL_EFFECT geId = "71" triggerType = "action" triggerNum = "0" nFrame = "24">
+    <SEQUENCE sqId = "92" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+      [359:80'31~382:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+    <!-- Select Scene Animation - Warrior [Male]-->
+  <GLOBAL_EFFECT geId = "72" triggerType = "action" triggerNum = "0" nFrame = "64" repeatNum="1">
+    <SEQUENCE sqId = "93" imgType = "png" attr = "screen" pos = "510,91" layerLevel = "onUI" nFrame = "64" seqType = "auto" frameIncrease = "true">
+      [1992:75'31!6779~2055:75'31>73]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "73" triggerType = "action" triggerNum = "0" nFrame = "21" repeatNum="-1">
+    <SEQUENCE sqId = "94" imgType = "png" attr = "screen" pos = "510,91" layerLevel = "onUI" nFrame = "21" seqType = "auto" frameIncrease = "true">
+      [2056:83'31~2076:83'31>73]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Select Scene Animation - Warrior [Female]-->
+  <GLOBAL_EFFECT geId = "74" triggerType = "action" triggerNum = "0" nFrame = "60" repeatNum="1">
+	  <SEQUENCE sqId = "95" imgType = "png" attr = "screen" pos = "510,91" layerLevel = "onUI" nFrame = "60" seqType = "auto" frameIncrease = "true">
+	<!--imageStart : aniDelay 'alpha !sound ~ imageEnd : aniDelay `alpha !sound >next geId-->
+      [1908:83'31!6787~1967:83'31>75]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "75" triggerType = "action" triggerNum = "0" nFrame = "24" repeatNum="-1">
+    <SEQUENCE sqId = "96" imgType = "png" attr = "screen" pos = "510,91" layerLevel = "onUI" nFrame = "24" seqType = "auto" frameIncrease = "true">
+      [1968:83'31~1991:83'31>75]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- [Select Scene] Select Button Effect -->
+  <GLOBAL_EFFECT geId = "76" triggerType = "action" triggerNum = "0" nFrame = "5">
+    <SEQUENCE sqId = "97" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "5" seqType = "auto" frameIncrease = "true">
+      [383:80'31~387:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "77" triggerType = "action" triggerNum = "0" nFrame = "64" repeatNum="1">
+		<SEQUENCE sqId = "98" imgType = "png" attr = "screen" pos = "0,0" layerLevel = "onUI" nFrame = "64" seqType = "auto" frameIncrease = "true">
+      [1992:75'31!6779~2055:75'31>77]
+		</SEQUENCE>
+   </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "78" triggerType = "action" triggerNum = "0" nFrame = "9" repeatNum="-1">
+		<SEQUENCE sqId = "100" imgType = "png" attr = "screen" pos = "510,91" layerLevel = "onUI" nFrame = "9" seqType = "auto" frameIncrease = "true">
+			[2396:80'31~2404:80'31]
+		</SEQUENCE>
+   </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "81" triggerType = "action" triggerNum = "0" nFrame = "9">
+		<SEQUENCE sqId = "99" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "9" seqType = "auto" frameIncrease = "true">
+			[415:80'31~423:80'31]
+		</SEQUENCE>
+    </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "82" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "111" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:500'31 10:100'29 10:100'27 10:100'25 10:100'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+   </GLOBAL_EFFECT>
+
+	<!-- sihon clear eff -->
+  <GLOBAL_EFFECT geId = "83" triggerType = "action" triggerNum = "12771-8" nFrame = "9">
+     <SEQUENCE sqId = "101" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [121:150'31~129:150'31>84]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "84" triggerType = "action" triggerNum = "0" nFrame = "8" repeatNum="6">
+     <SEQUENCE sqId = "102" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "8" seqType = "auto" frameIncrease = "true">
+    [128:150'31~135:150'31>85]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "85" triggerType = "action" triggerNum = "0" nFrame = "12">
+     <SEQUENCE sqId = "103" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "12" seqType = "auto" frameIncrease = "true">
+    [130:200'31~141:200'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- sihon mamgma eff -->
+  <GLOBAL_EFFECT geId = "86" triggerType = "action" triggerNum = "12774-8" nFrame = "21">
+   <SEQUENCE sqId = "104" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true" fade="true" fadeStep="2">
+    [100:70'0~120:70'31>87]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "87" triggerType = "action" triggerNum = "0" nFrame = "21" repeatNum="8">
+   <SEQUENCE sqId = "105" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true">
+    [100:70'31~120:70'31>88]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "88" triggerType = "action" triggerNum = "0" nFrame = "21">
+   <SEQUENCE sqId = "106" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true" fade="true" fadeStep="-2">
+    [100:70'31~120:70'0]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- sihon lighting eff -->
+  <GLOBAL_EFFECT geId = "89" triggerType = "action" triggerNum = "12775-8" nFrame = "17">
+    <SEQUENCE sqId = "107" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "17" seqType = "manual">
+      [10:20'15 10:20'16 10:30'17 10:30'18 10:40'19 10:40'20 10:50'21 10:50'22 10:50'23 10:50'24 10:50'25 10:60'26 10:60'27 10:80'28 10:90'29 10:100'30 10:150'31>90]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "90" triggerType = "action" nFrame = "9"  repeatNum="1">
+    <SEQUENCE sqId = "108" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:25!34~9:25>91]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "91" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "109" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:50'31 10:60'29 10:70'27 10:80'25 10:90'23 10:100'21 10:100'19 10:150'17 10:200'15]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- sihon rain eff -->
+  <GLOBAL_EFFECT geId = "92" triggerType = "action" triggerNum = "12776-8" nFrame = "20" repeatNum="-1">
+     <SEQUENCE sqId = "110" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "20" seqType = "auto" frameIncrease = "true">
+    [147:100'31~166:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "93" triggerType = "action" triggerNum = "0" nFrame = "8">
+		<SEQUENCE sqId = "93" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "8" seqType = "auto" frameIncrease = "true">
+			[424:130'31~431:130'31]
+		</SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- HPMPBarUI Pvp On Effect -->
+  <GLOBAL_EFFECT geId = "94" triggerType = "action" triggerNum = "0" nFrame = "18">
+		<SEQUENCE sqId = "94" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "18" seqType = "auto" frameIncrease = "true">
+			[10505:130'31~10522:130'31]
+		</SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!-- HPMPBarUI Damaged Effect -->
+  <GLOBAL_EFFECT geId = "95" triggerType = "action" triggerNum = "0" nFrame = "15">
+		<SEQUENCE sqId = "95" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "15" seqType = "auto" frameIncrease = "true">
+			[10523:130'31~10537:130'31]
+		</SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--quest start eff -->
+  <GLOBAL_EFFECT geId = "96" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "96" imgType = "gePng" attr = "screen" pos = "100,100" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [432:100~438:100]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "97" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "97" imgType = "gePng" attr = "screen" pos = "100,100" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [439:100'31~445:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+<!--quest progress eff -->
+  <GLOBAL_EFFECT geId = "98" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "98" imgType = "gePng" attr = "screen" pos = "200,200" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [446:100~452:100]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "99" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "99" imgType = "gePng" attr = "screen" pos = "200,200" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [453:100'31~459:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+<!--quest end eff -->
+  <GLOBAL_EFFECT geId = "100" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "100" imgType = "gePng" attr = "screen" pos = "300,300" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [460:100~466:100]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "101" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "101" imgType = "gePng" attr = "screen" pos = "300,300" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [467:100'31~473:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--icon highlight eff -->
+  <GLOBAL_EFFECT geId = "102" triggerType = "action" nFrame = "5" repeatNum="3">
+     <SEQUENCE sqId = "102" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "400,400" nFrame = "5" seqType = "auto" frameIncrease = "true">
+    [474:100'31~478:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--drag mouse eff -->
+  <GLOBAL_EFFECT geId = "103" triggerType = "action" nFrame = "9" repeatNum="3">
+     <SEQUENCE sqId = "103" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [479:170>104~487:170]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "104" triggerType = "action" nFrame = "9" repeatNum="1">
+     <SEQUENCE sqId = "104" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [488:170'31~496:170'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--item highlight eff-->
+  <GLOBAL_EFFECT geId = "105" triggerType = "action" nFrame = "5" repeatNum="3">
+     <SEQUENCE sqId = "105" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "400,400" nFrame = "5" seqType = "auto" frameIncrease = "true">
+    [474:160'31~478:160'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--double click mouse eff -->
+  <GLOBAL_EFFECT geId = "106" triggerType = "action" nFrame = "5" repeatNum="3">
+     <SEQUENCE sqId = "106" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "5" seqType = "auto" frameIncrease = "true">
+    [497:160>107~501:160]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "107" triggerType = "action" nFrame = "5" repeatNum="1">
+     <SEQUENCE sqId = "107" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "5" seqType = "auto" frameIncrease = "true">
+    [502:160'31~506:160'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+    <!--double click mouse eff -->
+  <GLOBAL_EFFECT geId = "108" triggerType = "action" nFrame = "5" repeatNum="3">
+     <SEQUENCE sqId = "108" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "5" seqType = "auto" frameIncrease = "true">
+    [507:120>109~511:120]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "109" triggerType = "action" nFrame = "5" repeatNum="1">
+     <SEQUENCE sqId = "109" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "5" seqType = "auto" frameIncrease = "true">
+    [512:120'31~516:120'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+    <!--drag mouse eff -->
+  <GLOBAL_EFFECT geId = "110" triggerType = "action" nFrame = "9" repeatNum="3">
+     <SEQUENCE sqId = "110" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [517:100>111~525:100]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "111" triggerType = "action" nFrame = "9" repeatNum="1">
+     <SEQUENCE sqId = "111" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "500,500" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [526:100'31~534:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote effect loop gray-->
+   <GLOBAL_EFFECT geId = "112" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "112" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [571:100'20~582:100'20]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote effect loop green-->
+   <GLOBAL_EFFECT geId = "113" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "113" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [535:100'31~546:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote effect loop blue-->
+   <GLOBAL_EFFECT geId = "114" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "114" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [547:100'31~558:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+   <!--magic doll promote effect loop red-->
+  <GLOBAL_EFFECT geId = "115" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "115" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [559:100'31~570:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote roulette hit-->
+  <GLOBAL_EFFECT geId = "116" triggerType = "action" nFrame = "3" repeatNum="1">
+     <SEQUENCE sqId = "116" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="3" seqType = "auto" frameIncrease = "true">
+    [583:100'31~585:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote blink effect gray-->
+  <GLOBAL_EFFECT geId = "118" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "118" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="7" seqType = "auto" frameIncrease = "true">
+    [619:200'20~625:200'20]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+    <!--magic doll promote blink effect green-->
+  <GLOBAL_EFFECT geId = "119" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "119" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="7" seqType = "auto" frameIncrease = "true">
+    [605:200'31~611:200'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote blink effect blue-->
+  <GLOBAL_EFFECT geId = "120" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "120" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="7" seqType = "auto" frameIncrease = "true">
+    [598:200'31~604:200'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote blink effect red-->
+  <GLOBAL_EFFECT geId = "121" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "121" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="7" seqType = "auto" frameIncrease = "true">
+    [612:200'31~618:200'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+   <!--magic doll promote success effect green-->
+  <GLOBAL_EFFECT geId = "122" triggerType = "action" nFrame = "12" repeatNum="1">
+     <SEQUENCE sqId = "122" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [626:100'31~637:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote success effect blue-->
+  <GLOBAL_EFFECT geId = "123" triggerType = "action" nFrame = "12" repeatNum="1">
+     <SEQUENCE sqId = "123" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [638:100'31~649:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote success effect red-->
+  <GLOBAL_EFFECT geId = "124" triggerType = "action" nFrame = "12" repeatNum="1">
+     <SEQUENCE sqId = "124" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [650:100'31~661:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote success effect violet-->
+  <GLOBAL_EFFECT geId = "125" triggerType = "action" nFrame = "12" repeatNum="1">
+     <SEQUENCE sqId = "125" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [662:100'31~673:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote success effect violet-->
+  <GLOBAL_EFFECT geId = "126" triggerType = "action" nFrame = "12" repeatNum="1">
+     <SEQUENCE sqId = "126" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [662:100'31~673:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--magic doll promote prob up effect x3-->
+  <GLOBAL_EFFECT geId = "127" triggerType = "action" nFrame = "11" repeatNum="1">
+     <SEQUENCE sqId = "127" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="11" seqType = "auto" frameIncrease = "true">
+    [674:100'31~684:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!--magic doll promote prob up effect x6-->
+  <GLOBAL_EFFECT geId = "129" triggerType = "action" nFrame = "11" repeatNum="1">
+     <SEQUENCE sqId = "129" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="11" seqType = "auto" frameIncrease = "true">
+    [696:100'31~706:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "131" triggerType = "action" nFrame = "12" repeatNum="1">
+     <SEQUENCE sqId = "131" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [720:120'31!34~731:120'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "132" triggerType = "packet" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "132" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [744:200'16~755:200'16]
+   </SEQUENCE>
+   </GLOBAL_EFFECT>
+   <GLOBAL_EFFECT geId = "133" triggerType = "packet" nFrame = "16" repeatNum="10">
+     <SEQUENCE sqId = "133" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="16" seqType = "auto" frameIncrease = "true">
+    [757:100'16~772:100'16]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <!--maic doll hyper loop effect-->
+   <GLOBAL_EFFECT geId = "134" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "134" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [571:100'20~582:100'20>135]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+   <GLOBAL_EFFECT geId = "135" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "135" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [535:100'31~546:100'31>134]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "136" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "136" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [535:100'31~546:100'31>137]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+   <GLOBAL_EFFECT geId = "137" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "137" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [547:100'31~558:100'31>136]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "138" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "138" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [547:100'31~558:100'31>139]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "139" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "139" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [559:100'31~570:100'31>138]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+    <GLOBAL_EFFECT geId = "140" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "140" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [559:100'31~570:100'31>141]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+    <GLOBAL_EFFECT geId = "141" triggerType = "action" nFrame = "12" repeatNum="-1">
+     <SEQUENCE sqId = "141" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="12" seqType = "auto" frameIncrease = "true">
+    [773:100'31~784:100'31>140]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <GLOBAL_EFFECT geId = "142" triggerType = "action" triggerNum = "0" nFrame = "15">
+	<SEQUENCE sqId = "142" imgType = "png" attr = "multi" layerLevel = "onUI" pos = "0,0" nFrame="15" seqType = "auto" frameIncrease = "true">
+    [12042:100'31~12056:100'31]
+   </SEQUENCE>
+    <SEQUENCE sqId = "143" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame="15" seqType = "auto" frameIncrease = "true">
+    [785:100'31~799:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- High Level Ranker Upping Effect Green -->
+  <GLOBAL_EFFECT geId = "143" triggerType = "action" triggerNum = "0" nFrame = "10">
+    <SEQUENCE sqId = "143" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "10" seqType = "auto" frameIncrease = "true">
+      [806:120'31~815:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- High Level Ranker 1 Star Effect -->
+  <GLOBAL_EFFECT geId = "144" triggerType = "action" triggerNum = "0" nFrame = "16">
+    <SEQUENCE sqId = "144" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "16" seqType = "auto" frameIncrease = "true">
+      [836:100'31~851:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- High Level Ranker 2 Star Effect -->
+  <GLOBAL_EFFECT geId = "145" triggerType = "action" triggerNum = "0" nFrame = "16">
+    <SEQUENCE sqId = "145" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "16" seqType = "auto" frameIncrease = "true">
+      [852:100'31~867:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- High Level Ranker 3 Star Effect -->
+  <GLOBAL_EFFECT geId = "146" triggerType = "action" triggerNum = "0" nFrame = "16">
+    <SEQUENCE sqId = "146" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "16" seqType = "auto" frameIncrease = "true">
+      [868:100'31~883:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- High Level Ranker 4 Star Effect -->
+  <GLOBAL_EFFECT geId = "147" triggerType = "action" triggerNum = "0" nFrame = "16">
+    <SEQUENCE sqId = "147" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "16" seqType = "auto" frameIncrease = "true">
+      [884:100'31~899:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- PK Mode On Effect -->
+  <GLOBAL_EFFECT geId = "148" triggerType = "action" triggerNum = "0" nFrame = "31">
+    <SEQUENCE sqId = "148" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "31" seqType = "auto" frameIncrease = "true">
+      [1515:100'31~1545:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Minigame Puzzle Success Effect -->
+  <GLOBAL_EFFECT geId = "149" triggerType = "action" triggerNum = "0" nFrame = "14">
+    <SEQUENCE sqId = "149" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "14" seqType = "auto" frameIncrease = "true">
+      [11474:150'31~11487:150'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+   <!-- High Level Ranker Upping Effect Red -->
+  <GLOBAL_EFFECT geId = "150" triggerType = "action" triggerNum = "0" nFrame = "10">
+    <SEQUENCE sqId = "150" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "10" seqType = "auto" frameIncrease = "true">
+      [900:120'31~909:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+	<!-- First ComboTime Effect -->
+	<GLOBAL_EFFECT geId = "151" triggerType = "action" triggerNum = "0" nFrame = "6">
+		<SEQUENCE sqId = "151" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "6" seqType = "auto" frameIncrease = "true">
+			[11735:120'31~11740:120'31]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+	<!-- Event Alarm Effect -->
+	<GLOBAL_EFFECT geId = "152" triggerType = "action" triggerNum = "0" nFrame = "19">
+		<SEQUENCE sqId = "152" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "19" seqType = "auto" frameIncrease = "true">
+			[12076:120'31~12094:120'31]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+    <!-- Tutorial Effect -->
+	<GLOBAL_EFFECT geId = "153" triggerType = "action" triggerNum = "0" nFrame = "17">
+		<SEQUENCE sqId = "153" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "17" seqType = "auto" frameIncrease = "true">
+			[265:120'31~281:120'31]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "154" triggerType = "action" triggerNum = "14299-0" nFrame = "23">
+    <SEQUENCE sqId = "154" imgType = "gePng" attr = "multi" pos = "0,0" nFrame = "23" seqType = "auto" frameIncrease = "true">
+      [910:50!5360~932:50]
+    </SEQUENCE>
+	</GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "155" triggerType = "action" triggerNum = "14300-0" nFrame = "39">
+    <SEQUENCE sqId = "154" imgType = "gePng" attr = "multi" pos = "0,0" nFrame = "39" seqType = "auto" frameIncrease = "true">
+      [933:50!5360~971:50]
+    </SEQUENCE>
+	</GLOBAL_EFFECT>
+	
+	<!-- MonsterDex Alarm Effect Dummy-->
+	<GLOBAL_EFFECT geId = "156" triggerType = "action" triggerNum = "0" nFrame = "19">
+		<SEQUENCE sqId = "156" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "19" seqType = "auto" frameIncrease = "true">
+			[12057:120'31~12075:120'31]
+		</SEQUENCE>
+	</GLOBAL_EFFECT>
+
+<!-- cl rain effect -->
+  <GLOBAL_EFFECT geId = "157" triggerType = "action" triggerNum = "3" nFrame = "20" repeatNum="10">
+     <SEQUENCE sqId = "157" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "20" seqType = "auto" frameIncrease = "true">
+    [147:100'31~166:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+<!-- cl thunder effect -->
+  <GLOBAL_EFFECT geId = "158" triggerType = "action" triggerNum = "0" nFrame = "9">
+    <SEQUENCE sqId = "158" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "159" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31~9:80'31]
+    </SEQUENCE>
+
+    <SEQUENCE sqId = "160" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31~9:80'31]
+    </SEQUENCE>
+
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "161" triggerType = "action" nFrame = "7" repeatNum="1">
+   <SEQUENCE sqId = "161" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [432:100~438:100]
+   </SEQUENCE>
+
+   <SEQUENCE sqId = "162" imgType = "gePng" attr = "screen" layerLevel = "onUI" nFrame = "7" seqType = "auto" frameIncrease = "true">
+    [439:100'31~445:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+    
+  <GLOBAL_EFFECT geId = "163" triggerType = "action" triggerNum = "0" nFrame = "30">
+    <SEQUENCE sqId = "163" imgType = "gePng" attr = "multi" layerLevel = "onUI" pos = "0,344" nFrame="30" seqType = "auto" frameIncrease = "true">
+    [972:130'31!7396~1001:130'31>165]
+   </SEQUENCE>
+   <SEQUENCE sqId = "164" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,344" nFrame="30" seqType = "auto" frameIncrease = "true">
+    [1002:130'31~1031:130'31>165]
+   </SEQUENCE>
+   </GLOBAL_EFFECT>
+   
+   <GLOBAL_EFFECT geId = "164" triggerType = "action" triggerNum = "0" nFrame = "43">
+    <SEQUENCE sqId = "164" imgType = "gePng" attr = "multi" layerLevel = "onUI" pos = "0,344" nFrame="43" seqType = "auto" frameIncrease = "true">
+    [1032:130'31!7397~1074:130'31]
+   </SEQUENCE>
+   <SEQUENCE sqId = "165" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,344" nFrame="43" seqType = "auto" frameIncrease = "true">
+    [1075:130'31~1117:130'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "165" triggerType = "action" triggerNum = "0" nFrame = "10">
+    <SEQUENCE sqId = "165" imgType = "gePng" attr = "multi" layerLevel = "onUI" pos = "0,344" nFrame="10" seqType = "auto" frameIncrease = "true">
+    [1118:130'31~1127:130'31]
+   </SEQUENCE>
+   <SEQUENCE sqId = "166" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,344" nFrame="10" seqType = "auto" frameIncrease = "true">
+    [1128:130'31~1137:130'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+   <!-- Lineage Tournament Duel -->
+  <GLOBAL_EFFECT geId = "166" triggerType = "action" triggerNum = "0" nFrame = "40">
+	<SEQUENCE sqId = "166" imgType = "png" attr = "multi" layerLevel = "onUI" pos = "0,344" nFrame = "40" seqType = "auto" frameIncrease = "true">
+      [12762:120'31!7452~12801:120'31]
+    </SEQUENCE>
+	<SEQUENCE sqId = "167" imgType = "png" attr = "screen" layerLevel = "onUI" pos = "0,344" nFrame = "40" seqType = "auto" frameIncrease = "true">
+      [12802:120'31~12841:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+	<!-- Lineage Tournament Start -->
+  <GLOBAL_EFFECT geId = "167" triggerType = "action" triggerNum = "0" nFrame = "40">
+	<SEQUENCE sqId = "167" imgType = "png" attr = "multi" layerLevel = "onUI" pos = "0,344" nFrame = "40" seqType = "auto" frameIncrease = "true">
+      [12842:120'31!7453~12881:120'31]
+    </SEQUENCE>
+	<SEQUENCE sqId = "168" imgType = "png" attr = "screen" layerLevel = "onUI" pos = "0,344" nFrame = "40" seqType = "auto" frameIncrease = "true">
+      [12882:120'31~12921:120'31]
+    </SEQUENCE>	
+  </GLOBAL_EFFECT>
+  
+  <!-- Event Alarm Effect -->
+  
+  <GLOBAL_EFFECT geId = "168" triggerType = "action" triggerNum = "0" nFrame = "40">
+    <SEQUENCE sqId = "168" imgType = "gePng" attr = "multi" layerLevel = "onUI" pos = "0,344" nFrame="40" seqType = "auto" frameIncrease = "true">
+    [1298:130'31!7455~1337:130'31]
+   </SEQUENCE>
+   <SEQUENCE sqId = "169" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,344" nFrame="40" seqType = "auto" frameIncrease = "true">
+    [1338:130'31~1377:130'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <!-- Lito Consecutive Win -->
+  <GLOBAL_EFFECT geId = "171" triggerType = "action" triggerNum = "0" nFrame = "21">
+    <SEQUENCE sqId = "171" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame = "21" seqType = "auto" frameIncrease = "true">
+      [1466:120'31~1486:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <!-- Craft Progress Effect -->
+  <GLOBAL_EFFECT geId = "172" triggerType = "action" triggerNum = "0" nFrame = "8">
+    <SEQUENCE sqId = "172" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame = "8" seqType = "auto" frameIncrease = "true">
+      [1487:120'31~1494:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Craft Success Effect -->
+  <GLOBAL_EFFECT geId = "173" triggerType = "action" triggerNum = "0" nFrame = "14">
+    <SEQUENCE sqId = "173" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame = "14" seqType = "auto" frameIncrease = "true">
+      [1495:120'31~1508:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  <!-- Craft Fail Effect -->
+  <GLOBAL_EFFECT geId = "174" triggerType = "action" triggerNum = "0" nFrame = "14">
+    <SEQUENCE sqId = "174" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame = "14" seqType = "auto" frameIncrease = "true">
+      [1509:120'31~1522:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>  
+
+   <GLOBAL_EFFECT geId = "175" triggerType = "action" triggerNum = "0" nFrame = "31">
+    <SEQUENCE sqId = "175" imgType = "png" attr = "multi" pos = "0,0" nFrame = "31" seqType = "auto" frameIncrease = "true">
+      [14836:90'31~14866:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>  
+  
+  <GLOBAL_EFFECT geId = "176" triggerType = "action" triggerNum = "0" nFrame = "51">
+    <SEQUENCE sqId = "176" imgType = "png" attr = "multi" layerLevel = "onUI" pos = "0,0" nFrame="51" seqType = "auto" frameIncrease = "true">
+    [15310:50'31!7657~15360:50'31>175]
+   </SEQUENCE>
+   <SEQUENCE sqId = "177" imgType = "png" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame="51" seqType = "auto" frameIncrease = "true">
+    [15361:50'31~15411:50'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "177" triggerType = "action" triggerNum = "0" nFrame = "17">
+	<SEQUENCE sqId = "178" imgType = "gePng" attr = "multi" layerLevel = "onUI" pos = "0,0" nFrame = "17" seqType = "auto" frameIncrease = "true">
+    [1:500'0!7658 15935:120'31 15936:120'31 15937:120'31 15938:120'31 15939:120'31 15940:120'31 15941:120'31 15942:120'31 15943:120'31 15944:120'31 15945:120'31 15946:120'31 15947:120'31 15948:120'31 15949:120'31 15950:120'31 15951:120'31]
+   </SEQUENCE>
+    <SEQUENCE sqId = "179" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame = "17" seqType = "auto" frameIncrease = "true">
+    [1:500'0 15952:120'31 15953:120'31 15954:120'31 15955:120'31 15956:120'31 15957:120'31 15958:120'31 15959:120'31 15960:120'31 15961:120'31 15962:120'31 15963:120'31 15964:120'31 15965:120'31 15966:120'31 15967:120'31 15968:120'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "178" triggerType = "packet" triggerNum = "10" nFrame = "9">
+    <SEQUENCE sqId = "5" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:2000'31 10:100'29 10:100'27 10:100'25 10:100'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "179" triggerType = "action" triggerNum = "0" nFrame = "14">
+    <SEQUENCE sqId = "180" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "14" seqType = "auto" frameIncrease = "true">
+      [15563:100'31~15576:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "180" triggerType = "action" triggerNum = "0" nFrame = "18">
+    <SEQUENCE sqId = "181" imgType = "png" attr = "screen" layerLevel = "onUI" nFrame = "18" seqType = "manual" frameIncrease = "true">
+      [15577:100'31~15594:100'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "181" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "182" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:40'31 10:50'29 10:60'27 10:70'25 10:80'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "182" triggerType = "action" nFrame = "19">
+    <SEQUENCE sqId = "183" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "19" seqType = "manual">
+      [10:50'31 10:50'29 10:50'27 10:50'25 10:50'23 10:50'21 10:50'19 10:50'17 10:50'15 10:50'0 10:200'31 10:100'29 10:100'27 10:100'25 10:100'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+    
+  </GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "183" triggerType = "action" triggerNum = "8054-20" nFrame = "9">
+    <SEQUENCE sqId = "187" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>185]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "184" triggerType = "action" nFrame = "17">
+    <SEQUENCE sqId = "188" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "17" seqType = "manual">
+      [10:30'15 10:30'16 10:30'17 10:40'18 10:40'19 10:40'20 10:50'21 10:50'22 10:50'23 10:50'24 10:60'25 10:60'26 10:60'27 10:60'28 10:70'29 10:70'30 10:500'31>185]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "185" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "189" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:25!34~9:25>186]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "186" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "190" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:500'31 10:100'29 10:100'27 10:100'25 10:100'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <GLOBAL_EFFECT geId = "187" triggerType = "action" triggerNum = "0" nFrame = "39">
+	<SEQUENCE sqId = "191" imgType = "png" attr = "multi" layerLevel = "onUI" pos = "0,338" nFrame = "39" seqType = "auto" frameIncrease = "true">
+      [17020:120'31!7943~17058:120'31]
+    </SEQUENCE>
+	<SEQUENCE sqId = "192" imgType = "png" attr = "screen" layerLevel = "onUI" pos = "0,338" nFrame = "39" seqType = "auto" frameIncrease = "true">
+      [17059:120'31~17097:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "188" triggerType = "action" nFrame = "12" repeatNum="3">
+	<SEQUENCE sqId = "193" imgType = "png" attr = "screen" layerLevel = "onUI" pos = "0,0" nFrame = "12" seqType = "auto" frameIncrease = "true">
+      [17175:120'31~17186:120'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <!--magic doll promote blink violet-->
+  <GLOBAL_EFFECT geId = "189" triggerType = "action" nFrame = "7" repeatNum="-1">
+     <SEQUENCE sqId = "121" imgType = "gePng" attr = "screen" layerLevel = "onControl" pos = "0,0" nFrame="7" seqType = "auto" frameIncrease = "true">
+    [1535:200'31~1541:200'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+<!-- instance dungeon rain effect -->
+  <GLOBAL_EFFECT geId = "190" triggerType = "packet" triggerNum = "11" nFrame = "20" repeatNum="-1">
+     <SEQUENCE sqId = "45" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "20" seqType = "auto" frameIncrease = "true">
+    [147:100'31~166:100'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+</Global_Effect_Configulation>

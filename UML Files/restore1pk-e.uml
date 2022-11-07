@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>神は…あなたに人を傷つけたことを心から悔いる心があるのならば…あなたをお許しになるでしょう…</p>
+		<p>そしてあなたからの寄付金は、これまであなたが傷つけた人々のために使われるでしょう。</p>
+		<p><a link="helppk">贖罪について</a></p>
+		<p><a action="pk">贖罪する</a>	</p>
+	</dialog>
+	
+</npcdialog>

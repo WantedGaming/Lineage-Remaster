@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>Keplisha</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>机上の空論、砂上の楼閣が如し。もっと強くなりたいのなら、レベルアップのためにモンスター狩りに邁進しましょう。<br/><br/></p>
+	<p>努力せずに棚ぼたを期待するのは大間違いです。考えてばかりいずに、まずは行動しましょう。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		 あの<font fg="ffffff">レース</font>のお陰で破産して廃人になっちまったヤツは一人や二人じゃないんだぜ！<br/>
+		 あれのせいで、ギラン城下町はめちゃくちゃになっちまった…<br/>
+		 今はもうないから、せいせいしてるけどな！<br/>
+		</p>
+		
+	</dialog>
+</npcdialog>

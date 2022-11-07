@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>つまらないことにこだわって大きな獲物を逃す一日となるでしょう。ギルタスのソードを得るべく異界の支配者ギルタスに襲い掛かるが、命を奪われる破目に。<br/><br/></p>
+	<p>欲の張りすぎは災いを招きます。余裕を持ちましょう。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

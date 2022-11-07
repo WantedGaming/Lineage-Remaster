@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの召使</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>グルル…堕落した霊魂よ！</p>
+		<p>お前の進む道が邪悪な気で満ちることを願って…</p>
+		<p></p>
+		<p><a action="2">2階に送ってください</a></p>
+		<p><a action="3">3階に送ってください</a></p>
+		<p><a action="4">神殿に送ってください</a></p>
+	</dialog>
+
+</npcdialog>

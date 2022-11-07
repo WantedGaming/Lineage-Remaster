@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Ancient Giant General</name>
+  </npc>
+  <dialog>
+    <p>It's a curse that causes the life force to age, eyes that can't tell things apart, skin like sand, and a body as skinny as a dead tree.</p>
+    <p>This is the abominable curse that was placed on those of us who stood against Grand Cain.</p>
+    <p><a link="aggeneral3">Is there any way to prevent Grand Cain's curse?</a><br/><br/><br/></p>
+    <p><img src="331" link="aggeneral1"/><br/></p>
+  </dialog>
+</npcdialog>

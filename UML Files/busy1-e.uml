@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>訓練副官</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> 今はあなたと話している暇はありません。少々問題が立て込んでいるんです。<br/>
+		<br/>
+		 申し訳ないですが、しばらくしてからまた来てくれますか？<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ハイネのダンジョン3階では、毒攻撃が特技のラミアもかなり多く出てくるそうです。また、ここを通ると4階の水中ダンジョンに入る入口もあるので、よく探してみてください。<br/>
+		 ここでは<font fg="ffafff">エヴァ王国の悪霊</font>、<font fg="ffafff">呪われたラットマン</font>、<font fg="ffafff">呪われたリザードマン</font>、<font fg="ffafff">呪われたラミア</font>、<font fg="ffafff">呪われた水の大精霊</font>が出てくるそうです。
+		 ほとんどが先制攻撃をしかけてくるやつだから気をつけてください。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

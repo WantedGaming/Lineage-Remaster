@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>君主魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">コマンド ヘルプ：君主魔法</font><br/></p>
+	<p><a link="helpmgcp0">▽一般</a><br/></p>
+	<p><a link="helpmgcp1">▽レベル1-君主魔法</a><br/></p>
+	<p><a link="helpmgcp2">▽レベル2-君主魔法</a><br/></p>
+	<p><a link="helpmgcp3">▽特殊-君主魔法</a><br/></p>
+	<p><a link="helpmgcp11">▽その他</a><br/></p>
+
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

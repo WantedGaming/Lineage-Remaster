@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>…我らはエルフの日差しに遮られた影法師のような存在…<br/></p>
+	<p>あなたを見ていると、我々一族の暗い部分が浮き出てしまうのではという思いがするわ…。</p> 
+  </dialog>
+</npcdialog>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゾード</name>
+		<job>[古代品商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+    <p>俺らは何者かって？</p>
+		<p>そんなことまであんたに言わなきゃならない義理はないぜ。</p>
+		<p>知らぬが仏って言葉もあるじゃないか。 </p>
+		<p><br/>ふむ…
+		</p><p>俺の口からは言えないが、</p>
+		<p>他の奴らはどうだろうな。案外口の軽いやつらもいるからなぁ。</p>
+		<p><br/><br/>
+		<img src="331" link="jode">
+		
+		</p>
+	</dialog>
+</npcdialog>

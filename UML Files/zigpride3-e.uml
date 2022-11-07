@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジークフリード</name>
+	</npc>
+	<dialog>
+		<p>ついに！この日を待ち望んでいた！<br/>
+		<br/>
+		さあ、ギルタスを倒しに行く準備はできたか？<br/>
+		<br/>
+		どうか、ギルタスを倒しアデンに平和を！<br/>
+		<br/>
+		<br/>
+		<a action="b">ラスタバドの村に移動する</a></p>
+	</dialog>
+</npcdialog>

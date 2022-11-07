@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Ancient Giant Elder</name>
+  </npc>
+  <dialog>
+    <p>I have been waiting for someone like you to come along for a long time...</p>
+    <p>We believe that you will destroy the demon tribe and free our trapped souls...</p>
+    <p><a link="agelder2">Why is your soul trapped?</a></p>
+  </dialog>
+</npcdialog>

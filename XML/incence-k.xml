@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>Caison</name>
+    <job>[ Trainee Weapon Armor Vendor ]</job>
+    <text>Sell</text>
+  </npc>
+  <dialog>
+    <p>I have nothing to trade with you.</p>
+    <p>Come back later.</p>
+  </dialog>
+</npcdialog>

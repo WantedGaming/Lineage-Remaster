@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>祭壇</name>
+  </npc>
+  <dialog>
+   <p> 封印されたソルシャイカの遺品、</p>
+   <p> ケンラウヘルのゴールデン スティック、</p>
+   <p> カラーの花束が必要です。<br/><br/><br/></p>
+   <p> <a action="N">遺品の封印を解く</a></p>
+   <p> <a link="altar1">他の者たちの魂を慰める</a></p>
+  </dialog>
+</npcdialog>

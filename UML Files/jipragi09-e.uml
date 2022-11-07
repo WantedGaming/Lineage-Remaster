@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffffaf">レベル45以上</font>の者だけが入れるぞ。<br/><br/>
+		 モンスターどもが危ないから、安全の保証ができなくてな。<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

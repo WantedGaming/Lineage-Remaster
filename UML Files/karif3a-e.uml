@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">Karif：</font>
+<br/><br/>
+ふむ、材料をちゃんと手に入れてきたか？何が欲しいんだ？<br/><br/>
+<a action="request craft">伝説の武器の製作を依頼する</a><br/><br/>
+<a link="karif9b">宝石を持って来ました</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p> 昔この村一番の金持ちが誰だったか知ってる？アルフォンスっていう人だったんだけど、ギャンブルに入れ込んじゃって、家屋敷食いつぶしてどっかに行っちゃったらしいわよ。今はどうしてるんでしょうねぇ？<br/>
+ 金は天下の回り物って、ああいうことを言うのかしらね。
+		</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>Oran Buffett</name>
+		<job>[19th Anniversary Event Merchant]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>Welcome.<br/>
+		<br/>
+		To celebrate the 19th Anniversary of Aden, the King has prepared <font fg="ffffaf">a gift.</font><br/>
+		But last night, not only did bandits steal all our gifts, but the seasons changed...<br/>
+		Luckily, the Wizards of the Ivory Tower cast a spell on me to keep the Light of the Gift from disappearing.<br/>
+		<br/>
+		<font fg="ffffaf">Eliminate Bandits</font>in the Mysterious Seasonal Forest.
+		Find the gift that <font fg="ffffaf">lost it's Light</font> for me.<br/>
+		<br/>
+		The gifts that have <font fg="ffffaf">lost it's Light</font>can regain it by using the Golden Key or the Silver Key.<br/>
+		<br/>
+		<br/>
+		Elimate the Bandits in Mysterious Seasonal Forest and get <font fg="ffffaf">100 19th Anniversary Coins</font>as evidence.<br/>
+		Visit Lord Taras and he'll give you a worthy reward.<br/>
+		<br/>
+		Well then, I wish you the best of luck.<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="non_npc buy"/></panel>
+	</dialog>
+</npcdialog>

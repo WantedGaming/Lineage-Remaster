@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+   <npc>
+    <name>ヘン ベリー</name>
+    <job>ベリー商人</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+      <button action="sell"/>
+    </panel>
+    <p align="left"><font fg="ffffff"><name/>：</font></p>
+    <p><br/>今日はいいのが釣れましたか？<br/></p>
+	<p>最近ここで<font fg="ffafff">ベリアナ</font>がよく釣れると聞きますね。<br/><br/></p>
+	<p>私は他の方が釣ったものを買っていますが、性格的に待つのがイヤなので、買っちゃったほうが早くていいんですよ。へへっ。<br/><br/></p>
+	<p><font fg="ffafff">ベリー</font>と交換できる物が多いので、一度ご覧ください。<br/></p>
+	<p><a link="h_point1">ベリーって何ですか？</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>君はエントについてどう思う？エントは木であるから本来ほとんど話さないが、世の中には言葉で伝えられないことの方が遥かに多い。静かに目を閉じ、彼らのように自然と同化して心で話そうとしてみろ。違った世界を知ることができるから。</p>
+		<p>しかし、君には<a link="theodorE2">エントの枝</a>や<a link="theodorE3">表皮</a>といったすぐに集められるものが必要なんだろう。ただまあ、生きているといろいろと必要なものが出てくるもので、<a link="theodorE4">ネルファ</a>のように高潔な方でも苦労しておられるだろうけど…</p>
+	</dialog>
+
+</npcdialog>

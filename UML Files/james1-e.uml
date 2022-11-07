@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p><a link="james2">銀武器</a> の力を、知ってるかい？銀でできた武器は神秘的な力を持ってるんだとさ。アンデッドモンスターやウェアウルフは、銀の力を恐れるらしい。 
+		</p>
+	</dialog>
+</npcdialog>

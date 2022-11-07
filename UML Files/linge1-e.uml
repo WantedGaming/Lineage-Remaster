@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ウィザード リンジ</name>
+  </npc>
+  <dialog>
+    <p>ようこそ。</p> 
+	<p>オーレンの象牙の塔から派遣されてきた、ウィザードのリンジです。</p>
+    <p><a action="teleportURL"><font fg="fdd3fd">別の村</font>に行きたいです</a></p>
+    <p><a link="guidestart"><font fg="fdd3fd">狩り場案内</font>をお願いします</a></p>
+	</dialog>
+</npcdialog>

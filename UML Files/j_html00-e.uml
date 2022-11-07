@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ユリエ：</font>
+<br/><br/>
+冒険者よ！時間旅行をお望みですか？<br/><br/>
+詳しいことが知りたければ、主席研究員のユキ様からお話を聞いてください。<br/><br/>
+<font fg="ffffaf">寄付金10000Adena</font>と<font fg="ffffaf">時空の玉1個</font>をくだされば、首席研究員の研究室にお送りしましょう。<br/><br/>
+ああそうだ、過去への旅の途中で<font fg="faafff">日記帳の切れ端</font>を手に入れられたら、私までお届けください。<br/><br/>
+<a link="j_html14">時空の玉って何ですか</a><br/><br/>
+<a link="j_html15">日記帳の切れ端…ですか</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>レッサー デーモン</name>
+  </npc>
+  <dialog>
+    <p><username/>取引は簡単かつ明確だ。</p>
+    <p>象牙の塔のヤヒ陣営に隠れている<font fg="ffaaff">コラプトプリースト</font>たちに死をもたらせばいい。</p>	
+    <p>そうすれば、私がそれに見合った報酬として、魔族のみが所有することのできる<font fg="ffaaff">武器</font>を与えよう。</p>
+    <p><a action="request craft">ヴァラカスの屍を渡す</a></p>
+    <p><a link="laryaide3">武器を要求する</a></p>
+    <p><img src="331" link="ldemon1"/></p>
+	</dialog>
+</npcdialog>

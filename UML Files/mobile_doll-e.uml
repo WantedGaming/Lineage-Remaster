@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<dialog>
+		<p align="left"><font fg="ffffff"><var src="name"/>：</font></p>
+		<p><br/><br/>こんにちは。TAMショップのオープン記念にここにやってきました。<br/></p>
+		<p>ここでしか買えないアイテムをお安く販売しておりますよ。<br/></p>
+		<p>どうぞ見ていってください。<br/></p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>君の勇気に感謝する。</p>
+		<p>魔族神殿のどこかにいる諜報員のことを聞いたら、できるだけ早く私に知らせて欲しい。頼んだぞ。</p>
+	</dialog>
+	
+</npcdialog>

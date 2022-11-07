@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>これはこれは。すみません、お客様。</p>
+		<p>このサービスはVIPのお客様のみ使用可能となっています。</p>
+		<p>なお、ネットカフェからでもVIP特典を受けることができますよ。</p>
+		<p>このサービスはVIPのお客様のみ使用可能となっています。<br/></p>
+		<p>VIP特典</p>
+		<p>VIP狩場へ移動</p>
+		<p>VIPバフ魔法</p>
+		<p>VIP専用狩場</p>
+		<p>VIP製作</p>
+		<p>VIP商店<br/></p>
+		<p>VIPになるための方法はホームページで確認してくださいね。</p>
+	</dialog>
+
+</npcdialog>

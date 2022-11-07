@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>結社隊員</name>
+		<job>秘密結社</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		我々は、<font fg="fff00">グンター</font>さまに忠誠を誓う秘密結社です。たとえあなたのような
+		勇猛さは無くても、我々が一丸となって戦えば、恐れるものなどありません！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

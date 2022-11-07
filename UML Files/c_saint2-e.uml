@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ロンダ</name>
+    <job>[ペット霊魂師]</job>
+  </npc>
+  <dialog>
+	<p>Adenaが足りないようですね…すみません、私も生活がかかってるんで…</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

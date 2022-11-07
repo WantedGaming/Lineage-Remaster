@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Dialz</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p><a action="teleport oum-gludin">Gludin Village:<var src="0"/>Adena</a></p>
+		<p><a action="teleport oum-kent">Kent Castle Town:<var src="1"/>Adena</a></p>
+		<p><a action="teleport oum-giran">Giran Castle Town:<var src="2"/>Adena</a></p>
+		<p><a action="teleport oum-aden">Aden:<var src="3"/>Adena</a></p>
+		<p><a action="teleport oum-heine">Heine Castle Town:<var src="4"/>Adena</a></p>
+		<p><a action="teleport oum-oren">Oren Village:<var src="5"/>Adena</a></p>
+		<p><a action="teleport oum-scave">Cave of Silence:<var src="6"/>Adena</a></p>
+		<p><a action="teleport oum-lowful">Lawful Temple:<var src="7"/>Adena</a></p>
+		<p><a action="teleport oum-chaos">Chaotic Temple:<var src="8"/>Adena</a></p>
+		<p>Select where you like to teleport to.</p>
+	</dialog>
+
+</npcdialog>

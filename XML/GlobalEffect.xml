@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+
+<!-- Global Effect Configulation -->
+<!-- GLOBAL_EFFECT geId: You must write number in order from 0 to x. -->
+<!-- SEQUENCE sqId: You must write number in order from 0 to x. -->
+
+<Global_Effect_Configulation>
+
+  <!-- PNG Resource -->
+  <PNG_RESOURCE num = "95"/>
+
+  <!-- lindvior weather ground 2 change -->
+  <GLOBAL_EFFECT geId = "0" triggerType = "action" triggerNum = "8054-20" nFrame = "9">
+    <SEQUENCE sqId = "0" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "1" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31~9:80'31]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "2" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31~9:80'31]
+    </SEQUENCE>
+    
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId = "1" triggerType = "action" nFrame = "17">
+    <SEQUENCE sqId = "3" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "17" seqType = "manual">
+      [10:30'15 10:30'16 10:30'17 10:40'18 10:40'19 10:40'20 10:50'21 10:50'22 10:50'23 10:50'24 10:60'25 10:60'26 10:60'27 10:60'28 10:70'29 10:70'30 10:500'31>2]
+    </SEQUENCE>
+    
+  </GLOBAL_EFFECT>
+ 
+   <GLOBAL_EFFECT geId = "2" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "4" imgType = "gePng" attr = "screen" pos = "0,0" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:25!34~9:25>3]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+   <GLOBAL_EFFECT geId = "3" triggerType = "action" nFrame = "9">
+    <SEQUENCE sqId = "5" imgType = "gePng" attr = "normal" pos = "0,0" nFrame = "9" seqType = "manual">
+      [10:2000'31 10:100'29 10:100'27 10:100'25 10:100'23 10:100'21 10:100'19 10:100'17 10:100'15]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather ground 3 change -->
+  <GLOBAL_EFFECT geId = "4" triggerType = "action" triggerNum = "8055-20" nFrame = "9">
+    <SEQUENCE sqId = "6" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "7" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "8" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather sky11 change -->
+  <GLOBAL_EFFECT geId = "5" triggerType = "action" triggerNum = "8047-20" nFrame = "9">
+    <SEQUENCE sqId = "9" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "10" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "11" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather sky12 change -->
+  <GLOBAL_EFFECT geId = "6" triggerType = "action" triggerNum = "8056-20" nFrame = "9">
+    <SEQUENCE sqId = "12" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "13" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "14" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+
+
+  <!-- lindvior weather sky1 change -->
+  <GLOBAL_EFFECT geId = "7" triggerType = "action" triggerNum = "8057-20" nFrame = "9">
+    <SEQUENCE sqId = "15" imgType = "gePng" attr = "screen" pos = "0,20" nFrame = "9" seqType = "auto" frameIncrease = "true">
+      [1:80'31!34~9:80'31>1]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "16" imgType = "gePng" attr = "screen" pos = "-180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+    
+    <SEQUENCE sqId = "17" imgType = "gePng" attr = "screen" pos = "180,-50" nFrame = "9" seqType = "auto" frameIncrease = "true">
+    [1:80'31~9:80'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+ 
+ 
+  <!-- EP0 Part2 -->
+  <GLOBAL_EFFECT geId = "8" triggerType = "packet" triggerNum = "4" nFrame = "9">
+    <SEQUENCE sqId = "18" alias = "15"/>
+    <SEQUENCE sqId = "19" alias = "16"/>
+    <SEQUENCE sqId = "20" alias = "17"/>
+  </GLOBAL_EFFECT>
+
+  <!-- 
+  basePos = "thinHPBar1",
+	          "thinHPBar2",
+	          "thinHPBar3",
+	          "thinMPBar1",
+          	"thinMPBar2",
+          	"thinMPBar3",
+          	"thickHPBar1",
+          	"thickHPBar2",
+          	"thickHPBar3",
+          	"thickMPBar1",
+          	"thickMPBar2",
+          	"thickMPBar3",
+          	"sunBox",
+          	"oneLineHPMPBar1",
+          	"oneLineHPMPBar2",
+          	"oneLineHPMPBar3",
+          	"twoLineHPMPBar1",
+          	"twoLineHPMPBar2",
+          	"twoLineHPMPBar3",
+ -->
+ 
+   <!-- Level UP HP/MP Bar Effect -->
+  <GLOBAL_EFFECT geId = "9" triggerType = "notUsed" triggerNum = "3936-0" nFrame = "27">
+    <SEQUENCE sqId = "21" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "thinHPBar1" pos = "0,0" nFrame = "27" seqType = "auto" frameIncrease = "true">
+      [11:150'31~37:150'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "22" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "thinMPBar1" pos = "0,0" nFrame = "27" seqType = "auto" frameIncrease = "true">
+      [11:150'31~37:150'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "23" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "sunBox" pos = "0,0" nFrame = "27" seqType = "auto" frameIncrease = "true">
+      [11:150'31~37:150'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <!-- shout of extence effect1 -->
+    <GLOBAL_EFFECT geId = "10" triggerType = "packet" triggerNum = "5" nFrame = "22">
+    <SEQUENCE sqId = "24" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "70,441" nFrame = "22" seqType = "auto" frameIncrease = "true">
+      [38:80'31!5536~59:80'31]
+    </SEQUENCE>
+  	</GLOBAL_EFFECT>
+
+  <GLOBAL_EFFECT geId = "11" triggerType = "action" triggerNum = "0" nFrame = "18">
+    <SEQUENCE sqId = "25" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "oneLineHPMPBar1" pos = "-50,-50" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [60:75'31~77:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "26" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "oneLineHPMPBar2" pos = "-26,-50" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [60:75'31~77:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "27" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "oneLineHPMPBar3" pos = "-0,-50" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [60:75'31~77:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "28" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "twoLineHPMPBar1" pos = "-37,-47" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [78:75'31~95:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "29" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "twoLineHPMPBar2" pos = "-37,-47" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [78:75'31~95:75'31]
+    </SEQUENCE>
+    <SEQUENCE sqId = "30" imgType = "gePng" attr = "screen" layerLevel = "onUI" basePos = "twoLineHPMPBar3" pos = "-37,-47" nFrame = "18" seqType = "auto" frameIncrease = "true">
+      [78:75'31~95:75'31]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <!-- Ep0 Part2 Score Display -->
+  <GLOBAL_EFFECT geId="12" triggerType="action" triggerNum="0" nFrame="20">
+    <SEQUENCE sqId="31" imgType="gePng" attr="normal" pos="0,0" nFrame="20" seqType="auto" frameIncrease="false" fade="true" fadeStep="1"> 
+      [10:150'0~10:150'19]
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  <GLOBAL_EFFECT geId="13" triggerType="action" triggerNum="0" nFrame="1">
+    <SEQUENCE sqId="32" imgType="gePng" attr="normal" pos="0,0" nFrame="1" seqType="manual"> 
+      [10:16000'21] 
+    </SEQUENCE>
+  </GLOBAL_EFFECT>
+    
+  <!-- shout of extence effect2 -->
+  <GLOBAL_EFFECT geId = "14" triggerType = "packet" triggerNum = "5" nFrame = "22">
+   <SEQUENCE sqId = "24" imgType = "gePng" attr = "screen" layerLevel = "onUI" pos = "70,441" nFrame = "22" seqType = "auto" frameIncrease = "true">
+    [38:80'31~59:80'31]
+   </SEQUENCE>
+  </GLOBAL_EFFECT>
+  
+  
+  
+</Global_Effect_Configulation>

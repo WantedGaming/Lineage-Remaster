@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>祭壇</name>
+  </npc>
+  <dialog>
+   <p>エルモア マーシャルの息吹、</p>
+   <p>キクの花束が必要です。<br/><br/><br/></p>
+   <p><a action="M">エルモア マーシャルの魂を慰める</a></p>
+   <p><a link="altar1">他の者たちの魂を慰める</a></p>
+  </dialog>
+</npcdialog>

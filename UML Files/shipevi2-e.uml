@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<!--name></name-->
+		<job>船着場管理人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>う～ん、そこまで言うなら、絶対に探せないものでもないしな…それじゃあ私の仕事が終わる頃に村でまた私のところに来なさい。それまでに何とかして探してみよう。</p>
+						
+
+	</dialog>
+
+</npcdialog>

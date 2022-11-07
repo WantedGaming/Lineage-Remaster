@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>コロシアムを一緒に使う方にチケットを分けた後に、チケットを持ってきて私に話しかけたら競技場に入場できます。</p>
+   <p>レンタル期間は1時間で、期間内に返却すると、レンタル料の20%を戻ってきます。</p>
+   <p>ではお楽しみください。</p>
+  </dialog>
+</npcdialog>

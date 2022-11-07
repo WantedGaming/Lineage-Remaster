@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンター</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		話せる島も以前とは違うな。
+		すっかり変わった…
+		今はデポロジュー様の命令を待っているんだ。
+		すぐにその時が来ると思っている。
+		もし修練に必要な用事があったら、<font fg="ffffaf">シルバーナイトタウンの基礎訓練教官</font>を訪ねてくれ。
+		全ての訓練を任せてある。
+		</p>
+	</dialog>
+</npcdialog>

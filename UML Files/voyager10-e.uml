@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p>これ！…これだ！わ、私の、航海日誌…<br/>
+    あり、がとう…本当に、ありがとう…これで、心置きなく、眠りに、つける…<br/>
+    <br/>
+    そう、礼は…ここに、ある…何が、入っているか、私も、知らない…<br/>
+    <br/>
+    せ、船長が…大事に、抱えていた、ものだ…<br/>
+    君に、あげる…ありがとう、ありが、とう…</p>
+  </dialog>
+</npcdialog>

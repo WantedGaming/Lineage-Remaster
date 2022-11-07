@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベントクエスト管理人</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルーカ</name>
+		<job>[ダーク訓練場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><font fg="ffafff">闇のフリーパス券</font>と<font fg="ffafff">英雄のコイン</font>を<br/>
+		もう一度確認してください。<br/>
+		<br/>
+		<font fg="ffafff">英雄のコイン</font>が足りなければ<br/>
+		私の隣にいる<font fg="ffffaf">アルキン</font>から購入できます。<br/>
+		<br/>
+		英雄のコインは現在のレベルによって必要な数が違うので<br/>
+		よく確認してください！<br/>
+		<br/>
+		<font fg="ffafff">闇のフリーパス券</font>は<font fg="ffffaf">闇のフリーパス箱</font>から<br/>
+		獲得できますからね！<br/>
+		</p>
+	</dialog>
+</npcdialog>

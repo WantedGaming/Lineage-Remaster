@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが26から35のあなたのための狩り場を教えましょう。お望みの狩り場を選んでください。
+		<br/><br/>
+		<a link="guide_2_2_2"><font fg="ffffaf">アデンのジプシータウンの近所</font></a><br/>：<a action="teleport guide2_2_2"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_2_2_4"><font fg="ffffaf">地下侵攻路1階</font></a><br/>：<a action="teleport guide2_2_4"><var src="1"/>Adenaでテレポートします。</a><br/><br/>
+		<a action="teleportURLE">もっと楽なところを教えてください</a><br/><br/>
+		<a action="teleportURLG">もっとしんどいところを教えてください</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

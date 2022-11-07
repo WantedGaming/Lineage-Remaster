@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[ペット管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		あ、ちょっと待ってね。これが終わったらすぐ行くからさ。
+		<br/><br/>
+		 <a link="helpnpc">動物を手なずける方法を聞く</a>
+		</p>
+	</dialog>
+</npcdialog>

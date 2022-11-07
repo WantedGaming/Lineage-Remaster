@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+    <p>私は最近アラクネから、糸を紡ぐ方法を習っているんです。アラクネってホントすごいですよね？ </p>
+    <p>森とエルフの母の隣の洞窟に住んでいて、なんでも作ってしまう<a link="morienE2">ネルファ</a>おばさんもすごいけど、アラクネが8本の手を動かして<a link="morienE3">クモの糸</a>や<a link="morienE4">糸</a>を紡ぐ場面を側で見ていると、とても素敵なの。とてもうらやましいわ。</p>
+    <p>それに、軟弱な私たちエルフとは違って、つやがあって丈夫な<a link="morienE5">アラクネの甲羅</a>は、そこらへんの槍や刃なんか使い物にならなくしてしまうのよ。</p>
+    <p>アラクネほど完璧な存在って他にいないとおもうわ。</p>
+  </dialog>
+</npcdialog>

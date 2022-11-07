@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  By jhyoon77@ncsoft.dev
+  + SolidColor : 색 하나, == SolidColor
+      <Color Name="ExampleWhite1" Value="0xffffff"/>
+      <SolidColor Name="ExampleWhite2" Value="0xffffff"/>
+  + RangeColor : 색 모음, 아래 보간옵션 사용가능
+        <RangeColor Name="ExampleRangedColor">
+          <Color Value="0xffffff"/>
+          <Color Value="0xaaaaaa"/>
+          <Color Value="0x888888"/>
+        </RangeColor>
+    - List : begin~end까지 size만큼 보간
+      <RangeColor Name="ExampleListInterpolation">
+        <List Size="10" End="0xaf4a3a" Begin="0xff9a8a"/>
+      </RangeColor>
+    - Cycle : max~min~max까지 size만큼 보간
+      <RangeColor Name="ExampleCycleInterpolation">
+        <Cycle Size="10" Max="0xff9a8a" Min="0xaf4a3a"/>
+      </RangeColor>
+    
+  -->
+<ColorList>
+  <RangeColor Name="MonsterTargetOutline">
+    <Cycle Size="10" Max="0xf98c74" Min="0xd21d1a"/>
+  </RangeColor>
+  <RangeColor Name="MonsterCandidateOutline">
+    <Cycle Size="10" Max="0xe1feff" Min="0x6aaed3"/>
+  </RangeColor>
+  <RangeColor Name="NpcTargetOutline">
+    <Cycle Size="10" Max="0xe3ffdf" Min="0x209a37"/>
+  </RangeColor>
+  <RangeColor Name="ItemTargetOutline">
+    <Cycle Size="10" Max="0xe3ffdf" Min="0x209a37"/>
+  </RangeColor>
+  <RangeColor Name="ItemCandidateOutline">
+    <Cycle Size="10" Max="0xe1feff" Min="0x6aaed3"/>
+  </RangeColor>
+  <RangeColor Name="OutlineBlessedItemIcon">
+    <Cycle Size="10" Max="0xffffff" Min="0x909090"/>
+  </RangeColor>
+</ColorList>

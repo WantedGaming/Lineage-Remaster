@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<MainPvpUI>
+	<Button Name="Pvp_Button" X = "0" Y = "0" BaseSurf = "7706" HighlightSurf = "7706" PushSurf = "7706" MouseEvent = "SetPvpMode"/>
+</MainPvpUI>

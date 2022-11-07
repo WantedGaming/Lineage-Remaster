@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>エルフ精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">共通精霊魔法：レベル1</font><br/></p>
+	<p><font fg="ffffaf">レジスト マジック：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：5/0<br/>
+	材料：精霊の玉1個<br/>
+	持続時間：1200秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、術者の魔法防御力を10%向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">ボディ トゥ マインド：</font><br/>
+	種類：変化<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：0/8<br/>
+	持続時間：一瞬<br/>
+	対象：術者<br/>
+	効果：使用した瞬間に術者のHPを消費して、MPを回復させます。<br/></p>
+	
+	<p><font fg="ffffaf">テレポート トゥ マザー：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：10/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者<br/>
+	効果：術者はテレポート禁止区域以外のすべての場所から、森とエルフの母までテレポートできる。<br/></p>
+	<p><img src="331" link="helpmgcn"/><br/><br/></p>
+	
+	</dialog>
+</npcdialog>

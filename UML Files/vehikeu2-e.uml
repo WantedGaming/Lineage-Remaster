@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>えっ？ここがどこかって？船の墓場だとついさっき教えたじゃないか。<br/>
+		<br/>
+    未だ誰も発見できていない、数多の船が行き交ったというあの場所がついに発見されたのだ！</p>
+    <p><a link="vehikeu3">だからお前は何なんだ</a></p>
+  </dialog>
+</npcdialog>

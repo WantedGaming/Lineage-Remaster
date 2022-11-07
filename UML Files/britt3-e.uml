@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Britt</name>
+		<job>General Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Prices? About<font fg="ffffff"><var src="0"/>%</font>It's about $3,000. I'll get you a good price, just sell it to me. Hey! Hey~! Please!
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

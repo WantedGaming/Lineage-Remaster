@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>おいおい、あんたみたいな奴のために働けって？今すぐ俺の目の前から失せろ。	
+		
+		</p>
+	</dialog>
+</npcdialog>

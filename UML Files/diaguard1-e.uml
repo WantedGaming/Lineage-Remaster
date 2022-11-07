@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>傭兵隊</name>
+  </npc>
+  <dialog>
+  <p>  
+ 沈黙の洞窟から派遣された傭兵だ。ブルディカ様の命を受けて、この村を守りに来た！<br/>
+ 村の外は危険だ！できるだけ外には出ない方が安全だろう。
+		</p>
+  </dialog>
+</npcdialog>

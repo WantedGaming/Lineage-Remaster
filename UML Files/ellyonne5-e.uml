@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>Fire is the element that symbolizes the purest power.</p>
+		<p>It has the power to burn all the energy it has in itself to destroy and purify everything else.</p>
+		<p>So it is said that the characteristics of fire elemental magic are the most aggressive of the four attributes.</p>
+		<p>If you want to strengthen your ability to defeat enemies mainly with daggers, the most correct choice would be to choose the fire family.</p>
+		<p><img src="331" link="ellyonne4"/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>ヤギの足に人間の上半身、そしてヤギの頭を持つ種族です。<br/><br/></p>
+	<p><font fg="ffffaf">アインハザード様</font>が、世界樹近くの草原にいたヤギから<font fg="ffffaf">パン</font>族を創られたという話よ。<br/><br/></p>
+	<p>乱暴でストレートな性格だからちょっと近寄りがたいけど、彼らの勇猛さといったら、守護者の中でも最高なのよ。森を守る一番の貢献者こそ、彼らパンなの。<br/><br/></p>
+	<p>それに<a link="narhenE5">パンのタテガミ</a>という、エルフにとって貴重な材料を与えてくれる大事な存在でもあるの。<br/><br/></p>
+	<p><font fg="ffafff">ミスリル</font>や<font fg="ffafff">オリハルコン</font>を<font fg="ffafff">アラクネの抜け殻</font>と一緒に持ってくれば、パンたちは頑丈な蹄でそれを踏みつけて<a link="narhenE4">プレート形態</a>にしてくれるんです。<br/><br/></p>
+	<p><img src="331" link="narhenE1"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

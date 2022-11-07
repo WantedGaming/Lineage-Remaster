@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>ニキ</name>
+    <job>[ケント遺物商人]</job>
+  </npc>
+  <dialog>
+	<p> こんにちは。考古学者オベール様の研究をお手伝いしているニキと申します。</p>
+	<p>ケントの過去の遺物を持ってこられたんですか？<br/>
+私たちの研究に欠かせない物のようですから、売っていただけませんか？<br/></p>
+	<p>良い値で買い取らせていただきますよ。<br/></p>
+			<panel type="Panel_Shop_Bt_Sell">
+				<button action="sell"/>
+			</panel>
+  </dialog>
+</npcdialog>

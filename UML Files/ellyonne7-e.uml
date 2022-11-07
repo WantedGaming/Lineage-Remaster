@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>From a quiet gentle breeze to a blast of despair, the wind element have the most changeable personalities.</p>
+		<p>It is said that the characteristic of the wind elemental magic is that they are powered by is their speed.</p>
+		<p>The wind element will give those who use it the opportunity to gain tremendous speed.</p>
+		<p>Have you ever seen an arrow fly by much faster than usual?</p>
+		<p>In a way, I would say it is the most suitable series for elves who mainly use arrows.</p>
+		<p><img src="331" link="ellyonne4"/></p>
+	</dialog>
+</npcdialog>

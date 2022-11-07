@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		聞こえますか？<br/><br/>
+		邪悪なモンスターが私を封印するためにこちらに向かっています…<br/>
+		どうか…私を…助けて…<br/><br/>
+		(次元の扉の向こう側の声が小さくなっていく)
+		<br/>
+		<br/>
+		<a action="enter">ユニコーンテンプルに入る</a><br/>
+		<br/>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

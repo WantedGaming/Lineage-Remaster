@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+   <npc>
+    <name>ホシュ</name>
+    <job>[錬金術師]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">錬金術師ホシュ：</font></p>
+    <p><br/><a link="hyosue2"><font fg="ffffaa">サンドワームエリア</font></a>を一度見物してみないか？</p>
+	<p>観覧料として2,000Adenaくれれば、好きなだけ見せてやろう！<br/><br/></p>
+	<p>観覧時間は5分だ！<br/>途中で観覧をやめたければ、監視者の目を探しな。<br/><br/></p>
+	<p><a action="a">サンドワームエリアを観覧する</a></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

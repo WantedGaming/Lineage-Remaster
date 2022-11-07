@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャベス</name>
+		<job>精霊魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>土は普段その存在を忘れてしまいがちですが、その上に立つ我々は彼らの力を無視できないはずです。<br/></p>
+		<p>土の力を借りる精霊魔法は、大地のような堅固さを持っています。<br/></p>
+		<p>子を守るような心で、母なる<font fg="ffafff">大地の力は切り立つ崖のような防御</font>であなたを守ってくれるでしょう。<br/></p>
+ 		
+		<p><a action="earth">土属性を習得する</a><br/></p>
+		 
+		<p><img src="331" link="siabeth1"/></p>
+ 
+	</dialog>
+
+</npcdialog>

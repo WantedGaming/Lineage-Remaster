@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>グスッ…</p>
+		<p>大変だぁ…</p>
+		<p>俺とかくれんぼしてたオリバーが、何年経っても家に帰ってこないんだ…</p>
+		<p>一緒に探してくれよ…</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オギ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+
+<dialog>
+<p>私はギルドから<var src="0"/>血盟とのみ取引するよう言われています。すみませんが、他のギルドをあたってください。</p>
+</dialog>
+
+</npcdialog>

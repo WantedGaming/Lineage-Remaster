@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+<a link="doettE10">フェアリーの羽</a>3つと<a link="doettE13">オリハルコン</a>   
+150個、<font fg="ffffff">ルビー3つ</font>を<a link="doettE3">ブロッブ</a>に食べさせた後、20秒以内に  
+ブロッブを殺せば<a link="doettE11">オリハルコン   
+ソードの刀身</a>が得られます。 
+<br/>
+注意してください！<font fg="ffffff">20秒</font>を過ぎると、ブロッブは   
+あなたが与えたエサをすでに美味しく消化してしまっているでしょうから。<br/>
+<br/><img src="331" link="doettE1"/>
+</p> 
+  </dialog>
+</npcdialog>

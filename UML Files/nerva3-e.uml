@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>セイルーン</name>
+    <job>[エリクサー ルーン製作職人]</job>
+  </npc>
+  <dialog>
+	<p>研究を手伝ってくれて本当にありがたい。</p>
+	<p><br/></p>
+	<p>見ず知らずのウィザードを助けてくれるとはな。</p>
+	<p><br/></p>
+	<p>未来が祝福に満ちあふれるよう祈っている。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[Growth Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 <br/>
+		 オーレン雪山を調査しながら姉に関する手がかりを100個と、僕がお渡しした袋から出てくる<font fg="ffaaff">不完全な魔法玉の欠片</font>、 
+		 そして象牙の塔のパゴル様から購入できる<font fg="ffaaff">象牙の塔の魔法の精粋</font>を持ってきてくだされば、「成長と経験の魔法」を利用して勇士様に心ばかりのお返しをしましょう。<br/>
+		<br/>
+		 ちなみに僕がお渡しした袋は神秘的な力があり、1日に1回しか使えません。覚えておいてください。<br/>
+		<br/>
+		 オーレン雪山への移動は、僕の南にいる<font fg="ffaaff">キリウス</font>様を訪ねるか、村を12時の方向に進んでください。
+		<br/>
+		<br/>
+		 そうだ、この村の雑貨商人の<font fg="ffaaff">ビウス</font>からも<font fg="ffaaff">象牙の塔の魔法の精粋</font>が買えるそうですよ。
+		</p>
+	</dialog>
+</npcdialog>

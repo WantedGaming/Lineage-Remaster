@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>メティス</name>
+    <job>[少年]</job>
+  </npc>
+  	<dialog align="left">
+		<p><font fg="aaaa00">+7熱意あふれる</font>の<font fg="afffff">企画チーム新人</font>です。</p>
+		<p>私の熱意を引き継いでくれる<font fg="ffffaf">次なる新人</font>を募集しています。</p>
+		<p><font fg="00bf00">[新人の条件]</font></p>
+		<p><font fg="0000aa">+1</font>ひらめく<font fg="0000aa">アイディア</font></p>
+		<p><font fg="00b4ff">+2</font>光る<font fg="00b4ff">聡明さ</font></p>
+		<p><font fg="00ffff">+3</font>奇抜な<font fg="00ffff">センス</font></p>
+		<p><font fg="00bf00">+4</font>人を楽しませる<font fg="00bf00">ユーモア</font></p>
+		<p><font fg="ffffaf">+5</font>新人の<font fg="ffffaf">粘り強さ</font></p>
+		<p>こうして<font fg="ffaaff">100点満点の</font><font fg="afffff">新人</font>完成！</p>
+		<p>熱意とやる気に満ちた方からの応募をお待ちしています。</p>
+		<p>詳しい内容は<font fg="000000">[公式ホームページ]</font>をご覧ください。</p>
+	</dialog>
+</npcdialog>

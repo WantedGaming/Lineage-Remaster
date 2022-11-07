@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 故郷を捨てて旅立ったダークエルフの棲家、沈黙の洞窟の村の周辺にはいろいろとモンスターが出るんですよ。<font fg="ffafff">ゾンビ</font>、<font fg="ffafff">オーク ゾンビ</font>、<font fg="ffafff">スパルトイ</font>、<font fg="ffafff">スケルトン</font>とかのアンデッド系がよく出るんですよ。それに<font fg="ffafff">リザードマン</font>に<font fg="ffafff">ウェアウルフ</font>もよく現れますね。<br/>
+		 アンデッドなんて軽いと思っても、経験を積むと考えて、そこで少しがんばってみたらどうですか。それでは、健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

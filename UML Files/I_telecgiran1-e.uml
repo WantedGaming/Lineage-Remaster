@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>ギラン城の専属ゲートキーパー</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 私はギラン城専属のゲートキーパーです。<br/>
+		 外城や村など、各地域にお送りしています。<br/>
+		 移動したいときはいつでもお声がけください。<br/>
+		<br/><br/>
+		<a action="teleportURL">他の地域にテレポートする</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

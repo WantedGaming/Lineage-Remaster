@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_001</portrait>
+		<name>コア</name>
+		<job>[Event Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>こんにちは。<br/>
+		私は精霊の遊び場で育ったコアと言います。<br/>
+		今、私たちの遊び場が闇の放浪者の襲撃に遭っています。<br/>
+		ですが、あまりに数が多くて私たちの力だけでは到底太刀打ちできません。<br/>
+		どうか私たちを助けてください！<br/>
+		お礼は必ずしますから。<br/>
+		<br/>
+		入場条件：精霊樹の気バフの効果中であれば入場可能<br/>
+		隠された狩り場：イベント狩り場入場券を使用すると入場可能<br/>
+		</p>
+		<panel type="Panel_Teleport_HiddenHuntingGr">
+			<button action="non_npc a"/>
+			<button action="non_npc b"/>
+		</panel>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>国境の要塞は戦時にはかなりの規模を誇っていたそうです。ですが、小康状態が長く続いている今となっては、その規模もだいぶ縮小されましたね。<br/>
+指揮をとるラズロス将軍も、もう少し余力があれば亡霊を討伐できただろうに……と、とても悔しがられてました。<br/><br/>
+<img src="331" link="dekan1"/></p>
+  </dialog>
+</npcdialog>

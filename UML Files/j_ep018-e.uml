@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">バルログ：</font>
+<br/><br/>
+質問を控えろ。<br/><br/>
+貴様が地獄に落ちたら、その時に名乗ってやる。<br/><br/>
+<a link="j_ep019">ハーディンは何をしようとしているのですか？</a><br/>
+<a link="j_ep020">あの方とは誰ですか？</a><br/>
+<a link="j_ep021">「ケレニス」を知っていますか？</a><br/>
+<a link="j_ep022">モンスターたちはあなたの手下ですか？</a><br/>
+<a link="j_ep023">あなたは何をしようとしていたのですか？</a><br/>
+<a link="j_ep024">あなたはハーディンを知ってますか？</a><br/>
+</p>
+</dialog>
+</npcdialog>

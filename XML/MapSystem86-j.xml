@@ -1,0 +1,3179 @@
+<?xml version="1.0"?>
+	<!--Map System Configulation-->
+	<!-- *************Icon rules Number*************     1.	Warehouse	3825     2.	Teleporter	3834     3.	Enhanced Wizard	3824     4.	Hotel	3822     5.	Weapons Armor Merchant	3832     6.	Chandler	3820     7.	Quest	3838     8.	Cathedral	3833     9.	Colosseum Kaiser	3829    10.	Fabrication	3826    11.	Notice Board	3835    12.	Fishing	3828    13.	Pet Administration	3821    14.	Etc	3839    15.	Market Teleporter	3827    16.	Blacksmith	3823    17.	Earring	3831    18.	Magic Sales	3830******************************************* -->
+<Map_System_Configulation>
+	<World_Map pos="125,82" transparency="10">
+		<!-- trans: 0 ~ 15 -->
+		<TITLE_IMG surfNum="5111" pos="454,2"/>
+		<FRAME_IMG surfNum="2828" pos="0,0"/>
+		<EXIT_IMG surfNum="5105" pos="529,5"/>
+		<ZOOM_IMG surfNum="5109" pos="508,5"/>
+		<POSITION_IMG surfNum="5113" pos="487,5"/>
+		<!-- World Map ID Range allocation: 0 ~ 99 -->
+		<!-- listed = "true" or "false" (default: "true") -->
+		<Map id="1" listed="true" mapDesc="539" mapNum="4" pngNum="16322" ratio="98.0" baseLoc="32887,32652" basePixel="149,185">
+			<!--Aden-->
+			<NPC icon="7287" oversurf="10916" action="D_gludio" loc="32728,32928" mapDesc="451" color="255,255,255"/>
+			<!-- gludio dungeon -->
+			<NPC icon="7287" oversurf="10916" action="D_eva kingdom" loc="33650,33482" mapDesc="305" color="255,255,255"/>
+			<!-- kingdom of eva dungeon -->
+			<NPC icon="7287" oversurf="10916" action="D_dragon valley" loc="33447,32290" mapDesc="309" color="255,255,255"/>
+			<!-- dragon valley dungeon -->
+			<NPC icon="7287" oversurf="10916" action="D_elven" loc="32937,32250" mapDesc="307" color="255,255,255"/>
+			<!-- elven forest dungeon -->
+			<NPC icon="7287" oversurf="10916" action="D_atuba" loc="32802,32264" mapDesc="578" color="255,255,255"/>
+			<!-- atuba orc dungeon -->
+			<NPC icon="7287" oversurf="10916" action="chaoticD" loc="32883,32652" mapDesc="622" color="255,255,255"/>
+			<!-- halpas dungeon -->
+			<NPC icon="7287" oversurf="10916" action="D_ivory tower" loc="34037,32100" mapDesc="301" color="255,255,255"/>
+			<!-- ivory tower -->
+			<!-- <NPC icon="7287" oversurf="10916" loc="34300,33452" mapDesc="306" color="255,255,255"/> -->
+			<!-- oman tower -->
+			<!--NPC icon="7287" oversurf="10916" loc="34267,32139" mapDesc="295" color="255,255,255"/-->
+			<!-- temple of shadow -->
+			<!--NPC icon="7287" oversurf="10916" loc="32759,33400" mapDesc="308" color="255,255,255"/-->
+			<!-- cave of desire -->
+			<!-- <NPC icon="7287" oversurf="10916" action="T_scave" loc="33399,32218" mapDesc="218" color="255,255,255"/> -->
+			<!-- cave of silence -->
+			<NPC icon="7287" oversurf="10916" action="D_talk island" loc="32020,32800" mapDesc="298" color="255,255,255"/>
+			<!-- talking island dungeon -->
+			<NPC icon="7287" oversurf="10916" action="D_luun" loc="34468,32191" mapDesc="696" color="255,255,255"/>
+			<!-- luun yard -->
+			<NPC icon="7293" oversurf="10917" action="F_orc forest" loc="32594,32227" mapDesc="463" color="255,255,255"/>
+			<!-- orc town -->
+			<NPC icon="7293" oversurf="10917" action="F_ruin of death" loc="32808,32629" mapDesc="464" color="255,255,255"/>
+			<!-- ruin of death -->
+			<NPC icon="7293" oversurf="10917" action="F_tomb of spirit" loc="32845,32889" mapDesc="479" color="255,255,255"/>
+			<!-- tomb of spirit -->
+			<NPC icon="7293" oversurf="10917" action="F_desert" loc="32815,33254" mapDesc="339" color="255,255,255"/>
+			<!-- desert -->
+			<NPC icon="7293" oversurf="10917" loc="32772,33116" mapDesc="480" color="255,255,255"/>
+			<!-- sand worm area -->
+			<NPC icon="7293" oversurf="10917" action="F_wilderness" loc="33018,33208" mapDesc="481" color="255,255,255"/>
+			<!-- wilderness  -->
+			<NPC icon="7293" oversurf="10917" action="F_heine" loc="33382,33298" mapDesc="467" color="255,255,255"/>
+			<!-- Heine field -->
+			<NPC icon="7293" oversurf="10917" action="F_mirror" loc="33754,33375" mapDesc="468" color="255,255,255"/>
+			<!-- forest of mirror -->
+			<NPC icon="7293" oversurf="10917" action="F_halpas" loc="33189,32945" mapDesc="465" color="255,255,255"/>
+			<!-- scar of halpas -->
+			<NPC icon="7293" oversurf="10917" action="F_dragon valley" loc="33300,32323" mapDesc="447" color="255,255,255"/>
+			<!-- dragon valley -->
+			<NPC icon="7293" oversurf="10917" action="F_valakas" loc="33685,32278" mapDesc="448" color="255,255,255"/>
+			<!-- valakas lair -->
+			<NPC icon="7293" oversurf="10917" action="F_lindvior" loc="34191,32841" mapDesc="469" color="255,255,255"/>
+			<!-- lindvior lair -->
+			<!--NPC icon="7293" oversurf="10917" action="F_giant" loc="34320,33160" mapDesc="327" color="255,255,255"/-->
+			<!-- giant area -->
+			<NPC icon="7293" oversurf="10917" action="F_elmor" loc="34071,32505" mapDesc="328" color="255,255,255"/>
+			<!-- elmor battlefield -->
+			<NPC icon="7293" oversurf="10917" action="F_orenwall" loc="34204,32294" mapDesc="482" color="255,255,255"/>
+			<!-- oren ice wall -->
+			<NPC icon="7293" oversurf="10917" action="F_jungle" loc="33781,32934" mapDesc="466" color="255,255,255"/>
+			<!-- gungle -->
+			<NPC icon="7293" oversurf="10917" action="F_shelob" loc="32030,32980" mapDesc="462" color="255,255,255"/>
+			<!-- talking island spider forest -->
+			<NPC icon="7293" oversurf="10917" action="F_luun" loc="34392,32307" mapDesc="666" color="255,255,255"/>
+			<!--luun field-->
+			<NPC icon="7289" oversurf="10918" action="T_gludio" loc="32602,32698" mapDesc="165" color="255,255,255"/>
+			<!-- gludin village -->
+			<NPC icon="7289" oversurf="10918" action="T_gludio_lab" loc="32883,32798" mapDesc="376" color="255,255,255"/>
+			<!-- gludin lab -->
+			<NPC icon="7289" oversurf="10918" action="T_orc" loc="32740,32390" mapDesc="233" color="255,255,255"/>
+			<!-- orc village -->
+			<NPC icon="7289" oversurf="10918" action="T_kent" loc="33076,32719" mapDesc="219" color="255,255,255"/>
+			<!-- kent village -->
+			<NPC icon="7289" oversurf="10918" action="T_woodbec" loc="32605,33142" mapDesc="208" color="255,255,255"/>
+			<!-- woodbec village -->
+			<NPC icon="7289" oversurf="10918" action="T_silver knight" loc="33073,33375" mapDesc="211" color="255,255,255"/>
+			<!-- silver knight village -->
+			<NPC icon="7289" oversurf="10918" action="T_elf" loc="33061,32293" mapDesc="206" color="255,255,255"/>
+			<!-- elven forest -->
+			<!-- <NPC icon="7289" oversurf="10918" action="T_silveria" loc="34664,32404" mapDesc="192" color="255,255,255"/> -->
+			<!-- silveria Village -->
+			<!-- <NPC icon="7289" oversurf="10918" action="T_behemoth" loc="33653,31936" mapDesc="184" color="255,255,255"/> -->
+			<!-- behemoth Village -->
+			<NPC icon="7289" oversurf="10918" action="T_talk island" loc="32170,32820" mapDesc="180" color="255,255,255"/>
+			<!-- talking island village -->
+			<NPC icon="7289" oversurf="10918" action="T_pcbang" loc="33191,31713" mapDesc="188" color="255,255,255"/>
+			<!-- PC village -->
+			<NPC icon="7289" oversurf="10918" action="T_giran" loc="33443,32726" mapDesc="167" color="255,255,255"/>
+			<!-- giran village -->
+			<NPC icon="7289" oversurf="10918" action="T_heine" loc="33601,33246" mapDesc="227" color="255,255,255"/>
+			<!-- Heine village -->
+			<NPC icon="7289" oversurf="10918" action="T_werldern" loc="33709,32461" mapDesc="209" color="255,255,255"/>
+			<!-- Weldern village -->
+			<NPC icon="7289" oversurf="10918" action="T_oren" loc="34040,32217" mapDesc="201" color="255,255,255"/>
+			<!-- oren village -->
+			<NPC icon="7289" oversurf="10918" action="T_aden" loc="34071,33171" mapDesc="194" color="255,255,255"/>
+			<!-- aden village -->
+			<NPC icon="7291" oversurf="10919" loc="33234,32665" mapDesc="220" color="255,255,255"/>
+			<NPC icon="7289" oversurf="10918" action="T_luun" loc="34413,32193" mapDesc="665" color="255,255,255"/>
+			<!--luun village-->
+			<!-- Kent Castle -->
+			<!-- <NPC icon="7291" oversurf="10919" loc="32851,32190" mapDesc="205" color="255,255,255"/> -->
+			<!-- Orc Castle -->
+			<!-- <NPC icon="7291" oversurf="10919" loc="33684,32605" mapDesc="168" color="255,255,255"/> -->
+			<!-- Giran Castle -->
+			<Link linkedID="101" mapDesc="165"/>
+			<!--Gludio Village-->
+			<Link linkedID="114" mapDesc="219"/>
+			<!--kent Village-->
+			<Link linkedID="117" mapDesc="233"/>
+			<!--Orc forest Village-->
+			<Link linkedID="108" mapDesc="206"/>
+			<!--Elf forest Village-->
+			<Link linkedID="112" mapDesc="211"/>
+			<!--SilverKnight Village-->
+			<Link linkedID="109" mapDesc="208"/>
+			<!--Woodvac Village-->
+			<Link linkedID="103" mapDesc="167"/>
+			<!--Giran Village-->
+			<Link linkedID="115" mapDesc="227"/>
+			<!--Henie Village-->
+			<Link linkedID="110" mapDesc="209"/>
+			<!--Weldone Village-->
+			<Link linkedID="104" mapDesc="201"/>
+			<!--Oren town-->
+			<Link linkedID="106" mapDesc="194"/>
+			<!--Aden Village-->
+			<Link linkedID="143" mapDesc="192" loc="34097,32164"/>
+			<!--silveria Village-->
+			<Link linkedID="144" mapDesc="184" loc="33643,32398"/>
+			<!--behemoth Village-->
+			<Link linkedID="148" mapDesc="376"/>
+			<!--Magicians Laboratory-->
+			<Link linkedID="118" mapDesc="196"/>
+			<!--Aden Gypsy Village-->
+			<Link linkedID="167" mapDesc="665"/>
+			<!--luun Village-->
+			<!--Link linkedID="131" mapDesc="258"/-->
+			<!--silence cave village-->
+			<Link linkedID="147" mapDesc="363" loc="32771,32956"/>
+			<!--market zone-->
+			<Link linkedID="113" mapDesc="168"/>
+			<!--Kent Castle-->
+			<Link linkedID="119" mapDesc="221" loc="33171,32760"/>
+			<!--Kent inner Castle-->
+			<Link linkedID="107" mapDesc="205"/>
+			<!--Orc Castle-->
+			<Link linkedID="151" mapDesc="389" loc="32799,32263"/>
+			<!--Orc inner Castle-->
+			<!--<Link linkedID="111" mapDesc="210"/>-->
+			<!--Windawood Castle-->
+			<!--<Link linkedID="120" mapDesc="244" loc="32678,33393"/>-->
+			<!--Windawood inner Castle-->
+			<Link linkedID="102" mapDesc="168" loc=""/>
+			<!--Giran Castle-->
+			<Link linkedID="121" mapDesc="169" loc="33632,32661"/>
+			<!--giran inner castle-->
+			<!--<Link linkedID="116" mapDesc="228"/>-->
+			<!--Heine Castle-->
+			<!--<Link linkedID="124" mapDesc="229" loc="33523,33385"/>-->
+			<!--heine inner castle-->
+			<!--<Link linkedID="105" mapDesc="195"/>-->
+			<!--Aden Castle-->
+			<!--<Link linkedID="130" mapDesc="197" loc="34090,33204"/>-->
+			<!--Aden inner Castle-->
+			<!--<Link linkedID="125" mapDesc="216" loc="33632,32367"/>-->
+			<!--Dwarf Castle-->
+		</Map>
+	</World_Map>
+	<Field_Map pos="5,335" transparency="20">
+		<TITLE_IMG surfNum="2815" pos="96,1"/>
+		<FRAME_IMG surfNum="2816" pos="0,0"/>
+		<EXIT_IMG surfNum="2801" pos="146,6"/>
+		<ZOOM_IMG surfNum="2803" pos="129,6"/>
+		<Map id="1" listed="true" mapDesc="193" mapNum="4" pngNum="10101" ratio="50.0" baseLoc="33430,32813" basePixel="1603,821">
+			<!--Aden-->
+			<NPC icon="8684" oversurf="10963" action="D_gludio" loc="32728,32928" mapDesc="451" color="255,255,255"/>
+			<!-- gludio dungeon -->
+			<NPC icon="8684" oversurf="10963" action="D_eva kingdom" loc="33626,33501" mapDesc="305" color="255,255,255"/>
+			<!-- kingdom of eva dungeon -->
+			<NPC icon="8684" oversurf="10963" action="D_dragon valley" loc="33447,32290" mapDesc="309" color="255,255,255"/>
+			<!-- dragon valley dungeon -->
+			<NPC icon="8684" oversurf="10963" action="D_elven" loc="32938,32282" mapDesc="307" color="255,255,255"/>
+			<!-- elven forest dungeon -->
+			<NPC icon="8684" oversurf="10963" action="D_atuba" loc="32802,32264" mapDesc="578" color="255,255,255"/>
+			<!-- atuba orc dungeon -->
+			<NPC icon="8684" oversurf="10963" action="D_ivory tower" loc="34043,32148" mapDesc="301" color="255,255,255"/>
+			<!-- ivory tower -->
+			<NPC icon="7287" oversurf="10916" action="D_luun" loc="34468,32191" mapDesc="696" color="255,255,255"/>
+			<!-- luun yard -->
+			<!--<NPC icon="8684" oversurf="10963" loc="34254,33452" mapDesc="306" color="255,255,255"/>-->
+			<!-- oman tower -->
+			<!-- <NPC icon="8688" oversurf="10965" action="T_scave" loc="33312,32434" mapDesc="218" color="255,255,255"/> -->
+			<!-- cave of silence -->
+			<NPC icon="8690" oversurf="10966" action="F_orc forest" loc="32707,32237" mapDesc="463" color="255,255,255"/>
+			<!-- orc town -->
+			<NPC icon="8690" oversurf="10966" action="F_ruin of death" loc="32796,32687" mapDesc="464" color="255,255,255"/>
+			<!-- ruin of death -->
+			<NPC icon="8690" oversurf="10966" action="F_tomb of spirit" loc="32858,32929" mapDesc="479" color="255,255,255"/>
+			<!-- tomb of spirit -->
+			<NPC icon="8690" oversurf="10966" action="F_desert" loc="32815,33254" mapDesc="339" color="255,255,255"/>
+			<!-- desert -->
+			<NPC icon="8690" oversurf="10966" loc="32766,33174" mapDesc="480" color="255,255,255"/>
+			<!-- sand worm area -->
+			<NPC icon="8690" oversurf="10966" action="F_wilderness" loc="33018,33208" mapDesc="481" color="255,255,255"/>
+			<!-- wilderness  -->
+			<NPC icon="8690" oversurf="10966" action="F_heine" loc="33411,33320" mapDesc="467" color="255,255,255"/>
+			<!-- Heine field -->
+			<NPC icon="8690" oversurf="10966" action="F_mirror" loc="33754,33375" mapDesc="468" color="255,255,255"/>
+			<!-- forest of mirror -->
+			<NPC icon="8690" oversurf="10966" action="F_halpas" loc="33334,33003" mapDesc="465" color="255,255,255"/>
+			<!-- scar of halpas -->
+			<NPC icon="8690" oversurf="10966" action="F_dragon valley" loc="33363,32360" mapDesc="447" color="255,255,255"/>
+			<!-- dragon valley -->
+			<NPC icon="8690" oversurf="10966" action="F_valakas" loc="33685,32278" mapDesc="448" color="255,255,255"/>
+			<!-- valakas lair -->
+			<NPC icon="8690" oversurf="10966" action="F_lindvior" loc="34191,32841" mapDesc="469" color="255,255,255"/>
+			<!-- lindvior lair -->
+			<!--<NPC icon="8690" oversurf="10966" action="F_giant" loc="34320,33160" mapDesc="327" color="255,255,255"/>-->
+			<!-- giant area -->
+			<NPC icon="8690" oversurf="10966" action="F_luun" loc="34392,32307" mapDesc="666" color="255,255,255"/>
+			<!--luun field-->
+			<NPC icon="8690" oversurf="10966" action="F_elmor" loc="34050,32485" mapDesc="328" color="255,255,255"/>
+			<!-- elmor battlefield -->
+			<NPC icon="8690" oversurf="10966" action="F_orenwall" loc="34204,32294" mapDesc="482" color="255,255,255"/>
+			<!-- oren ice wall -->
+			<NPC icon="8690" oversurf="10966" action="F_jungle" loc="33781,32934" mapDesc="466" color="255,255,255"/>
+			<!-- gungle -->
+			<NPC icon="8688" oversurf="10965" action="T_gludio" loc="32613,32783" mapDesc="165" color="255,255,255"/>
+			<!-- gludin village -->
+			<NPC icon="8688" oversurf="10965" action="T_gludio_lab" loc="32883,32798" mapDesc="376" color="255,255,255"/>
+			<!-- gludin village -->
+			<NPC icon="8688" oversurf="10965" action="T_orc" loc="32746,32442" mapDesc="233" color="255,255,255"/>
+			<!-- orc village -->
+			<NPC icon="8688" oversurf="10965" action="T_kent" loc="33053,32778" mapDesc="219" color="255,255,255"/>
+			<!-- kent village -->
+			<NPC icon="8688" oversurf="10965" action="T_woodbec" loc="32632,33187" mapDesc="208" color="255,255,255"/>
+			<!-- woodbec village -->
+			<NPC icon="8688" oversurf="10965" action="T_silver knight" loc="33073,33375" mapDesc="211" color="255,255,255"/>
+			<!-- silver knight village -->
+			<NPC icon="8688" oversurf="10965" action="T_elf" loc="33061,32293" mapDesc="206" color="255,255,255"/>
+			<!-- elven forest -->
+			<!-- <NPC icon="8688" oversurf="10965" action="T_silveria" loc="34103,32154" mapDesc="192" color="255,255,255"/> -->
+			<!-- silveria Village -->
+			<!-- <NPC icon="8688" oversurf="10965" action="T_behemoth" loc="33682,32415" mapDesc="184" color="255,255,255"/> -->
+			<!-- behemoth Village -->
+			<NPC icon="8688" oversurf="10965" action="T_giran" loc="33443,32726" mapDesc="167" color="255,255,255"/>
+			<!-- giran village -->
+			<NPC icon="8688" oversurf="10965" action="T_heine" loc="33601,33246" mapDesc="227" color="255,255,255"/>
+			<!-- Heine village -->
+			<NPC icon="8688" oversurf="10965" action="T_werldern" loc="33719,32503" mapDesc="209" color="255,255,255"/>
+			<!-- Weldern village -->
+			<NPC icon="8688" oversurf="10965" action="T_oren" loc="34056,32271" mapDesc="201" color="255,255,255"/>
+			<!-- oren village -->
+			<NPC icon="8688" oversurf="10965" action="T_aden" loc="34014,33239" mapDesc="194" color="255,255,255"/>
+			<!-- aden village -->
+			<NPC icon="8688" oversurf="10965" action="T_luun" loc="34413,32193" mapDesc="665" color="255,255,255"/>
+			<!--luun village-->
+			<!-- Kent Castle -->
+			<!-- <NPC icon="8686" oversurf="10964" loc="32806,32273" mapDesc="205" color="255,255,255"/> -->
+			<!-- Orc Castle -->
+			<!-- <NPC icon="8686" oversurf="10964" loc="33641,32668" mapDesc="168" color="255,255,255"/> -->
+			<!-- Giran Castle -->
+			<Link linkedID="101" mapDesc="165"/>
+			<!--Gludio Village-->
+			<Link linkedID="114" mapDesc="219"/>
+			<!--kent Village-->
+			<Link linkedID="117" mapDesc="233"/>
+			<!--Orc forest Village-->
+			<Link linkedID="108" mapDesc="206"/>
+			<!--Elf forest Village-->
+			<Link linkedID="112" mapDesc="211"/>
+			<!--SilverKnight Village-->
+			<Link linkedID="109" mapDesc="208"/>
+			<!--Woodvac Village-->
+			<Link linkedID="103" mapDesc="167"/>
+			<!--Giran Village-->
+			<Link linkedID="115" mapDesc="227"/>
+			<!--Henie Village-->
+			<Link linkedID="110" mapDesc="209"/>
+			<!--Weldone Village-->
+			<Link linkedID="104" mapDesc="201"/>
+			<!--Oren town-->
+			<Link linkedID="106" mapDesc="194"/>
+			<!--Aden Village-->
+			<!--Link linkedID="131" mapDesc="258"/-->
+			<!--silence cave village-->
+			<Link linkedID="143" mapDesc="192" loc="34097,32164"/>
+			<!--silveria Village-->
+			<!--Link linkedID="144" mapDesc="184" loc="33643,32398"/-->
+			<!--behemoth Village-->
+			<!--Link linkedID="148" mapDesc="376"/-->
+			<!--Magicians Laboratory-->
+			<Link linkedID="118" mapDesc="196"/>
+			<!--Aden Gypsy Village-->
+			<Link linkedID="167" mapDesc="665"/>
+			<!--luun Village-->
+			<Link linkedID="147" mapDesc="363" loc="32771,32956"/>
+			<!--market zone-->
+			<Link linkedID="113" mapDesc="168"/>
+			<!--Kent Castle-->
+			<Link linkedID="119" mapDesc="221" loc="33171,32760"/>
+			<!--Kent inner Castle-->
+			<Link linkedID="107" mapDesc="205"/>
+			<!--Orc Castle-->
+			<Link linkedID="151" mapDesc="389" loc="32799,32263"/>
+			<!--Orc inner Castle-->
+			<Link linkedID="102" mapDesc="168" loc=""/>
+			<!--Giran Castle-->
+			<Link linkedID="121" mapDesc="169" loc="33632,32661"/>
+			<!--giran inner castle-->
+		</Map>
+		<Map id="0" listed="true" mapDesc="180" mapNum="0" pngNum="10000" ratio="46.0" baseLoc="32507,32923" basePixel="254,215">
+			<!-- talking island-->
+			<NPC icon="8684" oversurf="10963" action="D_talk island" loc="32477,32851" mapDesc="298" color="255,255,255"/>
+			<!-- talking island dungeon -->
+			<NPC icon="8684" oversurf="10963" action="T_island-blackship" loc="32670,33214" mapDesc="525" color="255,255,255"/>
+			<!-- talking island-black ship -->
+			<NPC icon="8688" oversurf="10965" action="T_talk island" loc="32579,32934" mapDesc="264" color="255,255,255"/>
+			<!-- talking island village -->
+			<NPC icon="8692" oversurf="10968" action="T_island-north" loc="32694,32832" mapDesc="472" color="255,255,255"/>
+			<!-- talking island-north island -->
+			<NPC icon="8690" oversurf="10966" action="F_shelob" loc="32481,33056" mapDesc="473" color="255,255,255"/>
+			<!-- talking island-spider forest -->
+			<NPC icon="8690" oversurf="10966" action="T_island-watchtower" loc="32408,32926" mapDesc="474" color="255,255,255"/>
+			<!-- talking island-orc watch tower -->
+			<NPC icon="8690" oversurf="10966" action="T_island-orctown" loc="32342,32918" mapDesc="475" color="255,255,255"/>
+			<!-- talking island-orc town -->
+			<NPC icon="8690" oversurf="10966" action="T_island-outpost" loc="32703,33147" mapDesc="476" color="255,255,255"/>
+			<!-- talking island-black knight outpost -->
+			<NPC icon="8690" oversurf="10966" action="T_island-dwarftown2" loc="32660,33054" mapDesc="477" color="255,255,255"/>
+			<!-- talking island-dwarf town -->
+			<NPC icon="8690" oversurf="10966" action="T_island-dwarftown" loc="32501,32930" mapDesc="478" color="255,255,255"/>
+			<!-- gereng town -->
+			<NPC icon="8688" oversurf="10965" action="T_island-gereng" loc="32563,33082" mapDesc="571" color="255,255,255"/>
+			<!-- talking island-dwarf town -->
+			<Link linkedID="100" mapDesc="264"/>
+			<Link linkedID="157" mapDesc="532"/>
+		</Map>
+		<Map id="2" listed="false" mapDesc="183" mapNum="5" pngNum="10002" ratio="3.0" baseLoc="32733,32797" basePixel="279,186">
+			<!--ship talking island to main land-->
+		</Map>
+		<Map id="3" listed="false" mapDesc="183" mapNum="6" pngNum="10003" ratio="3.0" baseLoc="32738,32798" basePixel="282,219">
+			<!--ship main land to talking island-->
+		</Map>
+		<Map id="5" listed="false" mapDesc="199" mapNum="63" pngNum="10007" ratio="22.0" baseLoc="32735,32797" basePixel="260,150">
+			<!--kingdom of Eva-->
+			<NPC icon="3820" loc="32799,32896" mapDesc="69" color="255,255,255"/>
+			<!-- buakheu-->
+		</Map>
+		<Map id="6" listed="false" mapDesc="225" mapNum="65" pngNum="10009" ratio="6.0" baseLoc="32774,32831" basePixel="274,168">
+			<!--fafuion cave-->
+		</Map>
+		<Map id="7" listed="false" mapDesc="182" mapNum="67" pngNum="10011" ratio="24.0" baseLoc="32725,32800" basePixel="265,163">
+			<!--valakas lair-->
+		</Map>
+		<Map id="8" listed="false" mapDesc="171" mapNum="68" pngNum="10012" ratio="24.0" baseLoc="32819,32743" basePixel="347,185">
+			<!--neo singing island-->
+			<Link linkedID="126" mapDesc="255"/>
+			<!--neo singing island village-->
+		</Map>
+		<!--    <Map id = "9" listed = "false" mapDesc = "189" mapNum = "69" pngNum = "10013" ratio = "24.0" baseLoc = "32680,32863" basePixel= "328,154">   neo hidden valley      <Link linkedID = "145" mapDesc = "254"/>    new hidden village    </Map>    -->
+		<Map id="11" listed="false" mapDesc="183" mapNum="83" pngNum="23210" ratio="4.0" baseLoc="32750,32794" basePixel="510,224">
+			<!--ship main land to forgotten island-->
+		</Map>
+		<Map id="12" listed="false" mapDesc="183" mapNum="84" pngNum="23211" ratio="4.0" baseLoc="32726,32795" basePixel="315,308">
+			<!--ship forgotten island to main land-->
+		</Map>
+		<Map id="13" listed="false" mapDesc="203" mapNum="244" pngNum="10017" ratio="24.0" baseLoc="32704,32768" basePixel="43,207">
+			<!--atuba fortress dungeon-->
+			<Link linkedID="129" mapDesc="257"/>
+			<!--atuba fortress dungeon-->
+		</Map>
+		<Map id="17" listed="false" mapDesc="179" mapNum="410" pngNum="10026" ratio="24.0" baseLoc="32850,32830" basePixel="253,133">
+			<!--devil of sanctuary-->
+		</Map>
+		<Map id="18" listed="false" mapDesc="217" mapNum="420" pngNum="10027" ratio="14.0" baseLoc="32776,32939" basePixel="262,128">
+			<!--abyss lake-->
+		</Map>
+		<Map id="19" listed="false" mapDesc="215" mapNum="430" pngNum="10028" ratio="28.0" baseLoc="32833,32827" basePixel="281,195">
+			<!--elemental grave-->
+			<NPC icon="3824" loc="32903,32810" mapDesc="405" color="255,255,255"/>
+			<!-- elemental grave -->
+			<NPC icon="3824" loc="32797,32916" mapDesc="405" color="255,255,255"/>
+			<!-- elemental grave -->
+		</Map>
+		<!--<Map id="20" mapDesc="230" mapNum="440" pngNum="10029" ratio="34.0" baseLoc="32443,33049" basePixel="246,193">			
+pirate island			<NPC icon="8684" oversurf="10963" loc="32524,33124" mapDesc="315" color="255,255,255"/>			
+Pirate island Deungeon			<NPC icon="8684" oversurf="10963" loc="32538,32875" mapDesc="315" color="255,255,255"/>			
+Pirate island Deungeon			<NPC icon="8684" oversurf="10963" loc="32538,32875" mapDesc="300" color="255,255,255"/>			
+Pirate island Deungeon			<NPC icon="8688" oversurf="10965" loc="32431,33041" mapDesc="231" color="255,255,255"/>			
+Pirate island village			<Link linkedID="139" mapDesc="231"/>			Pirate island Village			<Link linkedID="141" 
+mapDesc="232"/>			Pirate island Village		</Map>-->
+		<Map id="21" listed="false" mapDesc="190" mapNum="445" pngNum="10030" ratio="3.0" baseLoc="32738,32852" basePixel="154,165">
+			<!--hidden dock to pirate island-->
+		</Map>
+		<Map id="22" listed="false" mapDesc="183" mapNum="446" pngNum="10031" ratio="24.0" baseLoc="32736,32796" basePixel="271,155">
+			<!--ship pirate island to hidden dock-->
+		</Map>
+		<Map id="23" listed="false" mapDesc="183" mapNum="447" pngNum="10032" ratio="24.0" baseLoc="32733,32797" basePixel="269,157">
+			<!--ship Hidden dock to pirate island-->
+		</Map>
+		<Map id="26" listed="false" mapDesc="164" mapNum="521" pngNum="10035" ratio="24.0" baseLoc="32682,32959" basePixel="254,168">
+			<!--temple of shadow-->
+		</Map>
+		<Map id="27" listed="false" mapDesc="172" mapNum="535" pngNum="10036" ratio="24.0" baseLoc="32737,32863" basePixel="364,207">
+			<!--lastavard 535-->
+		</Map>
+		<Map id="28" listed="false" mapDesc="176" mapNum="536" pngNum="10037" ratio="24.0" baseLoc="32745,32795" basePixel="281,150">
+			<!--lastavard 536-->
+		</Map>
+		<Map id="29" listed="false" mapDesc="186" mapNum="550" pngNum="10038" ratio="40.0" baseLoc="32640,32924" basePixel="258,171">
+			<!--grave of ships 1b-->
+			<NPC icon="3820" loc="32831,32695" mapDesc="115" color="255,255,255"/>
+			<!--behik-->
+		</Map>
+		<Map id="30" listed="false" mapDesc="187" mapNum="558" pngNum="10039" ratio="40.0" baseLoc="33008,32954" basePixel="264,124">
+			<!--grave of ships deepsea-->
+		</Map>
+		<Map id="31" listed="false" mapDesc="207" mapNum="600" pngNum="10040" ratio="24.0" baseLoc="32704,32768" basePixel="180,175">
+			<!--cave of desire entrance-->
+		</Map>
+		<Map id="32" listed="false" mapDesc="185" mapNum="610" pngNum="10041" ratio="10.0" baseLoc="32760,32869" basePixel="342,205">
+			<!--season spring-->
+		</Map>
+		<Map id="33" listed="false" mapDesc="200" mapNum="611" pngNum="10042" ratio="7.0" baseLoc="32770,32764" basePixel="274,163">
+			<!--season summer-->
+		</Map>
+		<Map id="34" listed="false" mapDesc="160" mapNum="612" pngNum="10043" ratio="8.0" baseLoc="32770,32829" basePixel="275,149">
+			<!--season autumn-->
+		</Map>
+		<Map id="35" listed="false" mapDesc="236" mapNum="613" pngNum="10044" ratio="8.0" baseLoc="32778,32877" basePixel="250,117">
+			<!--season winnter-->
+		</Map>
+		<Map id="36" listed="false" mapDesc="234" mapNum="" pngNum="10045" ratio="24.0" baseLoc="32799,32800" basePixel="275,158">
+			<!-- pc premium zone japan -->
+		</Map>
+		<Map id="37" listed="true" mapDesc="188" mapNum="622" pngNum="10046" ratio="8.0" baseLoc="32778,32832" basePixel="490,224">
+			<!--new pc premium zone korea-->
+			<Link linkedID="146" mapDesc="188"/>
+			<!--new pc premium zone Village-->
+		</Map>
+		<Map id="42" listed="false" mapDesc="222" mapNum="780" pngNum="10051" ratio="24.0" baseLoc="32618,32895" basePixel="277,249">
+			<!--theberas 1f-->
+		</Map>
+		<Map id="43" listed="false" mapDesc="224" mapNum="783" pngNum="10052" ratio="24.0" baseLoc="33238,32744" basePixel="620,120">
+			<!--tikal temple 1f-->
+		</Map>
+		<Map id="45" listed="false" mapDesc="191" mapNum="1002" pngNum="10056" ratio="24.0" baseLoc="32819,32814" basePixel="511,297">
+			<!--hiden land of dragons part2-->
+		</Map>
+		<Map id="46" listed="false" mapDesc="191" mapNum="1003" pngNum="10057" ratio="24.0" baseLoc="32894,32797" basePixel="345,136">
+			<!--hiden land of dragons part1-->
+		</Map>
+		<Map id="47" listed="false" mapDesc="162" mapNum="2004" pngNum="10058" ratio="24.0" baseLoc="32857,32814" basePixel="315,120">
+			<!--50 level quest world goras-->
+		</Map>
+		<Map id="48" listed="false" mapDesc="188" mapNum="613" pngNum="10044" ratio="24.0" baseLoc="32704,32832" basePixel="43,111">
+			<!--pc premium zone-->
+			<Link linkedID="142" mapDesc="188"/>
+			<!--pc premium zone Village-->
+		</Map>
+		<Map id="50" listed="false" mapDesc="333" mapNum="2006" pngNum="10247" ratio="12.0" baseLoc="32816,32712" basePixel="0,0">
+			<!--GM event zone-->
+		</Map>
+		<Map id="51" listed="false" mapDesc="333" mapNum="2008" pngNum="10247" ratio="12.0" baseLoc="32816,32712" basePixel="0,0">
+			<!--GM event zone-->
+		</Map>
+		<Map id="52" listed="false" mapDesc="333" mapNum="2009" pngNum="10247" ratio="12.0" baseLoc="32816,32712" basePixel="0,0">
+			<!--GM event zone-->
+		</Map>
+		<Map id="56" listed="false" mapDesc="416" mapNum="10200" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="57" listed="false" mapDesc="416" mapNum="10201" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="58" listed="false" mapDesc="416" mapNum="10202" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="59" listed="false" mapDesc="416" mapNum="10203" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="60" listed="false" mapDesc="416" mapNum="10204" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="61" listed="false" mapDesc="416" mapNum="10205" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="62" listed="false" mapDesc="416" mapNum="10206" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="63" listed="false" mapDesc="416" mapNum="10207" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="64" listed="false" mapDesc="416" mapNum="10208" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="65" listed="false" mapDesc="416" mapNum="10209" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="66" listed="false" mapDesc="416" mapNum="10210" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="67" listed="false" mapDesc="416" mapNum="10211" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="68" listed="false" mapDesc="416" mapNum="10212" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="69" listed="false" mapDesc="416" mapNum="10213" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="70" listed="false" mapDesc="416" mapNum="10214" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="71" listed="false" mapDesc="416" mapNum="10215" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="72" listed="false" mapDesc="416" mapNum="10216" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="73" listed="false" mapDesc="416" mapNum="10217" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="74" listed="false" mapDesc="416" mapNum="10218" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="75" listed="false" mapDesc="416" mapNum="10219" pngNum="10895" ratio="24.0" baseLoc="32893,32894" basePixel="380,193">
+			<!--inter server-->
+		</Map>
+		<Map id="76" listed="false" mapDesc="430" mapNum="10500" pngNum="11249" ratio="24.0" baseLoc="32736,32746" basePixel="250,122">
+			<!--inter thebe-->
+		</Map>
+		<Map id="77" listed="false" mapDesc="431" mapNum="10501" pngNum="11250" ratio="24.0" baseLoc="32813,32728" basePixel="154,144">
+			<!--inter thebe-->
+		</Map>
+		<Map id="78" listed="false" mapDesc="432" mapNum="10502" pngNum="11251" ratio="24.0" baseLoc="32771,32895" basePixel="279,154">
+			<!--inter thebe-->
+		</Map>
+		<Map id="79" listed="false" mapDesc="471" mapNum="1700" pngNum="11896" ratio="24.0" baseLoc="32801,32856" basePixel="485,270">
+			<!--inter fg-->
+		</Map>
+		<Map id="80" listed="false" mapDesc="471" mapNum="1701" pngNum="11896" ratio="24.0" baseLoc="32801,32856" basePixel="485,270">
+			<!--inter fg-->
+		</Map>
+		<Map id="81" listed="false" mapDesc="471" mapNum="1702" pngNum="11896" ratio="24.0" baseLoc="32801,32856" basePixel="485,270">
+			<!--inter fg-->
+		</Map>
+		<Map id="82" listed="true" mapDesc="363" mapNum="800" pngNum="10263" ratio="14.0" baseLoc="32801,32943" basePixel="448,276">
+			<!--trade zone Village-->
+			<NPC icon="3825" loc="32797,32930" mapDesc="130" color="255,255,255"/>
+			<!-- checker jip-->
+			<NPC icon="3834" loc="32805,32930" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter linji-->
+			<NPC icon="3834" loc="32829,32898" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32801,32898" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32829,32953" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32771,32926" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32801,32956" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32769,32956" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32774,32898" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32829,32927" mapDesc="360" color="255,255,255"/>
+			<!-- teleport objects-->
+			<Tell index="0" group="4" mapDesc="364"/>
+			<!-- town teleport 1 section-->
+			<Tell index="1" group="4" mapDesc="365"/>
+			<!-- town teleport 2 section-->
+			<Tell index="2" group="4" mapDesc="366"/>
+			<!-- town teleport 3 section-->
+			<Tell index="3" group="4" mapDesc="367"/>
+			<!-- town teleport 4 section-->
+			<Tell index="4" group="4" mapDesc="368"/>
+			<!-- town teleport 5 section-->
+			<Tell index="5" group="4" mapDesc="369"/>
+			<!-- town teleport 6 section-->
+			<Tell index="6" group="4" mapDesc="370"/>
+			<!-- town teleport 7 section-->
+			<Tell index="7" group="4" mapDesc="371"/>
+			<!-- town teleport 8 section-->
+			<Tell index="8" group="4" mapDesc="372"/>
+			<!-- town teleport center section-->
+		</Map>
+		<Map id="83" listed="false" mapDesc="483" mapNum="1703" pngNum="11897" ratio="24.0" baseLoc="32863,32963" basePixel="312,143">
+			<!--inter fg-->
+		</Map>
+		<Map id="84" listed="false" mapDesc="483" mapNum="1704" pngNum="11897" ratio="24.0" baseLoc="32863,32963" basePixel="312,143">
+			<!--inter fg-->
+		</Map>
+		<Map id="85" listed="false" mapDesc="483" mapNum="1705" pngNum="11897" ratio="24.0" baseLoc="32863,32963" basePixel="312,143">
+			<!--inter fg-->
+		</Map>
+		<Map id="86" listed="false" mapDesc="333" mapNum="7904" pngNum="10247" ratio="12.0" baseLoc="32816,32712" basePixel="0,0">
+			<!--GM event zone-->
+		</Map>
+		<Map id="87" listed="false" mapDesc="471" mapNum="1720" pngNum="11896" ratio="24.0" baseLoc="32801,32856" basePixel="485,270">
+			<!--forgotten island Share-->
+		</Map>
+		<Map id="88" listed="false" mapDesc="483" mapNum="1721" pngNum="11897" ratio="24.0" baseLoc="32863,32963" basePixel="312,143">
+			<!--forgotten island Share-->
+		</Map>
+		<Map id="89" listed="false" mapDesc="505" mapNum="13001" pngNum="13073" ratio="3.0" baseLoc="32737,32863" basePixel="282,155">
+			<!--lito final match-->
+		</Map>
+		<Map id="90" listed="false" mapDesc="506" mapNum="13002" pngNum="13074" ratio="4.0" baseLoc="32800,32822" basePixel="221,129">
+			<!--lito arena-->
+		</Map>
+		<Map id="91" listed="false" mapDesc="507" mapNum="13003" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--lito war square-->
+		</Map>
+		<Map id="92" listed="false" mapDesc="508" mapNum="13004" pngNum="13076" ratio="8.0" baseLoc="32725,32848" basePixel="101,295">
+			<!--lito battle hunter-->
+		</Map>
+		<Map id="93" listed="false" mapDesc="471" mapNum="1708" pngNum="11896" ratio="24.0" baseLoc="32801,32856" basePixel="485,270">
+			<!--inter fg renewal-->
+		</Map>
+		<Map id="94" listed="false" mapDesc="483" mapNum="1709" pngNum="11897" ratio="24.0" baseLoc="32863,32963" basePixel="312,143">
+			<!--inter fg renewal-->
+		</Map>
+		<Map id="95" listed="false" mapDesc="511" mapNum="1710" pngNum="13183" ratio="4.0" baseLoc="32780,32761" basePixel="277,158">
+			<!--inter fg renewal-->
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32780,32765" mapDesc="143" color="255,255,255"/>
+			<NPC icon="3834" loc="32738,32780" mapDesc="143" color="255,255,255"/>
+			<!-- enchant Wizard-->
+			<NPC icon="3824" loc="32775,32767" mapDesc="331" color="255,255,255"/>
+			<!--Chanlder-->
+			<NPC icon="3820" loc="32788,32758" mapDesc="115" color="255,255,255"/>
+			<NPC icon="3820" loc="32784,32767" mapDesc="115" color="255,255,255"/>
+		</Map>
+		<Map id="96" listed="false" mapDesc="511" mapNum="1711" pngNum="13184" ratio="4.0" baseLoc="32780,32761" basePixel="277,158">
+			<!--inter fg renewal-->
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32780,32765" mapDesc="143" color="255,255,255"/>
+			<NPC icon="3834" loc="32738,32780" mapDesc="143" color="255,255,255"/>
+			<!-- enchant Wizard-->
+			<NPC icon="3824" loc="32775,32767" mapDesc="331" color="255,255,255"/>
+			<!--Chanlder-->
+			<NPC icon="3820" loc="32788,32758" mapDesc="115" color="255,255,255"/>
+			<NPC icon="3820" loc="32784,32767" mapDesc="115" color="255,255,255"/>
+		</Map>
+		<Map id="97" listed="false" mapDesc="511" mapNum="1712" pngNum="13185" ratio="4.0" baseLoc="32780,32761" basePixel="277,158">
+			<!--inter fg renewal-->
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32780,32765" mapDesc="143" color="255,255,255"/>
+			<NPC icon="3834" loc="32738,32780" mapDesc="143" color="255,255,255"/>
+			<!-- enchant Wizard-->
+			<NPC icon="3824" loc="32775,32767" mapDesc="331" color="255,255,255"/>
+			<!--Chanlder-->
+			<NPC icon="3820" loc="32788,32758" mapDesc="115" color="255,255,255"/>
+			<NPC icon="3820" loc="32784,32767" mapDesc="115" color="255,255,255"/>
+		</Map>
+		<Map id="98" listed="false" mapDesc="512" mapNum="13005" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--lito war square monster-->
+		</Map>
+		<Map id="99" listed="false" mapDesc="513" mapNum="13006" pngNum="13074" ratio="4.0" baseLoc="32800,32822" basePixel="221,129">
+			<!--lito arena tower defence -->
+		</Map>
+		<Map id="100" listed="false" mapDesc="514" mapNum="13051" pngNum="13073" ratio="3.0" baseLoc="32737,32863" basePixel="282,155">
+			<!--LFC lito final match-->
+		</Map>
+		<Map id="101" listed="false" mapDesc="515" mapNum="13052" pngNum="13074" ratio="4.0" baseLoc="32800,32822" basePixel="221,129">
+			<!--LFC lito arena-->
+		</Map>
+		<Map id="102" listed="false" mapDesc="517" mapNum="13053" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--LFC lito war square-->
+		</Map>
+		<Map id="103" listed="false" mapDesc="518" mapNum="13054" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--LFC lito war square monster1-->
+		</Map>
+		<Map id="104" listed="false" mapDesc="519" mapNum="13055" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--LFC lito war square monster2-->
+		</Map>
+		<Map id="105" listed="false" mapDesc="520" mapNum="13056" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--LFC lito war square monster3-->
+		</Map>
+		<Map id="106" listed="false" mapDesc="521" mapNum="13057" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--LFC lito war square monster4-->
+		</Map>
+		<Map id="107" listed="false" mapDesc="522" mapNum="13058" pngNum="13075" ratio="3.0" baseLoc="32734,32865" basePixel="266,193">
+			<!--LFC lito war square monster5-->
+		</Map>
+		<Map id="108" listed="false" mapDesc="516" mapNum="13059" pngNum="13074" ratio="4.0" baseLoc="32800,32822" basePixel="221,129">
+			<!--LFC lito arena tower defence -->
+		</Map>
+		<Map id="111" listed="false" mapDesc="469" mapNum="15410" pngNum="15518" ratio="20.0" baseLoc="34265,32795" basePixel="368,89">
+			<!--high field linvior zone-->
+		</Map>
+		<Map id="112" listed="false" mapDesc="482" mapNum="15420" pngNum="15519" ratio="25.0" baseLoc="34257,32287" basePixel="456,172">
+			<!--high field oren zone-->
+		</Map>
+		<Map id="113" listed="false" mapDesc="447" mapNum="15430" pngNum="15520" ratio="20.0" baseLoc="33391,32345" basePixel="444,198">
+			<!--high field dragon velly zone-->
+		</Map>
+		<Map id="114" listed="false" mapDesc="448" mapNum="15440" pngNum="15521" ratio="28.0" baseLoc="33726,32249" basePixel="390,133">
+			<!--high field valakas zone-->
+		</Map>
+		<Map id="115" listed="false" mapDesc="180" mapNum="9" pngNum="10000" ratio="46.0" baseLoc="32507,32923" basePixel="254,215">
+			<!-- talking island-->
+			<NPC icon="8684" oversurf="10963" action="D_talk island" loc="32477,32851" mapDesc="298" color="255,255,255"/>
+			<!-- talking island dungeon -->
+			<NPC icon="8684" oversurf="10963" action="T_island-blackship" loc="32670,33214" mapDesc="525" color="255,255,255"/>
+			<!-- talking island-black ship -->
+			<NPC icon="8688" oversurf="10965" action="T_talk island" loc="32579,32934" mapDesc="264" color="255,255,255"/>
+			<!-- talking island village -->
+			<NPC icon="8692" oversurf="10968" action="T_island-north" loc="32694,32832" mapDesc="472" color="255,255,255"/>
+			<!-- talking island-north island -->
+			<NPC icon="8690" oversurf="10966" action="F_shelob" loc="32481,33056" mapDesc="473" color="255,255,255"/>
+			<!-- talking island-spider forest -->
+			<NPC icon="8690" oversurf="10966" action="T_island-watchtower" loc="32408,32926" mapDesc="474" color="255,255,255"/>
+			<!-- talking island-orc watch tower -->
+			<NPC icon="8690" oversurf="10966" action="T_island-orctown" loc="32342,32918" mapDesc="475" color="255,255,255"/>
+			<!-- talking island-orc town -->
+			<NPC icon="8690" oversurf="10966" action="T_island-outpost" loc="32703,33147" mapDesc="476" color="255,255,255"/>
+			<!-- talking island-black knight outpost -->
+			<NPC icon="8690" oversurf="10966" action="T_island-dwarftown2" loc="32660,33054" mapDesc="477" color="255,255,255"/>
+			<!-- talking island-dwarf town -->
+			<NPC icon="8690" oversurf="10966" action="T_island-dwarftown" loc="32501,32930" mapDesc="478" color="255,255,255"/>
+			<!-- gereng town -->
+			<NPC icon="8688" oversurf="10965" action="T_island-gereng" loc="32563,33082" mapDesc="571" color="255,255,255"/>
+			<!-- talking island-dwarf town -->
+			<Link linkedID="100" mapDesc="264"/>
+			<Link linkedID="157" mapDesc="532"/>
+		</Map>
+	</Field_Map>
+	<Village_Map pos="125,82" transparency="10">
+		<!-- trans: 0 ~ 15 -->
+		<TITLE_IMG surfNum="5112" pos="433,2"/>
+		<FRAME_IMG surfNum="2828" pos="0,0"/>
+		<EXIT_IMG surfNum="5105" pos="529,5"/>
+		<ZOOM_IMG surfNum="5109" pos="487,5"/>
+		<ZOOM_OUT_IMG surfNum="5107" pos="508,5"/>
+		<POSITION_IMG surfNum="5113" pos="466,5"/>
+		<!-- Village Map ID Range allocation: 100 ~ 999 -->
+		<Map id="100" mapDesc="264" mapNum="0" pngNum="10200" ratio="8.0" baseLoc="32573,32946" basePixel="231,306">
+			<!--Talking island Village-->
+			<NPC icon="3834" loc="32583,32922" mapDesc="143" color="255,255,255"/>
+			<!--teleporter lucas-->
+			<NPC icon="3825" loc="32567,32952" mapDesc="130" color="255,255,255"/>
+			<!-- checker dorin-->
+			<NPC icon="3820" loc="32641,32950" mapDesc="115" color="255,255,255"/>
+			<!-- pandora-->
+			<NPC icon="3830" loc="32552,32948" mapDesc="573" color="255,255,255"/>
+			<!-- syamun-->
+			<NPC icon="3838" loc="32570,32934" mapDesc="526" color="255,255,255"/>
+			<!--teon-->
+			<NPC icon="3839" loc="32562,32944" mapDesc="572" color="255,255,255"/>
+			<!-- evans -->
+			<NPC icon="3820" loc="32557,32946" mapDesc="528" color="255,255,255"/>
+			<!--serin-->
+			<NPC icon="3824" loc="32548,32953" mapDesc="544" color="255,255,255"/>
+			<!--elarion-->
+			<NPC icon="3839" loc="32633,32969" mapDesc="70" color="255,255,255"/>
+			<!-- ticket agent-->
+			<NPC icon="3824" loc="32587,32929" mapDesc="574" color="255,255,255"/>
+			<!-- buff shop a-->
+			<NPC icon="3834" loc="32588,32934" mapDesc="575" color="255,255,255"/>
+			<!--teleporter lupin-->
+			<Tell index="0" group="5" mapDesc="499"/>
+			<!-- town teleport north-->
+			<Tell index="1" group="5" mapDesc="500"/>
+			<!-- town teleport south-->
+			<NPC icon="3833" loc="32597,32917" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="101" mapDesc="165" mapNum="4" pngNum="10201" ratio="10.0" baseLoc="32615,32786" basePixel="465,300">
+			<!--Gludio Village-->
+			<NPC icon="3834" loc="32612,32792" mapDesc="143" color="255,255,255"/>
+			<!--teleporter steve-->
+			<NPC icon="3827" loc="32633,32795" mapDesc="76" color="255,255,255"/>
+			<!--teleporter market-->
+			<NPC icon="3825" loc="32616,32800" mapDesc="130" color="255,255,255"/>
+			<!--chcker karim-->
+			<NPC icon="3820" loc="32596,32743" mapDesc="115" color="255,255,255"/>
+			<!--luth-->
+			<NPC icon="3838" loc="32616,32775" mapDesc="113" color="255,255,255"/>
+			<!--iris-->
+			<NPC icon="3828" loc="32608,32769" mapDesc="12" color="255,255,255"/>
+			<!--fishing kid a-->
+			<NPC icon="3822" loc="32627,32758" mapDesc="98" color="255,255,255"/>
+			<!-- Lolia in Gludin Town innkeeper-->
+			<!--<NPC icon="3821" loc="32631,32729" mapDesc="147" color="255,255,255"/>-->
+			<!--pet ostin-->
+			<NPC icon="3823" loc="32633,32801" mapDesc="16" color="255,255,255"/>
+			<!-- cuen-->
+			<NPC icon="3839" loc="32560,32722" mapDesc="70" color="255,255,255"/>
+			<!-- ticket agent-->
+			<NPC icon="3824" loc="32612,32799" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop b-->
+			<Tell index="0" group="2" mapDesc="354"/>
+			<!-- town teleport north-->
+			<Tell index="1" group="2" mapDesc="357"/>
+			<!-- town teleport south-->
+			<NPC icon="3833" loc="32595,32797" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<!--<Map id="102" mapDesc="168" mapNum="4" pngNum="10202" ratio="7.0" baseLoc="33631,32678" basePixel="259,174">			Giran Castle			<NPC icon="3839" loc="33669,32694" mapDesc="109" color="255,255,255"/>			colbert		</Map>-->
+		<Map id="103" mapDesc="167" mapNum="4" pngNum="10203" ratio="12.0" baseLoc="33430,32813" basePixel="816,536">
+			<NPC icon="3834" loc="33437,32795" mapDesc="143" color="255,255,255"/>
+			<!--teleporter wilma-->
+			<NPC icon="3827" loc="33438,32807" mapDesc="76" color="255,255,255"/>
+			<!--giran trade zone teleporter-->
+			<NPC icon="3827" loc="33528,32851" mapDesc="76" color="255,255,255"/>
+			<!--giran trade zone teleporter-->
+			<NPC icon="3827" loc="33509,32763" mapDesc="76" color="255,255,255"/>
+			<!--giran trade zone teleporter-->
+			<NPC icon="3825" loc="33433,32817" mapDesc="130" color="255,255,255"/>
+			<!--checker-->
+			<NPC icon="3825" loc="33426,32810" mapDesc="130" color="255,255,255"/>
+			<!--checker-->
+			<NPC icon="3822" loc="33431,32785" mapDesc="98" color="255,255,255"/>
+			<!--Mally in Giran City innkeeper-->
+			<NPC icon="3820" loc="33455,32820" mapDesc="115" color="255,255,255"/>
+			<!--mayer-->
+			<NPC icon="3820" loc="33383,32730" mapDesc="115" color="255,255,255"/>
+			<!--verita-->
+			<!--    <NPC icon="3839" loc="33424,32793" mapDesc="352" color="255,255,255"/>    -->
+			<!--snaper-->
+			<!--<NPC icon="3821" loc="33338,32722" mapDesc="147" color="255,255,255"/>-->
+			<!--pet almon-->
+			<!--<NPC icon="3821" loc="33492,32688" mapDesc="147" color="255,255,255"/>-->
+			<!--pet kevin-->
+			<NPC icon="3824" loc="33436,32805" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop f-->
+			<NPC icon="3829" loc="33491,32761" mapDesc="484" color="255,255,255"/>
+			<!-- kaiser -->
+			<Tell index="0" group="3" mapDesc="354"/>
+			<!-- town teleport north-->
+			<Tell index="1" group="3" mapDesc="357"/>
+			<!-- town teleport south-->
+			<NPC icon="3833" loc="33414,32791" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="104" mapDesc="201" mapNum="4" pngNum="10204" ratio="10.0" baseLoc="34044,32278" basePixel="377,303">
+			<!--Oren town-->
+			<NPC icon="3834" loc="34063,32278" mapDesc="143" color="255,255,255"/>
+			<!--teleporter kirius-->
+			<NPC icon="3827" loc="34063,32272" mapDesc="76" color="255,255,255"/>
+			<!--teleporter market elber-->
+			<NPC icon="3820" loc="34065,32289" mapDesc="115" color="255,255,255"/>
+			<!--bius-->
+			<NPC icon="3822" loc="34062,32252" mapDesc="98" color="255,255,255"/>
+			<!--Yenke in Oren innkeeper-->
+			<NPC icon="3839" loc="34051,32261" mapDesc="352" color="255,255,255"/>
+			<!--snaper-->
+			<NPC icon="3825" loc="34054,32287" mapDesc="130" color="255,255,255"/>
+			<!--checker hirim-->
+			<!--<NPC icon="3821" loc="34079,32296" mapDesc="147" color="255,255,255"/>-->
+			<!--pet mild-->
+			<NPC icon="3824" loc="34065 32280" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop i-->
+			<NPC icon="3834" loc="34089,32269" mapDesc="143" color="255,255,255"/>
+			<!--teleporter brad-->
+			<NPC icon="3838" loc="34072,32271" mapDesc="545" color="255,255,255"/>
+			<!--Quest marbin-->
+			<NPC icon="3833" loc="34074,32309" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="105" mapDesc="195" mapNum="4" pngNum="10205" ratio="12.0" baseLoc="34096,33206" basePixel="209,116">
+			<!--Aden Castle-->
+		</Map>
+		<Map id="106" mapDesc="194" mapNum="4" pngNum="10206" ratio="16.0" baseLoc="33927,33345" basePixel="780,767">
+			<!--Aden Village-->
+			<NPC icon="3834" loc="33964,33252" mapDesc="143" color="255,255,255"/>
+			<!--teleporter sirius-->
+			<NPC icon="3834" loc="33934,33351" mapDesc="143" color="255,255,255"/>
+			<!--teleporter elleris-->
+			<NPC icon="3834" loc="34090,33146" mapDesc="143" color="255,255,255"/>
+			<!--teleporter serin-->
+			<NPC icon="3825" loc="34086,33144" mapDesc="130" color="255,255,255"/>
+			<!--checker timpkin-->
+			<NPC icon="3825" loc="33962,33243" mapDesc="130" color="255,255,255"/>
+			<!--checker kamoo-->
+			<NPC icon="3825" loc="34001,33351" mapDesc="130" color="255,255,255"/>
+			<!--checker jooke-->
+			<NPC icon="3825" loc="33922,33345" mapDesc="130" color="255,255,255"/>
+			<!--checker karudim-->
+			<NPC icon="3822" loc="33988,33311" mapDesc="98" color="255,255,255"/>
+			<!--sbin in aden Town innkeeper-->
+			<NPC icon="3820" loc="33927,33334" mapDesc="115" color="255,255,255"/>
+			<!--mellisa-->
+			<NPC icon="3820" loc="34126,33149" mapDesc="115" color="255,255,255"/>
+			<!--catherine-->
+			<NPC icon="3820" loc="34152,33124" mapDesc="115" color="255,255,255"/>
+			<!--raon-->
+			<NPC icon="3833" loc="33960,33361" mapDesc="356" color="255,255,255"/>
+			<!--church-->
+			<!--<NPC icon="3821" loc="33920,33164" mapDesc="147" color="255,255,255"/>-->
+			<!--pet pau-->
+			<NPC icon="3824" loc="33973,33242" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop j-->
+			<NPC icon="3824" loc="33937,33358" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop k-->
+			<Tell index="0" group="1" mapDesc="354"/>
+			<!-- town teleport north-->
+			<Tell index="1" group="1" mapDesc="355"/>
+			<!-- town teleport center-->
+			<Tell index="2" group="1" mapDesc="356"/>
+			<!-- town teleport south-->
+			<NPC icon="3833" loc="33943,33327" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<!--<Map id="107" mapDesc="205" mapNum="4" pngNum="10207" ratio="6.0" baseLoc="32798,32291" basePixel="278,159">-->
+		<!--Orc Castle-->
+		<!--</Map>-->
+		<Map id="108" mapDesc="206" mapNum="4" pngNum="10208" ratio="8.0" baseLoc="33048,32347" basePixel="376,300">
+			<!--Elf forest-->
+			<NPC icon="3839" loc="33054,32337" mapDesc="74" color="255,255,255"/>
+			<!--mother of the forest and elves-->
+			<NPC icon="3834" loc="33054,32348" mapDesc="143" color="255,255,255"/>
+			<!--teleporter eluna-->
+			<NPC icon="3825" loc="33067,32343" mapDesc="353" color="255,255,255"/>
+			<!--elven checker-->
+			<NPC icon="3825" loc="33065,32341" mapDesc="130" color="255,255,255"/>
+			<!--checker-->
+			<NPC icon="3820" loc="33069,32336" mapDesc="115" color="255,255,255"/>
+			<!--elfin-->
+			<NPC icon="3830" loc="33080,32339" mapDesc="121" color="255,255,255"/>
+			<!--elli-->
+			<NPC icon="3824" loc="33059,32344" mapDesc="331" color="255,255,255"/>
+			<!--"buff shop m"-->
+		</Map>
+		<Map id="109" mapDesc="208" mapNum="4" pngNum="10209" ratio="8.0" baseLoc="32612,33215" basePixel="508,320">
+			<!--Woodvac Village-->
+			<NPC icon="3834" loc="32640,33189" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter trey -->
+			<NPC icon="3820" loc="32644,33182" mapDesc="115" color="255,255,255"/>
+			<!-- elmina -->
+			<NPC icon="3822" loc="32623,33164" mapDesc="98" color="255,255,255"/>
+			<!-- Velisa in Woodbec Town innkeeper -->
+			<NPC icon="3825" loc="32625,33184" mapDesc="130" color="255,255,255"/>
+			<!-- checker tarkin -->
+			<NPC icon="3821" loc="32651,33204" mapDesc="147" color="255,255,255"/>
+			<!-- marbin -->
+			<NPC icon="3839" loc="32596,33160" mapDesc="391" color="255,255,255"/>
+			<!-- deporoju -->
+			<NPC icon="3824" loc="32640,33183" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop d -->
+			<NPC icon="3833" loc="32604,33192" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="110" mapDesc="209" mapNum="4" pngNum="10210" ratio="8.0" baseLoc="33715,32501" basePixel="325,277">
+			<!--Welldone Village-->
+			<NPC icon="3834" loc="33709,32499" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter leslie-->
+			<NPC icon="3825" loc="33724,32491" mapDesc="130" color="255,255,255"/>
+			<!--checker excelron-->
+			<NPC icon="3820" loc="33739,32492" mapDesc="115" color="255,255,255"/>
+			<!--berry-->
+			<!--<NPC icon="3821" loc="33687,32498" mapDesc="147" color="255,255,255"/>-->
+			<!--pet cove-->
+			<NPC icon="3824" loc="33713,32501" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop h-->
+			<NPC icon="3833" loc="33736,32507" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="111" mapDesc="210" mapNum="4" pngNum="10211" ratio="8.0" baseLoc="32623,33379" basePixel="149,166">
+			<!--Windawood Castle-->
+			<NPC icon="3839" loc="32645,33425" mapDesc="109" color="255,255,255"/>
+			<!--halt-->
+		</Map>
+		<Map id="112" mapDesc="211" mapNum="4" pngNum="10212" ratio="8.0" baseLoc="33107,33358" basePixel="364,154">
+			<!--SilverKnight Village-->
+			<NPC icon="3825" loc="33078,33398" mapDesc="130" color="255,255,255"/>
+			<!-- checker godam-->
+			<NPC icon="3834" loc="33083,33385" mapDesc="143" color="255,255,255"/>
+			<!-- silver knight  teleporter met-->
+			<NPC icon="3827" loc="33102,33376" mapDesc="76" color="255,255,255"/>
+			<!-- silver knight market teleporter-->
+			<NPC icon="3822" loc="33115,33376" mapDesc="98" color="255,255,255"/>
+			<!-- Miranda in Silver Knight Town innkeeper-->
+			<NPC icon="3820" loc="33098,33396" mapDesc="115" color="255,255,255"/>
+			<!-- mellin-->
+			<!--<NPC icon="3821" loc="33055,33408" mapDesc="147" color="255,255,255"/>-->
+			<!-- pet burz-->
+			<NPC icon="3823" loc="33109,33355" mapDesc="16" color="255,255,255"/>
+			<!-- anon-->
+			<NPC icon="3824" loc="33089,33393" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop e-->
+			<NPC icon="3833" loc="33060,33383" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="113" mapDesc="220" mapNum="4" pngNum="10213" ratio="10.0" baseLoc="33168,32779" basePixel="520,262">
+			<!--Kent Castle-->
+			<NPC icon="3823" loc="33142,32738" mapDesc="16" color="255,255,255"/>
+			<!-- gayle-->
+			<NPC icon="3839" loc="33126,32799" mapDesc="109" color="255,255,255"/>
+			<!-- hunt-->
+		</Map>
+		<Map id="114" mapDesc="219" mapNum="4" pngNum="10214" ratio="8.0" baseLoc="33057,32762" basePixel="348,235">
+			<!--Kent Village-->
+			<NPC icon="3834" loc="33050,32783" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter stanley-->
+			<NPC icon="3820" loc="33065,32733" mapDesc="115" color="255,255,255"/>
+			<!-- ysorya-->
+			<NPC icon="3821" loc="33032,32746" mapDesc="147" color="255,255,255"/>
+			<!-- dick-->
+			<NPC icon="3825" loc="33055,32788" mapDesc="130" color="255,255,255"/>
+			<!-- checker sram-->
+			<NPC icon="3824" loc="33053,32775" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop -->
+			<NPC icon="3833" loc="33049,32761" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="115" mapDesc="227" mapNum="4" pngNum="10215" ratio="10.0" baseLoc="33607,33239" basePixel="349,296">
+			<NPC icon="3834" loc="33613,33257" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter riol-->
+			<NPC icon="3825" loc="33601,33253" mapDesc="130" color="255,255,255"/>
+			<!-- checker hakim-->
+			<NPC icon="3822" loc="33601,33273" mapDesc="98" color="255,255,255"/>
+			<!-- Elly in Heine innkeeper-->
+			<NPC icon="3820" loc="33598,33273" mapDesc="115" color="255,255,255"/>
+			<!-- britt-->
+			<NPC icon="3824" loc="33612,33250" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop g-->
+			<NPC icon="3833" loc="33590,33229" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map id="116" mapDesc="228" mapNum="4" pngNum="10216" ratio="8.0" baseLoc="33523,33386" basePixel="196,134">
+			<!--Heine Castle-->
+			<NPC icon="3839" loc="33515,33444" mapDesc="109" color="255,255,255"/>
+			<!-- vaiger-->
+		</Map>
+		<Map id="117" mapDesc="233" mapNum="4" pngNum="10217" ratio="6.0" baseLoc="32741,32449" basePixel="393,266">
+			<!--Orc forest Village-->
+			<NPC icon="3834" loc="32738,32449" mapDesc="143" color="255,255,255"/>
+			<!--teleporter jipran-->
+			<NPC icon="3834" loc="32725,32468" mapDesc="143" color="255,255,255"/>
+			<!--teleporter duobal-->
+			<NPC icon="3825" loc="32740,32441" mapDesc="130" color="255,255,255"/>
+			<!-- checker kuhatin-->
+			<NPC icon="3820" loc="32748,32432" mapDesc="115" color="255,255,255"/>
+			<!-- jackson-->
+			<NPC icon="3838" loc="32739,32427" mapDesc="25" color="255,255,255"/>
+			<!-- lyra-->
+			<NPC icon="3833" loc="32728,32431" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+			<!--<NPC icon="3834" loc="32763,32444" mapDesc="553" color="255,255,255"/>-->
+			<!--pet trainer-->
+			<!--<NPC icon="3833" loc="32759,32467" mapDesc="554" color="255,255,255"/>-->
+			<!--pet soulhealer-->
+			<!--<NPC icon="3820" loc="32759,32440" mapDesc="147" color="255,255,255"/>-->
+			<!--pet itemmechant-->
+			<!--<NPC icon="3821" loc="32759,32450" mapDesc="555" color="255,255,255"/>-->
+			<!--pet breeder-->
+			<!--<NPC icon="3839" loc="32747,32465" mapDesc="556" color="255,255,255"/>-->
+			<!--pet buyer-->
+			<!--<NPC icon="3834" loc="32762,32454" mapDesc="557" color="255,255,255"/>-->
+			<!--pet teleport-->
+		</Map>
+		<Map id="118" mapDesc="196" mapNum="4" pngNum="10218" ratio="6.0" baseLoc="33968,32949" basePixel="557,292">
+			<!--Aden Gypsy Village-->
+			<NPC icon="3820" loc="33969,32958" mapDesc="393" color="255,255,255"/>
+			<!--cruna tam shop-->
+			<NPC icon="3834" loc="33969,32962" mapDesc="143" color="255,255,255"/>
+			<!--tam shop edlen-->
+			<NPC icon="3838" loc="33972,32959" mapDesc="390" color="255,255,255"/>
+			<!--tam shop ekins-->
+		</Map>
+		<Map id="119" mapDesc="221" mapNum="15" pngNum="16175" ratio="5.0" baseLoc="32736,32807" basePixel="482,328">
+			<!--Kent inner Castle-->
+			<NPC icon="3834" loc="32734,32783" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter-->
+			<NPC icon="3839" loc="32738,32783" mapDesc="77" color="255,255,255"/>
+			<!-- ishmael-->
+			<NPC icon="3825" loc="32749,32786" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3824" loc="32747,32784" mapDesc="246" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3824" loc="32747,32785" mapDesc="247" color="255,255,255"/>
+			<!-- enchanter-->
+		</Map>
+		<Map id="120" mapDesc="244" mapNum="29" pngNum="10220" ratio="3.0" baseLoc="32735,32783" basePixel="174,128">
+			<!--Windawood inner Castle-->
+			<NPC icon="3834" loc="32733,32783" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter-->
+			<NPC icon="3839" loc="32737,32783" mapDesc="77" color="255,255,255"/>
+			<!-- othmond-->
+			<NPC icon="3825" loc="32749,32787" mapDesc="130" color="255,255,255"/>
+			<!-- checker bogin-->
+			<NPC icon="3824" loc="32746,32785" mapDesc="246" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3824" loc="32744,32785" mapDesc="247" color="255,255,255"/>
+			<!-- enchanter-->
+		</Map>
+		<!--<Map id="121" mapDesc="169" mapNum="52" pngNum="10221" ratio="4.0" baseLoc="32732,32800" basePixel="240,153">-->
+		<!--Giran inner Castle-->
+		<!--<NPC icon="3834" loc="32733,32791" mapDesc="143" color="255,255,255"/>-->
+		<!-- teleporter-->
+		<!--<NPC icon="3839" loc="32732,32789" mapDesc="77" color="255,255,255"/>-->
+		<!-- orville-->
+		<!--<NPC icon="3825" loc="32742,32815" mapDesc="130" color="255,255,255"/>-->
+		<!-- checker-->
+		<!--<NPC icon="3824" loc="32741,32813" mapDesc="246" color="255,255,255"/>-->
+		<!-- enchanter-->
+		<!--<NPC icon="3824" loc="32742,32813" mapDesc="247" color="255,255,255"/>-->
+		<!-- enchanter-->
+		<!--</Map>-->
+		<Map id="124" mapDesc="229" mapNum="64" pngNum="10224" ratio="5.0" baseLoc="32574,32769" basePixel="0,0">
+			<!--Heine inner Castle-->
+			<NPC icon="3834" loc="32579,32811" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter-->
+			<NPC icon="3839" loc="32579,32813" mapDesc="77" color="255,255,255"/>
+			<!-- fisher-->
+			<NPC icon="3825" loc="32558,32847" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3824" loc="32557,32845" mapDesc="246" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3824" loc="32557,32846" mapDesc="247" color="255,255,255"/>
+			<!-- enchanter-->
+		</Map>
+		<Map id="125" mapDesc="216" mapNum="66" pngNum="10225" ratio="12.0" baseLoc="32829,32818" basePixel="242,93">
+			<!--dwarf cave-->
+			<NPC icon="3834" loc="32865,32803" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter-->
+			<NPC icon="3839" loc="32865,32808" mapDesc="77" color="255,255,255"/>
+			<!-- potempin-->
+			<NPC icon="3825" loc="32851,32796" mapDesc="130" color="255,255,255"/>
+			<!-- cheker-->
+			<NPC icon="3820" loc="32861,32801" mapDesc="115" color="255,255,255"/>
+			<!-- ubuy-->
+		</Map>
+		<Map id="126" mapDesc="255" mapNum="68" pngNum="10226" ratio="6.0" baseLoc="32818,32744" basePixel="353,109">
+			<!--neo singing island Village-->
+			<NPC icon="3827" loc="32814,32739" mapDesc="2" color="255,255,255"/>
+			<!-- morpher-->
+			<NPC icon="3827" loc="32824,32719" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32823,32757" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32782,32752" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32732,32771" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3823" loc="32738,32759" mapDesc="16" color="255,255,255"/>
+			<!-- rion-->
+			<NPC icon="3820" loc="32825,32721" mapDesc="40" color="255,255,255"/>
+			<!-- siriss-->
+			<NPC icon="3820" loc="32757,32757" mapDesc="50" color="255,255,255"/>
+			<!-- johan-->
+			<NPC icon="3820" loc="32807,32735" mapDesc="115" color="255,255,255"/>
+			<!-- rose-->
+			<NPC icon="3823" loc="32785,32851" mapDesc="141" color="255,255,255"/>
+			<!-- kun-->
+			<NPC icon="3824" loc="32795,32773" mapDesc="17" color="255,255,255"/>
+			<!-- ishtar-->
+			<NPC icon="3824" loc="32788,32758" mapDesc="60" color="255,255,255"/>
+			<!-- feaena-->
+			<NPC icon="3827" loc="32819,32739" mapDesc="246" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32821,32739" mapDesc="247" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32815,32744" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32781,32778" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32798,32776" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32755,32757" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+		</Map>
+		<Map id="127" mapDesc="254" mapNum="69" pngNum="10227" ratio="6.0" baseLoc="32681,32792" basePixel="0,0">
+			<!--neo hidden valley Village-->
+			<NPC icon="3827" loc="32679,32858" mapDesc="2" color="255,255,255"/>
+			<!-- morpher-->
+			<NPC icon="3827" loc="32645,32858" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32666,32890" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32735,32887" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32729,32867" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3827" loc="32664,32841" mapDesc="3" color="255,255,255"/>
+			<!-- treno-->
+			<NPC icon="3838" loc="32716,32865" mapDesc="30" color="255,255,255"/>
+			<!-- rekman-->
+			<NPC icon="3823" loc="32712,32865" mapDesc="16" color="255,255,255"/>
+			<!-- cuse-->
+			<NPC icon="3820" loc="32675,32841" mapDesc="115" color="255,255,255"/>
+			<!-- fraoun-->
+			<NPC icon="3833" loc="32680,32811" mapDesc="141" color="255,255,255"/>
+			<!-- coco-->
+			<NPC icon="3824" loc="32688,32871" mapDesc="143" color="255,255,255"/>
+			<!-- illdrath-->
+			<NPC icon="3824" loc="32697,32852" mapDesc="107" color="255,255,255"/>
+			<!-- barnia-->
+			<NPC icon="3824" loc="32685,32847" mapDesc="136" color="255,255,255"/>
+			<!-- karen-->
+			<NPC icon="3824" loc="32679,32847" mapDesc="80" color="255,255,255"/>
+			<!-- asha-->
+			<NPC icon="3827" loc="32681,32858" mapDesc="246" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32683,32858" mapDesc="247" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32678,32863" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32720,32876" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32673,32836" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3827" loc="32658,32853" mapDesc="6" color="255,255,255"/>
+			<!-- enchanter-->
+		</Map>
+		<Map id="128" mapDesc="214" mapNum="70" pngNum="23209" ratio="46.0" baseLoc="32817,32851" basePixel="411,229">
+			<!--forgotten island Village-->
+			<!-- NPC icon="3820" loc="32939,33046" mapDesc="70" color="255,255,255"/ -->
+			<!-- oblivion-->
+			<!-- NPC icon="3820" loc="32649,33020" mapDesc="115" color="255,255,255"/ -->
+			<!-- chiky-->
+			<NPC icon="3820" loc="32637,32683" mapDesc="115" color="255,255,255"/>
+			<!-- tilon-->
+			<NPC icon="3824" loc="32627,32687" mapDesc="143" color="255,255,255"/>
+			<!-- luck-->
+			<NPC icon="3824" loc="32625,32687" mapDesc="331" color="255,255,255"/>
+			<!-- asiris-->
+		</Map>
+		<Map id="129" mapDesc="257" mapNum="244" pngNum="10229" ratio="2.0" baseLoc="32982,32808" basePixel="263,204">
+			<!--Atuba Fortress Dungeon Village-->
+			<NPC icon="3838" loc="32991,32810" mapDesc="238" color="255,255,255"/>
+			<!-- orcfnoa-->
+			<NPC icon="3838" loc="32993,32801" mapDesc="239" color="255,255,255"/>
+			<!-- orcfkame-->
+			<NPC icon="3838" loc="32976,32802" mapDesc="240" color="255,255,255"/>
+			<!-- orcfbakumo-->
+			<NPC icon="3838" loc="32979,32818" mapDesc="241" color="255,255,255"/>
+			<!-- orcfbuka-->
+			<NPC icon="3838" loc="32984,32825" mapDesc="242" color="255,255,255"/>
+			<!-- orcfhuwoomo-->
+			<NPC icon="3838" loc="32992,32814" mapDesc="243" color="255,255,255"/>
+			<!-- orcfbawoo-->
+		</Map>
+		<Map id="130" mapDesc="197" mapNum="300" pngNum="16229" ratio="6.0" baseLoc="32894,32539" basePixel="218,139">
+			<!--Aden inner Castle-->
+			<NPC icon="3834" loc="32891,32524" mapDesc="143" color="255,255,255"/>
+			<!-- teleporter-->
+			<NPC icon="3839" loc="32898,32524" mapDesc="77" color="255,255,255"/>
+			<!-- timon-->
+			<NPC icon="3825" loc="32873,32535" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3839" loc="32893,32524" mapDesc="109" color="255,255,255"/>
+			<!-- biust-->
+			<NPC icon="3824" loc="32876,32537" mapDesc="247" color="255,255,255"/>
+			<!-- enchanter-->
+			<NPC icon="3824" loc="32874,32537" mapDesc="246" color="255,255,255"/>
+			<!-- enchanter-->
+		</Map>
+		<!--<Map id="131" mapDesc="258" mapNum="304" pngNum="10231" ratio="6.0" baseLoc="32857,32909" basePixel="415,269">-->
+		<!--silence cave Village-->
+		<!--<NPC icon="3834" loc="32878,32899" mapDesc="143" color="255,255,255"/>-->
+		<!-- teleporter daniel-->
+		<!--<NPC icon="3825" loc="32877,32910" mapDesc="130" color="255,255,255"/>-->
+		<!-- checker rayas-->
+		<!--<NPC icon="3820" loc="32870,32893" mapDesc="115" color="255,255,255"/>-->
+		<!-- scwaty-->
+		<!--<NPC icon="3823" loc="32830,32971" mapDesc="16" color="255,255,255"/>-->
+		<!-- koup-->
+		<!--</Map>-->
+		<Map id="132" mapDesc="204" mapNum="310" pngNum="10232" ratio="5.0" baseLoc="32801,32807" basePixel="263,169">
+			<!--Oum Village-->
+			<NPC icon="3820" loc="32788,32806" mapDesc="115" color="255,255,255"/>
+			<!-- karupu-->
+			<NPC icon="3825" loc="32806,32797" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3824" loc="32805,32794" mapDesc="143" color="255,255,255"/>
+			<!-- diaruz-->
+		</Map>
+		<Map id="133" mapDesc="259" mapNum="320" pngNum="10233" ratio="6.0" baseLoc="32864,32893" basePixel="405,18">
+			<!--diad fortress Village-->
+			<NPC icon="3823" loc="32836,32886" mapDesc="16" color="255,255,255"/>
+			<!-- adelio-->
+			<NPC icon="3823" loc="32865,32895" mapDesc="16" color="255,255,255"/>
+			<!-- frim-->
+			<NPC icon="3820" loc="32791,32889" mapDesc="115" color="255,255,255"/>
+			<!-- emart-->
+			<NPC icon="3826" loc="32874,32911" mapDesc="84" color="255,255,255"/>
+			<!-- hagutin-->
+			<NPC icon="3826" loc="32755,32889" mapDesc="84" color="255,255,255"/>
+			<!-- consul-->
+			<NPC icon="3825" loc="32809 32911" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3824" loc="32813,32917" mapDesc="143" color="255,255,255"/>
+			<!-- daniel-->
+			<NPC icon="3838" loc="32821,32911" mapDesc="95" color="255,255,255"/>
+			<!-- eno-->
+			<NPC icon="3821" loc="32780,32933" mapDesc="147" color="255,255,255"/>
+			<!-- alri-->
+			<NPC icon="3838" loc="32843,32899" mapDesc="87" color="255,255,255"/>
+			<!-- ataroze-->
+		</Map>
+		<Map id="134" mapDesc="166" mapNum="340" pngNum="10234" ratio="6.0" baseLoc="32753,32831" basePixel="238,190">
+			<!--gludin trade zone-->
+			<NPC icon="3825" loc="32745,32842" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3825" loc="32778,32853" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3825" loc="32783,32818" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3820" loc="32796,32812" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3820" loc="32754,32831" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3820" loc="32789,32846" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3824" loc="32770,32796" mapDesc="291" color="255,255,255"/>
+			<!-- gludin market teleporter-->
+			<NPC icon="3824" loc="32731,32807" mapDesc="291" color="255,255,255"/>
+			<!-- gludin market teleporter-->
+			<NPC icon="3824" loc="32755,32867" mapDesc="291" color="255,255,255"/>
+			<!-- gludin market teleporter-->
+			<NPC icon="3824" loc="32804,32821" mapDesc="291" color="255,255,255"/>
+			<!-- gludin market teleporter-->
+			<NPC icon="3824" loc="32768,32792" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32765,32792" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32811,32818" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32811,32822" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32757,32871" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32760,32871" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32725,32812" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+			<NPC icon="3824" loc="32725,32816" mapDesc="292" color="255,255,255"/>
+			<!-- gludin trade zone guard-->
+		</Map>
+		<Map id="135" mapDesc="170" mapNum="350" pngNum="10235" ratio="5.0" baseLoc="32690,32834" basePixel="243,195">
+			<!--giran trade zone-->
+			<NPC icon="3825" loc="32707,32819" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3825" loc="32693,32844" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3820" loc="32688,32835" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3820" loc="32715,32826" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3824" loc="32711,32809" mapDesc="291" color="255,255,255"/>
+			<!-- giran market teleporter-->
+			<NPC icon="3824" loc="32679,32849" mapDesc="291" color="255,255,255"/>
+			<!-- giran market teleporter-->
+			<NPC icon="3824" loc="32722,32847" mapDesc="291" color="255,255,255"/>
+			<!-- giran market teleporter-->
+			<NPC icon="3824" loc="32707,32807" mapDesc="292" color="255,255,255"/>
+			<!-- giran trade zone guard-->
+			<NPC icon="3824" loc="32704,32807" mapDesc="292" color="255,255,255"/>
+			<!-- giran trade zone guard-->
+			<NPC icon="3824" loc="32672,32848" mapDesc="292" color="255,255,255"/>
+			<!-- giran trade zone guard-->
+			<NPC icon="3824" loc="32672,32851" mapDesc="292" color="255,255,255"/>
+			<!-- giran trade zone guard-->
+			<NPC icon="3824" loc="32726,32842" mapDesc="292" color="255,255,255"/>
+			<!-- giran trade zone guard-->
+			<NPC icon="3824" loc="32726,32846" mapDesc="292" color="255,255,255"/>
+			<!-- giran trade zone guard-->
+		</Map>
+		<Map id="136" mapDesc="202" mapNum="360" pngNum="10236" ratio="3.0" baseLoc="32727,32793" basePixel="159,183">
+			<!--oren trade zone-->
+			<NPC icon="3825" loc="32733,32800" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3820" loc="32745,32803" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3824" loc="32743,32811" mapDesc="291" color="255,255,255"/>
+			<!-- oren market teleporter-->
+			<NPC icon="3824" loc="32730,32788" mapDesc="291" color="255,255,255"/>
+			<!-- oren market teleporter-->
+			<NPC icon="3824" loc="32739,32784" mapDesc="292" color="255,255,255"/>
+			<!-- oren trade zone guard-->
+			<NPC icon="3824" loc="32735,32784" mapDesc="292" color="255,255,255"/>
+			<!-- oren trade zone guard-->
+			<NPC icon="3824" loc="32734,32815" mapDesc="292" color="255,255,255"/>
+			<!-- oren trade zone guard-->
+			<NPC icon="3824" loc="32737,32815" mapDesc="292" color="255,255,255"/>
+			<!-- oren trade zone guard-->
+		</Map>
+		<Map id="137" mapDesc="212" mapNum="370" pngNum="10237" ratio="3.0" baseLoc="32733,32796" basePixel="235,165">
+			<!--silverknight trade zone-->
+			<NPC icon="3825" loc="33078,33398" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			<NPC icon="3820" loc="32744,32802" mapDesc="45" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3824" loc="32731,32810" mapDesc="291" color="255,255,255"/>
+			<!-- silver market teleporter-->
+			<NPC icon="3824" loc="32745,32787" mapDesc="291" color="255,255,255"/>
+			<!-- silver market teleporter-->
+			<NPC icon="3824" loc="32740,32784" mapDesc="292" color="255,255,255"/>
+			<!-- silver knight trade zone guard-->
+			<NPC icon="3824" loc="32737,32784" mapDesc="292" color="255,255,255"/>
+			<!-- silver knight trade zone guard-->
+			<NPC icon="3824" loc="32735,32814" mapDesc="292" color="255,255,255"/>
+			<!-- silver knight trade zone guard-->
+			<NPC icon="3824" loc="32732,32814" mapDesc="292" color="255,255,255"/>
+			<!-- silver knight trade zone guard-->
+		</Map>
+		<Map id="139" mapDesc="231" mapNum="440" pngNum="10239" ratio="6.0" baseLoc="32431,33048" basePixel="256,128">
+			<!--Pirate island-->
+			<NPC icon="3825" loc="32425,33068" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+			>
+			<NPC icon="3820" loc="32424,33032" mapDesc="115" color="255,255,255"/>
+			<!-- foni-->
+			<!--<NPC icon="3821" loc="32391,33042" mapDesc="147" color="255,255,255"/>-->
+			<!-- pet berik-->
+			<NPC icon="3833" loc="32423,33063" mapDesc="558" color="255,255,255"/>
+			<!--PC soulhealer-->
+		</Map>
+		<Map mapNum="140" pngNum="23180" ratio="15.0" baseLoc="32724,32924" basePixel="507,170" mapDesc="664">
+			<!-- 2020 dragon raid -->
+		</Map>
+		<Map id="141" mapDesc="232" mapNum="480" pngNum="10241" ratio="6.0" baseLoc="32852,32792" basePixel="319,44">
+			<!--Pirate island the latter half Village-->
+		</Map>
+		<Map id="142" mapDesc="188" mapNum="613" pngNum="10242" ratio="6.0" baseLoc="32736,32869" basePixel="223,150">
+			<!--PC bang Village-->
+			<NPC icon="3820" loc="32740,32854" mapDesc="248" color="255,255,255"/>
+			<!-- suspicious merchant-->
+			<NPC icon="3820" loc="32739,32862" mapDesc="249" color="255,255,255"/>
+			<!-- suspicious polymorph merchant-->
+			<NPC icon="3820" loc="32743,32866" mapDesc="250" color="255,255,255"/>
+			<!-- suspicious weapon merchant-->
+			<NPC icon="3820" loc="32729,32858" mapDesc="251" color="255,255,255"/>
+			<!-- sub sus merchant-->
+			<NPC icon="3820" loc="32743,32869" mapDesc="252" color="255,255,255"/>
+			<!-- suspicious armor merchant-->
+		</Map>
+		<!--<Map id="143" mapDesc="192" mapNum="1000" pngNum="10243" ratio="8.0" baseLoc="32802,32862" basePixel="291,151">			silveria Village			<NPC icon="3823" loc="32805,32813" mapDesc="16" color="255,255,255"/>			illusionist batr			<NPC icon="3820" loc="32760,32884" mapDesc="41" color="255,255,255"/>			illusionist sbial			<NPC icon="3834" loc="32842,32860" mapDesc="143" color="255,255,255"/>			teleporter sharial			<NPC icon="3839" loc="32772,32811" mapDesc="116" color="255,255,255"/>			illusionist silrein		</Map>-->
+		<!--<Map id="144" mapDesc="184" mapNum="1001" pngNum="10244" ratio="6.0" baseLoc="32801,32863" basePixel="288,162">			behemoth Village			<NPC icon="3823" loc="32790,32838" mapDesc="16" color="255,255,255"/>			dragonknight pual			<NPC icon="3820" loc="32824,32872" mapDesc="41" color="255,255,255"/>			 ragonknight jepar			<NPC icon="3834" loc="32784,32883" mapDesc="143" color="255,255,255"/>			teleporter dekabia			<NPC icon="3839" loc="32817,32831" mapDesc="117" color="255,255,255"/>			dragonknight prokel		</Map>-->
+		<Map id="145" mapDesc="254" mapNum="2005" pngNum="10245" ratio="6.0" baseLoc="32680,32863" basePixel="280,141">
+			<!--new hidden vally Village-->
+			<NPC icon="3820" loc="32675,32841" mapDesc="115" color="255,255,255"/>
+			<!-- fraoun-->
+			<NPC icon="3830" loc="32686,32839" mapDesc="40" color="255,255,255"/>
+			<!--haface-->
+			<NPC icon="3824" loc="32679,32860" mapDesc="143" color="255,255,255"/>
+			<!--hpdoria-->
+			<NPC icon="3835" loc="32689,32850" mapDesc="134" color="255,255,3283"/>
+			<!-- newtutor-->
+			<NPC icon="3825" loc="32675,32852" mapDesc="130" color="255,255,255"/>
+			<!-- checker-->
+		</Map>
+		<Map id="146" mapDesc="188" mapNum="622" pngNum="10046" ratio="8.0" baseLoc="32778,32832" basePixel="490,224">
+			<!--PC bang Village-->
+			<NPC icon="3834" loc="32778,32840" mapDesc="250" color="255,255,255"/>
+			<!-- teleporter suspicious -->
+			<NPC icon="3834" loc="32782,32825" mapDesc="250" color="255,255,255"/>
+			<!-- teleporter ob -->
+			<NPC icon="3825" loc="32773,32833" mapDesc="249" color="255,255,255"/>
+			<!-- checker-->
+			<!--<NPC icon="3821" loc="32807,32800" mapDesc="147" color="255,255,255"/> -->
+			<!-- pet pigret -->
+			<NPC icon="3824" loc="32785,32829" mapDesc="251" color="255,255,255"/>
+			<!-- buff npc-->
+		</Map>
+		<Map id="148" mapDesc="376" mapNum="4" pngNum="10265" ratio="6.0" baseLoc="32866,32801" basePixel="416,290">
+			<!--Magicians Laboratory-->
+			<NPC icon="3838" loc="32883,32784" mapDesc="375" color="255,255,255"/>
+			<!--seirune-->
+			<NPC icon="3839" loc="32859,32785" mapDesc="100" color="255,255,255"/>
+			<!--alchemy riddle-->
+			<NPC icon="3820" loc="32885,32806" mapDesc="485" color="255,255,255"/>
+			<!--poi-->
+			<NPC icon="3838" loc="32877,32787" mapDesc="408" color="255,255,255"/>
+			<!--nerva-->
+		</Map>
+		<Map id="149" mapDesc="377" mapNum="292" pngNum="10267" ratio="8.0" baseLoc="32797,32839" basePixel="296,139">
+			<!--Magicians Laboratory-->
+			<NPC icon="3820" loc="32765,32836" mapDesc="379" color="255,255,255"/>
+			<!--pandi-->
+			<NPC icon="3820" loc="32786,32813" mapDesc="379" color="255,255,255"/>
+			<!--pandi-->
+			<NPC icon="3820" loc="32826,32836" mapDesc="380" color="255,255,255"/>
+			<!--rabbi-->
+			<NPC icon="3820" loc="32805,32812" mapDesc="380" color="255,255,255"/>
+			<!--rabbi-->
+			<NPC icon="3824" loc="32770,32836" mapDesc="382" color="255,255,255"/>
+			<!--minigame world teleporter-->
+			<NPC icon="3824" loc="32793,32843" mapDesc="382" color="255,255,255"/>
+			<!--minigame world teleporter-->
+			<NPC icon="3824" loc="32821,32837" mapDesc="382" color="255,255,255"/>
+			<!--minigame world teleporter-->
+			<NPC icon="3824" loc="32796,32811" mapDesc="382" color="255,255,255"/>
+			<!--minigame world teleporter-->
+			<NPC icon="3839" loc="32793,32839" mapDesc="381" color="255,255,255"/>
+			<!--information clerk-->
+			<NPC icon="3839" loc="32797,32843" mapDesc="381" color="255,255,255"/>
+			<!--information clerk-->
+			<NPC icon="3820" loc="32814,32835" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32778,32834" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3839" loc="32805,32854" mapDesc="119" color="255,255,255"/>
+			<!--keplisha-->
+			<NPC icon="3824" loc="32775,32860" mapDesc="143" color="255,255,255"/>
+			<!--balloon-->
+		</Map>
+		<Map id="150" mapDesc="383" mapNum="292" pngNum="10268" ratio="8.0" baseLoc="32802,32969" basePixel="274,134">
+			<!--Magicians Laboratory-->
+			<NPC icon="3828" loc="32793,32969" mapDesc="12" color="255,255,255"/>
+			<!--minigame fish teleporter-->
+			<NPC icon="3828" loc="32829,32931" mapDesc="12" color="255,255,255"/>
+			<!--minigame fish teleporter-->
+			<NPC icon="3828" loc="32831,33006" mapDesc="12" color="255,255,255"/>
+			<!--minigame fish teleporter-->
+			<NPC icon="3828" loc="32753,33021" mapDesc="12" color="255,255,255"/>
+			<!--minigame fish teleporter-->
+			<NPC icon="3828" loc="32743,32950" mapDesc="12" color="255,255,255"/>
+			<!--minigame fish teleporter-->
+			<NPC icon="3820" loc="32798,32969" mapDesc="14" color="255,255,255"/>
+			<!--fishing merchant-->
+			<NPC icon="3820" loc="32736,32956" mapDesc="14" color="255,255,255"/>
+			<!--fishing merchant-->
+			<NPC icon="3820" loc="32750,33018" mapDesc="14" color="255,255,255"/>
+			<!--fishing merchant-->
+			<NPC icon="3820" loc="32843,32998" mapDesc="14" color="255,255,255"/>
+			<!--fishing merchant-->
+			<NPC icon="3820" loc="32819,32933" mapDesc="14" color="255,255,255"/>
+			<!--fishing merchant-->
+			<NPC icon="3820" loc="32786,32967" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32830,32920" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32737,32996" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32847,32983" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32746,33029" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32765,32920" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32741,32959" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32842,33007" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+			<NPC icon="3820" loc="32792,33031" mapDesc="378" color="255,255,255"/>
+			<!--point merchant-->
+		</Map>
+		<!--<Map id="151" mapDesc="389" mapNum="260" pngNum="16214" ratio="5.0" baseLoc="32797,32885" basePixel="346,203">-->
+		<!--Orc inner Castle-->
+		<!--<NPC icon="3838" loc="32815,32846" mapDesc="15" color="255,255,255"/>-->
+		<!--orcf noname-->
+		<!--<NPC icon="3824" loc="32809,32840" mapDesc="246" color="255,255,255"/>-->
+		<!--orc armor enchanter-->
+		<!--<NPC icon="3824" loc="32811,32840" mapDesc="247" color="255,255,255"/>-->
+		<!--orc weapon enchanter-->
+		<!--<NPC icon="3834" loc="32793,32847" mapDesc="143" color="255,255,255"/>-->
+		<!--orc fort gatekeeper-->
+		<!--<NPC icon="3839" loc="32801,32847" mapDesc="288" color="255,255,255"/>-->
+		<!--seghem the chamberlain-->
+		<!--<NPC icon="3839" loc="32788,32841" mapDesc="109" color="255,255,255"/>-->
+		<!--kentu-->
+		<!--<NPC icon="3825" loc="32814,32841" mapDesc="130" color="255,255,255"/>-->
+		<!--checker orcron-->
+		<!--</Map>-->
+		<Map id="152" mapDesc="410" mapNum="7783" pngNum="10585" ratio="6.0" baseLoc="32638,32866" basePixel="290,155">
+			<!--craft table-->
+			<NPC icon="3826" loc="32643,32851" mapDesc="84" color="255,255,255"/>
+			<!--teleporter-->
+			<NPC icon="3824" loc="32652,32857" mapDesc="143" color="255,255,255"/>
+			<!--spell teacher-->
+			<NPC icon="3830" loc="32649,32849" mapDesc="40" color="255,255,255"/>
+			<!--seller-->
+			<NPC icon="3820" loc="32633,32852" mapDesc="115" color="255,255,255"/>
+			<!-- lala-->
+			<NPC icon="3835" loc="32652,32865" mapDesc="487" color="255,255,3283"/>
+			<!-- storage-->
+			<NPC icon="3825" loc="32635,32865" mapDesc="130" color="255,255,255"/>
+			<!-- bloodPledge-->
+			<NPC icon="3838" loc="32658,32854" mapDesc="269" color="255,255,255"/>
+			<!-- agata-->
+			<NPC icon="3832" loc="32612,32890" mapDesc="157" color="255,255,255"/>
+			<!-- eliuon-->
+			<NPC icon="3826" loc="32663,32884" mapDesc="120" color="255,255,255"/>
+			<!-- trade zone merchant-->
+			<NPC icon="3820" loc="32639,32869" mapDesc="45" color="255,255,255"/>
+		</Map>
+		<Map id="153" mapDesc="423" mapNum="8046" pngNum="23124" ratio="6.0" baseLoc="32799,32800" basePixel="369,270">
+			<!--jp vip Lobby-->
+			<NPC icon="3824" loc="32809,32785" mapDesc="417" color="255,255,255"/>
+			<!--jp vip buff-->
+			<NPC icon="3825" loc="32807,32785" mapDesc="418" color="255,255,255"/>
+			<!--jp vip storige-->
+			<NPC icon="3820" loc="32802,32783" mapDesc="419" color="255,255,255"/>
+			<!--jp vip special-->
+			<NPC icon="3820" loc="32798,32783" mapDesc="420" color="255,255,255"/>
+			<!--jp vip tshirt-->
+			<NPC icon="3834" loc="32820,32791" mapDesc="421" color="255,255,255"/>
+			<!--jp vip tel-->
+			<NPC icon="3834" loc="32814,32790" mapDesc="422" color="255,255,255"/>
+			<!--jp vip tel-->
+		</Map>
+		<Map id="154" listed="false" mapDesc="511" mapNum="1713" pngNum="13185" ratio="4.0" baseLoc="32780,32761" basePixel="277,158">
+			<!--inter fg renewal-->
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32780,32765" mapDesc="143" color="255,255,255"/>
+			<NPC icon="3834" loc="32738,32780" mapDesc="143" color="255,255,255"/>
+			<!-- enchant Wizard-->
+			<NPC icon="3824" loc="32775,32767" mapDesc="331" color="255,255,255"/>
+			<!--Chanlder-->
+			<NPC icon="3820" loc="32788,32758" mapDesc="115" color="255,255,255"/>
+			<NPC icon="3820" loc="32784,32767" mapDesc="115" color="255,255,255"/>
+		</Map>
+		<Map id="155" listed="false" mapDesc="511" mapNum="1714" pngNum="13185" ratio="4.0" baseLoc="32780,32761" basePixel="277,158">
+			<!--inter fg renewal-->
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32780,32765" mapDesc="143" color="255,255,255"/>
+			<NPC icon="3834" loc="32738,32780" mapDesc="143" color="255,255,255"/>
+			<!-- enchant Wizard-->
+			<NPC icon="3824" loc="32775,32767" mapDesc="331" color="255,255,255"/>
+			<!--Chanlder-->
+			<NPC icon="3820" loc="32788,32758" mapDesc="115" color="255,255,255"/>
+			<NPC icon="3820" loc="32784,32767" mapDesc="115" color="255,255,255"/>
+		</Map>
+		<Map id="156" listed="false" mapDesc="511" mapNum="1715" pngNum="13185" ratio="4.0" baseLoc="32780,32761" basePixel="277,158">
+			<!--inter fg renewal-->
+			<!-- teleport objects-->
+			<NPC icon="3834" loc="32780,32765" mapDesc="143" color="255,255,255"/>
+			<NPC icon="3834" loc="32738,32780" mapDesc="143" color="255,255,255"/>
+			<!-- enchant Wizard-->
+			<NPC icon="3824" loc="32775,32767" mapDesc="331" color="255,255,255"/>
+			<!--Chanlder-->
+			<NPC icon="3820" loc="32788,32758" mapDesc="115" color="255,255,255"/>
+			<NPC icon="3820" loc="32784,32767" mapDesc="115" color="255,255,255"/>
+		</Map>
+		<Map id="157" mapDesc="532" mapNum="3" pngNum="16173" ratio="12.0" baseLoc="32707,32804" basePixel="297,214">
+			<!--gunter house-->
+			<NPC icon="3838" loc="32684,32814" mapDesc="530" color="255,255,255"/>
+			<!--pigman-->
+			<NPC icon="3838" loc="32689,32843" mapDesc="533" color="255,255,255"/>
+			<!--spain-->
+			<NPC icon="3838" loc="32703,32843" mapDesc="534" color="255,255,255"/>
+			<!--grave-->
+			<NPC icon="3838" loc="32724,32842" mapDesc="535" color="255,255,255"/>
+			<!--warden-->
+			<NPC icon="3834" loc="32739,32847" mapDesc="537" color="255,255,255"/>
+			<!--shop-->
+		</Map>
+		<Map id="167" mapDesc="665" mapNum="4" pngNum="23181" ratio="7.0" baseLoc="34410,32212" basePixel="584,342">
+			<!-- luun village -->
+			<NPC icon="3834" loc="34401,32183" mapDesc="143" color="255,255,255"/>
+			<!--teleporter semin-->
+			<NPC icon="3820" loc="34399,32165" mapDesc="115" color="255,255,255"/>
+			<!--market rumin-->
+			<NPC icon="3822" loc="34423,32197" mapDesc="98" color="255,255,255"/>
+			<!--shabin in Luun innkeeper-->
+			<NPC icon="3825" loc="34409,32191" mapDesc="130" color="255,255,255"/>
+			<!--checker delrent-->
+			<NPC icon="3824" loc="34409 32180" mapDesc="331" color="255,255,255"/>
+			<!-- buff shop l-->
+			<NPC icon="3833" loc="34429,32176" mapDesc="558" color="255,255,255"/>
+			<!--angel-->
+		</Map>
+		<Map mapDesc="460" mapNum="7901" pngNum="23127" ratio="22.0" baseLoc="32767,32860" basePixel="288,288">
+			<!--jp lab-->
+			<NPC icon="3834" loc="32935,32863" mapDesc="646" color="255,255,255"/>
+			<!--jp lab tel-->
+			<NPC icon="3838" loc="32931,32857" mapDesc="647" color="255,255,255"/>
+			<!--jp lab quest-->
+			<NPC icon="3834" loc="32686,32864" mapDesc="646" color="255,255,255"/>
+			<!--jp lab tel-->
+		</Map>
+		<Map mapDesc="460" mapNum="7902" pngNum="23128" ratio="16.0" baseLoc="32840,32907" basePixel="658,246">
+			<!--jp lab-->
+			<NPC icon="3834" loc="32795,32914" mapDesc="646" color="255,255,255"/>
+			<!--jp lab tel-->
+			<NPC icon="3834" loc="32823,32909" mapDesc="646" color="255,255,255"/>
+			<!--jp lab tel-->
+		</Map>
+		<Map mapDesc="460" mapNum="7903" pngNum="23129" ratio="16.0" baseLoc="32796,32864" basePixel="369,262">
+			<!--jp lab-->
+			<NPC icon="3834" loc="32795,32914" mapDesc="646" color="255,255,255"/>
+			<!--p lab tel-->
+		</Map>
+		<Map mapDesc="648" mapNum="666" pngNum="23130" ratio="20.0" baseLoc="32713,32800" basePixel="333,291">
+			<!--jp hell-->
+		</Map>
+	</Village_Map>
+	<Dungern_Map pos="5,335" transparency="7">
+		<!-- trans: 0 ~ 15 -->
+		<TITLE_IMG surfNum="2815" pos="96,1"/>
+		<FRAME_IMG surfNum="2816" pos="0,0"/>
+		<EXIT_IMG surfNum="2801" pos="146,6"/>
+		<ZOOM_IMG surfNum="2803" pos="129,6"/>
+		<Map mapNum="1" pngNum="16171" ratio="13.0" baseLoc="32670,32804" basePixel="172,262" mapDesc="298">
+			<!-- Talking Island Dungern 1F -->
+			<Portal loc="32669,32801" color="20,20,20"/>
+			<Portal loc="32736,32877" color="20,20,20"/>
+		</Map>
+		<Map mapNum="2" pngNum="16172" ratio="17.0" baseLoc="32677,32847" basePixel="278,355" mapDesc="298">
+			<!-- Talking Island Dungern 2F -->
+			<Portal loc="32665,32787" color="20,20,20"/>
+		</Map>
+		<Map mapNum="7" pngNum="22943" ratio="12.0" baseLoc="32768,32831" basePixel="395,252" mapDesc="588">
+			<!--  -->
+		</Map>
+		<Map mapNum="8" pngNum="22944" ratio="12.0" baseLoc="32832,32987" basePixel="515,307" mapDesc="589">
+			<!--  -->
+		</Map>
+		<Map mapNum="10" pngNum="16374" ratio="7.0" baseLoc="32775,32738" basePixel="462,245" mapDesc="525">
+			<!-- balck ship1 -->
+			<Portal loc="32744,32736" color="20,20,20"/>
+		</Map>
+		<Map mapNum="11" pngNum="16375" ratio="7.0" baseLoc="32775,32738" basePixel="461,247" mapDesc="525">
+			<!-- balck ship2 -->
+			<Portal loc="32789,32736" color="20,20,20"/>
+			<Portal loc="32744,32735" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12" pngNum="16376" ratio="6.0" baseLoc="32764,32740" basePixel="397,297" mapDesc="525">
+			<!-- balck ship3 -->
+			<Portal loc="32781,32736" color="20,20,20"/>
+		</Map>
+		<Map mapNum="14" pngNum="16174" ratio="24.0" baseLoc="32533,32800" basePixel="37,270">
+			<!-- catacomb -->
+			<Portal loc="32533,32800" color="20,20,20"/>
+			<Portal loc="33000,32808" color="20,20,20"/>
+		</Map>
+		<Map mapNum="15" pngNum="16175" ratio="5.0" baseLoc="32736,32807" basePixel="482,328">
+			<!-- kent castle -->
+			<Portal loc="32736,32812" color="20,20,20"/>
+			<Portal loc="32743,32783" color="20,20,20"/>
+		</Map>
+		<Map mapNum="16" pngNum="16176" ratio="3.0" baseLoc="32734,32787" basePixel="163,127">
+			<!-- hadin labpratpry -->
+			<Portal loc="32744,32815" color="20,20,20"/>
+		</Map>
+		<Map mapNum="17" pngNum="16177" ratio="3.0" baseLoc="32740,32789" basePixel="214,106">
+			<!-- nerupa cave -->
+			<Portal loc="32748,32809" color="20,20,20"/>
+		</Map>
+		<Map mapNum="18" pngNum="16178" ratio="3.0" baseLoc="32743,32792" basePixel="295,92">
+			<!-- dupel Dungern -->
+		</Map>
+		<Map mapNum="19" pngNum="16179" ratio="12.0" baseLoc="32790,32793" basePixel="568,255" mapDesc="307">
+			<!-- elf Dungern 1F -->
+			<Portal loc="32805,32723" color="20,20,20"/>
+			<Portal loc="32772,32783" color="20,20,20"/>
+		</Map>
+		<Map mapNum="20" pngNum="16180" ratio="12.0" baseLoc="32803,32761" basePixel="506,168" mapDesc="307">
+			<!-- elf Dungern 2F -->
+			<Portal loc="32767,32795" color="20,20,20"/>
+			<Portal loc="32730,32732" color="20,20,20"/>
+		</Map>
+		<Map mapNum="21" pngNum="16181" ratio="12.0" baseLoc="32740,32776" basePixel="323,326" mapDesc="307">
+			<!-- elf Dungern 3F -->
+			<Portal loc="32732,32736" color="20,20,20"/>
+		</Map>
+		<Map mapNum="25" mapDesc="302" pngNum="16182" ratio="12.0" baseLoc="32785,32792" basePixel="553,263">
+			<!-- traingin Dungern 1F -->
+			<Portal loc="32811,32728" color="20,20,20"/>
+			<Portal loc="32723,32806" color="20,20,20"/>
+		</Map>
+		<Map mapNum="26" mapDesc="302" pngNum="16183" ratio="12.0" baseLoc="32813,32730" basePixel="419,86">
+			<!-- traingin Dungern 2F -->
+			<Portal loc="32809,32746" color="20,20,20"/>
+			<Portal loc="32725,32804" color="20,20,20"/>
+		</Map>
+		<Map mapNum="27" mapDesc="302" pngNum="16184" ratio="12.0" baseLoc="32762,32764" basePixel="349,255">
+			<!-- traingin Dungern 3F -->
+			<Portal loc="32812,32766" color="20,20,20"/>
+			<Portal loc="32720,32743" color="20,20,20"/>
+		</Map>
+		<Map mapNum="28" mapDesc="302" pngNum="16185" ratio="12.0" baseLoc="32743,32727" basePixel="125,218">
+			<!-- traingin Dungern 4F -->
+			<Portal loc="32799,32796" color="20,20,20"/>
+		</Map>
+		<Map mapNum="30" pngNum="16186" ratio="14.0" baseLoc="32804,32738" basePixel="418,141" mapDesc="309">
+			<!-- dragon Dungern 1F -->
+			<Portal loc="32741,32761" color="20,20,20"/>
+			<Portal loc="32767,32759" color="20,20,20"/>
+			<Portal loc="32733,32813" color="20,20,20"/>
+			<Portal loc="32772,32774" color="20,20,20"/>
+		</Map>
+		<Map mapNum="31" pngNum="16187" ratio="14.0" baseLoc="32750,32749" basePixel="273,247" mapDesc="309">
+			<!-- dragon Dungern 2F -->
+			<Portal loc="32762,32748" color="20,20,20"/>
+			<Portal loc="32726,32809" color="20,20,20"/>
+			<Portal loc="32760,32780" color="20,20,20"/>
+			<Portal loc="32804,32760" color="20,20,20"/>
+			<Portal loc="32772,32747" color="20,20,20"/>
+			<Portal loc="32789,32782" color="20,20,20"/>
+		</Map>
+		<Map mapNum="32" pngNum="16188" ratio="14.0" baseLoc="32687,32819" basePixel="298,257" mapDesc="309">
+			<!-- dragon Dungern 3F -->
+			<Portal loc="32710,32817" color="20,20,20"/>
+			<Portal loc="32747,32859" color="20,20,20"/>
+		</Map>
+		<Map mapNum="33" pngNum="16189" ratio="14.0" baseLoc="32683,32819" basePixel="285,271" mapDesc="309">
+			<!-- dragon Dungern 4F -->
+			<Portal loc="32670,32867" color="20,20,20"/>
+			<Portal loc="32729,32825" color="20,20,20"/>
+		</Map>
+		<Map mapNum="35" pngNum="16190" ratio="14.0" baseLoc="32734,32846" basePixel="545,224" mapDesc="309">
+			<!-- dragon Dungern 5F -->
+			<Portal loc="32660,32838" color="20,20,20"/>
+			<Portal loc="32747,32801" color="20,20,20"/>
+		</Map>
+		<Map mapNum="36" pngNum="16191" ratio="14.0" baseLoc="32667,32835" basePixel="279,319" mapDesc="309">
+			<!-- dragon Dungern 6F -->
+			<Portal loc="32664,32845" color="20,20,20"/>
+			<Portal loc="32747,32824" color="20,20,20"/>
+		</Map>
+		<Map mapNum="37" pngNum="16192" ratio="14.0" baseLoc="32732,32801" basePixel="392,151" mapDesc="309">
+			<!-- dragon Dungern 7F -->
+			<Portal loc="32669,32868" color="20,20,20"/>
+		</Map>
+		<Map mapNum="38" pngNum="20499" ratio="10.0" baseLoc="32720,32819" basePixel="278,247">
+			<!-- inter magicdoll race 287,196-->
+			<!-- inter magicdoll race -->
+			<Tell index="0" group="6" mapDesc="364"/>
+			<Portal loc="32669,32868" color="20,20,20"/>
+		</Map>
+		<Map mapNum="53" pngNum="16193" ratio="12.0" baseLoc="32800,32770" basePixel="533,214" mapDesc="297">
+			<!-- giran prison 1F -->
+			<Portal loc="32732,32787" color="20,20,20"/>
+			<Portal loc="32788,32801" color="20,20,20"/>
+			<Portal loc="32726,32742" color="20,20,20"/>
+		</Map>
+		<Map mapNum="54" pngNum="16194" ratio="12.0" baseLoc="32801,32793" basePixel="615,234" mapDesc="297">
+			<!-- giran prison 2F -->
+			<Portal loc="32726,32749" color="20,20,20"/>
+			<Portal loc="32769,32730" color="20,20,20"/>
+			<Portal loc="32784,32790" color="20,20,20"/>
+		</Map>
+		<Map mapNum="55" pngNum="16195" ratio="8.0" baseLoc="32739,32767" basePixel="192,99">
+			<!-- giran prison 3F -->
+			<Portal loc="32735,32727" color="20,20,20"/>
+			<Portal loc="32736,32855" color="20,20,20"/>
+		</Map>
+		<Map mapNum="56" pngNum="16196" ratio="8.0" baseLoc="32743,32730" basePixel="85,149">
+			<!-- giran prison 3F -->
+			<Portal loc="32769,32729" color="20,20,20"/>
+		</Map>
+		<Map mapNum="59" pngNum="22973" ratio="10.0" baseLoc="32719,32824" basePixel="430,213" mapDesc="592">
+			<!-- eva Dungern 1F -->
+			<Portal loc="32663,32867" color="20,20,20"/>
+		</Map>
+		<Map mapNum="60" pngNum="22974" ratio="10.0" baseLoc="32697,32835" basePixel="368,277" mapDesc="593">
+			<!-- eva Dungern 2F -->
+			<Portal loc="32706,32809" color="20,20,20"/>
+			<Portal loc="32746,32857" color="20,20,20"/>
+		</Map>
+		<Map mapNum="61" pngNum="22975" ratio="10.0" baseLoc="32728,32807" basePixel="369,156" mapDesc="594">
+			<!-- eva Dungern 3F -->
+			<Portal loc="32728,32806" color="20,20,20"/>
+		</Map>
+		<Map mapNum="62" pngNum="23005" ratio="33.0" baseLoc="32795,32929" basePixel="384,254" mapDesc="631">
+			<!-- hidden eva Dungern -->
+		</Map>
+		<Map mapNum="75" pngNum="16200" ratio="12.0" baseLoc="32768,32818" basePixel="354,239" mapDesc="301">
+			<!-- oren tower 1F -->
+			<Portal loc="32763,32903" color="20,20,20"/>
+			<Portal loc="32773,32821" color="20,20,20"/>
+		</Map>
+		<Map mapNum="76" pngNum="16201" ratio="12.0" baseLoc="32772,32823" basePixel="391,241" mapDesc="301">
+			<!-- oren tower 2F -->
+			<Portal loc="32777,32820" color="20,20,20"/>
+			<Portal loc="32777,32826" color="20,20,20"/>
+		</Map>
+		<Map mapNum="77" pngNum="16202" ratio="12.0" baseLoc="32762,32838" basePixel="411,291" mapDesc="301">
+			<!-- oren tower 3F -->
+			<Portal loc="32767,32835" color="20,20,20"/>
+		</Map>
+		<Map mapNum="101" pngNum="16203" ratio="22.0" baseLoc="32865,32735" basePixel="395,112" mapDesc="306">
+			<!-- oman tower 1F -->
+			<Portal loc="32724,32799" color="20,20,20"/>
+		</Map>
+		<Map mapNum="102" pngNum="16204" ratio="22.0" baseLoc="32789,32760" basePixel="284,222" mapDesc="306">
+			<!-- oman tower 2F -->
+		</Map>
+		<Map mapNum="103" pngNum="16205" ratio="22.0" baseLoc="32758,32815" basePixel="336,314" mapDesc="306">
+			<!-- oman tower 3F -->
+		</Map>
+		<Map mapNum="104" pngNum="16206" ratio="22.0" baseLoc="32622,32805" basePixel="158,241" mapDesc="306">
+			<!-- oman tower 4F -->
+		</Map>
+		<Map mapNum="105" pngNum="16207" ratio="22.0" baseLoc="32603,32866" basePixel="248,329" mapDesc="306">
+			<!-- oman tower 5F -->
+		</Map>
+		<Map mapNum="106" pngNum="16208" ratio="22.0" baseLoc="32708,32911" basePixel="572,264" mapDesc="306">
+			<!-- oman tower 6F -->
+		</Map>
+		<Map mapNum="107" pngNum="16209" ratio="22.0" baseLoc="32618,32865" basePixel="278,311" mapDesc="306">
+			<!-- oman tower 7F -->
+		</Map>
+		<Map mapNum="108" pngNum="16210" ratio="22.0" baseLoc="32603,32866" basePixel="246,330" mapDesc="306">
+			<!-- oman tower 8F -->
+		</Map>
+		<Map mapNum="109" pngNum="16211" ratio="22.0" baseLoc="32614,32865" basePixel="267,317" mapDesc="306">
+			<!-- oman tower 9F -->
+		</Map>
+		<Map mapNum="110" pngNum="16212" ratio="22.0" baseLoc="32731,32802" basePixel="247,331" mapDesc="306">
+			<!-- oman tower 10F -->
+		</Map>
+		<Map mapNum="111" pngNum="16213" ratio="25.0" baseLoc="32693,32902" basePixel="377,296" mapDesc="306">
+			<!-- oman tower TOP -->
+		</Map>
+		<Map mapNum="121" pngNum="16203" ratio="15.0" baseLoc="32798,32801" basePixel="274,159">
+			<!-- oman tower 1F(PC) -->
+			<Portal loc="32724,32799" color="20,20,20"/>
+		</Map>
+		<Map mapNum="122" pngNum="16204" ratio="13.0" baseLoc="32798,32801" basePixel="274,159">
+			<!-- oman tower 2F(PC) -->
+		</Map>
+		<Map mapNum="123" pngNum="16205" ratio="13.0" baseLoc="32798,32801" basePixel="274,159">
+			<!-- oman tower 3F(PC) -->
+		</Map>
+		<Map mapNum="124" pngNum="16206" ratio="12.0" baseLoc="32669,32864" basePixel="269,167">
+			<!-- oman tower 4F(PC) -->
+		</Map>
+		<Map mapNum="125" pngNum="16207" ratio="15.0" baseLoc="32670,32863" basePixel="274,161">
+			<!-- oman tower 5F(PC) -->
+		</Map>
+		<Map mapNum="126" pngNum="16208" ratio="12.0" baseLoc="32718,32871" basePixel="383,124">
+			<!-- oman tower 6F(PC) -->
+		</Map>
+		<Map mapNum="127" pngNum="16209" ratio="12.0" baseLoc="32669,32863" basePixel="269,167">
+			<!-- oman tower 7F(PC) -->
+		</Map>
+		<Map mapNum="128" pngNum="16210" ratio="15.0" baseLoc="32670,32863" basePixel="269,165">
+			<!-- oman tower 8F(PC) -->
+		</Map>
+		<Map mapNum="129" pngNum="16211" ratio="12.0" baseLoc="32669,32863" basePixel="270,166">
+			<!-- oman tower 9F(PC) -->
+		</Map>
+		<Map mapNum="130" pngNum="16212" ratio="13.0" baseLoc="32798,32797" basePixel="269,164">
+			<!-- oman tower 10F(PC) -->
+		</Map>
+		<Map mapNum="131" pngNum="16213" ratio="20.0" baseLoc="32693,32902" basePixel="266,184">
+			<!-- oman tower TOP(PC) -->
+		</Map>
+		<Map mapNum="260" pngNum="16214" ratio="5.0" baseLoc="32797,32885" basePixel="346,203">
+			<!-- orc castle -->
+			<Portal loc="32797,32884" color="20,20,20"/>
+		</Map>
+		<Map mapNum="270" pngNum="16215" ratio="4.0" baseLoc="32738,32801" basePixel="303,161">
+			<!-- oren tower secret laboratory -->
+			<Portal loc="32725,32799" color="20,20,20"/>
+		</Map>
+		<Map mapNum="271" pngNum="16216" ratio="7.0" baseLoc="32740,32816" basePixel="166,182">
+			<!-- ice cave 1 -->
+			<Portal loc="32810,32814" color="20,20,20"/>
+		</Map>
+		<Map mapNum="272" pngNum="16217" ratio="6.0" baseLoc="32749,32831" basePixel="189,196">
+			<!-- ice cave 2 -->
+			<Portal loc="32736,32821" color="20,20,20"/>
+			<Portal loc="32778,32838" color="20,20,20"/>
+			<Portal loc="32795,32837" color="20,20,20"/>
+		</Map>
+		<Map mapNum="273" pngNum="16218" ratio="6.0" baseLoc="32736,32809" basePixel="123,162">
+			<!-- ice cave 3 -->
+			<Portal loc="32736,32846" color="20,20,20"/>
+		</Map>
+		<Map mapNum="274" pngNum="16219" ratio="6.0" baseLoc="32734,32837" basePixel="211,214">
+			<!-- ice cave 4 -->
+			<Portal loc="32786,32838" color="20,20,20"/>
+		</Map>
+		<Map mapNum="275" pngNum="16220" ratio="6.0" baseLoc="32767,32857" basePixel="416,177">
+			<!-- ice cave 5 -->
+			<Portal loc="32781,32801" color="20,20,20"/>
+		</Map>
+		<Map mapNum="276" pngNum="16221" ratio="6.0" baseLoc="32735,32843" basePixel="197,235">
+			<!-- ice cave 6 -->
+			<Portal loc="32802,32818" color="20,20,20"/>
+		</Map>
+		<Map mapNum="277" pngNum="16222" ratio="6.0" baseLoc="32737,32825" basePixel="188,188">
+			<!-- ice cave 7 -->
+			<Portal loc="32787,32838" color="20,20,20"/>
+		</Map>
+		<Map mapNum="278" pngNum="16223" ratio="7.0" baseLoc="32743,32833" basePixel="149,212">
+			<!-- ice cave all -->
+		</Map>
+		<Map mapNum="282" pngNum="22959" ratio="14.0" baseLoc="32752,32813" basePixel="251,252" mapDesc="301">
+			<!-- oren tower 4F -->
+			<Portal loc="32812,32873" color="20,20,20"/>
+		</Map>
+		<Map mapNum="283" pngNum="22960" ratio="14.0" baseLoc="32743,32863" basePixel="392,354" mapDesc="301">
+			<!-- oren tower 5F -->
+			<Portal loc="32812,32871" color="20,20,20"/>
+			<Portal loc="32735,32794" color="20,20,20"/>
+		</Map>
+		<Map mapNum="284" pngNum="22985" ratio="14.0" baseLoc="32710,32842" basePixel="426,264" mapDesc="301">
+			<!-- oren tower 4F -->
+			<Portal loc="32678,32797" color="20,20,20"/>
+			<Portal loc="32744,32865" color="20,20,20"/>
+		</Map>
+		<Map mapNum="285" pngNum="22986" ratio="14.0" baseLoc="32739,32798" basePixel="374,143" mapDesc="301">
+			<!-- oren tower 5F -->
+			<Portal loc="32675,32794" color="20,20,20"/>
+		</Map>
+		<Map mapNum="286" pngNum="16225" ratio="10.0" baseLoc="32773,32832" basePixel="271,163">
+			<!-- oren tower yahee 5F(PC) -->
+			<Portal loc="32736,32795" color="20,20,20"/>
+			<Portal loc="32811,32864" color="20,20,20"/>
+		</Map>
+		<Map mapNum="287" pngNum="16226" ratio="10.0" baseLoc="32773,32832" basePixel="272,165">
+			<!-- oren tower yahee 6F(PC) -->
+			<Portal loc="32734,32794" color="20,20,20"/>
+			<Portal loc="32812,32873" color="20,20,20"/>
+		</Map>
+		<Map mapNum="288" pngNum="16227" ratio="10.0" baseLoc="32795,32806" basePixel="262,106">
+			<!-- oren tower yahee 7F(PC) -->
+			<Portal loc="32735,32794" color="20,20,20"/>
+			<Portal loc="32812,32871" color="20,20,20"/>
+		</Map>
+		<Map mapNum="289" pngNum="16228" ratio="10.0" baseLoc="32683,32862" basePixel="281,230">
+			<!-- oren tower yahee 8F(PC) -->
+			<Portal loc="32675,32794" color="20,20,20"/>
+		</Map>
+		<Map mapNum="293" pngNum="23000" ratio="32.0" baseLoc="32670,32712" basePixel="346,242" mapDesc="618">
+			<!-- hidden oren tower -->
+		</Map>
+		<Map mapNum="300" pngNum="16229" ratio="6.0" baseLoc="32894,32539" basePixel="218,139">
+			<!-- aden castle -->
+			<Portal loc="32892,32580" color="20,20,20"/>
+			<Portal loc="32910,32569" color="20,20,20"/>
+		</Map>
+		<Map mapNum="441" pngNum="16230" ratio="12.0" baseLoc="32690,32759" basePixel="72,161">
+			<!-- heajuk Dungern 1F -->
+			<Portal loc="32738,32736" color="20,20,20"/>
+			<Portal loc="32804,32802" color="20,20,20"/>
+		</Map>
+		<Map mapNum="442" pngNum="16231" ratio="12.0" baseLoc="32749,32739" basePixel="67,156">
+			<!-- heajuk Dungern 2F -->
+			<Portal loc="32862,32728" color="20,20,20"/>
+			<Portal loc="32860,32800" color="20,20,20"/>
+		</Map>
+		<Map mapNum="443" pngNum="16232" ratio="13.0" baseLoc="32753,32745" basePixel="93,163">
+			<!-- heajuk Dungern 3F -->
+			<Portal loc="32751,32745" color="20,20,20"/>
+			<Portal loc="32794,32839" color="20,20,20"/>
+			<Portal loc="32864,32779" color="20,20,20"/>
+		</Map>
+		<Map mapNum="444" pngNum="16233" ratio="4.0" baseLoc="32731,32804" basePixel="273,206">
+			<!-- heajuk Dungern 4F -->
+			<Portal loc="32749,32809" color="20,20,20"/>
+		</Map>
+		<Map mapNum="481" pngNum="16234" ratio="4.0" baseLoc="32736,32846" basePixel="381,236">
+			<!-- kamila's room -->
+			<Portal loc="32735,32847" color="20,20,20"/>
+		</Map>
+		<Map mapNum="491" pngNum="22961" ratio="16.0" baseLoc="32815,32801" basePixel="428,250" mapDesc="578">
+			<!-- atuba pss 1f -->
+			<Portal loc="32740,32843" color="20,20,20"/>
+		</Map>
+		<Map mapNum="492" pngNum="22962" ratio="8.0" baseLoc="32765,32957" basePixel="356,277" mapDesc="578">
+			<!-- atuba pss 2f -->
+			<Portal loc="32768,32927" color="20,20,20"/>
+			<Portal loc="32800,32955" color="20,20,20"/>
+		</Map>
+		<Map mapNum="493" pngNum="22963" ratio="8.0" baseLoc="32741,32933" basePixel="73,277" mapDesc="578">
+			<!-- atuba pss 3f -->
+			<Portal loc="32768,32927" color="20,20,20"/>
+		</Map>
+		<Map mapNum="494" pngNum="23004" ratio="32.0" baseLoc="32742,32770" basePixel="60,276" mapDesc="632">
+			<!-- hidden atuba pss -->
+		</Map>
+		<Map mapNum="522" pngNum="16235" ratio="8.0" baseLoc="32703,32895" basePixel="288,173">
+			<!-- shadow Dungern 1F -->
+		</Map>
+		<Map mapNum="523" pngNum="16236" ratio="8.0" baseLoc="32703,32895" basePixel="288,173">
+			<!-- shadow Dungern 2F -->
+		</Map>
+		<Map mapNum="524" pngNum="16237" ratio="8.0" baseLoc="32703,32895" basePixel="288,173">
+			<!-- shadow Dungern 3F -->
+		</Map>
+		<Map mapNum="600" pngNum="16238" ratio="6.0" baseLoc="32731,32811" basePixel="169,267">
+			<!-- shadow Dungern 3F -->
+			<Portal loc="32814,32797" color="20,20,20"/>
+		</Map>
+		<Map mapNum="601" pngNum="16239" ratio="10.0" baseLoc="32766,32831" basePixel="196,203">
+			<!--  -->
+			<Portal loc="32722,32831" color="20,20,20"/>
+		</Map>
+		<Map mapNum="602" pngNum="16240" ratio="5.0" baseLoc="32726,32831" basePixel="399,125">
+			<!--  -->
+		</Map>
+		<Map mapNum="604" pngNum="16241" ratio="8.0" baseLoc="32808,32846" basePixel="299,227">
+			<!--  -->
+		</Map>
+		<Map mapNum="605" pngNum="16242" ratio="8.0" baseLoc="32837,32837" basePixel="283,156">
+			<!--  -->
+		</Map>
+		<Map mapNum="606" pngNum="16243" ratio="8.0" baseLoc="32757,32843" basePixel="271,184">
+			<!--  -->
+		</Map>
+		<Map mapNum="607" pngNum="16244" ratio="8.0" baseLoc="32730,32846" basePixel="207,238">
+			<!--  -->
+		</Map>
+		<Map mapNum="624" pngNum="16878" ratio="16.0" baseLoc="32853,32940" basePixel="555,166" mapDesc="559">
+			<!--  -->
+		</Map>
+		<Map mapNum="632" pngNum="22980" ratio="26.0" baseLoc="32834,32958" basePixel="396,241" mapDesc="645">
+			<!--200617 jipri-->
+		</Map>
+			<Map mapNum="650" pngNum="22991" ratio="20.0" baseLoc="32679,33378" basePixel="398,246" mapDesc="703">
+			<!--2022_1q -->
+		</Map>
+		<Map mapNum="670" pngNum="22991" ratio="20.0" baseLoc="32679,33378" basePixel="398,246" mapDesc="705">
+			<!--2022_1q -->
+		</Map>
+		<Map mapNum="680" pngNum="22980" ratio="26.0" baseLoc="32834,32958" basePixel="396,241" mapDesc="709">
+			<!--  -->
+		</Map>	
+		<Map mapNum="690" pngNum="22980" ratio="26.0" baseLoc="32834,32958" basePixel="396,241" mapDesc="704">
+			<!--  -->
+		</Map>	
+		<Map mapNum="730" pngNum="22946" ratio="8.0" baseLoc="32801,32862" basePixel="391,240" mapDesc="583">
+			<!--instance dungeon easy  -->
+		</Map>
+		<Map mapNum="731" pngNum="22946" ratio="8.0" baseLoc="32801,32862" basePixel="391,240" mapDesc="584">
+			<!--instance dungeon normal  -->
+		</Map>
+		<Map id="164" mapNum="732" pngNum="22987" ratio="10.0" baseLoc="33434,33196" basePixel="392,186" mapDesc="606">
+			<!-- indun losus island field -->
+		</Map>
+		<Map id="165" mapNum="732" pngNum="22988" ratio="7.0" baseLoc="33493,33415" basePixel="623,299" mapDesc="607">
+			<!-- indun losus island under-->
+		</Map>
+		<Map id="166" mapNum="732" pngNum="22989" ratio="4.0" baseLoc="33574,33217" basePixel="466,317" mapDesc="608">
+			<!-- indun losus island -->
+		</Map>
+		<Map mapNum="733" pngNum="22990" ratio="6.0" baseLoc="32768,32764" basePixel="398,246" mapDesc="181">
+			<!--instance dungeon fantasy  -->
+		</Map>
+		<Map mapNum="734" pngNum="16213" ratio="25.0" baseLoc="32693,32902" basePixel="377,296" mapDesc="677">
+			<!--instance dungeon fourth dimension  -->
+		</Map>
+		<Map mapNum="736" pngNum="23196" ratio="8.0" baseLoc="32799,32826" basePixel="102,372" mapDesc="706">		
+			<!--Instance Dungeon Aurakia -->
+		</Map>
+		<Map mapNum="750" pngNum="22991" ratio="20.0" baseLoc="32679,33378" basePixel="398,246" mapDesc="609">
+			<!-- high colo -->
+		</Map>
+		<Map mapNum="751" pngNum="23179" ratio="26.0" baseLoc="32800,32820" basePixel="194,204" mapDesc="658">
+			<!-- high colo -->
+		</Map>
+		<Map mapNum="777" pngNum="22947" ratio="26.0" baseLoc="32622,33002" basePixel="414,297" mapDesc="163">
+			<!--  -->
+		</Map>
+		<Map mapNum="778" pngNum="22947" ratio="26.0" baseLoc="32622,33002" basePixel="414,297" mapDesc="595">
+			<!--  -->
+		</Map>
+		<Map mapNum="11900" pngNum="12900" ratio="26.0" baseLoc="32622,33002" basePixel="414,297" mapDesc="716">
+			<!--  -->
+		</Map>
+		<Map mapNum="12900" pngNum="12900" ratio="26.0" baseLoc="32622,33002" basePixel="414,297" mapDesc="713">
+			<!--  -->
+		</Map>
+		<Map mapNum="779" pngNum="23001" ratio="32.0" baseLoc="32690,32950" basePixel="352,204" mapDesc="619">
+			<!--  -->
+		</Map>
+		<Map mapNum="800" pngNum="10263" ratio="14.0" baseLoc="32801,32926" basePixel="390,248">
+			<!--  -->
+		</Map>
+		<Map mapNum="807" pngNum="16246" ratio="14.0" baseLoc="32781,32796" basePixel="540,275" mapDesc="451">
+			<!--  -->
+			<Portal loc="32740,32807" color="20,20,20"/>
+		</Map>
+		<Map mapNum="808" pngNum="16247" ratio="14.0" baseLoc="32769,32765" basePixel="385,245" mapDesc="451">
+			<!--  -->
+			<Portal loc="32750,32797" color="20,20,20"/>
+			<Portal loc="32794,32728" color="20,20,20"/>
+		</Map>
+		<Map mapNum="809" pngNum="16248" ratio="14.0" baseLoc="32776,32806" basePixel="553,301" mapDesc="451">
+			<!--  -->
+			<Portal loc="32802,32754" color="20,20,20"/>
+			<Portal loc="32771,32765" color="20,20,20"/>
+		</Map>
+		<Map mapNum="810" pngNum="16249" ratio="14.0" baseLoc="32763,32773" basePixel="445,260" mapDesc="451">
+			<!--  -->
+			<Portal loc="32764,32772" color="20,20,20"/>
+			<Portal loc="32726,32737" color="20,20,20"/>
+		</Map>
+		<Map mapNum="811" pngNum="16250" ratio="14.0" baseLoc="32778,32777" basePixel="460,253" mapDesc="451">
+			<!--  -->
+			<Portal loc="32729,32722" color="20,20,20"/>
+			<Portal loc="32797,32810" color="20,20,20"/>
+		</Map>
+		<Map mapNum="812" pngNum="16251" ratio="14.0" baseLoc="32731,32803" basePixel="387,376" mapDesc="451">
+			<!--  -->
+			<Portal loc="32805,32724" color="20,20,20"/>
+			<Portal loc="32770,32811" color="20,20,20"/>
+		</Map>
+		<Map mapNum="813" pngNum="16252" ratio="14.0" baseLoc="32808,32802" basePixel="645,237" mapDesc="451">
+			<!--  -->
+			<Portal loc="32727,32724" color="20,20,20"/>
+		</Map>
+		<Map mapNum="820" pngNum="22948" ratio="30.0" baseLoc="32778,32989" basePixel="550,212" mapDesc="576">
+			<!-- winter event map -->
+		</Map>
+		<Map mapNum="830" pngNum="22948" ratio="30.0" baseLoc="32778,32989" basePixel="550,212" mapDesc="577">
+			<!-- winter event map -->
+		</Map>
+		<Map mapNum="840" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="719">
+			<!-- pledge event map -->
+		</Map>
+		<Map mapNum="855" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="720">
+			<!-- pledge event normal map -->
+		</Map>
+		<Map mapNum="890" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="642">
+			<!-- pledge event map2 -->
+		</Map>
+		<Map mapNum="12014" pngNum="22951" ratio="26.0" baseLoc="32861,33122" basePixel="568,353" mapDesc="585">
+			<!-- fire event map -->
+		</Map>
+		<Map id="158" mapNum="1071" pngNum="16253" ratio="4.0" baseLoc="32671,32667" basePixel="150,301" mapDesc="560">
+			<!--  -->
+		</Map>
+		<Map id="159" mapNum="1071" pngNum="22966" ratio="8.0" baseLoc="32807,32676" basePixel="453,129" mapDesc="560">
+			<!-- dargon rare -->
+		</Map>
+		<Map id="160" mapNum="1101" pngNum="16256" ratio="4.0" baseLoc="32940,32671" basePixel="519,235" mapDesc="561">
+			<!--  -->
+		</Map>
+		<Map id="161" mapNum="1101" pngNum="22967" ratio="6.0" baseLoc="32975,32825" basePixel="421,131" mapDesc="561">
+			<!-- dargon rare -->
+		</Map>
+		<Map id="162" mapNum="1131" pngNum="16259" ratio="4.0" baseLoc="32740,32865" basePixel="419,235" mapDesc="562">
+			<!--  -->
+		</Map>
+		<Map id="163" mapNum="1131" pngNum="22968" ratio="4.0" baseLoc="32835,32885" basePixel="358,343" mapDesc="562">
+			<!-- dargon rare -->
+		</Map>
+		<Map mapNum="1161" pngNum="16262" ratio="8.0" baseLoc="32772,32891" basePixel="402,188" mapDesc="563">
+			<!--  -->
+			<Portal loc="32732,32721" color="20,20,20"/>
+			<Portal loc="32718,32790" color="20,20,20"/>
+			<Portal loc="32753,32985" color="20,20,20"/>
+			<Portal loc="32945,32857" color="20,20,20"/>
+			<Portal loc="32945,32985" color="20,20,20"/>
+		</Map>
+		<Map mapNum="1180" pngNum="22992" ratio="8.0" baseLoc="32807,32676" basePixel="453,129" mapDesc="610">
+			<!-- new antaras rare -->
+		</Map>
+		<Map mapNum="1181" pngNum="22993" ratio="7.0" baseLoc="32975,32825" basePixel="439,181" mapDesc="611">
+			<!-- new fafurion rare -->
+		</Map>
+		<Map mapNum="1182" pngNum="22994" ratio="5.0" baseLoc="32825,32889" basePixel="314,340" mapDesc="612">
+			<!-- new lindvior rare -->
+		</Map>
+		<Map mapNum="1183" pngNum="22995" ratio="6.0" baseLoc="32762,32896" basePixel="395,282" mapDesc="613">
+			<!-- new valakas rare -->
+		</Map>
+		<Map mapNum="1191" pngNum="23003" ratio="7.0" baseLoc="32789,32895" basePixel="520,168" mapDesc="624">
+			<!-- halpas rare -->
+		</Map>
+		<Map mapNum="1209" pngNum="23025" ratio="14.0" baseLoc="32648,32927" basePixel="287,304" mapDesc="643">
+			<!-- i oman new field 1 -->
+		</Map>
+		<Map mapNum="1210" pngNum="23026" ratio="14.0" baseLoc="32616,32927" basePixel="192,360" mapDesc="644">
+			<!-- i oman new field 2 -->
+		</Map>
+		<Map mapNum="1400" pngNum="22965" ratio="12.0" baseLoc="32878,32816" basePixel="371,266" mapDesc="581">
+			<!--  -->
+		</Map>
+		<Map mapNum="1709" pngNum="16263" ratio="19.0" baseLoc="32930,32941" basePixel="382,84">
+			<!--  -->
+		</Map>
+		<Map mapNum="1935" pngNum="16264" ratio="8.0" baseLoc="32799,32799" basePixel="402,257" mapDesc="457">
+			<!--  -->
+		</Map>
+		<Map mapNum="1936" pngNum="16265" ratio="8.0" baseLoc="32801,32865" basePixel="422,254" mapDesc="457">
+			<!--  -->
+		</Map>
+		<Map mapNum="2100" pngNum="16266" ratio="3.0" baseLoc="32789,32797" basePixel="186,182">
+			<!--  -->
+		</Map>
+		<Map mapNum="2101" pngNum="16267" ratio="18.0" baseLoc="32766,32896" basePixel="418,342" mapDesc="455">
+			<!--  -->
+		</Map>
+		<Map mapNum="2210" pngNum="16268" ratio="8.0" baseLoc="32725,32800" basePixel="254,178">
+			<!--  -->
+		</Map>
+		<Map mapNum="2935" pngNum="16264" ratio="8.0" baseLoc="32799,32799" basePixel="402,257" mapDesc="707">
+			<!--  -->
+		</Map>
+		<Map mapNum="2936" pngNum="16265" ratio="8.0" baseLoc="32801,32865" basePixel="422,254" mapDesc="707">
+			<!--  -->
+		</Map>
+		<Map mapNum="3000" pngNum="23176" ratio="18.0" baseLoc="32766,32818" basePixel="202,276" mapDesc="455">
+			<!--  -->
+		</Map>
+		<Map mapNum="3050" pngNum="23027" ratio="18.0" baseLoc="32766,32818" basePixel="202,276" mapDesc="656">
+			<!--  -->
+		</Map>
+		<Map mapNum="4000" pngNum="23187" ratio="10.0" baseLoc="32756,32768" basePixel="348,306" mapDesc="696">
+			<!--  -->
+		</Map>
+		<Map mapNum="4001" pngNum="23188" ratio="12.0" baseLoc="32894,32764" basePixel="500,188" mapDesc="697">
+			<!--  -->
+		</Map>
+		<Map mapNum="4002" pngNum="23189" ratio="13.0" baseLoc="32842,32802" basePixel="241,351" mapDesc="698">
+			<!--  -->
+		</Map>
+		<Map mapNum="4003" pngNum="23190" ratio="10.0" baseLoc="32765,32834" basePixel="397,274" mapDesc="699">
+			<!--  -->
+		</Map>
+		<Map mapNum="5490" pngNum="16274" ratio="12.0" baseLoc="32768,32841" basePixel="436,273" mapDesc="383">
+			<!--  -->
+		</Map>
+		<Map mapNum="5490" pngNum="16273" ratio="8.0" baseLoc="32763,32829" basePixel="240,160">
+			<!--  -->
+		</Map>
+		<Map mapNum="5490" pngNum="16275" ratio="8.0" baseLoc="32763,32829" basePixel="240,160">
+			<!--  -->
+		</Map>
+		<Map mapNum="5490" pngNum="16276" ratio="8.0" baseLoc="32763,32829" basePixel="240,160">
+			<!--  -->
+		</Map>
+		<Map mapNum="5555" pngNum="16277" ratio="13.0" baseLoc="32796,32867" basePixel="278,164">
+			<!--  -->
+		</Map>
+		<Map mapNum="5556" pngNum="16278" ratio="6.0" baseLoc="33538,32701" basePixel="278,167">
+			<!--  -->
+		</Map>
+		<Map mapNum="5557" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="582">
+			<!--  -->
+		</Map>
+		<Map mapNum="5558" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="582">
+			<!-- Colosseum2 -->
+		</Map>
+		<Map mapNum="5559" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="582">
+			<!-- Colosseum3 -->
+		</Map>
+		<Map mapNum="5560" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="582">
+			<!-- Colosseum4-->
+		</Map>
+		<Map mapNum="5561" pngNum="22964" ratio="8.0" baseLoc="33538,32701" basePixel="397,268" mapDesc="582">
+			<!-- Colosseum5 -->
+		</Map>
+		<Map mapNum="6007" pngNum="23209" ratio="46.0" baseLoc="32817,32851" basePixel="411,229" mapDesc="721">
+			<!--jp 20th event-->
+		</Map>
+		<Map mapNum="7787" pngNum="22945" ratio="28.0" baseLoc="32883,32653" basePixel="400,98" mapDesc="714">
+			<!--220720 training event-->
+		</Map>
+		<Map mapNum="9000" pngNum="16279" ratio="3.0" baseLoc="32746,32730" basePixel="310,100">
+			<!--  -->
+		</Map>
+		<Map mapNum="9000" pngNum="16280" ratio="3.0" baseLoc="32739,32916" basePixel="260,70">
+			<!--  -->
+		</Map>
+		<Map mapNum="9000" pngNum="16281" ratio="12.0" baseLoc="32664,32788" basePixel="40,180">
+			<!--  -->
+		</Map>
+		<Map mapNum="9100" pngNum="16282" ratio="4.0" baseLoc="32750,32849" basePixel="277,100">
+			<!--  -->
+		</Map>
+		<Map mapNum="12146" pngNum="16146" ratio="7.0" baseLoc="32759,32838" basePixel="441,333" mapDesc="590">
+			<!--  -->
+			<Portal loc="32764,32796" color="20,20,20"/>
+			<Portal loc="32768,32835" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12147" pngNum="16284" ratio="18.0" baseLoc="32761,33043" basePixel="438,218" mapDesc="569">
+			<!--  -->
+		</Map>
+		<Map mapNum="12148" pngNum="16285" ratio="8.0" baseLoc="32661,32800" basePixel="40,261">
+			<!--  -->
+			<Portal loc="32808,32804" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12149" pngNum="16286" ratio="12.0" baseLoc="32860,32925" basePixel="495,163">
+			<!--  -->
+			<Portal loc="32868,32925" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12150" pngNum="16287" ratio="3.0" baseLoc="32544,32863" basePixel="276,142">
+			<!--  -->
+			<Portal loc="32545,32979" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12150" pngNum="16288" ratio="3.0" baseLoc="32546,32921" basePixel="238,110">
+			<!--  -->
+			<Portal loc="32545,32979" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12150" pngNum="16289" ratio="3.0" baseLoc="32544,32984" basePixel="225,135">
+			<!--  -->
+			<Portal loc="32545,32979" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12150" pngNum="16290" ratio="3.0" baseLoc="32606,32865" basePixel="277,173">
+			<!--  -->
+			<Portal loc="32545,32979" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12150" pngNum="16291" ratio="3.0" baseLoc="32607,32931" basePixel="305,169">
+			<!--  -->
+			<Portal loc="32545,32979" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12150" pngNum="16292" ratio="3.0" baseLoc="32609,32990" basePixel="280,152">
+			<!--  -->
+			<Portal loc="32545,32979" color="20,20,20"/>
+		</Map>
+		<Map mapNum="12152" pngNum="16293" ratio="4.0" baseLoc="32768,32823" basePixel="273,184">
+			<!--  -->
+		</Map>
+		<Map mapNum="13001" pngNum="16294" ratio="4.0" baseLoc="32737,32863" basePixel="267,152">
+			<!--  -->
+		</Map>
+		<Map mapNum="13002" pngNum="16295" ratio="4.0" baseLoc="32802,32820" basePixel="213,121">
+			<!--  -->
+		</Map>
+		<Map mapNum="13003" pngNum="16296" ratio="2.0" baseLoc="32734,32865" basePixel="277,182">
+			<!--  -->
+		</Map>
+		<Map mapNum="13004" pngNum="16297" ratio="10.0" baseLoc="32728,32826" basePixel="120,226">
+			<!--  -->
+		</Map>
+		<Map mapNum="15403" pngNum="16298" ratio="20.0" baseLoc="32828,32836" basePixel="402,201" mapDesc="524">
+			<!--  -->
+			<Portal loc="32747,32822" color="20,20,20"/>
+		</Map>
+		<Map mapNum="15404" pngNum="16299" ratio="20.0" baseLoc="32731,32864" basePixel="369,263" mapDesc="524">
+			<!--  -->
+			<Portal loc="32808,32853" color="20,20,20"/>
+		</Map>
+		<Map mapNum="15410" pngNum="15518" ratio="20.0" baseLoc="34197,32819" basePixel="265,189">
+			<!--  -->
+		</Map>
+		<Map mapNum="15420" pngNum="15519" ratio="25.0" baseLoc="34257,32287" basePixel="456,172">
+			<!--  -->
+		</Map>
+		<Map mapNum="15430" pngNum="15520" ratio="20.0" baseLoc="33391,32345" basePixel="444,198">
+			<!--  -->
+		</Map>
+		<Map mapNum="15440" pngNum="15521" ratio="28.0" baseLoc="33726,32249" basePixel="390,133">
+			<!--  -->
+		</Map>
+		<Map mapNum="12852" pngNum="16574" ratio="22.0" baseLoc="32814,32800" basePixel="426,238" mapDesc="551">
+			<!-- inter oman tower 1F -->
+		</Map>
+		<Map mapNum="12853" pngNum="16575" ratio="22.0" baseLoc="32800,32799" basePixel="393,251" mapDesc="551">
+			<!-- inter oman tower 2F -->
+		</Map>
+		<Map mapNum="12854" pngNum="16576" ratio="22.0" baseLoc="32801,32795" basePixel="386,245" mapDesc="551">
+			<!-- inter oman tower 3F -->
+		</Map>
+		<Map mapNum="12855" pngNum="16577" ratio="22.0" baseLoc="32672,32863" basePixel="392,253" mapDesc="551">
+			<!-- inter oman tower 4F -->
+		</Map>
+		<Map mapNum="12856" pngNum="16578" ratio="22.0" baseLoc="32669,32868" basePixel="395,262" mapDesc="551">
+			<!-- inter oman tower 5F -->
+		</Map>
+		<Map mapNum="12857" pngNum="16579" ratio="22.0" baseLoc="32671,32854" basePixel="367,243" mapDesc="551">
+			<!-- inter oman tower 6F -->
+		</Map>
+		<Map mapNum="12858" pngNum="16580" ratio="22.0" baseLoc="32672,32853" basePixel="362,240" mapDesc="551">
+			<!-- inter oman tower 7F -->
+		</Map>
+		<Map mapNum="12859" pngNum="16581" ratio="22.0" baseLoc="32670,32842" basePixel="338,234" mapDesc="551">
+			<!-- inter oman tower 8F -->
+		</Map>
+		<Map mapNum="12860" pngNum="16582" ratio="22.0" baseLoc="32678,32851" basePixel="376,232" mapDesc="551">
+			<!-- inter oman tower 9F -->
+		</Map>
+		<Map mapNum="12861" pngNum="16583" ratio="22.0" baseLoc="32802,32786" basePixel="364,238" mapDesc="551">
+			<!-- inter oman tower 10F -->
+		</Map>
+		<Map mapNum="12862" pngNum="16584" ratio="26.0" baseLoc="32738,32887" basePixel="431,231" mapDesc="551">
+			<!-- inter oman tower TOP -->
+		</Map>
+		<!-- pet renewal -->
+		<Map mapNum="623" pngNum="17187" ratio="22.0" baseLoc="32821,32904" basePixel="545,218" mapDesc="550"/>
+		<Map mapNum="2041" pngNum="17188" ratio="10.0" baseLoc="32792,32808" basePixel="436,136" mapDesc="564"/>
+		<Map mapNum="2047" pngNum="17189" ratio="12.0" baseLoc="32805,32801" basePixel="417,109" mapDesc="565"/>
+		<Map mapNum="2053" pngNum="17190" ratio="10.0" baseLoc="32779,32818" basePixel="382,209" mapDesc="566"/>
+		<Map mapNum="2059" pngNum="17191" ratio="12.0" baseLoc="32730,32873" basePixel="393,180" mapDesc="567"/>
+		<Map mapNum="15481" pngNum="20168" ratio="14.0" baseLoc="32741,32836" basePixel="164,253" mapDesc="220">
+			<!-- inter Siege castle Kent -->
+		</Map>
+		<Map mapNum="15482" pngNum="20169" ratio="20.0" baseLoc="33632,32677" basePixel="366,229" mapDesc="168">
+			<!-- inter Siege castle Giran -->
+		</Map>
+		<Map mapNum="15483" pngNum="20170" ratio="16.0" baseLoc="32800,32271" basePixel="247,185" mapDesc="205">
+			<!-- inter Siege castle Orc -->
+		</Map>
+		<Map mapNum="15484" pngNum="20171" ratio="21.0" baseLoc="32734,32861" basePixel="632,354" mapDesc="228">
+			<!-- inter Siege castle Heine -->
+		</Map>
+		<Map mapNum="15485" pngNum="20172" ratio="15.0" baseLoc="32555,33376" basePixel="209,207" mapDesc="210">
+			<!-- inter Siege castle Windawood -->
+		</Map>
+		<Map mapNum="15486" pngNum="20173" ratio="9.0" baseLoc="32853,32879" basePixel="299,148" mapDesc="216">
+			<!-- inter Siege castle Dwarf -->
+		</Map>
+		<Map mapNum="15489" pngNum="23186" ratio="8.0" baseLoc="32764,32826" basePixel="336,221" mapDesc="692">
+			<!-- inter Heine zone of Occupation boss raid -->
+		</Map>
+		<Map mapNum="15490" pngNum="23185" ratio="14.0" baseLoc="32733,32825" basePixel="389,246" mapDesc="700">
+			<!-- inter Heine zone of Occupation -->
+			<Tell icon="3834" index="0" loc="32722,32836" group="7" mapDesc="678" />
+			<Tell icon="3834" index="1" loc="32751,32807" group="7" mapDesc="679" />
+			<Tell icon="3834" index="2" loc="32722,32807" group="7" mapDesc="680" />
+			<Tell icon="3834" index="3" loc="32751,32836" group="7" mapDesc="681" />
+			<Tell icon="3834" index="4" loc="32709,32809" group="7" mapDesc="682" />
+			<Tell icon="3834" index="5" loc="32709,32834" group="7" mapDesc="683" />
+			<Tell icon="3834" index="6" loc="32724,32849" group="7" mapDesc="684" />
+			<Tell icon="3834" index="7" loc="32749,32849" group="7" mapDesc="685" />
+			<Tell icon="3834" index="8" loc="32764,32834" group="7" mapDesc="688" />
+			<Tell icon="3834" index="9" loc="32764,32809" group="7" mapDesc="689" />
+			<Tell icon="3834" index="10" loc="32749,32795" group="7" mapDesc="690" />
+			<Tell icon="3834" index="11" loc="32724,32795" group="7" mapDesc="691" />
+			<Tell icon="3830" index="12" loc="32736,32797" group="7" mapDesc="695" />
+		</Map>
+		<Map mapNum="15491" pngNum="16175" ratio="5.0" baseLoc="32736,32807" basePixel="482,328" mapDesc="221">
+			<!-- inter Siege inner castle Kent -->
+		</Map>
+		<Map mapNum="15492" pngNum="10221" ratio="4.0" baseLoc="32732,32800" basePixel="240,153" mapDesc="169">
+			<!-- inter Siege inner castle Giran -->
+		</Map>
+		<Map mapNum="15493" pngNum="16214" ratio="5.0" baseLoc="32797,32885" basePixel="346,203" mapDesc="389">
+			<!-- inter Siege inner castle Orc -->
+		</Map>
+		<Map mapNum="15494" pngNum="10224" ratio="5.0" baseLoc="32574,32769" basePixel="0,0" mapDesc="229">
+			<!-- inter Siege inner castle Heine -->
+		</Map>
+		<Map mapNum="15495" pngNum="10220" ratio="3.0" baseLoc="32735,32783" basePixel="174,128" mapDesc="244">
+			<!-- inter Siege inner castle Windawood -->
+		</Map>
+		<Map mapNum="15496" pngNum="20174" ratio="6.0" baseLoc="32793,32797" basePixel="235,175" mapDesc="216">
+			<!-- inter Siege inner castle Dwarf -->
+		</Map>
+		<Map mapNum="15498" pngNum="23202" ratio="16.0" baseLoc="32748,32804" basePixel="527,176" mapDesc="717">
+			<!-- gtw inter Windawood guardian tower war main -->
+		</Map>
+		<Map mapNum="15499" pngNum="23203" ratio="8.0" baseLoc="32759,32845" basePixel="418,315" mapDesc="718">
+			<!-- gtw inter Windawood guardian tower war boss raid -->
+		</Map>
+		<Map mapNum="1318" pngNum="22998" ratio="18.0" baseLoc="32740,32804" basePixel="71,266" mapDesc="620">
+			<!-- halpas barlog 1f -->
+			<Portal loc="32741,32921" color="20,20,20"/>
+			<Portal loc="32855,32926" color="20,20,20"/>
+		</Map>
+		<Map mapNum="1319" pngNum="22999" ratio="18.0" baseLoc="32739,32868" basePixel="74,267" mapDesc="621">
+			<!-- halpas barlog 2f -->
+			<Portal loc="32738,32868" color="20,20,20"/>
+			<Portal loc="32855,32987" color="20,20,20"/>
+		</Map>
+		<!-- world class dungeon -->
+		<Map mapNum="15871" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town pr -->
+		</Map>
+		<Map mapNum="15872" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town kn -->
+		</Map>
+		<Map mapNum="15873" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town el -->
+		</Map>
+		<Map mapNum="15874" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town ma -->
+		</Map>
+		<Map mapNum="15875" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town da -->
+		</Map>
+		<Map mapNum="15876" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town dr -->
+		</Map>
+		<Map mapNum="15877" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town il -->
+		</Map>
+		<Map mapNum="15878" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town wa -->
+		</Map>
+		<Map mapNum="15879" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town fe -->
+		</Map>
+		<Map mapNum="15900" pngNum="23007" ratio="6.0" baseLoc="32832,32767" basePixel="379,254" mapDesc="626">
+			<!-- town la -->
+		</Map>
+		<Map mapNum="15881" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon pr -->
+		</Map>
+		<Map mapNum="15882" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon kn -->
+		</Map>
+		<Map mapNum="15883" pngNum="23010" ratio="26.0" baseLoc="32844,32820" basePixel="402,228" mapDesc="627">
+			<!-- dungeon el -->
+		</Map>
+		<Map mapNum="15884" pngNum="23011" ratio="26.0" baseLoc="32785,32859" basePixel="370,317" mapDesc="627">
+			<!-- dungeon ma -->
+		</Map>
+		<Map mapNum="15885" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon da -->
+		</Map>
+		<Map mapNum="15886" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon dr -->
+		</Map>
+		<Map mapNum="15887" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon il -->
+		</Map>
+		<Map mapNum="15888" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon wa -->
+		</Map>
+		<Map mapNum="15889" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon fe -->
+		</Map>
+		<Map mapNum="15901" pngNum="23009" ratio="26.0" baseLoc="32784,32747" basePixel="158,216" mapDesc="627">
+			<!-- dungeon la -->
+		</Map>
+		<Map mapNum="15891" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss pr -->
+		</Map>
+		<Map mapNum="15892" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss kn -->
+		</Map>
+		<Map mapNum="15893" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss el -->
+		</Map>
+		<Map mapNum="15894" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss ma -->
+		</Map>
+		<Map mapNum="15895" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss da -->
+		</Map>
+		<Map mapNum="15896" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss dr -->
+		</Map>
+		<Map mapNum="15897" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss il -->
+		</Map>
+		<Map mapNum="15898" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss wa -->
+		</Map>
+		<Map mapNum="15899" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss fe -->
+		</Map>
+		<Map mapNum="15902" pngNum="23013" ratio="6.0" baseLoc="32897,32862" basePixel="601,348" mapDesc="628">
+			<!-- boss la -->
+		</Map>
+	</Dungern_Map>
+	<Agit_Map>
+<!-- Giran -->
+		<Map mapNum="5068" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5069" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5070" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5071" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5072" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5073" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5074" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5075" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5076" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5077" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5078" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5079" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5080" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5081" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5082" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5083" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5084" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5085" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5086" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5087" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5088" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5089" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5090" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5091" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5092" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5093" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5094" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5095" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5096" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5097" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5098" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5099" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5100" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5101" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5102" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5103" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5104" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5105" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5106" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5107" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5108" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5109" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5110" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5111" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="5112" pngNum="16271" ratio="6.0" baseLoc="32763,32862" basePixel="498,349" mapDesc="568">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="20480" pngNum="16308" ratio="3.0" baseLoc="32735,32801" basePixel="418,302" mapDesc="570">
+			<Link linkedID="103"/>
+		</Map>
+		<Map mapNum="20992" pngNum="16309" ratio="3.0" baseLoc="32735,32805" basePixel="481,332" mapDesc="570">
+			<Link linkedID="103"/>
+		</Map>
+		<!-- gludin -->
+		<Map mapNum="4995" pngNum="16269" ratio="6.0" baseLoc="32801,32835" basePixel="581,371" mapDesc="568">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="4996" pngNum="16269" ratio="6.0" baseLoc="32801,32835" basePixel="581,371" mapDesc="568">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="4997" pngNum="16269" ratio="6.0" baseLoc="32801,32835" basePixel="581,371" mapDesc="568">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="4998" pngNum="16269" ratio="6.0" baseLoc="32801,32835" basePixel="581,371" mapDesc="568">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="4999" pngNum="16269" ratio="6.0" baseLoc="32801,32835" basePixel="581,371" mapDesc="568">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="5000" pngNum="16269" ratio="6.0" baseLoc="32801,32835" basePixel="581,371" mapDesc="568">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="17408" pngNum="16302" ratio="3.0" baseLoc="32734,32801" basePixel="425,304" mapDesc="570">
+			<Link linkedID="101"/>
+		</Map>
+		<Map mapNum="17920" pngNum="16303" ratio="3.0" baseLoc="32735,32805" basePixel="487,337" mapDesc="570">
+			<Link linkedID="101"/>
+		</Map>
+		<!-- aden -->
+		<Map mapNum="5001" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5002" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5003" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5004" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5005" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5006" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5007" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5008" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5009" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5010" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5011" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5012" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5013" pngNum="16270" ratio="6.0" baseLoc="32803,32770" basePixel="553,178" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5014" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5015" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5016" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5017" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5018" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5019" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5020" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5021" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5022" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5023" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5024" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5025" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5026" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5027" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5028" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5029" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5030" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5031" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5032" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5033" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5034" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5035" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5036" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5037" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5038" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5039" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5040" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5041" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5042" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5043" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5044" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5045" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5046" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5047" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5048" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5049" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5050" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5051" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5052" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5053" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5054" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5055" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5056" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5057" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5058" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5059" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5060" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5061" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5062" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5063" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5064" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5065" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5066" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="5067" pngNum="16270" ratio="6.0" baseLoc="32768,32773" basePixel="380,278" mapDesc="568">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="6000" pngNum="22973" ratio="10.0" baseLoc="32719,32824" basePixel="430,213" mapDesc="667">
+			<!-- eva Dungern 1F -->
+			<Portal loc="32663,32867" color="20,20,20"/>
+		</Map>
+		<Map mapNum="6001" pngNum="22974" ratio="10.0" baseLoc="32697,32835" basePixel="368,277" mapDesc="668">
+			<!-- eva Dungern 2F -->
+			<Portal loc="32706,32809" color="20,20,20"/>
+			<Portal loc="32746,32857" color="20,20,20"/>
+		</Map>
+		<Map mapNum="6002" pngNum="22975" ratio="10.0" baseLoc="32728,32807" basePixel="369,156" mapDesc="669">
+			<!-- eva Dungern 3F -->
+			<Portal loc="32728,32806" color="20,20,20"/>
+		</Map>
+		<Map mapNum="6003" pngNum="22961" ratio="16.0" baseLoc="32815,32801" basePixel="428,250" mapDesc="670">
+			<!-- atuba pss 1f -->
+			<Portal loc="32740,32843" color="20,20,20"/>
+		</Map>
+		<Map mapNum="6004" pngNum="22962" ratio="8.0" baseLoc="32765,32957" basePixel="356,277" mapDesc="671">
+			<!-- atuba pss 2f -->
+			<Portal loc="32768,32927" color="20,20,20"/>
+			<Portal loc="32800,32955" color="20,20,20"/>
+		</Map>
+		<Map mapNum="6005" pngNum="22963" ratio="8.0" baseLoc="32741,32933" basePixel="73,277" mapDesc="672">
+			<!-- atuba pss 3f -->
+			<Portal loc="32768,32927" color="20,20,20"/>
+		</Map>		
+		<Map mapNum="23552" pngNum="16314" ratio="3.0" baseLoc="32735,32801" basePixel="413,308" mapDesc="570">
+			<Link linkedID="106"/>
+		</Map>
+		<Map mapNum="24064" pngNum="16315" ratio="3.0" baseLoc="32735,32805" basePixel="480,343" mapDesc="570">
+			<Link linkedID="106"/>
+		</Map>
+		<!-- haine -->
+		<Map mapNum="5113" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5114" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5115" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5116" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5117" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5118" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5119" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5120" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5121" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5122" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="5123" pngNum="16272" ratio="6.0" baseLoc="32766,32838" basePixel="307,311" mapDesc="568">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="21504" pngNum="16310" ratio="3.0" baseLoc="32734,32801" basePixel="437,313" mapDesc="570">
+			<Link linkedID="115"/>
+		</Map>
+		<Map mapNum="22016" pngNum="16311" ratio="3.0" baseLoc="32734,32805" basePixel="491,334" mapDesc="570">
+			<Link linkedID="115"/>
+		</Map>
+		<!-- hall -->
+		<Map mapNum="16384" pngNum="16300" ratio="3.0" baseLoc="32736,32801" basePixel="418,307" mapDesc="570">
+			<Link linkedID="100"/>
+		</Map>
+		<Map mapNum="16896" pngNum="16301" ratio="3.0" baseLoc="32734,32806" basePixel="479,337" mapDesc="570">
+			<Link linkedID="100"/>
+		</Map>
+		<Map mapNum="18432" pngNum="16304" ratio="3.0" baseLoc="32735,32801" basePixel="420,306" mapDesc="570">
+			<Link linkedID="109"/>
+		</Map>
+		<Map mapNum="18944" pngNum="16305" ratio="3.0" baseLoc="32735,32805" basePixel="468,334" mapDesc="570">
+			<Link linkedID="109"/>
+		</Map>
+		<Map mapNum="19456" pngNum="16306" ratio="3.0" baseLoc="32734,32801" basePixel="423,299" mapDesc="570">
+			<Link linkedID="112"/>
+		</Map>
+		<Map mapNum="19968" pngNum="16307" ratio="3.0" baseLoc="32735,32805" basePixel="475,326" mapDesc="570">
+			<Link linkedID="112"/>
+		</Map>
+		<Map mapNum="22528" pngNum="16312" ratio="3.0" baseLoc="32735,32801" basePixel="418,293" mapDesc="570">
+			<Link linkedID="104"/>
+		</Map>
+		<Map mapNum="23040" pngNum="16313" ratio="3.0" baseLoc="32735,32805" basePixel="481,326" mapDesc="570">
+			<Link linkedID="104"/>
+		</Map>
+		<Map mapNum="24576" pngNum="23183" ratio="3.0" baseLoc="32739,32804" basePixel="363,303" mapDesc="570">
+			<Link linkedID="167"/>
+		</Map>
+		<Map mapNum="25088" pngNum="23184" ratio="3.0" baseLoc="32732,32801" basePixel="321,324" mapDesc="570">
+			<Link linkedID="167"/>
+		</Map>	
+	</Agit_Map>
+	<Restricted_Map>
+		<Map_Range mapRange="5124~5134"/>
+		<Map_Range mapRange="5140~5166"/>
+		<Map_Range mapRange="5300~5302"/>
+		<Map_Range mapRange="16385~16895"/>
+		<Map_Range mapRange="16897~17407"/>
+		<Map_Range mapRange="17409~17919"/>
+		<Map_Range mapRange="17921~18431"/>
+		<Map_Range mapRange="18433~18943"/>
+		<Map_Range mapRange="18945~19455"/>
+		<Map_Range mapRange="19457~19967"/>
+		<Map_Range mapRange="19969~20479"/>
+		<Map_Range mapRange="20481~20991"/>
+		<Map_Range mapRange="20993~21503"/>
+		<Map_Range mapRange="21505~22015"/>
+		<Map_Range mapRange="22017~22527"/>
+		<Map_Range mapRange="22529~23039"/>
+		<Map_Range mapRange="23041~23551"/>
+		<Map_Range mapRange="23553~24063"/>
+		<Map_Range mapRange="24065~24575"/>
+		<Map_Range mapRange="24577~25087"/>
+		<Map_Range mapRange="25089~65535"/>
+	</Restricted_Map>
+	<Common_UI>
+		<LEFT_IMG surfNum="2807" pos="2,148"/>
+		<RIGHT_IMG surfNum="2809" pos="529,148"/>
+		<UP_IMG surfNum="2811" pos="256,2"/>
+		<DOWN_IMG surfNum="2813" pos="256,295"/>
+		<USER_POINT_IMG surfNum="2818"/>
+		<!-- 8 direction: 2818~2825 -->
+		<PARTY_POINT_IMG surfNum="2826"/>
+		<TRANS_SCROLL_BASE_IMG surfNum="2840" pos="474,304"/>
+		<TRANS_SCROLL_KNOB_IMG surfNum="2841" pos="0,306"/>
+		<FIELD_TRANS_SCROLL_POS pos="100,110"/>
+		<FIELD_TRANS_SCROLL_KNOB_POS pos="0,112"/>
+	</Common_UI>
+	<Map_List_UI>
+		<TITLE_IMG surfNum="2830" pos="2,298"/>
+		<!-- push image need -->
+		<BASE_IMG surfNum="2832" pos="2,174"/>
+		<SCROLL_BASE_IMG surfNum="2833" pos="86,174"/>
+		<SCROLL_KNOB_IMG surfNum="2834" pos="88,0"/>
+		<UP_IMG surfNum="2836" pos="88,178"/>
+		<DOWN_IMG surfNum="2838" pos="88,285"/>
+	</Map_List_UI>
+	<Sub_List_UI>
+		<BASE_IMG surfNum="2886" pos="102,174"/>
+		<SCROLL_BASE_IMG surfNum="2829" pos="186,174"/>
+		<SCROLL_KNOB_IMG surfNum="2834" pos="188,0"/>
+		<UP_IMG surfNum="2836" pos="188,178"/>
+		<DOWN_IMG surfNum="2838" pos="188,285"/>
+	</Sub_List_UI>
+	<Object_List_UI>
+		<BASE_IMG surfNum="2832" pos="402,174"/>
+		<SCROLL_BASE_IMG surfNum="2833" pos="486,174"/>
+		<SCROLL_KNOB_IMG surfNum="2834" pos="488,0"/>
+		<UP_IMG surfNum="2836" pos="488,178"/>
+		<DOWN_IMG surfNum="2838" pos="488,285"/>
+	</Object_List_UI>
+</Map_System_Configulation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アマタ</name>
+		<job>[回復の修練善の使者]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>いらっしゃい。<br/>
+		<br/>
+		アガタ様から勇士様の旅に祝福があるよう願う気持ちから小さなプレゼントを準備してくださいました。<br/>
+		<br/>
+		1日に1回、勇士様が困難に陥ったとき、これまで重ねてきた努力が失われないよう
+		守ってくださる<font fg="ffffaf">アガタの加護</font>をプレゼントいたします。<br/>
+		<br/>
+		きっと冒険に役立つことでしょう…
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="non_npc buy"/></panel>
+	</dialog>
+</npcdialog>

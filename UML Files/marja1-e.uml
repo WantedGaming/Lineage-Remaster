@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>マルジャ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		アデン城の上空で何かが起きたから人がこんなに多いんでしょうか？<br/>
+		なにか知っていますか？
+		</p>
+	</dialog>
+</npcdialog>

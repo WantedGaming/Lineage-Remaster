@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィッシャー</name>
+		<job>[侍従長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>殿下、何なりとご命令をお申し付けください。</p>
+		<p><a link="fisherhp1">助言を求める</a></p>
+		<p><a action="inex">収入/支出の報告を受ける</a></p>
+		<p><a action="tax">税率を調節する</a></p>
+		<p><a action="withdrawal">資金を引き出す</a></p>
+		<p><a action="cdeposit">資金を入金する</a></p>
+		<p><a link="fisher4">傭兵を管理する</a></p>
+		<p><a action="castlegate">城門を管理する</a></p>
+		<p><a action="asktime">次の攻城戦の時間を決める</a></p>
+		<p><a action="security">城内の治安を管理する</a></p>
+  </dialog>
+</npcdialog>

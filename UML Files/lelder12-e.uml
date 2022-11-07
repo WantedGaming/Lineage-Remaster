@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+    <p>た…宝を取り戻してくれたか！</p>
+    <p>種族も違うワシらのために、ここまでやってのけてくれるとは…ありがとう。</p> 
+	<p>本当に、ありがとう…</p>
+    <p><a action="C">さあ、宝を受け取ってください</a></p>
+  </dialog>
+</npcdialog>

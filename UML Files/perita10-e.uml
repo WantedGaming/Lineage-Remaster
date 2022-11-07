@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p>ブラック イアリングをお持ちになられたのですね。</p>
+	<p>ミステリアス ポーション：1段階の材料となる火/水/大地/風の息吹を5個ずつ、闇の息吹を10個、闇の鉱石を10個、高級ルビー3個、高級エメラルド1個をください。</p>
+	<p>ミステリアス ポーション：1段階を作って差し上げます。</p>
+
+	<p><a action="G">材料を渡す</a></p>
+	
+	<p><a link="perita5">別の取引をしたいです</a></p>
+  </dialog>
+</npcdialog>

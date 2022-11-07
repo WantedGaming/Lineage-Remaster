@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		現在、城内の事情につき外部の者の通行を禁じている。<br></br>
+		逮捕されたくなければ、この近くをうろつくな。<br></br>
+		そうじゃなくても最近城の雰囲気が落ち着かないのに、ここにきてエルフとはな…。<br></br>
+		</p>
+
+	</dialog>
+	
+</npcdialog>

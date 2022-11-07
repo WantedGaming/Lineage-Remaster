@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>花屋主人シャロン</name>
+		<job>花束商人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Button">
+			<button action="buy"/>
+			<button action="sell"/>
+		</panel>
+		
+		<p>ようこそ。きれいな花を見にいらしたのですか？<br/></p>
+		<p>美しい花をお持ちになりたいのでしたら、一度選んでみてください。<br/><br/></p>
+
+	</dialog>
+
+</npcdialog>

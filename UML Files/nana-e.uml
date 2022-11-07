@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベント商人</title>
+	<npc>
+		<portrait>PO_001</portrait>
+		<name>ルータ</name>
+		<job>イベント商人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>こんにちは！<br/>
+		<br/>
+		ダーク ナイトの祝福を…<br/>
+		<br/>
+		<font fg="FF0000">戦場の欠片</font>をお持ちで？<br/>
+		<br/>
+		急激に成長している勇士なら必ず持っているという、<br/>
+		あの<font fg="FF0000">戦場の欠片</font>を持ってきてくだされば<br/>
+		アイテムと交換いたします。<br/>
+		<br/>
+		どうぞ見ていってください。<br/>
+		<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	</dialog>
+</npcdialog>
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+  </npc>
+  <dialog>
+	<p>変更になった税率は翌日からの適用になります。1日に複数回税率を変えられた場合、最後に定めた税率が適用となりますのでお忘れなきようお願いいたします。</p>
+  </dialog>
+</npcdialog>

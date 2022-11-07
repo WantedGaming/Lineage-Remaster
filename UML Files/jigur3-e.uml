@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[ピクシーの箱交換員]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 君の荷物に<font fg="ffffaf">ボックス交換確認証</font>が残っているということは、光るピクシーの箱を受け取ってから一日も経っていないようだな。<br/>
+		 ボックス交換確認証がなくなったら、また訪ねてくれ。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>
+

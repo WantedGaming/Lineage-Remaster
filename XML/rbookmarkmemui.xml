@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<BookmarkMemoryWindowUI Toggle="true">
+	<Window Name = "BookmarkMemory_Window" X = "0" Y = "0" FramePng="10413" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "BookmarkMemKeyBoard">
+	  <Button Name = "Exit_Button" X = "193" Y = "5" BaseSurf = "7998;1" HighlightSurf = "7999;1" PushSurf = "7999;1" MouseEvent = "CloseWindow"/>
+	  <Label Name = "UserName_Label" X="22" Y="33" Caption="username"/>
+ 		<ComboBox Name = "ZoneFilter_Combobox" X = "112" Y = "23" Width = "105" Height = "134" EnableEvent = "ZoneFilterComboBox">
+	    <Label Name = "Text_Label" String = "878" X="20" Y = "2" Width = "50" Height = "20" HAlign="center"/>
+	    <Button Name = "Expand_Button" X = "0" Y = "0" BasePng = "10351" HighlightPng = "10352" MouseEvent = "ZoneFilterComboExpandButton"/>
+	    <UpDownList Name = "Expand_List" X = "2" Y = "20" PageSize = "7" Width = "55" Height = "114" Vertical = "1">
+				<Image Name = "Background_Image" X = "-2" Png = "10353"/>
+				<CheckButton Name = "Item0_Button" Caption = "ALL" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item1_Button" Caption = "temp1" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item2_Button" Caption = "temp2" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item3_Button" Caption = "temp3" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item4_Button" Caption = "temp4" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item5_Button" Caption = "temp5" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item6_Button" Caption = "temp6" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item7_Button" Caption = "temp7" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item8_Button" Caption = "temp8" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item9_Button" Caption = "temp9" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item10_Button" Caption = "temp10" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item11_Button" Caption = "temp11" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item12_Button" Caption = "temp12" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item13_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item14_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item15_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item16_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item17_Button" Caption = "ALL" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item18_Button" Caption = "temp1" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item19_Button" Caption = "temp2" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item20_Button" Caption = "temp3" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item21_Button" Caption = "temp4" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item22_Button" Caption = "temp5" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item23_Button" Caption = "temp6" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item24_Button" Caption = "temp7" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item25_Button" Caption = "temp8" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item26_Button" Caption = "temp9" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item27_Button" Caption = "temp10" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item28_Button" Caption = "temp11" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item29_Button" Caption = "temp12" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item30_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item31_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item32_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item33_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item34_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item35_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item36_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item37_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+ 				<CheckButton Name = "Item38_Button" Caption = "temp9" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item39_Button" Caption = "temp10" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item40_Button" Caption = "temp11" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item41_Button" Caption = "temp12" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item42_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item43_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item44_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item45_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item46_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item47_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item48_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item49_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item50_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item51_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+ 				<CheckButton Name = "Item52_Button" Caption = "temp10" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+				<CheckButton Name = "Item53_Button" Caption = "temp11" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item54_Button" Caption = "temp12" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item55_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item56_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item57_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item58_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item59_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item60_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item61_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item62_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item63_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item64_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item65_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+        <CheckButton Name = "Item66_Button" Caption = "temp13" PushSurf = "4320;4" Height = "19" MouseEvent = "ZoneFilterComboListItem"/>
+			</UpDownList>
+			<WheelControl Name="Expand_List_Wheel" X="0" Y="19" Width="100" Height="90">
+        <ScrollBar Name = "Down_Scrollbar" X = "87" Y = "0" Width="20" Height="90" MaxValue = "2" ChangeValue = "1" ScrollStart = "16" ScrollHeight = "83" Vertical = "1" Activate="0">
+          <Button Name = "Up_Button" X = "1" Y ="0" BasePng = "10356" PushPng = "10357"  MouseEvent = "Dummy"/>
+          <Button Name = "Down_Button" X = "1" Y = "97" BasePng = "10358" PushPng = "10359" MouseEvent = "Dummy"/>
+          <Button Name = "Move_Button" X = "1" Y = "10" BasePng = "10360" PushPng = "10361" MouseEvent = "Dummy"/>
+        </ScrollBar>
+      </WheelControl>
+		</ComboBox>
+	  <List Name = "MemoryPlace_List" X = "13" Y = "55" Width = "200" Height = "320" Vertical = "1">
+			<Label Name = "Item0_Button" Caption = "temp0" Activate = "1" Height = "17" />
+		 	<Label Name = "Item1_Button" Caption = "temp1" Activate = "1" Height = "17" />
+		 	<Label Name = "Item2_Button" Caption = "temp2" Activate = "1" Height = "17" />
+		 	<Label Name = "Item3_Button" Caption = "temp3" Activate = "1" Height = "17" />
+		 	<Label Name = "Item4_Button" Caption = "temp4" Activate = "1" Height = "17" />
+		 	<Label Name = "Item5_Button" Caption = "temp5" Activate = "1" Height = "17" />
+		 	<Label Name = "Item6_Button" Caption = "temp6" Activate = "1" Height = "17" />
+		 	<Label Name = "Item7_Button" Caption = "temp7" Activate = "1" Height = "17" />
+		 	<Label Name = "Item8_Button" Caption = "temp8" Activate = "1" Height = "17" />
+		 	<Label Name = "Item9_Button" Caption = "temp9" Activate = "1" Height = "17" />
+		 	<Label Name = "Item10_Button" Caption = "temp10" Activate = "1" Height = "17" />
+		 	<Label Name = "Item11_Button" Caption = "temp11" Activate = "1" Height = "17" />
+		 	<Label Name = "Item12_Button" Caption = "temp12" Activate = "1" Height = "17" />
+		 	<Label Name = "Item13_Button" Caption = "temp13" Activate = "1" Height = "17" />
+		 	<Label Name = "Item14_Button" Caption = "temp14" Activate = "1" Height = "17" />
+		 	<Label Name = "Item15_Button" Caption = "temp15" Activate = "1" Height = "17" />
+		 	<Label Name = "Item16_Button" Caption = "temp16" Activate = "1" Height = "17" />
+		 	<Label Name = "Item17_Button" Caption = "temp17" Activate = "1" Height = "17" />
+		 	<Label Name = "Item18_Button" Caption = "temp17" Activate = "1" Height = "17" />
+		</List>
+    <WheelControl Name="MemoryPlaceList_WheelArea" X="22" Y="55" Width="200" Height="300">
+      <ScrollBar Name = "MemoryPlaceList_Scrollbar" X = "175" Y = "0" Height="300" MaxValue = "18" ChangeValue = "1" ScrollStart = "13" ScrollHeight = "300" Vertical = "1" MouseEvent="Dummy">
+        <Button Name = "Up_Button" X = "0" Y ="-5" BaseSurf="8699" PushSurf="8700" MouseEvent = "Dummy"/>
+        <Button Name = "Down_Button" X = "0" Y = "312" BaseSurf="8697" PushSurf="8698" MouseEvent = "Dummy"/>
+        <Button Name = "Move_Button" X = "1" Y = "16" BaseSurf="8695" PushSurf="8696" MouseEvent = "Dummy"/>
+      </ScrollBar>
+    </WheelControl>
+ 		<Button Name="Confirm_Button" BasePng="10404" PushPng="10405;1" HighlightPng="10406" DisablePng="10407" X="43" Y="389" MouseEvent="Confirm" Activate="0"/>
+		<Button Name="Cancel_Button" BasePng="10408" PushPng="10409;1" HighlightPng="10410" DisablePng="10411" X="110" Y="389" MouseEvent="Cancel" Activate="0"/>
+		<Image Name = "RequiredBookmarkCapacity_Image" X="107" Y="388" Surf = "4357;1"/>	
+		<Label Name = "ListingCount_Label" X="188" Y="396" Caption="50"/>
+	</Window>
+</BookmarkMemoryWindowUI>

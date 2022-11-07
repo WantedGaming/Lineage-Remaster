@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>呪われた巫女 サエル</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>私は<font fg="fff000">水竜パプリオン</font>を封印するために仕えたエヴァの神殿の巫女でした。<br/></p>
+		<p>愚かにもパプリオンの悪知恵に乗せられて、封印の鍵であった<font fg="ffffaf">エヴァのトライデント</font>をパプリオンに渡してしまいました。<br/></p>
+		<p>封印は解かれ、パプリオンはエヴァ王国を破壊しました。それが<font fg="fff000">エヴァの女神</font>様との大規模戦争の始まりでした。<br/></p>
+		<p><font fg="fff000">エヴァの女神</font>様と水中都市の人々はエヴァのトライデントを取り戻し、パプリオンを倒しましたが<br/></p>
+		<p><font fg="ffffaf">エヴァのトライデント</font>で切られた傷から流れ出したパプリオンの血が水中で広がり、その血に汚染された水中都市の人々と水中生物たちはモンスターへと変化しはじめました。<br/></p>
+		<p>私もまた、今のような醜い姿でエヴァ王国を飛び回りました。神官が私のために神聖なエヴァの水を使って定期的に呪いによる変化を抑えてくれていますが、私にはもうあまり時間が残されていないようです。<br/></p>
+ 
+		<p><a link="shamansael1">サエルの願い</a><br/></p>
+
+
+
+		
+	</dialog>
+
+</npcdialog>

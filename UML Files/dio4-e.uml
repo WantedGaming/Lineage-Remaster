@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>craft</icon>
+<title>Craft</title>
+  <npc>
+    <name>ディオ</name>
+		<job>[鉱石製作商人]</job>
+  </npc>
+  <dialog>
+    <p>
+あんた珍しいものを持ってるな？<br/>
+近頃は容易く手に入らないもんだが…よかったら、<font fg="ffffaf">ドラゴンのダイアモンド</font>と交換してほしいんだが、どうだい？<br/>
+巷ではドラゴンのダイアモンドの方が良い品だと思ってるみたいだけど、俺は入手困難なドラゴンのエメラルドの方がいいな。ハハハ<br/><br/>
+「ドラゴンのエメラルド」を<br/><a action="request diamond of dragon 2009">：「ドラゴンのダイアモンド」に交換してください。</a><br/><br/>
+「ドラゴンのエメラルドボックス」を<br/><a action="request treasure box of dragon 2009">：「ドラゴンのダイアモンドボックス」に交換してください。</a>
+</p>
+  </dialog>
+</npcdialog>

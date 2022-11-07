@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ダニエル</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		ここからお送りできる村と料金は以下のとおりです。<br/>
+		どの村に行きますか？<br/>
+		<br/><br/>
+		<a action="teleport diad-woods">ウッドベック村：<var src="0"/>Adena</a><br/>
+		<a action="teleport diad-gludin">Gludin Village:<var src="1"/>Adena</a><br/>
+		<a action="teleport diad-silver">シルバーナイトタウン：<var src="2"/>Adena</a><br/>
+		<a action="teleport diad-kent">Kent Castle Town:<var src="3"/>Adena</a><br/>
+		<a action="teleport diad-willow">Firefield Village:<var src="4"/>Adena</a><br/>
+		<a action="teleport diad-heine">Heine Castle Town:<var src="5"/>Adena</a><br/>
+		<a action="teleport diad-giran">Giran Castle Town:<var src="6"/>Adena</a><br/>
+		<a action="teleport diad-werldern">Werldern Village:<var src="7"/>Adena</a><br/>
+		<a action="teleport diad-oren">Oren Village:<var src="8"/>Adena</a><br/>
+		<a action="teleport diad-aden">Aden:<var src="9"/>Adena</a><br/>
+		<a action="teleport diad-lowful">Lawful Temple:<var src="10"/>Adena</a><br/>
+		<a action="teleport diad-chaos">Chaotic Temple:<var src="11"/>Adena</a><br/>
+		<a action="teleport diad-island">Talking Island:<var src="12"/>Adena</a><br/>
+		
+		</p>
+
+	</dialog>
+
+</npcdialog>

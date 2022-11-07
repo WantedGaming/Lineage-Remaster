@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブアック</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 エヴァの水の結界のおかげでパプリオンはエヴァの聖地にまったく手を出せませんでした。<br/>
+		 ですが、パプリオンは諦めずに別の方法を企てていたのです。<br/><br/>
+		 パプリオンは姿を美しい青年に化け、エヴァの聖地で水の結界を守る巫女サエルに近づきました。
+		 青年に化けたパプリオンは巫女サエルをそそのかし、水の結界の力の源である「エヴァのトライデント」を盗ませたのです。<br/><br/><br/>
+		 そして、それがすべての<a link="buakheu5">災い</a>の始まりでした。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

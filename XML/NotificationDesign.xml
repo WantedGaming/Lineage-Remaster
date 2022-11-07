@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NotificationDesgin>
+<!-- 에르자베 -->
+	<Notification ID="1" HyperLink="http://g.lineage.power.plaync.com/wiki/%EC%97%90%EB%A5%B4%EC%9E%90%EB%B2%A0" DisplayDesc="$1506" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="21:00" Duration="30"/>
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="21:00" Duration="30"/>
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			<Conditions>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			</Conditions>
+			<Teleport Action="a" WorldNumber = "4" LocX="32882" LocY="33241" Range="6"/>
+		</TeleportData>
+		<NotiConditionData>
+            <DieNpc ClassID="12074"/>
+        </NotiConditionData>
+	</Notification>
+<!-- 샌드웜 -->
+	<Notification ID="2" HyperLink="http://g.lineage.power.plaync.com/wiki/%EC%83%8C%EB%93%9C+%EC%9B%9C" DisplayDesc="$11993" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="21:00" Duration="30"/>
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="21:00" Duration="30"/>
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			<Conditions>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			</Conditions>
+			<Teleport Action="a" WorldNumber = "4" LocX="32772" LocY="33175" Range="6"/>
+		</TeleportData>
+				<NotiConditionData>
+            <DieNpc ClassID="12075"/>
+        </NotiConditionData>
+	</Notification>
+<!-- 붉은기사단-공성전 -->
+	<Notification ID="3" HyperLink="http://g.lineage.power.plaync.com/wiki/%EB%B6%89%EC%9D%80+%EA%B8%B0%EC%82%AC%EB%8B%A8%EC%9D%98+%EC%A7%84%EA%B2%A9+-+%EA%B3%B5%EC%84%B1%EC%A0%84+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8" DisplayDesc="$16298" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="SUN">
+					<Times>
+						<Time StartTime="19:30" Duration="40"/>
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			  <Conditions>
+				   <Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			 </Conditions>
+			<Teleport Action="a" WorldNumber = "4" LocX="32615" LocY="33188" Range="6"/>
+		</TeleportData>
+	</Notification>
+
+<!-- 리니지TV 테스트 -->
+	<Notification ID="4" HyperLink="" DisplayDesc="$24694" >
+	    <OpenPeriod>
+	      <Period StartDate="2016-05-24 09:00:00" EndDate="2016-05-30 06:00:00">
+	 		   <Times>
+				      <Time StartTime="09:00" Duration="10080"/>
+			   </Times>
+	      </Period>
+			</OpenPeriod>
+	</Notification>
+	
+<!-- 아크프리패스 -->
+	<Notification ID="5" HyperLink="http://g.lineage.power.plaync.com/wiki/%EC%95%84%ED%81%AC+%ED%94%84%EB%A6%AC+%ED%8C%A8%EC%8A%A4" DisplayDesc="$23225" >
+    <OpenPeriod>
+      <Period StartDate="2015-10-14 06:00:00" EndDate="2015-10-28 06:00:00">
+      </Period>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			<Conditions>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			</Conditions>
+			<Teleport Action="a" WorldNumber = "0" LocX="32586" LocY="32947" Range="6"/>
+		</TeleportData>
+	</Notification>
+
+<!-- 전력질주 -->
+	<Notification ID="6" HyperLink="http://g.lineage.power.plaync.com/wiki/NC+%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4+2015+%ED%8F%AC%EC%8A%A4%ED%8A%B8+%EC%8B%9C%EC%A6%8C+%EC%A7%84%EC%B6%9C+%EA%B8%B0%EB%85%90+%EC%9D%B4%EB%B2%A4%ED%8A%B8" DisplayDesc="$23226" >
+		<OpenPeriod>
+	      <Period StartDate="2015-10-18 18:00:00" EndDate="2015-10-18 23:00:00">
+	      </Period>
+		</OpenPeriod>
+	</Notification>
+
+<!-- 붉은기사단 신규 복귀 -->
+	<Notification ID="7" HyperLink="http://g.lineage.power.plaync.com/wiki/%EB%B6%89%EC%9D%80+%EA%B8%B0%EC%82%AC%EB%8B%A8+%EB%AA%A8%EC%A7%91%21" DisplayDesc="$23227" >
+    <OpenPeriod>
+      <Period StartDate="2015-10-14 06:00:00" EndDate="2015-10-21 06:00:00">
+		<Times>
+			<Time StartTime="06:00"/>
+		</Times>
+      </Period>
+	</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			<Conditions>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			</Conditions>
+			<Teleport Action="a" WorldNumber = "4" LocX="32677" LocY="32796" Range="6"/>
+		</TeleportData>
+	</Notification>
+
+<!-- 화이트데이 썸앤쌈 -->
+	<Notification ID="8" HyperLink="" DisplayDesc="$24225" >
+	    <OpenPeriod>
+	      <Period StartDate="2016-03-02 09:00:00" EndDate="2016-03-16 06:00:00">
+	 		   <Times>
+				      <Time StartTime="09:00" Duration="20160"/>
+			   </Times>
+	      </Period>
+			</OpenPeriod>
+			<TeleportData AdenaCount="1000" StringIndex="4654">
+				<Conditions>
+					<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+				</Conditions>
+				<Teleport Action="a" WorldNumber = "0" LocX="32587" LocY="32939" Range="6"/>
+			</TeleportData>
+	</Notification>
+<!-- 리니지 콜로세움 -->
+	<!--<Notification ID="9" HyperLink="http://lineage.power.plaync.com/wiki/%EC%BD%9C%EB%A1%9C%EC%84%B8%EC%9B%80" DisplayDesc="$24427" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="MON">
+					<Times>
+						<Time StartTime="00:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="MON">
+					<Times>
+						<Time StartTime="18:00" Duration="180" />
+					</Times>
+				</Week>
+				<Week WeekDay="TUE">
+					<Times>
+						<Time StartTime="02:00" Duration="240" />
+					</Times>
+				</Week>
+				<Week WeekDay="TUE">
+					<Times>
+						<Time StartTime="18:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="WED">
+					<Times>
+						<Time StartTime="00:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="WED">
+					<Times>
+						<Time StartTime="18:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="THU">
+					<Times>
+						<Time StartTime="00:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="THU">
+					<Times>
+						<Time StartTime="18:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="00:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="18:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="00:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="18:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="SUN">
+					<Times>
+						<Time StartTime="00:00" Duration="360" />
+					</Times>
+				</Week>
+				<Week WeekDay="SUN">
+					<Times>
+						<Time StartTime="18:00" Duration="360" />
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+	</Notification>-->
+<!--드상 판매 지프리 이벤트 16.05.04(라이브)-->
+	<!--Notification ID="10" HyperLink="" DisplayDesc="$26143" >
+	    <OpenPeriod>
+	      <Period StartDate="2017-08-30 09:00:00" EndDate="2017-09-30 06:00:00">
+	 		   <Times>
+				      <Time StartTime="09:00" Duration="20160"/>
+			   </Times>
+	      </Period>
+			</OpenPeriod>
+			<TeleportData AdenaCount="1000" StringIndex="4654">
+				<Conditions>
+					<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+				</Conditions>
+				<Teleport Action="a" WorldNumber = "4" LocX="33443" LocY="32798" Range="6"/>
+			</TeleportData>
+	</Notification-->
+<!-- 리니지 콜로세움 LFC -->
+	<!--<Notification ID="11" HyperLink="http://lineage.power.plaync.com/wiki/2017+LFC" DisplayDesc="$24694" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="MON">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="MON">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="TUE">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="TUE">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="WED">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="WED">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="THU">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="THU">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="SUN">
+					<Times>
+						<Time StartTime="00:00" Duration="120" />
+					</Times>
+				</Week>
+				<Week WeekDay="SUN">
+					<Times>
+						<Time StartTime="22:00" Duration="120" />
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+	</Notification>-->
+	<!-- 고대 물품 상인 안내 -->
+	<Notification ID="12" HyperLink="" DisplayDesc="$25034" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="SUN">
+					<Times>
+						<Time StartTime="22:00" Duration="60"/>
+					</Times>
+				</Week>
+				<Week WeekDay="MON">
+					<Times>
+						<Time StartTime="22:00" Duration="60" />
+					</Times>
+				</Week>
+				<Week WeekDay="TUE">
+					<Times>
+						<Time StartTime="22:00" Duration="60" />
+					</Times>
+				</Week>
+				<Week WeekDay="WED">
+					<Times>
+						<Time StartTime="22:00" Duration="60" />
+					</Times>
+				</Week>
+				<Week WeekDay="THU">
+					<Times>
+						<Time StartTime="22:00" Duration="60" />
+					</Times>
+				</Week>
+				<Week WeekDay="FRI">
+					<Times>
+						<Time StartTime="22:00" Duration="60" />
+					</Times>
+				</Week>
+				<Week WeekDay="SAT">
+					<Times>
+						<Time StartTime="22:00" Duration="60" />
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			  <Conditions>
+				   <Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			 </Conditions>
+			<Teleport Action="a" WorldNumber = "4" LocX="32616" LocY="32794" Range="6"/>
+		</TeleportData>
+	</Notification>
+	<!--마법인형 이벤트 주석처리 해제
+	<Notification ID="13" HyperLink="" DisplayDesc="$26237" >
+	    <OpenPeriod>
+	      <Period StartDate="2017-10-11 09:00:00" EndDate="2017-10-18 06:00:00">
+	 		   <Times>
+					  <Time StartTime="17:50" Duration="60"/>
+				      <Time StartTime="18:50" Duration="60"/>
+				      <Time StartTime="19:50" Duration="60"/>
+				      <Time StartTime="20:50" Duration="60"/>
+				      <Time StartTime="21:50" Duration="60"/>
+				      <Time StartTime="22:50" Duration="60"/>
+				      <Time StartTime="23:50" Duration="60"/>
+			   </Times>
+	      </Period>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			<Conditions>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			</Conditions> 
+			<Teleport Action="a" WorldNumber = "4" LocX="33521" LocY="32882" Range="6"/>
+		</TeleportData>
+	</Notification> -->
+<!-- 수렵 이벤트 17.03.02(라이브) 
+	<Notification ID="14" HyperLink="" DisplayDesc="$26150" >
+	    <OpenPeriod>
+	      <Period StartDate="2017-07-24 09:00:00" EndDate="2017-08-09 06:00:00">
+	 		   <Times>
+				      <Time StartTime="09:00" Duration="22860"/>
+			   </Times>
+	      </Period>
+			</OpenPeriod>
+			<TeleportData AdenaCount="1000" StringIndex="4654">
+				<Conditions>
+					<Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+				</Conditions>
+				<Teleport Action="a" WorldNumber = "4" LocX="33449" LocY="32796" Range="2"/>
+			</TeleportData>
+	</Notification>
+-->
+<!-- 발록 안내 -->
+	<Notification ID="15" HyperLink="" DisplayDesc="$2114" >
+		<OpenPeriod>
+			<Weeks>
+				<Week WeekDay="MON">
+					<Times>
+						<Time StartTime="23:00" Duration="60" />
+					</Times>
+				</Week>
+				<Week WeekDay="TUE">
+					<Times>
+						<Time StartTime="23:00" Duration="60" />
+					</Times>
+				</Week>
+			</Weeks>
+		</OpenPeriod>
+		<TeleportData AdenaCount="1000" StringIndex="4654">
+			  <Conditions>
+				   <Item NameID="7" Count="1000" Delete="DELETE_COUNT" />
+			 </Conditions>
+			<Teleport Action="a" WorldNumber = "4" LocX="33696" LocY="32496" Range="6"/>
+		</TeleportData>
+	</Notification>
+</NotificationDesgin>
+

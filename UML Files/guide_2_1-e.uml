@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが26から35のあなたのためのお手軽な狩り場を教えましょう。お望みの狩り場を選んでください。
+		<br/><br/>
+		<a link="guide_2_1_1"><font fg="ffffaf">グルーディン村の北にある廃墟</font></a><br/>：<a action="teleport guide2_1_1"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_2_1_2"><font fg="ffffaf">ギランの町の北にある森</font></a><br/>：<a action="teleport guide2_1_2"><var src="1"/>Adenaでテレポートします。</a><br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

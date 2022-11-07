@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デュラン</name>
+		<job>[船着場管理人]</job>
+  </npc>
+  <dialog>
+    <p>
+ここの船着場に船が停泊する時間は次のとおりだ。<br/>
+ちなみに今現在の時刻は<var src="999"/>だぞ。
+<br/><br/>
+<font fg="ffffaf">
+01：30～02：30<br/>
+04：30～05：30<br/>
+07：30～08：30<br/>
+10：30～11：30<br/>
+13：30～14：30<br/>
+16：30～17：30<br/>
+19：30～20：30<br/>
+22：30～23：30<br/>
+</font>
+<br/>
+<img src="331" link="duran"/>
+</p>
+  </dialog>
+</npcdialog>

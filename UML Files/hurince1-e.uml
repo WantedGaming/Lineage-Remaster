@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>おまえは…おまえはなぜ母なる世界樹とアインハザードの子でありながら、
+	グランカインの欲望をその目にたたえているのですか？
+	今すぐここから出て行きなさい！命の理に背いた者め…。</p>
+  </dialog>
+</npcdialog>

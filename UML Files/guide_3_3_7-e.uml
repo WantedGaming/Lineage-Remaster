@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ハイネの町の南東側のアジトが集まっている地域を通り過ぎて、森の中の道を5時の方向に進むと、ハイネのダンジョンの入口があります。<br/>
+		 エヴァの聖地は水の神エヴァが興したんですけど、パプリオンを封印するために犠牲にされた悲劇の都市なんですよ。あなたが見聞を広めれば、自然に知ることになるでしょう。<br/>
+		 2階には1階で現れるモンスター、<font fg="ffafff">呪われたラットマン</font>、<font fg="ffafff">呪われたラミア</font>、それに<font fg="ffafff">呪われたメデューサ</font>が手下を引きつれて待ってますよ。<br/>
+		 3階には<font fg="ffafff">呪われたラミア</font>、<font fg="ffafff">呪われたラットマン</font>、<font fg="ffafff">呪われたリザードマン</font>、<font fg="ffafff">エヴァ王国の悪霊</font>がいますよ。そこに<font fg="ffafff">呪われた水の大精霊</font>がエヴァの聖地を守っています。<br/>
+		 やつらすべてが人間を見るや否や攻撃をしかけてきます。道が迷路のように複雑なので迷わないように気をつけてください。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

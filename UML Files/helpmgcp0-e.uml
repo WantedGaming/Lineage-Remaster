@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>君主魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">君主の魔法：一般論</font><br/></p>
+	<p><font fg="ffffaf">魔法別キャラクター学習可能レベル</font>：<br/>
+	一般魔法1：レベル15<br/>
+	一般魔法2：レベル30<br/>
+	君主魔法1：レベル50<br/>
+	君主魔法2：レベル55<br/>
+	君主魔法特殊：必要レベル<br/></p>
+	
+	<p><font fg="ffffaf">君主の魔法習得：</font><br/>
+	一般魔法の場合、決まった場所にいるウィザードのNPCにAdenaを渡して習うことができます。話せる島では、島の東側にいるゲレンから魔法を習えます。<br/>
+	君主専用魔法は、<font fg="afffff">クエスト及びNPC</font>や<font fg="afffff">モンスター</font>から魔法書を獲得し、それを使って習得できます。<br/>
+	もちろん、習得したい魔法に相応しいレベルが必要です。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>変更された税率は翌日より適用になります。一日に何度税率を変えても、最後に定めた税率だけが適用されますことを肝に銘じてくださいませ。
+		
+		</p>
+	</dialog>
+</npcdialog>

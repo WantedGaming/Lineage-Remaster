@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>エヴァの祝福を知らないのか？おいおい、そんなんじゃここで生き残れないぞ？<br/>
+    <br/>
+		エヴァの祝福っていうのはな、水中でも息ができるようになるすごいアイテムなんだぞ！
+    ここでの必須アイテムだな！</p>
+    <p><a link="vehikeu9">それが何で必要なんですか</a></p>
+  </dialog>
+</npcdialog>

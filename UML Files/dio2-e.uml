@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>craft</icon>
+<title>Craft</title>
+  <npc>
+    <name>ディオ</name>
+		<job>[鉱石製作商人]</job>
+  </npc>
+  <dialog>
+    <p>
+あんたの欲深い目つきを見てたら、あんたと取引する気がなくなった。<br/>
+どうせあんたの持ってるモンは、全部どっかでよからぬ方法を使って手に入れたんだろう。<br/>
+とっとと出て行ってくれ。
+</p>
+  </dialog>
+</npcdialog>

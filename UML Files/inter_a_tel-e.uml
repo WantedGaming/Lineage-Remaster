@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+ <npc>
+    <name>オーブ</name>
+    <job>[Teleporter]</job>
+ </npc>
+  <dialog><p>ガーディアンタワー占領戦開始後に使用できます。<br/></p>
+  <br/><br/>
+  </dialog>
+
+</npcdialog>

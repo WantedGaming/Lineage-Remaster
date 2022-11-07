@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ティロン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>こんにちは。私はこの島を探検される方のため、遠くグルーディオから来たティロンと申します。</p>
+		<p>最近ここに来られる方が多くなりました。</p>
+		<p>ここはとても危険ですので、その分たくさんのアイテムを装備されるのが良いと思います。</p>
+		<p><img src="p16328" highlight="p16329" action="buy"/></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		アイアン プレート メイルを作るには、プレート メイル1つとランプ メタル450個が必要だ。手数料は30000Adenaだよ。<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request iron plate mail"/></panel><p align="center">アイアン プレート メイルをつくる</p><br/>
+
+	</dialog>
+</npcdialog>

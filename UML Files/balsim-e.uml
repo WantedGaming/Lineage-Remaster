@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Balsim</name>
+		<job>Merchant</job>
+		<text>Peac-Loving Shady Orc Merchant</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Don't attack. Me, a peaceful orc.<br/>
+		 We sell Orc Weapons.<br/>
+		<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p><br/>
+		</p><p><a link="balsimEv1">What do you know about Giant Spider?</a></p>
+		<p><br/>
+		<a link="balsim3">Ask about recent prices</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

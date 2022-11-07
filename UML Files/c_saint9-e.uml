@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ロンダ</name>
+    <job>[ペット霊魂師]</job>
+  </npc>
+  <dialog>
+	<p>ま…待ってください！もう一度考え直してくれますか？今までペットと共に重ねてきた<font fg="ffafff">友情ポイントと野性</font>もすべて消えてしまうんですよ？</p>
+	<p></p>
+	<p>それでも忘却させるんですか？あなたの事を完全に忘れてしまうのに…</p>
+	<p></p>
+	<p></p>
+	<p><a action="b">忘却してください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

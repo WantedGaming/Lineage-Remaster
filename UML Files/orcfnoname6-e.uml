@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>長老ノナメ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>決意が固いようじゃな。それならわしが手紙を1つ書いてやろう。この手紙を持って、調査団長アトゥバ ノアを訪ねれば、任務が与えられるだろう。</p>
+<p>調査を手伝った証を持って、またわしのところに来ればしっかりと礼をやろう。</p>
+<br/>
+<p><a action="A"/>手紙を受け取る</p>
+</dialog>
+
+</npcdialog>

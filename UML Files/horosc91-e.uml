@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>Keplisha</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>影の神殿でヤヒに出くわして命からがら逃げ出したまではよかったが、今度はモンスターに袋叩きにされるでしょう。<br/><br/></p>
+	<p>死の恐怖に取り付かれて、もがいても死の淵から逃れることはできないでしょう。村でゆっくり休むのがいいでしょう。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

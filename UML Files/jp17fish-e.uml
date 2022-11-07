@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name><var src="name"/></name>
+		<job>[祈りの欠片 収集家]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> もしかして、青い光を帯びた妙な石ころが釣れませんでしたか？<br/>
+		 <br/>
+		 本当に釣れたのですか？<br/>
+		 <br/>
+		 おお、でしたら勇士様は幸運を釣り上げたわけですね！<br/>
+		 <br/>
+		 幸運を確認して下さい。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

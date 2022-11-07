@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>クコムボル</name>
+    <job>[雑貨商人]</job>
+  </npc>
+  <dialog>
+	<p>くぅ…狂った竜のせいで、オークも被害を受けた。</p>
+	<p><br/></p>
+	<p>お前、弱そうだが竜に立ち向かう勇気はありそうだな。生きて帰れるように協力してやる。</p> 
+	<p><br/></p>
+	<p>必ず<font fg="0000ff">火竜</font>を倒してくれ。</p>
+	<panel type="Panel_Shop_Bt_Buy">
+		<button action="buy"/>
+	</panel>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

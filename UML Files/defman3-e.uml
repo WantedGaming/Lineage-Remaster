@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>デフマン</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+    <p> そうですね。物価は<var src="0"/>%くらいです。<br/><br/>
+		<img src="331" link="defman"/>
+		</p>
+  </dialog>
+</npcdialog>

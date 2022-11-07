@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ゲレン</name>
+    <job>[話せる島の長老]</job>
+  </npc>
+  <dialog>
+	<p>うん？<br/></p>
+	<p>まだ足りないな。<br/></p>
+	<p><br/></p>
+	<p><font fg="ffaaff">水晶球</font>と<font fg="ffaaff">飼いならされていない魂の欠片</font>を確認してみるのだ。<br/></p>
+	<p>すべての条件が揃わないと助けにはなれん。<br/></p>
+	<p><br/></p>
+	<p>では私はここで待っている。<br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="gereng01">* 最初に戻る</a><br/><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

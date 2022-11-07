@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 태그 설명 // 추가 될 경우 해당란에 꼭 기입 해주세요 -->
+	<!--Map Number: 실제 인게임에서 사용하는 Map 번호. alpha에는 국내/해외 모두 존재 -->
+	<!--worldType: Main은 아덴월드, battle은 배틀서버(잊혀진 섬 등) 을 의미한다 // Dungeon의 경우 사용하는지 확인 필요 -->
+	<!--IsSafeWorld: safety zone 설정 // 재확인 필요 -->
+	<!--IsNPCForbidden: NPC 진입 금지. 기존 load,ndl에 기입된 npcForbidden, Nosummon, NoCreatemon이 해당 태그 1개로 사용되고 있다 -->
+	<!--IsUnderground: 지하, 땅속 -->
+	<!--dogAllowed: NPC는 진입 금지지만, Pet은 진입 가능 -->
+	<!--CoppyCount: 복사 맵 수. 1개의 맵이 복사될 경우, 기본맵과 복사맵이 2개이므로 "2"로 기입하면 된다 -->
+	<!--CopyStartNumber: 복사맵 시작 번호, 사용하려는 번호가 현재 사용중인지 확인 필요 -->
+	<!--equipChange: 설정된 맵에서는 장비 스왑 불가 -->
+	<!--dmgModiPc2Npc: PC가 NPC에게 공격 시 xx% 데미지만 적용. ex)dmgModiPc2Npc="50" PC가 NPC에게 공격 시 50%의 데미지만 적용 //국내에 바이너리 배포 유무 확인중 -->
+	<!--dmgModiNpc2Pc: NPC에게 PC에게 공격 시 xx% 데미지만 적용. ex)dmgModiNpc2Pc="50" NPC가 PC에게 공격 시 50%의 데미지만 적용 //국내에 바이너리 배포 유무 확인중 -->
+	<!--IsNoSpellUse: 해당 맵에서 스펠 사용 금지 -->
+	<!--IsNoItemUse: 해당 맵에서 아이템 사용 금지 -->
+	<!--NativeScript="NoviceSiege": 클라우디아 공성전에 사용되는 NoviceSiege.xml 파일과 연결시켜주는 기능, 코딩으로 박혀있어서 다른 곳에서 사용 불가 -->
+	<!--NativeScript="NoviceSiege": 클라우디아 공성전에 사용되는 NoviceSiege.xml 파일과 연결시켜주는 기능, 코딩으로 박혀있어서 다른 곳에서 사용 불가 -->
+	<!--contentEndKillAllNpc_ik : 배틀 서버의 맵에 설정되는 기능이며 해당 컨텐츠가 종료 되면 지정된 맵의 npc를 강제 삭제 하는 기능이다. value 값은 해당 컨텐츠의 interKind를 지정 해주어야 한다. -->
+<MapList>
+	<!-- 메인 월드 -->
+	<Map Number="0" WorldType="Main"/>
+	<Map Number="1" WorldType="Main" IsUnderground="true" dmgModiPc2Npc="50" dmgModiNpc2Pc="120" CopyCount="2" CopyStartNumber="12508"/>
+	<Map Number="2" WorldType="Main" IsUnderground="true" dmgModiPc2Npc="50" dmgModiNpc2Pc="120" CopyCount="2" CopyStartNumber="12509"/>
+	<Map Number="3" WorldType="Main"/>
+	<Map Number="4" WorldType="Main"/>
+	<Map Number="5" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="6" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="7" WorldType="Main" IsUnderground="true"/>
+	<Map Number="8" WorldType="Main" IsUnderground="true"/>
+	<Map Number="9" WorldType="Main" IsUnderground="true"/>
+	<Map Number="10" WorldType="Main" IsUnderground="true"/>
+	<Map Number="11" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12" WorldType="Main" IsUnderground="true"/>
+	<Map Number="13" WorldType="Main" IsUnderground="true"/>
+	<Map Number="14" WorldType="Main" IsUnderground="true"/>
+	<Map Number="15" WorldType="Main"/>
+	<Map Number="16" WorldType="Main"/>
+	<Map Number="17" WorldType="Main"/>
+	<Map Number="18" WorldType="Main"/>
+	<Map Number="19" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12510"/>
+	<Map Number="20" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12511"/>
+	<Map Number="21" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12512"/>
+	<Map Number="22" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" IsNoItemUse="true"/>
+	<Map Number="23" WorldType="Main" IsUnderground="true"/>
+	<Map Number="24" WorldType="Main" IsUnderground="true"/>
+	<Map Number="25" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12513"/>
+	<Map Number="26" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12514"/>
+	<Map Number="27" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12515"/>
+	<Map Number="28" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12516"/>
+	<Map Number="29" WorldType="Main" IsUnderground="true"/>
+	<Map Number="30" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12576"/>
+	<Map Number="31" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12577"/>
+	<Map Number="32" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12578"/>
+	<Map Number="33" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12579"/>
+	<Map Number="34" WorldType="Main" IsUnderground="true"/>
+	<Map Number="35" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12580"/>
+	<Map Number="36" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12581"/>
+	<Map Number="37" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12582"/>
+	<Map Number="38" WorldType="Main"/>
+	<Map Number="39" WorldType="Main"/>
+	<Map Number="40" WorldType="Main"/>
+	<Map Number="41" WorldType="Main"/>
+	<Map Number="43" WorldType="Main" IsUnderground="true"/>
+	<Map Number="44" WorldType="Main" IsUnderground="true"/>
+	<Map Number="45" WorldType="Main" IsUnderground="true"/>
+	<Map Number="46" WorldType="Main" IsUnderground="true"/>
+	<Map Number="47" WorldType="Main" IsUnderground="true"/>
+	<Map Number="48" WorldType="Main" IsUnderground="true"/>
+	<Map Number="49" WorldType="Main" IsUnderground="true"/>
+	<Map Number="50" WorldType="Main" IsUnderground="true"/>
+	<Map Number="51" WorldType="Main" IsUnderground="true"/>
+	<Map Number="52" WorldType="Main"/>
+	<Map Number="53" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12517"/>
+	<Map Number="54" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12518"/>
+	<Map Number="55" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12519"/>
+	<Map Number="56" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12520"/>
+	<!--Map Number="57" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="58" WorldType="Main" IsNPCForbidden="true" /-->
+	<Map Number="59" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12521"/>
+	<Map Number="60" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12522"/>
+	<Map Number="61" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" IsDogAllowed="true" CopyCount="2" CopyStartNumber="12523"/>
+	<Map Number="62" WorldType="Main" IsUnderground="true"/>
+	<Map Number="63" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="2" CopyStartNumber="12524"/>
+	<Map Number="64" WorldType="Main"/>
+	<Map Number="65" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="66" WorldType="Main" IsUnderground="true"/>
+	<Map Number="67" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<!--Map Number="68" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="69" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="70" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="72" WorldType="Main" IsUnderground="true"/>
+	<Map Number="73" WorldType="Main" IsUnderground="true"/>
+	<Map Number="74" WorldType="Main" IsUnderground="true"/>
+	<Map Number="75" WorldType="Main"/>
+	<Map Number="76" WorldType="Main"/>
+	<Map Number="77" WorldType="Main"/>
+	<Map Number="78" WorldType="Main" IsUnderground="true"/>
+	<Map Number="79" WorldType="Main" IsUnderground="true"/>
+	<Map Number="80" WorldType="Main" IsUnderground="true"/>
+	<Map Number="81" WorldType="Main" IsUnderground="true"/>
+	<Map Number="82" WorldType="Main" IsUnderground="true"/>
+	<Map Number="83" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="84" WorldType="Main" IsNPCForbidden="true"/>
+	<!--Map Number="85" WorldType="Main" IsUnderground="true" /-->
+	<!--Map Number="86" WorldType="Main" IsUnderground="true" /-->
+	<Map Number="87" WorldType="Main" IsSafeWorld="true" IsUnderground="true"/>
+	<Map Number="88" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="89" WorldType="Main"/>
+	<Map Number="90" WorldType="Main"/>
+	<Map Number="91" WorldType="Main"/>
+	<Map Number="92" WorldType="Main"/>
+	<Map Number="93" WorldType="Main"/>
+	<Map Number="94" WorldType="Main"/>
+	<Map Number="95" WorldType="Main"/>
+	<Map Number="96" WorldType="Main"/>
+	<Map Number="97" WorldType="Main"/>
+	<Map Number="98" WorldType="Main"/>
+	<Map Number="99" WorldType="Main"/>
+	<Map Number="100" WorldType="Main"/>
+	<Map Number="101" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12526"/>
+	<Map Number="102" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12527"/>
+	<Map Number="103" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12528"/>
+	<Map Number="104" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12529"/>
+	<Map Number="105" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12530"/>
+	<Map Number="106" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12531"/>
+	<Map Number="107" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12532"/>
+	<Map Number="108" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12533"/>
+	<Map Number="109" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12534"/>
+	<Map Number="110" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12535"/>
+	<Map Number="111" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="2" CopyStartNumber="12536"/>
+	<Map Number="112" WorldType="Main" IsUnderground="true"/>
+	<Map Number="113" WorldType="Main" IsUnderground="true"/>
+	<Map Number="114" WorldType="Main" IsUnderground="true"/>
+	<Map Number="115" WorldType="Main" IsUnderground="true"/>
+	<Map Number="116" WorldType="Main" IsUnderground="true"/>
+	<Map Number="117" WorldType="Main" IsUnderground="true"/>
+	<Map Number="118" WorldType="Main" IsUnderground="true"/>
+	<Map Number="119" WorldType="Main" IsUnderground="true"/>
+	<Map Number="120" WorldType="Main" IsUnderground="true"/>
+	<Map Number="121" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12537"/>
+	<Map Number="122" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12538"/>
+	<Map Number="123" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12539"/>
+	<Map Number="124" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12540"/>
+	<Map Number="125" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12541"/>
+	<Map Number="126" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12542"/>
+	<Map Number="127" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12543"/>
+	<Map Number="128" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12544"/>
+	<Map Number="129" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12545"/>
+	<Map Number="130" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12546"/>
+	<Map Number="131" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="2" CopyStartNumber="12547"/>
+	<!-- 이벤트 전용-->
+	<Map Number="132" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="3"/>
+	<Map Number="142" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="2"/>
+	<!--Map Number="133" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="134" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="135" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="136" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="137" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="138" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="139" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="140" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="141" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="142" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="143" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="144" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="145" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="146" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="147" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="148" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="149" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="150" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="151" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="152" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="153" WorldType="Main" IsUnderground="true"/>
+	<Map Number="154" WorldType="Main" IsUnderground="true"/>
+	<Map Number="155" WorldType="Main" IsUnderground="true"/>
+	<Map Number="156" WorldType="Main" IsUnderground="true"/>
+	<Map Number="157" WorldType="Main" IsUnderground="true"/>
+	<Map Number="158" WorldType="Main" IsUnderground="true"/>
+	<Map Number="159" WorldType="Main" IsUnderground="true"/>
+	<Map Number="160" WorldType="Main" IsUnderground="true"/>
+	<Map Number="161" WorldType="Main" IsUnderground="true"/>
+	<Map Number="162" WorldType="Main" IsUnderground="true"/>
+	<Map Number="163" WorldType="Main" IsUnderground="true"/>
+	<Map Number="164" WorldType="Main" IsUnderground="true"/>
+	<Map Number="165" WorldType="Main" IsUnderground="true"/>
+	<Map Number="166" WorldType="Main" IsUnderground="true"/>
+	<Map Number="167" WorldType="Main" IsUnderground="true"/>
+	<Map Number="168" WorldType="Main" IsUnderground="true"/>
+	<Map Number="169" WorldType="Main" IsUnderground="true"/>
+	<Map Number="170" WorldType="Main" IsUnderground="true"/>
+	<Map Number="171" WorldType="Main" IsUnderground="true"/>
+	<Map Number="172" WorldType="Main" IsUnderground="true"/>
+	<Map Number="173" WorldType="Main" IsUnderground="true"/>
+	<Map Number="174" WorldType="Main" IsUnderground="true"/>
+	<Map Number="175" WorldType="Main" IsUnderground="true"/>
+	<Map Number="176" WorldType="Main" IsUnderground="true"/>
+	<Map Number="177" WorldType="Main" IsUnderground="true"/>
+	<Map Number="178" WorldType="Main" IsUnderground="true"/>
+	<Map Number="179" WorldType="Main" IsUnderground="true"/>
+	<Map Number="180" WorldType="Main" IsUnderground="true"/>
+	<Map Number="181" WorldType="Main" IsUnderground="true"/>
+	<Map Number="182" WorldType="Main" IsUnderground="true"/>
+	<Map Number="183" WorldType="Main" IsUnderground="true"/>
+	<Map Number="184" WorldType="Main" IsUnderground="true"/>
+	<Map Number="185" WorldType="Main" IsUnderground="true"/>
+	<Map Number="186" WorldType="Main" IsUnderground="true"/>
+	<Map Number="187" WorldType="Main" IsUnderground="true"/>
+	<Map Number="188" WorldType="Main" IsUnderground="true"/>
+	<Map Number="189" WorldType="Main" IsUnderground="true"/>
+	<Map Number="190" WorldType="Main" IsUnderground="true"/>
+	<Map Number="191" WorldType="Main" IsUnderground="true"/>
+	<Map Number="192" WorldType="Main" IsUnderground="true"/>
+	<Map Number="193" WorldType="Main" IsUnderground="true"/>
+	<Map Number="194" WorldType="Main" IsUnderground="true"/>
+	<Map Number="195" WorldType="Main" IsUnderground="true"/>
+	<Map Number="196" WorldType="Main" IsUnderground="true"/>
+	<Map Number="197" WorldType="Main" IsUnderground="true"/>
+	<Map Number="198" WorldType="Main" IsUnderground="true"/>
+	<Map Number="199" WorldType="Main" IsUnderground="true"/>
+	<Map Number="200" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="201" WorldType="Main" IsNPCForbidden="true" CopyCount="4" IsNoItemUse="true"/>
+	<Map Number="209" WorldType="Main" IsNPCForbidden="true" CopyCount="4"/>
+	<Map Number="213" WorldType="Main" IsNPCForbidden="true" CopyCount="4"/>
+	<Map Number="217" WorldType="Main" CopyCount="2"/>
+	<Map Number="221" WorldType="Main" CopyCount="8" IsNoItemUse="true"/>
+	<Map Number="237" WorldType="Main" IsSafeWorld="true" IsUnderground="true"/>
+	<Map Number="240" WorldType="Main" IsUnderground="true"/>
+	<Map Number="241" WorldType="Main" IsUnderground="true"/>
+	<Map Number="242" WorldType="Main" IsUnderground="true"/>
+	<Map Number="243" WorldType="Main" IsUnderground="true"/>
+	<Map Number="244" WorldType="Main" IsUnderground="true"/>
+	<Map Number="248" WorldType="Main" IsUnderground="true"/>
+	<Map Number="249" WorldType="Main" IsUnderground="true"/>
+	<Map Number="250" WorldType="Main" IsUnderground="true"/>
+	<Map Number="251" WorldType="Main" IsUnderground="true"/>
+	<Map Number="252" WorldType="Main" IsUnderground="true"/>
+	<Map Number="253" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="254" WorldType="Main" IsUnderground="true"/>
+	<Map Number="255" WorldType="Main" IsUnderground="true"/>
+	<Map Number="256" WorldType="Main" IsUnderground="true"/>
+	<Map Number="257" WorldType="Main" IsUnderground="true"/>
+	<Map Number="258" WorldType="Main" IsUnderground="true"/>
+	<Map Number="259" WorldType="Main" IsUnderground="true"/>
+	<Map Number="260" WorldType="Main" IsUnderground="true"/>
+	<Map Number="261" WorldType="Main" IsUnderground="true"/>
+	<Map Number="262" WorldType="Main" IsUnderground="true"/>
+	<Map Number="263" WorldType="Main" IsUnderground="true"/>
+	<Map Number="264" WorldType="Main" IsUnderground="true"/>
+	<Map Number="265" WorldType="Main" IsUnderground="true"/>
+	<Map Number="266" WorldType="Main" IsUnderground="true"/>
+	<Map Number="267" WorldType="Main" IsUnderground="true"/>
+	<Map Number="268" WorldType="Main" IsUnderground="true"/>
+	<Map Number="269" WorldType="Main" IsUnderground="true"/>
+	<Map Number="270" WorldType="Main" IsUnderground="true"/>
+	<Map Number="271" WorldType="Main" IsUnderground="true"/>
+	<Map Number="272" WorldType="Main" IsUnderground="true"/>
+	<Map Number="273" WorldType="Main" IsUnderground="true"/>
+	<Map Number="274" WorldType="Main" IsUnderground="true"/>
+	<Map Number="275" WorldType="Main" IsUnderground="true"/>
+	<Map Number="276" WorldType="Main" IsUnderground="true"/>
+	<Map Number="277" WorldType="Main" IsUnderground="true"/>
+	<Map Number="278" WorldType="Main" IsUnderground="true"/>
+	<Map Number="279" WorldType="Main" IsUnderground="true"/>
+	<Map Number="280" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12548"/>
+	<Map Number="281" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12549"/>
+	<Map Number="282" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12550"/>
+	<Map Number="283" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12551"/>
+	<Map Number="284" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12552"/>
+	<Map Number="285" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12553"/>
+	<Map Number="286" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12554"/>
+	<Map Number="287" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12555"/>
+	<Map Number="288" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12556"/>
+	<Map Number="289" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12557"/>
+	<Map Number="290" WorldType="Main" IsUnderground="true"/>
+	<Map Number="291" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="292" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="300" WorldType="Main" IsUnderground="true"/>
+	<Map Number="301" WorldType="Main" IsUnderground="true"/>
+	<Map Number="302" WorldType="Main" IsNPCForbidden="true"/>
+	<!--Map Number="303" WorldType="Main" /-->
+	<Map Number="304" WorldType="Main"/>
+	<Map Number="305" WorldType="Main"/>
+	<Map Number="306" WorldType="Main" IsUnderground="true" IsNoItemUse="true"/>
+	<Map Number="307" WorldType="Main" IsUnderground="true"/>
+	<Map Number="308" WorldType="Main" IsUnderground="true"/>
+	<Map Number="309" WorldType="Main" IsUnderground="true"/>
+	<Map Number="310" WorldType="Main" IsUnderground="true"/>
+	<Map Number="320" WorldType="Main" IsUnderground="true"/>
+	<Map Number="330" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="331" WorldType="Main"   IsSafeWorld="true" IsNPCForbidden="true"/-->
+	<!--Map Number="340" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="350" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="360" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="370" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="371" WorldType="Main"/>
+	<!--Map Number="380" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="381" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="382" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="383" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="384" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="385" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="386" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="387" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="388" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="400" WorldType="Main" IsUnderground="true"/>
+	<Map Number="401" WorldType="Main" IsUnderground="true"/>
+	<Map Number="410" WorldType="Main" IsUnderground="true"/>
+	<Map Number="420" WorldType="Main" IsNPCForbidden="true" CopyCount="2" CopyStartNumber="12505"/>
+	<Map Number="430" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="440" WorldType="Main"/>
+	<Map Number="441" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12501"/>
+	<Map Number="442" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12502"/>
+	<Map Number="443" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12503"/>
+	<Map Number="444" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12504"/>
+	<Map Number="445" WorldType="Main"/>
+	<Map Number="446" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="447" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="450" WorldType="Main" IsUnderground="true"/>
+	<Map Number="451" WorldType="Main" IsUnderground="true"/>
+	<Map Number="452" WorldType="Main" IsUnderground="true"/>
+	<Map Number="453" WorldType="Main" IsUnderground="true"/>
+	<Map Number="454" WorldType="Main" IsUnderground="true"/>
+	<Map Number="455" WorldType="Main" IsUnderground="true"/>
+	<Map Number="456" WorldType="Main" IsUnderground="true"/>
+	<Map Number="457" WorldType="Main" IsUnderground="true"/>
+	<Map Number="460" WorldType="Main" IsUnderground="true"/>
+	<Map Number="461" WorldType="Main" IsUnderground="true"/>
+	<Map Number="462" WorldType="Main" IsUnderground="true"/>
+	<Map Number="463" WorldType="Main" IsUnderground="true"/>
+	<Map Number="464" WorldType="Main" IsUnderground="true"/>
+	<Map Number="465" WorldType="Main" IsUnderground="true"/>
+	<Map Number="466" WorldType="Main" IsUnderground="true"/>
+	<Map Number="467" WorldType="Main" IsUnderground="true"/>
+	<Map Number="468" WorldType="Main" IsUnderground="true"/>
+	<Map Number="470" WorldType="Main" IsUnderground="true"/>
+	<Map Number="471" WorldType="Main" IsUnderground="true"/>
+	<Map Number="472" WorldType="Main" IsUnderground="true"/>
+	<Map Number="473" WorldType="Main" IsUnderground="true"/>
+	<Map Number="474" WorldType="Main" IsUnderground="true"/>
+	<Map Number="475" WorldType="Main" IsUnderground="true"/>
+	<Map Number="476" WorldType="Main" IsUnderground="true"/>
+	<Map Number="477" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="478" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="479" WorldType="Main" IsUnderground="true"/>
+	<Map Number="480" WorldType="Main"/>
+	<Map Number="481" WorldType="Main" IsUnderground="true"/>
+	<Map Number="482" WorldType="Main" IsUnderground="true"/>
+	<Map Number="483" WorldType="Main" IsUnderground="true"/>
+	<Map Number="484" WorldType="Main" IsUnderground="true"/>
+	<Map Number="490" WorldType="Main" IsUnderground="true"/>
+	<Map Number="491" WorldType="Main" IsUnderground="true"/>
+	<Map Number="492" WorldType="Main" IsUnderground="true"/>
+	<Map Number="493" WorldType="Main" IsUnderground="true"/>
+	<Map Number="494" WorldType="Main" IsUnderground="true"/>
+	<Map Number="495" WorldType="Main" IsUnderground="true"/>
+	<Map Number="496" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="500" WorldType="Main" /-->
+	<!--Map Number="501" WorldType="Main" /-->
+	<!--Map Number="502" WorldType="Main" /-->
+	<!--Map Number="503" WorldType="Main" /-->
+	<!--Map Number="504" WorldType="Main" /-->
+	<!--Map Number="505" WorldType="Main" /-->
+	<!--Map Number="506" WorldType="Main" /-->
+	<!--Map Number="507" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="508" WorldType="Main" IsUnderground="true" /-->
+	<!--Map Number="509" WorldType="Main"  IsNPCForbidden="true"/-->
+	<!--Map Number="511" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="512" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="513" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="514" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="515" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="516" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--<Map Number="521" WorldType="Main" CopyCount="2" CopyStartNumber="12558"/>-->
+	<!--<Map Number="522" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12559"/>-->
+	<!--<Map Number="523" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12560"/>-->
+	<!--<Map Number="524" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12561"/>-->
+	<Map Number="530" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="531" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="532" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="533" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="534" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="535" WorldType="Main" IsUnderground="true"/>
+	<Map Number="536" WorldType="Main" IsUnderground="true"/>
+	<Map Number="537" WorldType="Main" IsUnderground="true"/>
+	<Map Number="541" WorldType="Main" IsUnderground="true"/>
+	<Map Number="542" WorldType="Main" IsUnderground="true"/>
+	<Map Number="543" WorldType="Main" IsUnderground="true"/>
+	<Map Number="550" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12506"/>
+	<Map Number="551" WorldType="Main" IsUnderground="true"/>
+	<Map Number="552" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="553" WorldType="Main" IsUnderground="true"/>
+	<Map Number="554" WorldType="Main" IsUnderground="true"/>
+	<Map Number="555" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="556" WorldType="Main" IsUnderground="true"/>
+	<Map Number="557" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="558" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="2" CopyStartNumber="12507"/>
+	<!--<Map Number="600" WorldType="Main" CopyCount="2" CopyStartNumber="12562"/>-->
+	<!--<Map Number="601" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12563"/>-->
+	<!--<Map Number="602" WorldType="Main" IsUnderground="true"/>-->
+	<!--<Map Number="603" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12564"/>-->
+	<!--<Map Number="604" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="2" CopyStartNumber="12565"/>-->
+	<!--<Map Number="605" WorldType="Main" CopyCount="2" CopyStartNumber="12566"/>-->
+	<!--<Map Number="606" WorldType="Main" CopyCount="2" CopyStartNumber="12567"/>-->
+	<!--<Map Number="607" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12568"/>-->
+	<!--<Map Number="608" WorldType="Main" IsUnderground="true"/>-->
+	<Map Number="610" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<!--Map Number="611" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="612" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="613" WorldType="Main" IsNPCForbidden="true"/>
+	<!--Map Number="614" WorldType="Main" IsNPCForbidden="true" IsDogAllowed="true"/-->
+	<!--Map Number="620" WorldType="Main" IsSafeWorld="true"/-->
+	<Map Number="621" WorldType="Main" IsNPCForbidden="true" IsDogAllowed="true"/>
+	<Map Number="622" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="623" WorldType="Main" IsUnderground="true" CopyCount="5" CopyStartNumber="15461"/>
+	<Map Number="630" WorldType="Main" IsSafeWorld="true"/>
+	<Map Number="631" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/>
+	<Map Number="632" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<!--Map Number="633" WorldType="Main"  IsNPCForbidden="true" CopyCount="5" IsSafeWorld="true"/-->
+	<!--Map Number="650" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<!--Map Number="651" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<!--Map Number="652" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<Map Number="653" WorldType="Main" IsUnderground="true"/>
+	<Map Number="654" WorldType="Main" IsUnderground="true"/>
+	<Map Number="655" WorldType="Main" IsUnderground="true"/>
+	<Map Number="656" WorldType="Main" IsUnderground="true"/>
+	<Map Number="666" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="701" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="702" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="703" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="704" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="705" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="706" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="707" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="708" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="709" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="710" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="711" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="712" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="713" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="714" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="715" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="716" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="717" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="718" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="719" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="720" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="721" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="722" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="723" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="724" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<!--Map Number="725" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="726" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--영지전-->
+	<!--Map Number="730" WorldType="Main" /-->
+	<!--Map Number="731" WorldType="Main" /-->
+	<!--Map Number="732" WorldType="Main" /-->
+	<!--Map Number="733" WorldType="Main" /-->
+	<!--Map Number="734" WorldType="Main" /-->
+	<!--Map Number="735" WorldType="Main" /-->
+	<!--Map Number="736" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="737" WorldType="Main" /-->
+	<!--Map Number="738" WorldType="Main" /-->
+	<!--Map Number="739" WorldType="Main" /-->
+	<!--Map Number="740" WorldType="Main" /-->
+	<!--Map Number="741" WorldType="Main" /-->
+	<!--Map Number="742" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="777" WorldType="Main" CopyCount="1" CopyStartNumber="11039"/-->
+	<!--Map Number="778" WorldType="Main" CopyCount="1" CopyStartNumber="11040"/-->
+	<!--Map Number="779" WorldType="Main" IsUnderground="true" CopyCount="1" CopyStartNumber="11041"/-->
+	<Map Number="780" WorldType="Main"/>
+	<Map Number="781" WorldType="Main" IsUnderground="true"/>
+	<Map Number="782" WorldType="Main" IsUnderground="true"/>
+	<Map Number="783" WorldType="Main" IsUnderground="true"/>
+	<Map Number="784" WorldType="Main" IsUnderground="true"/>
+	<Map Number="785" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="786" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="787" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="788" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<Map Number="789" WorldType="Main" IsSafeWorld="true" IsNPCForbidden="true"/>
+	<!--Map Number="790" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="791" WorldType="Main" IsUnderground="true"/>
+	<Map Number="792" WorldType="Main" IsUnderground="true"/>
+	<Map Number="793" WorldType="Main" IsUnderground="true"/>
+	<Map Number="794" WorldType="Main" IsUnderground="true"/>
+	<Map Number="795" WorldType="Main" IsUnderground="true"/>
+	<Map Number="796" WorldType="Main" IsUnderground="true"/>
+	<Map Number="797" WorldType="Main" IsUnderground="true"/>
+	<Map Number="798" WorldType="Main" IsUnderground="true"/>
+	<Map Number="799" WorldType="Main" IsUnderground="true"/>
+	<Map Number="800" WorldType="Main" IsNPCForbidden="true" equipChange="false"/>
+	<!--Map Number="801" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="802" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<Map Number="807" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12569"/>
+	<Map Number="808" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12570"/>
+	<Map Number="809" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12571"/>
+	<Map Number="810" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12572"/>
+	<Map Number="811" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12573"/>
+	<Map Number="812" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12574"/>
+	<Map Number="813" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="12575"/>
+	<Map Number="814" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<!--Map Number="815" WorldType="Main" IsNPCForbidden="true"  IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="820" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="821" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="822" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="823" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="824" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="825" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="826" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="827" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="828" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="829" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="995" WorldType="Main" />-->
+	<Map Number="996" WorldType="Main" IsUnderground="true"/>
+	<Map Number="997" WorldType="Main"/>
+	<Map Number="998" WorldType="Main"/>
+	<Map Number="999" WorldType="Main" IsUnderground="true"/>
+	<Map Number="1000" WorldType="Main"/>
+	<Map Number="1001" WorldType="Main"/>
+	<Map Number="1002" WorldType="Main" IsNPCForbidden="true"/>
+	<!--Map Number="1003" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="1004" WorldType="Main"/>
+	<Map Number="1005" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1011" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1017" WorldType="Main" IsNPCForbidden="true" CopyCount="6"/>
+	<!--Map Number="1023" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/-->
+	<Map Number="1029" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1035" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1041" WorldType="Main" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1053" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1059" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="6"/>
+	<Map Number="1065" WorldType="Main" IsNPCForbidden="true" CopyCount="6"/>
+	<!-- 드래곤레이드 2.0 4대용 레어. 순서대로 안타 파푸 린드 발라. 각 18개씩 사용 -->
+	<Map Number="1071" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="18"/>
+	<Map Number="1101" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="18"/>
+	<Map Number="1131" WorldType="Main" IsNPCForbidden="true" CopyCount="18"/>
+	<Map Number="1161" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="18"/>
+	<!--Map Number="1232" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="2"/-->
+	<!--Map Number="1234" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="25"/-->
+	<!--Map Number="1259" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="25"/-->
+	<!--Map Number="1284" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="25"/-->
+	<!--Map Number="1309" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="25"/-->
+	<Map Number="1335" WorldType="Main"/>
+	<Map Number="1336" WorldType="Main"/>
+	<Map Number="1337" WorldType="Main" IsUnderground="true"/>
+	<Map Number="1400" WorldType="Main" IsNPCForbidden="true" CopyCount="99"/>
+	<Map Number="1501" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="25"/>
+	<Map Number="1526" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="25"/>
+	<Map Number="1551" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="25"/>
+	<Map Number="1576" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="25"/>
+	<!-- 잊혀진 섬 룰변경 맵 -->
+	<MapGroup>
+		<Map Number="1708" WorldType="Battle" IsNPCForbidden="true" contentEndKillAllNpc_ik="4"/>
+		<Map Number="1709" WorldType="Battle" IsNPCForbidden="true" IsUnderground="true" contentEndKillAllNpc_ik="4"/>
+		<Map Number="1710" WorldType="Battle" IsNPCForbidden="true"/>
+		<Map Number="1711" WorldType="Battle" IsNPCForbidden="true"/>
+		<Map Number="1712" WorldType="Battle" IsNPCForbidden="true"/>
+		<Map Number="1713" WorldType="Battle"/>
+		<Map Number="1714" WorldType="Battle"/>
+		<Map Number="1715" WorldType="Battle"/>
+	</MapGroup>
+	<!--Map Number="1701" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="1702" WorldType="Main" IsNPCForbidden="true" /-->
+	<Map Number="1703" WorldType="Main" IsNPCForbidden="true"/>
+	<!--Map Number="1704" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="1705" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="1706" WorldType="Main" IsNPCForbidden="true" /-->
+	<Map Number="1707" WorldType="Main" IsNPCForbidden="true"/>
+	<!-- 잊혀진 섬 룰변경 END -->
+	<!--Map Number="1901" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1902" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1903" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1904" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1905" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1906" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1907" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1908" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1909" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="1910" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="1911" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="1912" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<Map Number="1913" WorldType="Main"/>
+	<Map Number="1914" WorldType="Main"/>
+	<Map Number="1915" WorldType="Main"/>
+	<!--Map Number="1920" WorldType="Main" /-->
+	<!--Map Number="1921" WorldType="Main" /-->
+	<!--Map Number="1922" WorldType="Main" /-->
+	<!--Map Number="1923" WorldType="Main" /-->
+	<!--Map Number="1924" WorldType="Main" /-->
+	<!--Map Number="1925" WorldType="Main" /-->
+	<!--Map Number="1926" WorldType="Main" /-->
+	<!--Map Number="1927" WorldType="Main" /-->
+	<!--Map Number="1928" WorldType="Main" /-->
+	<!--Map Number="1929" WorldType="Main" /-->
+	<Map Number="1930" WorldType="Main"/>
+	<!--Map Number="1931" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="1932" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="1933" WorldType="Main" /-->
+	<!--Map Number="1934" WorldType="Main" /-->
+	<Map Number="1935" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" IsSafeWorld="true"/>
+	<Map Number="1936" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="62" CopyStartNumber="1937"/>
+	<Map Number="2000" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/>
+	<Map Number="2001" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/>
+	<Map Number="2002" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/>
+	<Map Number="2003" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/>
+	<Map Number="2004" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/>
+	<Map Number="2005" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="2006" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="2007" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="2008" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="2009" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="2010" WorldType="Main"/>
+	<Map Number="2011" WorldType="Main"/>
+	<!--Map Number="2012" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2013" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2014" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2015" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2019" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2020" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2021" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2022" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2023" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2024" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2025" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2026" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2027" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2028" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2029" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2030" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="2041" WorldType="Main" CopyCount="6" CopyStartNumber="2042"/>
+	<Map Number="2047" WorldType="Main" CopyCount="6" CopyStartNumber="2048"/>
+	<Map Number="2053" WorldType="Main" CopyCount="6" CopyStartNumber="2054"/>
+	<Map Number="2059" WorldType="Main" CopyCount="6" CopyStartNumber="2060"/>
+	<!--Map Number="2080" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="2081" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="2100" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="2101" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="50" CopyStartNumber="2102"/>
+	<Map Number="2151" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/>
+	<Map Number="2201" WorldType="Main" IsUnderground="true"/>
+	<Map Number="2202" WorldType="Main" IsUnderground="true"/>
+	<Map Number="2203" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="2204" WorldType="Main" /-->
+	<!--Map Number="2208" WorldType="Main" /-->
+	<!--Map Number="2209" WorldType="Main" /-->
+	<Map Number="2210" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<!--Map Number="2225" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="2229"/-->
+	<!--Map Number="2226" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="2230"/-->
+	<!--Map Number="2227" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="2231"/-->
+	<!--Map Number="2228" WorldType="Main" IsUnderground="true" CopyCount="2" CopyStartNumber="2232"/-->
+	<Map Number="2236" WorldType="Main" IsNPCForbidden="true"/>
+	<!--<Map Number="2237" WorldType="Main" IsNPCForbidden="true" CopyCount="10"/-->
+	<!--Map Number="2238" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2239" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2240" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2241" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2242" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2243" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2244" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2245" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2246" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="2301" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="50"/-->
+	<!--Map Number="2400" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  IsDogAllowed="true"/-->
+	<!--Map Number="2401" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" /-->
+	<!--Map Number="2402" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="50"/-->
+	<!--Map Number="2452" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" /-->
+	<!--Map Number="2453" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="50"/-->
+	<!--Map Number="2503" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" /-->
+	<!--Map Number="2504" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  CopyCount="50"/-->
+	<Map Number="2600" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="99" equipChange="false"/>
+	<Map Number="2699" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="99" equipChange="false"/>
+	<Map Number="2800" WorldType="Main" CopyCount="99" CopyStartNumber="2801"/>
+	<!--Map Number="3000" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="3401" WorldType="Main" IsUnderground="true" CopyCount="21"/-->
+	<!--Map Number="3431" WorldType="Main" IsUnderground="true" CopyCount="21"/-->
+	<!--Map Number="3461" WorldType="Main" IsUnderground="true" CopyCount="21"/-->
+	<!--Map Number="3491" WorldType="Main" IsUnderground="true" CopyCount="21"/-->
+	<!--Map Number="4000" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/-->
+	<!--Map Number="4001" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" /-->
+	<!--Map Number="4051" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" /-->
+	<!--Map Number="4052" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/-->
+	<!--Map Number="4102" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" /-->
+	<!--Map Number="4103" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/-->
+	<!--Map Number="4153" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" /-->
+	<!--Map Number="4154" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/-->
+	<!--Map Number="4204" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<!--Map Number="4205" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/-->
+	<!--Map Number="4255" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<!--Map Number="4256" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/-->
+	<Map Number="4995" WorldType="Main" IsUnderground="true"/>
+	<Map Number="4996" WorldType="Main" IsUnderground="true"/>
+	<Map Number="4997" WorldType="Main" IsUnderground="true"/>
+	<Map Number="4998" WorldType="Main" IsUnderground="true"/>
+	<Map Number="4999" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5000" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5001" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5002" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5003" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5004" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5005" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5006" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5007" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5008" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5009" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5010" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5011" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5012" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5013" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5014" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5015" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5016" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5017" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5018" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5019" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5020" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5021" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5022" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5023" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5024" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5025" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5026" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5027" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5028" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5029" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5030" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5031" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5032" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5033" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5034" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5035" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5036" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5037" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5038" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5039" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5040" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5041" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5042" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5043" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5044" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5045" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5046" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5047" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5048" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5049" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5050" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5051" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5052" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5053" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5054" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5055" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5056" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5057" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5058" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5059" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5060" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5061" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5062" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5063" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5064" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5065" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5066" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5067" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5068" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5069" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5070" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5071" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5072" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5073" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5074" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5075" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5076" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5077" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5078" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5079" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5080" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5081" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5082" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5083" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5084" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5085" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5086" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5087" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5088" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5089" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5090" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5091" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5092" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5093" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5094" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5095" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5096" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5097" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5098" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5099" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5100" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5101" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5102" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5103" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5104" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5105" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5106" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5107" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5108" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5109" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5110" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5111" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5112" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5113" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5114" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5115" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5116" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5117" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5118" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5119" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5120" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5121" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5122" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5123" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="5124" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="5125" WorldType="Main" IsNPCForbidden="true" /-->
+	<Map Number="5126" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5127" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5128" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5129" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5130" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5131" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5132" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5133" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5134" WorldType="Main" IsNPCForbidden="true"/>
+	<!--Map Number="5140" WorldType="Main"  IsNPCForbidden="true" IsNoItemUse="true"/-->
+	<!--Map Number="5141" WorldType="Main"  IsNPCForbidden="true" IsNoItemUse="true"/-->
+	<!--Map Number="5142" WorldType="Main"  IsNPCForbidden="true" IsNoItemUse="true"/-->
+	<!--Map Number="5143" WorldType="Main"  IsNPCForbidden="true"/-->
+	<!--Map Number="5144" WorldType="Main"  IsNPCForbidden="true"/-->
+	<!--Map Number="5145" WorldType="Main"  IsNPCForbidden="true"/-->
+	<Map Number="5153" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5154" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5155" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5156" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5166" WorldType="Main" IsNPCForbidden="true" IsNoItemUse="true"/>
+	<Map Number="5167" WorldType="Main"/>
+	<Map Number="5174" WorldType="Main"/>
+	<Map Number="5175" WorldType="Main"/>
+	<Map Number="5176" WorldType="Main"/>
+	<Map Number="5177" WorldType="Main"/>
+	<Map Number="5178" WorldType="Main"/>
+	<Map Number="5179" WorldType="Main"/>
+	<Map Number="5180" WorldType="Main"/>
+	<Map Number="5181" WorldType="Main"/>
+	<Map Number="5182" WorldType="Main"/>
+	<Map Number="5183" WorldType="Main"/>
+	<Map Number="5184" WorldType="Main"/>
+	<Map Number="5185" WorldType="Main"/>
+	<Map Number="5186" WorldType="Main"/>
+	<Map Number="5187" WorldType="Main"/>
+	<Map Number="5188" WorldType="Main"/>
+	<Map Number="5189" WorldType="Main"/>
+	<Map Number="5190" WorldType="Main"/>
+	<Map Number="5191" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5192" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5193" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5194" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5195" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5196" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5197" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5198" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5199" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5200" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5300" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5301" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5302" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5303" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="80"/>
+	<Map Number="5384" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="50"/>
+	<Map Number="5435" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="20"/>
+	<Map Number="5490" WorldType="Main" IsNPCForbidden="true" CopyCount="10" equipChange="false"/>
+	<Map Number="5500" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="5501" WorldType="Main" CopyCount="20" CopyStartNumber="5502" IsNPCForbidden="true"/-->
+	<!--Map Number="5521" WorldType="Main" CopyCount="10" CopyStartNumber="5522" IsNPCForbidden="true"/-->
+	<!--Map Number="5551" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="5552" WorldType="Main"   IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="5553" WorldType="Main"   IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="5554" WorldType="Main"  IsNPCForbidden="true"/-->
+	<Map Number="5555" WorldType="Main" IsUnderground="true"/>
+	<Map Number="5556" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5557" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5558" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5559" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5560" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5561" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="5599" WorldType="Main"/>
+	<!--Map Number="5600" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5601" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5602" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5603" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5604" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5605" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5606" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5607" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5608" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5609" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5610" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5611" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5612" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5613" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5614" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5615" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5616" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5617" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5618" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5619" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5620" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5621" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5622" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5623" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5624" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5625" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5626" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5627" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5628" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5629" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="5630" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5631" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5632" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5633" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5634" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5635" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5636" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5637" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5638" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5639" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5640" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5641" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5642" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5643" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5644" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5645" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5646" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5647" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5648" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5649" WorldType="Main" IsUnderground="true" IsSafeWorld="true"/-->
+	<!--Map Number="5671" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="5672" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="5801" WorldType="Main"  IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="5802" WorldType="Main"  IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="5803" WorldType="Main"  IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="5900" WorldType="Main" CopyCount="8" CopyStartNumber="5901" IsNPCForbidden="true"/-->
+	<!--Map Number="5908" WorldType="Main" CopyCount="7" CopyStartNumber="5909" IsNPCForbidden="true"/-->
+	<!--Map Number="5915" WorldType="Main" CopyCount="8" CopyStartNumber="5916" IsNPCForbidden="true"/-->
+	<!--Map Number="5923" WorldType="Main" CopyCount="7" CopyStartNumber="5924" IsNPCForbidden="true"/-->
+	<!--Map Number="6041" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="6201" WorldType="Main" IsNPCForbidden="true" /-->
+	<!--Map Number="6202" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="6203" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="6301" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="6302" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="6303" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="6311" WorldType="Main" IsNPCForbidden="true IsUnderground="true"  IsSafeWorld="true"/-->
+	<!--Map Number="6312" WorldType="Main" IsNPCForbidden="true IsUnderground="true"  IsSafeWorld="true"/-->
+	<!--Map Number="6313" WorldType="Main" IsNPCForbidden="true IsUnderground="true"  IsSafeWorld="true"/-->
+	<!--Map Number="6321" WorldType="Main" IsNPCForbidden="true IsSafeWorld="true"/-->
+	<!--Map Number="6322" WorldType="Main" IsNPCForbidden="true"  IsSafeWorld="true"/-->
+	<!--Map Number="6323" WorldType="Main" IsNPCForbidden="true"  IsSafeWorld="true" CopyCount="9"/-->
+	<!--Map Number="6331" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="6400" WorldType="Main"/>
+	<Map Number="6430" WorldType="Main"/>
+	<Map Number="7000" WorldType="Main"/>
+	<!--Map Number="7002" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7003" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7004" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7007" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7008" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7009" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7051" WorldType="Main" /-->
+	<!--Map Number="7052" WorldType="Main" /-->
+	<!--Map Number="7053" WorldType="Main" IsNPCForbidden="true" IsSafeWorld="true"/-->
+	<!--Map Number="7100" WorldType="Main" IsNPCForbidden="true" CopyCount="10"/-->
+	<!--Map Number="7201" WorldType="Main" IsNPCForbidden="true" CopyCount="100"/-->
+	<!--Map Number="7301" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<!--Map Number="7302" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/-->
+	<!--Map Number="7710" WorldType="Main" /-->
+	<!--Map Number="7780" WorldType="Main" /-->
+	<!--Map Number="7781" WorldType="Main" /-->
+	<!--Map Number="7782" WorldType="Main" /-->
+	<Map Number="7783" WorldType="Main" CopyCount="10" CopyStartNumber="12359" IsSafeWorld="true"/>
+	<!--Map Number="7784" WorldType="Main" /-->
+	<!--Map Number="7785" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" /-->
+	<!--Map Number="7786" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" /-->
+	<Map Number="7787" WorldType="Main" IsNPCForbidden="true" CopyCount="100"/>
+	<Map Number="7901" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7902" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7903" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7904" WorldType="Battle" IsNPCForbidden="true" IsUnderground="true"/>
+	<Map Number="7940" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7941" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7942" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7943" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7944" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7945" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7946" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7951" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7952" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7953" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7954" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7955" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7956" WorldType="Main" IsUnderground="true"/>
+	<Map Number="7957" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="7971" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7972" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7973" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7974" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7975" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="7976" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8000" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8001" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8005" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" /-->
+	<!--Map Number="8006" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8016" WorldType="Main" IsUnderground="true"  IsNPCForbidden="true" CopyCount="5"/-->
+	<!--Map Number="8021" WorldType="Main" IsUnderground="true"  IsNPCForbidden="true" CopyCount="5"/-->
+	<!--Map Number="8030" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8031" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8032" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8033" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8034" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8035" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8036" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8037" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8038" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8039" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8044" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="8045" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="8046" WorldType="Main" IsNPCForbidden="true" IsDogAllowed="true"/>
+	<!--Map Number="8047" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/-->
+	<Map Number="9000" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="50" CopyStartNumber="9001"/>
+	<Map Number="9100" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<Map Number="9101" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="100"/>
+	<!--Map Number="9200" WorldType="Main" IsNPCForbidden="true"/-->
+	<Map Number="9202" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<!--Map Number="9301" WorldType="Main" /-->
+	<!-- JP 2016 14주년 이벤트 맵  시작-->
+	<Map Number="9350" WorldType="Main" CopyCount="5" CopyStartNumber="9351" IsSafeWorld="true"/>
+	<Map Number="9360" WorldType="Main" CopyCount="5" CopyStartNumber="9361" IsSafeWorld="true" IsUnderground="true"/>
+	<!-- JP 2016 14주년 이벤트 맵  끝-->
+	<Map Number="9401" WorldType="Main" IsNPCForbidden="true" IsUnderground="true" CopyCount="199"/>
+	<!--Map Number="9601" WorldType="Main" IsUnderground="true" IsNPCForbidden="true" CopyCount="100"/-->
+	<!--Map Number="9998" WorldType="Main" IsNPCForbidden="true"  CopyCount="2"/-->
+	<Map Number="10101" WorldType="Main" CopyCount="3"/>
+	<!-- 별들의 만남  -->
+	<Map Number="10200" WorldType="Battle" CopyCount="10"/>
+	<Map Number="10210" WorldType="Battle" IsUnderground="true" CopyCount="10"/>
+	<Map Number="10250" WorldType="Battle" IsNPCForbidden="true" IsUnderground="true"/>
+	<MapGroup>
+		<!-- 테베라스  -->
+		<Map Number="10500" WorldType="Battle" IsNPCForbidden="true"/>
+		<Map Number="10501" WorldType="Battle" IsUnderground="true" IsNPCForbidden="true"/>
+		<Map Number="10502" WorldType="Battle" IsUnderground="true" IsNPCForbidden="true"/>
+	</MapGroup>
+	<!--load ndl에 npcforbidden 값이 있던 파일 히스토리상 추가 -->
+	<!--Map Number="11150" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="11180" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="11200" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="11230" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="11250" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="11252" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="12459" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="25088" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="99997" WorldType="Main" IsNPCForbidden="true"/-->
+	<!-- 지하 아지트 샘플 -->
+	<!--<Map Number="12014" WorldType="Main" IsUnderground="true" CopyCount="130" CopyStartNumber="12015" IsNPCForbidden="true"/>-->
+	<!-- 클라우디아 거미 동굴, 죽은자의 성소1~2층, 지하세계, 튜토리얼맵, 공성전 체험맵-->
+	<Map Number="12146" WorldType="Main" IsUnderground="true" CopyCount="10" CopyStartNumber="12601"/>
+	<Map Number="12147" WorldType="Main" IsUnderground="true" CopyCount="10" CopyStartNumber="12650"/>
+	<Map Number="12148" WorldType="Main" IsUnderground="true" CopyCount="10" CopyStartNumber="12699"/>
+	<Map Number="12149" WorldType="Main" IsUnderground="true" CopyCount="10" CopyStartNumber="12748"/>
+	<Map Number="12150" WorldType="Main" IsUnderground="true"/>
+	<!--Map Number="12151" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="12152" WorldType="Main" IsUnderground="true" CopyCount="101" CopyStartNumber="12153" NativeScript="NoviceSiege"/>
+	<!--Map Number="12163" WorldType="Main" IsUnderground="true"/-->
+	<!--신전 로비 -->
+	<Map Number="12257" WorldType="Main" IsUnderground="true" CopyCount="100" CopyStartNumber="12258"/>
+	<Map Number="12358" WorldType="Main" IsUnderground="true" IsNPCForbidden="true"/>
+	<!-- 던전  -->
+	<!--Map Number="12345" WorldType="Dungeon" CopyCount="1000"/-->
+	<!-- 끝 -->
+	<!--Map Number="12501" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12502" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12503" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12504" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12505" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="12506" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12507" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="12508" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12509" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12510" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12511" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12512" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12513" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12514" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12515" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12516" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12517" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12518" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12519" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12520" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12521" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12522" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12523" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12524" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="12525" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12526" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12527" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12528" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12529" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12530" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12531" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12532" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12533" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12534" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/-->
+	<!--Map Number="12535" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12536" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="12537" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12538" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12539" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12540" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12541" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12542" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12543" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12544" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12545" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12546" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12547" WorldType="Main" IsNPCForbidden="true"/-->
+	<!--Map Number="12548" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12549" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12550" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12551" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12552" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12553" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12554" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12555" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12556" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12557" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12559" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12560" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12561" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12563" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12564" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12565" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/-->
+	<!--Map Number="12569" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12570" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12571" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12572" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12573" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12574" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12575" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12576" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12577" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12578" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12579" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12580" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12581" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12582" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="12797" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  IsSafeWorld="true"/-->
+	<!--Map Number="12802" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"  IsSafeWorld="true"/-->
+	<!-- 리니지 모바일 튜토리얼 맵 -->
+	<Map Number="12803" WorldType="Main" IsUnderground="true"/>
+	<!-- 중국 VIP start -->
+	<Map Number="12816" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12817" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12818" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12819" WorldType="Main" IsUnderground="true" IsDogAllowed="true"/>
+	<Map Number="12820" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12821" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12822" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12823" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12824" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12825" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12826" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12827" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12828" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12829" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12830" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12831" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12832" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12833" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12834" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12835" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12836" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12837" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12838" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12839" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12840" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12841" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12842" WorldType="Main" IsUnderground="true"/>
+	<Map Number="12843" WorldType="Main" IsNPCForbidden="true"/>
+	<Map Number="12844" WorldType="Main" IsNPCForbidden="true" IsUnderground="true"/>
+	<!-- 중국 VIP end -->
+	
+	<!-- onam tower interserver start -->
+	<Map Number="12852" WorldType="Battle" IsUnderground="true" forceLoad="true"/>
+	<Map Number="12853" WorldType="Battle" IsUnderground="true" forceLoad="true"/>
+	<!-- onam tower interserver end -->
+
+	<!-- 리니지 콜로세움 시작 -->
+	<Map Number="13000" WorldType="Main" IsNoItemUse="true" IsNoSpellUse="true" IsNPCForbidden="true"/>
+	<!-- 대기실 -->
+	<Map Number="13001" WorldType="Arena" CopyCount="500" CopyStartNumber="13100"/>
+	<!-- 최후의 결전 -->
+	<Map Number="13002" WorldType="Arena" CopyCount="100" CopyStartNumber="13600">
+		<GhostRegion SX="32794" SY="32813" EX="32808" EY="32850"/>
+	</Map>
+	<!-- 아레나 -->
+	<Map Number="13003" WorldType="Arena" CopyCount="100" CopyStartNumber="13700">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 트랩전 -->
+	<Map Number="13004" WorldType="Arena" CopyCount="100" CopyStartNumber="13800">
+		<GhostRegion SX="32722" SY="32816" EX="32856" EY="32846"/>
+	</Map>
+	<!-- 배틀헌터 -->
+	<Map Number="13005" WorldType="Arena" CopyCount="100" CopyStartNumber="13900">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 몬스터전 -->
+	<Map Number="13006" WorldType="Arena" CopyCount="100" CopyStartNumber="14000">
+		<GhostRegion SX="32794" SY="32813" EX="32808" EY="32850"/>
+	</Map>
+	<!-- 아레나 - 타워디펜스 -->
+	<Map Number="13051" WorldType="Arena" CopyCount="100" CopyStartNumber="14500"/>
+	<!-- 최후의 결전 (대회전) -->
+	<Map Number="13052" WorldType="Arena" CopyCount="100" CopyStartNumber="14600">
+		<GhostRegion SX="32794" SY="32813" EX="32808" EY="32850"/>
+	</Map>
+	<!-- 아레나 (대회전) -->
+	<Map Number="13053" WorldType="Arena" CopyCount="100" CopyStartNumber="14700">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 트랩전 (대회전) -->
+	<Map Number="13054" WorldType="Arena" CopyCount="100" CopyStartNumber="14800">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 상아탑 (대회전) -->
+	<Map Number="13055" WorldType="Arena" CopyCount="100" CopyStartNumber="14900">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 오만의 탑 (대회전) -->
+	<Map Number="13056" WorldType="Arena" CopyCount="100" CopyStartNumber="15000">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 용의 계곡 (대회전) -->
+	<Map Number="13057" WorldType="Arena" CopyCount="100" CopyStartNumber="15100">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 오만의 탑 정상 (대회전) -->
+	<Map Number="13058" WorldType="Arena" CopyCount="100" CopyStartNumber="15200">
+		<GhostRegion SX="32726" SY="32856" EX="32743" EY="32873"/>
+	</Map>
+	<!-- 워스퀘어 - 변신전 (대회전) -->
+	<Map Number="13059" WorldType="Arena" CopyCount="100" CopyStartNumber="15300">
+		<GhostRegion SX="32794" SY="32813" EX="32808" EY="32850"/>
+	</Map>
+	<!-- 아레나 - 타워디펜스 (대회전) -->
+	<!-- 리니지 콜로세움 끝 -->
+	
+	<!-- 지배의 결계 -->
+	<!--Map Number="15401" WorldType="Main" IsUnderground="true"/-->
+	<!--Map Number="15402" WorldType="Main" IsUnderground="true"/-->
+	<Map Number="15403" WorldType="Main" IsUnderground="true"/>
+	<Map Number="15404" WorldType="Main" IsUnderground="true"/>
+	
+	<!-- 상위 필드 리뉴얼 (15410~15450) -->
+	<!-- 풍룡의 둥지-->
+	<Map Number="15410" WorldType="Main" IsUnderground="true"/>
+	<!-- 오렌 설벽 -->
+	<Map Number="15420" WorldType="Main" IsUnderground="true"/>
+	<!-- 용의 계곡 -->
+	<Map Number="15430" WorldType="Main" IsUnderground="true"/>
+	<!-- 화룡의 둥지 -->
+	<Map Number="15440" WorldType="Main" IsUnderground="true"/>
+	
+	<!-- 상위 필드 리뉴얼 복사맵 -->
+	<!-- Map Number="15450" WorldType="Main" IsUnderground="true"/-->	
+	<!-- 상위 필드 리뉴얼 끝 -->
+
+	<!-- 여관 -->
+	<Map Number="16384" WorldType="Main" CopyCount="100" IsNPCForbidden="true"/>
+	<Map Number="16896" WorldType="Main" CopyCount="5" IsNPCForbidden="true"/>
+	<Map Number="17408" WorldType="Main" CopyCount="100" IsNPCForbidden="true"/>
+	<Map Number="17920" WorldType="Main" CopyCount="5" IsNPCForbidden="true"/>
+	<Map Number="18432" WorldType="Main" CopyCount="100" IsNPCForbidden="true"/>
+	<Map Number="18944" WorldType="Main" CopyCount="5" IsNPCForbidden="true"/>
+	<Map Number="19456" WorldType="Main" CopyCount="100" IsNPCForbidden="true"/>
+	<Map Number="19968" WorldType="Main" CopyCount="5" IsNPCForbidden="true"/>
+	<Map Number="20480" WorldType="Main" CopyCount="200" IsNPCForbidden="true"/>
+	<Map Number="20992" WorldType="Main" CopyCount="10" IsNPCForbidden="true"/>
+	<Map Number="21504" WorldType="Main" CopyCount="100" IsNPCForbidden="true"/>
+	<Map Number="22016" WorldType="Main" CopyCount="5" IsNPCForbidden="true"/>
+	<Map Number="22528" WorldType="Main" CopyCount="100" IsNPCForbidden="true"/>
+	<Map Number="23040" WorldType="Main" CopyCount="5" IsNPCForbidden="true"/>
+	<Map Number="23552" WorldType="Main" CopyCount="200" IsNPCForbidden="true"/>
+	<Map Number="24064" WorldType="Main" CopyCount="10" IsNPCForbidden="true"/>
+	<Map Number="24576" WorldType="Main" CopyCount="200" IsNPCForbidden="true"/>
+	<!-- 여관 끝 -->
+</MapList>

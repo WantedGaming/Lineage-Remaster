@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<SpellUI Toggle="true">
+	<Window Name = "Spell_Window" X = "0" Y = "0" BasePng="4357;1" FramePng="4358;1" Moveable = "30" MouseEvent = "Dummy" KeyboardEvent = "KeyEvent">
+		<Button Name = "Close_Button" X = "168" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "Close"/>
+		<List Name = "GeneralLevelTab_List" X = "7" Y = "45" Width = "18" Height = "245" Vertical = "1" Gap = "0">
+			<RadioButton Name = "GeneralLv_Button" BaseSurf = "5211;1" HighlightSurf = "5213;;1" PushSurf = "5212;1" MouseEvent = "GeneralLevelTab"/>
+		</List>
+		<Image Name = "Separator_Image" X = "6" Y = "71" Surf = "5317;1"/>
+		<List Name = "ClassLevelTab_List" X = "7" Y = "77" Width = "18" Height = "250" Vertical = "1" Gap = "0">
+			<RadioButton Name = "ClassLv_Button" BaseSurf = "5311;1" PushSurf = "5312;1" HighlightSurf = "5313;1" MouseEvent = "ClassLevelTab"/>
+		</List>
+		<Image Name = "PassiveSeparator_Image" X = "6" Y = "85" Surf = "5317;1"/>
+		<List Name = "PassiveLevelTab_List" X = "7" Y = "99" Width = "18" Height = "250" Vertical = "1" Gap = "0">
+			<RadioButton Name = "PassiveLv_Button" BaseSurf = "5211" PushSurf = "5212" HighlightSurf = "5213" MouseEvent = "PassiveLevelTab"/>
+		</List>
+		
+		<Control Name = "Tabs_List" X = "29" Y = "26">
+			<RadioButton Name = "All_Button" BasePng= "10612;1" HighlightPng= "10613;1" PushPng = "10614;1" MouseEvent = "ClassTab"/>
+			<RadioButton Name = "Class_Button" X = "68" BasePng = "10615;1" PushPng = "10616;1" HighlightPng = "10617;1"  MouseEvent = "ClassTab"/>
+		</Control>
+		<GridControl Name = "Spell_Grid" X = "29" Y = "53" Row="6" Column="4" MouseEvent="GridEvent" UnitWidth="32" UnitHeight="32" UnitGap="2" Drag="1" GridControlName = "icon">
+			<Image Name="Selection_Image" Png="10290;4" />
+		</GridControl>
+		<Label Name="MagicLevel" X="62" Y="265" Width="24" Height="12" HAlign="center"/>
+		<Label Name="MagicBonus" X="148" Y="265" Width="24" Height="12" HAlign="center"/>
+		<!--<WheelControl Name="SpellGrid_Wheel" X="28" Y="61" Width="146" Height="238"> -->
+			<ScrollBar Name="ScrollBar" X="169" Y="59" Width="12" Height="190" Vertical="1" ScrollStart="14" ScrollHeight="163" MaxValue="8" >
+				<Image Name="Background_Image" X="1" Y="14" Width="9" Png="10632;1" />
+				<Button Name="Up_Button" Width="12" Height="14" BaseSurf="2042;1" PushSurf="2043;1" />
+				<Button Name="Down_Button" Y="178" Width="12" Height="14" BaseSurf="2040;1" PushSurf="2041;1" />
+				<Button Name="Move_Button" Y="16" Width="11" Height="16" BaseSurf="2044;1" PushSurf="2045;1" />
+			</ScrollBar>
+		<!--</WheelControl>-->
+	</Window>
+</SpellUI>

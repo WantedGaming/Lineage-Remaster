@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">壁に刻まれた魔法の文字：</font>
+<br/><br/>
+[禁断の武器製造法]：<br/><br/>
+ハーディンの日記帳と結晶体20000個があるなら、私が残した魔法公式に従い儀式を行うこと…<br/><br/>
+<a action="a">ソードの製作儀式を始める</a><br/>
+<a action="b">ボウの製作儀式を始める</a><br/>
+<a action="c">スタッフの製作儀式を始める</a><br/>
+<a action="d">クロウの製作儀式を始める</a><br/>
+<a action="e">チェーンソードの製作儀式を始める</a><br/>
+<a action="f">キーリンクの製作儀式を始める</a><br/>
+</p>
+</dialog>
+</npcdialog>

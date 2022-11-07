@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p>
+<center><img src="2600"/></center>
+レベル30以上が変身可能<br/>
+<img src="3411" tooltip="伯爵親衛隊長^(ダガー/ソード/ツーハンド ソード)" action="m re guard chief"/>
+<img src="3410" tooltip="グリーディー ソルジャー^(スピア/チェーンソード)" action="m re guard spear"/>
+<img src="3412" tooltip="ホセ^(デュアルブレード/クロウ/キーリンク)" action="m re hose"/>
+<br/>
+<img src="3409" tooltip="ブラック エルダー^(スタッフ)" action="m re dark elder"/>
+<img src="3408" tooltip="バンディット^(アックス)" action="m re bandit axe"/>
+<img src="3413" tooltip="ダークエルフ レンジャー^(ボウ/ガントレット)" action="re darkelf ranger"/>
+<br/>
+<center><img src="2601"/></center>
+レベル40以上が変身可能<br/>
+<img src="3417" tooltip="シュノーヴァ^(ダガー/ソード/ツーハンド ソード)" action="m re cargo"/>
+<img src="3418" tooltip="ダークエルフ ガード^(スピア/チェーンソード)" action="m re darkelf spear"/>
+<img src="3416" tooltip="ブレイズ^(デュアルブレード/クロウ/キーリンク)" action="m re blaze"/>
+<br/>
+<img src="3415" tooltip="ブラック ウィザード^(スタッフ)" action="m re black wizard"/>
+<img src="3419" tooltip="ドワーフ ジェネラル^(アックス)" action="m re dwarf boss"/>
+<img src="3414" tooltip="ダークエルフ シーフ^(ボウ/ガントレット)" action="m re darkelf thief"/>
+<br/>
+<br/>
+<img src="331" link="dollmonlist"/>
+</p>
+  </dialog>
+</npcdialog>

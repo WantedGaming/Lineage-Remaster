@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シバン</name>
+		<job>武器防具商人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Button">
+			<button action="buy"/>
+			<button action="sell"/>
+		</panel>
+		
+		<p>さあ、気軽にゆっくり見てって。<br/></p>		
+		<p>どっかの誰かが言ってたか、冒険者にとって武器は命といっても過言ではない。だから絶対に気を抜いてはならん。じっくりと見極めて決めておくれ。<br/></p>		
+		<p>もちろん中古武器の販売も大歓迎だよ。<br/></p>		
+
+		<p><a action="shivan3">Ask about recent prices</a></p>		
+	</dialog>
+
+</npcdialog>

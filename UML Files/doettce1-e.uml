@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>お前は！母なる世界樹に背き、暗闇の炎に身を 
+投じた闇のエルフ！闇のエルフがミスリルに触れると、 
+燦爛たる光も色あせてしまう。失せるがいい！ 
+見たくもない！
+</p>
+  </dialog>
+</npcdialog>

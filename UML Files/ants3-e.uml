@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">ゲートアント：</font><br/><br/></p>
+   <p>いくらマヌケって言われても、お前が同族じゃないってのは見れば分かるぞ！ウォー アント様に怒られる前にさっさと去れ！</p>
+  </dialog>
+</npcdialog>

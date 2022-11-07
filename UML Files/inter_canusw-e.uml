@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+      <name>カナス</name>
+    <job>[Teleporter]</job>
+	</npc>
+	<dialog>
+<p>今は次元の隙間が不安定なので入場できません。</p>
+<p>もし安定したとしてもレベル60未満の方々は環境に耐えられないため、入場を制限させていただいてます。</p>
+   </dialog>
+</npcdialog>

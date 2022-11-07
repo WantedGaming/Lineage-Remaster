@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ディエツ</name>
+		<job>[古代遺物専門家]</job>
+  </npc>
+  <dialog>
+  <p>  
+ うっぷ…ひっく…酒だ！酒持って来い！<br/>
+ あ？誰だお前？ひっく…<br/><br/>
+ <a link="dh2">おじいさん、古代遺物の専門家のディエツさんをご存知ですか？</a><br/>
+		</p>
+  </dialog>
+</npcdialog>

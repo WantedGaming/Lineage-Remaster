@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+   <npc>
+    <name>敵対的な近衛兵</name>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">敵対的な近衛兵：</font></p>
+    <p><br/>人間なんかがオレたちと戦闘しようとここまでやってきたのか？<br/><br/></p>
+	<p>フハハハ…お前のあまりの愚かさに、笑いが止まらないぜ。<br/><br/></p>
+	<p>そうか。刃のような寒さとアイスクイーンの槍が、お前の体に苦痛を与える姿を見物するのもおもしろそうだ。<br/><br/><br/></p>
+	<p><a action="enter">グッとこらえて移動する</a><br/><br/></p>
+  </dialog>
+</npcdialog>

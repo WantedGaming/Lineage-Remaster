@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>レオナ</name>
+    <job>[冒険家]</job>
+  </npc>
+  	<dialog align="left">
+		<p>フフ、ワシの話が新たな冒険への扉だと勘づいたようだな。</p>
+		<p>ワシの唯一の楽しみは、世の珍しい品物を収集することなんじゃ。 </p>
+		<p>今まで色々集めてきたが、この世にはまだワシが見たことも聞いたこともない珍品がわんさか眠っているだろう。</p>
+		<p>おぬしが旅の道中、そういう物を見つけたら、ワシに持ってきて欲しい。その品に見合った報賞を差し上げよう。どうかね？</p>
+		<p>常に冒険を求めているおぬしにも、間違いなく貴重な経験になるぞ。</p>
+		<p><a link="reona3">珍品について聞く</a></p>
+		<p><a link="reona4">珍品を探してみると言う</a></p>
+		<p><a link="reona5">珍品を見つけてきたと言う</a></p>
+	</dialog>
+</npcdialog>

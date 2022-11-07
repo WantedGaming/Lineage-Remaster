@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[鋼鉄のギルド]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">トラビス6世</font>の才能は<font fg="ffffaf">戦争</font>だけでなく、<font fg="ffffaf">政治</font>でも発揮された。</p>
+	<p>彼は、<font fg="ffffaf">アデン</font>に住む様々な種族との友好関係は、国土の防衛と安全のためにも無くてはならないものだと考えていた。</p>
+	<p><br/></p>
+	<p>長きに渡り宿敵関係であった<font fg="ffffaf">エルフの森</font>と<font fg="ffffaf">鋼鉄ギルド</font>の関係を改善させたのも<font fg="ffffaf">トラビス6世</font>だった。</p>
+	<p><br/></p>
+	<p>彼は<font fg="ffffaf">エルフ</font>を神聖な存在として敬意を払いながら、<font fg="ffffaf">鋼鉄ギルド</font>のドワーフには<font fg="ffffaf">貿易</font>の一切を任せた。</p>
+	<p>これにより、彼は<font fg="ffffaf">アデン</font>の種族すべてから認められる国王となったのだ。</p>
+	<p><br/></p>
+	<p>こうした<font fg="ffffaf">トラビス6世</font>の政治は<font fg="ffffaf">ヴァラカス</font>が出現した時にも発揮された。</p>
+	<p>絶対的な力を持つ火竜<font fg="ffffaf">ヴァラカス</font>は、火竜の棲処から出ては<font fg="ffffaf">アデン</font>の征伐隊を危機に陥れていた。</p>
+	<p><br/></p>
+	<p>当時<font fg="ffffaf">鋼鉄のギルド</font>の首長<font fg="ffffaf">ボドルーム</font>が長い時間を掛けて準備した武器を携え<font fg="ffffaf">火竜の棲処</font>に向かった。</p>
+	<p><br/></p>
+	<p>さらに驚くべきは、数多くの<font fg="ffffaf">エルフ</font>が<font fg="ffffaf">鋼鉄のギルド</font>が準備した<font fg="ffffaf">露を含んだ矢</font>を装備して一緒に行ったことである。</p>
+	<p><br/></p>
+	<p>多くの犠牲をともなったが、火竜<font fg="ffffaf">ヴァラカス</font>の討伐は<font fg="ffffaf">人間</font>と<font fg="ffffaf">エルフ</font>、そして<font fg="ffffaf">ドワーフ</font>の長きに渡る友好関係が強固なものになったきっかけになった。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook09">* 蜂起</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

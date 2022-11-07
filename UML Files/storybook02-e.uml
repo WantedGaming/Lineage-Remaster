@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[話せる島]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">反王ケンラウヘル</font>の統治以降、しばしば反乱が起きたが、その度に凄惨なまでの報復が下り、反乱の行く末を見ていた国民たちは次第に反王へ異議を唱えなくなった。</p> 
+	<p><br/></p>  
+	<p>何もかもが恐怖で支配された時代を迎え、<font fg="ffffaf">アデン</font>には王の血を引く者が誰一人いなくなったように思えた。</p> 
+	<p><br/></p>  
+	<p>しかし、<font fg="ffffaf">ケンラウヘル</font>でさえ踏み入ることのできない場所があった。そこは大魔術師<font fg="ffffaf">ハーディン</font>の憤怒によって生じる津波で隔てられたところ…</p>
+	<p><font fg="ffffaf">話せる島</font>であった。</p>
+	<p><br/></p>
+	<p>何度か強大な海軍とウィザードを送ったものの、侵攻に失敗した<font fg="ffffaf">ケンラウヘル</font>は侵攻するだけの価値はないとし、それ以降関心を向けなくなった。</p>
+	<p><br/></p>
+	<p>話せる島、そこでは<font fg="ffffaf">グルーディオ</font>の惨劇で生き残った王室の修練ウィザード<font fg="ffffaf">ゲレン</font>が王家の正統な血を引く唯一の子を隠し育て、その後、その子は師匠<font fg="ffffaf">グンター</font>と仲間たちに出会い成長し、血で結んだ友情による血盟を作り、小さな冒険を乗り越えていった。</p> 
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

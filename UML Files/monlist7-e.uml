@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<center><img src="2608"/></center>
+		<img src="2706" tooltip="アークナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="neo platinum knight"/>
+		<img src="2709" tooltip="アークウィザード^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="neo platinum mage"/>
+		<img src="2708" tooltip="アークスカウター^(ボウ/ガントレット)" action="neo platinum scouter"/>
+		<br/>
+		<img src="2707" tooltip="アークシャドウ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="neo platinum assassin"/>
+		<img src="2703" tooltip="デスナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="death 70"/>
+		<img src="2704" tooltip="ランスマスター^(スピア/チェーンソード)" action="spearm 70"/>
+		<br/>
+		<img src="2701" tooltip="ダークエルフ^(ボウ/ガントレット)" action="darkelf 70"/>
+		<br/>
+		<br/>
+		<img src="331" link="monlist"/>
+		</p>
+	</dialog>
+</npcdialog>

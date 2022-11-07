@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>엘라리온</name>
+    <job>[ 정령 마법 전수자 ]</job>
+    <text>누구시오</text>
+  </npc>
+  <dialog>
+    <p link="ellyonne4">정령 마법에 대해 묻는다.</p>
+    <p>안녕하신가. 내 이름은 알라리온. 보다시피 요정이라네.</p>
+    <p>요정들에게 정령 마법에 대한 지식을 전수하여 앞으로 다가올 위험에 맞설 준비를 하고 있지.</p>
+  </dialog>
+</npcdialog>

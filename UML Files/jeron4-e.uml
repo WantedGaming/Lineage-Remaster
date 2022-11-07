@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェロン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 まったく、若いくせに頭が固いのぉ。いいだろう。その代わり私の頼みを聞いてくれるかい。<br/>
+		 噂ではメデューサの血が元気回復によいそうじゃが、手に入れてくれんかのぉ。<br/>
+		 頼みを聞いてくれるなら、この本はただでやろう。<br/>
+		 <br/>
+		<a action="C">メデューサの血を渡す</a>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

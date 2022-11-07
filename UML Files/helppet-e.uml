@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ペット</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">キャラクター：ペット</font><br/>
+	リネージュでは決められたえさを与えて、ペットを飼いならすことができます。<br/>
+	ペットは主人の命令に服従して、一緒に狩りに出ます。<br/></p>
+	<p><a link="helppet01">ペットの種類</a><br/></p>
+	<p><a link="helppet02">ペットの飼いならし方</a><br/></p>
+	<p><a link="helppet03">ペットのコントロール</a><br/></p>
+	<p><a link="helppet04">ペットの管理</a><br/></p>
+	<p><a link="helppet05">ペットの進化</a><br/></p>
+	<p><a link="helppet06">ペットアイテム</a><br/></p>
+	<p><img src="331" link="help"/><br/><br/></p>
+	</dialog>
+</npcdialog>

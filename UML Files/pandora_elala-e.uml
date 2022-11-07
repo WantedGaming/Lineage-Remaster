@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルララ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>うわっと！勇士様、こんにちは！<br/>
+		<br/>
+		話せる島でお会いした勇士様ですよね？もうこんなに成長されただなんて…素敵です！<br/>
+		アデンでの冒険では楽なことばかりではないですよね。でもだからって疲れ果てた姿を見るのはとても悲しいです…<br/>
+		<br/>
+		そこで！パンドラさんから特別に、勇士様のお役に立つ商品を預かってきました。<br/>
+		<font fg="ffffaf">パンドラの宝石</font>をお持ちであれば、お好きなアイテムと交換できます。<br/>
+		<br/>
+		ゆっくり選んでくださいね。<br/>
+		 <br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	</dialog>
+</npcdialog>

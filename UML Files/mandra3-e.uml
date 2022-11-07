@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>マンドラ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+    <p>細かい方ですね。最近の物価は<font fg="ffffff"><var src="0">%</font>です。</p>
+	<p><img src="331" link="mandra"/></p>
+  </dialog>
+</npcdialog>

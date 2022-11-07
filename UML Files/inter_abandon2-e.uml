@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>ケルトン</name>
+		<job>[西側テレポーター]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>		
+		ここは<font fg="ffaaff">レベル90～91</font>までの者だけが、出入りできる場所だ。<br/>
+		<br/>
+		<font fg="ffaaff">18時30分～21時</font>まで入場できる。<br/>
+		<br/>
+		危険に備えて<font fg="ffaaff">加護</font>も必要だ。<br/>
+		</p>
+	</dialog>
+</npcdialog>

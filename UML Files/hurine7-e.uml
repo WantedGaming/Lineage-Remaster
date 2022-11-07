@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>フェアリー ダストは、森の中にある<font fg="ffffff">精霊の石</font>を<a link="hurinE8">ネルファ</a>が精製してつくる粉のことです。
+	守護者たちは森の生き物にアインハザード様が精霊をかけあわせて創造した種族だから、もとはといえば精霊なんです。</p>
+	<p>だから、精霊のオーラを強く感じることができる<font fg="ffffff">フェアリー ダストが本当に大好き</font>なんですよ。
+	彼らはフェアリー ダストから自分の故郷の息吹を感じ取っているみたいです。</p> 
+  </dialog>
+</npcdialog>

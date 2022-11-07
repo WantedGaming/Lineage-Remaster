@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>告知</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Depardieu</name>
+		<job>Red Knight Commander</job>
+		<!--text> </text-->
+	</npc>
+
+<dialog>
+<p>You haven't subscribed to our security service yet.</p>
+<br/>
+<p><font fg="1270ff">セキュリティサービスにご加入いただくと、ゲームを安全に利用できるだけでなくゲーム内でのバフも</font></p>
+<br/>
+<p><font fg="1270ff">もらえるんですよ。</font></p>
+<br/>
+<p><font fg="1270ff">セキュリティサービスへのご加入は、｢セキュリティサービス｣をご利用いただくとスムーズに</font></p>
+<br/>
+<p><font fg="1270ff">ご加入いただけます。</font></p>
+<br/>
+<p>アカウント盗用の被害をなくすため、お客様自身でもセキュリティの強化および</p>
+<br/>
+<p>セキュリティサービスへのご加入にご協力お願いいたします。</p>
+<br/>
+<p>(こちらのセキュリティ告知はセキュリティサービスにご加入いただくと表示されなくなります)</p>
+<br/>
+</dialog>
+
+</npcdialog>

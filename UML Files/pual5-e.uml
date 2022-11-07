@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>鍛冶屋ピュアル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p><font fg="ffffaf">ランプ スチール</font>を1個作るためには、鋼鉄の原石が5個、ランプ メタルが5個、そんでから500Adenaが必要なんですよ。</p>
+		<p><a action="request lump of steel">ランプ スチールを作る</a></p>
+	</dialog>
+
+</npcdialog>

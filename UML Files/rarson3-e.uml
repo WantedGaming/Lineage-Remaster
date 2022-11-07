@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>実は…結婚を控えた私の妹のラベールが、ゴーストが出るという噂が立ち始めてから寝込んでしまったんです。</p>
+		<p>もしかして妹に片思いをしていたハメルの恨みの魂が、妹を苦しめているのではと思うんです。</p>
+		<p>ラベールは病床でうわごとのようにハメルの名を呼び続けていましてね。</p>
+		<p><a link="rarson4">何があったんですか</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ActionUI Toggle="true">
+
+	<Button Name="ActionUI_Button" X="774" Y="470" MostTop="1" BaseSurf="5156;1" HighlightSurf="5157;1" MouseEvent="OpenButtonPressed">
+	  <Tooltip Name="Desc_Tooltip" String="3118"/>
+	</Button>
+	
+	<Window Name="Action_Window" BaseSurf="5141;1" FrameSurf="5142;1" Moveable="20" KeyboardEvent="KeyboardEvent" MouseEvent="Dummy">
+	
+    <ActionIconGrid Name="Grid" X="21" Y="45" Row="4" Column="6" UnitGap="1" UnitWidth="32" UnitHeight="32" Drag="1" MouseEvent="GridEvent">
+      <Image Name="Selection_Image" Surf="5333;1"/>
+   		<ScrollBar Name="ScrollBar" X="202" Y="8" Width="12" Height="136" ScrollStart="15" ScrollHeight="152" Vertical="1" MaxValue="8">
+   		  <Image Name="Background_Image" X="1" Y="14" Surf="5143;1"/>
+   			<Button Name="Up_Button" X="0" Y="0" BaseSurf="2042;1" PushSurf="2043;1" MouseEvent="Dummy"/>
+   			<Button Name="Down_Button" X="0" Y="105" BaseSurf="2040;1" PushSurf="2041;1" MouseEvent="Dummy"/>
+   			<Button Name="Move_Button" X="0" Y="16" BaseSurf="2044;1" PushSurf="2045;1" MouseEvent="Dummy"/>
+   		</ScrollBar>
+    </ActionIconGrid>
+    
+  	<Button Name="Exit_Button" X="228" Y="11" BaseSurf="1962" PushSurf="1963" MouseEvent="ExitButtonPressed"/>
+
+    <Control Name="Tab_Control" X="-2" Y="20">
+      <RadioButton Name="Total_Button"      X="23"  BaseSurf="5144" PushSurf="5145" HighlightSurf="5146" MouseEvent="TabButtonPressed"/>
+      <RadioButton Name="Community_Button"  X="73"  BaseSurf="5147" PushSurf="5148" HighlightSurf="5149" MouseEvent="TabButtonPressed"/>
+      <RadioButton Name="Action_Button"     X="123" BaseSurf="5150" PushSurf="5151" HighlightSurf="5152" MouseEvent="TabButtonPressed"/>
+      <RadioButton Name="Management_Button" X="173" BaseSurf="5153" PushSurf="5154" HighlightSurf="5155" MouseEvent="TabButtonPressed"/>
+    </Control>
+
+	</Window>
+
+</ActionUI>
+

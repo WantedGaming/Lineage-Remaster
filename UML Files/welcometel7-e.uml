@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+    <p><font fg="aaffff">復帰勇士訓練所</font>はレベル45以上から入場可能です。<br/>
+    <br/>
+		もう少しレベルを上げてからご利用ください。</p>
+  </dialog>
+</npcdialog>

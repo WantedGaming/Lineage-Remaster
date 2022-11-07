@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>デポロジュー</name>
+		<job>[赤き騎士団長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<font fg="ffafff">革命戦争</font>はこれからが始まりだ！
+		赤き騎士団と共に攻城戦に参加してはどうかね？<br/>
+		私の力で君の戦闘能力を上げられる。心強い守護騎士と共に
+		戦場を駆け抜けろ。<br/>
+		攻城に成功したら、褒賞金を授けよう。今すぐ入団してくれ！<br/>
+		攻城戦が始まると入団できないから、気をつけたまえ！
+		<br/><br/></p>
+		<p><a action="j">赤き騎士団に入団</a><br/></p>
+		<p><a action="d">赤き騎士団から退団</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

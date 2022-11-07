@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>エントの表皮も使いみちがたくさんあるんだ。<a link="theodorE4">ネルファ</a>はこれで<font fg="ffffff">ブーツやグローブ</font>の下敷きを作ったり、<font fg="ffffff">シールドやメイル</font>の材料に使ったりもするそうだ。また、これをアラクネに食べさせると<a link="theodorE5">アラクネ</a>からも何かもらえるそうだ。アインハザード様は本当に上手く守護者を創造したと思わないか？これは私だけが抱く疑問かもしれないが。</p>
+		<p>エントの表皮を獲得するには、素手でエントを叩くだけではダメで<font fg="ffffff">ファングス</font>というキノコのモンスターから獲得できる<font fg="ffffff">きのこの胞子液</font>をエントに塗れば簡単に剥がせるそうだ。</p>
+	</dialog>
+
+</npcdialog>

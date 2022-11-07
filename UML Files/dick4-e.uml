@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ディック</name>
+  </npc>
+  <dialog>
+  <p>
+	あれ？預ける動物が見当たりませんけど？どこですか？<br/><br/>
+ <a link="helpnpc">動物を手なずける方法を聞く</a>
+ </p>
+  </dialog>
+</npcdialog>

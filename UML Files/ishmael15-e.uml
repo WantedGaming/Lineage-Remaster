@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>領主様。<var src="0"/>に配置できる傭兵の数は、<var src="0"/>のCHRの半分の<var src="1"/>名までです。</p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

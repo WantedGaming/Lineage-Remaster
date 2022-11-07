@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dungeonlist>
+	<dungeon mapSerial="8"/>
+	<dungeon mapSerial="15"/>
+	<dungeon mapSerial="9"/>
+	<dungeon mapSerial = "16"/>
+	<!--	<dungeon mapSerial = "4" minLv = "52"/>	<dungeon mapSerial = "2" minLv = "60" maxLv = "65"/>	-->
+</dungeonlist>

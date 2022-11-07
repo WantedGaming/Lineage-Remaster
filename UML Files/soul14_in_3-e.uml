@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	
+	<dialog>
+				
+	
+		<p>古代の精霊言語で書かれています。<br/></p>
+
+		<p>解析：そこへ行くため…特別な場所…<br/></p>
+		<p>誰でも…行け…ない…<br/></p>
+		
+
+				
+	</dialog>
+
+</npcdialog>

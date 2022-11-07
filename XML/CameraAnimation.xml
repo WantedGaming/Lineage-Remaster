@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CameraAnimation>
+	<Animation id="1">
+		<!--<CameraTargetChange />-->
+		<ZoomIn time="1000" ratio="0.8" speed="0.25" />
+		<ZoomOut time="1000" ratio="1.0" speed="0.25" />
+		<RestoreAnimationOption />
+	</Animation>
+
+	<Animation id="2">
+		<!--<Halpas skill camera />-->
+		<ZoomOut time="4000" ratio="1.5" speed="0.5" />
+		<RestoreAnimationOption /> <!-- camera initialization -->
+	</Animation>
+	
+</CameraAnimation>

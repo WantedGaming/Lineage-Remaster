@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>エルフ精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">共通精霊魔法：レベル4</font><br/></p>
+	<p><font fg="ffffaf">エレメンタル フォールダウン：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：10/0<br/>
+	持続時間：32秒<br/>
+	対象：術者から10セル内のPCまたはNPC<br/>
+	効果：持続中、ターゲットに術者の属性と同じ属性魔法防御力を50%、精霊耐性を10減少させます。<br/></p>
+	
+	<p><font fg="ffffaf">イレース マジック：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	材料：精霊の玉1個<br/>
+	持続時間：32秒<br/>
+	対象：術者から6セル内のPCまたはNPC<br/>
+	効果：1回のみ対象のMRを2分の1に減少させます。<br/>
+	対象が攻撃を受けると、MRは元に戻ります。<br/></p>
+	
+	<p><font fg="ffffaf">サモン レッサー エレメンタル：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	材料：精霊の玉2個<br/>
+	持続時間：3600秒<br/>
+	対象：None<br/>
+	効果：選択した魔法系列別の精霊を召喚します。<br/>
+	ただしその間、既存の他の精霊は召喚できません。<br/>
+	この魔法は、オーレン象牙の塔にいるエリオンをとおして、魔法系列を選択した後から使用できます。<br/></p>
+	<p><img src="331" link="helpmgcn"/><br/><br/></p>
+	</dialog>
+</npcdialog>

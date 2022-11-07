@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Space-Time Travel</title>
+	<npc>
+		<portrait>PO_038</portrait>
+		<name><var src="name"/></name>
+		<job>Space-Time Travel Researcher</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		I'm Yurie, dispatched to the Ivory Tower!<br/>
+		<br/><br/>
+		The distortion of space-time is said to have become even stronger with the arrival of the dark dragon Halpas.<br/>
+		<br/>
+		Contains<font fg="ffafff">10 Space-Time Keys</font>to enter the space-time distortion.
+		<font fg="ffafff">We are selling</font>the Key Box of Space-Time for<font fg="ffffaf">4millon adena</font>so you can explore new worlds.
+		Give it a shot!<br/></p>
+		<br/>
+		<panel type="Panel_KeyBox_Bt">
+				<button action="b"/>
+        </panel>
+		<p>
+		<br/>
+		<a link="id_yurie02">I'd like to know a little more about it.</a><br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

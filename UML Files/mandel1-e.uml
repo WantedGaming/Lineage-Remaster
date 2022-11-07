@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>ギランは本当に住み良い所だよ。治安も警備もしっかりしてるし、物資も豊富、おまけに遊べるしね…</p>
+	<p>まあ、大空でドラゴンが騒動を起こす前までの話だけどね…</p>
+	<p>村の南には行ったかい？</p>
+	<p>そこに行けば、ドラゴンがどれほどの力を持っているかを実感できるよ。</p>
+	</dialog>
+</npcdialog>

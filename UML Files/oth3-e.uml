@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+<p>手が空いているならちょっと手伝ってくれないか？自分のことでいっぱいならもちろん大丈夫だが。</p>
+<p>今、ドゥダ-マラ、ガンジ、アトゥバ、ネルガ オークそれぞれの魔法書が必要なんだ。</p>
+<p>試練のドゥダ-マラオークと試練のガンジ オーク、試練のアトゥバ オーク、試練のネルガ オークはここから西方の森に行けば見つかるだろう。</p>
+<p>無論、やつらはそう簡単に魔法書を出さないから気をつけるんだ。</p>
+<p>もし君が魔法書を持ってきてくれたら、機敏のヘルムか体力のヘルムのどちらかをやろう。</p>
+<p>機敏のヘルムは弓を使うエルフに適していて、体力のヘルムは剣を使うエルフに合うから参考にしてくれ。</p>
+<br/>
+<p><a action="request dex helmet of elven"/>機敏のヘルムをもらう</p>
+<p><a action="request con helmet of elven"/>体力のヘルムをもらう</p>
+<p><img src="331" link="oth1"/></p>
+</dialog>
+
+</npcdialog>

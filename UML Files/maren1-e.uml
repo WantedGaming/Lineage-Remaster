@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 あなたも冒険者？<br/>
+		 スラム街にいる乱暴者たちのせいで、落ち着かないっていうのに、ガラの悪い人たちが余計増えるんじゃないかって気が気じゃないわ。<br/>
+		<br/>
+		 あ、あなたのことを言ってるわけじゃないから、勘違いしないでね。<br/>
+		<br/>
+		 ただアデンの雰囲気が悪くなるようだったら、子供たちにだって悪い影響があると思うの。ただそれが心配なだけ。<br/>
+		<br/>
+		 (嫌な目つきでこちらを見ている)
+		 </p>
+	</dialog>
+</npcdialog>

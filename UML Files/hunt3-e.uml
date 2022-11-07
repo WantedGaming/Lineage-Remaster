@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>フント</name>
+    <job>[傭兵隊長]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">傭兵隊長フント：</font></p>
+    <p><br/>今は頭数が足りなくて、配置された数どおりの兵力を揃えることはできかねますが。</p>
+	<p>もっと人を集めなければなりません。</p>
+  </dialog>
+</npcdialog>

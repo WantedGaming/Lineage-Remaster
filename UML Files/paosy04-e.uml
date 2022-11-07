@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>フェオシ</name>
+    <job>[エバートの妻]</job>
+    <text>ご機嫌よう。フェオシといいます。</text>
+  </npc>
+  <dialog>
+	<p> あら！<font fg="ffffaf"><var src="0"/></font>をお持ちなのですね？</p> 
+	<p>それでしたら、欲しい機能を選んでください。</p>
+	<p>そうだ！<font fg="ffffaa">香水</font>の場合は<font fg="ffaaff">15万</font>Adena、<font fg="ffffaa">紋章</font>の場合は<font fg="ffaaff">30万</font>Adenaの手数料がそれぞれかかります。</p>
+	<p><font fg="ffaaaa">[魔法抵抗機能印章]</font></p>
+	<p action="A"> 1.印章：MR + STR</p>
+	<p action="B"> 2.印章：MR + DEX</p>
+	<p action="C"> 3.印章：MR + INT</p>
+	<p> <font fg="ffaaaa">[スタン機能印章]</font></p>
+	<p action="D"> 1.印章：STUN + STR</p>
+	<p action="E"> 2.印章：STUN + DEX</p>
+	<p action="F"> 3.印章：STUN + INT</p>
+	<p> <font fg="ffaaaa">[ホールド機能印章]</font></p>
+	<p action="G"> 1.印章：HOLD + STR</p>
+	<p action="H"> 2.印章：HOLD + DEX</p>
+	<p action="I"> 3.印章：HOLD + INT</p>
+  </dialog>
+</npcdialog>
+

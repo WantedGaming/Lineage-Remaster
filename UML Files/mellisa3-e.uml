@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>メリサ</name>
+		<job>[商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		<font fg="ffffff"><var src="0"/>%</font>です。
+		</p>
+	</dialog>
+</npcdialog>

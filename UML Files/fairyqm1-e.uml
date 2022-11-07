@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<portrait>PO_002</portrait>
+		<name>フェアリー クイーン</name>
+		<job>[森の守護者]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>自然を理解しない者どもよ、一刻も早くここを立ち去られよ。</p>
+  </dialog>
+</npcdialog>

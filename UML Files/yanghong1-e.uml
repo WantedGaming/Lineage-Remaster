@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ヤンホン</name>
+	</npc>
+	<dialog>
+		<p>こんにちは。<br/>
+		<br/>
+		最近、我々象牙の塔では魔力が込められた防具を強化する研究をしています。<br/>
+		<br/>
+		その研究の中で、大きな成果を上げたのがまさに<font fg="ffffaf">「マジック ヘルム」</font>です。
+		すでにエンチャントされたアイテム同士を合成し、より強いアイテムにするのです。<br/>
+		<br/>
+		材料と少額のAdenaがあれば、私が合成して差し上げます。</p>
+		<p><br/></p>
+		<p><a link="yanghong2">+0マジック ヘルム：真を製作する</a><br/>
+		<br/>
+		<a link="yanghong3">+1マジック ヘルム：真を製作する</a><br/>
+		<br/>
+		<a link="yanghong4">+2マジック ヘルム：真を製作する</a><br/>
+		<br/>
+		<a link="yanghong5">+3マジック ヘルム：真を製作する</a></p>
+	</dialog>
+</npcdialog>

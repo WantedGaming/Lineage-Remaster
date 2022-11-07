@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>英雄の傲慢の塔のアミュレット製作券</title>
+
+	<dialog align="left">
+		<p>神秘な気が漂う巻物。</p>
+		<p>アデンのムブニを訪ねると、良いことが起こりそうだ。</p>
+	</dialog>
+
+</npcdialog>

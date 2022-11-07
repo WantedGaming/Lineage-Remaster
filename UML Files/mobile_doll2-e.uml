@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		<font fg="e8aee7">TAMポイント</font>をご利用ください！<br/>
+		<br/></p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+		<br/> 
+		<p>
+		<br/> 
+		成長の果実で獲得された<font fg="e8aee7">TAMポイント</font>は、<font fg="e8aee7">ユニコーンテンプルの鍵</font>に 
+		交換できます。
+		<br/>ヘイトに話しかければ<font fg="e8aee7v">ユニコーンテンプル</font>に行けますよ。
+		<br/>
+		<br/>成長をお望みですか？
+		<font fg="e8aee7">ユニコーンの成長の証</font>を購入してから<font fg="e8aee7">エキンス</font>に話しかけてください。
+		<br/>TAMポイントの獲得方法はリネージュの公式ホームページをご覧ください。
+		</p>
+	</dialog>
+</npcdialog>

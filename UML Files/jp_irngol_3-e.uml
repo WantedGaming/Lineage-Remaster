@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ゴーレムの契約1つとエルモアの武器1つを交換しよう。</p>
+		<p>望みのものはどれだ？</p>
+		<p><a action="K">エルモア ダガー</a></p>
+		<p><a action="L">エルモア ソード</a></p>
+		<p><a action="M">エルモア ツーハンド ソード</a></p>
+		<p><a action="N">エルモア ボウガン</a></p>
+		<p><a action="O">エルモア スタッフ</a></p>
+		<p><a action="P">エルモア クロウ</a></p>
+		<p><a action="Q">エルモア チェーンソード</a></p>
+		<p><a action="R">エルモア キーリンク</a></p>
+	</dialog>
+
+</npcdialog>

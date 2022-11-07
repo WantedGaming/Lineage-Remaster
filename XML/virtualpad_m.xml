@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<MobileVirtualPadUI toggle="false">
+
+  <Window Name="VirtualPadWindow" X="76" Y="242" Width="169" Height="169">
+
+    <Image Name="Movable" Png="100052;2;16"/>
+    <Image Name="Frame" Png="100051;2;16"/>-
+    <Image Name="BlackPannel" Png="100050;2;11" />
+
+  </Window>
+
+</MobileVirtualPadUI>

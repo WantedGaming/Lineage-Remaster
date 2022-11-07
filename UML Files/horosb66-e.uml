@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>アイテムのトレードには絶好の日でしょう。</p>
+	<p>売ろうと思っていたり、いつもは売れなかったアイテムを近くの村やギラン市場で売ってみましょう。</p>
+	<p>望みどおりとはいきませんが、決して損はしない値で売ることのできる無難な一日となるでしょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

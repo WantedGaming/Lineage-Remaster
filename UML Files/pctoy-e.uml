@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+  </npc>
+  <dialog>
+	<p>いらっしゃいませ～面白いおもちゃ…</p>
+	<p>売ってますよ～</p>
+	<p>ぜひ見ていってください～お気に入りがきっと見つかりますよ</p>
+	<p>きゃ～～～～～！ </p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	    <panel type="Panel_Shop_Bt_Sell">
+             <button action="sell"/>
+        </panel>
+	<p>ターバンとアクセサリーは時間を消耗しますよ！<font fg="ffaaff">3時間</font>経つと、魔法が解けちゃいます。</p>
+	<p>エンエン…あ、今日って土曜日でしたっけ？土曜ならピエロがいるはずなんだけど…</p>
+  </dialog>
+</npcdialog>

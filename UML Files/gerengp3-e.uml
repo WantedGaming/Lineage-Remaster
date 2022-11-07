@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>そなたの話が事実なら、そなたの母君にあたるお方ではないか。
+		</p><p>私はこの島に隠居して長い。彼女を直接見たことはないが、とても美しい方だと聞いておる。
+		</p><p>高潔な貴婦人と戦争に飢える悪魔とは…彼女とケンラウヘルの関係はまさに矛盾そのものだ。そう思わないかね？
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>レオナ</name>
+    <job>[冒険家]</job>
+  </npc>
+  	<dialog align="left">
+		<p>おお！早速手に入れたのか？</p>
+		<p>さあさあ、早く見せておくれ。</p>
+		<p>どんなものか楽しみじゃのぉ…</p>
+		<p><a action="request oum adenabag1">オームが作っていた彫刻像を渡す</a></p>
+		<p><a action="request oum adenabag2">オームのごつい彫刻像を渡す</a></p>
+		<p><a action="request oum adenabag3">オームが手入れしていた彫刻像を渡す</a></p>
+		<p><a action="request oum adenabag4">オームの繊細な彫刻像を渡す</a></p>
+		<p><a action="request oum adenabag5">オームの色つきの彫刻像を渡す</a></p>
+		<p><a action="request oum adenabag6">オームの完成された彫刻像を渡す</a></p>
+	</dialog>
+</npcdialog>

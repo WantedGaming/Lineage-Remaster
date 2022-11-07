@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハンク</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ドラゴンを倒せって言ったろ？誰が仲間を倒せと言った！
+		 ドラゴンの前ではみんな仲間だ！あっちいけ！しっしっ！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

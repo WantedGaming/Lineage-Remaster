@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ロロ</name>
+		<job>希望のロウソクガイド</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 こんにちは！<br/>
+		 <font fg="ffffaf">希望のロウソク</font>のガイド、ロロです！<br/><br/>
+		 みなさんがお持ちの希望のロウソクを点火してあげますよ。<br/>
+		 <br/><br/>
+		 <a action="ent">希望のロウソクに火を灯す</a><br/>
+		 <br/><br/><br/>
+		 ロウソクが灯されたら、過去の記憶が蘇ってきて、<font fg="ffffaf">すべての能力値が初期化</font>されます。<br/><br/>
+		 みなさんが初めてキャラクターを作った時みたいに、キャラクターの能力値を改めて振り直せます。<br/>
+		<br/>
+		 能力値は<font fg="ffffff">STR/DEX/CON/WIS/INT/CHA</font>の中から好きな能力を選択して成長させられます。
+		 みなさんがどの能力値を成長させるかによって、キャラクターに<font fg="ffffaf">新しい能力</font>が適用されます。<br/>
+		<br/>
+		 みなさんのキャラクターがレベル51以上なら、レベルごとの追加ボーナス能力値が与えられます。<br/><br/>
+		 <font fg="ffffaf">レベル アップ</font>ボタンを使って、レベルごとのボーナス能力値を追加で上げられます。<br/>
+		<br/>
+		 最後に、エリクサーを使用した方なら、レベル50以降にレベルが5上がるごとにエリクサーボーナスが得られます。<br/>
+		<br/>
+		 一度行うと、取り返しがつかないので、慎重に決めてください。<br/>
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

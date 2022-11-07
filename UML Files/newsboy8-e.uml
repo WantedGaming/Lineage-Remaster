@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>えへっ。僕は誰でしょう？最高の情報通じゃありませんか！</p>
+	<p>幸運にもテレポーターのお姉さんが見棄てられた者たちの地に</p>
+	<p>送る方法を見つけたってことです。</p>
+	<p><br/><br/></p>
+	<p>でも…お姉さんの話ではレベル44～51までだけ</p>
+	<p>案内してくれるそうですよ。ご参考までに。<br/><br/></p>
+	<p><img src="331" link="newsboy"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

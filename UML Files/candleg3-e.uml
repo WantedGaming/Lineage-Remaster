@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>希望のロウソク</title>
+	<npc>
+		<portrait></portrait>
+		<name>マリー</name>
+		<job>希望のロウソク少女</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>
+		 もう希望のロウソクを持っているようですね。<br/>
+		 希望のロウソクは1つしか持てませんよ。使った後にまた来てください。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

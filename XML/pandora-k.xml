@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>판도라</name>
+    <job>[ 상인 ]</job>
+    <text>어서오세요.</text>
+  </npc>
+  <dialog>
+    <panel>
+      <type>Panel_Shop_Button</type>
+      <button>
+	<action>buy</action>
+	<link>pandora_buy</link>
+      </button>
+      <button>
+	<action>buy</action>
+      </button>
+    </panel>
+    <p>어서오세요~ 무슨 물건을 찾으시죠? 취급 품은 모두 본토에서 수입한 품질 좋은 물건들입니다.</p>
+  </dialog>
+</npcdialog>

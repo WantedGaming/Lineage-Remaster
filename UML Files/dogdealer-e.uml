@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ロドニー</name>
+		<job>[ペット商人]</job>
+  </npc>
+  <dialog>
+    <p>
+よってらっしゃい！あんた、犬1匹飼ってみねえか？こいつらをちゃんと育てりゃ狩りのときも役に立つし、頭も良くて何をさせても良くできるよ。<br/>
+おいらが良いのを揃えといたから、気に入ったやつを探してみなって。<br/>
+<br/>
+<a action="buy 1">ドーベルマン50,000Adena</a><br/>
+<a action="buy 2">シェパード50,000Adena</a><br/>
+<a action="buy 3">ビーグル50,000Adena</a><br/>
+<a action="buy 4">セント バーナード50,000Adena</a><br/>
+</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>傭兵隊長 ハルト</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		おや？あんた、誰だい？<br/>
+		もしかして、我が「ストーム ブリンガー」への入団希望者か？そうでないなら、とっとと行きな。俺は忙しいんだよ。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>オームの長老</name>
+  </npc>
+  <dialog>
+	<p>
+地上からきた者よ。
+<br/><br/>
+少しワシの話を聞いてくれるかえ？
+<br/><br/>
+<a link="elderoum2">話を聞く</a>
+</p>
+  </dialog>
+</npcdialog>

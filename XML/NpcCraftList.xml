@@ -1,0 +1,3983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NpcCraftList Version="1" Enable="1">
+	<Npc ID="66">
+		<!--gayle-->
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<!--Npc ID="131"-->
+  	<!--1주차물약-->	
+		<!--Craft ID="3535"/>
+		<Craft ID="3536"/>
+		<Craft ID="3537"/>
+		<Craft ID="3538"/-->
+	<!--/Npc-->
+	<!--Npc ID="131"-->
+  	<!--1주차물약-->	
+		<!--Craft ID="4827"/-->
+	<!--/Npc-->
+	<Npc ID="132">
+  	<!--마빈보석-->	
+		<Craft ID="4735"/>
+		<Craft ID="4736"/>
+		<Craft ID="4737"/>
+		<Craft ID="4738"/>
+	</Npc>
+	<Npc ID="136">
+		<!--arachne-->
+		<Craft ID="163"/>
+		<Craft ID="165"/>
+		<Craft ID="164"/>
+	</Npc>
+	<Npc ID="137">
+		<!--fairy-->
+		<Craft ID="169"/>
+		<Craft ID="170"/>
+	</Npc>
+	<Npc ID="138">
+		<!--pan-->
+		<Craft ID="166"/>
+		<Craft ID="167"/>
+		<Craft ID="168"/>
+	</Npc>
+	<Npc ID="143">
+		<!--nerupa-->
+		<Craft ID="2768"/>
+		<Craft ID="2769"/>
+		<Craft ID="2770"/>
+		<Craft ID="2771"/>
+		<Craft ID="2772"/>
+		<Craft ID="2864"/>
+		<Craft ID="2865"/>
+		<Craft ID="2857"/>
+		<Craft ID="2861"/>
+		<Craft ID="2773"/>
+		<Craft ID="2774"/>
+		<Craft ID="2759"/>
+		<Craft ID="173"/>
+		<Craft ID="183"/>
+		<Craft ID="211"/>
+	</Npc>
+	<Npc ID="146">
+		<!--fairy queen-->
+		<Craft ID="169"/>
+		<Craft ID="170"/>
+		<Craft ID="171"/>
+	</Npc>
+	<Npc ID="159">
+		<!--narhen-->
+		<Craft ID="186"/>
+	</Npc>
+	<Npc ID="200">
+		<!--aanon-->
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<Npc ID="204">
+		<!--randith-->
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<Npc ID="337">
+		<!--hector-->
+		<Craft ID="3296"/>
+		<Craft ID="3043"/>
+		<Craft ID="3044"/>
+		<Craft ID="3045"/>
+		<Craft ID="518"/>
+		<Craft ID="519"/>
+		<Craft ID="1964"/>
+		<Craft ID="194"/>
+		<Craft ID="195"/>
+		<Craft ID="196"/>
+		<Craft ID="819"/>
+		<Craft ID="821"/>
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+
+	<Npc ID="338">
+			<!--dio-->
+		<Craft ID="2739"/>
+		<Craft ID="2792"/>
+		<Craft ID="2731"/>
+		<Craft ID="2732"/>
+		<Craft ID="2733"/>
+		<Craft ID="2734"/>
+		<Craft ID="2735"/>
+		<Craft ID="2736"/>
+		<Craft ID="2737"/>
+		<Craft ID="2738"/>
+		<Craft ID="2788"/>
+		<Craft ID="2789"/>
+		<Craft ID="3196"/>
+		<Craft ID="2790"/>
+		<Craft ID="2791"/>
+	</Npc>
+	<Npc ID="345">
+		<!--randal-->
+		<Craft ID="264"/>
+		<Craft ID="265"/>
+		<Craft ID="266"/>
+		<Craft ID="267"/>
+		<Craft ID="268"/>
+		<Craft ID="269"/>
+		<Craft ID="270"/>
+	</Npc>
+	<Npc ID="346">
+		<!--moria-->
+		<Craft ID="198"/>
+		<Craft ID="1810"/>
+		<Craft ID="422"/>
+	</Npc>
+	<Npc ID="347">
+		<!--herbert-->
+		<Craft ID="3410"/>
+		<Craft ID="3411"/>
+		<Craft ID="3412"/>
+		<Craft ID="2365"/>
+		<Craft ID="2366"/>
+		<Craft ID="2367"/>
+		<Craft ID="2368"/>
+		<Craft ID="2229"/>
+		<Craft ID="2230"/>
+		<Craft ID="2231"/>
+		<Craft ID="2232"/>
+		<Craft ID="2233"/>
+		<Craft ID="2234"/>
+		<Craft ID="2235"/>
+		<Craft ID="2236"/>
+		<Craft ID="2237"/>
+		<Craft ID="2238"/>
+		<Craft ID="2239"/>
+		<Craft ID="2240"/>
+		<Craft ID="2241"/>
+		<Craft ID="2242"/>
+		<Craft ID="2243"/>
+		<Craft ID="2244"/>
+		<Craft ID="2245"/>
+		<Craft ID="2246"/>
+		<Craft ID="2247"/>
+		<Craft ID="2248"/>
+		<Craft ID="2249"/>
+		<Craft ID="2250"/>
+		<Craft ID="2251"/>
+		<Craft ID="2252"/>
+		<Craft ID="2253"/>
+		<Craft ID="2254"/>
+		<Craft ID="2255"/>
+		<Craft ID="2256"/>
+		<Craft ID="2257"/>
+		<Craft ID="2258"/>
+		<Craft ID="2259"/>
+		<Craft ID="2260"/>
+		<Craft ID="2261"/>
+		<Craft ID="2262"/>
+		<Craft ID="2263"/>
+		<Craft ID="2264"/>
+		<Craft ID="2265"/>
+		<Craft ID="2266"/>
+		<Craft ID="2267"/>
+		<Craft ID="2268"/>
+		<Craft ID="2269"/>
+		<Craft ID="2270"/>
+		<Craft ID="2284"/>
+		<Craft ID="2285"/>
+		<Craft ID="2286"/>
+		<Craft ID="199"/>
+		<Craft ID="201"/>
+		<Craft ID="570"/>
+		<Craft ID="571"/>
+	</Npc>
+	<Npc ID="509">
+		<!--eveurol-->
+		<Craft ID="60"/>
+	</Npc>
+	<Npc ID="559">
+		<!--luudiel-->
+		<Craft ID="187"/>
+		<Craft ID="188"/>
+	</Npc>
+	<Npc ID="605">
+		<!--ivelviin-->
+		<Craft ID="2858"/>
+		<Craft ID="203"/>
+		<Craft ID="204"/>
+		<Craft ID="205"/>
+		<Craft ID="206"/>
+		<Craft ID="207"/>
+		<Craft ID="208"/>
+		<Craft ID="209"/>
+		<Craft ID="210"/>
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+		<Craft ID="3715"/>
+    <Craft ID="3716"/>
+    <Craft ID="3717"/>
+    <Craft ID="3718"/>
+    <Craft ID="3719"/>
+    <Craft ID="3720"/>
+    <Craft ID="3721"/>
+    <Craft ID="3722"/>
+    <Craft ID="3723"/>
+    <Craft ID="3724"/>
+    <Craft ID="3728"/>
+    <Craft ID="3729"/>
+    <Craft ID="3730"/>
+    <Craft ID="3731"/>
+    <Craft ID="3732"/>
+    <Craft ID="3733"/>
+    <Craft ID="3734"/>
+    <Craft ID="3735"/>
+    <Craft ID="3736"/>
+    <Craft ID="3737"/>
+    <Craft ID="3741"/>
+    <Craft ID="3742"/>
+    <Craft ID="3743"/>
+    <Craft ID="3744"/>
+    <Craft ID="3745"/>
+    <Craft ID="3746"/>
+    <Craft ID="3747"/>
+    <Craft ID="3748"/>
+    <Craft ID="3749"/>
+    <Craft ID="3750"/>
+    <Craft ID="3754"/>
+    <Craft ID="3755"/>
+    <Craft ID="3756"/>
+    <Craft ID="3757"/>
+    <Craft ID="3758"/>
+    <Craft ID="3759"/>
+    <Craft ID="3760"/>
+    <Craft ID="3761"/>
+    <Craft ID="3762"/>
+    <Craft ID="3763"/>
+    <Craft ID="3767"/>
+    <Craft ID="3768"/>
+    <Craft ID="3769"/>
+    <Craft ID="3770"/>
+    <Craft ID="3771"/>
+    <Craft ID="3772"/>
+    <Craft ID="3773"/>
+    <Craft ID="3774"/>
+    <Craft ID="3775"/>
+    <Craft ID="3776"/>
+    <Craft ID="3780"/>
+    <Craft ID="3781"/>
+    <Craft ID="3782"/>
+    <Craft ID="3783"/>
+    <Craft ID="3784"/>
+    <Craft ID="3785"/>
+    <Craft ID="3786"/>
+    <Craft ID="3787"/>
+    <Craft ID="3788"/>
+    <Craft ID="3789"/>
+    <Craft ID="3793"/>
+    <Craft ID="3794"/>
+    <Craft ID="3795"/>
+    <Craft ID="3796"/>
+    <Craft ID="3797"/>
+    <Craft ID="3798"/>
+    <Craft ID="3799"/>
+    <Craft ID="3800"/>
+    <Craft ID="3801"/>
+    <Craft ID="3802"/>
+    <Craft ID="3806"/>
+    <Craft ID="3807"/>
+    <Craft ID="3808"/>
+    <Craft ID="3809"/>
+    <Craft ID="3810"/>
+    <Craft ID="3811"/>
+    <Craft ID="3812"/>
+    <Craft ID="3813"/>
+    <Craft ID="3814"/>
+    <Craft ID="3815"/>
+    <Craft ID="4429"/>	
+    <Craft ID="4430"/>	
+    <Craft ID="4431"/>	
+    <Craft ID="4432"/>	
+    <Craft ID="4433"/>	
+    <Craft ID="4434"/>	
+    <Craft ID="4435"/>	
+    <Craft ID="4436"/>	
+    <Craft ID="4437"/>	
+    <Craft ID="4438"/>	
+    <Craft ID="4442"/>	
+    <Craft ID="4443"/>	
+    <Craft ID="4444"/>	
+    <Craft ID="4445"/>	
+    <Craft ID="4446"/>	
+    <Craft ID="4447"/>	
+    <Craft ID="4448"/>	
+    <Craft ID="4449"/>	
+    <Craft ID="4450"/>	
+    <Craft ID="4451"/>	
+    <Craft ID="4455"/>	
+    <Craft ID="4456"/>	
+    <Craft ID="4457"/>	
+    <Craft ID="4458"/>	
+    <Craft ID="4459"/>	
+    <Craft ID="4460"/>	
+    <Craft ID="4461"/>	
+    <Craft ID="4462"/>	
+    <Craft ID="4463"/>	
+    <Craft ID="4464"/>	
+    <Craft ID="4468"/>	
+    <Craft ID="4469"/>	
+    <Craft ID="4470"/>	
+    <Craft ID="4471"/>	
+    <Craft ID="4472"/>	
+    <Craft ID="4473"/>	
+    <Craft ID="4474"/>	
+    <Craft ID="4475"/>	
+    <Craft ID="4476"/>	
+    <Craft ID="4477"/>	
+    <Craft ID="4481"/>	
+    <Craft ID="4482"/>	
+    <Craft ID="4483"/>	
+    <Craft ID="4484"/>	
+    <Craft ID="4485"/>	
+    <Craft ID="4486"/>	
+    <Craft ID="4487"/>	
+    <Craft ID="4488"/>	
+    <Craft ID="4489"/>	
+    <Craft ID="4490"/>	
+    <Craft ID="4494"/>	
+    <Craft ID="4495"/>	
+    <Craft ID="4496"/>	
+    <Craft ID="4497"/>	
+    <Craft ID="4498"/>	
+    <Craft ID="4499"/>	
+    <Craft ID="4500"/>	
+    <Craft ID="4501"/>	
+    <Craft ID="4502"/>	
+    <Craft ID="4503"/>	
+    <Craft ID="4507"/>	
+    <Craft ID="4508"/>	
+    <Craft ID="4509"/>	
+    <Craft ID="4510"/>	
+    <Craft ID="4511"/>	
+    <Craft ID="4512"/>	
+    <Craft ID="4513"/>	
+    <Craft ID="4514"/>	
+    <Craft ID="4515"/>	
+    <Craft ID="4516"/>	
+    <Craft ID="4520"/>	
+    <Craft ID="4521"/>	
+    <Craft ID="4522"/>	
+    <Craft ID="4523"/>	
+    <Craft ID="4524"/>	
+    <Craft ID="4525"/>	
+    <Craft ID="4526"/>	
+    <Craft ID="4527"/>	
+    <Craft ID="4528"/>	
+    <Craft ID="4529"/>	
+
+	</Npc>
+	<Npc ID="696">
+		<!--talass-->
+		<Craft ID="212"/>
+		<Craft ID="213"/>
+		<Craft ID="214"/>
+		<Craft ID="2057"/>
+		<Craft ID="2058"/>
+		<Craft ID="2059"/>
+		<Craft ID="2060"/>
+		<Craft ID="2061"/>
+		<Craft ID="2064"/>
+		<Craft ID="2063"/>
+		<Craft ID="2065"/>
+	</Npc>
+	<Npc ID="1059">
+		<!--koup-->
+		<Craft ID="215"/>
+		<Craft ID="216"/>
+		<Craft ID="217"/>
+		<Craft ID="218"/>
+		<Craft ID="219"/>
+		<Craft ID="220"/>
+		<Craft ID="221"/>
+		<Craft ID="222"/>
+		<Craft ID="223"/>
+		<Craft ID="224"/>
+		<Craft ID="225"/>
+		<Craft ID="226"/>
+		<Craft ID="227"/>
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<Npc ID="1363">
+		<!--bamute-->
+		<Craft ID="3419"/>
+		<Craft ID="3388"/>
+		<Craft ID="3389"/>
+		<Craft ID="3390"/>
+		<Craft ID="3391"/>
+		<Craft ID="3392"/>
+		<Craft ID="3873"/>
+		<Craft ID="2783"/>
+		<Craft ID="2784"/>
+		<Craft ID="2785"/>
+		<Craft ID="2786"/>
+		<Craft ID="2787"/>
+		<Craft ID="2862"/>
+		<Craft ID="232"/>
+		<Craft ID="233"/>
+		<Craft ID="234"/>
+		<Craft ID="255"/>
+		<Craft ID="260"/>
+		<Craft ID="261"/>
+		<Craft ID="262"/>
+		<Craft ID="263"/>
+		<Craft ID="820"/>
+		<Craft ID="481"/>
+		<Craft ID="482"/>
+		<Craft ID="483"/>
+		<Craft ID="484"/>
+		<Craft ID="485"/>
+		<Craft ID="486"/>
+		<Craft ID="487"/>
+		<Craft ID="488"/>
+		<Craft ID="4564"/>
+		<Craft ID="4565"/>
+		<Craft ID="4566"/>
+		<Craft ID="4567"/>
+		<Craft ID="4568"/>
+		<Craft ID="4569"/>
+		<Craft ID="4570"/>
+		<Craft ID="4571"/>
+		<Craft ID="4572"/>
+		<Craft ID="4573"/>
+		<Craft ID="4574"/>
+		<Craft ID="4575"/>
+		<Craft ID="4576"/>
+		<Craft ID="4577"/>
+		<Craft ID="4578"/>
+		<Craft ID="4579"/>
+		<Craft ID="4580"/>
+		<Craft ID="4581"/>
+		<Craft ID="4582"/>
+		<Craft ID="4583"/>		
+	</Npc>
+	<Npc ID="1367">
+		<!--karif-->
+	</Npc>
+	<Npc ID="1368">
+		<!--ryumiel-->
+		<Craft ID="228"/>
+		<Craft ID="229"/>
+		<Craft ID="230"/>
+		<Craft ID="231"/>
+		<Craft ID="235"/>
+		<Craft ID="237"/>
+	</Npc>
+	<Npc ID="1575">
+		<!--fake shadow of flame-->
+		<Craft ID="243"/>
+		<Craft ID="244"/>
+		<Craft ID="245"/>
+	</Npc>
+	<Npc ID="1588">
+		<!--nose-->
+		<Craft ID="246"/>
+		<Craft ID="247"/>
+		<Craft ID="248"/>
+		<Craft ID="249"/>
+		<Craft ID="250"/>
+		<Craft ID="251"/>
+		<Craft ID="252"/>
+		<Craft ID="253"/>
+		<Craft ID="254"/>
+	</Npc>
+	<Npc ID="1693">
+		<!--yuno-->
+		<Craft ID="2"/>
+		<Craft ID="3"/>
+		<Craft ID="4"/>
+	</Npc>
+	<Npc ID="1698">
+		<!--blaise-->
+		<Craft ID="5"/>
+	</Npc>
+	<Npc ID="2129">
+		<!--aide of lary-->
+	</Npc>
+	<Npc ID="2139">
+		<!--pirate island elemental-->
+		<Craft ID="34"/>
+	</Npc>
+	<Npc ID="2253">
+		<!--consul-->
+		<Craft ID="43"/>
+		<Craft ID="44"/>
+	</Npc>
+	<Npc ID="2588">
+		<!--adelio-->
+		<Craft ID="46"/>
+		<Craft ID="47"/>
+		<Craft ID="48"/>
+		<Craft ID="49"/>
+		<Craft ID="53"/>
+		<Craft ID="51"/>
+		<Craft ID="54"/>
+		<Craft ID="50"/>
+		<Craft ID="52"/>
+		<Craft ID="55"/>
+	</Npc>
+	<Npc ID="2593">
+		<!--ataroze-->
+		<Craft ID="56"/>
+	</Npc>
+	<Npc ID="2740">
+		<!--endel-->
+		<Craft ID="57"/>
+		<Craft ID="58"/>
+		<Craft ID="59"/>
+	</Npc>
+	<Npc ID="2893">
+		<!--kuen-->
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<Npc ID="3255">
+		<!--dragonknight pual-->
+		<Craft ID="62"/>
+		<Craft ID="65"/>
+		<Craft ID="63"/>
+		<Craft ID="64"/>
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<Npc ID="3282">
+		<!--illusionist batr-->
+		<Craft ID="67"/>
+		<Craft ID="68"/>
+		<Craft ID="69"/>
+		<Craft ID="70"/>
+		<Craft ID="71"/>
+		<Craft ID="72"/>
+		<Craft ID="73"/>
+		<Craft ID="74"/>
+		<Craft ID="75"/>
+		<Craft ID="76"/>
+		<Craft ID="77"/>
+		<Craft ID="78"/>
+	</Npc>
+	<Npc ID="3586">
+		<!--friend of ivelviin1-->
+		<Craft ID="79"/>
+		<Craft ID="81"/>
+		<Craft ID="82"/>
+		<Craft ID="80"/>
+		<Craft ID="2571"/>
+		<Craft ID="2572"/>
+		<Craft ID="2573"/>
+		<Craft ID="2574"/>
+		<Craft ID="2575"/>
+		<Craft ID="2576"/>
+		<Craft ID="2577"/>
+		<Craft ID="2578"/>
+		<Craft ID="2579"/>
+		<Craft ID="2580"/>
+		<Craft ID="2581"/>
+		<Craft ID="2582"/>
+	</Npc>
+	<Npc ID="3587">
+		<!--friend of ivelviin2-->
+		<Craft ID="83"/>
+		<Craft ID="85"/>
+		<Craft ID="86"/>
+		<Craft ID="84"/>
+		<Craft ID="2583"/>
+		<Craft ID="2584"/>
+		<Craft ID="2585"/>
+		<Craft ID="2586"/>
+		<Craft ID="2587"/>
+		<Craft ID="2588"/>
+		<Craft ID="2589"/>
+		<Craft ID="2590"/>
+		<Craft ID="2591"/>
+		<Craft ID="2592"/>
+		<Craft ID="2593"/>
+		<Craft ID="2594"/>
+	</Npc>
+	<Npc ID="3588">
+		<!--friend of ivelviin3-->
+		<Craft ID="87"/>
+		<Craft ID="89"/>
+		<Craft ID="90"/>
+		<Craft ID="88"/>
+		<Craft ID="2595"/>
+		<Craft ID="2596"/>
+		<Craft ID="2597"/>
+		<Craft ID="2598"/>
+		<Craft ID="2599"/>
+		<Craft ID="2600"/>
+		<Craft ID="2601"/>
+		<Craft ID="2602"/>
+		<Craft ID="2603"/>
+		<Craft ID="2604"/>
+		<Craft ID="2605"/>
+		<Craft ID="2606"/>
+	</Npc>
+	<Npc ID="3589">
+		<!--friend of ivelviin4-->
+		<Craft ID="91"/>
+		<Craft ID="93"/>
+		<Craft ID="94"/>
+		<Craft ID="92"/>
+		<Craft ID="2607"/>
+		<Craft ID="2608"/>
+		<Craft ID="2609"/>
+		<Craft ID="2610"/>
+		<Craft ID="2611"/>
+		<Craft ID="2612"/>
+		<Craft ID="2613"/>
+		<Craft ID="2614"/>
+		<Craft ID="2615"/>
+		<Craft ID="2616"/>
+		<Craft ID="2617"/>
+		<Craft ID="2618"/>
+	</Npc>
+	<Npc ID="6112">
+		<!--mubni-->
+		<Craft ID="4589"/>
+		<Craft ID="823"/>
+		<Craft ID="824"/>
+		<Craft ID="825"/>
+		<Craft ID="826"/>
+		<Craft ID="827"/>
+		<Craft ID="828"/>
+		<Craft ID="829"/>
+		<Craft ID="830"/>
+		<Craft ID="831"/>
+		<Craft ID="832"/>
+		<Craft ID="833"/>
+		<Craft ID="834"/>
+		<Craft ID="835"/>
+		<Craft ID="836"/>
+		<Craft ID="837"/>
+		<Craft ID="838"/>
+		<Craft ID="839"/>
+		<Craft ID="840"/>
+		<Craft ID="841"/>
+		<Craft ID="842"/>
+		<Craft ID="843"/>
+		<Craft ID="844"/>
+		<Craft ID="845"/>
+		<Craft ID="846"/>
+		<Craft ID="847"/>
+		<Craft ID="848"/>
+		<Craft ID="849"/>
+		<Craft ID="850"/>
+		<Craft ID="851"/>
+		<Craft ID="852"/>
+	</Npc>
+	<Npc ID="6357">
+		<!--new alchemist-->
+		<Craft ID="3835"/>		
+		<Craft ID="3598"/>
+		<Craft ID="2528"/>
+		<Craft ID="1861"/>
+		<Craft ID="95"/>
+		<Craft ID="96"/>
+		<Craft ID="97"/>
+		<Craft ID="98"/>
+		<Craft ID="99"/>
+		<Craft ID="1960"/>
+		<Craft ID="1961"/>
+	</Npc>
+	<Npc ID="7730">
+		<!--guader stone-->
+		<Craft ID="520"/>
+		<Craft ID="110"/>
+		<Craft ID="111"/>
+		<Craft ID="112"/>
+		<Craft ID="113"/>
+		<Craft ID="114"/>
+		<Craft ID="115"/>
+		<!--신규 가더 제작-->
+		<Craft ID="3879"/>
+		<Craft ID="3880"/>
+		<Craft ID="3881"/>
+		<Craft ID="3882"/>
+		<!--신규 가더 교환-->
+		<Craft ID="3883"/>
+		<Craft ID="3884"/>
+		<Craft ID="3885"/>
+		<Craft ID="3886"/>
+		<Craft ID="3887"/>
+		<Craft ID="3888"/>
+		<Craft ID="3889"/>
+		<Craft ID="3890"/>
+		<Craft ID="3891"/>
+		<Craft ID="3892"/>
+		<Craft ID="3893"/>
+		<Craft ID="3894"/>
+		<Craft ID="3895"/>
+		<Craft ID="3896"/>
+		<Craft ID="3897"/>
+		<Craft ID="3898"/>
+		<Craft ID="3899"/>
+		<Craft ID="3900"/>
+		<Craft ID="3901"/>
+		<Craft ID="3902"/>
+		<Craft ID="3903"/>
+		<Craft ID="3904"/>
+		<Craft ID="3905"/>
+		<Craft ID="3906"/>		
+	</Npc>
+	<Npc ID="7012">
+		<!--rumtis-->
+		<Craft ID="301"/>
+		<Craft ID="302"/>
+		<Craft ID="303"/>
+		<Craft ID="304"/>
+		<Craft ID="305"/>
+		<Craft ID="306"/>
+		<Craft ID="307"/>
+		<Craft ID="308"/>
+		<Craft ID="309"/>
+		<Craft ID="310"/>
+		<Craft ID="311"/>
+		<Craft ID="312"/>
+		<Craft ID="313"/>
+	</Npc>
+	<Npc ID="7013">
+		<!--perita-->
+		<Craft ID="314"/>
+		<Craft ID="315"/>
+		<Craft ID="316"/>
+		<Craft ID="317"/>
+		<Craft ID="318"/>
+		<Craft ID="319"/>
+		<Craft ID="320"/>
+		<Craft ID="321"/>
+		<Craft ID="322"/>
+		<Craft ID="323"/>
+		<Craft ID="324"/>
+		<Craft ID="325"/>
+		<Craft ID="326"/>
+		<Craft ID="327"/>
+		<Craft ID="328"/>
+		<Craft ID="329"/>
+	</Npc>
+	<Npc ID="7016">
+		<!--sherme-->
+		<Craft ID="103"/>
+		<Craft ID="104"/>
+		<Craft ID="106"/>
+		<Craft ID="105"/>
+		<Craft ID="107"/>
+		<Craft ID="108"/>
+		<Craft ID="109"/>
+	</Npc>
+	<Npc ID="7018">
+		<!--joewoofire-->
+		<Craft ID="513"/>
+		<Craft ID="514"/>
+		<Craft ID="515"/>
+		<Craft ID="516"/>
+		<Craft ID="517"/>
+		<Craft ID="116"/>
+		<Craft ID="123"/>
+		<Craft ID="159"/>
+		<Craft ID="160"/>
+		<Craft ID="161"/>
+		<Craft ID="162"/>
+		<Craft ID="287"/>
+		<Craft ID="288"/>
+		<Craft ID="289"/>
+		<Craft ID="290"/>
+		<Craft ID="2182"/>
+		<Craft ID="2183"/>
+		<Craft ID="2227"/>
+		<Craft ID="2184"/>
+		<Craft ID="2185"/>
+		<Craft ID="423"/>
+		<Craft ID="424"/>
+		<Craft ID="425"/>
+	</Npc>
+	<Npc ID="7019">
+		<!--fillis-->
+		<Craft ID="136"/>
+		<Craft ID="137"/>
+		<Craft ID="138"/>
+		<Craft ID="139"/>
+		<Craft ID="140"/>
+	</Npc>
+	<Npc ID="7022">
+		<!--kahlua-->
+		<Craft ID="157"/>
+		<Craft ID="158"/>
+	</Npc>
+	<Npc ID="8100">
+		<!--fire blacksmith-->
+		<Craft ID="2560"/>
+		<Craft ID="2561"/>
+		<Craft ID="2562"/>
+		<Craft ID="2563"/>
+		<Craft ID="2564"/>
+		<Craft ID="2565"/>
+		<Craft ID="2566"/>
+		<Craft ID="2567"/>
+		<Craft ID="2568"/>
+		<Craft ID="1493"/>
+		<Craft ID="1494"/>
+		<Craft ID="1495"/>
+		<Craft ID="1496"/>
+		<Craft ID="1497"/>
+		<Craft ID="912"/>
+		<Craft ID="919"/>
+		<Craft ID="913"/>
+		<Craft ID="914"/>
+		<Craft ID="915"/>
+		<Craft ID="916"/>
+		<Craft ID="917"/>
+		<Craft ID="918"/>
+		<Craft ID="1877"/>
+		<Craft ID="1878"/>
+		<Craft ID="1879"/>
+		<Craft ID="1880"/>
+		<Craft ID="1881"/>
+		<Craft ID="1882"/>
+		<Craft ID="1883"/>
+		<Craft ID="1884"/>
+		<Craft ID="1885"/>
+		<Craft ID="1886"/>
+		<Craft ID="1887"/>
+		<Craft ID="1888"/>
+		<Craft ID="1889"/>
+		<Craft ID="1890"/>
+		<Craft ID="1891"/>
+	</Npc>
+	<Npc ID="8180">
+		<!--fire blacksmith2-->
+		<Craft ID="333" MaxSuccessCount="100"/>
+		<Craft ID="343" MaxSuccessCount="1"/>
+	</Npc>
+	<Npc ID="8214">
+		<!--khw queensuji-->
+		<Craft ID="357"/>
+		<Craft ID="358"/>
+		<Craft ID="347"/>
+		<Craft ID="348"/>
+		<Craft ID="349"/>
+		<Craft ID="350"/>
+		<Craft ID="351"/>
+		<Craft ID="352"/>
+	</Npc>
+	<Npc ID="8262">
+		<!--fire blacksmith3-->
+		<Craft ID="341" MaxSuccessCount="1"/>
+		<Craft ID="452" MaxSuccessCount="1"/>
+		<Craft ID="453" MaxSuccessCount="1"/>
+	</Npc>
+	<Npc ID="8263">
+		<!--fire blacksmith4-->
+		<Craft ID="341" MaxSuccessCount="10"/>
+		<Craft ID="342" MaxSuccessCount="10"/>
+	</Npc>
+	<Npc ID="6403">
+		<!--xmas jutis-->
+		<Craft ID="359"/>
+		<Craft ID="360"/>
+		<Craft ID="361"/>
+		<Craft ID="362"/>
+		<Craft ID="363"/>
+	</Npc>
+	<Npc ID="8334">
+		<!--fantasy atun-->
+		<Craft ID="375"/>
+	</Npc>
+	<Npc ID="8336">
+		<!--fantasy atun-->
+		<Craft ID="395"/>
+	</Npc>
+	<Npc ID="90">
+		<!--lyra-->
+		<Craft ID="417"/>
+		<Craft ID="418"/>
+		<Craft ID="419"/>
+		<Craft ID="420"/>
+	</Npc>
+	<Npc ID="8349" BlindType="LackOfinput">
+		<!--fire blacksmith5-->
+		<Craft ID="449"/>
+		<Craft ID="450"/>
+		<Craft ID="451"/>
+		<Craft ID="445"/>
+		<Craft ID="447"/>
+		<Craft ID="457"/>
+		<Craft ID="446"/>
+		<Craft ID="448"/>
+		<Craft ID="458"/>
+		<Craft ID="459"/>
+		<Craft ID="461"/>
+		<Craft ID="463"/>
+		<Craft ID="460"/>
+		<Craft ID="462"/>
+		<Craft ID="464"/>
+		<Craft ID="469"/>
+		<Craft ID="471"/>
+		<Craft ID="473"/>
+		<Craft ID="470"/>
+		<Craft ID="472"/>
+		<Craft ID="474"/>
+	</Npc>
+	<Npc ID="8873">
+		<!--mobile reheit-->
+		<Craft ID="426"/>
+		<Craft ID="427"/>
+		<Craft ID="428"/>
+		<Craft ID="429"/>
+	</Npc>
+	<Npc ID="8997">
+		<!--mobile lunching event reheit-->
+		<Craft ID="430"/>
+		<Craft ID="431"/>
+		<Craft ID="432"/>
+		<Craft ID="433"/>
+	</Npc>
+	<Npc ID="9120">
+		<!--sihone smith-->
+		<Craft ID="506"/>
+		<Craft ID="507"/>
+		<Craft ID="508"/>
+		<Craft ID="509"/>
+		<Craft ID="510"/>
+		<Craft ID="511"/>
+		<Craft ID="512"/>
+	</Npc>
+	<Npc ID="9156" BlindType="LackOfinput">
+		<!--fire blacksmith5-->
+		<Craft ID="454"/>
+		<Craft ID="455"/>
+		<Craft ID="456"/>
+		<Craft ID="441"/>
+		<Craft ID="465"/>
+		<Craft ID="442"/>
+		<Craft ID="466"/>
+	</Npc>
+	<Npc ID="9305">
+		<!--fd jam-->
+		<Craft ID="480"/>
+	</Npc>
+	<Npc ID="9601">
+		<!--jp fire blacksmith-->
+		<Craft ID="2487"/>
+		<Craft ID="2488"/>
+		<Craft ID="2489"/>
+		<Craft ID="2490"/>
+		<Craft ID="2491"/>
+		<Craft ID="2492"/>
+		<Craft ID="2493"/>
+		<Craft ID="2494"/>
+		<Craft ID="2495"/>
+		<Craft ID="2496"/>
+		<Craft ID="2497"/>
+		<Craft ID="2498"/>
+		<Craft ID="2499"/>
+		<Craft ID="2500"/>
+		<Craft ID="2501"/>
+		<Craft ID="2502"/>
+		<Craft ID="2503"/>
+		<Craft ID="2504"/>
+		<Craft ID="2505"/>
+		<Craft ID="2506"/>
+		<Craft ID="2507"/>
+		<Craft ID="2508"/>
+		<Craft ID="2509"/>
+		<Craft ID="2510"/>
+		<Craft ID="2511"/>
+		<Craft ID="2512"/>
+		<Craft ID="2515"/>
+	</Npc>
+	<Npc ID="9641">
+		<!--tw dano ev-->
+		<Craft ID="489"/>
+		<Craft ID="490"/>
+		<Craft ID="491"/>
+	</Npc>
+	<Npc ID="9683">
+		<!--4map -->
+		<Craft ID="498"/>
+		<Craft ID="499"/>
+		<Craft ID="500"/>
+		<Craft ID="501"/>
+		<Craft ID="502"/>
+	</Npc>
+	<Npc ID="9723">
+		<!--tw mj event dazes-->
+		<Craft ID="553"/>
+		<Craft ID="554"/>
+		<Craft ID="555"/>
+		<Craft ID="556"/>
+		<Craft ID="557"/>
+		<Craft ID="903"/>
+		<Craft ID="904"/>
+		<Craft ID="905"/>
+		<Craft ID="906"/>
+		<Craft ID="907"/>
+		<Craft ID="908"/>
+		<Craft ID="909"/>
+		<Craft ID="910"/>
+		<Craft ID="911"/>
+	</Npc>
+	<Npc ID="9787">
+		<!--tw ev 90poly-->
+		<Craft ID="572"/>
+		<Craft ID="573"/>
+		<Craft ID="574"/>
+		<Craft ID="575"/>
+		<Craft ID="576"/>
+	</Npc>
+	<Npc ID="9788">
+		<!--nerva-->
+		<Craft ID="577"/>
+		<Craft ID="578"/>
+		<Craft ID="579"/>
+		<Craft ID="580"/>
+		<Craft ID="581"/>
+		<Craft ID="4354"/>
+		<Craft ID="4355"/>
+		<Craft ID="4356"/>
+		<Craft ID="4357"/>
+		<Craft ID="4358"/>
+		<Craft ID="4359"/>
+		<Craft ID="4360"/>
+		<Craft ID="4361"/>
+		<Craft ID="4362"/>
+		<Craft ID="4363"/>
+		<Craft ID="4364"/>
+		<Craft ID="4365"/>
+		<Craft ID="4366"/>
+		<Craft ID="4367"/>
+		<Craft ID="4368"/>
+	</Npc>
+	<Npc ID="9789">
+		<!--obalorc-->
+		<Craft ID="582"/>
+		<Craft ID="583"/>
+		<Craft ID="584"/>
+	</Npc>
+	<Npc ID="9798">
+		<!--tw 14th old-->
+		<!--170510 tw merchant renewal-->
+		<Craft ID="3819"/>
+		<Craft ID="3820"/>
+		<Craft ID="3821"/>
+	</Npc>
+	<Npc ID="9812">
+		<!--140813 pc unlock-->
+		<Craft ID="620"/>
+		<Craft ID="621"/>
+		<Craft ID="622"/>
+		<Craft ID="623"/>
+		<Craft ID="624"/>
+		<Craft ID="625"/>
+		<Craft ID="626"/>
+		<Craft ID="627"/>
+		<Craft ID="628"/>
+		<Craft ID="629"/>
+		<Craft ID="630"/>
+		<Craft ID="631"/>
+		<Craft ID="632"/>
+		<Craft ID="633"/>
+		<Craft ID="634"/>
+		<Craft ID="635"/>
+		<Craft ID="636"/>
+		<Craft ID="637"/>
+		<Craft ID="638"/>
+		<Craft ID="639"/>
+		<Craft ID="640"/>
+		<Craft ID="641"/>
+		<Craft ID="642"/>
+		<Craft ID="643"/>
+		<Craft ID="644"/>
+		<Craft ID="645"/>
+		<Craft ID="646"/>
+		<Craft ID="647"/>
+		<Craft ID="648"/>
+	</Npc>
+	<Npc ID="9928">
+		<!--tw 2014 chusuk event-->
+		<Craft ID="649"/>
+		<Craft ID="650"/>
+		<Craft ID="651"/>
+		<Craft ID="652"/>
+	</Npc>
+	<Npc ID="9930">
+		<!--fire blacksmith7-->
+		<Craft ID="345"/>
+		<Craft ID="346"/>
+		<Craft ID="330"/>
+		<Craft ID="374"/>
+		<Craft ID="375"/>
+		<Craft ID="1213"/>
+		<Craft ID="1214"/>
+		<Craft ID="1215"/>
+		<Craft ID="1216"/>
+		<Craft ID="1217"/>
+		<Craft ID="1218"/>
+		<Craft ID="1219"/>
+		<Craft ID="1220"/>
+		<Craft ID="1221"/>
+		<Craft ID="1222"/>
+	</Npc>
+	<Npc ID="9856">
+		<!--forgotten island craft-->
+		<Craft ID="692"/>
+		<Craft ID="693"/>
+		<Craft ID="694"/>
+		<Craft ID="695"/>
+	</Npc>
+	<Npc ID="9938">
+		<!--tw 2014 f2p chusuk event-->
+		<Craft ID="697"/>
+		<Craft ID="698"/>
+		<Craft ID="699"/>
+		<Craft ID="700"/>
+	</Npc>
+	<Npc ID="9966">
+		<!--crafttable1-->
+		<Craft ID="2863"/>
+		<Craft ID="702"/>
+		<Craft ID="703"/>
+		<Craft ID="2878"/>
+		<Craft ID="704"/>
+		<Craft ID="705"/>
+		<Craft ID="708"/>
+		<Craft ID="709"/>
+		<Craft ID="714"/>
+		<Craft ID="715"/>
+		<Craft ID="716"/>
+		<Craft ID="717"/>
+	</Npc>
+	<Npc ID="9967">
+		<!--crafttable2-->
+		<Craft ID="706"/>
+		<Craft ID="707"/>
+		<Craft ID="710"/>
+		<Craft ID="711"/>
+	</Npc>
+	<Npc ID="9968">
+		<!--crafttable3-->
+		<Craft ID="3413"/>
+		<Craft ID="3414"/>
+		<Craft ID="3415"/>
+		<Craft ID="3416"/>
+		<Craft ID="3417"/>
+		<Craft ID="3418"/>
+		<Craft ID="2859"/>
+		<Craft ID="2860"/>
+		<Craft ID="2763"/>
+		<Craft ID="2764"/>
+		<Craft ID="2765"/>
+		<Craft ID="2766"/>
+		<Craft ID="2767"/>
+		<Craft ID="722"/>
+		<Craft ID="723"/>
+		<Craft ID="724"/>
+		<Craft ID="725"/>
+		<Craft ID="2760"/>
+		<Craft ID="2761"/>
+		<Craft ID="2762"/>
+	</Npc>
+	<Npc ID="9969">
+		<!--crafttable4-->
+		<Craft ID="2775"/>
+		<Craft ID="2776"/>
+		<Craft ID="2777"/>
+		<Craft ID="2778"/>
+		<Craft ID="2779"/>
+		<Craft ID="2780"/>
+		<Craft ID="2781"/>
+		<Craft ID="2782"/>
+		<Craft ID="3420"/>
+		<Craft ID="712"/>
+		<Craft ID="713"/>
+		<Craft ID="1729"/>
+		<Craft ID="1730"/>
+		<Craft ID="1731"/>
+		<Craft ID="1732"/>
+		<Craft ID="1733"/>
+		<Craft ID="1734"/>
+		<Craft ID="1735"/>
+		<Craft ID="1736"/>
+		<Craft ID="1737"/>
+		<Craft ID="3393"/>
+		<Craft ID="3394"/>
+		<Craft ID="3395"/>
+	  <Craft ID="3396"/>
+		<Craft ID="3397"/>
+		<Craft ID="3398"/>
+		<Craft ID="3399"/>
+		<Craft ID="3400"/>
+		<Craft ID="3401"/>
+		<Craft ID="3402"/>
+		<Craft ID="3403"/>
+		<Craft ID="3404"/>
+		<Craft ID="3405"/>
+		<Craft ID="3406"/>
+		<Craft ID="3407"/>
+		<Craft ID="3456"/>
+		<Craft ID="3457"/>				
+		<Craft ID="3458"/>
+		<Craft ID="3459"/>		
+		<Craft ID="3460"/>		
+		<Craft ID="3461"/>		
+		<Craft ID="3462"/>		
+		<Craft ID="3463"/>		
+		<Craft ID="3464"/>
+		<Craft ID="3465"/>
+		<Craft ID="3466"/>
+		<Craft ID="3467"/>
+		<Craft ID="3468"/>
+		<Craft ID="3469"/>
+		<Craft ID="3470"/>
+		<Craft ID="3599"/>
+		<Craft ID="3667"/>
+	</Npc>
+	<Npc ID="9985">
+		<!--ev crafttable1-->
+		<Craft ID="726"/>
+		<Craft ID="727"/>
+		<Craft ID="728"/>
+		<Craft ID="729"/>
+		<Craft ID="730"/>
+	</Npc>
+	<Npc ID="10088">
+		<!--om scarecrow baru1-->
+		<Craft ID="815"/>
+		<Craft ID="822"/>
+		<Craft ID="816"/>
+		<Craft ID="817"/>
+		<Craft ID="818"/>
+	</Npc>
+	<Npc ID="10116">
+		<!--fire blacksmith disciple-->
+		<Craft ID="853"/>
+		<Craft ID="854"/>
+		<Craft ID="855"/>
+		<Craft ID="856"/>
+		<Craft ID="857"/>
+		<Craft ID="858"/>
+		<Craft ID="859"/>
+		<Craft ID="860"/>
+		<Craft ID="861"/>
+		<Craft ID="862"/>
+		<Craft ID="863"/>
+		<Craft ID="864"/>
+		<Craft ID="865"/>
+		<Craft ID="866"/>
+		<Craft ID="867"/>
+		<Craft ID="868"/>
+		<Craft ID="869"/>
+		<Craft ID="870"/>
+		<Craft ID="871"/>
+		<Craft ID="872"/>
+		<Craft ID="1702"/>
+		<Craft ID="1703"/>
+		<Craft ID="1704"/>
+		<Craft ID="1705"/>
+		<Craft ID="1706"/>
+		<Craft ID="1707"/>
+		<Craft ID="1708"/>
+		<Craft ID="1709"/>
+		<Craft ID="1710"/>
+	</Npc>
+	<Npc ID="10128">
+		<!--twf hera disciple-->
+		<Craft ID="873"/>
+		<Craft ID="874"/>
+		<Craft ID="875"/>
+		<Craft ID="876"/>
+		<Craft ID="877"/>
+		<Craft ID="878"/>
+		<Craft ID="879"/>
+		<Craft ID="880"/>
+		<Craft ID="881"/>
+		<Craft ID="882"/>
+		<Craft ID="883"/>
+		<Craft ID="884"/>
+	</Npc>
+	<Npc ID="10145">
+		<!--rumtis crafttable-->
+		<Craft ID="2976"/>
+		<Craft ID="2977"/>
+		<Craft ID="2978"/>
+		<Craft ID="2979"/>
+		<Craft ID="2980"/>
+		<Craft ID="2981"/>
+		<Craft ID="2982"/>
+		<Craft ID="2983"/>
+		<Craft ID="2984"/>
+		<Craft ID="2985"/>
+		<Craft ID="2986"/>
+		<Craft ID="2987"/>
+		<Craft ID="2988"/>
+		<Craft ID="2989"/>
+		<Craft ID="2990"/>
+		<Craft ID="2991"/>
+		<Craft ID="2357"/>
+		<Craft ID="2358"/>
+		<Craft ID="2359"/>
+		<Craft ID="2360"/>
+		<Craft ID="928"/>
+		<Craft ID="929"/>
+		<Craft ID="930"/>
+		<Craft ID="931"/>
+		<Craft ID="932"/>
+		<Craft ID="933"/>
+		<Craft ID="934"/>
+		<Craft ID="935"/>
+		<Craft ID="936"/>
+		<Craft ID="937"/>
+		<Craft ID="938"/>
+		<Craft ID="939"/>
+		<Craft ID="940"/>
+		<Craft ID="941"/>
+		<Craft ID="942"/>
+		<Craft ID="943"/>
+		<Craft ID="944"/>
+		<Craft ID="945"/>
+		<Craft ID="1539"/>
+		<Craft ID="1540"/>
+		<Craft ID="1541"/>
+		<Craft ID="1542"/>
+		<Craft ID="1543"/>
+		<Craft ID="1544"/>
+		<Craft ID="4898"/>
+		<Craft ID="4899"/>
+		<Craft ID="4900"/>
+		<Craft ID="4901"/>
+		<Craft ID="4902"/>
+		<Craft ID="4903"/>
+		<Craft ID="4904"/>
+		<Craft ID="4905"/>		
+	</Npc>
+	<Npc ID="10146">
+		<!--snaper crafttable-->
+		<Craft ID="2948"/>
+		<Craft ID="2949"/>
+		<Craft ID="2950"/>
+		<Craft ID="2951"/>
+		<Craft ID="2952"/>
+		<Craft ID="2953"/>
+		<Craft ID="2954"/>
+		<Craft ID="2955"/>
+		<Craft ID="2956"/>
+		<Craft ID="2957"/>
+		<Craft ID="2958"/>
+		<Craft ID="2959"/>
+		<Craft ID="2960"/>
+		<Craft ID="2961"/>
+		<Craft ID="2962"/>
+		<Craft ID="2963"/>
+		<Craft ID="2964"/>
+		<Craft ID="2965"/>
+		<Craft ID="2966"/>
+		<Craft ID="2967"/>
+		<Craft ID="2968"/>
+		<Craft ID="2969"/>
+		<Craft ID="2970"/>
+		<Craft ID="2971"/>
+		<Craft ID="2972"/>
+		<Craft ID="2973"/>
+		<Craft ID="2974"/>
+		<Craft ID="2975"/>
+		<Craft ID="2361"/>
+		<Craft ID="2362"/>
+		<Craft ID="2363"/>
+		<Craft ID="2364"/>
+		<Craft ID="946"/>
+		<Craft ID="947"/>
+		<Craft ID="948"/>
+		<Craft ID="949"/>
+		<Craft ID="950"/>
+		<Craft ID="951"/>
+		<Craft ID="952"/>
+		<Craft ID="953"/>
+		<Craft ID="954"/>
+		<Craft ID="955"/>
+		<Craft ID="956"/>
+		<Craft ID="957"/>
+		<Craft ID="958"/>
+		<Craft ID="959"/>
+		<Craft ID="960"/>
+		<Craft ID="961"/>
+		<Craft ID="962"/>
+		<Craft ID="963"/>
+		<Craft ID="964"/>
+		<Craft ID="965"/>
+		<Craft ID="966"/>
+		<Craft ID="967"/>
+		<Craft ID="968"/>
+		<Craft ID="969"/>
+		<Craft ID="970"/>
+		<Craft ID="971"/>
+		<Craft ID="972"/>
+		<Craft ID="973"/>
+		<Craft ID="974"/>
+		<Craft ID="975"/>
+		<Craft ID="976"/>
+		<Craft ID="977"/>
+		<Craft ID="978"/>
+		<Craft ID="979"/>
+		<Craft ID="980"/>
+		<Craft ID="981"/>
+		<Craft ID="982"/>
+		<Craft ID="983"/>
+		<Craft ID="984"/>
+		<Craft ID="985"/>
+		<Craft ID="986"/>
+		<Craft ID="987"/>
+		<Craft ID="4739"/>
+		<Craft ID="4740"/>
+		<Craft ID="4741"/>
+		<Craft ID="4742"/>
+		<Craft ID="4743"/>
+		<Craft ID="4744"/>
+		<Craft ID="4745"/>
+		<Craft ID="4746"/>
+		<Craft ID="4747"/>
+		<Craft ID="4748"/>
+		<Craft ID="4749"/>
+		<Craft ID="4750"/>
+		<Craft ID="4751"/>
+		<Craft ID="4752"/>
+		<Craft ID="4753"/>
+		<Craft ID="4754"/>
+		<Craft ID="4755"/>
+		<Craft ID="4756"/>
+		<Craft ID="4757"/>
+		<Craft ID="4758"/>
+		<Craft ID="4759"/>
+		<Craft ID="4760"/>
+		<Craft ID="4761"/>
+		<Craft ID="4762"/>
+		<Craft ID="4763"/>
+		<Craft ID="4764"/>
+		<Craft ID="4765"/>
+		<Craft ID="4766"/>
+		<Craft ID="4767"/>
+		<Craft ID="4768"/>
+		<Craft ID="4769"/>
+		<Craft ID="4770"/>
+		<Craft ID="4771"/>
+		<Craft ID="4772"/>
+		<Craft ID="4773"/>
+		<Craft ID="4774"/>
+		<Craft ID="4775"/>
+		<Craft ID="4776"/>
+		<Craft ID="4777"/>		
+		<Craft ID="4890"/>
+		<Craft ID="4891"/>
+		<Craft ID="4892"/>
+		<Craft ID="4893"/>
+		<Craft ID="4894"/>
+		<Craft ID="4895"/>
+		<Craft ID="4896"/>
+		<Craft ID="4897"/>
+	</Npc>
+	<Npc ID="10147">
+		<!--tw f2p mj event dazes-->
+		<Craft ID="988"/>
+		<Craft ID="989"/>
+		<Craft ID="990"/>
+		<Craft ID="991"/>
+	</Npc>
+	<Npc ID="10149">
+		<!--halloween baru-->
+		<Craft ID="1031"/>
+		<Craft ID="1032"/>
+		<Craft ID="1033"/>
+	</Npc>
+	<Npc ID="10161">
+		<!--elixir craft-->
+		<Craft ID="1043"/>
+		<Craft ID="1044"/>
+		<Craft ID="1045"/>
+		<Craft ID="1046"/>
+		<Craft ID="1047"/>
+		<Craft ID="1048"/>
+	</Npc>
+	<Npc ID="10244">
+		<!--16th_ghost1-->
+		<Craft ID="1061" MaxSuccessCount="1"/>
+		<Craft ID="1062" MaxSuccessCount="1"/>
+		<Craft ID="1065" MaxSuccessCount="1"/>
+		<Craft ID="1066" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10245">
+		<!--16th_ghost2-->
+		<Craft ID="1050" MaxSuccessCount="1"/>
+		<Craft ID="1051" MaxSuccessCount="1"/>
+		<Craft ID="1063" MaxSuccessCount="1"/>
+		<Craft ID="1064" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10246">
+		<!--16th_ghost3-->
+		<Craft ID="1049" MaxSuccessCount="1"/>
+		<Craft ID="1053" MaxSuccessCount="1"/>
+		<Craft ID="1063" MaxSuccessCount="1"/>
+		<Craft ID="1064" MaxSuccessCount="1"/>
+		<Craft ID="1065" MaxSuccessCount="1"/>
+		<Craft ID="1066" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10247">
+		<!--16th_ghost4-->
+		<Craft ID="1052" MaxSuccessCount="1"/>
+		<Craft ID="1054" MaxSuccessCount="1"/>
+		<Craft ID="1063" MaxSuccessCount="1"/>
+		<Craft ID="1064" MaxSuccessCount="1"/>
+		<Craft ID="1065" MaxSuccessCount="1"/>
+		<Craft ID="1066" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10248">
+		<!--16th_ghost5-->
+		<Craft ID="1055" MaxSuccessCount="1"/>
+		<Craft ID="1056" MaxSuccessCount="1"/>
+		<Craft ID="1063" MaxSuccessCount="1"/>
+		<Craft ID="1064" MaxSuccessCount="1"/>
+		<Craft ID="1065" MaxSuccessCount="1"/>
+		<Craft ID="1066" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10249">
+		<!--16th_ghost6-->
+		<Craft ID="1057" MaxSuccessCount="1"/>
+		<Craft ID="1058" MaxSuccessCount="1"/>
+		<Craft ID="1065" MaxSuccessCount="1"/>
+		<Craft ID="1066" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10250">
+		<!--16th_ghost7-->
+		<Craft ID="1059" MaxSuccessCount="1"/>
+		<Craft ID="1060" MaxSuccessCount="1"/>
+		<Craft ID="1063" MaxSuccessCount="1"/>
+		<Craft ID="1064" MaxSuccessCount="1"/>
+		<Craft ID="1067"/>
+	</Npc>
+	<Npc ID="10251">
+		<!--16th_marian-->
+		<Craft ID="1103"/>
+	</Npc>
+	<Npc ID="10272">
+		<!--tw 2014 crying santa-->
+		<Craft ID="1068"/>
+		<Craft ID="1069"/>
+		<Craft ID="1070"/>
+		<Craft ID="1071"/>
+		<Craft ID="1104"/>
+		<Craft ID="1105"/>
+		<Craft ID="1072"/>
+		<Craft ID="1073"/>
+		<Craft ID="1074"/>
+		<Craft ID="1075"/>
+		<Craft ID="1076"/>
+	</Npc>
+	<Npc ID="10273">
+		<!--tw 2014 xmas elf-->
+		<Craft ID="1077"/>
+	</Npc>
+	<Npc ID="10618">
+		<!--twf mgdoll-->
+		<Craft ID="1090"/>
+		<Craft ID="1091"/>
+		<Craft ID="1092"/>
+		<Craft ID="1093"/>
+		<Craft ID="1094"/>
+		<Craft ID="1095"/>
+		<Craft ID="1096"/>
+		<Craft ID="1097"/>
+		<Craft ID="1098"/>
+		<Craft ID="1099"/>
+		<Craft ID="1100"/>
+		<Craft ID="1101"/>
+		<Craft ID="1102"/>
+	</Npc>
+	<Npc ID="10771">
+		<!--tw blue sheep man Month -->
+		<Craft ID="1106"/>
+		<Craft ID="1229"/>
+		<Craft ID="1747"/>
+		<Craft ID="1748"/>
+		<Craft ID="1749"/>
+	</Npc>
+	<Npc ID="10774">
+		<!--tw blue sheep correspondent-->
+		<Craft ID="1121"/>
+	</Npc>
+	<Npc ID="10795">
+		<!--jp new thunder kazra fox-->
+		<Craft ID="1153"/>
+		<Craft ID="1204"/>
+		<Craft ID="1205"/>
+		<Craft ID="1206"/>
+		<Craft ID="1207"/>
+		<Craft ID="1208"/>
+		<Craft ID="1209"/>
+		<Craft ID="1210"/>
+		<Craft ID="1211"/>
+		<Craft ID="1212"/>
+		<Craft ID="1213"/>
+	</Npc>
+	<Npc ID="10796">
+		<!--jp new thunder kazra human-->
+		<Craft ID="1154"/>
+		<Craft ID="1204"/>
+		<Craft ID="1205"/>
+		<Craft ID="1206"/>
+		<Craft ID="1207"/>
+		<Craft ID="1208"/>
+		<Craft ID="1209"/>
+		<Craft ID="1210"/>
+		<Craft ID="1211"/>
+		<Craft ID="1212"/>
+		<Craft ID="1213"/>
+	</Npc>
+	<Npc ID="10801">
+		<!--whiteday event-->
+		<Craft ID="1155"/>
+		<Craft ID="1156"/>
+		<Craft ID="1157"/>
+		<Craft ID="1158"/>
+		<Craft ID="1159"/>
+		<Craft ID="1160"/>
+		<Craft ID="1161"/>
+		<Craft ID="1162"/>
+	</Npc>
+	<!-- tw Hidden Valley Event - 2015 Mar -->
+	<Npc ID="10838">
+		<!-- tw grankain mask exchanger -->
+		<Craft ID="1165"/>
+		<Craft ID="1166"/>
+		<Craft ID="1167"/>
+	</Npc>
+	<Npc ID="10839">
+		<!-- tw str evolution artisan -->
+		<Craft ID="1168"/>
+		<Craft ID="1169"/>
+		<Craft ID="1170"/>
+		<Craft ID="1171"/>
+		<Craft ID="1172"/>
+		<Craft ID="1173"/>
+	</Npc>
+	<Npc ID="10840">
+		<!-- tw dex evolution artisan -->
+		<Craft ID="1174"/>
+		<Craft ID="1175"/>
+		<Craft ID="1176"/>
+		<Craft ID="1177"/>
+		<Craft ID="1178"/>
+		<Craft ID="1179"/>
+	</Npc>
+	<Npc ID="10841">
+		<!-- tw int evolution artisan -->
+		<Craft ID="1180"/>
+		<Craft ID="1181"/>
+		<Craft ID="1182"/>
+		<Craft ID="1183"/>
+		<Craft ID="1184"/>
+		<Craft ID="1185"/>
+	</Npc>
+	<!-- tw Hidden Valley Event - 2015 Mar end -->
+	<Npc ID="10837">
+		<!--jp 13 ev-->
+		<Craft ID="1186"/>
+		<Craft ID="1187"/>
+		<Craft ID="1188"/>
+		<Craft ID="1189"/>
+		<Craft ID="1190"/>
+		<Craft ID="1191"/>
+		<Craft ID="1192"/>
+		<Craft ID="1193"/>
+		<Craft ID="1194"/>
+	</Npc>
+	<!--Npc ID="10854"-->
+		<!--2016 turn user event -->
+		<!--Craft ID="1195"/-->
+		<!--Craft ID="1196"/-->
+		<!--Craft ID="1197"/-->
+		<!--Craft ID="1198"/-->
+		<!--Craft ID="1199"/-->
+		<!--Craft ID="1200"/-->
+		<!--Craft ID="1201"/-->
+		<!--Craft ID="2070"/-->
+		<!--Craft ID="2083"/-->
+		<!--Craft ID="2084"/-->
+		<!--Craft ID="2085"/-->
+		<!--Craft ID="2086"/-->
+		<!--Craft ID="2071"/-->
+		<!--Craft ID="2072"/-->
+		<!--Craft ID="2073"/-->
+		<!--Craft ID="2074"/-->
+		<!--Craft ID="2087"/-->
+		<!--Craft ID="2088"/-->
+		<!--Craft ID="2089"/-->
+		<!--Craft ID="2090"/-->
+		<!--Craft ID="2075"/-->
+		<!--Craft ID="2076"/-->
+		<!--Craft ID="2077"/-->
+		<!--Craft ID="2078"/-->
+		<!--Craft ID="2091"/-->
+		<!--Craft ID="2092"/-->
+		<!--Craft ID="2093"/-->
+		<!--Craft ID="2094"/-->
+		<!--Craft ID="2079"/-->
+		<!--Craft ID="2080"/-->
+		<!--Craft ID="2081"/-->
+		<!--Craft ID="2082"/-->
+	<!--/Npc-->
+	<Npc ID="10863">
+		<!--fire blacksmith7-->
+		<Craft ID="1225"/>
+		<Craft ID="1226"/>
+	</Npc>
+	<!-- tw Blue sheep Evolution magic Event - 2015 Mar -->
+	<Npc ID="10864">
+		<!-- tw evolution sheep man -->
+		<Craft ID="1245"/>
+		<Craft ID="1750"/>
+		<Craft ID="1751"/>
+		<Craft ID="1752"/>
+		<Craft ID="1753"/>
+		<Craft ID="1754"/>
+		<Craft ID="1755"/>
+		<Craft ID="1756"/>
+		<Craft ID="1757"/>
+		<Craft ID="1758"/>
+		<Craft ID="1759"/>
+		<Craft ID="1760"/>
+		<Craft ID="1761"/>
+		<Craft ID="1762"/>
+	</Npc>
+	<!-- tw Blue sheep Evolution magic Event - 2015 Mar end -->
+	<Npc ID="10868">
+		<!-- tw fantasy artisan -->
+		<Craft ID="1246"/>
+		<Craft ID="1247"/>
+		<Craft ID="1248"/>
+		<Craft ID="1249"/>
+		<Craft ID="1250"/>
+		<Craft ID="1251"/>
+		<Craft ID="1252"/>
+		<Craft ID="1253"/>
+		<Craft ID="1254"/>
+		<Craft ID="1255"/>
+		<Craft ID="1256"/>
+		<Craft ID="1257"/>
+		<Craft ID="1258"/>
+	</Npc>
+	<Npc ID="10906">
+		<!--jp golden rwd-->
+		<Craft ID="1353"/>
+		<Craft ID="1354"/>
+		<Craft ID="1355"/>
+		<Craft ID="1356"/>
+	</Npc>
+	<Npc ID="10908">
+		<!--twf god soldier merchant-->
+		<Craft ID="1492"/>
+		<Craft ID="1476"/>
+		<Craft ID="1477"/>
+		<Craft ID="1478"/>
+		<Craft ID="1479"/>
+		<Craft ID="1480"/>
+	</Npc>
+	<Npc ID="10909">
+		<!--tw disciplines rune Event Month -->
+		<Craft ID="1481"/>
+		<Craft ID="1482"/>
+		<Craft ID="1483"/>
+		<Craft ID="1484"/>
+		<Craft ID="1485"/>
+		<Craft ID="1486"/>
+		<Craft ID="1487"/>
+		<Craft ID="1488"/>
+		<Craft ID="1489"/>
+		<Craft ID="1490"/>
+		<Craft ID="1491"/>
+	</Npc>
+	<!--tw ancient king glove (201506011) start-->
+	<Npc ID="11161">
+		<Craft ID="1533"/>
+		<Craft ID="1534"/>
+		<Craft ID="1535"/>
+		<Craft ID="1536"/>
+	</Npc>
+	<Npc ID="11162">
+		<Craft ID="1533"/>
+		<Craft ID="1534"/>
+		<Craft ID="1535"/>
+		<Craft ID="1537"/>
+		<Craft ID="1538"/>
+		<Craft ID="1536"/>
+	</Npc>
+	<!--tw ancient king glove (201506011) end-->
+	<!-- tw oman tower mystic weapon - 2015 June -->
+	<Npc ID="11206">
+		<Craft ID="1551"/>
+		<Craft ID="1552"/>
+		<Craft ID="1553"/>
+		<Craft ID="1554"/>
+		<Craft ID="1555"/>
+		<Craft ID="1556"/>
+		<Craft ID="1557"/>
+		<Craft ID="1558"/>
+		<Craft ID="1559"/>
+		<Craft ID="1560"/>
+		<Craft ID="1561"/>
+		<Craft ID="1562"/>
+		<Craft ID="1563"/>
+		<Craft ID="1564"/>
+		<Craft ID="1565"/>
+		<Craft ID="1566"/>
+		<Craft ID="1567"/>
+		<Craft ID="1568"/>
+		<Craft ID="1569"/>
+		<Craft ID="1570"/>
+		<Craft ID="1571"/>
+		<Craft ID="1572"/>
+	</Npc>
+	<!-- tw oman tower mystic weapon - 2015 June end -->
+	<!-- tw MJ event - 2015 July start -->
+	<Npc ID="11287">
+		<Craft ID="1602"/>
+		<Craft ID="1603"/>
+		<Craft ID="1604"/>
+		<Craft ID="1605"/>
+	</Npc>
+	<Npc ID="11288">
+		<Craft ID="1606"/>
+		<Craft ID="1607"/>
+		<Craft ID="1608"/>
+		<Craft ID="1609"/>
+		<Craft ID="1676"/>
+		<Craft ID="1677"/>
+		<Craft ID="1610"/>
+		<Craft ID="1611"/>
+		<Craft ID="1612"/>
+		<Craft ID="1675"/>
+	</Npc>
+	<Npc ID="11289">
+		<Craft ID="1613"/>
+		<Craft ID="1614"/>
+		<Craft ID="1615"/>
+		<Craft ID="1616"/>
+		<Craft ID="1617"/>
+		<Craft ID="1618"/>
+		<Craft ID="1619"/>
+		<Craft ID="1620"/>
+		<Craft ID="1621"/>
+		<Craft ID="1622"/>
+		<Craft ID="1623"/>
+		<Craft ID="1624"/>
+		<Craft ID="1625"/>
+		<Craft ID="1626"/>
+		<Craft ID="1627"/>
+		<Craft ID="1628"/>
+	</Npc>
+	<!-- tw MJ event - 2015 July end -->
+	<!--15 0805 anold -->
+	<Npc ID="11321">
+		<Craft ID="1629"/>
+		<Craft ID="1630"/>
+		<Craft ID="1631"/>
+		<Craft ID="1632"/>
+		<Craft ID="1633"/>
+		<Craft ID="1634"/>
+		<Craft ID="1635"/>
+		<Craft ID="1636"/>
+		<Craft ID="1637"/>
+		<Craft ID="1638"/>
+		<Craft ID="1639"/>
+		<Craft ID="1640"/>
+		<Craft ID="1641"/>
+		<Craft ID="1642"/>
+		<Craft ID="1643"/>
+		<Craft ID="1644"/>
+		<Craft ID="1645"/>
+		<Craft ID="1646"/>
+	</Npc>
+	<Npc ID="11322">
+		<Craft ID="1647"/>
+		<Craft ID="1648"/>
+		<Craft ID="1649"/>
+		<Craft ID="1650"/>
+		<Craft ID="1651"/>
+		<Craft ID="1652"/>
+		<Craft ID="1653"/>
+		<Craft ID="1654"/>
+		<Craft ID="1655"/>
+	</Npc>
+	<!--15 0805 anold -->
+	<!--tw ev collector (20150806) start-->
+	<Npc ID="12554">
+		<Craft ID="1678"/>
+		<Craft ID="1679"/>
+		<Craft ID="1680"/>
+		<Craft ID="1681"/>
+		<Craft ID="1682"/>
+		<Craft ID="1683"/>
+		<Craft ID="1684"/>
+		<Craft ID="1685"/>
+		<Craft ID="1686"/>
+		<Craft ID="1687"/>
+	</Npc>
+	<!--tw ev collector (20150806) end-->
+	<Npc ID="13002">
+		<Craft ID="1688"/>
+		<Craft ID="1689"/>
+		<Craft ID="1690"/>
+	</Npc>
+	<Npc ID="13008">
+		<!--fire blacksmith f2p-->
+		<Craft ID="1711"/>
+		<Craft ID="1712"/>
+		<Craft ID="1713"/>
+		<Craft ID="1714"/>
+		<Craft ID="1715"/>
+		<Craft ID="1716"/>
+		<Craft ID="1717"/>
+		<Craft ID="1719"/>
+		<Craft ID="1720"/>
+	</Npc>
+	<Npc ID="13009">
+		<!--fire blacksmith disciple f2p-->
+		<Craft ID="1718"/>
+		<Craft ID="872"/>
+	</Npc>
+	<!--forgotten island-->
+	<Npc ID="13011">
+		<Craft ID="1721"/>
+		<Craft ID="1722"/>
+		<Craft ID="1723"/>
+		<Craft ID="1724"/>
+		<Craft ID="1725"/>
+		<Craft ID="1726"/>
+		<Craft ID="1727"/>
+		<Craft ID="1728"/>
+	</Npc>
+	<Npc ID="9829">
+		<Craft ID="1771"/>
+		<Craft ID="1772"/>
+		<Craft ID="1773"/>
+		<Craft ID="1774"/>
+		<Craft ID="1775"/>
+		<Craft ID="1776"/>
+		<Craft ID="1777"/>
+		<Craft ID="1778"/>
+	</Npc>
+	<Npc ID="12999">
+		<!--ginion-->
+		<Craft ID="4072"/>
+		<Craft ID="4073"/>
+		<Craft ID="4004"/>
+		<Craft ID="4005"/>
+		<Craft ID="4006"/>
+		<!--DIY 영웅 패키지 적용-->
+		<Craft ID="4013"/>
+		<Craft ID="4014"/>
+		<Craft ID="4015"/>
+		<Craft ID="4016"/>
+		<Craft ID="4017"/>
+		<Craft ID="4018"/>
+		<Craft ID="4019"/>
+		<Craft ID="4020"/>
+		<Craft ID="4021"/>
+		<Craft ID="4022"/>
+		<Craft ID="4023"/>
+		<Craft ID="4024"/>
+		<Craft ID="4025"/>
+		<Craft ID="4026"/>
+		<Craft ID="4027"/>
+		<Craft ID="4028"/>
+		<Craft ID="4029"/>
+		<Craft ID="4030"/>
+		<Craft ID="4031"/>
+		<Craft ID="4032"/>
+		<Craft ID="4033"/>
+		<Craft ID="4034"/>
+		<Craft ID="4035"/>
+		<Craft ID="4036"/>
+		<Craft ID="4037"/>
+		<Craft ID="4038"/>
+		<Craft ID="4039"/>
+		<Craft ID="4040"/>
+		<Craft ID="4041"/>
+		<Craft ID="4042"/>
+		<Craft ID="4043"/>
+		<Craft ID="4044"/>
+		<Craft ID="4045"/>
+		<Craft ID="4046"/>
+		<Craft ID="4047"/>
+		<Craft ID="4048"/>
+		<Craft ID="4049"/>
+		<Craft ID="4050"/>
+		<Craft ID="4051"/>
+		<Craft ID="4052"/>
+		<Craft ID="4053"/>
+		<Craft ID="4054"/>
+		<Craft ID="4055"/>
+		<Craft ID="4056"/>
+		<Craft ID="4057"/>
+		<Craft ID="4058"/>
+		<Craft ID="4090"/>
+		<Craft ID="4097"/>
+	</Npc>
+	<Npc ID="13106">
+		<Craft ID="1763"/>
+		<Craft ID="1764"/>
+		<Craft ID="1765"/>
+		<Craft ID="1766"/>
+		<Craft ID="1767"/>
+		<Craft ID="1768"/>
+		<Craft ID="1769"/>
+		<Craft ID="1770"/>
+		<Craft ID="1771"/>
+		<Craft ID="1772"/>
+		<Craft ID="1773"/>
+		<Craft ID="1774"/>
+		<Craft ID="1775"/>
+		<Craft ID="1776"/>
+		<Craft ID="1777"/>
+		<Craft ID="1778"/>
+	</Npc>
+	<Npc ID="13126">
+		<!--tw 15moon transfer -->
+		<Craft ID="1786"/>
+		<Craft ID="1787"/>
+		<Craft ID="1788"/>
+		<Craft ID="1789"/>
+		<Craft ID="1790"/>
+		<Craft ID="1791"/>
+		<Craft ID="1792"/>
+		<Craft ID="1793"/>
+		<Craft ID="1794"/>
+		<Craft ID="1795"/>
+		<Craft ID="1796"/>
+		<Craft ID="1797"/>
+		<Craft ID="1798"/>
+		<Craft ID="1799"/>
+		<Craft ID="1800"/>
+		<Craft ID="1801"/>
+		<Craft ID="1802"/>
+		<Craft ID="1803"/>
+	</Npc>
+	<Npc ID="13127">
+		<!--sunsim-->
+		<Craft ID="1780"/>
+	</Npc>
+	<Npc ID="13132">
+		<!--mana ati-->
+		<Craft ID="1823"/>
+		<Craft ID="1824"/>
+	</Npc>
+	<Npc ID="13219">
+		<!--jp lab craft-->
+		<Craft ID="1850"/>
+		<Craft ID="1851"/>
+		<Craft ID="1852"/>
+		<Craft ID="1853"/>
+		<Craft ID="1854"/>
+		<Craft ID="1855"/>
+		<Craft ID="1856"/>
+		<Craft ID="1857"/>
+		<Craft ID="1825"/>
+		<Craft ID="1826"/>
+		<Craft ID="1827"/>
+		<Craft ID="1828"/>
+		<Craft ID="1829"/>
+		<Craft ID="1830"/>
+		<Craft ID="1831"/>
+		<Craft ID="1832"/>
+		<Craft ID="1833"/>
+		<Craft ID="1834"/>
+		<Craft ID="1835"/>
+		<Craft ID="1836"/>
+		<Craft ID="1837"/>
+		<Craft ID="1838"/>
+		<Craft ID="1839"/>
+		<Craft ID="1840"/>
+		<Craft ID="1841"/>
+		<Craft ID="1842"/>
+		<Craft ID="1858"/>
+		<Craft ID="1859"/>
+		<Craft ID="1860"/>
+	</Npc>
+	<!-- tw Taiwan Beer event - 2015 Oct start -->
+	<Npc ID="13220">
+		<Craft ID="1843" MaxSuccessCount="15"/>
+	</Npc>
+	<!-- tw Taiwan Beer event - 2015 Oct end -->
+	<!--2015 episode event npc-->
+	<Npc ID="13250">
+		<Craft ID="1862"/>
+		<Craft ID="1863"/>
+		<Craft ID="1959"/>
+	</Npc>
+	<!-- tw Goddess Destiny Boots event - 2015 Oct start-->
+	<Npc ID="13271">
+		<Craft ID="1864"/>
+		<Craft ID="1865"/>
+	</Npc>
+	<!-- tw Goddess Destiny Boots event - 2015 Oct end -->
+	<!--2015 DINOS event npc-->
+	<Npc ID="13272">
+		<Craft ID="1866"/>
+		<Craft ID="1867"/>
+		<Craft ID="1868"/>
+		<Craft ID="1869"/>
+		<Craft ID="1870"/>
+		<Craft ID="1871"/>
+		<Craft ID="1872"/>
+	</Npc>
+	<Npc ID="13164">
+		<!--ginion2-->
+		<Craft ID="1811"/>
+		<Craft ID="1812"/>
+		<Craft ID="1813"/>
+		<Craft ID="1814"/>
+		<Craft ID="1815"/>
+		<Craft ID="1816"/>
+		<Craft ID="1817"/>
+		<Craft ID="1818"/>
+		<Craft ID="1819"/>
+		<Craft ID="1820"/>
+		<Craft ID="1821"/>
+		<Craft ID="1822"/>
+	</Npc>
+	<Npc ID="13283">
+		<!--ch dragon veil-->
+		<Craft ID="1892"/>
+		<Craft ID="1893"/>
+		<Craft ID="1894"/>
+		<Craft ID="1895"/>
+		<Craft ID="1896"/>
+		<Craft ID="1897"/>
+		<Craft ID="1898"/>
+		<Craft ID="1899"/>
+		<Craft ID="1900"/>
+		<Craft ID="1901"/>
+		<Craft ID="1902"/>
+		<Craft ID="1903"/>
+		<Craft ID="1904"/>
+		<Craft ID="1905"/>
+		<Craft ID="1906"/>
+		<Craft ID="1907"/>
+		<Craft ID="1908"/>
+		<Craft ID="1909"/>
+		<Craft ID="1910"/>
+		<Craft ID="1911"/>
+		<Craft ID="1912"/>
+		<Craft ID="1913"/>
+		<Craft ID="1914"/>
+		<Craft ID="1915"/>
+		<Craft ID="1916"/>
+		<Craft ID="1917"/>
+		<Craft ID="1918"/>
+		<Craft ID="1919"/>
+		<Craft ID="1920"/>
+		<Craft ID="1921"/>
+		<Craft ID="1922"/>
+		<Craft ID="1923"/>
+		<Craft ID="1924"/>
+		<Craft ID="1925"/>
+		<Craft ID="1926"/>
+		<Craft ID="1927"/>
+		<Craft ID="1928"/>
+		<Craft ID="1929"/>
+		<Craft ID="1930"/>
+		<Craft ID="1931"/>
+		<Craft ID="1932"/>
+		<Craft ID="1933"/>
+		<Craft ID="1934"/>
+		<Craft ID="1935"/>
+		<Craft ID="1936"/>
+		<Craft ID="1937"/>
+		<Craft ID="1938"/>
+		<Craft ID="1939"/>
+		<Craft ID="1940"/>
+		<Craft ID="1941"/>
+		<Craft ID="1942"/>
+		<Craft ID="1943"/>
+		<Craft ID="1944"/>
+		<Craft ID="1945"/>
+		<Craft ID="1946"/>
+		<Craft ID="1947"/>
+		<Craft ID="1948"/>
+		<Craft ID="1949"/>
+		<Craft ID="1950"/>
+		<Craft ID="1951"/>
+	</Npc>
+	<Npc ID="10910">
+		<!--episode 3-->
+		<Craft ID="1952"/>
+		<Craft ID="1953"/>
+		<Craft ID="1954"/>
+		<Craft ID="1955"/>
+		<Craft ID="1956"/>
+		<!--Craft ID="1957"/-->
+		<!--Craft ID="1958"/-->
+	</Npc>
+	<Npc ID="13312">
+		<!--orim care-->
+		<Craft ID="1962"/>
+	</Npc>
+	<Npc ID="13329">
+		<!--tw t event-->
+		<Craft ID="1966"/>
+		<Craft ID="1967"/>
+		<Craft ID="1968"/>
+		<Craft ID="1969"/>
+		<Craft ID="1970"/>
+		<Craft ID="1971"/>
+		<Craft ID="1972"/>
+		<Craft ID="1973"/>
+		<Craft ID="1974"/>
+		<Craft ID="1975"/>
+		<Craft ID="1976"/>
+		<Craft ID="1977"/>
+		<Craft ID="1978"/>
+		<Craft ID="1979"/>
+		<Craft ID="1980"/>
+		<Craft ID="1981"/>
+		<Craft ID="1982"/>
+		<Craft ID="1983"/>
+		<Craft ID="1984"/>
+		<Craft ID="1985"/>
+		<Craft ID="1986"/>
+		<Craft ID="1987"/>
+		<Craft ID="1988"/>
+		<Craft ID="1989"/>
+		<Craft ID="1990"/>
+		<Craft ID="1991"/>
+		<Craft ID="1992"/>
+		<Craft ID="1993"/>
+		<Craft ID="1994"/>
+		<Craft ID="1995"/>
+		<Craft ID="1996"/>
+		<Craft ID="1997"/>
+		<Craft ID="1998"/>
+		<Craft ID="1999"/>
+		<Craft ID="2000"/>
+		<Craft ID="2001"/>
+		<Craft ID="2002"/>
+		<Craft ID="2003"/>
+		<Craft ID="2004"/>
+		<Craft ID="2005"/>
+		<Craft ID="2006"/>
+		<Craft ID="2007"/>
+		<Craft ID="2008"/>
+		<Craft ID="2009"/>
+		<Craft ID="2010"/>
+		<Craft ID="2011"/>
+		<Craft ID="2012"/>
+		<Craft ID="2013"/>
+		<Craft ID="2045"/>
+		<Craft ID="2046"/>
+		<Craft ID="2047"/>
+		<Craft ID="2048"/>
+		<Craft ID="2049"/>
+		<Craft ID="2050"/>
+		<Craft ID="2051"/>
+		<Craft ID="2052"/>
+		<Craft ID="2053"/>
+		<Craft ID="2054"/>
+		<Craft ID="2055"/>
+		<Craft ID="2056"/>
+	</Npc>
+	<Npc ID="13330">
+		<!--orim care-->
+		<Craft ID="2066"/>
+		<Craft ID="2067"/>
+		<Craft ID="2068"/>
+		<Craft ID="2069"/>
+		<Craft ID="2095"/>
+	</Npc>
+	<Npc ID="13352">
+		<Craft ID="39"/>
+		<Craft ID="40"/>
+		<Craft ID="36"/>  
+		<Craft ID="38"/> 
+		<Craft ID="37"/>
+		<Craft ID="35"/>
+		<Craft ID="1805"/>
+		<Craft ID="1806"/>
+		<Craft ID="1807"/>
+		<Craft ID="1808"/>
+		<Craft ID="1809"/>
+		<Craft ID="141"/>
+		<Craft ID="142"/>
+		<Craft ID="143"/>
+		<Craft ID="144"/>
+		<Craft ID="145"/>
+		<Craft ID="146"/>
+		<Craft ID="147"/>
+		<Craft ID="148"/>
+		<Craft ID="2036"/>
+		<Craft ID="3378"/>
+	</Npc>
+	<Npc ID="13353">
+		<Craft ID="156"/>
+		<Craft ID="2044"/>
+		<Craft ID="3377"/>
+	</Npc>
+	<Npc ID="13369">
+		<Craft ID="2096"/>
+		<Craft ID="2097"/>
+		<Craft ID="2098"/>
+	</Npc>
+	<!-- tw gamania 20y Event - 2015 Dec start -->
+	<Npc ID="13386">
+		<Craft ID="2108"/>
+		<Craft ID="2109"/>
+	</Npc>
+	<!-- tw gamania 20y Event - 2015 Dec end -->
+	<Npc ID="13448">
+		<Craft ID="2866"/>
+		<Craft ID="2867"/>
+		<Craft ID="2868"/>
+		<Craft ID="2869"/>
+		<Craft ID="2870"/>
+		<Craft ID="2871"/>
+		<Craft ID="2872"/>
+		<Craft ID="2873"/>
+		<Craft ID="2874"/>
+		<Craft ID="2875"/>
+		<Craft ID="3541"/>
+		<Craft ID="3542"/>
+		<Craft ID="3543"/>
+		<Craft ID="3544"/>
+		<Craft ID="3545"/>
+		<Craft ID="3546"/>
+		<Craft ID="3547"/>
+		<Craft ID="3548"/>
+		<Craft ID="3549"/>
+		<Craft ID="3550"/>
+		<Craft ID="3551"/>
+		<Craft ID="3552"/>
+		<Craft ID="3553"/>
+		<Craft ID="3554"/>
+		<Craft ID="3555"/>
+		<Craft ID="3556"/>
+		<Craft ID="3557"/>
+		<Craft ID="3558"/>
+		<Craft ID="3559"/>
+		<Craft ID="3560"/>
+		<Craft ID="3561"/>
+		<Craft ID="3562"/>
+		<Craft ID="3563"/>
+		<Craft ID="3564"/>
+		<Craft ID="3566"/>
+		<Craft ID="3567"/>
+		<Craft ID="3568"/>
+		<Craft ID="3569"/>
+		<Craft ID="3570"/>
+		<Craft ID="3571"/>
+		<Craft ID="3572"/>
+		<Craft ID="3573"/>
+		<Craft ID="3574"/>
+		<Craft ID="3575"/>
+		<Craft ID="3576"/>
+		<Craft ID="3577"/>
+		<Craft ID="3578"/>
+		<Craft ID="3579"/>
+		<Craft ID="3580"/>
+		<Craft ID="3581"/>
+		<Craft ID="3582"/>
+		<Craft ID="3583"/>
+		<Craft ID="3584"/>
+		<Craft ID="3585"/>
+		<Craft ID="3586"/>
+		<Craft ID="3587"/>
+		<Craft ID="3588"/>
+		<Craft ID="3589"/>
+		<Craft ID="3590"/>
+		<Craft ID="3591"/>
+		<Craft ID="3592"/>
+		<Craft ID="3593"/>
+		<Craft ID="3594"/>
+		<Craft ID="3595"/>
+		<Craft ID="3596"/>
+		<Craft ID="3597"/>
+		<Craft ID="4369"/>
+		<Craft ID="4370"/>
+		<Craft ID="4371"/>
+		<Craft ID="4372"/>
+		<Craft ID="4373"/>
+		<Craft ID="4374"/>
+		<Craft ID="4375"/>
+		<Craft ID="4376"/>
+		<Craft ID="4377"/>
+		<Craft ID="4378"/>
+		<Craft ID="4379"/>
+		<Craft ID="4380"/>
+		<Craft ID="4381"/>
+		<Craft ID="4382"/>
+		<Craft ID="4383"/>
+		<Craft ID="4384"/>
+		<Craft ID="4385"/>
+		<Craft ID="4386"/>
+		<Craft ID="4387"/>
+		<Craft ID="4388"/>
+		<Craft ID="4389"/>
+		<Craft ID="4390"/>
+		<Craft ID="4391"/>
+		<Craft ID="4392"/>
+		<Craft ID="4393"/>
+		<Craft ID="4394"/>
+		<Craft ID="4395"/>
+		<Craft ID="4396"/>
+		<Craft ID="4397"/>
+		<Craft ID="4398"/>
+		<Craft ID="4399"/>
+		<Craft ID="4400"/>
+		<Craft ID="4401"/>
+		<Craft ID="4402"/>
+		<Craft ID="4403"/>
+		<Craft ID="4404"/>
+		<Craft ID="4405"/>
+		<Craft ID="4406"/>
+		<Craft ID="4407"/>
+		<Craft ID="4819"/>
+		<Craft ID="4820"/>
+		<Craft ID="4821"/>
+	</Npc>
+
+	<Npc ID="13654">
+		<!--tw zin hawsin1-->
+		<Craft ID="2201"/>
+		<Craft ID="2202"/>
+		<Craft ID="2203"/>
+		<Craft ID="2204"/>
+		<Craft ID="2205"/>
+		<Craft ID="2206"/>
+		<Craft ID="2207"/>
+		<Craft ID="2208"/>
+		<Craft ID="2209"/>
+		<Craft ID="2210"/>
+		<Craft ID="2211"/>
+	</Npc>
+	<Npc ID="13682">
+		<Craft ID="2222"/>
+	</Npc>
+	<Npc ID="13619">
+		<Craft ID="2271"/>
+	</Npc>
+	<Npc ID="13727">
+		<!-- tw red knights support Event - 2016 Apr -->
+		<!-- f2p -->
+		<Craft ID="2369"/>
+		<Craft ID="2370"/>
+		<Craft ID="2371"/>
+		<Craft ID="2372"/>
+		<Craft ID="2373"/>
+		<Craft ID="2374"/>
+		<Craft ID="2375"/>
+		<Craft ID="2376"/>
+		<Craft ID="2377"/>
+		<Craft ID="2378"/>
+		<Craft ID="2379"/>
+		<Craft ID="2380"/>
+		<Craft ID="2381"/>
+		<Craft ID="2382"/>
+		<Craft ID="2383"/>
+		<Craft ID="2384"/>
+		<Craft ID="2385"/>
+		<Craft ID="2386"/>
+	</Npc>
+	<Npc ID="13728">
+		<Craft ID="2388"/>
+		<Craft ID="2389"/>
+		<Craft ID="2390"/>
+	</Npc>
+	<Npc ID="13734">
+		<Craft ID="2856"/>
+		<Craft ID="2397"/>
+		<Craft ID="2398"/>
+		<Craft ID="2747"/>
+		<Craft ID="3385"/>
+		<Craft ID="3386"/>
+		<Craft ID="3387"/>
+		<!-- <Craft ID="2514"/> 드래곤의 최고급 보물 상자-->
+	</Npc>
+	<Npc ID="13733">
+		<Craft ID="2399"/>
+		<Craft ID="2400"/>
+		<Craft ID="2401"/>
+		<Craft ID="2402"/>
+		<Craft ID="2403"/>
+		<Craft ID="2404"/>
+		<Craft ID="2513"/>
+		<Craft ID="2405"/>
+		<Craft ID="2406"/>
+		<Craft ID="2407"/>
+	</Npc>
+	<Npc ID="13735">
+		<Craft ID="2408"/>
+		<Craft ID="2409"/>
+		<Craft ID="2410"/>
+		<Craft ID="2411"/>
+		<Craft ID="2412"/>
+		<Craft ID="2413"/>
+		<Craft ID="2414"/>
+		<Craft ID="2415"/>
+		<Craft ID="2416"/>
+		<Craft ID="2417"/>
+		<Craft ID="2418"/>
+		<Craft ID="2419"/>
+		<Craft ID="2420"/>
+		<Craft ID="2421"/>
+		<Craft ID="2422"/>
+		<Craft ID="2423"/>
+		<Craft ID="2424"/>
+		<Craft ID="2425"/>
+		<Craft ID="2426"/>
+		<Craft ID="2427"/>
+		<Craft ID="2428"/>
+		<Craft ID="2429"/>
+		<Craft ID="2430"/>
+		<Craft ID="2431"/>
+		<Craft ID="2432"/>
+		<Craft ID="2433"/>
+		<Craft ID="2434"/>
+		<Craft ID="2435"/>
+	</Npc>
+	<Npc ID="13736">
+		<Craft ID="2436"/>
+		<Craft ID="2437"/>
+		<Craft ID="2438"/>
+		<Craft ID="2439"/>
+		<Craft ID="2440"/>
+		<Craft ID="2441"/>
+		<Craft ID="2442"/>
+		<Craft ID="2443"/>
+		<Craft ID="2444"/>
+		<Craft ID="2445"/>
+		<Craft ID="2446"/>
+		<Craft ID="2447"/>
+		<Craft ID="2448"/>
+		<Craft ID="2449"/>
+		<Craft ID="2450"/>
+		<Craft ID="2451"/>
+		<Craft ID="2452"/>
+		<Craft ID="2453"/>
+		<Craft ID="2454"/>
+		<Craft ID="2455"/>
+		<Craft ID="2456"/>
+		<Craft ID="2457"/>
+		<Craft ID="2458"/>
+		<Craft ID="2459"/>
+		<Craft ID="2460"/>
+		<Craft ID="2461"/>
+		<Craft ID="2462"/>
+		<Craft ID="2463"/>
+		<Craft ID="2464"/>
+		<Craft ID="2465"/>
+	</Npc>
+
+	<Npc ID="13764">
+		<Craft ID="2526"/>
+	</Npc>
+
+<!-- tw 170823 promotion -->
+	<Npc ID="13766">
+		<Craft ID="4153"/>
+		<Craft ID="4154"/>
+		<Craft ID="4155"/>
+		<Craft ID="4156"/>
+		<Craft ID="4157"/>
+		<Craft ID="4158"/>
+		<Craft ID="4159"/>
+		<Craft ID="4160"/>
+		<Craft ID="4161"/>
+		<Craft ID="4162"/>
+		<Craft ID="4163"/>
+		<Craft ID="4164"/>
+		<Craft ID="4165"/>
+		<Craft ID="4166"/>
+		<Craft ID="4167"/>
+		<Craft ID="4168"/>
+		<Craft ID="4169"/>
+		<Craft ID="4170"/>
+		<Craft ID="4171"/>
+		<Craft ID="4172"/>
+		<Craft ID="4173"/>
+		<Craft ID="4174"/>
+		<Craft ID="4175"/>
+		<Craft ID="4176"/>
+		<Craft ID="4177"/>
+		<Craft ID="4178"/>
+		<Craft ID="4179"/>
+		<Craft ID="4180"/>
+		<Craft ID="4181"/>
+		<Craft ID="4182"/>
+		<Craft ID="4183"/>
+		<Craft ID="4184"/>
+		<Craft ID="4185"/>
+		<Craft ID="4186"/>
+		<Craft ID="4187"/>
+		<Craft ID="4188"/>
+		<Craft ID="4189"/>
+		<Craft ID="4190"/>
+		<Craft ID="4191"/>
+		<Craft ID="4192"/>
+		<Craft ID="4193"/>
+		<Craft ID="4194"/>
+		<Craft ID="4195"/>
+		<Craft ID="4196"/>
+		<Craft ID="4197"/>
+		<Craft ID="4198"/>
+		<Craft ID="4199"/>
+		<Craft ID="4200"/>
+		<Craft ID="4201"/>
+		<Craft ID="4202"/>
+		<Craft ID="4203"/>
+		<Craft ID="4204"/>
+		<Craft ID="4205"/>
+		<Craft ID="4206"/>
+		<Craft ID="4207"/>
+		<Craft ID="4208"/>
+		<Craft ID="4209"/>
+		<Craft ID="4210"/>
+		<Craft ID="4211"/>
+		<Craft ID="4212"/>
+		<Craft ID="4213"/>
+		<Craft ID="4214"/>
+		<Craft ID="4215"/>
+		<Craft ID="4216"/>
+		<Craft ID="4217"/>
+		<Craft ID="4218"/>
+		<Craft ID="4219"/>
+		<Craft ID="4220"/>
+		<Craft ID="4221"/>
+		<Craft ID="4222"/>
+		<Craft ID="4223"/>
+		<Craft ID="4224"/>
+		<Craft ID="4225"/>
+		<Craft ID="4226"/>
+		<Craft ID="4227"/>
+		<Craft ID="4228"/>
+		<Craft ID="4229"/>
+		<Craft ID="4230"/>
+		<Craft ID="4231"/>
+		<Craft ID="4232"/>
+		<Craft ID="4233"/>
+		<Craft ID="4234"/>
+		<Craft ID="4235"/>
+		<Craft ID="4236"/>
+		<Craft ID="4237"/>
+		<Craft ID="4238"/>
+		<Craft ID="4239"/>
+		<Craft ID="4240"/>
+		<Craft ID="4241"/>
+		<Craft ID="4242"/>
+		<Craft ID="4243"/>
+		<Craft ID="4244"/>
+		<Craft ID="4245"/>
+	</Npc>
+
+	<Npc ID="13642">
+		<Craft ID="2559"/>
+		<Craft ID="2560"/>
+	</Npc>
+	
+	<Npc ID="13803">
+		<!-- tw M17 event -->
+		<Craft ID="2570"/>
+	</Npc>
+
+	<Npc ID="13812">
+		<!-- time1 lon Box -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+
+	<Npc ID="13815">
+		<Craft ID="2656"/>
+	</Npc>
+	
+	<Npc ID="13816">
+		<!-- tw M17 return event -->
+		<Craft ID="2657"/>
+		<Craft ID="2658"/>
+		<Craft ID="2659"/>
+		<Craft ID="2660"/>
+		<Craft ID="2661"/>
+		<Craft ID="2662"/>
+		<Craft ID="2663"/>
+		<Craft ID="2664"/>
+		<Craft ID="2665"/>
+		<Craft ID="2666"/>
+		<Craft ID="2667"/>
+		<Craft ID="2668"/>
+		<Craft ID="2669"/>
+		<Craft ID="2670"/>
+		<Craft ID="2671"/>
+		<Craft ID="2672"/>
+		<Craft ID="2673"/>
+		<Craft ID="2674"/>
+		<Craft ID="2675"/>
+		<Craft ID="2676"/>
+		<Craft ID="2677"/>
+		<Craft ID="2678"/>
+		<Craft ID="2679"/>
+		<Craft ID="2680"/>
+		<Craft ID="2681"/>
+		<Craft ID="2682"/>
+		<Craft ID="2683"/>
+		<Craft ID="2684"/>
+		<Craft ID="2685"/>
+	</Npc>
+	
+		<Npc ID="13818">
+		<!--  alchemist Box1 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+	
+		<Npc ID="13819">
+		<!--  alchemist Box2 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+	
+		<Npc ID="13820">
+		<!--  alchemist Box3 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+	
+		<Npc ID="13821">
+		<!--  alchemist Box4 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+	
+		<Npc ID="13822">
+		<!--  alchemist Box5 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+	
+		<Npc ID="13823">
+		<!--  alchemist Box6 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+	
+		<Npc ID="13824">
+		<!--  alchemist Box7 -->
+		<Craft ID="2652" MaxSuccessCount="30"/>
+		<Craft ID="2653" MaxSuccessCount="30"/>
+	</Npc>
+  <Npc ID="13825"><!-- tw M17 Episode localization skill merchant add - 2016 Jul -->
+    <Craft ID="2686"/>
+    <Craft ID="2687"/>
+    <Craft ID="2688"/>
+  </Npc>
+	<Npc ID="13828">
+		<!-- 160810 tw dark dragon event -->
+		<Craft ID="2717"/>
+		<Craft ID="2718"/>
+		<Craft ID="2719"/>
+		<Craft ID="2720"/>
+		<Craft ID="2721"/>
+		<Craft ID="2722"/>
+		<Craft ID="2723"/>
+		<Craft ID="2724"/>
+		<Craft ID="2725"/>
+	</Npc>
+	<Npc ID="13644">
+		<!-- 160810 summer event -->
+		<Craft ID="2726"/>
+		<Craft ID="2727"/>
+		<Craft ID="2728"/>
+		<Craft ID="2729"/>
+		<Craft ID="2730"/>
+	</Npc>
+	<Npc ID="13830">
+		<!--  160810 tw dragon guarder event -->
+		<Craft ID="2740"/>
+		<Craft ID="2741"/>
+		<Craft ID="2742"/>
+		<Craft ID="2743"/>
+		<Craft ID="2744"/>
+		<Craft ID="2745"/>
+		<Craft ID="2746"/>
+	</Npc>
+	<Npc ID="13831">
+		<Craft ID="2748"/>
+		<Craft ID="2749"/>
+		<Craft ID="2750"/>
+		<Craft ID="2751"/>
+		<Craft ID="2752"/>
+		<Craft ID="2753"/>
+		<Craft ID="2754"/>
+		<Craft ID="2755"/>
+		<Craft ID="2756"/>
+		<Craft ID="2757"/>
+		<Craft ID="2758"/>				
+	</Npc>
+	<Npc ID="13832">
+		<!--160817 tw zin hawsin Weapon event-->
+		<Craft ID="2793"/>
+		<Craft ID="2794"/>
+		<Craft ID="2795"/>
+		<Craft ID="2796"/>
+		<Craft ID="2797"/>
+		<Craft ID="2798"/>
+		<Craft ID="2799"/>
+		<Craft ID="2800"/>
+		<Craft ID="2801"/>
+		<Craft ID="2802"/>
+		<Craft ID="2803"/>
+		<Craft ID="2804"/>
+		<Craft ID="2805"/>
+		<Craft ID="2806"/>
+		<Craft ID="2807"/>
+		<Craft ID="2808"/>
+		<Craft ID="2809"/>
+		<Craft ID="2810"/>
+		<Craft ID="2811"/>
+		<Craft ID="2812"/>
+		<Craft ID="2813"/>
+		<Craft ID="2814"/>
+		<Craft ID="2815"/>
+		<Craft ID="2816"/>
+		<Craft ID="2817"/>
+		<Craft ID="2818"/>
+		<Craft ID="2819"/>
+		<Craft ID="2820"/>
+		<Craft ID="2821"/>
+		<Craft ID="2822"/>
+		<Craft ID="2823"/>
+		<Craft ID="2824"/>
+		<Craft ID="2825"/>
+		<Craft ID="2826"/>
+		<Craft ID="2827"/>
+		<Craft ID="2828"/>
+		<Craft ID="2829"/>
+		<Craft ID="2830"/>
+		<Craft ID="2831"/>
+		<Craft ID="2832"/>
+		<Craft ID="2833"/>
+		<Craft ID="2834"/>		
+	</Npc>
+  <Npc ID="13834">
+    <Craft ID="2835"/>
+  </Npc>
+  	<Npc ID="13849">
+		<!--160907 tw prayer of artemis login event-->
+		<Craft ID="2836"/>
+		<Craft ID="2837"/>
+		<Craft ID="2838"/>
+		<Craft ID="2839"/>
+		<Craft ID="2840"/>
+	</Npc>
+	<Npc ID="13855">
+  	<!--170216 tw mj trip of kamiro-->
+		<Craft ID="2931"/>
+		<Craft ID="2932"/>
+		<Craft ID="2933"/>
+		<Craft ID="2934"/>
+		<Craft ID="2937"/>
+		<Craft ID="2938"/>
+		<Craft ID="2939"/>
+		<Craft ID="2940"/>
+		<Craft ID="2941"/>
+		<Craft ID="2942"/>
+		<Craft ID="2943"/>
+		<Craft ID="2944"/>
+		<Craft ID="2945"/>		
+		<Craft ID="2946"/>
+		<Craft ID="3238"/>
+		<Craft ID="3239"/>
+		<Craft ID="3240"/>
+		<Craft ID="3241"/>
+		<Craft ID="3242"/>
+		<Craft ID="3243"/>
+		<Craft ID="3244"/>
+		<Craft ID="3245"/>
+		<Craft ID="3246"/>
+		<Craft ID="3247"/>
+		<Craft ID="3248"/>
+		<Craft ID="3265"/>
+		<Craft ID="3267"/>
+		<Craft ID="3268"/>
+		<Craft ID="3269"/>
+		<Craft ID="3270"/>
+		<Craft ID="3446"/>
+		<Craft ID="3447"/>
+		<Craft ID="3448"/>
+		<Craft ID="3449"/>
+		<Craft ID="3450"/>
+		<Craft ID="3451"/>
+		<Craft ID="3452"/>
+		<Craft ID="3453"/>
+		<Craft ID="3454"/>
+	</Npc>
+	
+	<Npc ID="13856">
+    	<Craft ID="2879"/>
+    	<Craft ID="2880"/>
+  	</Npc>
+	<Npc ID="13861">
+    	<Craft ID="2992"/>
+  	</Npc>
+	<Npc ID="13863">
+		<!--161005 tw lito login event-->
+		<Craft ID="2993"/>
+	</Npc>
+	<Npc ID="13864">
+		<!--161019 tw halloween event-->
+		<Craft ID="2994"/>
+		<Craft ID="2995"/>
+	</Npc>
+	
+		<Npc ID="13910">
+		<!--161019 kh halloween event-->
+		<Craft ID="4627"/>
+		<Craft ID="4628"/>
+		<Craft ID="4629"/>
+		<Craft ID="4630"/>
+		<Craft ID="4631"/>
+		<Craft ID="4632"/>
+	</Npc>
+
+	<Npc ID="13963">
+  	<!--161109 tw vip renewal-->
+		<Craft ID="3049"/>
+		<Craft ID="3050"/>
+		<Craft ID="3051"/>
+		<Craft ID="3052"/>
+		<Craft ID="3053"/>
+		<Craft ID="3054"/>
+	</Npc>
+	
+	<Npc ID="13964">
+		<Craft ID="3055"/>
+		<Craft ID="3056"/>
+		<Craft ID="3057"/>
+		<Craft ID="3058"/>
+		<Craft ID="3059"/>
+		<Craft ID="3060"/>
+		<Craft ID="3061"/>
+		<Craft ID="3062"/>
+		<Craft ID="3063"/>
+		<Craft ID="3064"/>
+		<Craft ID="3289"/>
+		<Craft ID="3290"/>
+		<Craft ID="3291"/>
+	</Npc>
+	
+	<Npc ID="13965">
+		<Craft ID="3066"/>
+		<Craft ID="3067"/>
+		<Craft ID="3068"/>
+		<Craft ID="3069"/>
+		<Craft ID="3070"/>
+		<Craft ID="3071"/>
+		<Craft ID="3072"/>
+		<Craft ID="3073"/>
+		<Craft ID="3074"/>
+		<Craft ID="3075"/>
+		<Craft ID="3424"/>
+		<Craft ID="3425"/>
+		<Craft ID="3426"/>
+		<Craft ID="3427"/>
+		<Craft ID="3428"/>
+	</Npc>
+
+	<Npc ID="13967">
+		<Craft ID="3048"/>
+	</Npc>
+	
+	<Npc ID="13968">
+  	<!--161116 tw nov promotion-->
+		<Craft ID="3109"/>
+		<Craft ID="3110"/>
+		<Craft ID="3111"/>
+		<Craft ID="3112"/>
+		<Craft ID="3113"/>
+		<Craft ID="3114"/>
+		<Craft ID="3115"/>
+		<Craft ID="3116"/>
+		<Craft ID="3117"/>
+		<Craft ID="3118"/>
+		<Craft ID="3119"/>
+		<Craft ID="3120"/>
+		<Craft ID="3121"/>
+		<Craft ID="3122"/>
+		<Craft ID="3123"/>
+		<Craft ID="3124"/>
+		<Craft ID="3125"/>
+		<Craft ID="3126"/>
+		<Craft ID="3127"/>
+		<Craft ID="3128"/>
+		<Craft ID="3129"/>
+		<Craft ID="3130"/>
+		<Craft ID="3131"/>
+		<Craft ID="3132"/>
+		<Craft ID="3133"/>
+		<Craft ID="3134"/>
+		<Craft ID="3135"/>
+		<Craft ID="3136"/>
+		<Craft ID="3137"/>
+		<Craft ID="3138"/>
+		<Craft ID="3139"/>
+		<Craft ID="3140"/>
+		<Craft ID="3141"/>
+		<Craft ID="3142"/>
+		<Craft ID="3143"/>
+		<Craft ID="3144"/>
+		<Craft ID="3145"/>
+	</Npc>
+		
+	<Npc ID="13969">
+  	<!--161116 tw nov promotion-->
+		<Craft ID="3081"/>
+		<Craft ID="3082"/>
+		<Craft ID="3083"/>
+		<Craft ID="3084"/>
+		<Craft ID="3085"/>
+		<Craft ID="3086"/>
+		<Craft ID="3087"/>
+		<Craft ID="3088"/>
+		<Craft ID="3089"/>
+		<Craft ID="3090"/>
+		<Craft ID="3091"/>
+		<Craft ID="3092"/>
+		<Craft ID="3093"/>
+		<Craft ID="3094"/>
+		<Craft ID="3095"/>
+		<Craft ID="3096"/>
+		<Craft ID="3097"/>
+		<Craft ID="3098"/>
+		<Craft ID="3099"/>
+		<Craft ID="3100"/>
+		<Craft ID="3101"/>
+		<Craft ID="3102"/>
+		<Craft ID="3103"/>
+		<Craft ID="3104"/>
+		<Craft ID="3105"/>
+		<Craft ID="3106"/>
+		<Craft ID="3107"/>
+		<Craft ID="3108"/>
+		<Craft ID="3211"/>
+		<Craft ID="3212"/>
+	</Npc>
+	<Npc ID="14044">
+		<Craft ID="3195"/>
+	</Npc>
+	
+	<Npc ID="14045">
+	<!--161221 hero weapon change npc-->
+		<Craft ID="3197"/>
+		<Craft ID="3198"/>
+		<Craft ID="3199"/>
+		<Craft ID="3200"/>
+		<Craft ID="3201"/>
+		<Craft ID="3202"/>
+		<Craft ID="3203"/>
+		<Craft ID="3204"/>
+		<Craft ID="3205"/>	
+	</Npc>
+
+	<Npc ID="14046">
+  	<!--161214 tw roulette promotion-->
+		<Craft ID="3213"/>
+		<Craft ID="3214"/>
+		<Craft ID="3215"/>
+		<Craft ID="3216"/>
+		<Craft ID="3217"/>
+		<Craft ID="3218"/>
+		<Craft ID="3219"/>
+		<Craft ID="3220"/>
+		<Craft ID="3221"/>
+		<Craft ID="3222"/>
+		<Craft ID="3223"/>
+		<Craft ID="3224"/>
+		<Craft ID="3225"/>
+		<Craft ID="3226"/>
+		<Craft ID="3227"/>
+		<Craft ID="3228"/>
+		<Craft ID="3229"/>
+		<Craft ID="3230"/>
+		<Craft ID="3231"/>
+		<Craft ID="3232"/>
+		<Craft ID="3233"/>
+		<Craft ID="3234"/>
+		<Craft ID="3235"/>
+		<Craft ID="3236"/>
+		<Craft ID="3237"/>
+		<Craft ID="3238"/>
+		<Craft ID="3239"/>
+		<Craft ID="3240"/>
+		<Craft ID="3241"/>
+		<Craft ID="3242"/>
+		<Craft ID="3243"/>
+		<Craft ID="3244"/>
+		<Craft ID="3245"/>
+		<Craft ID="3246"/>
+		<Craft ID="3247"/>
+		<Craft ID="3248"/>
+		<Craft ID="3249"/>
+		<Craft ID="3265"/>
+		<Craft ID="3266"/>
+		<Craft ID="3267"/>
+		<Craft ID="3268"/>
+		<Craft ID="3269"/>
+		<Craft ID="3270"/>
+	</Npc>
+
+	<Npc ID="13931">
+		<Craft ID="3250"/>
+		<Craft ID="3253"/>
+	</Npc>
+
+	<Npc ID="13932">
+		<Craft ID="3251"/>
+		<Craft ID="3252"/>
+	</Npc>
+
+	<Npc ID="14054">
+		<Craft ID="3258" MaxSuccessCount="2000"/>
+	</Npc>
+	
+	<Npc ID="14055">
+		<Craft ID="3259"/>
+	</Npc>
+	<Npc ID="14060">
+  	<!--161222 tw season server-->
+		<Craft ID="3271"/>
+		<Craft ID="3272"/>
+		<Craft ID="3273"/>
+		<Craft ID="3274"/>
+	</Npc>
+
+	<Npc ID="14064">
+  	<!--161224 국내 크리스마스이벤트-->
+		<Craft ID="3275"/>
+		<Craft ID="3285"/>
+		<Craft ID="3286"/>
+		<Craft ID="3287"/>
+		<Craft ID="3288"/>
+	</Npc>
+	
+	<Npc ID="14090">
+  	<!--170118 tw new year event-->
+		<Craft ID="3298"/>
+	</Npc>
+
+	<Npc ID="6749">
+  	<!--170426 지프리이벤트-->
+		<Craft ID="3299"/>
+		<Craft ID="3300"/>
+		<Craft ID="3301"/>
+		<Craft ID="3302"/>
+	</Npc>
+	
+	<Npc ID="14153">
+  	<!--170209 ch new year event-->
+		<Craft ID="3367"/>
+		<Craft ID="3368"/>
+		<Craft ID="3369"/>
+		<Craft ID="3370"/>
+		<Craft ID="3371"/>
+		<Craft ID="3372"/>
+		<Craft ID="3373"/>
+		<Craft ID="3374"/>
+		<Craft ID="3375"/>
+	</Npc>
+
+	<Npc ID="14163">
+  	<!--170215 tw siege warfare-->
+		<Craft ID="3376"/>
+	</Npc>
+
+	<Npc ID="14202">
+  	<!--170216 tw mj trip of kamiro-->
+		<Craft ID="3428"/>
+		<Craft ID="3429"/>
+		<Craft ID="3430"/>
+		<Craft ID="3431"/>
+		<Craft ID="3432"/>
+		<Craft ID="3433"/>
+		<Craft ID="3434"/>
+		<Craft ID="3435"/>
+	</Npc>
+
+	<Npc ID="14203">
+  	<!--170216 tw mj trip of kamiro-->
+		<Craft ID="3436"/>
+		<Craft ID="3437"/>
+		<Craft ID="3438"/>
+		<Craft ID="3439"/>
+		<Craft ID="3440"/>
+		<Craft ID="3441"/>
+		<Craft ID="3442"/>
+		<Craft ID="3443"/>
+		<Craft ID="3444"/>
+		<Craft ID="3445"/>
+	</Npc>
+	
+	<Npc ID="14204">
+  	<!--dragon rod-->	
+		<Craft ID="3408"/>		
+		<Craft ID="3409"/>
+	</Npc>
+		
+	<Npc ID="14236">
+  	<!--특화서버용 낚싯대 제작테이블-->	
+		<Craft ID="3502"/>		
+		<Craft ID="3503"/>
+	</Npc>
+
+ 	<Npc ID="14301">
+ 	<!--170308 tw one punch hero-->
+ 		<Craft ID="3539"/>
+ 		<Craft ID="3540"/>
+  		<Craft ID="3599"/>
+ 	</Npc>
+   	<Npc ID="14304">
+ 	<!--170315 tw redknight support-->
+ 		<Craft ID="3600"/>
+ 		<Craft ID="3601"/>
+		<Craft ID="3602"/>
+ 		<Craft ID="3603"/>
+ 		<Craft ID="3604"/>
+		<Craft ID="3605"/>
+ 		<Craft ID="3606"/>
+ 		<Craft ID="3607"/>
+		<Craft ID="3608"/>
+ 		<Craft ID="3609"/>
+ 		<Craft ID="3610"/>
+		<Craft ID="3611"/>
+ 		<Craft ID="3612"/>
+ 		<Craft ID="3613"/>
+		<Craft ID="3614"/>
+ 		<Craft ID="3615"/>
+ 		<Craft ID="3616"/>
+		<Craft ID="3617"/>
+ 		<Craft ID="3618"/>
+ 		<Craft ID="3619"/>
+		<Craft ID="3620"/>
+		<Craft ID="3621"/>
+ 	</Npc>  	
+ 	<Npc ID="14305">
+ 	<!--170315 tw redknight support-->
+ 		<Craft ID="3622"/>
+ 		<Craft ID="3623"/>
+		<Craft ID="3624"/>
+ 		<Craft ID="3625"/>
+ 		<Craft ID="3626"/>
+		<Craft ID="3627"/>
+ 		<Craft ID="3628"/>
+ 		<Craft ID="3629"/>
+		<Craft ID="3630"/>
+ 		<Craft ID="3631"/>
+ 		<Craft ID="3632"/>
+		<Craft ID="3633"/>
+ 		<Craft ID="3634"/>
+ 		<Craft ID="3635"/>
+		<Craft ID="3636"/>
+ 		<Craft ID="3637"/>
+ 		<Craft ID="3638"/>
+		<Craft ID="3639"/>
+ 		<Craft ID="3640"/>
+ 		<Craft ID="3641"/>
+		<Craft ID="3642"/>
+ 		<Craft ID="3643"/>
+ 		<Craft ID="3644"/>
+		<Craft ID="3645"/>
+		<Craft ID="3668"/>
+		<Craft ID="3669"/>
+		<Craft ID="3670"/>
+ 	</Npc> 
+ 	<Npc ID="14306">
+ 	<!--170315 tw redknight support-->
+ 		<Craft ID="3646"/>
+ 		<Craft ID="3647"/>
+		<Craft ID="3648"/>
+ 		<Craft ID="3649"/>
+ 		<Craft ID="3650"/>
+		<Craft ID="3651"/>
+ 		<Craft ID="3652"/>
+ 		<Craft ID="3653"/>
+		<Craft ID="3654"/>
+ 		<Craft ID="3655"/>
+ 		<Craft ID="3656"/>
+		<Craft ID="3657"/>
+ 		<Craft ID="3658"/>
+ 		<Craft ID="3659"/>
+		<Craft ID="3660"/>
+ 		<Craft ID="3661"/>
+ 		<Craft ID="3662"/>
+		<Craft ID="3663"/>
+ 		<Craft ID="3664"/>
+ 		<Craft ID="3665"/>
+		<Craft ID="3666"/>
+ 	</Npc> 
+ 	
+ 	<Npc ID="14307">
+	<!--170405 tw redknight support 2-->
+ 		<Craft ID="3672"/>
+ 		<Craft ID="3673"/>
+ 		<Craft ID="3674"/>
+ 		<Craft ID="3675"/>
+ 		<Craft ID="3676"/>
+ 		<Craft ID="3677"/>
+ 		<Craft ID="3678"/>
+ 		<Craft ID="3679"/>
+ 		<Craft ID="3680"/>
+ 		<Craft ID="3681"/>
+ 		<Craft ID="3682"/>
+ 		<Craft ID="3683"/>
+ 		<Craft ID="3684"/>
+ 		<Craft ID="3685"/>
+ 		<Craft ID="3686"/>
+ 		<Craft ID="3687"/>
+ 		<Craft ID="3688"/>
+ 		<Craft ID="3689"/>
+ 		<Craft ID="3690"/>
+ 		<Craft ID="3691"/>
+ 		<Craft ID="3692"/>
+ 		<Craft ID="3693"/>
+ 		<Craft ID="3694"/>
+	</Npc>  	
+	<Npc ID="7010">
+		<!--test-->
+		<Craft ID="291"/>
+		<Craft ID="292"/>
+		<Craft ID="293"/>
+		<Craft ID="294"/>
+		<Craft ID="295"/>
+		<Craft ID="296"/>
+		<Craft ID="297"/>
+		<Craft ID="298"/>
+		<Craft ID="299"/>
+		<Craft ID="300"/>
+	</Npc>
+ 	<Npc ID="14309">
+	<!--170419 tw boss raid-->
+ 		<Craft ID="3695"/>
+ 		<Craft ID="3696"/>
+ 		<Craft ID="3697"/>
+ 		<Craft ID="3698"/>
+ 		<Craft ID="3699"/>
+ 		<Craft ID="3700"/>
+ 		<Craft ID="3701"/>
+ 		<Craft ID="3702"/>
+ 		<Craft ID="3703"/>
+ 		<Craft ID="3704"/>
+ 		<Craft ID="3705"/>
+ 		<Craft ID="3706"/>
+ 		<Craft ID="3707"/>
+ 		<Craft ID="3708"/>
+ 		<Craft ID="3709"/>
+ 		<Craft ID="3710"/>
+ 		<Craft ID="3711"/>
+ 		<Craft ID="3712"/>
+	</Npc>
+
+	<Npc ID="14311">
+		<!--170510 tw newbie Support-->
+		<Craft ID="3822"/>
+		<Craft ID="3823"/>
+		<Craft ID="3824"/>
+		<Craft ID="3825"/>
+		<Craft ID="3826"/>
+		<Craft ID="3827"/>
+		<Craft ID="3828"/>
+		<Craft ID="3829"/>
+		<Craft ID="3830"/>
+		<Craft ID="3831"/>
+		<Craft ID="3832"/>
+		<Craft ID="3833"/>
+		<Craft ID="3834"/>
+	</Npc>
+
+	<Npc ID="14401">
+		<!--170621 scared thing for salvation-->
+		<Craft ID="3870"/>
+		<Craft ID="3871"/>
+	</Npc>
+
+	<Npc ID="14472">
+		<!--170614 tw newbie Support-->
+		<Craft ID="3937"/>
+		<Craft ID="3938"/>
+		<Craft ID="3939"/>
+		<Craft ID="3940"/>
+		<Craft ID="3941"/>
+		<Craft ID="3942"/>
+		<Craft ID="3943"/>
+		<Craft ID="3944"/>
+		<Craft ID="3945"/>
+		<Craft ID="3946"/>
+		<Craft ID="3947"/>
+		<Craft ID="3948"/>
+		<Craft ID="3949"/>
+		<Craft ID="3950"/>
+		<Craft ID="3951"/>
+		<Craft ID="3952"/>
+		<Craft ID="3953"/>
+		<Craft ID="3954"/>
+		<Craft ID="3955"/>
+	</Npc>
+	<Npc ID="14473">
+		<!--170614 tw newbie Support-->
+		<Craft ID="3956"/>
+		<Craft ID="3957"/>
+		<Craft ID="3958"/>
+		<Craft ID="3959"/>
+		<Craft ID="3960"/>
+		<Craft ID="3961"/>
+		<Craft ID="3962"/>
+	</Npc>
+
+	<Npc ID="14474">
+		<!--170621 tw hidden valley-->
+		<Craft ID="3965"/>
+		<Craft ID="3966"/>
+		<Craft ID="3967"/>
+		<Craft ID="3968"/>
+		<Craft ID="3969"/>
+		<Craft ID="3970"/>
+		<Craft ID="3971"/>
+		<Craft ID="3972"/>
+		<Craft ID="3973"/>
+		<Craft ID="3974"/>
+		<Craft ID="3975"/>
+		<Craft ID="3976"/>
+		<Craft ID="3977"/>
+		<Craft ID="3978"/>
+		<Craft ID="3979"/>
+		<Craft ID="3980"/>
+		<Craft ID="3981"/>
+		<Craft ID="3982"/>
+		<Craft ID="3983"/>
+		<Craft ID="3984"/>
+		<Craft ID="3985"/>
+		<Craft ID="3986"/>
+		<Craft ID="3987"/>
+		<Craft ID="3988"/>
+		<Craft ID="3989"/>
+		<Craft ID="3990"/>
+		<Craft ID="3991"/>
+		<Craft ID="3992"/>
+		<Craft ID="3993"/>
+		<Craft ID="3994"/>
+		<Craft ID="3995"/>
+	</Npc>
+	
+	<Npc ID="14460">
+		<!--170616 초보존 개편 은 무기 제작 NPC-->
+		<Craft ID="3996"/>
+		<Craft ID="4091"/>
+	</Npc>
+
+	<Npc ID="14542">
+		<!--170706 tw sealed magic energy login event 2 start (14542)-->
+		<Craft ID="4007"/>
+		<Craft ID="4008"/>
+		<Craft ID="4009"/>
+		<Craft ID="4010"/>
+		<Craft ID="4011"/>
+		<Craft ID="4012"/>
+	</Npc>
+
+	<Npc ID="14564">
+	    <!--170719 tw lineage 17th event start (14564-14565)-->
+		<Craft ID="4092"/>
+	</Npc>
+	<Npc ID="14565">
+	    <Craft ID="4093"/>
+		<Craft ID="4094"/>
+		<Craft ID="4095"/>
+		<Craft ID="4096"/>
+	</Npc>
+	<Npc ID="15040">
+		<!--군터의 인장 제작 NPC-->
+	    <Craft ID="4119"/>
+		<Craft ID="4120"/>
+		<Craft ID="4121"/>
+		<Craft ID="4122"/>
+		<Craft ID="4123"/>
+		<Craft ID="4124"/>
+		<Craft ID="4125"/>
+		<Craft ID="4126"/>
+		<Craft ID="4127"/>
+		<Craft ID="4128"/>
+		<Craft ID="4129"/>
+		<Craft ID="4130"/>
+		<Craft ID="4131"/>
+		<Craft ID="4132"/>
+		<Craft ID="4133"/>
+		<Craft ID="4134"/>
+		<Craft ID="4135"/>
+		<Craft ID="4136"/>
+		<Craft ID="4137"/>
+		<Craft ID="4138"/>
+		<Craft ID="4139"/>
+		<Craft ID="4140"/>
+		<Craft ID="4141"/>
+		<Craft ID="4626"/>
+	</Npc>
+	<Npc ID="15042">
+		<Craft ID="4142"/>
+		<Craft ID="4143"/>
+		<Craft ID="4144"/>
+		<Craft ID="4145"/>
+		<Craft ID="4146"/>
+		<Craft ID="4147"/>
+		<Craft ID="4148"/>
+		<Craft ID="4149"/>
+		<Craft ID="4150"/>
+		<Craft ID="4151"/>
+		<Craft ID="4152"/>
+	</Npc>
+
+<!-- tw 170823 promotion -->
+	<Npc ID="15043">
+		<Craft ID="4246"/>
+		<Craft ID="4247"/>
+		<Craft ID="4248"/>
+		<Craft ID="4249"/>
+		<Craft ID="4250"/>
+		<Craft ID="4251"/>
+		<Craft ID="4252"/>
+		<Craft ID="4253"/>
+		<Craft ID="4254"/>
+		<Craft ID="4255"/>
+		<Craft ID="4256"/>
+		<Craft ID="4257"/>
+		<Craft ID="4258"/>
+		<Craft ID="4259"/>
+		<Craft ID="4260"/>
+		<Craft ID="4261"/>
+		<Craft ID="4262"/>
+		<Craft ID="4263"/>
+		<Craft ID="4264"/>
+		<Craft ID="4265"/>
+		<Craft ID="4266"/>
+		<Craft ID="4267"/>
+		<Craft ID="4268"/>
+		<Craft ID="4269"/>
+		<Craft ID="4270"/>
+		<Craft ID="4271"/>
+		<Craft ID="4272"/>
+		<Craft ID="4273"/>
+		<Craft ID="4274"/>
+		<Craft ID="4275"/>
+		<Craft ID="4276"/>
+		<Craft ID="4277"/>
+		<Craft ID="4278"/>
+		<Craft ID="4279"/>
+		<Craft ID="4280"/>
+		<Craft ID="4281"/>
+		<Craft ID="4282"/>
+		<Craft ID="4283"/>
+		<Craft ID="4284"/>
+		<Craft ID="4285"/>
+		<Craft ID="4286"/>
+		<Craft ID="4287"/>
+		<Craft ID="4288"/>
+		<Craft ID="4289"/>
+		<Craft ID="4290"/>
+		<Craft ID="4291"/>
+		<Craft ID="4292"/>
+		<Craft ID="4293"/>
+		<Craft ID="4294"/>
+		<Craft ID="4295"/>
+		<Craft ID="4296"/>
+		<Craft ID="4297"/>
+		<Craft ID="4298"/>
+		<Craft ID="4299"/>
+		<Craft ID="4300"/>
+		<Craft ID="4301"/>
+		<Craft ID="4302"/>
+		<Craft ID="4303"/>
+		<Craft ID="4304"/>
+		<Craft ID="4305"/>
+		<Craft ID="4306"/>
+		<Craft ID="4307"/>
+		<Craft ID="4308"/>
+		<Craft ID="4309"/>
+		<Craft ID="4310"/>
+		<Craft ID="4311"/>
+		<Craft ID="4312"/>
+		<Craft ID="4313"/>
+		<Craft ID="4314"/>
+		<Craft ID="4315"/>
+		<Craft ID="4316"/>
+		<Craft ID="4317"/>
+		<Craft ID="4318"/>
+		<Craft ID="4319"/>
+		<Craft ID="4320"/>
+		<Craft ID="4321"/>
+		<Craft ID="4322"/>
+		<Craft ID="4323"/>
+		<Craft ID="4324"/>
+		<Craft ID="4325"/>
+		<Craft ID="4326"/>
+		<Craft ID="4327"/>
+		<Craft ID="4328"/>
+		<Craft ID="4329"/>
+		<Craft ID="4330"/>
+		<Craft ID="4331"/>
+		<Craft ID="4332"/>
+		<Craft ID="4333"/>
+		<Craft ID="4334"/>
+		<Craft ID="4335"/>
+		<Craft ID="4336"/>
+		<Craft ID="4337"/>
+		<Craft ID="4338"/>
+		<Craft ID="4339"/>
+		<Craft ID="4340"/>
+		<Craft ID="4341"/>
+		<Craft ID="4342"/>
+		<Craft ID="4343"/>
+		<Craft ID="4344"/>
+		<Craft ID="4345"/>
+		<Craft ID="4346"/>
+		<Craft ID="4347"/>
+		<Craft ID="4348"/>
+		<Craft ID="4349"/>
+		<Craft ID="4350"/>
+		<Craft ID="4351"/>
+		<Craft ID="4352"/>
+		<Craft ID="4353"/>
+	</Npc>
+<!-- 기란 제작 타운 -->
+	<Npc ID="16101">
+		<Craft ID="4078"/>
+		<Craft ID="4079"/>
+		<Craft ID="4080"/>
+		<Craft ID="4081"/>
+		<Craft ID="4082"/>
+		<Craft ID="4083"/>
+		<Craft ID="4084"/>
+		<Craft ID="4085"/>
+		<Craft ID="4086"/>
+		<Craft ID="4087"/>
+		<Craft ID="4088"/>
+		<Craft ID="4089"/>
+		<Craft ID="4107"/>
+	</Npc>
+	<Npc ID="15059">
+		<Craft ID="4409"/>
+	</Npc>
+	<Npc ID="15070">
+		<Craft ID="4412"/>
+		<Craft ID="4413"/>
+		<Craft ID="4414"/>
+		<Craft ID="4415"/>
+		<Craft ID="4416"/>
+		<Craft ID="4417"/>
+		<Craft ID="4418"/>
+		<Craft ID="4419"/>
+		<Craft ID="4420"/>
+	</Npc>
+	<Npc ID="13241">
+		<Craft ID="4421"/>
+		<Craft ID="4422"/>
+		<Craft ID="4423"/>
+		<Craft ID="4424"/>
+		<Craft ID="4425"/>
+		<Craft ID="4426"/>
+		<Craft ID="4427"/>
+		<Craft ID="4428"/>
+	</Npc>
+	<Npc ID="15071">
+		<Craft ID="4540"/>
+		<Craft ID="4541"/>
+		<Craft ID="4542"/>
+		<Craft ID="4543"/>
+		<Craft ID="4544"/>
+		<Craft ID="4545"/>
+		<Craft ID="4546"/>
+		<Craft ID="4547"/>
+		<Craft ID="4548"/>
+		<Craft ID="4549"/>
+		<Craft ID="4550"/>
+		<Craft ID="4551"/>
+		<Craft ID="4552"/>
+		<Craft ID="4553"/>
+	</Npc>
+	<Npc ID="15094">
+		<Craft ID="4588"/>
+	</Npc>
+	<Npc ID="15115">
+		<Craft ID="4606"/>
+		<Craft ID="4607"/>
+		<Craft ID="4608"/>
+		<Craft ID="4609"/>
+		<Craft ID="4610"/>
+		<Craft ID="4611"/>
+		<Craft ID="4612"/>
+		<Craft ID="4613"/>
+		<Craft ID="4614"/>
+		<Craft ID="4615"/>
+		<Craft ID="4616"/>
+	</Npc>
+	<Npc ID="16129">
+		<Craft ID="4633"/>
+	</Npc>
+	<Npc ID="16131">
+		<Craft ID="4634"/>
+		<Craft ID="4635"/>
+		<Craft ID="4636"/>
+		<Craft ID="4637"/>
+		<Craft ID="4638"/>
+		<Craft ID="4639"/>
+		<Craft ID="4640"/>
+		<Craft ID="4641"/>
+		<Craft ID="4642"/>
+		<Craft ID="4643"/>
+		<Craft ID="4644"/>
+		<Craft ID="4645"/>
+		<Craft ID="4646"/>
+		<Craft ID="4647"/>
+		<Craft ID="4648"/>
+		<Craft ID="4649"/>
+		<Craft ID="4650"/>
+		<Craft ID="4651"/>
+		<Craft ID="4652"/>
+		<Craft ID="4653"/>
+	</Npc>
+	<Npc ID="16132">
+		<Craft ID="4654"/>
+		<Craft ID="4655"/>
+		<Craft ID="4656"/>
+		<Craft ID="4657"/>
+		<Craft ID="4658"/>
+		<Craft ID="4659"/>
+		<Craft ID="4660"/>
+		<Craft ID="4661"/>
+		<Craft ID="4662"/>
+		<Craft ID="4663"/>
+		<Craft ID="4664"/>
+		<Craft ID="4665"/>
+		<Craft ID="4666"/>
+		<Craft ID="4667"/>
+		<Craft ID="4668"/>
+		<Craft ID="4669"/>
+		<Craft ID="4670"/>
+		<Craft ID="4671"/>
+		<Craft ID="4672"/>
+		<Craft ID="4673"/>
+		<Craft ID="4674"/>
+		<Craft ID="4675"/>
+		<Craft ID="4676"/>
+		<Craft ID="4677"/>
+		<Craft ID="4678"/>
+		<Craft ID="4679"/>
+		<Craft ID="4680"/>
+		<Craft ID="4681"/>
+		<Craft ID="4682"/>
+		<Craft ID="4683"/>
+		<Craft ID="4684"/>
+		<Craft ID="4685"/>
+		<Craft ID="4686"/>
+		<Craft ID="4687"/>
+		<Craft ID="4688"/>
+		<Craft ID="4689"/>
+		<Craft ID="4690"/>
+		<Craft ID="4691"/>
+		<Craft ID="4692"/>
+		<Craft ID="4693"/>
+		<Craft ID="4694"/>
+		<Craft ID="4695"/>
+		<Craft ID="4696"/>
+		<Craft ID="4697"/>
+		<Craft ID="4698"/>
+		<Craft ID="4699"/>
+		<Craft ID="4700"/>
+		<Craft ID="4701"/>
+		<Craft ID="4702"/>
+		<Craft ID="4703"/>
+		<Craft ID="4704"/>
+		<Craft ID="4705"/>
+		<Craft ID="4706"/>
+		<Craft ID="4707"/>
+		<Craft ID="4708"/>
+		<Craft ID="4709"/>
+		<Craft ID="4710"/>
+		<Craft ID="4711"/>
+		<Craft ID="4712"/>
+		<Craft ID="4713"/>
+		<Craft ID="4714"/>
+		<Craft ID="4715"/>
+		<Craft ID="4716"/>
+		<Craft ID="4717"/>
+		<Craft ID="4718"/>
+		<Craft ID="4719"/>
+		<Craft ID="4720"/>
+		<Craft ID="4721"/>
+		<Craft ID="4722"/>
+		<Craft ID="4723"/>
+		<Craft ID="4724"/>
+		<Craft ID="4725"/>
+		<Craft ID="4726"/>
+		<Craft ID="4727"/>
+		<Craft ID="4728"/>
+		<Craft ID="4729"/>
+		<Craft ID="4730"/>
+		<Craft ID="4731"/>
+		<Craft ID="4732"/>
+		<Craft ID="4733"/>
+	</Npc>
+	<Npc ID="16140">
+		<Craft ID="4734"/>
+	</Npc>
+	<Npc ID="16519">
+		<Craft ID="4778"/>
+		<Craft ID="4779"/>
+		<Craft ID="4780"/>
+		<Craft ID="4781"/>
+		<Craft ID="4782"/>
+		<Craft ID="4783"/>
+		<Craft ID="4784"/>
+		<Craft ID="4785"/>
+		<Craft ID="4786"/>
+		<Craft ID="4787"/>
+		<Craft ID="4788"/>
+		<Craft ID="4789"/>
+		<Craft ID="4790"/>
+		<Craft ID="4791"/>
+		<Craft ID="4792"/>
+		<Craft ID="4793"/>
+		<Craft ID="4794"/>
+		<Craft ID="4795"/>
+		<Craft ID="4796"/>
+		<Craft ID="4797"/>
+		<Craft ID="4798"/>
+		<Craft ID="4799"/>
+	</Npc>
+	<Npc ID="16520">
+		<Craft ID="4800"/>
+		<Craft ID="4801"/>
+		<Craft ID="4802"/>
+		<Craft ID="4803"/>
+		<Craft ID="4804"/>
+		<Craft ID="4805"/>
+		<Craft ID="4806"/>
+		<Craft ID="4807"/>
+		<Craft ID="4808"/>
+		<Craft ID="4809"/>
+		<Craft ID="4810"/>
+		<Craft ID="4811"/>
+		<Craft ID="4812"/>
+		<Craft ID="4813"/>
+		<Craft ID="4814"/>
+		<Craft ID="4815"/>
+	</Npc>
+	<Npc ID="16529">
+		<Craft ID="4851"/>
+		<Craft ID="4852"/>
+		<Craft ID="4853"/>
+		<Craft ID="4854"/>
+		<Craft ID="4855"/>
+		<Craft ID="4856"/>
+		<Craft ID="4857"/>
+		<Craft ID="4858"/>
+		<Craft ID="4859"/>
+		<Craft ID="4860"/>
+		<Craft ID="4861"/>
+		<Craft ID="4862"/>
+		<Craft ID="4863"/>
+		<Craft ID="4864"/>
+		<Craft ID="4865"/>
+		<Craft ID="4866"/>
+		<Craft ID="4867"/>
+		<Craft ID="4868"/>
+		<Craft ID="4869"/>
+		<Craft ID="4870"/>
+		<Craft ID="4871"/>
+		<Craft ID="4872"/>
+		<Craft ID="4873"/>
+		<Craft ID="4874"/>
+		<Craft ID="4875"/>
+		<Craft ID="4876"/>
+		<Craft ID="4877"/>
+		<Craft ID="4878"/>
+		<Craft ID="4879"/>
+		<Craft ID="4880"/>
+		<Craft ID="4881"/>
+		<Craft ID="4882"/>
+	</Npc>
+</NpcCraftList>

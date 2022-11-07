@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+武器のように装備できる、高貴なウィザードの水晶玉ですわ。<br/><br/>
+これになさいます？<br/><br/>
+<a action="j">漆黒の水晶球をもらう</a><br/><br/>
+<a link="kamyla18">他のを見てみる</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

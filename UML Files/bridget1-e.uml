@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p><br/>
+		 なぜ人間は自分に関係しないことに関して関心を持たないのでしょうか…<br/><br/><br/>
+		 彼はいつも別のものを見ていました。 
+		 長年彼を見守ってきた私の視線には気にも留めないまま…<br/>
+		 誰かを愛するということは、本当に胸が苦しくなります…<br/><br/><br/><br/>
+		 彼のためなら何でもしてあげるのに…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

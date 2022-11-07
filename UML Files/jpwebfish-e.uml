@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>新しい釣りはどうだい？</p>
+		<p>海釣りは時化ると大変だからな。</p>
+		<p>船酔いにはならなかったか？</p>
+		<p>そうだ、釣りの証は持ってきたか？</p>
+		<p><a action="a">* 釣りの証を渡す</a></p>
+	</dialog>
+
+</npcdialog>

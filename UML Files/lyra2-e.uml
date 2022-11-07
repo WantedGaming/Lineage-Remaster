@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>ライラ</name>
+	<job>[フォノス征伐隊]</job>
+  </npc>
+  <dialog>
+    <p>初耳ですか？</p> 		
+    <p>山や森に火を放って全部焼いたあとに、その灰を肥料にして作物を植える農法です。</p> 	
+    <p>グルーディオ領地は本来川の下流に位置した豊かな穀倉地帯だから、こんな原始的な農法なんて必要なかったんですけど…</p> 	
+    <p>近頃の<a link="lyra4">戦争</a>で農土が全部焼き払われてしまって、仕方なく<a link="lyra5">この森</a>に移り住まざるを得なくなってしまったんです。</p>  
+  </dialog>
+</npcdialog>

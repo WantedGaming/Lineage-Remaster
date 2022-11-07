@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 忠実な僕よ！バルログ様はお前の嘆願を哀れに思い、謁見をお許しになられた。<br/>
+		 これからはお前の霊魂はバルログ様を通じて永遠なる安息を手に入れるだろう！<br/>
+		<br/>
+		<a action="d">バルログ様に会わせてください</a>
+		<br/>
+		<br/>
+		</p>
+		<p align="center"><img src="1499"/></p>
+		<br/>
+	
+	</dialog>
+</npcdialog>

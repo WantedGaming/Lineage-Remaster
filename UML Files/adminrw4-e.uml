@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Training Manager：</font><br/><br/></p>
+	<p>If you don't know the appropriate hunting ground for training, you can ask <font fg="ffafff">Teleporter Doria</font> in "Hidden Canyon" or <font fg="ffafff">Teleporter Met</font> in "Silver Knight Town" from around level 15.</p>
+   <p>He should be able to guide you to the hunting grounds for your level.<br/></p>
+   <p>Don't neglect your training, even in the hunting grounds!</p>
+  </dialog>
+</npcdialog>

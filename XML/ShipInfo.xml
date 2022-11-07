@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipInfo>
+	<ShipInfoList>
+		<Ship id="0" targetShipId="1" dockWorld="4" shipWorld="83" destWorld="70" ticket="653" levelLimit="85">
+			<Dock startX="33427" startY="33506" endX="33435" endY="33507"/>
+			<ShipLoc x="32735" y="32797"/>
+			<DestLoc x="32936" y="33047"/>
+			<Schedule schedule_day="1000001" schedule_time="9, 10, 11, 12, 13, 14, 15, 16, 17" schedule_duration="20" ship_operating_duration="10"/>
+			<ClientInfo>
+				<Port positionX="33420" positionY="33515" />
+				<Approach sprite="20697" moveX="-1" moveY="0" />
+				<Depart sprite="20697" moveX="-1" moveY="0" />
+			</ClientInfo>
+		</Ship>
+		<Ship id="1" targetShipId="0" dockWorld="70" shipWorld="84" destWorld="4" ticket="665" levelLimit="85">
+			<Dock startX="32935" startY="33057" endX="32936" endY="33057"/>
+			<ShipLoc x="32732" y="32799"/>
+			<DestLoc x="33431" y="33500"/>
+			<Schedule schedule_day="1000001" schedule_time="10, 11, 12, 13, 14, 15, 16, 17" schedule_duration="20" ship_operating_duration="10"/>
+			<ClientInfo>
+				<Port positionX="32922" positionY="33072" />
+				<Approach sprite="20697" moveX="-1" moveY="0" />
+				<Depart sprite="20697" moveX="-1" moveY="0" />
+			</ClientInfo>
+		</Ship>
+	</ShipInfoList>
+</ShipInfo>

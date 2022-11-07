@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Karif</name>
+		<job>[アイテム製作師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>おお……、本当か？</p>
+		<p>お前のような出来た奴も珍しいもんだ。</p>
+		<p>ではお返しに、大したものはないが、俺が集めてきたガラクタでも分けてやろう。</p>
+		<p> </p>
+		<p><a action="request karif bag1">ダイアモンドをあげる</a></p>
+		<p><a action="request karif bag2">エメラルドをあげる</a></p>
+		<p><a action="request karif bag4">サファイアをあげる</a></p>
+		<p><a action="request karif bag3">ルビーをあげる</a></p>
+		<p></p>
+		<p><a action="request karif bag5">高級ダイアモンドをあげる</a></p>
+		<p><a action="request karif bag6">高級エメラルドをあげる</a></p>
+		<p><a action="request karif bag8">高級サファイアをあげる</a></p>
+		<p><a action="request karif bag7">高級ルビーをあげる</a></p>
+		<p></p>
+		<p><a action="request karif bag9">最高級ダイアモンドをあげる</a></p>
+		<p><a action="request karif bag10">最高級エメラルドをあげる</a></p>
+		<p><a action="request karif bag12">最高級サファイアをあげる</a></p>
+		<p><a action="request karif bag11">最高級ルビーをあげる</a></p>
+		<p></p>
+		<img src="331" link="karif9a"></img>
+	</dialog>
+
+</npcdialog>

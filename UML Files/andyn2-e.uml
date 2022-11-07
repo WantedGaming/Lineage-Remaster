@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">アンディン：</font><br/><br/></p>
+    <p>いくら食うに困ったとしても、あんたのような人に売るもんは無いね。</p>
+  </dialog>
+</npcdialog>

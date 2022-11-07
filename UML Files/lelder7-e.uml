@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+    <p>戻ったか。</p>
+	<p>お前のおかげで、ちょっと前に戦士が無事戻ってきた。</p>
+    <p>その戦士…いや、お前のおかげだな。</p> 
+	<p>お前のおかげで、すべての元凶が明らかになった。</p> 
+	<p>やはり予想どおりだった…。</p>
+    <p><a link="lelder8">一体何のことなのか説明してください</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<WareHistoryUI Toggle="true">
+	<Window Name="WarehouseHistoryUI" X="0" Y="0" BaseSurf = "1969;1" Moveable = "30" MouseEvent = "Dummy" KeyboardEvent = "Keyboard" >
+		<MultiLabel Name="TextArea" X="24" Y="45" Width="180" Height="240" HAlign="left" VAlign="top"/>
+		<Button Name="Close" X="215" Y="9" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent="CloseBtn"/>
+		<ScrollBar Name="Scrollbar" X="217" Y="38" Width="17" Height="247" Vertical="1" ScrollStart="14" ScrollHeight="223" MouseEvent="Scroll">
+			<Image Name="Background_Image" X="0" Y="14" Surf="1970;1" />
+			<Button Name="Up_Button" X="0" Y="0" MouseEvent="Dummy" BaseSurf="2042;1" HighlightSurf="2042;1" PushSurf="2043;1"/>
+			<Button Name="Move_Button" X="0" Y="14" MouseEvent="Dummy" BaseSurf="2044;1" HighlightSurf="2044;1" PushSurf="2045;1"/>
+			<Button Name="Down_Button" X="0" Y="237" MouseEvent="Dummy" BaseSurf="2040;1" HighlightSurf="2040;1" PushSurf="2041;1"/>
+		</ScrollBar>
+		<Image Name = "FrameImage" X = "0" Y = "0" Surf = "1969;1"/>
+		<Image Name = "BaseImage" X = "6" Y = "9" Surf = "1968;1"/>
+	</Window>
+</WareHistoryUI>

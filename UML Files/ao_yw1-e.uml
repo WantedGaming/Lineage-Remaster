@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+    <p>天気も暑くなってきてますね。日傘をしてても全然暑いです！</p>
+    <p>こんな日にオーレン村まで行かないといけないなんて、最悪ですよね？</p>
+    <p>途中でオークとかに襲われたら、こんな状態で走らないといけないんですよ！…<br/><br/><br/></p>
+    <p><a action="start">私が案内してあげますよ</a></p>
+  </dialog>
+</npcdialog>

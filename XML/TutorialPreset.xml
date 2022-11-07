@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tutorialpreset>
+	<preset id="0">
+		<status userid = "77" maxhp="100" maxmp="100" hp="90" mp="100" level="90" exp="0"/>
+		<inventory>
+			<item objid="10" nameid="16576" equip="true" count="1"/>
+			<item objid="9" nameid="15" equip="false" count="100"/>
+		</inventory>
+		<equip>
+			<item objid="10" position="weapon"/>
+		</equip>
+		<spells>
+			<spell id="58"/>
+		</spells>
+	</preset>
+</tutorialpreset>

@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+
+<MagicSystemConfigulation>
+
+  <UI>
+
+    <ImgList count="51">
+      <!-- surf image list -->
+      <IMG index = "0" name = "BASE" surfNum = "3322" pos = "5,7"/>
+      <IMG index = "1" name = "FRAME" surfNum = "3323" pos = "0,0"/>
+      <IMG index = "2" name = "EXIT" surfNum = "3324~3325" pos = "313,13"/>
+      <IMG index = "3" name = "TAB0" surfNum = "3326~3328" pos = "12,379"/>
+      <IMG index = "4" name = "TAB1" surfNum = "3329~3331" pos = "63,379"/>
+      <IMG index = "5" name = "TAB2" surfNum = "3332~3334" pos = "114,379"/>
+      <IMG index = "6" name = "TAB3" surfNum = "3335~3337" pos = "165,379"/>
+      <IMG index = "7" name = "TAB4" surfNum = "3338~3340" pos = "216,379"/>
+      <IMG index = "8" name = "TAB5" surfNum = "3341~3343" pos = "267,379"/>
+      <IMG index = "9" name = "SCROLL_BASE" surfNum = "3344" pos = "305,110"/>
+      <IMG index = "10" name = "SCROLL_KNOB" surfNum = "3345~3346" pos = "305,110"/>
+      <IMG index = "11" name = "SCROLL_UP" surfNum = "3347~3348" pos = "305,96"/>
+      <IMG index = "12" name = "SCROLL_DOWN" surfNum = "3349~3350" pos = "305,307"/>
+      <IMG index = "13" name = "ICON_SELLECT" surfNum = "0" pos = "0,0"/>
+      <IMG index = "14" name = "PRINCE_BASE0" surfNum = "3351" pos = "5,7"/>
+      <IMG index = "15" name = "PRINCE_FRAME0" surfNum = "3352" pos = "0,0"/>
+      <IMG index = "16" name = "PRINCE_BASE1" surfNum = "3353" pos = "5,7"/>
+      <IMG index = "17" name = "PRINCE_FRAME1" surfNum = "3354" pos = "0,0"/>
+      <IMG index = "18" name = "KNIGHT_BASE0" surfNum = "3355" pos = "5,7"/>
+      <IMG index = "19" name = "KNIGHT_FRAME0" surfNum = "3356" pos = "0,0"/>
+      <IMG index = "20" name = "ELF_BASE0" surfNum = "3357" pos = "5,7"/>
+      <IMG index = "21" name = "ELF_FRAME0" surfNum = "3358" pos = "0,0"/>
+      <IMG index = "22" name = "ELF_BASE1" surfNum = "3359" pos = "5,7"/>
+      <IMG index = "23" name = "ELF_FRAME1" surfNum = "3360" pos = "0,0"/>
+      <IMG index = "24" name = "ELF_BASE2" surfNum = "3361" pos = "5,7"/>
+      <IMG index = "25" name = "ELF_FRAME2" surfNum = "3362" pos = "0,0"/>
+      <IMG index = "26" name = "ELF_BASE3" surfNum = "3363" pos = "5,7"/>
+      <IMG index = "27" name = "ELF_FRAME3" surfNum = "3364" pos = "0,0"/>
+      <IMG index = "28" name = "ELF_BASE4" surfNum = "3365" pos = "5,7"/>
+      <IMG index = "29" name = "ELF_FRAME4" surfNum = "3366" pos = "0,0"/>
+      <IMG index = "30" name = "MAGICIAN_BASE0" surfNum = "3367" pos = "5,7"/>
+      <IMG index = "31" name = "MAGICIAN_FRAME0" surfNum = "3368" pos = "0,0"/>
+      <IMG index = "32" name = "MAGICIAN_BASE1" surfNum = "3369" pos = "5,7"/>
+      <IMG index = "33" name = "MAGICIAN_FRAME1" surfNum = "3370" pos = "0,0"/>
+      <IMG index = "34" name = "MAGICIAN_BASE2" surfNum = "3371" pos = "5,7"/>
+      <IMG index = "35" name = "MAGICIAN_FRAME2" surfNum = "3372" pos = "0,0"/>
+      <IMG index = "36" name = "DARK_ELF_BASE0" surfNum = "3373" pos = "5,7"/>
+      <IMG index = "37" name = "DARK_ELF_FRAME0" surfNum = "3374" pos = "0,0"/>
+      <IMG index = "38" name = "DRAGON_KNIGHT_BASE0" surfNum = "3375" pos = "5,7"/>
+      <IMG index = "39" name = "DRAGON_KNIGHT_FRAME0" surfNum = "3376" pos = "0,0"/>
+      <IMG index = "40" name = "DRAGON_KNIGHT_BASE1" surfNum = "3377" pos = "5,7"/>
+      <IMG index = "41" name = "DRAGON_KNIGHT_FRAME1" surfNum = "3378" pos = "0,0"/>
+      <IMG index = "42" name = "ILLUSIONIST_BASE0" surfNum = "3379" pos = "5,7"/>
+      <IMG index = "43" name = "ILLUSIONIST_FRAME0" surfNum = "3380" pos = "0,0"/>
+      <IMG index = "44" name = "ILLUSIONIST_BASE1" surfNum = "3381" pos = "5,7"/>
+      <IMG index = "45" name = "ILLUSIONIST_FRAME1" surfNum = "3382" pos = "0,0"/>
+      <IMG index = "46" name = "GREEN_EDGE" surfNum = "3383" pos = "-4,-4"/>
+      <IMG index = "47" name = "YELLOW_EDGE" surfNum = "3384" pos = "0,0"/>
+      <IMG index = "48" name = "VIOLET_EDGE" surfNum = "3385" pos = "0,0"/>
+      <IMG index = "49" name = "PASSIVE_EDGE" surfNum = "3386" pos = "-1,-1"/>
+      <IMG index = "50" name = "ENCHANT_MARK" surfNum = "3424~3428" pos = "23,20"/>
+    </ImgList>
+
+      <!-- position list -->
+    <PosList count="10">
+      <POS index = "0" name = "TREE_BOX_START" pos = "31,51"/>
+      <POS index = "1" name = "TREE_BOX_END" pos = "301,324"/>
+      <POS index = "2" name = "SP" pos = "69,364"/>
+      <POS index = "3" name = "MR" pos = "174,364"/>
+      <POS index = "4" name = "SEP" pos = "258,364"/>
+      <POS index = "5" name = "TREE_ICON_INTERVAL" pos = "39,39"/>
+      <POS index = "6" name = "LIST_BOX_START" pos = "29,52"/>
+      <POS index = "7" name = "LIST_BOX_END" pos = "301,324"/>
+      <POS index = "8" name = "TITLE_BAR_END" pos = "327,25"/>
+      <POS index = "9" name = "LIST_ICON_INTERVAL" pos = "34,39"/>
+    </PosList>
+
+  </UI>
+
+
+	<SpellConfiguration maxEnchant="+1">
+
+    <!-- type = "heal",
+                "time",
+                "target",
+                "range",
+                "pledge",
+                "other",
+                "dead",
+                "item",
+                "location",
+                "teleport",
+                "passive"
+                "execption",
+    -->
+
+    <!-- targetType = "all",
+                      "enemy",
+                      "not dead",
+                      "alive",
+                      "dead",
+    -->
+
+
+    <!-- equip =  "none",
+                  "two hand sword",
+                  "bow",
+                  "shield"
+    -->
+
+
+		<SpellList classId="0" name="prince" sheetCount="2" spellCount = "56" sepPerLevel="1 per 3" tooltipDesc="$11717,$11701,$11702">
+    	<Spell index="0" name="holy of leo a" id="2304" icon="888,-1" desc="$10830" hpCost="5,5,5,5,5,5" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="2,4" connectedIndex="8,17" type="itemTarget" autoSelf="TRUE" targetItem="weapon" delay="100" passive="8"/>
+    	<Spell index="1" name="sharp of leo a" id="2314" icon="885,-1" desc="$10831" hpCost="5,5,5,5,5,5" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="2,2" connectedIndex="9,17,16" type="itemTarget" autoSelf="TRUE" targetItem="weapon" delay="100" passive="9"/>
+    	<Spell index="2" name="heal of swan a" id="2324" icon="395,-1" desc="$10832" mpCost="14,14,18,18,22,22" sheet="0" sheetLoc="4,1" connectedIndex="11,10,25" type="nonTarget" delay="100" passive="10"/>
+    	<Spell index="3" name="eyes of leo" id="2334" icon="384,-1" desc="$10833" hpCost="5,5,5,5,5,5" mpCost="2,2,4,4,6,6" sheet="0" sheetLoc="1,6" type="nonTarget" delay="100"/>
+    	<Spell index="4" name="mane of leo" id="2344" icon="875,-1" desc="$10834" hpCost="5,5,5,5,5,5" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="4,3" connectedIndex="24,25" type="nonTarget" delay="100"/>
+    	<Spell index="5" name="attack target a" id="2354" icon="4412,4413" desc="$10835" hpCost="2,2,4,4,6,6" sheet="1" sheetLoc="2,6" type="execption" delay="100" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="6" name="empty" id="-1"/>
+    	<Spell index="7" name="empty" id="-1"/>
+    	<Spell index="8" name="holy of leo p" id="2384" icon="888,-1" desc="$10836" mpCost="2,2,3,3,4,4" sheet="0" sheetLoc="1,4" connectedIndex="0" type="passive" delay="0"/>
+    	<Spell index="9" name="sharp of leo p" id="2394" icon="885,-1" desc="$10837" mpCost="2,2,3,3,4,4" sheet="0" sheetLoc="1,2" connectedIndex="1" type="passive" delay="0"/>
+    	<Spell index="10" name="heal of swan p" id="2404" icon="395,-1" desc="$10838" mpCost="-2,-3,-3,-4,-4,-5" sheet="0" sheetLoc="4,0" connectedIndex="2" type="passive" delay="0"/>
+    	<Spell index="11" name="cure of swan" id="2414" icon="388,338" desc="$10839" hpCost="5,5,5,5,5,5" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="3,1" connectedIndex="2.16" type="friendlyTarget" autoSelf="TRUE" delay="500" range="4,4,6,6,8,8"/>
+    	<Spell index="12" name="down of swan" id="2424" icon="755,-1" desc="$10840" hpCost="15,15,15,15,15,15" mpCost="6,6,8,8,10,10" sheet="0" sheetLoc="3,6" type="nonTarget" delay="100"/>
+    	<Spell index="13" name="eyes of swan" id="2434" icon="392,-1" desc="$10841" hpCost="10,10,10,10,10,10" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="2,6" type="nonTarget" delay="500"/>
+    	<Spell index="14" name="empty" id="-1"/>
+    	<Spell index="15" name="empty" id="-1"/>
+    	<Spell index="16" name="mind of swan a" id="2464" icon="4438,-1" desc="$10842" mpCost="10,10,20,20,30,30" sheet="0" sheetLoc="2,1" connectedIndex="1,11,40" type="nonTarget" delay="100" passive="40"/>
+    	<Spell index="17" name="step of leo" id="2474" icon="410,-1" desc="$10843" hpCost="10,10,10,10,10,10" mpCost="16,16,18,18,20,20" sheet="0" sheetLoc="2,3" connectedIndex="0,1" type="nonTarget" delay="100"/>
+    	<Spell index="18" name="brave avatar a" id="2484" icon="4415,4416" desc="$10844" hpCost="10,10,10,10,10,10" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="1,1" connectedIndex="21,34,41" type="locationTarget" delay="2000" range="4,6,6,8,8,10" passive="34,41"/>
+    	<Spell index="19" name="shine avatar a" id="2494" icon="4456,4457" desc="$10845" hpCost="10,10,10,10,10,10" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="5,3" connectedIndex="20,35,42" type="locationTarget" delay="2000" range="4,6,6,8,8,10" passive="35,42"/>
+    	<Spell index="20" name="quick avatar a" id="2504" icon="4447,4448" desc="$10846" hpCost="10,10,10,10,10,10" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="4,3" connectedIndex="19,36,43" type="locationTarget" delay="2000" range="4,6,6,8,8,10" passive="36,43"/>
+    	<Spell index="21" name="glow avatar a" id="2514" icon="4423,4424" desc="$10847" hpCost="10,10,10,10,10,10" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="2,1" connectedIndex="18,37,44" type="locationTarget" delay="2000" range="4,6,6,8,8,10" passive="37,44"/>
+    	<Spell index="22" name="empty" id="-1"/>
+    	<Spell index="23" name="empty" id="-1"/>
+    	<Spell index="24" name="howl of leo a" id="2544" icon="4429,-1" desc="$10848" hpCost="10,10,10,10,10,10" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="4,4" connectedIndex="4,48" type="nonTarget" delay="2000" passive="48"/>
+    	<Spell index="25" name="howl of swan a" id="2554" icon="4432,-1" desc="$10849" hpCost="10,10,10,10,10,10" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="4,2" connectedIndex="2,4,49" type="nonTarget" delay="2000" passive="49"/>
+    	<Spell index="26" name="force avatar a" id="2564" icon="4421,4422" desc="$10850" hpCost="15,15,15,15,15,15" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="1,3" connectedIndex="28,34,50" type="locationTarget" delay="2000" range="6,8,8,10,10,12" passive="34,50"/>
+    	<Spell index="27" name="radiant avatar a" id="2574" icon="4450,4451" desc="$10851" hpCost="15,15,15,15,15,15" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="5,1" connectedIndex="29,35,51" type="locationTarget" delay="2000" range="6,8,8,10,10,12" passive="35,51"/>
+    	<Spell index="28" name="swift avatar a" id="2584" icon="4459,4460" desc="$10852" hpCost="15,15,15,15,15,15" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="2,3" connectedIndex="26,36,52" type="locationTarget" delay="2000" range="6,8,8,10,10,12" passive="36,52"/>
+    	<Spell index="29" name="prism avatar a" id="2594" icon="4441,4442" desc="$10853" hpCost="15,15,15,15,15,15" mpCost="14,14,18,18,22,22" sheet="1" sheetLoc="4,1" connectedIndex="27,37,53" type="locationTarget" delay="2000" range="6,8,8,10,10,12" passive="37,53"/>
+    	<Spell index="30" name="empty" id="-1"/>
+    	<Spell index="31" name="empty" id="-1"/>
+    	<Spell index="32" name="strength of king" id="2624" icon="409,-1" desc="$10854" hpCost="10,10,10,10,10,10" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="5,6" type="nonTarget" delay="100"/>
+    	<Spell index="33" name="tears of swan" id="2634" icon="878,-1" desc="$10855" hpCost="20,20,40,40,60,60" sheet="0" sheetLoc="4,6" type="nonTarget" delay="1500"/>
+    	<Spell index="34" name="mighty avatar" id="2644" icon="4622,-1" desc="$10856" sheet="1" sheetLoc="1,2" connectedIndex="18,26" type="passive" delay="0"/>
+    	<Spell index="35" name="protect avatar" id="2654" icon="4444,4445" desc="$10857" sheet="1" sheetLoc="5,2" connectedIndex="19,27" type="passive" delay="0"/>
+    	<Spell index="36" name="agility avatar" id="2664" icon="4606,-1" desc="$10858" sheet="1" sheetLoc="3,3" connectedIndex="20,28" type="passive" delay="0"/>
+    	<Spell index="37" name="resist avatar" id="2674" icon="4629,-1" desc="$10859" sheet="1" sheetLoc="3,1" connectedIndex="21,29" type="passive" delay="0"/>
+    	<Spell index="38" name="empty" id="-1"/>
+    	<Spell index="39" name="empty" id="-1"/>
+    	<Spell index="40" name="mind of swan p" id="2704" icon="4438,-1" desc="$10860" mpCost="10,10,20,20,30,30" sheet="0" sheetLoc="2,0" connectedIndex="16" type="passive" delay="0"/>
+    	<Spell index="41" name="brave avatar p" id="2714" icon="4610,-1" desc="$10861" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="0,1" connectedIndex="18" type="passive" delay="0"/>
+    	<Spell index="42" name="shine avatar p" id="2724" icon="4630,-1" desc="$10862" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="6,3" connectedIndex="19" type="passive" delay="0"/>
+    	<Spell index="43" name="quick avatar p" id="2734" icon="4627,-1" desc="$10863" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="4,4" connectedIndex="20" type="passive" delay="0"/>
+    	<Spell index="44" name="glow avatar p" id="2744" icon="4616,-1" desc="$10864" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="2,0" connectedIndex="21" type="passive" delay="0"/>
+    	<Spell index="45" name="defense target a" id="2754" icon="4418,4419" desc="$10865" hpCost="2,2,4,4,6,6" sheet="1" sheetLoc="4,6" type="execption" delay="100" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="46" name="empty" id="-1"/>
+    	<Spell index="47" name="empty" id="-1"/>
+    	<Spell index="48" name="howl of leo p" id="2784" icon="4429,-1" desc="$10866" mpCost="2,2,4,4,6,6" sheet="0" sheetLoc="5,4" connectedIndex="24" type="passive" delay="0"/>
+    	<Spell index="49" name="howl of swan p" id="2794" icon="4432,-1" desc="$10867" mpCost="2,2,4,4,6,6" sheet="0" sheetLoc="5,2" connectedIndex="25" type="passive" delay="0"/>
+    	<Spell index="50" name="force avatar p" id="2804" icon="4615,-1" desc="$10868" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="0,3" connectedIndex="26" type="passive" delay="0"/>
+    	<Spell index="51" name="radiant avatar p" id="2814" icon="4628,-1" desc="$10869" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="6,1" connectedIndex="27" type="passive" delay="0"/>
+    	<Spell index="52" name="swift avatar p" id="2824" icon="4631,-1" desc="$10870" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="2,4" connectedIndex="28" type="passive" delay="0"/>
+    	<Spell index="53" name="prism avatar p" id="2834" icon="4625,-1" desc="$10871" mpCost="-2,-3,-4,-6,-7,-8" sheet="1" sheetLoc="4,0" connectedIndex="29" type="passive" delay="0"/>
+    	<Spell index="54" name="help target a" id="2844" icon="4426,4427" desc="$10872" hpCost="2,2,4,4,6,6" sheet="1" sheetLoc="3,6" type="execption" delay="100" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="55" name="empty" id="-1"/>
+		</SpellList>
+
+		<SpellList classId = "1" name="knight" sheetCount = "1" spellCount = "48" sepPerLevel="1 per 5" tooltipDesc="$11717,$11703">
+		  <Spell index="0" name="body shield a" id="2944" icon="3079,-1" desc="$10873" hpCost="10,10,10,10,10,10" mpCost="3,3,4,4,5,5" sheet="0" sheetLoc="2,5" connectedIndex="1,8,24" type="nonTarget" delay="100"/>
+    	<Spell index="1" name="physical shield a" id="2954" icon="4480,-1" desc="$10874" hpCost="15,15,15,15,15,15" mpCost="4,4,5,5,6,6" sheet="0" sheetLoc="2,4" connectedIndex="0,17,25" type="itemTarget" autoSelf="TRUE" targetItem="shield" delay="100" equip="shield"/>
+    	<Spell index="2" name="blessed potion p" id="2964" icon="4462,4463" desc="$10875" sheet="0" sheetLoc="4,2" connectedIndex="10,27,33" type="passive"/>
+    	<Spell index="3" name="empty" id="-1"/>
+    	<Spell index="4" name="empty" id="-1"/>
+    	<Spell index="5" name="empty" id="-1"/>
+    	<Spell index="6" name="empty" id="-1"/>
+    	<Spell index="7" name="empty" id="-1"/>
+    	<Spell index="8" name="bravery energy a" id="3024" icon="423,-1" desc="$10876" hpCost="10,10,15,15,20,20" mpCost="1,1,1,1,1,1" sheet="0" sheetLoc="3,5" connectedIndex="0,16" type="nonTarget" delay="1000"/>
+    	<Spell index="9" name="magic shield a" id="3034" icon="4477,-1" desc="$10877" hpCost="15,15,15,15,15,15" mpCost="4,4,5,5,6,6" sheet="0" sheetLoc="2,2" connectedIndex="17,26,32" type="itemTarget" autoSelf="TRUE" targetItem="shield" delay="100" equip="shield"/>
+    	<Spell index="10" name="heavy slash a" id="3044" icon="4474,-1" desc="$10878" hpCost="15,15,15,15,15,15" mpCost="5,5,6,6,7,7" sheet="0" sheetLoc="4,1" connectedIndex="2,18,41" type="nonTarget" delay="100"/>
+    	<Spell index="11" name="empty" id="-1"/>
+    	<Spell index="12" name="empty" id="-1"/>
+    	<Spell index="13" name="empty" id="-1"/>
+    	<Spell index="14" name="empty" id="-1"/>
+    	<Spell index="15" name="empty" id="-1"/>
+    	<Spell index="16" name="grace of warrior a" id="3104" icon="4471,-1" desc="$10879" hpCost="50,50,50,50,50,50" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="4,5" connectedIndex="8,35,40" type="nonTarget" delay="3000"/>
+    	<Spell index="17" name="shield grab a" id="3114" icon="4486,4487" desc="$10880" hpCost="30,30,30,30,30,30" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="2,3" connectedIndex="1,9" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8" equip="shield"/>
+    	<Spell index="18" name="shock stun a" id="3124" icon="1624,1625" desc="$10881" hpCost="50,50,50,50,50,50" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="3,1" connectedIndex="10,26" type="enemyTarget" delay="6000" isAttack="TRUE" direction="TRUE" range="1" equip="two hand sword"/>
+    	<Spell index="19" name="empty" id="-1"/>
+    	<Spell index="20" name="empty" id="-1"/>
+    	<Spell index="21" name="empty" id="-1"/>
+    	<Spell index="22" name="empty" id="-1"/>
+    	<Spell index="23" name="empty" id="-1"/>
+    	<Spell index="24" name="reduction armor a" id="3184" icon="1887,-1" desc="$10882" hpCost="15,15,15,15,15,15" mpCost="6,6,8,8,10,10" sheet="0" sheetLoc="2,6" connectedIndex="0" type="nonTarget" delay="1500"/>
+    	<Spell index="25" name="solid carriage a" id="3194" icon="2349,-1" desc="$10883" hpCost="50,50,50,50,50,50" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="1,4" connectedIndex="1" type="nonTarget" delay="3000" equip="shield"/>
+    	<Spell index="26" name="counter barrier a" id="3204" icon="2343,-1" desc="$10884" hpCost="50,50,50,50,50,50" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="2,1" connectedIndex="9,18,34" type="nonTarget" delay="3000" equip="two hand sword" passive="34"/>
+    	<Spell index="27" name="last ditch a" id="3214" icon="3074,-1" desc="$10885" hpCost="5,5,5,5,5,5" mpCost="20,20,24,24,28,28" catCost="1,2,1,2,1,2" sheet="0" sheetLoc="4,3" connectedIndex="2,35" type="nonTarget" delay="8000"/>
+    	<Spell index="28" name="empty" id="-1"/>
+    	<Spell index="29" name="empty" id="-1"/>
+    	<Spell index="30" name="empty" id="-1"/>
+    	<Spell index="31" name="empty" id="-1"/>
+    	<Spell index="32" name="counter wave a" id="3264" icon="4465,-1" desc="$10886" hpCost="50,50,50,50,50,50" mpCost="16,16,18,18,20,20" sheet="0" sheetLoc="1,2" connectedIndex="9" type="nonTarget" delay="2000" equip="shield"/>
+    	<Spell index="33" name="swift potion p" id="3274" icon="4489,4490" desc="$10887" sheet="0" sheetLoc="5,2" connectedIndex="2" type="passive" delay="4,5,6,9,12,15"/>
+    	<Spell index="34" name="counter barrier p" id="3284" icon="2343,-1" desc="$10888" mpCost="6,6,7,7,8,8" sheet="0" sheetLoc="2,0" connectedIndex="26" type="passive"/>
+    	<Spell index="35" name="piled potion a" id="3294" icon="4483,-1" desc="$10889" mpCost="10,10,12,12,14,14" catCost="2,3,2,3,2,3" sheet="0" sheetLoc="4,4" connectedIndex="16,27,42" type="nonTarget" delay="3000" passive="42"/>
+    	<Spell index="36" name="empty" id="-1"/>
+    	<Spell index="37" name="empty" id="-1"/>
+    	<Spell index="38" name="empty" id="-1"/>
+    	<Spell index="39" name="empty" id="-1"/>
+    	<Spell index="40" name="bounce attack a" id="3344" icon="1881,-1" desc="$10890" hpCost="30,30,30,30,30,30" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="4,6" connectedIndex="16" type="nonTarget" delay="1500"/>
+    	<Spell index="41" name="cry of warrior a" id="3354" icon="4468,-1" desc="$10891" hpCost="50,50,50,50,50,50" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="4,0" connectedIndex="10" type="nonTarget" delay="2000" equip="two hand sword"/>
+    	<Spell index="42" name="piled potion p" id="3364" icon="4483,-1" desc="$10892" mpCost="-2,-3,-3,-4,-4,-5" sheet="0" sheetLoc="5,4" connectedIndex="35" type="passive"/>
+    	<Spell index="43" name="empty" id="-1"/>
+    	<Spell index="44" name="empty" id="-1"/>
+    	<Spell index="45" name="empty" id="-1"/>
+    	<Spell index="46" name="empty" id="-1"/>
+    	<Spell index="47" name="empty" id="-1"/>
+		</SpellList>
+
+		<SpellList classId = "2" name="elf" sheetCount = "5" spellCount = "80" sepPerLevel="1 per 3" tooltipDesc="$11717,$11704,$11705,$11706,$11707,$11708">
+    	<Spell index="0" name="resist magic a" id="3504" icon="811,-1" desc="$10893" mpCost="4,4,6,6,8,8" sheet="4" sheetLoc="5,2" connectedIndex="11,12,13,14,41" type="nonTarget" delay="100"/>
+    	<Spell index="1" name="body to mind a" id="3514" icon="1745,-1" desc="$10894" hpCost="20,20,30,30,40,40" sheet="4" sheetLoc="2,2" connectedIndex="3" type="nonTarget" delay="3000" passive="9"/>
+    	<Spell index="2" name="teleport to mother a" id="3524" icon="846,847" desc="$10895" mpCost="16,16,12,12,8,8" sheet="4" sheetLoc="3,6" type="teleport" delay="600,500,400,300,200,100"/>
+    	<Spell index="3" name="elven heal a" id="3534" icon="405,355" desc="$10896" mpCost="10,10,15,15,20,20" sheet="4" sheetLoc="1,2" connectedIndex="1,9,8,14,15" type="healTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="10,10,12,12,14,14"/>
+    	<Spell index="4" name="elven teleport a" id="3544" icon="387,337" desc="$10897" mpCost="10,10,8,8,6,6" sheet="4" sheetLoc="3,0" type="teleport" delay="600,500,400,300,200,100"/>
+    	<Spell index="5" name="scale of ent a" id="3554" icon="1568,-1" desc="$10898" mpCost="12,12,14,14,16,16" sheet="4" sheetLoc="5,0" connectedIndex="13" type="nonTarget" delay="100"/>
+    	<Spell index="6" name="pet heal a" id="3564" icon="4571,-1" desc="$10899" mpCost="10,10,12,12,14,14" sheet="4" sheetLoc="0,4" connectedIndex="8" type="nonTarget" delay="100"/>
+    	<Spell index="7" name="clean curse a" id="3574" icon="407,357" desc="$10900" mpCost="15,15,20,20,25,25" sheet="4" sheetLoc="1,0" connectedIndex="15" type="friendlyTarget" autoSelf="TRUE" delay="200" direction="TRUE" range="15"/>
+    	<Spell index="8" name="return to nature a" id="3584" icon="820,821" desc="$10901" mpCost="15,15,20,20,25,25" catCost="2,2,2,2,2,2" sheet="4" sheetLoc="1,4" connectedIndex="3,6,10,14,49" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="9" name="blood to soul p" id="3594" icon="1745,-1" desc="$10902" hpCost="10,10,15,15,20,20" sheet="4" sheetLoc="0,2" connectedIndex="3" type="passive"/>
+    	<Spell index="10" name="pet haste a" id="3604" icon="4568,-1" desc="$10903" mpCost="15,15,20,20,25,25" sheet="4" sheetLoc="2,4" connectedIndex="8" type="nonTarget" delay="100"/>
+    	<Spell index="11" name="bag of elf a" id="3614" icon="755,-1" desc="$10904" mpCost="12,12,14,14,16,16" sheet="4" sheetLoc="4,2" connectedIndex="0" type="nonTarget" delay="100"/>
+    	<Spell index="12" name="eyes of eagle a" id="3624" icon="392,-1" desc="$10905" mpCost="12,12,14,14,16,16" sheet="4" sheetLoc="5,4" connectedIndex="0,56,48,32,14" type="nonTarget" delay="500"/>
+    	<Spell index="13" name="blessed glove a" id="3634" icon="4705,-1" desc="$10906" mpCost="12,12,14,14,16,16" sheet="4" sheetLoc="5,1" connectedIndex="5,0" type="itemTarget" autoSelf="TRUE" targetItem="glove" delay="100"/>
+    	<Spell index="14" name="elven weak elemental a" id="3644" icon="848,849" desc="$10907" mpCost="4,4,6,6,8,8" sheet="4" sheetLoc="3,3" connectedIndex="0,3,8,12" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="3,4,5,6,7,8"/>
+    	<Spell index="15" name="clean magic a" id="3654" icon="411,361" desc="$10908" mpCost="20,20,24,24,28,28" catCost="1,1,1,1,1,1" sheet="4" sheetLoc="1,1" connectedIndex="3,7" type="friendlyTarget" autoSelf="TRUE" delay="500" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="16" name="earth skin a" id="3664" icon="723,-1" desc="$10909" mpCost="16,16,18,18,20,20" sheet="0" sheetLoc="2,2" connectedIndex="17,24,73" type="nonTarget" delay="100" passive="24"/>
+    	<Spell index="17" name="entangle a" id="3674" icon="764,765" desc="$10910" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="1,2" connectedIndex="16,25,36" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="10" passive="25"/>
+    	<Spell index="18" name="triple poison a" id="3684" icon="1755,1880" desc="$10911" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="2,4" connectedIndex="34,58,74" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="6,8,8,10,10,12" passive="58"/>
+    	<Spell index="19" name="fire weapon a" id="3694" icon="733,-1" desc="$10912" mpCost="16,16,18,18,20,20" sheet="1" sheetLoc="2,2" connectedIndex="26,73,60" type="nonTarget" delay="100" passive="26"/>
+    	<Spell index="20" name="water life a" id="3704" icon="1756,1757" desc="$10913" mpCost="10,10,12,12,14,14" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="5,3" connectedIndex="57,35" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="15"/>
+    	<Spell index="21" name="wind shot a" id="3714" icon="769,-1" desc="$10914" mpCost="16,16,18,18,20,20" sheet="3" sheetLoc="2,2" connectedIndex="30,46,73" type="nonTarget" delay="100" passive="30"/>
+    	<Spell index="22" name="wind walk a" id="3724" icon="856,-1" desc="$10915" mpCost="14,14,16,16,18,18" sheet="3" sheetLoc="5,3" connectedIndex="57,35" type="nonTarget" delay="100"/>
+    	<Spell index="23" name="triple wings a" id="3734" icon="1755,1880" desc="$10916" mpCost="10,14,18,22,26,30" sheet="3" sheetLoc="2,4" connectedIndex="34,63,79" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="6,8,8,10,10,12" passive="63"/>
+    	<Spell index="24" name="earth skin p" id="3744" icon="723,-1" desc="$10917" mpCost="8,8,9,9,10,10" sheet="0" sheetLoc="3,2" connectedIndex="16,50" type="passive"/>
+    	<Spell index="25" name="entangle p" id="3754" icon="764,-1" desc="$10918" mpCost="9,9,10,10,11,11" sheet="0" sheetLoc="0,2" connectedIndex="17" type="passive"/>
+    	<Spell index="26" name="fire weapon p" id="3764" icon="733,-1" desc="$10919" mpCost="8,8,9,9,10,10" sheet="1" sheetLoc="3,2" connectedIndex="19,51" type="passive"/>
+    	<Spell index="27" name="burning dagger a" id="3774" icon="4559,4560" desc="$10920" mpCost="12,12,14,14,16,16" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="4,4" connectedIndex="52,67,35" type="enemyTarget" delay="4000,3000,3000,2000,2000,1000" direction="TRUE" range="1" equip="dagger" passive="67"/>
+    	<Spell index="28" name="natures touch a" id="3784" icon="799,800" desc="$10921" mpCost="18,18,20,20,22,22" sheet="2" sheetLoc="2,2" connectedIndex="38,54,73" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="15" passive="38"/>
+    	<Spell index="29" name="aqua protect a" id="3794" icon="2340,2341" desc="$10922" mpCost="14,14,16,16,18,18" sheet="2" sheetLoc="4,4" connectedIndex="77,39,35" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="8,8,10,10,12,12" passive="39"/>
+    	<Spell index="30" name="wind shot p" id="3804" icon="769,-1" desc="$10923" mpCost="8,8,9,9,10,10" sheet="3" sheetLoc="3,2" connectedIndex="21,55" type="passive"/>
+    	<Spell index="31" name="lightning arrow a" id="3814" icon="4565,4566" desc="$10924" mpCost="20,20,22,22,24,24" catCost="4,8,4,8,4,8" sheet="3" sheetLoc="4,4" connectedIndex="79,70,35" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="6,6,8,8,10,10" passive="70"/>
+    	<Spell index="32" name="erase magic a" id="3824" icon="778,-1" desc="$10925" mpCost="20,20,22,22,24,24" catCost="1,1,1,1,1,1" sheet="4" sheetLoc="5,5" connectedIndex="12,40" type="nonTarget" delay="500" passive="40"/>
+    	<Spell index="33" name="summon lesser elemental a" id="3834" icon="867,-1" desc="$10926" mpCost="18,18,20,20,22,22" catCost="2,2,2,1,1,1" sheet="4" sheetLoc="1,5" connectedIndex="8,49" type="nonTarget" delay="500"/>
+    	<Spell index="34" name="efwa fall down a" id="3844" icon="1744,1739" desc="$10927" mpCost="10,10,12,12,14,14" sheet="0,1,2,3" sheetLoc="1,4" connectedIndex="18,36,65,44,75,61,68,47,23" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="10,10,12,12,14,14" passive="65"/>
+    	<Spell index="35" name="efwa clear mind a" id="3854" icon="743,-1" desc="$10928" mpCost="16,16,18,18,20,20" catCost="1,1,1,1,1,1" sheet="0,1,2,3" sheetLoc="5,4" connectedIndex="37,42,43,27,45,20,29,22,31" type="nonTarget" delay="100" passive="42"/>
+    	<Spell index="36" name="earth bind a" id="3864" icon="891,892" desc="$10929" mpCost="30,30,32,32,34,34" catCost="2,2,2,2,2,2" sheet="0" sheetLoc="1,3" connectedIndex="34,17" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="37" name="thorn of giant ant a" id="3874" icon="4583,-1" desc="$10930" mpCost="16,16,18,18,20,20" catCost="4,8,4,8,4,8" sheet="0" sheetLoc="4,4" connectedIndex="66,35,74" type="nonTarget" delay="1500" passive="66"/>
+    	<Spell index="38" name="natures touch p" id="3884" icon="799,-1" desc="$10931" mpCost="9,9,10,10,11,11" sheet="2" sheetLoc="3,2" connectedIndex="28,53" type="passive"/>
+    	<Spell index="39" name="aqua protect p" id="3894" icon="2340,-1" desc="$10932" mpCost="7,7,8,8,9,9" sheet="2" sheetLoc="4,5" connectedIndex="29" type="passive"/>
+    	<Spell index="40" name="erase magic p" id="3904" icon="778,-1" desc="$10933" mpCost="10,10,11,11,12,12" sheet="4" sheetLoc="5,6" connectedIndex="32" type="passive"/>
+    	<Spell index="41" name="wing of fairy a" id="3914" icon="1748,-1" desc="$10934" mpCost="20,20,22,22,24,24" sheet="4" sheetLoc="6,2" connectedIndex="0" type="nonTarget" delay="100"/>
+    	<Spell index="42" name="efwa snap mind p" id="3924" icon="743,-1" desc="$10935" catCost="1,1,1,1,1,1" sheet="0,1,2,3" sheetLoc="6,4" connectedIndex="35" type="passive"/>
+    	<Spell index="43" name="exotic vitalize a" id="3934" icon="1737,-1" desc="$10936" mpCost="20,20,22,22,24,24" sheet="0" sheetLoc="5,3" connectedIndex="35,57" type="nonTarget" delay="100"/>
+    	<Spell index="44" name="elemental fire a" id="3944" icon="1734,-1" desc="$10937" mpCost="18,18,20,20,22,22" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="2,4" connectedIndex="34,59,52" type="nonTarget" delay="100" equip="dagger" passive="59"/>
+    	<Spell index="45" name="aditional fire a" id="3954" icon="2337,-1" desc="$10938" mpCost="20,20,22,22,24,24" sheet="1" sheetLoc="5,3" connectedIndex="57,35" type="nonTarget" delay="100"/>
+    	<Spell index="46" name="wind shackle a" id="3964" icon="1621,1622" desc="$10939" mpCost="20,20,22,22,24,24" catCost="1,1,1,1,1,1" sheet="3" sheetLoc="1,2" connectedIndex="21,47,62" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8" passive="62"/>
+    	<Spell index="47" name="striker gale a" id="3974" icon="2355,2356" desc="$10940" mpCost="20,20,22,22,24,24" catCost="1,1,1,1,1,1" sheet="3" sheetLoc="1,3" connectedIndex="46,34" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="6,6,8,8,10,10"/>
+    	<Spell index="48" name="barrier of silence a" id="3984" icon="720,-1" desc="$10941" mpCost="24,24,26,26,28,28" catCost="1,1,1,1,1,1" sheet="4" sheetLoc="6,4" connectedIndex="12" type="nonTarget" delay="2000" passive="56"/>
+    	<Spell index="49" name="summon greater elemental a" id="3994" icon="869,-1" desc="$10942" mpCost="18,18,20,20,22,22" catCost="4,4,4,2,2,2" sheet="4" sheetLoc="1,6" connectedIndex="33" type="nonTarget" delay="500"/>
+    	<Spell index="50" name="iron skin a" id="4004" icon="781,-1" desc="$10943" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="4,2" connectedIndex="64,57,24" type="nonTarget" delay="1000"/>
+    	<Spell index="51" name="burning weapon a" id="4014" icon="736,-1" desc="$10944" mpCost="16,16,18,18,20,20" sheet="1" sheetLoc="4,2" connectedIndex="64,57,26" type="nonTarget" delay="100" equip="dagger"/>
+    	<Spell index="52" name="soul of flame a" id="4024" icon="2352,-1" desc="$10945" mpCost="20,20,22,22,24,24" catCost="2,2,2,2,2,2" sheet="1" sheetLoc="3,4" connectedIndex="44,27" type="nonTarget" delay="2000" equip="dagger"/>
+    	<Spell index="53" name="natures blessing a" id="4034" icon="796,-1" desc="$10946" mpCost="24,24,26,26,28,28" sheet="2" sheetLoc="4,2" connectedIndex="64,57,38" type="nonTarget" delay="300"/>
+    	<Spell index="54" name="pollute water a" id="4044" icon="2346,2347" desc="$10947" mpCost="16,16,18,18,20,20" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="1,2" connectedIndex="28,61,69" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8" passive="69"/>
+    	<Spell index="55" name="storm shot a" id="4054" icon="825,-1" desc="$10948" mpCost="18,18,20,20,22,22" sheet="3" sheetLoc="4,2" connectedIndex="64,57,30" type="nonTarget" delay="100"/>
+    	<Spell index="56" name="barrier of silence p" id="4064" icon="720,-1" desc="$10949" mpCost="12,12,13,13,14,14" sheet="4" sheetLoc="4,4" connectedIndex="12" type="passive"/>
+    	<Spell index="57" name="efwa element a" id="4074" icon="802,-1" desc="$10950" mpCost="14,14,16,16,18,18" sheet="0,1,2,3" sheetLoc="5,2" connectedIndex="20,22,43,45,50,51,53,55,72" type="nonTarget" delay="100" passive="72"/>
+    	<Spell index="58" name="triple poison p" id="4084" icon="1755,-1" desc="$10951" mpCost="7,7,8,8,9,9" sheet="0" sheetLoc="2,5" connectedIndex="18" type="passive"/>
+    	<Spell index="59" name="elemental fire p" id="4094" icon="1734,-1" desc="$10952" mpCost="9,9,10,10,11,11" sheet="1" sheetLoc="2,5" connectedIndex="44" type="passive"/>
+    	<Spell index="60" name="burning body a" id="4104" icon="4556,4557" desc="$10953" mpCost="20,20,22,22,24,24" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="1,2" connectedIndex="76,75,19" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8" passive="76"/>
+    	<Spell index="61" name="pollute potion a" id="4114" icon="4574,4575" desc="$10954" mpCost="16,16,18,18,20,20" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="1,3" connectedIndex="54,34" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8" passive="69"/>
+    	<Spell index="62" name="wind shackle p" id="4124" icon="1621,-1" desc="$10955" mpCost="10,10,11,11,12,12" sheet="3" sheetLoc="0,2" connectedIndex="46" type="passive"/>
+    	<Spell index="63" name="triple wings p" id="4134" icon="1755,-1" desc="$10956" mpCost="7,7,8,8,9,9" sheet="3" sheetLoc="2,5" connectedIndex="23" type="passive"/>
+    	<Spell index="64" name="efwa blessed cloak a" id="4144" icon="4553,-1" desc="$10957" mpCost="14,14,16,16,18,18" sheet="0,1,2,3" sheetLoc="4,1" connectedIndex="50,51,53,55" type="itemTarget" autoSelf="TRUE" targetItem="cloak" delay="100"/>
+    	<Spell index="65" name="efwa fall down p" id="4154" icon="1744,-1" desc="$10958" mpCost="5,5,6,6,7,7" sheet="0,1,2,3" sheetLoc="0,4" connectedIndex="34" type="passive"/>
+    	<Spell index="66" name="thorn of giant ant p" id="4164" icon="4583,-1" desc="$10959" mpCost="8,8,9,9,10,10" sheet="0" sheetLoc="4,5" connectedIndex="37" type="passive"/>
+    	<Spell index="67" name="burning dagger p" id="4174" icon="4559,-1" desc="$10960" mpCost="-1,-2,-3,-4,-5,-6" sheet="1" sheetLoc="4,5" connectedIndex="27" type="passive"/>
+    	<Spell index="68" name="aqua barrier a" id="4184" icon="4586,-1" desc="$10961" mpCost="12,12,14,14,16,16" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="2,4" connectedIndex="34,78,77" type="nonTarget" delay="4000" passive="78"/>
+    	<Spell index="69" name="pollute breath p" id="4194" icon="2346,-1" desc="$10962" mpCost="8,8,9,9,10,10" sheet="2" sheetLoc="0,2" connectedIndex="54" type="passive"/>
+    	<Spell index="70" name="lightning arrow p" id="4204" icon="4565,-1" desc="$10963" mpCost="10,10,11,11,12,12" sheet="3" sheetLoc="4,5" connectedIndex="31" type="passive"/>
+    	<Spell index="71" name="empty" id="-1"/>
+    	<Spell index="72" name="efwa element p" id="4224" icon="802,-1" desc="$10964" mpCost="7,7,8,8,9,9" sheet="0,1,2,3" sheetLoc="6,2" connectedIndex="57" type="passive"/>
+    	<Spell index="73" name="efwa break a" id="4234" icon="1731,1732" desc="$10965" mpCost="18,18,20,20,22,22" catCost="1,1,1,1,1,1" sheet="0,1,2,3" sheetLoc="2,1" connectedIndex="16,19,21,28" type="friendlyTarget" autoSelf="TRUE" delay="3000" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="74" name="strike on tree a" id="4244" icon="4580,4581" desc="$10966" mpCost="26,26,28,28,30,30" catCost="4,4,4,8,8,8" sheet="0" sheetLoc="3,4" connectedIndex="18,37" type="enemyTarget" delay="4000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="75" name="burning dimension a" id="4254" icon="4562,4563" desc="$10967" mpCost="18,18,20,20,22,22" catCost="2,2,2,2,2,2" sheet="1" sheetLoc="1,3" connectedIndex="60,34" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="76" name="burning body p" id="4264" icon="4556,-1" desc="$10968" mpCost="10,10,11,11,12,12" sheet="1" sheetLoc="0,2" connectedIndex="60" type="passive"/>
+    	<Spell index="77" name="bless of sea a" id="4274" icon="4550,-1" desc="$10969" mpCost="10,10,12,12,14,14" catCost="2,2,2,4,4,4" sheet="2" sheetLoc="3,4" connectedIndex="68,29" type="nonTarget" delay="100"/>
+    	<Spell index="78" name="aqua barrier p" id="4284" icon="4586,-1" desc="$10970" mpCost="6,6,7,7,8,8" sheet="2" sheetLoc="2,5" connectedIndex="68" type="passive"/>
+    	<Spell index="79" name="soul of typoon a" id="4294" icon="4577,4578" desc="$10971" mpCost="26,26,28,28,30,30" catCost="4,4,4,8,8,8" sheet="3" sheetLoc="3,4" connectedIndex="23,31" type="enemyTarget" delay="4000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+		</SpellList>
+
+		<SpellList classId = "3" name="magician" sheetCount = "3" spellCount = "80" sepPerLevel="2 per 3" tooltipDesc="$11717,$11709,$11710,$11711">
+    	<Spell index="0" name="light a" id="4304" icon="384,-1" desc="$10972" mpCost="3,3,4,4,5,5" sheet="0" sheetLoc="3,6" type="nonTarget" delay="100"/>
+    	<Spell index="1" name="magic shield a" id="4314" icon="811,-1" desc="$10973" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="2,3" connectedIndex="42,16" type="nonTarget" delay="100"/>
+    	<Spell index="2" name="teleport a" id="4324" icon="387,-1" desc="$10974" mpCost="12,12,10,10,8,8" sheet="0" sheetLoc="1,6" type="teleport" delay="600,500,400,300,200,100"/>
+    	<Spell index="3" name="heal a" id="4334" icon="383,333" desc="$10975" mpCost="16,16,20,20,24,24" sheet="0" sheetLoc="4,2" connectedIndex="10,49,56,57" type="healTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="15"/>
+    	<Spell index="4" name="ice dagger a" id="4344" icon="657,658" desc="$10976" mpCost="4,4,6,6,8,8" sheet="1" sheetLoc="5,4" connectedIndex="12,18,19,33" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="10,10,12,12,14,14"/>
+    	<Spell index="5" name="wind cutter a" id="4354" icon="4643,4826" desc="$10977" mpCost="4,4,6,6,8,8" sheet="1" sheetLoc="1,4" connectedIndex="11,18,34,66" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="10,10,12,12,14,14"/>
+    	<Spell index="6" name="empty" id="-1"/>
+    	<Spell index="7" name="empty" id="-1"/>
+    	<Spell index="8" name="decrease weight a" id="4384" icon="755,-1" desc="$10978" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="3,4" connectedIndex="40,42" type="nonTarget" delay="100"/>
+    	<Spell index="9" name="counter detection a" id="4394" icon="1571,-1" desc="$10979" mpCost="16,16,18,18,20,20" sheet="0" sheetLoc="2,0" connectedIndex="17,25,72" type="nonTarget" delay="500"/>
+    	<Spell index="10" name="cure poison a" id="4404" icon="388,338" desc="$10980" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="4,1" connectedIndex="3,32" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="15"/>
+    	<Spell index="11" name="stalac a" id="4414" icon="659,660" desc="$10981" mpCost="4,4,6,6,8,8" sheet="1" sheetLoc="1,2" connectedIndex="5,18,26,45" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="12,12,14,14,16,16"/>
+    	<Spell index="12" name="fire arrow a" id="4424" icon="651,652" desc="$10982" mpCost="4,4,6,6,8,8" sheet="1" sheetLoc="5,2" connectedIndex="4,18,44,60" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="8,8,10,10,12,12"/>
+    	<Spell index="13" name="vampiric touch a" id="4434" icon="401,351" desc="$10983" mpCost="10,10,12,12,14,14" sheet="2" sheetLoc="2,5" connectedIndex="28,14,38,21" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="14" name="curse poison a" id="4444" icon="390,340" desc="$10984" hpCost="10,10,10,10,10,10" mpCost="6,6,8,8,10,10" sheet="2" sheetLoc="2,1" connectedIndex="13,38,28,20" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="15" name="empty" id="-1"/>
+    	<Spell index="16" name="blessed armor a" id="4464" icon="1581,-1" desc="$10985" hpCost="30,30,30,30,30,30" mpCost="2,2,4,4,6,6" sheet="0" sheetLoc="2,2" connectedIndex="1,65,50,72" type="itemTarget" autoSelf="TRUE" targetItem="armor" delay="100"/>
+    	<Spell index="17" name="turn undead a" id="4474" icon="394,344" desc="$10986" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="3,0" connectedIndex="9,32" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="10"/>
+    	<Spell index="18" name="weak elemental a" id="4484" icon="848,849" desc="$10987" mpCost="4,4,6,6,8,8" sheet="1" sheetLoc="3,3" connectedIndex="11,12,4,5" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="3,4,5,6,7,8"/>
+    	<Spell index="19" name="frozen cloud a" id="4494" icon="655,656" desc="$10988" mpCost="18,18,20,20,22,22" sheet="1" sheetLoc="5,5" connectedIndex="4,58" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="6,6,8,8,10,10"/>
+    	<Spell index="20" name="curse blind a" id="4504" icon="749,750" desc="$10989" hpCost="10,10,10,10,10,10" mpCost="12,12,14,14,16,16" sheet="2" sheetLoc="1,1" connectedIndex="14,35,37,69" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="21" name="freezing mind a" id="4514" icon="1576,-1" desc="$10990" hpCost="60,60,60,60,60,60" mpCost="2,2,4,4,6,6" sheet="2" sheetLoc="1,5" connectedIndex="13,53,36,46" type="nonTarget" delay="500"/>
+    	<Spell index="22" name="empty" id="-1"/>
+    	<Spell index="23" name="empty" id="-1"/>
+    	<Spell index="24" name="meditation a" id="4544" icon="793,-1" desc="$10991" hpCost="20,20,20,20,20,20" mpCost="2,2,4,4,6,6" sheet="0" sheetLoc="4,6" type="nonTarget" delay="100"/>
+    	<Spell index="25" name="counter magic a" id="4554" icon="746,-1" desc="$10992" mpCost="16,16,18,18,20,20" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="1,0" connectedIndex="9" type="nonTarget" delay="100"/>
+    	<Spell index="26" name="earth jail a" id="4564" icon="647,648" desc="$10993" mpCost="20,20,22,22,24,24" sheet="1" sheetLoc="1,1" connectedIndex="11,59" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="8,8,10,10,12,12"/>
+    	<Spell index="27" name="fire ball a" id="4574" icon="398,348" desc="$10994" mpCost="20,20,22,22,24,24" sheet="1" sheetLoc="4,0" connectedIndex="67" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="28" name="slow move a" id="4584" icon="4731,4732" desc="$10995" hpCost="20,20,20,20,20,20" mpCost="10,10,12,12,14,14" sheet="2" sheetLoc="4,5" connectedIndex="14,38,13,29" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="8"/>
+    	<Spell index="29" name="weapon break a" id="4594" icon="400,350" desc="$10996" hpCost="30,30,30,30,30,30" mpCost="12,12,14,14,16,16" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="5,5" connectedIndex="28,61,76,68" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="30" name="empty" id="-1"/>
+    	<Spell index="31" name="empty" id="-1"/>
+    	<Spell index="32" name="remove curse a" id="4624" icon="407,357" desc="$10997" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="4,0" connectedIndex="10,17,43" type="friendlyTarget" autoSelf="TRUE" delay="200" direction="TRUE" range="15"/>
+    	<Spell index="33" name="cone of cold a" id="4634" icon="643,644" desc="$10998" mpCost="14,14,16,16,18,18" sheet="1" sheetLoc="4,4" connectedIndex="4" type="enemyTarget" delay="200" isAttack="TRUE" direction="TRUE" range="6,6,8,8,10,10"/>
+    	<Spell index="34" name="call lightning a" id="4644" icon="4822,4823" desc="$10999" mpCost="14,14,16,16,18,18" sheet="1" sheetLoc="2,4" connectedIndex="5" type="enemyTarget" delay="200" isAttack="TRUE" direction="TRUE" range="6,6,8,8,10,10"/>
+    	<Spell index="35" name="curse dark zone a" id="4654" icon="1583,1604" desc="$11000" hpCost="20,20,20,20,20,20" mpCost="14,14,16,16,18,18" sheet="2" sheetLoc="1,0" connectedIndex="20" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="2,2,4,4,6,6"/>
+    	<Spell index="36" name="mana drain a" id="4664" icon="4725,4726" desc="$11001" hpCost="24,24,28,28,32,32" mpCost="1,1,1,1,1,1" sheet="2" sheetLoc="0,5" connectedIndex="21" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="37" name="curse paralyze a" id="4674" icon="403,353" desc="$11002" hpCost="50,50,50,50,50,50" mpCost="16,16,18,18,20,20" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="0,1" connectedIndex="20" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="38" name="taming monster a" id="4684" icon="406,356" desc="$11003" hpCost="20,20,20,20,20,20" mpCost="20,20,22,22,24,24" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="4,1" connectedIndex="14,13,28,54" type="enemyTarget" delay="100" isAttack="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="39" name="empty" id="-1"/>
+    	<Spell index="40" name="bless weapon a" id="4704" icon="726,727" desc="$11004" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="4,4" connectedIndex="8,41,57" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="41" name="enchant intelligence a" id="4714" icon="4501,-1" desc="$11005" mpCost="26,26,28,28,30,30" sheet="0" sheetLoc="5,4" connectedIndex="40" type="nonTarget" delay="100"/>
+    	<Spell index="42" name="greater haste a" id="4724" icon="622,623" desc="$11006" mpCost="32,32,34,34,36,36" sheet="0" sheetLoc="2,4" connectedIndex="1,8,48" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="43" name="cancellation a" id="4734" icon="411,361" desc="$11007" mpCost="30,30,32,32,34,34" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="5,0" connectedIndex="32" type="friendlyTarget" autoSelf="TRUE" delay="500" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="44" name="sun burst a" id="4744" icon="661,662" desc="$11008" mpCost="16,16,18,18,20,20" sheet="1" sheetLoc="4,2" connectedIndex="12" type="enemyTarget" delay="200" isAttack="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="45" name="erruption a" id="4754" icon="412,362" desc="$11009" mpCost="16,16,18,18,20,20" sheet="1" sheetLoc="2,2" connectedIndex="11" type="enemyTarget" delay="200" isAttack="TRUE" direction="TRUE" range="8,8,10,10,12,12"/>
+    	<Spell index="46" name="disease a" id="4764" icon="758,759" desc="$11010" hpCost="10,10,10,10,10,10" mpCost="6,6,8,8,10,10" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="1,4" connectedIndex="21" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2,2,4,4,6,6"/>
+    	<Spell index="47" name="great zombie p" id="4774" icon="408,-1" desc="$11011" sheet="2" sheetLoc="6,1" connectedIndex="54" type="passive"/>
+    	<Spell index="48" name="holy walk a" id="4784" icon="1578,-1" desc="$11012" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="1,4" connectedIndex="42" type="nonTarget" delay="100"/>
+    	<Spell index="49" name="heal all a" id="4794" icon="413,-1" desc="$11013" hpCost="50,50,50,50,50,50" mpCost="30,30,32,32,34,34" sheet="0" sheetLoc="6,1" connectedIndex="3,56" type="nonTarget" delay="500"/>
+    	<Spell index="50" name="immune to impact a" id="4804" icon="4504,4505" desc="$11014" mpCost="12,12,14,14,16,16" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="0,1" connectedIndex="16,65" type="pledgeTarget" autoSelf="TRUE" delay="1500" direction="TRUE" range="15"/>
+    	<Spell index="51" name="ice lance a" id="4814" icon="414,364" desc="$11015" mpCost="18,18,20,20,22,22" sheet="1" sheetLoc="4,6" connectedIndex="58" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="6,6,8,8,10,10"/>
+    	<Spell index="52" name="tornado a" id="4824" icon="4642,-1" desc="$11016" mpCost="26,26,28,28,30,30" sheet="1" sheetLoc="1,6" connectedIndex="66,74" type="nonTarget" delay="1500"/>
+    	<Spell index="53" name="berserkers a" id="4834" icon="1570,1587" desc="$11017" hpCost="30,30,30,30,30,30" mpCost="20,20,22,22,24,24" sheet="2" sheetLoc="1,6" connectedIndex="21" type="friendlyTarget" autoSelf="TRUE" delay="500" direction="TRUE" range="15"/>
+    	<Spell index="54" name="summon monster a" id="4844" icon="415,-1" desc="$11018" hpCost="50,50,50,50,50,50" mpCost="28,28,22,22,16,16" catCost="3,3,3,1,1,1" sheet="2" sheetLoc="5,1" connectedIndex="38,78,47,77" type="execption" delay="1000"/>
+    	<Spell index="55" name="empty" id="-1"/>
+    	<Spell index="56" name="life stream a" id="4864" icon="784,1599" desc="$11019" mpCost="28,28,30,30,32,32" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="6,3" connectedIndex="3,49" type="locationTarget" delay="2000" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="57" name="ressurection a" id="4874" icon="422,372" desc="$11020" mpCost="100,100,120,120,140,140" catCost="3,3,5,5,7,7" sheet="0" sheetLoc="4,3" connectedIndex="3,40" type="deadTarget" delay="1000" direction="TRUE" range="6,7,8,10,11,12"/>
+    	<Spell index="58" name="blizzard a" id="4884" icon="4637,-1" desc="$11021" mpCost="28,28,30,30,32,32" sheet="1" sheetLoc="5,6" connectedIndex="19,51" type="nonTarget" delay="1500"/>
+    	<Spell index="59" name="earth quake a" id="4894" icon="649,-1" desc="$11022" mpCost="30,30,32,32,34,34" sheet="1" sheetLoc="1,0" connectedIndex="26,75" type="nonTarget" delay="1500"/>
+    	<Spell index="60" name="fire wall a" id="4904" icon="419,369" desc="$11023" mpCost="40,40,44,44,48,48" sheet="1" sheetLoc="5,1" connectedIndex="12,67" type="locationTarget" delay="600" isAttack="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="61" name="silence a" id="4914" icon="4728,4729" desc="$11024" hpCost="30,30,30,30,30,30" mpCost="14,14,16,16,18,18" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="5,6" connectedIndex="29" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="62" name="invisiblity a" id="4924" icon="421,-1" desc="$11025" mpCost="16,16,18,18,20,20" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="3,6" type="nonTarget"/>
+    	<Spell index="63" name="empty" id="-1"/>
+    	<Spell index="64" name="mass teleport a" id="4944" icon="427,-1" desc="$11026" mpCost="40,40,36,36,32,32" catCost="3,2,2,1,1,0" sheet="0" sheetLoc="2,6" type="teleport" delay="600" direction="TRUE" range="2,2,3,3,4,4"/>
+    	<Spell index="65" name="immune to magic a" id="4954" icon="4507,4508" desc="$11027" mpCost="12,12,14,14,16,16" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="0,3" connectedIndex="16,50" type="pledgeTarget" autoSelf="TRUE" delay="1500" direction="TRUE" range="15"/>
+    	<Spell index="66" name="lightning storm a" id="4964" icon="4640,4824" desc="$11028" mpCost="28,28,30,30,32,32" sheet="1" sheetLoc="1,5" connectedIndex="5,52" type="enemyTarget" delay="1200" isAttack="TRUE" direction="TRUE" range="10"/>
+    	<Spell index="67" name="fire storm a" id="4974" icon="653,-1" desc="$11029" mpCost="36,36,38,38,40,40" sheet="1" sheetLoc="5,0" connectedIndex="60,27" type="nonTarget" delay="2000"/>
+    	<Spell index="68" name="decay potion a" id="4984" icon="4722,4723" desc="$11030" hpCost="50,50,50,50,50,50" mpCost="14,14,16,16,18,18" catCost="1,1,1,1,1,1" sheet="2" sheetLoc="5,4" connectedIndex="29" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="69" name="curse sleep a" id="4994" icon="424,1594" desc="$11031" hpCost="30,30,30,30,30,30" mpCost="10,10,12,12,14,14" sheet="2" sheetLoc="1,2" connectedIndex="20" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="70" name="empty" id="-1"/>
+    	<Spell index="71" name="empty" id="-1"/>
+    	<Spell index="72" name="absolute barrier a" id="5024" icon="715,-1" desc="$11032" mpCost="28,28,30,30,32,32" catCost="1,1,2,2,3,3" sheet="0" sheetLoc="2,1" connectedIndex="9,16" type="nonTarget" delay="6000"/>
+    	<Spell index="73" name="advance spirit a" id="5034" icon="1610,1879" desc="$11033" mpCost="20,20,22,22,24,24" sheet="0" sheetLoc="5,6" type="friendlyTarget" autoSelf="TRUE" delay="100" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="74" name="disintegrate a" id="5044" icon="432,382" desc="$11034" mpCost="60,60,68,68,76,76" sheet="1" sheetLoc="2,6" connectedIndex="52" type="enemyTarget" delay="5000" isAttack="TRUE" direction="TRUE" range="10"/>
+    	<Spell index="75" name="meteor strike a" id="5054" icon="429,379" desc="$11035" mpCost="50,50,58,58,66,66" sheet="1" sheetLoc="2,0" connectedIndex="59" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="10,10,12,12,14,14"/>
+    	<Spell index="76" name="slow hands a" id="5064" icon="1582,1603" desc="$11036" hpCost="30,30,30,30,30,30" mpCost="14,14,16,16,18,18" sheet="2" sheetLoc="6,5" connectedIndex="29" type="enemyTarget" delay="500" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="77" name="madness claw a" id="5074" icon="4510,4511" desc="$11037" hpCost="10,10,10,10,10,10" mpCost="12,12,14,14,16,16" sheet="2" sheetLoc="5,0" connectedIndex="54" type="friendlyTarget" delay="100" direction="TRUE" range="4,4,6,6,8,8" passive="47"/>
+    	<Spell index="78" name="demoniac eyes a" id="5084" icon="4495,4496" desc="$11038" hpCost="10,10,10,10,10,10" mpCost="12,12,14,14,16,16" sheet="2" sheetLoc="5,2" connectedIndex="54" type="friendlyTarget" delay="100" direction="TRUE" range="4,4,6,6,8,8" passive="47"/>
+    	<Spell index="79" name="empty" id="-1"/>
+ 		</SpellList>
+
+		<SpellList classId = "4" name="dark elf" sheetCount = "1" spellCount = "40" sepPerLevel="1 per 3" tooltipDesc="$11717,$11712">
+    	<Spell index="0" name="dress mighty a" id="5104" icon="1574,-1" desc="$11039" mpCost="10,10,14,14,18,18" sheet="0" sheetLoc="5,3" connectedIndex="11,18,25" type="nonTarget" delay="100"/>
+    	<Spell index="1" name="bring stone a" id="5114" icon="1106,-1" desc="$11040" mpCost="10,10,8,8,6,6" sheet="0" sheetLoc="5,0" type="itemTarget" delay="1200,1000,1000,800,800,600"/>
+    	<Spell index="2" name="blind hiding a" id="5124" icon="1097,-1" desc="$11041" hpCost="10,10,14,14,18,18" sheet="0" sheetLoc="1,5" connectedIndex="9,10,26" type="nonTarget" delay="4000"/>
+    	<Spell index="3" name="shadow armor a" id="5134" icon="1103,-1" desc="$11042" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="2,3" connectedIndex="12,19,27" type="nonTarget" delay="100" passive="27"/>
+    	<Spell index="4" name="venom bleed a" id="5144" icon="1100,-1" desc="$11043" hpCost="10,10,10,10,10,10" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="3,5" connectedIndex="20,26" type="nonTarget" delay="100"/>
+    	<Spell index="5" name="dark candle a" id="5154" icon="384,-1" desc="$11044" mpCost="4,4,6,6,8,8" sheet="0" sheetLoc="2,0" type="nonTarget" delay="100"/>
+    	<Spell index="6" name="empty" id="-1"/>
+    	<Spell index="7" name="empty" id="-1"/>
+    	<Spell index="8" name="dress dexterity a" id="5184" icon="1575,-1" desc="$11045" mpCost="10,10,14,14,18,18" sheet="0" sheetLoc="5,5" connectedIndex="11,17,20" type="nonTarget" delay="100"/>
+    	<Spell index="9" name="dark blind a" id="5194" icon="1115,1117" desc="$11046" hpCost="10,10,10,10,10,10" mpCost="10,10,12,12,14,14" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="0,5" connectedIndex="2" type="enemyTarget" delay="100" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="10" name="moving acceleration a" id="5204" icon="1109,-1" desc="$11047" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="1,4" connectedIndex="2,19" type="nonTarget" delay="100"/>
+    	<Spell index="11" name="burning spirits a" id="5214" icon="1112,-1" desc="$11048" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="5,4" connectedIndex="0,8" type="nonTarget" delay="1000"/>
+    	<Spell index="12" name="venom resist a" id="5224" icon="1118,-1" desc="$11049" mpCost="14,14,16,16,18,18" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="3,3" connectedIndex="3,18" type="nonTarget" delay="100"/>
+    	<Spell index="13" name="dark eyes a" id="5234" icon="392,-1" desc="$11050" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="1,0" type="nonTarget" delay="500"/>
+    	<Spell index="14" name="empty" id="-1"/>
+    	<Spell index="15" name="empty" id="-1"/>
+    	<Spell index="16" name="dress evasion a" id="5264" icon="1611,-1" desc="$11051" mpCost="16,16,18,18,20,20" sheet="0" sheetLoc="4,2" connectedIndex="18" type="nonTarget" delay="200"/>
+    	<Spell index="17" name="double break a" id="5274" icon="4498,-1" desc="$11052" mpCost="18,18,20,20,22,22" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="6,5" connectedIndex="8" type="nonTarget" delay="3000" equip="double blade"/>
+    	<Spell index="18" name="encanny dodgy a" id="5284" icon="1124,-1" desc="$11053" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="4,3" connectedIndex="0,12,16" type="nonTarget" delay="200"/>
+    	<Spell index="19" name="final burn a" id="5294" icon="1130,1132" desc="$11054" sheet="0" sheetLoc="1,3" connectedIndex="3,10,32" type="enemyTarget" delay="10" isAttack="TRUE" direction="TRUE" range="2" passive="32"/>
+    	<Spell index="20" name="shadow fang a" id="5304" icon="1127,-1" desc="$11055" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="4,5" connectedIndex="4,8,33" type="itemTarget" autoSelf="TRUE" targetItem="weapon" delay="100" passive="33"/>
+    	<Spell index="21" name="empty" id="-1"/>
+    	<Spell index="22" name="empty" id="-1"/>
+    	<Spell index="23" name="empty" id="-1"/>
+    	<Spell index="24" name="shadow bag a" id="5344" icon="755,-1" desc="$11056" hpCost="20,20,20,20,20,20" mpCost="20,20,22,22,24,24" sheet="0" sheetLoc="4,0" type="nonTarget" delay="100"/>
+    	<Spell index="25" name="critical break a" id="5354" icon="4492,-1" desc="$11057" mpCost="18,18,20,20,22,22" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="6,3" connectedIndex="0" type="nonTarget" delay="3000" equip="claw"/>
+    	<Spell index="26" name="venom slash a" id="5364" icon="4513,-1" desc="$11058" hpCost="50,50,50,50,50,50" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="2,5" connectedIndex="2,4,34" type="nonTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="1" passive="34"/>
+    	<Spell index="27" name="shadow armor p" id="5374" icon="1103,-1" desc="$11059" mpCost="5,5,6,6,7,7" sheet="0" sheetLoc="2,2" connectedIndex="3" type="passive"/>
+    	<Spell index="28" name="empty" id="-1"/>
+    	<Spell index="29" name="empty" id="-1"/>
+    	<Spell index="30" name="empty" id="-1"/>
+    	<Spell index="31" name="empty" id="-1"/>
+    	<Spell index="32" name="final burn p" id="5424" icon="1130,-1" desc="$11060" sheet="0" sheetLoc="0,3" connectedIndex="19" type="passive"/>
+    	<Spell index="33" name="shadow fang p" id="5434" icon="1127,-1" desc="$11061" mpCost="5,5,6,6,7,7" sheet="0" sheetLoc="4,6" connectedIndex="20" type="passive"/>
+    	<Spell index="34" name="venom slash p" id="5444" icon="4513,-1" desc="$11062" mpCost="9,9,10,10,11,11" sheet="0" sheetLoc="2,6" connectedIndex="26" type="passive"/>
+    	<Spell index="35" name="empty" id="-1"/>
+    	<Spell index="36" name="empty" id="-1"/>
+    	<Spell index="37" name="empty" id="-1"/>
+    	<Spell index="38" name="empty" id="-1"/>
+    	<Spell index="39" name="empty" id="-1"/>
+		</SpellList>
+
+		<SpellList classId = "5" name="dragon knight" sheetCount = "2" spellCount = "48" sepPerLevel="1 per 3" tooltipDesc="$11717,$11713,$11714">
+    	<Spell index="0" name="awake antharas a" id="5664" icon="3181,-1" desc="$11063" hpCost="1,1,1,1,1,1" mpCost="10,10,12,12,14,14" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="2,1" connectedIndex="1,8,10,16,24,33" type="nonTarget" delay="100" passive="10,33"/>
+    	<Spell index="1" name="poison breath a" id="5674" icon="4544,-1" desc="$11064" hpCost="14,14,16,16,18,18" sheet="0" sheetLoc="1,1" connectedIndex="0,40" type="nonTarget" delay="1000"/>
+    	<Spell index="2" name="phoenix armor a" id="5684" icon="1580,-1" desc="$11065" hpCost="10,10,12,12,14,14" sheet="1" sheetLoc="4,4" connectedIndex="4,21" type="itemTarget" autoSelf="TRUE" targetItem="armor" delay="100"/>
+    	<Spell index="3" name="burning slash a" id="5694" icon="3076,-1" desc="$11066" hpCost="4,4,6,6,8,8" sheet="1" sheetLoc="2,5" connectedIndex="11,19" type="nonTarget" delay="500" isAttack="TRUE" direction="TRUE" range="2"/>
+    	<Spell index="4" name="dragon skin a" id="5704" icon="3079,-1" desc="$11067" hpCost="10,10,12,12,14,14" sheet="1" sheetLoc="4,3" connectedIndex="2,12,13" type="nonTarget" delay="100" passive="12"/>
+    	<Spell index="5" name="guard break a" id="5714" icon="3083,3084" desc="$11068" hpCost="20,20,22,22,24,24" sheet="1" sheetLoc="2,2" connectedIndex="14,20" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="4"/>
+    	<Spell index="6" name="empty" id="-1"/>
+    	<Spell index="7" name="empty" id="-1"/>
+    	<Spell index="8" name="awake fafurion a" id="5744" icon="3183,-1" desc="$11069" hpCost="1,1,1,1,1,1" mpCost="10,10,12,12,14,14" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="4,5" connectedIndex="0,24,9,16,18,34" type="nonTarget" delay="100" passive="18,34"/>
+    	<Spell index="9" name="freezing breath a" id="5754" icon="3082,3186" desc="$11070" hpCost="14,14,16,16,18,18" sheet="0" sheetLoc="5,5" connectedIndex="8,41" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="6"/>
+    	<Spell index="10" name="antharas cry p" id="5764" icon="4608,-1" desc="$11071" sheet="0" sheetLoc="2,2" connectedIndex="0" type="passive"/>
+    	<Spell index="11" name="bloodlust a" id="5774" icon="3074,-1" desc="$11072" hpCost="16,16,18,18,20,20" sheet="1" sheetLoc="1,5" connectedIndex="3" type="nonTarget" delay="100"/>
+    	<Spell index="12" name="dragon skin p" id="5784" icon="3079,-1" desc="$11073" hpCost="5,5,6,6,7,7" sheet="1" sheetLoc="5,3" connectedIndex="4" type="passive"/>
+    	<Spell index="13" name="fear a" id="5794" icon="3090,3091" desc="$11074" hpCost="20,20,22,22,24,24" sheet="1" sheetLoc="4,2" connectedIndex="4,20" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="4"/>
+    	<Spell index="14" name="foe slyer a" id="5804" icon="3081,3185" desc="$11075" hpCost="18,18,20,20,22,22" sheet="1" sheetLoc="2,3" connectedIndex="5,19,22" type="execption" delay="3000,2600,2200,1800,1400,1000" direction="TRUE" range="2" passive="22"/>
+    	<Spell index="15" name="empty" id="-1"/>
+    	<Spell index="16" name="awake valakas a" id="5824" icon="3077,-1" desc="$11076" hpCost="1,1,1,1,1,1" mpCost="10,10,12,12,14,14" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="4,1" connectedIndex="0,8,17,24,26,35" type="nonTarget" delay="100" passive="26,35"/>
+    	<Spell index="17" name="magma breath a" id="5834" icon="3087,3189" desc="$11077" hpCost="14,14,16,16,18,18" sheet="0" sheetLoc="5,1" connectedIndex="16,42" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="5"/>
+    	<Spell index="18" name="fafurion cry p" id="5844" icon="4614,-1" desc="$11078" sheet="0" sheetLoc="4,4" connectedIndex="8" type="passive"/>
+    	<Spell index="19" name="thunder grap a" id="5854" icon="3093,3191" desc="$11079" hpCost="40,40,42,42,44,44" sheet="1" sheetLoc="2,4" connectedIndex="3,14" type="enemyTarget" delay="4000" isAttack="TRUE" direction="TRUE" range="8"/>
+    	<Spell index="20" name="horror of death a" id="5864" icon="1884,-1" desc="$11080" hpCost="20,20,22,22,24,24" sheet="1" sheetLoc="3,2" connectedIndex="5,13,27,28" type="nonTarget" delay="2000" passive="27,28"/>
+    	<Spell index="21" name="mortal body a" id="5874" icon="3088,-1" desc="$11081" hpCost="40,40,42,42,44,44" sheet="1" sheetLoc="4,5" connectedIndex="2,29" type="nonTarget" delay="1000" passive="29"/>
+    	<Spell index="22" name="foe slayer p" id="5884" icon="3081,-1" desc="$11082" hpCost="-4,-5,-6,-7,-8,-9" sheet="1" sheetLoc="1,3" connectedIndex="14" type="passive"/>
+    	<Spell index="23" name="empty" id="-1"/>
+    	<Spell index="24" name="awake lindvior a" id="5904" icon="4526,-1" desc="$11083" hpCost="1,1,1,1,1,1" mpCost="10,10,12,12,14,14" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="2,5" connectedIndex="0,8,16,25,32,36" type="nonTarget" delay="100" passive="32,36"/>
+    	<Spell index="25" name="lightning breath a" id="5914" icon="4538,4539" desc="$11084" hpCost="14,14,16,16,18,18" sheet="0" sheetLoc="1,5" connectedIndex="24,43" type="enemyTarget" delay="1000" isAttack="TRUE" direction="TRUE" range="5"/>
+    	<Spell index="26" name="valakas cry p" id="5924" icon="4635,-1" desc="$11085" sheet="0" sheetLoc="4,2" connectedIndex="16" type="passive"/>
+    	<Spell index="27" name="horror of death p1" id="5934" icon="4752,-1" desc="$11086" hpCost="10,10,11,11,12,12" sheet="1" sheetLoc="2,0" connectedIndex="20,28" type="passive"/>
+    	<Spell index="28" name="horror of death p2" id="5944" icon="4753,-1" desc="$11087" hpCost="10,10,11,11,12,12" sheet="1" sheetLoc="4,0" connectedIndex="20,27" type="passive"/>
+    	<Spell index="29" name="mortal body p" id="5954" icon="3088,-1" desc="$11088" sheet="1" sheetLoc="5,5" connectedIndex="21" type="passive"/>
+    	<Spell index="30" name="empty" id="-1"/>
+    	<Spell index="31" name="empty" id="-1"/>
+    	<Spell index="32" name="lindvior cry p" id="5984" icon="4621,-1" desc="$11089" sheet="0" sheetLoc="2,4" connectedIndex="24" type="passive"/>
+    	<Spell index="33" name="antharas blood p" id="5994" icon="4607,-1" desc="$11090" hpCost="20,20,22,22,24,24" sheet="0" sheetLoc="2,0" connectedIndex="0" type="passive"/>
+    	<Spell index="34" name="fafurion blood p" id="6004" icon="4613,-1" desc="$11091" hpCost="20,20,22,22,24,24" sheet="0" sheetLoc="4,6" connectedIndex="8" type="passive"/>
+    	<Spell index="35" name="valakas blood p" id="6014" icon="4634,-1" desc="$11092" hpCost="20,20,22,22,24,24" sheet="0" sheetLoc="4,0" connectedIndex="16" type="passive"/>
+    	<Spell index="36" name="lindvior blood p" id="6024" icon="4620,-1" desc="$11093" hpCost="20,20,22,22,24,24" sheet="0" sheetLoc="2,6" connectedIndex="24" type="passive"/>
+    	<Spell index="37" name="empty" id="-1"/>
+    	<Spell index="38" name="empty" id="-1"/>
+    	<Spell index="39" name="empty" id="-1"/>
+    	<Spell index="40" name="absolute skin a" id="6064" icon="4520,-1" desc="$11094" hpCost="24,24,30,30,36,36" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="0,1" connectedIndex="1" type="nonTarget" delay="100"/>
+    	<Spell index="41" name="absolute breath a" id="6074" icon="4518,-1" desc="$11095" hpCost="24,24,30,30,36,36" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="6,5" connectedIndex="9" type="nonTarget" delay="100"/>
+    	<Spell index="42" name="absolute claw a" id="6084" icon="4516,-1" desc="$11096" hpCost="24,24,30,30,36,36" catCost="1,1,1,1,1,1" sheet="0" sheetLoc="6,1" connectedIndex="17" type="nonTarget" delay="100"/>
+    	<Spell index="43" name="shock skin a" id="6094" icon="3092,-1" desc="$11097" hpCost="16,16,18,18,20,20" sheet="0" sheetLoc="0,5" connectedIndex="25" type="nonTarget" delay="2000"/>
+    	<Spell index="44" name="empty" id="-1"/>
+    	<Spell index="45" name="empty" id="-1"/>
+    	<Spell index="46" name="empty" id="-1"/>
+    	<Spell index="47" name="empty" id="-1"/>
+		</SpellList>
+
+		<SpellList classId = "6" name="illusionist" sheetCount = "2" spellCount = "56" sepPerLevel="1 per 3" tooltipDesc="$11717,$11715,$11716">
+    	<Spell index="0" name="illusion ogre a" id="6224" icon="3116,3205" desc="$11098" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="5,4" connectedIndex="1,32,33" type="friendlyTarget" autoSelf="TRUE" delay="1000" direction="TRUE" range="6,6,8,8,10,10" passive="32"/>
+    	<Spell index="1" name="mirror image a" id="6234" icon="3122,-1" desc="$11099" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="4,4" connectedIndex="0,19,25" type="nonTarget" delay="100"/>
+    	<Spell index="2" name="smash a" id="6244" icon="3130,3108" desc="$11100" mpCost="3,4,5,6,7,8" sheet="0" sheetLoc="5,2" connectedIndex="17,24,33" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="1"/>
+    	<Spell index="3" name="counfusion a" id="6254" icon="3098,3195" desc="$11101" hpCost="10,10,10,10,10,10" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="3,2" connectedIndex="18,24" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="2,2,4,4,6,6"/>
+    	<Spell index="4" name="cube ignition a" id="6264" icon="3102,-1" desc="$11102" mpCost="24,24,26,26,28,28" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="4,4" connectedIndex="20,5,34,28,12" type="locationTarget" delay="5000" range="4,4,6,6,8,8" passive="5,34,41,49"/>
+    	<Spell index="5" name="cube ignition p1" id="6274" icon="4593,-1" desc="$11103" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="5,4" connectedIndex="4,49" type="passive"/>
+    	<Spell index="6" name="empty" id="-1"/>
+    	<Spell index="7" name="empty" id="-1"/>
+    	<Spell index="8" name="illusion lich a" id="6304" icon="3114,3204" desc="$11104" mpCost="10,10,12,12,14,14" sheet="0" sheetLoc="1,2" connectedIndex="11,18,40" type="friendlyTarget" autoSelf="TRUE" delay="1000" direction="TRUE" range="6,6,8,8,10,10" passive="40"/>
+    	<Spell index="9" name="mind break a" id="6314" icon="3121,3208" desc="$11105" hpCost="5,5,5,5,5,5" mpCost="6,6,7,7,8,8" sheet="0" sheetLoc="0,4" connectedIndex="26" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="10" name="bone break a" id="6324" icon="3095,3193" desc="$11106" hpCost="5,5,5,5,5,5" mpCost="12,12,14,14,16,16" sheet="0" sheetLoc="2,1" connectedIndex="18" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="1"/>
+    	<Spell index="11" name="concentration a" id="6334" icon="3096,3194" desc="$11107" hpCost="24,24,26,26,28,28" mpCost="1,1,1,1,1,1" sheet="0" sheetLoc="1,3" connectedIndex="8,26" type="friendlyTarget" autoSelf="TRUE" delay="1000" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="12" name="cube quake a" id="6344" icon="3105,-1" desc="$11108" mpCost="24,24,26,26,28,28" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="2,4" connectedIndex="20,4,28,13,35" type="locationTarget" delay="5000" range="4,4,6,6,8,8" passive="13,35,42,50"/>
+    	<Spell index="13" name="cube quake p1" id="6354" icon="4597,-1" desc="$11109" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="1,4" connectedIndex="12,50" type="passive"/>
+    	<Spell index="14" name="empty" id="-1"/>
+    	<Spell index="15" name="empty" id="-1"/>
+    	<Spell index="16" name="illusion dia golem a" id="6384" icon="3112,3203" desc="$11110" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="2,4" connectedIndex="25,26,48" type="friendlyTarget" autoSelf="TRUE" delay="1000" direction="TRUE" range="6,6,8,8,10,10" passive="48"/>
+    	<Spell index="17" name="arm breaker a" id="6394" icon="3094,3192" desc="$11111" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="6,2" connectedIndex="2" type="enemyTarget" delay="2000" isAttack="TRUE" direction="TRUE" range="1"/>
+    	<Spell index="18" name="phantasm a" id="6404" icon="3128,3103" desc="$11112" hpCost="25,25,25,25,25,25" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="2,2" connectedIndex="3,8,10" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="19" name="patience a" id="6414" icon="3126,3100" desc="$11113" mpCost="20,20,22,22,24,24" sheet="0" sheetLoc="4,5" connectedIndex="1" type="friendlyTarget" autoSelf="TRUE" delay="1000" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="20" name="cube shock a" id="6424" icon="3107,-1" desc="$11114" mpCost="24,24,26,26,28,28" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="2,2" connectedIndex="4,21,36,12,28" type="locationTarget" delay="5000" range="4,4,6,6,8,8" passive="21,36,43,51"/>
+    	<Spell index="21" name="cube shock p1" id="6434" icon="4601,-1" desc="$11115" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="1,2" connectedIndex="20,51" type="passive"/>
+    	<Spell index="22" name="empty" id="-1"/>
+    	<Spell index="23" name="empty" id="-1"/>
+    	<Spell index="24" name="illusion avatar a" id="6464" icon="3110,3202" desc="$11116" mpCost="14,14,16,16,18,18" sheet="0" sheetLoc="4,2" connectedIndex="2,3,27" type="friendlyTarget" autoSelf="TRUE" delay="2000" direction="TRUE" range="6,6,8,8,10,10"/>
+    	<Spell index="25" name="insight a" id="6474" icon="3118,3206" desc="$11117" mpCost="18,18,20,20,22,22" sheet="0" sheetLoc="3,4" connectedIndex="1,16" type="friendlyTarget" autoSelf="TRUE" delay="1000" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="26" name="joy of pain a" id="6484" icon="3120,3207" desc="$11118" mpCost="30,30,32,32,34,34" sheet="0" sheetLoc="1,4" connectedIndex="9,11,16" type="enemyTarget" delay="3000" isAttack="TRUE" direction="TRUE" range="2,2,4,4,6,6"/>
+    	<Spell index="27" name="panic a" id="6494" icon="3124,3210" desc="$11119" hpCost="30,30,30,30,30,30" mpCost="16,16,18,18,20,20" sheet="0" sheetLoc="4,1" connectedIndex="24" type="enemyTarget" delay="4000" isAttack="TRUE" direction="TRUE" range="4,4,6,6,8,8"/>
+    	<Spell index="28" name="cube balance a" id="6504" icon="3099,-1" desc="$11120" mpCost="24,24,26,26,28,28" catCost="1,1,1,1,1,1" sheet="1" sheetLoc="4,2" connectedIndex="4,20,12,29,37" type="locationTarget" delay="5000" range="4,4,6,6,8,8" passive="29,37,44,52"/>
+    	<Spell index="29" name="cube balance p1" id="6514" icon="4589,-1" desc="$11121" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="5,2" connectedIndex="28,52" type="passive"/>
+    	<Spell index="30" name="empty" id="-1"/>
+    	<Spell index="31" name="empty" id="-1"/>
+    	<Spell index="32" name="illusion ogre p" id="6544" icon="3116,-1" desc="$11122" sheet="0" sheetLoc="6,4" connectedIndex="0" type="passive"/>
+    	<Spell index="33" name="muscular a" id="6554" icon="4605,-1" desc="$11123" mpCost="32,32,36,36,40,40" sheet="0" sheetLoc="5,3" connectedIndex="0,2" type="nonTarget"/>
+    	<Spell index="34" name="cube ignition p2" id="6564" icon="4594,-1" desc="$11124" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="4,5" connectedIndex="4,41" type="passive"/>
+    	<Spell index="35" name="cube quake p2" id="6574" icon="4598,-1" desc="$11125" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="2,5" connectedIndex="12,42" type="passive"/>
+    	<Spell index="36" name="cube shock p2" id="6584" icon="4602,-1" desc="$11126" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="2,1" connectedIndex="20,43" type="passive"/>
+    	<Spell index="37" name="cube balance p2" id="6594" icon="4590,-1" desc="$11127" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="4,1" connectedIndex="28,44" type="passive"/>
+    	<Spell index="38" name="empty" id="-1"/>
+    	<Spell index="39" name="empty" id="-1"/>
+    	<Spell index="40" name="illusion lich p" id="6624" icon="3114,-1" desc="$11128" sheet="0" sheetLoc="0,2" connectedIndex="8" type="passive"/>
+    	<Spell index="41" name="cube ignition p3" id="6634" icon="4595,-1" desc="$11129" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="4,6" connectedIndex="34,49" type="passive"/>
+    	<Spell index="42" name="cube quake p3" id="6644" icon="4599,-1" desc="$11130" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="2,6" connectedIndex="35,50" type="passive"/>
+    	<Spell index="43" name="cube shock p3" id="6654" icon="4603,-1" desc="$11131" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="2,0" connectedIndex="36,51" type="passive"/>
+    	<Spell index="44" name="cube balance p3" id="6664" icon="4591,-1" desc="$11132" mpCost="2,2,3,3,4,4" sheet="1" sheetLoc="4,0" connectedIndex="37,52" type="passive"/>
+    	<Spell index="45" name="empty" id="-1"/>
+    	<Spell index="46" name="empty" id="-1"/>
+    	<Spell index="47" name="empty" id="-1"/>
+    	<Spell index="48" name="illusion dia golem p" id="6704" icon="3112,-1" desc="$11133" sheet="0" sheetLoc="2,5" connectedIndex="16" type="passive"/>
+    	<Spell index="49" name="cube ignition p4" id="6714" icon="4596,-1" desc="$11134" mpCost="-1,-2,-3,-4,-5,-6" sheet="1" sheetLoc="6,4" connectedIndex="5,41" type="passive"/>
+    	<Spell index="50" name="cube quake p4" id="6724" icon="4600,-1" desc="$11135" mpCost="-1,-2,-3,-4,-5,-6" sheet="1" sheetLoc="0,4" connectedIndex="13,42" type="passive"/>
+    	<Spell index="51" name="cube shock p4" id="6734" icon="4604,-1" desc="$11136" mpCost="-1,-2,-3,-4,-5,-6" sheet="1" sheetLoc="0,2" connectedIndex="21,43" type="passive"/>
+    	<Spell index="52" name="cube balance p4" id="6744" icon="4592,-1" desc="$11137" mpCost="-1,-2,-3,-4,-5,-6" sheet="1" sheetLoc="6,2" connectedIndex="29,44" type="passive"/>
+    	<Spell index="53" name="empty" id="-1"/>
+    	<Spell index="54" name="empty" id="-1"/>
+    	<Spell index="55" name="empty" id="-1"/>
+		</SpellList>
+
+	</SpellConfiguration>
+
+</MagicSystemConfigulation>

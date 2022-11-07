@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>幸運の女神が味方して攻城戦で勝利を収めるでしょう。</p>
+    <p>攻城戦の際、敵の血盟から降り注がれる矢と、猛烈な攻撃で劣勢に追いやられますが、</p>
+	<p>思いもよらない同盟の協力により、ドラマチックな勝利が得られるでしょう。</p>
+	<p>普段から同盟を組んだ血盟は大切にしましょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

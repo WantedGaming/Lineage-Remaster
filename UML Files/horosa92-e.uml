@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffaf">今日の運勢です。</font></p>
+    <p>小さな水溜りに石ころ一つを投げれば大きな波が立ちますが、広い海には波一つ立ちません。</p>
+    <p>つまらない争いにも海のような広い心でゆとりを持って対処すれば、あなたの人となりを見て慕う仲間が増えるでしょう。<br/><br/></p>
+    <p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

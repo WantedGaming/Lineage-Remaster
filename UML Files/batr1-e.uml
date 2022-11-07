@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 いらっしゃいませ、どのような要件ですか？<br/>
+		<br/><br/><br/>
+		 <a action="fix">損傷した武器を修理する</a><br/>
+		 <a link="batr2">武器がいつ壊れるか聞く</a><br/>
+		 <br/>
+		 <br/>
+		 
+		</p>
+	</dialog>
+</npcdialog>

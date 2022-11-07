@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エルドナーシュ</name>
+  </npc>
+  <dialog>
+	<p>
+よく来たな。わしはエルドナーシュだ。
+<br/>
+火竜の安息の地の熱気が、少しずつ強くなってきておる。
+<br/>
+わしには中で何が起きているかを知る術がない…
+<br/>
+<font fg="FF9976">冷寒の気</font>を持っていれば、火竜の安息の地の中に移動させてやろう。
+<br/><br/>
+<a action="a">火竜の安息の地に入る</a>
+<br/>
+<br/>火竜の棲処にいるモンスターは、熱気に耐えるために<font fg="FF9976">冷寒の気</font>を持っておる。
+</p>
+  </dialog>
+</npcdialog>

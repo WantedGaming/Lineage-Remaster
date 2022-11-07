@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>傭兵</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ゲームシステム：傭兵</font></p>
+	<p>城の血盟の血盟員は傭兵を雇えます。<br/></p>
+
+	<p><font fg="ffffaf">傭兵の雇用：</font><br/>
+	城の血盟員なら誰でも、自分の城所属の侍従長から<font fg="afffff">城傭兵</font>を雇えます。<br/>
+	雇用契約を結ぶ際には、<font fg="afffff">君主が同席</font>しなければなりません。リネージュの時間で<font fg="afffff">明くる日</font>になると、傭兵を呼び出せます。<br/>
+	傭兵を呼び出すには、城の<font fg="afffff">傭兵隊長</font>のところに行く必要がありますが、この場合は君主の同行は必要ありません。<br/>
+	雇った傭兵は、<font fg="afffff">24時間</font>狩りに使えます。<br/></p>
+
+	<p><font fg="ffffaf">傭兵のリスト：</font><br/>
+	ケント城：ブルーシャーク ソードマン、ブルーシャーク パイクマン、ブルーシャーク アーチャー、ブルーシャーク メイジ<br/>
+	オークの要塞：オーク ソードマン、オーク アックスマン、オーク マークスマン、オーク モンク<br/>
+	ギラン城：ゴールド キャッスル ソードマン、ゴールド キャッスル パイクマン、ゴールド キャッスル アーチャー、ゴールド キャッスル ランスナイト<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

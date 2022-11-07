@@ -1,0 +1,4969 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 	enum DELETE_TYPE 	{		DELETE_NOTHING	= 0;		DELETE_COUNT	= 1;		DELETE_ALL		= 2;	}		enum PRIORITY_KIND	{		PRIORITY_LIMIT 		= 0, 인원수 제한되지 않는 방으로 안내 (순차적으로)		PRIORITY_MINCOUNT 	= 1, 최소 인원 방으로 안내	}-->
+<EnterMaps>
+	<EnterMap ID="1">
+		<!-- 잊혀진섬 티징 이벤트 -->
+		<MapData Action="a" Number="12459" X="32823" Y="32850">
+			<Conditions>
+				<Level Minimum="60" Maximum="99"/>
+				<Item NameID="7" Count="3000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="12460" X="32823" Y="32850">
+			<Conditions>
+				<Level Minimum="60" Maximum="99"/>
+				<Item NameID="7" Count="3000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="c" Number="12461" X="32823" Y="32850">
+			<Conditions>
+				<Level Minimum="60" Maximum="99"/>
+				<Item NameID="7" Count="3000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="d" Number="12462" X="32823" Y="32850">
+			<Conditions>
+				<Level Minimum="60" Maximum="99"/>
+				<Item NameID="7" Count="3000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="e" Number="12463" X="32823" Y="32850">
+			<Conditions>
+				<Level Minimum="60" Maximum="99"/>
+				<Item NameID="7" Count="3000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="2">
+		<!-- 크리스마스이벤트start -->
+		<MapData Action="a" Number="132" X="32728" Y="32818" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<Item NameID="16840" Count="1"/>
+				<Item NameID="7" Count="2424" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="3">
+		<MapData Action="a" Number="4" X="33445" Y="32795">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 크리스마스이벤트end -->
+	<!--EnterMap ID="4"-->
+	<!--  해골서버 크리스마스이벤트start -->
+	<!--MapData Action="a" Number="132" X="32728" Y="32818" Priority="PRIORITY_LIMIT" MaxUser="20"-->
+	<!--Conditions-->
+	<!--Level Minimum="55" Maximum="99"/-->
+	<!--Item NameID="16840" Count="1"/-->
+	<!--Item NameID="7" Count="1225" Delete="DELETE_COUNT" /-->
+	<!--/Conditions-->
+	<!--/MapData-->
+	<!--EnterMap-->
+	<!-- 160420 수렵이벤트 -->
+	<EnterMap ID="5">
+		<MapData Action="a" Number="132" X="32878" Y="32215" Range="3" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="141" X="32878" Y="32215" Range="3" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 160518 드상 지프리 이벤트 --> 
+	<EnterMap ID="6">
+		<MapData Action="a" Number="132" X="32761" Y="32867" Range="3" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<Item NameID="7" Count="2999" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="142" X="32761" Y="32867" Range="3" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="2999" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="16">
+		<MapData Action="buy" Number="4" X="33579" Y="32620" Priority="PRIORITY_LIMIT" MaxUser="20">
+			<Conditions>
+				<Level Minimum="60" Maximum="99"/>
+				<User PCCafe="false">
+					<!-- 				  <VIP Grade="1"/>  <VIP Grade="2"/>  <VIP Grade="3"/>  <VIP Grade="4"/>-->
+				</User>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="11220" X="32789" Y="32769" Priority="PRIORITY_LIMIT" MaxUser="20">
+			<Conditions>
+				<Level Minimum="81" Maximum="99"/>
+				<User PCCafe="false"/>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="11230" X="32789" Y="32769" Priority="PRIORITY_LIMIT" MaxUser="20">
+			<Conditions>
+				<Level Minimum="60" Maximum="80"/>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="11240" X="32789" Y="32769" Priority="PRIORITY_LIMIT" MaxUser="20">
+			<Conditions>
+				<Level Minimum="81" Maximum="99"/>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="17">
+		<!-- 기란에서 -->
+		<MapData Action="a" Number="4" X="32611" Y="32719" Priority="PRIORITY_LIMIT" MaxUser="20">
+			<Conditions>
+				<Level Minimum="52" Maximum="99"/>
+				<Item NameID="7" Count="1000" Delete="DELETE_ALL"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="4" X="32611" Y="32719" Priority="PRIORITY_LIMIT" MaxUser="20">
+			<Conditions>
+				<Level Minimum="52" Maximum="99"/>
+				<User PCCafe="false">
+					<!-- 				  <VIP Grade="1"/>  <VIP Grade="2"/>  <VIP Grade="3"/>  <VIP Grade="4"/>-->
+				</User>
+				<Item NameID="7" Count="1000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 초보자 공성 체험 -->
+	<EnterMap ID="18">
+		<MapData Action="a" Number="4" X="33450" Y="32737" Priority="PRIORITY_LIMIT" MaxUser="10">
+			<Conditions>
+				<Level Minimum="52" Maximum="100"/>
+				<Quest ProgressQuestIDs="1"/>
+				<!-- 진행중인 퀘스트가 있어야 입장 가능(공성퀘스트 수락 상태) -->
+				<OpenPeriod>
+					<!-- 입장 가능한 시간 -->
+					<Times>
+						<Time StartTime="17:00" Duration="20"/>
+						<Time StartTime="18:00" Duration="20"/>
+					</Times>
+				</OpenPeriod>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--말하는 섬 마을_루카스-->
+	<EnterMap ID="19">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1175" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1481" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1458" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1884" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1461" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1727" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2123" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2087" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2470" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2429" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2024" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="2107" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="2565" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="140" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1343" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1717" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1905" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="1717" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2445" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="2328" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="2532" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="2663" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="47" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="1447" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="1327" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="1647" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="1799" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="1662" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="2085" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="1928" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="2060" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2251" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="2247" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="2247" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="2155" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="2493" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--글루디오 마을_아스터-->
+	<EnterMap ID="20">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1175" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="321" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="283" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="709" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="298" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="552" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="948" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="927" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1310" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1254" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="864" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="947" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="1405" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1315" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="169" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="557" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="731" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="542" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1285" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="1153" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="1372" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="1503" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1207" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="287" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="167" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="473" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="639" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="487" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="925" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="768" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="885" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1077" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="1087" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="1087" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="981" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="1318" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--화전민 마을_지프란-->
+	<EnterMap ID="21">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1481" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="321" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="567" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="845" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="421" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="687" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1083" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="671" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="989" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1389" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="543" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="627" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="1085" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1554" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="340" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="237" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="866" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="677" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="964" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="1289" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="1051" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="1182" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1527" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="76" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="153" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="608" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="328" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="623" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="605" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="874" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="1021" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1212" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="979" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="979" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="1116" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="1453" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--우드벡 마을_트레이-->
+	<EnterMap ID="22">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1458" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="283" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="567" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="426" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="544" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="794" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="665" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1173" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1556" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="971" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1110" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="1193" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="1651" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1598" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="227" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="803" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="447" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="259" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1531" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="870" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="1618" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="1749" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1411" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="533" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="413" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="189" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="885" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="453" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="1171" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="1014" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="602" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="793" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="1333" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="1333" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="1147" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="1137" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--은기사 마을_메트-->
+	<EnterMap ID="23">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1884" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="709" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="845" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="426" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="423" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="629" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="447" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1008" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1391" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="590" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="945" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="1029" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="1487" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2024" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="541" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="832" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="59" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="266" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1366" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="444" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="1453" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="1584" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1837" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="921" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="735" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="237" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="721" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="289" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="1007" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="849" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="224" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="471" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="1169" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="1169" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="982" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="973" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--켄트 마을_스텐리-->
+	<EnterMap ID="24">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1461" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="298" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="421" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="544" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="423" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="266" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="662" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="629" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1012" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="968" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="566" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="649" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="1107" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1601" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="317" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="409" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="445" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="645" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="987" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="867" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="1074" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="1205" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1505" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="497" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="312" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="440" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="341" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="201" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="627" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="470" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="599" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="791" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="789" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="789" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="695" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="1032" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--요정 숲_엘루나-->
+	<EnterMap ID="25">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1751" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="591" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="270" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="837" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="711" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="293" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_elven" Number="4" X="33046" Y="32349" Range="3">
+			<!--요정 숲-->
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="553" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="949" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="537" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="719" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1255" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="273" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="426" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="815" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1824" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="610" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="121" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="732" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="938" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="778" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="1155" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="781" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="912" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1797" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="303" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="423" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="733" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="194" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="489" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="415" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="740" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="887" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1078" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="845" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="845" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="982" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="1319" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--기란 마을_윌마-->
+	<EnterMap ID="26">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1727" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="552" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="687" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="794" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="629" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="266" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="396" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="379" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="762" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="702" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="380" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="399" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="857" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1867" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="567" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="675" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="571" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="895" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="775" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="601" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="824" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="955" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1755" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="763" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="578" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="690" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="359" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="341" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="377" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="220" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="405" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="525" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="539" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="539" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="429" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="766" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--하이네 마을_리올-->
+	<EnterMap ID="27">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2123" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="948" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1083" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="665" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="447" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="662" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="396" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="561" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="945" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="306" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="776" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="582" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="1040" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2263" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="779" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1071" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="388" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="713" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1171" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="205" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="1007" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="1137" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2076" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="1159" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="974" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="507" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="755" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="461" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="560" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="403" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="223" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="129" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="722" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="722" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="535" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="526" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--웰던 마을_레슬리-->
+	<EnterMap ID="28">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2087" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="927" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="671" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1173" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1008" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="629" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="379" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="561" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="383" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="718" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="364" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="111" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="479" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2160" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="946" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="659" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="949" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="1274" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="759" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="725" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="445" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="576" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2133" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="747" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="759" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="1069" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="343" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="719" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="123" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="203" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="784" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="541" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="307" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="307" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="445" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="782" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--오렌 마을_키리우스-->
+	<EnterMap ID="29">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2470" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1310" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="989" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1556" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1391" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1012" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="762" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="945" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="383" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="801" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="453" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="363" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="95" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2543" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1329" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="753" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1333" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="1657" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1025" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="1109" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="91" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="193" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2517" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="1023" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="1143" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="1452" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="671" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="1103" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="385" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="542" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="1167" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="920" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="223" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="223" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="409" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="693" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--아덴 마을_엘레리스/시리우스/세린-->
+	<EnterMap ID="30">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2429" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1254" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1389" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="971" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="590" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="968" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="702" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="306" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="718" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="801" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1082" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="829" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="897" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2569" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1085" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1377" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="531" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="856" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1477" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="307" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="863" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="994" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2382" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="1465" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="1280" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="781" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="1061" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="767" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="841" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="515" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="369" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="177" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="579" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="579" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="392" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="383" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--침묵의 동굴 마을_다니엘-->
+	<EnterMap ID="31">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2024" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="864" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="543" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1110" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="945" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="566" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="380" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="776" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="364" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="453" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1082" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="253" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="541" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2097" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="883" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="307" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="887" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="1211" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="605" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="981" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="508" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="639" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2071" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="577" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="697" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="1006" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="225" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="657" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="241" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="567" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="721" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="905" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="671" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="671" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="809" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="1146" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--베히모스_데카비아-->
+	<EnterMap ID="32">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2107" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="947" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="627" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1193" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1029" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="649" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="399" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="582" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="111" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="363" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="829" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="253" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="458" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2181" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="967" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="547" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="970" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="1295" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="663" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="746" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="425" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="555" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2154" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="660" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="780" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="1089" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="308" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="740" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="22" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="314" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="805" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="652" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="419" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="419" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="556" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="893" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--실베리아_샤리엘-->
+	<EnterMap ID="33">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="2565" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1405" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1085" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1651" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1487" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1107" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="857" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="1040" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="479" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="95" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="897" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="541" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="458" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="7" Count="2639" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1425" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="848" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1428" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="1753" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="1121" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="1204" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="37" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="129" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="7" Count="2612" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="1118" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="1238" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="1547" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="766" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="1198" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="480" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="637" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="1263" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="1015" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="318" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="318" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="505" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="747" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--수상한 하늘정원_피아트-->
+	<EnterMap ID="34">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--기란감옥-->
+	<EnterMap ID="35">
+		<MapData Action="D_giran" Number="53" X="32810" Y="32731" Range="1"/>
+	</EnterMap>
+	<!--글루디오 던전-->
+	<EnterMap ID="36">
+		<MapData Action="D_gludin" Number="807" X="32811" Y="32728" Range="2">
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--지저호수-->
+	<EnterMap ID="37">
+		<MapData Action="D_abyss" Number="420" X="32800" Y="33051" Range="2"/>
+	</EnterMap>
+	<!--해적섬 던전 4층-->
+	<EnterMap ID="38">
+		<MapData Action="D_Pirate" Number="444" X="32734" Y="32807" Range="2"/>
+	</EnterMap>
+	<!--잊혀진 섬 대기 장소-->
+	<EnterMap ID="39">
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+		</MapData>
+	</EnterMap>
+	<!--복귀 용사의 마을_웰컴-->
+	<EnterMap ID="40">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_barlog" Number="4" X="32756" Y="33459" Range="3">
+			<!--욕망의 동굴-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_yahee" Number="4" X="34263" Y="32192" Range="3">
+			<!--그림자 신전-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--클라우디아 텔레포터-->
+	<EnterMap ID="41">
+		<MapData Action="Tel_talking" Number="0" X="32578" Y="32956" Range="1">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="7" Count="100" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="Tel_watera" Number="7783" X="32665" Y="32767" Range="1">
+			<!--물가지역 아래-->
+		</MapData>
+		<MapData Action="Tel_waterb" Number="7783" X="32727" Y="32759" Range="1">
+			<!--물가지역 위-->
+		</MapData>
+		<MapData Action="Tel_spidercave" Number="12146" X="32759" Y="32838" Range="1">
+			<!--거미 동굴-->
+		</MapData>
+		<MapData Action="Tel_field" Number="7783" X="32580" Y="32865" Range="1">
+			<!--초원-->
+		</MapData>
+		<MapData Action="Tel_underworld" Number="12149" X="32859" Y="32926" Range="1">
+			<!--지하 세계-->
+		</MapData>
+		<MapData Action="Tel_orcvil" Number="7783" X="32529" Y="32789" Range="1">
+			<!--오크 부락-->
+		</MapData>
+		<MapData Action="Tel_deathcastle" Number="12147" X="32686" Y="32976" Range="1">
+			<!--죽은자의 성소-->
+		</MapData>
+		<MapData Action="Tel_swamp" Number="7783" X="32646" Y="32916" Range="1">
+			<!--늪지대-->
+		</MapData>
+	</EnterMap>
+	<!--잊혀진 섬 텔레포터-->
+	<EnterMap ID="42">
+		<MapData Action="Tel_A_AREA" Number="1708" X="32625" Y="32684" Range="3">
+			<!--잊섬 서쪽 지역-->
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="Tel_B_AREA" Number="1708" X="32661" Y="33003" Range="3">
+			<!--잊섬 남쪽 지역-->
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="Tel_C_AREA" Number="1708" X="32941" Y="33014" Range="3">
+			<!--잊섬 동쪽 지역-->
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--말하는 섬 던전 텔레포터-->
+	<EnterMap ID="43">
+		<MapData Action="a" Number="2" X="32665" Y="32792" Range="2">
+			<Conditions>
+				<Level Minimum="30" Maximum="69"/>
+				<Item NameID="7" Count="500" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 지배의 결계 텔레포터 -->
+	<EnterMap ID="44">
+		<MapData Action="control" Number="15403" X="32782" Y="32898" Range="5">
+			<Conditions>
+				<Item NameID="7" Count="10000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--161224 크리스마스이벤트-->
+	<EnterMap ID="45">
+		<MapData Action="a" Number="5501" X="32778" Y="32989" Range="3" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<Item NameID="7" Count="1225" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="5521" X="32778" Y="32989" Range="3" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="1225" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 챌린지 3주차 수렵이벤트 챌린저 서버 설정 -->
+	<EnterMap ID="46">
+		<MapData Action="a" Number="5900" X="32792" Y="32737" Range="1" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<Item NameID="7" Count="2000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="5908" X="32792" Y="32737" Range="1" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<User PCCafe="true"/>
+				<Item NameID="7" Count="2000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--대만 VIP 전용 도깨비 숲속-->
+	<EnterMap ID="47">
+		<MapData Action="TWD_vip1" Number="7000" X="32699" Y="32843" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="300000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 지배의 결계 텔레포터 -->
+	<EnterMap ID="48">
+		<MapData Action="control" Number="15403" X="32796" Y="32853" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="10000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--대만 01월 영웅 서비스 시간의 균열 -->
+	<EnterMap ID="49">
+		<MapData Action="a" Number="2008" X="32801" Y="32927">
+			<Conditions>
+				<Item NameID="7" Count="30000" Delete="DELETE_COUNT"/>
+				<Item NameID="21297" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="2009" X="32801" Y="32927">
+			<Conditions>
+				<Item NameID="7" Count="30000" Delete="DELETE_COUNT"/>
+				<Item NameID="21297" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="c" Number="2008" X="32801" Y="32927">
+			<Conditions>
+				<Item NameID="7" Count="30000" Delete="DELETE_COUNT"/>
+				<Item NameID="21297" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="d" Number="2009" X="32801" Y="32927">
+			<Conditions>
+				<Item NameID="7" Count="30000" Delete="DELETE_COUNT"/>
+				<Item NameID="21297" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="50">
+		<MapData Action="a" Number="631" X="32856" Y="32807">
+			<Conditions>
+				<OpenPeriod>
+					<Times>
+						<Time StartTime="21:00" Duration="120"/>
+					</Times>
+				</OpenPeriod>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--170329 Hight Field Renewal -->
+	<EnterMap ID="51">
+		<MapData Action="a" Number="15410" X="34147" Y="32788" Range="2">
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="52">
+		<MapData Action="a" Number="15420" X="34142" Y="32186" Range="1">
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="53">
+		<MapData Action="a" Number="15430" X="33332" Y="32444" Range="2">
+			<Conditions>
+				<Item NameID="7" Count="5000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="30" X="32809" Y="32809" Range="1">
+			<Conditions>
+				<Item NameID="7" Count="500" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="54">
+		<MapData Action="a" Number="15440" X="33657" Y="32411" Range="2">
+			<Conditions>
+				<Item NameID="7" Count="10000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--17 0531 라스타바드 폐허-->
+	<EnterMap ID="55"> <!--켄트-->
+		<MapData Action="lava_kent" Number="479" X="32833" Y="32863" Range="2">
+			<Conditions>
+				<Level Minimum="80" Maximum="99"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="56"> <!--기란-->
+		<MapData Action="lava_giran" Number="479" X="32933" Y="32772" Range="2">
+			<Conditions>
+				<Level Minimum="80" Maximum="99"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="57"> <!--오크-->
+		<MapData Action="lava_orc" Number="479" X="32731" Y="32774" Range="2">
+			<Conditions>
+				<Level Minimum="80" Maximum="99"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="58">
+		<!--대만 VIP 전용 도깨비 숲속-->
+		<MapData Action="TWD_vip1" Number="7000" X="32699" Y="32843" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="300000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<!--대만 VIP 글루딘 던전-->
+		<MapData Action="TWD_vip2" Number="7940" X="32812" Y="32724" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="300000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="59">
+		<!--대만 VIP 전용 도깨비 숲속-->
+		<MapData Action="TWD_vip1" Number="7000" X="32699" Y="32843" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="300000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<!--대만 VIP 글루딘 던전-->
+		<MapData Action="TWD_vip2" Number="7940" X="32812" Y="32724" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="300000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<!--대만 VIP 용의 던전-->
+		<MapData Action="TWD_vip3" Number="7951" X="32810" Y="32809" Range="3">
+			<Conditions>
+				<Item NameID="7" Count="300000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+<!-- 20170426 tw sealed magic energy login event start -->
+	<EnterMap ID="60">
+		<MapData Action="a" Number="783" X="32795" Y="32751">
+			<Conditions>
+				<OpenPeriod>
+					<Weeks>
+						<Week WeekDay="TUE">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+						<Week WeekDay="THU">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+					</Weeks>
+				</OpenPeriod>
+				<Item NameID="17053" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="15405" X="32795" Y="32751">
+			<Conditions>
+				<OpenPeriod>
+					<Weeks>
+						<Week WeekDay="TUE">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+						<Week WeekDay="THU">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+					</Weeks>
+				</OpenPeriod>
+				<Item NameID="17053" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="c" Number="15406" X="32795" Y="32751">
+			<Conditions>
+				<OpenPeriod>
+					<Weeks>
+						<Week WeekDay="TUE">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+						<Week WeekDay="THU">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+					</Weeks>
+				</OpenPeriod>
+				<Item NameID="17053" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="d" Number="15407" X="32795" Y="32751">
+			<Conditions>
+				<OpenPeriod>
+					<Weeks>
+						<Week WeekDay="TUE">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+						<Week WeekDay="THU">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+					</Weeks>
+				</OpenPeriod>
+				<Item NameID="17053" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="e" Number="15408" X="32795" Y="32751">
+			<Conditions>
+				<OpenPeriod>
+					<Weeks>
+						<Week WeekDay="TUE">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+						<Week WeekDay="THU">
+							<Times>
+								<Time StartTime="0:00" Duration="1380"/>
+							</Times>
+						</Week>
+					</Weeks>
+				</OpenPeriod>
+				<Item NameID="17053" Count="1" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+<!-- 20170426 tw sealed magic energy login event end -->
+<!-- 초보지역 개편 군터의 집-->
+	<EnterMap ID="61">
+		<!--돼지 -> 군터의 집-->
+		<MapData Action="a" Number="3" X="32682" Y="32814" Range="1"> 
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--말하는 섬 던전 텔레포터-->
+	<EnterMap ID="62">
+		<MapData Action="a" Number="1" X="32667" Y="32806" Range="1">
+			<Conditions>
+				<Level Minimum="30" Maximum="69"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!--말하는 섬에서 군터의집-->
+	<EnterMap ID="63">
+		<MapData Action="a" Number="3" X="32737" Y="32847" Range="1"> 
+			<Conditions>
+				<Level Minimum="1" Maximum="30"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>	
+	<EnterMap ID="64">
+		<!--거미 -> 군터의 집-->
+		<MapData Action="a" Number="3" X="32689" Y="32845" Range="1"> 
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="65">
+		<!--첩자-> 군터의 집-->
+		<MapData Action="a" Number="3" X="32724" Y="32844" Range="1"> 
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="66">
+		<!--군터의 집에서 돼지 잡기 이동 맵번호 좌표 수정-->
+		<MapData Action="a" Number="7" X="32767" Y="32832" Range="1">
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="67">
+		<!--군터의 집에서 거미 잡기 이동-->
+		<MapData Action="a" Number="12146" X="32758" Y="32798" Range="1">
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="68">
+		<!--군터의 집에서 죽은자의 세계 1층 이동-->
+		<MapData Action="a" Number="12147" X="32760" Y="33046" Range="1">
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="69">
+		<!--군터의 집에서 흑기사첩자 잡기 이동 맵번호 및 좌표 수정-->
+		<MapData Action="a" Number="8" X="32832" Y="32959" Range="1">
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="70">
+		<!--말하는 섬에서 테온으로 이동-->
+		<!--드워프-->
+		<MapData Action="a" Number="0" X="32508" Y="32927" Range="4">
+			<Conditions>
+				<Level Minimum="1" Maximum="69"/>
+			</Conditions>
+		</MapData>
+		<!--말섬던전-->
+		<MapData Action="b" Number="0" X="32492" Y="32858" Range="4">
+			<Conditions>
+				<Level Minimum="1" Maximum="69"/>
+			</Conditions>
+		</MapData>
+		<!--오크-->
+		<MapData Action="c" Number="0" X="32342" Y="32917" Range="4">
+			<Conditions>
+				<Level Minimum="1" Maximum="69"/>
+			</Conditions>
+		</MapData>
+		<!--거미-->
+		<MapData Action="d" Number="0" X="32512" Y="33090" Range="4">
+			<Conditions>
+				<Level Minimum="1" Maximum="69"/>
+			</Conditions>
+		</MapData>
+		<!--흑기사-->
+		<MapData Action="e" Number="0" X="32650" Y="33170" Range="4">
+			<Conditions>
+				<Level Minimum="1" Maximum="69"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="71">
+		<!--군터의 집에서 말섬 북섬 이동-->
+		<MapData Action="a" Number="0" X="32682" Y="32842" Range="1">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="72">
+		<MapData Action="a" Number="6322" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="6323" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="c" Number="6324" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="d" Number="6325" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="e" Number="6326" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="f" Number="6327" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="g" Number="6328" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="h" Number="6329" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+				<Item NameID="13010" Count="1"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="73">
+		<MapData Action="a" Number="6330" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="79"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="b" Number="6331" X="32769" Y="32792">
+			<Conditions>
+				<Level Minimum="1" Maximum="79"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="74">
+		<!--말섬에서 검은전함-->
+		<MapData Action="a" Number="10" X="32786" Y="32735" Range="1">
+			<Conditions>
+				<Level Minimum="50" Maximum="69"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>	
+	<EnterMap ID="75">
+		<!--검은전함에서 말섬-->
+		<MapData Action="a" Number="0" X="32644" Y="33219" Range="1">
+			<Conditions>
+				<Level Minimum="1" Maximum="99"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>	
+	<EnterMap ID="76">
+		<!--죽은자 -> 군터의 집-->
+		<MapData Action="a" Number="3" X="32705" Y="32843" Range="1">  
+			<Conditions>
+				<Level Minimum="1" Maximum="55"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<EnterMap ID="77">
+		<!-- 오만의 탑 인터서버 1층 -->
+		<MapData Action="1" Number="12852" X="32738" Y="32799" Range="5">  
+			<Conditions>
+				<ItemList NameIDs="12171,13994,11160" Count="1" Connective="Or"/>
+			</Conditions>
+		</MapData>
+		<!-- 오만의 탑 인터서버 2층 -->
+		<MapData Action="2" Number="12853" X="32738" Y="32799" Range="5">  
+			<Conditions>
+				<ItemList NameIDs="12172,13994,11160" Count="1" Connective="Or"/>
+			</Conditions>
+		</MapData>
+		<!-- 오만의 탑 인터서버 3층 --><!-- 정상 시작지점 테스트용 임시 설정 -->
+		<MapData Action="3" Number="4" X="32738" Y="32799" Range="5">  
+			<Conditions>
+				<ItemList NameIDs="12173,13994,11160" Count="1" Connective="Or"/>
+			</Conditions>
+		</MapData>
+		<!-- 오만의 탑 인터서버 4층 --><!-- 정상 중간지점 테스트용 임시 설정 -->
+		<MapData Action="4" Number="4" X="32738" Y="32799" Range="5">  
+			<Conditions>
+				<ItemList NameIDs="12174,13994,11160" Count="1" Connective="Or"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+	<!-- 챌린지 3주차 수렵이벤트 챌린저 서버 설정 -->
+	<EnterMap ID="78">
+		<MapData Action="a" Number="5900" X="32792" Y="32737" Range="1" Priority="PRIORITY_MINCOUNT">
+			<Conditions>
+				<Level Minimum="55" Maximum="99"/>
+				<Item NameID="7" Count="2000" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+  <EnterMap ID="1000">
+		<MapData Action="T_talk island" Number="0" X="32581" Y="32928" Range="3">
+			<!--말하는 섬 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-north" Number="0" X="32681" Y="32842" Range="3">
+			<!--말하는 북섬-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-blackship" Number="0" X="32646" Y="33215" Range="3">
+			<!--검은 전함-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-watchtower" Number="0" X="32411" Y="32943" Range="3">
+			<!--망루 지대-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-orctown" Number="0" X="32350" Y="32934" Range="3">
+			<!--말섬 오크 부락-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-outpost" Number="0" X="32709" Y="33148" Range="3">
+			<!--말섬 흑기사 전초 기지-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-dwarftown" Number="0" X="32508" Y="32927" Range="3">
+			<!--말섬 드워프 부락-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_island-dwarftown2" Number="0" X="32663" Y="33050" Range="3">
+			<!--말섬 드워프 부락2-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_gludio" Number="4" X="32606" Y="32792" Range="3">
+			<!--글루디오 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_orc" Number="4" X="32751" Y="32441" Range="3">
+			<!--화전민 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_elf" Number="4" X="33057" Y="32321" Range="3">
+			<!--요정 숲 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_woodbec" Number="4" X="32634" Y="33190" Range="3">
+			<!--우드벡 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silver knight" Number="4" X="33071" Y="33390" Range="3">
+			<!--은기사 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_kent" Number="4" X="33060" Y="32785" Range="3">
+			<!--켄트 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_giran" Number="4" X="33437" Y="32800" Range="3">
+			<!--기란 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_heine" Number="4" X="33601" Y="33232" Range="3">
+			<!--하이네 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_werldern" Number="4" X="33702" Y="32501" Range="3">
+			<!--웰던 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_oren" Number="4" X="34055" Y="32277" Range="3">
+			<!--오렌 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_aden" Number="4" X="33933" Y="33356" Range="3">
+			<!--아덴 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_scave" Number="304" X="32874" Y="32905" Range="3">
+			<!--침묵의 동굴 마을-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_behemoth" Number="1001" X="32780" Y="32883" Range="3">
+			<!--베히모스-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_silveria" Number="1000" X="32838" Y="32860" Range="2">
+			<!--실베리아-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="T_pcbang" Number="622" X="32771" Y="32840" Range="3">
+			<!--수상한 하늘정원-->
+			<Conditions>
+				<User PCCafe="true"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_talk island" Number="0" X="32475" Y="32858" Range="3">
+			<!--말하는 섬 던전-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_gludio" Number="4" X="32724" Y="32921" Range="3">
+			<!--글루디오 던전-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_elven" Number="4" X="32936" Y="32276" Range="3">
+			<!--요정 숲 던전-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_training" Number="4" X="33142" Y="33357" Range="3">
+			<!--수련 던전-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_dragon valley" Number="30" X="32809" Y="32809" Range="1">
+			<!--용의 계곡 던전-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_eva kingdom" Number="4" X="33620" Y="33504" Range="3">
+			<!--에바 왕국-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="D_ivory tower" Number="4" X="34041" Y="32163" Range="3">
+			<!--상아탑:발록 진영-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_shelob" Number="0" X="32435" Y="33006" Range="3">
+			<!--거미 숲-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orc forest" Number="4" X="32690" Y="32291" Range="3">
+			<!--오크 부락-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_ruin of death" Number="4" X="32781" Y="32692" Range="3">
+			<!--죽음의 폐허-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_tomb of spirit" Number="4" X="32866" Y="32925" Range="3">
+			<!--망자의 무덤-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_desert" Number="4" X="32859" Y="33255" Range="3">
+			<!--사막-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_wilderness" Number="4" X="33015" Y="33230" Range="3">
+			<!--거친 황야-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_laboratory" Number="4" X="32875" Y="32802" Range="3">
+			<!--마법사 연구실-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_dragon valley" Number="4" X="33331" Y="32465" Range="3">
+			<!--용의 계곡-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_halpas" Number="4" X="33162" Y="32968" Range="3">
+			<!--암흑용의 상흔-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_valakas" Number="4" X="33643" Y="32424" Range="3">
+			<!--화룡의 둥지-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_jungle" Number="4" X="33792" Y="32774" Range="3">
+			<!--밀림지대-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_heine" Number="4" X="33457" Y="33235" Range="3">
+			<!--하이네 필드-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_mirror" Number="4" X="33769" Y="33313" Range="3">
+			<!--거울의 숲-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_elmor" Number="4" X="34054" Y="32564" Range="3">
+			<!--엘모어 격전지-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_orenwall" Number="4" X="34123" Y="32190" Range="3">
+			<!--오렌 설벽-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_lindvior" Number="4" X="34124" Y="32797" Range="3">
+			<!--풍룡의 둥지-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+		<MapData Action="F_giant" Number="4" X="34268" Y="33083" Range="3">
+			<!--황혼의 산맥-->
+			<Conditions>
+				<Item NameID="23" Count="1" Bless="BLESSED" Delete="DELETE_COUNT"/>
+			</Conditions>
+		</MapData>
+	</EnterMap>
+</EnterMaps>

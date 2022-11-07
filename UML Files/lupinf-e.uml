@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>There are some rules for teleporting.</p>
+	<p><br/></p>
+	<p>1．Level 1~69</p>
+	<p><font fg="ffffaf">(説明するまでもない)</font> </p>
+	<p><br/></p>
+	<p>2．いかなる状況でも屈さない勇気 </p>
+	<p><font fg="ffffaf">(恐れる心ある者は去るが良い)</font></p>
+	<p><br/></p>
+	<p>3．見棄てられた者たちの地/話せる島ダンジョンの制限時間：<br/>120分 </p>
+	<p><font fg="ffffaf">(世間は広いしやることは多い)</font> </p>
+	<p><br/></p>
+	<p>4．話せる島ダンジョン：レベル30～69 </p>
+	<p><font fg="ffffaf">(まさか…私を失望させる気か？)</font> </p>
+	<p><br/></p>
+	<p>5．SKT Dungeon:レベル55～74 </p>
+	<p><font fg="ffffaf">(修練に励めば、さらに広い世界を見ることができる…)</font> </p>
+	<p><br/></p>
+	<p>6．見棄てられた者たちの地：レベル75以上 </p>
+	<p><font fg="ffffaf">(基本的な修練となるだろう)</font> </p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

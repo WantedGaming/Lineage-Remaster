@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+	<portrait>PO_002</portrait>
+		<portrait></portrait>
+		<name>ライラ</name>
+		<job>[フォノス征伐隊]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>火田村へ来られたことを歓迎します。私はこの村の代表のライラ・グレッグハイムと申します。ライラと呼んでください。
+		<br/><br/>
+		</p><p>村の周りのフォノス オークを討伐していただければ、報賞をさしあげます。
+		<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

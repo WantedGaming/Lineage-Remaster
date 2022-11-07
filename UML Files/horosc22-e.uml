@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font></p>
+    <p>大きな試練の一日です。</p>
+	<p>巨大な血盟と一戦を交えて、あなたのみならず大切な友達に災いが降りかかるでしょう。しかし問題はあなた自身で解決せねばなりません。誰の助けも得られないでしょう。<br/><br/></p>
+	<p><a link="keplisha3">助言を聞く</a></p>
+  </dialog>
+</npcdialog>

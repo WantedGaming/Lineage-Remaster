@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>釣り場</title>
+	<npc>
+		<portrait></portrait>
+		<name>ポール</name>
+		<job>釣り場ガイド</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 もうっ！冒険者さん！お金持ってないじゃない！<br/>
+		 冒険じゃなくて見物してただけなんでしょ？見そこなったよ！<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

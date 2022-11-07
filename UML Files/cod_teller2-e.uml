@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>選ばれなかった者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 何だお前！今忙しんだ！邪魔するんじゃない！<br/>
+		 <br/>
+		 恐れ多くもバルログ様の恩を仇で返そうとは不届き者たちめ！…
+		 もしかして、お前もその仲間か？！<br/>
+		 よく聞けよ！俺たちがここにいる理由は！大きな仕事を任せられる勇士を育てようという、バルログ様のありがた～いお考えだからだ！わかったか？！<br/>
+		 <br/>
+		 わかったら、バルログの栄光を取り戻すために「カヘルの操り人形」を征伐しに行くぞ！<br/>
+		 ん？お前、何を持っている！栄光ある兵士のためのバルログ様の下賜品か？こっちによこせ！<br/>
+		</p><p><a action="request mcodr2">渡す</a></p>
+		<p><br/>
+		 
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

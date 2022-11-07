@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ポテンピン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>現在、資金不足により城の機能が麻痺した状態です。どう対処するか指示してください。</p>
+		<p><a link="potempin1">ポテンピンに指示を出す</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	<dialog>
+		
+		<p>あそこにいる鍛冶屋のドワーフだけど、どうしてこの村にいると思う？<br/></p>
+		<p>あいつはダークエルフとの契約で、古代ダークエルフの武器製造術を研究しているんだ。だから地上にいる凶悪なドワーフとはちょっと違うだろ？<br/></p>
+							
+	</dialog>
+
+</npcdialog>

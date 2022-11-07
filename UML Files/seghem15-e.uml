@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>セゲムアトゥバ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>お前さんの部下<var src="0"/>のCHRで見ると、お前さんにつく戦士の数は最大で<var src="1"/>人までじゃ、欲を出してはならんぞ。</p>
+	</dialog>
+	
+</npcdialog>

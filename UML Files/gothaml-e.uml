@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ ゴッサム</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/><br/>
+		</p><p>おや、あなたのようなひよっこのアイテムは預かることができませんよ。アイテムを預けたいなら、もっと名を上げてからおいでなさい。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

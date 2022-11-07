@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>アイテム</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">アイテム：アイテム全般</font></p>
+	<p><font fg="ffffaf">アイテムを拾う：</font><br/>
+	地面に落ちているアイテムを拾うには、<font fg="afffff">左クリック</font>するか<font fg="afffff">F4キー</font>を使用します。<br/>
+	いくつかのアイテムが1か所に重なっている場合は、<font fg="afffff">右クリック</font>で拾うアイテムを切り替えます。<br/>
+	Adenaや矢などの数量性アイテムは、チャットウィンドウに<font fg="afffff">/getall</font>と入力すると1度に拾うことができます<br/>
+	このコマンドをもう一度入力すると、量を指定して拾うこともできます。これはゲームオプションの<font fg="afffff">全てを拾う：オン/オフ</font>で設定できます。<br/></p>
+		<p><font fg="ffffaf">アイテムを使う：</font><br/>
+	所持しているアイテムを使うには、アイテム ウィンドウで使いたいアイテムをダブルクリックします。<br/>
+	また、<a link="helpdan">ショートカットキー</a>に設定して使う方法もあります。<br/></p>
+	<p><font fg="ffffaf">アイテムを置く：</font><br/>
+	インベントリからアイテムをドラッグして、自分の周り1セル以内に置くことができます。<br/></p>
+	<p><font fg="ffffaf">アイテムを削除する：</font><br/>
+	アイテムを交換したり捨てたりせずに完全に削除するには、アイテムウィンドウの右下にある<font fg="afffff">ゴミ箱</font>へアイテムをドラッグ＆ドロップするか、アイテムを選択して<font fg="afffff">deleteキー</font>を押します。<br/></p>
+	<p><font fg="ffffaf">アイテムを整理する：</font><br/>
+	アイテムウィンドウ内でアイテムをお望みの位置にドラッグ＆ドロップします。<br/>
+	<font fg="afffff">Ctrlキー</font>を押したままでアイテムを移動すれば、移動先のアイテムと位置が変わります。<br/></p>
+	<p><font fg="ffffaf">複数アイテムを選択する：</font><br/>
+	<font fg="afffff">Shiftキー</font>を押したままで複数のアイテムをクリックします。<br/>
+	そうすると、複数のアイテムを一度に移動できます。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	 </dialog>
+</npcdialog>

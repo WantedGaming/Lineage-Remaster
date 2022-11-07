@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Aldran</name>
+    <job>Priest in Training</job>
+  </npc>
+  <dialog>
+    <p>Thank you. I am glad we were able to heal their souls.</p>
+    <p>If you find the <font fg="ffafff">remains</font> again, I'm always willing to help!<br/><br/><br/></p>
+    <p><a action="a">Move to Central Water Area</a><br/></p>
+    <p><a action="b">Move to East Side Water Area</a><br/></p>
+    <p><a action="c">Move to West Side Water Area</a><br/></p>
+    <p><a action="d">Move to South Side Water Area</a><br/></p>
+    <p><a action="e">Move to Deep Central Region</a><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		こんにちは。<br/>
+		すでに私のプレゼントを受け取ってますね？<br/>
+		1個だけしか差し上げられません…<br/>
+		申し訳ございません。<br/>
+		<font fg="FF9976">冷寒の気</font>を持っているのなら、火竜の棲処のドワーフ洞窟の入口にいる
+		<font fg="ffaaff">エルドナーシュ</font>様が、<font fg="ffaaff">火竜の安息の地</font>に 
+		入れるように手を貸してくださるはずです。
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

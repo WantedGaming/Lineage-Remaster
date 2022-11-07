@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 忠実な僕よ！ヤヒ様はお前を待っておられるぞ。
+		 これからはお前の霊魂はヤヒ様を通じて永遠なる安息を手に入れるだろう！<br/>
+		<br/>
+		<a action="d">ヤヒ様に会わせてください</a>
+		<br/>
+		<p align=center><img src="1498">
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

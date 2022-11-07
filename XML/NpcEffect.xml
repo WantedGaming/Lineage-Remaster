@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<npceffect>
+		<npc desc="$19875">
+			<effect id="96" qmotionflag="91" minvalue="0" maxvalue="99"/>
+			<effect id="97" qmotionflag="91" minvalue="0" maxvalue="99"/>
+		</npc>
+		<npc desc="$19876">
+			<effect id="96" qmotionflag="91" minvalue="1" maxvalue="1"/>
+			<effect id="97" qmotionflag="91" minvalue="1" maxvalue="1"/>
+			<effect id="98" qmotionflag="91" minvalue="2" maxvalue="3"/>
+			<effect id="99" qmotionflag="91" minvalue="2" maxvalue="3"/>
+			<effect id="100" qmotionflag="91" minvalue="4" maxvalue="4"/>
+			<effect id="101" qmotionflag="91" minvalue="4" maxvalue="4"/>
+		</npc>
+		<npc desc="$19882">	
+			<effect id="96" qmotionflag="91" minvalue="4" maxvalue="4"/>
+			<effect id="97" qmotionflag="91" minvalue="4" maxvalue="4"/>
+			<effect id="98" qmotionflag="91" minvalue="5" maxvalue="6"/>
+			<effect id="99" qmotionflag="91" minvalue="5" maxvalue="6"/>
+			<effect id="100" qmotionflag="91" minvalue="7" maxvalue="7"/>
+			<effect id="101" qmotionflag="91" minvalue="7" maxvalue="7"/>
+		</npc>
+		<npc desc="$19956">	
+			<effect id="96" qmotionflag="91" minvalue="7" maxvalue="7"/>
+			<effect id="97" qmotionflag="91" minvalue="7" maxvalue="7"/>
+			<effect id="98" qmotionflag="91" minvalue="8" maxvalue="9"/>
+			<effect id="99" qmotionflag="91" minvalue="8" maxvalue="9"/>
+			<effect id="100" qmotionflag="91" minvalue="20" maxvalue="20"/>
+			<effect id="101" qmotionflag="91" minvalue="20" maxvalue="20"/>
+		</npc>
+		<npc desc="$19969">	
+			<effect id="96" qmotionflag="91" minvalue="20" maxvalue="23"/>
+			<effect id="97" qmotionflag="91" minvalue="20" maxvalue="23"/>
+			<effect id="98" qmotionflag="91" minvalue="30" maxvalue="34"/>
+			<effect id="99" qmotionflag="91" minvalue="30" maxvalue="34"/>
+			<effect id="100" qmotionflag="91" minvalue="40" maxvalue="43"/>
+			<effect id="101" qmotionflag="91" minvalue="40" maxvalue="43"/>
+		</npc>
+</npceffect>

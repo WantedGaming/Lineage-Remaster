@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+  </npc>
+  <dialog>
+	<p>お前、ここをどこだと思っている！</p>
+	<p>警備兵！この者どもを即刻この場から引きずり出せ！</p>
+  </dialog>
+</npcdialog>

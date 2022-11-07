@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラクッキ</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>いつでも最高級のフルーツと野菜を揃えております。</p>
+		<p>おいしい食べ物もたくさんありますから、どうぞ見ていってください。</p>
+		<panel type="Panel_Shop_Bt_Buy">
+    <button action="buy"/>
+    </panel>
+	</dialog>
+
+</npcdialog>

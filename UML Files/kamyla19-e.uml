@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+そんな！あなた様が何も望んでいらっしゃらないのは私もわかっております。<br/><br/>
+でも、このまま行かれてしまっては私の心が晴れません。私のためにも、どうかお納めください…<br/><br/>
+<a link="kamyla18">わかりました、ありがたく頂戴します</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>リビアン</name>
+		<job>エルフ</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>こんにちは。新しい地域を探険して見たいんでしょうか？</p>
+		<p><a action="teleportURL">隠された渓谷へ</a></p>
+		<p>ここから少し離れた所に隠された渓谷という場所があります。</p>
+		<p>そこは人間が住んでいる所ですよ。</p>
+		<p>現在何かによって頭を抱えているんですって。私たち精霊の子孫の助けが必要そうです。	</p>
+	</dialog>
+	
+</npcdialog>

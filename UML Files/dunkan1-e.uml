@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+最近また領主が代わったんだって？<br/>
+お偉方のすることなんざ庶民は知ったこっちゃないが、領主が代わるごとにこう税金が上がったんじゃ、食っていくのも精一杯だ。<br/>
+まったく住みにくい世の中になったもんだよ。
+</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>史学者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+	<p>
+		<br/>
+		お前くらいの歳なら、デスナイトに一度くらい会ったことはあるだろうな。どうだ？何か感じたか？<br/>
+		その姿から昔人間であった頃の面影を見てとることはできたか？<br/>
+		<br/>
+		デスナイトがどうやって生まれたのかは、君もある程度知ってるようだな。<br/>
+		しかし、その話が正しいとは言えないのだ。人間が竜の討伐に成功して、デスナイトになったのではないかも知れないという話だ。<br/>
+		<br/>
+		<br/><a action="b">史学者の声がだんだんぼやけて聞こえる</a><br/>
+		<br/><a action="c">討伐隊の話がおぼろげに浮かんでくる</a><br/>
+	</p>
+	</dialog>
+</npcdialog>

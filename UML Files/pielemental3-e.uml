@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>古代の精霊</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>ソウル クリスタルは、ソウル ピースが魔力で結合したものです。作られたソウル クリスタルをこの島の地上にある<a link="pielemental4">捨てられた祭壇</a>で使用すると、いつでも精霊の墓に行くことができます。</p>
+		<p>ソウル ピース20個と魔力の石3個をお持ちいただければ、ソウル クリスタルを作ることができます。</p>
+		<p><a action="request crystal of soul">ソウル ピースと魔力の石を渡す</a></p>
+	</dialog>
+
+</npcdialog>

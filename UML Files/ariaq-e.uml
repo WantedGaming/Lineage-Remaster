@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>アリア</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>私はウッドベック村の長老の娘、アリアと言います。</p>
+		<p>最近、サンドワーム影響でしょうか。アントクイーンがもう住民を攻撃しないようです。</p>
+		<p>本当にホッとしています。</p>
+		<p>もし修練のためにいらっしゃっているなら、<font fg="ffffaf">シルバーナイトタウンの基礎訓練教官</font>を訪ねてみてください。</p>
+		<p>きっと役に立つはずです。</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>風竜は竜のなかで唯一棲処を持たない。それはつまり裏を返せば、リンドビオルはどこにでも現れるっていうことだ。</p>
+	<p>いつどこにやつが現れるかなんて分からない、油断したらお前の頭上にやつの口があるかもしれないぞ。</p>
+	<p>ところで、何で最近しょっちゅうここに来るんだ。</p>
+	<p><a link="owon1">戻る</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>I am busy protecting the security of Aden. Please be brief in your requirements.<br/><br/>
+		<br/>
+		<a action="ktguard6">Ask who the current king is.</a>
+		<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

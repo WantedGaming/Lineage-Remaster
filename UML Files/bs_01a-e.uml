@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>強化ウィザード</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[強化ウィザード]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 おっと、あなたはまだ<font fg="ffaaaa">戦闘中</font>のようですね。このままでは私の神聖な魔法が妨害されてしまいます。<br/><br/><font fg="ffaaaa">戦闘</font>が終わったらまた来てください。
+		
+		</p>
+	</dialog>
+</npcdialog>
+

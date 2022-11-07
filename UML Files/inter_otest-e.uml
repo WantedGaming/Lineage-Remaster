@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">暗黒のポータル：</font></p><br/>
+		<p><font fg="ffffaf">
+		インターサーバーにすぐ移動(テスト用)<br/>
+		</font>
+		<a action="13">最上階にあるボスの部屋の前に移動</a><br/>
+		</p><p agap="0" lgap="0">
+		<a action="1">1階</a> <br/>
+		<a action="2">2階</a> <br/>
+		<a action="3">3階</a> <br/>
+		<a action="4">4階</a> <br/>
+		<a action="5">5階</a> <br/>
+		<a action="6">6階</a> <br/>
+		<a action="7">7階</a> <br/>
+		<a action="8">8階</a> <br/>
+		<a action="9">9階</a> <br/>
+		<a action="10">10階</a> <br/>
+		<a action="11">最上階開始地点</a> <br/>
+		<a action="12">最上階中間地点</a> <br/>
+		<img src="15617" highlight="p15618" action="1"></img>
+		<img src="15619" highlight="p15620" action="2"></img>
+		<img src="15621" highlight="p15622" action="3"></img>
+		<img src="15623" highlight="p15624" action="4"></img>
+		<img src="15625" highlight="p15626" action="5"></img>
+		<img src="15627" highlight="p15628" action="6"></img>
+		<img src="15629" highlight="p15630" action="7"></img>
+		<img src="15631" highlight="p15632" action="8"></img>
+		<img src="15633" highlight="p15634" action="9"></img>
+		<img src="15635" highlight="p15636" action="10"></img>
+		<img src="16324" highlight="p16325" action="11"></img>
+		<img src="16326" highlight="p16327" action="12"></img>
+		</p>
+		<p>
+		
+		</p>
+	</dialog>
+</npcdialog>

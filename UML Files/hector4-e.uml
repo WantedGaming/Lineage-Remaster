@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		アイアン ヘルムを作るには、ナイト バイザー1つとランプ メタル120個が必要だ。手数料は16500Adenaだよ。<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request iron visor"/></panel><p align="center">アイアン ヘルムをつくる</p><br/>
+
+	</dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ポワール</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>うちの鉱山には入ってみたか？あそこはすごく面白いぞ。</p>
+		<p>鉱物がくねくね動くんだが、それをうまく使えば鉱山全体が大きな剣になるかもしれないんだ。</p>
+		<p>実際に一度入って見てみたらどうだ？</p>
+		<p><a action="teleportURL">入ってみる</a></p>
+	</dialog>
+
+</npcdialog>

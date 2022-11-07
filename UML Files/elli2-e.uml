@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エリー</name>
+		<job>[水晶商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>精霊魔法は純粋な魂にのみ許された魔法だ！まさかその状態で精霊魔法を習得できるとでも思ったのか？</p>
+	</dialog>
+</npcdialog>

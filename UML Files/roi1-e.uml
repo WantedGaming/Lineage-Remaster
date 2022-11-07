@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+
+	
+	<dialog align="left">
+		<p>呪いを解いてくださったのですね。 <username/>さん、本当にありがとう。</p>
+		<p>まったく、参りましたよ。</p>
+		<p>「堕落」の呪いでゾンビの姿にされてしまうなんて… </p>
+		<p>お陰でこうやってもとの姿に戻ることができたので、本当に良かったです。</p>
+		<p>助けていただいた矢先にお願いしてしまって申し訳ないのですが、</p>
+		<p>私をバッシュがいるところまで連れて行ってもらえますか？</p>
+		<p><a action="start">ロイをバッシュのところへ連れて行く</a>	</p>
+	</dialog>
+	
+</npcdialog>

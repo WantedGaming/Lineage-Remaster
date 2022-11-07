@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィリス</name>
+		<job>[アジト剥製商人]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>おお、お前さんか。何を作りたい？</p>
+		<p><a action="request craft">剥製にできるリストを見る</a></p>
+		<p><a action="request adena">会員を脱退する</a></p>
+		<p><a action="request sealed animal request">依頼書を再発行してもらう</a></p>
+		<p>わしは剥製作りに生涯をささげて来たんじゃ。じゃが、もうこの年となっては狩りもできん。この才能も宝の持ち腐れじゃて。</p>
+		<p>見たところ、ハンターの素質を持っているようじゃな。どうじゃ、わしと手を組んでみんか。お前さんが狩ったもんを、わしが剥製にするんじゃ。</p>
+		<p>モンスターは一般モンスターとボスモンスターがいてのぅ、</p>
+		<p><font fg="ffaaff">[一般モンスター]<br/></font>
+		<font fg="ffffaf">
+		- ジャイアント アント ソルジャー<br/>
+		- ベアー<br/>
+		- ラミア<br/>
+		- ブラック タイガー<br/>
+		- 鹿<br/>
+		- ハーピー</font></p>
+		<p><font fg="ffaaff">[ボスモンスター]<br/></font>
+		<font fg="ffffaf">
+		- デーモン<br/>
+		- ドレイク<br/>
+		- クーガー<br/>
+		- アイリス<br/>
+		- グレート ミノタウルス</font></p>
+  </dialog>
+</npcdialog>

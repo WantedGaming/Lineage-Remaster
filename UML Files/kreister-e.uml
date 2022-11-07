@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>魔法の本商人</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クリスト</name>
+		<job>[魔法伝授者]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		ほう…冒険家なのかい？俺は象牙の塔の最高長老、タラス様の一番弟子、クリストというんだ。<br></br>
+		バリエスとかいう坊やが妙なことを言ってるけど、あいつは何も分かっちゃいないんだ。あんな世間知らずにこの象牙の塔を任せられるわけがないだろう？<br></br>
+		なに、だからって俺がタラス様のあとを継ぐって話でもないから、そこんとこ誤解しないでくれよ。<br></br>
+		大事なのは、バリエスはいっつも人の顔色ばっかりうかがって笑ってるだけで、象牙の塔のために必要な人物じゃないってことさ。<br></br>
+		あいつは卑劣な偽善者か、さもなければ素でマヌケなのか、どっちかだね。<br></br>
+		あんたは、バリエスが象牙の塔のために本気で魔法を研究していると思うかい？<br></br>
+		…バリエスの話なんかしたから、気分が悪くなってきたよ。<br></br>
+		それで、あんたは何の用で来たんだ？<br></br>
+		俺が扱ってる分野は、主に補助的な用途で使われる魔法だよ。<br></br>
+		見かけだけ派手なやつじゃなくて、本当に使える、実用性たっぷりの魔法ってわけさ。<br></br>
+		さ、なにか必要なもん、あるかい？<br></br>
+		</p>
+		
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+				
+		<a action="s_merchant3">Ask about recent prices</a>
+		
+		</dialog>
+	
+</npcdialog>
+

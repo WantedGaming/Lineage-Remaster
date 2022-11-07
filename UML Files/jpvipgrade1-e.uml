@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ニャオン。いらっしゃいニャ。</p>
+		<p>良い品を揃えてますニャ。</p>
+		<p><a action="b">GOLDショップ</a></p>
+	</dialog>
+
+</npcdialog>

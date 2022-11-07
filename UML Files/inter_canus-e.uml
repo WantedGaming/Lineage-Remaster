@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+      <name>カナス</name>
+    <job>[Teleporter]</job>
+	</npc>
+	<dialog>
+		<p>ギルタスが現れた場所に次元の隙間を発見しました。</p>
+		<p>その隙間から異次元への移動が可能なようです。</p>
+	  <p>クリスト様がお待ちです。お入りください。<br/><br/><br/></p>
+    <p> <a action="a">ギルタスの聖地に移動する</a></p>
+   </dialog>
+
+</npcdialog>

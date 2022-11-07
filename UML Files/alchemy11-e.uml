@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>To extract a magic catalyst, you need elemental stones and material costs as a medium. Please come back when you are ready.</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+  	<portrait>PO_002</portrait>
+    <name>森とエルフの母</name>
+  </npc>
+  <dialog>
+    <p>ようこそ、<a link="mothere2">世界樹の若葉</a>よ。あなたが生まれた時に、<a link="mothere3">私が</a>アインハザードの名において、祝福を与えたことを憶えていますか？月日が経つのは本当に早いものですね。</p> 
+  </dialog>
+</npcdialog>

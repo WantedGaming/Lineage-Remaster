@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>スビン</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 助けてくれてありがとうございます。少しでも遅れていたら、 
+		 私はもうこの世にはいなかったでしょう。<br/>
+		<br/>
+		<br/>
+		<br/>
+		<a action="a">村へ移動する</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

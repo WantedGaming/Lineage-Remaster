@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>失敗したようだな。決心が弱かったのではないか。用意を万全にしたまえ。あそこは火炎の影の手下どもがうようよしてるところだからな。</p>
+		<p>用意ができてから出直したまえ。そなたが準備をしている間に、どうにかしてあそこに入れるよう手を尽くそう。<br/>
+		<br/><br/><br/>
+		<a action="q">用意ができました。出発します</a><br/></p>
+	</dialog>
+	
+</npcdialog>

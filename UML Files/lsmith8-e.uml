@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの鍛冶屋</name>
+  </npc>
+  <dialog>
+    <p>くひゃひゃ、欲望の奴隷よ、何をしにきた？</p>
+    <p><a action="8">ご主人様、この私にどうかお慈悲を…</a></p>
+  </dialog>
+</npcdialog>

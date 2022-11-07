@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><br/><font fg="ffffff">Golden Pixie Feather</font><br/></p>
+	<p>最果ての浮島を通じて<font fg="ffffaf">特殊地域移動</font>および<font fg="ffffaf">特殊バフ</font>などを使用する際に消耗される特別なアイテム(移動、倉庫保存不可)。<br/><br/></p>
+	<p>[獲得方法]<br/></p>
+	<p>リネージュ専用のネットカフェで接続時、12分ごとに2個ずつ、1つのアカウントにつき1日最大30個まで獲得。<br/><br/></p>
+	<p>[使用対象]<br/></p>
+	<p>-最果ての浮島に移動<br/></p>
+	<p>*行動ウィンドウ(CTRL+D)ネットカフェアイコンおよび各村にいるテレポーターを通して利用<br/></p>
+	<p>-最果ての浮島のNPCピドルからバフを獲得<br/></p>
+	<p>-最果ての浮島のNPC精霊のオーブを通して特殊地域に移動<br/></p>
+	<p>-最果ての浮島のNPCマルクスを通してグンターの印章と交換<br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon>
+  <title>Shop</title>
+	
+<npc>
+	<name>影法師 オリム</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>また来ることになるとは…</p>
+<p>マリアンヌから受け取るはずの研究費が紛失してしまってね、とりあえず持っているスクロールを売って、いくらかでも稼がないとと思ってね。</p>
+<p>よく売れるようなら、研究室に戻って大量に準備するつもりだ。</p>
+<br/>
+    <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+	</panel>  
+</dialog>
+
+</npcdialog>

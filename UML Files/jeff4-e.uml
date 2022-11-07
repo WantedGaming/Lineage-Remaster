@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>おい、私が話したことをもう忘れたのか？<br/></p>
+		<p>材料が揃っていないじゃないか。もう一度確認してみろ。<br/></p>
+		<p>錬金術の材料に使う<br/></p>
+		<p>神秘のキノコパウダー1つまみ<br/></p>
+		<p>悲しみの涙1つ<br/></p>
+		<p>樹液1つ<br/></p>
+		<p>それから、錬成陣を描くのに使うハチミツとレア タートルを持ってこいと話した。<br/></p>
+		<p>神秘のキノコパウダーはアデンワールドエリアにいる魔法のキノコから手に入る。<br/></p>
+		<p>悲しみの涙はオークの森のどこかで手に入るといううわさを聞いたことがあるが、それが確かかどうかはわからない。<br/></p>
+		<p>それから、樹液は村に現れる商人が売っていると聞いた。<br/></p>
+		<p>じゃあ、しっかり集めてきてくれよ。<br/></p>
+	</dialog>
+
+</npcdialog>

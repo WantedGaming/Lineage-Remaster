@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name><var src="name"/></name>
+  </npc>
+  <dialog>
+    <p>Hello, <username/>.</p>
+    <p><font fg="ffffff"><var src="1"/></font>Welcome.</p>
+    <p>What do you want?<br/><br/><br/></p>
+    <p><a action="aghelp">Ask for advice</a></p>
+    <p><a link="agit1">Build Underground House</a></p>
+    <p><a action="hall">Go to Underground House</a></p>
+    <p><a link="agtel">Teleport</a></p>
+    <p><a action="open">Open door</a></p>
+    <p><a action="close">Close door</a></p>
+    <p><a action="expel">Kick Outsiders</a></p>
+    <p><a action="pay">Pay Taxes</a></p>
+    <p><a action="sell">Sell House</a></p>
+    <p><a action="name">Name House</a></p>
+    <p><a action="rem">Remove furniture</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ムミョン</name>
+		<job>Merchant</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+				
+		<p>まあ、どれだけ正直に生きてきたかと聞かれたら上手くは答えられませんが<br/></p>
+		<p>それでも善良な人と取引したいです。<br/></p>
+
+	</dialog>
+
+</npcdialog>

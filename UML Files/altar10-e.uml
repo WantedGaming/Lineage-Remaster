@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">祭壇：</font><br/><br/></p>
+   <p>ソルシャイカの遺品にかかっていた封印を解除しました。</p>
+  </dialog>
+</npcdialog>

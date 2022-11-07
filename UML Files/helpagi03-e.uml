@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>アジトの販売</title>
+  <dialog>  
+	<p><font fg="ffffaf">アジトの販売：</font><br/></p>
+	<p>販売価格は0Adenaからアジト購入時の価格までの間で設定できます。<br/><br/></p>
+	<p>競売申請費用は<font fg="afffff">4000Adena</font>です。所持金が4000Adenaに満たない場合には、競売の申請ができません。<br/><br/></p>
+	<p>競売終了は<font fg="afffff">申請日から5日</font>です。5日が経過して入札者がいない場合でも競売は終了します。<br/><br/></p>
+	<p><img src="331" link="helpagi"/><br/></p>
+  </dialog>
+</npcdialog>

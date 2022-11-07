@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 君！風竜を姿を見たことあるかね？<br/><br/><br/>
+		 おいおい、嘘をつくなって。<br/>
+		 見たところ、村を転々しながら延命している、典型的な貧乏冒険者ってところか？<br/>
+		 君みたいな者が本物の風竜を見たら、その場で気絶しちまうかもな？ガハハハ！<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

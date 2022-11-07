@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+	<portrait>PO_002</portrait>
+		<name>イソーリア</name>
+		<job>General Merchant</job>
+		<text>何の用ですか？</text>
+	</npc>
+	<dialog>
+			<p>あなたには売りません。他の店をあたってください。</p>
+	</dialog>
+</npcdialog>

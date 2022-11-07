@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Balsim</name>
+		<job>Merchant</job>
+		<text>Peac-Loving Shady Orc Merchant</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffffff"><var src="0"/>%</font>I'm not sure...I'm not human.
+		
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

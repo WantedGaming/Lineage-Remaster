@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エキンス</name>
+    <job>[Growth Wizard]</job>
+  </npc>
+  <dialog>
+	<p>
+私の魔法が勇士様の力になればいいのですが。
+<br/>
+またの機会をお待ちしています…
+</p>
+  </dialog>
+</npcdialog>

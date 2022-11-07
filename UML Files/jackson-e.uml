@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>ジャクソン</name>
+		<job>[雑貨商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>さあさあ、ある物はありますが、ない物はありませんよ。さあさあ、ご覧ください。
+		<br height="30"/> </p>
+    <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+		<p><a action="s_merchant3">Ask about recent prices</a></p>
+		
+	</dialog>
+</npcdialog>

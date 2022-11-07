@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+	<!-- Magic Stone -->
+	<catalysttype id="0" nameid="166"/>
+	<catalysttype id="0" nameid="3597"/>
+	<catalysttype id="0" nameid="13958" maxlevel="79"/>
+	<catalysttype id="0" nameid="14505"/>
+	<catalysttype id="0" nameid="16024"/>
+	<catalysttype id="0" nameid="26352"/>
+	<catalysttype id="0" nameid="30020"/>
+	<!-- 정령옥 -->
+	<catalysttype id="1" nameid="569"/>
+	<catalysttype id="1" nameid="3602"/>
+	<catalysttype id="1" nameid="13959" maxlevel="79"/>
+	<catalysttype id="1" nameid="14506"/>
+	<catalysttype id="1" nameid="16025"/>
+	<catalysttype id="1" nameid="20861"/>
+	<!-- 흑요석 -->
+	<catalysttype id="2" nameid="837"/>
+	<catalysttype id="2" nameid="3603"/>
+	<catalysttype id="2" nameid="13960" maxlevel="79"/>
+	<catalysttype id="2" nameid="14507"/>
+	<catalysttype id="2" nameid="16026"/>
+	<catalysttype id="2" nameid="20863"/>
+	<!-- 각인의 뼈조각 -->
+	<catalysttype id="3" nameid="3605"/>
+	<catalysttype id="3" nameid="3745"/>
+	<catalysttype id="3" nameid="13961" maxlevel="79"/>
+	<catalysttype id="3" nameid="14508"/>
+	<catalysttype id="3" nameid="16020"/>
+	<catalysttype id="3" nameid="20864"/>
+	<!-- 속성석 -->
+	<catalysttype id="4" nameid="3606"/>
+	<catalysttype id="4" nameid="3746"/>
+	<catalysttype id="4" nameid="13962" maxlevel="79"/>
+	<catalysttype id="4" nameid="14509"/>
+	<catalysttype id="4" nameid="16029"/>
+	<catalysttype id="4" nameid="20865"/>
+	<!-- 결정체 -->
+	<catalysttype id="5" nameid="2257"/>
+	<catalysttype id="5" nameid="16022"/>
+	<!-- elven wafer -->
+	<catalysttype id="6" nameid="86"/>
+	<catalysttype id="6" nameid="13918" maxlevel="79"/>
+	<catalysttype id="6" nameid="16021"/>
+	<!-- delay : millisecond, duration : sec -->
+	<!-- class : prince, knight, elf, magician, darkelf, dragon knight, illusionist-->
+	<generic grade="1">
+		<spell id="0" name="Heel" desc="HEAL" align="lawful" delay="100" icon="383" xicon="333">
+			<required mp="5"/>
+		</spell>
+		<spell id="1" name="Light" desc="LIGHT" duration="3600" delay="10" icon="384" xicon="334" savelastspell="false">
+			<required mp="4"/>
+		</spell>
+		<spell id="2" name="Shield" desc="SHIELD" duration="1800" delay="10" icon="385" xicon="335" savelastspell="false">
+			<required mp="8"/>
+		</spell>
+		<spell id="3" name="Energy Bolt" category="range" range="10" type="attack" attribute="laser" delay="10" icon="386" xicon="336" direction="true">
+			<required mp="3"/>
+		</spell>
+		<spell id="4" name="Teleport" desc="TELEPORT" category="teleport" delay="10" icon="387" xicon="337" savelastspell="false">
+			<required mp="10"/>
+		</spell>
+		<spell id="5" name="Ice Dagger" type="attack" desc="ICE_DAGGER" category="range" range="10" delay="10" icon="657" xicon="658" direction="true">
+			<required mp="4"/>
+		</spell>
+		<spell id="6" name="Wind Cutter" type="attack" desc="WIND_CUTTER" category="range" range="10" delay="10" icon="663" xicon="664" direction="true">
+			<required mp="4"/>
+		</spell>
+		<spell id="7" name="Holy Weapon" desc="HOLY_WEAPON" delay="10" icon="775" xicon="776" duration="1200" range="15">
+			<required mp="10"/>
+		</spell>
+		<spell id="4914" name="Aurakia Purification" pos="83" displayUI="false" desc="AURAKIA_LIGHT" category="range" delay="10" icon="10536" xicon="10536" range="15" direction="true" savelastspell="false">
+			<required mp="0"/>
+		</spell>
+	</generic>
+	<generic grade="2">
+		<spell id="8" name="Cure Poison" desc="CURE_POISON" category="target" delay="10" icon="388" xicon="338" duration="1200" range="15" align="lawful">
+			<required mp="15"/>
+		</spell>
+		<spell id="9" name="Chill Touch" desc="CHILL_TOUCH" category="range" range="3" type="attack" delay="10" icon="389" xicon="339" duration="1200" align="lawful" direction="true">
+			<required mp="8"/>
+		</spell>
+		<spell id="10" name="Curse Poison" category="range" range="3" type="attack" delay="500" icon="390" xicon="340" duration="30" align="chaotic" direction="true">
+			<required mp="10"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="11" name="Enchant Weapon" delay="10" icon="391" xicon="341" duration="1800" align="Neutral">
+			<required mp="20"/>
+		</spell>
+		<spell id="12" name="Dectect" delay="500" icon="392" xicon="342" range="15" savelastspell="false">
+			<required mp="15"/>
+		</spell>
+		<spell id="13" name="Decrease Weight" delay="10" icon="755" xicon="756" duration="1800" range="15" savelastspell="false">
+			<required hp="50" mp="10"/>
+		</spell>
+		<spell id="14" name="Flame Arrow" category="range" range="10" type="attack" delay="10" icon="651" xicon="652" direction="true">
+			<required mp="6"/>
+		</spell>
+		<spell id="15" name="Stalac" category="range" range="10" type="attack" delay="10" icon="659" xicon="660" direction="true">
+			<required mp="6"/>
+		</spell>
+	</generic>
+	<generic grade="3">
+		<spell id="16" name="Lighting" category="range" range="6" type="attack" delay="500" icon="393" xicon="343" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="17" name="Turn Undead" type="attack" category="range" range="10" delay="500" icon="394" xicon="344" align="lawful" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="18" name="Heal" category="range" type="heal" delay="400" icon="395" xicon="345" range="8" align="lawful">
+			<required mp="10"/>
+		</spell>
+		<spell id="19" name="Curse Blind" desc="CURSE_BLIND" category="range" range="3" type="attack" delay="500" icon="396" xicon="346" duration="10" align="chaotic" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="20" name="Bless Armor" desc="BLESSED_ARMOR" delay="10" icon="397" xicon="347" duration="1800" align="lawful">
+			<required mp="20"/>
+		</spell>
+		<spell id="21" name="Frozen Cloud" desc="FROZEN_CLOUD" category="range" range="6" type="attack" delay="300" icon="655" xicon="656" duration="1800" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="22" name="Weak Element" category="range" type="attack" delay="10" icon="848" xicon="849" range="10">
+			<required mp="8"/>
+		</spell>
+	</generic>
+	<generic grade="4">
+		<spell id="24" name="Fireball" desc="FIRE_BALL" category="range" range="6" type="attack" delay="500" icon="398" xicon="348" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="25" name="Enchant:DEX" desc="ENCHANT_DEXTERITY" category="pledge" delay="10" icon="399" xicon="349" duration="1200" range="10" align="lawful">
+			<required mp="50"/>
+		</spell>
+		<spell id="26" name="Weapon Break" desc="WEAPON_BREAK" category="range" range="4" type="attack" delay="3000" icon="400" xicon="350" align="chaotic" direction="true">
+			<required mp="32"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="27" name="Vampire Touch" desc="VAMPIRIC_TOUCH" category="range" range="4" type="attack" delay="50" icon="401" xicon="351" align="chaotic" direction="true">
+			<required mp="12"/>
+		</spell>
+		<spell id="28" name="Slow" desc="SLOW" type="attack" category="range" range="10" delay="500" icon="402" xicon="352" duration="64" direction="true">
+			<required mp="20"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="29" name="Earth Jail" desc="EARTH_JAIL" category="range" range="8" type="attack" delay="500" icon="647" xicon="648" direction="true">
+			<required mp="24"/>
+		</spell>
+		<spell id="30" name="Counter Magic" desc="COUNTER_MAGIC" delay="1500" icon="746" xicon="747" duration="16" align="Neutral" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="31" name="Meditation" desc="MEDITATION" delay="10" icon="793" xicon="794" duration="640" align="Neutral" savelastspell="false">
+			<required mp="5" hp="30"/>
+		</spell>
+	</generic>
+	<generic grade="5">
+		<spell id="32" name="Curse Paralyze" desc="CURSE_PARALYZE" category="range" range="1" type="attack" delay="5000" icon="403" xicon="353" duration="4" align="chaotic" direction="true">
+			<required mp="80"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<spell id="33" name="Call Lighting" desc="CALL_LIGHTNING" category="range" range="6" type="attack" delay="100" icon="404" xicon="354" direction="true">
+			<required mp="18"/>
+		</spell>
+		<spell id="34" name="Greater Heal" desc="GREATER_HEAL" delay="200" icon="405" xicon="355" align="lawful">
+			<required mp="25"/>
+		</spell>
+		<spell id="35" name="Tame Monster" desc="TAMING_MONSTER" category="other" delay="10" icon="406" xicon="356" range="10" duration="3600">
+			<required mp="30" hp="20"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="36" name="Remove Curse" desc="REMOVE_CURSE" category="target" delay="10" icon="407" xicon="357" range="8" align="lawful">
+			<required mp="20"/>
+		</spell>
+		<spell id="37" name="Cone of Cold" desc="CONE_OF_COLD" category="range" range="6" type="attack" delay="10" icon="643" xicon="644" direction="true">
+			<required mp="18"/>
+		</spell>
+		<spell id="38" name="Mana Drain" desc="DRAIN_MANA" category="range" range="4" type="attack" delay="500" icon="791" xicon="792" direction="true">
+			<required mp="1" hp="50"/>
+		</spell>
+		<spell id="39" name="Darkness" desc="DARKNESS" category="range" range="3" type="attack" delay="500" icon="749" xicon="750" direction="true">
+			<required mp="15"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+	</generic>
+	<generic grade="6">
+		<spell id="40" name="Create Zombie" desc="CREATE_ZOMBIE" category="dead" delay="10" icon="408" xicon="358" type="attack" range="10">
+			<required mp="5" hp="80"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="41" name="Enchant:STR" category="pledge" range="10" delay="10" icon="409" xicon="359">
+			<required mp="50"/>
+		</spell>
+		<spell id="42" name="Haste" desc="SPL_HASTE" delay="10" icon="410" xicon="360" category="target" range="10">
+			<required mp="40"/>
+		</spell>
+		<spell id="43" name="Cancel" desc="CANCELATION" category="target" range="8" directTarget="other" delay="500" icon="411" xicon="361">
+			<required mp="40"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<spell id="44" name="Eruption" desc="ERUPTION" type="attack" delay="100" icon="412" xicon="362" category="range" range="8" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="45" name="Sunburst" desc="SUN_BURST" category="range" range="3" type="attack" delay="500" icon="661" xicon="662" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="46" name="Weakness" desc="WEAKNESS" category="range" range="3" type="attack" delay="500" icon="850" xicon="851" direction="true">
+			<required mp="10"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="47" name="Bless Weapon" desc="BLESS_WEAPON" category="target" delay="10" icon="726" xicon="727" range="10">
+			<required mp="20"/>
+		</spell>
+	</generic>
+	<generic grade="7">
+		<spell id="48" name="Heal All" desc="HEAL_ALL" delay="400" icon="413" xicon="363" savelastspell="false" range="8">
+			<required mp="30" hp="0"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<spell id="49" name="Freezing Armor" delay="10" icon="9491" duration="1800" savelastspell="false">
+			<required mp="60"/>
+		</spell>
+		<spell id="50" name="Summon" desc="SUMMON_MONSTER" type="attack" delay="300000" icon="415" xicon="365" direction="true" savelastspell="false">
+			<required mp="80" hp="30" charisma="25"/>
+			<catalyst type="0" count="20"/>
+		</spell>
+		<spell id="51" name="Holy Walk" delay="10" icon="1578" xicon="366" savelastspell="false">
+			<required mp="30"/>
+			<catalyst type="0" count="2" passivespell="77"/>
+		</spell>
+		<spell id="52" name="Tornado" type="attack" delay="1500" icon="417" xicon="367" direction="true" savelastspell="false">
+			<required mp="40"/>
+		</spell>
+		<spell id="53" name="Greater Haste" delay="10" icon="622" xicon="623" savelastspell="false">
+			<required mp="60"/>
+		</spell>
+		<spell id="54" name="Berserker" delay="10" category="target" icon="1570" xicon="1587" range="10">
+			<required mp="40"/>
+		</spell>
+		<spell id="55" name="Enchant Accuracy" delay="10" icon="9488" duration="1800" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+	</generic>
+	<generic grade="8">
+		<spell id="56" name="Full Heal" delay="400" icon="418" xicon="368" category="range" type="heal" range="10" align="lawful">
+			<required mp="30"/>
+		</spell>
+		<spell id="57" name="Firewall" category="location" type="attack" delay="10" icon="419" xicon="369" direction="true" savelastspell="false">
+			<required mp="60"/>
+		</spell>
+		<spell id="58" name="Blizzard" type="attack" delay="1500" icon="420" xicon="370" direction="true" savelastspell="false">
+			<required mp="60" hp="10"/>
+		</spell>
+		<spell id="59" name="Invisibility" icon="421" xicon="371" delay="4000" savelastspell="false">
+			<required mp="15"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="60" name="Resurrection" category="dead" delay="10" icon="422" xicon="372" range="10">
+			<required mp="50"/>
+		</spell>
+		<spell id="61" name="Earth Quake" type="attack" delay="1500" icon="649" xicon="650" direction="true" savelastspell="false">
+			<required mp="40"/>
+		</spell>
+		<spell id="62" name="Life Stream" category="location" delay="10" icon="784" xicon="1599" savelastspell="false" range="10">
+			<required mp="20"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="63" name="Silence" category="range" range="3" type="attack" delay="1000" icon="822" xicon="823" direction="true">
+			<required mp="20"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+	</generic>
+	<generic grade="9">
+		<spell id="64" name="Lighting Storm" type="attack" category="range" range="10" delay="2000" icon="1579" xicon="1600" direction="true">
+			<required mp="48"/>
+		</spell>
+		<spell id="65" name="Fog of Sleep" category="range" range="3" type="attack" delay="3000" icon="424" xicon="374" direction="true">
+			<required mp="40"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="66" name="Polymorph" category="target" type="attack" delay="10" icon="425" xicon="375" direction="true" range="10">
+			<required mp="60"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<spell id="67" name="Immune To Harm" desc="IMMUNE_TO_HARM" category="pledge" delay="1500" icon="426" xicon="376" range="10">
+			<required mp="30"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<spell id="68" name="Mass Teleport" category="teleport" delay="10" icon="427" xicon="377" savelastspell="false">
+			<required mp="60"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="69" name="Fire Storm" type="attack" delay="2000" icon="653" xicon="654" direction="true" savelastspell="false">
+			<required mp="48"/>
+		</spell>
+		<spell id="70" name="Decay Potion" category="range" range="1" type="attack" delay="1000" icon="10397" xicon="10397" direction="true">
+			<required mp="20"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<spell id="71" name="Counter Detect" delay="500" icon="1571" xicon="779" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+	</generic>
+	<generic grade="10">
+		<spell id="72" name="Death Heal" category="range" icon="7438" xicon="7508" range="10" delay="1500" duration="10" align="chaotic" type="attack" direction="true">
+			<required mp="60"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="73" name="Meteor Strike" type="attack" delay="3000" icon="429" xicon="379" category="range" range="10" direction="true">
+			<required mp="60"/>
+		</spell>
+		<spell id="74" name="Greater Resurrection" desc="GREAT_RESURRECTION" category="dead" delay="10" icon="1577" xicon="1596" range="10">
+			<required mp="100"/>
+			<catalyst type="0" count="1"/>
+		</spell>
+		<spell id="75" name="Mass Slow" category="range" range="8" type="attack" delay="3000" icon="1580" xicon="1601" direction="true">
+			<required mp="50"/>
+		</spell>
+		<spell id="76" name="Disintegrate" type="attack" delay="8000" icon="432" xicon="382" category="range" range="10" direction="true">
+			<required mp="70"/>
+		</spell>
+		<spell id="77" name="Absolute Barrier" delay="30000" icon="715" xicon="716" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+		<!--spell id="78" name="Advanced Spirit" delay="10" icon="1610" xicon="1879" savelastspell="false">
+			<required mp="20"/>
+		</spell-->
+		<spell id="79" pos="79" name="Ice Spike" type="attack" delay="400" icon="5737" xicon="5797" category="range" range="8" direction="true">
+			<required mp="30"/>
+		</spell>
+	</generic>
+	<generic grade="11">
+		<spell id="242" pos="80" name="Eternity" category="range" icon="9616" xicon="9616" range="10" delay="8500" type="attack" direction="true" mythskill="true">
+			<required mp="80"/>
+		</spell>
+		<spell id="5114" descid="256" pos="81" name="Mass Immune to Harm" icon="10201" xicon="10201" delay="4500" duration="32">
+			<required mp="120"/>
+			<catalyst type="0" count="8"/>
+		</spell>
+		<spell id="5151" descid="259" pos="82" name="Divine Protection" icon="10384" xicon="10384" delay="60000" duration="16">
+			<required mp="40"/>
+			<catalyst type="0" count="2"/>
+		</spell>
+	</generic>
+	<knight grade="1">
+		<spell id="86" pos="16" name="Shock Stun" category="range" physical="true" range="1" delay="6000" icon="1624" xicon="1625" direction="true">
+			<required mp="13"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="twohand"/>
+		</spell>
+		<spell id="87" pos="17" name="Reduction Armor" physical="true" delay="1000" icon="1887" xicon="1888" duration="300" passive="43">
+			<required mp="7" hp="50"/>
+		</spell>
+		<spell id="88" pos="18" name="Bounce Attack" physical="true" delay="1000" icon="1881" xicon="1882" duration="600">
+			<required mp="10" hp="60"/>
+		</spell>
+		<spell id="90" pos="20" name="Counter Barrier" physical="true" delay="3000" icon="2343" xicon="2344" duration="300" savelastspell="false" passive="10">
+			<required mp="15"/>
+			<catalyst type="5" count="100"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="twohand"/>
+		</spell>
+		<spell id="91" pos="21" name="Absolute Blade" physical="true" icon="7431" delay="128" duration="32" align="Neutral" savelastspell="false">
+			<required mp="15"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="twohand"/>
+			<required weapon="sword"/>
+			<required weapon="dagger"/>
+			<required weapon="axe"/>
+			<required weapon="spear"/>
+		</spell>
+		<spell id="93" pos="19" name="Blow Attack" physical="true" icon="8844" delay="10" duration="600" align="Neutral" savelastspell="false">
+			<required mp="10" hp="50"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="twohand"/>
+			<required weapon="sword"/>
+			<required weapon="dagger"/>
+			<required weapon="axe"/>
+			<required weapon="spear"/>
+		</spell>
+		<spell id="5156" descid="260" pos="22" name="Shock Attack" physical="true" delay="10000" icon="10523" xicon="10523" category="range" range="3" direction="true"> 
+			<required mp="20"/>
+			<catalyst type="5" count="25"/>
+			<required equip="weapon"/>
+			<required weapon="sword"/>		
+			<required weapon="sword" handtype="twohand"/>
+		</spell> 
+		<spell id="241" pos="24" name="Force Stun" physical="true" category="range" range="1" delay="8500" icon="9617" xicon="9617" direction="true" mythskill="true">
+			<required mp="17"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="twohand"/>
+		</spell>
+	</knight>
+	<darkelf grade="1">
+		<spell id="96" pos="24" name="Blind Hiding" delay="20000" icon="1097" xicon="1099" duration="16" savelastspell="false">
+			<required mp="10"/>
+			<catalyst type="2" count="1" passivespell="98"/>
+		</spell>
+		<spell id="97" pos="25" name="Enchanted Venom" icon="1100" xicon="1102" duration="320" savelastspell="false">
+			<required mp="10" hp="1"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+		<spell id="98" pos="26" name="Shadow Armor" delay="10" icon="1103" xicon="1105" duration="960" savelastspell="false">
+			<required mp="12"/>
+			<catalyst type="2" count="1" passivespell="66"/>
+		</spell>
+		<spell id="108" pos="27" name="Dress Mighty" icon="1574" duration="960" savelastspell="false">
+			<required mp="10"/>
+		</spell>
+	</darkelf>
+	<darkelf grade="2">
+		<spell id="100" pos="32" name="Moving Acceleration" icon="1109" xicon="1111" duration="960" savelastspell="false">
+			<required mp="10"/>
+			<catalyst type="2" count="2" passivespell="71"/>
+		</spell>
+		<spell id="102" pos="34" name="Shadow Sleep" category="range" range="3" delay="3000" icon="1115" xicon="1117" type="attack" align="chaotic" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="103" pos="35" name="Venom Resist" icon="1118" xicon="1120" duration="320" savelastspell="false">
+			<required mp="20"/>
+		</spell>
+		<spell id="109" pos="36" name="Dress Dexterity" icon="1575" duration="960" savelastspell="false">
+			<required mp="10"/>
+		</spell>
+	</darkelf>
+	<darkelf grade="3">
+		<spell id="104" pos="40" name="Double Break" icon="1121" xicon="1123" duration="192" passive="12">
+			<required mp="20"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+		<spell id="105" pos="41" name="Uncanny Dodge" icon="1124" xicon="1126" duration="960" savelastspell="false">
+			<required mp="40"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+		<spell id="106" pos="42" name="Shadow Fang" icon="1127" xicon="1129" duration="192">
+			<required mp="20"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+	</darkelf>
+	<darkelf grade="4">
+		<spell id="111" pos="48" name="Armor Break" category="range" range="1" delay="1500" icon="4471" xicon="4472" duration="10" direction="true" savelastspell="false" passive="11">
+			<required mp="25" hp="50"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+		<spell id="233" pos="49" name="Lucifer" icon="4501" xicon="4502" duration="30" savelastspell="false">
+			<required mp="15"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+		<spell id="243" pos="50" name="Avenger" type="attack" category="range" range="1" delay="6500" icon="9615" xicon="9615" direction="true" mythskill="true">
+			<required mp="25"/>
+			<required equip="weapon"/>
+			<required weapon="craw"/>
+			<required weapon="duelsword"/>
+			<catalyst type="2" count="1"/>
+		</spell>
+		<spell id="198" pos="51" name="Shadow Step" range="3" category="range" delay="8000" icon="9818" xicon="9818">
+			<required mp="15"/>
+			<required equip="weapon"/>
+			<required weapon="craw"/>
+			<required weapon="duelsword"/>
+		</spell>
+	</darkelf>
+	<prince grade="1">
+		<spell id="112" pos="24" name="True Target" category="command" physical="true" icon="894" align="lawful" type="attack" savelastspell="false">
+			<required mp="2"/>
+		</spell>
+		<spell id="113" pos="25" name="Growing Weapon" physical="true" align="lawful" icon="878" duration="640" savelastspell="false">
+			<required mp="20"/>
+		</spell>
+		<spell id="114" pos="26" name="Shining Shield" physical="true" align="lawful" icon="875" xicon="876" duration="640" savelastspell="false">
+			<required mp="20"/>
+		</spell>
+		<spell id="5027" descid="262" pos="27" name="Tyrant" physical="true" range="3" category="range" delay="7000" icon="10864" xicon="10864" direction="true">
+			<required mp="15"/>
+			<catalyst type="5" count="50"/>
+			<required equip="weapon"/>
+			<required weapon="sword"/>
+			<required weapon="sword" handtype="twohand"/>
+			<required weapon="dagger"/>
+		</spell>
+		<spell id="116" pos="28" name="Brave Mental" physical="true" delay="100" icon="885" xicon="886" align="lawful" duration="640" savelastspell="false">
+			<required mp="20"/>
+		</spell>
+		<spell id="121" pos="30" name="Grace" physical="true" icon="7426" delay="1200" duration="60" align="Neutral" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="122" pos="31" name="Empire" category="range" physical="true" range="1" delay="7000" icon="9195" xicon="9194" direction="true">
+			<required mp="20"/>
+			<required equip="shield"/>
+		</spell>
+		<spell id="240" pos="32" name="Prime" physical="true" icon="9619" xicon="9619" delay="4000" duration="1200" savelastspell="false" mythskill="true">
+			<required mp="25"/>
+			<catalyst type="5" count="200"/>
+		</spell>
+		<spell id="5111" descid="253" pos="33" name="Call Clan Advance" category="target" range="8" delay="60000" physical="true" icon="10202">
+			<required mp="20"/>
+			<catalyst type="5" count="200"/>
+		</spell>
+	</prince>
+	<elf grade="1">
+		<spell id="128" pos="48" name="Resist Magic" icon="811" xicon="812" duration="1200" savelastspell="false">
+			<required mp="5"/>
+		</spell>
+		<spell id="129" pos="49" name="Body to Mind" delay="100" icon="731" xicon="732" savelastspell="false">
+			<required hp="8"/>
+		</spell>
+		<spell id="130" pos="50" name="Teleport to Mother" category="teleport" icon="846" xicon="847" savelastspell="false">
+			<required mp="10"/>
+		</spell>
+		<spell id="131" pos="51" name="Triple Arrow" category="range" range="10" delay="80" icon="1755" xicon="1880" type="attack" direction="true">
+			<required mp="15"/>
+			<required equip="weapon"/>
+			<required weapon="bow"/>
+		</spell>
+	</elf>
+	<elf grade="2">
+		<spell id="136" pos="56" name="Clear Mind" icon="743" xicon="744" duration="1200" savelastspell="false">
+			<required mp="10"/>
+		</spell>
+	</elf>
+	<elf grade="3">
+		<spell id="144" pos="64" name="Return to Nature" category="other" icon="820" xicon="821">
+			<required mp="30"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+		<spell id="146" pos="65" name="Elemental Protection" icon="871" duration="64" savelastspell="false">
+			<required mp="6"/>
+		</spell>
+		<spell id="147" pos="66" name="Earth Weapon" icon="8522" duration="960" major="earth" savelastspell="false">
+			<required mp="15"/>
+		</spell>
+		<spell id="148" pos="67" name="Aqua Shot" icon="8519" duration="960" major="water" savelastspell="false">
+			<required mp="15"/>
+		</spell>
+		<spell id="149" pos="68" name="Eagle Eye" icon="8492" duration="128" major="wind" savelastspell="false">
+			<required mp="20"/>
+			<required equip="weapon"/>
+			<required weapon="bow"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+		<spell id="150" pos="70" name="Earth Skin" icon="8523" duration="960" major="fire" savelastspell="false">
+			<required mp="15"/>
+		</spell>
+		<spell id="151" pos="71" name="Quake" icon="8495" duration="320" major="earth" direction="false">
+			<required mp="20"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+		<spell id="169" pos="72" name="Water Life" category="target" icon="7056" xicon="1757" duration="64" major="water">
+			<required mp="1"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+	</elf>
+	<elf grade="4">
+		<spell id="132" pos="76" name="Elemental Falldown" type="attack" icon="1744" xicon="1739" duration="32" category="range" range="10" direction="true">
+			<required mp="10"/>
+		</spell>
+		<spell id="152" pos="77" name="Erase Magic" delay="300" icon="767" xicon="768" type="attack" duration="32" category="range" range="6" direction="true">
+			<required mp="20"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+		<spell id="153" pos="78" name="Lesser Elemental" delay="100" icon="867" duration="3600" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+		<spell id="154" pos="79" name="Dancing Blaze" icon="7064" xicon="734" duration="300" major="fire" savelastspell="false">
+			<required mp="20"/>
+			<required equip="weapon"/>
+			<required weapon="sword"/>
+			<required weapon="dagger"/>
+			<catalyst type="6" count="1"/>
+		</spell>
+		<spell id="155" pos="80" name="Storm Eye" icon="7060" xicon="770" duration="960" major="wind" savelastspell="false">
+			<required mp="40"/>
+		</spell>
+		<spell id="156" pos="81" name="Earth Bind" delay="6000" icon="7049" xicon="892" category="range" range="6" major="earth" direction="true">
+			<required mp="18"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+		<spell id="157" pos="82" name="Nature's Touch" icon="9822" xicon="9822" duration="320" major="water">
+			<required mp="20"/>
+		</spell>
+		<spell id="158" pos="83" name="Earth Guardian" delay="2000" icon="7048" xicon="724" duration="600" major="earth" savelastspell="false">
+			<required mp="30" hp="10"/>
+		</spell>
+		<spell id="159" pos="84" name="Aqua Protect" category="target" delay="100" icon="7055" xicon="2341" duration="960" major="water">
+			<required mp="30"/>
+		</spell>
+		<spell id="176" pos="85" name="Focus Wave" icon="8482" duration="480" major="water" savelastspell="false">
+			<required mp="20"/>
+			<required equip="weapon"/>
+			<required weapon="bow"/>
+			<catalyst type="6" count="1"/>
+		</spell>
+		<spell id="178" pos="86" name="Sand Storm" icon="8489" duration="480" major="earth" savelastspell="false">
+			<required mp="20"/>
+			<required equip="weapon"/>
+			<required weapon="sword"/>
+			<required weapon="dagger"/>
+			<catalyst type="6" count="1"/>
+		</spell>
+	</elf>
+	<elf grade="5">
+		<spell id="133" pos="88" name="Elven Gravity" delay="10" icon="4553" duration="1800" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="160" pos="89" name="Area Silence" delay="9000" icon="720" xicon="721" duration="16" savelastspell="false">
+			<required mp="40"/>
+			<catalyst type="1" count="8"/>
+		</spell>
+		<spell id="161" pos="90" name="Greater Elemental" icon="869" duration="3600" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="1" count="4"/>
+		</spell>
+		<spell id="134" pos="91" name="Soul Barrier" icon="7434" delay="600" duration="600" align="Neutral" savelastspell="false">
+			<required mp="30"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+		<spell id="162" pos="92" name="Burning Weapon" icon="7065" xicon="737" duration="960" major="fire" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="163" pos="93" name="Nature's Blessing" delay="300" icon="7053" xicon="797" major="water" savelastspell="false">
+			<required mp="30"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+		<spell id="165" pos="94" name="Storm Shot" icon="7058" xicon="826" duration="960" major="wind" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="166" pos="95" name="Cyclone" icon="9191" duration="960" major="wind" savelastspell="false">
+			<required mp="30"/>
+			<required equip="weapon"/>
+			<required weapon="bow"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+		<spell id="167" pos="96" name="Iron Skin" icon="7047" xicon="782" duration="960" major="earth" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="168" pos="97" name="Exotic Vitalize" delay="100" icon="7051" duration="960" major="earth" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="170" pos="98" name="Elemental Fire" delay="100" icon="7068" xicon="1735" duration="320" major="fire" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+		<spell id="172" pos="99" name="Polute Water" delay="1000" icon="7057" xicon="2347" duration="32" category="range" range="5" major="water" direction="true">
+			<required mp="20"/>
+			<catalyst type="1" count="1"/>
+		</spell>
+		<spell id="173" pos="100" name="Striker Gale" delay="2000" icon="7059" xicon="2356" duration="12" category="range" range="6" major="wind" direction="true">
+			<required mp="15"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+		<spell id="174" pos="101" name="Soul of Flame" delay="300" icon="7066" xicon="2353" duration="320" major="fire" savelastspell="false">
+			<required mp="40"/>
+			<catalyst type="1" count="5"/>
+		</spell>
+		<spell id="175" pos="102" name="Additional Fire" delay="100" icon="7067" xicon="2338" duration="960" major="fire" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="177" pos="103" name="Hurricane" delay="100" icon="8498" duration="480" major="wind" savelastspell="false">
+			<required mp="30"/>
+			<required equip="weapon"/>
+			<required weapon="bow"/>
+			<catalyst type="6" count="1"/>
+		</spell>
+		<spell id="135" pos="104" name="Inferno" delay="3000" icon="9198" duration="128" major="fire" savelastspell="false">
+			<required hp="70" mp="50"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="onehand"/>
+			<catalyst type="1" count="5"/>
+		</spell>
+		<spell id="138" pos="105" name="Magic Shield" delay="60000" align="Neutral" icon="9823" xicon="9823" duration="24" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="1" count="5"/>
+		</spell>
+		<spell id="5112" descid="254" pos="106" name="Liberation" delay="300" align="Neutral" icon="10191" xicon="10191" duration="320" savelastspell="false">
+			<required mp="20"/>
+			<catalyst type="1" count="4"/>
+		</spell>
+		<spell id="5152" descid="257" pos="107" name="Vision Teleport" category="location" range="8" icon="10395" xicon="10395" delay="6000">
+			<required mp="20"/>
+		</spell>
+		<spell id="5157" descid="261" pos="87" name="Burning Shot" icon="10534" xicon="10534"  physical="true" delay="4500">
+			<required equip="weapon"/>
+			<required weapon="bow"/>
+			<catalyst type="1" count="2"/>
+		</spell>
+	</elf>
+	<dragonknight grade="1">
+		<spell id="181" pos="24" name="Burning Slash" delay="2000" icon="3076" duration="60" direction="true" savelastspell="false">
+			<required hp="6"/>
+		</spell>
+		<spell id="182" pos="25" name="Destroy" category="range" range="5" delay="2000" icon="9824" xicon="9824" type="attack" duration="16" direction="true">
+			<required hp="20" mp="10"/>
+		</spell>
+		<spell id="183" pos="26" name="Magma Breath" category="range" range="5" delay="1000" icon="3087" xicon="3189" type="attack" duration="32" direction="true">
+			<required mp="10"/>
+		</spell>
+		<spell id="184" pos="27" name="Awakening [Antharas]" delay="10" icon="3181" duration="600" savelastspell="false">
+			<required mp="15" hp="10"/>
+			<catalyst type="3" count="1"/>
+		</spell>
+	</dragonknight>
+	<dragonknight grade="2">
+		<spell id="185" pos="28" name="Bloodlust" delay="10" icon="3074" duration="300" savelastspell="false">
+			<required hp="30"/>
+			<catalyst type="3" count="1"/>
+		</spell>
+		<spell id="186" pos="29" name="Four Slayer" category="range" range="2" delay="2000" icon="3081" xicon="3185" direction="true" passive="15">
+			<required hp="10"/>
+			<required equip="weapon"/>
+			<required weapon="axe"/>
+			<required weapon="sword"/>
+			<required weapon="duelsword"/>
+			<required weapon="chainsword"/>
+			<checkrange weapon="chainsword" rangeoffset="1"/>
+		</spell>
+		<spell id="188" pos="30" name="Magma Arrow" category="range" range="10" type="attack" delay="10" icon="4559" xicon="4560" direction="true">
+			<required mp="5"/>
+		</spell>
+		<spell id="189" pos="31" name="Awakening [Fafurion]" duration="600" delay="10" icon="3183" savelastspell="false">
+			<required mp="15" hp="10"/>
+		</spell>
+	</dragonknight>
+	<dragonknight grade="3">
+		<spell id="191" pos="33" name="Thunder Grab" category="range" range="5" type="attack" delay="4000" icon="3093" xicon="3191" duration="1~4" direction="true" passive="14">
+			<required hp="30"/>
+		</spell>
+		<spell id="193" pos="34" name="Eye of Dragon" type="attack" delay="500" icon="4583" savelastspell="false">
+			<required mp="10" hp="10"/>
+		</spell>
+		<spell id="194" pos="35" name="Awakening [Valakas]" duration="600" delay="10" icon="3077" savelastspell="false">
+			<required mp="25" hp="20"/>
+			<catalyst type="3" count="1"/>
+		</spell>
+	</dragonknight>
+	<dragonknight grade="4">
+		<spell id="196" pos="36" name="Awakening [Lindvior]" duration="600" delay="10" icon="4526" savelastspell="false">
+			<required mp="20" hp="15"/>
+		</spell>
+		<spell id="244" pos="37" name="Harpas" duration="128" delay="3000" icon="9620" xicon="9620" savelastspell="false" mythskill="true">
+			<required mp="18"/>
+			<catalyst type="3" count="1"/>
+			<required equip="weapon"/>
+			<required weapon="chainsword"/>
+		</spell>
+	</dragonknight>
+	<illusionist grade="1">
+		<spell id="200" pos="0" name="Mirror Image" align="illusion" delay="10" icon="3122" duration="1200" savelastspell="false">
+			<required mp="20"/>
+		</spell>
+		<spell id="201" pos="1" name="Confusion" category="range" range="3" type="attack" align="illusion" delay="3000" icon="3098" xicon="3195" duration="2">
+			<required mp="15"/>
+		</spell>
+		<spell id="202" pos="2" name="Smash Energy" category="range" range="10" type="attack" delay="600" icon="3130" xicon="3108" direction="true">
+			<required mp="5"/>
+		</spell>
+		<spell id="203" pos="3" name="Illusion [Ogre]" align="illusion" delay="1200" icon="3116" xicon="3205" duration="128">
+			<required mp="20"/>
+		</spell>
+		<spell id="204" pos="4" name="Cube[Orge]" align="Illusion" delay="1200" icon="3102" duration="128" savelastspell="false">
+			<required mp="30"/>
+			<catalyst type="4" count="2"/>
+		</spell>
+	</illusionist>
+	<illusionist grade="2">
+		<spell id="205" pos="8" name="Concentration" category="target" align="Illusion" delay="1000" icon="3096" xicon="3194" duration="600">
+			<required mp="15"/>
+		</spell>
+		<spell id="206" pos="9" name="Mind Break" category="range" range="5" type="attack" delay="3000" icon="3121" xicon="3208" align="illusion" direction="true">
+			<required mp="20" hp="15"/>
+		</spell>
+		<spell id="207" pos="10" name="Bone Break" category="range" range="1" type="attack" delay="2000" icon="3095" xicon="3193" duration="2">
+			<required mp="30"/>
+		</spell>
+		<spell id="209" pos="11" name="Cube [Quake]" align="illusion" delay="1200" icon="3105" duration="128" savelastspell="false">
+			<required mp="40"/>
+			<catalyst type="4" count="3"/>
+		</spell>
+	</illusionist>
+	<illusionist grade="3">
+		<spell id="210" pos="16" name="Patience" align="illusion" delay="1000" icon="3126" xicon="3100" duration="600" savelastspell="false">
+			<required mp="25"/>
+		</spell>
+		<spell id="211" pos="17" name="Phantasm" category="range" range="3" type="attack" align="illusion" delay="3000" icon="3128" xicon="3103" direction="true">
+			<required mp="30" hp="25"/>
+		</spell>
+		<spell id="212" pos="18" name="Eye Breaker" type="attack" delay="1200" icon="3094" xicon="3192">
+			<required mp="10"/>
+		</spell>
+		<spell id="214" pos="19" name="Cube [Lich]" align="illusion" delay="1200" icon="3107" duration="128" savelastspell="false">
+			<required mp="30"/>
+			<catalyst type="4" count="2"/>
+		</spell>
+	</illusionist>
+	<illusionist grade="4">
+		<spell id="215" pos="24" name="Insight" align="illusion" delay="1000" icon="3118" xicon="3206" duration="640" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="216" pos="25" name="Panic" category="range" range="5" type="attack" align="illusion" delay="4000" icon="3124" xicon="3210" duration="64" direction="true">
+			<required mp="30" hp="30"/>
+		</spell>
+		<spell id="217" pos="26" name="Reduce Weight" type="attack" align="illusion" delay="10" icon="3120" xicon="3207" duration="1800" savelastspell="false">
+			<required mp="30"/>
+		</spell>
+		<spell id="218" pos="27" name="Illusion [Avatar]" align="illusion" delay="3000" icon="3110" xicon="3202" duration="128">
+			<required mp="30"/>
+		</spell>
+		<spell id="219" pos="28" name="Cube [Avatar]" align="illusion" delay="1200" icon="3099" duration="128" savelastspell="false">
+			<required mp="40"/>
+			<catalyst type="4" count="3"/>
+		</spell>
+	</illusionist>
+	<illusionist grade="5">
+		<spell id="221" pos="32" name="Impact" icon="7455" xicon="7511" delay="100" duration="60" align="illusion">
+			<required mp="40"/>
+			<catalyst type="4" count="3"/>
+		</spell>
+		<spell id="222" pos="33" name="Focus Spirits" icon="4605" delay="100" duration="300" align="illusion">
+			<required mp="30"/>
+			<catalyst type="4" count="1"/>
+		</spell>
+		<spell id="223" pos="34" name="Moebius" icon="9444" delay="12000" duration="6" savelastspell="false">
+			<required mp="30"/>
+			<catalyst type="4" count="1"/>
+		</spell>
+		<spell id="245" pos="35" name="Potential" icon="9618" xicon="9618" delay="1000" savelastspell="false" mythskill="true">
+			<required mp="30"/>
+			<catalyst type="4" count="2"/>
+		</spell>
+	</illusionist>
+	<warrior grade="1">
+		<spell id="224" pos="8" name="Howl" delay="3000" physical="true" icon="6191" xicon="6207" direction="true" savelastspell="false">
+			<required mp="5"/>
+			<catalyst type="5" count="10"/>
+		</spell>
+		<!--<spell id="226" pos="9" name="포스 스턴" delay="7000" icon="6189" xicon="6205" duration="64">			<required mp="5"/>		</spell>-->
+		<spell id="227" pos="10" name="Power Grip" physical="true" range="6" category="range" delay="10000" icon="6188" xicon="6204" duration="5000">
+			<required mp="5"/>
+			<catalyst type="5" count="15"/>
+		</spell>
+		<spell id="228" pos="11" name="Tomahawk" range="6" physical="true" category="range" delay="8000" icon="10203" xicon="10203">
+			<required mp="5"/>
+			<catalyst type="5" count="30"/>
+		</spell>
+		<spell id="229" pos="12" name="Desperado" range="1" physical="true" category="range" delay="10000" icon="6501" xicon="6503" passive="13">
+			<required mp="10"/>
+			<catalyst type="5" count="50"/>
+		</spell>
+		<spell id="230" pos="13" name="Titan Rising" physical="true" icon="7459" delay="3000" duration="2400" align="Neutral" savelastspell="false">
+			<required mp="10"/>
+			<catalyst type="5" count="100"/>
+		</spell>
+		<spell id="5026" descid="246" pos="14" name="Tempest" physical="true" delay="9000" direction="true" icon="10720" xicon="10720" mythskill="true">
+			<required mp="15"/>
+			<required hp="30"/>
+			<catalyst type="5" count="100"/>
+		</spell>
+	</warrior>
+	<fencer grade="1">
+		<spell id="5000" pos="26" descid="234" name="Judgment" physical="true" range="6" category="range" delay="4000" icon="9681" xicon="9681" direction="true">
+			<required mp="20"/>
+		</spell>
+		<spell id="5001" pos="25" descid="235" name="Phantom" physical="true" range="1" category="range" delay="7000" icon="9684" xicon="9684">
+			<required mp="18"/>
+			<catalyst type="5" count="100"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="onehand"/>
+		</spell>
+		<spell id="5002" pos="28" descid="236" name="Panthera" physical="true" range="3" category="range" delay="6500" icon="9687" xicon="9687">
+			<required mp="22"/>
+			<required equip="weapon"/>
+			<required weapon="sword" handtype="onehand"/>
+		</spell>
+		<spell id="5003" pos="24" descid="238" name="Blade" physical="true" range="5" category="range" delay="6000" icon="9675" xicon="9675" direction="true">
+			<required mp="20"/>
+			<catalyst type="5" count="50"/>
+			<required equip="weapon"/>
+			<required weapon="sword"/>
+			<required weapon="dagger"/>
+		</spell>
+		<spell id="5004" pos="27" descid="237" name="Hellfire" physical="true" delay="2000" icon="9689" xicon="9689">
+			<required mp="15"/>
+			<catalyst type="5" count="10"/>
+			<required equip="weapon"/>
+			<required weapon="sword"/>
+			<required weapon="dagger"/>
+		</spell>
+		<spell id="5016" descid="239" pos="29" name="Ashura" physical="true" icon="9814" xicon="9814" duration="10">
+			<required hp="2000"/>
+			<catalyst type="5" count="2000"/>
+		</spell>
+	</fencer>
+	<lancer grade="1">
+		<spell id="5050" descid="247" pos="24" name="Alternate" physical="true" delay="12000" icon="10143" xicon="10143">
+			<required equip="weapon"/>
+			<required weapon="spear"/>
+		</spell>
+		<spell id="5051" descid="248" pos="25" name="Force Wave" physical="true" type="attack" icon="10149" xicon="10149" delay="6000">
+			<required mp="15"/>
+			<catalyst type="5" count="20"/>
+			<required equip="weapon"/>
+			<required weapon="spear"/>
+			<conditiontype id="1" category="range" range="5" physical="true" type="attack" delay="5000" direction="true"/>
+		</spell>
+		<spell id="5052" descid="249" pos="26" name="Vanguard" icon="10141" xicon="10141" duration="4" physical="true" delay="12000">
+			<required hp="25"/>
+			<catalyst type="5" count="50"/>
+			<conditiontype id="1" icon="10141" xicon="10141" duration="4" delay="16000"/>
+		</spell>
+		<spell id="5053" descid="250" pos="27" name="Recover" physical="true" delay="180000" icon="10138" xicon="10138">
+			<required mp="50"/>
+			<catalyst type="5" count="300"/>
+		</spell>
+		<spell id="5054" descid="251" pos="28" name="Pressure" category="range" physical="true" delay="8000" icon="10151" xicon="10151" duration="4" range="4">
+			<required mp="16"/>
+			<required equip="weapon"/>
+			<required weapon="spear"/>
+			<conditiontype id="1" icon="10151" xicon="10151" category="range" physical="true" delay="8000" duration="4" range="4"/>
+		</spell>
+		<spell id="5055" descid="252" pos="29" name="Cruel" physical="true" delay="12000" icon="10145" xicon="10145" category="range" range="3" direction="true">
+			<required mp="20"/>
+			<catalyst type="5" count="100"/>
+			<required equip="weapon"/>
+			<required weapon="spear"/>
+			<conditiontype id="1" icon="10145" xicon="10145" physical="true" range="3" delay="8000" category="range" direction="true"/>
+		</spell>
+	</lancer>
+</spells>

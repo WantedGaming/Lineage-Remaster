@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロビンフッド</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>これは誰にでも教える話ではないがな、君の瞳の輝きが気に入ったから特別に話してやろう。</p>
+		<p>実はルナ ロング ボウの製作法が書かれた本は私が持っている。だが見ての通り私は年寄りだ。自分で直接材料を手に入れられない上に、</p>
+		<p>ルナ ロング ボウが作れるといった事実が明るみに出れば、この本ですら盗まれてしまうのではないかと、心配で誰にも頼めずにいたのだ。</p>
+		<p><a link="robinhood7">私が協力しましょう</a>	</p>
+	</dialog>
+	
+</npcdialog>

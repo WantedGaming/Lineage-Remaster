@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>1</portrait>
+    <name>パン</name>
+    <job>[森の守護者]</job>
+  </npc>
+  <dialog>
+	<p>お～俺は単に目の前にあったものをひたすら踏んでただけだが、エルフのおまえたちにはこれを使って<font fg="ffffff">メイル</font>を作って着てるんだろ？</p>
+	<p>そんな窮屈なのを着るよりは肌を鍛えろ！俺の肌は人間の持つ雑な剣なんかにはビクトもしないぞ！ハハハ！</p>
+	<p action="request mithril plate">ミスリル プレートの製作を依頼する</p>
+  </dialog>
+</npcdialog>	

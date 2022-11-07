@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p><a link="alchemy10">Did you bring the black bloodstains?</a><br/></p>
+    <p>Four types of attribute stones can be separated from the black bloodstains one by one.<br/></p>
+    <p>Special equipment is required for separation, so we will charge 10,000 Adena per piece as a usage fee. We will separate them for you when they are ready.<br/><br/><br/></p>
+    <p><a link="alchemy25">Request the separation of attribute stones</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy1"/><br/></p>
+  </dialog>
+</npcdialog>

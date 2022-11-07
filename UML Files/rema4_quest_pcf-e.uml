@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>アデン国王の補佐官</name>
+		<job>[イベント報賞]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		こら、私は誰彼構わず報賞はやらないぞ！<br/>
+		<br/>
+		<font fg="ffffaf">ミソフィアの心(PC)100個</font>を集めてきたのか？<br/>
+		<br/>
+		まだ祝祭の<font fg="ffffaf">招待状</font>を受け取っていないなら、 
+		ギラン城下町におられる<font fg="ffffaf">アデンの守護騎士</font>様のところへ行ってこい！<br/>
+	<br/>
+		それと、まだ<font fg="ffffaf">レベル55</font>に達していないなら、もっと強くなってから来てくれ。<br/>
+		 <br/>
+		 <br/>
+		</p>
+	</dialog>
+</npcdialog>

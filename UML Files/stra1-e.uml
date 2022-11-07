@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<dialog>
+				
+		<p>約束を忘れられたってアリナが怒ってるですって？<br/></p>
+		<p>約束の1つや2つ忘れることだってあるでしょ？<br/></p>
+		
+	</dialog>
+
+</npcdialog>

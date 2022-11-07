@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extract 20 Magic Stones from Marble Legacy.<br/></p>
+    <p>How many Marble Legacy do you want to extract the magic stones from? It takes 1000 Adena per piece due to the processing of the materials and the time and effort involved in the extraction.<br/><br/><br/></p>
+    <p><a action="a">1</a><br/></p>
+    <p><a action="b">10</a><br/></p>
+    <p><a action="c">50</a><br/></p>
+  </dialog>
+</npcdialog>

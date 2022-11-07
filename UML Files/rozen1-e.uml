@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, , enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ローゼン</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ふぅ…首都アデンに来れば、何かできるんじゃないかって思いで、苦労に苦労を重ねてここまで来たのに… </p>
+		<p>税金を払わないと思い通りに商売もできないなんて、話にならない！そんなお金があるんだったら、こんな遠くまでわざわざ来るわけないでしょう！？ </p>
+		<p>誰が何と言おうとね、商売させてもらいますよ。売りまくりますよ！アデンの近衛隊なんか怖くもなんともないんだから！ 	</p>
+			<panel type="Panel_Shop_Bt_Buy">
+				<button action="buy"/>
+			</panel>
+	</dialog>
+	
+</npcdialog>

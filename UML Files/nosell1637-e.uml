@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>もう少し修練してください。お持ちの物もあまり出来がよろしくないようですね。</p>
+	</dialog>
+
+</npcdialog>

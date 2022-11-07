@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>1</portrait>
+    <name>パン</name>
+    <job>[森の守護者]</job>
+  </npc>
+  <dialog>
+	<p>ハハハ！ノリのいい音楽を聞くのと何でもめった切りにするのが俺の趣味だ。どんなに丈夫なものでも俺の手に掛かれば全部ペラペラの紙にしてやる！</p>
+	<p>お～俺は単に目の前にあったものをひたすら踏んでただけだが、エルフのおまえたちにはこれを使って<font fg="ffffaf">メイル</font>を作って着てるんだろ？</p>
+	<p>そんな窮屈なのを着るよりは肌を鍛えろ！俺の肌は人間の持つ雑な剣なんかにはビクトもしないぞ！ハハハ！</p>
+	<p><a link="pane1">パン～</a></p>
+  </dialog>
+</npcdialog>	

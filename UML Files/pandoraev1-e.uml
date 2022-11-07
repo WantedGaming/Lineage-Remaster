@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>PO_003</portrait>
+    <name>パンドラ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+	<p>ご存知なかったのね。一昨年だったかしら、ラスタバド勢力が地上に侵攻したときの最初のターゲットが</p>
+	<p><a link="pandoraEv2">グルーディオ領地</a>だったじゃないですか。幸いにも地上の連合軍が善戦して戦争には勝てたの。その後、グルーディン村も以前のような活気を取り戻したわ。</p>
+  </dialog>
+</npcdialog>
+

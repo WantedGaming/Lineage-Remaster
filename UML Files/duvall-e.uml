@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デュバル</name>
+  </npc>
+  <dialog>
+    <p>
+ まだ海賊島に興味を持つ者がいたとは。<br/>
+ 最近海賊島についての物騒な噂が絶えないんだ。本当に大丈夫か？<br/>
+<br/>
+ <a action="teleportURL">関係ありません。</a>
+</p>
+  </dialog>
+</npcdialog>

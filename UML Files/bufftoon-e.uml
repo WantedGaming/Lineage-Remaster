@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p align="left"><br/><font fg="ffffff">バフトーンのギフト</font><br/></p>
+	<p>バフトーン接続時<font fg="ffffaf">リネージュウェブトゥーン保有券</font>10枚獲得可能(1回)<br/><br/></p>
+	<p>[+10目前の騎士]<br/></p>
+	<p><img src="23199"></img><br/><br/></p>
+	<p>ベテランと新参者が出会い、全ワールドで最強の血盟を夢見る。<br/></p>
+	<p>リネージュリマスターウェブトゥーン<font fg="ffffaf">[+10目前の騎士]</font><br/>
+	バフトゥーンで毎週<font fg="ffffaf">水曜日</font>更新中</p>
+  </dialog>
+</npcdialog>

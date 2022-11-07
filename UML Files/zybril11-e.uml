@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>ロビンフッド？誰だったか…あ！エルフの森にいるあの弓矢のおじさん！</p>
+		<p>それはともかく、その方の手紙はどこにあるのですか？	</p>
+	</dialog>
+	
+</npcdialog>

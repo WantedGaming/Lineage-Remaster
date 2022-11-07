@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<font fg="ffafff">キーリンク</font>に興味があるようですね。<br/>
+		<br/>
+		<br/>
+		<a link="batr5">ダーク ストーン キーリンクを製作する</a><br/>
+		<br/>
+		<a link="batr6">封印された冷寒のキーリンクの封印を解けますか？</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

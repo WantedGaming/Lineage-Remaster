@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>レイスン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 もしかして、<font fg="ffafff">希望のロウソク</font>を持ってるんですか？<br/>
+		<font fg="ffafff">希望のロウソクと持っているなら</font>売りませんよ！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

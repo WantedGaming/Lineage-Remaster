@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>訓練隊長カナス</name>
+  </npc>
+  <dialog>
+   <p> <a action="c">ギルタス復活</a></p>
+  </dialog>
+</npcdialog>

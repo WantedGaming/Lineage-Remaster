@@ -1,0 +1,1181 @@
+<?xml version="1.0"?>
+<ShopUI Toggle="true" Name="ShopUI">
+	<Button Name="CashShopUI_Button" X="846" Y="510" Height="21" BaseSurf="6121;1" HighlightSurf="6122;1" PushSurf="6122;1" MouseEvent="OpenCashShop" MostTop="1">
+		<Tooltip Name = "Desc_Tooltip" X="20" Y="-20" String = "-1"/>
+		<Effect Name = "CashShopOpenButton_Effect" X = "3" Y = "-19" MostTop = "1" Effect = "39" Delay = "1800000" Loop = "1"/>
+	</Button>
+	<Window Name="Payment_OTP_Window" BaseSurf="8929;1" Moveable = "20" MouseEvent = "Dummy">
+		<Button Name="Close_Button" X="181" Y="7" BaseSurf="8701;1" HighlightSurf="8702;1" PushSurf="8702;1" MouseEvent="CancelOtp"/>
+		<InputBox Name="OTP_Edit" X="41" Y="45" Width="207" Height="18" LimitText="8" Password="1" Numeric="1"/>
+		<Button Name="Ok_Button" X="37" Y="100" BaseSurf="8946" HighlightSurf="8947" PushSurf="8947" MouseEvent="OKOtp" />
+		<Button Name="Cancel_Button" X="105" Y="100" BaseSurf="8948" HighlightSurf="8949" PushSurf="8949" MouseEvent="CancelOtp" />
+	</Window>
+	<Window Name="Payment_PW_Window" BaseSurf="8952;1" Moveable = "20" MouseEvent = "Dummy">
+		<Button Name="Close_Button" X="181" Y="5" BaseSurf="8701;1" HighlightSurf="8702;1" PushSurf="8702;1" MouseEvent="CancelPassWord"/>
+		<Label Name="PaymentPassWord_Label" X="22" Y="36" Width="133" Height="10"/>
+		<Control Name="NumberKeyPad" X="16" Y="54">
+			<Button Name="KeyPad0_Button" X="0" Y="0" BaseSurf="6965" HighlightSurf="6965" PushSurf="6965" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad1_Button" X="36" Y="0" BaseSurf="6966" HighlightSurf="6966" PushSurf="6966" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad2_Button" X="72" Y="0" BaseSurf="6967" HighlightSurf="6967" PushSurf="6967" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad3_Button" X="108" Y="0" BaseSurf="6968" HighlightSurf="6968" PushSurf="6968" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad4_Button" X="144" Y="0" BaseSurf="6969" HighlightSurf="6969" PushSurf="6969" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad5_Button" X="0" Y="32" BaseSurf="6970" HighlightSurf="6970" PushSurf="6970" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad6_Button" X="36" Y="32" BaseSurf="6971" HighlightSurf="6971" PushSurf="6971" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad7_Button" X="72" Y="32" BaseSurf="6972" HighlightSurf="6972" PushSurf="6972" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad8_Button" X="108" Y="32" BaseSurf="6973" HighlightSurf="6973" PushSurf="6973" MouseEvent="PaymentPasswordKeypad" />
+			<Button Name="KeyPad9_Button" X="144" Y="32" BaseSurf="6974" HighlightSurf="6974" PushSurf="6974" MouseEvent="PaymentPasswordKeypad" />
+		</Control>
+		<Button Name="ChangePassWord_Button" X="5" Y="120" BaseSurf="8953" HighlightSurf="8954" PushSurf="8954" DrawDisableScreen = "1" MouseEvent="ChangePassWord"/>
+		<Button Name="OK_Button" X="71" Y="120" BaseSurf="8946" HighlightSurf="8947" PushSurf="8947" MouseEvent="OKPassWord" />
+		<Button Name="Reset_Button" X="137" Y="120" BaseSurf="8955" HighlightSurf="8956" PushSurf="8956" MouseEvent="ResetPassWord" />
+		<MultiLabel Name = "PasswordMessage_Label" X = "16" Y = "167" Width = "176" Height = "65" LineMargin = "2" Caption = "test"/>
+	</Window>
+	<Window Name="Payment_Window" X="0" Y="0" BaseSurf="8957" Moveable = "20" MouseEvent = "Dummy">
+		<Button Name="Close_Button" X="201" Y="6" BaseSurf="8701;1" HighlightSurf="8702;1" PushSurf="8702;1" MouseEvent="CancelPaymentButton"/>
+		<Label Name="PaymentInfo_Label" X = "12" Y = "55" Width = "218" Height = "23" Align="left" Caption="example"/>
+		<HyperText Name="PayingGoods_HyperText" X="12" Y="107" Width="202" Height="69">
+     		<ScrollBar Name="ScrollBar" X="204" Y="0" Width="17" Height="50" ScrollStart="16" ScrollHeight="55" Vertical="1">
+     			<Button Name="Up_Button" X="0" Y="0" BaseSurf="8968" PushSurf="8969" MouseEvent="Dummy"/>
+     			<Button Name="Down_Button" X="0" Y="50" BaseSurf="8966" PushSurf="8967" MouseEvent="Dummy"/>
+     			<Button Name="Move_Button" X="0" Y="16" BaseSurf="8964" PushSurf="8965" MouseEvent="Dummy"/>
+     		</ScrollBar>
+  		</HyperText>
+		<Edit Name="PaymentEmailInfo_Label" X = "12" Y = "207" Width = "223" Height = "23" LimitText="128"/>
+		<HyperText Name="PaymentNote_HyperText" X="12" Y="254" Width="202" Height="69">
+     		<ScrollBar Name="ScrollBar" X="204" Y="0" Width="17" Height="50" ScrollStart="16" ScrollHeight="55" Vertical="1">
+     			<Button Name="Up_Button" X="0" Y="0" BaseSurf="8968" PushSurf="8969" MouseEvent="Dummy"/>
+     			<Button Name="Down_Button" X="0" Y="50" BaseSurf="8966" PushSurf="8967" MouseEvent="Dummy"/>
+     			<Button Name="Move_Button" X="0" Y="16" BaseSurf="8964" PushSurf="8965" MouseEvent="Dummy"/>
+     		</ScrollBar>
+  		</HyperText>
+		<MultiLabel Name = "PaymentMessage_Label" X = "12" Y = "328" Width = "220" Height = "54" LineMargin = "2" String = "3506"/>
+		<Button Name="AgreeNPayment_Button" X="33" Y="387" BaseSurf="8958" HighlightSurf="8959" PushSurf="8960;1" MouseEvent="AgreePaymentButton" />
+		<Button Name="CancelPayment_Button" X="128" Y="387" BaseSurf="8961" HighlightSurf="8962" PushSurf="8963;1" MouseEvent="CancelPaymentButton" />
+	</Window>
+	<Window Name = "NPCShop_Window" X = "0" Y = "0" BasePng = "2822" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" Activate = "0">
+		<Button Name = "Close_Button" X = "206" Y = "7" BaseSurf = "8701;1" HighlightSurf="8702;1" PushSurf = "8703;1" MouseEvent = "CloseButton"/>
+		<Image Name = "Currency_IconImage" X = "11" Y = "407" Surf="8833" Activate = "1"/>
+		<Label Name = "Currency_Label" X = "39" Y = "413" Width = "40" Height = "15" VAlign = "middle" HAlign = "left" Caption = "ADENA"/>
+		<Label Name = "TotalPrice_Label" X = "80" Y = "413" Width = "94" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+		<Control Name = "Tab_Buttons" X = "0" Y = "33">
+			<CheckButton Name = "Tab_All_Button" X = "10" BasePng = "2823" HighlightPng = "2824" PushPng = "2825" PushCheck = "0" MouseEvent = "TabButton"/>
+			<CheckButton Name = "Tab_Potion_Button" X = "67" BasePng = "2832" HighlightPng = "2833" PushPng = "2834" PushCheck = "0" MouseEvent = "TabButton"/>
+			<CheckButton Name = "Tab_Scroll_Button"  X = "124" BasePng = "2835" HighlightPng = "2836" PushPng = "2837" PushCheck = "0" MouseEvent = "TabButton"/>
+			<CheckButton Name = "Tab_Etc_Button" X = "181" BasePng = "2838" HighlightPng = "2839" PushPng = "2840" PushCheck = "0" MouseEvent = "TabButton"/>
+		</Control>
+		<ComboBox Name = "Sort_Combobox" X = "11" Y = "60">
+			<Label Name = "Text_Label" X = "1" Y = "0" Align = "center" String = "4012" Width = "110" Height = "21"/>
+			<Button Name = "Expand_Button" X = "106" Y = "0" BaseSurf = "8836" PushSurf = "8837" MouseEvent = "SortComboDown"/>
+			<UpDownList Name = "Expand_List" X = "0" Y = "19" PageSize = "0" Width = "115" Height = "152" Vertical = "1">
+				<Image Name = "Background_Image" Surf = "8835"/>
+				<CheckButton Name = "Item0_Button" String = "4012" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+				<CheckButton Name = "Item0_Button" String = "4013" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+				<CheckButton Name = "Item1_Button" String = "4014" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+				<CheckButton Name = "Item2_Button" String = "4015" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+			</UpDownList>
+		</ComboBox>
+		<List Name = "Items_List" X = "10" Y = "85" Width = "420" Height = "318" Vertical = "1">
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "0"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "1"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "2"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "3"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "4"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "5"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "6"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "7"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "8"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+		</List>
+		<ScrollBar Name = "ItemList_Scrollbar" X = "220" Y = "84" Width = "19" Height = "269" ScrollStart = "17" ScrollHeight = "283" Vertical = "1" MouseEvent = "ItemInfoScroll">
+			<Button Name = "Up_Button" BaseSurf = "8699" PushSurf = "8700" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Move_Button" X = "1" Y = "14" BaseSurf = "8695" PushSurf = "8696" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Down_Button" Y = "299" BaseSurf = "8697" PushSurf = "8698" MouseEvent = "ItemInfoScroll"/>
+		</ScrollBar>
+		<Button Name = "Buy_Button" X = "147" Y = "406" BaseSurf = "8822" HighlightSurf = "8823" PushSurf = "8824;1"  MouseEvent = "BuyButton"/>
+		<Button Name = "Sell_Button" X = "147" Y = "406" BaseSurf = "8838" HighlightSurf = "8839" PushSurf = "8840;1"  MouseEvent = "SellButton"/>
+		<Button Name = "Expand_Button" X = "187" Y = "6" BasePng = "2844;1" HighlightPng="2845;1" PushPng = "2846;1" MouseEvent = "ExpandButton"/>
+	</Window>
+	<Window Name = "CashShop_Window" X = "0" Y = "0" BasePng = "2847" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" Activate = "0">
+		<Button Name = "Close_Button" X = "206" Y = "7" BaseSurf = "8701;1" HighlightSurf="8702;1" PushSurf = "8703;1" MouseEvent = "CloseButton"/>
+		<Image Name = "Currency_IconImage" X = "11" Y = "407" Surf="8833" Activate = "1"/>
+		<Label Name = "Currency_Label" X = "39" Y = "413" Width = "40" Height = "15" VAlign = "middle" HAlign = "left" Caption = "ADENA"/>
+		<Label Name = "TotalPrice_Label" X = "80" Y = "413" Width = "94" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+		<HyperText Name="ItemDescHyperText" X="14" Y="81" Width="210" Height="67">
+			<ScrollBar Name = "ScrollBar" X = "206" Y = "-25" Width = "19" Height = "94" ScrollStart = "17" ScrollHeight = "94" Vertical = "1" >
+				<Button Name = "Up_Button" BaseSurf = "8699" PushSurf = "8700" MouseEvent = "Dummy"/>
+				<Button Name = "Move_Button" X = "1" Y = "14" BaseSurf = "8695" PushSurf = "8696" MouseEvent = "Dummy"/>
+				<Button Name = "Down_Button" Y = "77" BaseSurf = "8697" PushSurf = "8698" MouseEvent = "Dummy"/>
+			</ScrollBar>
+  		</HyperText>
+		<Control Name = "Tab_Buttons" X = "0" Y = "33">
+			<CheckButton Name = "Tab_Equip_Button" X = "53" BasePng = "2851" HighlightPng = "2852" PushPng = "2853" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_Buff_Button"  X = "100" BasePng = "2854" HighlightPng = "2855" PushPng = "2856" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_Conve_Button" X = "147" BasePng = "2857" HighlightPng = "2858" PushPng = "2859" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_Etc_Button" X = "194" BasePng = "2860" HighlightPng = "2861" PushPng = "2862" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_All_Button" X = "6" BasePng = "2848" HighlightPng = "2849" PushPng = "2850" PushCheck = "0" MouseEvent = "FilterItems"/>
+		</Control>
+		<List Name = "Items_List" X = "10" Y = "155" Width = "210" Height = "318" Vertical = "1">
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "0"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "1"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "2"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "3"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "4"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "5"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "210" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "6"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+		</List>
+		<ScrollBar Name = "ItemList_Scrollbar" X = "220" Y = "154" Width = "19" Height = "199" ScrollStart = "17" ScrollHeight = "213" Vertical = "1" MouseEvent = "ItemInfoScroll">
+			<Button Name = "Up_Button" BaseSurf = "8699" PushSurf = "8700" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Move_Button" X = "1" Y = "14" BaseSurf = "8695" PushSurf = "8696" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Down_Button" Y = "229" BaseSurf = "8697" PushSurf = "8698" MouseEvent = "ItemInfoScroll"/>
+		</ScrollBar>
+		<Button Name = "All_Button" X = "63" Y = "406" BaseSurf = "8813" HighlightSurf = "8814" PushSurf = "8815;1"  MouseEvent = "AllButton"/>
+		<Button Name = "Cart_Button" X = "63" Y = "406" BaseSurf = "8816" HighlightSurf = "8817" PushSurf = "8818;1"  MouseEvent = "CartButton"/>
+		<Button Name = "Warehouse_Button" X = "20" Y = "404" BaseSurf = "8819;1" HighlightSurf = "8820;1" PushSurf = "8821;1"  MouseEvent = "WarehouseButton"/>
+		<Button Name = "Buy_Button" X = "147" Y = "406" BaseSurf = "8822" HighlightSurf = "8823" PushSurf = "8824;1"  MouseEvent = "BuyButton"/>
+		<Button Name = "Sell_Button" X = "147" Y = "406" BaseSurf = "8838" HighlightSurf = "8839" PushSurf = "8840;1"  MouseEvent = "SellButton"/>
+		<Button Name = "Expand_Button" X = "187" Y = "6" BasePng = "2844;1" HighlightPng="2845;1" PushPng = "2846;1" MouseEvent = "ExpandButton"/>
+	</Window>
+	<Window Name = "NPCShop_Expand_Window" X = "0" Y = "0" BaseSurf = "8800" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" Activate = "0">
+		<Button Name = "Close_Button" X = "418" Y = "7" BaseSurf = "8701;1" HighlightSurf="8702;1" PushSurf = "8703;1" MouseEvent = "CloseButton"/>
+		<Image Name = "Currency_IconImage" X = "11" Y = "407" Surf="8833" Activate = "1"/>
+		<Label Name = "Currency_Label" X = "39" Y = "413" Width = "40" Height = "15" VAlign = "middle" HAlign = "left" Caption = "ADENA"/>
+		<Label Name = "TotalPrice_Label" X = "80" Y = "413" Width = "94" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+		<Control Name = "Tab_Buttons" X = "0" Y = "33">
+			<CheckButton Name = "Tab_All_Button" X = "11" BaseSurf = "8801" HighlightSurf = "8802" PushSurf = "8803" PushCheck = "0" MouseEvent = "TabButton"/>
+			<CheckButton Name = "Tab_Potion_Button" X = "120" BaseSurf = "8804" HighlightSurf = "8805" PushSurf = "8806" PushCheck = "0" MouseEvent = "TabButton"/>
+			<CheckButton Name = "Tab_Scroll_Button"  X = "229" BaseSurf = "8807" HighlightSurf = "8808" PushSurf = "8809" PushCheck = "0" MouseEvent = "TabButton"/>
+			<CheckButton Name = "Tab_Etc_Button" X = "338" BaseSurf = "8810" HighlightSurf = "8811" PushSurf = "8812" PushCheck = "0" MouseEvent = "TabButton"/>
+		</Control>
+		<ComboBox Name = "Sort_Combobox" X = "11" Y = "60">
+			<Label Name = "Text_Label" X = "1" Y = "0" Align = "center" String = "4012" Width = "110" Height = "21"/>
+			<Button Name = "Expand_Button" X = "106" Y = "0" BaseSurf = "8836" PushSurf = "8837" MouseEvent = "SortComboDown"/>
+			<UpDownList Name = "Expand_List" X = "0" Y = "19" PageSize = "0" Width = "115" Height = "152" Vertical = "1">
+				<Image Name = "Background_Image" Surf = "8835"/>
+				<CheckButton Name = "Item0_Button" String = "4012" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+				<CheckButton Name = "Item0_Button" String = "4013" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+				<CheckButton Name = "Item1_Button" String = "4014" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+				<CheckButton Name = "Item2_Button" String = "4015" Width = "115" FontColor = "144,136,123" Align = "center" Height = "16" MouseEvent = "SortComboListItem"/>
+			</UpDownList>
+		</ComboBox>
+		<List Name = "Items_List" X = "10" Y = "85" Width = "420" Height = "318" Vertical = "1">
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "0"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "1"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "2"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "3"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "4"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "5"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "6"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "7"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "8"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "9"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "10"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "11"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "12"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1"  Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "13"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "14"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "15"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "16"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "17"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+		</List>
+		<ScrollBar Name = "ItemList_Scrollbar" X = "430" Y = "84" Width = "19" Height = "269" ScrollStart = "17" ScrollHeight = "283" Vertical = "1" MouseEvent = "ItemInfoScroll">
+			<Button Name = "Up_Button" BaseSurf = "8699" PushSurf = "8700" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Move_Button" X = "1" Y = "14" BaseSurf = "8695" PushSurf = "8696" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Down_Button" Y = "299" BaseSurf = "8697" PushSurf = "8698" MouseEvent = "ItemInfoScroll"/>
+		</ScrollBar>
+		<!--
+		<Button Name = "All_Button" X = "273" Y = "406" BaseSurf = "8813" HighlightSurf = "8814" PushSurf = "8815;1"  MouseEvent = "AllButton"/>
+		<Button Name = "Cart_Button" X = "273" Y = "406" BaseSurf = "8816" HighlightSurf = "8817" PushSurf = "8818;1"  MouseEvent = "CartButton"/> 
+		<Button Name = "Warehouse_Button" X = "230" Y = "404" BaseSurf = "8819;1" HighlightSurf = "8820;1" PushSurf = "8821;1"  MouseEvent = "WarehouseButton"/>
+		-->
+		<Button Name = "Buy_Button" X = "357" Y = "406" BaseSurf = "8822" HighlightSurf = "8823" PushSurf = "8824;1"  MouseEvent = "BuyButton"/>
+		<Button Name = "Sell_Button" X = "357" Y = "406" BaseSurf = "8838" HighlightSurf = "8839" PushSurf = "8840;1"  MouseEvent = "SellButton"/>
+		<Button Name = "Fold_Button" X = "399" Y = "6" BasePng = "2841;1" HighlightPng="2842;1" PushPng = "2843;1" MouseEvent = "FoldButton"/>
+	</Window>
+	<Window Name = "CashShop_Expand_Window" X = "0" Y = "0" BaseSurf = "8829" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" Activate = "0">
+		<Button Name = "Close_Button" X = "418" Y = "7" BaseSurf = "8701;1" HighlightSurf="8702;1" PushSurf = "8703;1" MouseEvent = "CloseButton"/>
+		<Image Name = "Currency_IconImage" X = "11" Y = "407" Surf="8833" Activate = "1"/>
+		<Label Name = "Currency_Label" X = "39" Y = "413" Width = "40" Height = "15" VAlign = "middle" HAlign = "left" Caption = "ADENA"/>
+		<Label Name = "TotalPrice_Label" X = "80" Y = "413" Width = "94" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+		<HyperText Name="ItemDescHyperText" X="14" Y="81" Width="213" Height="67">
+			<ScrollBar Name = "ScrollBar" X = "416" Y = "-25" Width = "19" Height = "94" ScrollStart = "17" ScrollHeight = "94" Vertical = "1" >
+				<Button Name = "Up_Button" BaseSurf = "8699" PushSurf = "8700" MouseEvent = "Dummy"/>
+				<Button Name = "Move_Button" X = "1" Y = "14" BaseSurf = "8695" PushSurf = "8696" MouseEvent = "Dummy"/>
+				<Button Name = "Down_Button" Y = "77" BaseSurf = "8697" PushSurf = "8698" MouseEvent = "Dummy"/>
+			</ScrollBar>
+  		</HyperText>
+		<Control Name = "Tab_Buttons" X = "0" Y = "33">
+			<CheckButton Name = "Tab_Equip_Button" X = "100" BaseSurf = "8936" HighlightSurf = "8937" PushSurf = "8938" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_Buff_Button"  X = "186" BaseSurf = "8933" HighlightSurf = "8934" PushSurf = "8935" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_Conve_Button" X = "272" BaseSurf = "8942" HighlightSurf = "8943" PushSurf = "8944" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_Etc_Button" X = "358" BaseSurf = "8930" HighlightSurf = "8931" PushSurf = "8932" PushCheck = "0" MouseEvent = "FilterItems"/>
+			<CheckButton Name = "Tab_All_Button" X = "14" BaseSurf = "8939" HighlightSurf = "8940" PushSurf = "8941" PushCheck = "0" MouseEvent = "FilterItems"/>
+		</Control>
+		<List Name = "Items_List" X = "10" Y = "155" Width = "420" Height = "318" Vertical = "1">
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "0"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "1"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "2"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "3"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "4"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "5"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "6"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "7"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "8"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "9"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "10"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "11"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+			<List Name = "SubItem_List" Width = "420" Height = "35" Horizontal = "1">
+				<CheckButton Name = "Item0_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1" Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "12"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+				<CheckButton Name = "Item1_Button" X = "1" Y = "1" Width ="210" Height="35" CheckSurf="8834;4" PushCheck = "0" MouseEvent = "ItemsListClick" Activate = "1">
+					<Image Name = "ItemSellingAttribute_Image" X = "2" Y = "1" Surf="6144;1"/>
+					<List Name = "Item_List" Width = "210" Height = "35" Horizontal = "1" Gap = "2">
+						<ItemIcon Name = "Item_Image" X = "-1"  Y = "-1" Width = "35" Height = "35">
+							<Tooltip Name = "Desc_Tooltip" X = "36" Y ="-2" OpacityRate="27"/>
+						</ItemIcon>
+						<List Name = "ItemInfo_List" X = "36" Y="0" Width="168" Height="35" Vertical ="1" Gap="1">
+						  <Label Name="ItemName_Label" X = "4" Y = "0" Width = "168" Height = "14" VAlign="bottom"/>
+						  <Control Name = "ItemInfoValue_List" Width="168" Height="17" Horizontal="1">
+							<Label Name="ItemPrice_Label" Width = "72" X="10" Y = "2" Height="13" Align="right"/>
+							<Button Name="ItemCountMinus_Button" X="91" Y = "0" BaseSurf="8827" PushSurf="8828" MouseEvent="ItemCountMinusButton"/>
+							<Edit Name="ItemCount_Edit" X = "104" Y = "2" Width = "48" Align="center" Height = "13" LimitText = "6" OnlyNumber = "1" MouseEvent = "CountListItem" Tag = "13"/>
+							<Image Name = "ItemCount_Image" X = "111" Y = "0" Surf="8842"/>
+							<Button Name="ItemCountPlus_Button" X="151" Y = "0" BaseSurf="8825" PushSurf="8826" MouseEvent="ItemCountPlusButton"/>
+						  </Control>
+						</List>
+					</List>
+					<Image Name = "TradeCountingBack_Image" X = "36" Y = "0" Surf="8841;4" Activate = "0"/>
+				</CheckButton>
+			</List>
+		</List>
+		<ScrollBar Name = "ItemList_Scrollbar" X = "430" Y = "154" Width = "19" Height = "199" ScrollStart = "17" ScrollHeight = "213" Vertical = "1" MouseEvent = "ItemInfoScroll">
+			<Button Name = "Up_Button" BaseSurf = "8699" PushSurf = "8700" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Move_Button" X = "1" Y = "14" BaseSurf = "8695" PushSurf = "8696" MouseEvent = "ItemInfoScroll"/>
+			<Button Name = "Down_Button" Y = "229" BaseSurf = "8697" PushSurf = "8698" MouseEvent = "ItemInfoScroll"/>
+		</ScrollBar>
+		<Button Name = "All_Button" X = "273" Y = "406" BaseSurf = "8813" HighlightSurf = "8814" PushSurf = "8815;1"  MouseEvent = "AllButton"/>
+		<Button Name = "Cart_Button" X = "273" Y = "406" BaseSurf = "8816" HighlightSurf = "8817" PushSurf = "8818;1"  MouseEvent = "CartButton"/>
+		<Button Name = "Warehouse_Button" X = "230" Y = "404" BaseSurf = "8819;1" HighlightSurf = "8820;1" PushSurf = "8821;1"  MouseEvent = "WarehouseButton"/>
+		<Button Name = "Buy_Button" X = "357" Y = "406" BaseSurf = "8822" HighlightSurf = "8823" PushSurf = "8824;1"  MouseEvent = "BuyButton"/>
+		<Button Name = "Sell_Button" X = "357" Y = "406" BaseSurf = "8838" HighlightSurf = "8839" PushSurf = "8840;1"  MouseEvent = "SellButton"/>
+		<!--
+		<Button Name = "Fold_Button" X = "399" Y = "6" BasePng = "2841;1" HighlightPng="2842;1" PushPng = "2843;1" MouseEvent = "FoldButton"/>
+		-->
+	</Window>
+	<Window Name="Shop_Confirm" X="305" Y="247" BaseSurf = "8945" Moveable = "20" Modal="1" Activate="0" MostTop="1"  MouseEvent="Dummy">
+		<MultiLabel Name = "Confirm_Label" X = "19" Y = "21" Width = "168" Height = "90" Caption = "test"/>
+		<Button Name="Ok_Button" X="36" Y="116" BaseSurf="8946;1" HighlightSurf="8947;1" PushSurf="8947;1" MouseEvent="ConfirmOKButton"/>
+		<Button Name="Cancel_Button" X="104" Y="116" BaseSurf="8948;1" HighlightSurf="8949;1" PushSurf="8949;1" MouseEvent="ConfirmCancelButton"/>
+		<Button Name="Close_Button" X="173" Y="5" BaseSurf="8950;1" HighlightSurf="8951;1" PushSurf="8951;1" MouseEvent="ConfirmCancelButton"/>
+	</Window>
+	<Window Name="Shop_ErrorMsg" X="305" Y="247" BaseSurf = "8945" Moveable = "20" Modal="1" Activate="0" MostTop="1"  MouseEvent="Dummy">
+		<MultiLabel Name = "Confirm_Label" X = "19" Y = "21" Width = "168" Height = "90" Caption = "test"/>
+		<Button Name="Ok_Button" X="70" Y="116" BaseSurf="8946;1" HighlightSurf="8947;1" PushSurf="8947;1" MouseEvent="ErrorOKButton"/>
+		<Button Name="Close_Button" X="173" Y="5" BaseSurf="8950;1" HighlightSurf="8951;1" PushSurf="8951;1" MouseEvent="ErrorOKButton"/>
+	</Window>
+</ShopUI>

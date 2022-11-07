@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェイソン</name>
+		<job>[材木商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>何だ？ケンカでも売ってるのか？</p>
+
+	</dialog>
+</npcdialog>

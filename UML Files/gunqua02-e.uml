@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンターの助手</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		険しい旅を経てここまでいらしたんですね。
+		冒険を終えたことに対し、もう一度お祝い申し上げます。<br/>
+		スライムを救出した確認書を私にください。<br/>
+		そうすれば、プレゼントを差し上げます。<br/><br/>
+		<a action="B">スライム救出確認書</a>を渡す<br/>
+		<br/>
+		必要のないアイテムを私にだされば、思い出のメモに交換いたしましょう。
+		<br/>
+		ジャイアント スパイダーの脚を<a action="C">思い出のメモに交換</a><br/>
+		ジャイアント スパイダーの肉を<a action="D">思い出のメモに交換</a><br/>
+		スケルトンの骨を<a action="E">思い出のメモに交換</a><br/>
+		ゾンビの骨を<a action="F">思い出のメモに交換</a><br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エント</name>
+		<job>[森の守護者]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>汚れたエント…実も汚れた…浄化するには…精霊の涙…必要…。</p>
+  </dialog>
+</npcdialog>

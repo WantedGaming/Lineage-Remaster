@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ウェルダン村の7時の方角にある出口から外に出て、西に向ってまっすぐ行くと橋があります。そこを渡って今度は北へ進むと、火竜の棲処にたどり着けるでしょう。そばにドワーフ城があります。くれぐれもそちらには行かないように気をつけてください。<br/>
+		 火竜の棲処にはいろいろ出るんですよ。<font fg="ffafff">ファイアー エッグ</font>、<font fg="ffafff">バーニング ウォリアー</font>、<font fg="ffafff">バーニング アーチャー</font>、<font fg="ffafff">ボム フラワー</font>、<font fg="ffafff">ドラゴン フライ</font>、<font fg="ffafff">ラヴァ ゴーレム</font>とかね。みんな火属性を持ってるやつらですよ。水属性でエンチャントされた武器や水属性魔法を使うと、比較的楽に狩れますよ。火竜の棲家にいるモンスターはそのほとんどが先制攻撃をしかけてくるやつなんですから、格別の注意を要します。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

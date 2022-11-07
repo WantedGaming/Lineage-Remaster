@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <image>Talk_NPC_002</image>
+    <name>バイガー</name>
+    <job>[傭兵隊長]</job>
+    <text>傭兵が必要ですか？</text>
+  </npc>
+  <dialog>
+    <p>こんにちは。 <username/>様。我が「ポイズンサーペント」の傭兵はいつでも全力を尽くして戦う準備ができております。</p>
+		<p><a action="demand">配置された傭兵を要求する</a></p>
+  </dialog>
+</npcdialog>

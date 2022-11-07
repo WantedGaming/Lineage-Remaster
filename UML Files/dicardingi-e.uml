@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>アデンの勇士たちは敵と対峙している。<br/></p>
+		<p>古代の力を持つおまえたちもアデンのために戦っている以上、目的を果たしてもらいたい。<br/><br/></p>
+	</dialog>
+	
+</npcdialog>

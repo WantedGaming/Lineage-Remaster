@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<quest>
+	<complete>
+		<!-- type 1 : center message -->
+		<!-- type 2 : chating message -->
+		<!-- type 3 : 1 + 2 -->
+		<!-- type 4 : tutorial ui (huntingInfoUI) -->
+		<!-- type 5 : 4+1 -->
+		<!-- type 6 : 4+2  -->
+		<!-- type 7 : 4+1+2+3  -->	
+
+		<!--titlestring="4305" statusstring="4306"/>	type 4,5,6,7에만 설정 가능)-->		
+		
+		
+		<item nameid="14091" map="-1" string="3428" mincount="30" maxcount="33" type="1" displaytime="10"/>
+		<item nameid="14729" map="-1" string="3915" mincount="30" maxcount="33" type="1" displaytime="10"/>
+		<item nameid="15243" map="-1" string="3576" mincount="100" maxcount="100" type="1" displaytime="10"/>
+		
+		<!--[China] Tutorial progress UI example-->
+		<item nameid="18299" map="-1" string="3576" mincount="1" maxcount="5" type="4" displaytime="10" titlestring="4320" statusstring="4321"/>
+		<item nameid="18300" map="-1" string="3576" mincount="1" maxcount="5" type="4" displaytime="10" titlestring="4322" statusstring="4323"/>
+		<item nameid="18301" map="-1" string="3576" mincount="1" maxcount="5" type="4" displaytime="10" titlestring="4324" statusstring="4325"/>
+		<item nameid="18302" map="-1" string="3576" mincount="1" maxcount="5" type="4" displaytime="10" titlestring="4326" statusstring="4327"/>
+
+		<!--[16th Anniversary Hunting Event Message]-->
+		<item nameid="13858" map="-1" string="4406" mincount="100" maxcount="103" type="1" displaytime="10"/>
+		<item nameid="13859" map="-1" string="4407" mincount="100" maxcount="103" type="1" displaytime="10"/>
+		
+    <!--[Einhasad's Warm Gaze Daily Quest]-->
+		<item nameid="16089" map="-1" string="4454" mincount="100" maxcount="100" type="1" displaytime="10"/>
+		<item nameid="16090" map="-1" string="4455" mincount="100" maxcount="100" type="1" displaytime="10"/>
+		<item nameid="16091" map="-1" string="4456" mincount="100" maxcount="100" type="1" displaytime="10"/>
+		<item nameid="16092" map="-1" string="4457" mincount="100" maxcount="100" type="1" displaytime="10"/>
+		<item nameid="16093" map="-1" string="4458" mincount="100" maxcount="100" type="1" displaytime="10"/>
+	</complete>
+</quest>

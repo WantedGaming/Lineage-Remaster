@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<SkillBtnUI>
+  <Button Name="SkillButton" X = "0" Y = "0" BaseSurf = "8282" HighlightSurf = "8283" PushSurf = "8282" MouseEvent = "Skill_Btn">
+    <Tooltip Name = "Desc_Tooltip" X="0" Y="0" FontColor="255,255,255" BackColor="0,0,0" String="615" Time="600"/>
+  </Button>
+</SkillBtnUI>

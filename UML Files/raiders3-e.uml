@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>冒険家 レイダース：</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>おぉ、それでは月光の涙を持ってきてくれれば、いつでも進化の実と交換して差し上げますよ。</p>
+		<p>これでついに、彼女にプレゼントする月光のアルペンホルンを作れます。</p>
+		<p>あ、今のはただの独り言ですから、気にしなくていいですよ。</p>
+		<p><a action="request petfood">月光の涙を渡す</a></p>
+	</dialog>
+
+</npcdialog>

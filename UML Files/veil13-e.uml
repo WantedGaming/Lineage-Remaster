@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p>くっ…事情があって…ドラゴンキーの確保が難しくなった。
+    ドワーフに話をしてみるから少し待ってもらえるか。<br/>
+		<br/>
+    ちなみに、今はドルーガの袋からもドラゴンキーからも出ないからな！だけどAdenaは用意しておくのだぞ。</p>
+  </dialog>
+</npcdialog>

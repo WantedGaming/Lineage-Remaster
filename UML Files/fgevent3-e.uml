@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フォアカン</name>
+		<job>[アデン近衛隊長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>感謝する！君のおかげでアデンの国民も安心して眠れるだろう。今日は君も疲れているだろうから<font fg="ffffaf">明日</font>また会おう。</p>
+		<p><font fg="ffafff">ささやかなもの</font>だが受け取ってくれ。 </p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>ありがとう。申し訳ないですが、もうひとつ頼みを聞いてもらえませんか。</p>
+		<p><font fg="ffffaf">神聖なエヴァの水</font>を持って、エヴァの聖地のどこかに隠れておられる<font fg="ffffaf">サエル様</font>を探し、パプリオンの呪いを解いてもらいたいのです。</p>
+		<p>サエル様に会ったら<font fg="ffffaf">神聖なエヴァの水</font>を飲んでください。水の気を感じられるでしょう。</p>
+		<p>お会いして間もないですが、あなたならば成し遂げられると思っています。	</p>
+	</dialog>
+	
+</npcdialog>

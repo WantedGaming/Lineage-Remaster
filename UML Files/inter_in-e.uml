@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		次元の扉が開いた。<br/>
+		次元の扉の維持時間は1時間だ。<br/>
+		武運を祈る。
+		<br/>
+		<br/>
+		[次元リスト]<br/><br/>
+		<a action="a">第1次元<var src="0"/></a><br/><br/>
+		<a action="b">第2次元<var src="1"/></a><br/><br/>
+		<a action="c">第3次元<var src="2"/></a><br/><br/>
+		<a action="d">第4次元<var src="3"/></a><br/><br/>
+		<a action="e">第5次元<var src="4"/></a><br/><br/>
+		<a action="f">第6次元<var src="5"/></a><br/><br/>
+		<a action="g">第7次元<var src="6"/></a><br/><br/>
+		<a action="h">第8次元<var src="7"/></a><br/><br/>
+		<a action="i">第9次元<var src="8"/></a><br/><br/>
+		<a action="j">第10次元<var src="9"/></a>
+		
+		</p>
+	</dialog>
+</npcdialog>

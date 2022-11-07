@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ミソフィア</name>
+		<job>Event Teleport</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		ちょっとお待ちください！<br/>
+		隠された村に誰でもお送りするわけにはいきません！<br/>
+		<br/>
+		<br/>
+		<br/><font fg="ffffaf">1. 必要アイテム：2900Adena</font><br/><br/>
+		<br/><font fg="ffffaf">2. 制限時間：60分</font><br/><br/>
+		<br/><font fg="ffffaf">3. 必要レベル：レベル55以上</font><br/><br/>
+		 <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

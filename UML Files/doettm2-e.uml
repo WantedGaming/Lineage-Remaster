@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+闇の一族が光の聖地にどうしたことか。<br/>
+たとえあなた方が今回の戦争の元凶であるラスタバドに背を向けた者達だとしても、あなた方が我らの根の背信者の子孫であるという因縁は変わっていない。
+</p>
+  </dialog>
+</npcdialog>

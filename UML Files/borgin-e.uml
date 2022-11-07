@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>ボギン</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ワシは「鋼鉄のギルド」から派遣された者じゃ。金は公金から出ておるから、倉庫は好きに使うといい。<br/>
+		</p>
+		 <panel type="Panel_Storage_Button">
+			<Button action="deposit"/>
+			<Button action="retrieve"/>
+			<Button action="deposit-pledge"/>
+			<Button action="retrieve-pledge"/>
+			<Button action="deposit-char"/>
+			<Button action="retrieve-char"/>
+		</panel>
+		 <p><a action="history">血盟倉庫使用リスト確認</a><br/></p>
+		 <p><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

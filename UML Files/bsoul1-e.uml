@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>束縛された魂</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 一握りの塵に還るのが人の定め…それが人生だというのに…
+		 過ぎた後に後悔したとて、決して戻りはしない…<br/>
+		 欲望という一時の過ちによって… 
+		 塵にさえも還れなくなった人生…<br/>
+		<br/>
+		 かつての罪を償うには遅すぎた人生…
+		 私にとって、世界のすべてが虚しい…
+		 何が正しいかなんて、もう分からない…
+		<br/>
+		 死こそ、人生という苦難の旅の終着点なのだ…
+		<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p><br/>
+		</p><p align="left">
+		<a link="bsoul2">ささやきを聞く</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

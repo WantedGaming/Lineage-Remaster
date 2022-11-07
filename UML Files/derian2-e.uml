@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+  <p>国境の要塞は戦時にはかなりの規模を誇っていたそうです。ですが、小康状態が長く続いている今となっては、その規模もだいぶ縮小されましたね。<br/><br/>
+いえ…なくなった、と言ったほうがいいかもしれませんね。<br/><br/><br/>
+<img src="331" link="derian1"></img></p>
+  </dialog>
+</npcdialog>

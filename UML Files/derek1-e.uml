@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>デレック</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+	  <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p>弓の腕を上げるには、何よりも集中力が重要だ。素早く動き回る目標物を狙うのはとても難しい。<br/>
+そのうえに強力なボウがあれば、鬼に金棒さ。ははは…まさか俺が作ったボウが欲しいわけじゃないよな。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">アクィン：</font><br/><br/></p>
+    <p>えっと、反王って王様が出てくる前までは、それでもこういう生き方も楽しくて悪くないって言ってたの。反王って王様はすごく悪い人なのかな？</p>
+    <p><img src="331" link="aquin1"></img></p>
+  </dialog>
+</npcdialog>

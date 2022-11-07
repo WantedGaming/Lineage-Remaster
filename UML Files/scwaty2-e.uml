@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>あ～！あなたはどうやってここに来たのですか？ひとつ忠告しますけど、早くここを離れたほうがいいですよ。 </p>
+		<p>ここを守る我々一族の長老は、まだここに他人が来ることを快く思っていません。</p>
+		<p>理由もなくここをうろついて、あの方たちの目に止まった日には何が起きるか分かりませんよ。 </p>
+		<p>とにかく、私は確かに忠告しましたからね。後でどうなっても後悔しないでくださいよ。	</p>
+	</dialog>
+	
+</npcdialog>

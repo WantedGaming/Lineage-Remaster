@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>デスナイト</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>今…多くの勇士たちが…ヴァラカスを討つため…旅立っている…</p>
+		<p>しばし待て…</p>
+		<p>勇士たちのヴァラカス討伐が終われば…フレイムブレードを渡す…</p>
+  </dialog>
+</npcdialog>

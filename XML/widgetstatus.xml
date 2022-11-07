@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<BookmarkStatusWidget Name = "StatusWidget">
+	<Window Name = "StatusWindow" X = "0" Y = "0" Width = "100" Height = "120" BaseSurf = "9058" Activate = "1">
+		<Control Name = "Status00_l" X = "4" Y = "3" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "1" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "17" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status00_r" X = "51" Y = "3" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "0" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "16" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status01_l" X = "4" Y = "22" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "1" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "17" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status01_r" X = "51" Y = "22" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "0" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "16" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status02_l" X = "4" Y = "41" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "1" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "17" Y = "3"  Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status02_r" X = "51" Y = "41" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "0" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "16" Y = "3"  Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status03_l" X = "4" Y = "60" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "1" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "17" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status03_r" X = "51" Y = "60" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "0" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "16" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status04_l" X = "4" Y = "79" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "1" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "17" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status04_r" X = "51" Y = "79" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "0" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "16" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status05_l" X = "4" Y = "98" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "1" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "17" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+		<Control Name = "Status05_r" X = "51" Y = "98" Width = "45" Height = "18" MouseEvent = "SetStatusInfo" DropEvent = "BookmarkStatus">
+			<Button Name = "StatusInfo" Width = "45" Height = "18" BasePng = "10538" HighlightPng = "10539" PushPng = "10539" MouseEvent = "ActShout">
+				<Image Name = "Status_Image" X = "0" Y = "1" Surf = "-1"/>
+				<Label Name = "Status_Label" X = "16" Y = "3" Width = "29" HAlign = "center" Caption = ";3"/>
+				<Tooltip Name = "Desc_Tooltip" OpacityRate = "22" X = "1" VAlign="middle" Time = "800"/>
+			</Button>
+		</Control>
+	</Window>
+</BookmarkStatusWidget>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><font fg="ffffaf">[変身リスト]</font></p>
+    <p align="center">
+    <img src="5969" tooltip="バッター^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ/スピアー/^チェーンソード)" action="dinos hitter"/><blank width="10"/>
+    <img src="5970" tooltip="ピッチャー^(ボウ/ガントレット)" action="dinos pitcher"/><br/><br/>
+    </p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>精霊の涙を持ってきたのですか？何故あなたが精霊の涙を持ってこられたのですか？</p>
+		<p>このところ、多くの人が私を訪ねてくるのですが、いったい何なのでしょう…	</p>
+	</dialog>
+	
+</npcdialog>
+

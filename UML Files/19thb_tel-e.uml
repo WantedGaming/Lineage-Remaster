@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>Elite Knights Pass</name>
+		<job>[Event Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		The omen of the dark dragon's descent caused the monster to go out of control.<br/>  
+		Please help us defeat them.<br/>
+		<br/>
+		Teleportation Cost: 2021 Adena<br/>
+		<br/>
+		(For party)<br/>
+		</p>
+			<p><a action="a">Dark Dragon Lair (1)</a></p>
+			<p><a action="b">Dark Dragon Lair (2)</a></p>
+			<p><a action="c">Dark Dragon Lair (3)</a></p>
+			<p><a action="d">Dark Dragon Lair (4)</a></p>
+			<p><a action="e">Dark Dragon Lair (5)</a></p>
+			<p><a action="f">Dark Dragon Lair (6)</a></p>
+			<p><a action="g">Dark Dragon Lair (7)</a></p>
+			<p><a action="h">Dark Dragon Lair (8)</a></p>
+			<p><a action="i">Dark Dragon Lair (9)</a></p>
+			<p><a action="j">Dark Dragon Lair (10)</a></p>
+		<br/>
+		<br/>
+	</dialog>
+</npcdialog>

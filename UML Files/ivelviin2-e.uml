@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		私が作るツルギの主な材料はオリハルコンなんだ。正直、作ることは可能だが、その材料があまりに貴重すぎて私も驚くほどさ。
+		<br/>
+		<br/><a action="request tsurugi">ツルギを作る</a>
+		<br/>
+		<br/>ツルギを作ってほしいなら、材料を持ってくるんだね。
+		<br/>500個の<font fg="00ffff">オリハルコン、そして、最高級ダイアモンド、最高級エメラルド、最高級サファイア、最高級ルビー</font>をそれぞれ5個ずつ。それと、この火山で手に入る<font fg="00ffff">アシタジオの灰</font>を30個だ。すべての材料を持ってきたら、おまえさんのためにもう一度ハンマーを握ってやろうじゃないか。
+		<br/><br/>
+		<img src="331" link="ivelviin1"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

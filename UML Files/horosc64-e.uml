@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font><br/><br/></p>
+	<p>今日は火竜の棲処には近づかないのが無難でしょう。火から利を得ようとしても残るのは虚しさだけ。骨折り損のくたびれ儲け。得られるものはわずかです。<br/><br/></p>
+	<p>火の穴に落ちてあの世行き、なんてことになりかねません。気をつけてください。<br/><br/><br/>
+	<a link="keplisha3">助言を聞く</a></p>	
+  </dialog>
+</npcdialog>

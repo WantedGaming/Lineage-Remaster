@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>侍従長 オービル</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>お前、ここをどこだと思っている！</p>
+<p>警備兵！この者どもを即刻この場から引きずり出せ！</p>
+</dialog>
+
+</npcdialog>

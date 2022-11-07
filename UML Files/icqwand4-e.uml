@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>象牙の塔の諜報員</name>
+		<job>[Conversation]</job>
+		<text></text>
+	</npc>
+  <dialog>
+    <p><br/>意外と欲が強いのですね。<br/><br/></p>
+	<p>旅行かばんにあるものをすべて使ってからお越しください。<br/><br/></p>
+  </dialog>
+</npcdialog>

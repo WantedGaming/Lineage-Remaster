@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>どうなった？魔族の行政官には会ってきたのか。まだなら、もう一度魔法をかけてやろう。</p>
+		<p><br/><br/></p>
+		<p><a action="c">もう一度お願いします</a><br/></p>
+	</dialog>
+	
+</npcdialog>

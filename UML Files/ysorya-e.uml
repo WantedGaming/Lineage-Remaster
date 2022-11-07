@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+	<portrait>PO_002</portrait>
+		<name>イソーリア</name>
+		<job>General Merchant</job>
+		<text>ようこそ。</text>
+	</npc>
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p>いらっしゃい。イソーリアです。<br/>
+		<br/>
+		うちはもともと魔法用品を専門に取り扱う店だったんだけど、最近は商品が全然入ってこないから、雑貨商に仕事を変えたんです。<br/>
+		<br/>
+		<br/>
+		<a action="s_merchant3">Ask about recent prices</a></p>
+		</dialog>
+</npcdialog>

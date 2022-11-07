@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シリス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>今のあなたが習得できる魔法はすでに会得しているようですね。<br/><br/></p>
+		
+		<p>また次の機会に。<br/></p>
+		
+	</dialog>
+
+</npcdialog>

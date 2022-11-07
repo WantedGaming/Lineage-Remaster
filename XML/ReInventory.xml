@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Inventory Toggle="true">
+  <InvWindow Name="InvWin" X="6" Y="8" BasePng="3212;1" FramePng="3213;1" Moveable="30" MouseEvent="Dummy" KeyboardEvent="KeyBoard">
+    <InventoryItemGrid Name="InventoryItemGrid" X="26" Y="25" Width="136" Height="204"  Row="6" Column="4" UnitWidth="34" UnitHeight="34" UnitGap="0" Drag="1">
+      <MultiDrawableImage Name="MultiSelectImage" Surf="536;1" />
+      <MultiDrawableImage Name="InvEquipImage" Width="33" Height="33" Icon="2700;0;1" />
+      <MultiDrawableImage Name="EquipMarkImage" Width="33" Height="33" X="1" Y="1" Icon="2701;0;1" />
+      <MultiDrawableImage Name="NewItemMarkImage" Width="33" Height="33" X="1" Y="1" Png="2808;1" />
+      <MultiDrawableImage Name="SealedMark" Width="33" Height="33" X="24" Y="24" Icon="2702;0;1" />
+      <MultiDrawableImage Name="SpecialSealedMark" Width="33" Height="33" X="24" Icon="4118;0;1" />
+	  <MultiDrawableImage Name="QuestItemMark" X="3" Y="25" Surf="10904;1"/>
+      <MultiDrawableImage Name="BMItemUseLimitMark" X="2" Y="2" Surf="5618;1" />
+	  <MultiDrawableImage Name="ErodedMarkImage" Width="33" Height="33" Icon="8535;0;1" />
+      <MultiDrawableImage Name="ErodedBackImage" Width="33" Height="33" X="1" Y="1" Png="4314;1" />
+      <Image Name="Selection_Image" Width="34" Height="34" Surf="536;1" />
+      <ScrollBar Name="ScrollBar" X="141" Y="9" Width="17" Height="192" Vertical="1" ScrollStart="14" ScrollHeight="180" MouseEvent="InventoryScroll" MaxValue="0">
+        <Image Name="Background_Image" X="0" Y="14" Surf="2039;1" />
+        <Button Name="Move_Button" X="0" Y="14" MouseEvent="InventoryScroll" BaseSurf="2044;1" HighlightSurf="2044;1" PushSurf="2045;1"/>
+        <Button Name="Up_Button" X="0" Y="0" MouseEvent="InventoryScroll" BaseSurf="2042;1" HighlightSurf="2042;1" PushSurf="2043;1"/>
+        <Button Name="Down_Button" X="0" Y="181" MouseEvent="InventoryScroll" BaseSurf="2040;1" HighlightSurf="2040;1" PushSurf="2041;1"/>
+      </ScrollBar>
+	  <Control Name = "Effect_Control">
+		<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "23" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "56" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "89" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "-10" Y = "23" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "23" Y = "23" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "56" Y = "23" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "89" Y = "23" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "-10" Y = "57" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "23" Y = "57" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "56" Y = "57" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "89" Y = "57" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "-10" Y = "91" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "23" Y = "91" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "56" Y = "91" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "89" Y = "91" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "-10" Y = "125" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "23" Y = "125" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "56" Y = "125" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "89" Y = "125" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "-10" Y = "160" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "23" Y = "160" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "56" Y = "160" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+		<Effect Name = "Icon_Effect" X = "89" Y = "160" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+	  </Control>
+    </InventoryItemGrid>
+    <Label Name="ItemCountLabel" X="26" Y="259" Width="81" Height="16" Align="center" HAlign="left" VAlign="middle" Caption="0"/>
+    <Image Name="TabImage" X="26" Y="230" Surf="2048;1">
+      <Button Name="TabAll" X="0" Y="0" Width="35" Height="17" MouseEvent="ClickTab">
+        <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="878" Area="0" Opacity="0"/>
+      </Button>
+      <Button Name="TabEquipables" X="35" Y="0" Width="35" Height="17" MouseEvent="ClickTab">
+        <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="879" Area="0" Opacity="0"/>
+      </Button>
+      <Button Name="TabQuest" X="70" Y="0" Width="35" Height="17" MouseEvent="ClickTab">
+        <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="880" Area="0" Opacity="0"/>
+      </Button>
+      <Button Name="TabCustom"  X="105" Y="0" Width="35" Height="17" MouseEvent="ClickTab">
+        <Tooltip Name="Desc_Tooltip" X="8" Y="17" String="881" Area="0" Opacity="0"/>
+      </Button>
+    </Image>
+    <Button Name="Exit_Btn" X="166" Y="7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent="CloseWindow"/>
+    <InvDelButton Name="InventoryDeleteButton" X="152" Y="258" BaseSurf="2052;1" HighlightSurf="2052;1" PushSurf="2053;1" MouseEvent="DeleteItem">
+      <Tooltip Name="Desc_Tooltip" Y="22" Desc="19253" Area="0" Opacity="0"/>
+    </InvDelButton>
+    <Button Name="CashWareHouse_Btn" X="130" Y="258" BaseSurf="2054;1" HighlightSurf="2054;1" PushSurf="2054;1" MouseEvent="CashWareHouse">
+      <Tooltip Name="Desc_Tooltip" Y="22" String="1600" Area="0" Opacity="0"/>
+    </Button>
+		<!--sort>
+    <Button Name="Sort_Btn" X="110" Y="258" BasePng="3214;1" HighlightPng="3215;1" PushPng="11587;1" MouseEvent="Sort">
+      <Tooltip Name="Desc_Tooltip" Y="22" Desc="19254" Area="0" Opacity="0"/>
+    </Button>
+    <-->
+    <Button Name="Promote_Btn" X="110" Y="258" BaseSurf="9215;1" HighlightSurf="9217;1" PushSurf="9216;1" MouseEvent="Promote">
+      <Tooltip Name="Desc_Tooltip" Y="22" String="4421" Area="0" Opacity="0"/>
+    </Button>
+    <Button Name="Seal_Btn" X="90" Y="258" BasePng="11588;1" HighlightPng="11589;1" PushPng="11590;1" MouseEvent="SealButton">
+      <Tooltip Name="Desc_Tooltip" Y="22" String="4627" Area="0" Opacity="0"/>
+    </Button>
+  </InvWindow>
+</Inventory>

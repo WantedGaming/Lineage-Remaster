@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルーディエル</name>
+  </npc>
+  <dialog>
+	<p>ダークエルフもエルヴン ワッフルがお好きなの？</p>
+	<p>エルヴン ワッフルはエルフだけの食べ物です。</p> 
+	<p>堕落した魂を持つダークエルフが神の食物を消化できるとは思えませんが？</p>
+  </dialog>
+</npcdialog>

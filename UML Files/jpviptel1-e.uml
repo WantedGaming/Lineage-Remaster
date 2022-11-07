@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>こんにちは。VIPのお客様！</p>
+		<p>一般テレポーターからは行けない場所に無料でお送りするサービスをしています。</p>
+		<p>いつでもご利用くださいね。</p>
+		<p><a action="b">ギラン城下町</a></p>
+		<p><a action="c">メインランドのダンジョン7階</a></p>
+	</dialog>
+
+</npcdialog>

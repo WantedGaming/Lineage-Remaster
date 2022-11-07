@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シリス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>こんにちは。私は世界のあちこちを回りながら会得した<font fg="ffafff">魔法をここの修練者に伝授</font>しています。<br/></p>
+		<p>ここでの生活はどうですか？大変じゃないですか？皆さんも本土で名のしれた冒険者と真っ向勝負できる時が来ますから、頑張りましょう。<br/></p>
+
+		
+		<p><a action="buyspell">魔法を習得したいです</a><br/><br/></p>
+		
+		<p><a link="sirissmg">魔法とは何ですか</a><br/></p>
+		<p><a link="sirisssb">魔法書とは何ですか</a><br/></p>
+
+	</dialog>
+
+</npcdialog>

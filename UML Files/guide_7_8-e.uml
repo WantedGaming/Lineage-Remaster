@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 話せる島の北ではウェアウルフとオークが多く見られます。また、北の島から北に更に上がればウェアウルフの集落もあるので、
+		  そこへ向かうときは、常に準備をしっかりしなくてはなりません。いつウルフたちに襲われるかわかりませんから。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

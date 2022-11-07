@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		領主が発表した次の攻城戦の時刻は<var src="0">年<var src="1">月<var src="2">日<var src="3">時<var src="4">分だ。来るなら来やがれ！
+				</p>
+	</dialog>
+</npcdialog>

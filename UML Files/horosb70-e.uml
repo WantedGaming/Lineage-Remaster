@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>いつにない奇抜なアイデアで、想像を絶するアイテムを手にするでしょう。</p>
+	<p>アイテムを持って逃げ出す、小さなグレムリンをゴミアイテムでおびき寄せて倒してみましょう。</p>
+	<p>運良く誰もが持っていないアイテムまで手に入り、気持ちのよい一日となるでしょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

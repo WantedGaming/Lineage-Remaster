@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルミナ</name>
+		<job>[雑貨商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>さ、最近は<font fg="ffffff"><var src="0"/>%</font>くらいするみたいです。</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>これはこれは。すみません、お客様。</p>
+		<p>このサービスはVIPゴールドのお客様のみ使用可能となっています。</p>
+		<p>申し訳ありません。</p>
+	</dialog>
+
+</npcdialog>

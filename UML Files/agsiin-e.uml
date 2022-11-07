@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Arena Guide</name>
+  </npc>
+  <dialog>
+   <p>Are you ready to go out into the dueling arena?<br/></p>
+   <p><a action="teleport singing-island-arena-out">Leave Arena</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シュエルメ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+			
+		<p><font fg="fff000">誕生の魔眼</font>に風竜の持つ風の力を合わせると<font fg="fff000">形状の魔眼</font>になるの。<br/></p>
+		<p>成功するよう祈っています。<br/></p>
+		
+	</dialog>
+
+
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>人がいるとこならどこでも、他人を騙そうとする詐欺師ってやつが現れるものです。 </p>
+		<p>特に人々の往来が多いここも例外ではないので、あなたも気をつけてください。</p>
+		<p>特に品物を取引するときは、取引する相手の名前とアイテム、金額などを確認するのは常識の中の常識です。</p>
+	</dialog>
+
+</npcdialog>

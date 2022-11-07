@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェフ</name>
+		<job>[Event テレポーター]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 本気であの危険なところに行くんですか？もう一度考え直してはどうですか？<br/>
+		 <br/>
+ もちろん<font fg="ffaaff">燃える箱</font>から<font fg="ffaaff">神秘の玉</font>を獲得できますが…<br/>
+ <br/>
+ 本当に行かれるというのであればお送りしますが、その代わり絶対に生きて帰ってくると約束してくださいね！<br/>
+		<br/>
+		<br/>
+		<br/>
+		<font fg="25a6d6"><a action="a">バーニングロードへ出発</a></font><br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		テレポート費用として<font fg="ffffaf">4900</font>Adenaをいただきます。<br/>
+		それと、<font fg="ffaaff">燃える箱</font>を開けるためには<font fg="ffaaff">情熱の鍵</font>が必要なのを忘れないでくださいね。<br/>
+		 <br/>
+		</p>
+	</dialog>
+</npcdialog>

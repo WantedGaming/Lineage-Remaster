@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>セゲムアトゥバ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>人間か、今度は何が望みじゃ？</p>
+		<p><a link="seghemhp1">現状について聞く</a></p>
+		<p><a action="tax">税率を調節する</a></p>
+		<p><a action="withdrawal">資金を引き出す</a></p>
+		<p><a action="withdrawde">城の防衛成功の資金を引き出す</a></p>
+		<p><a action="cdeposit">資金を入金する</a></p>
+		<p><a link="seghem4">親衛隊を管理する</a></p>
+		<p><a action="allgateheal">要塞の門を修理する</a></p>
+		<p><a action="security">要塞内の治安を管理する</a></p>
+	</dialog>
+	
+</npcdialog>

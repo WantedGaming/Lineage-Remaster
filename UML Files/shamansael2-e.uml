@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>呪われた巫女 サエル</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p><font fg="fff000">水竜パプリオン</font>は治癒の流れを操る力を持っています。<br/></p>
+		<p>勇士様がお使いの体力回復ポーションや、ウィザードやエルフが使う治癒魔法はすべて治癒の流れを利用したものです。<br/></p>
+		<p>パプリオンのレアでは、治癒の流れが自らの意志とは異なり<font fg="ffffaf">減少</font>したり<font fg="ffffaf">半減</font>するので気をつけなければなりません。<br/></p>
+		<p>また、パプリオンは自らの治癒能力を増幅させるために<font fg="fff000">五色のパール</font>を呼び出すことがあります。<br/></p>
+		<p>お役に立てるか分かりませんが、パールが召喚されるたびにそれらを倒す<font fg="ffffaf">祝福されたエヴァのトライデント</font>をお渡しいたします。<br/></p>
+		<p>今の私では祝福の時間を長く掛けることができないため、素早くパールを倒さなければなりません。<br/></p>
+		<p>パールの種類別にそれぞれの祝福をお渡ししますから、パールの<font fg="ffffaf">弱点</font>が見つかったら全力で分析して、結果をお伝えします。<br/></p>
+		<p>お役に立てられることが少なくて、とても心苦しいですが…<br/><br/></p>
+ 
+		<p><a link="shamansael1">サエルの願い</a><br/><br/></p>
+
+
+		
+	</dialog>
+
+</npcdialog>

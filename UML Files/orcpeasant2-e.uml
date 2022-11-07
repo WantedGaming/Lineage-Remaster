@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オーク住民</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>くそ～卑怯な人間め、丸腰のやつを攻撃するなんて！</p>
+<p>今、我々が仕える<var src="0"/>血盟の盟主<var src="1"/>がまだ次の攻城戦時間を決めておられない。</p>
+<p>戦う者としての礼儀をわきまえているならが、その時を待って正々堂々と戦え！</p>
+</dialog>
+
+</npcdialog>

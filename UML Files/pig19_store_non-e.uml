@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>ジョヤ</name>
+		<job>[イベントNPC]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>こんにちは！<br/>
+		 <br/>
+		 はるばるやって来たのにがっかりです。せっかくなので楽しみたいのですが、経費が足りません。
+		 <font fg="ffffaf">アデン国王の年賀状</font>はいりませんか？<br/>
+		 いらなければ<font fg="ffffaf">ゴールデン キング バグベアー</font>はどうでしょう？<br/>
+		 えーっと…あ、<font fg="ffffaf">亥年の金色のリール</font>もありますよ！
+		<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="non_npc buy"/></panel>
+	</dialog>
+</npcdialog>

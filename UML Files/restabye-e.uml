@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レスタ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ハッ、だろうと思ったぜ。カメとすっぽんも見分けできねぇ青二才が…</p>
+		<p>えーい、イライラするからあっちいけ！誰に向かって勇気がどうのこうのほざいてやがるんだ…	</p>
+	</dialog>
+	
+</npcdialog>

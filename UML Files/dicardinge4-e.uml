@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>何かめぼしい情報は見つかったのか？<br/>
+		<br/><br/><br/>
+		<a action="n">秘法の書を渡す</a><br/>
+		</p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		私が誰かと？くはははっ！この身の程知らずめが！<br/>
+		まあいい。どうせおまえごときが知るには及ばない方だからな。<br/>
+		<br/>
+		まあ言わば、<br/>
+		私はあの方のご意志によって生まれた。あの方がお休みの間は、そのご意志を引き継いで実践している。おまえが不遜な振る舞いをしたならば、一瞬のうちに消し去る。こんなところだな。<br/>
+		<br/>
+		<br/></p>
+		<p><a link="j_ep011">ハーディンは何をしようとしているのですか？</a><br height="20"/></p>
+		<p><a link="j_ep012">「あの方」とは誰ですか？</a><br height="20"/></p>
+		<p><a link="j_ep013">「ケレニス」を知っていますか？</a><br height="20"/></p>
+		<p><a link="j_ep014">モンスターたちはあなたの手下ですか？</a><br height="20"/></p>
+		<p><a link="j_ep015">あなたは何をしようとしていたのですか？</a><br height="20"/></p>
+		<p><a link="j_ep016">あなたはハーディンを知ってますか？</a>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

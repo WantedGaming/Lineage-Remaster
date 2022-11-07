@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!--Restricted Sell Item Definition in UIShop-->
+
+<Restricted_Sell_Item_Definition_in_UIShop>
+
+  <RESTRICT lev = "52" desc = "$6606 (3)"/>
+  <RESTRICT lev = "52" desc = "$6605 (3)"/>
+  <RESTRICT lev = "52" desc = "$6604 (3)"/>
+  <RESTRICT lev = "52" desc = "$6603 (3)"/>
+  <RESTRICT lev = "52" desc = "$6602 (3)"/>
+  <RESTRICT lev = "52" desc = "$6602 (3)"/>
+  <RESTRICT lev = "55" desc = "$6600"/>
+  <RESTRICT lev = "55" desc = "$6601"/>
+
+</Restricted_Sell_Item_Definition_in_UIShop>

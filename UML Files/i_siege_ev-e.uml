@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>象牙の塔所属のウィザード。時空の向こうに発見された城を奪還するため、派遣任務を担っている。</text>
+	</npc>
+	<dialog>
+		<p>
+		原因不明の変化以降、アデン大陸から姿を消した城の一部が時空の向こう側で発見されました。<br/>
+		当然、別の世界から来た者たちも目を光らせています。<br/>
+		彼らに奪われる前に、城を取り戻さなくてはなりません。<br/><br/>
+		先発隊が調査してるとはいえ、依然として危険な地域ですので、<font fg="ffffaf">レベル60以上</font>の方のみ入場を許可しています。<br/><br/>
+		到達したらお声がけください。<br/><br/><br/>
+		
+		<a action="32">ギラン城に行く</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの補佐官</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ヤヒ様がお前を見ているところからして、関心がおありのようだ。</p>
+		<p>お前の身体には魔族の血が流れているのではないか？</p>
+		<p>俺と腕相撲をしてみないか？</p>
+		<p><a action="5">アミュレットを受け取る</a></p>
+	</dialog>
+
+</npcdialog>

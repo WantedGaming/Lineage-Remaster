@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>風の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">風の精霊魔法：レベル3</font><br/></p>
+	<p><font fg="ffffaf">イーグル アイ：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	材料：精霊の玉1個<br/>
+	持続時間：128秒<br/>
+	対象：術者<br/>
+	効果：術者の遠距離クリティカルを2%向上させます。<br/></p>
+	<p><img src="331" link="helpmgca"/><br/><br/></p>
+	</dialog>
+</npcdialog>

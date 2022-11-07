@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<LoadingInfo>
+	<Background pngId="100163"/>
+  <Image pngId="100164" x="309" y="261"/>
+	<ProgressBack pngId="100165" x="249" y="480"/>
+  <Progress pngId="100166" x="249" y="480"/>
+  <GradeMark pngId="100167" x="967" y="30"/>
+</LoadingInfo>

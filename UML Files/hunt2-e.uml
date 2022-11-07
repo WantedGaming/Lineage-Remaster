@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>フント</name>
+    <job>[傭兵隊長]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">傭兵隊長フント：</font></p>
+    <p><br/>申し訳ございません。まだ侍従長が依頼した傭兵が到着しておりません。<br/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>長老ノナメ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>達者でな。縁があればまたどこかで会うだろう。</p>
+<p>そなたの身の回りで起こる事に注意深く見てみると、これからの道が見えてくるじゃろ。</p>
+<p>悩むより行動に移すことが時には必要じゃよ。</p>
+</dialog>
+
+</npcdialog>

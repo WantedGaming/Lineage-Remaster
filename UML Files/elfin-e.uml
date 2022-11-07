@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>shop</icon>
+<title>Shop</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>エルフィン</name>
+	<job>General Merchant</job>
+  </npc>
+  <dialog>
+	<p>
+	エリオンと言ったかな…やつが戻ってきてからエルフの森にも色々な変化があった。
+	<br/>
+	人間世界に長くいたため、エルフ世界の暮らしが相当不便なようだ。
+	<br/>
+	エルフたちに必要な物を作って販売することでネルファと話し合ったそうだ。
+	</p>
+	<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	<p>
+	アラクネ族の手作りだから品質は保証する。<br/>
+	</p>
+  </dialog>
+</npcdialog>

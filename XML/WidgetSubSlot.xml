@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<WidgetSubSlot Name="WidgetSubSlot">        
+	<Window Name = "SubSlotWindow" X = "489" Y = "466" BaseSurf = "3226;1" Activate = "1" MostTop="1" Transparent="false">
+		<Control Name="Shortcuts" X="4" Y="27" Width="166" Height="120">		
+			<Button Name = "SubSlot0" X = "0" Y = "1" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot1" X = "34" Y = "1" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="0" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot2" X = "68" Y = "1" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot3" X = "102" Y = "1" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot4" X = "0" Y = "35" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot5" X = "34" Y = "35" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot6" X = "68" Y = "35" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot7" X = "102" Y = "35" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot8" X = "0" Y = "69" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot9" X = "34" Y = "69" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot10" X = "68" Y = "69" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+			<Button Name = "SubSlot11" X = "102" Y = "69" Width = "33" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="3" Y="1" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+			</Button>
+        </Control>
+		<Button Name="ButtonMode" X="146" Y="33" BasePng="3350;1" PushPng="3351;1" MouseEvent="ModeChange"/>
+		<Button Name="ButtonLock" X="146" Y="59" BaseSurf="3191;1" PushSurf="3192;1" MouseEvent="LockButton"/>
+	</Window>
+</WidgetSubSlot>

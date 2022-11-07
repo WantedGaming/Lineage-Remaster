@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>決闘場案内</title>
+	<npc>
+		<portrait></portrait>
+		<name>コロシアム管理人</name>
+		<job>決闘場案内員</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		コロシアムはある程度の名声がある方にのみ貸しております。
+		
+		</p>
+	</dialog>
+</npcdialog>

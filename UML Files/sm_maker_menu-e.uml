@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ビディー</name>
+		<job>[イベント製作]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		あっ！ちょっと待って、<font fg="ffffaf">菜の花</font>じゃないですか？<br/>
+		私が一番好きな花なんです。<br/>
+		私の故郷では春になると咲くのですが、夫と一緒に象牙の塔の村に来てから<br/>
+		見かけていなかったので懐かしいです。<br/>
+		<br/>
+		えっ、グレッグが私のために準備したのですか？！<br/>
+		<br/>
+		勇士様も本当にありがとうございます。おかげであれこれ悩んでいたことが解消できました。<br/>
+		これは私たち家族を助けてくださったお礼です。受け取ってください。<br/>
+		<br/>
+		<br/>
+		</p>
+			<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

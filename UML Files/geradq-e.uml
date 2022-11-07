@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		グンター様の命令により、今の俺はシルバーナイトタウンを守る兵士だ。<br/><br/>
+		ナイトの試験のために使っていた試練の通路が、村の北に再び開かれている。
+		よもや、シルバーナイトタウンのダンジョンがなくなったからといって修練を怠けるつもりではないな？
+		修練は恋人と同じだと思え！<br/><br/><br/>
+		それと念の為に言っておくけど、村の治安を脅かすならダダじゃおかないからな。
+		
+		</p>
+	</dialog>
+</npcdialog>

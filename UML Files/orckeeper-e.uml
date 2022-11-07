@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>ガード</name>
+	<job>キーパー</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>フッ、人間か。</p>
+<p>今のところ何もない。今のところは…
+		<br/>
+		<br/>
+		<br/>
+		<a action="openigate">城門を開ける</a><br/>
+		<a action="closeigate">城門を閉める</a><br/>
+</p>
+</dialog>
+
+</npcdialog>

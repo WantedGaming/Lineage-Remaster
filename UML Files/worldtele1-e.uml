@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+  </npc>
+  <dialog>
+    <p>どこに行きたいですか？私が連れていって差し上げます。<br/>
+    <br/>
+		<br/>
+    <font fg="ffffaa">-----------ゲームコーナー-----------</font><br/>
+		<br/>
+    <a action="teleport minigame1">ビンゴコーナー</a><br/>
+    <a action="teleport minigame2">ラッシュキングコーナー</a><br/>
+    <a action="teleport minigame3">釣り場中央</a><br/>
+		<br/>
+		<br/>
+    <font fg="ffffaa">--------ミニゲームワールド--------</font><br/>
+		<br/>
+    <a action="teleport minigame4">インフォメーションセンター</a><br/>
+    <a action="teleport minigame5">ブンブン(グルーディン村テレポーター)</a><br/>
+		<br/>
+		<br/>
+    <font fg="ffffaa">-------------村-------------</font><br/>
+		<br/>
+    <a action="teleport minigame6">グルーディン村</a>
+		</p>
+  </dialog>
+</npcdialog>

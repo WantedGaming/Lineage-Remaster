@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Triggers>
+	<Trigger id="5" event="EVENT_PUT_OBJECT">
+		<Conditions type="or">
+			<IntValue source="#EVENT.spriteNumber" equal="11218"/>
+			<IntValue source="#EVENT.spriteNumber" equal="17003"/>
+			<IntValue source="#EVENT.spriteNumber" equal="17006"/>
+		</Conditions>
+		<Run targetId="5"/>
+	</Trigger>
+	<Trigger id="8" event="EVENT_EINHASAD_REST_EXP_INFO" delay="1000">
+		<Conditions type="or">
+			<Conditions>
+				<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+				<InventoryItemCount nameId="4166" greater="0"/>
+				<InventoryItemCount nameId="15391" equal="0"/>
+				<InventoryItemCount nameId="17038" equal="0"/>
+				<InventoryItemCount nameId="26633" equal="0"/>
+				<InventoryItemCount nameId="25625" equal="0"/>
+			</Conditions>
+			<Conditions>
+				<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+				<IntValue source="#EVENT.gaugePercent" equal="0"/>
+				<InventoryItemCount nameId="4166" greater="0"/>
+				<InventoryItemCount nameId="26633" equal="0"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="8"/>
+	</Trigger>
+	<Trigger id="9" event="EVENT_EINHASAD_REST_EXP_INFO" delay="1000">
+		<Conditions>
+			<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+			<IntValue source="#EVENT.gaugePercent" greater="0"/>
+			<InventoryItemCount nameId="15391" greater="0"/>
+			<InventoryItemCount nameId="17038" equal="0"/>
+			<InventoryItemCount nameId="26633" equal="0"/>
+			<InventoryItemCount nameId="25625" equal="0"/>
+		</Conditions>
+		<Run targetId="9"/>
+	</Trigger>
+	<Trigger id="10" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16089"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="20"/>
+				<IntValue source="#EVENT.newCount" equal="21"/>
+				<IntValue source="#EVENT.newCount" equal="25"/>
+				<IntValue source="#EVENT.newCount" equal="30"/>
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="70"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="10"/>
+	</Trigger>
+	<Trigger id="11" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16090"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="20"/>
+				<IntValue source="#EVENT.newCount" equal="21"/>
+				<IntValue source="#EVENT.newCount" equal="25"/>
+				<IntValue source="#EVENT.newCount" equal="30"/>
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="70"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="11"/>
+	</Trigger>
+	<Trigger id="12" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16091"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="20"/>
+				<IntValue source="#EVENT.newCount" equal="21"/>
+				<IntValue source="#EVENT.newCount" equal="25"/>
+				<IntValue source="#EVENT.newCount" equal="30"/>
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="70"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="12"/>
+	</Trigger>
+	<Trigger id="13" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16092"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="20"/>
+				<IntValue source="#EVENT.newCount" equal="21"/>
+				<IntValue source="#EVENT.newCount" equal="25"/>
+				<IntValue source="#EVENT.newCount" equal="30"/>
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="70"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="13"/>
+	</Trigger>
+	<Trigger id="14" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16093"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="20"/>
+				<IntValue source="#EVENT.newCount" equal="21"/>
+				<IntValue source="#EVENT.newCount" equal="25"/>
+				<IntValue source="#EVENT.newCount" equal="30"/>
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="70"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="14"/>
+	</Trigger>
+	<Trigger id="15" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16153"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="40"/>
+				<IntValue source="#EVENT.newCount" equal="41"/>
+				<IntValue source="#EVENT.newCount" equal="80"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+				<IntValue source="#EVENT.newCount" equal="150"/>
+				<IntValue source="#EVENT.newCount" equal="200"/>
+				<IntValue source="#EVENT.newCount" equal="300"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="15"/>
+	</Trigger>
+	<Trigger id="16" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16242"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="51"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+				<IntValue source="#EVENT.newCount" equal="150"/>
+				<IntValue source="#EVENT.newCount" equal="200"/>
+				<IntValue source="#EVENT.newCount" equal="300"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="16"/>
+	</Trigger>
+	<Trigger id="17" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="16243"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="50"/>
+				<IntValue source="#EVENT.newCount" equal="51"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+				<IntValue source="#EVENT.newCount" equal="150"/>
+				<IntValue source="#EVENT.newCount" equal="200"/>
+				<IntValue source="#EVENT.newCount" equal="300"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="17"/>
+	</Trigger>
+	<Trigger id="18" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="14299"/>
+		</Conditions>
+		<Run targetId="18"/>
+	</Trigger>
+	<Trigger id="19" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="14300"/>
+		</Conditions>
+		<Run targetId="19"/>
+	</Trigger>
+	<Trigger id="20" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="14367"/>
+		</Conditions>
+		<Run targetId="20"/>
+	</Trigger>
+	<Trigger id="21" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="14477"/>
+		</Conditions>
+		<Run targetId="21"/>
+	</Trigger>
+	<Trigger id="22" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="14367"/>
+		</Conditions>
+		<Run targetId="22"/>
+	</Trigger>
+	<Trigger id="23" event="EVENT_EINHASAD_REST_EXP_INFO" delay="1000">
+		<Conditions>
+			<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+			<IntValue source="#EVENT.gaugePercent" greater="0"/>
+			<InventoryItemCount nameId="17038" greater="0"/>
+			<InventoryItemCount nameId="26633" equal="0"/>
+			<InventoryItemCount nameId="25625" equal="0"/>
+		</Conditions>
+		<Run targetId="23"/>
+	</Trigger>
+	<Trigger id="24" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="17668"/>
+			<Conditions type="or">
+				<IntValue source="#EVENT.newCount" equal="17"/>
+				<IntValue source="#EVENT.newCount" equal="70"/>
+				<IntValue source="#EVENT.newCount" equal="100"/>
+				<IntValue source="#EVENT.newCount" equal="200"/>
+				<IntValue source="#EVENT.newCount" equal="300"/>
+			</Conditions>
+		</Conditions>
+		<Run targetId="24"/>
+	</Trigger>
+	<Trigger id="25" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="19987"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="100"/>
+		</Conditions>
+		<Run targetId="25"/>
+	</Trigger>
+	<Trigger id="26" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="15891"/>
+		</Conditions>
+		<Run targetId="26"/>
+	</Trigger>
+	<Trigger id="27" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="15892"/>
+		</Conditions>
+		<Run targetId="27"/>
+	</Trigger>
+	<Trigger id="28" event="EVENT_PUT_OBJECT">
+		<Conditions type="or">
+			<IntValue source="#EVENT.spriteNumber" equal="15934"/>
+			<IntValue source="#EVENT.spriteNumber" equal="17003"/>
+			<IntValue source="#EVENT.spriteNumber" equal="17006"/>
+		</Conditions>
+		<Run targetId="28"/>
+	</Trigger>
+	<Trigger id="30" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="16953"/>
+		</Conditions>
+		<Run targetId="30"/>
+	</Trigger>
+	<Trigger id="31" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="17030"/>
+		</Conditions>
+		<Run targetId="31"/>
+	</Trigger>
+	<Trigger id="32" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="17938"/>
+		</Conditions>
+		<Run targetId="5"/>
+	</Trigger>
+	<Trigger id="33" event="EVENT_PUT_OBJECT">
+		<Conditions>
+			<IntValue source="#EVENT.spriteNumber" equal="17976"/>
+		</Conditions>
+		<Run targetId="32"/>
+	</Trigger>
+	<Trigger id="34" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="733"/>
+		</Conditions>
+		<Run targetId="34"/>
+	</Trigger>
+	<Trigger id="35" event="EVENT_EINHASAD_REST_EXP_INFO" delay="1000">
+		<Conditions>
+			<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+			<InventoryItemCount nameId="26633" greater="0"/>
+		</Conditions>
+		<Run targetId="35"/>
+	</Trigger>
+	<Trigger id="36" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="27141"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="100"/>
+		</Conditions>
+		<Run targetId="36"/>
+	</Trigger>
+	<Trigger id="37" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="27924"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="100"/>
+		</Conditions>
+		<Run targetId="37"/>
+	</Trigger>
+	<Trigger id="38" event="EVENT_EINHASAD_REST_EXP_INFO" delay="1000">
+		<Conditions>
+			<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+			<InventoryItemCount nameId="25625" greater="0"/>
+			<InventoryItemCount nameId="26633" equal="0"/>
+		</Conditions>
+		<Run targetId="38"/>
+	</Trigger>
+	<Trigger id="39" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="27675"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="1"/>
+		</Conditions>
+		<Run targetId="39"/>
+	</Trigger>
+	<Trigger id="40" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="27542"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="1"/>
+		</Conditions>
+		<Run targetId="40"/>
+	</Trigger>
+	<Trigger id="41" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="27543"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="1"/>
+		</Conditions>
+		<Run targetId="41"/>
+	</Trigger>
+	<Trigger id="42" event="EVENT_INVENTORY_ITEM_COUNT_CHANGED">
+		<Conditions>
+			<IntValue source="#EVENT.nameId" equal="27544"/>
+			<IntValue source="#EVENT.newCount" greaterEqual="1"/>
+		</Conditions>
+		<Run targetId="42"/>
+	</Trigger>
+	<Trigger id="43" event="EVENT_USEROBJECT_START_ACTION">
+		<Conditions>
+			<IntValue source="#EVENT.classId" equal="17675"/>
+			<IntValue source="#EVENT.action" equal="4"/>
+		</Conditions>
+		<Run targetId="43"/>
+	</Trigger>
+	<Trigger id="44" event="EVENT_EINHASAD_REST_EXP_INFO" delay="1000">
+		<Conditions>
+			<EventValue source="#EVENT.gaugePercent" lessEqual="#EVENT.objectivePercent"/>
+			<InventoryItemCount nameId="22517" greater="0"/>
+		</Conditions>
+		<Run targetId="44"/>
+	</Trigger>
+</Triggers>

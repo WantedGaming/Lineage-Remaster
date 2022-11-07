@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TooltipAnimations>
+
+  <LuckybackAnimations>
+    <LuckybackAnimation nameId="15212">
+      <Icon>6806</Icon>
+      <Icon>6807</Icon>
+      <Icon>6808</Icon>
+      <Icon>6810</Icon>
+      <Icon>6809</Icon>
+      <Icon>6811</Icon>
+      <Icon>6812</Icon>
+      <Icon>6813</Icon>
+      <Icon>6816</Icon>
+      <Icon>6817</Icon>
+      <Icon>6818</Icon>
+      <Icon>6820</Icon>
+      <Icon>6821</Icon>
+    </LuckybackAnimation>
+  </LuckybackAnimations>
+  
+</TooltipAnimations>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>テレポーター</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>キリウス</name>
+		<job>[Teleporter]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+	<p>ここから送ってあげられる村と料金は以下のとおりです。</p>
+	<p>Which village do you want to travel to?</p>
+	<p><a action="teleport oren-werldern">Werldern Village:	 	<var src="0">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-giran">Giran Castle Town:			<var src="1">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-heine">Heine Castle Town:		<var src="2">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-kent">Kent Castle Town:			<var src="3">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-gludin">Gludin Village:	<var src="4">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-silver">シルバーナイトタウン：	<var src="5">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-aden">Aden:			<var src="6">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-woods">Woodbeck Village:		<var src="7">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-willow">Firefield Village:	<var src="8">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-grape">ウィザードの研究室：<var src="9">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-lowful">Lawful Temple:		<var src="10">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-chaos">Chaotic Temple:			<var src="11">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-island">Talking Island:			<var src="12">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-scave">Cave of Silence:		<var src="13">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-diad">ディアド要塞：			<var src="14">Adena</var></a></p><br></br>
+	
+	</dialog>
+
+</npcdialog>

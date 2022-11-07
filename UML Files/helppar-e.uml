@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>パーティー</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ゲームシステム：パーティー</font></p>
+	<p>1つのパーティーには最大8人まで入れます。パーティーメンバー同士はお互いのHPを見ることができます。狩りの際の経験値は自動的に分配されます。<br/></p>
+	<p><font fg="ffffaf">パーティーの作成：</font><br/>
+	パーティーのメンバーとして迎えたいユーザーをコマンドに<font fg="afffff">/invite[半角スペース][ユーザーID]</font>と入力します。<br/>
+	すると自分がパーティーリーダーの新しいパーティーが作られます。<br/>
+	パーティーメンバーが画面内にいる場合、そのユーザーIDを<font fg="afffff">右クリックした状態</font>で自分のHP/MPバーにドラッグすると、自動でパーティー招待となります。<br/></p>
+	<p><font fg="ffffaf">パーティーへの招待：</font><br/>
+	招待するユーザーのIDを確認後、<font fg="afffff">/invite[半角スペース][ユーザーID]</font>と入力するか、そのユーザーのIDを<font fg="afffff">右クリックした状態</font>で自分のHP/MPバーにドラッグします。<br/>
+	<font fg="afffff">/invite</font>コマンドは、そのパーティーのリーダーのみが使えます。<br/></p>
+	<p><font fg="ffffaf">パーティーメンバーの追放：</font><br/>
+	パーティーリーダーは自分のパーティーのメンバーを追放できます。コマンド<font fg="afffff">/banparty[半角スペース][追放したいキャラクター名]</font>と入力するか、パーティーウィンドウで追放したいユーザーを右クリックしメニューの<font fg="afffff">パーティーメンバー追放</font>をクリックします。<br/></p>
+	<p><font fg="ffffaf">パーティーからの脱退：</font><br/>
+	コマンド<font fg="afffff">/outparty</font>と入力するか、パーティーウィンドウで右クリックしメニューの<font fg="afffff">パーティー脱退</font>をクリックします。<br/>
+	すでにパーティーに参加しているキャラクターは、そのパーティーを脱退しなければ新たなパーティに加入できません。<br/></p>
+	<p><font fg="ffffaf">パーティー機能：</font><br/>
+	パーティーウィンドウで右クリックすると<font fg="afffff">パーティー招待、パーティー脱退、証設定、パーティーメンバー追放、パーティーリーダー委任、パーティーメンバー順序変更、横配置、位置案内</font>機能を使用できます。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

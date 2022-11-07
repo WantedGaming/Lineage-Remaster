@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SiegeUI>
+	<Window Name="Siege_Window" X="0" Y="0">
+		<Image Name = "SiegeIcon_Image" X = "5" Y = "50" Surf="7245;1"/>
+		<Label Name = "SiegeStatus_Label" String = "0;1" X = "20" Y = "50" Width = "20"/>
+		<Label Name = "SiegePledge_Label" String = "0;1" X = "45" Y = "50" Width = "20"/>
+	</Window>
+</SiegeUI>

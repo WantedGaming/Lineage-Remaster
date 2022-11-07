@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ここはエルモアとアデン間の激しかった戦争を見せてくれる場所です。まだあの世に行けていないエルモアソルジャーがアンデッドになり、この場所をうろついていて、
+		 もう少し中に入るとエルモアの本陣も見つけられるそうです。ここではエルモアの指揮官がアンデッドでよく登場するそうですが…こ…怖いですね。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

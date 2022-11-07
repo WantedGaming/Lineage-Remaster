@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		半端な気持ちで足を突っ込むな。そうじゃなくてもこの件を調査するために派遣された兵士たちが
+		全滅したという知らせが届いているんだ。残された家族はどんなに悲しんでいることか… 
+		<br/>
+		アラスは何年もの間、ダンジョンの前で子供の知らせを待っている。子供の死を認めてすっかりおとなしくなってしまった…
+		<br/>
+		君の誠意だけは受け取っておこう。
+		</p>
+	</dialog>
+</npcdialog>

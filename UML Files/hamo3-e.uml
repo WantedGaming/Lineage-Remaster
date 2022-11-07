@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		私に手を貸してくださるには、勇士様はまだ経験値が足りていないみたいですね。
+		<br/>もう少し成長したら、また訪ねてきてください。
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

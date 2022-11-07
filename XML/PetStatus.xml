@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<PetStatus Toggle="true">
+	<Window Name="PetStatusWin" BasePng="11260;1" FramePng="11261;1" Moveable="25" MouseEvent="Dummy" KeyboardEvent="KeyEvent">
+		<Control Name="StautsPage" X="0" Y="0">
+			<Label Name="PetName" X="60" Y="32" Width="20" Height="12" FontColor="190,190,190"/>
+			<Button Name="ChangeNameBtn" X="140" Y="29" BasePng="11273;1" HighlightPng="11274;1" PushPng="11275;1" MouseEvent="ChangeName"/>
+					
+			<Image Name="LevelBar" X="82" Y="49" Png="11267;9">
+				<Label Name="Level" X="0" Y="0" Caption=";2"/>
+				<Label Name="Text" X="0" Y="0" Caption=";2"/>
+			</Image>
+			<Image Name="LevelBase" X="82" Y="49" Png="11266;1"/>
+			
+			<Image Name="HpBar" X="82" Y="67" Png="11268;6">
+				<Label Name="Text" X="0" Y="0" Caption=";2" Align="center"/>
+			</Image>
+			<Image Name="HpBase" X="82" Y="67" Png="11266;1"/>
+					
+			<Image Name="MpBar" X="82" Y="85" Png="11269;9">
+				<Label Name="Text" X="0" Y="0" Caption=";2"/>
+			</Image>
+			<Image Name="MpBase" X="82" Y="85" Png="11266;1"/>
+			
+			
+			<Control Name="Hunger" X="0" Y="0">
+				<Image Name="TextImg" X="28" Y="103" Png="11272;1"/>
+				<Image Name="Bar" X="82" Y="103" Png="11271;9">
+					<CountDown Name="Text" X="0" Y="0" Caption=";2" Format="MM:SS"/>
+				</Image>
+				<Image Name="Base" X="82" Y="103" Png="11266;1"/>
+			</Control>
+			
+			<Label Name="State" X="82" Y="121" FontColor="190,190,190"/>
+			
+			<Control Name="Stats">
+				<Label Name="Str" X="57" Y="156"/>
+				<Label Name="Int" X="128" Y="156"/>
+				<Label Name="Dex" X="57" Y="173"/>
+				<Label Name="Wis" X="128" Y="173"/>
+				<Label Name="Con" X="57" Y="190"/>
+				<Label Name="Cha" X="128" Y="190"/>
+				
+				<Label Name="AC" X="57" Y="223"/>
+				<Label Name="MR" X="128" Y="223"/>
+			</Control>
+		</Control>	
+		<Control Name="Tab" X="26" Y="244">
+			<RadioButton Name="StatusTabBtn" X="0" Y="0" BasePng="11263;1" HighlightPng="11263;1" PushPng="11262;1" CheckPng="11262;1" Tag="0" MouseEvent="Tab"/>
+			<RadioButton Name="InventoryTabBtn" X="36" Y="0" BasePng="11265" HighlightPng="11265" CheckPng="11264;1" Tag="1" MouseEvent="Tab"/>
+		</Control>	
+			
+		<Button Name="Close_Button" X="166" Y="7" MouseEvent="CloseWindow" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1"/>
+	</Window>
+	
+</PetStatus>

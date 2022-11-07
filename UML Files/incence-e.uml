@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p><br/>まだ君に売れる物はない。<br/>
+		あとでまた来てくれ。そのときまでに用意しておこう。<br/><br/>
+		何度来てもないままだったら、君に売れるものはないということだ。<br/></p>
+  </dialog>
+</npcdialog>

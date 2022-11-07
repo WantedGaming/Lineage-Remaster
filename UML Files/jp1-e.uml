@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェイプ</name>
+		<job>[いたずら好き]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>
+		 エヘヘ。にいちゃんも僕の姉ちゃんに会いにきたの？うーん…姉ちゃんは今いないんだけど…<br/>
+		<br/>
+		<br/>
+		<a link="jp2">エマイに私の気持ちを伝えてくれるかい？</a><br/>
+		
+		 
+		 
+		</p>
+	</dialog>
+</npcdialog>

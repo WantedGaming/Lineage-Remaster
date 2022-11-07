@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[Growth Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 久しぶりに象牙の塔から出たと思ったら、村の天気は過酷な寒さですね。<br/>
+		<br/>
+		 この天気の原因がアイスクイーンの怒りのせいだなんて……<br/>
+		</p>
+	</dialog>
+</npcdialog>

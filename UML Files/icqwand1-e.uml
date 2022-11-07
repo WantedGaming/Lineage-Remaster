@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>象牙の塔の諜報員</name>
+		<job>[Conversation]</job>
+		<text></text>
+	</npc>
+  <dialog>
+    <p><br/>ブラッド様が送られた勇士様というのはあなたですか？<br/><br/></p>
+	<p>ここはあなたが想像している以上に恐ろしい場所ですから、慎重に行動してください。<br/><br/></p>
+	<p><a action="a">爆風のワンドを要求する</a><br/><br/></p>
+  </dialog>
+</npcdialog>

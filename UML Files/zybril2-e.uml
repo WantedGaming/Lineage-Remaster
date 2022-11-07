@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>まったく不躾な人ですね。初めてお会いする方のようですが、いきなり「月光の精気」をくれないかと？</p>
+		<p>月光の精気は誰にでもあげられるものではないのです。お帰りください！</p>
+		<p><a action="A">ロビンフッド様の手紙を持ってきました</a>	</p>
+	</dialog>
+	
+</npcdialog>
+

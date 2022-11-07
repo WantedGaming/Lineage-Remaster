@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リノテ</name>
+  </npc>
+  <dialog>
+	<p>あの広い海を眺めていると心が穏やかになりませんか？</p> 
+	<p>本当にきれいな光景でしょう。でもね、あの水の下には恐ろしい水竜パプリオンが棲んでいるというのよ。</p>
+	<p>ちょっと恐いけれど、ロマンチックじゃない？</p>
+  </dialog>
+</npcdialog>

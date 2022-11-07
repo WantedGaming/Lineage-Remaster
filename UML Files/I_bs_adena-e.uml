@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff"><name/>：</font></p>
+		<p><br/>
+		 Adenaかコインをお持ちの方にのみ、魔法をかけてさし上げます。
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

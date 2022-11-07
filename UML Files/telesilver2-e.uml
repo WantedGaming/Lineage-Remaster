@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Wizard Met</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Villages you can travel from here with their fees.</p>
+		<p>Which village do you want to travel to?</p>
+		<p><a action="teleport silver-kent">Kent Castle Town:<var src="0"/>Adena</a></p>
+		<p><a action="teleport silver-woods">Woodbeck Village:<var src="1"/>Adena</a></p>
+		<p><a action="teleport silver-heine">Heine Castle Town:<var src="2"/>Adena</a></p>
+		<p><a action="teleport silver-gludin">Gludin Village:<var src="3"/>Adena</a></p>
+		<p><a action="teleport silver-giran">Giran Castle Town:<var src="4"/>Adena</a></p>
+		<p><a action="teleport silver-aden">Aden:<var src="5"/>Adena</a></p>
+		<p><a action="teleport silver-scave">Cave of Silence:<var src="6"/>Adena</a></p>
+		<p><a action="teleport silver-willow">Firefield Village:<var src="7"/>Adena</a></p>
+		<p><a action="teleport silver-werldern">Werldern Village:<var src="8"/>Adena</a></p>
+		<p><a action="teleport silver-behemoth">Behemoth:<var src="9"/>Adena</a></p>
+		<p><a action="teleport silver-silveria">Silveria:<var src="10"/>Adena</a></p>
+		<p><a action="teleport silver-oren">Oren Village:<var src="11"/>Adena</a></p>
+		<p><a action="teleport silver-grape">Wizard Lab:<var src="12"/>Adena</a></p>
+		<p><a action="teleport silver-island">Talking Island:<var src="13"/>Adena</a></p>
+		<p><a action="teleport silver-diad">Diad Fortress:<var src="14"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

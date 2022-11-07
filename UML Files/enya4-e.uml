@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エニャ</name>
+		<job>[Teleporter]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>あなたはもう十分に成長したので、私の助けは必要ないようですね。</p>
+  </dialog>
+</npcdialog>

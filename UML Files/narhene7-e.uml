@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>エルフの森を守る守護種族のひとつであるアラクネ族は、自らの固い<font fg="ffafff">表皮</font>をくれたり、鮮やかな手さばきで<font fg="ffafff">糸</font>を紡いでくれます。<br/><br/></p>
+	<p>アラクネについては、彼らと親しい<font fg="ffffaf">テオドール</font>がよく知ってると思うわ。<br/><br/></p>
+	<p><img src="331" link="narhenE5"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

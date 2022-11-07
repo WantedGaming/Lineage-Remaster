@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font></p>
+    <p>欲の出しすぎは禁物です。よりよいアイテムを手に入れることに夢中になりすぎて、他人との争いに巻き込まれ命を落としてしまうかもしれません。</p>
+	<p>ダガー1つが手に入っても感謝する心が大切です。足るを知ることが大切です。<br/><br/></p>
+	<p><a link="keplisha3">助言を聞く</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>ようこそ。ここ「話せる島」は昔から<a link="gerengw2">ウィザードたちの修練場</a>として有名な所だ…。実は何日か前にオークたちの襲撃でわしの家が…。村の近くに一時的に引っ越してきたが…大変なことになった。
+		<br/><br/>
+		<a action="gerengtest">卒業試験を受ける</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

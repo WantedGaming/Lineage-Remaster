@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルーク</name>
+  </npc>
+  <dialog>
+	<p>おや、あなたのようなひよっこのアイテムは預かることができませんよ。</p>
+	<p>アイテムを預けたいなら、もっと名を上げてからおいでなさい。</p>
+  </dialog>
+</npcdialog>

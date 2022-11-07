@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>オーム</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>
+		 はるか昔から、我々はこの地下世界の建設に多大な貢献をしてきた。
+		 我々は絶えず虐げられて来たが、不満はない。
+		</p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

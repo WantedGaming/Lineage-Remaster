@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+  </npc>
+  <dialog>
+	<p> 申し訳ないのですが、イリス様の推薦書がなければ、お取引はできません。</p>
+	<p>まずイリス様にお会いになってみてください。</p>
+  </dialog>
+</npcdialog>

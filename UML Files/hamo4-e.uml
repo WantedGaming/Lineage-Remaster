@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		火竜の棲処のドワーフ洞窟入口の近くにいる<br/>
+		<font fg="ffaaff">エルドナーシュ</font>様が、<font fg="ffaaff">火竜の安息の地</font>へ入れるように手伝ってくださるはずです。
+		</p>
+	</dialog>
+</npcdialog>

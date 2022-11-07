@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>クプ</name>
+		<job>[ドラゴン製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+	 <p>
+		 ひとつ…ふたつ…みっつ…よっ…つ<br/>
+		 ない。あんただな？ドラゴンの力が宿った俺の宝を盗みやがって！さっさと返せ！<br/>
+		 <br/>
+		 …あれ、俺の勘違いだったようだ。<br/>
+		 もしやあんたも<font fg="ffffaf">ドラゴン</font>装備が欲しくてきたのか？
+		 よく来たな。さっそく集めた材料を見せてくれ。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+
+	</dialog>
+</npcdialog>

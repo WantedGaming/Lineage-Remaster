@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>レオナ</name>
+    <job>[冒険家]</job>
+  </npc>
+  	<dialog align="left">
+		<p>お！もう見つけたのか？</p>
+		<p>どれ見てみよう……。ほう、これは今までに見たこともない物だな。</p>
+		<p>やぼったくて不格好だが、作り手の愛情がにじみ出るような彫刻像だ！</p>
+		<p>素晴らしい物を持ってきてくれて感謝するよ、約束どおり謝礼を十分に差し上げよう。</p>
+		<p>珍しい物があれば、また持ってきてくれ。</p>
+	</dialog>
+</npcdialog>

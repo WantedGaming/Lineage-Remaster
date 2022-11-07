@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+<a link="doettE9">フェアリー</a>の背中についている、うっすら輝く羽のことを言ってるんだよ。
+フェアリーの羽はフェアリーの故郷である精霊界と現世を行き来できる道具さ。
+それで私たちエルフも<font fg="ffffff">フェアリーの羽</font>を使えば、精霊界からエルフの森の中へと<font fg="ffffff">瞬間移動</font>できるってわけ。
+羽の膜は先が尖がってて、ミスリルをかぶせるとすっごく硬くなるから、   
+とっても使い勝手が良いのさ。でもそれを手に入れようと思ったら 
+<font fg="ffffff">ミスリルの糸5巻とフェアリー ダスト40個</font>をフェアリーに渡さなきゃならない。
+彼らはそれで身づくろいするっていうから。
+</p> 
+  </dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ドッペルゲンガーって奴らは、いつも誰かに化けているから、今まで誰も奴らの本当の姿を見たことがないはずですよね。</p>
+		<p>でも、その方の話によると、奴らは人間のような形ではあるものの、人間とは言えないまったくの別物…なんていえば言うか…</p>
+		<p>粘っこい汚水みたいなもんが人間の形をした塊になって、森でもぞもぞしてたって話ですよ。</p>
+		<p>彼は、それがドッペルゲンガーの正体じゃないかってにらんでましたけどね…。</p>
+		<p><br/></p>
+		<p>
+		<img src="331" link="kidman1"></img>
+		</p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>地竜の伝令</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>竜の棲処：水竜は、デスナイトになった者たちがシルバーナイトになるまでの間出入りできる場所だ。</p>
+	<p><br/></p>
+	<p>あなたはここを出入りできる条件を満たしていない。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p> A house in a village can be owned by a clan.</p>
+    <p>Only clan lords of <font fg="ffffff">level 15</font> or higher can acquire a house through auctions, and clans that already own a castle can not own a house as well.</p>
+    <p><a link="aghelp2">Ask about taxes</a><br/></p>
+    <p><a link="aghelp3">Ask about houses</a><br/></p>
+	
+	</dialog>
+</npcdialog>

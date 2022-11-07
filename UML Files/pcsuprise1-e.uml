@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+  </npc>
+  <dialog>
+	<p> へーい、いらっしゃーい、俺はアデンをさすらう、来る日も来る日もいきなり現れる商人でございます！</p>
+	<p> 珍しいアイテムをたくさん用意しておりますよ。</p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+  </dialog>
+</npcdialog>

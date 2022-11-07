@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロビンフッド</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>いいだろう！さあ、材料がすべて揃ったんだ。製作に入るかな。ふぅ……。かなり緊張するな。では私が弓を作っている間、君は残りの材料を持って来てくれるか。</p>
+		<p>どれどれ。本によると</p>
+		<p><font fg="ffffaf">グリフォンの羽</font>30個、</p>
+		<p><font fg="ffffaf">ミスリルの糸</font>40個、</p>
+		<p><font fg="ffffaf">オリハルコン ホーン</font>1個、</p>
+		<p><font fg="ffffaf">オリハルコン プレート</font>12個が必要だとなっている。</p>
+		<p>それに弓の製作に成功すれば、それはアデンの歴史上最高の弓になる。それに見合うだけの装飾を施さないといけないだろう？</p>
+		<p><font fg="ffffaf">最高級ルビー、最高級サファイア、最高級エメラルド、最高級ダイアモンド</font>1個ずつ手に入れて来なさい。</p>
+		<p>急ぐことはないぞ。どうせ神聖なユニコーンの角を加工するのにかなり時間がかかりそうだからな。</p>
+		<p>材料をすべて揃えて持って来る頃には、私は君が誰だかわからなくなっているかもしれない。私もこの歳だ。昔のようにはいかなくてな…</p>
+		<p>もしもそうなった場合は、このリングを見せてくれるかい。そうしたら君を思い出すだろう。それと、この<font fg="ffffaf">メモ</font>を必ず一緒に持ってくるんだ。	</p>
+	</dialog>
+	
+</npcdialog>

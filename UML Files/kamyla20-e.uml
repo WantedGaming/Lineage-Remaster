@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+名誉を重んじる、ナイト専用の片手剣ですわ。<br/><br/>
+これになさいます？<br/><br/>
+<a action="g">名誉の剣をもらう</a><br/><br/>
+<a link="kamyla18">他のを見てみる</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

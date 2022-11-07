@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+こんにちは。 <username/>様…<br/><br/>
+すべての謎が解ければ成仏できると思いましたのに…私の肩にはあまりにもたくさんの罪がのしかかっています…<br/><br/>
+常にあなたの冒険に…幸あらんことを…<br/><br/>
+<a action="f">ホセのところへもう一度行かせてください</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

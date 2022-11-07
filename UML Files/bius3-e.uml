@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_004</portrait>
+		<name>Bius</name>
+		<job>General Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Prices are about <font fg="ffffff"><var src="0"/>%</font>I'm not sure how much I can sell it at a lower price, but it's not worth it. No matter how much you try to sell it at a lower price, you can't afford this much tax...</p>
+		<p><br/>
+		<img src="331" link="bius"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>

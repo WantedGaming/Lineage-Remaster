@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ブラッド</name>
+    <job>[Teleporter]</job>
+  </npc>
+	<dialog>
+		<p>
+		<p><br/>
+		 君は凍りついた心臓を持ってるんだな。<br/>
+		 凍りついた心臓が消えたらまた訪ねてくれ。<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>엘라리온</name>
+    <job>[ 정령 마법 전수자 ]</job>
+    <text>이런 이런..</text>
+  </npc>
+  <dialog>
+    <p>이런 탁한 기운은 참 오랜만에 느껴보는군.</p>
+    <p>영혼이 깨끗하지 못한 자에게 알려줄 수 있는 것은 없네.</p>
+  </dialog>
+</npcdialog>

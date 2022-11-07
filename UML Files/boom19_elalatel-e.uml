@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルララ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		アイスクイーンの部下たちを倒したのですか？<br/><br/>
+		私が差し上げた<font fg="ffffaf">暖かいルビーの懐炉</font>と<font fg="ffffaf">冷たい雪の結晶200個</font>を持ってきてくだされば、必ずお礼します。<br/>
+		<br/>
+		準備が整ったらおっしゃってください。<font fg="ffffaf">100Adena</font>で私の近くまで来れるよう魔法をかけてさしあげます。<br/>
+		それではお待ちしています！<br/><br/><br/></p>
+		<p>
+		<font fg="25a6d6"><a action="non_npc a">魔法をかけてください</a></font><br/>		
+		</p>
+	</dialog>
+</npcdialog>

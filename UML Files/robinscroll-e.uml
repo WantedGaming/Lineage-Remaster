@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>弓を作るための材料</p>
+		<p><font fg="ffffaf">神聖なユニコーンの角</font>4個(ユニコーンテンプル)</p>
+		<p><font fg="ffffaf">火の息吹</font>30個(エルフの森ダンジョン)</p>
+		<p><font fg="ffffaf">水の息吹</font>30個(エルフの森ダンジョン)</p>
+		<p><font fg="ffffaf">大地の息吹</font>30個(エルフの森ダンジョン)</p>
+		<p><font fg="ffffaf">風の息吹</font>30個(エルフの森ダンジョン)</p>
+		<p><font fg="ffffaf">闇の息吹</font>30個(エルフの森ダンジョン)</p>
+		<p><font fg="ffffaf">精霊の涙</font>20個(エルフの森ダンジョン)</p>
+		<p><font fg="ffffaf">月光の精気</font>1個(エヴァの聖地)</p>
+		<p><font fg="ffffaf">ロビンフッドのメモ</font>	</p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>ギラン城所属の村テレポーター</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 移動できる地域は以下のとおりです。どちらに行かれますか？<br/>
+		<br/><br/>
+		<a action="i orc-castle">オーク城下町：10000Adena</a><br/>
+		<a action="i heine-castle">Heine Castle Town:10000Adena</a><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

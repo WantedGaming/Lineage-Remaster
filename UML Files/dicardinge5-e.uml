@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>無事手に入れてきたな。ご苦労。<br/>
+		古代のダークエルフの文書に目を通して、魔族の現状についてまとめておいた。いったい目的が何なのか、皆目見当がつかないがな。<br/>
+		魔族の主、火炎の影のやつ、いったい何を企んでるのだろうか…<br/>
+		<br/><br/><br/>
+		<a link="dicardinge6">主とは誰ですか</a><br/></p>
+	</dialog>
+	
+</npcdialog>

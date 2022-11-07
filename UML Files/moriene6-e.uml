@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>エントのことは、私はよく知らないの。聞いてもちゃんと答えてくれないし…。<font fg="ffffff">テオドール</font>おじさんが、なぜかエントたちと心が通じ合ってるみたいよ。あの人は、どうやら植物の心を読む能力があるみたい。一度エントについて聞いてみるといいわ。</p>
+  </dialog>
+</npcdialog>

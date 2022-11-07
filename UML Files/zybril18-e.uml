@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>これはまさしくサエル様のリング！何てお方だ、あなたのような方を知らなかったとは…。</p>
+		<p><a action="D">サエルのリングを渡す</a>	</p>
+	</dialog>
+	
+</npcdialog>
+

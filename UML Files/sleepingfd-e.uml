@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	
+	<dialog>
+		
+		<p>ヴァラカスはまだ寝入ってはいないようだ。<br/></p>
+		
+		<p>おお…ヴァ、ヴァラカス！？<br/><br/></p>
+		<p>ふぅ…寝ているのか…あっ？！<br/></p>
+		<p>あれ、ヴァラカスの鱗が剥がれ落ちそうになってる、がさっと剥がしてしまいたい…あれが欲しい！！<br/></p>
+		<p>でも鱗を剥がしてヴァラカスが目を覚ましたらどうしよう？<br/></p>
+		<p>いや…たしか竜は一度寝たらそう簡単には起きないって聞いたな…<br/></p>
+		<p>ひとつぐらい取ったって何てことないはずだ！！<br/></p>
+		<p>う…でもどうしよう？<br/><br/></p>
+		<p><a link="sleepingfd1">よ、よし…こうなったらダメ元だ！</a><br/></p>
+
+
+	</dialog>
+
+</npcdialog>

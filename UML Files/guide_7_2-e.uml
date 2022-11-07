@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 オアシスは風によって位置が変わるそうです。ハルパスの影響で砂風の力が強くなるにつれ、オアシスの位置も変更されました。
+		 その近辺には水を飲むために<font fg="ffafff">アント</font>たちがうようよしているそうですから…わっ…私は<font fg="ffafff">アント</font>が本当に嫌いなんです。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

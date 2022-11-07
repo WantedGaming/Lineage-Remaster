@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[アデンの赤き騎士]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">話せる島</font>で育った子…</p>
+	<p>ひと目で王族の血を引いていることが分かる赤い髪をしたその子は<font fg="ffffaf">グンター</font>と<font fg="ffffaf">ゲレン</font>のもとで育ち、大人になると純粋な心を持つウィザード<font fg="ffffaf">ゾウ</font>とともに<font fg="ffffaf">話せる島</font>から旅立つことになる。</p>
+	<p><font fg="ffffaf">アデン</font>の領土に足を踏み入れた彼は、白鳥の騎士<font fg="ffffaf">イシルロテ</font>とその守護騎士<font fg="ffffaf">アートーン</font>、月の騎士であるエルフの<font fg="ffffaf">ジリアン</font>とともに、<font fg="ffffaf">アデン</font>の民を<font fg="ffffaf">反王</font>から解放するために赤き騎士団という血盟を創設する。</p>
+	<p>人手が足りていなかったが、<font fg="ffffaf">ゾウ</font>によって閉じこもっていた<font fg="ffffaf">王室魔法師団</font>を集め、正義のために身を捧げる多くの騎士や国民とともに、<font fg="ffffaf">反王ケンラウヘル</font>がいる<font fg="ffffaf">アデン城</font>に向かって少しずつ歩みを進めた。</p>
+	<p><font fg="ffffaf">恐怖</font>によって支配されていた<font fg="ffffaf">反王</font>の軍隊は、まるで<font fg="ffffaf">希望の光</font>かのように団結した赤き騎士団の力強い歩みの前に力を無くし、<font fg="ffffaf">アデン城</font>の戦いで<font fg="ffffaf">反王ケンラウヘル</font>に致命傷を負わせたことで勝利を掴んだようだった。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

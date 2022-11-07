@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>パゴル</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+  	<p><a link="pagoru"></a></p>
+	<p>ここと外とじゃ物価がね。だいたい税金未定%ぐらい差があるかしら。</p>
+
+  </dialog>
+</npcdialog>

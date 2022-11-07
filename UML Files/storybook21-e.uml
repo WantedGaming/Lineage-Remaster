@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[生と死]：</font></p>
+	<p><br/></p>
+	<p>危機に直面した赤き騎士団は<font fg="ffffaf">ダークエルフ</font>が結成した<font fg="ffffaf">ブルディカの暗殺団</font>に援護を求めるため伝令を送った。</p>
+	<p>伝令が到着した頃、<font fg="ffffaf">ブルディカ</font>は<font fg="ffffaf">スレイヴ</font>から届いた密書を読んでいた。</p>
+	<p>「友よ、種族の悲劇を感じる。<font fg="ffffaf">ヘルバイン</font>の強欲が極限に達し、<font fg="ffffaf">ダンテス</font>は野望に目が眩んでいる。</p>
+	<p>私にできることは何もない。我々の友情はここまでなのかもしれない。」</p>
+	<p><font fg="ffffaf">ブルディカ</font>は赤き騎士団からの伝令に<font fg="ffffaf">ディアド</font>要塞に向かうよう早く戻って伝えてほしいと告げると、暗殺団とともに出征する。</p>
+	<p>彼の出征に対する決意は以下のように記録されている。</p>
+	<p>「100年もの時を巻き戻すことができたなら、エルフの森から離れることはなかっただろう。過去を取り戻すことはできないが、我々は自らの運命を取り戻すため、この洞窟を出る時を迎えたようだ。</p>
+	<p>同志よ、自らの死をもってしても種族の命を守らねばならない。」</p>
+	<p><font fg="ffffaf">ディアド</font>要塞に向かうため、洞窟の入口には赤き騎士団が待っていた。</p>
+	<p>そしてディアド要塞へ向かうべく、砂嵐が吹きすさぶ砂漠を越え、種族の運命を変える暗殺者たちが動き始めたのだった。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

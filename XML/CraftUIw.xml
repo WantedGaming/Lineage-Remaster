@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<CraftUI Toggle="true">
+	<Window Name="Craft_AllWindow" X="0" Y="0" Moveable = "20" MouseEvent = "Dummy">
+
+		<Window Name="Craft_Confirm" X="0" Y="0" BaseSurf = "6247;1" FrameSurf = "6248;1" Moveable = "20" Modal="1" Activate="0" MouseEvent="Dummy">
+			<MultiLabel Name = "Confirm_Label" X = "19" Y = "21" Width = "148" Height = "60" Caption = "test"/>
+			<Button Name="Ok_Button" X="34" Y="88" BaseSurf="6240;1" HighlightSurf="6239;1" PushSurf="6241;1" MouseEvent="ConfirmOKButton"/>
+			<Button Name="Cancel_Button" X="99" Y="88" BaseSurf="6244;1" HighlightSurf="6245;1" PushSurf="6246;1" MouseEvent="ConfirmCancelButton"/>
+			<Button Name="Close_Button" X="163" Y="7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent="ConfirmCancelButton"/>
+		</Window>
+
+		<Window Name="CraftList_Window" X="0" Y="0" BasePng = "2414" KeyboardEvent = "ListKeyBoard" Activate="0">
+			<WheelControl Name="CraftList_Wheel" X="9" Y="34" Width="144" Height="229">
+				<ScrollBar Name="CraftList_ScrollBar" X="126" Y="0" Width = "19" Height = "230" ScrollStart = "18" ScrollHeight = "194" Vertical="1" MouseEvent="CraftListcroll">
+					<Button Name="Up_Button" X="0" Y="0" MouseEvent="CraftListcroll" BaseSurf = "8699" HighlightSurf="8700" PushSurf = "8700"/>
+					<Button Name="Down_Button" X="0" Y="212" MouseEvent="CraftListcroll" BaseSurf = "8697" HighlightSurf="8698" PushSurf = "8698"/>
+					<Button Name="Move_Button" X="1" Y="18" MouseEvent="CraftListcroll" BaseSurf = "8695" HighlightSurf="8696" PushSurf = "8696"/>
+				</ScrollBar>
+			</WheelControl>
+			<List Name = "CraftList_List" X = "11" Y = "35" Width = "129" Height = "230" Vertical = "1" Gap = "1">
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+				<Label Name ="CraftList_Label" Width="126" Height="18" MouseEvent = "CraftListItem">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+				</Label>
+			</List>
+		</Window>
+		
+		<Window Name="Craft_Window" X="407" Y="0" BasePng = "2413" KeyboardEvent = "CraftKeyBoard" >
+
+			<Control Name="Craft_InputArea" X="11" Y="154" Width="175" Height="70"/>
+
+			<Control Name = "InputItem_0" X="11" Y="154" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_1" X="46"  Y="154" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_2" X="81"  Y="154" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_3" X="116"  Y="154" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_4" X="151"  Y="154" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_5" X="11" Y="189" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_6" X="46" Y="189" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_7" X="81" Y="189" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_8" X="116" Y="189" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+			<Control Name = "InputItem_9" X="151" Y="185" Width="32" Height="32" Activate="0" MouseEvent = "CraftInputItem" >
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" X="0" Y="0" Width="32" Height="32" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+					<Image Name="Replaceable" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+			</Control>
+      
+			<Control Name = "OutputItem_0" X = "28" Y = "64" Width="32" Height="32" Activate="0" MouseEvent = "CraftOutputItem">
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" Width="32" Height="32">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+          <Image Name="GreatSuccess" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+				<Image Name="BG" X="-4" Y="-4" Png="2415" />
+			</Control>
+			<Control Name = "OutputItem_1" X = "64" Y = "64" Width="32" Height="32" Activate="0" MouseEvent = "CraftOutputItem">
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" Activate="0" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" Width="32" Height="32">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+          <Image Name="GreatSuccess" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+				<Image Name="BG" X="-4" Y="-4" Png="2415" />
+			</Control>
+			<Control Name = "OutputItem_2" X = "100" Y = "64" Width="32" Height="32" Activate="0" MouseEvent = "CraftOutputItem">
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" Activate="0" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" Width="32" Height="32">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+          <Image Name="GreatSuccess" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+				<Image Name="BG" X="-4" Y="-4" Png="2415" />
+			</Control>
+			<Control Name = "OutputItem_3" X = "136" Y = "64" Width="32" Height="32" Activate="0" MouseEvent = "CraftOutputItem">
+				<Label Name = "Count" X = "1" Y = "3" Width="32" Height="32" Activate="0" VAlign="bottom" HAlign="right"/>
+				<Image Name="Unit" X="25" Y="25" Surf="7241;1" />
+				<ItemIcon Name = "Icon" Width="32" Height="32">
+					<Tooltip Name = "Desc_Tooltip"  X = "15" Y="35"/>
+          <Image Name="GreatSuccess" X="25" Y="0" Surf="6250;1" Activate="0"/>
+				</ItemIcon>
+				<Image Name="BG" X="-4" Y="-4" Png="2415" />
+			</Control>
+
+			<Label Name = "Condition_Label" X = "10" Y = "226" Width="174" Height="16" VAlign="center" HAlign="center"/>
+      <AniGauge Name = "DelayGauge" X = "10" Y = "226" Width="174" Height="16" Png="10581" Activate="0" VAlign="center" HAlign="center"/>
+			<Button Name="Close_Button" X="153" Y="6" BaseSurf="8485;1" HighlightSurf="8486;1" PushSurf="8487;1" MouseEvent="CloseWindow"/>
+			<Button Name="Plus_Button" X="123" Y="104" BaseSurf="9078" HighlightSurf="9077" PushSurf="9077" MouseEvent="PlusCountButton"/>
+			<Button Name="Minus_Button" X="55" Y="104" BaseSurf="9080" HighlightSurf="9079" PushSurf="9079" MouseEvent="MinusCountButton"/>
+			<Button Name="Ok_Button" X="15" Y="246" BaseSurf="8494" HighlightSurf="8495" PushSurf="8496" MouseEvent="MakeOKButton"/>
+			<Button Name="Cancel_Button" X="98" Y="246" BaseSurf="8491" HighlightSurf="8492" PushSurf="8493" MouseEvent="CloseWindow"/>
+			<CheckButton Name="Count_Label" X="74" Y="104" BasePng="2416" PushPng="2417" MouseEvent="UnitCountButton">
+				<Label Name="Text_Label" HAlign="center"/>
+			</CheckButton>
+			<Label Name = "Prob_Label" X = "144" Y = "133" Width="40" Height="16" VAlign="center" HAlign="left"/>
+			<Label Name = "Limited_Label" X = "106" Y = "42" Width="80" Height="16" VAlign="center" HAlign="right"/>
+		</Window>
+	</Window>
+</CraftUI>

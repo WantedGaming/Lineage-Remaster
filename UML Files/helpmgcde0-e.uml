@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>黒精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ダークエルフの黒精霊魔法：一般論</font><br/></p>
+	<p><font fg="ffffaf">魔法別キャラクター学習可能レベル</font>：<br/>
+	一般魔法1：レベル15<br/>
+	一般魔法2：レベル30<br/>
+	闇の精霊魔法1：レベル20<br/>
+	闇の精霊魔法2：レベル40<br/>
+	闇の精霊魔法3：レベル60<br/>
+	闇の精霊魔法4：レベル80<br/>
+	パッシブ魔法：レベル80/レベル85<br/></p>
+ 
+	<p><font fg="ffffaf">魔法材料：</font><br/>
+	闇の精霊魔法の中には<font fg="afffff">ダーク ストーン</font>という触媒が無いと使用できない魔法があります。<br/>
+	必要な数値は、各魔法のヘルプに書かれています。<br/></p>
+
+	<p><font fg="ffffaf">魔法を習う：</font><br/>
+	闇の精霊魔法を習得するには、<font fg="afffff">闇精霊の水晶</font>という一種の魔法書が必要です。<br/>
+	各魔法別に<font fg="afffff">闇精霊の水晶</font>を獲得した後に、アイテムをダブルクリックすると習得できます。<br/><br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

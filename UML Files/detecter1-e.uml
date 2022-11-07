@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>パウロ</name>
+  </npc>
+  <dialog>
+  <p> よく来た。わしは白魔術師のパウロと申す。しかし人はわしのことをダークウィザードと呼ぶらしい。<br/>
+ わしは過去に謎めいたある物の封印を何度か解いたことはあったが、だからといってダークウィザードなぞと呼ばれるのは不愉快極まりない。<br/>
+ おぬしも過去の遺産に興味があってわしを訪ねて来たのかね？<br/><br/>
+ <a link="detecter2">過去の遺産について</a></p>
+  </dialog>
+</npcdialog>

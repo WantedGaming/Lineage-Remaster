@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name><var src="name"/></name>
+  </npc>
+  <dialog>
+   <p>現在の城の治安管理状態は以下のとおりです。<br/><br/></p>
+   <p>攻城戦直前の城検索：<var src="1"/></p>
+   <p>攻城戦の前に城内を一掃しろとご命令して頂ければ、開始直前に城内に隠れている不穏な輩たちを、一斉に追放することができます。</p>
+   <p>ただし、これを実行するには100,000Adenaが必要なので、費用が揃っているかを確認してください。<br/><br/></p>
+   <p><a action="enableclear">攻城戦の前に城内を一掃する</a></p>
+   <p><a action="disableclear">攻城戦の前に城内を一掃しない</a></p>
+  </dialog>
+</npcdialog>

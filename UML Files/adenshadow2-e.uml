@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Master of Shadow Maya</name>
+  </npc>
+  <dialog>
+    <p>  Without Maya's crystal ball, you cannot travel to the Tower of Hubris. If you want to return to the village, I can send you there with teleportation magic.<br/></p>
+    <p><a action="1">Teleport to Village</a></p>
+  </dialog>
+</npcdialog>

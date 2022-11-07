@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>キリス</name>
+		<job>[ポーション商人]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>こんにちは！いつでもお力になりますよ！</p>
+		<p>ポーションなどが必要ならば、私に言ってください。</p>
+		<p></p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/>
+		</panel>
+
+	</dialog>
+
+</npcdialog>

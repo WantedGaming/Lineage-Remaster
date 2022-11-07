@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario id="0">
+	<scene map = "12151" preset="0">
+
+		<cutscene id="1"/>
+		<check/>	
+
+	</scene>
+</scenario>

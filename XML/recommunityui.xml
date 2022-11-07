@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<CommunityUI Toggle = "true">
+	<Window Name = "Friend_UI" X = "0" Y = "0" Width = "285" Height = "413" BasePng = "10765;1" Moveable = "30" KeyboardEvent = "CloseUI" MouseEvent = "Dummy" DropEvent="FriendDrop" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseUI"/>
+		<Label Name = "Freind_Count" X = "28" Y = "385" Width = "225" Caption = "IU" HAlign="right" FontColor = "144,136,123"/>
+		<Button Name = "Add_Button" X = "188" Y = "56" BasePng = "10766" HighlightPng = "10767" PushPng = "10768;1" MouseEvent = "AddMember"/>
+		<Button Name = "Del_Button" X = "222" Y = "56" BasePng = "10769" HighlightPng = "10770" PushPng = "10771;1" MouseEvent = "DelMember"/>
+		<CheckButton Name = "AllSelectBtn" X="26" Y="78" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "AllSelect"/>
+		<List Name = "FriendList" X= "26" Y = "96" Width = "231" Height = "286" Vertical = "1" Gap = "0">
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+			<Include Xml="CommunityTab.xml" Root="FriendInfo"/>
+		</List>
+		<ScrollBar Name = "FriendList_Scrollbar" X = "264" Y = "105" Width = "12" Height = "272" ScrollStart = "14" ScrollHeight = "244" Vertical = "1" MouseEvent = "MemListScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10729;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "MemListScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "MemListScrollButton"/>
+			<Button Name = "Down_Button" Y = "258" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "MemListScrollButton"/>
+		</ScrollBar>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+	</Window>
+	<Window Name = "Exclude_UI" X = "0" Y = "0" Width = "285" Height = "413" BasePng = "10765;1" Moveable = "30" KeyboardEvent = "CloseUI" MouseEvent = "Dummy" DropEvent="ExcludeDrop" Activate = "0">
+		<Button Name = "Closeui_Button" X = "262" Y = "7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent = "CloseUI"/>
+		<Label Name = "Exclude_Count" X = "28" Y = "385" Width = "225" Caption = "IU" HAlign="right" FontColor = "144,136,123"/>
+		<Button Name = "Add_Button" X = "188" Y = "56" BasePng = "10766" HighlightPng = "10767" PushPng = "10768;1" MouseEvent = "AddMember"/>
+		<Button Name = "Del_Button" X = "222" Y = "56" BasePng = "10769" HighlightPng = "10770" PushPng = "10771;1" MouseEvent = "DelMember"/>
+		<CheckButton Name = "AllSelectBtn" X="26" Y="78" BasePng = "10748" PushPng = "10749" Width = "17" Height = "15" HAlign = "center" VAlign = "middle" MouseEvent = "AllSelect"/>
+		<List Name = "ExcludeList" X= "26" Y = "96" Width = "231" Height = "286" Vertical = "1">
+			<CheckButton Name = "ExcludeInfo00" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo01" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo02" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo03" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo04" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo05" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo06" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo07" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo08" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo09" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo10" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo11" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo12" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo13" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo14" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo15" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo16" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo17" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+			<CheckButton Name = "ExcludeInfo18" Width = "17" Height = "15" BasePng = "10748" PushPng = "10749" HAlign = "center" VAlign = "middle" MouseEvent = "SelectFriend">
+				<Label Name = "Name_Label" X = "18" Y = "1" Width = "207" Height = "15" VAlign = "middle" HAlign = "left" Caption = "IU"/>
+			</CheckButton>
+		</List>
+		<ScrollBar Name = "ExcludeList_Scrollbar" X = "264" Y = "105" Width = "12" Height = "272" ScrollStart = "14" ScrollHeight = "244" Vertical = "1" MouseEvent = "MemListScroll">
+			<Image Name = "Background_Image" Y = "14" Png = "10729;1"/>
+			<Button Name = "Up_Button" BaseSurf = "4446;1" PushSurf = "4447;1" MouseEvent = "MemListScrollButton"/>
+			<Button Name = "Move_Button" Y = "14" BaseSurf = "4448;1" PushSurf = "4449;1" MouseEvent = "MemListScrollButton"/>
+			<Button Name = "Down_Button" Y = "258" BaseSurf = "4444;1" PushSurf = "4445;1" MouseEvent = "MemListScrollButton"/>
+		</ScrollBar>
+		<Control Name="ExcludeType">
+			<RadioButton Name = "ExcludeChat_Button" X = "31" Y = "56" BasePng = "10772" HighlightPng = "10773" PushPng = "10774;1" MouseEvent = "ExcludeChatList"/>
+			<RadioButton Name = "Spam_Button" X = "65" Y = "56" BasePng = "10775" HighlightPng = "10776" PushPng = "10777;1" MouseEvent = "SpamList"/>
+		</Control>
+		<Include Xml="CommunityTab.xml" Root="ChangeUI_Control" Name="TabControl" X="27" Y="27" Width="232" Height="24"/>
+	</Window>
+ 
+
+ </CommunityUI>

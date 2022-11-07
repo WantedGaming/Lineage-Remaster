@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff">サーチアント：</font><br/><br/></p>
+    <p> お前も話は聞いているだろ？最近、ミュータント アント共が我々の生存を脅かしている。奴らは同じ種族でも食うからジャイアント アント ソルジャーも奴らを見たら逃げる始末だ。奴らが人間を襲うから、砂漠周辺に住む人間たちは、我々が人間を襲うと思って攻撃して来てる。昔は食べ物をくれたりして仲良くしていたのにな…とにかく、はやく奴らをなんとかしないとな。</p>
+  </dialog>
+</npcdialog>

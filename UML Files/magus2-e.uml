@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>マグス</name>
+  </npc>
+  <dialog>
+	<p>ちょっと困りますね…。他をあたって下さい。</p>
+	</dialog>
+</npcdialog>

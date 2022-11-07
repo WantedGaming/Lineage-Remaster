@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>ディオ</name>
+		<job>[鉱石製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> 私は数十年間、宝石収集をしてきた人間だ。そうは見えないかもしれんがね。
+		 これまでに集めた宝石は数えきれないほどだ。ハハハ。<br/>
+		 <br/>
+		 もちろんモーリアのように新たな物質を作り出すことはできないが、必要な<font fg="ffffaf">宝石</font>があれば言ってくれたまえ。
+		 適正価格で交換してやろう。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

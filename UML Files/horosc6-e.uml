@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font></p>
+    <p>今日は得るもののない一日となるでしょう。一日中狩っても手に入るのは10000Adenaが関の山。一生懸命狩ったのに、得られる報酬は割に合わないでしょう。</p>
+	<p>別の狩り場を当たってみた方がよさそうです。<br/><br/></p>
+	<p><a link="keplisha3">助言を聞く</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>アタロゼ</name>
+		<job>歴史家</job>
+		<text>師匠の意志を継いで、ラスタバドの歴史書の著述に努めています。</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 私ができることは、あなたが見つけてきたバラバラのページを1冊の歴史書にすることだけです。<br/>
+		 何度も言いますが、この歴史書はダークエルフにとって、代えがたい大事な遺産であることをお忘れなく。<br/><br/>
+		 完成した歴史書はラスタバドにいるクロレンスさんに渡してください。
+		 あの方ならこの歴史書を後世に伝え、師匠の意志を広めてくれるでしょう。<br/>
+		<br/><br/><br/>
+		<a action="request las history book">ラスタバドの歴史書1章から8章までをすべて渡す</a>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

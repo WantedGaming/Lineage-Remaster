@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>村の北にある空間の歪みを見たことはあるかい？</p>
+		<p>影の神殿の外郭に通じる、あそこだよ。</p>
+		<p>そこはカオス プリーストが守ってるってさ。</p>
+		<p>あそこには近づかないほうがいいぞ。まあ、オーレンの城壁を越えなければいいんだけどな。	</p>
+	</dialog>
+	
+</npcdialog>

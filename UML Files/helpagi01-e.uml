@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>アジトの購入</title>
+  <dialog>  
+	<p><font fg="ffffaf">アジトの効果：</font><br/></p>
+	<p>ギラン、グルーディン、ハイネ、アデンにはアジトがあります。<br/><br/></p>
+	<p>アジトにいれば、HPとMPの回復量が増えます。また、アジト管理人を通じて様々な機能が利用できます。<br/> <br/></p>
+	<p>さらに、モンスターの剥製と様々なインテリア用品で、あなただけのアジトを作ることもできます。一部のアジトでは、<font fg="afffff">地下空間</font>も使えますので、空間がさらに広がります。<br/> <br/></p>
+	<p><img src="331" link="helpagi"/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バズ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		</p><p>ちょっと待ってくださいね。今やってる仕事が終わったらすぐ行きますから。
+		<br/><br/>
+		 <a link="helpnpc">動物を手なずける方法を聞く</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

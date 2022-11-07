@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Control Name = "List_Control" Width = "458" Height = "20" Activate = "0">
+	<Label Name = "Black_Label" String = "4659;1" Align = "center" Width = "455" Height = "18" FontColor = "25,52,57" Background = "true" />
+	<Label Name = "Rank_Label" X = "24" Y = "0" Caption = "1" Align = "center" Width = "30" Height = "18"/>
+	<Image Name = "Diff_Image" X = "56" Y = "7" Png = "3456;1">
+		<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25" String = "4565"/>
+	</Image>
+	<Image Name = "Jump_Image1" X = "17" Y = "-10" Png = "3391;1" Activate = "0">
+		<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25" String = "4563"/>
+	</Image>
+	<Image Name = "Jump_Image2" X = "17" Y = "10" Png = "3392;1" Activate = "0">
+		<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25" String = "4564"/>
+	</Image>
+	<Image Name = "Class_Image" X = "106" Y = "2" Surf = "8437;1"/>
+	<Label Name = "Class_Label" Caption = "Class" X = "127" Y = "0" Align = "left" Width = "70" Height = "18"/>
+	<Label Name = "Name_Label" Caption = "Name" X = "202" Y = "0" Align = "center" Width = "118" Height = "18"/>
+	<List Name = "Effect_List" X = "325" Y = "1" Width = "130" Height = "20" Gap = "2" Horizontal = "1">
+		<Button Name="Effect0_Button" BasePng="3430" PushPng="3430" Tag="0">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+		<Button Name="Effect1_Button" BasePng="3431" PushPng="3431" Tag="1">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+		<Button Name="Effect2_Button" BasePng="3432" PushPng="3432" Tag="2">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+		<Button Name="Effect3_Button" BasePng="3433" PushPng="3433" Tag="3">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+		<Button Name="Effect4_Button" BasePng="3430" PushPng="3430" Tag="4">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+		<Button Name="Effect5_Button" BasePng="3430" PushPng="3430" Tag="5">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+		<Button Name="Effect7_Button" BasePng="3430" PushPng="3430" Tag="6">
+			<Tooltip Name = "Desc_Tooltip" X="15" Y="-24" Opacity = "1" OpacityRate = "25"/>
+		</Button>
+	</List>
+	<Image Name = "Select_Image" X = "0" Y = "0" Png = "3393;4" Activate = "0"/>
+</Control>

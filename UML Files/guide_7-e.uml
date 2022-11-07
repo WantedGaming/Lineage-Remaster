@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベル52以上の狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。
+		<br/><br/>
+		<a link="guide_2_2_1"><font fg="ffffaf">火田村のそばのトウモロコシ畑</font></a><br/>：<a action="teleport guide2_2_1"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_3_3_2"><font fg="ffffaf">ドラゴンバレー入口</font></a><br/>：<a action="teleport guide3_3_2"><var src="1"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_1"><font fg="ffffaf">ウィンダウッド城近くの海岸</font></a><br/>：<a action="teleport guide7_1_1"><var src="2"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_2"><font fg="ffffaf">ウィンダウッドの砂漠のオアシス</font></a><br/>：<a action="teleport guide7_1_2"><var src="3"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_3"><font fg="ffffaf">ウィンダウッドの砂漠の峡谷</font></a><br/>：<a action="teleport guide7_1_3"><var src="4"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_4"><font fg="ffffaf">ウィンダウッドのホワイトアント棲息地</font></a><br/>：<a action="teleport guide7_1_4"><var src="5"/>Adenaでテレポートします。</a><br/><br/><br/>
+		<a link="guide_7_5"><font fg="ffffaf">オーレン雪山</font></a><br/>：<a action="teleport guide7_1_5"><var src="6"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_6"><font fg="ffffaf">オーレンのエルモア戦場</font></a><br/>：<a action="teleport guide7_1_6"><var src="7"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_7"><font fg="ffffaf">象牙の塔の村のドワーフの村</font></a><br/>：<a action="teleport guide7_1_7"><var src="8"/>Adenaでテレポートします。</a><br/><br/><br/>
+		<a link="guide_7_8"><font fg="ffffaf">話せる島の北側</font></a><br/>：<a action="teleport guide7_1_8"><var src="9"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_9"><font fg="ffffaf">話せる島の湿地</font></a><br/>：<a action="teleport guide7_1_9"><var src="10"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_10"><font fg="ffffaf">話せる島のオークエリートの村</font></a><br/>：<a action="teleport guide7_1_10"><var src="11"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_7_11"><font fg="ffffaf">話せる島のダンジョン入口</font></a><br/>：<a action="teleport guide7_1_11"><var src="12"/>Adenaでテレポートします。</a><br/><br/><br/>
+		<a link="guide_7_12"><font fg="ffffaf">船の墓場：水面</font></a><br/>：<a action="teleport guide7_1_12"><var src="13"/>Adenaでテレポートします。</a><br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

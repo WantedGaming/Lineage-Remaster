@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>チャーリー</name>
+		<job>[東側テレポーター]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		凍てつく寒さで死者が多いこの地で、群れをなす者たちがいる。<br/>
+		<br/>
+		群れを率いるリーダーをはじめ、みな捨てられた者たちだ。その恨みから私たちが住むこの地にも「死」を望んでいる。<br/>
+		<br/>
+		次元の扉が開き、ここにやつらが来たとしてもおかしくはないだろう。<br/>
+		<br/>
+		彼の地の悪霊に安息を与えてやってくれ。<br/>
+		<br/>
+		君がこの地の平和を望むならばの話だが…<br/>
+		<br/>
+		ここは<font fg="ffaaff">レベル90～93</font>までの者のみが、出入りできる場所だ。<br/>
+		<br/></p>
+		<panel type="Panel_Field_Abandoned_04_Bt">
+				<button action="a"/>
+        </panel>
+		<p>
+		<br/>
+		入場料は1万Adenaで、帰還スクロールを使用するかキャラクターが死亡した場合、オーレン村に移動する。<br/>
+		</p>
+	</dialog>
+</npcdialog>

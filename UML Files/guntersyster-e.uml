@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_014</portrait>
+		<name>Evans</name>
+		<job>[Templar Equipment Merchant]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/><br/>
+		 Hey, nice to meet you.<br/>
+		 Do you have any <font fg="ffffaf">Knight's Coin?</font><br/><br/>
+		 I will exchange them<br/>
+		 for any equipment you need.<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	</dialog>
+</npcdialog>

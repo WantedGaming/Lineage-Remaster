@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+  </npc>
+  <dialog>
+	<p>いらっしゃ～い、何をお探しかしら？うちの商品は本土から輸入している良質なものばかりよ。</p>
+	<p>もし不用なものがあれば買い取りもしますよ。</p>
+
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	    <panel type="Panel_Shop_Bt_Sell">
+             <button action="sell"/>
+        </panel>
+  </dialog>
+</npcdialog>

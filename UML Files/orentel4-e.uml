@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+<npc>
+	<name>ピーター</name>
+	<job>テレポーター</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>今日はこれ以上無理しなくてもいいだろう。</p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>研究員</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>研究員</name>
+		<job>[Craft]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		<font fg="ffaaff">パーサズの息吹50個</font>、<font fg="ffaaff">アンガスの尾50個</font>、<font fg="ffaaff">アンガスの牙100個</font>、<font fg="ffaaff">ディゴの血100個</font>、<font fg="ffaaff">砂100個</font>を持って来てくれ。あとそれくらいあれば、ここにある材料で作れそうなんだ。
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

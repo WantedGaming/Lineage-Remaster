@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>セイルーン</name>
+    <job>[エリクサー ルーン製作職人]</job>
+  </npc>
+  <dialog>
+	<p>もしかして無理なお願いをしてしまったか？支援物資が不足しているようだ…</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

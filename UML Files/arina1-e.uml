@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 はあ…ストラと会ったのですが、今日会うって約束を忘れて海辺を散歩していたんです。<br/></p>
+		 <p>もうストラのような約束を守らない人とは関わらないようにしないと。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

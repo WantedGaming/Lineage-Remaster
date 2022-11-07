@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ひとまずアントクイーンと古代のエルフたちは互いに何か交流があったとのことだ。たぶん、最近雰囲気が荒立っているすきに何か情報が得られるかもしれない。<br/>
+		砂漠北側にいる試練のジャイアント アントを退治して、昔のエルフたちの記録などがあれば持ってきて欲しい。</p>
+	</dialog>
+	
+</npcdialog>

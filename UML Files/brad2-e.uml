@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブラッド</name>
+		<job>象牙の塔ウィザード</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 氷水晶洞窟をダッシュする時に、この世のすべてを凍らせてしまうほどの極寒の冷気を感じました！
+		<br/>
+		<br/>
+		 怪我をした私の代わりに洞窟を様子を見てきてくれませんか？洞窟の入口は氷で塞がれていますが私がテレポート魔法で洞窟の中に送ってあげましょう。くれぐれも気をつけてください。
+		<br/>
+		<br/>
+		<br/>
+		<a action="a">氷水晶洞窟に送ってください</a><br/>
+		<br/>
+		<br/>
+		<img src="331" link="brad1"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>強化ウィザード</title>
+  <npc>
+	<name>オリム</name>
+    <job>[強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p>象牙の塔から材料を調達するために<font fg="ffffaf">1000Adena</font>が必要だ。まさか…大いなる戦いを前に金欠だというのか？</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

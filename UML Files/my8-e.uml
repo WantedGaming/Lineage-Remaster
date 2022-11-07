@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p> まあっ！！もしや私にプロポーズしているのかしら？あなたはいつでも私を感動させてくれますね。</p>
+	<p> 私もあなたのこと、気になっていたと言ったら、とても軽い女とお思いですか？</p>
+  </dialog>
+</npcdialog>

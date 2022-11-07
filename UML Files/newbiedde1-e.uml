@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>地竜の伝令</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>竜の棲処：地竜は、デスナイトになった者たちがシルバーナイトになるまでの間出入りできる場所だ。</p>
+	<p><br/></p>
+	<p>ボモスの吠えたける声が向こう側から聞こえてくるのは、その恐ろしさをあなたに警告しているのだ。</p>
+	<p><br/></p>
+	<p><a action="1">恐怖に立ち向かいます</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

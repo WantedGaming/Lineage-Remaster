@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Ancient Giant Elder</name>
+  </npc>
+  <dialog>
+    <p>Once, this place was excavated by an Aden historian named "Shaimon" who was studying about us. He tried to spread much knowledge to the world while rebuilding this place in order to spread its historical value.<br/></p>
+    <p>But the demons, fearing that their presence would be known to the world, approached Shaimon and turned him into a demon slave.<br/></p>
+    <p>When "Calcio," a friend of Shaimon, learned of this, he brought his "Golem Guardian" and began fighting the demon tribe.<br/></p>
+    <p>Unfortunately, however, Calcio lost his life and was defeated in a battle with the demon tribe. Then, the "Golem Guardians" that Calcio brought with him became controlled by the "corruption" of the demon tribe.<br/></p>
+    <p>The demon tribe "Yahi" then ordered the "Fallen" to seal off this land, and the connection to the outside world was sealed off.<br/><br/></p>
+    <p><a link="agelder4">Listen More</a><br/></p>
+    <p><img src="331" link="agelder2"/><br/></p>
+  </dialog>
+</npcdialog>

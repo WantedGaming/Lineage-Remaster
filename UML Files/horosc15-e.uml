@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffafff">今日の運勢です。</font></p>
+    <p>今日はハイネには近づかないのが無難でしょう。水から利を得ようとしても残るのは虚しさだけ。骨折り損のくたびれ儲け。得られるものはわずかです。</p>
+	<p>また水の中に入ればエヴァの祝福が足りずに窒息するかもしれません。気をつけてください。<br/><br/></p>
+	<p><a link="keplisha3">助言を聞く</a></p>
+  </dialog>
+</npcdialog>

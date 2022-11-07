@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ドワーフ城ゲートキーパー</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		 この城から行ける地域と料金は以下のとおりです。どこに行かれますか？<br/>
+		<br/><br/>
+		<a action="teleport dwarfc-village">Werldern Village:<var src="0"/>Adena</a><br/>
+		<a action="teleport dwarfc-ivorytower">象牙の塔：バルログ陣営5階：<var src="1"/>Adena</a><br/>
+		<a action="teleport dwarfc-grave">象牙の塔の村共同墓地：<var src="2"/>Adena</a><br/>
+
+		</p>
+
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<LoadingInfo>
+	<Background pngId="16673"/>
+	<Background pngId="16674"/>
+	<GradeMark surfId="5732" x="627" y="5"/>
+	<GradeText surfId="9179" x="151" y="280"/>
+	<GradeTextBack surfId="9180" x="151" y="280"/>
+	<Progress surfId="7229" x="247" y="493"/>
+	<ProgressBack surfId="7230" x="220" y="486"/>
+</LoadingInfo>

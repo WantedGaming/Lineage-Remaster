@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エル</name>
+  </npc>
+  <dialog>
+	<p>
+あなた、なにか変ね。あなたの目を見ていたら、
+何か息苦しくて陰湿な気分になる。<br/>
+もしかしてあなた、グランカインに従う暗闇のエルフ？気持ち悪い…<br/>
+とっとと私の前から消えて！
+</p>
+  </dialog>
+</npcdialog>

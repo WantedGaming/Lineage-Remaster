@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>デフマン</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+    <p> すみませんが、他をあたってもらえませんか？
+		</p>
+  </dialog>
+</npcdialog>

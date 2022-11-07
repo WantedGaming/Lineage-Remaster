@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>影法師 オリム</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>何故ハーディンがナイトであるグンターに、本来ウィザードの修練場であるこの島を紹介したと思う？「話せる島」に最初からヤギの頭をした悪魔がいたと思うか？どうして木の精霊の血が流れる彼が黒魔法を学んだのか？</p>
+<p>考えてみるといい…考える手がかりになる事実はたくさんあるからね。</p>
+</dialog>
+
+</npcdialog>

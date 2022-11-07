@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Keplisha</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>私の助言で今日一日あなたが楽しく無事に過ごせるなら、これ以上嬉しいことはありません。</p>
+		<p>そんな気持ちを込めて、あなたに心ばかりのプレゼントを差し上げましょう。</p>
+		<p>ただし、注意すべき点がございます。モンスターに変身されている場合には祝福できません。</p>
+		<p><a action="2">ケプリシャから祝福を受ける</a></p>
+
+	</dialog>
+
+</npcdialog>

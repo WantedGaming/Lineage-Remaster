@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Shadow of Maya</name>
+  </npc>
+  <dialog>
+    <p>I am Master of Shadow "Maya" the Dark Wizard.<br/><br/><br/></p>
+    <p><a action="1">Teleport to Village</a><br/></p>
+    <p><a action="a">Tower of Insolence 1F (10 crystal balls)</a><br/></p>
+    <p><a action="b">Tower of Insolence 2F (20 crystal balls)</a></p><br/>
+    <p><a action="c">Tower of Insolence 3F (30 crystal balls)</a></p>
+    <p><a action="d">Tower of Insolence 4F (40 crystal balls)</a></p>
+    <p><a action="e">Tower of Insolence 5F (50 crystal balls)</a></p>
+    <p><a action="f">Tower of Insolence 6F (60 crystal balls)</a></p>
+    <p><a action="g">Tower of Insolence 7F (70 crystal balls)</a></p>
+    <p><a action="h">Tower of Insolence 8F (80 crystal balls)</a></p>
+    <p><a action="i">Tower of Insolence 9F (90 crystal balls)</a></p>
+    <p><a action="j">Tower of Insolence 10F (100 crystal balls)</a></p>
+  </dialog>
+</npcdialog>

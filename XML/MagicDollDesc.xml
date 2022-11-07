@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Delay:second Prob:% ShowTime:second-->
+<MagicDollBubbleSystem Delay="10" Prob="10" ShowTime="5">
+
+	<MagicDoll Sprite="12991">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20191"/>
+			<State Name="Safety" Desc="20192"/>
+			<State Name="Combat" Desc="20193"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20194"/>
+			<State Name="False" Desc="20195"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20196"/>
+			<State Name="Move" Desc="20197"/>
+			<State Name="Summon" Desc="20198"/>
+		</Condition>
+	</MagicDoll>
+
+	<MagicDoll Sprite="13183">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20199"/>
+			<State Name="Safety" Desc="20200"/>
+			<State Name="Combat" Desc="20201"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20202"/>
+			<State Name="False" Desc="2023"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20204"/>
+			<State Name="Move" Desc="20205"/>
+			<State Name="Summon" Desc="20206"/>
+		</Condition>
+	</MagicDoll>
+
+	<MagicDoll Sprite="13250">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20207"/>
+			<State Name="Safety" Desc="20208"/>
+			<State Name="Combat" Desc="20209"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20210"/>
+			<State Name="False" Desc="20211"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20212"/>
+			<State Name="Move" Desc="20213"/>
+			<State Name="Summon" Desc="20214"/>
+		</Condition>
+	</MagicDoll>
+
+	<MagicDoll Sprite="13187">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20215"/>
+			<State Name="Safety" Desc="20216"/>
+			<State Name="Combat" Desc="20217"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20218"/>
+			<State Name="False" Desc="20219"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20220"/>
+			<State Name="Move" Desc="20221"/>
+			<State Name="Summon" Desc="20222"/>
+		</Condition>
+	</MagicDoll>
+
+	<MagicDoll Sprite="13254">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20223"/>
+			<State Name="Safety" Desc="20224"/>
+			<State Name="Combat" Desc="20225"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20226"/>
+			<State Name="False" Desc="20227"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20228"/>
+			<State Name="Move" Desc="20229"/>
+			<State Name="Summon" Desc="20230"/>
+		</Condition>
+	</MagicDoll>
+
+	<MagicDoll Sprite="13191">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20231"/>
+			<State Name="Safety" Desc="20232"/>
+			<State Name="Combat" Desc="20233"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20234"/>
+			<State Name="False" Desc="20235"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20236"/>
+			<State Name="Move" Desc="20237"/>
+			<State Name="Summon" Desc="20238"/>
+			<State Name="Attack" Desc="20239"/>
+		</Condition>
+	</MagicDoll>
+
+	<MagicDoll Sprite="13258">
+		<Condition ID="Zone">
+			<State Name="Normal" Desc="20240"/>
+			<State Name="Safety" Desc="20241"/>
+			<State Name="Combat" Desc="20242"/>
+		</Condition>
+		<Condition ID="Hunting">
+			<State Name="True" Desc="20243"/>
+			<State Name="False" Desc="20244"/>
+		</Condition>
+		<Condition ID="Motion">
+			<State Name="OverStop" Desc="20245"/>
+			<State Name="Move" Desc="20246"/>
+			<State Name="Summon" Desc="20247"/>
+			<State Name="Attack" Desc="20248"/>
+		</Condition>
+	</MagicDoll>
+
+</MagicDollBubbleSystem>

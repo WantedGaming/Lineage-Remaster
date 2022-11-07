@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+   <p> フフフ～ン！旅の準備をしたら、ワクワクが止まりません！</p>
+   <p>さあ、オーレン村に出発しましょう！</p>
+   <p><a action="start">一人では危険なので、私が連れて行ってあげます</a></p>
+  </dialog>
+</npcdialog>

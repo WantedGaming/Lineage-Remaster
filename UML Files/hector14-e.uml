@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+
+		 刀で<font fg="ffafff">城門</font>みたいな頑丈なものをぶった切ったときなんか刃が欠けちまうものだ。モンスターの中には武器とか防具なんかを錆つかせてダメにしちまうヤツもいやがるしな。 
+		 <font fg="ffafff">ストーン ゴーレム</font>みたいヤツは刀や槍で相手にするなんて無謀だ。<br/><br/>
+		 武器がダメになっちまうってのもあるが、そもそもアイツにはそんなチンケな武器じゃ、かすり傷一つ負わせらないからな。 
+		 アックスとかモーニングスターといった<font fg="ffafff">鈍器</font>なら、問題ないだろうな。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

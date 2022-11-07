@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラオン</name>
+		<!--job>[잡화상인]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>いらっしゃいませ！アデンにお越しいただき、ありがとうございます。私はアデンの商人ギルドの代表、ラオンと申します。どうぞ、気に入ったものを選んでください。 </p>
+		<p><a action="s_merchant3">Ask about recent prices</a></p>
+		<panel type="Panel_Shop_Bt_Buy">
+    <button action="buy"/>
+    </panel>
+	</dialog>
+
+</npcdialog>

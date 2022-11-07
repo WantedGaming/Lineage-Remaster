@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベントクエスト管理人</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルーカ</name>
+		<job>[ダーク訓練場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>私が差し上げた<br/>
+		<font fg="ffafff">ダーク訓練場成長バフ</font>が終わっていませんね。<br/>
+		<br/>
+		<br/>
+		ダーク訓練場成長バフが終わったら、また私のところに来てください！<br/>
+		</p>
+	</dialog>
+</npcdialog>

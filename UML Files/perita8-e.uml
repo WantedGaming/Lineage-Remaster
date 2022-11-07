@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p>あっ、材料が足りないですね。</p>
+	<p>「浄化のポーション」を作るには、火の息吹、水の息吹、大地の息吹、風の息吹をそれぞれ10個ずつと、闇の息吹20個、ブロッブの胃液を5瓶と高級エメラルド1個が必要なんです。</p>
+	<p><a link="perita5">別の取引をしたいです</a></p>
+  </dialog>
+</npcdialog>

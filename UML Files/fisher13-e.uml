@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィッシャー</name>
+		<job>[侍従長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>お達しのとおり<var src="0"/>を<var src="1"/>名補充いたします。明日の同時刻までには補充がなされることでしょう。</p>
+  </dialog>
+</npcdialog>

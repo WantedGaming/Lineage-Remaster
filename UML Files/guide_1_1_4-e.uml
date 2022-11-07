@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 グルーディン村の東側、5時の方向の出口から外に出て道に沿っていくと、いつのまにか生い茂った森に入ります。そこには<font fg="ffafff">オーク ファイター</font>、<font fg="ffafff">オーク アーチャー</font>、<font fg="ffafff">ウェアウルフ</font>、それに<font fg="ffafff">ライカンスロープ</font>も出るんですよ。<br/>
+		 ものすごく危ないやつもいないし、村も近いし、移動も楽だし、イチオシですよ。ただし、深入りしすぎるとアンデッドのいる廃墟まで行っちゃうから、くれぐれも気をつけてくださいよ。では、健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

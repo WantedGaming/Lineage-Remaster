@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 グルル…お前の誠意はそれっぽっちということか。<br/>
+		<br/>
+		<a action="a">ソウルクリスタルの欠片をもう1個捧げる</a>
+		</p>
+	</dialog>
+</npcdialog>

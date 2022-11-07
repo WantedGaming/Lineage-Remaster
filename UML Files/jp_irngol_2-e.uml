@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ゾウ様の魔法の粉と一緒にゴーレムの契約と交換する武器を選んでくれ。</p>
+		<p><a action="A">+6象牙の塔のダガー</a></p>
+		<p><a action="B">+6象牙の塔のソード</a></p>
+		<p><a action="C">+6象牙の塔のツーハンド ソード</a></p>
+		<p><a action="D">+6象牙の塔のアックス</a></p>
+		<p><a action="E">+6象牙の塔のスタッフ</a></p>
+		<p><a action="F">+6象牙の塔のスピアー</a></p>
+		<p><a action="G">+6象牙の塔のデュアルブレード</a></p>
+		<p><a action="H">+6象牙の塔のクロウ</a></p>
+		<p><a action="I">+6象牙の塔のクロスボウ</a></p>
+		<p><a action="J">+6象牙の塔のボウ</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<!--name></name-->
+		<job>[防具専門家]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>もしよろしければ、あなたが持っている防具に魔法をかけて、もっと強力なものにしてあげます。</p>
+		<p>ただし、その魔法効果は短く、装備している防具にしか魔法をかけることはできません。</p>
+		<p><a action="enca">防具の強化魔法を受ける</a></p>
+	</dialog>
+</npcdialog>

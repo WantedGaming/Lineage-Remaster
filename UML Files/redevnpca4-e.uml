@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>徴兵官</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>私も記憶がぼんやりします。</p>
+		<p><font fg="ffaaff">"ク"</font>ジャクなのか？</p>
+		<p>アル<font fg="ffaaff">"フォン"</font>スなのか？</p>
+		<p>アス<font fg="ffaaff">"ハム"</font>なのか？</p>
+	</dialog>
+</npcdialog>

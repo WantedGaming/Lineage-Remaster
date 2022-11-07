@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<StoryBookUI Toggle="true">
+
+	<Window Name="StoryBook_Window" X="0" Y="0" BaseSurf="4361;1" Moveable="20" Transparent="false" KeyboardEvent="KeyboardEvent" MouseEvent="Dummy">
+
+  	<Button Name="Exit_Button" X="330" Y="13" BaseSurf="4366" PushSurf="4367" MouseEvent="ExitButtonPressed"/>
+  	
+  	<Button Name="Bookmark1_Button" X="350" Y="39" BaseSurf="4362;1" PushSurf="4363;1" MouseEvent="BookmarkButtonPressed"/>
+<!--	<Button Name="Bookmark2_Button" X="354" Y="62" BaseSurf="4364;1" PushSurf="4365;1" MouseEvent="BookmarkButtonPressed"/> -->
+  	
+  	<Button Name="FirstPage_Button" X="21" Y="247" BaseSurf="4376" PushSurf="4377" MouseEvent="NavigatorButtonPressed"/>
+  	<Button Name="Previous5Page_Button" X="41" Y="247" BaseSurf="4372" PushSurf="4373" MouseEvent="NavigatorButtonPressed"/>
+  	<Button Name="PreviousPage_Button" X="65" Y="247" BaseSurf="4368" PushSurf="4369" MouseEvent="NavigatorButtonPressed"/>
+  	<Button Name="NextPage_Button" X="286" Y="247" BaseSurf="4370" PushSurf="4371" MouseEvent="NavigatorButtonPressed"/>
+  	<Button Name="Next5Page_Button" X="305" Y="247" BaseSurf="4374" PushSurf="4375" MouseEvent="NavigatorButtonPressed"/>
+  	<Button Name="EndPage_Button" X="329" Y="247" BaseSurf="4378" PushSurf="4379" MouseEvent="NavigatorButtonPressed"/>
+  	
+  	<Label Name="Left_Page" X="90" Y="247" Width="247" Height="14" FontColor="c1"/>
+  	<Label Name="Right_Page" X="256" Y="247" Width="247" Height="14" FontColor="c1"/>
+  	
+		<Image Name="LeftQuestionMark_Image" X="33" Y="29" Surf="4415"/>
+ 	  <Image Name="RightQuestionMark_Image" X="204" Y="29" Surf="4415"/>
+
+  	<Window Name="Left_Window" X="0" Y="0" Width="185" Height="280">
+  		<HyperText Name="HyperText" X="35" Y="124" Width="140" Height="120">
+     		<ScrollBar Name="ScrollBar" X="-10" Y="0" Width="14" Height="112" ScrollStart="0" ScrollHeight="124" Vertical="1">
+     			<Image Name="Background_Image" X="4" Y="0" Surf="4243;2;15"/>
+     			<Button Name="Up_Button" X="1" Y="-8" BaseSurf="4244;2;15" PushSurf="4244" MouseEvent="Dummy"/>
+     			<Button Name="Down_Button" X="1" Y="112" BaseSurf="4245;2;15" PushSurf="4245" MouseEvent="Dummy"/>
+     			<Button Name="Move_Button" X="0" Y="12" BaseSurf="4246;2;15" PushSurf="4247;1" MouseEvent="Dummy"/>
+     		</ScrollBar>
+    		<HyperText Name="SubHyperText" X="-15" Y="-100" Width="145" Height="100"/>
+  		</HyperText>
+  	</Window>
+
+  	<Window Name="Right_Window" X="183" Y="0" Width="185" Height="280">
+  		<HyperText Name="HyperText" X="10" Y="124" Width="140" Height="120">
+     		<ScrollBar Name="ScrollBar" X="140" Y="0" Width="14" Height="112" ScrollStart="0" ScrollHeight="124" Vertical="1">
+     			<Image Name="Background_Image" X="4" Y="0" Surf="4243;2;15"/>
+     			<Button Name="Up_Button" X="1" Y="-8" BaseSurf="4244;2;15" PushSurf="4244" MouseEvent="Dummy"/>
+     			<Button Name="Down_Button" X="1" Y="112" BaseSurf="4245;2;15" PushSurf="4245" MouseEvent="Dummy"/>
+     			<Button Name="Move_Button" X="0" Y="12" BaseSurf="4246;2;15" PushSurf="4247;1" MouseEvent="Dummy"/>
+     		</ScrollBar>
+    		<HyperText Name="SubHyperText" X="-5" Y="-100" Width="145" Height="100"/>
+  		</HyperText>
+  	</Window>
+
+	</Window>
+
+</StoryBookUI>

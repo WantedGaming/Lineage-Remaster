@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲール</name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>なにか<a link="gayle3">問題</a>のある武器だとか防具を直すとか…剣なんかはあちこち手を入れるともっと切れ味良くなったりしますんで。</p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

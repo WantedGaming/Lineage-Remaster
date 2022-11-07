@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p>信じられないかもしれないが、私は直感で選ぶべきものがどれか分かるのだ。<br/>
+		<br/>
+    いつも私の後ろで支えてくれるシュエルメというエルフがいるんだ。彼女の気持ちは分かるが、私は誰かを愛せる身分ではない。<br/>
+    だが、彼女の真心を分かってあげられないのは、本当の男ではないな。<br/>
+		<br/>
+		<font fg="fff00">100Adena</font>ほどあれば、彼女に花を一輪プレゼントできるのだが…<br/></p>
+    <p><a action="1">あなたのアドバイスが欲しいです</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/><br/>
+		良質の材料が良い品質のアイテムを作るんだ。<br/>
+		<br/>
+		<a link="ivelviin8">必要な材料を見る</a><br/><br/><br/>
+		
+		<a action="request black mithril">ブラックミスリル</a><br/><br/>
+		<a action="request lump of steel">ランプ スチール</a><br/><br/>
+		<a action="request silver bar">シルバー</a><br/><br/>
+		<a action="request gold bar">ゴールド</a><br/><br/>
+		<a action="request platinum bar">プラチナ</a><br/><br/>
+		
+		<a action="request slim plate">薄い金属板</a><br/><br/>
+		<a action="request silver plate">シルバー プレート</a><br/><br/>
+		<a action="request gold plate">ゴールド プレート</a><br/><br/>
+		<a action="request platinum plate">プラチナ プレート</a><br/><br/>
+		<a action="request black mithril plate">ブラックミスリル プレート</a><br/><br/>
+		
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>ネルファ</name>
+		<job>[エルフ製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>うっとおしいエルフどもが、また来やがったか。<br/><br/>
+		<font fg="ffafff">世界樹</font>の奴に借りさえなけりゃ、おまえなんかすぐにとっ捕まえて、食っちまうんだけどねぇ…<br/>
+		<br/>何のようで来たんだい？<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

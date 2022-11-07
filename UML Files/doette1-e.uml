@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+<br/>まぶしい<a link="doettE2">ミスリル</a>の光が森と湖に  
+永遠に輝きますことを…<br/><br/>
+<a link="doettE4">ショートソードの刀身のメッキ</a>
+<br/>
+<a link="doettE5">ロングソードの刀身のメッキ</a>
+<br/>
+<a link="doettE6">オリハルコンソードの刀身のメッキ</a>
+<br/>
+<a link="doettE7">ミスリル ホーンのメッキ</a> 
+<br/>
+<a link="doettE8">オリハルコン ホーンのメッキ</a>
+<br/>
+<br/>
+あなたは<a link="doettE3">ブロッブ</a>を利用した  
+メッキについて知っているだろうか？私の古い先祖であり、偉大な研究者、  
+好奇心の塊のプアデロンがブロッブを利用した  
+メッキを発見してからは、エルフ族は木を切らずとも  
+すばらしい武装と文明の利器を手に入れることが出来た。  
+まだ知らないのなら、彼の子孫であり猛烈な  
+ファンである私がお教えしましょう。
+</p>
+  </dialog>
+</npcdialog>

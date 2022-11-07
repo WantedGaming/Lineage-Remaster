@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>タラス</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>冒険者よ、何を求めてここに来たのだ？</p>
+		<p>ここまで来たということは、お前も魔法に魅せられた者のようじゃな？あるいはより剣の道を極めるために魔法までも解そうと企んでいる者か。</p>
+		<p>私は象牙の塔の最長老タラスという。</p>
+		<p><br/></p>
+		<p>象牙の塔はそれほど大した場所でないと言われるが、魔法の中心地と呼ばれるだけあって興味深いものがたくさんあるだろう。</p>
+		<p>ゆっくり見ていくといい。</p>
+		<p><br/></p>
+		<p><br/></p>
+		<p><a action="quest 13 talassT2">アンデッドの骨</a></p>
+		<p><a action="request crystal staff">アンデッドのボーンピースを渡す</a><br/></p>
+
+	</dialog>
+
+</npcdialog>

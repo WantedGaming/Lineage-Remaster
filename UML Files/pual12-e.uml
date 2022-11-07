@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>鍛冶屋ピュアル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p> 私が製作したアイテムがあなたの助けになればいいですね。</p>
+		<p><a link="pual13">必要な材料を見る</a></p>
+		<p><a action="request black mithril">ブラックミスリル</a></p>
+		<p><a action="request lump of steel">ランプ スチール</a></p>
+		<p><a action="request silver bar">シルバー</a></p>
+		<p><a action="request gold bar">ゴールド</a></p>
+		<p><a action="request platinum bar">プラチナ</a></p>
+		<p><a action="request slim plate">薄い金属板</a></p>
+		<p><a action="request silver plate">シルバー プレート</a></p>
+		<p><a action="request gold plate">ゴールド プレート</a></p>
+		<p><a action="request platinum plate">プラチナ プレート</a></p>
+		<p><a action="request black mithril plate">ブラックミスリル プレート</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">警備隊長カーン：</font>
+<br/><br/>
+きさまがすべきことは簡単明瞭だ。<br/><br/>
+やつらのリーダーであるオーク エルダーを始末しろ。<br/><br/>
+そしてその死を証明する物を持ってこい。<br/><br/>
+そうすれば、きさまを少しはマシな存在であると認めてやる。<br/><br/>
+<a action="request kanbag">オークエルダーの頭部を渡す</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>トリー</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		パタラシ村を助けてくれる勇士様ですね！<br/><br/>
+		村に行ったら、<font fg="ffaaff">怪しげな箱</font>に気をつけてください。その中に<font fg="ffaaff">とてつもないモンスター</font>が隠れているそうですから！<br/>
+		それでは、幸運を祈ります！<br/>
+		<br/>
+		<br/>
+		<br/>
+		<font fg="25a6d6"><a action="non_npc a">* パタラシ村に移動する</a></font><br/>
+		<br/>
+		<br/>
+		<font fg="25a6d6"><a action="non_npc b">* パタラシ村(PC)に移動する</a></font><br/>
+		<br/>
+		<br/>
+		<br/>
+		お送りする対価として<font fg="ffffaf">4900</font>Adenaいただきます。<br/>
+		そうだ、<font fg="ffaaff">怪しげな箱</font>を開けるためには<font fg="ffaaff">冷たい雪の結晶</font>が必要なのを忘れないでください。<br/>
+		 <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

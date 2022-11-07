@@ -1,0 +1,20 @@
+750.<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<dialog>
+		<p><font fg="fffaff"><br/><br/>
+		アデンに異変が起きて、突然島が現れたんだ。<br/>
+		<br/>
+		早速だが見に行ってきてくれないか？</font><br/>
+		<br/>
+
+		<br/>
+		<br/>
+		</p>
+		<p><font fg="ffffaf">[不気味な島に行く]</font></p>
+		<p><font fg="afffff"> 
+		- 入場条件：レベル75以上<br/>
+		- 入場料：2,022Adena</font><br/>
+		</p>
+		<p><font fg="ffffaf"><a action="a">神秘の孤島：2,022Adena</a></font></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>レベル4</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ウィザードの魔法：レベル4</font><br/></p>
+	<p><font fg="ffffaf">ファイアー ボール：</font><br/>
+	種類：攻撃/火<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から周囲6セル内の範囲<br/>
+	効果：炎の玉を飛ばし、対象を中心として周囲2セル以内の敵にダメージを与えます。<br/></p>
+	
+	<p><font fg="ffffaf">フィジカル エンチャント：DEX：</font><br/>
+	種類：付与/風<br/>
+	性向：Lawful<br/>
+	消耗MP/HP：50/0<br/>
+	持続時間：1200秒<br/>
+	対象：術者や術者から10セル内の血盟員1人<br/>
+	効果：対象のDEXを5向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">ウェポン ブレイク：</font><br/>
+	種類：変化/火<br/>
+	性向：Chaotic<br/>
+	消耗MP/HP：32/0<br/>
+	材料：魔力の石1個<br/>
+	持続時間：一瞬<br/>
+	対象：隣にいるPCまたはNPCの1人<br/>
+	効果：対象が装備している武器を一定確率で損傷させます。<br/></p>
+	
+	<p><font fg="ffffaf">バンパイアリック タッチ：</font><br/>
+	種類：死/水<br/>
+	性向：Chaotic<br/>
+	消耗MP/HP：12/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から周囲3セル内のPCまたはNPCの1人<br/>
+	効果：対象のHPを相当量を奪い、自分のものにします。<br/></p>
+	
+	<p><font fg="ffffaf">スロー：</font><br/>
+	種類：操作/風<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	材料：魔力の石1個<br/>
+	持続時間：64秒<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：対象の行動速度を低下させます。<br/></p>
+	
+	<p><font fg="ffffaf">アース ジェイル：</font><br/>
+	種類：攻撃/地<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：24/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から周囲8セル内の範囲<br/>
+	効果：対象を中心として周囲2セル内にいる敵の地面からトゲのつるが生え、対象にダメージを与えます。<br/></p>
+	
+	<p><font fg="ffffaf">カウンター マジック：</font><br/>
+	種類：変化<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	材料：魔力の石1個<br/>
+	待機時間：16秒<br/>
+	対象：術者<br/>
+	効果：一度に限り誰かが自分に使用した魔法を無効化します。<br/></p>
+	
+	<p><font fg="ffffaf">メディテーション：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：5/30<br/>
+	持続時間：640秒<br/>
+	対象：術者<br/>
+	効果：いつもより早くMPが回復していきます。マナ回復ポーションと一緒に使用すると相乗効果があります。移動/戦闘などの行動をすると、効果が解除されます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

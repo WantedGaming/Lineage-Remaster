@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<!--
+ tag description
+ polymorph - open  : be related to Level_List Button of polymorphUI. 
+ if <open='0'> : The Button is disable.
+	<open='1'> : The Button is enable.
+ ref. If You don`t write the open tag, It`ll be <open='0'>.
+-->
+
+<polymorphlist>
+	<polymorph level="0" open="1" eventOpen="1">
+    <monster id="1" level="1" eventLevel="1" action="lv1 orc" desc="14973" surf="5790" type="gray"/>
+    <monster id="2" level="1" eventLevel="1" action="lv1 skeleton" desc="14974" surf="5791" type="gray"/>
+    <monster id="3" level="1" eventLevel="1" action="lv1 dudamara orc" desc="14975" surf="5792" type="gray"/>
+    
+    <monster id="4" level="1" eventLevel="1" action="lv1 orc archer" desc="14976" surf="5793" type="gray"/>
+    <monster id="5" level="1" eventLevel="1" action="lv1 elder" desc="14977" surf="5794" type="gray"/>
+    <monster id="6" level="1" eventLevel="1" action="lv1 dwarf" desc="14978" surf="5795" type="gray"/>
+    
+    <monster id="7" level="1" eventLevel="1" action="lv1 middle oum" desc="14979" surf="5796" type="gray"/>
+    <monster id="8" level="1" eventLevel="1" action="lv1 giant ant" desc="14980" surf="5797" type="gray"/>
+    <monster id="9" level="1" eventLevel="1" action="lv1 kiwi parrot" desc="14981" surf="5798" type="gray"/>
+    
+    <monster id="10" level="1" eventLevel="1" action="lv1 raccoon" desc="14982" surf="5799" type="gray"/>
+    <monster id="11" level="1" eventLevel="1" action="lv1 gelatincube" desc="14983" surf="5800" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="15" open="0" eventOpen="1">
+    <monster id="12" level="15" eventLevel="5" action="lv15 orc fighter" desc="14984" surf="5801" type="gray"/>
+    <monster id="13" level="15" eventLevel="5" action="lv15 werewolf" desc="14985" surf="5802" type="gray"/>
+    <monster id="14" level="15" eventLevel="5" action="lv15 bugbear" desc="14986" surf="5803" type="gray"/>
+  
+    <monster id="15" level="15" eventLevel="5" action="lv15 orc scout" desc="14987" surf="5804" type="gray"/>
+    <monster id="16" level="15" eventLevel="5" action="lv15 ungoliant" desc="14988" surf="5805" type="gray"/>
+    <monster id="17" level="15" eventLevel="5" action="lv15 darkelf carrier" desc="14989" surf="5806" type="gray"/>
+  
+    <monster id="18" level="15" eventLevel="5" action="lv15 giant ant soldier" desc="14990" surf="5807" type="gray"/>
+    <monster id="19" level="15" eventLevel="5" action="lv15 paperman" desc="14991" surf="5808" type="gray"/>
+    <monster id="20" level="15" eventLevel="5" action="lv15 snowman" desc="14992" surf="5809" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="30" open="0" eventOpen="1">
+    <monster id="21" level="30" eventLevel="10" action="lv30 lycanthrope" desc="14993" surf="5810" type="gray"/>
+    <monster id="22" level="30" eventLevel="10" action="lv30 succubus" desc="14994" surf="5811" type="gray"/>
+    <monster id="23" level="30" eventLevel="10" action="lv30 king bugbear" desc="14995" surf="5812" type="gray"/>
+  
+    <monster id="24" level="30" eventLevel="10" action="lv30 darkelf spear" desc="14996" surf="5813" type="gray"/>
+    <monster id="25" level="30" eventLevel="10" action="lv30 bandit bow" desc="14997" surf="5814" type="gray"/>
+    <monster id="26" level="30" eventLevel="10" action="lv30 darkelf thief" desc="14998" surf="5815" type="gray"/>
+  
+    <monster id="27" level="30" eventLevel="10" action="lv30 darkelf wizard" desc="14999" surf="5816" type="gray"/>
+    <monster id="28" level="30" eventLevel="10" action="lv30 cockatrice" desc="15000" surf="5817" type="gray"/>
+    <monster id="29" level="30" eventLevel="10" action="lv30 mambo rabbit" desc="15001" surf="5818" type="gray"/>
+  
+    <monster id="30" level="30" eventLevel="10" action="lv30 mambo rabbit v" desc="15002" surf="5819" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="45" open="0" eventOpen="1">
+    <monster id="31" level="45" eventLevel="15" action="lv45 dreik" desc="15003" surf="5820" type="gray"/>
+    <monster id="32" level="45" eventLevel="15" action="lv45 blaze" desc="15004" surf="5821" type="gray"/>
+    <monster id="33" level="45" eventLevel="15" action="lv45 cargo" desc="15005" surf="5822" type="gray"/>
+  
+    <monster id="34" level="45" eventLevel="15" action="lv45 darkelf guard" desc="15006" surf="5823" type="gray"/>
+    <monster id="35" level="45" eventLevel="15" action="lv45 darkelf ranger" desc="15007" surf="5824" type="gray"/>
+    <monster id="36" level="45" eventLevel="15" action="lv45 baphomet" desc="15008" surf="5825" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="50" open="0" eventOpen="1">
+    <monster id="37" level="50" eventLevel="20" action="lv50 black knight chief" desc="15009" surf="5826" type="gray"/>
+    <monster id="38" level="50" eventLevel="20" action="lv50 assassin master" desc="15010" surf="5827" type="gray"/>
+    <monster id="39" level="50" eventLevel="20" action="lv50 lesser demon" desc="15011" surf="5828" type="gray"/>
+  
+    <monster id="40" level="50" eventLevel="20" action="lv50 black knight" desc="15012" surf="5829" type="gray"/>
+    <monster id="41" level="50" eventLevel="20" action="lv50 fire bowman" desc="15013" surf="5830" type="gray"/>
+    <monster id="42" level="50" eventLevel="20" action="lv50 black wizard" desc="15014" surf="5831" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="52" open="0" eventOpen="1">
+    <monster id="43" level="52" eventLevel="25" action="lv52 death knight" desc="15015" surf="5832" type="gray"/>
+    <monster id="44" level="52" eventLevel="25" action="lv52 lance master" desc="15016" surf="7249" type="gray"/>
+    <monster id="45" level="52" eventLevel="25" action="lv52 darkelf" desc="15018" surf="5835" type="gray"/>
+  
+    <monster id="46" level="52" eventLevel="25" action="lv52 dark elder" desc="15017" surf="5834" type="gray"/>
+    <monster id="47" level="52" eventLevel="25" action="lv52 beleth" desc="15019" surf="5836" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="55" open="0" eventOpen="1">
+    <monster id="48" level="55" eventLevel="30" action="lv55 dark knight" desc="15020" surf="5837" type="gray"/>
+    <monster id="49" level="55" eventLevel="30" action="lv55 dark shadow" desc="15021" surf="5838" type="gray"/>
+    <monster id="50" level="55" eventLevel="30" action="lv55 dark ranger" desc="15022" surf="5839" type="gray"/>
+  
+    <monster id="51" level="55" eventLevel="30" action="lv55 dark magister" desc="15023" surf="5840" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="60" open="0" eventOpen="1">
+    <monster id="52" level="60" eventLevel="35" action="lv60 silver knight" desc="15024" surf="5841" type="gray"/>
+    <monster id="53" level="60" eventLevel="35" action="lv60 silver shadow" desc="15025" surf="5842" type="gray"/>
+    <monster id="54" level="60" eventLevel="35" action="lv60 silver ranger" desc="15026" surf="5843" type="gray"/>
+  
+    <monster id="55" level="60" eventLevel="35" action="lv60 silver magister" desc="15027" surf="5844" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="65" open="0" eventOpen="1">
+    <monster id="56" level="65" eventLevel="40" action="lv65 sword master" desc="15028" surf="5845" type="gray"/>
+    <monster id="57" level="65" eventLevel="40" action="lv65 shadow master" desc="15029" surf="5846" type="gray"/>
+    <monster id="58" level="65" eventLevel="40" action="lv65 bounty hunter" desc="15053" surf="5849" type="gray"/>
+  
+    <monster id="59" level="65" eventLevel="40" action="lv65 lance master" desc="15059" surf="7250" type="gray"/>
+    <monster id="60" level="65" eventLevel="40" action="lv65 arrow master" desc="15030" surf="5847" type="gray"/>
+    <monster id="61" level="65" eventLevel="40" action="lv65 wizardry master" desc="15031" surf="5848" type="gray"/>
+    
+	</polymorph>
+	
+	<polymorph level="70" open="0" eventOpen="1">
+    <monster id="62" level="70" eventLevel="45" action="lv70 arch knight" desc="15032" surf="5850" type="gray"/>
+    <monster id="63" level="70" eventLevel="45" action="lv70 arch assassin" desc="15033" surf="5851" type="gray"/>
+    <monster id="64" level="70" eventLevel="45" action="lv70 night watch" desc="15054" surf="5854" type="gray"/>
+    
+    <monster id="65" level="70" eventLevel="45" action="lv70 arch scouter" desc="15034" surf="5852" type="gray"/>
+    <monster id="66" level="70" eventLevel="45" action="lv70 arch magister" desc="15035" surf="5853" type="gray"/>
+    <monster id="71" level="70" eventLevel="45" action="lv70 jin death knight" desc="18691" surf="8590" type="gray"/>
+	</polymorph>
+	
+	<polymorph level="75" open="0" eventOpen="1">
+    <monster id="67" level="75" eventLevel="50" action="lv75 young kenlauel" desc="15036" surf="5856" type="gray"/>
+    <monster id="68" level="75" eventLevel="50" action="lv75 young dantes" desc="15037" surf="5857" type="gray"/>
+    <monster id="69" level="75" eventLevel="50" action="lv75 young helvine" desc="15038" surf="5858" type="gray"/>
+  
+    <monster id="70" level="75" eventLevel="50" action="lv75 young kelenis" desc="15039" surf="5859" type="gray"/>
+
+	</polymorph>
+	
+	<polymorph level="80" open="0" eventOpen="1">
+    <monster id="72" level="80" eventLevel="55" action="lv80 young gunter" desc="15040" surf="5860" type="gray"/>
+    <monster id="73" level="80" eventLevel="55" action="lv80 young bluedica" desc="15041" surf="5861" type="gray"/>
+    <monster id="74" level="80" eventLevel="55" action="lv80 young gilian" desc="15042" surf="5862" type="gray"/>
+  
+    <monster id="75" level="80" eventLevel="55" action="lv80 young joewoo" desc="15043" surf="5863" type="gray"/>
+    <monster id="76" level="80" eventLevel="55" action="lv80 jin death knight" desc="18691" surf="8591" type="gray"/>
+	</polymorph>
+</polymorphlist>
+
+

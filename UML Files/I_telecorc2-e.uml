@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text>オーク要塞の専属ゲートキーパー</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 どちらへ行くかね？<br/>
+		<br/><br/>
+		<a action="teleport i orc-tower">オーク城ガーディアンタワー</a><br/>
+		<a action="teleport i orc-gate1">オーク城中門内側</a><br/>
+		<a action="teleport i orc-gate2">オーク城外城門内側</a><br/>
+		<a action="teleport i orc-village">オーク城下町</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

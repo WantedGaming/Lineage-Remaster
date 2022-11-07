@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		いらっしゃい。<br/>
+		<br/>
+		 あ、うちの常連さんですね！<br/>
+		<br/>
+		 お手持ちの<font fg="ffffaf">TAMショップ クーポン</font>を10枚くだされば、長時間もつ強化魔法をかけて差し上げますよ。<br/> 
+		<br/> 
+		 <a action="B">強化魔法を受ける</a><br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

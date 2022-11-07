@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>噂によれば、ゼムが魔法書に魔力を吹き込む方法を完成したんだってな。</p>
+		<p></p><p>わしの場合は、この世の中の全てのものに魔力を吹き込むことを研究しているんだ。</p>
+		<p></p><p>まだ、完成はしていないが…完成したときには、また寄ってくれ…。</p>
+		<p>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>レイスン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 尊敬するモーリアさんの<font fg="ffafff">モーリアの勲章</font>を持ってきましたか？持っているなら、私の<font fg="ffafff">ピュア エリクサー</font>と交換してください！<br/>
+		 <br/><a action="a">モーリアの勲章7個<br/>持ってきました</a><br/><br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>デポロジュー</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>赤き騎士団の一員となったことを歓迎するぞ！</p>
+		<p>我々の目標は<font fg="ffafff">ギラン城</font>で、</p>
+		<p><font fg="ffafff">白鳥の騎士イシルロテ</font>が赤き騎士団の先鋒として立つことになっている。</p>
+		<p>勝利を手にするまでどうか力を尽くしてくれ！</p>
+		<p><a action="1">戦場に移動する</a></p>
+	</dialog>
+</npcdialog>

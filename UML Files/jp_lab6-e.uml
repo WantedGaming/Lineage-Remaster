@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>今お渡しした袋からは魔族の実験場の容器が手に入ります。</p>
+		<p>魔族の実験場の容器は特別な方法で作られているので、再生成には時間がかかります。</p>
+		<p>実験体の標本は魔族の実験場の容器と一緒に持ってきてください。そうしないと意味がありませんので。</p>
+	</dialog>
+
+</npcdialog>

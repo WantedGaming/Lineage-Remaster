@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>ベリタ</name>
+    <job>[雑貨商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p>メイアーさんの気持ちを知ってから、結婚まで…私はなんて幸せなのでしょう。<br/>
+		<br/>気に入ったものがあったら言ってください。</p>
+		<p><br/></p>
+    <p><a action="mayer3">Ask about recent prices</a></p>
+	</dialog>
+</npcdialog>

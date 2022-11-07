@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハーディン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		やっと来たか。オリム、出発前に挨拶する時間をやろう。[Alt+2]を押して挨拶するんだ。<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

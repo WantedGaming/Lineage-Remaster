@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>warehouse</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>ペット管理人</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ケビン</name>
+		<job>[ペット管理人]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+	<p>は？</p>
+	<p>預ける動物もいないのに何を預けるって言うの？</p>
+	<br></br>
+	<p><a link="helpnpc">動物を手なずける方法を聞く</a></p>
+	
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ ダルフ ガーディン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 俺に何の用だ？<br/>
+		<br/>
+		<br/>
+		<a link="guardin2">採掘道具の製作を依頼する</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

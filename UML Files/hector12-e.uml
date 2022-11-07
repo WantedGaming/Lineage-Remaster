@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		ほ…本当か？<br/>
+		<br/>よ…よし、いいだろう。それなら材料を教えてやろう。 
+		<br/>極寒のヘルムを作るには、ナイト バイザー1個、極寒のティアラの原石1個、結晶体50,000個が必要だ。
+		<br/>極寒のメイルを作るには、プレート メイル1個、極寒のドレスの布地1個、結晶体50,000個が必要だ。
+		<br/>極寒のブーツを作るには、ブーツ1個、極寒のサンダルの原石1個、結晶体50,000個が必要だ。
+		<br/>俺を信じてくれるんなら、特に手間賃はもらわないよ。 
+		<br/><br/></p>
+		<p><a action="request arctic of helm">極寒のヘルムを作る</a></p><br/>
+		<p><a action="request arctic of armor">極寒のメイルを作る</a></p><br/>
+		<p><a action="request arctic of boots">極寒のブーツを作る</a></p>
+
+	</dialog>
+</npcdialog>

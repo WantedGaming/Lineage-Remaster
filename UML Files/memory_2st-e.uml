@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>2番目の記憶の欠片</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>		
+		  我々は火竜の棲処を離れて移り住むところを探し始めた。<br/>
+		  <br/>
+		  あちこち調べてみたが、どこも今ひとつだ。<br/>
+		<br/>
+		<br/>
+		</p>	
+	</dialog>
+</npcdialog>

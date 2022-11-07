@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Separating elemental stones requires black bloodstains and a certain cost. Please come back after you have prepared what you need.</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ガウェイン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>使ってみて使い勝手がよかったら、アデンにいるドラゴンナイトのお仲間たちに、この新しい武器のことを広めていただけたら嬉しいです。<br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

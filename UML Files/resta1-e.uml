@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レスタ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>何だ？海賊の格好を初めてみたのかい？はーん、さてはあんたも宝物を探しに本土からきなすったのかい。宝物ってやつぁどこにあるのかわからねぇけど、ま、頑張ってみるこったな。ハッハッ！</p>
+		<p><a link="resta3">宝物について</a>	</p>
+	</dialog>
+	
+</npcdialog>

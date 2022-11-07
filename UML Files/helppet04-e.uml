@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ペット</title>
+  <dialog>
+	<p><font fg="ffffaf">ペットの能力確認：</font><br/>
+	ペットメニューでペットの能力値ボタンをクリックすると、ペットの詳しい能力値が表示されます。<br/>
+	この画面でペットのレベル、獲得経験値、ステータスなどが表示され、ペットのステータスを上げたり野性を学ぶことができます。<br/></p>
+	<p><font fg="ffafff">属性</font><br/>
+	ペットの属性を意味します。<br/>
+	属性は水、火、風、大地、光の5種類があり、属性によってペットの属性攻撃が異なります。<br/></p>
+	<p><font fg="ffafff">名前</font><br/>
+	名前の横のボタンをクリックするとペットの名前を変更することができます。<br/>
+	名前変更はペットのアミュレットを初めて獲得したときに1回無料ででき、その後は<font fg="afffff">ペットネーム変更スクロール</font>が1枚必要です。<br/></p>
+	<p><font fg="ffafff">友情ポイント</font><br/>
+	闘志ゲージが<font fg="afffff">100%</font>になると得られる数値です。<br/>
+	友情ポイントは<font fg="afffff">野性</font>を学んだり経験値報賞を得る訓練をするときに必要です。<br/></p>
+	<p><font fg="ffafff">ペットのレベルと経験値</font><br/>
+	ペットのレベルと経験値が確認できます。<br/></p>
+	<p><font fg="ffafff">ペットの現在のHP/最大HP</font><br/>
+	ペットの現在のHPと最大HPが確認できます。<br/></p>
+	<p><font fg="ffafff">ステータス</font><br/>
+	ステータスの数値によってペットの最終能力値が決まります。<br/></p>
+	<p><font fg="ffafff">ペットのエリクサー摂取量</font><br/>
+	ペットが使用した<font fg="afffff">ペット エリクサー</font>の量を表します。レベルが上がると最大摂取量も増えます。<br/></p>
+	<p><font fg="ffafff">攻撃速度</font><br/>
+	ペットの攻撃速度で、特定の野性を学ぶと上がります。<br/></p>
+	<p><font fg="ffafff">移動速度</font><br/>
+	ペットの移動速度で、特定の野性を学ぶと上がります。<br/></p>
+	<p><font fg="ffafff">AC</font><br/>
+	ペットのACで、ペットのレベルが上がるか特定の野性を学ぶと下がります。<br/></p>
+	<p><font fg="ffafff">MR</font><br/>
+	ペットのMRで、ペットのレベルが上がるか特定の野性を学ぶと上がります。<br/>
+	ペットは村にある<font fg="afffff">ペット保管所</font>に預けられます。<font fg="afffff">ペット召喚の笛</font>を使って呼び出すこともできます。<br/>
+	ただし、ペット召喚ができない地域では使えません。<br/></p>
+	<p><font fg="ffafff">状態</font><br/>
+	ペットは満腹状態が<font fg="afffff">とても空腹</font>になると、主人の命令に従わなくなります。<br/>
+	栄養たっぷりのえさをやって、常に満腹状態を維持するようにします。<br/>
+	ペットが<font fg="afffff">死んで15分</font>経つと、ペットのアミュレットが消滅します。<br/>
+	そうなる前に復活スクロールを使ってペットを復活させましょう。<br/></p>
+	<p><img src="331" link="helppet"/><br/><br/></p>
+	</dialog>
+</npcdialog>

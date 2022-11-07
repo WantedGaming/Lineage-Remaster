@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>ニーバス</name>
+		<job>[愛を失った新郎]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> 待ちに待った結婚式が迫っているのに、ヘイナが逃げたなんて、そんなのありえない！<br/>
+		<br/>
+ きっと悪いやつらに連れて行かれたに違いない。<br/>
+ どうかヘイナを探してください。お願いします。<br/>
+<br/>
+ <font fg="ffffaf">ヘイナからの返信</font>を持って来たのですか？！<br/>
+ <br/>
+ ああ…ヘイナ！<br/>
+ 彼女が戻ってくると信じています。互いを心から愛し合っていれば、結婚そのものはさして重要ではないですからね。<br/>
+		<br/></p>
+		<p>
+		<font fg="25a6d6"><a action="d">ドラゴンの最高級報賞(45%)</a></font><br/>		
+		</p>
+		<p>
+		<font fg="25a6d6"><a action="c">ドラゴンの高級報賞(20%)</a></font><br/>		
+		</p>
+		<p>
+		<font fg="25a6d6"><a action="b">ドラゴンの報賞(5%)</a></font><br/>		
+		</p>
+		<p>
+		<font fg="25a6d6"><a action="a">一般報賞(2%)</a></font><br/>		
+		</p>
+		<p><br/><br/>
+		ヘイナを探してくださったお礼に<font fg="ffffaf">プレゼントボックス</font>を差し上げます。
+		勇士様の成長に役立つ他のお礼は<font fg="ffffaf">レベル52基準で、レベル60以下</font>の場合、差し上げることができません。<br/>
+		さらに、ドラゴンのダイアモンドも一緒にくださるなら、さらにプレゼントを差し上げます。<br/><br/>
+		<br/>
+		<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

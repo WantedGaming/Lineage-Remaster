@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">暗黒のポータル：</font></p><br/>
+		<p>
+		赤黒い渦の中から死神の気を感じる…<br/>
+		各階には眷属たちもいるようだ。
+		それぞれの気をたどっていけば、近づくことができそうだが…<br/><br/>
+		<font fg="ffffaf">どの気をたどっていこうか。</font><br/><br/><br/>
+		<a action="1">ゼニス クイーン(1階)</a><br/><br/>
+		<a action="2">シアー(2階)</a><br/><br/>
+		<a action="3">バンパイア(3階)</a><br/><br/>
+		<a action="4">ゾンビ ロード(4階)</a><br/><br/>
+		<a action="5">クーガー(5階)</a><br/><br/>
+		<a action="6">マミーロード(6階)</a><br/><br/>
+		<a action="7">アイリス(7階)</a><br/><br/>
+		<a action="8">ナイトバルド(8階)</a><br/><br/>
+		<a action="9">リッチ(9階)</a><br/><br/>
+		<a action="10">ウグヌス(10階)</a><br/><br/>
+		<a action="11">死神(最上階)</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

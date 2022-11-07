@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>隠居した侍従長マモン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 わっはっは。君はまだ知らないのか？このギラン城に隠されたダンジョンがあるっていう事実を？<br/>
+		 この城の初代領主であったタロス伯爵が、膨大な量の金銀財宝を持って姿をくらましたというその場所！まさか、生まれたての赤ん坊でも知ってる事実を知らないわけではあるまい？<br/>
+		<br/>
+		<br/>
+		<a action="teleportURL">もっと教えていただけますか？</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

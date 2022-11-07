@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<uilist>
+	<file name="CraftUIw.xml" />
+	<file name="SpellUI.xml" />
+	<file name="QuickMotionUIw.xml" />
+	<file name="BingoUI.xml"/>
+	<file name="SiegeUI.xml"/>
+	<file name="SihonNameUI.xml"/>
+	<file name="TutorialUI.xml"/>
+	<file name="AgitAuctionUI.xml"/>
+	
+	<file name="MapUI.xml"/>
+	<file name="BehaviourUI.xml"/>
+	<file name="PartyUI.xml"/>
+	
+	<file name="MiniMapWidget.xml"/>
+	<file name="ExitBtnUI.xml"/>
+	<file name="SettingBtnUI.xml"/>
+	<file name="SkillBtnUI.xml"/>
+	<file name="AppCenterBtnUI.xml"/>
+	<file name="InventoryBtnUI.xml"/>
+	<file name="CharInfoBtnUI.xml"/>
+	<file name="CommunityBtnUI.xml"/>
+	<file name="PVPBtnUI.xml"/>
+	<file name="ActionBtnUI.xml"/>
+	<file name="TimerUI.xml"/>
+	<file name="RoundScoreUI.xml"/>
+	<file name="MainExpBar.xml"/>
+	<file name="WidgetSlot.xml"/>
+	<file name="WidgetSubslot.xml"/>
+	<file name="WidgetMainChat.xml"/>
+	<file name="ArcaManageUIw.xml"/>
+  	<file name="WidgetStatus.xml"/>
+	<file name="CampaignUI.xml"/>
+	<file name="ExchangeUI.xml"/>
+	<file name="HyperTextUI.xml"/>
+	<file name="HyperTextSubUI.xml"/>
+	<file name="PetSummonUI.xml"/>
+	<file name="PledgeNotice.xml"/>
+  
+  <!--중국 튜토리얼 진행 UI -->
+  <file name="HuntingInfoUI.xml"/>
+  <file name="LaLaMapMsgUI.xml"/>
+  <!--  -->
+  
+  
+</uilist>

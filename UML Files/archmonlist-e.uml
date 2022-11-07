@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	    <p><font fg="ffffaf">[変身リスト]</font><br/><br/></p>
+	    <p><img src="2706" tooltip="アークナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="neo platinum knight"></img><img src="2709" tooltip="アークウィザード^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="neo platinum mage"></img></p>
+	    <p><img src="2708" tooltip="アークスカウター^(ボウ/ガントレット)" action="neo platinum scouter"></img><img src="2707" tooltip="アークシャドウ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="neo platinum assassin"></img></p>
+	 </dialog>
+</npcdialog>

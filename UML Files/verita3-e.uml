@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>ベリタ</name>
+    <job>[雑貨商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>%</font>です。</p>
+  </dialog>
+</npcdialog>

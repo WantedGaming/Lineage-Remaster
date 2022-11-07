@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[血盟の歴史]：</font></p>
+	<p><br/></p>
+	<p>机の上に分厚い本がある。内容のほとんどはアデンの歴史と血盟についてだ。この家の主人は歴史に関心があるようだ。</p>
+	<p><br/></p>  
+	<p>主人はいないが、盗まなければ読んでも問題ないだろう。</p>
+	<p><br/></p>
+	<p><a link="storybook04">* アデンの英雄</a></p>
+	<p><br/></p>
+	<p><a link="storybook05">* 戦雲漂う大陸</a></p>
+	<p><br/></p>
+	<p><a link="storybook06">* エルモア</a></p>
+	<p><br/></p>
+	<p><a link="storybook07">* 救国の英雄トバリス6世</a></p>
+	<p><br/></p>
+	<p><a link="storybook08">* 鋼鉄のギルド</a></p>
+	<p><br/></p>
+	<p><a link="storybook09">* 蜂起</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

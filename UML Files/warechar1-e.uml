@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="warehouse">
+  <icon>warehouse</icon>
+  <title>倉庫</title>
+  <dialog>
+    <p>皆様の大切なアイテムをお預かりします。<br/>
+		<br/>
+		<br/>
+ <font fg="ffffff">追加倉庫：</font><br/>
+ <br/>
+ <a action="deposit-char">アイテムを預ける</a><br/>
+ <a action="retrieve-char">アイテムを引き出す</a><br/>
+ <br/>
+ <br/>
+ <a link="warechar2">追加倉庫の使い方</a>は他の倉庫と異なるため、使い方をご確認の上でご利用ください。</p>
+  </dialog>
+</npcdialog>

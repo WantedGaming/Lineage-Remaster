@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>何のご用ですか？</p>
+		<p><a link="zybril2">月光の精気が欲しいです</a>	</p>
+	</dialog>
+	
+</npcdialog>

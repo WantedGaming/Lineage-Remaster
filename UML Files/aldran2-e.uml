@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Aldran</name>
+    <job>Priest in Training</job>
+  </npc>
+  <dialog>
+    <p>Pirates attacked merchant ships, and many warships burned and sank during the war... This is where the wreckage was washed away and piled up by the waves.</p>
+    <p>Far from finding expensive treasure or rambling adventures, it is a place where the souls of vindictive and grieving souls are pent up and rotting.</p>
+    <p>None of them returned alive. All were blinded by their own vanity and desires and did not heed my advice. ...Please listen to me seriously, even if it is only you.<br/><br/><br/></p>
+    <p><a link="aldran3">But I can't stop having Adventures</a><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デュラン</name>
+		<job>[船着場管理人]</job>
+  </npc>
+  <dialog>
+    <p>
+あそこに見える洞窟を歩いていけば、村にでるだろう。<br/>
+<br/>
+<img src="331" link="duran"/>
+</p>
+  </dialog>
+</npcdialog>

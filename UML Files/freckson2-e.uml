@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フレックソン</name>
+		<job>Mercenary Captain</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		申し訳ございません。まだ侍従長様からご依頼を受けた傭兵が到着しておりません。
+		
+		</p>
+	</dialog>
+</npcdialog>

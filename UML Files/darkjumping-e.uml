@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p align="left"><br/><font fg="ffffff">闇のジャンピングの証</font><br/><br/></p>
+	<p>[闇のジャンピングの箱2個のうち1個を製作]<br/></p>
+	<p><font fg="ffafff">闇のジャンピングの証</font>+<font fg="ffafff">ドラゴンの高級ダイアモンド20個</font><br/></p>
+	<p><font fg="ffffaf">闇のジャンピングの箱(88)</font>：<br/></p>
+	<p>レベル88で使用できる経験値50%クーポンを1枚獲得<br/><br/><br/></p>
+	<p><font fg="ffafff">闇のジャンピングの証</font>+<font fg="ffafff">ドラゴンの高級ダイアモンド15個</font><br/></p>
+	<p><font fg="ffffaf">闇のジャンピングの箱(89)</font>：<br/></p>
+	<p>レベル89で使用できる経験値3%クーポンを10枚獲得<br/></p>
+	<p></p>
+  </dialog>
+</npcdialog>

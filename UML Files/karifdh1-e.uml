@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Karif</name>
+		<job>[アイテム製作師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ああ…「グランカインの涙」のことか？</p>
+		<p>残念だが、そいつは錬金術でしか作り出せないんだ。</p>
+		<p>だから俺みたいな鍛冶屋は、一生かかっても作ることができない代物さ。</p>
+		<p>以前話せる島にいる錬金術師に頼んで作ったことがあったような。</p>
+		<p>それを作るにはカイザー ストーンがいるそうだ。</p>
+		<p>詳しいことは話せる島の…名前が出てこないな。</p>
+		<p>とにかく話せる島に行って、錬金術師を探してみな。</p>
+		<img src="331" link="karifblade"/>
+	</dialog>
+
+</npcdialog>

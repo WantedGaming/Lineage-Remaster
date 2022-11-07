@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">ウィンダウッド城警備兵：</font><br/><br/></p>
+    <p>現在このあたりの<a link="wdguard4">治安</a>が良くないので、特に城内での活動は控えてください。
+		<br/>
+		<br/>
+    </p>
+  </dialog>
+</npcdialog>

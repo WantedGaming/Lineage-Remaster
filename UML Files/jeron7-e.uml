@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェロン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ついさっき教本をあげたばかりじゃろ。もう忘れたのか？ちゃんと探してみるがいい。<br/>
+		 わしは確かにお前に教本を渡したぞ…<br/>
+		 <br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

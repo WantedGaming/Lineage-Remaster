@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ToneMakeWindowUI>
+	<Window Name = "ToneMake_Window" X = "192" Y = "82" BaseSurf = "3748;1" FrameSurf = "3749;1" Moveable = "20" KeyboardEvent = "CloseBoard" MouseEvent = "Dummy">
+		<Button Name = "Exit_Button" X = "326" Y = "11" BaseSurf = "3667" PushSurf = "3668" MouseEvent = "CloseBoard"/>
+		<Button Name = "SpecButton" X = "180" Y = "291" BaseSurf = "3753" HighlightSurf="3754" PushSurf = "3755;1" MouseEvent = "Spec"/>
+		<Button Name = "MakeToneYesButton" X = "243" Y = "291" BaseSurf = "3758" HighlightSurf="3759" PushSurf = "3760;1" MouseEvent = "MakeToneYesButton"/>
+		<Button Name = "MakeToneNoButton" X = "288" Y = "291" BaseSurf = "3750" HighlightSurf="3751" PushSurf = "3752;1" MouseEvent = "MakeToneNoButton"/>
+		<Control Name="CharacterFullInfo">
+  		<Label Name = "CharacterToneFullInfo" X="23" Y="140" Width = "133" Height = "137" Caption="Character Tone Info"/>
+	  	<Image Name = "CharacterFullInfoLine_Image" X="17" Y="135" Surf = "3833;1"/>
+  		<Image Name = "CharacterFullInfoBack_Image" X="18" Y="136" Surf = "3834;2;10"/>
+		</Control>
+		<Control Name="ToneInfoCharacterImage">
+  		<Image Name = "CharacterImage1" X="15" Y="19" Surf = "3819;1"/>
+  		<Image Name = "CharacterImage2" X="15" Y="19" Surf = "3820;1" Activate="0"/>
+  		<Image Name = "CharacterImage3" X="15" Y="19" Surf = "3821;1" Activate="0"/>
+  		<Image Name = "CharacterImage4" X="15" Y="19" Surf = "3822;1" Activate="0"/>
+  		<Image Name = "CharacterImage5" X="15" Y="19" Surf = "3823;1" Activate="0"/>
+  		<Image Name = "CharacterImage6" X="15" Y="19" Surf = "3824;1" Activate="0"/>
+  		<Image Name = "CharacterImage7" X="15" Y="19" Surf = "3825;1" Activate="0"/>
+  		<Image Name = "CharacterImage8" X="15" Y="19" Surf = "3826;1" Activate="0"/>
+  		<Image Name = "CharacterImage9" X="15" Y="19" Surf = "3827;1" Activate="0"/>
+  		<Image Name = "CharacterImage10" X="15" Y="19" Surf = "3828;1" Activate="0"/>
+  		<Image Name = "CharacterImage10" X="16" Y="19" Surf = "3829;1" Activate="0"/>
+  		<Image Name = "CharacterImage11" X="16" Y="19" Surf = "3830;1" Activate="0"/>
+  		<Image Name = "CharacterImage12" X="16" Y="19" Surf = "3831;1" Activate="0"/>
+  		<Image Name = "CharacterImage13" X="16" Y="19" Surf = "3832;1" Activate="0"/>
+		</Control>
+		<Control Name = "MakeToneMemoryCtrl" MouseEvent = "Dummy" Activate="0">
+			<MultiEdit Name = "LineageMemory_Edit" X="21" Y = "42" Width = "130" Height = "145" LimitText="150" ReadOnly="1" Text="fdsfgasgk"/>
+			<MultiEdit Name = "MySays_Edit" X="21" Y = "214" Width = "135" Height = "60"/>
+			<ScrollBar Name = "LineageMemory_Scrollbar" X = "146" Y = "42" ScrollStart = "12" ScrollHeight = "120" Vertical = "1">
+			  <Image Name = "Background_Image" Surf = "3769"/>
+  			<Button Name = "Up_Button" X = "1" Y ="0" BaseSurf = "3770" PushSurf = "3771" MouseEvent = "Dummy"/>
+	  		<Button Name = "Down_Button" X = "1" Y = "133" BaseSurf = "3772" PushSurf = "3773" MouseEvent = "Dummy"/>
+		  	<Button Name = "Move_Button" BaseSurf = "3774;1" PushSurf = "3775;1" MouseEvent = "Dummy"/>
+  		</ScrollBar>
+  		<Image Name = "LineageMemory_Image" X="17" Y="21" Surf = "3767;1" />
+  		<Image Name = "MySays_Image" X="17" Y="192" Surf = "3765;1" />
+		</Control>
+		<Control Name = "MakeToneOptionCheckCtrl" X = "189" MouseEvent = "MakeToneOptionCheck">
+  		<CheckButton Name = "CharacterInfoCheckBtn" Y = "31" BaseSurf = "3757" PushSurf = "3756" MouseEvent = "MakeToneOptionCheck"/>
+  		<CheckButton Name = "LineageMemCheckBtn" Y = "84"  BaseSurf = "3757" PushSurf = "3756" MouseEvent = "MakeToneOptionCheck"/>
+  		<CheckButton Name = "EquipInfoCheckBtn" Y="137" BaseSurf = "3757" PushSurf = "3756" MouseEvent = "MakeToneOptionCheck"/>
+  		<CheckButton Name = "StatsInfoCheckBtn" Y="186" BaseSurf = "3757" PushSurf = "3756" MouseEvent = "MakeToneOptionCheck"/>
+		</Control>
+		<Tab Name="MakeToneInfoTab" X="14" Y="283" Gap="37" Width = "149" Height = "22" MouseEvent="Tab">
+			<Button Name = "MakeToneInfoTab1" BaseSurf = "3761" MouseEvent = "Dummy"/>
+			<Button Name = "MakeToneInfoTab2" BaseSurf = "3762" MouseEvent = "Dummy"/>
+			<Button Name = "MakeToneInfoTab3" BaseSurf = "3763" MouseEvent = "Dummy"/>
+			<Button Name = "MakeToneInfoTab4" BaseSurf = "3764" MouseEvent = "Dummy"/>
+		  <Tooltip Name = "Desc_Tooltip" String="2486" Area="0" Y = "20"/>
+			<Tooltip Name = "Desc_Tooltip" String="2485" Area="0" X = "37" Y = "20"/>
+			<Tooltip Name = "Desc_Tooltip" String="879" Area="0" X = "74" Y = "20"/>
+			<Tooltip Name = "Desc_Tooltip" String="883" Area="0" X = "111" Y = "20"/>
+		</Tab>
+	</Window>
+</ToneMakeWindowUI>

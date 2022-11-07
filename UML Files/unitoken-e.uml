@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>説明書</title>
+  <dialog>
+	<p><font fg="ffffff">ユニコーンの成長の証：</font><br/><br/></p>
+	<p><font fg="ffffaf">ギラン城下町</font>の<font fg="ffffaf">エキンス</font>に渡すと、一定の経験値を報賞としてもらえる。<br/><br/></p>
+	<p>経験値報賞の他に<font fg="ffffaf">ユニコーンテンプルの宝物</font>を追加でもらえ、ドラゴンのダイアモンドまたはドラゴンの高級ダイアモンドを一緒に渡せば、さらなる報賞がもらえる。<br/><br/><br/><br/></p>
+	<p><font fg="ffafff">[高級ドラゴンの報賞]</font><br/><br/></p>
+	<p><font fg="ffffaf">
+	* ユニコーンの成長の証(1)<br/><br/>
+	* ドラゴンの高級ダイアモンド(1)</font><br/><br/><br/><br/></p>
+	<p><font fg="ffafff">[ドラゴンの報賞]</font><br/><br/></p>
+	<p><font fg="ffffaf">
+	* ユニコーンの成長の証(1)<br/><br/>
+	* ドラゴンのダイアモンド(1)</font><br/><br/><br/><br/></p>
+	<p><font fg="ffafff">[一般報賞]</font><br/><br/>
+	<font fg="ffffaf">
+	* ユニコーンの成長の証(1)</font><br/><br/><br/><br/>
+	<br/><br/>
+	<br/><br/></p>
+  </dialog>
+</npcdialog>

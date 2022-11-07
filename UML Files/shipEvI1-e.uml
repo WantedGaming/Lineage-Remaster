@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<!--name></name-->
+		<job>船着場管理人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p>あなたは「赤き騎士の家」の訓練生ではないですか？グンター様からあなたのような悪者にはチケットを売らなくて良いとおっしゃいました。<br/></p>
+		<p>しかし特別にあなたにだけ1000Adenaほどお安くいたします。私もこの商売に命を掛けてるもんで、それくらいはもらわないと。<br/><br/></p>
+		
+		<p><a link="shipEvI7">船が船着場にいる時間は？</a><br/></p>
+				
+
+	</dialog>
+
+</npcdialog>

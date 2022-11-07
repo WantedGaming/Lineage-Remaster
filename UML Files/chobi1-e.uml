@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 俺、大きくなったら冒険者になりたい。大きくて怖いモンスターを倒す冒険者になって、ドラゴンを討伐したいんだ！
+		 特に、風竜リンドビオルを倒したい！そうしたら…爺ちゃんも婆ちゃんも、リンドビオルの話が出ると、泣かなくて済むから…<br/><br/><br/>
+		 でも、俺がこんな事言うと、おかあちゃんに怒られるんだ…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

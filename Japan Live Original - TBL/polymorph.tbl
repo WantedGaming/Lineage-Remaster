@@ -1,0 +1,75 @@
+75
+5790 11328 "lv1 orc" ; 오크
+5791 11329 "lv1 skeleton" ; 해골
+5792 11330 "lv1 dudamara orc" ; 두다-마라 오크
+5793 11331 "lv1 orc archer" ; 오크 궁수
+5794 11332 "lv1 elder" ; 장로
+5795 11333 "lv1 dwarf" ; 난쟁이
+5796 11334 "lv1 middle oum" ; 미들오움
+5797 11335 "lv1 giant ant" ; 거대 개미
+5798 11336 "lv1 kiwi parrot" ; 키위 패롯
+5799 11337 "lv1 raccoon" ; 라쿤
+5800 11338 "lv1 gelatincube" ; 젤라틴 큐브
+5801 11339 "lv15 orc fighter" ; 오크 전사
+5802 11340 "lv15 werewolf" ; 늑대인간
+5803 11341 "lv15 bugbear" ; 버그베어
+5804 11342 "lv15 orc scout" ; 오크 스카우트
+5805 11343 "lv15 ungoliant" ; 웅골리언트
+5806 11344 "lv15 darkelf carrier" ; 수송 다크엘프
+5807 11345 "lv15 giant ant soldier" ; 거대 병정 개미
+5808 11346 "lv15 paperman" ; 페이퍼 맨
+5809 11347 "lv15 snowman" ; 눈사람
+5810 11348 "lv30 lycanthrope" ; 라이칸스로프
+5811 11349 "lv30 succubus" ; 서큐버스
+5812 11350 "lv30 king bugbear" ; 킹 버그베어
+5813 11351 "lv30 darkelf spear" ; 다크엘프 가드
+5814 11352 "lv30 bandit bow" ; 산적 궁수
+5815 11353 "lv30 darkelf thief" ; 다크엘프 시프
+5816 11354 "lv30 darkelf wizard" ; 다크엘프 위자드
+5817 11355 "lv30 cockatrice" ; 코카트리스
+5818 11356 "lv30 mambo rabbit" ; 맘보토끼(당근)
+5819 11357 "lv30 mambo rabbit v" ; 맘보토끼(애꾸)
+5820 11359 "lv45 dreik" ; 드레이크
+5821 11360 "lv45 blaze" ; 블레이즈
+5822 11361 "lv45 cargo" ; 쿠만
+5823 11362 "lv45 darkelf guard" ; 다크엘프 가드
+5824 11363 "lv45 darkelf ranger" ; 다크엘프 레인저
+5825 11364 "lv45 baphomet" ; 바포메트
+5826 11365 "lv50 black knight chief" ; 커츠
+5827 11366 "lv50 assassin master" ; 어쌔신 마스터
+5828 11367 "lv50 lesser demon" ; 레서데몬
+5829 11368 "lv50 black knight" ; 흑기사
+5830 11369 "lv50 fire bowman" ; 불타는 궁수
+5831 11370 "lv50 black wizard" ; 블랙 위자드
+5832 11375 "lv52 death knight" ; 데스나이트
+5833 11376 "lv52 lance master" ; 랜스 마스터
+5834 11377 "lv52 dark elder" ; 흑장로
+5835 11378 "lv52 darkelf" ; 다크 엘프
+5836 11379 "lv52 beleth" ; 베레스
+5837 11380 "lv55 dark knight" ; 다크 나이트
+5838 11381 "lv55 dark shadow" ; 다크 쉐도우
+5839 11382 "lv55 dark ranger" ; 다크 레인저
+5840 11383 "lv55 dark magister" ; 다크 매지스터
+5841 11384 "lv60 silver knight" ; 실버 나이트
+5842 11385 "lv60 silver shadow" ; 실버 쉐도우
+5843 11386 "lv60 silver ranger" ; 실버 레인저
+5844 11387 "lv60 silver magister" ; 실버 매지스터
+5845 11388 "lv65 sword master" ; 소드 마스터
+5846 11389 "lv65 shadow master" ; 쉐도우 마스터
+5847 11390 "lv65 arrow master" ; 애로우 마스터
+5848 11391 "lv65 wizardry master" ; 위자드리 마스터
+5849 11446 "lv65 bounty hunter" ; 바운티 헌터
+5850 11392 "lv70 arch knight" ; 아크 나이트
+5851 11393 "lv70 arch assassin" ; 아크 쉐도우
+5852 11394 "lv70 arch scouter" ; 아크 스카우터
+5853 11395 "lv70 arch magister" ; 아크 위자드
+5854 11447 "lv70 night watch" ; 나이트 워치
+5855 11448 "lv70 black eagle" ; 블랙 이글
+5856 11400 "lv75 young kenlauel" ; 켄라우헬
+5857 11401 "lv75 young dantes" ; 단테스
+5858 11402 "lv75 young helvine" ; 헬바인
+5859 11403 "lv75 young kelenis" ; 케레니스
+5860 11404 "lv80 young gunter" ; 군터
+5861 11405 "lv80 young bluedica" ; 블루디카
+5862 11406 "lv80 young gilian" ; 질리언
+5863 11407 "lv80 young joewoo" ; 조우

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>ウハハハ！ついに！ついに彼女と結婚するのか！夢のようだ。ウハハハ。これもすべてあなたのおかげです。ウハハハ！ </p>
+		<p><font fg="aaaaaa">(前に会ったときよりさらに豪快になったようだ)</font></p>
+	</dialog>
+
+</npcdialog>

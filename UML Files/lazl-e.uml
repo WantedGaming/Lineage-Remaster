@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>warehouse</icon>
+<title>倉庫</title>
+  <npc>
+    <name>ラーズ</name>
+		<job>[統合倉庫番]</job>
+  </npc>
+  <dialog>
+	<p>おいおい、アンタみたいな青二才の荷物を預るわけないだろ？もっと名を上げてから出直すんだな。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロビンフッド</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>エヴァの聖地にいる神官「ジブリル」を訪ねてみるがいい。私が書いた紹介状を見せれば<font fg="ffffaf">月光の精気</font>について話してくれるだろう。</p>
+		<p>もちろん、それを手に入れるためには自らの努力が必要だがな。</p>
+		<p>そうだ、ユニコーンはユニコーンテンプルにいるそうだ。各元素の息吹はエルフの森ダンジョン3階で手に入るという噂を聞いたよ。</p>
+		<p>かなり恐ろしい場所だから、たぶん君一人では無理だろう。力を貸してくれる友達と一緒に行くといいだろう。</p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>チャーリー</name>
+		<job>[東側テレポーター]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		<br/>		
+		ここは<font fg="ffaaff">レベル90～93</font>までしか入れない場所だ。<br/>
+		<br/>		
+		危険に備えて<font fg="ffaaff">加護</font>を持ってきているか?<br/>
+		<br/>
+		<font fg="ffaaff">18時30分～21時</font>しか開かれないから覚えておくように。<br/>
+		</p>
+	</dialog>
+</npcdialog>

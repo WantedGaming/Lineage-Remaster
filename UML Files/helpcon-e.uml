@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p>基本的にすべての対話は、チャットを入力するウィンドウ(チャットウィンドウ)で行われます。<br/></p>
+	<p><font fg="ffafff">話す：</font><br/>
+	キーボードで話したい言葉を入力します。 画面に見えるユーザーにのみ言葉が伝えられます。</p>
+	<p><font fg="ffafff">ウィスパー：</font><br/>
+	特定の相手と一対一で会話を行う事ができます。<br/>
+	使い方は<font fg="ffffaf">"相手の名前[半角スペース]話したい言葉</font>です。<br/>
+	相手に送ったウィスパーはチャットのウィンドウに黄色で表示され、他人から送られてきたウィスパーは<font fg="ff60ff" bg="ffffff">ピンク色</font>で表示されます。<br/>
+	(例："リネージュ リネージュさん、こんにちは)<br/>
+ 	他人からのウィスパーを遮断する場合は<font fg="ffffaf">/whisper off</font> と入力します。<br/>
+	遮断を解除するには<font fg="ffffaf">/whisper on</font>と入力します。<br/></p>
+	<p><font fg="ffafff">ワールドチャット：</font><br/>
+	<font fg="ffffaf">レベル30以上</font>のユーザーは、サーバー内の全ユーザーに聞こえるワールドチャットを使用できます。<br/>
+	使い方は<font fg="ffffaf">&amp;話したい言葉</font>で、チャット内容は<font fg="ffff1f" bg="ffffff">水色</font>で表示されます。<br/>
+	ワールドチャットを遮断するには<font fg="ffffff">/chat off</font>と入力します。<br/>
+	遮断を解除するには<font fg="ffffff">/chat on</font>と入力します。<br/></p>
+	<p><font fg="ffafff">血盟チャット：</font><br/>
+	同じ血盟員同士でチャットを行うこともできます。使い方は<font fg="ffffff">@話したい言葉</font>です。<br/>
+	血盟チャットはチャットウィンドウに<font fg="00bf00" bg="ffffff">薄緑色</font>で表示されます。<br/></p>
+	<p><font fg="ffafff">上位血盟チャット：</font><br/>
+	血盟連合に所属し、ランクがガーディアン以上である場合は上位血盟チャットを行うこともできます。使い方は<font fg="ffffff">%話したい言葉</font>です。<br/>
+	上位血盟チャットはチャットウィンドウに<font fg="ff00a0" bg="ffffff">濃いピンク色</font>で表示されます。<br/></p>
+	<p><font fg="ffafff">パーティーチャット：</font><br/>
+	同じパーティーメンバー同士でチャットを行うこともできます。使い方は<font fg="ffffff">#話したい言葉</font>です。<br/>
+	パーティーチャットはチャットウィンドウに<font fg="f000f0" bg="ffffff">薄紫色</font>で表示されます。<br/></p>
+	<p><font fg="ffafff">チャット機能On/Off：</font><br/>
+	ワールドチャットを遮断するには<font fg="ffffff">/chat off</font>と入力します。<br/>
+	遮断を解除するには<font fg="ffffff">/chat on</font>と入力します。<br/></p>
+	<p><font fg="ffafff">特定ユーザーの遮断：</font><br/>
+	チャットウィンドウで特定の人からのメッセージのみを表示させたくないときは、チャットウィンドウに<font fg="ffffff">/exclude[半角スペース]キャラクター名</font>を入力します。<br/>
+	特定キャラクターを遮断すると、その事実がそのキャラクターにも知らされます。<br/>このコマンドにキャラクター名を入力しなければ、現在遮断しているキャラクターのリストが表示されます。
+	<br/>遮断されている特定ユーザーのメッセージを再度表示させたいときは、もう一度<font fg="ffffff">&gt;/exclude[半角スペース]キャラクター名</font>を入力します。
+	<br/>この機能は、チャットウィンドウ上の遮断したいユーザー名を右ボタンでダブルクリックすることでも可能です。<br/><br/></p>
+  </dialog>
+</npcdialog>

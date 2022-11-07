@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+   <npc>
+    <name>ヘン ベリー</name>
+    <job>ベリー商人</job>
+  </npc>
+  <dialog>
+    <p>うちのお父さんはすごい資産家で収集家でもあるんだけど、最近かわいい<font fg="ffafff">ベリアナ</font>を育てるのにハマっています。<br/><br/></p>
+	<p>家の庭に蓮池まで作って、水草まで植えてますからね。おかげで私もここに来て<font fg="ffafff">ベリアナ</font>を買っているんです。<br/><br/></p>
+	<p>お父さんがくれるこづかいをもらってますけど、家に蓮池を作るよりはここにいるほうがいいですからね。へへっ<br/><br/></p>
+	<p>そうそう、<font fg="ffafff">ベリー</font>についてご存じないんですよね！親切なことで有名な私が説明しましょう。<br/><br/></p>
+	<p><font fg="ffafff">ベリー</font>は私のお父さんである<font fg="ffffaf">コルン ベリー</font>が取引先の代金支払いのために作った貨幣です。
+	今は仕事から引退してるので使いませんが…</p>
+	<p>その代わりベリーを集めると家にある物と交換してくれるはずですので、ベリアナを釣ったら私に売ってください。<br/><br/></p>
+	<p>それでは、幸運を。<br/><br/></p>
+	<p><img src="331" link="h_point"></img><br/></p>
+  </dialog>
+</npcdialog>

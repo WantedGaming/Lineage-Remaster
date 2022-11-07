@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+  <npc>
+    <name>デレック</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+    <p>オイ！俺は悪人とは取引しねぇんだ。</p>
+  </dialog>
+</npcdialog>

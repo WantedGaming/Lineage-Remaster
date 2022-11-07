@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[ダンテス]：</font></p>
+	<p><br/></p>
+	<p>いわゆる<font fg="ffffaf">ブルディカ</font>の反乱と時を同じくして、大法官のひとりである<font fg="ffffaf">バロメス</font>が老衰でこの世を去る。</p>
+	<p>永遠の命を与えられたはずの<font fg="ffffaf">エルフ</font>だが、バロメスの死により種族のなかで不安が広がり始めた。</p>
+	<p>この混乱を治める指導者を選ぶため、長老会は<font fg="ffffaf">グランカイン</font>の神託を執り行った。</p>
+	<p>しかし、この裏に初代王<font fg="ffffaf">バラン</font>の再任に対する欲望と、2番手に控える副司祭長<font fg="ffffaf">ハイラス</font>と<font fg="ffffaf">ベガス</font>が100年近くかけた野心が見え隠れしていた。</p>
+	<p><font fg="ffffaf">ラスタバド</font>の長老会と実権を握る者たちが一同に会す場で神託の儀式が執り行われたが、呼ばれたのは皆の予想を覆す者だった。それがまさしく<font fg="ffffaf">ダンテス</font>だった。</p>
+	<p><font fg="ffffaf">ハイラス</font>と<font fg="ffffaf">ベガス</font>は神託に虚偽があるとし抵抗したが、長老会の<font fg="ffffaf">ケイナ</font>と<font fg="ffffaf">ヘルバイン</font>が<font fg="ffffaf">ヘルナイト団</font>を投入し、2人は瞬く間に処刑された。</p>
+	<p>大きな野望を持つ<font fg="ffffaf">ダンテス</font>は自らを真冥王と呼び、大法官として最上位の地位につくと、戦争準備を進めるよう種族全体に命じた。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

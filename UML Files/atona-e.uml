@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>アートーンの騎士団員</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p><a link="monlists">高レベル変身案内</a></p>
+		<p>
+		<br/>
+		英雄変身スクロールを製作するには、 
+		<a link="atonC1">変身スクロール</a>と、<font fg="ffaaff">1000Adena</font>が必要です！</p>
+		<p><br/>
+		欲しい英雄変身スクロールを選んでください。
+		<br/><br/><br/>
+		<a link="monlisti">レベル75の変身スクロールと交換する</a><br/><br/>
+		<a link="monlistj">レベル80の変身スクロールと交換する</a> 
+		<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

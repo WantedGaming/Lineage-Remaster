@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+    <text>今回の支出内容は以下のとおりです。</text>
+  </npc>
+  <dialog>
+	<p>王への上納</p>
+	<var src="0">Adena</var>
+	<p> 治安維持費</p>
+	<var src="1">Adena</var>
+	<p> 侍従たちの給料</p>
+	<var src="2">Adena</var>
+	<p> 城の維持管理費</p>
+	<var src="3">Adena</var>
+	<p> 傭兵維持費</p>
+	<var src="4">Adena</var>
+	<p> その他雑費</p>
+	<var src="5">Adena</var>
+  </dialog>
+</npcdialog>

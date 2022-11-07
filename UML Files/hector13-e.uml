@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		丈夫なアイアンセットこそ、かっこいい防具だろ！目の付け所が違うな。<br/>
+		<br/>
+		<br/><a link="hector3">アイアン グローブをつくる</a> 
+		<br/><a link="hector4">アイアン ヘルムをつくる</a>
+		<br/><a link="hector5">アイアン シールドをつくる</a>  
+		<br/><a link="hector6">アイアン ブーツをつくる</a> 
+		<br/><a link="hector7">アイアン プレート メイルをつくる</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

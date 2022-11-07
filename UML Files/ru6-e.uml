@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロウギ</name>
+		<job>古代品収集家</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>うははは。君、思ったよりやるじゃないか。誰も手に入れられなかった品物ばっかりだ。</p>
+		<p>どうだ？このくらいなら、かなり充分な値を付けてやっただろう？はっきり言って君には、使い道のない物ばかりだろうからな。うははは。</p>
+		<p><a link="ru7">やっぱり私が損しているようだ…</a>	</p>
+	</dialog>
+	
+</npcdialog>

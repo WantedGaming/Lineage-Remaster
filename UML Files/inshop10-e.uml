@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		<font fg="ffafff">[メイン設定]</font><br/></p>
+		<p>トレード不可<br/>
+		詳細事項は下段参照<br/><br/></p>
+		
+		<p><font fg="ffafff">[商品構成]</font><br/></p>
+		<p>最高級魔力の息吹10個<br/><br/></p>
+		
+		<p><font fg="ffafff">[商品説明]</font><br/></p>
+		<p>使用時、ルーンと遺物の封印を解除でき、封印を解除したルーンと遺物は3時間使用可能<br/><br/></p>
+		
+		<p><font fg="ffafff">[特異事項]</font><br/></p>
+		<p>1度使用した最高級魔力の息吹は再使用不可<br/>
+		既にルーンや遺物の封印を解除して使用中の場合、重複仕様は不可<br/><br/></p>
+		
+		<p><font fg="ffafff">[設定]</font><br/></p>
+		<p>1．最高級魔力の息吹箱<br/>
+		 ドロップ/トレード/個人商店可能<br/>
+		 削除不可<br/>
+		 キャラクター専用倉庫/アカウント倉庫保管可能<br/>
+		 アデン商団に販売不可<br/><br/></p>
+		
+		<p>2．最高級魔力の息吹<br/>
+		 ドロップ/トレード/個人商店/削除不可<br/>
+		 アカウント倉庫/キャラクター専用倉庫保管可能<br/>
+		 アデン商団に販売不可<br/><br/></p>
+		
+		
+	</dialog>
+</npcdialog>

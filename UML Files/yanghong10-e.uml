@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ヤンホン</name>
+	</npc>
+	<dialog>
+		<p>何を合成しますか？<br/>
+		<br/>
+		<br/>
+		<a link="yanghong2">+0マジック ヘルム：真を製作する</a><br/>
+		<br/>
+		<a link="yanghong3">+1マジック ヘルム：真を製作する</a><br/>
+		<br/>
+		<a link="yanghong4">+2マジック ヘルム：真を製作する</a><br/>
+		<br/>
+		<a link="yanghong5">+3マジック ヘルム：真を製作する</a></p>
+	</dialog>
+	
+</npcdialog>
+

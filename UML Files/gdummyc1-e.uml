@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>傭兵隊長</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 戦争に勝利できたのは、我々の力だけではなく、<br/>アデンのすべての民が一致団結し、<br/>力を合わせて戦ったからだと私は思っています。<br/>
+		 戦争は終わりましたが、我々は最後までこの村を外部の侵略から守る義務があります！<br/>
+		<br/>
+		 …実のところ、戦争が終わって行き場が無いって事情もあります。<br/>
+		 戦争が終われば、傭兵の仕事がなくなるってことですから、これからの事を考えると心配です…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

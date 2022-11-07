@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+	<p>世界では無数の錬金術が存在しています。その中でも魔力の力の封印を解き、帰属させながらも発生する元素の流れを… </p>
+	<p>おっと、すみません。一人で話してしまいましたね。<font fg="FFF064">Marvin</font>の話を聞きにいらしたのでしょうか？ </p>
+	<p><br/></p>
+	<p><a action="request craft">錬金術をお願いします</a></p> 
+	<p><br/></p>
+	<p><a link="new_alchemy2">なぜ最近になって魔法の触媒がぐっと減ったのでしょう？</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

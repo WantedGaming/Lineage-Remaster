@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>墓の考古学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>最近…巨人の墓のモンスターがとても強力になっています。<br/>
+		
+		もし入りたいのなら、私が<br/>
+		巨人たちの力をしばらく抑えておきましょう。<br/><br/>
+		
+		ただし<font fg="ffffaf">30分</font>……命の危険がありますので、30分後には安全な場所に移動させてもらいます。<br/>
+		<br/>
+		<font fg="ffffaf">入場時間</font>：<font fg="ffaaff">30分</font><br/>
+		<font fg="ffffaf">帰還可否</font>：<font fg="ffaaff">可能</font><br/>
+		<font fg="ffffaf">テレポート可否</font>：<font fg="ffaaff">不可</font><br/><br/>
+		<br/>
+		<br/>
+		
+		<a action="a">古代巨人の墓に入る</a><br/><br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>ジュビド</name>
+		<job>[玉販売人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		失礼ですが、記憶力は良いほうですか？<br/>
+		最近、ケプリシャ様が自分の記憶を保存しておくことができる玉の開発に成功されました。<br/>
+		この記憶の玉を利用すると、驚くべきことができるそうです！
+		例えば、あなたの記憶を玉に保存して他の人に送ることもできますし、後で自分がその記憶を取り出してみることもできます。
+		もし興味があったら私に言ってください。お安く、研！究！費！だけでお作りしますよ。
+		
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p><br/>
+		<a link="jubead2">もっとたくさん記憶する方法はありませんか</a><br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

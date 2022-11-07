@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>Hmmm... are you interested in the water element?</p>
+		<p>Water is the mildest of the element.</p>
+		<p>It can be said that the dainty water elements have almost no interest in hurting others.</p>
+		<p>Their power is a form of compassion and love, and they give the practitioner healing powers that surpass the wizard's magic.</p>
+		<p>If you find more joy in helping the wounded than in violent combat, the water element will surely smile upon you.</p>
+		<p><img src="331" link="ellyonne4"/></p>
+	</dialog>
+</npcdialog>

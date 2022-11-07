@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		オイ！今この城は外部からの出入り禁止だ！<br></br>
+		なに？おまえが「赤き騎士の家」出身のナイトだって？<br></br>
+		あのなぁ、「俺はナイトだー」って言えば信じると思ってんのか？<br></br>
+		そうじゃなくても最近は、どこの馬の骨かわからない輩が集まってきてウザイってのによ…とっとと消えろ！<br></br>
+		</p>
+		
+	</dialog>
+	
+</npcdialog>

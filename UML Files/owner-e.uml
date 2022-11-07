@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>name</name>
+    <job>[警備兵]</job>
+  </npc>
+  <dialog>
+	<p>現在、この村を管理する村長の名前は決まっていません。</p>
+  </dialog>
+</npcdialog>

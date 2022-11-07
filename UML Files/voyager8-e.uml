@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p> ま、だ…？まだ…なのか？<br/>
+		<br/>
+    …わ、私の、航海、日誌…<br/>
+    も、持ってきた、のか…？まだ、なのか？</p>
+    <p><br/></p>
+    <p><a action="B">航海日誌を渡す</a></p>
+  </dialog>
+</npcdialog>

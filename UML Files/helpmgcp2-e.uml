@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>君主魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">君主の魔法：レベル2君主魔法</font><br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+
+	</dialog>
+</npcdialog>

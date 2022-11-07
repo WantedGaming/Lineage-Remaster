@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベントクエスト管理人</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルーカ</name>
+		<job>[ダーク訓練場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>闇の力がアデン王国に広まっているな…<br/>
+		<br/>
+		<br/>
+		こんにちは｡私はエキンスの弟子で､<br/>
+		ダーク訓練場を担当している<br/>
+		<font fg="ffffaf">エルーカ</font>です。<br/>
+		<br/>
+		より上のレベルを目指して準備をしておられますよね？<br/>
+		<font fg="ffafff">闇のフリーパス券</font>と<font fg="ffafff">英雄のコイン</font>を持ってきてください。<br/>
+		過酷な闇の訓練の成果によって<br/>
+		経験値を差し上げます。<br/> 
+		<br/>
+		<font fg="ffafff">英雄のコイン</font>が足りなければ<br/>
+		私の隣にいる<font fg="ffffaf">アルキン</font>から購入できます。<br/>
+		<br/>
+		<br/>
+		報賞を受け取る準備ができたら、お声がけください。<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Fitness_Bt"><button action="a"/></panel>
+	</dialog>
+</npcdialog>

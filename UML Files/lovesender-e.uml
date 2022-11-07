@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>○○</name>
+  </npc>
+  <dialog>
+    <p>こんにちは。</p> 
+	<p>恋をするのにピッタリの季節ですね。</p> 
+	<p>私も胸がワクワクします。</p> 
+	<p>ベイリスの結婚式を迎え、聖堂ではなく野外の別の場所を準備しておきました。</p> 
+	<p>ベイリスだけでなく、みなさんにとっても素敵な日になることを願っています。</p>
+    <p><a action="teleportURL">野外結婚式場に送ってください</a></p>
+  </dialog>
+</npcdialog>

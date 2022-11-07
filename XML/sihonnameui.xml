@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<SihonNameUI Toggle="true">
+<Window Name="Lowest_Floor" X="183" Y="186" BaseSurf="8288;3" Activate="0">
+	<Image Name="Lowest_Letter" X="120" Y="15" Surf="8298;1"/>
+	<Image Name="Lowest_Letter_Multi" X="120" Y="15" Surf="8299;3"/>
+	<Image Name="Background_Screen" X="0" Y="0" Surf="8289;4"/>
+</Window>
+<Window Name="Middle_Floor" X="183" Y="186" BaseSurf="8288;3" Activate="0">
+	<Image Name="Lowest_Letter" X="120" Y="15" Surf="8294;1"/>
+	<Image Name="Lowest_Letter_Multi" X="120" Y="15" Surf="8295;3"/>
+	<Image Name="Background_Screen" X="0" Y="0" Surf="8289;4"/>
+</Window>
+<Window Name="Top_Floor" X="183" Y="186" BaseSurf="8288;3" Activate="0">
+	<Image Name="Lowest_Letter" X="120" Y="15" Surf="8296;1"/>
+	<Image Name="Lowest_Letter_Multi" X="120" Y="15" Surf="8297;3"/>
+	<Image Name="Background_Screen" X="0" Y="0" Surf="8289;4"/>
+</Window>
+<Window Name="MonsterEndMessage" X="183" Y="100" BaseSurf="8293;4" Activate="0">
+	<Image Name="Lowest_Letter" X="0" Y="0" Surf="8290;1"/>
+	<Image Name="Lowest_Letter_Multi" X="0" Y="0" Surf="8291;3"/>
+	<Image Name="Background_Multi" X="0" Y="0" Surf="8292;3"/>
+</Window>
+</SihonNameUI>

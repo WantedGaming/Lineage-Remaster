@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>マーク</name>
+		<job>[行商]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>		
+		この暑い砂漠まで来るとは、どういう風の吹き回しでしょうか？私は行商マークと申します。
+		<br/>
+		友人の荷物を送るのに、どこに行けばいいのか分かりませんね。
+		<br/>
+		良い友人だったんですがねぇ…
+		<br/>
+		旅の方もどうかお気をつけて。
+		</p>
+	</dialog>
+</npcdialog>

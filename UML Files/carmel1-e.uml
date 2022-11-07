@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">カメル：</font><br/><br/></p>
+    <p>アデンは小さな部屋でも家賃が高くて大変で…ここに村ができたと聞いてやった来たんだ。</p>
+    <p>今ではここで空き地を見つけて、家を建ててる最中だ。<br/></p>
+    <p>やっと骨組みはできたから…もうすぐ完成できる…はず！！</p>
+  </dialog>
+</npcdialog>

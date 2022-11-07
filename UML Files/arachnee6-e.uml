@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アラクネ</name>
+		<job>森の守護者</job>
+		<text></text>
+	</npc>
+  <dialog>   
+   <p>我らアラクネ族は<font fg="ffafff">エントの表皮</font>を食べると、古くなった殻を脱皮して新しい体になる。 </p>
+   <p><font fg="ffafff">脱皮した抜け殻</font>を、エルフたちはそのまま使ったり、ミスリルを使って加工して<font fg="ffffaf">防具やシールド</font>を作るそうだ。<br/><br/><br/></p>
+   <p><img src="331" link="arachnee3"></img></p>
+	 </dialog>
+</npcdialog>

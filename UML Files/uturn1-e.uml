@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>バルログの密偵</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>神殿に行け！そしてヤヒの一味を粛清しろ！</p>
+		<p>やつらとの闘いの火蓋はいつでも切れるぞ！</p>
+		<p><a action="4">神殿に送ってください</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ギランの町から南に向って、領地を抜けてから5時の方角にもうちょっとだけ進むと、ギランのダンジョンの入口にたどり着きます。ギランのダンジョンの3階には野獣型突然変異モンスターが、4階にはゴーレム系のモンスターやアンデッドスケルトンがいます。<br/>
+		 3階にいる<font fg="ffafff">ギランダイアーウルフ</font>、<font fg="ffafff">ギランキメラ</font>、<font fg="ffafff">ギランケルベロス</font>、<font fg="ffafff">ギランサーベルタイガー</font>は大抵先制攻撃をかけてきますよ。<br/>
+		 4階には<font fg="ffafff">ギラン ストーン ゴーレム</font>、<font fg="ffafff">ギラン アイアン ゴーレム</font>、<font fg="ffafff">ギラン ラヴァ ゴーレム</font>にすばしっこい<font fg="ffafff">スケルトン ファイター</font>、遠距離から攻撃してくる<font fg="ffafff">スケルトン マークスマン</font>がいるんですよ。それでは、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

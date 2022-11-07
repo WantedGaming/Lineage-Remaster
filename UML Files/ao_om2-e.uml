@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+   <p>君はただならぬ気をしているな。私は君のようにただならぬ気を辿って、オーレン村に向かっている。</p>
+   <p>君なら新しい時代に相応しい人物かもしれん。</p>
+   <p>どうだ？私と一緒に来ないか？<br/><br/></p>
+   <p><a action="start">オーレン村までなら連れて行ってあげますよ</a></p>
+  </dialog>
+</npcdialog>

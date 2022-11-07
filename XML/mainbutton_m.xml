@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<MobileMainButtonUI toggle="false">
+
+  <Window Name="MobileMainButtonWindow" MouseEvent="Dummy">
+    
+    <Button Name="ZoomButton" X="5" Y="160" BasePng="100047;1" PushPng="100048;1" MouseEvent="HandleZoomButton"/>
+    <Button Name="ChatButton" X="1157" Y="40" BasePng="100043;1" PushPng="100044;1" MouseEvent="HandleChatButton"/>
+    <Button Name="MiniMapButton" X="1157" Y="75" BasePng="100045;1" PushPng="100046;1" MouseEvent="HandleMiniMapButton"/>
+
+    <Image Y="533" Png="100255;2;16">
+      <Button Name="FunctionButton" BasePng="100254;1" MouseEvent="HandleFunctionButton">
+        <Image Name="Push_Image" Png="100254;1">
+          <Image Name="ScreenImage" Png="100253;4"/>
+        </Image>
+      </Button>
+    </Image>
+
+  </Window>
+
+</MobileMainButtonUI>

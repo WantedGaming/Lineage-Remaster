@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Keplisha</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>私の能力を信じてもらえないのなら、仕方がありませんね。</p>
+		<p>本当に契約を破棄したいのなら、壺を割ってください。</p>
+		<p>割ると同時に契約は破棄され、魂の球も消えてなくなります。</p>
+		<p>そして二度とあなたの運勢を読むことはできなくなります。</p>
+		<p>本当に壺を割りますか。</p>
+		<p><a action="3">壺を割って契約を破棄する</a></p>
+
+	</dialog>
+
+</npcdialog>

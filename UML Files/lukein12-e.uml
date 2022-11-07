@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+	<p>お前さんも色々と面倒なことに足を突っ込む御仁じゃな。</p> 
+	<p>仕方ない。</p>
+	<p>さあ、見せてみなさい。</p>
+	<p>......</p>
+	<p>よし、できたぞ。</p> 
+	<p>ほれ、まるで新品のように輝いているじゃろ？</p> 
+	<p>それにしてもお前さんは他人のことに熱心な人じゃのう…</p> 
+	<p>悪くもあり、良くもあることじゃ…</p> 
+	<p>まあ、引き受けたからには頑張るんじゃぞ。</p>
+  </dialog>
+</npcdialog>

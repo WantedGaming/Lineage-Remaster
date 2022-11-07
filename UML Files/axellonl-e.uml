@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>エクセロン</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 何でお前のような駆け出しを荷物なんか預からなきゃいけないんだ？ギルドに物を預けたいなら、もう少し名のある冒険者になるんだな！
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

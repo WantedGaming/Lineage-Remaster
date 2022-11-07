@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[心臓強化術師]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 君から強い力を感じる。だが不思議だな。君の目はまだ、その力に満足していない。<br/>
+		 <br/>
+		 究極の力か…<br/>
+		 君が<font fg="aaafff">伝説級装備</font>と<font fg="aaafff">それ以上の装備</font>を持っていれば試してみる価値はある。
+		 しかし非常に繊細で危険の伴う作業ゆえに失敗する可能性もある。成功の保証はない。<br/>
+		 覚悟はあるかね？<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

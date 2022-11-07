@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		<center><img src="2609"/></center>
+		<img src="3397" tooltip="オーク" action="re orc"/>
+		<img src="3391" tooltip="オーク スカウト" action="re orc scout"/>
+		<img src="3395" tooltip="ドワーフ" action="re dwarf"/>
+		<br/>
+		<img src="2614" tooltip="グール" action="re ghoul"/>
+		<img src="2621" tooltip="スケルトン" action="re skeleton"/>
+		<img src="2622" tooltip="スケルトン アーチャー" action="re skeleton archer"/>
+		<br/>
+		<img src="3396" tooltip="ウェアウルフ" action="re werewolf"/>
+		<img src="2616" tooltip="ライカンスロープ" action="re lycanthrope"/>
+		<img src="2617" tooltip="バグベアー" action="re bugbear"/>
+		<br/>
+		<img src="3393" tooltip="ジャイアント アント" action="re giant ant"/>
+		<img src="3429" tooltip="ジャイアント アント ソルジャー" action="re giant ant soldier"/>
+		<img src="2620" tooltip="ドレッドスパイダー" action="re ungoliant"/>
+		<br/>
+		<img src="2612" tooltip="ガースト" action="re ghast"/>
+		<img src="3388" tooltip="リザードマン" action="re lizardman"/>
+		<img src="3399" tooltip="ミドル オーム" action="re middle oum"/>
+		<br/>
+		<img src="3394" tooltip="コカトリス" action="re cockatrice"/>
+		<img src="3401" tooltip="キウィ パロット" action="re kiwi parrot"/>
+		<img src="3402" tooltip="ワイルド ファング" action="re wild fang"/>
+		<br/>
+		<img src="3400" tooltip="ラクーン" action="re raccoon"/>
+		<img src="3387" tooltip="オウルベアー" action="re owlbear"/>
+		<img src="3389" tooltip="ラットマン" action="re ratman"/>
+		<br/>
+		<img src="3390" tooltip="ドラゴン フライ" action="re dragon fly"/>
+		<img src="3392" tooltip="サキュバス" action="re succubus"/>
+		<img src="3398" tooltip="ゼラチン キューブ" action="re gelatincube"/>
+		<br/>
+		<br/>
+		<br/>
+		<img src="331" link="monlist"/>
+		</p>
+	</dialog>
+</npcdialog>

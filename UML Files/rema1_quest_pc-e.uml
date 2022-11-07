@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>アデン国王の補佐官</name>
+		<job>[イベント報賞]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		やあ、こんにちは。<br/>
+		<br/>
+		国王からの特命を受けてやって来た、国王の補佐官とは私のことだ。<br/>
+		<br/>
+		<font fg="ffffaf">怪しいコイン100個</font>を持っているならば、特別な報賞を出そう。<br/>
+		君にとってとても役に立つものだ。<br/> 
+		<br/>
+		ちなみに私からの<font fg="ffffaf">特製ピュア エリクサーの箱</font>にはピュア エリクサーが入っているぞ。
+		ギラン城下町におられる<font fg="ffffaf">国王の守護ウィザード</font>様が、<font fg="ffffaf">箱10個</font>で 
+		<font fg="ffffaf">エリクサー1個</font>が入っている<font fg="ffffaf">特製エリクサーの箱</font>を製作してくださるそうだ。
+		興味があれば訪ねてみるといいぞ！<br/>
+		<br/>
+		</p>
+    <panel type="Panel_Exp_Reward">
+				<button action="a"/>
+				<button action="b"/>
+				<button action="c"/>
+				<button action="d"/>
+    </panel>
+		<p>
+		私の報賞は<font fg="ffffaf">レベル52を基準で、レベル55以下</font>の場合はもっと強くなってから来てくれ。<br/>
+		</p>
+	</dialog>
+</npcdialog>

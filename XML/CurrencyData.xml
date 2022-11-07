@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Currencies>
+	<!-- ***************************************************************************************************************************************************** -->
+	<!-- CurrencyData.xml 의 속성                                                                                                                              -->
+	<!-- ***************************************************************************************************************************************************** -->
+	<!-- id                 : 화폐의 ID입니다. item일 경우 nameid를 그대로 사용합니다. (필수)                                                                  -->
+	<!-- name               : 화폐의 이릅입니다. 게임상에서는 사용하지 않으며, xml 편집시 구분을 하기 위한 속성입니다.                                         -->
+	<!-- desc_id            : 게임상에서 표현될 화폐의 Text입니다. desc.tbl의 id를 사용합니다.                                                                 -->
+	<!-- desc_str           : 게임상에서 표현될 화폐의 Text입니다. Xml에 입력된 Text를 그대로 사용합니다.                                                      -->
+	<!-- surf_id            : 화폐가 표현될 icon의 id입니다. surf.tbl의 id를 사용합니다.                                                                       -->
+	<!-- count_method_type  : 화폐의 수량을 세는 방법입니다. 이 속성에 대한 값의 설정은 아래 추가 정보를 참고하세요. default(item).                            -->
+	<!-- display_shop       : 상점에서 해당 화폐의 정보(desc/surf)를 표시할 것인지에 대한 속성입니다. true/false로 설정할 수 있습니다. default(true)           -->
+	<!-- not_enough_message : 화폐부족 메시지를 클라이언트에서 처리할지의 여부입니다.  true/false로 설정할 수 있습니다. default(true)                          -->
+	<!-- ***************************************************************************************************************************************************** -->
+	<!-- 추가 정보                                                                                                                                             -->
+	<!-- desc_str, desc_id 둘다 입력하지 않을 경우 : 값이 나오지 않음. 둘다 입력할 경우 : desc_id를 사용합니다.                                                -->
+	<!-- count_method_type 설정값의 종류 : "none", "adena", "item", "berry", "ncoin", "tampoint" (추가로 다른 설정값이 필요할때, Client팀에 구현을 요청하세요) -->
+	<!-- ***************************************************************************************************************************************************** -->
+	<Currency id="0" name="RefundablePoint" desc_str="kaimo" display_shop="false" count_method_type="none"/>
+	<Currency id="1" name="NonRefundablePoint" desc_str="pearl" display_shop="false" count_method_type="none"/>
+	<Currency id="7" name="Adena" desc_id="4" surf_id="6063" count_method_type="adena" not_enough_message="false"/>
+	<Currency id="2250" name="BattleMark" desc_id="5047" count_method_type="none" display_shop="false"/>
+	<Currency id="2479" name="AncientAdena" desc_id="4824" count_method_type="none"/>
+	<Currency id="2671" name="FeatherOfHeaven" desc_id="5116" surf_id="6064"/>
+	<Currency id="15567" name="PixieGoldenFeather" desc_id="19487" surf_id="6064"/>
+	<Currency id="4424" name="Bok" desc_id="8654"/>
+	<Currency id="9593" name="HonowoTamasii" desc_id="9389" display_shop="false" count_method_type="none"/>
+	<Currency id="10923" name="Spirit" desc_id="9845" display_shop="false" count_method_type="none"/>
+	<Currency id="11138" name="OrcExp" count_method_type="none"/>
+	<Currency id="12803" name="LoveStone" desc_id="13333" count_method_type="none" display_shop="false"/>
+	<Currency id="7082" name="EventCoin" desc_id="15658" not_enough_message="false"/>
+	<Currency id="14921" name="Berry" desc_id="15720" surf_id="6065" count_method_type="berry"/>
+	<Currency id="-2" name="NCoin" desc_id="16023" surf_id="6148" count_method_type="ncoin" not_enough_message="false"/>
+	<Currency id="2965" name="BattleAdena" desc_id="14931"/>
+	<Currency id="13394" name="CoinOfVillain" desc_id="13390" count_method_type="none" not_enough_message="false"/>
+	<Currency id="-3" name="TamPoint" desc_id="17963" surf_id="7300" count_method_type="tampoint"/>
+	<Currency id="13254" name="TaiwanEventCoin" desc_id="18740" count_method_type="none" surf_id="6063" not_enough_message="false"/>
+	<Currency id="15141" name="AdenWarriorSymbol" desc_id="13545" not_enough_message="false"/>
+	<Currency id="13258" name="SihonCoin" desc_id="18326"/>
+	<Currency id="12985" name="SihonDeathMoney" desc_id="18044"/>
+	<Currency id="15458" name="WarriorCoin" desc_id="17878"/>
+	<Currency id="18101" name="Kenrauhel" desc_id="13390"/>
+	<Currency id="15636" name="ChoosukEventFood" desc_id="19648"/>
+	<Currency id="15722" name="DinosPlayoffEventCoin" desc_id="20031"/>
+	<Currency id="3000" name="None" desc_str="-" count_method_type="none" not_enough_message="false"/>
+	<Currency id="6100" name="ChineseShop" desc_id="5967" count_method_type="none" display_shop="false"/>
+	<Currency id="16094" name="solo ticket" desc_id="20980"/>
+	<Currency id="16163" name="padora receipt" desc_id="21329"/>
+	<Currency id="16216" name="splash exp booster" desc_id="21592"/>
+	<Currency id="16661" name="BM orim garnet" desc_id="11128" surf_id="10961"/>
+	<Currency id="16761" name="bm yuelce ticket" desc_id="11122"/>
+	<Currency id="16848" name="pikcy coin" desc_id="24001"/>
+	<Currency id="16856" name="yeoiju coin" desc_id="24013" surf_id="10938"/>
+	<Currency id="16917" name="ssum paperbird" desc_id="24213" surf_id="10949"/>
+	<Currency id="30050" name="lito coin" desc_id="5592" surf_id="10950"/>
+	<Currency id="30049" name="lito ev coin" desc_id="24560" surf_id="10951"/>
+	<Currency id="17619" name="rudolf bell" desc_id="25999" surf_id="10952"/>
+	<Currency id="17582" name="hero coin" desc_id="25912"/>
+	<Currency id="17735" name="win coin" desc_id="26411"/>
+	<Currency id="17368" name="gunter seal" desc_id="25062" surf_id="10953"/>
+	<Currency id="17839" name="BM hardin garnet" desc_id="26696" surf_id="10960"/>
+	<Currency id="25184" name="hero coin" desc_id="27534" surf_id="10962"/>
+	<Currency id="15712" name="halloween coin" desc_id="19954"/>
+	<Currency id="22519" name="jp 2021 sm ev coin" desc_id="36353" />
+	<Currency id="25678" name="pet enchant stone" desc_id="28310" surf_id="10951"/>
+	<Currency id="26532" name="knight token" desc_id="30202" surf_id="22950"/>
+	<Currency id="27027" name="pandoras gem" desc_id="30471"/>
+	<Currency id="27613" name="21st coin" desc_id="31596"/>
+	<Currency id="27513" name="einhasad point" desc_id="31720" desc_str="einpoint" count_method_type="einpoint" surf_id="23002"/>
+	<Currency id="27644" name="piece of brotherhood" desc_id="31770"/>
+	<Currency id="28377" name="contribution point" desc_id="33496"/>
+	<Currency id="29908" name="medal of bravery" desc_id="36348" />
+</Currencies>

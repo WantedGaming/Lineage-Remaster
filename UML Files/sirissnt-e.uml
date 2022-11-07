@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ペイハス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>まだ勇士様は魔法についての理解が足りておられないようです。もう少し学ばれてからお越しください。<br/></p>
+		<p>一般魔法の場合、<font fg="ffafff">ウィザードはレベル4</font>、<font fg="ffafff">エルフはレベル8</font>、<font fg="ffafff">君主はレベル10</font>、<font fg="ffafff">ダークエルフはレベル12</font>に最初の魔法を習得することができます。<br/></p>
+		<p>それではまたお会いしましょう。<br/></p>
+		
+	</dialog>
+
+</npcdialog>

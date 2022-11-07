@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>魔法防御</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">キャラクター：魔法防御</font></p>
+	<p><font fg="ffffaf">MR：</font><br/>
+	魔法ウィンドウの下に%で表示される数値です。<br/>
+	これは一般的な魔法防御力を指します。攻撃魔法に対するダメージ減少効果と確率魔法に対する抵抗効果があります。<br/></p>
+	
+	<p><font fg="ffffaf">属性：</font><br/>
+	キャラクター状態ウィンドウに<font fg="afffff">水、火、地、風</font>系の4種類が%で表示されます<br/>
+	四大属性ダメージに対するダメージ減少効果があります。<br/></p>
+	
+	<p><font fg="ffffaf">耐性：</font><br/>
+	キャラクター状態ウィンドウのその他タブで<font fg="afffff">技術/精霊/秘技/恐怖</font>に対する抵抗効果が確認できます。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

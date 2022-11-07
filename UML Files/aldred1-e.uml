@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p> <font fg="ffffff">Aldred:</font></p>
+    <p>All the flowers in this area were grown by me, the gardener.</p>
+    <p>Have you seen the newly rebuilt Gludio Village? Hahaha! I planted those flowers there too.</p>
+    <p>They are very beautiful, aren't they? Seeing these beautiful flowers naturally makes me feel good.</p>
+  </dialog>
+</npcdialog>

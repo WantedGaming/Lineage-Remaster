@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffaf">今日の運勢です。</font></p>
+    <p>仲の良い友達が、無謀なエンチャントのせいでアイテムをすべて失い、ゲームを中断しなければならない危機に瀕しています。</p>
+    <p>無理なお願いをして来ますが、快く受け入れると変身コントロール リングがテレポート コントロール リングとなって戻って来るでしょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

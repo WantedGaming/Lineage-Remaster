@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tutorialobject>
+<!--
+	<map>
+		<user>
+		</user>
+		<npc>
+		</npc>
+		<item>
+		</item>
+	</map>
+	<inv>
+		<item>
+		</item>
+	</inv>
+	<effect/>
+	<user/>
+	<npc/>
+	<item/>
+	<invitem/>
+-->
+	<user id="0" objid="77">
+		<info sprite="6661" action="4" dir="2" light="2" count="1" align="2185"/>
+	</user>
+	<!--
+	<npc id="1" objid="100">
+		<description name="오크" desc="$59"/>
+		<info sprite="56" action="0" dir="0" light="0" count="1" align="-2" poison="0" drunken="0" weaponspr="-1"/>
+	</npc>
+	<item id="2" objid="101">
+		<description name="아데나 (100)"/>
+		<info sprite="7" action="0" dir="0" light="0" count="100" align="0" poison="0"/>
+	</item>
+	<item id="3" objid="102">
+		<description name="빨간 물약 (2)"/>
+		<info sprite="45" action="0" dir="0" light="0" count="2" it="51" icon="80" nid="14"/>
+	</item>
+	<item id="4" objid="103">
+		<description name="귀환 주문서 (2)"/>
+		<info sprite="22" action="0" dir="0" light="0" count="2" it="9" icon="474" nid="162"/>
+	</item>
+	<npc id="5" objid="104">
+		<description name="오크" desc="$59"/>
+		<info sprite="56" action="0" dir="0" light="0" count="1" align="-2" poison="0" drunken="0" weaponspr="-1"/>
+	</npc>
+-->
+	<item objid="9" nameid="15">
+	<!--<info sprite="22" action="0" dir="0" light="0" count="2" it="9" icon="474" nid="162"/>-->
+	</item>
+
+	<item objid="10" nameid="16576">
+	<!--<info sprite="22" action="0" dir="0" light="0" count="2" it="9" icon="474" nid="162"/>-->
+	</item>
+
+	<item objid="11" nameid="1819">
+		<info it="1"/>
+	</item>
+
+	<!-- 데포로쥬 -->
+	<npc objid="105" classid="13074">
+		<info dir="2" />
+	</npc>
+	<!-- 이실로테 -->
+	<npc objid="106" classid="13075">
+		<info dir="2" />
+	</npc>
+	<!-- 질리언 -->
+	<npc objid="107" classid="13076">
+		<info dir="2" />
+	</npc>
+	<!-- 유니 드래곤 -->
+	<npc objid="111" classid="13078">
+		<info dir="6" />
+	</npc>
+	<npc objid="112" classid="13078">
+		<info dir="6" />
+	</npc>
+	<npc objid="113" classid="13078">
+		<info dir="6" />
+	</npc>
+	<npc objid="114" classid="13078">
+		<info dir="2" />
+	</npc>
+	<npc objid="115" classid="13078">
+		<info dir="2" />
+	</npc>
+	<!-- 안타라스 -->
+	<npc objid="120" classid="13077">
+		<info dir="0" />
+	</npc>
+</tutorialobject>

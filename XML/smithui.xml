@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<SmithUI>
+	<Window Name = "Dialog_Window" X = "0" Y = "0" BaseSurf = "4793;1" FrameSurf = "4794;1" Top = "1" Modal = "1" Activate = "0" KeyboardEvent = "CloseDialog" MouseEvent = "Dummy">
+		<Button Name = "Closeui_Button" X = "219" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseDialog"/>
+		<MultiLabel Name = "Message_Label" X = "20" Y = "20" Width = "191" Height = "81" VAlign = "top" HAlign = "center"/>
+		<Control Name = "Dialogbutton_Control" X = "33" Y = "107" Width = "164" Height = "17">
+			<Button Name = "Confirm_Button" BaseSurf = "4780" HighlightSurf = "4781" PushSurf = "4782;1" MouseEvent = "DialogOK"/>
+			<Button Name = "Cancel_Button" X = "95" BaseSurf = "4783" HighlightSurf = "4784" PushSurf = "4785;1" MouseEvent = "CloseDialog"/>
+			<Button Name = "OK_Button" BaseSurf = "4796" HighlightSurf = "4797" PushSurf = "4798;1" MouseEvent = "DialogOK"/>
+			<Button Name = "NO_Button" X = "95" BaseSurf = "4799" highlightSurf = "4800" PushSurf = "4801;1" MouseEvent = "CloseDialog"/>
+		</Control>
+	</Window>
+	<Window Name = "MakeCrystal_Window" X = "0" Y = "0" BaseSurf = "4778;1" FrameSurf = "4779;1" Moveable = "18" Activate = "0" KeyboardEvent = "CloseUI" MouseEvent = "Dummy">
+		<Button Name = "Closeui_Button" X = "231" Y = "13" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseUI"/>
+		<ItemIcon Name = "Sourceitem_Icon" X = "146" Y = "68" Width = "32" Height = "32"/>
+		<ItemIcon Name = "Tearitem_Icon" X = "146" Y = "152" Width = "32" Height = "32"/>
+		<Button Name = "Confirm_Button" X = "39" Y = "228" BaseSurf = "4780" HighlightSurf = "4781" PushSurf = "4782;1" MouseEvent = "CrystalConfirm"/>
+		<Button Name = "Cancel_Button" X = "133" Y = "228" BaseSurf = "4783" HighlightSurf = "4784" PushSurf = "4785;1" MouseEvent = "CloseUI"/>
+	</Window>
+	<Window Name = "MakeItem_Window" X = "0" Y = "0" BaseSurf = "4786;1" FrameSurf = "4787;1" Moveable = "18" Activate = "0" KeyboardEvent = "CloseUI" MouseEvent = "Dummy">
+		<Button Name = "Closeui_Button" X = "224" Y = "13" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseUI"/>
+		<Control Name = "Crystal_Control" X = "23" Y = "86" Width = "94" Height = "32">
+			<ItemIcon Name = "Crystalitem_Icon" Width = "32" Height = "32" Icon = "5210"/>
+			<Label Name = "Crystalcount_Label" X = "32" Width = "62" Height = "32" VAlign = "middle" HAlign = "center"/>
+		</Control>
+		<Control Name = "Contract_Control" X = "122" Y = "86" Width = "94" Height = "32">
+			<ItemIcon Name = "Contractitem_Icon" Width = "32" Height = "32" Icon = "5212"/>
+			<Label Name = "Contractcount_Label" X = "32" Width = "62" Height = "32" VAlign = "middle" HAlign = "center"/>
+		</Control>
+		<Label Name = "Prob_Label" X = "150" Y = "130" Width = "60" Height = "20" VAlign = "middle" HAlign = "center"/>
+		<List Name = "Catalyst_List" X = "25" Y = "186" Width = "285" Height = "32" Horizontal = "1" Gap = "7">
+			<ItemIcon Name = "Catalystitem0_Icon" Width = "32" Height = "32"/>
+			<ItemIcon Name = "Catalystitem1_Icon" Width = "32" Height = "32"/>
+			<ItemIcon Name = "Catalystitem2_Icon" Width = "32" Height = "32"/>
+			<ItemIcon Name = "Catalystitem3_Icon" Width = "32" Height = "32"/>
+			<ItemIcon Name = "Catalystitem4_Icon" Width = "32" Height = "32"/>
+		</List>
+		<Button Name = "Makeitem_Button" X = "36" Y = "228" BaseSurf = "4788" HighlightSurf = "4789" PushSurf = "4790;1" MouseEvent = "MakeItem"/>
+		<Button Name = "Cancelitem_Button" X = "129" Y = "228" BaseSurf = "4791" HighlightSurf = "4792" PushSurf = "4793;1" MouseEvent = "CloseUI"/>
+	</Window>
+</SmithUI>

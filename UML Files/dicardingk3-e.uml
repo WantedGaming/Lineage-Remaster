@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そうか、ありがとう。いい知らせを待っているよ。<br/><br/>
+		いいかい、高位ダークエルフでないとだめだぞ。少なくとも将軍レベルではないとダンテスの信用を得てるとは言えないだろう。頼んだぞ。</p>
+	</dialog>
+	
+</npcdialog>

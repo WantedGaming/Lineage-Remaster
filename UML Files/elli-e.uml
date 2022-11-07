@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エリー</name>
+		<job>[水晶商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>エリオン様が再び森にお戻りになられてどれだけ嬉しいか！</p>
+		<p>これまで研究された精霊魔法の普及を私に任されたので、一生懸命習得するように！</p>
+		<p>エルフの母のところに行けば、精霊魔法を体で受け止めることができるはずだ。</p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	</dialog>
+</npcdialog>

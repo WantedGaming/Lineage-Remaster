@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ラルフ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+      <button action="sell"/>
+    </panel>
+    <p>おい。おまえは物を売り買いしにこの町に来たのか。それなら大正解だな。</p>
+    <p>このラルフ様が手に入れられない物はないぜ。</p>
+    <p><a action="ralf6">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>

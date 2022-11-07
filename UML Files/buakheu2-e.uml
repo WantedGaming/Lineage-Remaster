@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブアック</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 パプリオンが何かって？…あなたが見ている<a link="buakheu3">この惨状</a>を作った張本人ですよ。<br/><br/>
+		 水の中で生きるすべての生き物の創造主であられる神、エヴァと太古の昔から対立していた水竜パプリオン…
+		 今は、エヴァによって東の洞窟に封印されていますが、奴を倒さない限り、この血の邪悪さは無くならないでしょう。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

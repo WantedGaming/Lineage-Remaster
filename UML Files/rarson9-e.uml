@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>ありがとうございます。お礼に2000Adenaと<font fg="ffffaf">推薦状</font>を差し上げましょう。あなたならきっと恨みに満ちたハメル将軍のゴーストを退治してくれることでしょう。</p>
+		<p>ハメルと戦うには特殊製作された武器がなければなりません。さっきお渡しした<font fg="ffffaf">推薦状</font>と<font fg="ffffaf">聖水</font>を鍛冶屋クエンのところに持って行ってください。</p>
+		<p>退治できたらお礼はたっぷりさせていただきますよ。</p>
+	</dialog>
+
+</npcdialog>

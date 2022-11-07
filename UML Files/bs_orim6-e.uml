@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>強化ウィザード</title>
+  <npc>
+	<name>オリム</name>
+    <job>[強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p>製作には手数料が必要だ。今はAdenaが足りないようだな。足りない分を集めてくるんだな。</p>
+	<p>それとカウンター マジック/スローの魔法の場合、<font fg="ffaaaa">魔力の石</font>も必要になるから、気をつけるといい。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>別のアジトに移って新天地を開拓するにはもってこいの日です。</p>
+	<p>馴染んだところもいいですが、新たな村に移って気持ちを一新するのもいいでしょう。</p>
+	<p>血盟仲間と連絡をとって、新しい仲間を迎える準備を整えましょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

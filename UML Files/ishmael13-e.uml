@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>お申し付けどおり、<var src="0"/>を<var src="1"/>名補充いたします。明日には補充されるでしょう。
+		
+		</p>
+	</dialog>
+</npcdialog>

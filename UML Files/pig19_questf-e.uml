@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>アデン騎士</name>
+		<job>[イベントNPC]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		ホホ！おい、そこ！<br/><br/>
+		<font fg="ffffaf">アデン国王の年賀状</font>と<font fg="ffffaf">アデン国王のプレミアム コイン8個</font>は必須アイテムだ。<br/>
+		アデン国王の年賀状は<font fg="ffffaf">お知らせ</font>の<font fg="ffffaf">Event タブ</font>から購入できるが、アデン国王のプレミアム コインは<font fg="ffffaf">亥年の黄金の釣り竿で釣りをするか、ゴールデン キング バグベアー</font>を通して獲得できる。<br/>
+		<br/>
+		うむ…悪いが<font fg="ffffaf">レベル60</font>にならないと助けてやる方法がない。成長してからまた来てくれ。<br/>
+		 <br/>
+		 <br/>
+		</p>
+	</dialog>
+</npcdialog>

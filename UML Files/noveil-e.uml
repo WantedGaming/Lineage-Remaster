@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Drugabert</name>
+		<job>Druga Bag Seller</job>
+		<!--text> </text-->
+	</npc>
+	
+<dialog>
+	<p>Hmmm... can't sell dragon keys.</p>
+	<p>Do you have enough Adena to buy the dragon key, or</p>
+	<p>do you already have a dragon key? If it doesn't work, just wait few minutes.</p>
+	<p>Dragon keys aren't easy to make...</p>
+</dialog>
+
+</npcdialog>

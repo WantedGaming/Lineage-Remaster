@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[ケンラウヘルとブレイズ]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">ブレイズ</font>は負傷しながらも死力を尽くして<font fg="ffffaf">アデン城</font>内部に侵入した。</p>
+	<p>廊下の先に進めば、地上世界を指揮する王の謁見室へと入れる。</p>
+	<p>その時、扉が開き誰かが出てくるのが見えた。<font fg="ffffaf">ブレイズ</font>は急いで身を隠した。 </p>
+	<p>しかし隠れるのが遅かったのか、扉から出てきた者が彼女に向かって走ってきたのだ。<font fg="ffffaf">ブレイズ</font>が武器を取り出そうとした瞬間、</p>
+	<p>走ってきた者は自身のマントを脱ぎ、血だらけの<font fg="ffffaf">ブレイズ</font>を覆ったのだ。</p>
+	<p>扉から出てきた者こそ、<font fg="ffffaf">ケンラウヘル</font>だったのだ。</p>
+	<p><font fg="ffffaf">ブレイズ</font>と同様に彼もまた、話にだけ聞いていた<font fg="ffffaf">ダークエルフ</font>を初めて見てかなり驚いたようだったが、驚きよりも彼女の傷を隠さなければという思いが先だったようだ。</p>
+	<p><font fg="ffffaf">ブレイズ</font>がその時に感じた感情は、生きるために氷よりも冷たい感情を持たなければならなかった彼女にとって不慣れなものだったが、いずれにせよ初めて感じた<font fg="ffffaf">温かさ</font>だったに違いない。</p>
+	<p><font fg="ffffaf">ケンラウヘル</font>の助けもあり、彼女は無事<font fg="ffffaf">ラスタバド</font>に戻ることができ、彼女の報告を受けた<font fg="ffffaf">スレイヴ</font>は以降、<font fg="ffffaf">ブレイズ</font>を副官に据え、<font fg="ffffaf">ラスタバド</font>と<font fg="ffffaf">ケンラウヘル</font>の関係を繋ぐ橋渡し役を任せることになる。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

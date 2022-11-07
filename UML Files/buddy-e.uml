@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		友人リスト(<var src="1"/>/<var src="0"/>)：
+		<br/>
+		</p><p><var src="2"/>
+		
+		</p>
+	</dialog>
+</npcdialog>

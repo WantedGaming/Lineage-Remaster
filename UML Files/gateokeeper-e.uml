@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>キーパー</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>あ、<var src="0"/>様！
+		</p><p>勤務中、異常ありません！
+		<br/>
+		<br/>
+		<br/>
+		<a action="openigate">城門を開ける</a><br/>
+		<a action="closeigate">城門を閉める</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

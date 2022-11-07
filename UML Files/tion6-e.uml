@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>なかなかやるな。ではさらにポイズンサーペントの資質があるかを試させてもらおう。</p>
+		<p>今現在、激しい戦闘で負傷した隊員がいる。</p>
+		<p>水竜の呪いで汚染された水が傷口から入り、深刻な状態に陥っている。</p>
+		<p>彼を治す方法はただひとつ！<font fg="ffffaf">呪われた水の大精霊</font>が持っている<font fg="ffffaf">水の精粋</font>だ。</p>
+		<p>我らのモットーは義理と名誉！お前が仲間との義理を大事にする者なら、命を掛けてそれを持ってくるだろう。</p>
+		<p><a link="tion21">任務を完了しました</a></p>
+	</dialog>
+
+</npcdialog>

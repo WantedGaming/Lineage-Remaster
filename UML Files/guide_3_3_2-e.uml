@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ギランの町の北西の出口から出て、ギラン領地を通り過ぎて11時の方角にまっすぐ行くと川があります。そこにかかった橋を渡れば、ドラゴンバレーです。<br/>
+		 そこはアンタラスの棲処につながるドラゴンバレーのダンジョンともつながってるんですけど、<font fg="ffafff">スケルトン マークスマン</font>、<font fg="ffafff">スケルトン ファイター</font>、<font fg="ffafff">スケルトン ガード</font>とかのアンデッドが出るんですよ。その他にも、<font fg="ffafff">ブラック エルダー</font>、<font fg="ffafff">オーガ</font>、<font fg="ffafff">コカトリス</font>、<font fg="ffafff">ドレイク</font>などの強力なモンスターも出ますよ。<br/>
+		 ドラゴンバレーの深くには<font fg="ffafff">隠された商店</font>があるそうですが、行き方はわかりません。そこのモンスターは、アンタラスの影響を受けて急に大きくなり力も強くなったので、気をつけてくださいね。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

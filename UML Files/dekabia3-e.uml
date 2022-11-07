@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デカビア</name>
+		<job>[Teleporter]</job>
+  </npc>
+  <dialog>
+    <p> ここからお送りできる村と料金は以下のとおりです。どちらに行かれますか？<br/><br/>
+<a action="teleport behemoth-dragon">Dragon Valley:<var src="0"/>Adena</a><br/>
+<a action="teleport behemoth-girdun">Giran Dungeon:<var src="1"/>Adena</a><br/>
+<a action="teleport behemoth-mirr">Mirror Forest:<var src="2"/>Adena</a><br/>
+<a action="teleport behemoth-gypsy">Gypsy Town:<var src="3"/>Adena</a><br/>
+<a action="teleport behemoth-gludun">Gludio Dungeon:<var src="4"/>Adena</a><br/>
+<a action="teleport behemoth-oasis">Desert Oasis:<var src="5"/>Adena</a><br/>
+<a action="teleport behemoth-eva">Heine Dungeon:<var src="6"/>Adena</a><br/>
+<a action="teleport behemoth-under">Underground Invasion:<var src="7"/>Adena</a><br/>
+<a action="teleport behemoth-reed">Wheat Field:<var src="8"/>Adena</a><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>寄付金として高級ダイアモンド、高級エメラルド、高級ルビー、高級サファイアを10個ずつお納めください。</p>
+		<p>準備が出来たら、声を掛けてください。	</p>
+	</dialog>
+	
+</npcdialog>

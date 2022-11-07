@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff"><name/>：</font></p><br/>
+		<p>精巧に作られた金床。<br/>
+		どの方向から見ても優れたバランスだ。<br/><br/>
+		<a action="request craft">製作する</a><br/><br/>
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

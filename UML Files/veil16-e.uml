@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p> 恐ろしい恐怖が迫ってくるな…私だったら諦めているだろう。<br/>
+		<br/>
+    他の地域とは違って、ここでは死亡ペナルティが適用されるぞ！
+    だがその分、ドラゴン スレイヤーを獲得できるからな…<br/>
+		<br/>
+    価格は1,000万Adenaで、キーは<font fg="fff00">3時間</font>で消えてしまうから、注意するように！</p>
+
+    <p><a action="i">ドラゴンキー(地竜)を購入</a><br/>
+    <br/>
+    <a action="j">ドラゴンキー(水竜)を購入</a><br/>
+    <br/>
+    <a action="k">ドラゴンキー(風竜)を購入</a><br/></p>
+		<p><br/></p>
+    <p><img src="331" link="veil2"/><br/></p>
+  </dialog>
+</npcdialog>

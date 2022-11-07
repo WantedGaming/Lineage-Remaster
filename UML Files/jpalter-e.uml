@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[オルターストーン スクロール合成]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> オルターストーンの噂を聞いて来たのだな！<br/>
+		 <br/>
+		 いい物はすぐ噂になる。俺はオルターストーン スクロール合成の専門家だ。<br/>
+		 <br/>
+		 珍しいアイテムだから、じっくり合成すればいいものが得られるもんだ。<br/>
+		 <br/>
+		 失敗したら残念だが、珍しい物はそう安々と手に入るものじゃない。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

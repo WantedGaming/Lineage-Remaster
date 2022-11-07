@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>フント</name>
+    <job>[傭兵隊長]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">傭兵隊長フント：</font></p>
+    <p><br/>ご機嫌うるわしゅう、<var src="0"/>様。我が「ブルーシャーク」の傭兵はいつでも全力を尽くして戦う準備が整っております。<br/><br/></p>
+	<p><a action="demand">配置された傭兵を要求する</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>デポロジュー</name>
+    <job>[赤き騎士団]</job>
+  </npc>
+  	<dialog align="left">
+		<p>さあ、時は来た！</p>
+		<p>現在、ウィンダウッド城とドワーフ城を同時に攻略している。</p>
+		<p>くっ… 予想より多くの<font fg="ffafff">ブラックナイト</font>が攻城戦に参加しているようだ。</p>
+		<p>勇猛な<font fg="ffafff">赤き騎士団</font>とともに、失われたアデンを取り戻すぞ！</p>
+		<p><a action="0">ウィンダウッド城に行きます</a></p>
+		<p><a action="1">ドワーフ城に行きます</a></p>
+		<p>攻城戦が行われている間、ドワーフ城とウィンダウッド城では死亡しても経験値が</p>
+		<p>下がらないから、ブラックナイトを倒せるぞ。</p>
+		<p>しかし、他の人々は攻撃できないので、忘れるなよ。</p>
+	</dialog>
+</npcdialog>

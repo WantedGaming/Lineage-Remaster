@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<!--Music Configulation-->
+
+<FIGHT_MUSIC_OFF_MAP>
+
+  <MAP_NUM num = "524"/> <!--shodow temple-->  
+  <MAP_NUM num = "535"/> <!--kirtas-->
+  <MAP_NUM num = "537"/> <!--kirtas--> 
+  <MAP_NUM num = "603"/> <!--balog temp-->  
+  <MAP_NUM num = "782"/> <!--Colosseum-->  
+  <MAP_NUM num = "1005"/> <!--Antharas Renewal-->  
+
+<!--Colosseum-->
+  <MAP_RANGE start = "701" end = "724"/>
+
+<!--Ghost house-->
+  <MAP_RANGE start = "5140" end = "5142"/>
+
+<!--Instance Dungeons-->
+  <MAP_RANGE start = "9000" end = "9099"/>
+  <MAP_RANGE start = "9101" end = "9200"/>
+
+<!--Antharas Renewal-->
+  <MAP_RANGE start = "1006" end = "1017"/>
+  
+<!--High Pass-->
+  <MAP_NUM num = "2005"/> <!--Hidden Valley-->
+
+<!--PSY Event-->
+  <MAP_RANGE start = "1234" end = "1333"/>
+
+</FIGHT_MUSIC_OFF_MAP>
+

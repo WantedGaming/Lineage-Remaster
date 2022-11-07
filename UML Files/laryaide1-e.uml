@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>レリーの補佐官</name>
+  </npc>
+  <dialog>
+    <p>過去に捕われている時ではありませんでした。</p>
+    <p>やっと、気づきました。もう…未練などありません。</p>
+    <p>立ち去る前に、一度会いたかっただけです。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p>…航海、に、日誌…ページ、足りな、い？<br/>
+		<br/>
+    これでは、だめだ…足りない、ページ、全部つけて…<br/>
+    ページ、順に…いいか？…お願いだ…</p>
+  </dialog>
+</npcdialog>

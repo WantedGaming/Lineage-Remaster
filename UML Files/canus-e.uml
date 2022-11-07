@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">訓練隊長カナス：</font><br/><br/></p>
+    <p>情報筋によると、ギルタスを捕らえていた異界の亀裂が弱まっているようだ。これにデポロジュー様はギルタスの討伐するためにこの地に前哨基地を建て、勇気ある冒険者達を集め始めたのだ！！もうしばらく待つんだ！</p>
+    <p>もうすぐ血潮湧く戦が始まるぞ！</p>
+  </dialog>
+</npcdialog>

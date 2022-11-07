@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>トドラム</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>鉱山から何か取ってきたか？</p>
+		<p>取ってきたものがあれば売ってくれ。他のところに行ったって買ってくれないぞ。</p>
+		<p>うちはそれを高く買ってるんだ。信じられないなら他をあたってみるんだな。</p>
+		<p></p>
+			<panel type="Panel_Shop_Bt_Sell">
+				<button action="sell"/>
+			</panel>
+	</dialog>
+
+</npcdialog>

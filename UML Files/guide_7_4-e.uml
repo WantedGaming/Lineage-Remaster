@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 オアシス付近に水を飲むために集まった<font fg="ffafff">ホワイト アント</font>と、やつらを保護するために集まった<font fg="ffafff">アント</font>が多く見かけられるそうです。なぜやつらが土の中を諦めて出てきたのかはわかりませんが。 
+		 …おそらく土の中を何かが侵犯したのではないでしょうか…あ、ごめんなさい。独り言でした。旅行者様、体にお気をつけください。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

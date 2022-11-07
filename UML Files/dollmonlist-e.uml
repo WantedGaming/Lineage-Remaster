@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p>
+自分のレベルより1段階高い変身が可能です。
+<br/>
+<img src="2610" action="none"/><br/>
+<br/>
+<br/>
+<img src="2586" link="dollmonlist3"/><img src="2584" link="dollmonlist2"/><br/>
+<img src="3312" link="dollmonlist1"/><img src="2596" link="monlist0"/><br/>
+</p>
+  </dialog>
+</npcdialog>

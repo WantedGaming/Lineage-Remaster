@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ココ</name>
+		<job>Wizard</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 The dungeon is a very dangerous place. Please be careful.<br/>
+		<br/><br/>
+		<a action="teleport dungeon-in">Teleport to Underground Dungeon</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

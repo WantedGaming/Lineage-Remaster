@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エルドナーシュ</name>
+  </npc>
+  <dialog>
+	<p>
+まだ修練が必要のようですね。
+<br/>
+<font fg="ffaaff">火竜の安息の地</font>の熱気は<font fg="ffaaff">レベル60</font>以上でなければ耐えられないと言われています。
+<br/>
+レベル60になったらまた来てください。
+</p>
+  </dialog>
+</npcdialog>

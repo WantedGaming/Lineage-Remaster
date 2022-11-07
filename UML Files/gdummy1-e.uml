@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>傭兵隊員</name>
+		<job>ギラン傭兵隊</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 我々はダークエルフとの戦争のため派遣された傭兵隊です。<br/>
+		 戦争は終わりましたが、我々は最後までこの村を外部の侵略から守る義務があります！<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの補佐官</name>
+  </npc>
+  <dialog>
+    <p>人間とは、貪欲と虚栄の集合体。</p>
+    <p>貴様の中にとぐろを巻く、醜い欲望を私に見せてみよ。</p>
+    <p><a action="7">最も醜い欲望をあらわにする</a></p>
+  </dialog>
+</npcdialog>

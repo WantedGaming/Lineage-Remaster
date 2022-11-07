@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>ほぉ、見たところ年下に見えるがタメ口か？<br/>
+		<br/>
+    おいおい、話は最後まで聞け。せっかちなやつだな。いったんその剣を下ろして話そう。
+    よしよし。お前は強くて俺は弱いっていうのはどうすることも出来ない事実だから、うんうん。<br/>
+		<br/>
+    見てのとおり、俺は海底商人…ベヒークだ。<br/>
+		</p>
+    <p><a link="vehikeu4">商人がここに何の用だ</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">Giant Ant:</font><br/><br/></p>
+ <p>So you're finally here! I've been waiting for you ever since I heard you were coming!</p>
+ <p>Currently, the mutant antes have declared war on us. The Giant Ant Soldiers are fighting hard, but it is unlikely that they will be able to hold out much longer.</p>
+ <p><a action="andyn3">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>
+	

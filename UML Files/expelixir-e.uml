@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p align="left"><br/><font fg="ffffff">Pure Elixir (EXP)</font><br/></p>
+	<p><font fg="ffffaf">「Elixir(EXP)」</font>Crafting Materials<br/><br/></p>
+	<p>[Location]<br/></p>
+	<p><img src="14205"></img><br/><br/></p>
+	<p>[Crafting Material]<br/></p>
+	<p>- 35 Pure Elixirs<br/></p>
+	<p>- 5 Evil Vitality<br/></p>
+	<p>＊crafting can fail*<br/><br/></p>
+
+	<p>- 35 Pure Elixirs<br/></p>
+	<p>- 1mil Adena<br/></p>
+	<p>＊100% Success Rate*</p>	
+  </dialog>
+</npcdialog>

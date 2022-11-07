@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>私には秘密がある…<br/></p>
+		<p>秘密が気になるか？<br/></p>
+		<p><a link="jeff2_1">秘密とは何だろう？</a></p>
+		<p><a action="d">気になりません</a></p>
+	</dialog>
+
+</npcdialog>

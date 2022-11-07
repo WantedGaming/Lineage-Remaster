@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>PO_003</portrait>
+    <name>パンドラ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p>いらっしゃ～い、何をお探しかしら？うちの商品は本土から輸入している良質なものばかりよ。</p>
+  </dialog>
+</npcdialog>

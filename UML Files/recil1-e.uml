@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>イシルロテ</name>
+    <job>[赤き騎士団]</job>
+  </npc>
+  	<dialog align="left">
+		<p>ついに革命戦争の始まりですね。ハイネ城は、赤き騎士団が奪還しましたので、</p>
+		<p>ウィンダウッド城やドワーフ城に行って、デポロジュー様を助けてください。</p>
+		<p><a action="0">ウィンダウッド城へ送ってください！</a></p>
+		<p><a action="1">ドワーフ城へ送ってください！</a></p>
+		<p>攻城戦が行われている間、ウィンダウッド城とドワーフ城では死亡しても経験値が</p>
+		<p>下がりませんので、ブラックナイトを倒せます。</p>
+		<p>また、他の人々は攻撃できません。</p>
+	</dialog>
+</npcdialog>

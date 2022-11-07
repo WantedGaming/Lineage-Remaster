@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Preset>
+    <Control Name="MinigameCatchGremlinComboDefault">
+        <Image Name="0" Png="11326;3">
+            <Image Png="11325;1"/>
+        </Image>
+        <Image Name="1" Png="11328;3">
+            <Image Png="11327;1"/>
+        </Image>
+        <Image Name="2" Png="11330;3">
+            <Image Png="11329;1"/>
+        </Image>
+        <Image Name="3" Png="11332;3">
+            <Image Png="11331;1"/>
+        </Image>
+        <Image Name="4" Png="11334;3">
+            <Image Png="11333;1"/>
+        </Image>
+        <Image Name="5" Png="11336;3">
+            <Image Png="11335;1"/>
+        </Image>
+        <Image Name="6" Png="11338;3">
+            <Image Png="11337;1"/>
+        </Image>
+        <Image Name="7" Png="11340;3">
+            <Image Png="11339;1"/>
+        </Image>
+        <Image Name="8" Png="11342;3">
+            <Image Png="11341;1"/>
+        </Image>
+        <Image Name="9" Png="11344;3">
+            <Image Png="11343;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinPointDefault">
+        <Image Name="0" Png="11326;3">
+            <Image Png="11325;1"/>
+        </Image>
+        <Image Name="1" Png="11328;3">
+            <Image Png="11327;1"/>
+        </Image>
+        <Image Name="2" Png="11330;3">
+            <Image Png="11329;1"/>
+        </Image>
+        <Image Name="3" Png="11332;3">
+            <Image Png="11331;1"/>
+        </Image>
+        <Image Name="4" Png="11334;3">
+            <Image Png="11333;1"/>
+        </Image>
+        <Image Name="5" Png="11336;3">
+            <Image Png="11335;1"/>
+        </Image>
+        <Image Name="6" Png="11338;3">
+            <Image Png="11337;1"/>
+        </Image>
+        <Image Name="7" Png="11340;3">
+            <Image Png="11339;1"/>
+        </Image>
+        <Image Name="8" Png="11342;3">
+            <Image Png="11341;1"/>
+        </Image>
+        <Image Name="9" Png="11344;3">
+            <Image Png="11343;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinPointBlue">
+        <Image Name="0" Png="11348;3">
+            <Image Png="11347;1"/>
+        </Image>
+        <Image Name="1" Png="11350;3">
+            <Image Png="11349;1"/>
+        </Image>
+        <Image Name="2" Png="11352;3">
+            <Image Png="11351;1"/>
+        </Image>
+        <Image Name="3" Png="11354;3">
+            <Image Png="11353;1"/>
+        </Image>
+        <Image Name="4" Png="11356;3">
+            <Image Png="11355;1"/>
+        </Image>
+        <Image Name="5" Png="11358;3">
+            <Image Png="11357;1"/>
+        </Image>
+        <Image Name="6" Png="11360;3">
+            <Image Png="11359;1"/>
+        </Image>
+        <Image Name="7" Png="11362;3">
+            <Image Png="11361;1"/>
+        </Image>
+        <Image Name="8" Png="11364;3">
+            <Image Png="11363;1"/>
+        </Image>
+        <Image Name="9" Png="11366;3">
+            <Image Png="11365;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinPointGreen">
+        <Image Name="0" Png="11370;3">
+            <Image Png="11369;1"/>
+        </Image>
+        <Image Name="1" Png="11372;3">
+            <Image Png="11371;1"/>
+        </Image>
+        <Image Name="2" Png="11374;3">
+            <Image Png="11373;1"/>
+        </Image>
+        <Image Name="3" Png="11376;3">
+            <Image Png="11375;1"/>
+        </Image>
+        <Image Name="4" Png="11378;3">
+            <Image Png="11377;1"/>
+        </Image>
+        <Image Name="5" Png="11380;3">
+            <Image Png="11379;1"/>
+        </Image>
+        <Image Name="6" Png="11382;3">
+            <Image Png="11381;1"/>
+        </Image>
+        <Image Name="7" Png="11384;3">
+            <Image Png="11383;1"/>
+        </Image>
+        <Image Name="8" Png="11386;3">
+            <Image Png="11385;1"/>
+        </Image>
+        <Image Name="9" Png="11388;3">
+            <Image Png="11387;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinPointYellow">
+        <Image Name="0" Png="11392;3">
+            <Image Png="11391;1"/>
+        </Image>
+        <Image Name="1" Png="11394;3">
+            <Image Png="11393;1"/>
+        </Image>
+        <Image Name="2" Png="11396;3">
+            <Image Png="11395;1"/>
+        </Image>
+        <Image Name="3" Png="11398;3">
+            <Image Png="11397;1"/>
+        </Image>
+        <Image Name="4" Png="11400;3">
+            <Image Png="11399;1"/>
+        </Image>
+        <Image Name="5" Png="11402;3">
+            <Image Png="11401;1"/>
+        </Image>
+        <Image Name="6" Png="11404;3">
+            <Image Png="11403;1"/>
+        </Image>
+        <Image Name="7" Png="11406;3">
+            <Image Png="11405;1"/>
+        </Image>
+        <Image Name="8" Png="11408;3">
+            <Image Png="11407;1"/>
+        </Image>
+        <Image Name="9" Png="11410;3">
+            <Image Png="11409;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinPointOrange">
+        <Image Name="0" Png="11414;3">
+            <Image Png="11413;1"/>
+        </Image>
+        <Image Name="1" Png="11416;3">
+            <Image Png="11415;1"/>
+        </Image>
+        <Image Name="2" Png="11418;3">
+            <Image Png="11417;1"/>
+        </Image>
+        <Image Name="3" Png="11420;3">
+            <Image Png="11419;1"/>
+        </Image>
+        <Image Name="4" Png="11422;3">
+            <Image Png="11421;1"/>
+        </Image>
+        <Image Name="5" Png="11424;3">
+            <Image Png="11423;1"/>
+        </Image>
+        <Image Name="6" Png="11426;3">
+            <Image Png="11425;1"/>
+        </Image>
+        <Image Name="7" Png="11428;3">
+            <Image Png="11427;1"/>
+        </Image>
+        <Image Name="8" Png="11430;3">
+            <Image Png="11429;1"/>
+        </Image>
+        <Image Name="9" Png="11432;3">
+            <Image Png="11431;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinPointRed">
+        <Image Name="0" Png="11436;3">
+            <Image Png="11435;1"/>
+        </Image>
+        <Image Name="1" Png="11438;3">
+            <Image Png="11437;1"/>
+        </Image>
+        <Image Name="2" Png="11440;3">
+            <Image Png="11439;1"/>
+        </Image>
+        <Image Name="3" Png="11442;3">
+            <Image Png="11441;1"/>
+        </Image>
+        <Image Name="4" Png="11444;3">
+            <Image Png="11443;1"/>
+        </Image>
+        <Image Name="5" Png="11446;3">
+            <Image Png="11445;1"/>
+        </Image>
+        <Image Name="6" Png="11448;3">
+            <Image Png="11447;1"/>
+        </Image>
+        <Image Name="7" Png="11450;3">
+            <Image Png="11449;1"/>
+        </Image>
+        <Image Name="8" Png="11452;3">
+            <Image Png="11451;1"/>
+        </Image>
+        <Image Name="9" Png="11454;3">
+            <Image Png="11453;1"/>
+        </Image>
+        <Image Name="-" Png="11322;3">
+            <Image Png="11321;1"/>
+        </Image>
+    </Control>
+    <Control Name="MinigameCatchGremlinCountDownDefault">
+        <Image Name="0" Png="10666;4"/>
+        <Image Name="1" Png="10667;4"/>
+        <Image Name="2" Png="10668;4"/>
+        <Image Name="3" Png="10669;4"/>
+        <Image Name="4" Png="10670;4"/>
+        <Image Name="5" Png="10671;4"/>
+        <Image Name="6" Png="10672;4"/>
+        <Image Name="7" Png="10673;4"/>
+        <Image Name="8" Png="10674;4"/>
+        <Image Name="9" Png="10675;4"/>
+        <Image Name=":" Png="10676;4" Width="12" />
+    </Control>
+    <Control Name="MinigameCatchGremlinCountDownWarning">
+        <Image Name="0" Png="10688;4"/>
+        <Image Name="1" Png="10689;4"/>
+        <Image Name="2" Png="10690;4"/>
+        <Image Name="3" Png="10691;4"/>
+        <Image Name="4" Png="10692;4"/>
+        <Image Name="5" Png="10693;4"/>
+        <Image Name="6" Png="10694;4"/>
+        <Image Name="7" Png="10695;4"/>
+        <Image Name="8" Png="10696;4"/>
+        <Image Name="9" Png="10697;4"/>
+        <Image Name=":" Png="10676;4" Width="12" />
+    </Control>
+
+	<Control Name= "HpMpLevel" >
+		<Image Name="0" Png="16334;1"/>
+		<Image Name="1" Png="16335;1"/>
+		<Image Name="2" Png="16336;1"/>
+		<Image Name="3" Png="16337;1"/>
+		<Image Name="4" Png="16338;1"/>
+		<Image Name="5" Png="16339;1"/>
+		<Image Name="6" Png="16340;1"/>
+		<Image Name="7" Png="16341;1"/>
+		<Image Name="8" Png="16342;1"/>
+		<Image Name="9" Png="16343;1"/>
+		<Image Name="-" Png="11321;1"/>
+	</Control>
+
+	<Control Name= "RedFont" >
+		<Image Name="0" Png="16354;1"/>
+		<Image Name="1" Png="16355;1"/>
+		<Image Name="2" Png="16356;1"/>
+		<Image Name="3" Png="16357;1"/>
+		<Image Name="4" Png="16358;1"/>
+		<Image Name="5" Png="16359;1"/>
+		<Image Name="6" Png="16360;1"/>
+		<Image Name="7" Png="16361;1"/>
+		<Image Name="8" Png="16362;1"/>
+		<Image Name="9" Png="16363;1"/>
+	</Control>
+
+	<Control Name="BlueFont" >
+		<Image Name="0" Png="16344;1"/>
+		<Image Name="1" Png="16345;1"/>
+		<Image Name="2" Png="16346;1"/>
+		<Image Name="3" Png="16347;1"/>
+		<Image Name="4" Png="16348;1"/>
+		<Image Name="5" Png="16349;1"/>
+		<Image Name="6" Png="16350;1"/>
+		<Image Name="7" Png="16351;1"/>
+		<Image Name="8" Png="16352;1"/>
+		<Image Name="9" Png="16353;1"/>
+	</Control >
+
+	<Control Name="ItemSlotYellow" >
+		<Image Name="0" Png="16364;1"/>
+		<Image Name="1" Png="16365;1"/>
+		<Image Name="2" Png="16366;1"/>
+		<Image Name="3" Png="16367;1"/>
+		<Image Name="4" Png="16368;1"/>
+		<Image Name="5" Png="16369;1"/>
+		<Image Name="6" Png="16370;1"/>
+		<Image Name="7" Png="16371;1"/>
+		<Image Name="8" Png="16372;1"/>
+		<Image Name="9" Png="16373;1"/>
+	</Control >
+
+	<Control Name="LitoTeamScoreA">
+		<Image Name="0" Png="12556;1"/>
+		<Image Name="1" Png="12557;1"/>
+		<Image Name="2" Png="12558;1"/>
+		<Image Name="3" Png="12559;1"/>
+		<Image Name="4" Png="12560;1"/>
+		<Image Name="5" Png="12561;1"/>
+		<Image Name="6" Png="12562;1"/>
+		<Image Name="7" Png="12563;1"/>
+		<Image Name="8" Png="12564;1"/>
+		<Image Name="9" Png="12565;1"/>
+	</Control>
+	
+	<Control Name="LitoTeamScoreB">
+		<Image Name="0" Png="12556;1"/>
+		<Image Name="1" Png="12557;1"/>
+		<Image Name="2" Png="12558;1"/>
+		<Image Name="3" Png="12559;1"/>
+		<Image Name="4" Png="12560;1"/>
+		<Image Name="5" Png="12561;1"/>
+		<Image Name="6" Png="12562;1"/>
+		<Image Name="7" Png="12563;1"/>
+		<Image Name="8" Png="12564;1"/>
+		<Image Name="9" Png="12565;1"/>
+	</Control>
+  
+	<Control Name="LitoTimer">
+		<Image Name="0" Png="12567;3">
+			<Image Png="12568;4"/>
+		</Image>
+		<Image Name="1" Png="12569;3">
+			<Image Png="12570;4"/>
+		</Image>
+		<Image Name="2" Png="12571;3">
+			<Image Png="12572;4"/>
+		</Image>
+		<Image Name="3" Png="12573;3">
+			<Image Png="12574;4"/>
+		</Image>
+		<Image Name="4" Png="12575;3">
+			<Image Png="12576;4"/>
+		</Image>
+		<Image Name="5" Png="12577;3">
+			<Image Png="12578;4"/>
+		</Image>
+		<Image Name="6" Png="12579;3">
+			<Image Png="12580;4"/>
+		</Image>
+		<Image Name="7" Png="12581;3">
+			<Image Png="12582;4"/>
+		</Image>
+		<Image Name="8" Png="12583;3">
+			<Image Png="12584;4"/>
+		</Image>
+		<Image Name="9" Png="12585;3">
+			<Image Png="12586;4"/>
+		</Image>
+		<Image Name=":" Png="12587;3" RealDrawRect="7,0,21,35">
+			<Image Png="12588;4"/>
+		</Image>
+	</Control>
+	
+	<Control Name="LitoCountDown">
+		<Image Name="0" Png="12754;3" RealDrawRect="8,0,55,80">
+			<UIAnim X="-96" Y="-16" Track="29"/>
+			<Image Png="12755;4"/>
+		</Image>
+		<Image Name="1" Png="12736;3" RealDrawRect="12,0,45,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="2" Track="29"/>
+			<Image Png="12737;4"/>
+		</Image>
+		<Image Name="2" Png="12738;3" RealDrawRect="4,0,53,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="4" Track="29"/>
+			<Image Png="12739;4"/>
+		</Image>
+		<Image Name="3" Png="12740;3" RealDrawRect="4,0,53,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="6" Track="29"/>
+			<Image Png="12741;4"/>
+		</Image>
+		<Image Name="4" Png="12742;3" RealDrawRect="4,0,53,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="8" Track="29"/>
+			<Image Png="12743;4"/>
+		</Image>
+		<Image Name="5" Png="12744;3" RealDrawRect="5,0,56,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="10" Track="29"/>
+			<Image Png="12745;4"/>
+		</Image>
+		<Image Name="6" Png="12746;3" RealDrawRect="6,0,58,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="12" Track="29"/>
+			<Image Png="12747;4"/>
+		</Image>
+		<Image Name="7" Png="12748;3" RealDrawRect="12,0,58,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="14" Track="29"/>
+			<Image Png="12749;4"/>
+		</Image>
+		<Image Name="8" Png="12750;3" RealDrawRect="7,0,55,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="16" Track="29"/>
+			<Image Png="12751;4"/>
+		</Image>
+		<Image Name="9" Png="12752;3" RealDrawRect="4,0,56,80">
+			<UIAnim X="-96" Y="-16" ImgNumOffset="18" Track="29"/>
+			<Image Png="12753;4"/>
+		</Image>
+	</Control>
+	
+	<Control Name="LitoWarningTimer">
+		 <Image Name="0" Png="13125;3">
+            <Image Png="13126;4"/>
+        </Image>
+        <Image Name="1" Png="13127;3">
+            <Image Png="13128;4"/>
+        </Image>
+        <Image Name="2" Png="13129;3">
+            <Image Png="13130;4"/>
+        </Image>
+        <Image Name="3" Png="13131;3">
+            <Image Png="13132;4"/>
+        </Image>
+        <Image Name="4" Png="13133;3">
+            <Image Png="13134;4"/>
+        </Image>
+        <Image Name="5" Png="13135;3">
+            <Image Png="13136;4"/>
+        </Image>
+        <Image Name="6" Png="13137;3">
+            <Image Png="13138;4"/>
+        </Image>
+        <Image Name="7" Png="13139;3">
+            <Image Png="13140;4"/>
+        </Image>
+        <Image Name="8" Png="13141;3">
+            <Image Png="13142;4"/>
+        </Image>
+        <Image Name="9" Png="13143;3">
+            <Image Png="13144;4"/>
+        </Image>
+		<Image Name=":" Png="13123;3" RealDrawRect="7,0,21,35">
+			<Image Png="13124;4"/>
+		</Image>
+	</Control>
+	
+	<Control Name="LitoScoreA">
+		<Image Name="0" Png="12556;1"/>
+		<Image Name="1" Png="12557;1"/>
+		<Image Name="2" Png="12558;1"/>
+		<Image Name="3" Png="12559;1"/>
+		<Image Name="4" Png="12560;1"/>
+		<Image Name="5" Png="12561;1"/>
+		<Image Name="6" Png="12562;1"/>
+		<Image Name="7" Png="12563;1"/>
+		<Image Name="8" Png="12564;1"/>
+		<Image Name="9" Png="12565;1"/>
+		<Image Name="," Png="13178;1"/>
+	</Control>
+	
+	<Control Name="LitoScoreB">
+		<Image Name="0" Png="12556;1"/>
+		<Image Name="1" Png="12557;1"/>
+		<Image Name="2" Png="12558;1"/>
+		<Image Name="3" Png="12559;1"/>
+		<Image Name="4" Png="12560;1"/>
+		<Image Name="5" Png="12561;1"/>
+		<Image Name="6" Png="12562;1"/>
+		<Image Name="7" Png="12563;1"/>
+		<Image Name="8" Png="12564;1"/>
+		<Image Name="9" Png="12565;1"/>
+		<Image Name="," Png="13178;1"/>
+	</Control>
+	
+	<Control Name="RandomScoreA">
+		<Image Name="0" Png="12556;1"/>
+		<Image Name="1" Png="12557;1"/>
+		<Image Name="2" Png="12558;1"/>
+		<Image Name="3" Png="12559;1"/>
+		<Image Name="4" Png="12560;1"/>
+		<Image Name="5" Png="12561;1"/>
+		<Image Name="6" Png="12562;1"/>
+		<Image Name="7" Png="12563;1"/>
+		<Image Name="8" Png="12564;1"/>
+		<Image Name="9" Png="12565;1"/>
+	</Control>
+	
+	<Control Name="RandomScoreB">
+		<Image Name="0" Png="12556;1"/>
+		<Image Name="1" Png="12557;1"/>
+		<Image Name="2" Png="12558;1"/>
+		<Image Name="3" Png="12559;1"/>
+		<Image Name="4" Png="12560;1"/>
+		<Image Name="5" Png="12561;1"/>
+		<Image Name="6" Png="12562;1"/>
+		<Image Name="7" Png="12563;1"/>
+		<Image Name="8" Png="12564;1"/>
+		<Image Name="9" Png="12565;1"/>
+	</Control>
+</Preset>

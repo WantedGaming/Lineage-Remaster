@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンターの助手</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		あなたはグンター様の<font fg="ffaaff">手紙</font>をまだ持っておられます。<br/>
+		魔法の力で、手紙の寿命は12時間程度になると存じています。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

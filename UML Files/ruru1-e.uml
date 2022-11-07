@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>寒い冬が過ぎると、暖かい春がやって来ます。氷は解けて、木の芽が芽生え始めるのが万物の法則なのに…<a link="ruru2">氷の湖</a>付近は、冷たい雪と鋭く凍てついた氷の世界です。</p>
+		<p>もちろん、このオーレン地方全体が、アデンで最も寒い地域ではありますが…	</p>
+	</dialog>
+	
+</npcdialog>

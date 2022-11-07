@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>デポロジュー</name>
+    <job>[赤き騎士団]</job>
+  </npc>
+  	<dialog align="left">
+		<p><font fg="ffafff">赤き騎士団</font>を率いるデポロジューだ！</p>
+		<p><font fg="ffafff">ギルタス</font>との戦いで、黒い気配に食い荒らされているアデンの姿を見た。</p>
+		<p>これ以上…アデンを奴らに渡すわけにはいかない。</p>
+		<p>我ら<font fg="ffafff">赤き騎士団</font>は、黒の軍団からアデンを守るのだ。</p>
+		<p>待て…いましばし…</a></p>
+	</dialog>
+</npcdialog>

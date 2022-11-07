@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>礼を言う。本当にありがとう。おかげで抜けていた情報の欠片がすべて集まった。彼女にはしばらくゆっくり休んでもらうとしよう。</p>
+		<p>それはともかく、報告書に目を通してみたが、問題が深刻だな。魔族の企みがわかった。このままではアデンのみならず、全世界が魔族の手に落ちる事態になりかねない。</p>
+		<p>アンデッド魔族のリーダー、ヤヒは、自らの主である火炎の影が目覚める前に己の力をより強力なものにするため、魔族神殿の地下にアンデッド魔族の生産所を作ったそうな。このままでは魔族がどんどん作り出されて、力が強まるばかりだろう。
+		<br/><br/><br/><br/>
+		<a link="dicardinge11">どうすればいいのでしょうか</a><br/></p>
+	</dialog>
+	
+</npcdialog>

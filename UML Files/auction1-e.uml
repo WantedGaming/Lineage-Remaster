@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>アジト競売</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>競売管理者</name>
+		<job></job>
+		<text>アジト競売の進行担当</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 こんにちは、何でも聞いてください。<br/>
+		<br/><br/>
+		<a link="auction2">アジトについて聞く</a><br/><br/>
+		<a link="auction3">競売について聞く</a><br/>
+		<br/><br/>
+		 アジトを所有していたり、競売に参加中の時に、<font fg="ffffff">血盟を解散</font>したり、城や他のアジトを所有するようになると、アジトに関するすべての<font fg="ffffff">権利を剥奪</font>されるので<br/>ご注意ください。<br/>
+		<br/>
+		
+		
+		
+		
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

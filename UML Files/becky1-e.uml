@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ベキ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<br/>
+		 この村は素敵な殿方がいっぱいいるの！褐色の肌に堀の深い顔！わたくしの理想の殿方ですの！
+		<br/>
+		<br/>
+		 ああ…わたくしにお声をかけてくださらないかしら…
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

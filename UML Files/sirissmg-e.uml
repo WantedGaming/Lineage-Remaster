@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シリス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>魔法とは端的に言えば神の力を借りて起こす<font fg="ffffff">様々な奇跡</font>と言えるでしょう。大きく分けて<font fg="ffffff">善の神アインハザードの白魔法</font>と<font fg="ffffff">悪の神グランカインの黒魔法</font>に分かれます。<br/></p>
+		<p>これは本当に簡単な例えなので、もっと詳しく難しい魔法理論を知りたければ<font fg="ffffff">話せる島のゲレン様</font>に伺うと良いでしょう。<br/></p>
+		<p>いずれにせよ、魔法とはそういうものですので、剣に己を捧げた騎士や神の存在を認めない方には魔法をお教えすることも使うこともできないのです。<br/></p>
+
+		<p><img src="331" link="siriss"/><br/></p>
+		
+	</dialog>
+
+</npcdialog>

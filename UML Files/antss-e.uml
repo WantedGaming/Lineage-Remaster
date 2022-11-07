@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>ゲートアント</name>
+  </npc>
+  <dialog>
+   <p>ウォー アント様！奴らを倒してください！</p>
+   <p><a action="teleport mutant-dungen">ミュータント アント ダンジョンに入る</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ブラッド</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>今この地域には行くことができない。</p>
+	<p><br/></p>
+	<p>時間をすべて使い果たしたようだな？</p>
+	<p>また今度来てくれ。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

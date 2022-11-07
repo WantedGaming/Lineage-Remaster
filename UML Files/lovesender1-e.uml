@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>○○</name>
+  </npc>
+  <dialog>
+    <p>アデンに愛が溢れ出ていますね。</p>
+    <p><a action="teleport weddinghall">野外結婚式場に移動する</a></p>
+  </dialog>
+</npcdialog>

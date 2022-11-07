@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Separate the 4 types of elemental stones from the black bloodstain.<br/></p>
+    <p>How many black bloodstains do you have? I will separate as many as you want.<br/><br/><br/></p>
+    <p><a action="K">1</a><br/></p>
+    <p><a action="L">10</a><br/></p>
+    <p><a action="M">50</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy9"/><br/></p>
+  </dialog>
+</npcdialog>

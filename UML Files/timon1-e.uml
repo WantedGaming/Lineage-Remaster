@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ティモン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>陛下、何でもご命令くださいませ。</p>
+		<p><a link="timonhp1">助言を求める</a></p>
+		<p><a action="inex">収入/支出の報告を受ける</a></p>
+		<p><a action="tax">税率を調節する</a></p>
+		<p><a action="withdrawal">資金を引き出す</a></p>
+		<p><a action="cdeposit">資金を入金する</a></p>
+		<p><a link="timon4">親衛隊を管理する</a></p>
+		<p><a action="asktime">次の攻城戦の時間を決める</a></p>
+		<p><a action="security">城内の治安を管理する</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>'魔族の血痕'を持ってきたのですか？<br/>
+		 <br/>
+		 '魔族の血痕'には魔族が行ってきた実験の真髄が込められています。<br/>
+		 <br/>
+		 簡単には精製できない代物ですが、私がお手伝いしましょう。<br/>
+		 <br/>
+		 手に入れられたら、私に言ってくださいね。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>ガード</name>
+	<job>キーパー</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>侵入者だ！人間だ！敵だ！</p>
+</dialog>
+
+</npcdialog>

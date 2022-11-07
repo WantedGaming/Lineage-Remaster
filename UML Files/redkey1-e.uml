@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>赤い鍵の秘密の一つ：</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>赤い鍵は…この道の果てにあると言う…</p>
+	</dialog>
+</npcdialog>

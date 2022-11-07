@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WalkSeparate>	
+	<!--왼발, 오른발 액션이 구분되어 있는 스프라이트를 설정합니다. Desc는 관리를 위한 항목으로 코드에서 사용하지 않습니다. -->
+	<Sprite Num="12579"/>
+	<Sprite Num="12414"/>
+	<Sprite Num="12637"/>
+	<Sprite Num="12607"/>
+	<Sprite Num="12848"/>
+	<Sprite Num="13533"/>
+	
+	<Sprite Num="12849"/>
+	<Sprite Num="12850"/>
+	<Sprite Num="12851"/>
+	<Sprite Num="12852"/>
+	<Sprite Num="12853"/>
+	<Sprite Num="12854"/>
+	<Sprite Num="12855"/>
+	<Sprite Num="12856"/>
+	<Sprite Num="12857"/>
+
+
+
+	<Sprite Num="13061" Desc="좀비로드"/>
+	<Sprite Num="13696"/>
+	<Sprite Num="14491"/>
+
+	<Sprite Num="13692" Desc="테베라스 보스"/>
+	<Sprite Num="13690"/>
+	<Sprite Num="13747"/>
+
+	<Sprite Num="12589" Desc="망자의 교도관"/>
+	<Sprite Num="12238" Desc="키메라이드"/>
+
+	<Sprite Num="14798" Desc="기사 뛰는 모션"/>
+	<Sprite Num="14559" Desc="드래곤 슬레이어 빠른 이동"/>
+	
+	<Sprite Num="14859" Desc="랭커 남 군주 뛰는 모션"/>
+	<Sprite Num="14863" Desc="랭커 여 군주 뛰는 모션"/>
+	<Sprite Num="14867" Desc="랭커 남 기사 뛰는 모션"/>
+	<Sprite Num="14871" Desc="랭커 여 기사 뛰는 모션"/>
+	<Sprite Num="14875" Desc="랭커 남 요정 뛰는 모션"/>
+	<Sprite Num="14879" Desc="랭커 여 요정 뛰는 모션"/>
+	<Sprite Num="14883" Desc="랭커 남 법사 뛰는 모션"/>
+	<Sprite Num="14887" Desc="랭커 여 법사 뛰는 모션"/>
+	<Sprite Num="14891" Desc="랭커 남 다엘 뛰는 모션"/>
+	<Sprite Num="14895" Desc="랭커 여 다엘 뛰는 모션"/>
+	<Sprite Num="14899" Desc="랭커 남 용기 뛰는 모션"/>
+	<Sprite Num="14903" Desc="랭커 여 용기 뛰는 모션"/>
+	<Sprite Num="14907" Desc="랭커 남 환술 뛰는 모션"/>
+	<Sprite Num="14911" Desc="랭커 여 환술 뛰는 모션"/>
+	<Sprite Num="14915" Desc="랭커 남 전사 뛰는 모션"/>
+	<Sprite Num="14919" Desc="랭커 여 전사 뛰는 모션"/>
+	<Sprite Num="14986" Desc="랭커 여 용기 걷는 모션"/>
+	
+	<Sprite Num="15076" Desc="LMS 아툰 달리기"/>
+	<Sprite Num="15110" Desc="LMS 아스테어 달리기"/>
+	<Sprite Num="15114" Desc="LMS 아툰 delay달리기"/>
+	<Sprite Num="15121" Desc="LMS 듀크 데필 달리기"/>
+	<Sprite Num="15128" Desc="LMS 크리스터 달리기"/>
+	<Sprite Num="15140" Desc="LMS 하딘의 분신 달리기"/>
+
+	<Sprite Num="15178" Desc="LMS 바포메트-리뉴얼 달리기"/>
+	<Sprite Num="15183" Desc="LMS 다이노스 타자 달리기"/>
+	<Sprite Num="15190" Desc="LMS 진 다크엘프 달리기"/>
+	<Sprite Num="15194" Desc="LMS 흑기사-리뉴얼 달리기"/>
+	<Sprite Num="15212" Desc="LMS 블랙위자드 달리기"/>
+	<Sprite Num="15229" Desc="LMS 다이노스 투수 달리기"/>
+	<Sprite Num="15237" Desc="LMS 드레이크 달리기"/>
+	
+	<Sprite Num="15254" Desc="LMS 남 군주 달리기"/>
+	<Sprite Num="15258" Desc="LMS 여 군주 달리기"/>
+	<Sprite Num="15280" Desc="LMS 남 요정 달리기"/>
+	<Sprite Num="15284" Desc="LMS 여 요정 달리기"/>
+	<Sprite Num="15272" Desc="LMS 남 기사 달리기"/>
+	<Sprite Num="15276" Desc="LMS 여 기사 달리기"/>
+	<Sprite Num="15288" Desc="LMS 남 다엘 달리기"/>
+	<Sprite Num="15292" Desc="LMS 여 다엘 달리기"/>
+	<Sprite Num="15296" Desc="LMS 남 법사 달리기"/>
+	<Sprite Num="15300" Desc="LMS 여 법사 달리기"/>
+	
+	<Sprite Num="15492" Desc="발라카스"/>
+	</WalkSeparate>

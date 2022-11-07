@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_001</portrait>
+		<name>ファイ</name>
+		<job>[加護製作]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>こんにちは！<br/>
+		<br/>
+		加護製作をお助けしているファイといいます。<br/>
+		<br/>
+		皆さんの成長に役立つ加護を準備したので、ぜひ製作してみてください。<br/>
+		<br/>
+		加護によって製作方法が違うので、必ず確認してください！<br/>
+		<br/>
+				</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

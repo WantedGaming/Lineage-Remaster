@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font></p>
+    <p><br/><br/>申し訳ございません。お客様。</p>
+	<p>今は空き部屋がありません。</p>
+  </dialog>
+</npcdialog>

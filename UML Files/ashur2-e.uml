@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Ashur</name>
+		<job>Merchant</job>
+		<text>Desert Travel Essentials</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 I don't want to sell to someone like you, but let's take it in stride this time.
+		 Now, please take a look.<br/>
+		<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Button">
+			<button action="buy"/>
+			<button action="sell"/>
+			</panel>
+		<p><br/>
+		<a link="ashurEv1">Ask about the geography of the area</a><br/>
+		<a action="ashurEv7">Ask about recent prices</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

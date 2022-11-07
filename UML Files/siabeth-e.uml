@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャベス</name>
+		<job>精霊魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>私はエリオン様の命を受けてここに来たシャベスといいます。<br/></p>		
+		<p>エリオン様がここのエルフたちに<font fg="ffafff">精霊魔法に関する知識を伝授</font>して、これから訪れる危機に立ち向かう準備をしろと命ぜられました。<br/><br/></p>		
+		<p>もちろん中古武器の販売も大歓迎です。<br/></p>		
+
+		<p><a link="siabeth1">精霊魔法は何ですか</a></p>		
+	</dialog>
+
+</npcdialog>

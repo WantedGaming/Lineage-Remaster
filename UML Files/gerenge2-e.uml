@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>この世のすべての現象を説明できる二つの軸「アインハザードの善とグランカインの悪」を研究する人々だ…<br/><br/>
+		神について最も詳しい人々だが、同時に神から最も遠いところにいる人々でもある。<br/><br/><br/><a link="gerenge5">我々ウィザードは神を信じないのでね。</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

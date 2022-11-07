@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>パゴ</name>
+    <job>[オーク商人]</job>
+    <text>私は商人、お前は客…</text>
+  </npc>
+  <dialog>
+	<p>私が思うに…ここは何かをするための場所だったようだ。</p>
+	<p>知っているかもしれないが、ずいぶん前から…この場所は悲しみでいっぱいになったと伝えられる。頭が二つの巨人を見たか？羽が生えた変な女もいるようだ。とにかく、この場所は…どうも…変だ…。</p>
+  </dialog>
+</npcdialog>

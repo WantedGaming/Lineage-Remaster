@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ディエツ</name>
+		<job>[古代遺物専門家]</job>
+  </npc>
+  <dialog>
+  <p>
+	うへへっ。古代遺物の専門家？それがどうしたってんだ！？あんたもロウギの奴みたいに、古ぼけた壺かなんかに興味を持ったのか？<br/>
+ だがな、無駄なんだよ！意味ないね！<br/><br/>
+ <a link="dh3">古代のアミュレットについてご存知なんですね</a>
+ </p>
+  </dialog>
+</npcdialog>

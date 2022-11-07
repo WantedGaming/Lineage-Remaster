@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブルディカ</name>
+		<job>ダークエルフ長老</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 君の活躍のおかげで念の母体の変質を防ぐことができた。<br/><br/>
+		 君の名はダークエルフ族の歴史に刻まれ、語り継がれることだろう。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

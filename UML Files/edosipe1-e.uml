@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エドシフェ</name>
+  </npc>
+  <dialog>
+	<p>
+ 私はアデン連合軍の進撃を助けるために来たエドシフェと言います。<br/>
+ 君主は私の持つテレポートの能力を買われ、短時間に進撃が行えるように私を遣わされたのです。<br/>
+ アデン連合軍がより短時間で移動できるようにご協力しましょう。<br/>
+ ただし、進撃の準備が整っている方だけ、テレポートを頼んでください。<br/>
+ 送り先は強い敵たちが待ち受ける場所。命を失うこともあります。<br/>
+<br/>
+<a link="edosipe2">敵たちと戦いたいです！</a>
+</p>
+  </dialog>
+</npcdialog>

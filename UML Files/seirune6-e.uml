@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ネルバ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+				
+		<p>グルルルル～<br/></p>
+		<p>と～っても満足だにゃ～<br/></p>
+		<p>グルルルル～<br/></p>
+				
+	</dialog>
+
+</npcdialog>

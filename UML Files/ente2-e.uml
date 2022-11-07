@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エント</name>
+		<job>[森の守護者]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>エルフ。ボクの<font fg="ffffff">枝、表皮、実、</font>必要。</p>
+		<p>枝。実。ボクの体<font fg="ffffff">静かにたたくと</font>、出る。でも<font fg="ffffff">表皮。きのこの胞子汁。</font>ボクにくれたら。もらえる。</p>
+		<p>枝で。<font fg="ffffff">弓矢</font>…表皮で<font fg="ffffff">鎧</font>、実は<font fg="ffffff">体力回復。</font></p>
+		<p>ボクの枝。<font fg="ffffff">食べれば。解毒作用。</font></p>
+		<p>ボクから。出てくる。もの。エルフ。うまく使う。うれしい。</p>
+  </dialog>
+</npcdialog>

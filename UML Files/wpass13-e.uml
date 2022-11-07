@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name>次元の扉</name>
+  </npc>
+  <dialog>
+    <p>宙に浮かぶ絵がこちらを興味深く見ている。<br/>
+		<br/>
+		近づいてみると、あなたではなくバックの中にある何かを見ているようだ。<br/>
+    バックの中にある風の支配者を取り出すと、絵は何事もなかったかのように無機質な表情で宙に見ている。<br/>
+		<br/>
+		今が通過するチャンスのようだ。</p>
+		<p><br/></p>
+		<p><a action="a">通過する</a></p>
+  </dialog>
+</npcdialog>

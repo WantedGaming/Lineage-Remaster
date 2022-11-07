@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Training Manager：</font><br/><br/></p>
+    <p>You're getting pretty good with weapons!</p>
+    <p>Well then, now go to the <font fg="ffafff">"North Canyon" or the "South Canyon"</font> and actually fight the monsters!</p>
+	<p>If you don't know where to go, ask <font fg="ffafff">Doria</font> in the village.</p>
+    <p>She knows alot about the area, she'll help you.</p>
+  </dialog>
+</npcdialog>

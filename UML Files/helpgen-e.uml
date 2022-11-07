@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>一般</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ヘルプ：一般</font><br/></p>
+	<p>以下の項目のうち、お望みの項目をクリックしてください。<br/></p>
+	<p><a link="helpgen01">▽キャラクターの移動と方向転換</a><br/></p>
+	<p><a link="helpgen02">▽アイテム選択変更</a><br/></p>
+	<p><a link="helpgen03">▽メニューアイコンバー使用</a><br/></p>
+	<p><a link="helpgen04">▽ショートカット ウィンドウ使用</a><br/></p>
+	<p><img src="331" link="help"/><br/></p>
+  </dialog>
+</npcdialog>

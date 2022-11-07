@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ヤンホン</name>
+	</npc>
+	<dialog>
+		<p><font fg="ffffaf">+1マジック ヘルム：真</font>の合成に成功しました。<br/>
+		<br/>
+		<br/>
+		<a link="yanghong10">再度合成を試みる</a></p>
+	</dialog>
+</npcdialog>

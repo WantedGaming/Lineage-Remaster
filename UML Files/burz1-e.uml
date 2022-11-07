@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バズ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 自分が飼う動物は最後まで面倒を見て守らないと！<br/>
+		 <br/>
+		 <br/>
+		<a action="depositnpc">動物を預ける</a><br/>
+		<a action="withdrawnpc">動物を引き取る</a><br/>
+		<a link="transfer">動物を譲渡する</a><br/>
+		<br/>
+		 <br/>
+		 どうしてもって時は、私に預けてくださいね。1体につき、<var src="0"/>Adenaで預かりますよ。<br/>
+		 <br/>
+		 もちろん、預けられるのはあなたが飼っている動物だけです。魔法で従わせているようなモンスターとかは受けつけていません！<br/>
+		 <br/>
+		 <br/>
+		 
+		 <a link="helppet02">動物を手なずける方法を聞く</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

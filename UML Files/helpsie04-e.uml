@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>攻城戦</title>
+  <dialog>
+	<p><font fg="ffffaf">攻城戦の布告ができない場合：</font><br/>
+	1.城を所有している君主は攻城戦を布告できません。<br/>
+	2.外城に血盟員がいる場合は攻城戦を布告できません。<br/>
+	3.内城にいる場合には攻城戦を布告できません。<br/>
+	4.城やダンジョンの中にいる場合は攻城戦を布告できません。<br/>
+	5.血盟の紋章(エンブレム)がない場合は攻城戦を布告できません。<br/></p>
+	<p><img src="331" link="helpsie"/><br/><br/></p>
+	</dialog>
+</npcdialog>

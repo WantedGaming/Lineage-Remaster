@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_001</portrait>
+		<name>モスコ</name>
+		<job>[イベント製作]</job>
+		<text></text>
+	</npc>
+	<dialog>
+	<p>やあ、ようこそ。<br/>
+		<br/>
+		私は製作の達人モスコだ。<br/>
+		<br/>
+		君も貼り紙を見て来た傭兵か？<br/>
+		<br/>
+		すると他の勇士よりも闇の放浪者を多く倒して<br/>
+		より良い報賞が欲しいんだな。<br/>
+		なら私がその手助けをしてやろう。<br/>
+		<br/>
+		<font fg="ffffaf">最高級ドラゴンのダイアモンド</font>1個で入場時間を1時間追加できるぞ。<br/>
+		<br/>
+		<font fg="ffffaf">高級ドラゴンのダイアモンド</font>1個なら、<br/>
+		<font fg="ffffaf">ドラゴンの成長ポーション</font>3個を製作してやるぞ！<br/>
+				</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

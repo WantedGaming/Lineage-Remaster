@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_001</portrait>
+		<name>ダハール</name>
+		<job>[プレミアム報賞製作]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>ダーク訓練場の強い気が<br/>
+		ここまで感じられるな…！！<br/>
+		<br/>
+		自己紹介が遅れたな、<br/>
+		私はダーク訓練場のプレミアム報賞製作を任されている<br/> 
+		<font fg="ffffaf">ダハール</font>という！<br/>
+		<br/> 
+		<font fg="ffafff">闇のプレミアム チケット</font>と<font fg="ffffaf">ドラゴンの高級ダイアモンド</font>を<br/>
+		持ってきたら、レベルにあったプレミアム報賞アイテムを<br/>
+		製作するぞ！<br/>
+		<br/>
+		<font fg="ffafff">闇のプレミアム チケット</font>によって<br/>
+		必要な<font fg="ffffaf">ドラゴンの高級ダイアモンド</font>の製作個数が<br/>
+		違うから注意してくれ。<br/>
+		<br/>
+		プレミアム報賞はアデンの勇士に必要な物を<br/>
+		揃えているから何度も利用してくれ！<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="non_npc request craft"/></panel>
+	</dialog>
+</npcdialog>

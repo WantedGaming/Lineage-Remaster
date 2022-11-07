@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エリナ</name>
+  </npc>
+  <dialog>
+	<p>
+ ここは水の女神エヴァの守護を受けし地、<br/>
+ <font fg="ffffff">ハイネ</font>。<br/>
+ 青い海の恵みを授かっている地です。海からは学ぶことがたくさんあるんですよ。<br/>
+ ここでは命の源になる恵みと死に至らせる厳しさが共存しているのです。<br/>
+</p>
+  </dialog>
+</npcdialog>

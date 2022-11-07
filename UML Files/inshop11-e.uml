@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		<font fg="ffafff">[メイン設定]</font><br/></p>
+		<p>トレード不可<br/>
+		詳細事項は下段参照<br/><br/></p>
+		
+		<p><font fg="ffafff">[商品構成]</font><br/></p>
+		<p>記憶拡張玉1個<br/><br/></p>
+		
+		<p><font fg="ffafff">[商品説明]</font><br/></p>
+		<p>覚えられるリストを永久に拡張できる玉<br/>
+		1個当たりブックマーク ウィンドウ10個拡張<br/><br/></p>
+		
+		<p><font fg="ffafff">[特異事項]</font><br/></p>
+		<p>1キャラクターのブックマーク ウィンドウの拡張は最大100個まで可能。100個を全て拡張したキャラクターは記憶拡張玉使用不可<br/><br/></p>
+		
+		<p><font fg="ffafff">[設定]</font><br/></p>
+		<p>1．記憶拡張玉の箱<br/>
+		 ドロップ/トレード/個人商店/アカウント倉庫保管/キャラクター専用倉庫保管可能<br/>
+		 削除/アデン商団に販売不可<br/><br/></p>
+		
+		<p>2．記憶拡張玉<br/>
+		 ドロップ/トレード/アカウント倉庫/キャラクター専用倉庫保管可能<br/>
+		 個人商店/削除/アデン商団に販売不可<br/><br/></p>
+		
+	</dialog>
+</npcdialog>

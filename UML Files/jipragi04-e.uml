@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 今は乾いた荒地が勇士たちでいっぱいだ。<br/><br/>
+		 もう少し後でまた来てくれるか？<br/> 
+		 乾いた荒地の利用時間は<font fg="b078ab">40分</font>だ。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

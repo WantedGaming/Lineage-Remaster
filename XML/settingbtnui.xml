@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<SettingBtnUI>
+  <Button Name="SettingButton" X = "0" Y = "0" BaseSurf = "8281" HighlightSurf = "8275" PushSurf = "8281" MouseEvent = "Setting_Btn">
+    <Tooltip Name = "Desc_Tooltip" X="0" Y="0" FontColor="255,255,255" BackColor="0,0,0" String="618" Time="600"/>
+  </Button>
+</SettingBtnUI>

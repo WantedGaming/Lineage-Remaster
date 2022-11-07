@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+<a link="doettE10">フェアリーの羽</a>3つと<a link="doettE2">ミスリル</a>    
+150個を、<a link="doettE3">ブロッブ</a>に食べさせた後、20秒以内にブロッブを    
+殺せば<a link="doettE11">ロングソードの刀身</a>が得られます。 
+<br/>
+注意してください！    
+<font fg="ffffff">20秒</font>を過ぎると、ブロッブはあなたが与えたエサを    
+すでに美味しく消化してしまっているでしょうから。<br/><br/>
+<img src="331" link="doettE1"/>
+</p> 
+  </dialog>
+</npcdialog>

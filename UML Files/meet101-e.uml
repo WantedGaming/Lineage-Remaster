@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 ぐはははっ…<br/>
+		<br/>
+		 お前に問う。<br/>
+		 奴隷よ、お前の主は誰だ…！<br/>
+		<br/>
+		<a action="1">私の霊魂はヤヒ様へ…</a>
+		</p>
+	</dialog>
+</npcdialog>

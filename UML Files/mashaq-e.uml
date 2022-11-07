@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		すぐに優しい君主様が戻られるそうだ。
+		<br/><br/>
+		君もすぐにあの方に呼ばれるだろうから、準備しなさい。
+		<br/><br/>
+		あっ、試験のためなら<font fg="ffffaf">シルバーナイトタウンで基礎訓練教官</font>を訪ねてみることじゃ。
+		</p>
+	</dialog>
+</npcdialog>

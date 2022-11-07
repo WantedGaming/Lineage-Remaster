@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>秘密を守るための誓いはしたんだな。<br/></p>
+		<p>ということは、私が作った特別なマジックドールを強化したいのか？<br/></p>
+		<p>マジックチャージを使えば特別なマジックドールの時間チャージも可能だ。<br/></p>
+		<p>マジックチャージは24時間おきに1時間ずつできる。<br/></p>
+		<p>たったの1000Adenaでだ。<br/></p>
+		<p><a action="b">強化魔法薬をください</a></p>
+		<p><a action="c">チャージしたいです</a></p>
+	</dialog>
+
+</npcdialog>

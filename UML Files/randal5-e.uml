@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ランダル</name>
+    <job>[ポーション商人]</job>
+  </npc>
+  <dialog align="left">
+    <p>すべてのクラスが使用可能で、速度向上ポーションより優れた効能があるんだ。</p>
+    <p><p align=lef><a action="A" numberInput="20">濃縮ヘイスト ポーション</a></p>
+    <p>材料：速度向上ポーション3個、500Adena</p>
+    <p><img src="331" link="randal0"/></p>
+  </dialog>
+</npcdialog>

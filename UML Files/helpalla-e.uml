@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>同盟</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">コマンドヘルプ：同盟</font></p>
+	<p>同盟は攻城戦で戦いを共にし、敵にはならないという約束を意味します。血盟倉庫、アジト、城は各血盟の所有となります。
+	血盟戦も血盟間での戦争を意味します。
+	最大で3つの血盟と同盟を組むことができます。<br/></p>
+	<p><font fg="ffffaf">同盟からの脱退：</font><br/>
+	脱退方法：チャットウィンドウにコマンド<font fg="ffafff">「/allianceleave」</font>と入力します。<br/>
+	脱退条件：戦争中には脱退できません。<br/></p>
+	<p><font fg="ffffaf">同盟リストを見る：</font><br/>
+	チャットウィンドウにコマンド<font fg="ffafff">「/alliancelist」</font>と入力します。同盟に加入している血盟員以外は見れません。<br/></p>
+	<p><font fg="ffffaf">同盟チャット：</font><br/>
+	特殊文字<font fg="ffafff">～</font>を頭につければ、同盟員全員が見れるようになります。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+  </dialog>
+</npcdialog>

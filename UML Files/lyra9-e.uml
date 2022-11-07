@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>ライラ</name>
+	<job>[フォノス征伐隊]</job>
+  </npc>
+  <dialog>
+	<p>あなたもグルーディン村のすぐそばにあるスライムレースは見た事があるでしょう？</p> 
+	<p>あのレースを運営しているオークこそが、ゴラ・アグニ。アグニ部族の族長です。</p>
+	<p>部族とは言っても、20人ほどの小さなものですが、戦争後あの商売を始めてからは、人間が使うようなあらゆる物などを買いあさり、今ではアトゥバも顔負けの贅沢ぶりだそうですよ。</p>
+	</dialog>
+</npcdialog>

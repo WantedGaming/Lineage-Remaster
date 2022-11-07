@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+    <p>Adena is required to travel to other villages.<br/>
+		<br/>
+    Where do you want to go?</p>
+		<p><br/></p>
+    <p>
+    <a action="C">Oren:100Adena</a><br/>
+    <a action="D">Werldern Village:100Adena</a><br/>
+    <a action="E">Heine:100Adena</a><br/>
+    <a action="F">Kent:100Adena</a><br/>
+    <a action="G">Gludin Village:100Adena</a><br/>
+    <a action="H">Giran Castle Town:100Adena</a><br/>
+    <a action="I">Woodbeck Village:100Adena</a><br/>
+    <a action="J">Firefield Village:100Adena</a><br/>
+    <a action="K">Talking Island:200Adena</a><br/>
+    <a action="L">Temple of Aden:100Adena</a><br/>
+    <a action="M">Chef Lafons:100Adena</a><br/>
+    <a action="N">Market:100Adena</a></p>
+  </dialog>
+</npcdialog>

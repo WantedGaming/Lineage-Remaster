@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの鍛冶屋</name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 アリス！あの愚かなバルログの奴なんかより、今ではお前が持っているほうが絵になるな。
+		 もう私がお前にしてやれるのも、これが最後のようだ… 
+		 <br/>
+		 バルログの頭部10個と、ブラッドクリスタルの欠片100個を持って来い！
+		 もうお前も我ら「カヘルの操り人形」の一員としてカヘル ヤヒ様の栄光をお迎えする準備をせねばなるまい？くははは。<br/>
+		<br/>
+		<a action="a">8段階アップグレード実行</a>
+		</p>
+	</dialog>
+</npcdialog>

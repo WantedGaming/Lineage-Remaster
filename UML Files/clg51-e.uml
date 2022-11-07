@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>モンスターの侵入に備えているため、入場できません。</p>
+	<p>他の任務があるかを確認してください。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

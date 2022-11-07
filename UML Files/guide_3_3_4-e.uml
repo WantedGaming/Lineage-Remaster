@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 アデン領地の南西側の出口から出て、領地の生垣に沿って北に向かってください。木の生い茂った森を通り過ぎたら、小さな橋があります。それを渡ると、傲慢の塔地域です。<br/>
+		 そこは傲慢の塔の周囲の地域で、<font fg="ffafff">ジャイアント</font>の住んでいるところです。<font fg="ffafff">ジャイアント</font>は人間を見さえすれば、襲い掛かってくるんですよ。とろいけど、攻撃力も体力も強くて、群れだって行動するから気をつけてくださいね。<br/>
+		 何よりも時々現れる<font fg="ffafff">ジャイアント</font>のヘッド、<font fg="ffafff">エンシェント ジャイアント</font>は要注意ですよ。やつを見たら、周囲の助けを求めるか、逃げたほうがいいですよ。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

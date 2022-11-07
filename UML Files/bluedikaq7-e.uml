@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブルディカ</name>
+		<job>ダークエルフ長老</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 キマが君を待たせている。彼のところに行って力を借りるといい。<br/><br/>
+		 今回の任務はダークエルフ族の存亡がかかっている。それだけ重大な任務だから、この任務を完遂したら、ダークエルフの中でもアサシンにのみ伝わる物を君に渡そう。<br/><br/><br/>
+		 どうか君に輝かしい成果が出ることを願うばかりだ。<br/>
+		<br/><br/>
+		<a action="request finger of death">ダーク スターを見つけてきました</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

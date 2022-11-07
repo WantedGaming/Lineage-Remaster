@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ブラッド</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>本当にアイス キューブから強力な火炎に関するものが出てきたというのか？</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a action="c">酷寒の神殿に移動</a></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p>その火炎の気を俺にくれれば、おまえに役に立つ魔法道具を作って象牙の塔の諜報員に届けておこう。急いで酷寒の神殿に行ってみろ。</p>
+	<p><br/></p>
+	<p>象牙の塔の諜報員たちはスノーマンの姿をしているから、神殿の中に入ったら必ず会って魔法道具を受け取るんだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

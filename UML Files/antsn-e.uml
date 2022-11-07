@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">ゲートアント：</font><br/><br/></p>
+    <p> 大変だ…はやくウォー アント様が来ないと…</p>
+  </dialog>
+</npcdialog>

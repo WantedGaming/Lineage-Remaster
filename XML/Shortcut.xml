@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shortcuts>
+	<shortcut name="Pick All" value="/getall"/>
+	<shortcut name="Location" value="/location"/>
+	<shortcut name="Mouse Cursor" value="/カーソル変更"/>
+	<shortcut name="Text Display" value="/吹き出し"/>
+	<shortcut name="Party Invite" value="/招待 [キャラクター名] or /招待"/>
+	<shortcut name="Leave Party" value="/パーティー脱退"/>
+	<shortcut name="Party Kick" value="/パーティー追放 [キャラクター名]"/>
+	<shortcut name="Add Friend" value="/友人追加"/>
+	<shortcut name="Del Friend" value="/友人削除"/>
+	<shortcut name="View Friend" value="/友人"/>
+	<shortcut name="Global Chat On" value="/chat on"/>
+	<shortcut name="Global Chat Off" value="/chat off"/>
+	<shortcut name="Whisper On" value="/ウィスパー オン"/>
+	<shortcut name="Whisper Off" value="/ウィスパー オフ"/>
+	<shortcut name="Add Chat" value="/参加 [キャラクター名]"/>
+	<shortcut name="Stationary Display" value="/手紙"/>
+	<shortcut name="Block Player" value="/遮断追加 [キャラクター名]"/>
+	<shortcut name="Unblock Player" value="/遮断削除 [キャラクター名]"/>
+	<shortcut name="View Block List" value="/遮断"/>
+	<shortcut name="Join Clan" value="/血盟加入 or /加入"/>
+	<shortcut name="Change Clan Rank" value="/rank [キャラクター名]"/>
+	<shortcut name="Kick Clan" value="/追放 [キャラクター名]"/>
+	<shortcut name="Clan Info" value="/血盟"/>
+	<shortcut name="Leave Clan" value="/脱退"/>
+	<shortcut name="Declare War" value="/戦争 [相手血盟名]"/>
+	<shortcut name="Surrender" value="/降伏 [相手血盟名]"/>
+	<shortcut name="End War" value="/終戦 [相手血盟名]"/>
+	<shortcut name="Proclam Siege" value="/布告 [城名]"/>
+	<shortcut name="Attention" value="/注目 [血盟名]"/>
+	<shortcut name="Clan Emblem Confirm" value="/紋章確認 [ファイル名.bmp]"/>
+	<shortcut name="Clan Emblem Reigster" value="/紋章 [ファイル名.bmp]"/>
+	<shortcut name="Clan Title" value="/title [player name]"/>
+	<shortcut name="Join Alliance" value="/alliancejoin"/>
+	<shortcut name="Leave Alliance" value="/allianceleave"/>
+	<shortcut name="View Alliance" value="/alliancelist"/>
+	<shortcut name="Bookmark" value="/記憶 [場所名]"/>
+	<shortcut name="Bookmark List" value="/記憶"/>
+	<shortcut name="Trade" value="/trade"/>
+	<shortcut name="Confirm Hunting Ground" value="/who"/>
+	<shortcut name="Player Info" value="/who [player name]"/>
+	<shortcut name="Private Shop" value="/shop"/>
+	<shortcut name="Play Time" value="/time"/>
+	<shortcut name="Propose" value="/propose"/>
+	<shortcut name="Divorce" value="/divorce"/>
+	<shortcut name="Duel" value="/duel"/>
+	<shortcut name="Market Price" value="/相場 [検索名]"/>
+	<shortcut name="Power Wiki" value="/パワーウィキ [検索名]"/>
+	<shortcut name="Merchant Search" value="/商人検索"/>
+	<shortcut name="Dungeon Time" value="/入場時間"/>
+	<shortcut name="Report" value="/report"/>
+	<shortcut name="Sound" value="/sound or /music"/>
+	<shortcut name="Client Version" value="/ver"/>
+	<shortcut name="Check PK" value="/checkpk"/>
+</shortcuts>

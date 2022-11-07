@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 むか～しむかし！狡猾な王様がいました。<br/>
+		 狡猾な王は民に嫌われ、王国から追いやられました。<br/>
+		 でも狡猾な王は、復讐を考えていたのです。<br/>
+		 そんな狡猾な王を迎え入れたのは、闇の王だったのです。<br/>
+		 <br/>
+		 ああ、大変だ～！<br/>
+		 世界に恨む者たちが出会ってしまった！その恨みの毒気は誰にも止められません！<br/>
+		 もうすぐ世界は闇に飲み込まれますよ…ウケケケ…<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

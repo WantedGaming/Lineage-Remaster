@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ハイネの町の南東側のアジトが集まっている地域を通り過ぎて、森の中の道を5時の方向に進むと、ハイネのダンジョンの入口があります。<br/>
+		 エヴァの聖地は水の神エヴァが興したんですけど、パプリオンを封印するために犠牲にされた悲劇の都市なんですよ。あなたが見聞を広めたら、私にも詳しく教えてください。<br/>
+		 そこの1階には<font fg="ffafff">呪われた トロッグ</font>、<font fg="ffafff">呪われた ジャイアント ラット</font>、<font fg="ffafff">呪われた バクーク</font>、<font fg="ffafff">エヴァ王国の悪霊</font>、<font fg="ffafff">呪われた ゲイザー</font>などが現れます。ほとんどが先制攻撃をしかけてくるやつだから気をつけてください。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

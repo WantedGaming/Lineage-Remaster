@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>アデン国王</name>
+		<job>[イベント報賞]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		隠された村で<font fg="ffffaf">ミソフィアの心100個</font>を集めてきたというのは本当か？<br/>
+		<br/>
+		まだ祝祭の<font fg="ffffaf">招待状</font>を受け取っていないのなら、我が<font fg="ffffaf">守護騎士</font>に名簿のチェックを受けて、持ってくるように！<br/>
+	<br/>
+	この祝祭は特別に<font fg="ffffaf">レベル55</font>の新人勇士も参加できるようにしておるが、まだそこまで達していないということはないだろうな？<br/>
+	修練を怠る者にはいかなる報賞もないことを覚えておくように。<br/>
+		 <br/>
+		 <br/>
+		</p>
+	</dialog>
+</npcdialog>

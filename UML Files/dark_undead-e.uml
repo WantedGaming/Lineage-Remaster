@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>shop</icon>
+<title>Shop</title>
+  <npc>
+    <name>闇の商人</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+	   <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p> ポーション…安く…売る…<br/>
+ここでだけ…使える…<br/>
+		</p>
+  </dialog>
+</npcdialog>

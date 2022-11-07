@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ミソ</name>
+		<job>[イベント商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>あら、またお会いしましたね！お元気でしたか？<br/>
+		<br/>
+		そんな目で見つめないでくださいよ。気になりますわ。 
+		私はミソフィア様に代わって！アイテムを販売しているだけです。<br/>
+		<br/>
+		とにかく！<br/>
+		今日も勇士様の期待を裏切らず、<br/>
+		いつもそばで助けてくれる最高のマジックドールを準備しました。<br/>
+		マジックドールの姿ですが、<font fg="ffffaf">5月20日まで</font>の3週間はミソフィア様と一緒にアデン大陸を巡ることができる、またとない機会になるでしょう！<br/>
+		<br/>
+		少しでも勇士様の冒険のお役にたてたら嬉しいです！<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	</dialog>
+</npcdialog>

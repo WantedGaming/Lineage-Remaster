@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>揺らぐ者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 今からでも償えることをありがたく思え！そしてあの「カヘルの操り人形」」たちを倒して、今までの罪を贖罪するのだ。<br/>		<br/>
+
+		 貴様の正しい行いが、バルログ様を喜ばすだろう！
+		 <br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

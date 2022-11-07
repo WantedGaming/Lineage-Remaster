@@ -1,0 +1,73 @@
+<?xml version = "1.0"?>
+<StatusListUI Toggle = "true">
+	<Window Name = "StatusListWindow" X = "0" Y = "0" Width = "241" Height = "337" BasePng = "10273" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "CloseWindow" Activate = "0">
+		<Button Name = "CloseButton" X = "212" Y = "5" BaseSurf = "7998;1" HighlightSurf = "7999;1" PushSurf = "7999;1" MouseEvent = "CloseWindow"/>
+		<List Name = "StatusList" X = "14" Y = "29" Width = "194" Height = "298" Vertical = "1" Gap = "3">
+			<Button Name = "Status00_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status00_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status00_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status00_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status01_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status01_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status01_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status01_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status02_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status02_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status02_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status02_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status03_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status03_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status03_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status03_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status04_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status04_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status04_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status04_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status05_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status05_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status05_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status05_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status06_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status06_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status06_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status06_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status07_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status07_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status07_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status07_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status08_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status08_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status08_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status08_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status09_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status09_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status09_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status09_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status10_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status10_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status10_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status10_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+			<Button Name = "Status11_Button" BasePng = "10276" HighlightPng = "10277" PushPng = "10277" MouseEvent = "SetStatusInfo">
+				<Image Name = "Status11_Image" X = "3" Y = "3" Surf = "9005"/>
+				<Label Name = "Status11_Label" X = "24" Y = "5" Width = "110" String = "3857"/>
+				<Label Name = "Status11_Value" X = "137" Y = "5" Width = "50" Caption = "value"/>
+			</Button>
+		</List>
+		<ScrollBar Name = "StatusScrollBar" X = "212" Y = "24" Width = "19" Height = "305" ScrollStart = "18" ScrollHeight = "270" Vertical = "1" MouseEvent = "StatusScroll">
+			<Button Name = "Up_Button" BaseSurf = "8699" HighlightSurf = "8700" PushSurf = "8700" MouseEvent = "StatusScrollButton"/>
+			<Button Name = "Move_Button" X = "1" Y = "18" BaseSurf = "8695" HighlightSurf = "8696" PushSurf = "8696" MouseEvent = "StatusScrollButton"/>
+			<Button Name = "Down_Button" Y = "288" BaseSurf = "8697" HighlightSurf = "8698" PushSurf = "8698" MouseEvent = "StatusScrollButton"/>
+		</ScrollBar>
+	</Window>
+</StatusListUI>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ドリア</name>
+		<job>[Teleporter]</job>
+  </npc>
+  <dialog>
+    <p>
+こんにちは。勇士様！象牙の塔からボランティアで来ました、ドリアと申します。<br/>
+私は勇士様のような方を<font fg="ffafff">隠された渓谷の近隣の狩り場やシルバーナイトタウンに移動</font>してあげる仕事をしています。<br/>
+勇士様はここで十分に修練をなさったようですね。移動したい場所をお話しください。<br/><br/>
+<a action="teleportURL">周辺の狩り場に送ってください</a><br/>
+<a action="teleport talking silverknight-in">シルバーナイトタウンに送ってください</a>
+</p>
+  </dialog>
+</npcdialog>

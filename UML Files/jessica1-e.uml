@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+
+	<dialog>
+		<p><br/>
+		</p><p>海の中にはたくさんの勇士たちが眠ってるんだよ。
+		</p><p>安らかに眠れるように、あたしと一緒にお祈りしてくれる？
+		
+		</p>
+	</dialog>
+</npcdialog>

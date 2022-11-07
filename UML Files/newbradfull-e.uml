@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ブラッド</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>今は人員が多くて入場できないんだ。</p>
+	<p>また後で来るといい。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エバート</name>
+		<job>[布地商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>ア…アイスクイーン ドレスのことを言ってるのか？それ、俺に売ってくれ！な？売ってくれよ！</p>
+		<p>そんな目で見ないでくれ…ダメだってことはわかってるんだ。</p>
+		<p>まさか、あの幻想のドレスを見たと同時になくさなければならないなんて…これは天のいたずらということか…。</p>
+		<p>こっちによこしてくれ、布地にしてあげよう…。</p>
+		<p><a action="request arctic fabric">極寒のドレスの布地にする</a></p>
+	</dialog>
+</npcdialog>

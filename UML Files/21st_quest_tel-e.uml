@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>Tallas</name>
+		<job>[19th Anniversary Event Reward]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		Have you been to the <font fg="ffffaf">Mysterious Seasonal Forest?</font>
+		<br/>
+		<br/>
+		Bring a <font fg="ffffaf">Festival Participation Form</font> and 
+		<font fg="ffffaf">100 19th Anniversary Coins</font>
+		as proof of your bravery for being active there.<br/>
+		<br/>
+		If your ready, I will summon you for <font fg="ffffaf">100 Adena.</font>
+		<br/>
+		<br/>
+		You'll get a little dizzy, so be careful.<br/>
+		<br/>
+		</p>
+ 		<panel type="Panel_Teleport">
+			<button action="non_npc a"/>
+		</panel>
+		<br/>
+	</dialog>
+</npcdialog>
+ 

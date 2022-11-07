@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>君、どうやってここに入ってきたんだ？<br/></p>
+	<p>怪しい者ではないから安心しろ…とにかくその<font fg="ffaaff">コントロールキー</font>から手を離してくれないか？落ち着かないんだ…<br/></p>
+	<p>私は料理が好きでこの船に乗ったんだ。話せる島はいろんな食材が豊富にあるからな。<br/></p>
+	<p>ジャイアント スパイダーやドレッドスパイダーの襲撃がなければ、いろんな食材を買いに行きたいんだが…私は狩りが好きでなくてね…ハハハ…<br/></p>
+	<p>副隊長が来る前に早くここから逃げた方が良いぞ…それじゃこれで。<br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

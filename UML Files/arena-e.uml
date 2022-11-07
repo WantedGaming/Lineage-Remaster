@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>こんにちは、何をお求めですか？<br/><br/></p>
+    <p><a action="rent">コロシアムをレンタルする</a></p>
+    <p><a action="return">レンタルしたコロシアムを返却する</a></p>
+    <p><a action="enter">コロシアムに入る</a></p>
+    <p><a action="info">コロシアムのレンタル情報を確認する</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>エルフ精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">エルフの精霊魔法：共通系</font><br/></p>
+	<p><a link="helpmgcn1">レベル1：共通精霊魔法</a><br/></p>
+	<p><a link="helpmgcn2">レベル2：共通精霊魔法</a><br/></p>
+	<p><a link="helpmgcn3">レベル3：共通精霊魔法</a><br/></p>
+	<p><a link="helpmgcn4">レベル4：共通精霊魔法</a><br/></p>
+	<p><a link="helpmgcn5">レベル5：共通精霊魔法</a><br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

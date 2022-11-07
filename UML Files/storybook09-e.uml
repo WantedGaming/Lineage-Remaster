@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[鋼鉄のギルド]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">トラビス6世</font>の逝去後、<font fg="ffffaf">アデン</font>の平和は永遠に続くかのように思えたが、	平和の影で王朝の怠惰と国政の腐敗という歴史によくあることが起きていたのだ。</p>
+	<p><br/></p>
+	<p>当時の国王<font fg="ffffaf">エルドラード4世</font>は怠け者かつ無能で、当然ながら国民や領主から支持は得られなかった。</p>
+	<p><br/></p>
+	<p>そのうち<font fg="ffffaf">アデン</font>最大の経済都市であるギランの領主<font fg="ffffaf">ベイロン</font>が国王への反乱を起こして王位を奪い、自らを<font fg="ffffaf">ベイロン陛下</font>と称するようになった。</p>
+	<p><br/></p>
+	<p>この事件をきっかけに、多くの野心家から「王は血によって作られるのではなく、能力によって得るもの」という言葉が聞かれるようになったが、王位継承順2位で王の従兄弟にあたる<font fg="ffffaf">公爵</font>が「王家の血を引く自分が王になるべきだ」と主張したことで、<font fg="ffffaf">ベイロン</font>もまた1ヶ月で<font fg="ffffaf">エルドラード4世</font>と同じ境遇となった。</p>
+	<p><br/></p>
+	<p>こうして王の座は、支配者の座から野心家たちの格好の標的になった。「今日の王はあの人、明日の王はこの人」と話をするほど頻繁に変わり、2ヶ月の間に実に7度も王が変わるという、笑え話にもならない事態になった。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

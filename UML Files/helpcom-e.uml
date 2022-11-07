@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>コミュニティ</title>
+  <dialog>
+	<p>リネージュのチャットは、ショートカットキー以外の一般のキーをクリックすると自動的にチャット入力画面に文字が入力できます。入力後にEnterキーを押すと、内容が出力されます。<br/><br/></p>
+	<p><font fg="ffffaf">一般チャット：</font><br/>
+	<font fg="afffff">チャット内容</font>の文字の色は白で、画面内にいるすべてのキャラクターのチャットウィンドウに表示されます。<br/></p>
+	<p><font fg="ffffaf">ウィスパー：</font><br/>
+	<font fg="afffff">相手の名前[半角スペース]チャット内容</font>の文字の色は<font fg="afffff">黄色</font>と<font fg="cecafc">ピンク</font>で、ウィスパーしたい相手のチャットウィンドウに表示されます。レベル7以上になると使えます。<br/></p>
+	<p><font fg="ffffaf">ワールドチャット：</font><br/>
+	<font fg="afffff">&amp;相手の名前[半角スペース]チャット内容</font>の文字の色は<font fg="ffffaf">明るい青</font>で、ゲームに接続中のすべてのユーザーのチャットウィンドウに表示されます。一定レベル以上になると使えます。<br/></p>
+	<p><font fg="ffffaf">パーティーチャット：</font><br/>
+	<font fg="afffff">#チャット内容</font>の文字の色は<font fg="00b4ff">オレンジ色</font>で、同じパーティーに属しているすべてのキャラクターのチャットウィンドウに表示されます。<br/></p>
+	<p><font fg="ffffaf">チャットパーティー：</font><br/>
+	<font fg="afffff">*チャット内容</font>の文字の色は<font fg="e7ebbd">薄い青</font>で、チャットパーティーに属しているすべてのキャラクターのチャットウィンドウに表示されます。<br/></p>
+	<p><font fg="ffffaf">血盟チャット：</font><br/>
+	<font fg="afffff">@チャット内容</font>の文字の色は<font fg="c0ebb4">薄緑</font>で、同じ血盟に属しているすべてのキャラクターのチャットウィンドウに表示されます。<br/></p>
+	<p><font fg="ffffaf">上位血盟チャット：</font><br/>
+	<font fg="afffff">%チャット内容</font>の文字の色は<font fg="ff80ff">濃いピンク</font>で、同じ血盟に属しているすべてのキャラクターのチャットウィンドウに表示されます。ランクがガーディアン以上の場合にのみ使えます。<br/></p>
+	<p><font fg="ffffaf">血盟お知らせチャット：</font><br/>
+	<font fg="afffff">+チャット内容</font>の文字の色は<font fg="00bf00">濃い緑</font>で、血盟の君主だけが使用でき、チャットウィンドウのお知らせラインで30秒間維持されます。同じ血盟に属しているすべてのキャラクターのチャットウィンドウに表示されます。<br/></p>
+	<p><font fg="ffffaf">同盟チャット：</font><br/>
+	<font fg="afffff">~チャット内容</font>の文字の色は<font fg="b5f1ff">明るい黄色</font>で、同じ同盟に属しているすべてのキャラクターのチャットウィンドウに表示されます。<br/></p>
+	<p><font fg="ffffaf">トレードチャット：</font><br/>
+	<font fg="afffff">$チャット内容</font>の文字の色は<font fg="6ea0ba">茶色</font>で、トレードチャットをオンにしているすべてのキャラクターのチャットウィンドウに表示され、一定レベルになると使用できます。<br/></p>
+	<p><font fg="ffffaf">掲示板：</font><br/>
+	一部の村と城には掲示板があります。利用料を支払えば掲示板にメッセージが書き込めます。<br/></p>
+	<p><font fg="ffffaf">メール：</font><br/>
+	右下にある封筒のアイコンをクリックすると、メールを送れます。<br/></p>
+	<p><font fg="ffffaf">パレット：</font><br/>
+	<font fg="afffff">Ctrl+O</font>ショートカットキーを使うとパレットが表示されます。一般チャットの文字の色を1回だけ変えるのに使います。<br/>
+	その他のチャットでチャットウィンドウの文字の色を変えるには<font fg="afffff">\f*チャット内容</font>を使います。*にはR、S、T、U、V、W、X、Yを入力して色を表現します。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+  </dialog>
+</npcdialog>

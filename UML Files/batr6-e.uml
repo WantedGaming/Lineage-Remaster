@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バトール</name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 なるほど…この冷寒のキーリンクは封印されたというより、魔力を失くしているようです。<br/>
+		 <font fg="ffffff">アイス クリスタル2個</font>ほどと、<font fg="ffffff">結晶体50,000個</font>を用意してくれたら、私が力を吹き込むことができそうですね。<br/>
+		<br/>
+		<br/>
+		<a action="request cold of kiringku">冷寒のキーリンクの封印を解く</a><br/>
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

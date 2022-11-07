@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>森の中を留まることなく、走り抜けていく<a link="narhenE2">パン族</a>は、はじめはストレートで乱暴だと思うかもしれませんが、実際は音楽を愛する繊細な種族なのです。</p>
+	<p><br/></p>
+	<p>特に満月の夜に奏でる<a link="narhenE3">マジック フルート</a>の演奏が、一番好きみたいです。</p>
+	<p><br/></p>
+	<p>彼らは私の演奏を最もよく理解し、愛してくれる私の大切な友人なのです。</p>
+	<p><br/></p>
+	<p><a action="request craft">マジック フルートを作ってください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

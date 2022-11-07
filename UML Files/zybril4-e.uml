@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>ったく！初めからそうやって出てこないと！とにかく「月光の精気」はそう簡単には渡せません。</p>
+		<p>あなたの種族の歴史と同じくらい、大切なものなのです。</p>
+		<p>私にはあなたに「月光の精気」を渡す理由がないではありませんか？</p>
+		<p><a link="zybril5">あなたの頼みなら何でも聞きます</a></p>
+	</dialog>
+	
+</npcdialog>

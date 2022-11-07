@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ナイトの技術</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ナイトの技術：一般論</font><br/></p>
+	<p><font fg="ffffaf">ナイトの技術レベル：</font><br/>
+	ナイトが使用する技術は、魔法とは違います。<br/>
+	そのため、特別な技術レベルはありません。<br/>
+	すべての技術は技術書別に、どのレベルで習えるかが決まっています。<br/>
+	ほとんどの技術書は、<font fg="afffff">レベル50</font>を超えないと習得できません。<br/>
+	ナイトの技術はそれだけ忍耐と屈強な精神力が求められるからです。<br/></p>
+
+	<p><font fg="ffffaf">技術を習う：</font><br/>
+	魔法とは違うので、技術は技術書を読むだけで習得が可能です。<br/>
+	すべての技術書は、決まった場所にいる<font fg="afffff">クエスト関連NPC</font>や<font fg="afffff">モンスター</font>から獲得できます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+
+	</dialog>
+</npcdialog>

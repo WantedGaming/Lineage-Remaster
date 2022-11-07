@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シュエルメ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+	
+		
+		<p>魔眼を合成するのに比べたら、封印を解くなんてお手の物よ。<br/></p>
+		
+		<p><a action="a">地竜の魔眼を作る</a><br/></p>
+		<p><a action="b">水竜の魔眼を作る</a><br/></p>
+		<p><a action="c">火竜の魔眼を作る</a><br/></p>
+		<p><a action="d">風竜の魔眼を作る</a><br/></p>
+		
+		<p>私に出来るのは封印を解除するとき、魔眼の力が乱れないよう眠らせることだけですよ。古くから伝わる木の葉の歌を歌うだけですから。<br/></p>
+		
+		<p>その歌がずっと繰り返すよう魔眼に刻まなければなりません。歌は無料で歌ってあげますが、刻むのにはイベルビンが作る枠をはめなければなりません。<br/></p>
+		
+		<p>ドワーフが計算高いことはご存知でしょ？寄付金で<font fg="fff000">10万Adena</font>が必要だけど…それぐらいお持ちかしら？<br/></p>
+		
+		<p><img src="331" link="sherme2"/></p>
+  
+	</dialog>
+
+
+</npcdialog>

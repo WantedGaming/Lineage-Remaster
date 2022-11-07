@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">アノッテ：</font><br/><br/></p>
+    <p>この村は戦うことしか頭に無いナイト志望の人しかいません。まったく…単純で考え無しな人たちで頭が痛いです。同じナイトのゲラドさまはあんなに素敵な人なのに… </p>
+    <p>あなたもナイトを目指すなら、ゲラド様のような方を目指したほうが良いですよ。</p>
+    <p>ゲラド様はどこにいるかですか？あそこの村の北にある邸宅にいらっしゃいますよ。</p>
+  </dialog>
+</npcdialog>

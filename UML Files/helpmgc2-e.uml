@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>レベル2</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ウィザードの魔法：レベル2</font><br/></p>
+	<p><font fg="ffffaf">キュア ポイズン：</font><br/>
+	種類：蘇生<br/>
+	性向：Lawful<br/>
+	消耗MP/HP：15/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から15セル内のPCの1人<br/>
+	効果：毒状態を治療します。<br/></p>
+
+	<p><font fg="ffffaf">チル タッチ：</font><br/>
+	種類：死/水<br/>
+	性向：Chaotic<br/>
+	消耗MP/HP：8/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から周囲3セル内のPCまたはNPCの1人<br/>
+	効果：対象のHPを一部奪い、自分のものにします。<br/></p>
+
+	<p><font fg="ffffaf">カーズ ポイズン：</font><br/>
+	種類：呪い/水<br/>
+	性向：Chaotic<br/>
+	消耗MP/HP：10/10<br/>
+	材料：魔力の石1個<br/>
+	持続時間：30秒<br/>
+	対象：術者から周囲3セル内のPCまたはNPCの1人<br/>
+	効果：対象を毒状態にします。毒状態の相手は持続時間中、HPが減少していきます。<br/></p>
+
+	<p><font fg="ffffaf">エンチャント ウェポン：</font><br/>
+	種類：付与/火<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	持続時間：1800秒<br/>
+	対象：術者が持つ武器の一つ<br/>
+	効果：術者の近接武器に魔法を付与して、武器の攻撃力を+2向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">ディテクション：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：15/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から15セル内の隠れている対象<br/>
+	効果：隠れているプレイヤーやNPCを見つけます。この魔法で透明状態のプレイヤーや、隠れているスパルトイ、ストーン ゴーレムなどを見つけられます。<br/></p>
+	
+	<p><font fg="ffffaf">ディクリース ウェイト：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：10/50<br/>
+	持続時間：1800秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、所持アイテムの重さを軽減させて、より多くのアイテムを持てるようにします。<br/></p>
+	
+	<p><font fg="ffffaf">ファイアー アロー：</font><br/>
+	種類：攻撃/火<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：6/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：炎の魔法の矢で対象にダメージを与えます。<br/></p>
+	
+	<p><font fg="ffffaf">スタラック：</font><br/>
+	種類：攻撃/地<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：6/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：攻撃対象の地面から岩の柱が飛び出てダメージを与えます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	 </dialog>
+</npcdialog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		なに？おまえ、自分の地方の城主様の名前も知らねぇのか？<br></br>
+		よく聞けよ、<br></br>
+		今この地方の領主は<font fg="ffffff"><var src="1"/></font>血盟出身の<font fg="ffffff"><var src="2"/></font>様だよ。<br></br>
+		しっかり覚えとけよ。<br></br>
+
+		<a action="askwartime">次の攻城戦の時間を聞く</a><br></br>
+		<a action="declarewar"><var src="1"/>血盟に対して攻城戦を宣言する</a><br></br>
+		</p>
+
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="6"/></font><br/><br/></p>
+    <p><a action="attackchr">攻撃目標指定</a></p>
+    <p><a action="aggressive">攻撃態勢</a></p>
+    <p><a action="defensive">防御態勢</a></p>
+    <p><a action="stay">休憩</a></p>
+    <p><a action="extend">散開</a></p>
+    <p><a action="alert">警戒</a></p>
+    <p><a action="getitem">収集</a></p>
+    <p><a action="dismiss">解散</a></p>
+    <p><a action="changename">名前決定</a><br/><br/><br/></p>
+    <p>現在状態：<var src="0"/></p>
+    <p>空腹状態：<var src="7"/></p>
+    <p>HP：<var src="1"/>/<var src="2"/></p>
+    <p>MP：<var src="3"/>/<var src="4"/></p>
+    <p>レベル：<var src="5"/></p>
+    <p>経験値：<var src="8"/></p>
+    <p>性向値：<var src="9"/></p>
+    <p><a link="helpnpc">NPC操作に関するヘルプ</a></p>
+  </dialog>
+</npcdialog>

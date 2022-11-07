@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>分からないのか？まあ、無理ないだろう。<br/>
+		<br/>
+    何にせよここでは注意するんだな。トロッグ 調査員たちを見ただろ？
+    あいつらはすぐに成果が出ないと首が吹っ飛ぶんだ。<br/>
+		<br/>
+		気が立っているから、むやみにけんかを吹っかけない方が身のためだぞ？</p>
+  </dialog>
+</npcdialog>

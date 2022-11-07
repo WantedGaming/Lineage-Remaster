@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreateUI>
+  <Include Xml="LoginCommon_M.xml" Root="Message_Window"/>
+  <Window Name = "ClassSelect_Window" X = "0" Y = "0" Activate = "0">
+    <Image X="0" Y="11" Width="363" Height="35" Png="100602;1"/>
+    <BoardImage X="0" Y="11" Width="363" Height="39" CustomColor="0,0,0" CustomAlpha="16"/>
+    <Control Name="Gauge_Group">
+      <Gauge X="152" Y="107" Name="MeleeDamageGauge" Png="100591;1"/>
+      <Gauge X="152" Y="162" Name="RangeDamageGauge" Png="100591;1"/>
+      <Gauge X="152" Y="218" Name="MagicDamageGauge" Png="100591;1"/>
+      <Gauge X="152" Y="272" Name="HPGauge" Png="100591;1"/>
+      <Gauge X="152" Y="329" Name="MPGauge" Png="100591;1"/>
+    </Control>
+    <!-- Stat Mark -->
+    <Image X="84" Y="98" Png="100597;1"/>
+    <Image X="84" Y="154" Png="100600;1"/>
+    <Image X="84" Y="209" Png="100599;1"/>
+    <Image X="84" Y="264" Png="100601;1"/>
+    <Image X="84" Y="320" Png="100598;1"/>
+    <!-- Stat Gauge Background-->
+    <Image X="152" Y="107" Png="100592;1"/>
+    <Image X="152" Y="162" Png="100595;1"/>
+    <Image X="152" Y="218" Png="100594;1"/>
+    <Image X="152" Y="272" Png="100596;1"/>
+    <Image X="152" Y="329" Png="100593;1"/>
+    
+    <Image Name="StatBg" Png="100366;2;16" X="50" Y="83"/>
+    <Label Name="WarriorLabel" String="3897" X="281" Y="628" FontSize="15" HAlign="center"/>
+    <Label Name="PrinceLabel" String="0" X="379" Y="570" FontSize="15" HAlign="center"/>
+    <Label Name="KnightLabel" String="2" X="477" Y="512" FontSize="15" HAlign="center"/>
+    <Label Name="ElfLabel" String="6" X="477" Y="628" FontSize="15" HAlign="center"/>
+    <Label Name="MagicianLabel" String="4" X="575" Y="569" FontSize="15" HAlign="center"/>
+    <Label Name="DarkelfLabel" String="8" X="673" Y="512" FontSize="15" HAlign="center"/>
+    <Label Name="DragonLabel" String="1302" X="673" Y="628" FontSize="15" HAlign="center"/>
+    <Label Name="IllusionistLabel" String="1304" X="771" Y="569" FontSize="15" HAlign="center"/>
+    <Control Name="Class_Buttons">
+      <RadioButton Name="Warrior_Button" X="222" Y="528" BasePng="100348;1" PushPng="100349;1" CheckPng="100349;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Prince_Button" X="320" Y="470" BasePng="100350;1" PushPng="100351;1" CheckPng="100351;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Knight_Button" X="418" Y="412" BasePng="100352;1" PushPng="100353;1" CheckPng="100353;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Elf_Button" X="418" Y="528" BasePng="100354;1" PushPng="100355;1" CheckPng="100355;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Magician_Button" X="516" Y="469" BasePng="100356;1" PushPng="100357;1" CheckPng="100357;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Darkelf_Button" X="614" Y="412" BasePng="100358;1" PushPng="100359;1" CheckPng="100359;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Dragon_Button" X="614" Y="528" BasePng="100360;1" PushPng="100361;1" CheckPng="100361;1" MouseEvent="ClassSelect_CreateUI_M"/>
+      <RadioButton Name="Illusionist_Button" X="712" Y="469" BasePng="100362;1" PushPng="100363;1" CheckPng="100363;1" MouseEvent="ClassSelect_CreateUI_M"/>
+    </Control>
+    <Control Name="MaleFemail_Buttons">
+      <RadioButton Name="Male_Button" X="40" Y="435" BasePng="100367;1" PushPng="100368;1" CheckPng="100368;1" MouseEvent="MaleSelect_CreateUI_M"/>
+      <RadioButton Name="Female_Button" X="149" Y="435" BasePng="100369;1" PushPng="100370;1" CheckPng="100370;1" MouseEvent="FemaleSelect_CreateUI_M"/>
+    </Control>
+    <Include Xml="LoginCommon_M.xml" Root="Prev_Button" MouseEvent="Prev_CreateUI_M"/>
+    <Button Name="Next_Button" X="888" Y="585" BasePng = "100215;1" PushPng = "100216;1" MouseEvent = "Next_CreateUI_M">
+      <Image Png="100603;1"/>
+    </Button>
+    <Image Name="Front_Character_Image" X="0" Y="0" Png="0;2;0" Activate="0"/>
+  </Window>
+  <Window Name = "Stat_Setting_Scene" X = "0" Y = "0" BasePng="100377" Activate = "0">
+    <Label X="38" Width="363" Height="35" String="4593" FontSize="20" HAlign="left" VAlign="middle"/>
+    <BoardImage X="0" Y="11" Width="363" Height="39" CustomColor="0,0,0" CustomAlpha="16"/>
+    <Image Name="ClassBg" X="38" Y="51" Png="100389;1">
+      <Image Name="ClassImage" X="215" Y="15" Png="100392;4"/>
+    </Image>
+    <Image Name="RemainPointTitleBg" X="573" Y="73" Png="100388;2;16">
+      <Label Width="288" Height="89" String="4594" FontSize="30" HAlign="center" VAlign="middle"/>
+    </Image>
+    <Image Name="RemainPointLabelBg" X="868" Y="73" Png="100388;2;16">
+      <Label Name="Remain_Point" Width="288" Height="89" FontSize="30" HAlign="center" VAlign="middle" Caption="0"/>
+    </Image>
+    <Image Name="GraphBg" X="38" Y="177" Png="100403;2;16">
+      <Image Png="100402;1"/>
+    </Image>
+    <Image Name="StatChangeControl" X="567" Y="177" Png="100381;2;16">
+      <Include Name="Strength" X="83" Y="30" Xml="LoginCommon_M.xml" Root="Stat_Control" Png="100386;1"/>
+      <Include Name="Dexterity" X="83" Y="87" Xml="LoginCommon_M.xml" Root="Stat_Control" Png="100384;1"/>
+      <Include Name="Constitution" X="83" Y="156" Xml="LoginCommon_M.xml" Root="Stat_Control" Png="100385;1"/>
+      <Include Name="Intelligence" X="83" Y="213" Xml="LoginCommon_M.xml" Root="Stat_Control" Png="100383;1"/>
+      <Include Name="Wisdom" X="83" Y="282" Xml="LoginCommon_M.xml" Root="Stat_Control" Png="100387;1"/>
+      <Include Name="Charisma" X="83" Y="339" Xml="LoginCommon_M.xml" Root="Stat_Control" Png="100382;1"/>
+      <Image Name="StatBg" Png="100380;1"/>
+    </Image>
+    <Control Name="AttrCharTypeGroup">
+      <Button Name="Attack_Button" X="214" Y="590" BasePng="100406;1" PushPng="100407;1" MouseEvent="Auto_StatSettingScene">
+        <Label Width="192" Height="61" String="4595" FontSize="20" HAlign="center" VAlign="middle"/>
+      </Button>
+      <Button Name="Defense_Button" X="426" Y="590" BasePng="100406;1" PushPng="100407;1" MouseEvent="Auto_StatSettingScene">
+        <Label Width="192" Height="61" String="4596" FontSize="20" HAlign="center" VAlign="middle"/>
+      </Button>
+      <Button Name="Mix_Button" X="639" Y="590" BasePng="100406;1" PushPng="100407;1" MouseEvent="Auto_StatSettingScene">
+        <Label Width="192" Height="61" String="4597" FontSize="20" HAlign="center" VAlign="middle"/>
+      </Button>
+    </Control>
+    <Include Xml="LoginCommon_M.xml" Root="Prev_Button" MouseEvent = "Prev_StatSettingScene"/>
+    <Button Name="OK_Button" X="888" Y="585" BasePng = "100215;1" PushPng = "100216;1" MouseEvent = "Next_StatWin_M">
+      <Image Png="100603;1"/>
+    </Button>
+  </Window>
+  <Include Xml="LoginCommon_M.xml" Root="Toast_Window"/>
+  <Window Name = "SetNameWindow" X = "0" Y = "0" Activate = "0" Modal="1" Top="1">
+    <Label String="4592" X="410" Y="100"/>
+    <Button Name="CancelButton" X="372" Y="254" BasePng="100372;1" PushPng="100373;1" MouseEvent="Cancel_SetName">
+      <Label String="35" Width ="209" Height="61" HAlign="center" VAlign="middle"/>
+    </Button>
+    <Button Name="OkButton" X="619" Y="254" BasePng="100372;1" PushPng="100373;1" MouseEvent="Ok_SetName">
+      <Label String="4591" Width ="209" Height="61" HAlign="center" VAlign="middle"/>
+    </Button>
+    <Image Name="EditNameImage" X="410" Y="141" Png="100374;1">
+      <InputBox Name="NameInput" X="20" Y="20" Width = "330" Height = "30" LimitText = "12" FontSize = "20" FontColor="0,0,0"/>
+    </Image>
+    <Image Name="SetNameBgFront" X="329" Y="55" Png="100375;1"/>
+    <Image Name="SetNameBgBack" X="329" Y="55" Png="100376;2;16"/>
+    <BoardImage X="0" Y="0" Width="1200" Height="675" CustomColor="0,0,0" CustomAlpha="21"/>
+  </Window>
+</CreateUI>

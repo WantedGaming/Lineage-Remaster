@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>パミリド</name>
+		<job>[統合倉庫番]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>すみません、あなたのアイテムはまだ預かることができません。もっとレベルを上げてからおいでください。</p> 
+  </dialog>
+</npcdialog>

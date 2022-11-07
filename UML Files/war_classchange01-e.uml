@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>ゾゾ</name>
+		<job>[奇妙なウォリアー]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>これまでに敵に投げたアックスの数を覚えているか？<br/>
+		<br/>
+		心からウォリアーになることを望むのか？<br/>
+	    その燃え上がるほどの願いが胸の内に渦巻いているか？<br/>
+		それならば、その身体に刻んでやろう。<br/>
+		我らウォリアーのみが手にすることのできる栄光の傷を！<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="non_npc request craft"/></panel>
+	</dialog>
+</npcdialog>

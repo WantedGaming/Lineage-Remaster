@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジーフ</name>
+		<job>[統合倉庫番]</job>
+		<text></text>
+	</npc>
+	<dialog>
+   <p>おいおい、誰がお前みたいな半人前のアイテムを預かるって？預けたいんなら、もっと名を上げてから来るんだな。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

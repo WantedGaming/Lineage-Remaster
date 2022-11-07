@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ ダルフ ガーディン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 採掘に必要な道具か……<br/>
+		 あの愚かなオームが使うツルハシみたいなやつか？<br/>
+		 あんたみたいな御仁に、何でそんなもんが必要なのかさっぱりわからんな。<br/>
+		 採掘道具を作るには、鋼鉄の原石5個と300Adenaが必要だ。<br/>
+		 今すぐ作るかね？<br/>
+		<br/>
+		<br/>
+		<a action="request hoe">採掘道具を製作する</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

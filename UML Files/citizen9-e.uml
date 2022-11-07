@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 私は小さい頃から頭が良い方ではないので、難しいことはよく分かりません。<br/><br/>
+		 ですが、いつも一生懸命に未来に備えて生きていくんだ！って気持ちで頑張ってきました。<br/><br/>
+		 もしかしたら、過去に起こった戦争は、私達が準備を疎かにした結果かもしれないと、私は思っています。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

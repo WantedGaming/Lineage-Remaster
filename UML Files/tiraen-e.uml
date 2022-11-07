@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ティラエン</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>私は見習いナイトのティラエンという。</p>
+		<p>君もデポロジュー様に会いに来たのか？見たところ、まだどこにも属していないようだが、君も赤き騎士団の一員となり、ともに名誉のために闘わないか？</p>
+		<p>もしまだデポロジュー様と赤き騎士団の名声について知らないなら、私がいちから教えよう。</p>
+		<p><a link="http://lineage.plaync.com/board/movie/view?articleID=83&amp;page=2">[革命戦争1]赤き騎士団の進撃</a></p>
+		<p><a link="http://lineage.plaync.com/board/movie/view?articleID=84&amp;page=2">[革命戦争2]ブラックナイトの逆襲</a></p>
+		<p><a link="http://lineage.plaync.com/board/movie/view?articleID=85&amp;page=2">[革命戦争3]再び始まる歴史-革命戦争</a></p>
+	</dialog>
+	
+</npcdialog>

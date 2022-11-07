@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>攻城戦</title>
+  <dialog>
+	<p><font fg="ffffaf">ゲームシステム：攻城戦</font><br/></p>
+	<p>リネージュには各領地を治める城があります。城を手にするための攻城戦という戦いがあります。<br/></p>
+	<p><a link="helpsie01">城の効果</a><br/></p>
+	<p><a link="helpsie02">攻城戦の時間</a><br/></p>
+	<p><a link="helpsie03">攻城戦の方式</a><br/></p>
+	<p><a link="helpsie04">攻城戦の布告ができない場合</a><br/></p>
+	<p><img src="331" link="help"/><br/><br/></p>
+	</dialog>
+</npcdialog>

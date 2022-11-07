@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ロッテ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+    </panel>
+    <p>もう戦争もほぼ終わりだって言うじゃないですか？</p> 
+	<p>噂だとすぐにでもで村の再建に取り掛かるって話です…</p>
+    <p>物価がまたどう動くか私にも予測できませんね。</p>
+    <p><a action="luth3">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>

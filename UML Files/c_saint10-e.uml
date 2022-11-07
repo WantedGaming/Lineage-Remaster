@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ロンダ</name>
+    <job>[ペット霊魂師]</job>
+  </npc>
+  <dialog>
+	<p>死亡時に失った経験値や、マイナス経験値状態を回復するには、Adenaが必要です。</p>
+	<p></p>
+	<p><var src="0"/>Adenaを使って回復しますか？</p>
+	<p></p>
+	<p></p>
+	<p><a action="c">回復してください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

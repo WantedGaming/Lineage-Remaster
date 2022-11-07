@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<dialog>
+				
+		<p>森を燃やして畑を作るだって？バカ言うな！<br/></p>
+		<p>人間らには戦士の精神がなさすぎる。人間にも我々のような戦士の精神があれば、森を燃やさずとも皆で狩りをして生きていけるだろうよ。<br/></p>
+		<p>ひとりで狩りができない男は男じゃねえ。そんな知識もしらないから、人間は他の種族からも煙たがられるんだ。<br/></p>
+		
+	</dialog>
+
+</npcdialog>

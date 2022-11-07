@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>Tallas</name>
+		<job>[19th Anniversary Event Report Award]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		I'm glad you came.<br/>
+		<br/>
+		I heard that the bandits stole all the king's gifts...?<br/>
+		Be sure to defeat the guys who ruined the heroes' spring walk by changing the seasons.<br/>
+		<br/>
+		The gifts obtained by killing the bandits can be used to restore the lost light
+		by using the <font fg="ffffaf">19th Anniversary Golden Key and the 19th Anniversary Silver Key.</font>
+		<br/>
+		<br/>
+		</p>
+    <panel type="Panel_Exp_Reward">
+				<button action="a"/>
+				<button action="b"/>
+				<button action="c"/>
+				<button action="d"/>
+    </panel>
+		<p>
+		If you bring a <font fg="ffffaf">Festival Participation Form</font> and <font fg="ffffaf">100 19th Anniversary Coins</font> as proof that you are the one who 
+		defeated the bandit, we will give you a special reward.
+		<br/>
+		<br/>
+		The EXP of the reward for your growth is based on <font fg="ffffaf">level 52.</font>  If you are under level 60
+		you may come back after leveling some.<br/>
+		</p>
+	</dialog>
+</npcdialog>

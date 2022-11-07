@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>はん！！おい、冗談も休み休み言えよ。痛い目にあいたくないならな。<br/>
+		</p><p>俺とは違ってカミーラは普通の人間なんだ。だから生きている訳がない。それに、もし生きてたとしても俺を探すなんてこたぁあり得ないんだ。そうとも。<br/>
+		</p><p>…何？幽霊？じょっ冗談だろ？下手なこというとぶっ飛ばすぞ？<br/><br/>
+		</p><p><a link="francu4">事情を説明する</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

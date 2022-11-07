@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<uilist>
+	<file name="SummonUI.xml"/>
+	<file name="PolymorphUI.xml"/>
+	<file name="FriendUI.xml"/>
+	<file name="ExcludeUI.xml"/>
+	<file name="MailExcludeUI.xml"/>
+	<file name="ActionUI.xml"/>
+	<file name="UserPlayUI.xml"/>
+	<file name="UserObtainUI.xml"/>
+	<file name="ReNStatusUIEx.xml"/>
+	<file name="MatchMakingUI.xml"/>
+	<file name="TamShopUI.xml"/>
+	<file name="PersonalShopUI.xml"/>
+	<file name="FishingUI.xml"/>
+	<file name="FishObtainUI.xml"/>
+	<file name="NewPasswordUI.xml"/>
+	<file name="PopUpUI.xml"/>
+	<file name="MainCharInfoUI.xml"/>
+	<file name="MiniMapUI.xml" load="true"/>
+	<file name="WidgetSubSlot.xml" load="true"/>
+	<file name="WidgetSlot.xml" load="true"/>
+	<file name="CampaignUI.xml" load="true"/>
+	<file name="ChatUI.xml" load="true"/>
+	<file name="MainButtonUI.xml" load="true"/>
+	<file name="CraftUI.xml" />
+	<file name="QuickMotionUI.xml" />
+	<file name="SiegeUI.xml"/>
+	<file name="ArcaManageUI.xml"/>
+	<file name="AttendanceUI.xml"/>
+	<file name="SpellUI.xml" />
+	<file name="BehaviourUI.xml"/>
+	<file name="AgitAuctionUI.xml"/>
+	<file name="PetSummonUI.xml"/>
+	<file name="PromoteDollUI.xml" load="true"/>
+	<file name="TimerUI.xml"/>
+	<file name="RoundScoreUI.xml"/>
+	<file name="PartyUI.xml"/>
+	<file name="MapUI.xml"/>
+	<file name="TmpInvUI.xml"/>
+	<file name="InterSvrEvent.xml"/>
+	<file name="LoadingWindow.xml"/>
+	<file name="HuntingInfoUI.xml"/>
+	<file name="LaLaMapMsgUI.xml"/>
+	<file name="ExchangeUI.xml"/>
+	<file name="ThebeRankUI.xml"/>
+	<file name="MGPuzzleUI.xml"/>
+	<file name="MGMainUI.xml"/>
+	<file name="MGCatchGUI.xml"/>
+	<file name="PetStatus.xml"/>
+	<file name="PetInvUI.xml"/>
+	<file name="HighRankUI.xml"/>
+	<file name="HyperTextUI.xml"/>
+	<file name="HyperTextSubUI.xml"/>
+	<file name="MonsterDexUI.xml"/>
+	<file name="AdenTelUI.xml"/>
+	<file name="NpcDialogUI.xml"/>
+	<file name="QProgressUI.xml"/>
+	<file name="QuestUI.xml"/>
+	<file name="TutorialUI.xml"/>
+	<file name="WebMoviePlayer.xml"/>
+	<file name="ZoneNameNotice.xml"/>
+	<file name="MGAdventureUI.xml"/>
+	<file name="PledgeRankUI.xml" load="true"/>
+	<file name="ExpertKeyUI.xml" load="true"/>
+	<file name="LitoMainMenu.xml"/>
+	<file name="LitoLobby.xml"/>
+	<file name="LitoResultUI.xml" load="true"/>
+	<file name="LitoRoomUI.xml" load="true"/>
+	<file name="LitoBattleUI.xml"/>
+	<file name="LinTVUI.xml"/>
+	<file name="EquipCheckUI.xml"/>
+	<file name="MessageCodeUI.xml"/>
+	<file name="MacroUI.xml" load="false"/>
+	<file name="QuitUI.xml" load="false"/>
+	<file name="PaletteUI.xml" load="false"/>
+	<file name="CalcUI.xml" load="false"/>
+	<file name="WareHistoryUI.xml" load="false"/>
+	<file name="SignUI.xml" load="false"/>
+	<file name="BoardUI.xml" load="false"/>
+	<file name="HpMpBarUI.xml" load="false"/>
+	<file name="EquipNStatusUI.xml"/>
+	<file name="BattleServerUI.xml"/>
+	<file name="PetStatus.ui"/>
+	<file name="PetHud.ui"/>
+	<file name="ServerSelectUI.ui"/>
+	<file name="LoadingUI.ui"/>
+	<file name="Eula.ui"/>
+	<file name="Alliance.ui" />
+	<file name="PlaySupport.ui"/>
+	<file name="IndunAlarm.ui" />
+	<file name="Indun.ui" />
+	<file name="InterServerRace.ui"/>
+</uilist>

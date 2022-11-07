@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<summonlist>
+	<normalRingItemId id = "658"/>
+	<summon level="86">
+		<monster id="3" level="86" desc="25044" png="9230" portraitPng="smm010" advance="0"/>
+		<monster id="2" level="86" desc="25037" png="9223" portraitPng="smm003" advance="0"/>
+		<monster id="1" level="86" desc="25039" png="9225" portraitPng="smm005" advance="0"/>
+	</summon>
+	<summon level="88">
+		<monster id="4" level="88" desc="25045" png="9231" portraitPng="smm011" advance="0"/>
+		<monster id="5" level="88" desc="25042" png="9228" portraitPng="smm008" advance="0"/>
+		<monster id="6" level="88" desc="25040" png="9226" portraitPng="smm006" advance="0"/>
+	</summon>
+	<summon level="90">
+		<monster id="8" level="90" desc="21924" png="9235" portraitPng="smm008" advance="1"/>
+		<monster id="9" level="90" desc="35293" png="9234" portraitPng="smm009" advance="1"/>
+		<monster id="7" level="90" desc="35292" png="9233" portraitPng="smm007" advance="1"/>
+	</summon>
+	
+	<summonElement>
+		<spirit type="fire"  desc="$2004" portraitPng="smm022"/> <!-- Lesser Fire -->
+		<spirit type="fire"  desc="$2008" portraitPng="smm026"/> <!-- Greater Fire -->
+		<spirit type="water" desc="$2005" portraitPng="smm023"/> <!-- Lesser Water -->
+		<spirit type="water" desc="$2009" portraitPng="smm027"/> <!-- Greater Water -->	
+		<spirit type="air" 	 desc="$2006" portraitPng="smm024"/> <!-- Lesser Air -->	
+		<spirit type="air" 	 desc="$2010" portraitPng="smm028"/> <!-- Greater Air -->		
+		<spirit type="earth" desc="$2007" portraitPng="smm025"/> <!-- Lesser Earth -->		
+		<spirit type="earth" desc="$2011" portraitPng="smm029"/> <!-- Greater Earth -->		
+	</summonElement>	
+</summonlist>

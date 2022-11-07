@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>ロビンフッド？あ！あの弓矢のおじさん？それで、何の用ですか？</p>
+		<p><a link="zybril4">我々の種族の歴史がかかったことです</a></p>
+	</dialog>
+	
+</npcdialog>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<GoldenHornUI>
+	<Window Name = "Input_Window" X = "182" Y = "300" BaseSurf = "5345" Moveable = "18" Activate = "0" KeyboardEvent = "CloseInput" MouseEvent = "Dummy">
+		<Window Name = "Palette_Window" X = "403" Y = "24" BaseSurf = "5348" Activate = "0" MouseEvent = "Dummy">
+			<List Name = "Color_List" X = "5" Y = "5" Width = "57" Height = "45" Vertical = "1" Gap = "4">
+				<List Name = "Color0_List" Width = "57" Height = "12" Horizontal = "1" Gap = "3">
+					<Button Name = "Color0_Button" BaseSurf = "5349" MouseEvent = "SelectColor"/>
+					<Button Name = "Color1_Button" BaseSurf = "5350" MouseEvent = "SelectColor"/>
+					<Button Name = "Color2_Button" BaseSurf = "5351" MouseEvent = "SelectColor"/>
+					<Button Name = "Color3_Button" BaseSurf = "5352" MouseEvent = "SelectColor"/>
+				</List>
+				<List Name = "Color1_List" Width = "57" Height = "12" Horizontal = "1" Gap = "3">
+					<Button Name = "Color0_Button" BaseSurf = "5353" MouseEvent = "SelectColor"/>
+					<Button Name = "Color1_Button" BaseSurf = "5354" MouseEvent = "SelectColor"/>
+					<Button Name = "Color2_Button" BaseSurf = "5355" MouseEvent = "SelectColor"/>
+					<Button Name = "Color3_Button" BaseSurf = "5356" MouseEvent = "SelectColor"/>
+				</List>
+				<List Name = "Color2_List" Width = "57" Height = "12" Horizontal = "1" Gap = "3">
+					<Button Name = "Color0_Button" BaseSurf = "5357" MouseEvent = "SelectColor"/>
+					<Button Name = "Color1_Button" BaseSurf = "5358" MouseEvent = "SelectColor"/>
+					<Button Name = "Color2_Button" BaseSurf = "5359" MouseEvent = "SelectColor"/>
+					<Button Name = "Color3_Button" BaseSurf = "5360" MouseEvent = "SelectColor"/>
+				</List>
+			</List>
+		</Window>
+		<Button Name = "Closeinput_Button" X = "419" Y = "9" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseInput"/>
+		<Edit Name = "Input_Edit" X = "16" Y = "22" Width = "379" Height = "16" LimitText = "100"/>
+		<Button Name = "Openpalette_Button" X = "403" Y = "24" BaseSurf = "5347" MouseEvent = "OpenPalette"/>
+		<Image Name = "Frame_Image" X = "-3" Y = "-6" Surf = "5346;1"/>
+	</Window>
+	<List Name = "Horntext_List" X = "0" Y = "50" Width = "800" Height = "110" Vertical = "1" Activate = "1" Gap = "1" Top = "1">
+		<Label Name = "Text0_Label" Width = "800" Height = "20" VAlign = "middle" HAlign = "center" Caption = "Test0"/>
+		<Label Name = "Text1_Label" Width = "800" Height = "20" VAlign = "middle" HAlign = "center" Caption = "Test1"/>
+		<Label Name = "Text2_Label" Width = "800" Height = "20" VAlign = "middle" HAlign = "center" Caption = "Test2"/>
+		<Label Name = "Text3_Label" Width = "800" Height = "20" VAlign = "middle" HAlign = "center" Caption = "Test3"/>
+		<Label Name = "Text4_Label" Width = "800" Height = "20" VAlign = "middle" HAlign = "center" Caption = "Test4"/>
+	</List>
+</GoldenHornUI>

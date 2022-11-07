@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>殿下、何なりとご命令をお申し付けください。
+		<br/><br/>
+		<a link="ishmaelhp1">助言を求める</a><br/><br/>
+		<a action="allgateheal">城門を修理する</a><br/><br/>
+		<a action="autorepairon">城門自動修理命令を下す</a><br/><br/>
+		<a action="autorepairoff">城門自動修理命令を取り消す</a><br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

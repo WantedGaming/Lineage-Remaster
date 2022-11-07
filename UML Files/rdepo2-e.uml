@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>デポロジュー</name>
+    <job>[赤き騎士団]</job>
+  </npc>
+  	<dialog align="left">
+		<p><font fg="ffafff">赤き騎士団</font>を率いるデポロジューだ！</p>
+		<p>アデン奪還の第1計画であるウィンダウッド城、ドワーフ城、ハイネ城の奪還に</p>
+		<p>成功した。すべて君と<font fg="ffafff">赤き騎士団</font>のおかげだ。</p>
+		<p>騎士団の装備が終わった後は、赤き騎士団の守護騎士と活動するから、</p>
+		<p>君も行動をともにできるといいな。</p>
+	</dialog>
+</npcdialog>

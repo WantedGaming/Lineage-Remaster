@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>グルーディン村の治安団長ラルソンです。</p>
+		<p>たくさんの方が手を貸してくださったので、もう村に幽霊が現れることはありません。</p>
+		<p>ハメル将軍と、戦争で命を落とした者の恨みが安らかに眠ることを祈るのみです。</p>
+		<p>グルーディン村の治安団長として、村を代表して感謝のお礼を申し上げます。</p>
+		<p>お持ちになっている勇士の証は、村のために力を尽くしてくださった証拠です。ふさわしい報賞を差し上げます。</p>
+		<p><a action="B">勇士の証を渡す</a></p>
+	</dialog>
+
+</npcdialog>

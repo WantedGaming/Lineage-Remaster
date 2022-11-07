@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_004</portrait>
+		<name><var src="name"/></name>
+		<job>[魔法販売人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		あなたとあなたの伴侶への愛の祝福があらんことを！<br/><br/>
+		聖堂で行われる結婚式って本当にステキですよね。私もはやく結婚したいです。<br/></p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p><br/><br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

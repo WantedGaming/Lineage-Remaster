@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">ヤヒの鍛冶屋：</font><br/><br/></p>
+   <p>おかしい…お前のその目…裏切り者の目をしている。それに、どこからか純潔なる血痕の生臭い臭いがするぞ…</p>
+   <p>改めて見たら、お前が持つその武器…見覚えがあるぞ…お前ごときが持てる武器ではない。</p>
+   <p>さあ、正直に言えば今回は許してやるぞ。</p>
+   <p>お前たちの種族はいつもそうだったからな。</p>
+  </dialog>
+</npcdialog>

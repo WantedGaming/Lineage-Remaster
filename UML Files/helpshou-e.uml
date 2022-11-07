@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>生存の叫び</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ゲームシステム：生存の叫び</font><br/></p>
+	<p>すべてのキャラクターは、危機の瞬間に生存の叫びを使用できます。<br/>
+	<font fg="afffff">回復魔法効果を落とす呪いにかかった時、同じように適用を受けます。</font><br/></p>
+
+	<p><font fg="ffffaf">生存の叫び：</font><br/>
+	空腹ゲージを100%にした状態で100分過ぎると、<font fg="afffff">生存の叫び</font>が使用できます。<br/>
+	点滅する空腹ゲージ<font fg="afffff">クリック</font>。<br/>
+	または<font fg="afffff">[Ctrl + E]</font>ショートカットキーで即時使用でき、<font fg="afffff">[Ctrl + D]</font>を押して行動ウィンドウで<font fg="afffff">生存の叫び</font>アイコンをショートカットに登録することでも使用できます。<br/>
+	生存の叫びの効果は、使用者が装備している武器のエンチャントの程度により、その効果が異なります。<br/></p>
+	
+	<p><font fg="ffffaf">追加機能：</font><br/>
+	<font fg="afffff">100分</font>が過ぎておらず、機能がすべて使用できない状態で使用すると、<br/>
+	<font fg="afffff">分</font>単位で時間に比例し、一定量のHPが回復します。<br/></p>
+	
+	<p><font fg="ffffaf">生存の叫び ソーシャル動作：</font><br/>
+	自分の武器を自慢できます。
+	使用方法は<font fg="afffff">[Alt + 0]</font>ショートカットキーで使用できます。<br/>
+	装備した武器のエンチャントの程度により、画面で見える効果が異なります。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

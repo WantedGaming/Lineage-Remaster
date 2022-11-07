@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p><font fg="ffffaf">精霊の涙</font>は集まりましたか？</p>
+		<p><a action="C">精霊の涙10個を渡す</a>	</p>
+	</dialog>
+	
+</npcdialog>

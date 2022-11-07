@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>デクア</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+	  <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p>この暑い熱気を感じますか。<br/>
+私はデクア。商人です。<br/>
+それはそうと、すばらしいですね。<br/>
+この暑い熱気に耐えて来たとは！ハハハ。<br/><br/>
+あなたには特別に<font fg="ffffaf">ヴァラカス</font>を<br/>
+倒せるようにお助けします。<br/>
+ここにいろいろな物を持ってきました。ゆっくり見ていってください。<br/>
+</p>
+  </dialog>
+</npcdialog>

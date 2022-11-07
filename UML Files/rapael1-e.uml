@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>おい、よっぽどのことでなければ、話しかけないでもらえるか？</p>
+		<p>俺には家を継ぐという大事な責任があるんだから、身分の低い者や乱暴な冒険者とは仲良くなってはいけないと、お父様からしつけられてるんだ。</p>
+	</dialog>
+
+</npcdialog>

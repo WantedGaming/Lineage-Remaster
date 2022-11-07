@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンターの助手</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		険しい旅を経てここまでいらしたんですね。
+		冒険を終えたことに対し、もう一度お祝い申し上げます。<br/>
+		スライムを救出した確認書を私にください。<br/>
+		そうすれば、プレゼントを差し上げます。<br/>
+		<br/>
+		<a action="B">スライム救出確認書</a>を渡す<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

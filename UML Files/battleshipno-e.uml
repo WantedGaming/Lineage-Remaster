@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">Wasson:</font><br/></p>
+	<p>We need to be stronger.<br/></p>
+	<p>We ain't gonna beat the Black Knights if we don't get stronger.<br/></p>
+	<p>Don't go home.</p>
+  </dialog>
+</npcdialog>

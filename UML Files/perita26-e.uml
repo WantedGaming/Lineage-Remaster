@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p>「三番目の力を引き出すイアリング」(真実のイアリング)を私に持ってきてください。</p>
+	<p>もし装備されているのでしたら、装備を外してから私にお見せください。</p>
+	
+	<p><a link="perita5">別の取引をしたいです</a></p>
+  </dialog>
+</npcdialog>

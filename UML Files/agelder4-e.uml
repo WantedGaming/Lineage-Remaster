@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Ancient Giant Elder：</font><br/><br/></p>
+    <p>The place is now used as a secret gathering by the dark elves to meet with the demon tribe.</p>
+    <p>A dark elf who has fallen for the wiles of the demons and has contracted with them is "Helvain," one of the four great underworld kings of Dantes.</p>
+    <p>He is the price for acquiring the power of the demon tribe, and he is responsible for provoking the anger of the dark elves against the humans on earth.</p>
+  </dialog>
+</npcdialog>

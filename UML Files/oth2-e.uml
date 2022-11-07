@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font><br/><br/></p>
+<p>火田村には、時々妙なことを企てる輩が集まったりするんだ。君もその一人じゃないのか？それともオークを倒すために来たのか？</p>
+<br/>
+<p>最近はさらに別の人間たちもここに来るようになったんだ。新しい力を持ったペットを欲しがってる人たちだ。オークを倒すための前線基地だったこの村にも、新しい風が吹き始めたってことだよ。</p>
+</dialog>
+
+</npcdialog>

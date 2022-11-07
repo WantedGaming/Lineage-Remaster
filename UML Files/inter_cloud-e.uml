@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+      <name>クラウド</name>
+    <job>[Teleporter]</job>
+	</npc>
+	<dialog>
+<p>元いた次元に帰りたいですか？</p>
+<p> <a action="a">もとの次元に戻る</a><br height="80"/></p>
+   </dialog>
+</npcdialog>

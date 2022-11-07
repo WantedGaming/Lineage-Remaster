@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>クレイ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 我は<font fg="fff00">地竜アンタラス</font>を追ってこの漆黒の闇にたどり着いた者。無限の恐怖に名誉と命を賭け戦う者。肉体はアンタラスの黒い息に染まってしまったが、我の魂はアンタラスを倒す英雄を待ち構えている。<br/><br/>
+		 そなたがもし我が志を引き継ぎ、あの邪悪な竜アンタラスを倒さんとする覚悟があるなら、我が力を分けてやろう。<br/>
+		 <br/><br/>
+		 <br/>
+		<a action="a">クレイの力を受ける</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

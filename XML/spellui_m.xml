@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<SpellUI Toggle="true" Moveable="false">
+	<!--<Window Name="Spell_Background" X="790" Y="0" BasePng="100300;2;10" Moveable="false" MouseEvent="Dummy" KeyboardEvent="Dummy">-->
+		<Window Name = "Spell_Window" X="790" Y="0" BasePng="100300;2;10" FramePng="100301;1" Moveable = "false" MouseEvent = "Dummy" KeyboardEvent = "KeyEvent">
+			<Button Name = "Close_Button" X="364" Y="275" BasePng="100268;4" PushPng="100268;4" MouseEvent = "Close"/>
+			<Label Name="SpellName" Caption="SPELL" X="24" Y="41" Width="127" Height="26" FontSize="12" HAlign="center" VAlign="middle"/>
+			
+			<SpellFilterControl Name = "SpellFilter" X="243" Y="41">
+				<SpellFilterButton Name="SpellFilterBtn" Width="134" Height="26" MouseEvent="SpellFilterBtnClick">
+					<Label Name="SpellFilterBtnLabel" Width="134" Height="26" FontSize="12" HAlign="center" VAlign="middle"/>
+					<Image X="100" Name="ComboListDisable" Png="100263;1" Enable="true"/>
+					<Image X="100" Name="ComboListEnable" Png="100264;4" Enable="false"/>
+				</SpellFilterButton>
+				<SpellFilterListImage Name="SpellFilterListImg" Y="27" Width="134" Height="145" Png="100265;2;10">
+					<Label Name="AllSpellLabel" Y="2" Width="134" Height="36" FontSize="12" HAlign="center" VAlign="middle" MouseEvent="OnSelectAllSpell"/>
+					<Label Name="ClassSpellLabel" Y="40" Width="134" Height="36" FontSize="12" HAlign="center" VAlign="middle" MouseEvent="OnSelectClassSpell"/>
+					<Image Name="SelectMarkImg" Png="100125;4"/>
+				</SpellFilterListImage>
+			</SpellFilterControl>
+	
+			<SpellTouchScrollGridControl Name = "Spell_Grid" X="54" Y="124" Width="288" Height="364" Row="5" Column="4" MouseEvent="GridEvent" UnitWidth="63" UnitHeight="63" UnitGap="12" Drag="1" GridControlName = "icon">
+				<Image Name="Selection_Image" Png="100267;4" />
+			</SpellTouchScrollGridControl>
+		
+			<!--<Label Name="SpellPower" X="118" Y="378" Width="40" Height="18" HAlign="center" VAlign="middle"/>-->
+			<!--<Label Name="MagicResistance" X="118" Y="398" Width="24" Height="18" HAlign="center" VAlign="middle"/>-->
+		<!--<WheelControl Name="SpellGrid_Wheel" X="28" Y="61" Width="146" Height="238"> -->
+			<ScrollBar Name="ScrollBar" X="255" Y="20000" Width="12" Height="265" Vertical="1" ScrollStart="0" ScrollHeight="265" MaxValue="8" >
+				<Button Name="Move_Button" Width="6" Height="49" BasePng="100085;1" PushPng="100085;1"/>
+			</ScrollBar>
+		<!--</WheelControl>-->
+			<Image Name="GridImage" Png="100302;4" />
+		</Window>
+  <DisableBoardImage Name="DisableBoard" CustomAlpha="10" CustomColor="0,0,0" Enable="false"/>
+	<!--</Window>-->
+</SpellUI>

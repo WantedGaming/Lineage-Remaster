@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<RankMatching>
+	<RankBuff>
+		<Tag id="0">
+			<Rank icon="15554" min="1" max="2" tooltip="5183"/>	<!--경치1-->
+			<Rank icon="15557"/>
+		</Tag>
+		<Tag id="1">
+			<Rank icon="15542" min="6" max="7" tooltip="5186"/> <!--hp3-->
+			<Rank icon="15541" min="4" max="5" tooltip="5185"/> <!--hp2-->
+			<Rank icon="15540" min="2" max="3" tooltip="5184"/> <!--hp1-->
+			<Rank icon="15543"/> <!--hp deactive-->
+		</Tag>
+		<Tag id="2">
+			<Rank icon="15538" min="7" max="7" tooltip="5189"/> <!--ac3-->
+			<Rank icon="15537" min="5" max="6" tooltip="5188"/> <!--ac2-->
+			<Rank icon="15536" min="3" max="4" tooltip="5187"/> <!--ac1-->
+			<Rank icon="15539"/> <!--ac deactive-->
+		</Tag>
+		<Tag id="3">
+			<Rank icon="15545" min="5" max="7" tooltip="5191"/> <!--pvp red2-->
+			<Rank icon="15544" min="4" max="4" tooltip="5190"/> <!--pvp red1-->
+			<Rank icon="15547"/> <!--pvp red deactive-->
+		</Tag>
+		<Tag id="4">
+			<Rank icon="15549" min="6" max="7" tooltip="5193"/> <!--pvp db2-->
+			<Rank icon="15548" min="5" max="5" tooltip="5192"/> <!--pvp db1-->
+			<Rank icon="15551"/> <!--pvp db deactive-->
+		</Tag>
+		<Tag id="5">
+			<Rank icon="15562" min="6" max="7" tooltip="5195" classtip="1"/> <!--rank poly2-->
+			<Rank icon="15559" min="5" max="5" tooltip="5194"/> <!--rank poly1-->
+			<Rank icon="15561" min="6" max="7" tooltip="5199" class="1"/> <!--class rank poly-->
+			<Rank icon="15558"/> <!--poly deactive-->
+		</Tag>
+		<Tag id="6">
+			<Rank icon="15553" min="7" max="7" tooltip="5198"/> <!--bless-->
+			<Rank icon="15552"/> <!--bless deactive-->
+		</Tag>
+	</RankBuff>
+	<RankStar>
+		<Star rating="1" min="3" max="3"/>
+		<Star rating="2" min="4" max="5"/>
+		<Star rating="3" min="6" max="6"/>
+		<Star rating="4" min="7" max="7"/> 
+	</RankStar>
+</RankMatching>
+<!--
+* RankBuff
+icon : 랭킹 UI에 사용할 버프 상태 아이콘(png)
+min, max : Ranker rating 범위
+tooltip : 상태 아이콘 tooltip
+classtip : 클래스별 툴팁 다를 경우 체크(클라이언트 수정 필요)
+class : class rating 설정
+
+* RankStar
+rating : 별 등급
+-->

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>タラス</name>
+		<job>[大魔術師]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 このところ、わしの元を訪れる旅人が時々不思議な力を持ったものを持ってくるのじゃ。
+		 まるで燃えさかる炎のようなんじゃが、熱くもなく冷たくもなく、それでいて消えることのない、その青い炎をある者は<font fg="ffffaf">永遠の光</font>と呼んだのじゃ。<br/>
+		 旅人は、その光は忘れられた島で得た貴重なものだと言っておった…<br/>
+		 <br/>
+		 簡単ではないが、わしの魔力でその光に込められた古代の気を書物に移すことができるんじゃ。<br/>
+		 どうじゃ？お前もその光を持っておるか？<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>冒険家 レイダース：</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>進化の実を知っているかって？今、確かにそう訊かれましたよね？</p>
+		<p>あぁ～、恐らくその実をこの大陸に初めて持ち込んだ人物は、まさしくこのレイダース。</p>
+		<p>お、こんなところに実が落ちているぞ。</p>
+		<p>ひょっとして、これはあなたのものですか？</p>
+		<p><a link="raiders2a">はい、私のです</a></p>
+		<p><a link="raiders2b">いいえ、私のではありません</a></p>
+	</dialog>
+
+</npcdialog>

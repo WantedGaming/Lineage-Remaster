@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>デスナイト</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>逃げる途中で…熱気にも耐えられる…<font fg="FF9976">青い炎</font>を置いておいた…</p>
+		<p>それを追っていけば…ヴァラカスがいる場所に辿り着けるはずだ…</p>
+		<p><a action="enter">剣を受け取る</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>マイルド</name>
+		<job>[ペット管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+	<p>
+		<br/>
+		 自分が手塩にかけて育てた動物は最後まで責任を持って守らなくちゃ。<br/>
+		<br/>
+		<a action="depositnpc">動物を預ける</a><br/>
+		<a action="withdrawnpc">動物を引き取る</a><br/>
+		<a link="transfer">動物を譲渡する</a><br/>
+		 <br/>
+		 まぁ、どうにも仕方がないって時だけはオレが預かってあげるけど。1匹あたり<var src="0"/>Adenaでね。<br/>
+		 それと、オレが預るのはお客さん自身が手なずけたペットだけだ。魔法で従わせてるモンスターなんかじゃなくてね。<br/>
+		 <br/>
+		<a link="helppet02">動物を手なずける方法を聞く</a>
+	</p>
+	</dialog>
+</npcdialog>

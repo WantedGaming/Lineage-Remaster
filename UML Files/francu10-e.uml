@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>いや、俺の身の潔白を訴えるつもりは、これっぽっちもないんだ。だからといって、俺のトラップでドレイクが命を落としたことに変わりはないんだから。<br/>
+		</p><p>ただ…これだけ渡してくれないか？ドレイクの財宝が眠っているダンジョンの位置を示した設計図だ。これをカミーラに…。<br/>
+		</p><p>これで…俺も安らかに眠れそうだ…今ならあの世でドレイクに会っても、素直に謝れそうな気がするよ。<br/> <br/>
+		</p><p><a link="francu11">必ず届けます</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

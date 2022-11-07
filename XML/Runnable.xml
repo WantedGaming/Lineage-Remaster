@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Runnables>
+	<Runnable id="1">
+		<PutMapMessage stringId="2851"/>
+	</Runnable>
+	<Runnable id="5">
+		<EarthQuake/>
+	</Runnable>
+	<Runnable id="8">
+		<UseItem nameId="4166"/>
+	</Runnable>
+	<Runnable id="9">
+		<UseItem nameId="15391"/>
+	</Runnable>
+	<Runnable id="10">
+		<PutMapMessage stringId="4454"/>
+	</Runnable>
+	<Runnable id="11">
+		<PutMapMessage stringId="4455"/>
+	</Runnable>
+	<Runnable id="12">
+		<PutMapMessage stringId="4456"/>
+	</Runnable>
+	<Runnable id="13">
+		<PutMapMessage stringId="4457"/>
+	</Runnable>
+	<Runnable id="14">
+		<PutMapMessage stringId="4458"/>
+	</Runnable>
+	<Runnable id="15">
+		<PutMapMessage stringId="4508"/>
+	</Runnable>
+	<Runnable id="16">
+		<PutMapMessage stringId="4531"/>
+	</Runnable>
+	<Runnable id="17">
+		<PutMapMessage stringId="4532"/>
+	</Runnable>
+	<Runnable id="18">
+		<GlobalEffect id="154"/>
+	</Runnable>
+	<Runnable id="19">
+		<GlobalEffect id="155"/>
+	</Runnable>
+	<Runnable id="20">
+		<GlobalEffect id="156"/>
+	</Runnable>
+	<Runnable id="21">
+		<GlobalEffect id="157"/>
+	</Runnable>
+	<Runnable id="22">
+		<GlobalEffect id="158"/>
+	</Runnable>
+	<Runnable id="23">
+		<UseItem nameId="17038"/>
+	</Runnable>
+	<Runnable id="24">
+		<PutMapMessage stringId="4961"/>
+	</Runnable>
+	<Runnable id="26">
+		<GlobalEffect id="175"/>
+	</Runnable>
+	<Runnable id="27">
+		<GlobalEffect id="176"/>
+	</Runnable>
+	<Runnable id="28">
+		<GlobalEffect id="177"/>
+	</Runnable>
+	<Runnable id="30">
+		<GlobalEffect id="183"/>
+	</Runnable>
+	<Runnable id="31">
+		<GlobalEffect id="182"/>
+	</Runnable>
+	<Runnable id="35">
+		<UseItem nameId="26633"/>
+	</Runnable>
+	<Runnable id="36">
+		<PutMapMessage stringId="7015"/>
+	</Runnable>
+	<Runnable id="37">
+		<PutMapMessage stringId="7016"/>
+	</Runnable>
+	<Runnable id="38">
+		<UseItem nameId="25625"/>
+	</Runnable>
+	<Runnable id="39">
+		<PutMapMessage stringId="7492"/>
+	</Runnable>
+	<Runnable id="40">
+		<PutMapMessage stringId="7510"/>
+	</Runnable>
+	<Runnable id="41">
+		<PutMapMessage stringId="7511"/>
+	</Runnable>
+	<Runnable id="42">
+		<PutMapMessage stringId="7512"/>
+	</Runnable>
+	<Runnable id="43">
+		<CameraAnimation id="2"/>
+	</Runnable>
+	<Runnable id="44">
+		<UseItem nameId="22517"/>
+	</Runnable>
+</Runnables>

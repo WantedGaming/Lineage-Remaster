@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>魔力の古書</title>
+
+	<dialog align="left">
+		<p>神秘な気が漂う本。</p>
+		<p>この本の内容を解読できれば、強力な力を得られそうだ。</p>
+	</dialog>
+
+</npcdialog>

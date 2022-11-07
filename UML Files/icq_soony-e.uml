@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>スーニア</name>
+		<job>[商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 勇士様、ポーションを持って<br/>
+		 来なかったのですか？<br/>
+		 それなら私から買っていかれますか？<br/><br/><br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

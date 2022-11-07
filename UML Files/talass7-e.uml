@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>タラス</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>人とは誰しも他人より強くなりと願うもの。己の努力だけで成し遂げられる者もいれば、</p>
+		<p>道具の力を頼る者もいる。おそらくお前は後者を選んだのだろう。<br/></p>
+		<p><br/></p>
+		<p><a link="talass2">サイハの弓について聞く</a><br/></p>
+		<p><a link="talass5">タラスのブーツ/グローブについて聞く</a><br/></p>
+		<p><a link="talass6">大魔術師の帽子について聞く</a><br/></p>
+		<p><a link="talass8">ゼロスのスタッフについて聞く</a><br/></p>
+		<p><a link="talass9">古代の書物について聞く</a><br/></p>
+		<p><br/></p>
+		<p><img src="331" link="talass"/></p>
+
+	</dialog>
+
+</npcdialog>

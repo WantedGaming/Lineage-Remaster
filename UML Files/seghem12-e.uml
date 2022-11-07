@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>セゲムアトゥバ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+			<p>変更した税率はゴラが翌日から適用させる。一日に何度変えても、ゴラは最後聞いたものしか手適用させんからな。</p>
+	</dialog>
+	
+</npcdialog>

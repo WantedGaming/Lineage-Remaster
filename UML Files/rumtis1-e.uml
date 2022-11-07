@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ルームティス</name>
+		<job>イアリング細工職人</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>あいたたっ、腰が…めずらしいな。この年寄りに来客とは…君もブラック イアリングが気になって来たのか？</p>
+		<p>だが、君が我々との同盟を証明できなければ何事もしてやることはできない。</p>
+		<p>とはいえ…今の私はラスタバドから来たただの移民だが…</p>
+		<p>さて、何をお望みかな？</p>
+		<panel type="Panel_Shop_Bt_Craft">
+			<button action="request craft"/>
+		</panel>
+	</dialog>
+	
+</npcdialog>

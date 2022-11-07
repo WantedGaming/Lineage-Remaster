@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シュエルメ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+			
+		<p>何とお伝えすればいいか…<br/></p>
+		<p>渡してくださった魔眼の力が忙しく渦を巻いたかと思ったら<br/></p>
+		<p>壊れてしまったんです…<br/></p>
+		<p>私のせいじゃないですからね、理由はイベルビンにでも聞いてください。<br/></p>
+		<p>あのおじいさんが作る枠が悪いんですよ<br/></p>
+
+  
+	</dialog>
+
+
+</npcdialog>

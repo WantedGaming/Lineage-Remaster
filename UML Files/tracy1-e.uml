@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>アンデッドモンスターは昼より夜の方が何倍も強くなるんですよね？まあ恐ろしい。夜はアンデッドモンスターがいるところに近づかないようにしないと。</p>
+	</dialog>
+
+</npcdialog>

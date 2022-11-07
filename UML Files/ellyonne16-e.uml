@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p><br/>
+		People call me Ellyonne. As you can see, I am an elf.</p>
+		<panel type="Panel_Asking_Bt">
+			<button link="ellyonne17"/>
+        </panel>
+		<p>For a long time I have studied magic with Talas in the Ivory Tower. It seems like yesterday when we were happy to recreate spirit magic.</p>
+		<p>But now I have to be even purer myself, and I am back here again.</p>
+		<p>Coming back to the elven forest again, I miss the convenience I felt in the human world.</p>
+		<p>I can use most things if I teach and ask my elven forest friends, but I couldn't teach their magic to the elves. Just like they can't use spirit magic.</p>
+		<p>I had no choice but to ask my old friend and colleague Taras to send a wizard from the Ivory Tower to the Elven Forest.</p>
+		<p>Endre there is just that wizard.</p>
+	</dialog>
+</npcdialog>

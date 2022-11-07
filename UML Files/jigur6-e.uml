@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[ピクシーの箱交換員]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ご苦労。<br/>
+		 約束した<font fg="ffffaf">光るピクシーの箱</font>をやるから確認してみな。<br/><br/>
+		 それから、箱と一緒にあげた<font fg="ffffaf">ボックス交換確認証</font>がなくなったら、また私を手伝うといい。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

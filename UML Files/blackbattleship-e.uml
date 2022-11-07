@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>偉大なカーツ様のバトルシップ！</p>
+	<p>連戦連勝の無敵の船！</p>
+	<p>それこそ我らブラック バトルシップだ！</p>
+	<p>ブラック バトルシップに入りたいなら暗号を言ってみろ。</p>
+	<p>(眼光の緩さから、味方だと分かる)<br/><br/></p>
+	<p><br/></p>
+	<p><a action="a">ブラック バトルシップに入る</a><br/><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

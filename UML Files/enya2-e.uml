@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エニャ</name>
+		<job>[Teleporter]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>…あなたがどのようにしてここまで来られたのかは存じませんが、ここは見慣れぬ訪問者が歓迎される場所ではありません。</p>
+		<p>身辺にはくれぐれもご用心ください。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ベルリジャ</name>
+		<job>キャラクター Magic Doll Crafting</job>
+		<text>私は奉献石を扱う工芸職人で、父のアルカの後を継ぐためにマジックドールを研究しています。</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		キャラクター マジックドールが持っている様々な記憶を呼び起こして、刻印させてあげますよ。<br/>
+		他の人の記憶を使うのはとっても不思議でワクワクします！<br/><br/>
+		手数料は全部5万Adenaです。
+		<br/><br/><br/>
+		<a action="linkbookmark">場所共有</a><br/><br/>
+		<a action="linkbuddy">友達共有</a><br/><br/>
+		<a action="linkchat">ウィスパー連結</a><br/><br/><br/>
+		<img src="331" link="arkamom"/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">同盟リスト(<var src="0"/>/3)</font></p> 
+    <p><var src="1"/></p> 
+  </dialog>
+</npcdialog>

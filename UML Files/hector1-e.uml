@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p> いらっしゃい！<br/>
+		 やっぱ装備の仕上げは<font fg="ffffaf">ヘルム</font>だよな。
+		 いくら良いメイルを着ていても、ヘルムがしょぼけりゃ負けちまうよ。<br/>
+		 <br/>
+		 ちょっとの材料と手間賃をくれれば、すごいのを作ってやるよ。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

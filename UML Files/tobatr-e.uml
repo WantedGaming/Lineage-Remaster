@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+
+		<p>宛先：バトール</p>
+		<p>この手紙を届けた者に<font fg="ffffaf">キーリンク</font>を作ってあげてください。</p>
+		<p>製作に必要な特別な原石を一緒に送りますので、良いものを作ってあげてください。</p>
+		<p>差出人：シルレイン</p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[Growth Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		10日間、お手伝いいただきありがとうございました。<br/>
+		<br/>
+		 届けていただいた「女の涙」がアイスクイーンのものだということがわかりました。<br/>
+		<br/>
+		 一体何が起こっているのでしょう…。<br/>
+		<br/>
+		 あっ！ブラッド様も感謝していて、貴重なプレゼントを渡してほしいとおっしゃっていました。<br/>
+		<br/>
+		 今度お会いする時は、姉と一緒に会えればいいですね。<br/>
+		 </p>
+	</dialog>
+</npcdialog>

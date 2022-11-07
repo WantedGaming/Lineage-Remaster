@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[戦雲漂う大陸]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">エルモア</font>と<font fg="ffffaf">グレシア</font>からの度重なる侵攻は<font fg="ffffaf">アデン</font>にとって脅威であったが、両国も政権統一という国内問題が解決できておらず、そのためひ弱な国防と外交だけでも持ちこたえることができていた。</p>
+	<p><br/></p>
+	<p>しかし、<font fg="ffffaf">アデン</font>には政権の統一やパワーバランスなど論理的に説明できない危険があった。それは<font fg="ffffaf">恐怖、破壊、絶望</font>など多くの言葉で形容される竜たちの存在だった。</p>
+	<p><br/></p>
+	<p>海の奥底に封印されていた水竜<font fg="ffffaf">パプリオン</font>がシーレンの結界を破り<font fg="ffffaf">ハイネ</font>を焦土化し、これを防ぐためエヴァの執行団とポイズンサーペントは大きな犠牲を出した。</p>
+	<p><br/></p>
+	<p>やっとの思いで<font fg="ffffaf">パプリオン</font>を静めた矢先、ダークウィザード<font fg="ffffaf">ケレニス</font>の挑発で風竜<font fg="ffffaf">リンドビオル</font>が怒り、<font fg="ffffaf">アデン</font>全体が危険に晒された。だが<font fg="ffffaf">アデン城</font>の目の前に巨大な跡を残し、天へ忽然と姿を消した。</p>
+	<p><br/></p>
+	<p>この事件は竜の<font fg="ffffaf">気まぐれ</font>な性格によって起きた、不幸中の幸いとも言える出来事だったかもしれない。</p>
+	<p><br/></p>
+	<p>一連の事件で<font fg="ffffaf">アデン</font>は国内の治安維持に力を傾けるようになり、相反して国境警備と外交は疎かになったのであった。</p>
+	<p><br/></p>
+	<p>歴史に記されたそれまでの事件は、巨大な戦争が起きる前触れだったのかもしれない。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook06">* エルモア</a></p>
+	<p><br/></p>
+	<p><a link="storybook07">* 救国の英雄トバリス6世</a></p>
+	<p><br/></p>
+	<p><a link="storybook08">* 鋼鉄のギルド</a></p>
+	<p><br/></p>
+	<p><a link="storybook09">* 蜂起</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

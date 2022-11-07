@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+  </npc>
+  <dialog>
+	<p>いらっしゃ～い！何をお探しで？あっしゃね、毎日いるわけじゃないんですよ。だから今日会えただけでもあなたは運がいいよ！でね、あっしが売ってるアイテムはこれまたすごいもんばっか！</p>
+	<p> レアアイテムばっかりだから、どうぞ見てって～</p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	<p>あ！それとね、マジックドールは召喚回数に関係なく<font fg="ffaaff">5時間</font>召喚できるからね！</p>
+  </dialog>
+</npcdialog>

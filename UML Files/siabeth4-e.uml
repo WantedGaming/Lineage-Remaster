@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャベス</name>
+		<job>精霊魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>風の精霊は心地良いそよ風から恐ろしい暴風まで、コロコロと変わる気まぐれな性格です。<br/></p>
+		<p>彼らの力を借りる風属性の精霊魔法は、速さに特徴があります。<br/></p>
+		<p>風の精霊は力を使う者にとてつもない速さを与えます。<br/></p>
+		<p>そういう意味では、<font fg="ffafff">弓を使うエルフに最も適した属性</font>ともいえるでしょう。<br/></p>
+ 		
+		<p><a action="air">風属性を習得する</a><br/></p>
+		 
+		<p><img src="331" link="siabeth1"/></p>
+ 
+	</dialog>
+
+</npcdialog>

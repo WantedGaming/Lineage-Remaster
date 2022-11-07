@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>パンのタテガミを採集するには、パンを攻撃するんです。</p>
+	<p>でもパンは乱暴な性格で、自分に一番ダメージを与えた者に攻撃してくるから、要注意。</p>
+	<p>パンに攻撃されないためには、二人以上が協力して
+	一人が弓を使って引きつけている間に、もう一人が採集するしかないでしょう。</p>
+	<p>パンのタテガミ採集はいつも命がけですよ。</p> 
+  </dialog>
+</npcdialog>

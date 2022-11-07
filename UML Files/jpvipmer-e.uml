@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アヤ</name>
+		<job>[VIPアデンショップ]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		こんにちは。VIPのお客様！<br/>
+		プレミアムショップにようこそ。<br/>
+		<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	</dialog>
+</npcdialog>

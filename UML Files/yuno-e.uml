@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ユノ</name>
+		<job>印章交換人</job>
+	</npc>
+	
+	<dialog>
+				<panel type="Panel_Shop_Bt_Craft">
+					<button action="request craft"/>
+				</panel>
+			<p>いらっしゃいませ！</p>
+			<p><font fg="ffaaff">印章</font>を製作いたします！</p>
+			<p>毎日同じとは限りませんよ！明日には値上がりしているかもしれません！</p>
+			<p>さあ！最後のチャンスです！</p>
+			<p>お客さん！あと3個しか残っていませんよ。早く選んでください！</p>
+	</dialog>
+</npcdialog>

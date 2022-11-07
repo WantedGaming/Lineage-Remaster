@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p><font fg="ffafff">パンの角</font>は、まるでパンの勇猛さと乱暴さを象徴しているみたい。<br/><br/></p>
+	<p>先が尖っていて、<font fg="ffafff">ミスリル</font>や<font fg="ffafff">オリハルコン</font>でメッキしたあと、<font fg="ffffaf">槍や剣</font>の製作によく使うんだよ。<br/><br/></p>
+	<p><img src="331" link="narhenE3"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

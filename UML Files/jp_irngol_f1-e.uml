@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>+6象牙の塔の武器とゾウ様の魔法の粉が必要だ。</p>
+		<p>インベントリを確認してくれ。</p>
+	</dialog>
+
+</npcdialog>

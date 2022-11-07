@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+ディエゴには会えましたか？<br/><br/>
+ディエゴは話し合いができないような状態だったようですね。<br/><br/>
+理性すら残っていない…本能だけの状態…私とは正反対の姿だったのでしょうね。<br/><br/>
+あなたから、そんな気配を感じました…<br/><br/>
+では、何の手がかりもなかったのでしょうか…？<br/><br/>
+<a action="e">ディエゴの日記を渡す</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

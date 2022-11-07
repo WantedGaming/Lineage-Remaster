@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+	<text>こんにちは。象牙の塔から派遣された <name/>と申します。</text>
+  </npc>
+  <dialog>
+	<p><font fg="ffffaf">ネットカフェ</font>からの接続でなければ、お力にはなれません。</p>
+	<p>申し訳ございません。</p>
+  </dialog>
+</npcdialog>

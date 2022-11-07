@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_004</portrait>
+		<name>Serin</name>
+		<job>[Templar General Merchant]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Welcome Adventurer! <br/>
+		 <br/>
+		 You can purchase items necessary <br/>
+		 for leveling here. <br/>
+		 <br/>	
+		 These supplies can only be used <br/>
+		 up to <font fg="ffaaff">level 79.</font><br/>
+		 <br/>
+		 Please take your time to look around.<br/><br/>
+		</p>
+     <panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+	</dialog>
+</npcdialog>

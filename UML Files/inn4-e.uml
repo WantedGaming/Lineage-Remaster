@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font></p>
+    <p><br/><br/>部屋を一緒にお使いになる方に鍵をお渡しいただいてから、そこに見える階段を上がってくださいませ。<br/><br/></p>
+	<p>貸与時間は4時間。時間内に借りられた部屋/ホールをお戻しになりますと、わたくしどもが10Adenaをお返し致します。<br/><br/></p>
+	<p>ごゆっくりと御くつろぎ下さいませ。</p>
+  </dialog>
+</npcdialog>

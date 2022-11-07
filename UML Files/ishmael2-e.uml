@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>昨日一日の税金の収入と支出は次のとおりです。
+		<br/><br/>
+		</p><p>昨日の収入：<br/>
+		</p><p align="right"><var src="0"/>Adena
+		</p><p align="left"><a action="stdex">基本支出</a><br/>
+		</p><p align="right"><var src="1"/>Adena
+		</p><p align="left">昨日の決算：<br/>
+		</p><p align="right"><var src="2"/>Adena
+		</p><p align="left">現在の資産総額<br/>
+		</p><p align="right"><var src="3"/>Adena
+		
+		</p>
+	</dialog>
+</npcdialog>

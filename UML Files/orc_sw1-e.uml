@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オークの捜索文書(オークの森)</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>セゲムアトゥバは生命の木を探しているが、自分のものに出来ないでいる。</p>
+<br/>
+<p>我々が見つけた生命の木である<font fg="ffffaf">祝福の木</font>は汚染されていた。</p>
+<br/>
+<p>祝福の地もまた汚染され、セゲムアトゥバはその原因を調査している。</p>
+<br/>
+<p>汚染はとても深刻だ。</p>
+</dialog>
+
+</npcdialog>

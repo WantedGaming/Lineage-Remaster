@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>墓の考古学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		<font fg="ffffaf">30分</font>……<br/><br/>
+		<font fg="ffffaf">30分</font>以上利用すると、あなたの命が危険にさらされます。<br/><br/>
+		
+		今日はこれ以上厳しいです。<br/>
+		<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

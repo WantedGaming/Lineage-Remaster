@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ユリエ：</font>
+<br/><br/>
+日記帳の切れ端を集められましたでしょうか。<br/><br/>
+ハーディン様の日記帳もオリム様の日記帳も共に、全部で8ページあります。<br/><br/>
+<a action="d">ハーディンの日記帳を復元する</a><br/><br/>
+<a action="e">オリムの日記帳を復元する</a><br/><br/>
+<img src="331" link="j_html00"/>
+</p>
+</dialog>
+</npcdialog>

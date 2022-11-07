@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>We are sorry, but we do not accept any orders other than those of the master.</p>
+   <p><a action="query">Reload the house</a></p>
+  </dialog>
+</npcdialog>
+

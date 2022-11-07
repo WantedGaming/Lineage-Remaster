@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ドワーフ城ゲートキーパー</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		ご機嫌いかがですか。私はドワーフ城の専属ゲートキーパーです。<br/>
+		 城外の特別な場所へのテレポートをしております。
+		 城外に出られるときはおっしゃってください。<br/>
+		<br/><br/>
+		<a action="teleportURL">他の地域にテレポートする</a>
+
+		</p>
+
+	</dialog>
+
+</npcdialog>

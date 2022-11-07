@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Wizard Leslie</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Villages you can travel to from here with their fees.</p>
+		<p>Which village would you like to visit?</p>
+		<p><a action="teleport dwarf-giran">Giran Castle Town:.<var src="0"/>Adena</a></p>
+		<p><a action="teleport dwarf-oren">Oren Village:<var src="1"/>Adena</a></p>
+		<p><a action="teleport dwarf-kent">Kent Castle Town:<var src="2"/>Adena</a></p>
+		<p><a action="teleport dwarf-heine">Heine Castle Town:<var src="3"/>Adena</a></p>
+		<p><a action="teleport dwarf-gludin">Gludin Village:<var src="4"/>Adena</a></p>
+		<p><a action="teleport dwarf-silver">Silver Knight Town:<var src="5"/>Adena</a></p>
+		<p><a action="teleport dwarf-aden">Aden:<var src="6"/>Adena</a></p>
+		<p><a action="teleport dwarf-woods">Woodbeck Village:<var src="7"/>Adena</a></p>
+		<p><a action="teleport dwarf-willow">Firefield Village:<var src="8"/>Adena</a></p>
+		<p><a action="teleport dwarf-grape">Wizard Lab:<var src="9"/>Adena</a></p>
+		<p><a action="teleport dwarf-lowful">Lawful Temple:<var src="10"/>Adena</a></p>
+		<p><a action="teleport dwarf-chaos">Chaotic Temple:<var src="11"/>Adena</a></p>
+		<p><a action="teleport dwarf-island">Talking Island:<var src="12"/>Adena</a></p>
+		<p><a action="teleport dwarf-scave">Cave of Silence:<var src="13"/>Adena</a></p>
+		<p><a action="teleport dwarf-diad">Diad Fortress:<var src="14"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>ドゥダ-マラ ブウ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>ありがとう、恩に着る。</p>
+<p>ところで、不躾で悪いが移動魔法に必要な材料がちと高値でな。ちと高くなってしまうが勘弁してほしい。</p>
+<br/>
+<p><a action="teleport orcfcd"/>ブウのテレポート魔法：<var src="0"/>Adena</p>
+</dialog>
+
+</npcdialog>

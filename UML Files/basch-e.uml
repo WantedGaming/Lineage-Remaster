@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バッシュ</name>
+		<job>傭兵</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 おい！お前もここに派遣されてきた傭兵か？<br/>まあいい。俺たちと同じ目的を持っているようだから一つだけ頼まれてくれないか？あの奥に俺の友達のロイが捕まっているんだ！<br/>
+		 本当は俺が助けに行くべきなんだが…<br/><br/>
+		 「堕落」に追われて逃げる時に武器を失くしてしまったんだ！
+		 だから援軍と補充の武器が到着するまで、何もできない状態なんだ！<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

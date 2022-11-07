@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>インターフェース</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ゲーム進行方法：インターフェース</font></p>
+	<p><font fg="ffffaf">HP</font><br/>
+	キャラクターの体力を表します。攻撃を受けると数値が減少します。<br/>
+	0になるとキャラクターが死亡します。<br/></p>
+	<p><font fg="ffffaf">MP</font><br/>
+	キャラクターの魔力を表します。一般的に魔法を使うと数値が減少します。<br/></p>
+	<p><font fg="ffffaf">経験値</font><br/>
+	%単位で表示されます。レベル44までは小数点2桁まで、レベル45からは小数点4桁まで表示されます。<br/>
+	<font fg="afffff">100%になるとレベルアップ</font>します。<br/></p>
+	<p><font fg="ffffaf">レベル</font><br/>
+	正数で表示されます。キャラクターのレベルを表します。<br/>
+	経験値バーに表示されます。<br/></p>
+	<p><font fg="ffffaf">防御力</font><br/>
+	キャラクターのACを表します。マイナスになるほど高い防御力を示します。<br/></p>
+	<p><font fg="ffffaf">性向</font><br/>
+	キャラクターの性向を表します。カオティックは<font fg="afffff">-32768</font>まで、ロウフルは<font fg="afffff">32767</font>まで表示されます。<br/></p>
+	<p><font fg="ffffaf">重量</font><br/>
+	キャラクターの持てる合計重量とインベントリに入っているアイテムとの比率を%単位で表示します。82%を超えると攻撃および魔法が使えなくなります。<br/></p>
+	<p><font fg="ffffaf">満腹状態</font><br/>
+	一定%以下になると、HP、MPが回復しなくなります。100%の状態で100分の接続時間を維持すると<font fg="afffff">生存の叫び</font>が使えるようになります。<br/></p>
+	<p><font fg="ffffaf">ベリー</font><br/>
+	釣りをとおして得た各種ベリアナをベリーに変えて所持している個数を表示します。<br/>
+	状態ウィンドウの<font fg="afffff">Adenaアイコン</font>を押すとベリーの数量が確認できます。<br/></p>
+	<p><font fg="ffffaf">TAM</font><br/>
+	カイモショップで<font fg="afffff">成長の果実の箱</font>を購入し、TAMを集めることができます。<font fg="afffff">Adenaアイコン</font>を押すとTAMの保有量が確認できます。<br/>
+	TAMは経験値報酬またはアイテム購入に活用されます。<br/></p>
+	<p><font fg="ffffaf">チャット ウィンドウ</font><br/>
+	下側中央にあり、チャット内容の入力行う空間です。<br/>
+	<font fg="afffff">Alt+C</font>または<font fg="afffff">Ctrl+T</font>ショートカットキーで拡張できます。<br/></p>
+	<p><font fg="ffffaf">時計</font><br/>
+	HP/MPゲージバーにあり、ゲーム上の時間を表示します。<br/></p>
+	<p><font fg="ffffaf">ショートカットキー</font><br/>
+	<font fg="afffff">F5~F12</font>にアイテムまたは魔法を載せて使用することができます。<br/></p>
+	<p><font fg="ffffaf">メニュー</font><br/>
+	右下のアイコンをクリックすると、メール、ゲーム設定、キャラクターの状態などを表示するウィンドウが開きます。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

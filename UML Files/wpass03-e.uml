@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name>次元の扉</name>
+  </npc>
+  <dialog>
+    <p>宙に浮かぶ絵が不規則に揺れている。今近づくのは危険だろう。<br/>
+		<br/>
+		揺れる様子を見ていると、絵の真ん中から少し外れた一点だけは揺れていないように見えた。<br/>
+		<br/>
+		あそこなら通行証を使って、揺れを止めることができそうだ。</p>
+		<p><br/></p>
+		<p><br/><a action="a">通行証を使う</a><br/>
+		<br/>
+    <a action="c">通行証を捨ててここを諦める</a></p>
+  </dialog>
+</npcdialog>

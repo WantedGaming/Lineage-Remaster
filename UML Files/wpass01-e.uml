@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name>次元の扉</name>
+  </npc>
+  <dialog>
+    <p>宙に浮かぶ奇妙な絵が無機質な表情でこちらを見ている。<br/>
+		<br/>
+		見ているというよりは、こちらの存在を認識していないような表情ともいえる。<br/>
+		<br/>
+    絵は向かい側にいる生命体の姿のようにも見える。</p>
+		<p><br/></p>
+		<p><a action="a">中に入ってみる</a></p>
+  </dialog>
+</npcdialog>

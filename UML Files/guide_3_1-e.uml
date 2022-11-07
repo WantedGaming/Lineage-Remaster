@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが36から40のあなたのためのお手軽な狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

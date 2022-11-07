@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff"><name/>：</font></p><br/>
+		<p> 赤く光る水晶に視線を奪われる。透明な水晶の色に、メインランドのダンジョンの姿がほのかに照らされるようだ。<br/>
+		<br/>
+		<br/>
+		<br/>
+		<a action="teleport gludinD7f">水晶に近づく</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ウィザード リード</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>火竜の宝物を奪おうとした瞬間、支配の結界が四方を囲んだ…私は宝物を諦めてやっとの思いで抜け出した…</p>
+	<p><br/></p>
+	<p>できたら、私が置いてきた宝物を見つけてくれないか？私に<font fg="ffaaff">10,000Adena</font>払えば、そこに入れるようにしてやろう。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a action="control">良いだろう…ただし宝物はいただく！</a><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p>好きにするが良い…ただし、私がここに逃げてきた時、ウィザード マーリンの力を借りたため、結界で長時間経つとギラン監獄に行けなくなる。覚えておくんだな…<br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

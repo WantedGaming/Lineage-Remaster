@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハリー</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 忘れられた島に行ける船着場に行ってみましたか？<br/>
+		 あそこまで賑わっているのは久しぶりに見ましたよ。<br/>
+		 あそこで商売をすれば大儲けできるでしょうね。どう思います？<br/>
+		</p>
+
+	</dialog>
+</npcdialog>

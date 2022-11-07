@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>試練のクリスタル</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>試練の剣を装備されていらっしゃいますね。<br/>
+		</p><p>装備を解除なさってください。解除された後にまたお返しください。<br/>
+		</p><p>それがここのルールです。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

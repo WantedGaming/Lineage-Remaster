@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>アイテム選択の変更</title>
+  <dialog>
+	<p><br/><font fg="ffffaf">アイテム選択の変更：</font><br/>
+	アイテムやキャラクターが重なっている場合は、カーソルを合わせて<font fg="afffff">右クリック</font>すると対象の選択を変更できます。<br/></p>
+	<p><img src="331" link="helpgen"/><br/></p>
+  </dialog>
+</npcdialog>

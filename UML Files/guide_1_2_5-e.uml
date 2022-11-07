@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 話せる島の村の北、11時の方向にある門から外に出て、海岸線に沿って北へ進むと、高台と岩山があります。そこには<font fg="ffafff">ライカンスロープ</font>、<font fg="ffafff">ストーン ゴーレム</font>、<font fg="ffafff">ドワーフ</font>、<font fg="ffafff">ドワーフ ウォリアー</font>、それに<font fg="ffafff">フローティング アイ</font>も出るんですよ。<br/>
+		 それでは、ご健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

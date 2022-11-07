@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 前に<a link="babara2">黄昏の山脈</a>で重傷の状態で、道を迷ってやってきた冒険者たちを助けたことがあります。<br/><br/>
+		 どうやったらあそこまで傷つくのか不思議なほど、大きくて酷い傷でした。<br/>
+		 <br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

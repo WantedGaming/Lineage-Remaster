@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>Ashur</name>
+		<job>Merchant</job>
+		<text>Desert Travel Essentials</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Traveling in the desert can be tough. While there are no standout items, you will find all the essentials for your trip. Please take a look.<br/><br/>
+		<br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p></p><br/>
+		<p><a action="s_merchant3">Ask about recent prices</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

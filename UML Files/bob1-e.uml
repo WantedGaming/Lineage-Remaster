@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+    <p align="left"><font fg="ffffff"><name/>：</font></p>
+		<p><br/>
+		 父ちゃん宛に手紙が届いたんだ。おいらの弟が生まれるって書かれてたんだけど…<br/>
+		 <br/>
+		 実はペットの弟だったんだ！人間じゃないけどすごく嬉しかった！<br/>
+		 <br/>
+		 <br/>
+		 お前も嬉しいだろ？パトラッシュ！<br/>
+		 <br/>
+		 
+		
+		</p>
+	</dialog>
+</npcdialog>

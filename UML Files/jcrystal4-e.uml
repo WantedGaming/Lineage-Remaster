@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>試練のクリスタル</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>スクロールがまだ残っていますね？<br/>
+		</p><p>スクロールは使い切ってくださいとあれだけ申し上げましたのに。<br/>
+		</p><p>今からでもいいので、すぐ使っていただくか、削除してください。それがここでのルールです。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

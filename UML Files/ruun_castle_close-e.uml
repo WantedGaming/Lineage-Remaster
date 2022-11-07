@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>調査する</title>
+  <dialog>
+	<p><br/>
+		<font fg="ffffaf">[君主の間]</font>
+		</p>
+	<p>
+	<br/>
+	<br/>
+	強力な力の気で守られている。<br/>
+	<br/>
+	今は入ることができないようだ。<br/>
+	<br/>
+	<br/>
+	<br/>
+	</p>
+  </dialog>
+</npcdialog>

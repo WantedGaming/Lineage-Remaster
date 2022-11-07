@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[Growth Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 ふむ…<br/>
+		<br/>
+		 勇士様、僕がお願いする内容はとても危険で忍耐が必要です。<br/>
+		<br/>
+		 申し訳ありませんが、勇士様には難しいお願いをすることができません。<br/>
+		<br/>
+		<br/>
+		 ああ…<font fg="C15AF4">アークナイト</font>の気を感じる勇士様なら十分なのですが…<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+村の中央にある巨大な世界樹、<font fg="ffffff">森とエルフの母と共生し、
+その近くの洞窟</font>に住んでいるアラクネ族の長老のことです。彼女と 
+母なる世界樹との関係は私もよく知らないけど、とにかく彼女は 
+私たちエルフに<font fg="ffffff">必要なものをつくって</font>くれてるんです。 
+もちろん、<font fg="ffffff">材料は自力で手に入れて</font>持っていかなくてはなりませんが……。
+</p> 
+  </dialog>
+</npcdialog>

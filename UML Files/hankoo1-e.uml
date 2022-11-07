@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハンク</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 なんだよ！<br/>
+		 まさか、バンクとかマンクとかと間違えて俺を訪ねてきたんじゃないだろうな！<br/><br/>
+		 クンクン！袋から変な匂いがするな～、出して見せてみろ。
+		 いい値で買取ってやるぞ。さっさと出せよ！ <br/>
+		 <br/>
+		</p>
+		<p align="center"></p>
+		<panel type="Panel_Shop_Bt_Sell"><button action="sell"/></panel>
+		
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>マグス</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+    </panel>
+    <p>いらっしゃい。マグスの商店です。ゆっくり見ていってくださいね。</p>
+    <p><a action="s_merchant3">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>

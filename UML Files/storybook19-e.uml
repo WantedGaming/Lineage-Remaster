@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[悪魔の寺院]：</font></p>
+	<p><br/></p>
+	<p>地下大空洞へは以前より<font fg="ffffaf">ラスタバド</font>の暗殺団が侵攻を試みていたが、古代巨人の創造物によって行く手を阻む場所があった。</p>
+	<p>そこは古代巨人の墓とは反対に位置する魔族神殿だった。</p>
+	<p>当然ながら、そこを100年もの間<font fg="ffffaf">火炎の影</font>が率いる<font fg="ffffaf">堕落</font>の軍が占領しているとは夢にも思っていなかった。</p>
+	<p>長い間<font fg="ffffaf">ラスタバド</font>を見てきた<font fg="ffffaf">火炎の影</font>は<font fg="ffffaf">ダンテス</font>が持つ野望と、手下である<font fg="ffffaf">ヘルバイン</font>の強欲さを感じ取り、彼らを利用して地上世界への進出を目論んだ。</p>
+	<p>強大な力を求めた<font fg="ffffaf">ヘルバイン</font>が魔族と繋がった最初の<font fg="ffffaf">ダークエルフ</font>であったならば、魔族神殿に足を踏み入れた最初の人間は<font fg="ffffaf">ケンラウヘル</font>であった。</p>
+	<p>それは赤き騎士団の攻勢から逃れるよう<font fg="ffffaf">ラスタバド</font>に亡命した時だったが、彼の野心と欲望が自らを魔族神殿へと導いたのだろう。</p>
+	<p><font fg="ffffaf">火炎の影</font>は<font fg="ffffaf">堕落</font>を介し、<font fg="ffffaf">ヘルバイン</font>には黒魔術をも超える強大な力を、<font fg="ffffaf">ケンラウヘル</font>には不死身の体となる<font fg="ffffaf">魔族の肉体</font>を条件に契約を持ちかけた。</p>
+	<p>こうして彼は地上世界を支配するための2つの鍵を手にしたのだった。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

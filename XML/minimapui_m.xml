@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<MiniMapUI Name="MiniMapUI" Toggle="true" Enable="false">
+	<Window Name="Window" X="990" Y="40" FramePng="100136;1" MostTop="1" Activate="1" Transparent="false"  Toggle="true"/>
+</MiniMapUI>

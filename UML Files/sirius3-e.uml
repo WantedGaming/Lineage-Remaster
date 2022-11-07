@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シリウス</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>ここからお送りできる狩り場と料金は以下のとおりです。<br/></p>
+		<p>どの狩り場に行きますか？<br/><br/></p>
+		
+		<p><a action="teleport aden-gypsy">Gypsy Town:<var src="0"/>Adena</a><br/></p>
+		<p><a action="teleport aden-eva">Heine Dungeon:<var src="1"/>Adena</a><br/></p>
+		<p><a action="teleport aden-mirr">Mirror Forest:<var src="2"/>Adena</a><br/></p>
+		<p><a action="teleport aden-girdun">Giran Dungeon:<var src="3"/>Adena</a><br/></p>
+		<p><a action="teleport aden-dragon">Dragon Valley:<var src="4"/>Adena</a><br/></p>
+		<p><a action="teleport aden-oasis">Desert Oasis:<var src="5"/>Adena</a><br/></p>
+		<p><a action="teleport aden-train">SKT Dungeon:<var src="6"/>Adena</a><br/></p>
+		<p><a action="teleport aden-gludun">Gludio Dungeon:<var src="7"/>Adena</a><br/></p>
+		<p><a action="teleport aden-under">Underground Invasion:<var src="8"/>Adena</a><br/></p>
+		<p><a action="teleport aden-reed">Wheat Field:<var src="9"/>Adena</a><br/></p>
+		
+	</dialog>
+
+</npcdialog>

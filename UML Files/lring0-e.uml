@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの補佐官</name>
+  </npc>
+  <dialog>
+	<p>貴様はどの種の魔物だ？<br></p>
+  </dialog>
+</npcdialog>

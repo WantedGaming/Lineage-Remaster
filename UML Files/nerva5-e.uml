@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>セイルーン</name>
+    <job>[エリクサー ルーン製作職人]</job>
+  </npc>
+  <dialog>
+	<p> 助けてくれて礼を言う。</p>
+	<p><br/></p>
+	<p> <font fg="ffaaff">邪悪な活力は50個</font>あれば、当分は研究には困らなそうだ。</p>
+	<p><br/></p>
+	<p> <font fg="ffaaff">色あせた古書</font>と<font fg="ffaaff">魔力を失ったルーン</font>も必要だ。</p> 
+	<p><br/></p>
+	<p><a action="request craft">材料はここにある</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

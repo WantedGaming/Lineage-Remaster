@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>アデンに住んでいながら、まだ知らせを聞いていないんですか？<br/><br/></p>
+	<p>確かに、貴方のような方のために僕がいるんでしょう！今日の僕のお知らせです。<br/><br/></p>
+	<p><a link="newsboy1">ペット用の紀州犬の子犬とタイガー？</a><br/><br/></p>
+	<p><a link="newsboy5">ドンコはどこへ？</a><br/><br/></p>
+	<p><a link="newsboy8">見棄てられた者たちの地へ行くための方法は？</a><br/><br/></p>
+	<p><a link="newsboy6">コマおじいさんの健康悪化</a><br/><br/></p>
+	<p><br/></p>
+	<p>それじゃ、僕は忙しいからこれで。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

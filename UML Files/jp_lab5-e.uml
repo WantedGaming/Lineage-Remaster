@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ありがとうございます！</p>
+		<p>魔族の実験体の研究におおいに役立ちます！</p>
+		<p>もしかしたらまたお願いするかもしれません。</p>
+		<p>ささやかなものですが、手伝ってくださったお礼を差し上げます。</p>
+	</dialog>
+
+</npcdialog>

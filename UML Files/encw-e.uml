@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<!--name></name-->
+		<job>[武器専門家]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>もしよろしければ、あなたが持っている武器に魔法をかけて、もっと強力なものにしてあげます。</p>
+		<p>ただし、その魔法効果は短く、装備している武器にしか魔法をかけることはできません。</p>
+		<p>料金は100Adenaです。</p>
+		<p><a action="encw">武器の強化魔法を受ける</a></p>
+	</dialog>
+</npcdialog>

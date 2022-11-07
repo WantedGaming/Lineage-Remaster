@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ ダルフ ガーディン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 ほらよ。たぶんこんな頑丈なツルハシは他にないだろうよ。<br/>
+		 頼みごとがあればまた来いよ。<br/>		
+		</p>
+	</dialog>
+</npcdialog>

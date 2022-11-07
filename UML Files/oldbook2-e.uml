@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+<p>埃が積もった本の山。</p>
+<br/>
+<p>一冊ぐらいなくなっても、誰も分からないだろう。</p>
+</dialog>
+
+</npcdialog>

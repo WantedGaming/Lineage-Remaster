@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ウッドベック村から出て北に向かうと、すぐのところに砂漠があります。その砂漠を囲むように森があります。左には廃墟、上には大きな川がある森です。そこには<font fg="ffafff">ライカンスロープ</font>、<font fg="ffafff">ホブゴブリン</font>、<font fg="ffafff">ストーン ゴーレム</font>などのモンスターがいます。<br/>
+		 初心者用の狩り場を卒業したばかりの人にオススメですよ。それでは、健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

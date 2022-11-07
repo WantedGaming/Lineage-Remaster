@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ドワーフ トフェン</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>私はギルドから<var src="0"/>血盟とのみ取引するよう言われています。すみませんが、他のギルドをあたってください。</p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>受取人：クエン</p>
+		<p>拝啓クエン様。この手紙の持ち主は村に出没するゴーストを倒してくれる勇士です。</p>
+		<p>恨みに満ちたハメル将軍をきっと退治してくれるでしょう。私が渡した<font fg="ffffaf">聖水</font>を使って、ミスリルを精錬し<font fg="ffffaf">神聖なミスリル パウダー</font>を作ってください。</p>
+		<p>くれぐれもお願いします。</p>
+		<p>差出人：治安団長ラルソン</p>
+	</dialog>
+
+</npcdialog>

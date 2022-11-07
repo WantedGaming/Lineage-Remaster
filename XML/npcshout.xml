@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NpcShoutingRoot>
+	<NpcCase SpriteNumber="12039" BoundRange="8" ActionDealy="3"><!-- NPC 외치기, 스프라이트 번호로 구분 -->
+		<ClassCase CalssType="0"><!-- 클래스별 대사 군주=0, 기사=1, 엘프=2, 마법사=3,다크엘프=4, 용기사=5, 환술사=6, 전사=7 -->
+			<LevelCase MinLevel="1" MaxLevel="52"><!-- 레벨 구간별 대사 min max구간이 겹치지 않도록 주의해야함 -->
+				<SouhtString StrIndex="4088"/>
+				<SouhtString StrIndex="4089"/>
+				<SouhtString StrIndex="4090"/>
+				<SouhtString StrIndex="4091"/>
+				<SouhtString StrIndex="4092"/>
+			</LevelCase>
+			<LevelCase MinLevel="53" MaxLevel="60">
+				<SouhtString StrIndex="4093"/>
+				<SouhtString StrIndex="4094"/>
+				<SouhtString StrIndex="4095"/>
+				<SouhtString StrIndex="4096"/>
+				<SouhtString StrIndex="4097"/>
+			</LevelCase>
+			<LevelCase MinLevel="63" MaxLevel="90">
+				<SouhtString StrIndex="4098"/>
+				<SouhtString StrIndex="4099"/>
+				<SouhtString StrIndex="4100"/>
+				<SouhtString StrIndex="4101"/>
+				<SouhtString StrIndex="4102"/>
+			</LevelCase>
+		</ClassCase>
+		<ClassCase CalssType="1"><!-- 클래스별 대사 군주=0, 기사=1, 엘프=2, 마법사=3,다크엘프=4, 용기사=5, 환술사=6, 전사=7 -->
+			<LevelCase MinLevel="1" MaxLevel="52"><!-- 레벨 구간별 대사 min max구간이 겹치지 않도록 주의해야함 -->
+				<SouhtString StrIndex="4103"/>
+				<SouhtString StrIndex="4104"/>
+				<SouhtString StrIndex="4105"/>
+				<SouhtString StrIndex="4106"/>
+				<SouhtString StrIndex="4107"/>
+			</LevelCase>
+			<LevelCase MinLevel="53" MaxLevel="60">
+				<SouhtString StrIndex="4108"/>
+				<SouhtString StrIndex="4109"/>
+				<SouhtString StrIndex="4110"/>
+				<SouhtString StrIndex="4111"/>
+				<SouhtString StrIndex="4112"/>
+			</LevelCase>
+			<LevelCase MinLevel="63" MaxLevel="90">
+				<SouhtString StrIndex="4113"/>
+				<SouhtString StrIndex="4114"/>
+				<SouhtString StrIndex="4115"/>
+				<SouhtString StrIndex="4116"/>
+				<SouhtString StrIndex="4117"/>
+			</LevelCase>
+		</ClassCase>
+	</NpcCase>
+</NpcShoutingRoot>

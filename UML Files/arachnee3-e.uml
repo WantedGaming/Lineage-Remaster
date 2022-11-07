@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>アラクネ</name>
+		<job>森の守護者</job>
+		<text></text>
+	</npc>
+  <dialog>
+    <p>我らが糸を紡ぎ、殻を脱ぐ周期はエントと大いに関わっている。<font fg="ffafff">エントの枝</font>にある、ある成分が、我ら種族の<a link="arachnee7">糸</a>を出すのを助けてくれる。<font fg="ffafff">エントの表皮</font>にある成分は、我々の<a link="arachnee6">脱皮</a>を促進させる効能がある。</p>
+    <p>このように守護者の生態は互いに密接に関連しているのだ。この森全体が互いに繋がっているのだ。<br/><br/><br/></p>
+    <p><img src="331" link="arachnee1"></img></p>
+	 </dialog>
+</npcdialog>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 頭が高いぞ！誰の御前だと思っているのだ！<br/>
+		 今すぐにでもちっぽけなお前の命を差し出すのが当然だが、真心を尽くしてヤヒ様に忠誠を誓うと言うのなら、今回は許してやろう。<br/>
+		<br/>
+		 ヤヒ様のお心を害させるあの下等な「純潔なる血痕」たちのブラッドクリスタルを捧げるのだ。<br/>
+		 さすればお前の罪はあがなわれ、永遠にヤヒ様へと通ずる道となるだろう。<br/>
+		<br/>
+		<a action="2">私の霊魂をかけてヤヒ様に忠誠を誓います…</a>
+		</p>
+	</dialog>
+</npcdialog>

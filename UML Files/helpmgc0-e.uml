@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>魔法 その他</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">魔法全般：一般</font><br/></p>
+	<p><font fg="ffffaf">術者</font><br/>
+	魔法を使用した使用者を指します。<br/></p>
+
+	<p><font fg="ffffaf">魔法レベル：</font><br/>
+	術者が習得できる魔法の段階を意味し、術者のレベルと関連します。君主とダークエルフは<font fg="afffff">レベル15ごと</font>に、エルフは<font fg="afffff">レベル10ごと</font>に、ウィザードは<font fg="afffff">レベル8ごと</font>に魔法レベルが1増加します。<br/>
+	また、各クラスごとに魔法レベルの上限があります。君主とダークエルフは<font fg="afffff">レベル2</font>、エルフは<font fg="afffff">レベル6</font>、ウィザードは<font fg="afffff">レベル10</font>までの魔法を習得できます。ナイトとウォリアーは<font fg="afffff">レベル50になると、1段階の魔法</font>を習得できます。<br/></p>
+
+	<p><font fg="ffffaf">魔法ボーナス：</font><br/>
+	魔法のダメージまたは確率に関係する数値です。魔法ボーナスは基本的に術者のINT値に比例して魔法抵抗力が上がります。<br/></p>
+	
+	<p><font fg="ffffaf">魔力(Spell Power)：</font><br/>
+	この数値が高いほど有害な魔法にかかりにくくなり、攻撃魔法を受けてもダメージが少なくなります。基本的に<font fg="afffff">術者のレベル</font>と<font fg="afffff">WIS</font>値に比例して魔法防御力が上がります。<br/></p>
+	
+	<p><font fg="ffffaf">魔法防御(MR)：</font><br/>
+	この数値は<font fg="afffff">魔法レベル+魔法ボーナス</font>で、術者の総合的な魔法の強さを表します。この数値は魔法ウィンドウで確認できます。<br/></p>
+	
+	<p><font fg="ffffaf">魔法の属性：</font><br/>
+	魔法の中には、水/火/地/風のうち一つの属性を持ちます。<font fg="afffff">水→火、火→地、地→風、風→水</font>と、それぞれの相性があります。<br/></p>
+
+	<p><font fg="ffffaf">魔法の性向：</font><br/>
+	魔法には<font fg="afffff">Lawful/Neutral/Chaotic</font>の三つ性向があります。性向がある魔法の中には、術者の性向値が該当性向に傾くほど威力が増大する魔法もあります。<br/></p>
+
+	<p><font fg="ffffaf">魔法の対象：</font><br/>
+	この数値は<font fg="afffff">魔法レベル+魔法ボーナス</font>で、術者の総合的な魔法の強さを表します。この数値は魔法ウィンドウで確認できます。<br/>
+	すべての魔法には対象があります。対象を指定しないと魔法は発動しません。魔法の対象は以下のとおりです。<br/>
+	術者：魔法を使用する使用者自身<br/>
+	PC：現在のキャラクターの周囲15セル内のプレイヤー<br/>
+	NPC：現在のキャラクターの周囲15セル内のモンスター<br/>
+	血盟員：現在のキャラクターの周囲15セル内の血盟員<br/>
+	敵：敵対中の相手血盟のプレイヤー<br/>
+	アイテム：術者が持つアイテム<br/>
+	場所：キャラクター周囲15セル内の一定範囲<br/></p>
+	
+	<p><font fg="ffffaf">魔法材料：</font><br/>
+	魔法の中には、使用するためには「魔力の石」/「精霊の玉」/「ダーク ストーン」/「属性石」/「刻印のボーン ピース」<br/>という魔法の触媒が必要な魔法があります。必要な触媒の数はそれぞれの魔法のヘルプで説明されています。<br/></p>	
+	
+	<p><font fg="ffffaf">魔法を習う：</font><br/>
+	クラス別レベルに合わせて魔法を習得できます。基礎魔法書は話せる島にいる<font fg="afffff">サイモン</font>から購入でき、上級魔法はモンスターをとおして獲得できます。<br/></p>	
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+	<p>お前のおかげで一族の名誉が傷つかず、無事にこの件を解決することができた。</p> 
+	<p>さあ、これはワシからの心ばかりのお礼じゃ。</p> 
+	<p>受け取っておくれ。</p>
+	<p>これでお前は何も知らない我が一族からは憎まれるだろう。</p> 
+	<p>なぜこんなことが起きたのか、誰も理解できないじゃろうて。</p> 
+	<p>だが、ワシだけは覚えているぞ。</p> 
+	<p>生涯決して忘れぬぞ…</p>
+  </dialog>
+</npcdialog>

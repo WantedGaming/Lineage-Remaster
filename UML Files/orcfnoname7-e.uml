@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>長老ノナメ</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>調査の方はどうなっておるんじゃ？</p>
+<br/>
+<p><a action="B"/>アトゥバ族のトーテムと交換</p>
+<p><a action="C"/>ドゥダ-マラ族のトーテムと交換</p>
+<p><a action="D"/>ネルガ族のトーテムと交換</p>
+<br/>
+<p><a action="Z"/>調査をやめます</p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>ノイミューン</name>
+    <job>[イベント商人]</job>
+  </npc>
+  <dialog>
+	<p>ようこそ、私は<font fg="fff00">魔法玉の欠片</font>を販売している。<br/></p>
+	<p><br/></p>
+	<p><font fg="fff00">1日に1個</font>のみ購入できることをお忘れなく。<br/></p>
+	<p><br/></p>
+	<p>ゴールド魔法玉の欠片はピクシーの羽、星の砂を獲得できる場所でしか使用できないことも注意してくれよ。<br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<panel type="Panel_Shop_Button">
+		<button action="buy"/>
+		<button action="sell"/>
+	</panel>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

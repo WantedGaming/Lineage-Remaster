@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>冒険家 レイダース：</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>ほ～、近頃まれに見る正直な人ですね。それで、進化の実が欲しいのですか？</p>
+		<p>うーん…確かに私があの海の彼方にある大陸を旅した時に持ち帰った進化の実が、あるにはあります。</p>
+		<p>けれど、これはかなり貴重なものなので、申し訳ありませんが、ただで差し上げることはできません。</p>
+		<p>実は、私がこの大陸で手に入れたいものがあるんです。</p>
+		<p>それを進化の実と交換するのはどうでしょうか？</p>
+		<p><a link="raiders3a">いいですよ、そうしましょう</a></p>
+		<p><a link="raiders3b">嫌です、あきらめます</a></p>
+	</dialog>
+
+</npcdialog>

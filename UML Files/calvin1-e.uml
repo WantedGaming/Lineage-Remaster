@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 傲慢の塔を知っているか？<br/><br/>
+		 ドラゴンを倒したと自慢する奴らも、傲慢の塔には怖気づくものだ。<br/>
+		 君のような軟弱な者は、近づくのも危険だ。<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		君の活躍は聞いている。勇気だけじゃなく、人助けもできる立派な人物だとみんながほめていたよ。
+		<br/>
+		<br/>
+		<a action="B">アラスの手紙を渡す</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

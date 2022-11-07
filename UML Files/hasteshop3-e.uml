@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		TAMショップを一度も利用したことがない人はいても、一度しか利用したことがない人はいない！<br/>
+		<br/>
+		 一度経験したら抜けられない、TAMショップ！<br/>
+		<br/>
+		 ショップの利用をご希望でしたら<font fg="ffffaf">Adena</font>を持ってお越しください。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

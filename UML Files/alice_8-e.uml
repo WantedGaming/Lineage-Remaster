@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">ヤヒの鍛冶屋：</font><br/><br/></p>
+    <p> これでお前は我ら魔族の一員として、偉大なるカヘル ヤヒ様の封印が解ければ、我々はより大きな世界に羽ばたくのだ！グハハハ！</p>
+  </dialog>
+</npcdialog>

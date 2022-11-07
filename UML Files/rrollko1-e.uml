@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロルコ</name>
+		<job>古代品商人</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>はは。実は私どもの商売が合法ではないってことはお察しですよね？</p>
+		<p>だから、私どもの商売について詳しくお教えするのはちょっと…ですが、多少の情報はお教えしましょう。</p>
+		<p>他言無用ですよ。いいですね！</p>
+		<p>申し上げたとおり、おおっぴらにできない商売ですからね。こそこそとやらせてもらってますよ。</p>
+		<p>私どもはあるギルドに所属していて、何人かでこういったアイテムを売ってるんです。オーレンとかアデンの近所でね。</p>
+		<p>売る品は人によって違います。魔法関係のアイテムはオーレン側で売ってますよ…</p>
+		<p>まあ、</p>
+		<p>情報はこのくらいにして…</p>
+		<p><img src="331" link="rrollko"/>	</p>
+	</dialog>
+	
+</npcdialog>

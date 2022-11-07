@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>キャサリン</name>
+		<job>[雑貨商人]</job>
+	</npc>
+  <dialog>
+   <p> こんな物騒な時代、自分のみを守る防具は欠かせませんよ！</p>
+   <p> さあ！選んでください！</p>
+   <panel type="Panel_Shop_Bt_buy">
+      <button action="buy"/>
+    </panel>
+   <p><a action="s_merchant3">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>

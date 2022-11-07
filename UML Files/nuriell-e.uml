@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<dialog>
+	<p>No matter how pure the world of elves is, a minimum of trust is necessary. Please come after you grow up a little more.</p>
+</dialog>
+
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">旅人：</font><br/><br/></p>
+    <p> 私の家の犬は大丈夫でしょうか？聖堂ではずっと祈っていました。</p>
+    <p> ... ...</p>
+    <p> あの…もう少しゆっくり行けないですか？早すぎて追いつけないです！</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extracting a magical catalyst from Faagrio's legacy.<br/></p>
+    <p>You can extract 25 Magic Stones, 30 Spirit Orbs, and 10 Black Magic Stones from each Faagrio Legacy. Which one do you want to extract?<br/><br/><br/></p>
+    <p><a link="alchemy22">magic stone</a><br/></p>
+    <p><a link="alchemy23">spirit ball</a><br/></p>
+    <p><a link="alchemy24">black magic stone</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy4"/><br/></p>
+  </dialog>
+</npcdialog>

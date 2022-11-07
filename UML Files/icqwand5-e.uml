@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブラッド</name>
+		<job>[Conversation]</job>
+		<text></text>
+	</npc>
+  <dialog>
+    <p><br/>本当に強力な火炎と関連したアイテムを見つけたというのか？<br/><br/></p>
+	<p>火炎の火種ならアイス デーモンに、火炎の気ならアイスクイーンに接近できるだろう。<br/><br/></p>
+	<p>急いで後ろにいる裏切り者のアイスクイーン ガードのところへ行け。彼ならそのアイテムを使えるだろう。<br/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>パゴ</name>
+    <job>[オーク商人]</job>
+  </npc>
+  <dialog>
+	<p>近頃ここに来るやつらが多いな。</p>
+	<p>お前も地下ダンジョンを調べにきたんだろ？</p>
+	<p>せっかく来たんだから、記念に何か買っていかないか？</p>
+	<p><a link="pago1">ダンジョンの構造について聞く</a></p>
+  </dialog>
+</npcdialog>

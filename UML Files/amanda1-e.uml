@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	 <p><font fg="ffffff">アマンダ：</font><br/><br/></p>
+   <p>最近、領主様が変わってから税金が上がっちゃって、暮らしが大変です。</p>
+   <p>もう夫を稼ぎだけじゃ不安で、私もなにか働こうっと思ったんですよ。</p>
+   <p>でも、世知辛いもんでね。金になりそうな仕事はもう大手が独占しちゃってるの！私のような庶民だけが大変な目にあってるのよ。</p>
+  </dialog>
+</npcdialog>

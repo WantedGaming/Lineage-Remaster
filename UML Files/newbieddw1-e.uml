@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>Water Dragon Messenger</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>竜の棲処：水竜は、デスナイトになった者たちがシルバーナイトになるまでの間出入りできる場所だ。</p>
+	<p><br/></p>
+	<p>フオスの吠えたける声が向こう側から聞こえてくるのは、その恐ろしさをあなたに警告しているのだ。</p>
+	<p><br/></p>
+	<p><a action="1">恐怖に立ち向かいます</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

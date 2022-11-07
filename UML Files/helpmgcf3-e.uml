@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>火の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">火の精霊魔法：レベル3</font><br/></p>
+	<p><font fg="ffffaf">ファイアー シールド：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：15/0<br/>
+	持続時間：960秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、術者にAC+4のボーナスを付与します。<br/><br/></p>
+	<p><img src="331" link="helpmgcf"/><br/><br/></p>
+	</dialog>
+</npcdialog>

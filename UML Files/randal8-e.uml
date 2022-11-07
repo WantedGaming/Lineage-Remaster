@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ランダル</name>
+    <job>[ポーション商人]</job>
+  </npc>
+  <dialog align="left">
+    <p>何か足りないものがあるようだが、調べてみろよ。</p>
+    <p><img src="331" link="randal0"/></p>
+  </dialog>
+</npcdialog>

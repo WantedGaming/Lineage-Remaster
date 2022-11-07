@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">ヤヒの鍛冶屋：</font><br/><br/></p>
+    <p>さあ！このアリスに宿ったヤヒ様の栄光を思うのだ！</p>
+    <p>何をグズグズしておる。はやく純潔なる血痕たちを倒すんだ！</p>
+  </dialog>
+</npcdialog>

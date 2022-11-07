@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 彼はつい最近私たちの村に来たので、私も彼のことはよく分かりません。
+		 <br/><br/>
+		 <font fg="ffffaf">村の北西</font>付近に行けば彼に会えると思います。<br/>
+		 彼なら氷水晶洞窟で何が起きているのかが分かるはずです。<br/>
+		<br/>
+		<br/>
+		<img src="331" link="bion1"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>

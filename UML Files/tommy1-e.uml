@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>ジャック兄さんは見つけられなかったけど、新しい動物の友だちができたんだ！</p>
+		<p>火田村で新しい友だちができたおかげで、落ち込んでたけど少し元気になれたよ！それに、兄さんも帰ってきそうな予感がするんだ。</p>
+	</dialog>
+
+</npcdialog>

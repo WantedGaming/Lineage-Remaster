@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ミランダ</name>
+		<job>[従業員]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		…アラ、やだ、しっかりしなきゃ。あたしったら、また旅館のカウンターを空けてきちゃったわ。
+		あたし、ほんとにどうかしているの…毎日ボーッとしちゃって、お茶碗は割るわ、宿代すらちゃんと勘定できないないわ…
+		<br/>…<br/>
+		<br/>…<br/>
+		<br/>…アラ、やだ。<br/>
+		ごめんなさいね。見ず知らずの方に、ワケ分かんない話しちゃって。
+		</p>
+	</dialog>
+</npcdialog>

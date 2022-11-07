@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロルコ</name>
+		<job>古代品商人</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>よぉ、良く来たな！</p>
+		<p>君の前にあるこれらは、古代の力を受けて<font fg="ffafff">強化されたアイテム</font>を作り出す不思議なアイテムだ！</p>
+		<p>運が良ければ<font fg="ffafff">輝くアイテム</font>や、<font fg="ffafff">かなり高価なアイテム</font>が手に入るぞ。</p>
+		<p>私が見たところ、今日君の運がまぶしい太陽のように輝いているな。どうだ、やってみるか？</p>
+				<panel type="Panel_Shop_Bt_Buy">
+					<button action="buy"/>
+				</panel>
+	</dialog>
+	
+</npcdialog>

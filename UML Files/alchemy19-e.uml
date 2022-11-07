@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extract 30 Magical Stones from Eva's Legacy.<br/></p>
+    <p>How many magic stones will you extract from Eva Legacy? 1,000 Adena is required per piece, as there is a lot of work involved in extracting the materials.<br/><br/><br/></p>
+    <p><a action="s">1</a><br/></p>
+    <p><a action="t">10</a><br/></p>
+    <p><a action="u">50</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy7"/><br/></p>
+  </dialog>
+</npcdialog>

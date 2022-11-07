@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>Adellio</name>
+		<job>[Lastabad Craftsman]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		I used to make a lot of money in <font fg="ffaaff">Lastabad,</font> servicing the equipment of the great executives. But I got tired of their corruption and cruelty and fled here.
+		 <br/><br/>
+		 Everyone deserves what they get for Lastabad's unfortunate demise...
+		<br/>
+		 So, what do you want from me?<br/>
+		<br/>
+		</p>
+     <panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

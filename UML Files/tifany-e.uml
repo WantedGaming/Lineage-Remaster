@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>この部屋はエルフが精霊魔法の修練ができるようタラス様とエリオン様が特別に用意してくださった修練場です。</p>
+		<p>少し前まではここに学びに来るエルフたちで賑わっていましたが、エリオン様がエルフの森に戻られた後からはぱったり来なくなりました。</p>
+		<p>これ以上精霊魔法を習得できなくなってしまったのは、エリオン様が不在の象牙の塔内部にエルフの森の影響が及ばなくなったからでしょう。</p>
+		<p>ここもこれからどう使っていくかタラス様と相談しなければなりません。</p>
+	</dialog>
+
+</npcdialog>

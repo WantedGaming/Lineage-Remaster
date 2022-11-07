@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>古いメモ</title>
+	<dialog>
+		<p>
+		<font fg="aaaa00"></font></p>
+		<p align="center"><font fg="aaaa00">釣り人の手紙</font></p>
+		<p><br/>
+		<font fg="000000">ねぇ、僕のハニー。君はこの世界のすべてのものに似ているよ。<br/>
+		涼しい風の音、暖かな日差し、香ばしい花の匂い…。ハニー…。<br/>
+		これ以上僕を苦しめないで。僕らが出会った</font><font fg="0000aa">灯台</font><font fg="000000">でいつも待っているよ。<br/><br/><br/>
+		君の永遠のフィアンセより</font>
+		</p>
+	</dialog>
+</npcdialog>

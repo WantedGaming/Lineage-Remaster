@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<dialog>
+	<p><font fg="ffffff">モナ：</font></p>
+		<p>
+		<br/>
+		まさかあなた、南に行かれるの？
+		<br/>    
+		 …気をつけてね。何日か前から、島の真ん中からおかしな気が感じられるの。<br/>
+		 私ね、もうここには住めないと思っていたけど今でもここで暮らしていけてるわ。人間は環境に適応して生きていけるものなのね。<br/>
+		 あなたも逃げ出す前に変化に適応するように努力してみてね。<br/>
+		</p>
+	</dialog>
+</npcdialog>

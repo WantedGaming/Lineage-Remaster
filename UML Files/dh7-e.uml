@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ディエツ</name>
+		<job>[古代遺物専門家]</job>
+  </npc>
+  <dialog>
+  <p>
+ うわっ！この貴重な材料を…粉にしちまったよ。私は負け犬だよ、負け犬！うううっ…<br/>
+ 君には本当にすまないことをした。申しわけない…<br/><br/>
+ <img src="331"link="dh10"></img>
+ </p>
+  </dialog>
+</npcdialog>

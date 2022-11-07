@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>友好度</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ゲームシステム：友好度</font></p>
+	<p>友好度システムが終了し、既存の友好度利用が変更されました。<br/></p>
+	<p><font fg="ffffaf">概略：</font><br/>
+	友好度が終了し、既存の友好度関連の内容は以下のように変更された。<br/>
+	既存の友好度ポイントは1万ポイントにつき奉献スクロール1枚に自動変換されました。<br/></p>
+	<p><font fg="afffff">ソウルクリスタルの欠片</font>、<font fg="afffff">ブラッドクリスタルの欠片</font>、<font fg="afffff">バルログ奉献スクロール</font>、<font fg="afffff">ヤヒ奉献スクロール</font>は材料アイテムとして活用されます。<br/>
+	<font fg="afffff">ヤヒセット</font>、<font fg="afffff">アリス</font>などの製作は、ギランの<font fg="afffff">リネム</font>に頼むことができます。</p>
+	<p><img src="331" link="help"/><br/></p>
+	 </dialog>
+</npcdialog>

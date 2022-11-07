@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>すでに会ってるかもしれないが…この墓場に倒れた<a link="vehikeu11">航海士</a>がいるんだ。<br/>
+		<br/>
+    可哀想な人でな。もう死んでいるのに、未練があって残っているんだよ。</p>
+		<p><a link="vehikeu7">航海日誌</a>なんかのために…</p>
+  </dialog>
+</npcdialog>

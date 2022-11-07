@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 オークたちが団結して作った村です。やつらが何かを準備していることは前から気づいていましたが、その原動力がまさか…
+		 ハルパスと関係があるのではないでしょうか。強力なオークたちが武装して警戒を高めているので、体にはくれぐれも注意してください。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

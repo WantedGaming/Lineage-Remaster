@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>エマエルト</name>
+		<job>[雑貨商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>いらっしゃいませ。ようこそ私たちの村へ！私の夢はお金をいっぱい稼いで、貧しくてひもじい思いをしている村のみんなを救ってあげることなんです。</p>
+		<p>お客様！お客様がしょっちゅう来てくだされば、そんな夢が叶うかもしれませんね。これからもごひいきに！</p>
+		<panel type="Panel_Shop_Button">
+			<button action="buy"/>
+			<button action="sell"/>
+		</panel>
+	</dialog>
+</npcdialog>

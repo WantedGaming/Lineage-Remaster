@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><name/>：</font><br/></p>
+    <p> The house is already on the market.</p>
+  </dialog>
+</npcdialog>

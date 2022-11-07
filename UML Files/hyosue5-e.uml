@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+   <npc>
+    <name>ホシュ</name>
+    <job>[錬金術師]</job>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">錬金術師ホシュ：</font></p>
+    <p><br/>お前は誰なんだ？</p> 
+  </dialog>
+</npcdialog>

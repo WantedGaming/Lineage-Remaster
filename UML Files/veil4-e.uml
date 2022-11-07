@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p>つれない顔をするなよ…私がいくら言い聞かせたとしても…ドワーフのがめつさは天性だから致し方ないのだ…<br/>
+		<br/>
+    もう少しAdenaを集めてきてくれ…</p>
+  </dialog>
+</npcdialog>

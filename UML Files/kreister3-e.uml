@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>魔法の本商人</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クリスト</name>
+		<job>[魔法伝授者]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		うむ、象牙の塔の物価はおおよそ<font fg="ffffff"><var src="0"/>%</font>だ。参考になったか？<br></br>
+		<img src="331" link="kreister"/>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

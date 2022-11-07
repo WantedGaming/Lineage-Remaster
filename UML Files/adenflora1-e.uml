@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Flora</name>
+  </npc>
+  <dialog>
+    <p> My name is Flora, a messenger. In this world, light and darkness coexist. We live in Aden, a very rich and peaceful place, but behind the scenes, evil, injustice, and corruption are rampant.<br/></p>
+    <p><a action="teleportURL">Understood. Send me there.</a></p><br/>
+    <p> The bodies of the drifters were buried as nameless ones, but "Maya", the dark wizard of the court, dug up the buried bodies and turned them into undead. Poor thing...
+ They were rendered incapable of dying. When this fact was discovered, "Maya" had already made her decision.
+ But too many souls are suffering. We must quickly defeat "Maya" and save their undead souls.
+ Save their souls from being turned into undead.</p>
+  </dialog>
+</npcdialog>

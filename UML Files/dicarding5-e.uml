@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		もしや、再生の祭壇で使用した武器を装備しているのか？装備をはずしてこちらに渡しなさい。もう必要はないだろうから、わしが預かっておこう。<br/>
+		<br/><br/><br/>
+		<img src="331" link="dicarding"></img>
+		<br/><br/>
+		</p>
+	</dialog>
+	
+</npcdialog>

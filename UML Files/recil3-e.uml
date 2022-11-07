@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>イシルロテ</name>
+    <job>[赤き騎士団]</job>
+  </npc>
+  	<dialog align="left">
+		<p>こんにちは。私は赤き騎士団のイシルロテです。</p>
+		<p>赤き騎士団の力がだんだん強くなっているので、嬉しいですね。</p>
+		<p>デポロジュー様は本当に優れた君主です。</p>
+	</dialog>
+</npcdialog>

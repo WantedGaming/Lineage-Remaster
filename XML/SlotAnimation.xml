@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlotAnimations>
+	<!--집행검-->
+	<SlotAnimation nameId="1819" effectFileName="FX_LegendItem_All/FX_1945.csb"/>
+	<!--수정 결정체 지팡이-->
+	<SlotAnimation nameId="1754" effectFileName="FX_LegendItem_All/FX_1953.csb"/>
+	<!--붉은 그림자의 이도류-->
+	<SlotAnimation nameId="1752" effectFileName="FX_LegendItem_All/FX_1949.csb"/>
+	<!--바람칼날의단검-->
+	<SlotAnimation nameId="1820" effectFileName="FX_LegendItem_All/FX_1947.csb"/>
+	<!--기르타스의검-->
+	<SlotAnimation nameId="2076" effectFileName=""/>
+	<!--정상의 가호-->
+	<SlotAnimation nameId="16331" effectFileName=""/>
+	<!--가이아의 활-->
+	<SlotAnimation nameId="16427" effectFileName="FX_LegendItem_All/FX_7326.csb"/>
+	<!--크로노스의 공포-->
+	<SlotAnimation nameId="16424" effectFileName="FX_LegendItem_All/FX_7352.csb"/>
+	<!--히페리온의 절망-->
+	<SlotAnimation nameId="16425" effectFileName="FX_LegendItem_All/FX_7358.csb"/>
+	<!--타이탄의 분노-->
+	<SlotAnimation nameId="16426" effectFileName="FX_LegendItem_All/FX_7354.csb"/>
+	<!--포르세의 의지-->
+	<SlotAnimation nameId="16464" effectFileName=""/>
+	<!--드래곤 슬레이어-->
+	<SlotAnimation nameId="316" effectFileName=""/>
+	<!--생명의 단검-->
+	<SlotAnimation nameId="422" effectFileName="FX_LegendItem_All/FX_422.csb"/>
+	<!--살귀검-->
+	<SlotAnimation nameId="25217" effectFileName=""/>
+	<!--섬광검-->
+	<SlotAnimation nameId="25224" effectFileName=""/>
+	<!--절대검-->
+	<SlotAnimation nameId="25218" effectFileName=""/>
+	<!--절풍검-->
+	<SlotAnimation nameId="25222" effectFileName=""/>
+	<!--지팡이-->
+	<SlotAnimation nameId="25220" effectFileName=""/>
+	<!--척살궁-->
+	<SlotAnimation nameId="25219" effectFileName=""/>
+	<!--파멸도-->
+	<SlotAnimation nameId="25221" effectFileName=""/>
+	<!--키링크-->
+	<SlotAnimation nameId="25223" effectFileName=""/>
+	<!--상위변반-->
+	<SlotAnimation nameId="17428" effectFileName="FX_LegendItem_All/FX_17428.csb"/>
+	<!--상위변반-->
+	<SlotAnimation nameId="17429" effectFileName="FX_LegendItem_All/FX_17428.csb"/>
+	<!--파푸리온의 도끼-->
+	<SlotAnimation nameId="15114" effectFileName=""/>
+	<!--순간이동 지배 반지-->
+	<SlotAnimation nameId="17763" effectFileName="FX_LegendItem_All/FX_17763.csb"/>
+	<!--신 진명황의 집행검-->
+	<SlotAnimation nameId="17828" effectFileName="FX_LegendItem_All/FX_1945.csb"/>
+	<!--신 수정 결정체 지팡이-->
+	<SlotAnimation nameId="17830" effectFileName="FX_LegendItem_All/FX_1953.csb"/>
+	<!--신 붉은 그림자의 이도류-->
+	<SlotAnimation nameId="17831" effectFileName="FX_LegendItem_All/FX_1949.csb"/>
+	<!--신 바람칼날의단검-->
+	<SlotAnimation nameId="17829" effectFileName="FX_LegendItem_All/FX_1947.csb"/>
+	<!--신 가이아의 활-->
+	<SlotAnimation nameId="17832" effectFileName="FX_LegendItem_All/FX_7326.csb"/>
+	<!--신 크로노스의 공포-->
+	<SlotAnimation nameId="17833" effectFileName="FX_LegendItem_All/FX_7352.csb"/>
+	<!--신 히페리온의 절망-->
+	<SlotAnimation nameId="17834" effectFileName="FX_LegendItem_All/FX_7358.csb"/>
+	<!--신 타이탄의 분노-->
+	<SlotAnimation nameId="17835" effectFileName="FX_LegendItem_All/FX_7354.csb"/>
+	<!--절대 오만의 반지 지배-->
+	<SlotAnimation nameId="25628" effectFileName=""/>
+	<!--진 데스나이트의 변신 반지-->
+	<SlotAnimation nameId="25744" effectFileName=""/>
+	<!--신화 마법서 8종-->
+	<SlotAnimation nameId="27109" effectFileName="FX_MythicSkill_All/FX_4219.csb" loop="1"/>
+	<SlotAnimation nameId="27110" effectFileName="FX_MythicSkill_All/FX_4225.csb" loop="1"/>
+	<SlotAnimation nameId="27111" effectFileName="FX_MythicSkill_All/FX_687.csb" loop="1"/>
+	<SlotAnimation nameId="27112" effectFileName="FX_MythicSkill_All/FX_4267.csb" loop="1"/>
+	<SlotAnimation nameId="27113" effectFileName="FX_MythicSkill_All/FX_4224.csb" loop="1"/>
+	<SlotAnimation nameId="27114" effectFileName="FX_MythicSkill_All/FX_3037.csb" loop="1"/>
+	<SlotAnimation nameId="27115" effectFileName="FX_MythicSkill_All/FX_4391.csb" loop="1"/>
+	<SlotAnimation nameId="27116" effectFileName="FX_MythicSkill_All/FX_6299.csb" loop="1"/>
+	<!--신화 마법 7종-->
+	<SlotAnimation icon="9613" effectFileName="FX_MythicSpell_All/FX_9613.csb" loop="1"/>
+	<SlotAnimation icon="9614" effectFileName="FX_MythicSpell_All/FX_9614.csb" loop="1"/>
+	<SlotAnimation icon="9615" effectFileName="FX_MythicSpell_All/FX_9615.csb" loop="1"/>
+	<SlotAnimation icon="9616" effectFileName="FX_MythicSpell_All/FX_9616.csb" loop="1"/>
+	<SlotAnimation icon="9617" effectFileName="FX_MythicSpell_All/FX_9617.csb" loop="1"/>
+	<SlotAnimation icon="9618" effectFileName="FX_MythicSpell_All/FX_9618.csb" loop="1"/>
+	<SlotAnimation icon="9619" effectFileName="FX_MythicSpell_All/FX_9619.csb" loop="1"/>
+	<SlotAnimation icon="9620" effectFileName="FX_MythicSpell_All/FX_9620.csb" loop="1"/>
+	<!--전설 무기 1종 신화 무기 2종-->
+	<SlotAnimation nameId="27182" effectFileName="FX_LegendItem_All/FX_9635.csb"/>
+	<SlotAnimation nameId="27183" effectFileName="FX_MythicItem_All/FX_9636.csb"/>
+	<SlotAnimation nameId="27184" effectFileName="FX_MythicItem_All/FX_9634.csb"/>
+	<!--신 진명황의 집행검 각인-->
+	<SlotAnimation nameId="26917" effectFileName="FX_LegendItem_All/FX_1945.csb"/>
+	<!--신 수정 결정체 지팡이 각인-->
+	<SlotAnimation nameId="26918" effectFileName="FX_LegendItem_All/FX_1953.csb"/>
+	<!--신 바람칼날의단검 각인-->
+	<SlotAnimation nameId="27433" effectFileName="FX_LegendItem_All/FX_1947.csb"/>
+	<!--신 가이아의 활 각인-->
+	<SlotAnimation nameId="26919" effectFileName="FX_LegendItem_All/FX_7326.csb"/>
+	<!--신 히페리온의 절망 각인-->
+	<SlotAnimation nameId="26920" effectFileName="FX_LegendItem_All/FX_7358.csb"/>
+	<!--할파스의 완력-->
+	<SlotAnimation nameId="27528" effectFileName="FX_LegendItem_All/FX_9868.csb"/>
+	<!--할파스의 예지력-->
+	<SlotAnimation nameId="27529" effectFileName="FX_LegendItem_All/FX_9867.csb"/>
+	<!--할파스의 마력-->
+	<SlotAnimation nameId="27530" effectFileName="FX_LegendItem_All/FX_9862.csb"/>
+	<!--신 사신의 검 각인-->
+	<SlotAnimation nameId="27518" effectFileName="FX_LegendItem_All/FX_9635.csb"/>
+	<!--전서버 클래스 랭킹 1위 가호 아이템 -->
+	<SlotAnimation nameId="27841" effectFileName="FX_Buff_All/FX_10035.csb"/>
+	<SlotAnimation nameId="27842" effectFileName="FX_Buff_All/FX_10036.csb"/>
+	<SlotAnimation nameId="27843" effectFileName="FX_Buff_All/FX_10039.csb"/>
+	<SlotAnimation nameId="27844" effectFileName="FX_Buff_All/FX_10038.csb"/>
+	<SlotAnimation nameId="27845" effectFileName="FX_Buff_All/FX_10037.csb"/>
+	<SlotAnimation nameId="27846" effectFileName="FX_Buff_All/FX_10040.csb"/>
+	<SlotAnimation nameId="27847" effectFileName="FX_Buff_All/FX_10042.csb"/>
+	<SlotAnimation nameId="27848" effectFileName="FX_Buff_All/FX_10041.csb"/>
+	<SlotAnimation nameId="27849" effectFileName="FX_Buff_All/FX_10034.csb"/>
+	<SlotAnimation nameId="27850" effectFileName="FX_Buff_All/FX_10243.csb"/>
+
+	<!--전설 이도류 체인소드 도끼 창 각인 추가-->
+<SlotAnimation nameId="28256" effectFileName="FX_LegendItem_All/FX_1949.csb"/>
+<SlotAnimation nameId="28257" effectFileName="FX_LegendItem_All/FX_7352.csb"/>
+<SlotAnimation nameId="28258" effectFileName="FX_LegendItem_All/FX_7354.csb"/>
+<SlotAnimation nameId="28971" effectFileName="FX_LegendItem_All/FX_10056.csb"/>
+	<!--전서버 클래스 랭킹 1위 가호 버프-->
+<SlotAnimation nameId="29851" effectFileName="FX_Buff_All/FX_10591.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29852" effectFileName="FX_Buff_All/FX_10593.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29853" effectFileName="FX_Buff_All/FX_10599.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29854" effectFileName="FX_Buff_All/FX_10597.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29855" effectFileName="FX_Buff_All/FX_10595.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29856" effectFileName="FX_Buff_All/FX_10601.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29871" effectFileName="FX_Buff_All/FX_10607.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29872" effectFileName="FX_Buff_All/FX_10603.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29873" effectFileName="FX_Buff_All/FX_10589.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29860" effectFileName="FX_Buff_All/FX_10605.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29861" effectFileName="FX_Buff_All/FX_10592.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29862" effectFileName="FX_Buff_All/FX_10594.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29863" effectFileName="FX_Buff_All/FX_10600.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29864" effectFileName="FX_Buff_All/FX_10598.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29865" effectFileName="FX_Buff_All/FX_10596.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29866" effectFileName="FX_Buff_All/FX_10602.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29867" effectFileName="FX_Buff_All/FX_10608.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29868" effectFileName="FX_Buff_All/FX_10604.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29869" effectFileName="FX_Buff_All/FX_10590.csb">
+</SlotAnimation>
+<SlotAnimation nameId="29870" effectFileName="FX_Buff_All/FX_10606.csb">
+</SlotAnimation>
+	<SlotAnimation icon="10043" effectFileName="FX_Buff_All/FX_10043.csb" loop="1"/>
+	<SlotAnimation icon="10044" effectFileName="FX_Buff_All/FX_10044.csb" loop="1"/>
+	<SlotAnimation icon="10045" effectFileName="FX_Buff_All/FX_10045.csb" loop="1"/>
+	<SlotAnimation icon="10046" effectFileName="FX_Buff_All/FX_10046.csb" loop="1"/>
+	<SlotAnimation icon="10047" effectFileName="FX_Buff_All/FX_10047.csb" loop="1"/>
+	<SlotAnimation icon="10048" effectFileName="FX_Buff_All/FX_10048.csb" loop="1"/>
+	<SlotAnimation icon="10049" effectFileName="FX_Buff_All/FX_10049.csb" loop="1"/>
+	<SlotAnimation icon="10050" effectFileName="FX_Buff_All/FX_10050.csb" loop="1"/>
+	<SlotAnimation icon="10051" effectFileName="FX_Buff_All/FX_10051.csb" loop="1"/>
+	<SlotAnimation icon="10242" effectFileName="FX_Buff_All/FX_10242.csb" loop="1"/>
+	<SlotAnimation nameId="27890" effectFileName="FX_LegendItem_All/FX_10056.csb"/>
+	<SlotAnimation nameId="28546" effectFileName="FX_MythicItem_All/FX_10215.csb"/>
+    <SlotAnimation nameId="28551" effectFileName="FX_MythicItem_All/FX_10053.csb"/>
+	<SlotAnimation nameId="28544" effectFileName="FX_MythicItem_All/FX_10217.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="28545" effectFileName="FX_MythicItem_All/FX_10216.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29257" effectFileName="FX_LegendItem_All/FX_10461.csb"/>
+	<SlotAnimation nameId="29626" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29627" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29628" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29629" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29630" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29631" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29632" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29633" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29634" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation nameId="29635" effectFileName="FX_LegendItem_All/FX_10551.csb">
+	</SlotAnimation>
+	<SlotAnimation icon="10720" effectFileName="FX_MythicSpell_All/FX_10720.csb" loop="1"/>
+<SlotAnimation nameId="30412" effectFileName="FX_MythicSkill_All/FX_4219.csb" loop="1"/>
+<SlotAnimation nameId="30415" effectFileName="FX_MythicSkill_All/FX_4225.csb" loop="1"/>
+<SlotAnimation nameId="30418" effectFileName="FX_MythicSkill_All/FX_687.csb" loop="1"/>
+<SlotAnimation nameId="30421" effectFileName="FX_MythicSkill_All/FX_4267.csb" loop="1"/>
+<SlotAnimation nameId="30413" effectFileName="FX_MythicSkill_All/FX_4224.csb" loop="1"/>
+<SlotAnimation nameId="30416" effectFileName="FX_MythicSkill_All/FX_3037.csb" loop="1"/>
+<SlotAnimation nameId="30419" effectFileName="FX_MythicSkill_All/FX_4391.csb" loop="1"/>
+<SlotAnimation nameId="30414" effectFileName="FX_MythicSkill_All/FX_6299.csb" loop="1"/>
+<SlotAnimation nameId="30423" effectFileName="FX_LegendItem_All/FX_10880.csb"/>
+<SlotAnimation nameId="30424" effectFileName="FX_LegendItem_All/FX_10881.csb"/>
+</SlotAnimations>
+

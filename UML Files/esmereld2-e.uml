@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>Understood. You want to know the future?</p>
+		<p>If so, let me show you a glimpse of your near future. We can't show you for a long time, but we can show you a little.</p>
+		<p>Don't worry. The scene I will show you is only a vision of what you will come into contact with in the future. Whatever monsters may appear, they will not harm you in real life. Now, are you ready?</p>
+		<p><a action="journey">See the future</a></p>
+  </dialog>
+</npcdialog>

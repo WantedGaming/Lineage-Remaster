@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>コルンベリーの石像</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>(謹厳な表情をしているが、どことなく慈愛を感じる石像の下に案内文が書かれている)<br/>
+		<br/>
+		<font fg="ffaaff">｢アデン国民が休めるよう小さな休憩所を作りました。すべての方の人生に幸あらんことを…｣</font><br/>
+		</p>
+	</dialog>
+</npcdialog>

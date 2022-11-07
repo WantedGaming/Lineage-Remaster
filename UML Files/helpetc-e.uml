@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>その他</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">コマンドヘルプ：その他</font><br/></p>
+	<p><font fg="ffffaf">ヘルプの呼び出し：</font><br/>
+	チャットウィンドウの右下にある <font fg="ffffff">クエスチョンマークのアイコン</font> をクリックするか、<font fg="ffffff">Ctrl+Hキー</font>を押します。<br/></p>
+	<p><font fg="ffffaf">ユーザー確認：</font><br/>
+	チャット入力ウィンドウに<font fg="ffffff">/who[半角スペース]キャラクターの名前</font>と入力します。<br/>
+	キャラクター名を入力しなかった場合、現在接続しているユーザー数が表示されます。<br/></p>
+	<p><font fg="ffffaf">サウンド On/Off：</font><br/>
+	ミュージックやサウンドのボリューム調節をするには、チャットウィンドウに <font fg="ffffff">「/music」</font> あるいは<font fg="ffffff">「/sound」</font> と入力するとボリュームを調整するウィンドウが表示されるので、ボリュームカーソルを動かして調節します。<br/></p>
+	<p><font fg="ffffaf">移動 HP/MP バー On/Off：</font><br/>
+	移動 HP/MP バーの表示をOn/OffにするにはCtrl+Rを押します。<br/></p>
+	<p><img src="331" link="help"/></p>
+  </dialog>
+</npcdialog>

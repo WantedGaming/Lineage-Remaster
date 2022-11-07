@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p><font fg="fff064">ダンテス</font>と<font fg="fff064">ヘルバイン</font>…彼らの愚かさによってダークエルフ族は滅亡してしまいました。しかし、ラスタバドでの混沌は終結を迎え、残った者は新しい繁栄の世を作るために努力しています。</p>
+		<p>彼らの同族としてこの世を混沌へと導いてしまった罪を償い、未だにさまよっている魂に安息を与えるため、私はここに来たのです。</p>
+  </dialog>
+</npcdialog>

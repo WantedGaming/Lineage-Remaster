@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Blood Pledge</title>
+	<npc>
+		<portrait>PO_036</portrait>
+		<name>Blood Pledge Admin</name>
+		<job>[Create Blood Pledge]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		I am the executor of the blood pledge. I handle blood pledge related business...</p>
+		<p>
+		I can no longer be involved in...<br/>
+		<br/>
+		MENU - Blood Alliance - Perform blood alliance-related tasks, from the creation of a blood alliance...<br/>
+		<br/>
+		I wish the monarch future blessings and glory...<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

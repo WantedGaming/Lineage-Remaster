@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>古代の精霊</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>限りある命を持つ存在よ。</p>
+		<p>あなたは自らの運命を切り開く冒険家ですね。 </p>
+		<p>今、あなたの新たな運命が見えます。あなたを待っている新たな運命の場所は、<font fg="ffaaff">精霊の墓。古代の精霊の故郷。</font>私が生まれた場所。私のふるさと。</p>
+		<p><a link="pielemental1">あなたはなぜここにいるんですか？</a></p>
+		<p><a link="pielemental2">精霊の墓に行く方法を教えてください</a></p>
+	</dialog>
+
+</npcdialog>

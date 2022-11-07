@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>礼を言うぞ。恥を忍んでお願いする。</p>
+		<p>精霊の墓というところを聞いたことがあるか？地理的にダークエルフや魔族の動きがつかみやすいところだ。</p>
+		<p>ただし、人間に慣れていない精霊が多いので危険だ。</p>
+		<p>彼らはおそらく魔族やダークエルフの動きをある程度は把握しているだろう。井戸端会議のネタにでもしてるのではないだろうか。</p>
+		<p><br/></p>
+		<p>まずは精霊の墓に行って、彼らから情報を聞き出してくれたまえ。</p>
+		<p>頼んだぞ。</p>
+	</dialog>
+	
+</npcdialog>

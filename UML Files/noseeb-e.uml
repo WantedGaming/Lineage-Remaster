@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+	<p><var src="0"/>はあなたを見ていません。</p>
+	<p><br/><br/></p>
+	<p><var src="0"/>に、あなたと向き合うようにお願いしましょう。</p>
+	<p><br/><br/></p>
+	<p>動かずに方向だけ変えたい時は、SHIFTキーを押したまま向きたい方向をマウスで左クリックします。</p>
+	<p><br/><br/></p>
+	<p><a link="helpple">血盟ヘルプ画面</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

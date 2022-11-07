@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>オ、オーク族の武器を、も、持って、こ、来い！</p>
+	</dialog>
+
+</npcdialog>

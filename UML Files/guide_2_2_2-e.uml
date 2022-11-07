@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 アデン付近にあるジプシーが住んでいるジプシータウンがあるんですけど、あそこの周りにはいろいろ出るんですよ。<font fg="ffafff">ライカンスロープ</font>、<font fg="ffafff">ウェアウルフ</font>、<font fg="ffafff">ホブゴブリン</font>、<font fg="ffafff">オウルベアー</font>それに<font fg="ffafff">ノール</font>まで。<br/>
+		 これといって危ないやつはいないようなんですけど、あそこの西にある森の奥に入ると、人間の姿をしたモンスターが出るらしいんですよね。いきなり襲ってくるそうなんですけど、人間なのかモンスターなのかを見分けなきゃだめですよ。人を見る目を養っておかなきゃ。充分気をつけてください。
+		
+		</p>
+	</dialog>
+</npcdialog>

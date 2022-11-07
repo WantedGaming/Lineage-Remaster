@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[船着場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		ここの船着場に船が停泊する時間は次のとおりだ。
+		<br/><br/>
+		(現実時間基準)
+		<br/><br/><br/><br/>
+		<font fg="ffffaf">
+		[停泊]<br/><br/>
+		毎時20分～29分/50分～59分 
+		<br/><br/><br/><br/>
+		[出発]<br/><br/>
+		毎時30分/0分
+		</font>
+		<br/><br/><br/><br/>
+		<img src="331" link="durana"></img>
+		</p>
+  </dialog>
+</npcdialog>

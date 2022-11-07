@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>ボギン</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ワシはギルドから<var src="0"/>血盟とだけ取引するように命令されておる。すまんが、よそのギルドメンバーをあたってくれ。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

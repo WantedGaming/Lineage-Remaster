@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_004</portrait>
+		<name>Bius</name>
+		<job>General Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Welcome! The capital of the Kingdom of Aden is Aden, but the magical city is right here in Oren!
+		 From items only available at Oren's to mundane supplies. We have everything!<br/>
+		<br/><br/><br/>
+		</p><p align="center">
+		</p><panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+		<p></p><br/>
+		<p><a action="s_merchant3">Ask about recent prices</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

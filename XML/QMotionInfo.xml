@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quickmotioninfo>
+	<!--펫의 배고픔 상태가 하락 -->
+	<!--actionquickmotion id="4"  name="펫관리창" action="Action_OpenPetManagementWin" enable="true"/-->
+	<!--펫의 hp가 70%됐을 때-->
+	<!--htmlquickmotion id="5" name="펫 hp관리법 html" tooltip="$16475" html="quick_9" enable="true" icon="5813" maxlevel="3" time="10" showflags="1"/-->
+	<!--캐릭터가 카오틱이 됐을 때-->
+	<!--htmlquickmotion id="7" name="성서 및 카오에 대한 html" tooltip="$16475" html="quick_10" enable="true" icon="5813" time="10" maxlevel="51" showflags="2" message="$16647"/-->
+	<!--캐릭터가 죽었을 때-->
+	<!--quickmotion id="8" name="애도의 상자" tooltip="$16474" enable="true" icon="5819" minlevel="30" maxlevel="60" runflags="3" message="$16648" giveitem="true"/-->
+	<!-- 캐릭터 1셀 주변에 아이템이 있을 떄-->
+	<!--actionquickmotion id="11" name="토글" action="Action_Loot" enable="true" maxlevel="51" showflags="6,7,8" message="$16649"/-->
+	<!--actionquickmotion id="10" name="모두 줍기 옵션" action="Action_LootAll" enable="true" maxlevel="51" showflags="5" /-->
+	<!--actionquickmotion id="9" name="드롭 아이템 보기 옵션" action="Action_ViewDropItemName" enable="true" maxlevel="51" showflags="4" /-->
+	<!-- 캐릭터 생일 전후 3일 때 접속-->
+	<!--appcenterquickmotion id="12" name="캐릭터 생일 알림" tooltip="$16475" url="http://g.lineage.power.plaync.com/wiki/%EC%BA%90%EB%A6%AD%ED%84%B0+%EC%83%9D%EC%9D%BC+%EC%B6%95%ED%95%98+%EC%8B%9C%EC%8A%A4%ED%85%9C" enable="true" icon="5813" time="10" showflags="9,10,11"-->
+	<!--/appcenterquickmotion-->
+	<!-- 적이 나를 공격 하거나 내가 적을 공격 -->
+	<!--htmlquickmotion id="13" name="PvP onoff html" tooltip="$16475" html="quick_11" enable="true" icon="5813" time="10" maxlevel="51" showflags="12" /-->
+	<!--actionquickmotion id="14"  name="배틀샷 onoff" action="Action_KillScreenshot" enable="true" time="10" showflags="13"/-->
+	<!-- 은기사 마을에 도착했을 때-->
+	<!-- popupuiquickmotion id="16" name="기억 창 띄우기" tooltip="$16476" ui="bookmark" enable="true" icon="5349" maxlevel="51" showflags="14"-->
+	<!-- showconditions-->
+	<!-- zonecondition zone="4,33059,33371,33101,33412" /-->
+	<!-- /showconditions-->
+	<!-- hideconditions-->
+	<!-- zonecondition not="true" zone="4,33059,33371,33101,33412" /-->
+	<!-- /hideconditions-->
+	<!-- /popupuiquickmotion-->
+	<!--htmlquickmotion id="15" name="기억 창 사용 html" tooltip="$16475" html="quick_8" enable="true" icon="5813" maxlevel="51" showflags="15"-->
+	<!--showconditions-->
+	<!--zonecondition zone="4,33059,33371,33101,33412" /-->
+	<!--/showconditions-->
+	<!--hideconditions-->
+	<!--zonecondition not="true" zone="4,33059,33371,33101,33412" /-->
+	<!--/hideconditions-->
+	<!--/htmlquickmotion-->
+	<!-- 시장에 도착했을 때-->
+	<quickmotion id="21" name="Find Merchant" tooltip="$16479" enable="true" icon="5815" hidetypeafterrun="not">
+		<showconditions>
+			<zonecondition zone="800"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="800"/>
+		</hideconditions>
+	</quickmotion>
+	<appcenterquickmotion id="20" name="Search Price" icon="5817" enable="true" tooltip="$16478" url="http://g.lineage.plaync.com/ingame/item/index" hidetypeafterrun="not">
+		<showconditions>
+			<zonecondition zone="800"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="800"/>
+		</hideconditions>
+	</appcenterquickmotion>
+	<actionquickmotion id="19" name="Open Shop" action="Action_OpenShop" enable="true" hidetypeafterrun="not">
+		<showconditions>
+			<zonecondition zone="800"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="800"/>
+		</hideconditions>
+	</actionquickmotion>
+	<actionquickmotion id="18" name="Macro" action="Action_OpenMacroWin" enable="true" hidetypeafterrun="not">
+		<showconditions>
+			<zonecondition zone="800"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="800"/>
+		</hideconditions>
+	</actionquickmotion>
+	<!--배고픔 게이지가 100%가 아닐 때-->
+	<!--quickmotion id="24" name="고기 아이템 지급" tooltip="$6088 $23" enable="true" maxlevel="51" icon="124" runflags="17" giveitem="true"/-->
+	<!--itemquickmotion id="25" name="고기 아이템 사용" tooltip="$23" enable="true" itemnameid="10" maxlevel="51" icon="124" time="10" message="$16650" needtohave="true" doubleclick="true"/-->
+	<!-- 무게가 83% 넘을 때-->
+	<!--htmlquickmotion id="26" name="창고에 맡기라는 html" tooltip="$16475" html="quick_5" enable="true" icon="5813" time="10" maxlevel="51" message="$16651" showflags="33"-->
+	<!--showconditions-->
+	<!--messagecodecondition code="110,316"/-->
+	<!--/showconditions-->
+	<!--/htmlquickmotion-->
+	<!--itemquickmotion id="27" name="용해제 아이템 사용" tooltip="$5239" enable="true" itemnameid="1906" icon="2608" time="10" deactiveicon="0" doubleclick="true"-->
+	<!--showconditions-->
+	<!--messagecodecondition code="110,316"/-->
+	<!--/showconditions-->
+	<!--/itemquickmotion-->
+	<!--몬스터가 죽었을 때  -->
+	<!--actionquickmotion id="28"  name="시체 투명화 onoff" action="Action_CorpseTransparent" enable="false" time="10" maxlevel="51" showflags="18"/-->
+	<!-- 던전에 입장 했을 떄-->
+	<!--actionquickmotion id="33"  name="던전남은시간 onoff" action="Action_DungeonTimeLimit" enable="true" time="10" maxlevel="59" showflags="19"-->
+	<!--showconditions>-->
+	<!--zonecondition zone="1/7/19/25/30/43/53/59/807" /-->
+	<!--/showconditions-->
+	<!--hideconditions-->
+	<!--zonecondition not="true" zone="1/7/19/25/30/43/53/59/807" /-->
+	<!--/hideconditions-->
+	<!--/actionquickmotion>-->
+	<!--낚시터에 도착했을 때-->
+	<!--appcenterquickmotion id="34" name="낚시 설명" url="http://g.lineage.plaync.com/ingame/board/updatechronicle/view?articleID=45" maxlevel="51" showflags="20" icon="5813" tooltip="$16475"-->
+	<!--showconditions-->
+	<!--zonecondition zone="5490/5491/5492/5493/5494/5495/5496/5497/5498/5499"/-->
+	<!--/showconditions-->
+	<!--hideconditions-->
+	<!--zonecondition not="true" zone="5490/5491/5492/5493/5494/5495/5496/5497/5498/5499" /-->
+	<!--/hideconditions-->
+	<!--/appcenterquickmotion-->
+	<!-- 글루딘 마을에 도착했을 때-->
+	<!--htmlquickmotion id="35" name="낚시 사용관련" tooltip="$16475" html="quick_6" enable="true" icon="5813" maxlevel="51" showflags= "21"-->
+	<!--showconditions-->
+	<!--zonecondition zone="4,32594,32716,32635,32827" /-->
+	<!--/showconditions-->
+	<!--hideconditions-->
+	<!--zonecondition not="true" zone="4,32594,32716,32635,32827" /-->
+	<!--/hideconditions-->
+	<!--/htmlquickmotion-->
+	<!-- hp 게이지바가 깜박일 때-->
+	<quickmotion id="36" name="Survival Shout" tooltip="$16480" enable="true" icon="5355" deactiveicon="5413" time="5"/>
+	<!-- 레벨 59 달성-->
+	<!--appcenterquickmotion id="41" name="Lv 59" tooltip="$16475" url="http://g.lineage.power.plaync.com/wiki/%EA%B7%80%EA%B1%B8%EC%9D%B4+%EC%8A%AC%EB%A1%AF+%ED%99%95%EC%9E%A5" enable="true" icon="5813" time="10" showflags="26" serverOff="48,49,50,200"-->
+	<!--showconditions-->
+	<!--levelupcondition level="59"/-->
+	<!--/showconditions-->
+	<!--/appcenterquickmotion-->
+	<!-- 레벨 76 달성-->
+	<!--appcenterquickmotion id="42" name="Lv 76" tooltip="$16475" url="http://g.lineage.power.plaync.com/wiki/%EB%B0%98%EC%A7%80+%EC%8A%AC%EB%A1%AF+%ED%99%95%EC%9E%A5" enable="true" icon="5813" time="10" showflags="27" serverOff="48,49,50,200"-->
+	<!--showconditions-->
+	<!--levelupcondition level="76"/-->
+	<!--/showconditions-->
+	<!--/appcenterquickmotion-->
+	<!-- 복귀 유저가 캐릭터에 접속 했을 때-->
+	<!--appcenterquickmotion id="43" name="연대기 앱센터" tooltip="$16475" url="http://g.lineage.plaync.com/ingame/board/updatechronicle/list" enable="true" icon="5813" showflags="28"-->
+	<!--showconditions-->
+	<!--accountbenefitcondition type="dormant"/-->
+	<!--/showconditions-->
+	<!--/appcenterquickmotion-->
+	<!--appcenterquickmotion id="44" name="파워북 홈커밍 페이지" tooltip="$16475" url="http://g.lineage.power.plaync.com/wiki/%ED%99%88%EC%BB%A4%EB%B0%8D+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8" enable="true" icon="5813" showflags="29"-->
+	<!--showconditions-->
+	<!--accountbenefitcondition type="dormant"/-->
+	<!--/showconditions-->
+	<!--/appcenterquickmotion-->
+	<!-- 커츠서버에 캐릭터 최초 진입시-->
+	<!--appcenterquickmotion id="45" name="커츠서버소개" tooltip="$16475" url="http://g.lineage.power.plaync.com/wiki/%EC%BB%A4%EC%B8%A0+%EC%84%9C%EB%B2%84" enable="true" icon="5813" showflags="30" serverOn="50"-->
+	<!--/appcenterquickmotion-->
+	<!--아인하사드의 축복 버프가 없을 때-->
+	<!--itemquickmotion id="50" name="드래곤의 아이아몬드" tooltip="$7969" enable="true" itemnameid="4166" icon="3721" time="15" needtohave="true" doubleclick="true"/-->
+	<!-- 621맵에 도착했을 때-->
+	<appcenterquickmotion id="52" name="Update Chronology" icon="5813" enable="true" tooltip="$18016" url="http://g.lineage.plaync.com/ingame/board/updatechronicle/list" hidetypeafterrun="not">
+		<showconditions>
+			<zonecondition zone="621"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="621"/>
+		</hideconditions>
+	</appcenterquickmotion>
+	<appcenterquickmotion id="53" name="Powerbook Siege" icon="5813" enable="true" tooltip="$18017" url="http://g.lineage.power.plaync.com/wiki/%EA%B3%B5%EC%84%B1%EC%A0%84" hidetypeafterrun="not">
+		<showconditions>
+			<zonecondition zone="621"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="621"/>
+		</hideconditions>
+	</appcenterquickmotion>
+	<appcenterquickmotion id="54" name="Enchant Knowledge" icon="5813" enable="true" tooltip="$18685" url="http://g.lineage.qna.plaync.com/qna/new?category=3" hidetypeafterrun="not" minlevel="30">
+		<showconditions>
+			<zonecondition zone="621"/>
+		</showconditions>
+		<hideconditions>
+			<zonecondition not="true" zone="621"/>
+		</hideconditions>
+	</appcenterquickmotion>
+	<!-- When a Reminiscence Candle item is found in the Additional Item Warehouse -->
+	<appcenterquickmotion id="55" name="Stat Knowledge" icon="5813" enable="true" tooltip="$18785" url="http://g.lineage.qna.plaync.com/qna/new?category=10" minlevel="30" time="20">
+		<showconditions>
+			<additemcondition nameid="3120"/>
+		</showconditions>
+	</appcenterquickmotion>
+	<!-- When a returning user character connects to the game-->
+	<appcenterquickmotion id="56" name="Enchant Knowledge" icon="5813" enable="true" tooltip="$18685" url="http://g.lineage.qna.plaync.com/qna/new?category=3" minlevel="30" time="20">
+		<showconditions>
+			<accountbenefitcondition type="dormant"/>
+		</showconditions>
+	</appcenterquickmotion>
+	<!-- 150 Subsequent hunting grounds registration-->
+	<!-- Content guide link-->
+	<appcenterquickmotion id="173" name="Earring Slot" icon="6511" enable="true" runflags="82" tooltip="$11392" url="http://g.lineage.power.plaync.com/wiki/%EA%B7%80%EA%B1%B8%EC%9D%B4+%EC%8A%AC%EB%A1%AF+%ED%99%95%EC%9E%A5" minlevel="59" maxlevel="59"/>
+	<!--When Blessed Einhasad's Blessing Buff is changed by 0% or 200%-->
+	<itemquickmotion id="227" name="Dragon Diamond" tooltip="$7969" enable="true" itemnameid="4166" icon="3721" time="15" needtohave="true" doubleclick="true"/>
+	<itemquickmotion id="190" name="Dragon High Diamond" tooltip="$24609" enable="true" itemnameid="15391" minlevel="49" icon="7836" time="15" needtohave="true" doubleclick="true"/>
+	<itemquickmotion id="228" name="Dragon Finest Diamond" tooltip="$24610" enable="true" itemnameid="17038" icon="7840" time="15" needtohave="true" doubleclick="true"/>
+	<!--	<appcenterquickmotion id="189" name="수룡 입성" enable="true" icon="6511" mapmessage="1" time="0">		<showconditions>		  <zonecondition zone="4"/>		</showconditions>	  </appcenterquickmotion> -->
+</quickmotioninfo>
+	<!--설정 방법  ============================================================================	퀵모션 속성 공통	- 
+필수 -	id : id	enable : 활성화 여부	icon : 아이콘 번호	tooltip : tooltip desc 번호 ($1004)	- 옵션 -name : 보기 좋은 이름. 게임에서는 
+사용하지 않음. 기본값 ""	time : ui 제거 시간 (초). 기본값 계속 보임	maxlevel : 활성화 가능한 최고 레벨 (maxlevel값 포함). 기본값 없음	minlevel 
+: 활성화 가능한 최저 레벨 (minlevel값 포함). 기본값 없음	deactiveicon : 비활성화시 아이콘. 기본값 없음, 0일 경우 회색 overlay color 이용	showflags 
+: 1번 보일 때 마다 활성화될 flag, 차례대로 1개씩 활성화되며, 모두 활성화되었을 때는 더이상 발동하지 않는다.				            숫자는 showflags, runflag 
+둘다 겹치면 안됨	                       설정 후 최종 번호를 최상단의 주석에 갱신해주세요	runflags : 1번 퀵모션을 클릭할 때마다 활성화될 flag, 아이템 
+지급용 flag.				            숫자는 showflags, runflag 둘다 겹치면 안됨									showsprite : 퀵모션 발동 시, 캐릭터 위치에 나올 스프라이트 
+번호	giveitem : 아이템 지급 연출이 필요할 때	needtohave : 아이템이 있을 때만 보여야할 때	doubleclick : 더블 클릭으로 사용하는 퀵모션	hidetypeafterrun 
+: 퀵모션 사용 후, 사라지는 타입 설정 [delay - 2초 후 사라짐, not - 안사라짐] 설정 안하면 바로 사라짐(기본값)	serverOn : 특정 서버만 활성화	serverOff 
+: 특정 서버만 비활성화	classOn : 특정 클래스만 활성화 (0:군주, 1:기사, 2:엘프, 3:마법사, 4:다크엘프, 5:용기사, 6:환술사, 7:전사)	classOff : 
+특정 클래스만 비활성화 (0:군주, 1:기사, 2:엘프, 3:마법사, 4:다크엘프, 5:용기사, 6:환술사, 7:전사)	questOn : 특정 퀘스트 플래그가 켜져있어야지만 발동 (퀘스트 
+플래그가 켜졌다고 발동되는 것은 아님)	questOff : 특정 퀘스트 플래그가 꺼져있어야지만 발동		lalamapmessage: -1,0,1 가능. [중국 튜토리얼 전용] 기본: 
+-1. -1일 때는 라라 배경 출력하지 않음. 1일때는 텍스트 배경만, 2일때는 텍스트배경+라라얼굴 출력	/*맵메세지 관련mapmessage : MapMessages.xml파일에 정의한 
+메세지의 id. (예 : mapmessage="1") 이 경우 메세지 설정은 모두 mapmessages.xml에서 합니다.(message,messagesurf등 관련 속성 사용안함)message 
+: 화면 중앙에 나오는 시스템 메시지 desc 번호 (1004)	messagesurf : 화면 중앙에 나오는 시스템 메시지 옆에 서프 이미지 추가 표시 (img 번호)		messagebackground 
+: 메세지 뒤에 배경 설정 여부. 기본 false	messagebackgroundpng : 배경 png 번호	messagebackgroundsurf : 배경 surf 번호	messageduration 
+: mapMessage가 보여지는 시간. 설정하지 않으면 기본 5초 (5000ms)	*/soundfile : 재생할 파일 이름. voice 파일일 경우에는 #을 붙여야 함. #이 없으면 
+effect sound로 출력.	delaytime : 단위-msec. 설정한 시간 후에 출력.		globaleffectid	출력 이펙트 아이디. 기본값 -1 globaleffect86.xml 
+에 정의한 id값. 이펙트 반복 횟수 설정은 globaleffect86.xml 에서 합니다.	globaleffectpos 이펙트 츨력 위치. 기본값 -1,-1 설정하지 않으면 globaleffect.xml파일에 
+설정한 위치에 출력. 		itemhighlight : 인벤토리내에 하이라이트 할 아이템 nameid	itemhighlighteffectid : 인벤토리 내 아이템 하이라이트할 때 사용할 
+effect번호			nonclickrun : 클릭하지 않아도 발동 (true,false)				<quickmotion id="1" name="test" enable="false" tooltip="$1004" 
+time="5" maxlevel="51" icon="1501" deactiveicon="1502"                showflags="1,2,3" runflags="4" 
+message="1004" giveitem="true" needtohave="true" doubleclick="true"                hidetypeafterrun="delay" 
+serverOn="49,50" serverOff="1,2" classOn="0,1" classOff="5,6,7"/>	============================================================================	
+특화된 퀵모션 설명	html 창을 띄우는 행동	html : html 파일 이름	<htmlquickmotion html="test"/>	기존 ui 창을 띄우는 행동	ui : 클라이언트 
+담당자와 협의한 ui 이름	<popupuiquickmotion ui="pet"/>	참고: 중국- 튜토리얼 진행 ui : huntinginfo 	<popupuiquickmotion ui="huntinginfo" 
+titlestr="4305" statusstr="4306" curcount="0" goalcount="10" open="false"/> open=false일 경우 ui를 닫기. true일 
+경우 ui 열기	마법 아이콘을 보여주고 클릭했을 때 마법 사용	spell : 마법 id	<spellquickmotion spell="1"/>	행동 아이콘을 보여주고 클릭했을 때 사용 
+실행	action : 행동 이름	<actionquickmotion action="Action_ViewDropItemName"/> 기존 행동UI에서 데이터를 가져오므로 툴팁정보 기입 
+불필요	아이템 아이콘을 보여주고 아이템 행동 실행	itemnameid : 아이템 네임 id	<itemquickmotion itemnameid="1"/>	앱센터 특정 페이지 보여주기	
+url = 보여줄 페이지 주소	<appcenterquickmotion url="http://g.lineage.plaync.com/ingame/index"/>		============================================================================	
+퀵모션 조건 타입 설명	<showconditions> 보여주는 조건		조건들...	</showconditions>	<hideconditions> 숨기는 조건		조건들...	</hideconditions>	
+<deactiveconditions> 비활성화 조건		조건들...	</hideconditions>	============================================================================	
+퀵모션 조건 설명	<zonecondition zone="274,275,276"/> 현재 위치가 해당 Zone에 포함되는지	<levelupcondition level="2"/> 레벨업 
+조건	<accountbenefitcondition type="dormant"/> dormant 복귀 계정, new 신규 계정	<statuseffectcondition on="true" 
+statuseffect="0"/> on 버프 켜질 때/꺼질 때, statuseffect effectlist.xml의 id 번호	<messagecodecondition code="82,110"/> 
+메시지 코드가 채팅창에 출력될 때	<additemcondition nameid="1,5"/> 새로운 아이템이 인벤토리에 추가되었을 때	<mapmessagecondition code="19533"/> 
+mapmessage로 설정한 번호의 desc-k.tbl 파일이 출력될 때 트리거 됨.	<itemequipcondition nameid="1,5"/> 해당 nameid 아이템을 착용했을 
+때		<flagvaluecondition flag="1;1~255, 2;1~10"/> 플래그 값이 [min,max]에 들어올 때 (문법- flag;min~max) flag를 여러개 
+설정할 경우 or 조건입니다. 단 1 플래그를 여러번 설정할 수는 없습니다.<htmlactioncondition action="A"/> html 해당 액션이 실행될 때	<itemcountcondition 
+item="1;1~-1, 2;-1~3, 3;2~3"/> 인벤토리에 해당 아이템이 설정한 개수가 되었을 때 문법: nameId;min~max (한쪽을 -1로 설정할 경우 이상,이하로 
+판단합니다.둘다 -1이면 안돼요) 여러개 설정할 경우 or조건입니다.	<inventorycondition open="true"/> open="true"일경우 인벤토리 열때 발생, false일때는 
+닫을 때 발생  기본값 false	============================================================================  -->

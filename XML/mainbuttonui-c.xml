@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<MainButtonUI>
+	<Window Name="MainButtons" X="633" Y="566" Width="800" Height="600" Toggle="false" MostTop="1" Activate="1" Transparent="false">
+		<Control Name="Buttons" X="3" Y="0">
+			<Button Name="Map" X="2" Y="0" Width="19" BasePng="11131;1" HighlightPng="11132;1" PushPng="11132;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "1735"/>
+			</Button>
+			<Button Name="CharInfo" X="21" Y="0" Width="19" BasePng="11125;1" HighlightPng="11126;1" PushPng="11126;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "614"/>
+			</Button>
+			<Button Name="Spell" X="40" Y="0" Width="19" BasePng="11123;1" HighlightPng="11124;1" PushPng="11124;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "615"/>
+			</Button>
+			<Button Name="Inventory" X="59" Y="0" Width="19" BasePng="11127;1" HighlightPng="11128;1" PushPng="11128;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "616"/>
+			</Button>
+			<Button Name="Community" X="78" Y="0" Width="19" BasePng="11133;1" HighlightPng="11134;1" PushPng="11134;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "617"/>
+				<Image Name="NewMail" X="12" Y="-2" Surf="5127;1" Activate="0"/>
+			</Button>
+			<Button Name="Action" X="97" Y="0" Width="19" BasePng="11135;1" HighlightPng="11136;1" PushPng="11136;1" MouseEvent="OpenActionUI" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "3118"/>
+			</Button>
+			<Button Name="Option" X="116" Y="0" Width="19" BasePng="11129;1" HighlightPng="11130;1" PushPng="11130;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "618"/>
+			</Button>
+			<Button Name="Exit" X="135" Y="0" Width="19" BasePng="11121;1" HighlightPng="11122;1" PushPng="11122;1" MouseEvent="Btn" MostTop="1">
+				<Tooltip Name = "Desc_Tooltip" X="0" Y="-20" String = "619"/>
+			</Button>
+		</Control>
+	</Window>
+	<Button Name="VideoCapture_Button" X="737" Y="470" Height="21" BasePng="11155;1" HighlightPng="11156;1" PushPng="11157;1" MouseEvent="VideoCapture" MostTop="1">
+		<Tooltip Name = "Desc_Tooltip" X="15" Y="-20" String = "4511"/>
+	</Button>
+	<Button Name = "ItemShop_Button" X = "542" Y = "470" MostTop = "1" BaseSurf = "4070;1" HighlightSurf = "4071;1" PushSurf = "4071;1" MouseEvent = "OpenItemShop" Activate = "0">
+		<Tooltip Name = "Desc_Tooltip" X="15" Y="-20" String = "2817"/>
+		<Effect Name = "Itemshopon_Effect" X = "-9" Y = "-19" MostTop = "1" Effect = "24" Delay = "1000"/>
+		<Effect Name = "Itemshopoff_Effect" X = "-9" Y = "-19" MostTop = "1" Effect = "25" Delay = "5000" Loop = "1"/>
+	</Button>
+	<Button Name = "GotCha_Button" X = "502" Y = "470" MostTop = "1" BaseSurf = "6322;1" HighlightSurf = "6323;1" PushSurf = "6323;1" MouseEvent = "OpenGotCha" Activate = "0">
+		<Tooltip Name = "Desc_Tooltip" X="15" Y="-20" String = "3739"/>
+		<Effect Name = "Button_Effect" X = "2" Y = "-15" MostTop = "1" Effect = "71" Delay = "5000" Loop = "1"/>
+	</Button>
+	<Control Name="AppcenterButtons" X="577" Y="478" MostTop="1">
+		<CheckButton Name="Appcenter" X="0" Y="0" BaseSurf="4139;1" CheckSurf="4140;1" MouseEvent="OpenAppCenter">
+			<Tooltip Name="Desc_Tooltip" X="0" Y="0" String="2726"/>
+		</CheckButton>
+		<CheckButton Name="QuickSearch" X="23" Y="0" BaseSurf="5477;1" CheckSurf="5476;1" MouseEvent="QuickSearch">
+			<Tooltip Name="Desc_Tooltip" X="0" Y="0" String="3243"/>
+		</CheckButton>
+	</Control>
+	<!-- PK Mode -->
+	<Window Name = "PKModeWin" X = "620" Y = "465" Width = "42" Height = "33" MouseEvent = "Dummy" Moveable = "12">
+		<Button Name = "PKButton" MouseEvent = "PKMode" MostTop = "1" BaseSurf = "5027;1" HighlightSurf = "5027;1" PushSurf = "5027;1">
+		  <Tooltip Name = "Desc_Tooltip" X = "10" Y = "-20" String = "3083"/>
+		  <Effect Name = "Effect" X="0" Y="-12" MostTop = "1" Effect = "148"/>
+		</Button>
+	</Window>
+	<!-- [China/Taiwan] GameRanking UI -->
+	<Window Name = "GameRankOpenWin" X = "451" Y = "470" Width = "41" Height = "36" MouseEvent = "Dummy" Moveable = "13" Activate = "0">
+		<Button Name = "GameRankButton" MouseEvent = "OpenGameRank" MostTop = "1" BaseSurf = "5554;1" HighlightSurf = "5555;1" PushSurf = "5556;1">
+		  <Tooltip Name = "Desc_Tooltip" X = "10" Y = "-20" String = "3388"/>
+		</Button>
+	</Window>
+	<!-- CantWebMessageWin -->
+	<Window Name = "CantWebWin" X = "0" Y = "195" MouseEvent = "Dummy" Activate = "0">
+		<Image Name = "MessageImage" X = "125" Y = "15" Surf = "4153;1"/>
+		<Image Name = "MessageFrame" X = "-71" Y = "0" Surf = "4154;3"/>
+	</Window>
+</MainButtonUI>

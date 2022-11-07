@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ミソフィア</name>
+		<job>Event Teleport</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		こんにちは！<br/>
+		新たなアデン王国でこうしてお目にかかれて光栄です！<br/>
+		<br/>
+		私が準備したプレゼントは受け取られましたか？<br/>
+		私が住む隠された村に隠した<font fg="ffffaf">私の心</font>を集めて来られたら
+		国王様が<font fg="ffffaf">特製ブーツ強化アイテム</font>を下さるそうなので、より良いプレゼントになるよう
+		頑張ってください。<br/>
+		<br/>
+		ちなみに、<font fg="ffffaf">ミソフィアの心</font>は再使用できません。<br/>
+		報賞を受けるとき、<font fg="ffffaf">100個以上持っていれば、持っておられるすべての心が消えてしまうので注意</font>してくださいね！<br/>
+		<br/>
+		さあ、準備はできましたか？テレポートの費用は<font fg="ffffaf">2900Adena</font>です！！
+		お気をつけて！！<br/>
+			</p>
+		<br/>
+		<panel type="Panel_Teleport">
+			<button action="non_npc a"/>
+		</panel>
+		<br/>
+		<br/>
+		<br/>
+
+	</dialog>
+</npcdialog>

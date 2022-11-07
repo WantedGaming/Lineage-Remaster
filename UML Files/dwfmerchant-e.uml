@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>マンク</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+	    <panel type="Panel_Shop_Bt_Sell">
+      <button action="sell"/>
+    </panel>
+    <p>
+俺はマンク！いけずなハンクでも、天然のバンクでもないぞ！
+<br/>
+俺はやりたい放題のドラゴンを罰するあんたたちに報賞をやりたいんだ。<br/>
+持ってきたやつを見せてみな。ものすごい代物があるかもしれないからな。
+</p>
+  </dialog>
+</npcdialog>

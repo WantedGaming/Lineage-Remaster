@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>オリムの幻影</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>新しい学習の本を瓶から取り出せば、忘却の儀式は完了する…さあ、新たな道を行くがよい…ふふふ 	</p>
+	</dialog>
+	
+</npcdialog>

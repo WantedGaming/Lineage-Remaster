@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>そいつを直したいなら、遠征隊員のヘルムとレッドクリスタル3個、グリーンクリスタル3個、ホワイトクリスタル3個、汚れたエントの表皮3枚、そしてミスリルの糸10巻が必要だ。そうすれば君が使いやすいようにヘルムを直してあげよう。
+		<br/>
+		<br/>
+		<a action="2">ヘルムを直してください</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

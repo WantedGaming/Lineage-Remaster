@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>Taxes are<var src="1"/> adena.</p>
+    <p>The deadline for payment is <var src="2"/>month <var src="3"/>day <var src="4"/>time.</p>
+    <p>Please be sure to pay within the time period.<br/><br/></p>
+    <p><a action="payfee">Pay Tax</a></p>
+  </dialog>
+</npcdialog>

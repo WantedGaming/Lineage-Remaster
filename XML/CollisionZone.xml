@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CollisionZoneList>
+  <!-- If, isSettingToCollisionZone is true , collision check activated. That means, the character CANNOT go through other characters or NPCs.  -->
+  <!-- If, isSettingToCollisionZone is false , collision check deactivated. That means, the character CAN go through other characters or NPCs.  -->
+  <Configuration isSettingToCollisionZone = "true"/>
+
+  <!-- group 0 : [collision check zone(collision check activated. because of "true" setting)] [Taiwan] common(both paid server & F2P server) check -->
+  <Zone group = "0" mapNumber="7785" area="32640,32768 ~ 33023,32959"/> <!-- Dungeon: secret lab lobby -->
+  <Zone group = "0" mapNumber="7786" area="32704,32768 ~ 32895,32959"/> <!-- Dungeon: secret lab base -->
+
+  <Zone group = "0" mapNumber="0" area="32574,32908 ~ 32604,32973"/> <!-- Village: Talking Island1 -->
+  <Zone group = "0" mapNumber="0" area="32552,32940 ~ 32573,32983"/> <!-- Village: Talking Island2 -->
+  
+  <!-- <Zone group = "0" mapNumber="4" area="33088,32720 ~ 33199,32833"/> --> <!-- castle: kent castle -->
+  <!-- <Zone group = "0" mapNumber="4" area="32750,32246 ~ 32841,32347"/> --> <!-- castle: orc fortress -->
+  <!-- <Zone group = "0" mapNumber="4" area="32566,33350 ~ 32717,33462"/> --> <!-- castle: windawood castle -->
+  <!-- <Zone group = "0" mapNumber="4" area="33558,32599 ~ 33709,32759"/> --> <!-- castle: giran castle -->
+  <!-- <Zone group = "0" mapNumber="4" area="33457,33308 ~ 33575,33500"/> --> <!-- castle: heine castle -->
+  <!-- <Zone group = "0" mapNumber="4" area="33615,32356 ~ 33690,32426"/> --> <!-- castle: dwarven cave -->
+  <!-- <Zone group = "0" mapNumber="4" area="34011,33173 ~ 34163,33332"/> --> <!-- castle: aden castle -->
+
+  <!-- <Zone group = "0" mapNumber="4" area="33035,32728 ~ 33080,32807"/> --> <!-- village: kent -->
+  <!-- <Zone group = "0" mapNumber="4" area="32519,32715 ~ 32637,32826"/> --> <!-- village: gludin -->
+  <!-- <Zone group = "0" mapNumber="4" area="32724,32424 ~ 32762,32471"/> --> <!-- village: burn field -->
+  <!-- <Zone group = "0" mapNumber="4" area="32589,33159 ~ 32635,33223"/> --> <!-- village: woodsbec1 -->
+  <!-- <Zone group = "0" mapNumber="4" area="32636,33176 ~ 32656,33214"/> --> <!-- village: woodsbec2 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33054,33381 ~ 33104,33415"/> --> <!-- village: silver knight1 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33115,33377 ~ 33127,33397"/> --> <!-- village: silver knight2 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33086,33348 ~ 33126,33381"/> --> <!-- village: silver knight3 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33337,32646 ~ 33493,32697"/> --> <!-- village: giran1 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33336,32697 ~ 33537,32762"/> --> <!-- village: giran2 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33342,32763 ~ 33544,32862"/> --> <!-- village: giran3 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33365,32863 ~ 33543,32888"/> --> <!-- village: giran4 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33365,32755 ~ 33478,32861"/> --> <!-- village: giran5 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33561,33194 ~ 33648,33303"/> --> <!-- village: haine1 -->
+  <!-- <Zone group = "0" mapNumber="4" area="33560,33303 ~ 33636,33456"/> --> <!-- village: haine2 -->
+  <!-- <Zone group = "0" mapNumber="4" area="34020,32224 ~ 34081,32321"/> --> <!-- village: oren -->
+  <!-- <Zone group = "0" mapNumber="4" area="33686,32472 ~ 33753,32520"/> --> <!-- village: valakass nest -->
+  <!-- <Zone group = "0" mapNumber="4" area="33856,33088 ~ 34175,33434"/> --> <!-- village: aden1 -->
+  <!-- <Zone group = "0" mapNumber="4" area="34176,33065 ~ 34218,33248"/> --> <!-- village: aden2 -->
+
+  <Zone group = "0" mapNumber="340" area="32704,32768 ~ 32831,32895"/> <!-- market: gludio -->
+  <Zone group = "0" mapNumber="350" area="32640,32768 ~ 32767,32895"/> <!-- market: giran -->
+  <Zone group = "0" mapNumber="360" area="32713,32779 ~ 32762,32822"/> <!-- market: oren -->
+  <Zone group = "0" mapNumber="370" area="32716,32782 ~ 32756,32821"/> <!-- market: silver knight -->
+
+  <Zone group = "0" mapNumber="66" area="32704,32780 ~ 32895,32959"/> <!-- village: aden2 -->
+  <Zone group = "0" mapNumber="320" area="32747,32851 ~ 32876,32996"/> <!-- village: aden2 -->
+  <Zone group = "0" mapNumber="304" area="32784,32768 ~ 32958,33021"/> <!-- village: aden2 -->
+  <Zone group = "0" mapNumber="440" area="32297,32897 ~ 32643,33253"/> <!-- village: aden2 -->
+  <Zone group = "0" mapNumber="400" area="32548,32657 ~ 32582,32691"/> <!-- village: aden2 -->
+
+  <Zone group = "0" mapNumber="1000" area="32704,32768 ~ 32895,32959"/> <!-- village: silveria -->
+  <Zone group = "0" mapNumber="1001" area="32704,32768 ~ 32895,32959"/> <!-- village: behimos -->
+   
+  <Zone group = "0" mapNumber="15" area="32720,32782 ~ 32753,32812"/> <!-- castle: kent castle1 -->
+
+  <Zone group = "0" mapNumber="29" area="32718,32782 ~ 32753,32817"/> <!-- castle: windawood castle1 -->
+
+  <Zone group = "0" mapNumber="52" area="32709,32782 ~ 32748,32828"/> <!-- castle: giran castle1 -->
+
+  <Zone group = "0" mapNumber="64" area="32540,32802 ~ 32600,32861"/> <!-- castle: heine castle1 -->
+  
+  <Zone group = "0" mapNumber="300" area="32865,32515 ~ 32926,32583"/> <!-- castle: aden castle1 -->  
+ 
+  <Zone group = "0" mapNumber="100" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="1002" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="1005" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="1011" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="1017" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="1023" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="2010" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="2210" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="30" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="31" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="32" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="33" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="35" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="36" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="37" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="445" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="467" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="468" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5143" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5144" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5145" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5153" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5154" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5155" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5156" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="530" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="531" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="532" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="533" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="537" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="57" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="5701" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="600" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="601" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="62" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="65" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="67" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "0" mapNumber="4" area="entire"/> <!-- paid Server add  -->  
+
+  <Zone group = "0" mapNumber="2011" area="entire"/> <!-- F2P and paid server  -->  
+
+
+
+  <!-- group 1 : [collision check zone(collision check activated. because of "true" setting)] [Taiwan] F2P only check -->
+  <!-- All the group 0 zones MUST be defined in the group 1, too. If anyone of group 0 isn't defined in group 1 region, Bug happens!! -->
+  <Zone group = "1" mapNumber="7785" area="32640,32768 ~ 33023,32959"/> <!-- Dungeon: secret lab lobby -->
+  <Zone group = "1" mapNumber="7786" area="32704,32768 ~ 32895,32959"/> <!-- Dungeon: secret lab base -->
+
+  <Zone group = "1" mapNumber="0" area="32574,32908 ~ 32604,32973"/> <!-- Village: Talking Island1 -->
+  <Zone group = "1" mapNumber="0" area="32552,32940 ~ 32573,32983"/> <!-- Village: Talking Island2 -->
+  
+  <!-- <Zone group = "1" mapNumber="4" area="33088,32720 ~ 33199,32833"/> --> <!-- castle: kent castle -->
+  <!-- <Zone group = "1" mapNumber="4" area="32750,32246 ~ 32841,32347"/> --> <!-- castle: orc fortress -->
+  <!-- <Zone group = "1" mapNumber="4" area="32566,33350 ~ 32717,33462"/> --> <!-- castle: windawood castle -->
+  <!-- <Zone group = "1" mapNumber="4" area="33558,32599 ~ 33709,32759"/> --> <!-- castle: giran castle -->
+  <!-- <Zone group = "1" mapNumber="4" area="33457,33308 ~ 33575,33500"/> --> <!-- castle: heine castle -->
+  <!-- <Zone group = "1" mapNumber="4" area="33615,32356 ~ 33690,32426"/> --> <!-- castle: dwarven cave -->
+  <!-- <Zone group = "1" mapNumber="4" area="34011,33173 ~ 34163,33332"/> --> <!-- castle: aden castle -->
+
+  <!-- <Zone group = "1" mapNumber="4" area="33035,32728 ~ 33080,32807"/> --> <!-- village: kent -->
+  <!-- <Zone group = "1" mapNumber="4" area="32519,32715 ~ 32637,32826"/> --> <!-- village: gludin -->
+  <!-- <Zone group = "1" mapNumber="4" area="32724,32424 ~ 32762,32471"/> --> <!-- village: burn field -->
+  <!-- <Zone group = "1" mapNumber="4" area="32589,33159 ~ 32635,33223"/> --> <!-- village: woodsbec1 -->
+  <!-- <Zone group = "1" mapNumber="4" area="32636,33176 ~ 32656,33214"/> --> <!-- village: woodsbec2 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33054,33381 ~ 33104,33415"/> --> <!-- village: silver knight1 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33115,33377 ~ 33127,33397"/> --> <!-- village: silver knight2 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33086,33348 ~ 33126,33381"/> --> <!-- village: silver knight3 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33337,32646 ~ 33493,32697"/> --> <!-- village: giran1 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33336,32697 ~ 33537,32762"/> --> <!-- village: giran2 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33342,32763 ~ 33544,32862"/> --> <!-- village: giran3 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33365,32863 ~ 33543,32888"/> --> <!-- village: giran4 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33365,32755 ~ 33478,32861"/> --> <!-- village: giran5 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33561,33194 ~ 33648,33303"/> --> <!-- village: haine1 -->
+  <!-- <Zone group = "1" mapNumber="4" area="33560,33303 ~ 33636,33456"/> --> <!-- village: haine2 -->
+  <!-- <Zone group = "1" mapNumber="4" area="34020,32224 ~ 34081,32321"/> --> <!-- village: oren -->
+  <!-- <Zone group = "1" mapNumber="4" area="33686,32472 ~ 33753,32520"/> --> <!-- village: valakass nest -->
+  <!-- <Zone group = "1" mapNumber="4" area="33856,33088 ~ 34175,33434"/> --> <!-- village: aden1 -->
+  <!-- <Zone group = "1" mapNumber="4" area="34176,33065 ~ 34218,33248"/> --> <!-- village: aden2 -->
+
+  <Zone group = "1" mapNumber="340" area="32704,32768 ~ 32831,32895"/> <!-- market: gludio -->
+  <Zone group = "1" mapNumber="350" area="32640,32768 ~ 32767,32895"/> <!-- market: giran -->
+  <Zone group = "1" mapNumber="360" area="32713,32779 ~ 32762,32822"/> <!-- market: oren -->
+  <Zone group = "1" mapNumber="370" area="32716,32782 ~ 32756,32821"/> <!-- market: silver knight -->
+
+  <Zone group = "1" mapNumber="66" area="32704,32780 ~ 32895,32959"/> <!-- village: aden2 -->
+  <Zone group = "1" mapNumber="320" area="32747,32851 ~ 32876,32996"/> <!-- village: aden2 -->
+  <Zone group = "1" mapNumber="304" area="32784,32768 ~ 32958,33021"/> <!-- village: aden2 -->
+  <Zone group = "1" mapNumber="440" area="32297,32897 ~ 32643,33253"/> <!-- village: aden2 -->
+  <Zone group = "1" mapNumber="400" area="32548,32657 ~ 32582,32691"/> <!-- village: aden2 -->
+
+  <Zone group = "1" mapNumber="1000" area="32704,32768 ~ 32895,32959"/> <!-- village: silveria -->
+  <Zone group = "1" mapNumber="1001" area="32704,32768 ~ 32895,32959"/> <!-- village: behimos -->
+   
+  <Zone group = "1" mapNumber="15" area="32720,32782 ~ 32753,32812"/> <!-- castle: kent castle1 -->
+
+  <Zone group = "1" mapNumber="29" area="32718,32782 ~ 32753,32817"/> <!-- castle: windawood castle1 -->
+
+  <Zone group = "1" mapNumber="52" area="32709,32782 ~ 32748,32828"/> <!-- castle: giran castle1 -->
+
+  <Zone group = "1" mapNumber="64" area="32540,32802 ~ 32600,32861"/> <!-- castle: heine castle1 -->
+  
+  <Zone group = "1" mapNumber="300" area="32865,32515 ~ 32926,32583"/> <!-- castle: aden castle1 -->  
+  
+  <Zone group = "1" mapNumber="2011" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2012" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2013" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2014" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2065" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2066" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2067" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2068" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2069" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="2070" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="450" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7951" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7952" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7953" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7954" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7955" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7956" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7957" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7971" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7972" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7973" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7974" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7975" area="entire"/> <!-- F2P unique setting  -->  
+  <Zone group = "1" mapNumber="7976" area="entire"/> <!-- F2P unique setting  -->  
+
+  <Zone group = "1" mapNumber="100" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="1002" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="1005" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="1011" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="1017" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="1023" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="2010" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="2210" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="30" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="31" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="32" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="33" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="35" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="36" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="37" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="445" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="467" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="468" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5143" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5144" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5145" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5153" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5154" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5155" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5156" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="530" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="531" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="532" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="533" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="537" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="57" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="5701" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="600" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="601" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="62" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="65" area="entire"/> <!-- paid Server add  -->  
+  <Zone group = "1" mapNumber="67" area="entire"/> <!-- paid Server add  -->  
+
+  <Zone group = "1" mapNumber="4" area="entire"/> <!-- paid Server add  -->  
+  
+</CollisionZoneList>

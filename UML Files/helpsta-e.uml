@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ステータス</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">キャラクター：ステータス</font></p>
+	<p><font fg="ffffaf">STR：</font><br/>
+	STRは近距離ダメージ、近距離命中、近距離クリティカル、最大所持重量に影響を与えます。<br/></p>
+	<p><font fg="ffffaf">DEX：</font><br/>
+	DEXは遠距離ダメージ、遠距離命中、遠距離クリティカル、AC、ERに影響を与えます。<br/></p>
+	<p><font fg="ffffaf">CON：</font><br/>
+	CONはHP回復(Tick)、ポーションのHP回復量、最大HP増加量、最大所持重量、CONオプションアイテム装着時の最大HP上昇に影響を与えます。<br/></p>
+	<p><font fg="ffffaf">WIS：</font><br/>
+	WISはMP回復(Tick)、ポーションのMP回復(Tick)、MR、最大MP増加量、WISオプションアイテム装着時の最大MP上昇に影響を与えます。<br/></p>
+	<p><font fg="ffffaf">INT：</font><br/>
+	INTは魔法ダメージ、魔法命中、魔法クリティカル、魔法ボーナス、MP消耗減少に影響を与えます。<br/></p>
+	<p><font fg="ffffaf">CHA：</font><br/>
+	CHAはサモン モンスターの召喚数と種類、ペット召喚の数、君主が募集できる血盟員の数に影響を与えます。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

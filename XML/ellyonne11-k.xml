@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>엘라리온</name>
+    <job>[ 정령 마법 전수자 ]</job>
+    <text>누구시오</text>
+  </npc>
+  <dialog>
+    <p>정령 마법은 말 그대로 이 세상의 근본적인 힘의 구현인 정령으로부터 힘을 받아 사용하는 마법이지.</p>
+    <p>만약 자네가 다른 속성을 배우고 싶다면, 지금의 것을 버리고 다시 순수함을 되찾아야 한다네.</p>
+    <p>순수함을 되찾는 대가로 자네는 무엇을 줄 수 있나?</p>
+    <br/>
+    <br/>
+    <p action="count">아데나를 주겠다.</p>
+    <p link="ellyonne14">회상의 촛불을 주겠다.</p>
+  </dialog>
+</npcdialog>

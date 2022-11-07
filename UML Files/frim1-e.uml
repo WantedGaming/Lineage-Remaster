@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 いらっしゃい。俺に何か用かい？<br/>
+		<br/>
+		<br/>
+		<br/>
+		<a action="fix">壊れた武器を修理する</a><br/>
+		<a link="frim2">武器はどんな時に壊れますか？</a><br/>
+		<br/>
+		<br/>
+		<a link="frim3">材料アイテムを製作してください</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

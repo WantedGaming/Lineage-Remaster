@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>攻城戦</title>
+  <dialog>
+	<p><font fg="ffffaf">城の効果：</font><br/>
+	城を手にした血盟の君主は、城附属の領地の税率を設定して、<font fg="afffff">税金</font>を徴収できます。<br/>
+	城を持っている血盟の血盟員は、HP、MPの回復量が増えたり、倉庫が無料で使えたり、城の傭兵が雇えたりするなど様々なコンテンツが利用できます。<br/></p>
+	<p><img src="331" link="helpsie"/><br/><br/></p>
+	</dialog>
+</npcdialog>

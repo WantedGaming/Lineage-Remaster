@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+  	<portrait>PO_002</portrait>
+    <name>森とエルフの母</name>
+  </npc>
+  <dialog>
+    <p>ネルファは、現在生存している守護者の中でも最長老です。私たちとは違い、守護者たちの生命には限りがあります。他の生物たちから見れば、守護者たちも充分に「永遠」と思えるほどの寿命を持っているように見えるでしょうけれど。</p>
+	<p>彼女は若い頃、それは強いナイトでしたが、同時にこの森で一番の鍛冶屋でもありました。あなたも<font fg="ffffff">何か作りたいもの</font>があるのなら、彼女のところを訪ねてみてはどうでしょう？私のすぐ<font fg="ffffff">横にある入り口</font>から地下に降りて行けば、彼女に会うことができます。</p>
+  </dialog>
+</npcdialog>

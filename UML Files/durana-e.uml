@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[船着場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>いらっしゃい。
+		<br/><br/>
+		本土に行きたいのか？
+		<br/><br/>
+		残念だが、現在グルーディオに行く船は運航していないんだ。
+		<br/><br/>
+		</p>
+  </dialog>
+</npcdialog>

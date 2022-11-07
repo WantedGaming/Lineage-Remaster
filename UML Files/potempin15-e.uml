@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ポテンピン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>領主様。<var src="0"/>に配置できる傭兵の数は、<var src="0"/>のCHRの半分の<var src="1"/>名までです。</p>
+	</dialog>
+
+</npcdialog>

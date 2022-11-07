@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>warehouse</icon>
+<title>Warehouse</title>
+  <npc>
+    <name>Nuriel</name>
+		<job>[Warehouse Keeper]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Storage_Button">
+      <button action="deposit"/>
+      <button action="retrieve"/>
+      <button action="history"/>
+      <button action="deposit-pledge"/>
+      <button action="retrieve-pledge"/>
+      <button action="deposit-char"/>
+      <button action="retrieve-char"/>
+    </panel>
+	<p><br/></p>
+	<p><br/></p>
+	<p>The price is per item. Adena is taken when you take out the item.</p>
+	<p><br/></p>
+	<p>Warehouse: 100Adena</p>
+	<p>Clan Warehouse: 500Adena</p>
+	<p><br/></p>
+	<p><a link="warechar2">How to use the additional warehouse</a></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

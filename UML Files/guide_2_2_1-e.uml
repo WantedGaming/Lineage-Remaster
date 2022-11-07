@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 火田村から見て7時の方向にある出口から外に出て、道に沿って北へ進むと、オークの要塞へとつながるとうもろこし畑が見えてきます。そこには<font fg="ffafff">オーク ファイター</font>、<font fg="ffafff">オーク アーチャー</font>、<font fg="ffafff">オーク ウィザード</font>ばかりか、他ではお目にかかれない<font fg="ffafff">ドゥダ-マラ</font>、<font fg="ffafff">ガンジ</font>、<font fg="ffafff">ネルガ</font>、<font fg="ffafff">アトゥバ</font>、<font fg="ffafff">ロバ</font>などの強力なオークが現れます。<br/>
+		 間違ってオークの要塞の方に行っちゃったり、とうもろこし畑からはずれて森の奥深くに入っちゃったりでもしたら、神経質な<font fg="ffafff">オーク ガード</font>とか<font fg="ffafff">ダークエルフ</font>とか<font fg="ffafff">オーガ</font>に出くわしかねないので、気をつけてくださいよ。
+		
+		</p>
+	</dialog>
+</npcdialog>

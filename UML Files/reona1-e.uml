@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>レオナ</name>
+    <job>[冒険家]</job>
+  </npc>
+  	<dialog align="left">
+		<p>おぬし、世界中のあちこちを旅してるようじゃな。もし良かったらワシの話を聞いてくれんか？</p>
+		<p>ワシの唯一の楽しみは、世の珍しい品物を収集することなんじゃ。</p>
+		<p>おぬしが旅の道中、そういう物を見つけたら、ワシのところに持ってきて欲しい。その品に見合った報賞をやろう。</p>
+		
+		<panel type="Panel_Shop_Bt_Sell">
+			<button action="sell"/>
+		</panel>
+	
+	</dialog>
+</npcdialog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブアック</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 それから巫女サエルはどうなったかですか？<br/><br/><br/>
+		 …彼女もまたパプリオンの呪いで、醜い姿に変わってしまいました。<br/>
+		 幸い、モンスターにはなりませんでしたが、それでも己の愚かな行動と罪悪感に苦しみ続け、パプリオンに対する恨みは決して消えないことです。<br/><br/><br/>
+		 今でもこの廃墟のどこかでパプリオンに復讐する日を心待ちにしているはずです。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

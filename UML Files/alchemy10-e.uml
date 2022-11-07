@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>When demons such as Demon, Beleth, and Baphomet are defeated, they shed jet-black blood, a sign of their race, although it is very rare. This is what is called "black bloodstain.</p><br/>
+    <p>Besides demons, the dark elves who use the power of demons also have these black bloodstains. This will allow them to separate the four types of elemental stones.<br/><br/><br/></p>
+    <p><img src="331" link="alchemy9"/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Control Name = "Slot_Control" Width = "451" Height = "106">
+  <Image Name="IconSelected" Png="100240;1" X="40" Y="30" Enable="false"/>
+  <Button Name="ButtonSlot" X="44" Y="0" Width="371" Height="86" MouseEvent="SelectChar_SelectWin">
+    <Image Name="ImageCharacterClass" Png="100222;1" X="0" Y="0"/>
+    <Image Name="ImageCharacterClassCreate" Png="100345;1" X="0" Y="0"/>
+    <Image Name="ImageCharacterClassLock" Png="100222;1" X="0" Y="0"/>
+    <Image Name="ImageCharacterSelectFrame" Png="100246;1" X="63" Y="17"/>
+    <Label Name="LabelClass" X="100" Y="0" Width="40" Height="55" VAlign="bottom" HAlign = "left" FontSize="12"/>
+    <Label Name="LabelName" X="140" Y="5" Width="180" Height="86" VAlign="middle" HAlign = "center" FontSize="20"/>
+    <Label Name="LabelLevelPrefix" X="320" Y="0" Width="86" Height="55" VAlign="bottom" HAlign = "left" FontSize="12" String="4582"/>
+    <Label Name="LabelLevel" X="340" Y="0" Width="86" Height="56" VAlign="bottom" HAlign = "left" FontSize="18"/>
+    <Label Name="LabelDeleteDelay" X="320" Y="26" String="3855" FontSize="12" FontColor="255,0,0"/>
+    <Image Name="CreateImage" Png="100251;1" X="160" Y="38"/>
+    <Image Name="LockImage" Png="100347;1" X="190" Y="38"/>
+    <Image Name="ImageBackgourndNormal" Png="100247;2;20" X="63" Y="15"/>
+    <Image Name="ImageBackgroundSelect" Png="100249;2;20" X="63" Y="15"/>
+    <Image Name="ImageBackgroundCreate" Png="100248;2;20" X="63" Y="15"/>
+    <Image Name="ImageBackgroundLock" Png="100248;2;20" X="63" Y="15"/>
+  </Button>
+</Control>

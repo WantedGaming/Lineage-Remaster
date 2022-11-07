@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>宝石細工職人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 これはめずらしい宝石を持っていますねえ。
+		<br/>
+		<br/>
+		 その宝石を手にした者には不思議な能力が与えられるっていう伝説があるんですよ。どこで手に入れたのか知りませんが、あなたは強運の持ち主ですね。<br/>
+		<br/>
+		 でも宝石に似合うイアリングがありませんねぇ。
+		 イアリングを見つけてから、出直してください。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

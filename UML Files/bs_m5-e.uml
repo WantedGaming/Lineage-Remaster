@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Enhanced Wizard</title>
+	<npc>
+		<portrait>PO_015</portrait>
+		<name><var src="name"/></name>
+		<job>[Enhanced Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 If you provide me with some blank scrolls, and certain fee, I'll create some spell scrolls for you.<br/><br/>
+		<font fg="ffffaa">[Lvl 1 Magic]</font>：Fee<font fg="ffaaff"> 50 </font>adena<br/>Light|Shield|Energy Bolt|Holy Weapon|Lesser Heal<br/><br/>
+		<font fg="ffffaa">[Lvl 2 Magic]</font>：Fee<font fg="ffaaff"> 100 </font>adena<br/>Decrease Weight|Dectect|Enchant Weapon|Cure Poison|Flame Arrow<br/><br/>
+		<font fg="ffffaa">[Lvl 3 Magic]</font>：Fee<font fg="ffaaff"> 100 </font>adena<br/>Lightning|Bless Armor|Heal|Frozen Cloud|Turn Undead<br/><br/>
+		<font fg="ffffaa">[Lvl 4 Magic]</font>：Fee<font fg="ffaaff"> 200 </font>adena<br/>Meditation|Fireball|Enchant:DEX|Counter Magic|Slow<br/><br/>
+		<font fg="ffffaa">[Lvl 5 Magic]</font>：Fee<font fg="ffaaff"> 200 </font>adena<br/>Greater Heal|Remove Curse|Mana Drain|Cone of Cold|Call Lightning<br/><br/><br/>
+		<br/>Basically, you need a <font fg="ffaaaa">blank scroll</font> for the phase. For countermagic/slow magic, a <font fg="ffaaaa">magic stone</font> is also required.<br/><br/></p>
+		
+	</dialog>
+</npcdialog>
+

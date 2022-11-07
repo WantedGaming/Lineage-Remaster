@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>この間お渡しした<font fg="fff064">命令書</font>を読んでいないのですか？さぁ、魂の救済に協力してください。</p>
+		<p>あなたに幸運が訪れんことを…</p>
+  </dialog>
+</npcdialog>

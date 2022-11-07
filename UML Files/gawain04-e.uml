@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ガウェイン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>光の力を吹き込む武器をお持ちでないか、Adenaが足りないようですね。<br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

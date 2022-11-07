@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+  <dialog>
+    <p>私を信じ、あなたの将来を読めるように心を開いてくださってありがとうございます。</p>
+    <p>ですが未来は未来にすぎません。私の言葉をすべて鵜呑みにし、一喜一憂なさらぬように。</p>
+    <p>私はあなたの未来によい事ばかりが起こるようにアドバイスを差し上げているだけです。<br/><br/></p>
+    <p>未来は自分で切り開くもの。私の差し上げた祝福で素晴らしいことが起こるかもしれませんよ…</p>
+  </dialog>
+</npcdialog>

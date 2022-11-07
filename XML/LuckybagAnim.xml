@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LuckybackAnimations>
+
+  <IconAnimations>
+    <!--random 속성은 설정하지 않을 경우, 기본값은 true-->
+    <!--마법인형 주머니 (tam)-->
+    <Icons nameId="15212" random="true">
+      <Icon>6806</Icon>
+      <Icon>6807</Icon>
+      <Icon>6808</Icon>
+      <Icon>6810</Icon>
+      <Icon>6809</Icon>
+      <Icon>6811</Icon>
+      <Icon>6812</Icon>
+      <Icon>6813</Icon>
+      <Icon>6816</Icon>
+      <Icon>6817</Icon>
+      <Icon>6818</Icon>
+      <Icon>6820</Icon>
+      <Icon>6821</Icon>
+    </Icons>
+    <Icons nameId="16160" random="true">
+      <Icon>6806</Icon>
+      <Icon>6807</Icon>
+      <Icon>6808</Icon>
+      <Icon>6809</Icon>
+      <Icon>6810</Icon>
+      <Icon>6962</Icon>
+      <Icon>6811</Icon>
+      <Icon>6812</Icon>
+      <Icon>6813</Icon>
+      <Icon>6815</Icon>
+      <Icon>6814</Icon>
+      <Icon>6960</Icon>
+      <Icon>6816</Icon>
+      <Icon>6817</Icon>
+      <Icon>6818</Icon>
+      <Icon>6819</Icon>
+      <Icon>6832</Icon>
+      <Icon>6961</Icon>
+      <Icon>6820</Icon>
+      <Icon>6821</Icon>
+      <Icon>6875</Icon>
+      <Icon>6878</Icon>
+      <Icon>6876</Icon>
+      <Icon>6877</Icon>
+      <Icon>7413</Icon>
+      <Icon>8080</Icon>
+	  <Icon>8321</Icon>
+	  <Icon>8322</Icon>
+	  <Icon>8323</Icon>
+    </Icons>
+		<!--대만 마법인형 주머니 (bm)-->
+		<Icons nameId="20161" random="true">
+			<Icon>6806</Icon>
+			<Icon>6807</Icon>
+			<Icon>6808</Icon>
+			<Icon>6809</Icon>
+			<Icon>6810</Icon>
+			<Icon>6962</Icon>
+			<Icon>6811</Icon>
+			<Icon>6812</Icon>
+			<Icon>6813</Icon>
+			<Icon>6815</Icon>
+			<Icon>6814</Icon>
+			<Icon>6960</Icon>
+			<Icon>6816</Icon>
+			<Icon>6817</Icon>
+			<Icon>6818</Icon>
+			<Icon>6819</Icon>
+			<Icon>6832</Icon>
+			<Icon>6961</Icon>
+			<Icon>6820</Icon>
+			<Icon>6821</Icon>
+			<Icon>6875</Icon>
+			<Icon>6878</Icon>
+			<Icon>6876</Icon>
+			<Icon>6877</Icon>
+			<Icon>6826</Icon>
+		</Icons>		 
+    <Icons nameId="20196" random="true">
+      <Icon>5618</Icon>
+      <Icon>5620</Icon>
+      <Icon>5622</Icon>
+    </Icons>
+    <Icons nameId="20197" random="true">
+      <Icon>5618</Icon>
+      <Icon>5620</Icon>
+      <Icon>5622</Icon>
+      <Icon>5653</Icon>
+    </Icons>
+    <Icons nameId="16739" random="true">
+      <Icon>6811</Icon>
+      <Icon>6812</Icon>
+      <Icon>6813</Icon>
+      <Icon>6815</Icon>
+      <Icon>6814</Icon>
+      <Icon>6960</Icon>
+      <Icon>6816</Icon>
+      <Icon>6817</Icon>
+      <Icon>6818</Icon>
+      <Icon>6819</Icon>
+      <Icon>6832</Icon>
+      <Icon>6961</Icon>
+      <Icon>6820</Icon>
+      <Icon>6821</Icon>
+      <Icon>6875</Icon>
+      <Icon>6878</Icon>
+      <Icon>6876</Icon>
+      <Icon>6877</Icon>
+      <Icon>7413</Icon>
+      <Icon>8080</Icon>
+	  <Icon>8321</Icon>
+	  <Icon>8322</Icon>
+	  <Icon>8323</Icon>
+    </Icons>
+    <Icons nameId="16740" random="true">
+      <Icon>6806</Icon>
+      <Icon>6807</Icon>
+      <Icon>6808</Icon>
+      <Icon>6809</Icon>
+      <Icon>6810</Icon>
+      <Icon>6962</Icon>
+      <Icon>6811</Icon>
+      <Icon>6812</Icon>
+      <Icon>6813</Icon>
+      <Icon>6815</Icon>
+      <Icon>6814</Icon>
+      <Icon>6960</Icon>
+      <Icon>6816</Icon>
+      <Icon>6817</Icon>
+      <Icon>6818</Icon>
+      <Icon>6819</Icon>
+      <Icon>6832</Icon>
+      <Icon>6961</Icon>
+      <Icon>6820</Icon>
+      <Icon>6821</Icon>
+      <Icon>6875</Icon>
+      <Icon>6878</Icon>
+      <Icon>6876</Icon>
+      <Icon>6877</Icon>
+      <Icon>7413</Icon>
+      <Icon>8080</Icon>
+	  <Icon>8321</Icon>
+	  <Icon>8322</Icon>
+	  <Icon>8323</Icon>
+    </Icons>
+		<!--대만 마법인형 주머니 추가 (bm)-->
+		<Icons nameId="20303" random="true">
+			<Icon>6806</Icon>
+			<Icon>6807</Icon>
+			<Icon>6808</Icon>
+			<Icon>6809</Icon>
+			<Icon>6810</Icon>
+			<Icon>6962</Icon>
+			<Icon>6811</Icon>
+			<Icon>6812</Icon>
+			<Icon>6813</Icon>
+			<Icon>6815</Icon>
+			<Icon>6814</Icon>
+			<Icon>6960</Icon>
+			<Icon>6816</Icon>
+			<Icon>6817</Icon>
+			<Icon>6818</Icon>
+			<Icon>6819</Icon>
+			<Icon>6832</Icon>
+			<Icon>6961</Icon>
+			<Icon>6820</Icon>
+			<Icon>6821</Icon>
+			<Icon>6875</Icon>
+			<Icon>6878</Icon>
+			<Icon>6876</Icon>
+			<Icon>6877</Icon>
+			<Icon>6826</Icon>
+		</Icons>
+		<!--TAM SHOP 2.0 -->
+    <Icons nameId="16987" random="true">
+      <Icon>6806</Icon>
+      <Icon>6807</Icon>
+      <Icon>6808</Icon>
+      <Icon>6809</Icon>
+      <Icon>6810</Icon>
+      <Icon>6962</Icon>
+      <Icon>6811</Icon>
+      <Icon>6812</Icon>
+      <Icon>6813</Icon>
+      <Icon>6815</Icon>
+      <Icon>7530</Icon>
+      <Icon>7532</Icon>
+      <Icon>7531</Icon>
+      <Icon>6814</Icon>
+      <Icon>6960</Icon>
+      <Icon>6816</Icon>
+      <Icon>6817</Icon>
+      <Icon>6818</Icon>
+      <Icon>6819</Icon>
+      <Icon>6832</Icon>
+      <Icon>6961</Icon>
+      <Icon>6820</Icon>
+      <Icon>6821</Icon>
+      <Icon>6875</Icon>
+      <Icon>6878</Icon>
+      <Icon>6876</Icon>
+      <Icon>6877</Icon>
+      <Icon>7530</Icon>
+      <Icon>7532</Icon>
+      <Icon>7531</Icon>
+      </Icons>
+
+		<!--대만 위 서유기 마법인형 주머니 추가 (bm)-->
+		<Icons nameId="20769" random="true">
+			<Icon>7939</Icon>
+			<Icon>7940</Icon>
+			<Icon>7941</Icon>
+			<Icon>7942</Icon>
+			<Icon>6876</Icon>
+			<Icon>6826</Icon>
+			<Icon>7413</Icon>
+			<Icon>6877</Icon>
+			<Icon>7935</Icon>
+			<Icon>7936</Icon>
+			<Icon>7937</Icon>
+			<Icon>7938</Icon>
+		</Icons>
+  </IconAnimations>
+
+  <EffectItems>
+    <EffectItem nameId="15810" trackId="3"/>
+    <EffectItem nameId="15809" trackId="3"/>
+    <EffectItem nameId="15805" trackId="3"/>
+    <EffectItem nameId="16053" trackId="3"/>
+    <EffectItem nameId="16054" trackId="3"/>
+    <EffectItem nameId="16108" trackId="3"/>
+    <EffectItem nameId="15804" trackId="4"/>
+    <EffectItem nameId="14478" trackId="4"/>
+    <EffectItem nameId="16056" trackId="4"/>
+    <EffectItem nameId="16058" trackId="4"/>
+    <EffectItem nameId="16755" trackId="4"/>
+    <EffectItem nameId="16756" trackId="4"/>
+    <EffectItem nameId="16055" trackId="5"/>
+    <EffectItem nameId="16057" trackId="5"/>
+    <EffectItem nameId="16757" trackId="5"/>
+  </EffectItems>
+
+  <Effects>
+    <!--Frame은 Png ID입니다.-->
+    <!--offsetX, offsetY는 설정하지 않을 경우, 기본값은 0입니다.-->
+    <!--msecPerFrame은 설정하지 않을 경우, 기본값은 100입니다.-->
+    <Track id="1" msecPerFrame="100">
+      <Frame>3217</Frame>
+      <Frame>3218</Frame>
+      <Frame>3219</Frame>
+      <Frame>3220</Frame>
+      <Frame>3221</Frame>
+      <Frame>3222</Frame>
+      <Frame>3223</Frame>
+    </Track>
+    <Track id="2" msecPerFrame="100">
+      <Frame>3217</Frame>
+      <Frame>3218</Frame>
+      <Frame>3219</Frame>
+      <Frame>3220</Frame>
+      <Frame>3221</Frame>
+      <Frame>3222</Frame>
+      <Frame>3223</Frame>
+    </Track>
+    <Track id="3" offsetX="1" offsetY="2" msecPerFrame="100">
+      <Frame>11051</Frame>
+      <Frame>11052</Frame>
+      <Frame>11053</Frame>
+      <Frame>11054</Frame>
+      <Frame>11055</Frame>
+      <Frame>11056</Frame>
+      <Frame>11057</Frame>
+      <Frame>11058</Frame>
+      <Frame>11059</Frame>
+      <Frame>11060</Frame>
+    </Track>
+    <Track id="4" offsetX="1" offsetY="2" msecPerFrame="100">
+      <Frame>11041</Frame>
+      <Frame>11042</Frame>
+      <Frame>11043</Frame>
+      <Frame>11044</Frame>
+      <Frame>11045</Frame>
+      <Frame>11046</Frame>
+      <Frame>11047</Frame>
+      <Frame>11048</Frame>
+      <Frame>11049</Frame>
+      <Frame>11050</Frame>
+    </Track>
+    <Track id="5" offsetX="1" offsetY="2" msecPerFrame="100">
+      <Frame>11110</Frame>
+      <Frame>11111</Frame>
+      <Frame>11112</Frame>
+      <Frame>11113</Frame>
+      <Frame>11114</Frame>
+      <Frame>11115</Frame>
+      <Frame>11116</Frame>
+      <Frame>11117</Frame>
+      <Frame>11118</Frame>
+      <Frame>11119</Frame>
+    </Track>
+  </Effects>
+
+</LuckybackAnimations>

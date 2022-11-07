@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>バリエス</name>
+    <job>[魔法商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Bt_Buy"><button action="buy"/></panel>
+    <p>ようこそ。象牙の塔はいかがですか？<br/>
+		<br/>
+    私はバリエスと申します。どういうわけか長老タラス様の目に留まり、こちらで様々な魔法の研究をしております。
+    研究テーマは主に既存魔法の変化やその発展型です。
+    …実はまだ新しい魔法を作るまでの実力がないんですよ。ハハハ。<br/>
+    <br/>
+    もしそういった魔法に興味がありましたら、おっしゃってください。
+    商店で売るほどの魔法でもないので、研究費の足しにするのも兼ねて自分で販売しています。
+    少し貧乏性ですかね？<br/>
+		<br/>
+    いずれにせよ塔の中を見物しながら、私が取り扱うスクロールのなかで欲しいものがあればおっしゃってください。
+    それと、4階以上は危険ですので、見物するときは気をつけてくださいね。</p>
+<p><a action="s_merchant3">Ask about recent prices</a></p>
+ 
+  </dialog>
+</npcdialog>

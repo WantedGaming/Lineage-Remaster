@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">レンゴ：</font></p>
+	<p><br/>この島は昔からウィザードの修行場所だったんだ。僕のほかにも何人かがグンター様にお供してこの島へ来た時は、人っ子一人いない、モンスターばかりの島だったんだ。</p>
+	<p>ところがある日突然、暗くて緑色の怪しいものが島のあちこちから吹き上がるのを見たんだ。</p>
+	<p>ついに世界の終末が来るみたいだな。君はこの現象について何か知っているのか？</p>
+  </dialog>
+</npcdialog>

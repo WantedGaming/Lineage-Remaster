@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジェノ</name>
+		<job>テレポーター</job>
+	</npc>
+	<dialog>
+		<p><font fg="ffffff">隠された渓谷</font>に戻りたいのですか？<br/>
+		<br/>
+		戻りたいときはおっしゃってください。まだ遂行することがある方でしたら、私がお送りいたします。<br/>
+		<br/>
+		<br/>
+		<a link="zeno2">隠された渓谷に行きます</a></p>
+	</dialog>
+	
+</npcdialog>

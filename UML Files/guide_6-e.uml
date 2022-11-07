@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが41から51のあなたのための狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。
+		<br/><br/>
+		<a link="guide_6_1"><font fg="ffffaf">シルバーナイトタウンのダンジョン</font></a><br/>：<a action="teleport guide6_1_1"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

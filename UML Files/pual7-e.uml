@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>鍛冶屋ピュアル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p><font fg="ffffaf">古代弓射手のガーダー</font>を作るには、</p>
+		<p>封印された古代のレザー アーマー1つ、</p>
+		<p>エントの表皮50個、</p>
+		<p>ミスリルの糸50個、</p>
+		<p>アラクネの抜け殻20個、</p>
+		<p>フェアリーの羽20個、</p>
+		<p>ブラックミスリル プレート3枚、</p>
+		<p>1000000Adenaが必要です。</p>
+		<p><a action="request guarder of ancient archer">古代弓射手のガーダーを作る</a></p>
+	</dialog>
+
+</npcdialog>

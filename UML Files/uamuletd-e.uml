@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの補佐官</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>新たな情報だ、もちろんお前に関することだぞ。</p>
+		<p>今の仕事はどうなんだ？</p>
+		<p>人間として、やりたいことがたくさんあるのは分かるがな</p>
+		<p>人間の人生は波乱万丈だ、そんな人生をこの先も生きていきたいか？</p>
+		<p><a action="9">じっくり考えなければならない問題だ</a></p>
+	</dialog>
+
+</npcdialog>
+

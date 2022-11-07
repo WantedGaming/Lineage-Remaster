@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>精霊のオーブ</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		青き炎は偉大なり。 
+		彼は誰の支配も命令も聞かず、奴隷たちは火花を散らして風を切り、大地を揺らしたそうだ。<br/>
+		しかし哀しいかな、彼は言うなれば井の中の蛙、大海を知らずであった。<br/>
+		<br/><br/>
+		<a action="teleport abysslake-elegrave">海賊島のダンジョンに行く</a><br/>
+
+		</p>
+
+	</dialog>
+
+</npcdialog>

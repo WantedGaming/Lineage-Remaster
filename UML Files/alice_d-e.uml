@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">ヤヒの鍛冶屋：</font><br/><br/></p>
+    <p>忠実なる下僕どもよ！その手にある輝く武器が、ヤヒ様への忠誠をさらに尊いものにするだろう！</p>
+    <p>偉大なるカヘル ヤヒ様の栄光が、貴様たちと共にするだろう！<br/></p>
+  </dialog>
+</npcdialog>

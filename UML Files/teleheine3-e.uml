@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィザード リオル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Hunting locations and fees that can be sent from here are as follows</p>
+		<p>Which hunting grounds do you go to?</p>
+		<p><a action="teleport heine-mirr">Mirror Forest:<var src="0"/>Adena</a></p>
+		<p><a action="teleport heine-eva">Heine Dungeon:<var src="1"/>Adena</a></p>
+		<p><a action="teleport heine-girdun">Giran Dungeon:<var src="2"/>Adena</a></p>
+		<p><a action="teleport heine-oasis">Desert Oasis:<var src="3"/>Adena</a></p>
+		<p><a action="teleport heine-train">SKT Dungeon:<var src="4"/>Adena</a></p>
+		<p><a action="teleport heine-gypsy">Gypsy Town:<var src="5"/>Adena</a></p>
+		<p><a action="teleport heine-under">Underground Invasion:<var src="6"/>Adena</a></p>
+		<p><a action="teleport heine-dragon">Dragon Valley:<var src="7"/>Adena</a></p>
+		<p><a action="teleport heine-gludun">Gludio Dungeon:<var src="8"/>Adena</a></p>
+		<p><a action="teleport heine-reed">Wheat Field:<var src="9"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

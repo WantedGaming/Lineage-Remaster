@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		ちゃんと全部合わせて5個になるよう選んだか？<br/>
+		<br/>デスマッチの欠片：<font fg="ffaaff"><var src="0"/>個</font><br/>
+		幽霊屋敷の欠片：<font fg="ffaaff"><var src="1"/>個</font><br/>
+		ペットレースの欠片：<font fg="ffaaff"><var src="2"/>個</font><br/>
+		ペットマッチの欠片：<font fg="ffaaff"><var src="3"/>個</font><br/>
+		アルティメットバトルの欠片：<font fg="ffaaff"><var src="4"/>個</font><br/><br/>
+		<a action="4">全部選びました</a>
+		<br/><a action="3">最初から選び直します</a>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

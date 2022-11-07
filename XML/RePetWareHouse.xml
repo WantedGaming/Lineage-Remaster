@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<PetWarehouse Toggle="true">
+	<PetWareHouseWindow Name="PetWareHouseWin" X="0" Y="0" BasePng="3224;1" FramePng="3225;1"  Moveable="20" MouseEvent="Dummy" KeyboardEvent="KeyBoard">
+
+    <Include Xml="WareHouseCtrl.xml" Root="SortListCombo" X="128" Y="29"/>
+    
+		<RenewalWareHouseList Name="RenewalWareHouseList" X="27" Y="52" Width="136" Height="204" Row="7" Column="1" UnitWidth="208" UnitHeight="33" UnitGap="1" Drag="0">
+
+      <Include Xml="WareHouseCtrl.xml" Root="ScrollBar" />
+      
+			<Image Name="Selection_Image" Width="35" Height="35" Surf="536;1" /> 
+		</RenewalWareHouseList>
+
+		<Label Name="RetrieveAdenaLabel" Width = "74" Height="14" X="45" Y = "10" Align="center" Caption="0" FontColor="107,102,76"/>
+		<Image Name="AdenaTextBackground" Surf="9070;1" X="28" Y = "8" Width="95" Height="18" />
+
+    <Include Xml="WareHouseCtrl.xml" Root="TabControl" X="26" Y="291"/>
+		
+		<Button Name="Exit_Btn" X="234" Y="7" BaseSurf="9183;1" HighlightPng="11527;1" PushPng="11528;1" MouseEvent="CloseWindow"/>
+		<Button Name="Retrieve_Btn" X="185" Y="319" BasePng="3234;1" HighlightPng="3236;1" PushPng="3235;1" MouseEvent="RetrieveBtn"/>
+		<Button Name="Dismiss_Btn" X="185" Y="319" BasePng="3231;1" HighlightPng="3233;1" PushPng="3232;1" MouseEvent="DismissBtn"/>
+		
+	</PetWareHouseWindow>
+</PetWarehouse>

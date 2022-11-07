@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デュラン</name>
+		<job>[船着場管理人]</job>
+  </npc>
+  <dialog>
+    <p>
+ 船賃が高いと思っちゃいけないよ。<br/>
+<br/>
+ 海賊島までの船路はとにかく険しいから、船を漕ぐのも楽じゃないんだ。<br/>
+<br/></p>
+<p align="center">
+<img src="p16328" highlight="p16329" action="buy"/>
+</p>
+  </dialog>
+</npcdialog>

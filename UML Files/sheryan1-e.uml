@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>この風光明媚なアデン村の近くをジプシーたちがうろついたり、スラム街を野放しにしていることが本当に不満です。<br/></p>
+		<p>フン！私の話が理解できていないのを見ると、あなたも同じやからのようね？<br/></p>
+		
+	</dialog>
+
+
+</npcdialog>

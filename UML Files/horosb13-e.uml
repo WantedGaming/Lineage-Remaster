@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>見知らぬ人の助けにより危機を脱することができるでしょう。</p>
+    <p>モンスターを狩っている途中で、矢やポーション、スクロールがなくなって逃げざるを得ない状況となるでしょう。そうなったら周囲に助けを求めてみましょう。</p>
+	<p>周りの人の助けで危機を免れることができるはずです。</p>
+	<p>いつもお互いに譲り合い、他人を思いやる心を忘れないようにしましょう。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

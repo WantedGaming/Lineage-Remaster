@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+ 	<p> どういうこと？あなたの音色はとても荒っぽく濁っていて、調和を失っているわ。まるで空から落ちてゆく鳥の断末魔のよう。グランカインの邪悪な笑い声のようね…。お願い、本来の音色を取り戻してちょうだい。 </p>
+	<p><br/></p>
+	<p><br/></p>
+	</dialog>
+</npcdialog>

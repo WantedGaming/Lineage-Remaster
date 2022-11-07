@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの補佐官</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ヤヒ様からは最近団長の席が空いていると感じておられるようだ。</p>
+		<p>どうだ？欲が出てきたか？</p>
+		<p>ヤヒ様の直属になれる絶好の機会だぞ。</p>
+		<p>もちろん今すぐ答えが欲しいわけではない。</p>
+		<p>お前が焦る分だけ俺が有利になるからな、ハハハ！</p>
+		<p><a action="7">気にしない素振りでアミュレットを受け取る</a></p>
+	</dialog>
+
+</npcdialog>

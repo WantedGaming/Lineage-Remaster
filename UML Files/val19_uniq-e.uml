@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ユニーク</name>
+		<job>[イベント製作]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>あれ！あなたの懐で光っているその神秘的な光はもしかして…<font fg="ffffaf">神秘の玉</font>？！<br/>
+		<br/>
+ バーニングロードで獲得できる貴重なものとは聞きましたが、実際に目にするのは初めてです。<br/>
+ <br/>
+ この水晶、私にくだされば特別なプレゼントを差し上げます。どうですか？<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

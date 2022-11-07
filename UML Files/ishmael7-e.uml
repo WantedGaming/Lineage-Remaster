@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>ここをどこだと思って忍び入ってきたのか！
+		</p><p>警備兵！この者どもを即刻この場から引きずり出せ！
+		
+		</p>
+	</dialog>
+</npcdialog>

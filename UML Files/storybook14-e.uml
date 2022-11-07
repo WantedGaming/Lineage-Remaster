@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[ブルディカ]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">ラスタバド</font>の長老会は<font fg="ffffaf">アインハザード</font>に従うものたちに対し無条件で敵と見なして復讐することを種族の使命であるかのよう教え込み、自分たちに従うことの正当化を行った。</p>
+	<p>この教え込みに初めて反発したが<font fg="ffffaf">ラスタバド</font>の暗殺団を率いた<font fg="ffffaf">ブルディカ</font>だった。</p>
+	<p>「賢明な者たちよ。憎悪からは何も生まない。それどころか自身の心を蝕み、貧しくしていく。</p>
+	<p>暗闇のなかで希望もなく生き、その上人殺しを強要することが先祖の教えだというのか…</p>
+	<p>何が正しいかを見極め、世界と共存していくことが我々の世代に求められる」</p>
+	<p>しかし、<font fg="ffffaf">ブルディカ</font>の信念はこれまで受け継いできた種族の概念を根底から覆すもので、当然受け入れられない者もいた。</p>
+	<p>長老会の長<font fg="ffffaf">バロード</font>は<font fg="ffffaf">ブルディカ</font>を処刑しようと動いたが、旧友<font fg="ffffaf">スレイヴ</font>の助けによって<font fg="ffffaf">ブルディカ</font>は間一髪のところで逃げ出すことができた。</p>
+	<p><font fg="ffffaf">ブルディカの暗殺団</font>はラスタバドを捨て、昔ドワーフがアジトとして使っていた沈黙の洞窟に移り住んだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook12">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook13">* ラスタバド</a></p>
+	<p><br/></p>
+	<p><a link="storybook14">* ブルディカ</a></p>
+	<p><br/></p>
+	<p><a link="storybook15">* ダンテス</a></p>
+	<p><br/></p>
+	<p><a link="storybook16">* ハーフエルフ ブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook17">* ケンラウヘルとブレイズ</a></p>
+	<p><br/></p>
+	<p><a link="storybook18">* アデンの赤き騎士</a></p>
+	<p><br/></p>
+	<p><a link="storybook19">* 悪魔の寺院</a></p>
+	<p><br/></p>
+	<p><a link="storybook20">* 悪魔の策略</a></p>
+	<p><br/></p>
+	<p><a link="storybook21">* 生と死</a></p>
+	<p><br/></p>
+	<p><a link="storybook22">* 歴史と記憶</a></p>
+	<p><br/></p>
+	<p><a link="storybook23">* 運命</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

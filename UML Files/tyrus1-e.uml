@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>私が10年も片思いした女性がいたんです。彼女に告白するためにすごく努力したんです。</p>
+		<p>彼女の気持ちを知ったり、私に関心を持ってもらえるよう、いろんな努力をしてきたんです。</p>
+		<p>彼女がペット好きを聞いて、ちょっとでもよく見せたくて競技に出ることも辞めたんです。</p>
+		<p>だけど、知ってしまったんです…</p>
+		<p>彼女はかっこいい人が好きだということを…</p>
+		<p>私は多分ダメだ。</p>
+	</dialog>
+
+</npcdialog>

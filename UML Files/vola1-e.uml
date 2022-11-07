@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+	<npc>
+    <image>Talk_NPC_002</image>
+    <name>ボルラ</name>
+    <job>[武器商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <p>悪人に商品を売ったなんて領主様に知られたら、お怒りになることは間違いないわ。早くうちの店から出てってちょうだい。</p>
+  </dialog>
+</npcdialog>

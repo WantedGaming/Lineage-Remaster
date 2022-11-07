@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		あれっ、初めてお目にかかる方ですね。どちらからいらっしゃったんですか？
+		<br/><br/>
+		そうそう、アデンにいらっしゃる時、何か変ではありませんでしたか？たとえば、城に近づくにつれモンスターの数がずいぶん減ってるような感じがしたとか。
+		<br/><br/>
+		最近流れ始めたうわさなんですが、アデン城の上空にドラゴンが居座るようになったそうなんです。そのオーラを感じているのでしょうか？
+		</p>
+	</dialog>
+</npcdialog>

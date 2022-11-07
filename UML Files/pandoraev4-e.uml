@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>PO_003</portrait>
+    <name>パンドラ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog>
+	<p>あなたもご覧になったでしょ？</p>
+	<p>あの大きな<font fg="ffffff">クモのバケモノ</font>を？島の南側と西側の森にしょっちゅう出るモンスターなんだけど、すばしっこい上に強力な爪を持っているから、下手に旅人が行くと死ぬことがあるのよ。</p>
+	<p><font fg="ffffff">森の中</font>を通るときは気をつけてね。ジャイアント スパイダーがあなたを狙っているかもしれないから。</p>
+  </dialog>
+</npcdialog>

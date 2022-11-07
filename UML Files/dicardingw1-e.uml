@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>待っていたぞ。</p>
+		<p>魔力の流れを理解しマナを読む魔術師よ…今アデンは危機に陥っている。</p>
+		<p><br/><br/></p>
+		<p><a link="dicardingw2">どういうことか聞く</a><br/></p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<ArcaManageUI Name="ArcaManageUI" Toggle="true">        
+	<Window Name = "ArcaManageUI" X = "0" Y = "0" Activate = "1" Moveable = "20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard" BasePng="2652;1" FramePng="2652;1">
+		<Button Name="ExitButton" X="273" Y="5" BaseSurf="7998;1" PushSurf="7999;1" MouseEvent="Exit"/>
+		<Label Name="AccountName" X="16" Y="25" Caption="AccountName" Width="244" FontColor="0,234,255" BackColor="0,0,0" Height="12" HAlign="left"/>
+		<Label Name="ConnectedCount" X="236" Y="25" Caption="A/T" Width="167" FontColor="255,255,255" Height="12" HAlign="left"/>
+		
+		<Button Name="CharInfo1" X="10" Y="41" BasePng="2651" DisablePng="2650" OverPng="2645;4" MouseEvent="ClickList" OverImgTop="1">
+			<Button Name="Screen" X="3" Y="3" Width="255" Height="42" DrawDisableScreen="1"/> 
+			<Image Name="ClassImg" X="4" Y="4"/>
+			
+			<Label Name="ServerName" X="63" Y="6" Caption="ServerName" FontColor="137,161,204" Width="60" Height="12" HAlign="left"/>
+			<Label Name="CharName" X="63" Y="20" Width="90" Height="13" Caption="CharName" HAlign="left"/>
+			<Label Name="Class/Lev" X="63" Y="34" Caption="Class/Lev" FontColor="161,59,48" Width="60" Height="12" HAlign="left"/>
+			
+			<Label Name="Reservation" X="165" Y="11" String="4123" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="num" X="194" Y="11" Caption="num" Height="12" FontColor="0,234,255" HAlign="center"/>
+			<Button Name="Cancel" X="219" Y="8" Width="38" Height="17" BasePng="2646;1" OverPng="2648;1" PushPng="2649;1"  MouseEvent="Cancel"/>
+			
+			<Label Name="LeftDay" X="165" Y="32" String="3151" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="Days" X="190" Y="32" Caption="0" FontColor="0,234,255" Width="68" Height="12" HAlign="center"/>
+		</Button>
+				
+		<Button Name="CharInfo2" X="10" Y="94" BasePng="2651" DisablePng="2650" OverPng="2645;4" MouseEvent="ClickList" OverImgTop="1">
+			<Button Name="Screen" X="3" Y="3" Width="255" Height="42" DrawDisableScreen="1"/> 
+			<Image Name="ClassImg" X="4" Y="4"/>
+			
+			<Label Name="ServerName" X="63" Y="6" Caption="ServerName" FontColor="137,161,204" Height="12" HAlign="left"/>
+			<Label Name="CharName" X="63" Y="20" Width="90" Height="12"  Caption="CharName" HAlign="left"/>
+			<Label Name="Class/Lev" X="63" Y="34" Caption="Class/Lev" FontColor="161,59,48" Height="12" HAlign="left"/>
+			
+			<Label Name="Reservation" X="165" Y="11" String="4123" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="num" X="194" Y="11" Caption="num" Height="12" FontColor="0,234,255" HAlign="center"/>
+			<Button Name="Cancel" X="219" Y="8" Width="38" Height="17" BasePng="2646;1" OverPng="2648;1" PushPng="2649;1"  MouseEvent="Cancel"/>
+			
+			<Label Name="LeftDay" X="165" Y="32" String="3151" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="Days" X="190" Y="32" Caption="0" FontColor="0,234,255" Width="68" Height="12" HAlign="center"/>
+		</Button>
+		
+		<Button Name="CharInfo3" X="10" Y="147" BasePng="2651" DisablePng="2650" OverPng="2645;4" MouseEvent="ClickList" OverImgTop="1">
+			<Button Name="Screen" X="3" Y="3" Width="255" Height="42" DrawDisableScreen="1"/> 
+			<Image Name="ClassImg" X="4" Y="4"/>
+			
+			<Label Name="ServerName" X="63" Y="6" Caption="ServerName" FontColor="137,161,204" Height="12" HAlign="left"/>
+			<Label Name="CharName" X="63" Y="20" Width="90" Height="12" Caption="CharName" HAlign="left"/>
+			<Label Name="Class/Lev" X="63" Y="34" Caption="Class/Lev" FontColor="161,59,48" Height="12" HAlign="left"/>
+			
+			<Label Name="Reservation" X="165" Y="11" String="4123" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="num" X="194" Y="11" Caption="num" Height="12" FontColor="0,234,255" HAlign="center"/>
+			<Button Name="Cancel" X="219" Y="8" Width="38" Height="17" BasePng="2646;1" OverPng="2648;1" PushPng="2649;1"  MouseEvent="Cancel"/>
+			
+			<Label Name="LeftDay" X="165" Y="32" String="3151" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="Days" X="190" Y="32" Caption="0" FontColor="0,234,255" Width="68"  Height="12" HAlign="center"/>
+
+		</Button>
+		
+		<Button Name="CharInfo4" X="10" Y="200" BasePng="2651" DisablePng="2650" OverPng="2645;4" MouseEvent="ClickList" OverImgTop="1">
+			<Button Name="Screen" X="3" Y="3" Width="255" Height="42" DrawDisableScreen="1"/> 
+			<Image Name="ClassImg" X="4" Y="4"/>
+			
+			<Label Name="ServerName" X="63" Y="6" Caption="ServerName" FontColor="137,161,204" Height="12" HAlign="left"/>
+			<Label Name="CharName" X="63" Y="20" Width="90" Height="12" Caption="CharName" HAlign="left"/>
+			<Label Name="Class/Lev" X="63" Y="34" Caption="Class/Lev" FontColor="161,59,48" Height="12" HAlign="left"/>
+			
+			<Label Name="Reservation" X="165" Y="11" String="4123" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="num" X="194" Y="11" Caption="num" FontColor="0,234,255" Height="12" HAlign="center"/>
+			<Button Name="Cancel" X="219" Y="8" Width="38" Height="17" BasePng="2646;1" OverPng="2648;1" PushPng="2649;1"  MouseEvent="Cancel"/>
+			
+			<Label Name="LeftDay" X="165" Y="32" String="3151" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="Days" X="190" Y="32" Caption="0" FontColor="0,234,255" Width="68"  Height="12" HAlign="center"/>
+		</Button>
+		
+		<Button Name="CharInfo5" X="10" Y="253" BasePng="2651" DisablePng="2650" OverPng="2645;4" MouseEvent="ClickList" OverImgTop="1">
+			<Button Name="Screen" X="3" Y="3" Width="255" Height="42" DrawDisableScreen="1"/> 
+			<Image Name="ClassImg" X="4" Y="4"/>
+			
+			<Label Name="ServerName" X="63" Y="6" Caption="ServerName" FontColor="137,161,204" Height="12" HAlign="left"/>
+			<Label Name="CharName" X="63" Y="20" Width="90" Height="12" Caption="CharName" HAlign="left"/>
+			<Label Name="Class/Lev" X="63" Y="34" Caption="Class/Lev" FontColor="161,59,48" Height="12" HAlign="left"/>
+			
+			<Label Name="Reservation" X="165" Y="11" String="4123" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="num" X="194" Y="11" Caption="num" FontColor="0,234,255" Height="12" HAlign="center"/>
+			<Button Name="Cancel" X="219" Y="8" Width="38" Height="17" BasePng="2646;1" OverPng="2648;1" PushPng="2649;1"  MouseEvent="Cancel"/>
+			
+			<Label Name="LeftDay" X="165" Y="32" String="3151" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="Days" X="190" Y="32" Caption="0" FontColor="0,234,255" Width="68"  Height="12" HAlign="center"/>
+		</Button>
+		
+		<Button Name="CharInfo6" X="10" Y="306" BasePng="2651" DisablePng="2650" OverPng="2645;4" MouseEvent="ClickList" OverImgTop="1">
+			<Button Name="Screen" X="3" Y="3" Width="255" Height="42" DrawDisableScreen="1"/> 
+			<Image Name="ClassImg" X="4" Y="4"/>
+			
+			<Label Name="ServerName" X="63" Y="6" Caption="ServerName" FontColor="137,161,204" Height="12" HAlign="left"/>
+			<Label Name="CharName" X="63" Y="20" Width="90" Height="12" Caption="CharName" HAlign="left"/>
+			<Label Name="Class/Lev" X="63" Y="34" Caption="Class/Lev" FontColor="161,59,48" Height="12" HAlign="left"/>
+			
+			<Label Name="Reservation" X="165" Y="11" String="4123" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="num" X="194" Y="11" Caption="num" FontColor="0,234,255" Height="12" HAlign="center"/>
+			<Button Name="Cancel" X="219" Y="8" Width="38" Height="17" BasePng="2646;1" OverPng="2648;1" PushPng="2649;1"  MouseEvent="Cancel"/>
+			
+			<Label Name="LeftDay" X="165" Y="32" String="3151" Height="12" FontColor="146,130,111" HAlign="left"/>
+			<Label Name="Days" X="190" Y="32" Caption="0" FontColor="0,234,255" Width="68"  Height="12" HAlign="center"/>	
+		</Button>
+		
+		<ScrollBar Name = "ScrollBar" X="276" Y="39" Width = "19" Height = "269" ScrollStart = "18" Vertical="1" ScrollHeight = "284" MaxValue="2" MouseEvent = "ArcaScroll">
+			<Button Name = "Up_Button" BaseSurf="8699" HighlightSurf="8700" PushSurf="8700" MouseEvent="ArcaScroll"/>
+			<Button Name = "Move_Button" X="1" Y="18" BaseSurf="8695" HighlightSurf="8696" PushSurf = "8696" MouseEvent="ArcaScroll"/>
+			<Button Name = "Down_Button" Y="302" BaseSurf="8697" HighlightSurf="8698" PushSurf="8698" MouseEvent="ArcaScroll"/>
+		</ScrollBar>
+
+	</Window>
+</ArcaManageUI>

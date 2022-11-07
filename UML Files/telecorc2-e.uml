@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>オーク要塞ゲートキーパー</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		この要塞から行ける地域と料金は以下のとおりだよ。どこに行きたいの？<br/>
+		<br/><br/>
+		<a action="teleport orc-village">Firefield Village:<var src="0"/>Adena</a><br/>
+		<a action="teleport orc-elvendun">エルフの森ダンジョン3階：<var src="1"/>Adena</a><br/>
+		<a action="teleport orc-dragonvalley">Dragon Valley:<var src="2"/>Adena</a><br/>
+		<a action="teleport orc-gate">オーク要塞外城門：<var src="3"/>Adena</a><br/>
+		</p>
+
+	</dialog>
+
+</npcdialog>

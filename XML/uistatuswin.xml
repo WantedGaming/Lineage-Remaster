@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<!--Status Window Configulation-->
+
+<StatusWindowConfigulation>
+
+  <COMMON_WIN>  <!-- 2 images per button -->
+    <EXIT_BTN surfName = "" surfNumber = "2441" xPos = "179" yPos = "15"/>
+    
+    <TAB0 surfName = "" surfNumber = "2443" xPos = "22" yPos = "289"/>
+    <TAB1 surfName = "" surfNumber = "2444" xPos = "59" yPos = "289"/>
+    <TAB2 surfName = "" surfNumber = "2445" xPos = "96" yPos = "289"/>
+
+    <CH_TAB0 surfName = "" surfNumber = "2446" xPos = "22" yPos = "289"/>  <!-- Branch Version -->
+    <CH_TAB1 surfName = "" surfNumber = "2447" xPos = "59" yPos = "289"/>
+    <CH_TAB2 surfName = "" surfNumber = "2448" xPos = "96" yPos = "289"/>
+    <CH_TAB3 surfName = "" surfNumber = "2449" xPos = "134" yPos = "289"/>
+    
+    <CHARM_TAB0 surfName = "" surfNumber = "3078" xPos = "22" yPos = "289"/>  <!-- 2010.7.13 Charm Slot -->
+    <CHARM_TAB1 surfName = "" surfNumber = "3079" xPos = "60" yPos = "289"/>
+    <CHARM_TAB2 surfName = "" surfNumber = "3080" xPos = "97" yPos = "289"/>
+    <CHARM_TAB3 surfName = "" surfNumber = "3081" xPos = "134" yPos = "289"/>
+    
+  </COMMON_WIN>
+
+  <TEXT_WIN> <!-- TAB0 -->
+    <BASE surfName = "" surfNumber = "2450" xPos = "6" yPos = "10"/>
+    <FRAME surfName = "" surfNumber = "2451" xPos = "0" yPos = "0"/>
+    <LEVEL_BAR surfName = "" surfNumber = "2452" xPos = "75" yPos = "42"/>
+    <HP_BAR surfName = "" surfNumber = "2453" xPos = "75" yPos = "60"/>
+    <MP_BAR surfName = "" surfNumber = "2454" xPos = "75" yPos = "76"/>
+    
+    <CHAOTIC surfName = "" surfNumber = "2455" xPos = "128" yPos = "191"/>
+    <NEUTRAL surfName = "" surfNumber = "2456" xPos = "128" yPos = "191"/>
+    <LAWFUL surfName = "" surfNumber = "2457" xPos = "128" yPos = "191"/>
+    
+    <LEVEL xPos = "105" yPos = "44"/>
+    <EXP xPos = "132" yPos = "44"/>
+    <HP xPos = "110" yPos = "62"/>
+    <MP xPos = "110" yPos = "78"/>
+    <WEIGHT xPos = "122" yPos = "98"/>
+    <STR xPos = "63" yPos = "130"/>
+    <DEX xPos = "63" yPos = "143"/>
+    <CON xPos = "63" yPos = "156"/>
+    <INT xPos = "131" yPos = "130"/>
+    <WIS xPos = "131" yPos = "143"/>
+    <CHA xPos = "131" yPos = "156"/>
+    <MAGIC_LEVEL xPos = "101" yPos = "192"/>
+    <MAGIC_BONUS xPos = "101" yPos = "205"/>
+    <EARTH xPos = "68" yPos = "239"/>
+    <FIRE xPos = "133" yPos = "239"/>
+    <WATER xPos = "68" yPos = "252"/>
+    <WIND xPos = "133" yPos = "252"/>
+    <ER xPos = "63" yPos = "265"/>
+    <DG xPos = "131" yPos = "265"/>
+    <ALIGN xPos = "130" yPos = "205"/>
+  </TEXT_WIN>
+  
+  <ITEM_WIN>
+    <BASE_MAN surfName = "" surfNumber = "2458" xPos = "6" yPos = "10"/>
+    <BASE_WOMAN surfName = "" surfNumber = "2459" xPos = "6" yPos = "10"/>
+    <FRAME surfName = "" surfNumber = "2460" xPos = "0" yPos = "0"/>
+    <AC xPos = "103" yPos = "256"/>
+  </ITEM_WIN>
+  
+  <ITEM2_WIN>
+    <BASE_MAN surfName = "" surfNumber = "2461" xPos = "6" yPos = "10"/>
+    <BASE_WOMAN surfName = "" surfNumber = "2462" xPos = "6" yPos = "10"/>
+    <FRAME surfName = "" surfNumber = "2463" xPos = "0" yPos = "0"/>
+  </ITEM2_WIN>
+  
+  <ITEM3_WIN> <!-- 2010.7.13 Charm Slot -->
+    <BASE surfName = "" surfNumber = "3076" xPos = "6" yPos = "10"/>
+    <FRAME surfName = "" surfNumber = "3077" xPos = "0" yPos = "0"/>
+  </ITEM3_WIN>
+
+  <EQIP_POSITION>
+    <HELMET xPos = "80" yPos = "43"/>
+    <NECKLACE xPos = "123" yPos = "48"/>
+    <SHIRT xPos = "37" yPos = "85"/>
+    <ARMOR xPos = "80" yPos = "85"/>
+    <CLOAK xPos = "123" yPos = "85"/>
+    <GLOVE xPos = "37" yPos = "196"/>
+    <RIGHT_RING xPos = "37" yPos = "122"/>
+    <LEFT_RING xPos = "123" yPos = "159"/>
+    <WEAPON xPos = "37" yPos = "159"/>
+    <SHIELD xPos = "123" yPos = "122"/>
+    <BOOT xPos = "80" yPos = "196"/>
+    <WAIST xPos = "80" yPos = "122"/>
+    <EARRING xPos = "37" yPos = "48"/>
+    <TATTOO_LSHOULDER xPos = "36" yPos = "47"/>
+    <TATTOO_RSHOULDER xPos = "122" yPos = "47"/>
+    <TATTOO_BACK xPos = "79" yPos = "84"/>
+    <TATTOO_LWRIST xPos = "36" yPos = "121"/>
+    <TATTOO_RWRIST xPos = "122" yPos = "121"/>
+    <CHARM0 xPos = "80" yPos = "64"/>         <!-- 2010.7.13 Charm Slot -->
+    <CHARM1 xPos = "37" yPos = "108"/>
+    <CHARM2 xPos = "123" yPos = "108"/>
+    <CHARM3 xPos = "37" yPos = "207"/>
+    <CHARM4 xPos = "123" yPos = "207"/>
+  </EQIP_POSITION>
+  
+  
+  <BASE_STATUS_WIN>
+    <BASE surfName = "" surfNumber = "2464" xPos = "6" yPos = "10"/>
+    <FRAME surfName = "" surfNumber = "2465" xPos = "0" yPos = "0"/>
+    <SCROLLBAR_LONG surfName = "" surfNumber = "2466" xPos = "174" yPos = "64"/>
+    <SCROLLBAR_INC surfName = "" surfNumber = "2467" xPos = "174" yPos = "50"/>  <!-- Next Surf INC_ON -->
+    <SCROLLBAR_DEC surfName = "" surfNumber = "2469" xPos = "174" yPos = "275"/>  <!-- Next Surf DEC_ON -->
+    <SCROLLBAR_KNOB surfName = "" surfNumber = "2471" xPos = "173" yPos = "0"/> <!-- Next Surf KNOB_ON -->
+    <HTML_START xPos = "10" yPos = "52"/>
+    <HTML_END xPos = "160" yPos = "270"/>
+  </BASE_STATUS_WIN>
+
+</StatusWindowConfigulation>

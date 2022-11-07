@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Flora</name>
+  </npc>
+  <dialog>
+    <p> If you find their belongings, please deliver them to Amelia, the messenger of goodness, who is before me.<br/></p>
+    <p><a action="teleport adencd">Dungeon of Aden Castle:<var src="0"/>Adena</a><br/></p>
+    <p> There will be a reward for the relics.。
+ Oh, and Aden Cathedral is accepting donations. Please donate if you like.
+ May the blessings of Einhasad be with you...</p>
+  </dialog>
+</npcdialog>

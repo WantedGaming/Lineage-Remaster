@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+  <dialog>
+    <p>好事魔多しという言葉があります。<br/></p>
+    <p>あなたのよき運勢に何かあってはなりません。厄払いを兼ねて、祝福を控えさせていただきました。</p>
+    <p>あなたの運勢を気遣ってのことですから、どうかご理解ください。</p>
+  </dialog>
+</npcdialog>

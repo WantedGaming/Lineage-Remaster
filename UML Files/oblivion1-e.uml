@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon>
+
+<npc>
+	<name>アブリション</name>
+	<job>船着場管理人</job>
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+
+<dialog>
+	<p>忘れられた島は完全に閉鎖されたね。もしチケットが残っていたら私が買取ますよ。</p>
+	<br/>
+	<panel type="Panel_Shop_Bt_Sell">
+      <text>チケットを売る</text>
+			<button action="sell" link="oblivion2"/>
+	</panel>
+</dialog>
+
+</npcdialog>

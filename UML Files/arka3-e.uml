@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 最高の釣り人のみ獲得できる<a link="arka4">レア タートル</a><br/>
+		 最高の料理人のみ獲得できる<a link="arka5">王宮シェフのスパイス</a><br/>
+		 幽霊屋敷の最強の者のみ獲得できる<a link="arka6">スケルトンの聖杯</a><br/>
+		 アルティメットバトルで最高の者のみ獲得できる<a link="arka7">勝利の印章</a>が珍しいアイテムじゃ。<br/>
+		 <br/>
+		<br/>
+		<img src="331" link="arka2"></img>
+		<br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

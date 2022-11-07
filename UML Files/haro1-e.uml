@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		この村は以前から、言葉では表せないような苦難を受けています。
+		雪の降る夜深く、どこからともなく…
+		全身が白い毛で覆われた雪男のような怪物が現れ、村の人々を脅かすのです。
+		威嚇だけの時もありますが、村の家畜を連れ去っていくこともよくあります。
+		私たちにとって家畜なしの暮らしは死活問題です。だから、毎日心配で心配で…
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

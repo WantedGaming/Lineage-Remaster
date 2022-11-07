@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ベアサム</name>
+		<job>倉庫番</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/><br/>
+		</p><p>ええっと…あなたを信頼できないので…ちょっと力を貸せないですね…
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

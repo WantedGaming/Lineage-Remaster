@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Blacksmith：</font><br/><br/></p>
+	<p>They'll get <font fg="ffafff">damaged</font> when you attack something hard like a castle gate with your sword and chip the blade, 
+	or when you fight a monster that corrodes your weapons and armor!</p>
+	<p>It's also foolish to fight something as hard as a <font fg="ffafff">Stone Golem</font>
+	with weapons like sword and spears!</p><br/>
+    <p>Since the weapon is not doing proper damage, it may break.</p>
+	<p>A <font fg="ffafff">blunt weapon</font> like an Axe or a Morningstar won't hurt a hard one!</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ラルフ</name>
+    <job>[商人]</job>
+  </npc>
+  <dialog align="left">
+    <p>商売だぁ？笑わせんじゃねぇよ。殴られる前にとっとと失せな。おめぇみてぇな人間に売るもんなんか、ねぇんだよ！</p>
+  </dialog>
+</npcdialog>

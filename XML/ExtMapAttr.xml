@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtendedTileAttributes>
+
+	<ExtendedTileAttribute Name="Market Region">
+		<Bit position="0" Name="ShopOpenable"/>
+	</ExtendedTileAttribute>
+	
+	<ExtendedTileAttribute Name="User Action Restriction">
+		<Bit position="0" Name="CantAttack"/>
+		<Bit position="1" Name="CantUseSpell"/>
+		<Bit position="2" Name="CantUseItem"/>
+	</ExtendedTileAttribute>
+	
+	<ExtendedTileAttribute Name="fishingRegion">
+		<Bit position="0" Name="fishingRegion"/>
+	</ExtendedTileAttribute>
+	
+	<ExtendedTileAttribute Name="Guardian Trap Region">
+		<Bit position="0" Name="TrapRegion"/>
+	</ExtendedTileAttribute>
+
+	<ExtendedTileAttribute Name="TeleportOkRegion">
+		<Bit position="0" Name="teleport region"/>
+		<Bit position="2" Name="racing region"/>
+	</ExtendedTileAttribute>
+
+</ExtendedTileAttributes>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>強化ウィザード</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[強化ウィザード]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 材料が揃ってますね。<br/>お望みのスペル スクロールをお渡ししますね！<br/>あなたの冒険に幸運が共にあらんことを。
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

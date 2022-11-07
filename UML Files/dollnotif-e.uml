@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ミソフィア</name>
+		<job>Event Teleport</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		お～い、そこの君！<br/>
+		元気にしていたかい？！<br/>
+		<br/>
+		運動会をしているところに行くって？<br/>
+		私のいうことをしっかり聞いておけよ。<br/>
+		熱気球は毎日午前11時～午後11時まで運行しているよ。<br/>
+		<br/>
+		そうだ、<font fg="ffffaf">くれぐれも気をつけるんだぞ。ラフォンスがどうしてあんな風になったのかよく考えてみろ。</font><br/></p>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+	</dialog>
+</npcdialog>

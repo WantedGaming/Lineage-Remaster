@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		何も知らずに来たのか。<br/>
+		ふふふ…実にハーディンらしいな。<br/>
+		<br/>
+		その質問の答えはハーディンに聞くがいい。<br/>
+		私が答えるに及ばない。<br/>
+		<br/>
+		<br/></p>
+		<p><a link="j_ep010">あなたは何者ですか？</a><br height="20"/></p>
+		<p><a link="j_ep012">「あの方」とは誰ですか？</a><br height="20"/></p>
+		<p><a link="j_ep013">「ケレニス」を知っていますか？</a><br height="20"/></p>
+		<p><a link="j_ep014">モンスターたちはあなたの手下ですか？</a><br height="20"/></p>
+		<p><a link="j_ep015">あなたは何をしようとしていたのですか？</a><br height="20"/></p>
+		<p><a link="j_ep016">あなたはハーディンを知ってますか？</a><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

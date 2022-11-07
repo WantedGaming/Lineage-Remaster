@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フォアカン</name>
+		<job>[アデン近衛隊長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>まだ準備ができていないようだな。</p>
+  </dialog>
+</npcdialog>

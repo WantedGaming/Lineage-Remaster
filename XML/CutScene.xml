@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+
+<!--Cut Scene Configulation -->
+<!-- alpha : 0(min) ~ 31(max) -->
+<!-- rect_width : 800(max) -->
+<!-- rect_height : 600(max) -->
+<!-- play_time : 1000 -> 1 sec -->
+<!-- image type : "normal" "screen" -->
+<!-- music type : "effect" "bgm" -->
+<CUT_SCENE>
+<SCENE index = "0" play_time = "44000">
+
+  <LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "0" type = "bgm" loop = "0"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "voice_kirtas_1" loop = "0"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <ANI_IMAGE type = "normal" start_index = "9" end_index = "53" play_time = "2750" loop = "1" x = "0" y = "0"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+	  <ACTION start_time = "11000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "3000"> 
+	  <IMAGE index = "4" x = "0" y = "547"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+
+	<LAYER x = "0" y = "0" start_time = "10000"> 
+	  <ANI_IMAGE type = "normal" start_index = "54" end_index = "98" play_time = "2750" loop = "1" x = "0" y = "0"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "16000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "13000">
+	  <IMAGE index = "5" x = "0" y = "547"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "19500">
+	  <IMAGE index = "6" x = "0" y = "547"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "25000"> 
+	  <ANI_IMAGE type = "normal" start_index = "99" end_index = "143" play_time = "2750" loop = "1" x = "0" y = "0"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "31000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+    <LAYER x = "0" y = "0" start_time = "28000">
+	  <IMAGE index = "7" x = "0" y = "547"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "34500">
+	  <IMAGE index = "8" x = "0" y = "547"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1500"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+<LAYER x = "0" y = "0" start_time = "40500"> 
+	  <ANI_IMAGE type = "normal" start_index = "144" end_index = "173" play_time = "3000" loop = "0" x = "0" y = "0"/>
+	  <ACTION start_time = "44000" type = "fade_out" play_time = "1500"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "43000">
+	  <IMAGE index = "173" x = "0" y = "0"/>
+    </LAYER>
+  
+</SCENE>
+
+
+<SCENE index = "1" play_time = "45000">
+  <LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "1" type = "bgm" loop = "0"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "500"> 
+	  <IMAGE type="normal" index = "174" x = "0" y = "0"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "1500"> 
+	  <IMAGE type = "screen" index = "181" x = "0" y = "515"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "4500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+  
+
+  <LAYER x = "0" y = "0" start_time = "7500"> 
+	  <IMAGE type="normal" index = "175" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "8500"> 
+	  <IMAGE type = "screen" index = "182" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "4500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "14000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "1000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+
+  <LAYER x = "0" y = "0" start_time = "15000"> 
+	  <IMAGE type="normal" index = "176" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "6000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "16000"> 
+	  <IMAGE type = "screen" index = "183" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "500"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "20000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+
+
+  <LAYER x = "0" y = "0" start_time = "20000"> 
+	  <IMAGE type="normal" index = "177" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "21000"> 
+	  <IMAGE type = "screen" index = "184" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "100"/>
+    <ACTION start_time = "3000" type = "fade_out" play_time = "100"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "24000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+
+
+
+  <LAYER x = "0" y = "0" start_time = "24000"> 
+	  <IMAGE type="normal" index = "178" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "8000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "25000"> 
+	  <IMAGE type = "screen" index = "185" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "6000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+
+
+  <LAYER x = "0" y = "0" start_time = "32000">
+	  <IMAGE type="normal" index = "179" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+
+  <LAYER x = "0" y = "0" start_time = "33000">
+	  <IMAGE type = "screen" index = "186" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "6000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+
+  <LAYER x = "0" y = "0" start_time = "39000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "3000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+
+</SCENE>
+
+
+
+
+
+<SCENE index = "2" play_time = "20000">
+
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "2000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "2000"> 
+	  <IMAGE index = "180" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "14000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+  ////
+
+  
+  <LAYER x = "0" y = "0" start_time = "4000"> 
+	  <IMAGE type = "screen" index = "187" x = "0" y = "271"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "13000"> 
+	  <IMAGE type = "screen" index = "188" x = "0" y = "271"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "5000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "16000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "2000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+<SCENE index = "3" play_time = "6000">
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "2" type = "bgm" loop = "0"/>
+  </LAYER>
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "DIA_1" loop = "0"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "500"> 
+	  <IMAGE type="normal" index = "174" x = "0" y = "0"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+  
+  <LAYER x = "0" y = "0" start_time = "1500"> 
+	  <IMAGE type = "screen" index = "181" x = "0" y = "515"/>
+	  <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "4500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+</SCENE>
+
+
+<SCENE index = "4" play_time = "7500">
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "2" type = "bgm" loop = "0"/>
+  </LAYER>
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "DIA_2" loop = "0"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "175" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "1000"> 
+	  <IMAGE type = "screen" index = "182" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "4500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "6500"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "1000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+</SCENE>
+
+
+<SCENE index = "5" play_time = "5500">
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "2" type = "bgm" loop = "0"/>
+  </LAYER>
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "DIA_3" loop = "0"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "176" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "6000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "1000"> 
+	  <IMAGE type = "screen" index = "183" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "500"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "5000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+</SCENE>
+
+
+<SCENE index = "6" play_time = "4500">
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "2" type = "bgm" loop = "0"/>
+  </LAYER>
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "DIA_4" loop = "0"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "177" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "4000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "1000"> 
+	  <IMAGE type = "screen" index = "184" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "100"/>
+    <ACTION start_time = "3000" type = "fade_out" play_time = "100"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "4000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "500"/>
+    <ACTION start_time = "500" type = "fade_out" play_time = "500"/>
+  </LAYER>
+</SCENE>
+
+<SCENE index = "7" play_time = "7000">
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "2" type = "bgm" loop = "0"/>
+  </LAYER>
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "DIA_5" loop = "0"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "0"> 
+	  <IMAGE type="normal" index = "178" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "8000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "1000"> 
+	  <IMAGE type = "screen" index = "185" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "2000"/>
+    <ACTION start_time = "6000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+</SCENE>
+
+<SCENE index = "8" play_time = "10000">
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC index = "2" type = "bgm" loop = "0"/>
+  </LAYER>
+
+<LAYER x = "0" y = "0" start_time = "0">
+    <MUSIC type = "voice" filename = "DIA_6" loop = "0"/>
+  </LAYER>
+  <LAYER x = "0" y = "0" start_time = "0">
+	  <IMAGE type="normal" index = "179" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "7000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "1000">
+	  <IMAGE type = "screen" index = "186" x = "0" y = "515"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "6000" type = "fade_out" play_time = "1000"/>
+  </LAYER>
+
+  <LAYER x = "0" y = "0" start_time = "7000"> 
+	  <IMAGE type="normal" index = "189" x = "0" y = "0"/>
+    <ACTION start_time = "0" type = "fade_in" play_time = "1000"/>
+    <ACTION start_time = "3000" type = "fade_out" play_time = "2000"/>
+  </LAYER>
+
+</SCENE>
+
+
+</SCENE>
+
+<SCENE index = "9" play_time = "3000" inform_to_server="0">
+	<LAYER x="0" y="0" start_time="1000">
+		<IMAGE type="normal" index="189" x="0" y="0" />
+		<ACTION start_time="0" type="fade_in" play_time="1000" />
+	</LAYER>
+	<LAYER x="0" y="0" start_time="2000">
+		<IMAGE type="normal" index="189" x="0" y="0" />
+	</LAYER>
+</SCENE>
+<SCENE index = "10" play_time = "1000" inform_to_server="0">
+	<LAYER x="0" y="0" start_time="0">
+		<IMAGE type="normal" index="189" x="0" y="0" />
+		<ACTION start_time="0" type="fade_out" play_time="1000" />
+	</LAYER>
+</SCENE>
+
+</CUT_SCENE>

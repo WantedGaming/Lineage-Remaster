@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Adonis</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+  <dialog>
+    <p> I am the wizard who was tasked to send you to the Balrog camp in the Ivory Tower.<br/><br/></p>
+    <p><a link="adonis2">Ivory Tower: Entering the Balrog Camp</a><br/></p>
+    <p>The Ivory Towers of the Yahee Camp can be moved through <font fg="ffaaff">Piato,</font> who has been granted some of her powers by Janus. She can be met at the <font fg="ffaaff">Floating Island.</font></p>
+    <p>The Balrog and Yahee camps are in separate dimensions and can <font fg="ffaaff">stay 1 hour each.</font></p>
+    <p> </p>
+    <p> Will you listen to me?</p>
+    <p> The cause of the collapse of the warding tower that sealed the demons in the upper part of the ivory tower, as revealed by the illusionist Janus, was that the ivory tower split in two, so that humans could no longer see the daemons of the Yahi camp, but only those of the Balrog camp.</p>
+    <p> The wizards in the lab are trying to reseal it, but it is not going to be so easy to do so. Some of the wizards in the Ivory Tower have gone to inform the entire Aden area of this fact in order to recruit adventurers to help. We need your help...</p>
+  </dialog>
+</npcdialog>

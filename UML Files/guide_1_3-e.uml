@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>レベルが11から25のあなたのためのキツめの狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。</p>
+		<br/>
+		<p><a link="guide_1_3_1"><font fg="ffffaf">ケント城の南の廃墟の東にある森</font></a><a action="teleport guide1_3_1"><var src="0"/>：Adenaでテレポートします。</a></p>
+		<br/>
+		<br/>
+		<p><a link="guide_1_3_3"><font fg="ffffaf">ギランの南東にある森</font></a><a action="teleport guide1_3_3"><var src="1"/>：Adenaでテレポートします。</a></p>
+		<br/>
+		<br/>
+		<p><a link="guide_1_3_5"><font fg="ffffaf">沈黙の洞窟の村のまわり</font></a><a action="teleport guide1_3_5"><var src="2"/>：Adenaでテレポートします。</a></p>
+	</dialog>
+</npcdialog>

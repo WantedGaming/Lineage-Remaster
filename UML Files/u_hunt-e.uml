@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの軍師</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ヤヒ様の意を受け入れ、攻撃する準備ができたのか？</p>
+		<p>準備ができたならば、攻撃する力をお前に与えてやろう！</p>
+		<p><a action="a">私に力をあたえください</a></p>
+	</dialog>
+
+</npcdialog>

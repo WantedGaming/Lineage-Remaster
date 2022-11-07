@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_007</portrait>
+		<name><var src="name"/></name>
+		<job>[Templar Spellbook Merchant]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 Hello there!<br/>
+		 My name is <font fg="ffffaf">Simon,</font>Master Geren's disciple.<br/> 
+		 Want to learn magic?<br/><br/>
+		 </p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p><br/>
+		</p>
+		<p> I was originally a disciple of magic, but for some reason I became a merchant who made and sold magic books.<br/><br/>
+		 However, after meeting <font fg="ffffaf">Master Geren</font>I was finally on the path of true magic.<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

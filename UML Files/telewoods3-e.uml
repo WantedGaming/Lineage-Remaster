@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Wizard Tray</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>The following is a list of hunting areas and fees that can be sent from here.</p>
+		<p>Which hunting grounds do you go to?</p>
+		<p><a action="teleport woods-oasis">Desert Oasis：<var src="0"/>Adena</a></p>
+		<p><a action="teleport woods-under">Underground Invasion:<var src="1"/>Adena</a></p>
+		<p><a action="teleport woods-gludun">Gludio Dungeon:<var src="2"/>Adena</a></p>
+		<p><a action="teleport woods-train">SKT Dungeon:<var src="3"/>Adena</a></p>
+		<p><a action="teleport woods-girdun">Giran Dungeon:<var src="4"/>Adena</a></p>
+		<p><a action="teleport woods-dragon">Dragon Valley:<var src="5"/>Adena</a></p>
+		<p><a action="teleport woods-reed">Wheat Field:<var src="6"/>Adena</a></p>
+		<p><a action="teleport woods-eva">Heine Dungeon:<var src="7"/>Adena</a></p>
+		<p><a action="teleport woods-mirr">Mirror Forest:<var src="8"/>Adena</a></p>
+		<p><a action="teleport woods-gypsy">Gypsy Town:<var src="9"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

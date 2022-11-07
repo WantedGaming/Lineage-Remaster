@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>何が知りたいのだ？
+		<br/><br/><br/>
+		<a link="gerenghp2">魔法の原理</a><br/>
+		<a link="gerenghp3">魔法の段階</a><br/>
+		<a link="gerenghp4">白魔術と黒魔術</a><br/>
+		<a link="gerenghp5">儀式魔法</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

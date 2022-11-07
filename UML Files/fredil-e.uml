@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ フレディ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/><br/>
+		</p><p>すみません、あなたのアイテムはまだ預かることができません。もっとレベルを上げてからおいでください。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

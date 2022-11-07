@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>こんにちは。エルフの森から出られて、本当に嬉しいわ。<br/></p>
+		<p>夜が来る前に、もう少し遠くに行ってみなくちゃ～<br/></p>
+		<p>私の邪魔をしないでよね～！！<br/></p>
+	</dialog>
+
+</npcdialog>

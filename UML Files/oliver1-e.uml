@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+<p>今、かくれんぼしている最中なんです。誰かが私のことを聞いても、絶対に言わないでくださいね！絶対ですよ！</p>
+</dialog>
+
+</npcdialog>

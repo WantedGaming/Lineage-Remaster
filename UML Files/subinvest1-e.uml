@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<dialog>
+				
+		<p>まったく…何でこんなことになったんだ…<br/></p>
+		<p>船の墓場まで行っても、これが原因だと言えるだけのものは見つからないでしょう。<br/></p>
+		<p>すでに調査しましたが何の問題もありませんでしたし。全部終えて、アデンに戻ったら…<br/></p>
+		<p><a link="subinvest2">私がもう一度行ってみます</a><br/></p>
+		
+		
+	</dialog>
+
+</npcdialog>

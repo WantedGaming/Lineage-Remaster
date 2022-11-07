@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>強化ウィザード</title>
+	<npc>
+		<portrait></portrait>
+		<name>強化ウィザード</name>
+		<job>[強化魔法協会]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 こんにちは。<br/>
+		 <font fg="ffffaf">1,000Adena</font>でバフをかけています。<br/><br/><br/>
+		 <font fg="ffffaf">バフ：</font><a action="a">強化魔法を受ける</a><br/><br/><br/>
+		 
+		 ちなみに<font fg="ffffaf">バフコイン</font>を持っていれば別の強化魔法をかけますよ。<br/><br/><br/>
+		 <font fg="ffffaf">強化バフ：</font><a action="d">バフコイン強化魔法を受ける</a><br/><br/><br/>
+		 
+		 また、<font fg="ffffaf">黒蛇のコイン</font>を持っていればさらにバフをかけられます。<br/><br/><br/>
+		 <font fg="ffffaf">黒蛇のバフ：</font><a action="z">黒蛇のコイン魔法を受ける</a><br/><br/><br/>
+		 
+		 手ごろな価格で<font fg="ffaaff">戦闘能力を強化</font>するバフをかけますので、たくさん利用してください。
+		<br/><br/>
+
+		
+		</p>
+	</dialog>
+</npcdialog>

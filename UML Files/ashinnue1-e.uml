@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>エイシヌ</name>
+		<job>Pet Gear Merchant</job>
+		<text>I love pets so much I opened a store!</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Ummm...sorry, I can't do business with you.
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>ありがとうございます、お客さま。</p>
+   <p>こちら、<var src="1"/>Adenaをお返し致します。</p>
+   <p>またおこしください。</p>
+  </dialog>
+</npcdialog>

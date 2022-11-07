@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ハイネ城ゲートキーパー</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>
+		
+		この城から行ける地域と料金は以下のとおりです。どこに行かれますか？<br/>
+		<br/><br/>
+		<a action="teleport heinec-village">Heine Castle Town:<var src="0"/>Adena</a><br/>
+		<a action="teleport heinec-evadun">水中遺跡の入口：<var src="1"/>Adena</a><br/>
+		<a action="teleport heinec-forgotten">ハイネの船着場：<var src="2"/>Adena</a><br/>
+		</p>
+
+	</dialog>
+
+</npcdialog>

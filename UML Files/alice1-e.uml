@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+   <p><font fg="ffffff">アリス：</font><br/><br/></p>
+   <p> Have you tried walking from Giran Castle Town to Silver Knight Town?</p>
+   <p> The ground was hollowed out like it had been torn up.</p>
+   <p> Maybe...but I think it has something to do with the great roar I heard in the sky earlier.</p>
+   <p> Wow... that's scary...</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>鍛冶屋ピュアル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p><font fg="ffffaf">破滅者のチェーンソード</font>を作るには、</p>
+		<p>ダイアモンド30個、</p>
+		<p>ルビー30個、</p>
+		<p>ファアグリオの遺産30個、</p>
+		<p>エヴァの遺産30個、</p>
+		<p>マーブルの遺産30個、</p>
+		<p>サイハの遺産30個、</p>
+		<p>邪悪な活力20個、</p>
+		<p>ツーハンド ソード1個、</p>
+		<p>ドラゴンナイトのツーハンド ソード1個、</p>
+		<p>1000000Adenaが必要です。</p>
+		<p><a action="request chainsword destroyer">破滅者のチェーンソードを作る</a></p>
+	</dialog>
+
+</npcdialog>

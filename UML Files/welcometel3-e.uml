@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+    <p><font fg="ffafff">シルバーナイトタウン</font>に行くと<font fg="aaffff">サブクエスト</font>および<font fg="aaffff">デイリークエスト</font>を遂行できます。<br/>
+		<br/>
+    また、レベル40以上からは<font fg="aaffff">基礎訓練教官</font>が+4象牙の塔の防具を<font fg="ffafff">象牙の塔の上位防具</font>と交換しておりますが、会いに行かれますか？<br/>
+		<br/>
+		<a action="B">シルバーナイトタウンに送ってください</a></p>
+    <p><br/></p>
+    <p>他の村への移動にはAdenaが必要です。<br/>
+    <br/>
+    <a action="C">Oren:100Adena</a><br/>
+    <a action="D">Werldern Village:100Adena</a><br/>
+    <a action="E">Heine:100Adena</a><br/>
+    <a action="F">Kent:100Adena</a><br/>
+    <a action="G">Gludin Village:100Adena</a><br/>
+    <a action="H">Giran Castle Town:100Adena</a><br/>
+    <a action="I">Woodbeck Village:100Adena</a><br/>
+    <a action="J">Firefield Village:100Adena</a><br/>
+    <a action="K">Talking Island:200Adena</a><br/>
+    <a action="L">Temple of Aden:100Adena</a><br/>
+    <a action="M">Chef Lafons:100Adena</a><br/>
+    <a action="N">Market:100Adena</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>火の精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">火の精霊魔法：レベル5</font><br/></p>
+	<p><font fg="ffffaf">バーニング ウェポン：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：30/0<br/>
+	持続時間：960秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、術者の命中率を6、物理攻撃力を+6向上させます。<br/></p>
+	
+	<p><font fg="ffffaf">エレメンタル ファイアー：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：20/0<br/>
+	材料：精霊の玉1個<br/>
+	持続時間：320秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、近接物理攻撃力が一定確率で1.5倍に向上します。<br/></p>
+	
+	<p><font fg="ffffaf">ソウル オブ フレイム：</font>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：40/0<br/>
+	材料：精霊の玉5個<br/>
+	持続時間：320秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、近接武器に限り武器の最大ダメージで攻撃できます。<br/></p>
+	
+	<p><font fg="ffffaf">アディショナル ファイアー：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：30/0<br/>
+	材料：精霊の玉1個<br/>
+	持続時間：960秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、重量ゲージが50%を超えてもHP/MPが回復します。<br/>
+	ただし、重量ゲージが赤くなると、効果が失われます。<br/></p>
+	
+	<p><font fg="ffffaf">インフェルノ：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：50/70<br/>
+	材料：精霊の玉5個<br/>
+	持続時間：128秒<br/>
+	対象：術者<br/>
+	効果：一定確率で相手の攻撃によるダメージが50%減少し、ロングソード武器の1～4倍のダメージで反撃します。<br/>
+	ロングソードを装備した時のみ、使用できます。<br/></p>
+	<p><img src="331" link="helpmgcf"/><br/><br/></p>
+	</dialog>
+</npcdialog>

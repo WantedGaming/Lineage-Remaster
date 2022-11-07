@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フリンダレン：</font></p>
+    <p><br/>あなたは魂と話ができる古代の種族なんですか。<br/></p>
+	<p>あなたを見ているだけで心が安らぎます。</p> 
+  </dialog>
+</npcdialog>

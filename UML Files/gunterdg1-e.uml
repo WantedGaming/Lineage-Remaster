@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンター</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		私は以前から<font fg="fff00">「ドルーガ家」</font>から竜たちの動きが怪しいという報告を受けていた。
+		最近アデン大陸で発生している異常現象が、それに関係があるという事実を確認するため、
+		一緒に隠遁生活を送っていた知人と<a link="secretss">「秘密結社」</a>を結成した。
+		<br/>
+		<br/>
+		調査中、<font fg="fff00">風竜 リンドビオル</font>の居場所がわかり、まだすべての力が回復していないということもわかった。
+		それなのに、我々だけで奴を片づけるには力不足だという。もしおまえが
+		<font fg="fff00">風竜 リンドビオル</font>の相手をするというなら、調査してわかった内容をすべて話してあげよう。
+		
+		<br/>
+		<br/>
+		
+		<a action="a">「グンターの助言」を聞く</a><br/>
+		 
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>よく来たな。ここ「話せる島」は、昔から<a link="gerengw2">ウィザードたちの修練場</a>として有名なところだ…。<br/><br/>だが最近は、話せる島の変化で多くの勇士たちが押し寄せている。それでも教えられるのは、もうわし1人しか残っていないんだ。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

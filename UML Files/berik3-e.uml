@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>ペット</title>
+	<npc>
+		<portrait></portrait>
+		<name>ベリック</name>
+		<job>ペット管理人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 あなたは…私に何も預けてないのでは？<br/>
+		<br/>
+		<br/>
+		<br/>
+		<a link="helpnpc">動物を手なずける方法を聞く</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

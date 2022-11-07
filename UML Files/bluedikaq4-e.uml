@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ブルディカ</name>
+		<job>ダークエルフ長老</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 これはこれは…久しぶりの客人だな。この村はみすぼらしい田舎村だが、他のダークエルフの村のように余所者を無為に扱ったりはしない村だ。<br/><br/>
+		 だが、一族の中には少々過激な若者もいるから気をつけた方がいい。
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

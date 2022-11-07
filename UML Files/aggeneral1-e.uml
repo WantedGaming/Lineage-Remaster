@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Ancient Giant General</name>
+  </npc>
+  <dialog>
+   <p> This place is swirling with resentment caused by Gran Kain's curse.</p>
+   <p> The earth will become polluted, life will wither away, and what you see will dry up.<br/></p>
+   <p><a link="aggeneral2">What is the Curse of Gran Kain?</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>パウ</name>
+    <job>[ペット管理人]</job>
+	<text>飼っている動物は最後まで責任持って守れよ。</text>
+  </npc>
+  <dialog>
+	<p><a action="depositnpc">動物を預ける</a></p>
+	<p><a action="withdrawnpc">動物を引き取る</a></p>
+	<p><a link="transfer">動物を譲渡する</a></p>
+	<p>まあでも、どうしようもないときは私に預けるようにしなさい。1匹あたり<var src="0"/>Adenaで預かるぞ。</p>
+	<p>もちろん私が預かるのはあなたが直接飼っている動物だけだぞ。魔法を掛けたどこぞのモンスターなんか預からないからな。</p>
+	<p><a link="helppet02">動物を手なずける方法を聞く</a></p>
+  </dialog>
+</npcdialog>

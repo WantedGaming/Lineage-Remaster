@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>イスマエル</name>
+		<job>[侍従長]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>現在、資金不足により城の機能が麻痺した状態です。どう対処するか指示してください。
+		<br/><br/>
+		<a link="ishmael1">イスマエルに指示を出す</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

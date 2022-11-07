@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extract 10 black magic stones from Marble Legacy.<br/></p>
+    <p>How many Marble Legacy will you extract black magic stones from? 1,000 Adena is required per piece, as there is a lot of work involved in extracting the materials.<br/><br/><br/></p>
+    <p><a action="g">1</a><br/></p>
+    <p><a action="h">10</a><br/></p>
+    <p><a action="i">50</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy5"/><br/></p>
+  </dialog>
+</npcdialog>

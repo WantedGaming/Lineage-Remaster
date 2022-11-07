@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ポルツ</name>
+  </npc>
+  <dialog>
+	<p> この美しいハイネを守るハイネ傭兵隊を見たことはありますか？</p>
+	<p> 辺りには怖いモンスターがたくさんいるけど、風になびく彼らのマントを見るととても頼もしいです。</p>
+  </dialog>
+</npcdialog>

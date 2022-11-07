@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>As it turns out, we could not find a substitute. Even if we did create a substitute for the magic catalyst, we found that we would also need to change the method of operation from the magic principle to use the newly created catalyst.</p>
+    <p>But we have found another way. You know about attribute stones, those magical catalysts that, when they converge, take on attributes and radically change their properties? Marble's legacy, Saiha's legacy, Eva's legacy, Faagrio's legacy. We have found that we can reverse the attributes from these attribute stones and separate the catalysts of the focused magic.</p>
+    <p>As a result of our experiments, we have succeeded in extracting the magical catalyst from each of the attribute stones! Also, as a result of our continued research, we have discovered that these attribute stones themselves can be separated from the higher demonic races!</p>
+    <p>Since then, our alchemists have been sent to each region at the request of the Ivory Tower to produce magic catalysts. Whenever you want to obtain "black bloodstains" from the demon tribe or extract magic catalysts from attribute stones, you can bring them to us.<br/><br/></p>
+    <p><a link="alchemy4">Extract the magic catalyst</a><br/></p>
+    <p><a link="alchemy9">Separate elemental stones</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy1"/><br/></p>
+  </dialog>
+</npcdialog>

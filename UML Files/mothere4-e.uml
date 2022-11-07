@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+  	<portrait>PO_002</portrait>
+    <name>森とエルフの母</name>
+  </npc>
+  <dialog>
+    <p>アインハザード様が初めて私たちエルフを創造した時、私たちは何も知らない子供でした。だからアインハザード様は、私たちをグランカインの勢力から保護するために、彼の<a link="mothere7">被造物たち</a>の中からいくつかを選び、彼らに力を与えたのです。</p>
+	<p>神は彼らに「エルフとエルフの故郷である、この森を守れ」とおっしゃりました。もう思い出すことすらきないほど遥か昔から、彼らは私たちを守ってくれました。そしてそれは、私たち自らの手で<a link="mothere8">武器と防具を作り</a>自らを守れるようになった今なお続いているのです。</p>
+  </dialog>
+</npcdialog>

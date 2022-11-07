@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ゼロ</name>
+	</npc>
+	
+	<dialog>
+		<p>げほっ、げほっ。もう昔のようなにはいかないな。<br/>
+		<br/>
+		元気かい？若いことは良いことだ。<br/>
+		<br/>
+		捜索のことかい？グンター様からの命で中断しているそうだ。<br/>
+		<br/>
+		うむ…<font fg="ffffaf">シルバーナイトタウン</font>で基礎訓練教官を訪ねてはどうだ？力になってくれるだろう。</p>
+	</dialog>
+	
+</npcdialog>

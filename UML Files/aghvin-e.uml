@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Arena Guide</name>
+  </npc>
+  <dialog>
+    <p> Are you ready to enter the duel arena?<br/></p>
+    <p><a action="teleport hidden-velley-arena-out">Leave Arena</a><br/></p>
+  </dialog>
+</npcdialog>

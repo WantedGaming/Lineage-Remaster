@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ウッドベック村の東側の出口から外に出て、4時の方角へまっすぐ行くとすぐに砂漠があります。この砂漠では<font fg="ffafff">砂の墓</font>と<font fg="ffafff">スコーピオン</font>、<font fg="ffafff">ジャイアント アント</font>、<font fg="ffafff">ジャイアント アント ソルジャー</font>が出ます。たまに<font fg="ffafff">バシリスク</font>に攻撃されることもあります。<br/>
+		 それ以外の<font fg="ffafff">ジャイアント アントクイーン</font>や<font fg="ffafff">サンドワーム</font>のような恐ろしい敵には特に気をつけてください。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

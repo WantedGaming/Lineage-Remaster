@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<StatInfoUI Toggle="true">
+	<Window Name="BonusStatusTooltip_Window" X="0" Y="0" BasePng = "13070;2;28" Moveable = "340" MouseEvent = "Dummy" KeyboardEvent="CloseStatInfoWindow">
+		<List Name="StatList" X="25" Y="4" Width="195" Height="335" Vertical="1">
+			<Control Name="StatDmg" Width="170" Height="16">
+				<Label Name="DmgBonus_Label" Width="116" Height="14" VAlign="middle" String="3857" FontColor="150,150,150"/>
+				<Label Name="DmgBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatHit" Width="170" Height="16">
+				<Label Name="HitBonus_Label" Width="116" Height="14" VAlign="middle" String="3858" FontColor="150,150,150"/>
+				<Label Name="HitBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatCritical" Width="170" Height="16">
+				<Label Name="Critical_Label" Width="116" Height="14" VAlign="middle" String="3859" FontColor="150,150,150"/>
+				<Label Name="Critical_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatCarry" Width="170" Height="16">
+				<Label Name="CarryBonus_Label" Width="116" Height="14" VAlign="middle" String="3860" FontColor="150,150,150"/>
+				<Label Name="CarryBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMissileDmg" Width="170" Height="16">
+				<Label Name="MissileDmg_Label" Width="116" Height="14" VAlign="middle" String="3861" FontColor="150,150,150"/>
+				<Label Name="MissileDmg_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMissileHit" Width="170" Height="16">
+				<Label Name="MissileHit_Label" Width="116" Height="14" VAlign="middle" String="3862" FontColor="150,150,150"/>
+				<Label Name="MissileHit_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMissileCri" Width="170" Height="16">
+				<Label Name="MissileCri_Label" Width="116" Height="14" VAlign="middle" String="3863" FontColor="150,150,150"/>
+				<Label Name="MissileCri_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatAC" Width="170" Height="16">
+				<Label Name="ACBonus_Label" Width="116" Height="14" VAlign="middle" String="3864" FontColor="150,150,150"/>
+				<Label Name="ACBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatER" Width="170" Height="16">
+				<Label Name="ERBonus_Label" Width="116" Height="14" VAlign="middle" String="3865" FontColor="150,150,150"/>
+				<Label Name="ERBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMagicDmg" Width="170" Height="16">
+				<Label Name="MagicDmg_Label" Width="116" Height="14" VAlign="middle" String="3866" FontColor="150,150,150"/>
+				<Label Name="MagicDmg_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMagicHit" Width="170" Height="16">
+				<Label Name="MagicHit_Label" Width="116" Height="14" VAlign="middle" String="3867" FontColor="150,150,150"/>
+				<Label Name="MagicHit_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMagicCri" Width="170" Height="16">
+				<Label Name="MagicCri_Label" Width="116" Height="14" VAlign="middle" String="3868" FontColor="150,150,150"/>
+				<Label Name="MagicCri_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMagicBonus" Width="170" Height="16">
+				<Label Name="MagicBonus_Label" Width="116" Height="14" VAlign="middle" String="3869" FontColor="150,150,150"/>
+				<Label Name="MagicBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMPReduce" Width="170" Height="16">
+				<Label Name="MPReduce_Label" Width="116" Height="14" VAlign="middle" String="3870" FontColor="150,150,150"/>
+				<Label Name="MPReduce_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMaxHP" Width="170" Height="16">
+				<Label Name="MaxHP_Label" Width="116" Height="14" VAlign="middle" String="3871" FontColor="150,150,150"/>
+				<Label Name="MaxHP_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatHPRecover" Width="170" Height="16">
+				<Label Name="HPRecover_Label" Width="116" Height="14" VAlign="middle" String="3872" FontColor="150,150,150"/>
+				<Label Name="HPRecover_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatHPPotion" Width="170" Height="16">
+				<Label Name="HPPotion_Label" Width="116" Height="14" VAlign="middle" String="3873" FontColor="150,150,150"/>
+				<Label Name="HPPotion_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatCarry" Width="170" Height="16">
+				<Label Name="CarryBonus_Label" Width="116" Height="14" VAlign="middle" String="3874" FontColor="150,150,150"/>
+				<Label Name="CarryBonus_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMaxMP" Width="170" Height="15">
+				<Label Name="MaxMP_Label" Width="116" Height="14" VAlign="middle" String="3875" FontColor="150,150,150"/>
+				<Label Name="MaxMP_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMPRecover" Width="170" Height="15">
+				<Label Name="MPRecover_Label" Width="116" Height="14" VAlign="middle" String="3876" FontColor="150,150,150"/>
+				<Label Name="MPRecover_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMpPotion" Width="170" Height="15">
+				<Label Name="MpPotion_Label" Width="116" Height="14" VAlign="middle" String="3877" FontColor="150,150,150"/>
+				<Label Name="MpPotion_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+			<Control Name="StatMR" Width="170" Height="15">
+				<Label Name="MR_Label" Width="116" Height="14" VAlign="middle" String="3878" FontColor="150,150,150"/>
+				<Label Name="MR_Value" X="117" Width="52" Height="14" VAlign="middle" HAlign="center" Caption="0" FontColor="150,150,150"/>
+			</Control>
+		</List>
+	</Window>
+</StatInfoUI>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィザード スタンリー</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Villages you can travel from here with their fees.</p>
+		<p>Which village do you want to travel to?</p>
+		<p><a action="teleport kent-gludin">Gludin Village:<var src="0"/>Adena</a></p>
+		<p><a action="teleport kent-giran">Giran Castle Town:<var src="1"/>Adena</a></p>
+		<p><a action="teleport kent-silver">シルバーナイトタウン：<var src="2"/>Adena</a></p>
+		<p><a action="teleport kent-woods">ウッドベック村：<var src="3"/>Adena</a></p>
+		<p><a action="teleport kent-willow">Firefield Village:<var src="4"/>Adena</a></p>
+		<p><a action="teleport kent-heine">Heine Castle Town:<var src="5"/>Adena</a></p>
+		<p><a action="teleport kent-werldern">Werldern Village:<var src="6"/>Adena</a></p>
+		<p><a action="teleport kent-oren">Oren Village:<var src="7"/>Adena</a></p>
+		<p><a action="teleport kent-aden">Aden:<var src="8"/>Adena</a></p>
+		<p><a action="teleport kent-lowful">Lawful Temple:<var src="9"/>Adena</a></p>
+		<p><a action="teleport kent-chaos">Chaotic Temple:<var src="10"/>Adena</a></p>
+		<p><a action="teleport kent-grape">ウィザードの研究室：<var src="11"/>Adena</a></p>
+		<p><a action="teleport kent-island">Talking Island:<var src="12"/>Adena</a></p>
+		<p><a action="teleport kent-scave">Cave of Silence:<var src="13"/>Adena</a></p>
+		<p><a action="teleport kent-diad">ディアド要塞：<var src="14"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの補佐官</name>
+  </npc>
+  <dialog>
+    <p>我が僕よ、ひざまずき、私の足に口付け、尊敬の意を表すのだ。</p>
+    <p>されば貴様のために褒美を与えよう。</p>
+    <p><a action="8">ひざまずき足に口付ける</a></p>
+  </dialog>
+</npcdialog>

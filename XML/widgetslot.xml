@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<WidgetSlot Name="WidgetSlot">        
+	<Window Name = "Slotwindow" X = "633" Y = "466" Activate = "1" BaseSurf = "3176;1" MostTop="1" KeyboardEvent = "KeyEvent" Transparent="false"><!--Window Should be Child[0]-->
+		<Control Name="Shortcuts" X="19" Y="27" Width="153" Height="78" Activate="1">
+			<Button Name = "SlotF5" X = "0" Y = "0" Width = "34" Height ="33"  MouseEvent="ClickItem" Activate="1">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF6" X = "35" Y = "0" Width = "33" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF7" X = "69" Y = "0" Width = "33" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF8" X = "103" Y = "0" Width = "33" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg"  X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF9" X = "0" Y = "34" Width = "34" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg"  X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF10" X = "35" Y = "34" Width = "33" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg"  X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF11" X = "69" Y = "34" Width = "33" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0"/>
+				<Image Name = "SelectImg"  X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+			<Button Name = "SlotF12" X = "103" Y = "34" Width = "33" Height ="33"  MouseEvent="ClickItem">
+				<Tooltip Name = "Desc_Tooltip" X="5" Y="10" FontColor="255,255,255" BackColor="0,0,0" Area="0" String="1"/>
+				<Image Name = "SelectImg" X="1" Y="1" Surf="2331;4"/>
+				<Control Name="Icon" X="2" Y="2" Width="32" Height="32">
+					<ItemIcon Name="EquipMark" X="0" Y="0" Width="32" Height="32" Icon="2701;0;1"/>
+					<ItemIcon Name="Item_Icon" X="0" Y="0" Width="32" Height="32" CountPosX="27" CountPosY="20" CountAlign="right" CountAlignUnitSize="5" CountFontColor="255,255,0" MaxCount="100000" Option="0"/>
+					<ItemIcon Name="EquipIcon" X="0" Y="0" Width="32" Height="32" Icon="2700;0;1"/>
+				</Control>
+				<Effect Name = "Icon_Effect" X = "-10" Y = "-11" NewFire = "1" Effect = "102" Delay = "1000" Loop = "1" Activate = "0"/>
+			</Button>
+		</Control>
+		<Control Name="PageButton" X="14" Y="7">
+			<RadioButton Name="Page1" X="15" Y="5" BaseSurf="3193;1" OverSurf="3194;1" PushSurf="3194;1" CheckSurf="3194;1" MouseEvent="PageClick">
+				<Tooltip Name="Desc_Tooltip" X="10" Y="-15" FontColor="255,255,255" BackColor="0,0,0" Area="1" String="1633" Time="800"/>
+			</RadioButton>
+			<RadioButton Name="Page2" X="38" Y="5" BaseSurf="3196;1" OverSurf="3197;1" PushSurf="3197;1" CheckSurf="3197;1" MouseEvent="PageClick">
+				<Tooltip Name="Desc_Tooltip" X="10" Y="-15" FontColor="255,255,255" BackColor="0,0,0" Area="1" String="1634" Time="800"/>
+			</RadioButton>
+			<RadioButton Name="Page3" X="61" Y="5" BaseSurf="3199;1" OverSurf="3200;1" PushSurf="3200;1" CheckSurf="3200;1" MouseEvent="PageClick">
+				<Tooltip Name="Desc_Tooltip" X="10" Y="-15" FontColor="255,255,255" BackColor="0,0,0" Area="1" String="1635" Time="800"/>
+			</RadioButton>
+			<RadioButton Name="Page4" X="84" Y="5" BasePng="4100;1" OverPng="4101;1" PushPng="4101;1" CheckPng="4101;1" MouseEvent="PageClick">
+				<Tooltip Name="Desc_Tooltip" X="10" Y="-15" FontColor="255,255,255" BackColor="0,0,0" Area="1" Desc="24427" Time="800"/>
+			</RadioButton>
+		</Control>
+		<Button Name="ButtonMode" X="2" Y="33" BasePng="3350;1" PushPng="3351;1" MouseEvent="ModeChange"/>
+		<Button Name="ButtonLock" X="2" Y="59" BaseSurf="3191;1" PushSurf="3192;1" MouseEvent="LockButton"/>
+	</Window>
+</WidgetSlot>

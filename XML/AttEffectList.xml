@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AttachedEffectList>
+	<EffectList>
+		<element id="16459" sprite="16459" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="16463" sprite="16463" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="17625" sprite="17625" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="17626" sprite="17626" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="17627" sprite="17627" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="19198" sprite="19198" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="19200" sprite="19200" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="19202" sprite="19202" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="19204" sprite="19204" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+		<element id="19208" sprite="19208" actionCreate="3" ActionRun="0" ActionDisappear="11"/>
+	</EffectList>
+	<FollowingEffect>
+		<element id="13135" sprite="13135" actionCreate="4" ActionRun="0" ActionDisappear="11" count="1"/>
+		<element id="12728" sprite="12728" actionCreate="4" ActionRun="0" ActionDisappear="11"/>
+		<element id="12467" sprite="12467" actionCreate="4" ActionRun="0" ActionDisappear="11"/>
+		<element id="12750" sprite="12750" actionCreate="3" ActionRun="3" ActionDisappear="11"/>
+		<element id="18562" sprite="18562" actionCreate="4" ActionRun="0" ActionDisappear="11"/>
+		<element id="20460" sprite="20460" actionCreate="4" ActionRun="0" ActionDisappear="11" count="1"/>
+	</FollowingEffect>
+	<EffectHost>
+		<host sprite="16447" appearAction="true" element="16463"/>
+		<host sprite="16493" appearAction="true" element="16463"/>
+		<host sprite="16386" appearAction="true" element="16459"/>
+		<host sprite="16434" appearAction="true" element="16459"/>
+		<host sprite="16403" appearAction="true" element="16459"/>
+		<host sprite="16468" appearAction="true" element="16459"/>
+		<host sprite="16381" appearAction="true" element="16459"/>
+		<host sprite="16428" appearAction="true" element="16459"/>
+		<host sprite="16418" appearAction="true" element="16459"/>
+		<host sprite="16304" appearAction="true" element="16463"/>
+		<host sprite="16499" appearAction="true" element="16459"/>
+		<host sprite="16398" appearAction="true" element="16463"/>
+		<host sprite="16541" appearAction="true" element="16463"/>
+		<host sprite="16541" appearAction="true" element="16463"/>
+		<host sprite="16479" appearAction="true" element="16463"/>
+		<host sprite="16483" appearAction="true" element="16463"/>
+		<host sprite="16541" appearAction="true" element="16463"/>
+		<host sprite="16541" appearAction="true" element="16463"/>
+		<host sprite="16440" appearAction="true" element="16463"/>
+		<host sprite="16324" appearAction="true" element="16463"/>
+		<host sprite="17661" appearAction="true" element="17625"/>
+		<host sprite="17662" appearAction="true" element="17625"/>
+		<host sprite="17663" appearAction="true" element="17625"/>
+		<host sprite="17664" appearAction="true" element="17625"/>
+		<host sprite="17665" appearAction="true" element="17625"/>
+		<host sprite="17666" appearAction="true" element="17625"/>
+		<host sprite="17667" appearAction="true" element="17626"/>
+		<host sprite="17668" appearAction="true" element="17626"/>
+		<host sprite="17669" appearAction="true" element="17626"/>
+		<host sprite="17670" appearAction="true" element="17626"/>
+		<host sprite="17671" appearAction="true" element="17626"/>
+		<host sprite="17672" appearAction="true" element="17626"/>
+		<host sprite="17673" appearAction="true" element="17627"/>
+		<host sprite="17674" appearAction="true" element="17627"/>
+		<host sprite="17675" appearAction="true" element="17627"/>
+		<host sprite="17676" appearAction="true" element="17627"/>
+		<host sprite="17677" appearAction="true" element="17627"/>
+		<host sprite="17678" appearAction="true" element="17627"/>
+		<host sprite="17679" appearAction="true" element="17627"/>
+		<host sprite="17680" appearAction="true" element="17627"/>
+	</EffectHost>
+</AttachedEffectList>

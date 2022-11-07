@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	  <npc>
+    <name><var src="name"/></name>
+  </npc>
+  <dialog>
+    <p>You will need <font fg="ffffaf">5mil adena</font> to build an underground house.<br/><br/></p>
+    <p>However, Houses that <font fg="ffafff">are on auction</font> can not build underground houses.<br/></p>
+    <p>Once created, underground house can be used forever until it's sold.<br/><br/><br/><br/></p>
+    <p><a action="upgrade">Build Underground House</a><br/></p>
+  </dialog>
+</npcdialog>

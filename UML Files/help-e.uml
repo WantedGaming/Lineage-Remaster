@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ヘルプ</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">リネージュ ヘルプ</font></p>
+	<p><font fg="ffffaf">ゲーム進行方法</font><br/>
+	<a link="helpgen">1. 一般</a><br/>
+	<a link="helpui">2. インターフェイス</a><br/>
+	<a link="helpcom">3. コミュニティ</a><br/><br/></p>
+	<p><font fg="ffffaf">キャラクター</font><br/>
+	<a link="helpsta">1. ステータス</a><br/>
+	<a link="helpmag">2. 魔法と技術</a><br/>
+	<a link="helpmre">3. 魔法防御</a><br/>
+	<a link="helpsum">4. 召喚</a><br/>
+	<a link="helppet">5. ペット</a><br/>
+	<a link="helplvup">6. クラス別レベルアップ</a><br/><br/></p>
+	<p><font fg="ffffaf">アイテム</font><br/>
+	<a link="helpitm">1. アイテム 一般</a><br/>
+	<a link="helpenc">2. エンチャント</a><br/>
+	<a link="helptra">3. トレードと販売</a><br/><br/></p>
+	<p><font fg="ffffaf">ゲーム システム</font><br/>
+	<a link="helpbank">1. 倉庫</a><br/>
+	<a link="helppar">2. パーティー</a><br/>
+	<a link="helpple">3. 血盟</a><br/>
+	<a link="helpdon">4. 同盟</a><br/>
+	<a link="helpagi">5. アジト</a><br/>
+	<a link="helpsie">6. 攻城戦</a><br/>
+	<a link="helplnmaa">7. 結婚</a><br/>
+	<a link="helpkar">8. 友好度</a><br/>
+	<a link="helpsol">9. 傭兵</a><br/>
+	<a link="helpshou">10. 生存の叫び</a><br/><br/></p>
+	<p><font fg="ffffaf">その他</font><br/>
+	<a link="helplng">1. 言語</a><br/><br/></p>
+  </dialog>
+</npcdialog>

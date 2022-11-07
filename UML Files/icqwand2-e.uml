@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>象牙の塔の諜報員</name>
+		<job>[Conversation]</job>
+		<text></text>
+	</npc>
+  <dialog>
+    <p><br/>それは、あなたが頼んでブラッド様が作ってくださった、非常に強力な魔法道具です。<br/><br/></p>
+	<p>しかし、その魔力によりここでしか使えないので、よく覚えておいてください。<br/><br/></p>
+	<p>それから、量は十分にあるので、すべて使ってしまったらもう一度来てください。<br/><br/></p>
+	<p>さあ、早く。今こうして油を売っている間に、スビンはひどい苦痛を受けているかもしれませんから…。<br/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>防具商店</title>
+  <npc>
+    <name>バージル</name>
+    <job>[防具商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+    </panel>
+    <p>お客さん、悪いけどうちが扱ってるのは防具だけなんだ。武器は北西側にいる「ワーナー」の店に行くといい。</p>
+  <p><a action="mayer3">Ask about recent prices</a></p>
+	</dialog>
+</npcdialog>

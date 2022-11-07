@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdenTelData>
+	<Set id="1">
+		<World>
+			<Map>4</Map>
+			<!--alias맵일 경우 대표맵 1개만 설정. ex) 1~ 15까지를 1번맵 복사 했다면 1만 설정.-->
+			<Map>0</Map>
+			<Map>304</Map>
+			<Map>1001</Map>
+			<Map>1000</Map>
+			<Map>622</Map>
+		</World>
+		<Images>
+			<Background png="16322"/>
+		</Images>
+		<TelInfo>
+			<!-- Set id from 0-15 for villages, id from 16-24 for dungeons, id from 25-37 for fields. -->
+			<!--Name이 zone3에 설정한 영역과 동일해야 현위치가 제대로 표기됩니다.-->
+			<Data id="0" Type="Town" Name="Talking Island Village" LevelMin="0" LevelMax="0" Action="T_talk island" BtnX="132" BtnY="76"/>
+			<Data id="1" Type="Town" Name="Gludio Town" LevelMin="0" LevelMax="0" Action="T_gludio" BtnX="259" BtnY="123"/>
+			<Data id="2" Type="Town" Name="Fire Field Village" LevelMin="0" LevelMax="0" Action="T_orc" BtnX="217" BtnY="218"/>
+			<Data id="3" Type="Town" Name="Woodbeck Village" LevelMin="0" LevelMax="0" Action="T_woodbec" BtnX="336" BtnY="88"/>
+			<Data id="4" Type="Town" Name="Silver Knight Town" LevelMin="0" LevelMax="0" Action="T_silver knight" BtnX="461" BtnY="132"/>
+			<Data id="5" Type="Town" Name="Kent Castle Town" LevelMin="0" LevelMax="0" Action="T_kent" BtnX="340" BtnY="218"/>
+			<Data id="6" Type="Town" Name="Elven Village" LevelMin="0" LevelMax="0" Action="T_elven" BtnX="256" BtnY="284"/>
+			<Data id="7" Type="Town" Name="Giran Castle Town" LevelMin="0" LevelMax="0" Action="T_giran" BtnX="415" BtnY="266"/>
+			<Data id="8" Type="Town" Name="Heine Castle Town" LevelMin="0" LevelMax="0" Action="T_heine" BtnX="590" BtnY="228"/>
+			<Data id="9" Type="Town" Name="Weldren Village" LevelMin="0" LevelMax="0" Action="T_werldern" BtnX="435" BtnY="354"/>
+			<Data id="10" Type="Town" Name="Oren Village" LevelMin="0" LevelMax="0" Action="T_oren" BtnX="448" BtnY="441"/>
+			<Data id="11" Type="Town" Name="Aden" LevelMin="0" LevelMax="0" Action="T_aden" BtnX="593" BtnY="291"/>
+			<Data id="12" Type="Town" Name="Rune Castle Village"  LevelMin="0" LevelMax="0" Action="T_luun" BtnX="527" BtnY="455"/>
+			<!--<Data id="13" Type="Town" Name="베히모스" 			LevelMin="0" LevelMax="0" Action="T_behemoth" BtnX="145" BtnY="57"/>-->
+			<!--<Data id="14" Type="Town" Name="실베리아" 			LevelMin="0" LevelMax="0" Action="T_silveria" BtnX="400" BtnY="15"/>-->
+			<Data id="15" Type="Town" Name="Floating Island" LevelMin="0" LevelMax="0" Action="T_pcbang" BtnX="130" BtnY="345"/>
+			<Data id="39" Type="Town" Name="Wizards Lab" LevelMin="0" LevelMax="0" Action="T_gludio_lab" BtnX="310" BtnY="148"/>
+			<Data id="16" Type="Dungeon" Name="Talking Island Dungeon" LevelMin="61" LevelMax="64" Action="D_talk island" BtnX="108" BtnY="50"/>
+			<Data id="17" Type="Dungeon" Name="Gludio Dungeon" LevelMin="68" LevelMax="88" Action="D_gludio" BtnX="293" BtnY="126"/>
+			<Data id="18" Type="Dungeon" Name="Elf Dungeon" LevelMin="65" LevelMax="85" Action="D_elven" BtnX="224" BtnY="275"/>
+			<Data id="40" Type="Dungeon" Name="Atuba Orc Hideout" LevelMin="86" LevelMax="92" Action="D_atuba" BtnX="197" BtnY="259"/>
+			<Data id="19" Type="Dungeon" Name="Dark Dragon Dungeon" LevelMin="86" LevelMax="95" Action="chaoticD" BtnX="284" BtnY="226"/>
+			<!--<Data id="19" Type="Dungeon" Name="수련 던전" 		LevelMin="71" LevelMax="88" Action="D_training" BtnX="426" BtnY="177"/>-->
+			<!--Data id="20" Type="Dungeon" Name="욕망의 동굴" 	LevelMin="80" LevelMax="86" Action="D_barlog" BtnX="251" BtnY="245"/-->
+			<Data id="21" Type="Dungeon" Name="Dragon Valley Dungeon" LevelMin="80" LevelMax="92" Action="D_dragon valley" BtnX="357" BtnY="341"/>
+			<Data id="22" Type="Dungeon" Name="Eva Kingdom Waterway" LevelMin="80" LevelMax="92" Action="D_eva kingdom" BtnX="641" BtnY="191"/>
+			<Data id="23" Type="Dungeon" Name="Ivory Tower" LevelMin="80" LevelMax="99" Action="D_ivory tower" BtnX="420" BtnY="450"/>
+			<!--Data id="24" Type="Dungeon" Name="그림자 신전" 	LevelMin="80" LevelMax="86" Action="D_yahee" BtnX="310" BtnY="15"/-->
+			<Data id="25" Type="Field" Name="Spider Forest" LevelMin="50" LevelMax="54" Action="F_shelob" BtnX="174" BtnY="54"/>
+			<Data id="26" Type="Field" Name="Orc Settlement" LevelMin="68" LevelMax="70" Action="F_orc forest" BtnX="174" BtnY="232"/>
+			<Data id="27" Type="Field" Name="Ruins of Death" LevelMin="65" LevelMax="67" Action="F_ruin of death" BtnX="273" BtnY="189"/>
+			<Data id="28" Type="Field" Name="Desert" LevelMin="83" LevelMax="85" Action="F_desert" BtnX="379" BtnY="65"/>
+			<Data id="29" Type="Field" Name="Dragon Valley" LevelMin="86" LevelMax="88" Action="F_dragon valley" BtnX="343" BtnY="296"/>
+			<Data id="30" Type="Field" Name="Dark Dragon Scar" LevelMin="83" LevelMax="85" Action="F_halpas" BtnX="431" BtnY="215"/>
+			<Data id="31" Type="Field" Name="Valakas Den" LevelMin="86" LevelMax="88" Action="F_valakas" BtnX="380" BtnY="370"/>
+			<Data id="32" Type="Field" Name="Jungle" LevelMin="74" LevelMax="76" Action="F_jungle" BtnX="510" BtnY="328"/>
+			<Data id="33" Type="Field" Name="Heine Field" LevelMin="77" LevelMax="79" Action="F_heine" BtnX="533" BtnY="191"/>
+			<Data id="34" Type="Field" Name="Mirror Forest" LevelMin="83" LevelMax="85" Action="F_mirror" BtnX="614" BtnY="252"/>
+			<Data id="35" Type="Field" Name="Elmore Battlefield" LevelMin="83" LevelMax="85" Action="F_elmor" BtnX="497" BtnY="405"/>
+			<Data id="36" Type="Field" Name="Lindvior Den" LevelMin="89" LevelMax="92" Action="F_lindvior" BtnX="608" BtnY="414"/>
+			<Data id="37" Type="Field" Name="Cursed Mines" LevelMin="90" LevelMax="99" Action="F_luun" BtnX="566" BtnY="438"/>
+			<Data id="38" Type="Field" Name="Oren Snow Mountain" LevelMin="83" LevelMax="85" Action="F_orenwall" BtnX="489" BtnY="462"/>
+		</TelInfo>
+	</Set>
+	<Set id="2">
+		<World>
+			<Map>7783</Map>
+			<!--Claudia-->
+		</World>
+		<Images>
+			<Background png="12354"/>
+		</Images>
+		<TelInfo>
+			<!--마을은 id 0번부터 15번까지, 던전은 id 16번 부터 24번까지, 필드는 25번부터 37번까지 설정합니다. -->
+			<Data id="0" Type="Town" Name="Talking Island Village" LevelMin="0" LevelMax="0" Action="Tel_talking" BtnX="93" BtnY="258"/>
+			<Data id="16" Type="Dungeon" Name="Spider Cave" LevelMin="15" LevelMax="20" Action="Tel_spidercave" BtnX="263" BtnY="97"/>
+			<Data id="17" Type="Dungeon" Name="Underground World" LevelMin="35" LevelMax="40" Action="Tel_underworld" BtnX="274" BtnY="258"/>
+			<Data id="18" Type="Dungeon" Name="Dead Sanctuary" LevelMin="40" LevelMax="45" Action="Tel_deathcastle" BtnX="84" BtnY="117"/>
+			<Data id="25" Type="Field" Name="Upper Waterfront" LevelMin="10" LevelMax="15" Action="Tel_watera" BtnX="192" BtnY="110"/>
+			<Data id="26" Type="Field" Name="Bottom Waterfront" LevelMin="20" LevelMax="25" Action="Tel_waterb" BtnX="285" BtnY="50"/>
+			<Data id="27" Type="Field" Name="Grassland" LevelMin="25" LevelMax="35" Action="Tel_field" BtnX="206" BtnY="200"/>
+			<Data id="28" Type="Field" Name="Orc Colony" LevelMin="37" LevelMax="42" Action="Tel_orcvil" BtnX="100" BtnY="178"/>
+			<Data id="29" Type="Field" Name="Swamp" LevelMin="45" LevelMax="55" Action="Tel_swamp" BtnX="356" BtnY="177"/>
+		</TelInfo>
+	</Set>
+</AdenTelData>
+	<!--Setup Guide-->
+	<!--1. map settings : Map setting where the teleport UI will be displayed. In case of alias map, set only one representative map. ex) If 1 to 15 are copied from map 1, only 1 is set. 2. BackgroundImg : Only background image png is supported. 3. TelInfo settings Set ids 0 to 15 for villages, ids 16 to 24 for dungeons, and fields 25 to 37 for fields.	Even if the number of villages to be set does not reach 15, the dungeon must start at number 16. If the index is insufficient, AdenTelUI.xml must be modified. You must increase the number of controls as needed........	The current location must be displayed properly when the Name is the same as the zone name set in zone3. (The name that appears in the lower left corner of the game screen must be set here.)	In Action, the same name as set in the server script should be entered. (Server file EnterMap.xml) BtnX, BtnY are coordinates to be displayed on the UI. -->

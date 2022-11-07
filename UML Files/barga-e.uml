@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>勇猛のメダル交換</title>
+	<npc>
+		<portrait></portrait>
+		<name>バルーガ</name>
+		<job>勇猛のメダル交換人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>いらっしゃいませ。<br/><br/>
+		 勇猛のメダルをお持ちでいらっしゃいますか？<br/><br/>
+		 良い商品が入ってきたところだったので、ちょうど良かったです。<br/><br/>
+		 ゆっくりご覧ください。<br/><br/>
+		<br/>
+		</p>
+
+		<panel type="Panel_Shop_Bt_Buy">
+				<button action="buy"/>
+			</panel>
+	</dialog>
+</npcdialog>

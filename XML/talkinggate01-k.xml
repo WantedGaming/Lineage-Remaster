@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_003</image>
+    <name>문디기</name>
+    <job>[ 문지기 ]</job>
+    <text>누구시오</text>
+  </npc>
+  <dialog>
+    <p>마을을 위협하는 검은 기사단으로부터 마을을 지키는 것이 저의 임무.</p>
+    <p>말하는 섬 마을로 출입하겠습니까?</p>
+    <p>마을 중앙 광장으로 안내하겠습니다.</p>
+    <p action="a">출입한다.</p>
+  </dialog>
+</npcdialog>

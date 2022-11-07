@@ -1,0 +1,29 @@
+750.<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>リウム</name>
+		<job>[Event Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+	<p><br/>
+		毎年首都アデンで一カ月間開かれる名誉の戦場は見ごたえがあって有名だろ<br/>
+		俺らは精鋭部隊同士が戦うときに落とす	証を集めて売ってるんだよ。言っておくが、これは合法だからな。<br/>
+		数に限りがあるから高値で売れるんだが、何にせよ戦場で集めにゃならんから危険な仕事でな。<br/>
+		よし、じゃあ誰かに拾われる前にさっさと行こうか！<br/>
+		<br/>
+		<br/>
+		<font fg="ffffaf">神秘の狩り場への入場方法</font>
+		<font fg="faffff">次の条件を満たしていれば入場可能</font>
+		<br/>
+		<font fg="faffff">1.</font><font fg="afffff">名誉の戦場入場許可証を使用して、該当バフ状態を維持</font><br/>
+		</p>
+		<panel type="Panel_Teleport_TicketandHuntingGr_BM_Event3">
+			<button action="a"/>
+			<button action="b"/>
+		</panel>
+	</dialog>
+</npcdialog>

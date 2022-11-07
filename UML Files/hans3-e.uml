@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ハンス</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		え？あんたは動物を預けたことないけど？
+		<br/><br/>
+		 <a link="helpnpc">動物を手なずける方法を聞く</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

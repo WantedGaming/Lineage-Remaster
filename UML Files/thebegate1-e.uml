@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>テーベ オシリス祭壇のキーパー</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ここはオシリス祭壇と繋がっています。</p>
+		<p>オシリス祭壇はテーベ アヌビスとテーベ ホルスが守っています。</p>
+		<p>また、祭壇には一度に20人までしか入場できません。</p>
+		<p><font fg="ffffaf">オシリス祭壇の鍵</font>を持っていれば、オシリス祭壇に移動することができます。</p>
+		<p><a action="e">オシリス祭壇に移動する</a></p>
+	</dialog>
+
+</npcdialog>

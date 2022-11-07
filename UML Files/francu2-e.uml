@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>…何？お前は一体…？なぜそのことを知っているんだ？<br/>
+		</p><p>いいか…？誰にでも触れてほしくない心の傷ってものがあるんだ。逆の立場で考えてみろ。さほど良い気分ではあるまい？<br/>
+		</p><p>どうやって知ったかわからないが、その話はもうよそう。俺はもう忘れたいんだ…<br/><br/>
+		</p><p><a link="francu3">カミーラがあなたを探しています</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

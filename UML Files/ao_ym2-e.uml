@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+    <p>すみません、ここからオーレン村に行くにはどう行けばいいですか？</p>
+    <p>方向音痴なもんで、どこに行けばいいかわかりません…</p>
+    <p>困ったな…早く家に帰りたいのに…<br/><br/><br/></p>
+    <p><a action="start">案内してあげますから一緒に行きましょう</a></p>
+  </dialog>
+</npcdialog>

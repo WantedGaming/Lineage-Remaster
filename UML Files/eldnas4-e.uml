@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エルドナーシュ</name>
+  </npc>
+  <dialog>
+	<p>
+今は火竜の安息の地にいる勇士が多すぎる。
+<br/>
+しばらく経ってからまた来てもらえるかのう？
+<br/>
+これじゃあ火竜の気よりも勇士の熱気で熱くなってしまうわい。
+<br/>
+勇士の熱気でヴァラカスもまいってしまうかもしれんな。
+</p>
+  </dialog>
+</npcdialog>

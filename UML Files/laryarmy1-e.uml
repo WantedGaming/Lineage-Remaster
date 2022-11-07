@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>天からの声</name>
+  </npc>
+  <dialog>
+    <p>我々の使命はレリー様のために命を捧げて戦うこと。</p>
+    <p>我々の使命はレリー様のために命を捧げて戦うこと。</p>
+    <p>我々の使命はレリー様のために命を捧げて戦うこと。</p>
+    <p>我々の使命はレリー様のために命を捧げて戦うこと。</p>
+  </dialog>
+</npcdialog>

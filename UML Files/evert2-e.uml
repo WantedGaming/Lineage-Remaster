@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エバート</name>
+		<job>[布地商人]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>警備！警備！</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ウィザード リード</name>
+    <job>[Teleporter]</job>
+  </npc>
+  <dialog>
+	<p>しかし先日、何者かの侵入により迷路の結界が解けてしまった。<br/></p>
+	<p>噂によると、<font fg="ffffaf">ヴァラカスの結界</font>が発見されたそうだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p>結界で何が起きているか調べてくれ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p>それと、戻ってくるときに必ず<font fg="ffaaff">ヴァラカスの精神状態</font>を調査してくるんだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a action="control">私をそこに送ってください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

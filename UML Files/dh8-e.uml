@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>ディエツ</name>
+		<job>[古代遺物専門家]</job>
+  </npc>
+  <dialog>
+  <p>
+ 完成したぞ、完成だ！やはり私の実力はまだ鈍ってはいなかったぞ。<br/>
+ さあ、これがまさに復元された古代のアミュレットだ。<br/><br/>
+<a link="dh11">ありがとうございました</a>
+ </p>
+  </dialog>
+</npcdialog>

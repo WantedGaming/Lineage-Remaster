@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <icon>dialog</icon>
+    <title>Conversation</title>
+    <name>次元の扉</name>
+  </npc>
+  <dialog>
+    <p> 絵に近づくと、耳を刺すような超音波音で頭が痛くなってきた。<br/>
+		<br/>
+     バックの中にある通行証が規則的に光を発し始めたが、段々とその間隔が短くなっている。<br/>
+		 <br/>
+		 早くこの場を離れなければ、耐え難いことが起きるような気がする。</p>
+  </dialog>
+</npcdialog>

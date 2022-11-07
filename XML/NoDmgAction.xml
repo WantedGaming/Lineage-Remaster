@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--주의!! 이 파일은 유저가 변조하면 피격 액션 없이 맞으면서 이동이 가능하게 됩니다. 파일을 적용할 때는 꼭 빌드에 포함되어야 합니다. 또는 코드에서 설정해주세요.-->
+<NoDamgeAction>
+	<NoDamageEffect>
+		<!-- 피격 이펙트, 액션 모두 없음 eNotDamageAction-->
+		<Monster Sprite="7548" Name="Dragon Portal(パプリオン)"/>
+		<Monster Sprite="7585" Name="Dragon Portal(ヴァラカス)"/>
+		<Monster Sprite="7554" Name="Dragon Portal(アンタラス)"/>
+		<Monster Sprite="7552" Name="Dragon Portal(リンドビオル)"/>
+		<Monster Sprite="11999" Name="Siege Catapult"/>
+		<Monster Sprite="12001" Name="Siege Catapult"/>
+		<Monster Sprite="12159" Name="Siege Catapult"/>
+		<Monster Sprite="12161" Name="Siege Catapult"/>
+		<Monster Sprite="12219" Name="Depologue"/>
+		<Monster Sprite="12220" Name="Gillian"/>
+		<Monster Sprite="12221" Name="Elephant"/>
+		<Monster Sprite="12222" Name="Isilrote"/>
+		<Monster Sprite="12223" Name="Christo"/>
+		<Monster Sprite="12224" Name="Artone"/>
+		<Monster Sprite="20331" Name="Aurakia"/>
+	</NoDamageEffect>
+	<DamageEffect>
+		<!--설정한 피격 이펙트 출력, 피격 액션 없음 eLevelUpPolymorph, eMonsterDragon, eShelob -->
+		<Monster Sprite="7989" Effect="8001" Name="Weathered Golem"/>
+		<Monster Sprite="7992" Effect="8002" Name="Weathered Golem"/>
+		<Monster Sprite="7995" Effect="8003" Name="Weathered Golem"/>
+		<Monster Sprite="7998" Effect="8004" Name="Weathered Golem"/>
+		<Monster Sprite="8087" Effect="8132" Name="Cloud Spirit"/>
+		<Monster Sprite="8164" Effect="8234" Name="ID 船"/>
+		<Monster Sprite="8165" Effect="8234" Name="ID 船"/>
+		<Monster Sprite="8166" Effect="8234" Name="ID 船"/>
+		<Monster Sprite="8260" Effect="8234" Name="ID 船"/>
+		<Monster Sprite="8263" Effect="8234" Name="ID 船"/>
+		<Monster Sprite="8557" Effect="1248" Name="君主(男)"/>
+		<Monster Sprite="8558" Effect="1248" Name="君主(女)"/>
+		<Monster Sprite="8559" Effect="1248" Name="ナイト(男)"/>
+		<Monster Sprite="8560" Effect="1248" Name="ナイト(女)"/>
+		<Monster Sprite="8561" Effect="1248" Name="エルフ(男)"/>
+		<Monster Sprite="8562" Effect="1248" Name="エルフ(女)"/>
+		<Monster Sprite="8563" Effect="1248" Name="ウィザード(男)"/>
+		<Monster Sprite="8564" Effect="1248" Name="ウィザード(女)"/>
+		<Monster Sprite="8565" Effect="1248" Name="ダークエルフ(男)"/>
+		<Monster Sprite="8566" Effect="1248" Name="ダークエルフ(女)"/>
+		<Monster Sprite="8567" Effect="1248" Name="ドラゴンナイト(男)"/>
+		<Monster Sprite="8568" Effect="1248" Name="ドラゴンナイト(女)"/>
+		<Monster Sprite="8569" Effect="1248" Name="イリュージョニスト(男)"/>
+		<Monster Sprite="8570" Effect="1248" Name="イリュージョニスト(女)"/>
+		<Monster Sprite="10632" Effect="10770" Name="アルフィア"/>
+		<Monster Sprite="13355" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13356" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13357" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13358" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13359" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13360" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13361" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="13362" Effect="1248" Name="サンタ ディフェンス モンスター"/>
+		<Monster Sprite="19014" Effect="1248" Name="インスタンスダンジョン誘導うさぎ"/>
+	</DamageEffect>
+	<DamageEffectNearAttacker>
+		<!--설정한 피격 이펙트 출력 (피격 이펙트 출력 위치가 공격자 근처), 피격액션 없음 eDragon-->
+		<Monster Sprite="13533" Effect="1248" Name="リンドビオル(過去)"/>
+		<Monster Sprite="3387" Effect="1248" Name="グリムリーパー(過去)"/>
+		<Monster Sprite="10683" Effect="1248" Name="パプリオン(過去)"/>
+		<Monster Sprite="1245" Effect="1248" Name="アンタラス(過去)"/>
+		<Monster Sprite="1590" Effect="1248" Name="パプリオン(過去)"/>
+		<Monster Sprite="2001" Effect="1248" Name="ヴァラカス(過去)"/>
+		<Monster Sprite="5620" Effect="1248" Name="ギルタス(過去)"/>
+		<Monster Sprite="7234" Effect="1248" Name="ゼブ レクイ(男)"/>
+		<Monster Sprite="7236" Effect="1248" Name="ゼブ レクイ(女)"/>
+		<Monster Sprite="7539" Effect="1248" Name="アンタラス"/>
+		<Monster Sprite="7557" Effect="1248" Name="アンタラス"/>
+		<Monster Sprite="7558" Effect="1248" Name="アンタラス"/>
+		<Monster Sprite="7864" Effect="1248" Name="パプリオン"/>
+		<Monster Sprite="7869" Effect="1248" Name="パプリオン"/>
+		<Monster Sprite="7870" Effect="1248" Name="パプリオン"/>
+		<Monster Sprite="8036" Effect="1248" Name="リンドビオル(地上)"/>
+		<Monster Sprite="8047" Effect="1248" Name="リンドビオル(空中 10時方向)"/>
+		<Monster Sprite="8054" Effect="1248" Name="リンドビオル(地上)"/>
+		<Monster Sprite="8055" Effect="1248" Name="リンドビオル(地上)"/>
+		<Monster Sprite="8056" Effect="1248" Name="リンドビオル(空中 12時方向)"/>
+		<Monster Sprite="8057" Effect="1248" Name="リンドビオル(空中 2時方向)"/>
+		<Monster Sprite="8215" Effect="1248" Name="ヴァラカス"/>
+		<Monster Sprite="15492" Effect="1248" Name="ヴァラカス"/>
+		<Monster Sprite="8229" Effect="1248" Name="大王イカ(足)"/>
+		<Monster Sprite="8231" Effect="1248" Name="大王イカ(足)"/>
+		<Monster Sprite="8239" Effect="1248" Name="大王イカ(本体)"/>
+		<Monster Sprite="10071" Effect="1248" Name="サンドワーム"/>
+		<Monster Sprite="10899" Effect="1248" Name="エルシャベ"/>
+		<Monster Sprite="10947" Effect="1248" Name="トルネード"/>
+		<Monster Sprite="11490" Effect="1248" Name="ギルタス"/>
+		<Monster Sprite="13692" Effect="1248" Name="アヌビス(インターサーバー)"/>
+		<Monster Sprite="13690" Effect="1248" Name="オシリス(インターサーバー)"/>
+		<Monster Sprite="13747" Effect="1248" Name="ホルス(インターサーバー)"/>
+		<Monster Sprite="13424" Effect="8002" Name="エンシェント ガーディアン(インターサーバー)"/>
+		<Monster Sprite="15396" Effect="1248" Name="ハイブ"/>
+		<Monster Sprite="17003" Effect="11128" Name="ディストーション ゼニス クイーン(インターサーバー)"/>
+		<Monster Sprite="17004" Effect="11128" Name="ミストラスト シアー(インターサーバー)"/>
+		<Monster Sprite="17005" Effect="11128" Name="フィア バンパイア(インターサーバー)"/>
+		<Monster Sprite="17196" Effect="11128" Name="フィア バンパイア変身(インターサーバー)"/>
+		<Monster Sprite="17006" Effect="11128" Name="デス ゾンビ ロード(インターサーバー)"/>
+		<Monster Sprite="17007" Effect="11128" Name="ヘル クーガー(インターサーバー)"/>
+		<Monster Sprite="17008" Effect="11128" Name="イモータル マミーロード(インターサーバー)"/>
+		<Monster Sprite="17009" Effect="11128" Name="ブルータル アイリス(インターサーバー)"/>
+		<Monster Sprite="17010" Effect="11128" Name="ダーク ナイトバルド(インターサーバー)"/>
+		<Monster Sprite="17011" Effect="11128" Name="フォーエバー リッチ(インターサーバー)"/>
+		<Monster Sprite="17012" Effect="11128" Name="パート ウグヌス(インターサーバー)"/>
+		<Monster Sprite="16778" Effect="11128" Name="デス ミリオン1(インターサーバー)"/>
+		<Monster Sprite="16800" Effect="11128" Name="デス ミリオン2(インターサーバー)"/>
+		<Monster Sprite="17015" Effect="11128" Name="デス グリムリーパー(インターサーバー)"/>
+		<Monster Sprite="17595" Effect="11128" Name="インター攻城ギラン ボス"/>
+		<Monster Sprite="17641" Effect="11128" Name="インター攻城地底湖 ボス"/>
+		<Monster Sprite="17647" Effect="11128" Name="インター攻城オーク ボス"/>
+		<Monster Sprite="17681" Effect="11128" Name="インター攻城ウィンダウッド ボス"/>
+		<Monster Sprite="17743" Effect="11128" Name="インティ攻城ハイネ ボス"/>
+		<Monster Sprite="18673" Effect="11128" Name="デーモン"/>
+		<Monster Sprite="19116" Effect="1248" Name="暗黒竜ハルパス"/>
+		<Monster Sprite="19166" Effect="11128" Name="抑制したハルパス"/>
+		<Monster Sprite="19218" Effect="1248" Name="守護剣士ザケン"/>
+		<Monster Sprite="20203" Effect="11128" Name="傀儡師"/>
+		<Monster Sprite="20204" Effect="11128" Name="偵察団長"/>
+		<Monster Sprite="20206" Effect="11128" Name="奇怪博士"/>
+		<Monster Sprite="20205" Effect="11128" Name="変面ピエロ"/>
+		<Monster Sprite="20207" Effect="11128" Name="剣鬼"/>
+		<Monster Sprite="20208" Effect="11128" Name="ルウン3世"/>
+		<Monster Sprite="20332" Effect="1248" Name="闇の監視官"/>
+		<Monster Sprite="20340" Effect="1248" Name="闇の監視官"/>
+		<Monster Sprite="20701" Effect="11128" Name="ディストーション ゼニス クイーン(覚醒)"/>
+		<Monster Sprite="20702" Effect="11128" Name="ミストラスト シアー(覚醒)"/>
+		<Monster Sprite="20703" Effect="11128" Name="フィア バンパイア(覚醒)"/>
+		<Monster Sprite="20704" Effect="11128" Name="デス ゾンビ ロード(覚醒)"/>
+		<Monster Sprite="20705" Effect="11128" Name="ヘル クーガー(覚醒)"/>
+		<Monster Sprite="20706" Effect="11128" Name="イモータル マミーロード(覚醒)"/>
+		<Monster Sprite="20707" Effect="11128" Name="ブルータル アイリス(覚醒)"/>
+		<Monster Sprite="20708" Effect="11128" Name="ダーク ナイトバルド(覚醒)"/>
+		<Monster Sprite="20709" Effect="11128" Name="ミストラスト シアー(覚醒)"/>
+		<Monster Sprite="20710" Effect="11128" Name="パート ウグヌス(覚醒)"/>
+		<Monster Sprite="20711" Effect="11128" Name="デス グリムリーパー(覚醒)"/>
+		<Monster Sprite="20722" Effect="11128" Name="グレート ミノタウルス"/>
+	</DamageEffectNearAttacker>
+	<ConditionalDamageEffect>
+		<!-- 설정한 피격 이펙트 출력, 설정한 데미지 이상에 피격액션 출력 eTowerOfProudBoss-->
+		<Monster Sprite="173" Effect="11128" TriggerDamage="200" Name="カスパー"/>
+		<Monster Sprite="183" Effect="1248" TriggerDamage="80" Name="裏切りのエルダー"/>
+		<Monster Sprite="185" Effect="1248" TriggerDamage="200" Name="バルタザール"/>
+		<Monster Sprite="187" Effect="1248" TriggerDamage="200" Name="メルキオール"/>
+		<Monster Sprite="1062" Effect="1248" TriggerDamage="200" Name="ドレイク"/>
+		<Monster Sprite="2417" Effect="1248" TriggerDamage="180" Name="バンディット ボス"/>
+		<Monster Sprite="3092" Effect="1248" TriggerDamage="250" Name="監視者リーパー"/>
+		<Monster Sprite="4587" Effect="1248" TriggerDamage="50" Name="死"/>
+		<Monster Sprite="4595" Effect="1248" TriggerDamage="50" Name="混沌"/>
+		<Monster Sprite="4657" Effect="1248" TriggerDamage="200" Name="闇の君主"/>
+		<Monster Sprite="4746" Effect="1248" TriggerDamage="300" Name="カルゴ"/>
+		<Monster Sprite="5711" Effect="1248" TriggerDamage="300" Name="ネクロス"/>
+		<Monster Sprite="5818" Effect="1248" TriggerDamage="120" Name="カープ"/>
+		<Monster Sprite="5979" Effect="1248" TriggerDamage="300" Name="ファウスト"/>
+		<Monster Sprite="6010" Effect="1248" TriggerDamage="50" Name="赤いオーク"/>
+		<Monster Sprite="6290" Effect="1248" TriggerDamage="200" Name="ジャイアント ガード アント"/>
+		<Monster Sprite="18711" Effect="1248" TriggerDamage="350" Name="疾風のシャスキー"/>
+		<Monster Sprite="7463" Effect="1248" TriggerDamage="200" Name="ハーディンの分身"/>
+		<Monster Sprite="7788" Effect="1248" TriggerDamage="50" Name="水竜のガーディアン"/>
+		<Monster Sprite="8470" Effect="1248" TriggerDamage="1000" Name="グレート ブラック エルダー"/>
+		<Monster Sprite="10433" Effect="1248" TriggerDamage="50" Name="地竜のガーディアン"/>
+		<Monster Sprite="10642" Effect="1248" TriggerDamage="50" Name="万年スライム"/>
+		<Monster Sprite="18713" Effect="1248" TriggerDamage="350" Name="狂風のシャスキー"/>
+		<Monster Sprite="10891" Effect="1248" TriggerDamage="550" Name="ビッグフット マーヨ"/>
+		<Monster Sprite="12607" Effect="1248" TriggerDamage="50" Name="火竜のガーディアン"/>
+		<Monster Sprite="12949" Effect="1248" TriggerDamage="150" Name="ガースト ロード"/>
+		<Monster Sprite="13042" Effect="1248" TriggerDamage="550" Name="ディストーション ゼニス クイーン"/>
+		<Monster Sprite="13048" Effect="1248" TriggerDamage="550" Name="ミストラスト シアー"/>
+		<Monster Sprite="13055" Effect="1248" TriggerDamage="550" Name="フィア バンパイア"/>
+		<Monster Sprite="4493" Effect="1248" TriggerDamage="200" Name="スピリッド"/>
+		<Monster Sprite="10042" Effect="1248" TriggerDamage="150" Name="ケパルレ"/>
+		<Monster Sprite="2771" Effect="1248" TriggerDamage="100" Name="ガーディアン アーマー"/>
+		<Monster Sprite="12589" Effect="1248" TriggerDamage="200" Name="亡者の看守"/>
+		<Monster Sprite="10637" Effect="1248" TriggerDamage="350" Name="ブラックナイト チーフ"/>
+		<Monster Sprite="9983" Effect="1248" TriggerDamage="200" Name="オルクス"/>
+		<Monster Sprite="3083" Effect="1248" TriggerDamage="200" Name="死の亡霊"/>
+		<Monster Sprite="3089" Effect="1248" TriggerDamage="200" Name="混沌の亡霊"/>
+		<Monster Sprite="1773" Effect="1248" TriggerDamage="320" Name="イフリート"/>
+		<Monster Sprite="7941" Effect="1248" TriggerDamage="100" Name="風竜のガーディアン"/>
+		<Monster Sprite="14316" Effect="1248" TriggerDamage="1000" Name="バフォメット"/>
+		<Monster Sprite="12015" Effect="1248" TriggerDamage="1000" Name="デスナイト"/>
+		<Monster Sprite="12579" Effect="1248" TriggerDamage="100" Name="キメライド"/>
+		<Monster Sprite="4851" Effect="1248" TriggerDamage="650" Name="看守長 タロス"/>
+		<Monster Sprite="5786" Effect="1248" TriggerDamage="100" Name="ジャイアント ワーム"/>
+		<Monster Sprite="4370" Effect="1248" TriggerDamage="500" Name="アクモ"/>
+		<Monster Sprite="1180" Effect="1248" TriggerDamage="500" Name="デーモン"/>
+		<Monster Sprite="13061" Effect="1248" TriggerDamage="550" Name="デス ゾンビ ロード"/>
+		<Monster Sprite="13068" Effect="1248" TriggerDamage="550" Name="ヘル クーガー"/>
+		<Monster Sprite="13073" Effect="1248" TriggerDamage="550" Name="イモータル マミーロード"/>
+		<Monster Sprite="13078" Effect="1248" TriggerDamage="550" Name="ブルータル アイリス"/>
+		<Monster Sprite="13083" Effect="1248" TriggerDamage="550" Name="ダーク ナイトバルド"/>
+		<Monster Sprite="13088" Effect="1248" TriggerDamage="550" Name="フォーエバー リッチ"/>
+		<Monster Sprite="13093" Effect="1248" TriggerDamage="550" Name="パート ウグヌス"/>
+		<Monster Sprite="4068" Effect="1248" TriggerDamage="100" Name="堕落"/>
+		<Monster Sprite="14049" Effect="1248" TriggerDamage="500" Name="グレート ミノタウルス"/>
+		<Monster Sprite="12870" Effect="1248" TriggerDamage="400" Name="ハーピー クイーン"/>
+		<Monster Sprite="12854" Effect="1248" TriggerDamage="400" Name="コカトリス キング"/>
+		<Monster Sprite="12848" Effect="1248" TriggerDamage="400" Name="オーガ キング"/>
+		<Monster Sprite="14084" Effect="1248" TriggerDamage="400" Name="ドレイク キング"/>
+		<Monster Sprite="14340" Effect="1248" TriggerDamage="1000" Name="カーツ"/>
+		<Monster Sprite="10596" Effect="1248" TriggerDamage="500" Name="リカント"/>
+		<Monster Sprite="2389" Effect="1248" TriggerDamage="550" Name="ドッペルゲンガー ボス"/>
+		<Monster Sprite="1791" Effect="1248" TriggerDamage="1000" Name="フェニックス"/>
+		<Monster Sprite="2421" Effect="1248" TriggerDamage="150" Name="ジャイアント モーニングスター"/>
+		<Monster Sprite="5072" Effect="1248" TriggerDamage="1000" Name="マイノ シャーマン"/>
+		<Monster Sprite="5507" Effect="1248" TriggerDamage="500" Name="バルログ"/>
+		<Monster Sprite="5511" Effect="1248" TriggerDamage="1000" Name="バルログ"/>
+		<Monster Sprite="4569" Effect="1248" TriggerDamage="500" Name="ヤヒ"/>
+		<Monster Sprite="4612" Effect="1248" TriggerDamage="1000" Name="ヤヒ"/>
+		<Monster Sprite="13104" Effect="1248" TriggerDamage="1000" Name="デス グリムリーパー"/>
+		<Monster Sprite="10573" Effect="1248" TriggerDamage="350" Name="ジャイアントドレイク"/>
+		<Monster Sprite="12440" Effect="1248" TriggerDamage="1000" Name="ゼロス"/>
+		<Monster Sprite="14232" Effect="1248" TriggerDamage="150" Name="アメーバ"/>
+		<Monster Sprite="14179" Effect="1248" TriggerDamage="150" Name="ベリアル"/>
+		<Monster Sprite="14182" Effect="1248" TriggerDamage="150" Name="チュートリアル"/>
+		<Monster Sprite="14239" Effect="1248" TriggerDamage="400" Name="アスモダン"/>
+		<Monster Sprite="14476" Effect="1248" TriggerDamage="30" Name="初心者ゾーン ジャイアント"/>
+		<Monster Sprite="15063" Effect="1248" TriggerDamage="300" Name="バフォメット"/>
+		<Monster Sprite="15064" Effect="1248" TriggerDamage="500" Name="デスナイト"/>
+		<Monster Sprite="15065" Effect="1248" TriggerDamage="500" Name="デーモン"/>
+		<Monster Sprite="15066" Effect="1248" TriggerDamage="500" Name="バルログ"/>
+		<Monster Sprite="15067" Effect="1248" TriggerDamage="500" Name="デスナイト"/>
+		<Monster Sprite="15068" Effect="1248" TriggerDamage="550" Name="ゼロス"/>
+		<Monster Sprite="16287" Effect="1248" TriggerDamage="1000" Name="フェニックス"/>
+		<Monster Sprite="16250" Effect="1248" TriggerDamage="500" Name="イフリート"/>
+		<Monster Sprite="16329" Effect="1248" TriggerDamage="1000" Name="ドレイク"/>
+		<Monster Sprite="16447" Effect="1248" TriggerDamage="250" Name="大法官 ケイナ"/>
+		<Monster Sprite="16493" Effect="1248" TriggerDamage="250" Name="大法官 イデア"/>
+		<Monster Sprite="16386" Effect="1248" TriggerDamage="250" Name="大法官 ビアタス"/>
+		<Monster Sprite="16434" Effect="1248" TriggerDamage="250" Name="大法官 バロメス"/>
+		<Monster Sprite="16403" Effect="1248" TriggerDamage="250" Name="大法官 ティアメス"/>
+		<Monster Sprite="16468" Effect="1248" TriggerDamage="250" Name="大法官 エンディアス"/>
+		<Monster Sprite="16381" Effect="1248" TriggerDamage="250" Name="大法官 ラミアス"/>
+		<Monster Sprite="16428" Effect="1248" TriggerDamage="250" Name="大法官 バロード"/>
+		<Monster Sprite="16418" Effect="1248" TriggerDamage="250" Name="冥法軍王 ヘルバイン"/>
+		<Monster Sprite="16304" Effect="1248" TriggerDamage="250" Name="魔霊軍王 ライア"/>
+		<Monster Sprite="16499" Effect="1248" TriggerDamage="250" Name="魔獣軍王 バランカ"/>
+		<Monster Sprite="16398" Effect="1248" TriggerDamage="250" Name="暗殺軍王 スレイヴ"/>
+		<Monster Sprite="16541" Effect="1248" TriggerDamage="150" Name="中ボス-攻撃1"/>
+		<Monster Sprite="16479" Effect="1248" TriggerDamage="150" Name="中ボス-魔法1"/>
+		<Monster Sprite="16483" Effect="1248" TriggerDamage="150" Name="中ボス-魔法2"/>
+		<Monster Sprite="16440" Effect="1248" TriggerDamage="150" Name="中ボス-攻撃2"/>
+		<Monster Sprite="16324" Effect="1248" TriggerDamage="150" Name="中ボス-魔法3"/>
+		<Monster Sprite="14325" Effect="1248" TriggerDamage="200" Name="ブラックナイト サブ チーフ"/>
+		<Monster Sprite="111" Effect="1248" TriggerDamage="100" Name="カーツの副官"/>
+		<Monster Sprite="16982" Effect="1248" TriggerDamage="320" Name="アイスクイーン"/>
+		<Monster Sprite="16974" Effect="1248" TriggerDamage="320" Name="アイス デーモン"/>
+		<Monster Sprite="16988" Effect="1248" TriggerDamage="320" Name="アイス マンボ ラビット"/>
+		<Monster Sprite="10527" Effect="1248" TriggerDamage="150" Name="メティスの箱"/>
+		<Monster Sprite="16887" Effect="1248" TriggerDamage="150" Name="メティスのキャンディ"/>
+		<Monster Sprite="16940" Effect="1248" TriggerDamage="150" Name="メティスのクッキー"/>
+		<Monster Sprite="16241" Effect="1248" TriggerDamage="100" Name="イベント-裸足のマーヨ"/>
+		<Monster Sprite="8224" Effect="1248" TriggerDamage="300" Name="イベント-逃げたケーキモンスター"/>
+		<Monster Sprite="18847" Effect="1248" TriggerDamage="120" Name="ダーク ゴブリン"/>
+		<Monster Sprite="18739" Effect="1248" TriggerDamage="120" Name="ダーク ベレス"/>
+		<Monster Sprite="18825" Effect="1248" TriggerDamage="120" Name="ダーク ライダー"/>
+		<Monster Sprite="18729" Effect="1248" TriggerDamage="120" Name="ダーク ドッペルゲンガー"/>
+		<Monster Sprite="18742" Effect="1248" TriggerDamage="130" Name="ダーク サイクロプス"/>
+		<Monster Sprite="18828" Effect="1248" TriggerDamage="130" Name="ダーク インキュバス"/>
+		<Monster Sprite="18806" Effect="1248" TriggerDamage="1000" Name="憤怒のバルログ"/>
+		<Monster Sprite="19112" Effect="1248" TriggerDamage="1000" Name="アトゥバ キング"/>
+		<Monster Sprite="19125" Effect="1248" TriggerDamage="1000" Name="地獄のデーモン"/>
+		<Monster Sprite="19129" Effect="1248" TriggerDamage="1000" Name="地獄の監視者"/>
+		<Monster Sprite="18817" Effect="1248" TriggerDamage="200" Name="クイーン センチュリオン"/>
+		<Monster Sprite="18839" Effect="1248" TriggerDamage="800" Name="エルシャベ"/>
+		<Monster Sprite="18973" Effect="1248" TriggerDamage="500" Name="21周年バースデーケーキ"/>
+		<Monster Sprite="17855" Effect="11128" TriggerDamage="1000" Name="インスタンスダンジョン ボス アリオク"/>
+		<Monster Sprite="17732" Effect="1248" TriggerDamage="500" Name="インスタンスダンジョン セマ"/>
+		<Monster Sprite="17729" Effect="1248" TriggerDamage="500" Name="インスタンスダンジョン バルタザール"/>
+		<Monster Sprite="17726" Effect="1248" TriggerDamage="500" Name="インスタンスダンジョン メルキオール"/>
+		<Monster Sprite="17738" Effect="1248" TriggerDamage="500" Name="インスタンスダンジョン カスパー"/>
+		<Monster Sprite="17976" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン 貪欲の捕食者"/>
+		<Monster Sprite="12895" Effect="11128" TriggerDamage="1000" Name="インスタンスダンジョン ロサス"/>
+		<Monster Sprite="18767" Effect="11128" TriggerDamage="1000" Name="インスタンスダンジョン ロサス"/>
+		<Monster Sprite="18814" Effect="11128" TriggerDamage="1000" Name="インスタンスダンジョン ベレス"/>
+		<Monster Sprite="18757" Effect="11128" TriggerDamage="1000" Name="インスタンスダンジョン ボーナスボス ハーディン"/>
+		<Monster Sprite="19178" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン 水の大精霊"/>
+		<Monster Sprite="19180" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン 火の大精霊"/>
+		<Monster Sprite="19182" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン 風の大精霊"/>
+		<Monster Sprite="19184" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン 地の大精霊"/>
+		<Monster Sprite="19193" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン ユニコーン"/>
+		<Monster Sprite="19194" Effect="11128" TriggerDamage="500" Name="インスタンスダンジョン ナイトメア"/>
+		<Monster Sprite="18913" Effect="11128" TriggerDamage="1000" Name="インスタンスダンジョン 夢幻のサキュバス"/>
+		<Monster Sprite="19730" Effect="1248" TriggerDamage="500" Name="ハード アイス マンボ ラビット"/>			
+		<Monster Sprite="19892" Effect="1248" TriggerDamage="500" Name="レッサードラゴン"/>
+		<Monster Sprite="19893" Effect="1248" TriggerDamage="500" Name="レッド ドラゴン"/>
+		<Monster Sprite="19894" Effect="1248" TriggerDamage="500" Name="ブルー ドラゴン"/>
+		<Monster Sprite="19895" Effect="1248" TriggerDamage="600" Name="アンタラス ジュニア"/>
+		<Monster Sprite="19899" Effect="1248" TriggerDamage="800" Name="パプリオン ジュニア"/>
+		<Monster Sprite="19903" Effect="1248" TriggerDamage="1000" Name="ヴァラカス ジュニア"/>
+		<Monster Sprite="19908" Effect="1248" TriggerDamage="250" Name="グリッド リズ"/>
+		<Monster Sprite="19911" Effect="1248" TriggerDamage="200" Name="グリッド"/>
+		<Monster Sprite="19918" Effect="1248" TriggerDamage="250" Name="グリッド メイジ"/>
+		<Monster Sprite="20001" Effect="1248" TriggerDamage="1000" Name="リベリオン エクスキューショナー"/>	
+		<Monster Sprite="20122" Effect="1248" TriggerDamage="150" Name="キツネ"/>
+		<Monster Sprite="20123" Effect="1248" TriggerDamage="150" Name="ウサギ"/>
+		<Monster Sprite="20124" Effect="1248" TriggerDamage="150" Name="ウルフ"/>
+		<Monster Sprite="20125" Effect="1248" TriggerDamage="150" Name="ベアー"/>
+		<Monster Sprite="20126" Effect="1248" TriggerDamage="150" Name="カンガルー"/>
+		<Monster Sprite="20127" Effect="1248" TriggerDamage="150" Name="タヌキ"/>
+		<Monster Sprite="20128" Effect="1248" TriggerDamage="150" Name="グリフォン"/>
+		<Monster Sprite="20129" Effect="1248" TriggerDamage="150" Name="レッド ハッチリン"/>
+		<Monster Sprite="20130" Effect="1248" TriggerDamage="150" Name="ブルー ハッチリン"/>
+		<Monster Sprite="14123" Effect="1248" TriggerDamage="1500" Name="キング バグベアー"/>
+		<Monster Sprite="14040" Effect="1248" TriggerDamage="1500" Name="ライカンスロープ"/>
+		<Monster Sprite="20681" Effect="1248" TriggerDamage="550" Name="ウェアウルフ"/>
+		<Monster Sprite="20680" Effect="1248" TriggerDamage="850" Name="ライカンスロープ"/>
+		<Monster Sprite="19761" Effect="1248" TriggerDamage="1500" Name="アイス ゴーレム キング"/>
+		<Monster Sprite="19783" Effect="1248" TriggerDamage="1500" Name="ステラリア"/>
+		<Monster Sprite="19773" Effect="1248" TriggerDamage="1000" Name="アイス ウルフ"/>
+		<Monster Sprite="18698" Effect="1248" TriggerDamage="1000" Name="屠殺者"/>
+	</ConditionalDamageEffect>
+</NoDamgeAction>
+	<!--	eNotDamageAction,		// 피격 이펙트, 액션 모두 없음	eLevelUpPolymorph,		// 1248 sprite 피격 이펙트 출력, 피격 액션 없음	eMonsterDragon,			// 피격 이펙트가 sprite에 따라 다름, 피격액션 없음	eDragon,				// 1248 sprite 피격 이펙트 출력 (피격 이펙트 출력 위치가 공격자 근처), 피격액션 없음	eShelob,				// 10770 sprite 피격 이펙트 출력, 피격액션 없음	eTowerOfProudBoss,		// 1248 sprite 피격 이펙트 출력, 150 데미지 이상에 피격액션 출력			-->

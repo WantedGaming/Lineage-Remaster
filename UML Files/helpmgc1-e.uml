@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>レベル1</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ウィザードの魔法：レベル1</font><br/></p>
+	<p><font fg="ffffaf">ヒール：</font><br/>
+	種類：治癒/水<br/>
+	性向：Lawful<br/>
+	消耗MP/HP：5/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者<br/>
+	効果：術者のHPを少しずつ回復させます。<br/></p>
+
+	<p><font fg="ffffaf">ライト：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：4/0<br/>
+	持続時間：3600秒<br/>
+	対象：術者<br/>
+	効果：持続時間中、ランタンほどの明るい光を作り、術者の周囲を照らします。<br/></p>
+
+	<p><font fg="ffffaf">シールド：</font><br/>
+	種類：変化<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：8/0<br/>
+	持続時間：1800秒<br/>
+	対象：術者<br/>
+	効果：術者のACに+2のボーナスを追加して防御力を強化します。<br/></p>
+
+	<p><font fg="ffffaf">エネルギー ボルト：</font><br/>
+	種類：攻撃/光線<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：3/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：純粋な魔法のエネルギーを発射して、対象にダメージを与えます。<br/></p>
+
+	<p><font fg="ffffaf">テレポート：</font><br/>
+	種類：操作<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：10/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者<br/>
+	効果：ランダムな場所にテレポートします。ただし、「テレポート コントロール リング」を装備した状態で使用すると、ブックマークに保存した場所のうち、好きな場所にテレポートできます。<br/></p>
+
+	<p><font fg="ffffaf">アイス ダガー：</font><br/>
+	種類：攻撃/水<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：4/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：氷でできた小さなダガーを作り、攻撃対象に飛ばしてダメージを与えます。<br/></p>
+
+	<p><font fg="ffffaf">ウィンド カッター：</font><br/>
+	種類：攻撃/風<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：4/0<br/>
+	持続時間：一瞬<br/>
+	対象：術者から10セル内のPCまたはNPCの1人<br/>
+	効果：風を操って円形の刃を作り、攻撃対象に飛ばしてダメージを与えます。<br/></p>
+
+	<p><font fg="ffffaf">ホーリー ウェポン：</font><br/>
+	種類：付与<br/>
+	性向：Neutral<br/>
+	消耗MP/HP：10/0<br/>
+	持続時間：1200秒<br/>
+	対象：術者から15セル内のPCまたはNPCの1人<br/>
+	効果：対象の近接武器に聖なる呪文を付与します。ホーリー ウェポンが付与された武器は近距離ダメージ+1、近距離命中+1、 対アンデッド追加ダメージ+1を与えます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	 </dialog>
+</npcdialog>

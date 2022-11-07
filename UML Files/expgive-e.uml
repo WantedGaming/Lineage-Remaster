@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>I was sent to provide experience to the event server elite heroes.</p>
+		<p>Each time you are paid for your experience, your level will increase.</p>
+		<p>The grant will be provided until level 70; once you reach 70, you will be provided with basic items and Adena. Please enjoy your adventures within Adenworld to the fullest with the power I have given you.</p>
+		<p><a action="0">Give Me EXP</a></p>
+  </dialog>
+</npcdialog>

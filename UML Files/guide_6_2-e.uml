@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 この地域はバルログの部下たちがいる場所です。熱い熱気のマグマがあちらこちらにある、恐ろしい場所です。でも、登場するモンスターたちの力は弱くなっている状態なので、
+		 旅行者の成長の助けになると思います。 <br/><br/>
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>イベントクエスト管理人</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルーカ</name>
+		<job>[ダーク訓練場管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>勇士様は闇の訓練には耐えられないようですね。<br/>
+		<br/>
+		<br/>
+		レベル55～88の勇士だけが<br/>
+		ダーク訓練場で訓練できます！<br/>
+		<br/>
+		レベル55未満と、レベル89以上の勇士は<br/> 
+		闇の訓練が必要ではないからです。<br/>
+		</p>
+	</dialog>
+</npcdialog>

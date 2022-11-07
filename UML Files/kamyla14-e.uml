@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+ホセがいるダンジョンへ飛ぶ準備は整いましたか…<br/><br/>
+そんなに簡単には進めない場所のようです。<br/><br/>
+万全の準備をなさったほうがいいかもしれません。<br/><br/>
+準備ができましたら、言ってくださいね。<br/><br/>
+<a action="f">準備できました</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>根気のあるドオホ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 <font fg="ffaaff">ドラゴンのレザー アーマー</font>を作るための技術は並の努力では習得できない。ひいでた天才と言えども、かなりの労力を要する。
+		 皮なめしは決められた時間内に終えなければならない。私も砂時計を常にそばに置いてやるほどだ。
+		 <br/><br/>
+		 <a action="request craft">ドラゴンのレザーアーマーを作る</a><br/>
+		<br/><br/>
+		 <font fg="ffaaff">イベルビン</font>を除けば、私が一番努力していたな。ハハハ！<br/><br/>
+		 <font fg="ffaaff">ドラゴンのレザー アーマー</font>は、竜が持っているものすごい弾力をそのまま活かしたアーマーなんだ。<br/><br/>
+		 先天的に瞬発力と弾力に秀でた<font fg="ffaaff">エルフ</font>と<font fg="ffaaff">ダークエルフ</font>は当然着ることができる。それに神秘的な力を持つという<font fg="ffaaff">ドラゴンナイト</font>と<font fg="ffaaff">イリュージョニスト</font>も、このアーマーを着られるだろう。<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

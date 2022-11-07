@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>お前さんなぁ...わしの目に留まる物をひとつも持っていないではないか。</p>
+	</dialog>
+
+</npcdialog>

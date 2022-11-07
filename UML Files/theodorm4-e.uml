@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>お！シーレンの子。清純な心を持つ魔族の群れじゃないのか？</p>
+		<p>長い眠りから覚め、アデンに起こる多くの異常現象の調査に協力していると聞いているぞ。</p>
+		<p>あなた方の知識が今のアデンにどれほど大きな助けとなっているか分かりませんが、本当に私達のために力を尽くしてくれる魔族の役に立てればと願っています。</p>
+	</dialog>
+
+</npcdialog>

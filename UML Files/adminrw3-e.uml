@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Training Manager：</font><br/><br/></p>
+	<p>Didn't see your <font fg="ffafff">Novice Guide</font> in the village, did you?</p>
+    <p>The Novice Guide wants to talk to you.  You should visit him.</p>
+  </dialog>
+</npcdialog>

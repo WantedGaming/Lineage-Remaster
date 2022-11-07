@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+  	<portrait>PO_002</portrait>
+    <name>森とエルフの母</name>
+  </npc>
+  <dialog>
+    <p>幼いエルフたちは、私を「森とエルフの母」と呼びます。</p>
+	<p>こう呼ばれる度に妙な気分がするのです。今の私は確かに<a link="mothere6">世界樹の一部</a>ですが、昔は「最初の祖先」とされるエルフの一人だったのです。エルフだった頃は、たった二人の息子の母だった私が、今は世界樹として皆の母なのです。</p> 
+  </dialog>
+</npcdialog>

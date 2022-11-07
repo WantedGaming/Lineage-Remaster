@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+   <p>オーレン村に行く方法をご存知ですか？</p>
+   <p>来る時はキレイなお姉さんが連れてくれたんですけど、帰りがすごく心配です。途中で怖いモンスターも出るそうですし…</p>
+   <p>早く家に帰りたいです…怖い顔の人でうろついてて、すごく怖いです。<br/><br/></p>
+   <p><a action="teleport mutant-dungen">ミュータント アント ダンジョンに入る</a></p>
+  </dialog>
+</npcdialog>

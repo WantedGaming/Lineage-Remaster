@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>警備兵</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		おまえさんはよその人間だからよく知らんだろうけど…<br></br>
+		昔は貿易港としてえらく賑やかだったグルーディン村も、ここ最近は武器を下げた連中ばっかだし…<br></br>
+		北の森では、最近戦争で農地を無くした人たちが火田村をつくっちゃぁ、難民みてぇに暮らしてるんだと。<br></br>
+		俺は政治のことはよく知らねぇが、<br></br>
+		最近のこの辺の人々を見てると、何か悪いことが起きてるなって気はするよ…。<br></br>
+		</p>
+
+	</dialog>
+	
+</npcdialog>

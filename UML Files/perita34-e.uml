@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p>あっ、材料が足りないですね。</p>
+	<p>「ミステリアス ポーション：4段階」の材料を作るには、火/水/大地/風の息吹30個ずつと、闇の息吹30個、闇の鉱石20個、最高級ダイアモンド1個、高級エメラルド1個が必要なのです。</p>
+	
+	<p><a link="perita5">別の取引をしたいです</a></p>
+  </dialog>
+</npcdialog>

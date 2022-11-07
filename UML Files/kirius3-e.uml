@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>テレポーター</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>キリウス</name>
+		<job>[Teleporter]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+	<p>ここから送ってあげられる狩り場と料金は以下のとおりです。</p>
+	<p>Which hunting ground are you going to?</p><br></br>
+
+	<p><a action="teleport oren-gypsy">Gypsy Town:<var src="0">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-girdun">Giran Dungeon:<var src="1">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-mirr">Mirror Forest:<var src="2">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-dragon">Dragon Valley:<var src="3">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-train">SKT Dungeon:<var src="4">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-eva">Heine Dungeon:<var src="5">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-reed">Wheat Field:<var src="6">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-gludun">Gludio Dungeon:<var src="7">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-oasis">Desert Oasis:<var src="8">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-under">Underground Invasion:<var src="9">Adena</var></a></p><br></br>
+	<p><a action="teleport oren-diad">ディアド要塞：			<var src="14">Adena</var></a></p><br></br>
+	
+	</dialog>
+
+</npcdialog>

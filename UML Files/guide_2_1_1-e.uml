@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 グルーディン村の北東にある出口から外に出て、上のほうにずっと進むと廃墟にたどり着きます。そこには<font fg="ffafff">ゾンビ</font>、<font fg="ffafff">スケルトン</font>、<font fg="ffafff">グール</font>、<font fg="ffafff">スパルトイ</font>とかのアンデッド系がよく出るんですよ。<br/>
+		 アンデッド系のモンスターは基本的に生きている人間に対する憎悪を抱いているから、向こうから襲ってきますよ。旅立つ前に、しっかりと準備してくださいね。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

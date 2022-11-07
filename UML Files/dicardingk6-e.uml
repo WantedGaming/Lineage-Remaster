@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そうだな。これだけでことを語るには何かちょっと足らない。魔族が関連しているということだけは明らかなのだがな。</p>
+		<p>予想通り、マナの揺らぎ、魔力の枯渇、近頃あわただしい精霊の不安感はすべて魔族のせいだった。</p>
+		<p>連中が何かを企んでることは間違いないんだかな。今の時点ではこれを解く結論は出しがたいな。</p>
+		<p><br/></p>
+		<p>いずれの推測も確信を持つには至らない。もうしばらく私の手助けをしてくれないか。</p>
+		<p><br/><br/></p>
+		<p><a action="i">もちろんですよ</a><br/></p>
+	</dialog>
+	
+</npcdialog>

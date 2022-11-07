@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 出てこい！<br/><br/>
+		 子供だからって無視するなよ！<br/>
+		 僕のパパが誰か知ってるのか！？<br/>
+		 パパに全部言ってやるんだから！そこで待ってろよ！<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

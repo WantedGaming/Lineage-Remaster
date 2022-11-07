@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>コルト</name>
+		<job>[極寒製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ハクション！！<br/>
+		 あ！あなたは私がいた<font fg="ffafff">オーレン村</font>でよくお会いした方ですよね？あれ？違ったかな？アハハハ！<br/>
+		 <br/>
+		 寒いのが苦手なので、ケント村に移住してきたのですが、
+		 私にできる仕事だけので、せっかく移住したのに、やってることは変わってないです…ハクション！！<br/> 
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

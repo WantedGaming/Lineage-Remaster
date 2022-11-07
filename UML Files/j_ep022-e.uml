@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">バルログ：</font>
+<br/><br/>
+すべての魔物はあの方の下僕だ。<br/><br/>
+それはそうと、貴様。魔物の定義を分かって聞いているだろうな？<br/><br/>
+<a link="j_ep018">あなたは何者ですか？</a><br/>
+<a link="j_ep019">ハーディンは何をしようとしているのですか？</a><br/>
+<a link="j_ep020">あの方とは誰ですか？</a><br/>
+<a link="j_ep021">「ケレニス」を知っていますか？</a><br/>
+<a link="j_ep023">あなたは何をしようとしていたのですか？</a><br/>
+<a link="j_ep024">あなたはハーディンを知ってますか？</a><br/>
+</p>
+</dialog>
+</npcdialog>

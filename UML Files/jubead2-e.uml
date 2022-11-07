@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name>ジュビド</name>
+		<job>[玉販売人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		もちろん方法はあります。<br/>
+		魔法で頭の中の保存空間を拡張する方法です！<br/>
+		でもこの魔法を使うには、個人の記憶空間を確認できる玉が必要です。<br/>
+		記憶の破片1個と20,000Adenaがあれば、ケプリシャ様の部屋にある机で作れますよ。<br/>
+		記憶の破片はギラン監獄で手に入ります。
+		<br/>
+		<br/>
+		
+		</p>
+		<p><img src="331" link="jubead"/></p>
+	</dialog>
+</npcdialog>

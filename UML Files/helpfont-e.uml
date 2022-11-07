@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>フォント</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">その他：フォント</font><br/></p>
+	<p>リネージュは現在新明朝体を使っています。リネージュフォルダ内にあるファイルの名前の変更で、お望みのフォントに変更できます。<br/></p>
+	<p><font fg="ffffaf">フォントの切り替え：</font><br/>
+	リネージュがインストールされているフォルダ内の<font fg="ffffff">Font</font>フォルダには<font fg="ffffff">*.fnt</font>ファイルがあります。<br/>
+	現在適用されているファイルは<font fg="ffffff">kor.fnt</font>で、新明朝体です。<br/>
+	変更後に適用したいフォントファイルの名前をkor.fntに変更してゲームに接続すれば、新しいフォントに変更されたことが確認できます。<br/></p>
+	<p><font fg="ffffaf">フォントリスト：</font><br/>
+	BatangChe：kor-batang.fnt<br/>
+	BudllChe：kor-budl.fnt<br/>
+	BuhwalChe：kor-buhwal.fnt<br/>
+	GaulChe：kor-gaul.fnt<br/>
+	GraphicChe：kor-graphic.fnt<br/>
+	GulimChe：Korgulim.fnt<br/>
+	NoteChe：kor-note.fnt<br/>
+	PilgiChe：kor-pilgi.fnt<br/></p>
+  </dialog>
+</npcdialog>

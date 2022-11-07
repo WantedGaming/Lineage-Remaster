@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 私の歳も、もう今年で80だ…<br/>
+		 長生きすると身体が言うことを聞かなくなるが、得るものもあった。
+		 率直に言えば、この世の仕組みがおぼろげに見えてきた感じだな。<br/>
+		 <br/>
+		 これから来る時代は、若者にとてつもない逆境をもたらすかもしれん。
+		 だが、それを乗り越えた時に、真の意味での自分の成長があることを忘れないで欲しい。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

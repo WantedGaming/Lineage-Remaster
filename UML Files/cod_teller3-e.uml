@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>選ばれなかった者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ヒィッ…ななな…何の用ですか…
+		 用がないなら…し、失礼します…
+		<br/>
+		 うぅ…私に…か、関わらないで…く、ください…<br/>
+		 わ…私は…魔族神殿も…カヘルの操り人形も…き、興味は…ないです…<br/>
+		 しし…静かに…暮らしたいから…な、何も聞かないで…ください…お願いです…<br/>
+		 ここ…これが欲しい…なら…あ、あげます…<br/>
+		</p><p><a action="request mcodr3">交換する</a></p>
+		<p> <br/>
+		 
+		 
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シャリエル</name>
+		<job>テレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>こんにちは。私は<font fg="fff000">シャリエル</font>です。<br/></p>
+		<p>私は皆さんを他の空間へと移す仕事をしています。<br/></p>
+		<p>行きたい場所はありますか？<br/></p>
+		
+		<p><a action="teleportURL">他の村に行きたいです</a><br/></p>
+		<p><a action="teleportURLA">狩り場に行きたいです</a><br/></p>
+
+	</dialog>
+
+</npcdialog>

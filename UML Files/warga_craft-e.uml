@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>勇猛のメダル製作</title>
+	<npc>
+		<portrait></portrait>
+		<name>ワルーガ</name>
+		<job>勇猛のメダル製作</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>いらっしゃいませ。<br/><br/>
+		 お持ちのバルーガの商品をより強くしたくありませんか？<br/><br/>
+		 ぜひ一度試してみてください。<br/><br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft">
+				<button action="request craft"/>
+			</panel>
+	</dialog>
+</npcdialog>

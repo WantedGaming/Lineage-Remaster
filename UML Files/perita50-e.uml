@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ペリター</name>
+	<job>[錬金術師]</job>
+	<text>何をお探しですか？</text>
+  </npc>
+  <dialog>
+	<p>あなたがお持ちの「呪われたブラック イアリング」の種類がありません。</p>
+	<p>もしかして既にイアリングの力を引き出していたり、倉庫に置いてきてしまったのではないですか？</p>
+
+	<p><a link="perita4">「呪われたブラック イアリング」とは何ですか？</a></p>
+
+	<p><a link="perita5">別の取引をしたいです</a></p>
+  </dialog>
+</npcdialog>

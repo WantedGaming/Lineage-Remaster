@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>森に住む黒い肌のエルフを見たことがありますか？</p>
+		<p>彼らはとても魅力的ですが、グランカインに仕える邪悪な存在だそうです。</p>
+		<p>彼らに惑わされて命を落とすことがないようにしてください。 </p>
+	</dialog>
+
+</npcdialog>

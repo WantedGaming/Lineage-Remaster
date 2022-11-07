@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ケティ</name>
+    <job>[武器防具商人]</job>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+      <button action="sell"/>
+    </panel>
+    <p>ようこそ。幸せあふれるグルーディンの村へ。</p>
+    <p>何かお探しでしょうか。まあ、ゆっくりとご覧くださいね。</p>
+    <p><a link="rcatty2">最近のグルーディオについて聞く</a></p>
+    <p><a action="rcatty3">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>

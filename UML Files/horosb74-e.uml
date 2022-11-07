@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+  <npc><portrait>PO_002</portrait>
+    <name>ケプリシャ</name>
+    <job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffff">今日の運勢です。</font></p>
+    <p>気が重くて落ち着きませんが、そのうちよい知らせが届くでしょう。</p>
+	<p>血盟内の意見の食い違いにより、仲間割れがひどくなります。そんな時、他の血盟から加入の誘いを受けて気持ちが揺れることでしょう。</p>
+	<p>ですが、いずれ血盟員たちも仲直りし、あなたは重大な任務を任されます。辛抱強く待つという知恵が必要な時なのです。<br/><br/></p>
+	<p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

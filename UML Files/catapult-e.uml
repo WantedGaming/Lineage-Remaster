@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">投石機使用方法：</font><br/><br/></p>
+    <p>投石機使用方法</p>
+    <p>1. 攻城時間中、<font fg="ffafff">君主</font>のみ使用可能</p>
+    <p>2. 使用するには<font fg="ffafff">砲弾が1個</font>必要</p>
+    <p>3. 使用後、<font fg="ffafff">10秒の再装填時間</font>が必要</p>
+    <p>4. プレイヤーのみにダメージを与えられます。</p>
+    <p>5. <font fg="ffafff">赤き騎士団の加入者</font>は全員使用可能</p>
+  </dialog>
+</npcdialog>

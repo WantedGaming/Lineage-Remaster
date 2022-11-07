@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<MobileCharacterInfoUI toggle="false" enable="true">
+
+  
+  <Window Name="HpMpBarWindow">
+    <Image Name="Wifi" X="4" Y="2" Png="100322;4"/>
+    <Image Name="Battery" X="29" Y="2" Png="100320;4"/>
+    <Label Name="LevelLabel" X="56" Y="2" Width="24" Height="24" FontSize="12" HAlign="center" VAlign="middle"/>
+    <!--
+    <Image Name="PlegeName" Png=""/>
+    <Image Name="PlegeLeader" Png=""/>
+    -->
+
+    <Control Name="HpMpBar" X="8" Y="22">
+      <Image Name="Class" X="29" Y="30" Png="100312;1"/>
+      <Image Name="BgHpScreen" Png="100311;4"/>
+      <CircularImage Name="HpImage" Png="100310;1"/>
+      <Image Name="BgMpPartition" Png="100309;1"/>
+      <Image Name="BgMpScreen" Png="100308;4"/>
+      <CircularImage Name="MpImage" Png="100307;1"/>
+      <Image Name="Bg1" Png="100306;2;16"/>
+    </Control>
+
+    <Label Name="HPLabel" X="142" Y="39" Width="100" FontSize="15" HAlign="left" VAlign="middle" Caption="dummyCaption;1"/>
+    <Label Name="MPLabel" X="142" Y="63" Width="100" FontSize="15" HAlign="left" VAlign="middle" Caption="dummyCaption;1"/>
+    <Image Name="HPBg" X="124" Y="39" Png="100304;1"/>
+    <Image Name="MPBg" X="124" Y="63" Png="100305;1"/>
+    <Image Name="CountBg" X="84" Y="34" Png="100303;2;16"/>
+    
+  </Window>
+
+</MobileCharacterInfoUI>

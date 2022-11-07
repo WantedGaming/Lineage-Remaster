@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	  <icon>shop</icon>
+	 <title>Shop</title>
+  <npc>
+	 <name>Andyn</name>
+  </npc>
+  <dialog>
+   <p>Welcome! You won't find many stores like ours! Take a look!</p>
+   <panel type="Panel_Shop_Bt_buy">
+      <button action="buy"/>
+    </panel>
+   <p><a action="andyn3">Ask about recent prices</a></p>
+  </dialog>
+</npcdialog>

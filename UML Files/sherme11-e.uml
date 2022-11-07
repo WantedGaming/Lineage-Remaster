@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シュエルメ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+			
+		<p>同じ魔眼を2つ持つことはできません。何故かというと、木の葉の歌が同じ力を2つ同時に眠らせることができないからです。<br/></p>
+		<p>イベルビンおじいさんがしっかり作ったならば、こんなことは起きなかったでしょうに…もう何一つまともにできないのに最高の職人だなんて理解できないわ。<br/></p>
+		
+	</dialog>
+
+
+</npcdialog>

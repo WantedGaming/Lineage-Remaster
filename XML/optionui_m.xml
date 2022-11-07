@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<MobileMainMenuUI Toggle="false" Enable="false">
+  
+  <Button Name="Folder" X="1115" Y="572" Width="85" Height="91" BasePng="100298;2;16" MouseEvent="OnFolderClicked">
+    <Image Name="Push_Image" Png="100298;2;16">
+      <Image Name="ScreenImage" Png="100299;4"/>
+    </Image>
+  </Button>
+
+  <Control Name="MainMenu" X="525" Y="572" Height="91">
+
+    <List Name="Default" X="27" Y="8" Width="568" Horizontal="1" Gap="5" Height="75" Activate="0">
+      <Image Name="Character" Png="100269;1" MouseEvent="OnCharacterClicked"/>
+      <Image Name="Inventory" Png="100271;1" MouseEvent="OnInventoryClicked"/>
+      <Image Name="Skill"     Png="100273;1" MouseEvent="OnSkillClicked"/>
+      <Image Name="Community" Png="100275;1" MouseEvent="OnCommunityClicked"/>
+      <Image Name="Action"    Png="100277;1" MouseEvent="OnActionClicked"/>
+      <Image Name="PVP"       Png="100279;1" MouseEvent="OnPVPClicked"/>
+      <Image Name="VPad"      Png="100281;1" MouseEvent="OnVPadClicked"/>
+      <Image Name="Option"    Png="100283;1" MouseEvent="OnOptionClicked"/>
+    </List>
+    
+    <List Name="InventoryMenu" X="240" Y="8" Width="355" Horizontal="1" Gap="5" Height="75" Activate="0">
+      <Button Name="RegisterItem" BasePng="100285;1" PushPng="100286;1" MouseEvent="OnRegisterItemClicked"/>
+      <Button Name="MagicDoll"    BasePng="100287;1" PushPng="100288;1" MouseEvent="OnMagicDollClicked"/>
+      <Button Name="UseItem"      BasePng="100289;1" PushPng="100290;1" MouseEvent="OnUseItemClicked"/>
+      <Button Name="MoveItem"     BasePng="100291;1" PushPng="100292;1" MouseEvent="OnMoveItemClicked"/>
+      <Button Name="DeleteItem"   BasePng="100293;1" PushPng="100294;1" MouseEvent="OnDeleteItemClicked"/>
+    </List>
+    
+    <List Name="SkillMenu" X="524" Y="8" Width="71" Horizontal="1" Gap="5" Height="75" Activate="0">
+      <Button Name="RegisterSkill" BasePng="100285;1" PushPng="100286;1" MouseEvent="OnRegisterSkillClicked"/>
+    </List>
+    
+    <Button Name="BtnScroll" Width="27" Height="91" BasePng="100295;4" PushPng="100295;4" MouseEvent="OnScrollBtnClicked"/>
+    
+  </Control>
+
+
+
+</MobileMainMenuUI>

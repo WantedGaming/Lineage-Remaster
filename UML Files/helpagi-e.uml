@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>アジト</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">ゲームシステム：アジト</font></p>
+	<p>アデンワールド内の大都市のアデン、ギラン、ハイネ、グルーディンには血盟員のためのアジトがあります。<br/></p>
+	<p><a link="helpagi01">アジトの効果</a><br/></p>
+	<p><a link="helpagi02">アジトの購入</a><br/></p>
+	<p><a link="helpagi03">アジトの販売</a><br/></p>
+	<p><a link="helpagi04">アジトの管理</a><br/></p>
+	<p><img src="331" link="help"/><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リッキー</name>
+    <job>[修練のテレポーター]</job>
+  </npc>
+  <dialog>
+	<p>英雄となるための準備はすでに済ませているようだな…私は君をギラン城下町に送ってやれるぞ。</p>
+	<p><br/></p>
+	<p><font fg="ffafff">村への移動を頼む</font></p>
+	<p><br/></p>
+	<p><a action="b">ギラン城下町に送ってください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

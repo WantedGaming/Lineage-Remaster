@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Ancient Giant General</name>
+  </npc>
+  <dialog>
+    <p>Is it possible to prevent the curse placed by the Creator of this world? If you can do that, you have already surpassed the Creator.</p>
+    <p>In the first place, there is no such thing in this world.<br/><br/><br/></p>
+    <p><img src="331" link="aggeneral2"/><br/></p>
+  </dialog>
+</npcdialog>

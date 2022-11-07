@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>お前の仲間が死にそうになっているのを忘れたのか？</p>
+		<p>早く呪われた水の大精霊を倒して<font fg="ffffaf">水の精粋</font>で仲間を助けるのだ！</p>
+ 	</dialog>
+
+</npcdialog>

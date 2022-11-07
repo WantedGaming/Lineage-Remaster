@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>レイスン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 数が足りませんね。私が欲しいのは、<font fg="ffafff">モーリアの勲章7個</font>です。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

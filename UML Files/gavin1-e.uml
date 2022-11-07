@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		噂、聞きました？王国の南では、戦争で大変らしいですよ。ふう…それでも、ここはまだそれほど騒がしくはないけど、これからが心配です。<br/><br/>
+		あ、もしかしてペルトって猟師に会ってみましたか？ちょっと変わった人でね、みんな怖くて近づきたがらないあの溶岩地域で狩りをするんですよ。 
+		どうにも理解できないのは、あのあちこち流れている溶岩の川を、どうやって渡ってるのか…なんか秘訣でもあるんでしょうかね？ <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

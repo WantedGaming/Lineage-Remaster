@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <dialog>
+    <p><br/><font fg="ffafff">[メイン設定]</font><br/></p>
+	<p>トレード不可<br/></p>
+	<p>詳細は下段参照<br/><br/></p>
+	<p><font fg="ffafff">[商品構成]</font><br/></p>
+	<p>水霊属性変更スクロール1枚<br/><br/></p>
+	<p><font fg="ffafff">[商品説明]</font><br/></p>
+	<p>別の属性に強化されたアイテムを水霊属性に100%変換<br/></p>
+	<p>(属性1～5段階全て使用可能、変換前の段階と同じ段階に変換)<br/><br/></p>
+	<p>ただし、変換する武器の属性とスクロールの属性が同じ場合、「属性変換スクロール」が使用でき、消耗しない<br/><br/></p>
+	<p><font fg="ffafff">[設定]</font><br/></p>
+	<p>ドロップ/トレード/個人商店/削除/アデン商団に販売不可<br/></p>
+	<p>アカウント倉庫/キャラクター専用倉庫保管可能<br/></p>
+  </dialog>
+</npcdialog>

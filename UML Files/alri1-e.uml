@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>アリー</name>
+  </npc>
+  <dialog>
+    <p>辛い世の中、あなたの側で癒やしてくれるペットを飼っていますか？危険な場所に大事なペットを連れて行ったら大変です！ここで預けた方がいいですよ。</p>
+    <p><a action="depositnpc">動物を預ける</a></p>
+    <p><a action="withdrawnpc">動物を引き取る</a></p>
+    <p><a link="transfer">動物を譲渡する</a><br/><br/><br/></p>
+    <p>あなたがいない間、私が責任を持って世話をしておきます。預けるのは無料で預けられますけど、引き取る時には<var src="0"/>Adena程度を頂きますね。</p>
+    <p><a link="helppet02">動物を飼うにはどうすればいいですか？</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バトール</name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ダーク ストーン キーリンクを作るには<br/><br/>
+		 <font fg="ffffaf">最高級ダイアモンド10個、<br/>
+		 最高級ルビー10個、<br/>
+		 最高級サファイア10個、<br/>
+		 最高級エメラルド10個、<br/>
+		 ファアグリオの遺産30個、<br/>
+		 エヴァの遺産30個、<br/>
+		 マーブルの遺産30個、<br/>
+		 サイハの遺産30個、<br/>
+		 イリュージョニストのバトル スティック1個、<br/>
+		 1000000Adena</font>が必要です。<br/>
+		<br/>
+		<br/>
+		<a action="request obsidian kiringku">ダーク ストーン キーリンクを製作する</a><br/>
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

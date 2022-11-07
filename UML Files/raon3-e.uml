@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラオン</name>
+		<!--job>[잡화상인]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>物価は<font fg="ffffff"><var src="0"/>%</font>ぐらいです。ふう、原価が安いだけじゃ…税金はこんなに高いんだから…</p>
+		<p><img src="331" link="raon"/></p>
+	</dialog>
+
+</npcdialog>

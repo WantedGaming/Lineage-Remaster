@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>どうなった？一瞬だけではあったが、マナの流れが変わったとの報告を受けている。成功したのか？</p>
+		<p><br/><br/></p>
+		<p><a action="l">祭壇を破壊したことを伝えて破片を手渡す</a><br/></p>
+	</dialog>
+	
+</npcdialog>

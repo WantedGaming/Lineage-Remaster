@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ココ</name>
+		<job>ウィザード</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 アデンの未来を背負う者たちよ！<br/>
+		 何故、このような危険な場所へ向かうのですか？<br/>
+		<br/><br/>
+		<a action="teleportURL">地下ダンジョンに行きます</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

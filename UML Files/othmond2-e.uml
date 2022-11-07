@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+    <text>昨日一日の税金の収入と支出は次のとおりです。</text>
+  </npc>
+  <dialog>
+    <p>昨日の収入：</p>
+	<var src="0">Adena</var>
+	<p action="stdex">基本支出</p>
+	<var src="1">Adena</var>
+	<p>昨日の決算：</p>
+	<var src="2">Adena</var>
+	<p>現在の資産総額</p>
+	<var src="3">Adena</var>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>魔族の力は強大だ。ウィザードよ、くれぐれも気をつけたまえ。</p>
+		<p>失敗したら、ひとまず私の元に戻ってきたまえ。別の手を考えようじゃないか。必ず生きて帰ってきたまえ。</p>
+	</dialog>
+	
+</npcdialog>

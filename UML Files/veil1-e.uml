@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>ドラゴン用品</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ドルーガベール</name>
+    <text>よく来たな。</text>
+  </npc>
+  <dialog>
+    <p> 勇敢な勇士よ！私は偉大なる<font fg="fff00">ドルーガ家</font>の末裔であり、グンターの一番弟子でもあるドルーガベールという。<br/>
+		<br/>
+    ここ最近、得体の知れない力によって、ドラゴンの巣に大きな異変が起きたようだ。<br/>
+    <br/>
+    一度に入れるのは最大16人だ、それ以上は強い力で塞がれて入れなくなるようだ…<br/>
+    また、この力のせいで鋼鉄ギルドのドワーフたちもドラゴンごとに1つしかキーを手に入れられていないようだ。</p>
+<p><a link="veil2">ドラゴンキーを購入したいです</a></p>
+<p><a link="veil5">あなたの家門について聞きたいです</a></p> 
+  </dialog>
+</npcdialog>

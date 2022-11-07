@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Aldran</name>
+    <job>Priest in Training</job>
+  </npc>
+  <dialog>
+    <p>Ah... so you're not taking my advice either... okay, I won't stop.</p>
+    <p>Instead, I have one request.</p>
+    <p>Will you do your part to save the souls that have been cursed and give them rest?</p>
+    <p>If you bring me their <font fg="ffafff">remains,</font> I will help you explore this place in return. Please do so.<br/><br/><br/></p>
+  </dialog>
+</npcdialog>

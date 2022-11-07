@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>マット</name>
+    <job>[ウィザード]</job>
+  </npc>
+  <dialog>
+	<p> 移動する狩り場を選んでください。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf"><a link="guide_0_1_1">[Lv10～25]東の森/ロウフル神殿</a></font><br/>：<a action="teleport guide0_1_1">狩り場にテレポートする</a></p>
+	<p><br/></p>
+	<p><font fg="ffffaf"><a link="guide_0_1_2">[Lv25～35] 静かなる森</a></font><br/>：<a action="teleport guide0_1_2">狩り場にテレポートする</a></p>
+	<p><br/></p>
+	<p><font fg="ffffaf"><a link="guide_0_1_3">[Lv25～35] カオティックテンプル</a></font><br/>：<a action="teleport guide0_1_3">狩り場にテレポートする</a></p>
+	<p><br/></p>
+	<p><font fg="ffffaf"><a link="guide_0_1_8">[Lv30～35] 砂漠警戒地帯</a></font><br/>：<a action="teleport guide0_1_8">狩り場にテレポートする</a></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">[Lv 52～59]竜のダンジョン入り口</font><br/>：<a action="teleport training3">狩り場にテレポートする</a></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

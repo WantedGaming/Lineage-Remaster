@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>アイテムのなかにはシリーズをすべて集めると特殊効果を持つものがあります。<br/></p>
+		<p>例えばHPの最大値を上げたり、防御力が増加したりします。<br/></p>
+		<p>似たような名前を持つ防具をパーツ別に集めて装備してみてください。<br/></p>
+
+	</dialog>
+
+</npcdialog>

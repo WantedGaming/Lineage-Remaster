@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[アジト管理人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/><br/>こんにちはぁ！<br/></p>
+		<p>頑張って活動して、サーバーに活気を取り戻してね！<br/></p>
+		<p> 他の人たちともここで楽しくお話をしたかったら、招待状を送ってね！<br/></p>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+	</dialog>
+</npcdialog>

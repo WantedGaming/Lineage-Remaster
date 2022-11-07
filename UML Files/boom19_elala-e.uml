@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>エルララ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		私が差し上げた<font fg="ffffaf">暖かいルビーの懐炉</font>と<font fg="ffffaf">冷たい雪の結晶200個</font>を全部持って来られたのですか？<br/>
+		<br/>
+		なんとお礼を言ってよいか！ありがとうございます！<br/>
+		お礼に勇士様の冒険を<font fg="ffffaf">3段階</font>速くできる<font fg="ffffaf">パタラシの3段階加速の実</font>を差し上げます。<br/>
+		<br/></p>
+		<p>
+		<font fg="25a6d6"><a action="d">ドラゴンの最高級報賞(45%)</a></font><br/>		
+		</p>
+		<p>
+		<font fg="25a6d6"><a action="c">ドラゴンの高級報賞(20%)</a></font><br/>		
+		</p>
+		<p>
+		<font fg="25a6d6"><a action="b">ドラゴンの報賞(5%)</a></font><br/>		
+		</p>
+		<p>
+		<font fg="25a6d6"><a action="a">一般報賞(2%)</a></font><br/>		
+		</p>
+		<p><br/><br/>
+		報賞は<font fg="ffffaf">レベル52に基準で、レベル60以下は</font>はもう少し強くなってからお越しください。<br/>
+		あと、ドラゴンのダイアモンドをくだされば、さらにたくさんの報賞を差し上げます。<br/><br/>
+		<br/>
+		 <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

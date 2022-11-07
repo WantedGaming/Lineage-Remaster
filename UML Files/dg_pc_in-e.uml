@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff"><var src="name"/>：</font>各地域に入るには<font fg="ffaaff">ピクシーの金色の羽</font>が必要だ。</p>
+	<panel type="Panel_Tomb_Bt">
+		    <button action="a_soul"/>
+			<button action="a_soul_center"/>
+			<button action="a_giant"/>
+    </panel>
+	<panel type="Panel_Field_Abandoned_PC_Bt">
+			<button action="a_man"/>
+    </panel>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+	<p><var src="0"/>はあなたを見ていません。</p>
+	<p><br/><br/></p>
+	<p><var src="0"/>に、あなたと向き合うようにお願いしましょう。</p>
+	<p><br/><br/></p>
+	<p>動かずに方向を換えたい場合、SHIFTキーを押したまま、向きたい方向を左クリックすれば、キャラクターの向きを変えることができます。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

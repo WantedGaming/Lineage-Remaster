@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>モルダ</name>
+		<job>魔法販売人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+
+		<p>いらっしゃいませ。<br/></p>
+		<p>魔法を伝授する<font fg="ffffaf">モルダ</font>と申します。<br/></p>
+		<p>魔法を習得したのですか？<br/></p>
+		
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		
+		<p>ここクラウディアはとても美しい村です。村人も良い人ばかりですし。<br/></p>
+		 
+	</dialog>
+
+</npcdialog>

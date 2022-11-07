@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>小さい頃、アデン城を見に向かう途中で道に迷って<font fg="ffffff">鏡の森</font>に入ったことがありました。</p>
+		<p>そこで見たんです。私と同じ顔をした怪物<font fg="ffffff">ドッペルゲンガー</font>を…！</p>
+		<p>今でも夢に出てくるぐらい本当に怖かったんです。</p>
+		<p>その怪物がハイネ沼地帯まで来ているんです。もうここでは暮らせないかもしれません。</p>
+	</dialog>
+
+</npcdialog>

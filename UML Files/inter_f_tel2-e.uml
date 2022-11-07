@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+      <name>オーブ</name>
+    <job>[Teleporter]</job>
+	</npc>
+	<dialog>
+<p>黒き森の軍団が支配している地域にテレポートできるオーブ</p>
+<p> <a action="a">黒き森の軍団の村に行く</a><br height="80"/></p>
+   </dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>Theon</name>
+    <job>[ Training Instructor ]</job>
+    <text>Come On!</text>
+  </npc>
+  <dialog>
+    <p>Come to me when you need help with anything.</p>
+  </dialog>
+</npcdialog>

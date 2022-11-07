@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>2番目の宝の地図の場所</name>
+  </npc>
+  <dialog>
+    <p>(見つけたぞ！ここが地図に描かれた場所か。小さな袋があるぞ？)</p>
+    <p><a action="0">袋を拾う</a></p>
+  </dialog>
+</npcdialog>

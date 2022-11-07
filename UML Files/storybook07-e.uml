@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[救国の英雄トバリス6世]：</font></p>
+	<p><br/></p>
+	<p><font fg="ffffaf">トラビス6世</font>は自身の父のような武人としての強い指揮力を備えながら、さらに人としても自らの自尊心のために国民を蔑ろにするような愚かな人ではなかった。</p>
+	<p><br/></p>
+	<p>それまでの国王とは違い<font fg="ffffaf">トラビス6世</font>は大胆にも<font fg="ffffaf">エルモア</font>との戦争に<font fg="ffffaf">グレシア</font>を引き込んだ。</p>
+	<p><br/></p>
+	<p>強大な海軍を基盤とした<font fg="ffffaf">グレシア</font>の軍事力は、アデンの若き国王を軽く見ていた<font fg="ffffaf">エルモア</font>にプレッシャーを掛けるには申し分なかった。</p>
+	<p><br/></p>
+	<p>秋頃に始まった<font fg="ffffaf">アデンとグレシアの連合軍</font>による反撃は、雪が降る頃にはすでに首都<font fg="ffffaf">アデン</font>を奪還し、翌年の春には<font fg="ffffaf">エルモア</font>の首都が見える丘まで進撃していた。</p>
+	<p><br/></p>
+	<p>この時<font fg="ffffaf">トラビス6世</font>が神の一手を打つ。莫大な戦争補償金と終戦を約束するならば、<font fg="ffffaf">エルモア</font>から奪ったすべての領土を返すという型破りな協定書を<font fg="ffffaf">エルモア国王</font>に伝えたのだ。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf">トラビス6世</font>は<font fg="ffffaf">グレシア</font>に補償金の一部を渡しても<font fg="ffffaf">アデン領土</font>の再建に十分な金額を得るだけでなく、以降30年間<font fg="ffffaf">エルモア</font>と<font fg="ffffaf">グレシア</font>がアデンに侵攻できないようになるきっかけになった。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook08">* 鋼鉄のギルド</a></p>
+	<p><br/></p>
+	<p><a link="storybook09">* 蜂起</a></p>
+	<p><br/></p>
+	<p><a link="storybook10">* 混沌の終結：イズケイル</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

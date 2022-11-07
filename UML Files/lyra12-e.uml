@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>ライラ</name>
+	<job>[フォノス征伐隊]</job>
+  </npc>
+  <dialog>
+    <p>私たちはオークと確かに戦ってはいるけど、だからって人間なら誰でも無条件に信じてるわけじゃないのよ。</p>
+    <p>あなたみたいな人は、いっそオークの要塞にでも行って雇ってもらったらどう？</p>	
+    <p><var src="0">の血盟主だったらあなたみたいな人もきっと受け入れるだろうからね。</p>
+	</dialog>
+</npcdialog>

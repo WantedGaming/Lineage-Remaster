@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>無意味な戦争とやらをやっている人間がここに何の用だ。</p>
+		<p>お前らはアインハザードの子でありながら自らの神には従わず、自由奔放に生きているから、再び戦争という業火を世界が襲ったのだと私は思っている。</p>
+		<p>お前たちは反王を生かしておいてはいけなかったのだ…あいつは間違いなく大きな災いを再び呼ぶだろう。</p>
+	</dialog>
+
+</npcdialog>

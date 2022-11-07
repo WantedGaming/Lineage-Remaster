@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>バルログの分身</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>敗北の苦杯が呼び寄せた怒りと憎しみ。私が受けた恥辱。きゃつらの死をもって洗い流してやろうぞ。</p> 
+		<p>きゃつらの血で私の名誉の杯を満たし、その肉で私の飢えた欲望を満たすのだ。</p>
+		<p>私のために<font fg="ffaaff">「堕落」</font>と<font fg="ffaaff">「その司祭たち」に死</font>をもたらしてくれるなら、 魔族も欲するほどの財宝でお礼をしよう。</p>
+		<p><a action="request craft">財宝が何なのか確認する</a></p>
+  </dialog>
+</npcdialog>

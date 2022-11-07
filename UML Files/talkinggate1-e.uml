@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ここは陰湿で邪悪なやつらが集まっている場所だ。</p>
+		<p><br/></p>
+		<p>ここに入るに相応しい資格を持った者でなければ、過酷で特別な訓練を受けることはできない。</p>
+		<p><br/></p>
+		<p>そなたは相応しい者であるか？</p>
+		<p><br/></p>
+		<p><br/></p>
+		<p><a action="a">入れてください</a></p>
+		<p><br/></p>
+		<p><br/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>何なの？あんた！女だからってバカにしてると今に痛い目に遭うわよ。早くそこをどいてちょうだい！<br/></p>
+		<p><br/></p>
+		<p>強くてえらい振りしてのさばってるアデンの勇士のやつらさえも私を恐れているんだから！<br/></p>
+		<p>かかってくるか？<br/></p>
+	</dialog>
+</npcdialog>

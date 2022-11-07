@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+    <p>人間よ、</p>
+	<p>今はお前に構っている場合じゃないんじゃ。</p>
+    <p>すまぬが、ここから去ってはくれまいか？</p>
+ 	<p>我が一族は今、気が立っておってな。お前に悪さをするかもしれんのじゃ。</p>
+    <p><a link="lelder2">何があったのか教えてください</a></p>
+    <p><a link="lelder3">わかりました、去りましょう</a></p>
+	</dialog>
+</npcdialog>

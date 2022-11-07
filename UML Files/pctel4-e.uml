@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ピアト</name>
+  </npc>
+  <dialog>
+	<p>他の村への移動にはAdenaが必要です。</p>
+	<p>Where do you want to go?</p>
+	<p><a action="C">Oren:100Adena</a></p>
+	<p><a action="D">Werldern Village:100Adena</a></p>
+	<p><a action="E">Heine:100Adena</a></p>
+	<p><a action="F">Kent:100Adena</a></p>
+	<p><a action="G">Gludin Village:100Adena</a></p>
+	<p><a action="H">シルバーナイトタウン：100Adena</a></p>
+	<p><a action="I">Woodbeck Village:100Adena</a></p>
+	<p><a action="J">Firefield Village:100Adena</a></p>
+	<p><a action="K">Talking Island:250Adena</a></p>
+	<p><a action="L">Temple of Aden:100Adena</a></p>
+	<p><a action="N">Market:100Adena</a></p>
+  </dialog>
+</npcdialog>

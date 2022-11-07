@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">ヤヒのアンドリュー：</font><br/><br/></p>
+    <p>アデン大陸にある各領地は、他の領地との交易が活発ではないから物の価値が少しずつ違う。その差をうまく使えば大金を稼げるかもしれないな。</p>
+  </dialog>
+</npcdialog>

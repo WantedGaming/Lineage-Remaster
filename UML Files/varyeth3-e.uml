@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>バリエス</name>
+    <job>[魔法商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <p>物価ですか…私が最後に聞いたとおりであれば、おそらく<font fg="ffffff"><var src="0"/>%</font>ぐらいだったと思いますよ？</p>
+    <p><img src="331" link="varyeth"/></p>
+  </dialog>
+</npcdialog>

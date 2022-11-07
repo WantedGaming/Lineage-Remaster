@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラヴォル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>何度も同じ話を繰り返してすまない。</p>
+		<p>いい知らせでもあるのかね？</p>
+		<p><a action="1">復活と永生の契約書を渡す</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>sign</icon>
+	<title>看板</title>
+	<dialog>
+		<p align="center"><font fg="1111ff">出入り禁止</font><br/><br/></p>
+		<p>危険地域につき、一般人の出入りを禁ず。<br/><br/><br/></p>
+		<p align="right">グルーディオ公　ケント伯爵</p>
+	</dialog>
+</npcdialog>

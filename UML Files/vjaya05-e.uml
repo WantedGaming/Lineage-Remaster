@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ビジャヤ</name>
+  </npc>
+  <dialog>
+    <p>使ってみて良ければ、アデンのいろんなところにいるイリュージョニストたちに新しい武器について知らせてもらえるとありがたいです。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+	<name><var src="name"/></name>
+    <job>[Unicorn Temple Manager]</job>
+  </npc>
+  <dialog>
+	<p>
+ 夢幻の島には平和が戻ってきましたが、ユニコーンテンプルにはより強力になった異界の存在が押し寄せています。<br/>
+ どうかユニコーンテンプルをお守りください。
+<br/>
+<br/>
+<br/>
+ <a action="a">ユニコーンテンプルに入場</a><br/>
+<br/>
+<br/>
+ <a action="b">ギラン城下町に移動</a><br/>
+<br/>
+<br/>
+</p>
+  </dialog>
+</npcdialog>

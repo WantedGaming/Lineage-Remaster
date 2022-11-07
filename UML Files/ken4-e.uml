@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<!-- <title></title> -->
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name> ： </name>
+		<!-- <job></job> -->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		バービードラゴンの瓶と鱗が両方必要です。<br></br>
+		<font fg="b078ab">バービードラゴンの鱗50個</font>と<font fg="b078ab">バービードラゴンの瓶</font>、
+		もっと特別なものを望むのなら、<font fg="b078ab">ドラゴンのダイアモンド</font>もしくは<font fg="b078ab">祝福されたドラゴンのダイアモンド</font>を持ってくれば<br>プレゼントを差し上げます…</br>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

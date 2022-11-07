@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <name>デフマン</name>
+		<job>[商人]</job>
+  </npc>
+  <dialog>
+	  <panel type="Panel_Shop_Bt_Buy">
+      <button action="buy"/>
+    </panel>
+    <p> こんにちは。ここはアデンを代表する武器商店です。どうぞご覧ください。<br/><br/>
+		<a link="defman3">Ask about recent prices</a>
+		</p>
+  </dialog>
+</npcdialog>

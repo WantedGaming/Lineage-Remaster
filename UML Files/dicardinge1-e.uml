@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p> ようこそ。世界樹の加護を受けるエルフよ。<br/>
+		マシャーから話は聞いたよ。エルフの国からアデンへと出向き、さまざまな冒険を経験しているようだな。<br/>
+		<br/><br/><br/>
+		<a link="dicardinge2">どういうことか聞く</a><br/><br/></p>
+	</dialog>
+	
+</npcdialog>

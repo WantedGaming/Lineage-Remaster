@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ペイハス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>私がお教えできるのは簡単な魔法だけです。ここを離れると魔法の習得が難しくなりますが、そんな時は魔法書を使ってください。これは魔法を会得できるよう記録した本です。<br/></p>
+		<p><font fg="ffafff">魔法書は大きくロウフル、ニュートラル、カオティック</font>の3つに分かれます。魔法書を持って、世界各地にあるアインハザードの<font fg="ffafff">ロウフルテンプル</font>、あるいはグランカインの<font fg="ffafff">カオティックテンプル</font>に行けば、神殿の属性に合った魔法を覚えることができます。ニュートラルはどの神殿でも覚えることができます。<br/></p>
+		<p>すぐ必要になることではないが、覚えておいて損はないですから、頭の片隅においておくと良いでしょう。<br/><br/></p>
+		
+		<p><img src="331" link="siriss"/></p>
+		
+	</dialog>
+
+</npcdialog>

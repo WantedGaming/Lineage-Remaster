@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>数学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 間違いなくこの機械は世界を支配するはずなのだ！<br/>
+		<br/>
+		 今足りない材料は<font fg="ffffaa">薄い金属板1枚、ランプ スチール5個と、その他の材料などの諸費用で1,000Adena</font>が必要なのだ！<br/>
+		 薄い金属板とランプ スチールは、この村にいる「ヘクター」って鍛冶屋が作ってくれるはずだ！
+		 必要な材料さえ持ってきてくれたら、完成品の1台はただで譲るから頼んだぞ！<br/>
+		<br/>
+		<br/>
+		 <a link="blaise3">その材料たちは何で必要なんですか？</a><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

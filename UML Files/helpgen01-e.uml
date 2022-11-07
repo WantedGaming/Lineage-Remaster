@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>移動と方向転換</title>
+  <dialog>
+	<p><font fg="ffffaf">キャラクターの移動と方向転換：</font><br/></p>
+	<p>マウスを使って画面上の行きたい場所をクリックします。<br/>
+	移動せずにキャラクターの向きだけ変えたい場合は、<font fg="afffff">Shift</font>キーを押した状態で向きたい方角をクリックします。<br/></p>
+	<p><img src="331" link="helpgen"/><br/></p>
+  </dialog>
+</npcdialog>

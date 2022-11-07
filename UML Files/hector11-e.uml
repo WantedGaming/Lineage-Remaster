@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="ffafff">極寒のセット</font>のことか？俺が思うに、極寒のセットは理論上最高のセットだ。<br/><br/>
+		普遍的な防具に魔法の気を吹き込み、とてつもない力を持つ防具を作るのだが、材料を手に入れるのが難儀なんだよ。<br/><br/>
+		アイスクイーンが身に着けている<font fg="ffafff">ティアラ</font>、<font fg="ffafff">ドレス</font>、<font fg="ffafff">サンダル</font>は知っているか？ 
+		それらには極寒の力が備わっているが、それらをもう一度原石にして中にある極寒の力を抽出しなけりゃならない。<br/><br/>
+		アイスクイーン セットを手に入れるのも大変だが、だれが俺を信じてあの貴重なセットを原石に変えるかってんだ。<br/><br/>
+		 <img src="331/" link="hector1"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>

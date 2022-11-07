@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+	<text>こんにちは。象牙の塔から派遣された <name/>と申します。</text>
+  </npc>
+  <dialog>
+	<p><font fg="ffffaf">500Adena</font>いただければ、私が持つ魔法を掛けて差し上げます。</p>
+	<p><font fg="ffffaf">バフ：</font></p>
+	<p><a action="a">強化魔法を受けます</a></p>
+	<p>アデン大陸で魔法の流れが変化しています。乱れた世を正すため、タラス様の命のもと皆さんをここに来られたのです。</p>
+	<p>我々はウィザードの修練の力になるために所定の費用をいただいてますので、悪く思わないでくださいね。</p>
+  </dialog>
+</npcdialog>

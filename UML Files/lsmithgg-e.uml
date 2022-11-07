@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの鍛冶屋</name>
+  </npc>
+  <dialog>
+	<p>混沌のマント、ヤヒの尾、手下どものソウルクリスタルの欠片100個。</p>
+	<p>俺が何を言いたいのか、わかってるな？</p>
+  </dialog>
+</npcdialog>

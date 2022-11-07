@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>傭兵隊長 ハルト</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		今は頭数が足りなくて、配置された数どおりの兵力を揃えることはできかねますが。もっと人を集めなければなりません。
+		
+		</p>
+	</dialog>
+</npcdialog>

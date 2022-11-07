@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<MGNpcList>
+	<Enchant>
+		<NPC id = "1"  desc="$15840" spr="11805" Surf="6088" icon="5850" price="1000"/> <!--pr m jack-->
+		<NPC id = "2"  desc="$15837" spr="11790" Surf="6087" icon="5851" price="1000"/> <!--pr f bono-->
+		<NPC id = "3"  desc="$15839" spr="11808" Surf="6090" icon="5852" price="1000"/> <!--kn m ralf-->
+		<NPC id = "4"  desc="$15846" spr="11788" Surf="6089" icon="5853" price="1000"/> <!--kn f shak-->
+		<NPC id = "5"  desc="$15842" spr="11799" Surf="6096" icon="5854" price="1000"/> <!--el m kaka-->
+		<NPC id = "6"  desc="$15845" spr="11784" Surf="6095" icon="5855" price="1000"/> <!--el f anser-->
+		<NPC id = "7"  desc="$15838" spr="11792" Surf="6094" icon="5856" price="1000"/> <!--wi m mulr-->
+		<NPC id = "8"  desc="$15847" spr="11794" Surf="6093" icon="5857" price="1000"/> <!--wi f like-->
+		<NPC id = "9"  desc="$15841" spr="11813" Surf="6092" icon="5858" price="1000"/> <!--da m woog-->
+		<NPC id = "10" desc="$15849" spr="11811" Surf="6091" icon="5859" price="1000"/> <!--da f kori-->
+		<NPC id = "11" desc="$15850" spr="11796" Surf="6098" icon="5860" price="1000"/> <!--dk m venk-->
+		<NPC id = "12" desc="$15848" spr="11782" Surf="6097" icon="5861" price="1000"/> <!--dk f deiy-->
+		<NPC id = "13" desc="$15843" spr="11802" Surf="6100" icon="5862" price="1000"/> <!--il m shon-->
+		<NPC id = "14" desc="$15844" spr="11786" Surf="6099" icon="5863" price="1000"/> <!--il f gull-->
+	</Enchant>
+	<Enc_Weapon>
+    <NPC id = "1" desc="$598" spr="12067" Surf="" icon="" price=""/> <!--damascus sword-->
+    <NPC id = "2" desc="$789" spr="12068" Surf="" icon="" price=""/> <!--rapier-->
+    <NPC id = "3" desc="$313" spr="12069" Surf="" icon="" price=""/> <!--sword of red knights-->
+    <NPC id = "4" desc="$97" spr="12070" Surf="" icon="" price=""/> <!--dwarvish short sword-->
+    <NPC id = "5" desc="$793" spr="12071" Surf="" icon="" price=""/> <!--mail breaker-->
+    <NPC id = "6" desc="$99" spr="12072" Surf="" icon="" price=""/> <!--orcish short sword-->
+    <NPC id = "7" desc="$1147" spr="12073" Surf="" icon="" price=""/> <!--silver long sword-->
+    <NPC id = "8" desc="$16" spr="12074" Surf="" icon="" price=""/> <!--katana-->
+    <NPC id = "9" desc="$1048" spr="12075" Surf="" icon="" price=""/> <!--great sword-->
+    <NPC id = "10" desc="$1020" spr="12076" Surf="" icon="" price=""/> <!--dragon slayer-->
+    <NPC id = "11" desc="$17" spr="12077" Surf="" icon="" price=""/> <!--tsurugi-->
+    <NPC id = "12" desc="$3" spr="12078" Surf="" icon="" price=""/> <!--two handed sword-->
+    <NPC id = "13" desc="$92" spr="12079" Surf="" icon="" price=""/> <!--scimitar-->
+    <NPC id = "14" desc="$416" spr="12080" Surf="" icon="" price=""/> <!--dice dagger-->
+    <NPC id = "15" desc="$415" spr="12081" Surf="" icon="" price=""/> <!--gradius-->
+    <NPC id = "16" desc="$2859" spr="12082" Surf="" icon="" price=""/> <!--sword of knight vald-->
+    <NPC id = "17" desc="$2994" spr="12083" Surf="" icon="" price=""/> <!--enchanted sword of chief-->
+    <NPC id = "18" desc="$2758" spr="12084" Surf="" icon="" price=""/> <!--sword of death knight-->
+    <NPC id = "19" desc="$2772" spr="12085" Surf="" icon="" price=""/> <!--sword of ancient darkelf-->
+    <NPC id = "20" desc="$2648" spr="12086" Surf="" icon="" price=""/> <!--finger of death-->
+    <NPC id = "21" desc="$3110" spr="12087" Surf="" icon="" price=""/> <!--sword of silence-->
+    <NPC id = "22" desc="$3248" spr="12088" Surf="" icon="" price=""/> <!--mithril dagger-->
+    <NPC id = "23" desc="$3247" spr="12089" Surf="" icon="" price=""/> <!--oriharukon dagger-->
+    <NPC id = "24" desc="$3375" spr="12090" Surf="" icon="" price=""/> <!--sword of evil-->
+    <NPC id = "25" desc="$3504" spr="12091" Surf="" icon="" price=""/> <!--cutlass-->
+    <NPC id = "26" desc="$3505" spr="12092" Surf="" icon="" price=""/> <!--pirate shamshil-->
+    <NPC id = "27" desc="$3790" spr="12093" Surf="" icon="" price=""/> <!--sword of honor-->
+    <NPC id = "28" desc="$3795" spr="12094" Surf="" icon="" price=""/> <!--bloody dagger-->
+    <NPC id = "29" desc="$3839" spr="12095" Surf="" icon="" price=""/> <!--lasge long sword-->
+    <NPC id = "30" desc="$3840" spr="12096" Surf="" icon="" price=""/> <!--lasge short sword-->
+    <NPC id = "31" desc="$3863" spr="12097" Surf="" icon="" price=""/> <!--knife of dark-->
+    <NPC id = "32" desc="$3864" spr="12098" Surf="" icon="" price=""/> <!--blood long sword-->
+    <NPC id = "33" desc="$3867" spr="12099" Surf="" icon="" price=""/> <!--crystal short sword-->
+    <NPC id = "34" desc="$5254" spr="12100" Surf="" icon="" price=""/> <!--halloween pumpkin sword test-->
+    <NPC id = "35" desc="$5491" spr="12101" Surf="" icon="" price=""/> <!--lightning sword-->
+    <NPC id = "36" desc="$5486" spr="12102" Surf="" icon="" price=""/> <!--dagger of mana-->
+    <NPC id = "37" desc="$5488" spr="12103" Surf="" icon="" price=""/> <!--ruin sword-->
+    <NPC id = "38" desc="$5664" spr="12104" Surf="" icon="" price=""/> <!--dragonknight great sword-->
+    <NPC id = "39" desc="$5719" spr="12105" Surf="" icon="" price=""/> <!--thebe osiris greatsword test-->
+    <NPC id = "40" desc="$6131 $567 $3" spr="12106" Surf="" icon="" price=""/> <!--twohandsword of dev-->
+    <NPC id = "41" desc="$3834" spr="12107" Surf="" icon="" price=""/> <!--enforce sword of emperor-->
+    <NPC id = "42" desc="$3835" spr="12108" Surf="" icon="" price=""/> <!--sword of windblade-->
+    <NPC id = "43" desc="$4375" spr="12109" Surf="" icon="" price=""/> <!--sword of kirtas-->
+    <NPC id = "44" desc="$872" spr="12110" Surf="" icon="" price=""/> <!--sword of barlog 1-->
+    <NPC id = "45" desc="$8824" spr="12111" Surf="" icon="" price=""/> <!--k_tw00-->
+	</Enc_Weapon>
+	<Bingo>
+		<NPC id = "1" desc="$16351" spr="11835" Surf="6034" miniSurf="6035" price="50000"/> <!--orc-->
+		<NPC id = "2" desc="$16352" spr="11833" Surf="6030" miniSurf="6031" price="50000"/> <!--succubus-->
+		<NPC id = "3" desc="$16353" spr="11823" Surf="6044" miniSurf="6045" price="50000"/> <!--comic bear-->
+		<NPC id = "4" desc="$16354" spr="11837" Surf="6036" miniSurf="6037" price="50000"/> <!--orc santa-->
+		<NPC id = "5" desc="$16355" spr="11863" Surf="6004" miniSurf="6005" price="50000"/> <!--snowman-->
+		<NPC id = "6" desc="$16356" spr="11829" Surf="6024" miniSurf="6025" price="50000"/> <!--bugbear-->
+		<NPC id = "7" desc="$16357" spr="11871" Surf="6006" miniSurf="6007" price="50000"/> <!--werewolf-->
+		<NPC id = "8" desc="$16358" spr="11855" Surf="6046" miniSurf="6047" price="50000"/> <!--cockatrice-->
+		<NPC id = "9" desc="$16359" spr="11859" Surf="6032" miniSurf="6033" price="50000"/> <!--rich spartoi-->
+		<NPC id = "10" desc="$16360" spr="11867" Surf="6052" miniSurf="6053" price="50000"/> <!--tiger-->
+		<NPC id = "11" desc="$16361" spr="11869" Surf="6038" miniSurf="6039" price="50000"/> <!--unicorn-->
+		<NPC id = "12" desc="$16362" spr="11827" Surf="6022" miniSurf="6023" price="50000"/> <!--vampire-->
+		<NPC id = "13" desc="$16363" spr="11841" Surf="6018" miniSurf="6019" price="50000"/> <!--mummy lord-->
+		<NPC id = "14" desc="$16364" spr="11861" Surf="6008" miniSurf="6009" price="50000"/> <!--death knight-->
+		<NPC id = "15" desc="$16365" spr="11831" Surf="6040" miniSurf="6041" price="50000"/> <!--elder-->
+		<NPC id = "16" desc="$16366" spr="11857" Surf="6020" miniSurf="6021" price="50000"/> <!--baphomet-->
+		<NPC id = "17" desc="$16367" spr="11853" Surf="6012" miniSurf="6013" price="50000"/> <!--raccoon-->
+		<NPC id = "18" desc="$16368" spr="11851" Surf="6016" miniSurf="6017" price="50000"/> <!--mambo rabbit-->
+		<NPC id = "19" desc="$16369" spr="11865" Surf="6010" miniSurf="6011" price="50000"/> <!--lava golem-->
+		<NPC id = "20" desc="$16370" spr="11843" Surf="6028" miniSurf="6029" price="50000"/> <!--cyclops-->
+		<NPC id = "21" desc="$16371" spr="11849" Surf="6050" miniSurf="6051" price="50000"/> <!--scarecrow baru-->
+		<NPC id = "22" desc="$16372" spr="11825" Surf="6026" miniSurf="6027" price="50000"/> <!--red orc-->
+		<NPC id = "23" desc="$16373" spr="11847" Surf="6048" miniSurf="6049" price="50000"/> <!--panda-->
+		<NPC id = "24" desc="$16374" spr="11839" Surf="6042" miniSurf="6043" price="50000"/> <!--kangaroo-->
+		<NPC id = "25" desc="$16375" spr="11845" Surf="6014" miniSurf="6015" price="50000"/> <!--mandarin orange-->		
+	</Bingo>
+	<BingoHuman>
+		<NPC id = "26" desc="$15836" spr="11683" />											 <!--mc npc-->
+	</BingoHuman>
+</MGNpcList>

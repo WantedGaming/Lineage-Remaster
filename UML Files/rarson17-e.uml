@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラルソン</name>
+		<!--job>[치안대장]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p><font fg="ffffaf">勇士の証</font>はどこですか。恨みに満ちたハメル将軍を倒すと<font fg="ffffaf">ハメルの息吹</font>が手に入ります。</p>
+		<p><font fg="ffffaf">ハメルの息吹</font>と<font fg="ffffaf">花束</font>を持って慰霊碑に行って、彼の魂を慰めてあげれば、<font fg="ffffaf">勇士の証</font>が手に入ります。</p>
+	</dialog>
+
+</npcdialog>

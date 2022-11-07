@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>揺らぐ者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 汝、何を求めるか！真の力を欲するならば、魔族の支配者カヘル様を受け入れるのだ！
+		<br/>
+		<br/>
+		<br/>
+		<a action="1">カヘルの意志を受け入れる</a><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

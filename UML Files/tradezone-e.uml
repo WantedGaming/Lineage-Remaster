@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_015</portrait>
+		<name><var src="name"/></name>
+		<job>[Market Teleporter]</job>
+		<text></text>
+	</npc>
+	
+	<dialog align="left">
+		<p><br/>
+		<font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>Are you looking for a market?</p>
+		<p>The market can only be reached by teleportation.</p>
+		<p>If there is a merchant you would like to find, please tell the<font fg="ffaaff">market guard.</font></p>
+		<br/>
+		<panel type="Panel_Teleport_Shop">
+				<button action="teleport trade-zone"/>
+        </panel>
+
+	</dialog>
+
+</npcdialog>

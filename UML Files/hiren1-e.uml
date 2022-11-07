@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ワシにはどうしても解き明かしたい秘密があるんだ。<br/></p>
+		<p>ワシの親しい友人が何だか…クンクン<br/></p>
+		<p>前にそれとなく探りを入れてみたんだが、クンクン。逆に怒られちまってね。<br/></p>
+		<p>ワシの代わりにちょっと探ってきてくれないか？クンクン。<br/></p>
+		<p><a action="a">秘密とは何だろう？私も気になります</a></p>
+	</dialog>
+
+</npcdialog>

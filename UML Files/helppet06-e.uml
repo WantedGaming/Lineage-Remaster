@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ペット</title>
+  <dialog>
+	<p><font fg="ffffaf">ペットアイテム：</font><br/>
+	ペットアイテムは各村の<font fg="afffff">ペット雑貨商人</font>から購入するか<font fg="afffff">カイモショップ</font>で購入できます。<br/></p>
+	<p><img src="331" link="helppet"/><br/><br/></p>
+	</dialog>
+</npcdialog>

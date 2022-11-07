@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>アデンの守護騎士</name>
+		<job>[イベント商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>いらっしゃい。<br/>
+		また会うことができて嬉しいよ。<br/>
+		<br/>
+		ミソフィア様がアデンにお越しになられているのを知っているか？<br/>
+		ミソフィア様がアデンの新たな始まりを祝して<font fg="ffffaf">力を秘めたブーツ</font>を準備されたとのことだ。<br/>
+		<br/>
+		ただし、このブーツは誰でも手にできるものじゃないんだ。ミソフィア様が隠された村に戻られた瞬間、すべてのブーツが消えてしまうんだ。<br/>
+		けれど、<font fg="ffffaf">+5以上に強化したブーツ</font>は消えずに残り、ずっと使えるようにしてくれるそうなんだ。<br/>
+		<br/>
+		ミソフィア様の<font fg="ffffaf">隠された村</font>で<font fg="ffffaf">ミソフィアの心</font>を集めて、国王に謁見すれば
+		<font fg="ffffaf">特製ブーツ強化アイテム</font>を獲得できるそうだ。<br/>
+		<br/>
+		隠された村に出発する前に必ず<font fg="ffffaf">ミソフィアの招待状</font>を持ったか、忘れずに確認するんだぞ！
+		<br/>
+		君の幸運を祈っているよ。<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="non_npc buy"/></panel>
+	</dialog>
+</npcdialog>

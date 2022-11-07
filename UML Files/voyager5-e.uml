@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>倒れた航海士</name>
+  </npc>
+  <dialog>
+    <p> この、航海、日誌…ところどころが、欠けている…<br/>
+		<br/>
+    私は、もう、これ以上…動け、ない…<br/>
+    だがら…航海、日誌を…元通りに、して、ほしい…<br/>
+		<br/>
+    人生の、ただ、ひとつの希望…目標、だった…この、航海日誌が…
+    バラバラに、なって…意味を、なさなくなる、のは嫌なんだ…<br/>
+		<br/>
+    頼む、どうか…この、航海日誌を…元通りに、してくれ…礼は、必ずする…</p>
+    <p><br/></p>
+    <p><a action="A">元通りにします</a></p>
+  </dialog>
+</npcdialog>

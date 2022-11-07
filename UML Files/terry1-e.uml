@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ギラン城下町は商いの町として栄えただけあり、詐欺師も多いと聞きます。誰でも簡単に信じない方が良いです。</p>
+	</dialog>
+
+</npcdialog>

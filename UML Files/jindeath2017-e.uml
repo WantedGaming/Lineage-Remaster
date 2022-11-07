@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><font fg="ffffaf">[真デスナイトの変身リスト]</font></p>
+    <p align="center">
+    <img src="14460" tooltip="真デスナイト" action="event jin death knight"/><blank width="10"/>
+    <img src="14471" tooltip="真シャドウ" action="event jin assassin"/><blank width="10"/>
+    <img src="14501" tooltip="真バフォメット" action="event jin baphomet master"/><br/><br/>
+    <img src="14480" tooltip="真ランスマスター" action="event jin lance master"/><blank width="10"/>
+    <img src="14490" tooltip="オーウェン" action="event owen"/><blank width="10"/>
+    <img src="14517" tooltip="警備兵" action="event guard spear red"/><br/><br/>
+    </p>
+  </dialog>
+</npcdialog>

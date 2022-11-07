@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+    <p>勇士様のインベントリに500Adenaがないようです。<br/>
+		<br/>
+     インベントリを確認してください。</p>
+  </dialog>
+</npcdialog>

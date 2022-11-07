@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>森とエルフの母と呼ばれる、村の中央にある<font fg="ffffaf">世界樹のそばの洞窟</font>に住んでいる、アラクネ族の長老のことですよ。<br/><br/></p>
+	<p>材料を持って行けば、アラクネ族特有の手さばきで、私たちエルフに必要な<font fg="ffffaf">色んなものをつくってくれる</font>、とってもありがたい方なの。</p>
+	<p>ちょっと言葉がきついけどね…<br/><br/></p>
+	<p><img src="331" link="narhenE5"></img></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

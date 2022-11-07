@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 アデンの守護団に参加していたうちの兄さんも帰ってきたんです。<br/>
+		 でも、ドラゴンがアデンに脅威をもたらすとかでまた守護団に戻っていっちゃいました。<br/>
+		 平和はいつ訪れるんでしょうか…<br/>
+		</p>
+	</dialog>
+</npcdialog>

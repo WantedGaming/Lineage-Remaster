@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>ワーリン</name>
+		<job>[リング製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 まさか勇士様もあのスリアーという女から、赤い太陽の光がなんちゃらとかいう話に釣られてアミュレットを押し売りされたんじゃないですか？<br/>
+		 昨日はうちでリングを買いに来たウィザードの方がスリアーに引っ掛けられて、神聖な機敏のアミュレットを買っていったそうですよ。まったく…<br/>
+		 <br/>
+		 あら、つい愚痴が出てしまいましたね。どの<font fg="ffffaf">リング</font>が必要なのかおっしゃってくだされば、さっとお作りしますよ。<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

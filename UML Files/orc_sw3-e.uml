@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オークの捜索文書(ウィンダウッド)</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>砂漠で時の歪みを発見した。</p>
+<br/>
+<p>一箇所に留まるのではなく、一定周期で現れたり消えたりするようだ。</p>
+<br/>
+<p>時の歪みについての調査が必要だ。</p>
+<br/>
+<p>生命の木についての手がかりはもう少し探らなければならない。</p>
+</dialog>
+
+</npcdialog>

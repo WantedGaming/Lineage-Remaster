@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p>隣におられる方はデポロジュー様の守護騎士でおられるジークフリード様だ。</p>
+		<p>ギルタス征伐の準備でお忙しいから、面倒でもかけたらただじゃおかないからな！	</p>
+	</dialog>
+</npcdialog>

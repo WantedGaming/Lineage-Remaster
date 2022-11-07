@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>リザードマンの長老</name>
+  </npc>
+  <dialog>
+    <p>クホン、余所者のお前には関係のないことじゃが…</p>
+    <p>おお、そうじゃ。余所者だからこそ頼みたいことがあるんじゃ。</p>
+    <p>良かったらワシの頼みを聞いてもらえんかね？</p>
+    <p><a link="lelder4">どうぞなんなりと</a></p>
+  </dialog>
+</npcdialog>

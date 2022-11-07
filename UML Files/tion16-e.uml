@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>噂では、あの老人は最近ボケはじめてきて、訪ねる者に難なく教本を渡しているそうだが、まさかお前も勉強せず教本だけ持って来たのではないだろうな？</p>
+		<p>そうか…信じてみるとしよう。</p>
+		<p>我々の歴史と伝統について知ったからといって、そう簡単に入団は認められないぞ。</p>
+		<p>これはまだ基本中の基本、ポイズンサーペントになるためのスタートを切ったに過ぎない。</p>
+		<p>さあ、最初の関門だ！水中生物をモンスターへと変えた存在についてはお前も知っているだろう。その原因を突き止めて私のところに持ってこい。</p>
+		<p><a action="C">パプリオンの血痕を渡す</a></p>
+	</dialog>
+
+</npcdialog>
+

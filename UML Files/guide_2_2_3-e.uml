@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 シルバーナイトタウンのダンジョンは、反王に従っていたブラックナイトの巣窟になってしまいました。やつらはナイトをたぶらかして、ブラックナイトへの道に引きずり込もうと血まなこになっているようです。シルバーナイトタウンのダンジョンの3階には、まだ訓練中の弱い<font fg="ffafff">修練ブラックナイト</font>がいるとのことです。やつら以外にも、レベルの高い<font fg="ffafff">精鋭ブラックナイト</font>がいるそうです。<br/>
+		 くれぐれも気をつけてくださいね。アンデッド系のモンスターとか<font fg="ffafff">バグベアー</font>もまだいますよ。それでは、ご健闘を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

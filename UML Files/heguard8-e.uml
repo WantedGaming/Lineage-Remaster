@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">ハイネ城 警備兵：</font></p>
+		<p><br/>
+		</p><p>領主は次の攻城戦時刻をまだ決定されていない。
+		
+		</p>
+	</dialog>
+</npcdialog>

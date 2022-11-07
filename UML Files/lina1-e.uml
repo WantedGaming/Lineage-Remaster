@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>私の夢は大ウィザードになることよ。</p>
+	<p>私がもう少し大きくなったら、大陸の北のほうにあるっていうウィザードの都市を探して旅に出るつもりなのよ。</p> 
+	<p>そして必ず大ウィザードになってやるわ。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 森を燃やして、その焼け跡に農作物を植える農法です。<br/><br/>
+		 長続きしない方法なのであまりやりたくはないのですが、今のように農業をする土地がない状態ではいか仕方ありません。<br/><br/>
+		 北の森には大きなオークの部族がいて危険ですけど、最近はどこ行っても危険なので、他の場所と大して変わりません。だから、人たちが多く押しかけて、新しい村を作ったそうです。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

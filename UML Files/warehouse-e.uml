@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+    <p>倉庫番の鍵を使うと、追加倉庫(キャラクター専用倉庫)を<font fg="ffffaf">20スロット</font>拡張することができ、最大<font fg="ffffaf">60スロット</font>まで拡張することができます。<br/>
+		<br/>
+    <font fg="ffffaf">倉庫番の鍵はカイモショップで購入できます。</font></p>
+    <p><img src="331" link="storage"/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">業の管理者：</font></p>
+    <p><br/>グハァ…お前が私に何かを頼むにはまだまだ忠誠心が足らぬようだな…</p>
+  </dialog>
+</npcdialog>

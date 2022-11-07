@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+	<name><var src="name"/></name>
+    <job>[Unicorn Temple Manager]</job>
+  </npc>
+  <dialog>
+	<p>
+成長の玉か成長の玉の欠片は<font fg="ffaaff">悪霊の種5個</font>から身を守れる力があります。
+<br/>
+もし悪霊の種が50個以上あると、悪霊に取り憑かれてしまうかもしれません。
+<br/>
+成長の玉か成長の玉の欠片をもっとお持ちになったほうがいいでしょう。もしくは、隣にいる<font fg="ffaaff">エキンス</font>から種による報酬を受け取ってください。
+</p>
+  </dialog>
+</npcdialog>

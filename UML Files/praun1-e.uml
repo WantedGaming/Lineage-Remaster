@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff">フラウン：</font><br/></p>
+	<p>今は売ってあげられるアイテムがないんだ。<br/><br/></p>
+	<p>話せる島のセリンに会ってみるといい。</p>
+  </dialog>
+</npcdialog>

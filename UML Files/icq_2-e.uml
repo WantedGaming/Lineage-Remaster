@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+   <npc>
+    <name>友好的な近衛兵</name>
+  </npc>
+  <dialog>
+    <p align="left"><font fg="ffffff">友好的な近衛兵：</font></p>
+    <p><br/>長いこと城門を守ってきましたが、人間を直接見るのは初めてです。人間の体で、危険を覚悟にここまで来た理由は何ですか？<br/><br/></p>
+	<p>最近侍女たちがアイスクイーンに怪しい行動をとったという噂が、まさか人間界にまで広がったのですか？<br/><br/></p>
+	<p>彼女たちを止められるのだろうか…<br/><br/><br/></p>
+	<p><a action="enter">侍女たちを追い払うので城内に移動させてください。</a><br/><br/></p>
+  </dialog>
+</npcdialog>

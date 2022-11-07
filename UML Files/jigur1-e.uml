@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジグルー</name>
+		<job>[ピクシーの箱交換員]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 ある時、誰かがオーレン村にエルモア怪物を引き連れてきたせいで、
+		 それまで一生懸命集めたピクシーの魂と羽を全部落としてしまった。<br/><br/>
+		 私を手伝ってくれれば<font fg="ffffaf">光るピクシーの箱</font>を渡そう…手伝ってくれるな…<br/><br/>
+		準備品：<br/>
+		 ピクシーの魂<font fg="ffffaf">100</font>個<br/>
+		 ピクシーの羽<font fg="ffffaf">50</font>個<br/><br/>
+		完成品：<br/>
+		 <a action="request pc ivory box">光るピクシーの箱</a><br/><br/>
+		 聞くところによると<font fg="ffffaf">象牙の塔ヤヒ陣営</font>で白い羽を持った五色に輝くエルフが飛び交ってるとのことだが…<br/><br/>
+		 白い羽はピクシーの羽で、五色に輝くのはピクシーの魂に間違いない…私は到底象牙の塔には行けない…時間もないので…<br/><br/>
+		 今年は確かに一生懸命暮らしてきたのだがなぜ年末に…なぜ年末に…こんなことが起こったのか…ワケがわからない！<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

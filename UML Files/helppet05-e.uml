@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>ペット</title>
+  <dialog>
+	<p><font fg="ffffaf">ペットステータスの確認：</font><br/>
+	ステータスの数値によってペットの能力値が決まります。<br/>
+	ペットステータスは、レベル アップ時に獲得するステータスポイントまたはペット専用エリクサーで上げることができ、一定値まで上げるとボーナス効果が得られます。<br/>
+	ペットステータスは各項目で最大<font fg="afffff">30</font>まで上げられます。<br/></p>
+	<p><font fg="ffafff">ペットステータスの効果およびボーナス効果</font><br/>
+	<font fg="afffff">狩り力</font>は近距離ダメージ、近距離命中、近距離クリティカルで、<font fg="afffff">ステータス20達成時に能力値ボーナス</font>としてダメージ+1、命中+1が追加され、<font fg="afffff">ステータス30達成時に能力値ボーナス</font>としてダメージ+1、命中+1が追加されます。<br/><br/>
+	<font fg="afffff">生存力</font>は最大HP、HP自然回復量、AC、MR、ダメージ リダクションで、<font fg="afffff">ステータス20達成時に能力値ボーナス</font>としてHP回復量+1、AC+1が追加され、<font fg="afffff">ステータス30達成時に能力値ボーナス</font>としてHP回復量+1、AC+1が追加されます。<br/><br/>
+	<font fg="afffff">神聖力</font>はスキル ダメージ、スキル クリティカル、スキル発動率で、<font fg="afffff">ステータス20達成時に能力値ボーナス</font>としてスキル ダメージ+5、スキル発動率+1が追加され、<font fg="afffff">ステータス30達成時に能力値ボーナス</font>としてスキル ダメージ+5、スキル発動率+1が追加されます。<br/></p>
+	<p><font fg="ffafff">ペットステータスの初期化</font><br/>
+	<font fg="afffff">ペット用希望のロウソク</font>を使用するとペットのステータスを初期化できます。<br/>
+	それ以外にも、ペットを販売するために忘却させた場合にも初期化されます。<br/></p>
+	<p><img src="331" link="helppet"/><br/><br/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		
+		<p>Sprite： <var src="0"/> action：<var src="1"/><br/></p>
+		
+		<p><a action="stest0">Next Direction</a><br/></p>
+		<p><a action="stest1">Previous Direction</a><br/></p>
+		
+		<p><a action="stest2">Next Action</a><br/></p>
+		<p><a action="stest3">Previous Action</a><br/></p>
+		
+		<p><a action="stest4">Repeat Action</a><br/></p>
+		<p><a action="stest5">Test All Actions</a><br/></p>
+		<p><a action="stest6">Next Direction and Repeat</a><br/></p>
+		
+		<p><a action="stest7">Next Sprite</a><br/></p>
+		<p><a action="stest8">Previous Sprite</a></p>
+
+				
+	</dialog>
+
+</npcdialog>
+				

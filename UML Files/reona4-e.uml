@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>レオナ</name>
+    <job>[冒険家]</job>
+  </npc>
+  	<dialog align="left">
+		<p>ははは～！ワシもまだまだ見る目は衰えてないようじゃ。</p>
+		<p>大変だが貴重な経験になるだろう。もちろん謝礼は弾んでやるぞ。</p>
+		<p>それじゃあ頼んだぞ。</p>
+	</dialog>
+</npcdialog>

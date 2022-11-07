@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+    <p>おお！探してきてくれたのか…</p> 	
+    <p>このダイアモンドはな、ワシがこの島で初めて見つけた宝物だったんじゃ。</p> 	
+    <p>高い物ではないが、ワシにとっては大事な思い出の品なんじゃ。</p> 
+    <p>どうもありがとう。</p>
+    <p>お礼にこのアミュレットを差し上げよう。</p>
+    <p>つまらないものじゃが、役に立つといいのう。</p>
+    <p><a action="1">アミュレットを受け取る</a></p>
+	</dialog>
+</npcdialog>

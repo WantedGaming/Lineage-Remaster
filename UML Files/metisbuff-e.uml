@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Bronze Statue</name>
+		<job>[Event]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/> 
+		 Commemorating the rebirth of the "Halpas" world.<br/><br/>
+		
+		<p align="right">
+		 ―Kingdom of Aden
+		</p>
+		<br/>
+		<br/>
+		 <a action="A">Receives memorial enhancement magic.</a><br/>
+		</p>	
+	</dialog>
+</npcdialog>

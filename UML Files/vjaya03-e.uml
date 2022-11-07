@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ビジャヤ</name>
+  </npc>
+  <dialog>
+    <p> とても良い武器をお持ちだったのですね。<br/>
+		<br/>
+    <font fg="ffffaf">+9ダーク ストーン キーリンク</font>と<font fg="ffffaf">1000万Adena</font>で+8の新しい武器を製作できます。<br/>
+    <font fg="ffffaf">+8ダーク ストーン キーリンク</font>と<font fg="ffffaf">500万Adena</font>で+7の新しい武器を製作できます。<br/>
+		<br/>
+    どれになされますか？</p>
+		<p><br/></p>
+    <p><a action="C">+7共鳴のキーリンク</a><br/>
+		<br/>
+    <a action="D">+8共鳴のキーリンク</a></p>
+  </dialog>
+</npcdialog>

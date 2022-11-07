@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>我らオーク族は、基本的に農業は営まない。採取や狩り…そして略奪こそが、我らの生きる道だ。</p> 
+	<p>もちろん、人間どものように農業でもやれば、我々も今よりはよっぽど豊かになるかも知れん。だが、オークの中には、そんなことを考えるヤツは一人もいない。オークの守護神は火の神ファアグリオ…大地に縛られていては、戦士としての精神を、最後まで燃やし尽くす事ができんからだ。</p>
+	<p>…とは言っても、何事にも例外はある。<a link="nenani2">ゴラ</a>みたいなヤツもいるからな。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Aldran</name>
+    
+  </npc>
+  <dialog>
+    <p>Oh!!! Thank you! I am sure their souls are thankful for you too.</p>
+    <p>Now, this is the bottle that contains their souls. Try to break this jar in the circular magic circle you see in front of you.</p>
+    <p>Their souls will help you get out of this.</p>
+  </dialog>
+</npcdialog>

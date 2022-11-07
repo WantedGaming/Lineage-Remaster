@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		む…ケレニスが…そんなことを企んでいたとは…<br/>
+		私は問題の解決に尽力しよう。君も力を蓄えておいてくれ。<br/><br/><br/>
+		<a action="a">グンターの推薦書を見せる</a><br/><br/><br/>
+		そういえば…<br/>
+		</p><p>おぬしがデューク デフィルの血筋だと？ははっはっは…ふむ、まぁ、そうかもしれぬな。<br/>
+		</p><p>先王が亡きあと<a link="gerengp2">彼の血盟の者</a>が息絶え、あるいは行方不明となった今、デューク デフィルの子息であることが証明できるのはアデン城にいる<a link="gerengp3">ガドリア王妃</a>ただ一人…。どっちみちおぬしがデューク デフィルの正統な後継者であると証明するには、アデンに行くしかあるまい。
+		<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

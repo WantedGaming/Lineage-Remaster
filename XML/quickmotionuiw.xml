@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<QuickMotionUI>
+	<Control Name="PlaceHolder" X="703" Y="466">
+		<Control Name="PlaceHolder2" X="0" Y="0">
+			<Window Name="Slot" X="0" Y="0" BaseSurf = "8744;5;16" MouseEvent = "Dummy" Top="1">
+				
+				<ItemIcon Name = "DisappearSlotItem_0" X="1" Y="1" Width="32" Height="32" Activate="0">
+				</ItemIcon>
+				<ItemIcon Name = "DisappearSlotItem_1" X="36" Y="1" Width="32" Height="32" Activate="0">
+				</ItemIcon>
+				<ItemIcon Name = "DisappearSlotItem_2" X="71" Y="1" Width="32" Height="32" Activate="0">
+				</ItemIcon>
+				<ItemIcon Name = "DisappearSlotItem_3" X="106" Y="1" Width="32" Height="32" Activate="0">
+				</ItemIcon>
+				
+				<ItemIcon Name = "SlotItem_0" X="1" Y="1" Width="32" Height="32" Activate="0" MouseEvent = "SlotItem" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Image Name="OnOffImage" Surf="5208;1" X="2" Y="2"/>
+					<Tooltip Name = "Desc_Tooltip"  X = "5" Y="-25"/>
+				</ItemIcon>
+				<ItemIcon Name = "SlotItem_1" X="36" Y="1" Width="32" Height="32" Activate="0" MouseEvent = "SlotItem" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Image Name="OnOffImage" Surf="5208;1" X="2" Y="2"/>
+					<Tooltip Name = "Desc_Tooltip"  X = "5" Y="-25"/>
+				</ItemIcon>
+				<ItemIcon Name = "SlotItem_2" X="71" Y="1" Width="32" Height="32" Activate="0" MouseEvent = "SlotItem" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Image Name="OnOffImage" Surf="5208;1" X="2" Y="2"/>
+					<Tooltip Name = "Desc_Tooltip"  X = "5" Y="-25"/>
+				</ItemIcon>
+				<ItemIcon Name = "SlotItem_3" X="106" Y="1" Width="32" Height="32" Activate="0" MouseEvent = "SlotItem" OverlayColor="255,0,0" OverlayColorRate="5">
+					<Image Name="OnOffImage" Surf="5208;1" X="2" Y="2"/>
+					<Tooltip Name = "Desc_Tooltip"  X = "5" Y="-25"/>
+				</ItemIcon>
+				
+				<Button Name="Up_Button" X="-18" Y="8" Activate="0" BaseSurf="8738;1" PushSurf="8738;1"  ShadowSurf="8739;3" MouseEvent="UpSlot"/>
+				<Button Name="Down_Button" X="142" Y="8" Activate="0" BaseSurf="8736;1" PushSurf="8736;1"  ShadowSurf="8737;3" MouseEvent="DownSlot"/>
+			</Window>
+
+			<Button Name="Show_Button" X="57" Y="20" Activate="0" BaseSurf="8740;1" HighlightSurf="8741;1" PushSurf="8741;1" MouseEvent="ShowSlot" Top="1">
+				<Effect Name = "Effect" X = "0" Y = "-4" MostTop = "1" Effect = "81" Delay = "5000" Loop = "1"/>
+			</Button>
+			<Button Name="Hide_Button" X="57" Y="-15" Activate="0" BaseSurf="8742;1" HighlightSurf="8743;1" PushSurf="8743;1" MouseEvent="HideSlot"/>
+		</Control>
+	</Control>
+</QuickMotionUI>

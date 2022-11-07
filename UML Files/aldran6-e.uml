@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Aldran</name>
+    <job>Priest in Training</job>
+  </npc>
+  <dialog>
+    <p>I hope you are safe! You have brought rest to many souls.</p>
+    <p>However, there are still many suffering souls in this gloomy place who need your help.<br/><br/><br/></p>
+    <p><a action="A">May their souls rest in peace.</a><br/></p>
+  </dialog>
+</npcdialog>

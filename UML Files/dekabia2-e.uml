@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>デカビア</name>
+		<job>[Teleporter]</job>
+  </npc>
+  <dialog>
+    <p> ここからお送りできる村と料金は以下のとおりです。どちらに行かれますか？<br/><br/>
+<a action="teleport behemoth-werldern">Werldern Village:<var src="0"/>Adena</a><br/>
+<a action="teleport behemoth-giran">Giran Castle Town:<var src="1"/>Adena</a><br/>
+<a action="teleport behemoth-oren">Oren Village:<var src="2"/>Adena</a><br/>
+<a action="teleport behemoth-silveria">シルベリア：<var src="3"/>Adena</a><br/>
+<a action="teleport behemoth-kent">Kent Castle Town:<var src="4"/>Adena</a><br/>
+<a action="teleport behemoth-heine">Heine Castle Town:<var src="5"/>Adena</a><br/>
+<a action="teleport behemoth-gludin">Gludin Village:<var src="6"/>Adena</a><br/>
+<a action="teleport behemoth-silver">シルバーナイトタウン：<var src="7"/>Adena</a><br/>
+<a action="teleport behemoth-aden">Aden:<var src="8"/>Adena</a><br/>
+<a action="teleport behemoth-woods">ウッドベック村：<var src="9"/>Adena</a><br/>
+<a action="teleport behemoth-willow">Firefield Village:<var src="10"/>Adena</a><br/>
+<a action="teleport behemoth-lowful">Lawful Temple:<var src="11"/>Adena</a><br/>
+<a action="teleport behemoth-chaos">Chaotic Temple:<var src="12"/>Adena</a><br/>
+<a action="teleport behemoth-island">Talking Island:<var src="13"/>Adena</a><br/>
+<a action="teleport behemoth-diad">ディアド要塞：<var src="14"/>Adena</a><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>侍従長 オービル</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>昨日一日の税金の収入と支出は次のとおりです。</p>
+<br/>
+<p>昨日の収入：</p>
+<p><var src="0"/>Adena</p>
+<p><a action="stdex">基本支出</a></p>
+<br/>
+<p><var src="1"/>Adena</p>
+<p>昨日の決算：</p>
+<br/>
+<p><var src="2"/>Adena</p>
+<p>現在の資産総額</p>
+<br/>
+<p><var src="3"/>Adena</p>
+</dialog>
+
+</npcdialog>

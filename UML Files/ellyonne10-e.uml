@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>The magic of the spirits is, as the term implies, the magic of receiving and using the power of the spirits, who are the embodiment of the fundamental forces of this world.</p>
+		<p>It's said that's why humans, who lack a much stronger affinity with spirits than elves, can't use that magic.</p>
+		<p>The magic of spirits can be divided into five major series.</p>
+		<p>The common series, the fire series, the water series, the wind series, and finally the earth series.</p>
+		<p><img src="331" link="ellyonne9"/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 ハイネ村が活気に満ちているのを感じますか？<br/><br/>
+		 この活気は、忘れられた島に行く船着場がハイネにできた影響です。<br/><br/><br/>
+		 そこにはとてつもない宝が眠っているそうですけど、行ってみましたか？<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

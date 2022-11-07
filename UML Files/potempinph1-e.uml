@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ポテンピン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>どのようなことについてお知りになりたいですか、ご主人様？</p>
+		<p><a link="potempinhp2">領主という地位と侍従長について</a></p>
+		<p><a link="potempinhp3">税金について</a></p>
+		<p><a link="potempinhp4">城の管理について</a></p>
+		<p><a link="potempinhp5">傭兵について</a></p>
+		<p><a link="potempinhp6">戦争について</a></p>
+	</dialog>
+
+</npcdialog>

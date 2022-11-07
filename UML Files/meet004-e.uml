@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 お前の失言に偉大なる長がお怒りになられた。<br/>
+		 バルログ様へのお前の忠誠心は、吹けばと飛ぶほど軽いものだったのか？<br/>
+		 お前の笑顔の裏に隠された刃をしまうがいい…<br/><br/>
+		 大口をたたくならそれだけのソウルクリスタルを捧げるのだ！でなければバルログさまの怒りはおさまらないであろう…<br/>
+		</p>
+	</dialog>
+</npcdialog>

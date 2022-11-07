@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>Talk_TitleIcon_Warehouse</icon>
+  <title>창고</title>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>도린</name>
+    <job>[ 통합 창고 지기 ]</job>
+    <text>반갑습니다.</text>
+  </npc>
+  <dialog>
+    <p>가격은 물건 하나당 가격이며, 돈은 물건을 찾을 때 내는 거요.</p>
+    <li>일반 창고: 100 아데나</li>
+    <li>혈맹 창고: 500 아데나</li>
+    <p>그리고 창고 비밀번호를 사용할 수 있도록 해 놓았으니 사용해도 좋소.</p>
+    <p>이용료는 무료이며, 필요하시다면 창고 비밀번호 이용방법도 알려드리리다.</p>
+    <p>[이용 방법]</p>
+    <li link="dorinwp">[창고비밀번호]</li>
+    <li link="warechar2">[특수창고]</li>
+  </dialog>
+</npcdialog>

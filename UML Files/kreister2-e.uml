@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>魔法の本商人</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>クリスト</name>
+		<job>[魔法伝授者]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		ウィザードでなけりゃ、本を買っても解読できないぞ…
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

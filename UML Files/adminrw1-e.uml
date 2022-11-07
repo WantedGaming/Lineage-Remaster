@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Training Manager：</font><br/><br/></p>
+	<p>The best way to learn the feel of a sword is to practice with a <font fg="ffafff">scarecrow!</font></p>
+    <p>Come on, let's hit the nearest scarecrow and train!<br/></p>
+	<p>When you reach <font fg="ffafff">level 5</font>, talk to me!</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p><font fg="fff064">魂の結晶体</font>をいくつ持ってきましたか？</p>
+		<p><a action="B">一度だけ交換する(20個)</a></p>
+		<p><a action="C">全て交換する</a></p>
+  </dialog>
+</npcdialog>

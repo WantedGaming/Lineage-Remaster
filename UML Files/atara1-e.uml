@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 地竜アンタラス、水竜パプリオン、風竜リンドビオル…知らない人はいない最強の生物、ドラゴンたちです。<br/><br/>
+		 その昔、ドラゴン同士で戦っていた話はご存知ですか？<br/>
+		 地形が変わるほど地面がえぐれたそうです…<br/>
+		 そんなドラゴンの中でも、最も凶悪だと言われるのが火竜ヴァラカスです。そのヴァラカスがあの山の頂上に眠っています。<br/><br/>
+		 もしもヴァラカスが急に暴れたりしたら…一瞬でこの村ごと消し飛んでしまうでしょうね…<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>グンターの助言</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		おまえこそがアデンの真の勇士だ。調査によれば、<font fg="fff00">風竜 リンドビオル</font>は<font fg="fff00">風</font>と<font fg="fff00">雷</font>を操る竜だという。
+		賢くすばしっこい奴で、危険を感じると<font fg="fff00">空に舞い上がり</font>自分の姿と同じ
+		<font fg="fff00">幻影</font>を作って攻撃するそうだ。
+		<br/>
+		<br/>
+		私の話を肝に銘じておけば、勝算はゼロではない。なんとか<font fg="fff00">風竜 リンドビオル</font>を倒し、
+		アデン大陸に平和をもたらしてくれ。
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<SoundVolumeHighlight ver="1">
+<!-- 
+SoundIndex		사운드 wav 파일 넘버로 해당 파일 넘버가 재생될 때, 다른음의 소리를 제어한다.
+PlayTime		사운드 제어 시간(초단위)으로 효과음과 주변음, 배경음 등을 몇 초간 안들리게 할 것인지 넣어준다. 
+TurnDownedVolume	다른 사운드 볼륨을 원래의 볼륨보다 얼마나 작게 낼지(퍼센트)로 나타낸다.
+-->
+	<HighlightSoundVolumeInstance	SoundIndex="6726"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>
+	<HighlightSoundVolumeInstance	SoundIndex="6727"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>
+	<HighlightSoundVolumeInstance	SoundIndex="6728"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6729"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>
+	<HighlightSoundVolumeInstance	SoundIndex="6730"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6731"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6732"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6733"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6734"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>
+	<HighlightSoundVolumeInstance	SoundIndex="6735"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>
+	<HighlightSoundVolumeInstance	SoundIndex="6736"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6737"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>
+	<HighlightSoundVolumeInstance	SoundIndex="6738"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6739"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6740"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="6741"	PlayTime="10"	TurnDownedVolumePrecent="5">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="7479"	PlayTime="6"	TurnDownedVolumePrecent="1">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="7480"	PlayTime="6"	TurnDownedVolumePrecent="1">	</HighlightSoundVolumeInstance>	
+	<HighlightSoundVolumeInstance	SoundIndex="7481"	PlayTime="5"	TurnDownedVolumePrecent="1">	</HighlightSoundVolumeInstance>	
+</SoundVolumeHighlight>
+

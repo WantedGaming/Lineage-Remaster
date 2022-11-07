@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p><br/>
+		 ヒューマンにとって最も恐ろしい敵は、結局同じヒューマンだよ。 
+		どんなに強い怪物でも、ヒューマンの知恵に勝つことは出来ない。<br/><br/>
+		 しかし、相手がヒューマンと同じ知恵を持った者なら、話は変わる。 
+		幸い地上連合軍の活躍によりダークエルフの軍隊に打ち勝つことができた。だが、歴史上最も苛酷な戦いであったことを忘れてはならない。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

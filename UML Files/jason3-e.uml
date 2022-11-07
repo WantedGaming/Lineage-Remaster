@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェイソン</name>
+		<job>[材木商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>丸太1つあれば4つの木材が作れるぜ。
+		</p>
+		<p><br height="30"/></p>
+		<p><a action="request timber">木材に加工する</a></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+	<dialog>
+		<p>
+		<br/>
+		<font fg="fffaff">ファントムサーバーにようこそ！</font><br/>
+		<br/>
+		<br/>
+		スムーズなイベント進行のため、1Adenaで強くなれる<font fg="ffffaf">バフ銅像</font>を準備しました。<br/>
+		<br/>
+		<br/>
+		ファントムサーバーで楽しい時間を過ごしてください。<br/>
+		<br/>
+		<br/>
+		ありがとう！<br/>
+		<br/>
+		<br/>
+		<font fg="afffff"><a action="a">1Adenaを払ってバフを受ける</a></font><br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

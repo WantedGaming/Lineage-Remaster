@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロンドゥ</name>
+		<job>ブルディカの後継者</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ここはダークエルフの血を受け継ぐ者だけが存在を許される場所だ。それ以外の者は、死をもってその代償を払うことになる。</p>
+	</dialog>
+	
+</npcdialog>

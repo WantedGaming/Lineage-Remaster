@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <dialog>
+    <p><br/><font fg="ffafff">[メイン設定]</font><br/></p>
+	<p>箱の状態でトレード可能<br/></p>
+	<p>詳細は下段参照<br/><br/></p>
+	<p><font fg="ffafff">[商品構成]</font><br/></p>
+	<p>希望のロウソク1個<br/><br/></p>
+	<p><font fg="ffafff">[商品説明]</font><br/></p>
+	<p>グルーディン村にいるロロ(希望のロウソクガイド)に届けると、
+	キャラクターのステータスが初期化できる<br/><br/></p>
+	<p><font fg="ffafff">[設定]</font><br/></p>
+	<p>1．希望のロウソクの箱<br/></p>
+	<p>ドロップ/トレード/個人商店可能<br/></p>
+	<p>削除不可<br/></p>
+	<p>アカウント倉庫/キャラクター専用倉庫保管可能<br/></p>
+	<p>アデン商団に販売不可<br/><br/></p>
+	<p>2．希望のロウソク<br/></p>
+	<p>ドロップ/トレード/個人商店/削除不可<br/></p>
+	<p>アカウント倉庫/キャラクター専用倉庫保管可能<br/></p>
+	<p>アデン商団に販売不可<br/><br/></p>
+  </dialog>
+</npcdialog>

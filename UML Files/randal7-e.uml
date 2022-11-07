@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ランダル</name>
+    <job>[ポーション商人]</job>
+  </npc>
+  <dialog align="left">
+    <p>すべてのクラスが使用可能で、変身スクロールより優れた効能があるんだ。</p>
+    <p><a action="A" numberInput="20">濃縮変身ポーション</a></p>
+    <p>材料：変身スクロール3枚、1,000Adena</p>
+    <p><img src="331" link="randal0"/></p>
+  </dialog>
+</npcdialog>

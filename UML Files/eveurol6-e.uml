@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+		<p>パプリオンに呪われた汚れた生物どもを退治したようですね。</p>
+		<p>私に「パプリオンの血痕」をいただけるなら、それに見合った報酬を差し上げましょう。</p>
+		<p><a action="request eveurol bag">パプリオンの血痕を渡す</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ティモン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>親衛隊を雇用なさる際は、まず城に資金を入金しなければなりません。</p>
+		<p>親衛隊を配置された後、親衛隊長ビウストを訪ねれば兵士を雇用することができます。</p>
+		<p><a action="employ">親衛隊を招集する</a></p>
+		<p><a action="arrange">招集した親衛隊を配置する</a></p>
+	</dialog>
+
+</npcdialog>

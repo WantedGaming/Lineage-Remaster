@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゾウ</name>
+		<job>ダークスター</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		…聞こえるか…この声が…
+		見えるぞ…闇からの命令に従う<font fg="ffafff">ブラックナイト</font>たちが…
+		彼らがアデンを脅かしている。<br/><br/>
+		彼らを倒さないと…
+		アデンは闇に飲み込まれてしまう…
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

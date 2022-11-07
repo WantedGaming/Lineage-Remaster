@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">研究員の助手：</font>
+<br/><br/>
+こんにちは。<br/><br/>
+ユキ様とお話されましたか？<br/><br/>
+ここに戻られるときは再度寄付金が必要です。<br/><br/>
+よく考えてから決めてくださいね。<br/><br/><br/>
+
+<a action="a">話せる島に帰る</a><br/>
+</p>
+</dialog>
+</npcdialog>

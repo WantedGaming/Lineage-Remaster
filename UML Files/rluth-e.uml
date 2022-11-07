@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ロッテ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>グルーディン村いちの雑貨店へようこそ！</p>
+		<p>さあ、何かをお探しですか。見てってくださいね。 </p>
+			<panel type="Panel_Shop_Bt_Buy">
+				<button action="buy"/>
+			</panel>
+		<p><a action="s_merchant3">Ask about recent prices</a>	</p>
+	</dialog>
+	
+</npcdialog>

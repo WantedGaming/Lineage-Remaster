@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの鍛冶屋</name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 もうすぐだ。カヘル ヤヒ様の復活の日が近づいている。 
+		 お前の手の中で叫ぶアリスを見ろ。もっと大量の血を求めるかのように真っ赤に輝いているではないか？<br/>
+		 要点だけ言おう。 
+		 <br/>
+		 バルログの戦慄10個と、ブラッドクリスタルの欠片100個をもって来い！お前のそのアリスとカヘル ヤヒ様の栄光のために！うははははは！<br/>
+		<br/>
+		<a action="a">材料をすべて用意しました</a>
+		</p>
+	</dialog>
+</npcdialog>

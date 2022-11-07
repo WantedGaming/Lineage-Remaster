@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<DailyGiftUI>
+	<Control Name = "Dailynotify_Control" X = "0" Y = "382" Width = "84" Height = "66" Activate = "0">
+		<Effect Name = "Dailynotify_Effect" Y = "-4" MostTop = "1" Effect = "33" Delay = "5000" Loop = "1"/>
+		<Button Name = "Actnotify_Button" X = "8" Y = "12" BaseSurf = "4834;1" PushSurf = "4834;1" MouseEvent = "Notify"/>
+		<Image Name = "Deactnotify_Image" X = "8" Y = "12" Surf = "4833;1"/>
+		<Label Name = "Info_Label" X = "5" Y = "0"/>
+		<Label Name = "Time_Label" X = "5" Y = "60"/>
+		<Image Name = "Buttonback_Image" X = "8" Y = "12" Surf = "4835;3"/>
+		<Image Name = "Back_Image" Surf = "4840;3"/>
+	</Control>
+	<Window Name = "Confirm_Window" X = "283" Y = "214" BaseSurf = "4836;1" FrameSurf = "4837;1" Moveable = "18" KeyboardEvent = "CloseDialog" MouseEvent = "Dummy" Activate = "0">
+		<MultiLabel Name = "Message_Label" X = "20" Y = "45" Width = "190" Height = "100" VAlign = "botton" HAlign = "center"/>
+		<Button Name = "Confirm_Button" X = "30" Y = "150" BaseSurf = "4843" PushSurf = "4845;1" HighlightSurf = "4844" MouseEvent = "Confirm"/>
+		<Button Name = "Cancel_Button" X = "130" Y = "150" BaseSurf = "6401" PushSurf = "6403;1" HighlightSurf = "6402" MouseEvent = "CloseDialog"/>
+		<Button Name = "Closedialog_Button" X = "219" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseDialog"/>
+	</Window>
+	<Window Name = "Message_Window" X = "283" Y = "214" BaseSurf = "4838;1" FrameSurf = "4839;1" Moveable = "18" KeyboardEvent = "CloseDialog" MouseEvent = "Dummy" Activate = "0">
+		<MultiLabel Name = "Message_Label" X = "20" Y = "45" Width = "190" Height = "100" VAlign = "botton" HAlign = "center"/>
+		<Button Name = "OK_Button" X = "80" Y = "150" BaseSurf = "4846" PushSurf = "4848;1" HighlightSurf = "4847" MouseEvent = "CloseDialog"/>
+		<Button Name = "Closedialog_Button" X = "219" Y = "11" BaseSurf = "4000" PushSurf = "4001" MouseEvent = "CloseDialog"/>
+	</Window>
+</DailyGiftUI>

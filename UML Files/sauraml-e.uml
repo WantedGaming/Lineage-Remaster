@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>warehouse</icon> <!-- dialog, shop, enchant,  -->
+	<title>倉庫</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>サウラム</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>おいおい、誰がお前みたいな半人前のアイテムを預かるって？預けたいんなら、もっと名を上げてから来るんだな。	</p>
+	</dialog>
+	
+</npcdialog>

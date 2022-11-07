@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ペイハス</name>
+		<job>魔法伝授者</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>戦士気質溢れる方がここに来られるとは驚きですね。<br/></p>
+		<p>あなたは秘めた身体能力が精神力を大きく超える特徴がありますゆえ、高難易度の魔法を会得するのはかなり難しいと思います。<br/></p>
+		
+		
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<RoundScoreUI>
+	<Control Name="Round" X="0" Y="4" MostTop="1" Activate="1">
+		<Image Name="CurRound_10" X="34" Y="4" Png="10666;4"/>
+		<Image Name="CurRound_1" X="45" Y="4" Png="10666;4"/>
+		<Image Name="TotalRound_10" X="63" Y="4" Png="10678;4"/>
+		<Image Name="TotalRound_1" X="71" Y="4" Png="10678;4"/>
+		<Image Name="Round_Slash" X="55" Y="4" Png="10677;4"/>
+		<Image Name="Round_Letter" X="0" Y="0" Png="10700;4"/>
+		<Image Name="BackGround_Screen" X="0" Y="0" Png="10699;4"/>	
+		<Image Name="BackGround_Multi" X="0" Y="0" Png="10698;3"/>
+	</Control>
+	<Control Name="Score" X="0" Y="29" MostTop="1" Activate="1">
+		 <Image Name="Score1000" X="34" Y="3" Png="10688;4"/>
+		 <Image Name="Score100" X="45" Y="3" Png="10688;4"/>
+		 <Image Name="Score10" X="56" Y="3" Png="10688;4"/>
+		 <Image Name="Score1" X="67" Y="3" Png="10688;4"/>
+		 <Image Name="Score_Letter" X="0" Y="0" Png="10701;4"/>
+		 <Image Name="BackGround_Screen" X="0" Y="0" Png="10699;4"/>
+		<Image Name="BackGround_Multi" X="0" Y="0" Png="10698;3"/>
+	</Control>
+	<Control Name="RankingList" X="311" Y="100" MostTop="1" Activate="1">
+		<Label Name="ThisRoundScore" X="0" Y="0" FontColor="244,235,92"/>
+		<Control Name="Ranking1" X="0" Y="50" Activate="0">
+			<Label Name="Score" X="0" Y="0" BackColor="0,0,0" />
+			<Label Name="Member" X="0" Y="16" BackColor="0,0,0"/>
+		</Control>
+		<Control Name="Ranking2" X="0" Y="95" Activate="0">
+			<Label Name="Score" X="0" Y="0" BackColor="0,0,0"/>
+			<Label Name="Member" X="0" Y="16" BackColor="0,0,0"/>
+		</Control>
+		<Control Name="Ranking3" X="0" Y="140" Activate="0">
+			<Label Name="Score" X="0" Y="0" BackColor="0,0,0"/>
+			<Label Name="Member" X="0" Y="16" BackColor="0,0,0"/>
+		</Control>
+		<Control Name="Ranking4" X="0" Y="185" Activate="0">
+			<Label Name="Score" X="0" Y="0" BackColor="0,0,0"/>
+			<Label Name="Member" X="0" Y="16" BackColor="0,0,0"/>
+		</Control>
+		<Control Name="Ranking5" X="0" Y="230" Activate="0">
+			<Label Name="Score" X="0" Y="0" BackColor="0,0,0"/>
+			<Label Name="Member" X="0" Y="16" BackColor="0,0,0"/>
+		</Control>
+	</Control>
+	<Control Name="Effect" X="0" Y="-2" MostTop="1" Activate="1">
+		<Effect Name = "GlobalEffect_12" X = "0" Y = "0" MostTop = "1" Effect = "12" Delay = "150" Loop = "0" Activate="0"/>
+		<Effect Name = "GlobalEffect_13" X = "0" Y = "0" MostTop = "1" Effect = "13" Delay = "16000" Loop = "0" Activate="0"/>
+	</Control>
+
+</RoundScoreUI>

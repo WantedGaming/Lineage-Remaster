@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>鍛冶屋ピュアル</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>このチェーンソードは、封印されたというより魔力を失ったに近いですね。</p>
+		<p>魔力を失ったというのにここまでの極寒の気を吹き出すとは、信じがたい。</p>
+		<p>魔力を吹き入れさえすれば、ものすごい武器になるでしょう。</p>
+		<p>ああ…魔力を吹き入れるにはそれに似た性質の結晶体が必要です。</p>
+		<p>雪の結晶2個と、結晶体50,000個を持ってきてくだされば、力を入れることができると思います。</p>
+		<p><a action="request cold of chainsword">極寒のチェーンソードの封印を解く</a></p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>メイアー</name>
+		<job>[商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p>
+		<br/>
+		いらっしゃい！<br/>
+		やれやれ、心配事の多そうな顔だなぁ～<br/>
+		俺が当ててみようか？<br/>
+		たま～に熱が出て、毎日じゃないけど疲れ気味だろ？<br/>
+		さぁさぁ、俺がやる樹液を持っていきな。<br/>
+		これはただの樹液じゃないんだ。<br/>
+		エッヘン。これは秘密なんだが、<br/>
+		俺がエルフの森付近にこっそり入って、やっと見つけた木から採ったものなんだ。<br/>
+		木の名前までは教えられないよ～！<br/>
+		とにかく！いいものだから食べなくても、持っているだけで効果があるんだよ。<br/>
+		ほら～安いよ安いよ！！<br/>
+		こんな機会めったにないよ～<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

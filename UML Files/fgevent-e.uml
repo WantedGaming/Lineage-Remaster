@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フォアカン</name>
+		<job>[アデン近衛隊長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>ああ、君か！今アデンの平和を脅かす者が<font fg="ffafff">ハイネの海岸、ミラー フォレストの海岸、荒野の山脈の海岸</font>に押し寄せているらしい。</p>
+		<p>やつらの力はあまりにも強大だ。君のような勇士の助けが必要なのだ！</p>
+		<p>やつらを倒して<font fg="ffffaf">戦利品20個</font>を持ってきてくれ。君が助けてくれるなら、国王からの報酬を与えよう。</p>
+		<p><a action="a">私もモンスター討伐に参加します</a></p>
+		<p><a action="b">任務を完了しました</a></p>
+  </dialog>
+</npcdialog>

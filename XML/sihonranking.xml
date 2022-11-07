@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<SihonRanking Toggle="true">
+<Window Name="Background_Multi" X="0" Y="0" BaseSurf="8373;1" FrameSurf="8374;1" Moveable="20" MouseEvent = "Dummy" KeyboardEvent = "KeyBoard">
+	<Button Name="LowestFloorBut" X="17" Y="229" BaseSurf="8386" OverSurf="8387" PushSurf="8388" MouseEvent="LowestFloorPressed"/>
+	<Button Name="MiddleFloorBut" X="92" Y="229" BaseSurf="8380" OverSurf="8381" PushSurf="8382" MouseEvent="MiddleFloorPressed"/>
+	<Button Name="TopFloorBut" X="167" Y="229" BaseSurf="8383" OverSurf="8384" PushSurf="8385" MouseEvent="TopFloorPressed"/>
+	<Button Name="TotalRecordBut" X="242" Y="229" BaseSurf="8377" OverSurf="8378" PushSurf="8379" MouseEvent="TotalRecordPressed"/>
+	<Button Name="Exit_Button" X="319" Y="13" BaseSurf="1962" PushSurf="1963" MouseEvent="ExitButtonPressed"/>
+
+	<Label Name="MyRecord" X="75" Y="215" Width="245" Height="15"/>
+	<List Name = "Userinfo_List" X = "18" Y = "60" Width = "298" Height = "151" Vertical = "1">
+			<List Name = "Userinfo0_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo1_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo2_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo3_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo4_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo5_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo6_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo7_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo8_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo9_List" Width = "298" Height = "15" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "38" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "117" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "30"/>
+				<Label Name = "ElapsedTime" Width = "44" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>	
+		</List>
+		
+		
+		<Control Name = "Total_List" X = "35" Y = "60" Width = "298" Height = "151">
+			<List Name = "Userinfo0_List" Width = "298" Height = "15" Y="1" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo1_List" Width = "298" Height = "15" Y="16" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo2_List" Width = "298" Height = "15" Y="31" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo3_List" Width = "298" Height = "15" Y="45" Horizontal = "1" Gap = "1">
+			</List>
+			<List Name = "Userinfo4_List" Width = "298" Height = "15" Y="61" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo5_List" Width = "298" Height = "15" Y="76" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo6_List" Width = "298" Height = "15" Y="91" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo7_List" Width = "298" Height = "15" Y="105" Horizontal = "1" Gap = "1">
+			</List>
+			<List Name = "Userinfo8_List" Width = "298" Height = "15" Y="121" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>
+			<List Name = "Userinfo9_List" Width = "298" Height = "15" Y="136" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>	
+			<List Name = "Userinfo10_List" Width = "298" Height = "15" Y="151" Horizontal = "1" Gap = "1">
+				<Label Name = "Num" Width = "35" Height = "15" VAlign = "middle" HAlign = "center" Caption = "num"/>
+				<Label Name = "Name" Width = "115" Height = "15" VAlign = "middle" HAlign = "center" Caption = "CharName"/>
+				<Image Name = "Class_Image" Surf = "4546;4" Width = "26"/>
+				<Label Name = "ElapsedTime" Width = "37" Height = "15" VAlign = "middle" HAlign = "center" Caption = "10:00"/>
+				<Label Name = "Date" Width = "67" Height = "15"  VAlign = "middle" HAlign = "center" Caption = "13/03/24"/>
+			</List>	
+		</Control>
+</Window>
+</SihonRanking>

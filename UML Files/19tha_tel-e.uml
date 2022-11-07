@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>精鋭騎士団ハル</name>
+		<job>[Event Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		The omen of the dark dragon's descent caused the monster to go out of control.<br/>  
+		Please help us defeat them.<br/>
+		<br/>
+		Teleportation Cost: 2021 Adena<br/>
+		<br/>
+		(for solo)
+		</p>
+		<panel type="Panel_Teleport">
+			<button action="a"/>
+		</panel>
+		<br/>
+		<br/>
+	</dialog>
+</npcdialog>

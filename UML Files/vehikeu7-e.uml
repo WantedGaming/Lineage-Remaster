@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>そいつが生前に完成させようとしていた航海日誌に何かあったみたいでよ。<br/>
+		<br/>
+    だから糊を買っていく客が多いんだよ。航海日誌をくっつけるとか言ってたな？<br/>
+		<br/>
+    必要ならいつでも言ってくれ。安く売ってるからよ。</p>
+  </dialog>
+</npcdialog>

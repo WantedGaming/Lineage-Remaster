@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<BattleServerUI>
+	<Control X="10" Y="60">
+		<Image Name="Server0" X="0" Y="0">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="18" Y="0">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="36" Y="0">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="54" Y="0">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="72" Y="0">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		
+		<Image Name="Server0" X="0" Y="20">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="18" Y="25">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="36" Y="25">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="54" Y="25">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+		<Image Name="Server0" X="72" Y="25">
+			<Tooltip Name="Desc_Tooltip" X="20" Y="16"/>
+		</Image>
+	</Control>
+</BattleServerUI>

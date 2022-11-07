@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>warehouse</icon>
+<title>倉庫</title>
+<npc>
+<name>カム</name>
+<job>倉庫番</job>
+</npc>
+<dialog>
+<p>
+<br/><br/>
+おや、あなたのようなひよっこのアイテムは預かることができませんよ。アイテムを預けたいなら、もっと名を上げてからおいでなさい。
+</p>
+</dialog>
+</npcdialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>攻城戦</title>
+  <dialog>
+	<p><font fg="ffffaf">攻城戦の時間：</font><br/>
+	攻城戦は現実の時間で<font fg="afffff">毎週日曜日20～21時まで</font>行われます。<br/>
+	ただし、特定の祝日は攻城戦が延期になることもあります。<br/></p>
+	<p><img src="331" link="helpsie"/><br/><br/></p>
+	</dialog>
+</npcdialog>

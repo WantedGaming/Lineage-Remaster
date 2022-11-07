@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ラオン</name>
+		<!--job>[잡화상인]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>あなたのような人間でも、ここのアイテムがほしいようですね。でも、私はあなたのような人からのお金は要りません。</p>
+	</dialog>
+
+</npcdialog>

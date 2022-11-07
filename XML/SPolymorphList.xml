@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<SpecialPolymorphList>
+  <monster id = "0" action = "dark deathknight" desc = "16226" surf = "6255" sprite = "11614"/>
+  <monster id = "1" action = "fire deathknight" desc = "16225" surf = "6256" sprite = "11653"/>
+  <monster id = "2" action = "gold deathknight" desc = "16228" surf="6257" sprite = "11631"/>
+  <monster id = "3" action = "lightning deathknight" desc = "16227" surf = "6258" sprite = "11616"/>
+</SpecialPolymorphList>

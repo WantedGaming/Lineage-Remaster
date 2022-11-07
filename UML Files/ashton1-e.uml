@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 はぁ…ダークエルフの軍団の襲撃が終わったら、次はドラゴンが暴れてます。<br/>
+		 私も北の森に移住して、他のみんなといっしょに、<a link="ashton2">火田</a>でもしようかなって思ってます。<br/><br/>
+		 この大陸は一時も静かになりませんね。私のようなただの村人には酷すぎます。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

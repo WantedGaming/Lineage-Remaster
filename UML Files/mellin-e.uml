@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>メリン</name>
+		<job>[商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+	<panel type="Panel_Shop_Bt_Buy">
+		<button action="buy"/>
+	</panel>
+		<p>
+		<br/>
+		さーさー、いらっしゃい！<br/>
+		今日も品物たくさん入ってますよ！<br/>
+		<br/>
+		<a action="s_merchant3">Ask about recent prices</a>
+		</p>
+	</dialog>
+</npcdialog>

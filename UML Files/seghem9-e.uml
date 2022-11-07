@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>セゲムアトゥバ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+			<p>今待機している戦士はおらん。戦士が必要なら、まずわしに兵士の選出を依頼し、兵士を選ばねばならん。</p>
+	</dialog>
+	
+</npcdialog>

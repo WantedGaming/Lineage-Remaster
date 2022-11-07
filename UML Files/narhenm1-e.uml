@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>あなたは、この世のほんの束の間を旅する種族、人間ですね。人間の音楽は、それぞれが個性を持つ独特な音色を奏でますね。でもこの世の根源に近づこうとする音楽は奏でないようですね。 </p>
+	<p>音楽を通して自分を表現しようとします。それが人間という存在の本質なのかもしれません…。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>さすが、そなたは立派なナイトだ！ <username/>よ。そなたはアデンの誇りだ。礼を言うぞ。そなたがアデンを救ったのだ！</p>
+		<p>そなたの英雄的行動には見合わないかもしれないが、このデス ブレードをやろう。精一杯のことをさせてもらった。本当にありがとう。</p>
+		<p>私、いや我々アデンの人間はそなたの恩を忘れないだろう。本当にありがとう。</p>
+	</dialog>
+	
+</npcdialog>

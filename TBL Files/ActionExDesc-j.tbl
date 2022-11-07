@@ -1,0 +1,33 @@
+33
+0 \fHAction Name：\f> Survival Cry(Ctrl+E)^\fHType： \f>Action^\fHSubject： \f>Caster^\fHEffect： \f>Recovers a large amount of HP^      Amount depends on level^      Level 1: Lvls 1-87 Recovers 800 HP^      Level 2: Lvls 88-89 Recovers 1000 HP^      Level 3: Lvl 90+ Recovers 1200 HP^
+1 \fHAction Name：\f>Teleport to Floating Island^\fHType：\f>Action^\fHSubject：\f>Self^\fHEffect：\f>Teleport to Floating Island^        - Internet Cafe: Free^        - General: 1 Golden Pixie Feather is consumed
+2 \fHAction Name：\f> Pick Up(F4)^\fHType： \f>Action^\fHSubject： \f>Items within 1 cell of caster^\fHEffect： \f>Picks up nearby items
+3 \fHAction Name：\f> Social： Greetings^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Greetings Social is triggered.
+4 \fHAction Name：\f> Social： Shout^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Shouting Social is triggered.
+5 \fHAction Name：\f> Social： Duel^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Social to apply for a duel is triggered.
+6 \fHAction Name：\f> Social： Wait^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Waiting Social is triggered.
+7 \fHAction Name：\f> Trade^\fHType： \f>Action^\fHSubject： \f>1 PC on Screen^\fHEffect： \f>Exchange items with subject
+8 \fHAction Name：\f> Party Invite^\fHType： \f>Target^\fHSubject： \f>1 PC on Screen^\fHEffect： \f>Invite subject to party
+9 \fHAction Name：\f> Exclude^\fHType： \f>Target^\fHSubject： \f>1 PC in Aden World^\fHEffect： \f>Blocks subject
+10 \fHAction Name：\f> Bookmark Window^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Location storage list
+11 \fHAction Name：\f> Bookmarks^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Remembers your current location
+12 \fHAction Name：\f> Shop^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Open a store^      Shops can only be opened in the market
+13 \fHAction Name：\f> Report^\fHType： \f>Target^\fHSubject： \f>1 PC in Aden World^\fHEffect： \f>Subject reported to Admins
+14 \fHAction Name：\f> TAM^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Show TAM information window
+15 \fHAction Name：\f> Pick Up All^\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>Ability to pick up all / individually quantity items
+16 \fHAction Name：\f> Monster Corpse Transparency ^\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>Monster corpse can be transparent On/Off
+17 \fHAction Name：\f> Buff Expire Notice\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>Buff notice ending can be turned on/off
+18 \fHAction Name：\f> View Quest Monster^\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>Quest Monster display can be turned on/off
+19 \fHAction Name：\f> Magic Doll Maintenance^\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>Depleted crystals^  Keeps summon magic doll out
+20 \fHAction Name：\f> [Auto] Attack^\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>Attack subject with mouse click^      select and perform automatic attack^      also chases subject
+21 \fHAction Name：\f>PVP^\fHType：\f>Action^\fHSubject：\f>Self^\fHEffect：\f>PVP Mode can be turned on/off
+22 \fHAction Name：\f> [Auto] Force Layer^\fHType： \f>Switch^\fHSubject： \f>Self^\fHEffect： \f>When subject is weak state^      Use Automatically
+23 \fHAction Name：\f>[Auto] Dragon Diamond^\fHType：\f>Switch^\fHSubject：\f>Self^\fHEffect：\f>When Einhasad's blessing value drops below 99^      Dragon's Diamonds are use to maintain Einhasad Blessing^      Use Automatically
+24 \fHAction Name：\f> Swap Equipment Set\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Change equipment sets
+25 \fHAction Name：\f> Video^\fHType： \f>Action^\fHSubject： \f>Self^\fHEffect： \f>Record game play footage
+26 \fHAction Name：\f>PSS^\fHType：\f>Switch^\fHSubject：\f>Self^\fHEffect：\f>Run/Stop the PSS system
+27 \fHAction Name：\f>Party Assist^\fHType：\f>Action^\fHSubject：\f>Self^\fHEffect：\f>Attack the party leader's target
+28 \fHAction Name：\f>Monster Release(Shift Twice)^\fHType：\f>Action^\fHSubject：\f>Self^\fHEffect：\f>Monster selection and name display can be turned on/off.
+29 \fHAction Name：\f> Summon Monster Attack^\fHType：\f>Action^\fHSubject：\f>Summon Monsters^\fHEffect：\f>Attack posture of summon monsters on/off
+30 \fHAction Name：\f> Unsummon Monsters^\fHType：\f>Action^\fHSubject：\f>Summon Monster^\fHEffect：\f>Unsummon monster pets
+31 \fHAction Name：\f> Halphas Faith^\fHType：\f>Action^\fHSubject：\f>Self^\fHEffect：Halphas Faith Buff can be turn on/off

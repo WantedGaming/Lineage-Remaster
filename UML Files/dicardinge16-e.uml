@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>アデンを代表して心から礼を言う。エルフ <username/>のおかげで、アデンを災いから救うことができた。</p>
+		<p>そなたの成し遂げたことに比べれば大したものではないが、心ばかりの感謝を込めたものだ。受け取ってくれたまえ。私にはこれぐらいしかできない。本当にありがとう。<br/></p>
+		<p>幸運を祈る。</p>
+	</dialog>
+	
+</npcdialog>

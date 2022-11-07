@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>I am sorry but...</p>
+		<p>You don't seem to have what I want.</p>
+	</dialog>
+
+</npcdialog>

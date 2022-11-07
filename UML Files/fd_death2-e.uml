@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>デスナイト</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>なんだ…</p>
+		<p>若造か…</p>
+		<p>どうやってここに入ってきた！</p>
+  </dialog>
+</npcdialog>

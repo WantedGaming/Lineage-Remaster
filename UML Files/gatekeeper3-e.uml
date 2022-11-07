@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>キーパー</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>こんにちは、<var src="0"/>様。ご機嫌うるわしゅう。なにか御用ですか？
+		<br/><br/>
+		<var src="1"/>
+		
+		</p>
+	</dialog>
+</npcdialog>

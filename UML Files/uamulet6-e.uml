@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ヤヒの補佐官</name>
+		<!--job></job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>強者の言葉がルールになるもの。</p>
+		<p>だが、新たな強者が現れれば、ルールもたちまち変わってします。</p>
+		<p>このところ不穏な兆しが見えるゆえ、誰しも油断してはならない…</p>
+		<p>特に我々ほどになれば、より一層注意しなければならなものだ。</p>
+		<p><a action="6">アミュレットを受け取る</a></p>
+	</dialog>
+
+</npcdialog>

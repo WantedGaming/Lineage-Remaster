@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+	<!-- Map id는 서버에서 설정하는 map_kind와 동일하게 설정 필요 -->
+<Maps>
+	<Map id="202" briefImage="20180" mapName="Orim's Secret Laboratory" mapBrief="The shadow of Hardin sneaks up on Orim, who hides himself in Gludio. what happened to them...\n\n - Protect the Black Magic Crystal Ball!\n - Block monsters attack within the time limit." rest_gauge="1">
+		<DropItem nameId="26102"/>
+		<DropItem nameId="15120"/>
+		<DropItem nameId="26241"/>
+		<DropItem nameId="27496"/>
+		<DropItem nameId="27500"/>
+		<DropItem nameId="10028"/>
+		<DropItem nameId="11312"/>
+		<DropItem nameId="15469"/>
+		<DropItem nameId="17732"/>
+		<DropItem nameId="17733"/>
+		<DropItem nameId="17890"/>
+		<DropItem nameId="17891"/>
+		<DropItem nameId="17892"/>
+		<DropItem nameId="17893"/>
+	</Map>
+	<Map id="203" briefImage="20181" mapName="Secret of Alligator Island" mapBrief="Rosas turned the beautiful Heine into a wasteland! Sealed on the island, but as the darkness grows stronger...\n\n - Defeat the monsters within the time limit!\n - Attack with the space-time wand from Geren\n - If your lucky you might find out the island's secrets..." rest_gauge="1">
+		<DropItem nameId="26102"/>
+		<DropItem nameId="25657"/>
+		<DropItem nameId="26402"/>
+		<DropItem nameId="27494"/>
+		<DropItem nameId="27499"/>
+		<DropItem nameId="27175"/>
+		<DropItem nameId="26" blessCode="1"/>
+	</Map>
+	<Map id="204" briefImage="20182" mapName="Dream Island" mapBrief="Defeat the 4 Great Spirits and save the Unicorns in bondage! Give peace to the Unicorns who has been turned into Nightmares by the curse of the dreamy Succubus...\n\n - Defeat the monsters within the time limit!\n - If you fail to defeat the Great Spirits, a large number of monsters will invade.\n - If you encounter a Dreamy Succubus, beware of the Curse of Eternal Nightmare!" rest_gauge="1">
+		<DropItem nameId="26102"/>
+		<DropItem nameId="1017"/>
+		<DropItem nameId="1025"/>
+		<DropItem nameId="1033"/>
+		<DropItem nameId="1041"/>
+		<DropItem nameId="17787"/>
+		<DropItem nameId="17788"/>
+		<DropItem nameId="895"/>
+		<DropItem nameId="896"/>
+		<DropItem nameId="897"/>
+		<DropItem nameId="898"/>
+		<DropItem nameId="899"/>
+		<DropItem nameId="17789"/>
+		<DropItem nameId="17790"/>
+	</Map>
+	<Map id="206" briefImage="20184" mapName="Aurakia Purification" mapBrief="Defeat the Cultists of Darkness and purify the imprisoned Aurakia.\n\n - Defeat monsters within the time limit.\n - The restrained Aurakia needs the power of purification.\n - Check the Stone Statues when they change.\n※Aurakia Purification can only be cleared once a week.\n(Can not enter if you have Purified Jade Fragement)" rest_gauge="1">
+		<DropItem nameId="27213" />
+		<DropItem nameId="1048" />
+		<DropItem nameId="15003" />
+		<DropItem nameId="15004" />
+		<DropItem nameId="15089" />
+		<DropItem nameId="15112" />
+		<DropItem nameId="15725" />
+		<DropItem nameId="25232" />
+		<DropItem nameId="25988" />
+		<DropItem nameId="25976" />
+		<DropItem nameId="25986" />
+		<DropItem nameId="25987" />
+		<DropItem nameId="29914" />
+		<DropItem nameId="29915" />
+	</Map>
+</Maps>

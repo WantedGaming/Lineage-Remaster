@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 シルバーナイトタウンのダンジョンは、反王に従っていたブラックナイトの巣窟になってしまいました。やつらはナイトをたぶらかして、ブラックナイトへの道に引きずり込もうと血まなこになっているようです。シルバーナイトタウンのダンジョンの1階には、ブラックナイトの訓練を助けるモンスターがうようよしているとのことです。<br/>
+		 そこにいるのは<font fg="ffafff">オーク</font>、<font fg="ffafff">ノール</font>、<font fg="ffafff">ジャイアント アント</font>、<font fg="ffafff">リザードマン</font>だそうです。そこで狩りができますよ。ご健闘を祈ります。<br/><br/>
+		</p>
+	</dialog>
+</npcdialog>

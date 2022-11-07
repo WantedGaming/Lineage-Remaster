@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">Fragments of Memory</font><br/><br/></p>
+    <p>A crystal with a mysterious power.</p>
+    <p>As I get closer, it's like my head is getting colder and colder, and memories come to me that I don't know if they are my own memories or not...</p>
+    <p>The closer I got, the colder the sensation became, and my consciousness gradually faded. Only the faintest of memories remain, and the sensation is as if you are dreaming...</p>
+    <p>If I reach out and touch the crystal, I feel like this dream will reach its climax...<br/><br/><br/></p>
+    <p><a action="g">Trace the Fragments of Memory</a></p>
+  </dialog>
+</npcdialog>

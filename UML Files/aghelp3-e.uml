@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p><font fg="ffffff">Selecting Sell Property</font> will register the current agitator for auction. You can set a starting price when registering. The maximum starting price is the amount you paid when you purchased the property. </p>
+	<br/>
+    <p>Once the auction is complete, the successful bid price minus tax will automatically be sent to your master's item window along with a piece of letterhead. However, please note that the moment you register this house for auction, you will lose ownership of this house.</p>
+	<br/>
+    <p>After the auction period has passed, if there is no buyer who pays more than the price that the master offered, the ownership of the house will revert to the master. If you want to sell the property, it is better not to set an excessively high amount.<br/><br/></p>
+    <p><a link="aghelp1">Ask about houses</a><br/></p>
+    <p><a link="aghelp2">Ask about taxes</a><br/></p>
+  </dialog>
+</npcdialog>

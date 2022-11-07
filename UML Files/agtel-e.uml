@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>Where do you want to go?<br/><br/></p>
+    <p><a action="tel0">Warehouse:100Adena</a></p>
+    <p><a action="tel1">Pet Storage:100Adena</a></p>
+    <p><a action="tel2">Cathedral:100Adena</a></p>
+    <p><a action="tel3">Market:100Adena</a></p>
+  </dialog>
+</npcdialog>

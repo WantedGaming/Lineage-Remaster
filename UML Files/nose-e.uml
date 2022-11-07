@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ノセ</name>
+    <job>[ペットアイテム製作師]</job>
+  </npc>
+  <dialog>
+	<p>ペットのアイテムを製作しにいらしたのですか？</p>
+	<p>必要な物があれば、いつでもお申し付けください。商売は何よりも信用第一ですから。</p>
+	<p><br/><br/></p>
+	<p><a action="request craft">ペットの装備を製作してください</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

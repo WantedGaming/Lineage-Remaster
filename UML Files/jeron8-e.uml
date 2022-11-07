@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ジェロン</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 100万Adenaが不足しているようじゃ…金がないのなら、わしの頼みを聞いてくれるか。<br/>
+		 噂ではメデューサの血が元気の回復にいいそうじゃが、手に入れてくれんかのぉ。<br/>
+		 <br/>
+		<a action="C">メデューサの血を渡す</a>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

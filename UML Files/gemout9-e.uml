@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>宝石細工職人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 今のところ、イアリングに加工された宝石はありません。<br/>
+		<br/>
+		 だったら、1つ目の宝石であなたの<font fg="ffffaf">HPを10</font>向上させられますよ。
+		 イアリングに埋め込まれた宝石が多ければ多いほど、いろいろな能力を付与できます。<br/>
+		<br/>
+		<br/>
+		<br/><a action="b">宝石をイアリングに加工する</a>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

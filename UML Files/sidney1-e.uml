@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+		
+	<dialog>
+		
+		<p>家の中に何もなくて寂しいって？なら家具でも買ってみてはどうですか？工芸職人アントンに頼めば素敵な家具や装飾品を作ってくれますよ。<br/></p>	
+
+	</dialog>
+
+</npcdialog>

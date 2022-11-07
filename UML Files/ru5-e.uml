@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ロウギ</name>
+		<job>古代品収集家</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>さあ、君が見つけた遺物を見せてくれるか。値は充分につけてやるから。</p>
+		<p><a action="A">崩れた古代のアミュレット：500Adena</a></p>
+		<p><a action="B">タロスのルビー：100Adena</a></p>
+		<p><a action="C">タロスのエメラルド：100Adena</a></p>
+		<p><a action="D">タロスのサファイア：100Adena</a></p>
+		<p><a link="ru7">やっぱり私が損しているようだ…</a>	</p>
+	</dialog>
+	
+</npcdialog>

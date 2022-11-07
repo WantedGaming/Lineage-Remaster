@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ここは水の中なので、エヴァの祝福を必ず受けなければなりません。エヴァの祝福が切れたら、商人のブアックが近くにいるので急いで購入して使用してください。<br/>
+		 また同族意識の強いエヴァ シャークは、一度追ってくるといつまでも襲いかかってきます。変身状態をずっと維持しながら狩ることが重要です。<br/>
+		 ボスモンスターの<font fg="ffafff">カープ</font>と<font fg="ffafff">ジャイアント ワーム</font>が登場するので、常に気をつけてくださいね。
+		
+		</p>
+	</dialog>
+</npcdialog>

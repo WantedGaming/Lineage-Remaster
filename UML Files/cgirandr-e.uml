@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>投石機</title>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff"></font></p>
+		<p><img src="9126" highlight="9127" action="0-22"></img>
+		<br/><br/><br/>
+		 <a link="catapult">「投石機使用方法」</a>
+		
+		 <br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

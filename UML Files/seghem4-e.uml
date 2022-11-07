@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>セゲムアトゥバ</name>
+		<!--job></job-->
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>兵士を選ぶには、まず城に資金を入金しなければならん。</p>
+		<p>兵士を配置した後、ケント ネルガを通じて兵士を探すことができるぞ。</p>
+		<p><a action="employ">兵士を選ぶ</a></p>
+		<p><a action="arrange">選んだ兵士を配置する</a></p>
+		<p><a action="archer">櫓に弓士を配置する</a></p>
+	</dialog>
+	
+</npcdialog>

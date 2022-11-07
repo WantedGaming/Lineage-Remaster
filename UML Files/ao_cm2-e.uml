@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+   <p>私は今、オーレン村に向かっています。そこの寒さは想像を絶する程だそうで、</p>
+   <p>強靭な肉体を持つためには、寒さにも耐える必要がありますよね！</p>
+   <p><a action="start">私が連れて行ってあげます</a></p>
+  </dialog>
+</npcdialog>

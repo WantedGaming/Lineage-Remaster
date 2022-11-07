@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+	<name><var src="name"/></name>
+    <job>[Unicorn Temple Manager]</job>
+  </npc>
+  <dialog>
+	<p>
+夢幻の島に行くには勇士様は力不足かもしれません。
+<br/>
+もっと力をつけてからのほうがいいでしょう。
+</p>
+  </dialog>
+</npcdialog>

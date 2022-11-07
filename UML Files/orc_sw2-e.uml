@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+
+<npc>
+	<name>オークの捜索文書(グルーディン)</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>祝福の地に続いてエルフの森のダンジョンも汚染されていた。</p>
+<br/>
+<p>スピリッドの残骸が発見された。</p>
+<br/>
+<p>汚染は<font fg="ffffaf">スピリッド</font>から発生しているようだ。</p>
+<br/>
+<p>「スピリッド」の正体を把握することが必要になる。</p>
+</dialog>
+
+</npcdialog>

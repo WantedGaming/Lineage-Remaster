@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ルケイン</name>
+  </npc>
+  <dialog>
+    <p>ようこそ、外の世界の旅人よ。</p>
+    <p>ワシはこの<a link="lukein2">海賊島の村</a>の村長を務めているルケインじゃ。</p>		
+    <p>ただの老いぼれじゃが、こんな役職を任されるとはな…ありがたい限りじゃ。</p>
+  </dialog>
+</npcdialog>

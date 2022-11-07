@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シルレイン</name>
+		<job>エルダー</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>ようこそおいでくださいました。<br/></p>
+		<p>あなたに<font fg="fff000">シーレン</font>の加護があらんことを。<br/></p>
+		<p>もし修練をされたいようであれば<font fg="ffffaf">シルバーナイトタウンの基礎訓練教官</font>を訪ねてみてください。<br/></p>
+		<p>必ずお役に立つことでしょう。<br/></p>
+		
+
+	</dialog>
+
+</npcdialog>

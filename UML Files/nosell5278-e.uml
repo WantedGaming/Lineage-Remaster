@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>貴重な物でなくとも良いのですが...お客さんの物で値がつけられる物は何もありませんね。</p>
+	</dialog>
+
+</npcdialog>

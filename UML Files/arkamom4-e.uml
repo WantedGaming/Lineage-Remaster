@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ベルリジャ</name>
+		<job>キャラクター Magic Doll Crafting</job>
+		<text>私は奉献石を扱う工芸職人で、父のアルカの後を継ぐためにマジックドールを研究しています。</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		キャラクター マジックドールを作るには、<font fg="fff00">クローニング</font>という封印する過程が必要です。<br/><br/>
+		まず作ろうとするキャラクターのレベルが50以上で、血盟創始者や血盟員じゃない必要があります。
+		最後に、1個以上の<font fg="fff00">クローニング</font>はできないので注意してください。 
+		<br/><br/>
+		キャラクター マジックドールを召喚すると、経験値獲得率が向上します。また、キャラクター マジックドールも経験値の一部を獲得するそうです。<br/>
+		でも、キャラクターのレベルが<br/>キャラクター マジックドールより高くなると召喚できなくなります。<br/>
+		<br/><br/>
+		キャラクター マジックドールが必要になったら、<font fg="fff00">奉献石</font>を持って私を訪ねてください。
+		<br/><br/><br/>
+		<img src="331" link="arkamom"/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

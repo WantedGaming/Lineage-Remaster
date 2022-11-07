@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<!-- <title></title> -->
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name> ： </name>
+		<!-- <job></job> -->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+
+		<p>
+		ご苦労様でした。バービードラゴンの瓶が残っているなら、ぜひもう一度使ってみてください。<br></br>
+		チャンスがいつでもあると思ってはいけませんよ。<br></br>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

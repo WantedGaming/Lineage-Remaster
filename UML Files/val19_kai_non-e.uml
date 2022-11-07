@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>カイ</name>
+		<job>[イベント商人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>まったく、マリッジブルーとはよく聞きますが、まさか別れるとは思わなかったです。<br/>
+		 連れていかれたなんて。ハハハ。ヘイナ様はアデンでも有名な冒険家ですよ。<br/>
+		 とにかく、ニーバス様があれほど落ち込んでおられてますが、私に出来ることといったらこれくらいしかありません。<br/>
+		 <br/>
+		  <font fg="ffffaf">バーニングロード</font>でヘイナ様に会ったら、この<font fg="ffffaf">真心が込められた手紙</font>を渡してください。<br/>
+			<br/>
+ それと、あそこは危ないところではありますが、<font fg="ffffaf">神秘の玉</font>がつまった<font fg="ffffaf">宝箱</font>がたくさんあるそうです。
+ <font fg="ffffaf">情熱の鍵</font>も売っているので、買っていってください。<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Buy"><button action="non_npc buy"/></panel>
+	</dialog>
+</npcdialog>

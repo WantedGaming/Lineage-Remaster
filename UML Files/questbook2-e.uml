@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>色あせた古書</title>
+
+	<dialog align="center">
+		<p><img src="6259"/></p>
+		<p>グルーディオ領地のブドウ畑の絵だ。なんだか以前と比べてかなり違って見えるようだ。</p>
+	</dialog>
+
+</npcdialog>

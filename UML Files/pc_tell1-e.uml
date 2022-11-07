@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name/>
+  </npc>
+  <dialog>
+	<p>怪しい村について聞いたことはありますか？</p>
+	<p><font fg="ffffaf">ネットカフェ</font>という場所からしか行くことができない、神秘の村だそうです。</p>
+	<p>そこに行くと他では手に入らない特典が獲得できるんです！</p>
+	<p>右上のネットカフェバフアイコンをショートカットウィンドウに登録したり、行動ウィンドウ(CTRL+D)でネットカフェテレポートを登録できます。</p>
+	<p><a action="a"/><a accesskey="1"/>怪しい村に行く</p>
+  </dialog>
+</npcdialog>

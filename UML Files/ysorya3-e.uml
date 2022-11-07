@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+	<portrait>PO_002</portrait>
+		<name>イソーリア</name>
+		<job>General Merchant</job>
+		<text>いらっしゃい。</text>
+	</npc>
+	<dialog>
+		<p><font fg="ffffff"><var src="0"/>%</font>程度でしょうね。<br/>
+		<br/>
+		中古の品物を買うときは、もとの値段を基準にしますから、詐欺まがいなことはしないようにしてください。</p>	
+	</dialog>
+</npcdialog>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>タラス</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+			<p>お前も聞いたことがあるか？</p>
+			<p>象牙の塔の状況があまり良くないのじゃ。魔物の気が強まっているのを感じるのじゃ</p>
+			<p><br/></p>
+			<p><br/></p>
+			<p>少し前にも象牙の塔の上層部から調査に送ったウィザードが意識不明の状態なんじゃ。</p>
+			<p>お前が行って調査してきてくれないか。その証拠を持ってきたら魔法の気が込められたグローブとブーツを作ってやろう。</p>
+			<p><br/></p>
+			<p><br/></p>
+			<p><img src="331" link="talass"/></p>
+
+	</dialog>
+
+</npcdialog>

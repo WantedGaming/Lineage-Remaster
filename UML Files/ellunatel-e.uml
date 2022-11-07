@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エルナ</name>
+		<job>[Teleporter]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>エルフの森は、本当に美しく平和な所だわ。</p>
+		<p>こんなところから離れたがる人が理解できないのですが、エリオン様の頼みで離れる者が安全に移動できるようお手伝いしているわ。</p>
+		<p><a action="teleportURL">他の村に行きたいです</a></p>
+	</dialog>
+</npcdialog>

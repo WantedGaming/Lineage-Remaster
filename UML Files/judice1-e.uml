@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+	<p><font fg="ffffff">ジュディス：</font></p>
+		<p><br/>
+		 大変だわ。話せる島にできた湿地で妹を見失ってしまったの。最近湿地には、恐ろしいスパイダーが棲んでいると聞いたのに…。どうしたらいいでしょう？<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

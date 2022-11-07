@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+  </npc>
+  <dialog>
+	<p>現在、資金不足により城の機能が麻痺した状態です。どう対処するか指示してください。</p>
+	<p><li link="othmond1"/>オスモンドに指示を出す</p> 
+  </dialog>
+</npcdialog>

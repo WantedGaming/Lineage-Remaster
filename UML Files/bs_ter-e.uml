@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>強化ウィザード</title>
+	<npc>
+		<portrait></portrait>
+		<name>テル</name>
+		<job>[騎士団の強化ウィザード]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 こんにちは！<br/>
+		 <font fg="ffffaf">騎士団のコイン1,000</font>でバフをかけてあげます。<br/><br/><br/>
+		 <font fg="ffffaf">バフ：</font><a action="a">強化魔法を受ける</a><br/><br/><br/>
+		 まだアデン ワールドに慣れていない勇士たちのために、<font fg="ffaaff">レベル79</font>までバフを掛けてあげてるので忘れずに受けてくださいね。
+		<br/><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

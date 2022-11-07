@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>おまえはすでに任務を遂行中だ。<br/><br/>
+		最後までやり遂げることを祈っている。<br/><br/><br/></p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>You're trying to trick me!</p>
+		<p>It's not like you're over level 80? And you don't have any Templar Coins, do you?
+		 
+		</p>
+	</dialog>
+</npcdialog>

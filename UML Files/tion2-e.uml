@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Tion</name>
+		<job>Mercenary Captain</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Want to join Poison Serpent? Hahaha, I was naive to think that someone like you would volunteer.</p>
+		<p><a link="tion3">Let me show you what I can do.</a></p>
+	</dialog>
+
+</npcdialog>

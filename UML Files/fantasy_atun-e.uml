@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>アートーン</name>
+		<job>[10ソード収集家]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>よく来たな。</p>
+		<p>私は赤き騎士団で戦争物資の補給を統括している<font fg="ffaaff">鉄の騎士 アートーン</font>だ。</p>
+		<p>ゴパードを通じて高性能の武器を作っているんだが…</p>
+		<p>エンチャントの素質がなくてな…もし幻想の10ソードを作ったら必ず私に持ってきてくれ。</p>
+		<p>私が長年アデンで集めてきた武器箱と交換しよう。</p>
+		<p><a action="request craft">10ソードを作りました</a></p>
+  </dialog>
+</npcdialog>

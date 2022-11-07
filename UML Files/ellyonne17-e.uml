@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+	    <br/>
+		<p><font fg="ffffaf">[Select Series]</font></p>
+		<panel type="Panel_Learn_Spell_06">
+				<button action="gfw"/>
+				<button action="gfa"/>
+				<button action="gfe"/>
+				<button action="gwa"/>
+				<button action="gwe"/>
+				<button action="gae"/>
+        </panel>
+		<p>I see you are ready to accept a new spirit family.</p>
+		<p>The magic of the spirits is, as the term implies, the magic of receiving and using the power of the spirits, who are the embodiment of the fundamental forces of this world.</p>
+		<p>If you ever decide to learn a particular affiliation, give me a shout.</p>
+		<p>The magic of the elements is divided into five major categories: <a link="ellyonne8">earth</a>, <a link="ellyonne5">fire</a>, <a link="ellyonne7">wind</a>, and <a link="ellyonne6">water</a>, and the path of the leaves.</p>
+		<p>In the case of the last mentioned leaf path, any elf with enough experience and control can learn it.</p>
+		<p>The problem is the path of each of the four remaining attributes... it's difficult to merge the power of the spirits into one, and you can only choose one of the four.</p>
+		<p>If you want to learn another attribute, you must throw away what you have and regain purity again.</p>
+		<p><img src="331" link="ellyonne16"/></p>
+	</dialog>
+</npcdialog>

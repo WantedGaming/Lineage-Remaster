@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>What is your question, Master?<br/><br/></p>
+    <p><a link="aghelp1">Ask about the hideout</a><br/></p>
+    <p><a link="aghelp2">Ask about taxes</a><br/></p>
+    <p><a link="aghelp3">Ask about properties</a><br/></p>
+  </dialog>
+</npcdialog>

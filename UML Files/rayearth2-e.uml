@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>レイアス</name>
+		<!--job>[창고 관리인]</job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>君はまだ乳離れもしていないひよっ子に見えるが？預ける物があるのか？</p>
+	</dialog>
+
+</npcdialog>

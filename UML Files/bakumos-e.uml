@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		<font fg="ffffff"></font></p><p align="left"><font fg="ffffff">バクモの証書：</font></p>
+		<p><br/>
+		 俺。ネルガ バクモ。汚れた人間地区研究する。汚れた人間の持ち物必要。
+		 人間、持ち物多い。頭悪い人間。すぐ忘れる。だから必要なもの書く。<br/>
+		<br/>
+		 銀のお盆<br/>
+		 銀の燭台<br/>
+		 バンディットの鍵<br/>
+		 バンディットの袋<br/>
+		 汚れた髪の毛<br/>
+		<br/> <br/>
+		 手伝うって言った。信じて待ってる。約束守らないと怒る。<br/>
+		<br/>
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

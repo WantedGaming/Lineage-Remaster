@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>엘라리온</name>
+    <job>[ 정령 마법 전수자 ]</job>
+    <text>누구시오</text>
+  </npc>
+  <dialog>
+    <p>순수함이야 말로 정령 마법을 오직 요정만이 사용할 수 있는 이유라네.</p>
+    <p>본성이 맑은 요정이 다시 순수함을 되찾는 것은 그리 어려운 일이 아니지.</p>
+    <p>준비가 되면 내게 말해주게.</p>
+    <br/>
+    <br/>
+    <p action="bm">회상의 촛불(2개)로 계열을 제거한다.</p>
+    <br/>
+    <br/>
+    <p link="ellyonne11">돌아가기</p>
+  </dialog>
+</npcdialog>

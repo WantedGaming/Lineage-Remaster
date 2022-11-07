@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		
+		</p><p>魔法に用いられる8つの材料のことだ。<br/><br/>
+		真紅のキノコ、竜の牙、聖なる青い山葡萄、山人参、フローティング アイの肉、柳の根っこ、玉石のかけら、そして骨の粉。<br/>
+		それぞれ性質が異なり、何より価格には大きな差がある。<br/><br/>
+		ここには幸い、フローティング アイの肉や骨の粉などはたくさんあるが、なにぶん田舎なもんで竜の牙や真紅のキノコのような貴重な材料は、お目にかかるのも大変な状況なんだ。
+		
+		</p>
+	</dialog>
+</npcdialog>

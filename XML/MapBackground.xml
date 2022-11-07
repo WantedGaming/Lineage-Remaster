@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapBackgroundList>
+	<!-- Dark Cloud -->
+	<MapBackground type="0">
+		<Map number="200"/>
+		<Map number="631"/>
+		<Map number="6311"/>
+		<Map number="7100"/>
+		<Map number="5501"/>
+		<Map number="5524"/>
+		<Map number="2453"/>
+		<Map number="111"/>
+		<Map number="12862"/>
+		<Map number="1209"/>
+	</MapBackground>
+	<!-- Devil Cloud -->
+	<MapBackground type="1">
+		<Map number="995"/>
+		<Map number="8005"/>
+		<Map number = "734"/>
+		<Map number = "3150~3499"/>
+	</MapBackground>
+	<!-- Phantom Island Sky -->
+	<MapBackground type="2">
+		<Map number="1931~1932"/>
+	</MapBackground>
+	<!-- Cloud (일반 하늘맵) -->
+	<MapBackground type="3">
+		<Map number="132~136"/>
+		<Map number="142~145"/>
+		<Map number="149~150"/>
+		<Map number="303"/>
+		<Map number="606"/>
+		<Map number="630"/>
+		<Map number = "736"/>
+		<Map number="6301"/>
+		<Map number="7781~7782"/>
+		<Map number="622"/>
+		<Map number="292"/>
+		<Map number="1920~1929"/>
+		<Map number="631~632"/>
+		<Map number="6302"/>
+		<Map number="6311~6312"/>
+		<Map number="6321~6322"/>
+		<Map number="639"/>
+		<Map number="7783"/>
+		<Map number="11200~11253"/>
+		<Map number="12253~12256"/>
+		<Map number="6303"/>
+		<Map number="6304"/>
+		<Map number="1131~1148"/>
+		<Map number="733"/>
+		<Map number="4700~4899"/>
+		<Map number="1210"/>
+	</MapBackground>
+</MapBackgroundList>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>どういうわけか、魔族の力がかなり弱まっている。</p>
+		<p>少し気掛かりだが、この平和にも慣れなければな。</p>
+		<p>修練の情報が必要なら<font fg="ffffaf">シルバーナイトタウン</font>で基礎訓練教官を訪ねてみろ。</p>
+		<p>きっと役に立つ情報をくれるはずだ。</p>
+	</dialog>
+	
+</npcdialog>

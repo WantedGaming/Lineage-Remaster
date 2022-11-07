@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Recently, we are gradually seeing less and less of the various magical catalysts - magic stones, spirit balls, and black magic stones. Do you know the reason for this?<br/></p>
+    <p>The cause has to do with the prolonged war. The mana in the atmosphere has been depleted by the prolonged war and the indiscriminate abuse of higher magic, making it difficult to produce magical catalysts.<br/></p>
+    <p>So we alchemists have been researching ways to counter this situation. At first we looked for a substitute for the magical catalyst.<br/><br/><br/></p>
+    <p><a link="alchemy3">What were the results?</a><br/></p>
+  </dialog>
+</npcdialog>

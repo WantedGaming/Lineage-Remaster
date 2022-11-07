@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog align="left">
+    <p><font fg="ffffff"><name/>：</font><br/><br/></p>
+		<p>もう知っているかもしれんが、この村は今「アトゥバ部族共同体」というオーク部族と戦争中だ。形としては我々が彼らの居住地を侵したように見えるだろうが…。耕す畑すらないこの場所で、指をくわえて飢え死ぬ時を待つわけにはいかないじゃないか。それに、我々だっていつまでもこんな所にいるつもりはない。だがな、オーク部族とは話し合いの余地がないんだよ。 </p>
+		<p>ライラもこのことでずいぶん悩んでいるよ…俺が少しでも彼女の力になれるといいんだが…。	</p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ティモン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>変更になった税率は翌日からの適用になります。1日に複数回税率を変えられた場合、最後に定めた税率が適用となりますのでお忘れなきようお願いいたします。</p>
+	</dialog>
+
+</npcdialog>

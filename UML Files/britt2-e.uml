@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>shop</icon>
+	<title>Shop</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Britt</name>
+		<job>General Merchant</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 I'm sorry, but could you try somewhere else?
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

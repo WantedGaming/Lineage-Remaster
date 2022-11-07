@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ゲレン</name>
+		<job>魔法伝授者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		む…ケレニスが…そんなことを企んでいたとは…<br/>
+		私は問題の解決に尽力しよう。君も力を蓄えておいてくれ。<br/><br/><br/>
+		<a action="a">グンターの推薦書を見せる</a><br/><br/><br/>
+		そういえば…<br/>
+		</p><p>君はグンターの教え子だな。ここには何の用だ？まさか、剣術は趣味に合わないと<a link="gerengk2">ウィザード</a>になろうと来たんじゃないだろう？<br/>
+		どうか修練に一生懸命精進して、地上を守る力になってくれ。近ごろのようにオークたちが大手を振って動揺している時は、小さな力でも大きな助けになるからな。
+		
+		</p>
+	</dialog>
+</npcdialog>

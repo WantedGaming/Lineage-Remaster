@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <type>shop</type>
+  <mode>buygeneral</mode>
+  <title>Sell</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>Arrada</name>
+    <job>[ General Merchant ]</job>
+    <text>Welcome.</text>
+  </npc>
+</npcdialog>

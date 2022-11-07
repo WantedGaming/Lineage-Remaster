@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>勤務中、異常なし！</p>
+	<p><font fg="ffaaff">南の草原</font>に行くには、<font fg="ffaaff">グンター</font>様の許可が必要です。</p>
+	<p>申し訳ございませんが、他の<font fg="ffaaff">任務</font>があるかを確認してください。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

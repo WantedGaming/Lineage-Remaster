@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SERVERLIST>
+	<SERVER id="1" strid="1831" launcherIndex="0"/>
+	<SERVER id="2" strid="1832" launcherIndex="1"/>
+	<SERVER id="3" strid="1833" launcherIndex="2"/>
+	<SERVER id="4" strid="1834" launcherIndex="3"/>
+	<SERVER id="5" strid="1835" launcherIndex="4"/>
+	<SERVER id="6" strid="1836" launcherIndex="5"/>
+	<SERVER id="9" strid="1839" launcherIndex="6"/>
+	<SERVER id="10" strid="1840" launcherIndex="7"/>
+	<SERVER id="11" strid="1841" launcherIndex="8"/>
+	<SERVER id="12" strid="1842" launcherIndex="9"/>
+	<SERVER id="13" strid="1843" launcherIndex="10"/>
+	<SERVER id="14" strid="1844" launcherIndex="11"/>
+	<SERVER id="15" strid="1845" launcherIndex="12"/>
+	<SERVER id="16" strid="1846" launcherIndex="13"/>
+	<SERVER id="17" strid="1847" launcherIndex="14"/>
+	<SERVER id="18" strid="1848" launcherIndex="15"/>
+	<SERVER id="19" strid="1849" launcherIndex="16"/>
+	<SERVER id="20" strid="1875" launcherIndex="100"/>
+	<SERVER id="21" strid="1850" launcherIndex="17"/>
+	<SERVER id="22" strid="1851" launcherIndex="18"/>
+	<SERVER id="23" strid="1852" launcherIndex="19"/>
+	<SERVER id="24" strid="1853" launcherIndex="20"/>
+	<SERVER id="25" strid="1854" launcherIndex="21"/>
+	<SERVER id="30" strid="1876" launcherIndex="101"/>
+	<SERVER id="48" strid="1873" launcherIndex="22"/>
+	<SERVER id="53" strid="4513" launcherIndex="23"/>
+	<SERVER id="55" strid="5074" launcherIndex="24"/>
+	<SERVER id="58" strid="1617" launcherIndex="25"/>
+	<SERVER id="60" strid="5470" launcherIndex="26"/>
+	<SERVER id="100" strid="4203" launcherIndex="1000"/>
+	<SERVER id="200" strid="4204" launcherIndex="1001"/>
+</SERVERLIST>

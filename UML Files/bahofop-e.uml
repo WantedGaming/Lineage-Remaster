@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title>倉庫</title>
+	<npc>
+		<portrait></portrait>
+		<name>バホフ</name>
+		<job>血盟倉庫管理人</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 俺はギルドから<var src="0"/>血盟とだけ取引するように命令されている。すまんが、よそのギルドメンバーをあたってくれ。
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Karif</name>
+		<job>[アイテム製作師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>お前、以前俺にドラゴンの心臓を渡して武器を作っていかなかったか？</p>
+		<p>久しぶりだな…</p>
+		<p><a link="karif9a">ところで名前は何だったかな？</a></p>
+		<img src="331" link="karif9"></img>
+	</dialog>
+
+</npcdialog>

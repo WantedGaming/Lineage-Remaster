@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Keplisha</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>一瞬たりとも緊張を緩めては生きていけない、険しい世の中です。</p>
+		<p>しかし未来を読むことができるなら、万が一の大惨事に備えることができるでしょう。</p>
+		<p>神から授かった特別な能力で、あなたの未来を見てあげましょう。</p>
+		<p>ですが、私の能力にも限界があります。ですからあなたの魂と契約を結び交感をしなければ未来が見れないのです。</p>
+		
+		<p><a action="0">ケプリシャと魂の契約を結ぶ</a></p>
+	</dialog>
+
+</npcdialog>

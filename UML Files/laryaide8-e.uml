@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>レリーの補佐官</name>
+  </npc>
+  <dialog>
+    <p><font fg="fff00">ドルーガ家</font><font fg="ffffaf">5世の家宝</font>をお望みでしたら、アンタラス、パプリオン、リンドビオル、ヴァラカスをお倒しください。</p>
+    <p>そして、その証に各ドラゴンの<font fg="fff00">鱗、骨、欠けた爪、涙、肉、牙</font>をお持ちください。</p>	
+    <p>しつこいようですが、この<font fg="ffffaf">ドルーガ家の家宝</font>は、ギランの王権などとは比べ物にならないほど貴重な物です。</p>
+    <p><a action="request druga treasure5 a">アンタラスの屍を渡す</a></p>
+    <p><a action="request druga treasure5 f">パプリオンの屍を渡す</a></p>
+    <p><a action="request druga treasure5 l">リンドビオルの屍を渡す</a></p>
+    <p><a action="request druga treasure5 v">ヴァラカスの屍を渡す</a></p>
+    <p><a img="" src="331" link="laryaide3"></a></p>
+	</dialog>
+</npcdialog>

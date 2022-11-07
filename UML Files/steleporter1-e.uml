@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ピアト</name>
+		<job>怪しいテレポーター</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+				
+		<p>ここから出たいですか？では羽をくださいな。<br/></p>
+		<p><br/></p>
+		<p><a action="o">アルカトラズ：羽5個</a><br/></p>
+		<p><a action="b">Oren:羽1個</a><br/></p>
+		<p><a action="c">火竜の棲処：羽1個</a><br/></p>
+		<p><a action="d">ギラン：羽2個</a><br/></p>
+		<p><a action="e">Heine:羽3個</a><br/></p>
+		<p><a action="f">Kent:羽3個</a><br/></p>
+		<p><a action="g">グルーディオ：羽4個</a><br/></p>
+		<p><a action="h">シルバーナイトタウン：羽4個</a><br/></p>
+		<p><a action="i">ウィンダウッド：羽5個</a><br/></p>
+		<p><a action="j">オークの森：羽5個</a><br/></p>
+		<p><a action="k">Lawful Temple:羽7個</a><br/></p>
+		<p><a action="l">Chaotic Temple:羽7個</a><br/></p>
+		<p><a action="m">Talking Island:羽12個</a><br/></p>
+		<p><a action="n">ディアド要塞：羽12個</a><br/></p>
+
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<!--name></name-->
+		<job>船着場管理人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p>あれ？エルフじゃない？う～ん、エルフからは船賃をいくらもらわないとな<br/></p>
+		<p>まあ、1000Adenaといったところかな？どうする？<br/></p>
+		<img src="1111" action="cancel"/>
+		<img src="1111" action="cancel"/>
+		
+	</dialog>
+
+</npcdialog>

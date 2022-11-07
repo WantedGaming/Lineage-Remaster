@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+  <title>Conversation</title>
+	
+<npc>
+	<name>侍従長 オービル</name>
+	<!--job> </job-->
+	<!--portrait> </portrait-->
+	<!--text> </text-->
+</npc>
+	
+<dialog>
+<p>現在雇用している傭兵はいません。兵士を配置するには、私から「傭兵雇用」を指示し、傭兵を雇用しなければなりません。</p>
+</dialog>
+
+</npcdialog>

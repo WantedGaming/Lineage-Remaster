@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>黒精霊魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">コマンド ヘルプ：ダークエルフ魔法</font><br/></p>
+	<p><a link="helpmgcde0">一般</a><br/></p>
+	<p><a link="helpmgcde1">レベル1：闇の精霊魔法</a><br/></p>
+	<p><a link="helpmgcde2">レベル2：闇の精霊魔法</a><br/></p>
+	<p><a link="helpmgcde3">レベル3：闇の精霊魔法</a><br/></p>
+	<p><a link="helpmgcde4">その他</a><br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	</dialog>
+</npcdialog>

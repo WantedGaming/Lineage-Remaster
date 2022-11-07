@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>メティス</name>
+    <job>[少年]</job>
+  </npc>
+  	<dialog align="left">
+		<p>私は人を探しにアデンに派遣されました。あなたの場合は…うん…</p>
+		<p>さらに多くの冒険を積んで、レベル52になった後でまた会えたらと思います。</p>
+		<p>ちなみに、募集期間は<font fg="ffffaf">4月28日～5月9日</font>までです。</p>
+	</dialog>
+</npcdialog>

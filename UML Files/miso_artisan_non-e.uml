@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>フィア</name>
+		<job>[イベント製作]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>新しいアデン大陸での冒険を楽しんでいますか？<br/>
+		<br/>
+		勇士様に特別なプレゼントを準備しました。<br/>
+		すこしでも勇士様の冒険のお役にたてたら嬉しいです！<br/>
+		<br/>
+		さあ、必要なものを選んでください。<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="non_npc request craft"/></panel>
+	</dialog>
+</npcdialog>

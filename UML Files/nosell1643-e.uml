@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>私は美しい物が欲しいのです。お持ちでないようなので、また今度いらしてください。</p>
+	</dialog>
+
+</npcdialog>

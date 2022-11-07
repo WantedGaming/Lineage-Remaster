@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<SurveyUI>
+
+	<Window Name="SurveyUI_Window" X="0" Y="0" Width="252" Height="391" Moveable="20" KeyboardEvent="KeyboardEvent" MouseEvent="Dummy">
+	
+   	<Button Name="Exit_Button" X="238" Y="9" BaseSurf="4603" PushSurf="4604" MouseEvent="ExitButtonPressed"/>
+   	
+  	<Window Name="SurveyList_Window" X="0" Y="0" BaseSurf="4624;1" Transparent="false">
+  	  
+  	  <ScrollList Name="Survey_List" X="27" Y="63" Width="190" Height="306" Vertical="1">
+     		<ScrollBar Name="ScrollBar" X="199" Y="80" Width="15" Height="127" ScrollStart="0" ScrollHeight="137" Vertical="1" MaxValue="8">
+     			<Image Name="Background_Image" X="6" Y="0" Surf="4605"/>
+     			<Button Name="Up_Button" X="0" Y="-16" BaseSurf="4606" PushSurf="4607" MouseEvent="Dummy"/>
+     			<Button Name="Down_Button" X="0" Y="127" BaseSurf="4608" PushSurf="4609" MouseEvent="Dummy"/>
+     			<Button Name="Move_Button" X="2" Y="12" BaseSurf="4610;1" PushSurf="4611;1" MouseEvent="Dummy"/>
+     		</ScrollBar>
+  			<CheckButton Name="Item0_Button" X="0" Y="0" Width="200" Height="34" Caption="temp0" MouseEvent="ListItemPressed"/>
+  			<CheckButton Name="Item0_Button" X="0" Y="0" Width="200" Height="34" Caption="temp1" MouseEvent="ListItemPressed"/>
+  			<CheckButton Name="Item0_Button" X="0" Y="0" Width="200" Height="34" Caption="temp2" MouseEvent="ListItemPressed"/>
+  	  </ScrollList>
+
+    </Window>
+
+  	<Window Name="Survey_Window" BaseSurf="4612;1" Transparent="false">
+  	
+  	  <Window Name="Start_Window" Width="252" Height="391">
+  	    <Image Name="Title_Image" X="36" Y="44" Surf="4849;1"/>
+        <MultiLabel Name="Title_Label" X="36" Y="62" Width="180" Height="64" Align="top" FontColor="0,0,0"/>
+     	  <ScrollList Name="StartReward_List" X="27" Y="135" Width="190" Height="190" Vertical="1">
+       		<ScrollBar Name="ScrollBar" X="199" Y="18" Width="15" Height="127" ScrollStart="0" ScrollHeight="137" Vertical="1" MaxValue="8">
+       			<Image Name="Background_Image" X="6" Y="0" Surf="4605"/>
+       			<Button Name="Up_Button" X="0" Y="-16" BaseSurf="4606" PushSurf="4607" MouseEvent="Dummy"/>
+       			<Button Name="Down_Button" X="0" Y="127" BaseSurf="4608" PushSurf="4609" MouseEvent="Dummy"/>
+       			<Button Name="Move_Button" X="2" Y="12" BaseSurf="4610;1" PushSurf="4611;1" MouseEvent="Dummy"/>
+       		</ScrollBar>
+     	  </ScrollList>
+        <Image X="23" Y="119" Surf="4825"/>
+        <Label Name="RequestComment_Label" X="41" Y="333" Width="200" Height="16" String="2858" FontColor="0,0,0"/>
+      	<Button Name="Yes_Button" X="60" Y="352" BaseSurf="4830" PushSurf="4832" HighlightSurf="4831" MouseEvent="YesButtonPressed"/>
+      	<Button Name="No_Button" X="144" Y="352" BaseSurf="4819" PushSurf="4821" HighlightSurf="4820" MouseEvent="NoButtonPressed"/>
+  	  </Window>
+
+  	  <Window Name="Progress_Window" X="0" Y="0" Width="252" Height="391">
+        <Image Name="Ques1_Image" X="36" Y="44" Surf="4850;1"/>
+        <Image Name="Ques2_Image" X="80" Y="44" Surf="4861;1"/>
+        <Image Name="Num1_Image" X="73" Y="44" Surf="4851;1"/>
+        <Image Name="Num2_Image" X="80" Y="44" Surf="4851;1"/>
+        <MultiLabel Name="Ask_Label" X="36" Y="62" Width="180" Height="64" Align="top" FontColor="0,0,0"/>
+     	  <List Name="Example_List" X="33" Y="140" Width="190" Height="190" Vertical="1"/>
+        <Image X="23" Y="119" Surf="4825"/>
+        <MultiLabel Name="Comment_Label" X="33" Y="325" Width="180" Height="32" String="2860" FontColor="0,0,0"/>
+      	<Button Name="Next_Button" X="144" Y="352" BaseSurf="4816" PushSurf="4818" HighlightSurf="4817" MouseEvent="NextButtonPressed"/>
+  	  </Window>
+  	  
+  	  <Window Name="End_Window" Width="252" Height="356">
+        <MultiLabel Name="Thanks_Label" X="36" Y="44" Width="180" Height="32" String="2863" FontColor="0"/>
+     	  <ScrollList Name="EndReward_List" X="27" Y="135" Width="190" Height="190" Vertical="1">
+       		<ScrollBar Name="ScrollBar" X="199" Y="18" Width="15" Height="127" ScrollStart="0" ScrollHeight="137" Vertical="1" MaxValue="8">
+       			<Image Name="Background_Image" X="6" Y="0" Surf="4605"/>
+       			<Button Name="Up_Button" X="0" Y="-16" BaseSurf="4606" PushSurf="4607" MouseEvent="Dummy"/>
+       			<Button Name="Down_Button" X="0" Y="127" BaseSurf="4608" PushSurf="4609" MouseEvent="Dummy"/>
+       			<Button Name="Move_Button" X="2" Y="12" BaseSurf="4610;1" PushSurf="4611;1" MouseEvent="Dummy"/>
+       		</ScrollBar>
+     	  </ScrollList>
+        <Image X="23" Y="119" Surf="4825"/>
+        <MultiLabel Name="End_Label" X="33" Y="325" Width="180" Height="32" String="2864" FontColor="0,0,0"/>
+      	<Button Name="Complete_Button" X="144" Y="352" BaseSurf="4822" PushSurf="4824" HighlightSurf="4823" MouseEvent="CompleteButtonPressed"/>
+  	  </Window>
+    </Window>
+
+	</Window>
+
+</SurveyUI>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 象牙の塔の村の東側の出口から外に出て、12時の方角にある山に登るとおどろおどろしい共同墓地にたどり着きます。そこはエルモアとの戦争で犠牲になった無名勇士たちの墓なんですよ。墓地のそばには象牙の塔の村の近所で見られるあらゆる種類のモンスターが勢揃いしてるところですよ。<br/>
+		 <font fg="ffafff">エルモア ゾンビ ジェネラル</font>、<font fg="ffafff">エルモア ゾンビ ソルジャー</font>、<font fg="ffafff">エルモア ゾンビ ウィザード</font>もいるし、<font fg="ffafff">アイアン ゴーレム</font>とかの先制攻撃型のモンスターもいます。それ以外にも<font fg="ffafff">イエティ</font>や<font fg="ffafff">スノーマン</font>、<font fg="ffafff">サーベル タイガー</font>、<font fg="ffafff">アイス ゴーレム</font>までいるんですよ。油断してたらすぐにエルモア ゾンビに取り囲まれちゃいますよ。油断一秒怪我一生ですからね。では、幸運を祈ります。<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait></portrait>
+    <name><var src="name"/></name>
+    <job>[戦場テレポーター]</job>
+  </npc>
+  <dialog>
+	<p><br/>
+	戦場までお送りしましょう。<br/>
+	幸運を祈ります。
+	<br/>
+	<br/>
+	<br/>
+	 <a action="a">戦場に入る</a><br/><br/><br/>
+	</p>	
+  </dialog>
+</npcdialog>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+		
+	<npc>
+		<!--portrait> </portrait-->
+		<name>タラス</name>
+		<job></job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<p>グルーディン村のダンジョンに怪しい気が立ち込めているのをお前も感じたか？</p>
+		<p>オリムの姿をまったく見なくなったことからして、明らかに何かが起きているはずじゃ。<br/></p>
+		<p><br/></p>
+		<p>まずはカスパーたちを片付けて、やつらの帽子を持ってきてくれないか。帽子に込められた気をひとつに集めることで、強い力を生み出すことができるんじゃ。</p>
+		<p>オリムを探すのはその後に考えればよい。<br/></p>
+		<p><br/><br/></p>
+		<p>カスパーたちがオリムを探すためにグルーディン村のダンジョンをめちゃくちゃにしているそうじゃから、お前が行って助けてやってくれ。<br/></p>
+		<p><br/></p>
+		<p><img src="331" link="talass"/></p>
+
+	</dialog>
+
+</npcdialog>

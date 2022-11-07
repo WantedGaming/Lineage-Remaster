@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+	<portrait>PO_002</portrait>
+    <name>ニキ</name>
+    <job>[ケント遺物商人]</job>
+  </npc>
+  <dialog>
+	<p> うん… すみませんが、あなたと取り引きする気にはなれません。</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

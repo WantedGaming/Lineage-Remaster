@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>warehouse</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ベアサム</name>
+		<job>Warehouse Keeper</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 Since we are in the water here, the "Guild of Steel" dwarves would drown, so I am taking care of the luggage instead.</p>
+		 <panel type="Panel_Storage_Button">
+			<Button action="deposit"/>
+			<Button action="retrieve"/>
+			<Button action="deposit-pledge"/>
+			<Button action="retrieve-pledge"/>
+			<Button action="deposit-char"/>
+			<Button action="retrieve-char"/>
+		</panel>
+		 <p>The cost is per item and is required when withdrawing items deposited.<br/>
+		General Warehouse:100Adena<br/>
+		Clan Warehouse:500Adena<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>アリー</name>
+  </npc>
+  <dialog>
+    <p>あれ？預ける動物が見当たりませんけど？どこですか？</p> 
+    <p><a link="helpnpc">動物を飼う方法はありますか？</a></p> 
+  </dialog>
+</npcdialog>

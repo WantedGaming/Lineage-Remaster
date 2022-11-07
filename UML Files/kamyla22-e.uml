@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">：</font>
+<br/><br/>
+敵を瞬時に倒せると言い伝えられる、エルフ族の片手弓ですわ。<br/><br/>
+これになさいます？<br/><br/>
+<a action="i">サイレンス クロスボウをもらう</a><br/><br/>
+<a link="kamyla18">他のを見てみる</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

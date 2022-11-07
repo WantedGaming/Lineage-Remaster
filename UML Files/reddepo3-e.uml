@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>デポロジュー</name>
+    <job> </job>
+  </npc>
+  	<dialog align="left">
+		<p>これから<font fg="ffafff">血盟戦争</font>が始まるぞ！</p>
+		<p>赤き騎士団とともに攻城戦に参加しないか？</p>
+		<p>私の能力で君の戦闘能力を向上させるから、頼れる守護騎士とともに、</p>
+		<p>戦場を駆けまわることだろう。</p>
+		<p>攻城に成功したら、褒賞金を授けよう。今すぐ入団してくれ！</p>
+		<p><a action="0">赤き騎士団の一員になる</a></p>
+	</dialog>
+</npcdialog>

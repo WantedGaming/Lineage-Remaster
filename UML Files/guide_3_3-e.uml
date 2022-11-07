@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが36から40のあなたのためのキツめの狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。
+		<br/><br/>
+		<a link="guide_3_3_1"><font fg="ffffaf">ハイネの北東の鏡の森</font></a><br/>：<a action="teleport guide3_3_1"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_3_3_3"><font fg="ffffaf">アデンとギランの間のバンディット出没地域</font></a><br/>：<a action="teleport guide3_3_3"><var src="1"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_3_3_7"><font fg="ffffaf">ハイネのダンジョン2階、3階</font></a><br/>：<a action="teleport guide3_3_7"><var src="2"/>Adenaでテレポートします。</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

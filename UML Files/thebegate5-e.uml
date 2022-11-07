@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>テーベ オシリス祭壇のキーパー</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p><font fg="ffff0">テーベラス</font>の支配者<font fg="ffb6c1">オシリス</font>の力が弱まっています。</p>
+		<p><font fg="ffb6c1">オシリス</font>の力が回復されるまで<font fg="ffffaf">時の歪み</font>は維持されます。</p>
+	</dialog>
+
+</npcdialog>

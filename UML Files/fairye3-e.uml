@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<portrait>PO_002</portrait>
+		<name>フェアリー</name>
+		<job>[森の守護者]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p><font fg="ffafff">ミスリルの原石</font><font fg="ffafff">ミスリル</font>を生成するのにどれだけ精密な魔法をかけなきゃいけないと思ってんの～。すっごく大変だって、分かってる？</p>
+		<p>それでなくてもあなたたちエルフはそれを武器だとか防具を作るための<font fg="ffffaf">槍とか剣の刀身、プレートのメッキ</font>に使うためにものすごい量を作れって言うんだから、どれだけ大変だと思ってんのよ。</p>
+		<p>ほんとう、エルフは何にも知らないんだから…でもま、しょーがないか。それがうちらの仕事だもんね。</p>
+		<p><img src="331" link="fairye1"/></p>
+  </dialog>
+</npcdialog>

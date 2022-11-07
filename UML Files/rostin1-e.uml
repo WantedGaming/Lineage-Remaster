@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p>あのかわいい動物たちがすっかり気に入ったようだね。</p>
+		<p><a action="depositnpc">動物を預ける</a></p>
+		<p><a action="withdrawnpc">動物を引き取る</a></p>
+		<p><a link="transfer">動物を譲渡する</a></p>
+		<p>どうだい、なでてみるかい？</p>
+		<p>1匹当たり<var src="0"/>Adenaでお世話するよ。</p>
+		<p><a link="helppet02">動物を手なずける方法を聞く</a>	</p>
+	</dialog>
+	
+</npcdialog>

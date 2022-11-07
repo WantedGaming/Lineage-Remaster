@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>選ばれなかった者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 イヒヒヒ…<br/>
+		 <br/>
+		 なんだお前…目障りだ…さっさと失せろ！<br/>
+		 <br/>
+		 …プッ！グハハハ！ビビってやんの！！
+		 お前も俺と同じ、落ちこぼれのクズなようだな！<br/>
+		 せいぜい頑張ってみることだな！俺も頑張ればもしかしたらこの世の支配者になってるかもな！
+		 ぐへへへ…この地獄から抜けるぞ俺は！グハハハ！！<br/>
+		 ん？お前…美味しそうな物を持っているな…それをくれ！！なんなら俺が持つ別の物と交換してくれ！
+		</p><p><a action="request mcodr1">交換に応じる</a></p>
+		<p><br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

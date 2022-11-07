@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>アデンコインの運搬人</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 お前のような輩が「正義」を理解できるわけがない！<br/><br/><br/>
+		 今すぐ！目の前から消えるんだ！
+		<br/>
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

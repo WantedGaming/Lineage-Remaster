@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>リドル</name>
+		<job>錬金術師</job>
+		<!--text></text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>ルーンに刻まれた魔力を変えるなら、まず魔力を失ったルーンがなければなりません。</p>
+		<p>ルーンの魔力除去剤は研究室の外にいるフォイから買えますので、必要なら一度お立ち寄りください。<br/><br/>	</p>
+	
+		<p><img src="331" link="riddle1"/></p>
+		</dialog>
+	
+
+</npcdialog>

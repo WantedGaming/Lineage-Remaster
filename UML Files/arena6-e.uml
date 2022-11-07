@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>：</font><br/><br/></p>
+    <p>申し訳ございません。現在、<var src="1"/>さまがコロシアムを使用しています。</p>
+    <p>使用終了まで残り<var src="2"/>分なので、その後にまた来てください。</p>
+  </dialog>
+</npcdialog>

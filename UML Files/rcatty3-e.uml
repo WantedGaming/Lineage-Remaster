@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <portrait>2</portrait>
+    <name>ケティ</name>
+    <job>[武器防具商人]</job>
+  </npc>
+  	<dialog align="left">
+		<p>領主様がおっしゃるには、税金は値段の<font fg="ffffff"><var src="0"/>%</font>だそうです。</p>
+		<p>最近は戦争が終わったからでしょうかね。税金が安定して助かってますよ。</p>
+	</dialog>
+</npcdialog>

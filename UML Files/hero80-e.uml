@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><font fg="ffffaf">[変身リスト]</font></p>
+    <p align="center">
+    <img src="3435" tooltip="グンター^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="ayoung gunter"/><blank width="10"/>
+    <img src="3439" tooltip="ゾウ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="ayoung joewoo"/><blank width="10"/>
+    <img src="3440" tooltip="ジリアン^(ボウ/ガントレット)" action="ayoung gilian"/>
+    <img src="3441" tooltip="ブルディカ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="ayoung bluedica"/><blank width="10"/>
+    </p>
+  </dialog>
+</npcdialog>
+

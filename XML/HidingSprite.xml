@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HidingSprite>
+	<ActionGroup>
+		<!--desc는 파싱하지 않습니다. time의 단위는 msec 이며 액션 그룹이 변경될 때 은신 해제가 유지되는 시간입니다.-->
+		<Group id="1" desc="Attack/Alt Attack" time="12000">
+			<Action number="1" desc="Unequipped, Dagger"/>
+			<Action number="47" desc="Unequipped, Dagger"/>
+			<Action number="30" desc="Unequipped, Dagger"/>
+			<Action number="72" desc="Unequipped, Dagger"/>
+			<Action number="78" desc="Unequipped, Dagger"/>
+			<Action number="5"/>
+			<Action number="41"/>
+			<Action number="55"/>
+			<Action number="59"/>
+			<Action number="73"/>
+			<Action number="77"/>
+			<Action number="80"/>
+			<Action number="81"/>
+			<Action number="89"/>
+			<Action number="92"/>
+			<Action number="93"/>
+			<Action number="25"/>
+			<Action number="84"/>
+			<Action number="76"/>
+			<Action number="87"/>
+			<Action number="12"/>
+			<Action number="51"/>
+			<Action number="74"/>
+			<Action number="79"/>
+			<Action number="94"/>
+			<Action number="21"/>
+			<Action number="63"/>
+			<Action number="75"/>
+			<Action number="82"/>
+		</Group>
+		
+		<Group id="2" desc="Magic" time="10000">
+			<Action number="18"/>
+			<Action number="31"/>
+			<Action number="19"/>
+		</Group>
+		
+		<Group id="3" desc="Damage" time="10000">
+			<Action number="48"/>
+			<Action number="2"/>
+			<Action number="6"/>
+			<Action number="13"/>
+			<Action number="22"/>
+			<Action number="26"/>
+			<Action number="42"/>
+			<Action number="52"/>
+			<Action number="56"/>
+			<Action number="60"/>
+			<Action number="64"/>
+			<Action number="85"/>
+			<Action number="90"/>
+		</Group>
+		
+		<Group id="4" desc="breath/walk" time="12000">
+			<Action number="0"/><!--walk-->
+			<Action number="4"/>
+			<Action number="11"/>
+			<Action number="20"/>
+			<Action number="24"/>
+			<Action number="40"/>
+			<Action number="46"/>
+			<Action number="50"/>
+			<Action number="54"/>
+			<Action number="58"/>
+			<Action number="62"/>
+			<Action number="83"/>
+			<Action number="88"/>
+			
+			<Action number="3"/><!--breath-->
+			<Action number="9"/>
+			<Action number="7"/>
+			<Action number="8"/>
+			<Action number="14"/>
+			<Action number="23"/>
+			<Action number="27"/>
+			<Action number="43"/>
+			<Action number="49"/>
+			<Action number="53"/>
+			<Action number="57"/>
+			<Action number="61"/>
+			<Action number="65"/>
+			
+			<Action number="86"/>
+			<Action number="15"/>
+			<Action number="17"/>
+			<Action number="28"/>
+			<Action number="66"/>
+			<Action number="67"/>
+			<Action number="68"/>
+			<Action number="69"/>
+			<Action number="70"/>
+			<Action number="71"/>
+			<Action number="91"/>
+			<Action number="95"/>
+			<Action number="96"/>
+			<Action number="97"/>
+		</Group>
+	</ActionGroup>
+
+	<SpriteConfig>
+		<Sprite id="15986"><!--슬레이브-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="15987"><!--슬레이브-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="15988"><!--슬레이브-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="5"/>
+		</Sprite> 
+		<Sprite id="15989"><!--슬레이브-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="2"/>
+		</Sprite> 
+		<Sprite id="15990"><!--슬레이브-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="15991"><!--슬레이브-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="5"/>
+		</Sprite> 
+
+		<Sprite id="16002"><!--헬바인-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16003"><!--헬바인-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite>
+		<Sprite id="16004"><!--헬바인-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="2"/>
+		</Sprite> 
+		<Sprite id="16005"><!--헬바인-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16006"><!--헬바인-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16564"><!--헬바인-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+
+		<Sprite id="16008"><!--아이리스-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16009"><!--아이리스-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16010"><!--아이리스-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16011"><!--아이리스-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="5"/>
+		</Sprite> 
+
+		<Sprite id="16014"><!--커츠-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16015"><!--커츠-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite>
+		<Sprite id="16016"><!--커츠-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="7"/>
+		</Sprite> 
+		<Sprite id="16017"><!--커츠-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="2"/>
+		</Sprite> 
+
+		<Sprite id="16027"><!--하딘-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16028"><!--하딘-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="10"/>
+		</Sprite> 
+		<Sprite id="16029"><!--하딘-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="10"/>
+		</Sprite> 
+		<Sprite id="16030"><!--하딘-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="10"/>
+		</Sprite> 
+
+		<Sprite id="16040"><!--조우-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16041"><!--조우-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16042"><!--조우-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+
+		<Sprite id="16053"><!--블루디카-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16054"><!--블루디카-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16055"><!--블루디카-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		
+		<Sprite id="16101"><!--블루디카-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		
+		<Sprite id="16056"><!--프로켈-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16057"><!--프로켈-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16058"><!--프로켈-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+
+		<Sprite id="16074"><!--질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16075"><!--질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16076"><!--질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16077"><!--질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite>
+		<Sprite id="16078"><!--질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16079"><!--질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+
+		<Sprite id="16284"><!--군터-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16285"><!--군터-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="16286"><!--군터-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite>
+		<Sprite id="20438"><!--도펠겡어 킹-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="20442"><!--달의 기사 질리언-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite>
+		<Sprite id="20446"><!--철의 기사 아툰-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="20449"><!--행운의 마법사 조우-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="20469"><!--그림자의 기사 크리스터-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite> 
+		<Sprite id="20471"><!--백조의 기사 이실로테-->
+			<ActionConfig groupId="1" state="hide" opacity="31"/> <!--percent로 표기할지 0~31까지 표기할지. 0 투명 31 불투명-->
+			<ActionConfig groupId="2" state="hide" opacity="31"/>
+			<ActionConfig groupId="3" state="hide" opacity="31"/>
+			<ActionConfig groupId="4" state="hide" opacity="15"/>
+		</Sprite>
+	</SpriteConfig>
+</HidingSprite>

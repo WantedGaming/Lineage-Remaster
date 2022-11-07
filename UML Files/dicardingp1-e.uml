@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ようこそ。マシャーから君の活躍については聞いているよ。その後もここにたどり着くまでの冒険も、君を一層成長させたようだね。とにかく会えて嬉しいよ。<br/></p>
+		<p>実は…君に頼みごとがあって、こうやって君を呼び出したんだ。私の話を聞いてくれるかい？<br/></p>
+		<p><br/><br/></p>
+		<p><a link="dicardingp2">どんな頼みなのですか</a><br/></p>
+	</dialog>
+	
+</npcdialog>

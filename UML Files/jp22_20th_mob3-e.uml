@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<dialog>
+	<p><font fg="fffaff">
+		<br/><br/>
+		記念アクセサリーは持っているか？
+		<br/>
+		では長年の研究の成果をお見せしよう。</font>
+		<br/>
+		<br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

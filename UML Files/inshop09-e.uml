@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<dialog>
+		<p>
+		<font fg="ffafff">[メイン設定]</font><br/></p>
+		<p>箱の状態でトレード可能<br/>
+		詳細事項は下段参照<br/><br/></p>
+		
+		<p><font fg="ffafff">[商品構成]</font><br/></p>
+		<p>贖罪の聖書10冊<br/><br/></p>
+		
+		<p><font fg="ffafff">[商品説明]</font><br/></p>
+		<p>NPCユリス(アデン聖堂)に渡すとロウフル値が3000回復<br/><br/></p>
+		
+		<p><font fg="ffafff">[特異事項]</font><br/></p>
+		<p>キャラクターがPKを通してカオティック性向になった後、贖罪の聖書を使ってロウフル性向値に変更したとしても、24時間警備兵に攻撃される。<br/><br/></p>
+		
+		<p><font fg="ffafff">[設定]</font><br/></p>
+		<p>1．贖罪の聖書の箱<br/>
+		 ドロップ/トレード/個人商店可能<br/>
+		削除不可<br/>
+		 キャラクター専用倉庫/アカウント倉庫保管可能<br/>
+		 アデン商団に販売不可<br/><br/></p>
+		
+		<p>2．贖罪の聖書<br/>
+		 ドロップ/トレード/個人商店/削除不可<br/>
+		 アカウント倉庫/キャラクター専用倉庫保管可能<br/>
+		 アデン商団に販売可能<br/><br/></p>
+		
+	</dialog>
+</npcdialog>

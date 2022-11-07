@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait>PO_010</portrait>
+		<name><var src="name"/></name>
+		<job>[ヘルム製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		薄い金属板？</p><br/>
+		<p>そいつを作るにはランプ メタル10個と500Adenaが必要だ。<br/>
+		材料さえ持ってくればすぐ作ってやるよ。<br/><br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request slim plate"/></panel><p align="center">薄い金属板を作る</p><br/>
+
+	</dialog>
+</npcdialog>

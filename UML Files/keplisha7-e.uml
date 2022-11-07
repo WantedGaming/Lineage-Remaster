@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>Keplisha</name>
+		<job>[占星術師]</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>あなたと私の魂を一つにしてこの壺の中に込めました。</p>
+		<p>では、壺の蓋を開けてください。透き通った輝きを放つ<font fg="ffffaf">魂の球</font>が見えますか。</p>
+		<p>その玉があなたの未来を見せてくれることでしょう。</p>
+		<p>ただし魂の球は<font fg="ffffaf">一日に一つ</font>しか作られません。</p>
+		<p>それだけ未来を読むことは難しいということなのです。</p>
+
+	</dialog>
+
+</npcdialog>

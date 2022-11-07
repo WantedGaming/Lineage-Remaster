@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<ThebeRankUI>
+	<Window Name="PointTop10" X="7" Y="100" BasePng="3074;1" FramePng="3075;1" Toggle="false" MouseEvent="BoardWindowEvent" KeyboardEvent="BoardWindowKeyEvent">
+		<List Name="PointList" X="4" Y="24" Width="138" Height="148" Vertical="1" Gap="1">
+			<List Name="Top1" Width="138" Height="14" Horizontal="1" Gap="1">
+				<Image Name="Top1_Image" Width="15" Png="3071;1"/>
+				<Label Name="PlayerName_Label" Width="80"/>
+				<Label Name="PlayerPoint_Label" Width="40"/>
+			</List>
+			<List Name="Top2" Width="138" Height="14" Horizontal="1" Gap="1">
+				<Image Name="Top2_Image" Width="15" Png="3072;1"/>
+				<Label Name="PlayerName_Label" Width="80;1"/>
+				<Label Name="PlayerPoint_Label" Width="40;1"/>
+			</List>
+			<List Name="Top3" Width="138" Height="14" Horizontal="1" Gap="1">
+				<Image Name="Top3_Image" Width="15" Png="3073;1"/>
+				<Label Name="PlayerName_Label" Width="80"/>
+				<Label Name="PlayerPoint_Label" Width="40"/>
+			</List>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+			<Include Xml="InterSvrList.xml" Name="Rank" Width="138"/>
+		</List>
+		<Button Name="Open" X="60" Y="172" BasePng="3080;1" PushPng="3081;1" MouseEvent="CloseTop10List"/>
+	</Window>
+	<Window Name="PointBoard" X="7" Y="40" FramePng="11188;3" MouseEvent="Dummy">
+		<Image Name="Frame" X="0" Y="0" Png="11187;1"/>
+		<Label Name="ThebeState" X="80" Y = "-13" Width="100"/>
+		<Label Name="ServerPoint" X="75" Y="6" Width="60"/>
+		<Label Name="PersonalRank" X="65" Y="24" Width="70"/>
+		<CountDown Name="ActivateCountDown" X="117" Y="45" Width="25" TotalSecond="0" Format="SSS"/>
+		<CountDown Name="CountDownAlarm" X="43" Y="15" TotalSecond="56" Format="SS" AutoDisable="true" Activate="0">
+			<Image Name="0" Png="11300;3">
+				<Image Png="11290;1"/>
+			</Image>
+			<Image Name="1" Png="11301;3">
+				<Image Png="11291;1"/>
+			</Image>
+			<Image Name="2" Png="11302;3">
+				<Image Png="11292;1"/>
+			</Image>
+			<Image Name="3" Png="11303;3">
+				<Image Png="11293;1"/>
+			</Image>
+			<Image Name="4" Png="11304;3">
+				<Image Png="11294;1"/>
+			</Image>
+			<Image Name="5" Png="11305;3">
+				<Image Png="11295;1"/>
+			</Image>
+			<Image Name="6" Png="11306;3">
+				<Image Png="11296;1"/>
+			</Image>
+			<Image Name="7" Png="11307;3">
+				<Image Png="11297;1"/>
+			</Image>
+			<Image Name="8" Png="11308;3">
+				<Image Png="11298;1"/>
+			</Image>
+			<Image Name="9" Png="11309;3">
+				<Image Png="11299;1"/>
+			</Image>
+		</CountDown>
+		<Control Name="ThebeCapture">
+			<Image Name="Team1" X="150" Y="5" Width="70" Png="11189">
+				<Control Name="CapturePointList1">
+					<CheckButton Name="CapturePoint1" X="20" BasePng="11192;1" CheckPng="11193;1"/>
+					<CheckButton Name="CapturePoint2" X="38" BasePng="11192;1" CheckPng="11193;1"/>
+					<CheckButton Name="CapturePoint2" X="56" BasePng="11192;1" CheckPng="11193;1"/>
+				</Control>
+				<Tooltip Name = "Desc_Tooltip" X="70" Y="-3"/>
+			</Image>
+			<Image Name="Team2" X="150" Y="24" Width="70" Png="11191">
+				<Control Name="CapturePointList2">
+					<CheckButton Name="CapturePoint1" X="20" BasePng="11192;1" CheckPng="11194;1"/>
+					<CheckButton Name="CapturePoint2" X="38" BasePng="11192;1" CheckPng="11194;1"/>
+					<CheckButton Name="CapturePoint2" X="56" BasePng="11192;1" CheckPng="11194;1"/>
+				</Control>
+				<Tooltip Name = "Desc_Tooltip" X="70" Y="-3"/>
+			</Image>
+			<Image Name="Team3" X="150" Y="43" Width="70" Png="11190">
+				<Control Name="CapturePointList3">
+					<CheckButton Name="CapturePoint1" X="20" BasePng="11192;1" CheckPng="11195;1"/>
+					<CheckButton Name="CapturePoint2" X="38" BasePng="11192;1" CheckPng="11195;1"/>
+					<CheckButton Name="CapturePoint2" X="56" BasePng="11192;1" CheckPng="11195;1"/>
+				</Control>
+				<Tooltip Name = "Desc_Tooltip" X="70" Y="-3"/>
+			</Image>
+		</Control>
+		<Button Name="Open" X="60" Y="60" BasePng="3078;1" PushPng="3079;1" MouseEvent="OpenTop10List"/>
+	</Window>
+</ThebeRankUI>

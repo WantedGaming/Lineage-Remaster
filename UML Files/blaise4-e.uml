@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>数学者</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 おぉ！！<br/>
+		 本当に材料と資金を持ってきてくれたのか！
+		 今までずっと騙されてきたから、君のことも疑ってしまったよ…すまない。<br/>
+		<br/>
+		 本当にありがとう！
+		 君が集めてきてくれた材料で私の研究の集大成である「計算機」を作って一つ譲ろう！<br/><br/>
+		 君に対する私からの感謝のお礼だ。<br/>  
+		<br/>
+		
+		
+		
+		</p>
+	</dialog>
+</npcdialog>
+

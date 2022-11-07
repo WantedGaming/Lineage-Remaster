@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+    <p>アデン騎士団とは、正義たる精神力の持ち主のことを言うのだ！</p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

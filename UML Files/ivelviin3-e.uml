@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>[鍛冶屋]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		ほぉ…おまえさん、ドラゴンメイルが欲しいのか？地上最強の生命体である竜の鱗を精錬して作る鎧、それがまさにドラゴンメイルだよ。
+		<br/><br/>
+		<a action="request red dragon armor">レッド ドラゴン スケイル メイルを作る</a><br/><br/>
+		<a action="request blue dragon armor">ブルー ドラゴン スケイル メイルを作る</a><br/><br/>
+		<a action="request azure dragon armor">ホワイト ドラゴン スケイル メイルを作る</a><br/><br/>
+		<a action="request green dragon armor">グリーン ドラゴン スケイル メイルを作る</a><br/><br/>
+		<br/>知っているだろうが、竜は全部で4匹いる。火竜ヴァラカス、水竜パプリオン、地竜アンタラス、風竜リンドビオル…竜によってメイルにも種類があるんだよ。それと、<font fg="00ffff">各々に応じた竜の鱗</font>が15枚必要だ。例えば、火竜のメイルが欲しいなら、おまえさんにはヴァラカスの鱗15枚を持ってきてもらわんとな。
+		<br/>その他にも1000個の<font fg="00ffff">オリハルコン</font>と、500巻の<font fg="00ffff">ミスリルの糸</font>そして、<font fg="00ffff">アシタジオの灰</font>10個が必要だ。それと最後に…火にはルビー、水にはエメラルド、土にはダイアモンド、風にはサファイア…それぞれ最高級の<font fg="00ffff">宝石</font>を5個持ってきてほしい。
+		<br/>どうだ、とんでもない材料だろ？それでもまだおまえさんは竜のメイルを手に入れる自信があるのかい？私はとめる気はないがね。おまえさんが材料を持ってきたら、多分大喜びでメイルを作ってやるだろうよ。ただ1つ頼みたいのは、無謀な挑戦をして竜の餌食にだけはならないでくれってことだね。私のためにおまえさんが死ぬはめになったなんて、そんな罪悪感は持ちたくないからね。
+		<br/><br/>
+		<img src="331" link="ivelviin1"></img>
+		
+		</p>
+	</dialog>
+</npcdialog>
+

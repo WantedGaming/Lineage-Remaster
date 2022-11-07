@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ムミョン</name>
+		<job>Merchant</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		
+		<p>私が売っている商品は緊急事態のときに<br/></p>
+		<p>すごく役立つんですよ。<br/><br/></p>
+		<p>少し高くてもここで買っていくことをおすすめします。<br/></p>
+		<p>何でって？<br/><br/></p>
+		<p>忘れられた島に向かう船は<br/></p>
+		<p>一日に2本しかないからですよ～<br/></p>
+		
+	</dialog>
+
+</npcdialog>

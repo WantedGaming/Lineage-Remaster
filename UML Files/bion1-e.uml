@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 もしかして、氷水晶洞窟をお探しですか？
+		 その周辺を行ってきた村の青年たちが言っていたんですが、洞窟の入口が氷柱に塞がれて、中に入れないそうです。<br/>
+		<br/>
+		 おそらく地震が起きたせいだとか…<br/>
+		 詳しいことは私は分からないので、ブラッドに聞いてください。<br/>
+		<br/>
+		<br/>
+		<a link="bion2">ブラッドは誰ですか？</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriterun>
+	<sprite id="17541" speed="3"/>
+	<sprite id="13152" speed="3"/>
+	<sprite id="13153" speed="3"/>
+	<sprite id="12681" speed="3"/>
+	<sprite id="17531" speed="3"/>
+	<sprite id="15868" speed="3"/>
+	<sprite id="11389" speed="3"/>
+	<sprite id="15866" speed="3"/>
+	<sprite id="17545" speed="3"/>
+	<sprite id="15539" speed="3"/>
+	<sprite id="15537" speed="3"/>
+	<sprite id="15534" speed="3"/>
+	<sprite id="13631" speed="3"/>
+	<sprite id="13635" speed="3"/>
+	<sprite id="15814" speed="3"/>
+	<sprite id="17515" speed="3"/>
+	<sprite id="15550" speed="3"/>
+	<sprite id="15548" speed="3"/>
+	<sprite id="15545" speed="3"/>
+	<sprite id="17535" speed="3"/>
+	<sprite id="15831" speed="3"/>
+	<sprite id="15830" speed="3"/>
+	<sprite id="15528" speed="3"/>
+	<sprite id="17549" speed="3"/>
+	<sprite id="15833" speed="3"/>
+	<sprite id="15832" speed="3"/>
+	<sprite id="15531" speed="3"/>
+	<sprite id="13715" speed="3"/>
+	<sprite id="15079" speed="3"/>
+	<sprite id="15115" speed="3"/>
+	<sprite id="13723" speed="3"/>
+	<sprite id="13727" speed="3"/>
+	<sprite id="13731" speed="3"/>
+	<sprite id="13735" speed="3"/>
+	<sprite id="13739" speed="3"/>
+	<sprite id="13743" speed="3"/>
+	<sprite id="13717" speed="3"/>
+	<sprite id="13721" speed="3"/>
+	<sprite id="13725" speed="3"/>
+	<sprite id="13729" speed="3"/>
+	<sprite id="13733" speed="3"/>
+	<sprite id="13737" speed="3"/>
+	<sprite id="13741" speed="3"/>
+	<sprite id="13745" speed="3"/>
+	<sprite id="18368" speed="3"/>
+	<sprite id="18369" speed="3"/>
+	<sprite id="18370" speed="3"/>
+	<sprite id="18371" speed="3"/>
+	<sprite id="18372" speed="3"/>
+	<sprite id="18373" speed="3"/>
+	<sprite id="18374" speed="3"/>
+	<sprite id="18551" speed="3"/>
+	<sprite id="18555" speed="3"/>
+	<sprite id="18655" speed="3"/>
+	<sprite id="18656" speed="3"/>
+	<sprite id="18657" speed="3"/>
+	<sprite id="18658" speed="3"/>
+	<sprite id="18659" speed="3"/>
+	<sprite id="18660" speed="3"/>
+	<sprite id="18661" speed="3"/>
+	<sprite id="18662" speed="3"/>
+	<sprite id="18663" speed="3"/>
+	<sprite id="18664" speed="3"/>
+	<sprite id="18665" speed="3"/>
+	<sprite id="18666" speed="3"/>
+	<sprite id="18667" speed="3"/>
+	<sprite id="18668" speed="3"/>
+	<sprite id="18669" speed="3"/>
+	<sprite id="18670" speed="3"/>
+	<sprite id="18671" speed="3"/>
+	<sprite id="18672" speed="3"/>
+	<sprite id="15073" speed="3"/>
+	<sprite id="19019" speed="3"/>
+	<sprite id="19022" speed="3"/>
+	<sprite id="19026" speed="3"/>
+	<sprite id="19326" speed="3"/>
+	<sprite id="19387" speed="3"/>
+	<sprite id="19389" speed="3"/>
+	<sprite id="19391" speed="3"/>
+	<sprite id="19398" speed="3"/>
+	<sprite id="19409" speed="3"/>
+	<sprite id="19410" speed="3"/>
+	<sprite id="19411" speed="3"/>
+	<sprite id="19414" speed="3"/>
+	<sprite id="19417" speed="3"/>
+	<sprite id="19418" speed="3"/>
+	<sprite id="19419" speed="3"/>
+	<sprite id="19420" speed="3"/>
+	<sprite id="19421" speed="3"/>
+	<sprite id="19422" speed="3"/>
+	<sprite id="19423" speed="3"/>
+	<sprite id="19424" speed="3"/>
+	<sprite id="19425" speed="3"/>
+	<sprite id="19426" speed="3"/>
+	<sprite id="19427" speed="3"/>
+	<sprite id="19428" speed="3"/>
+	<sprite id="19429" speed="3"/>
+	<sprite id="19430" speed="3"/>
+	<sprite id="19431" speed="3"/>
+	<sprite id="19432" speed="3"/>
+	<sprite id="19433" speed="3"/>
+	<sprite id="19434" speed="3"/>
+	<sprite id="19437" speed="3"/>
+	<sprite id="19441" speed="3"/>
+	<sprite id="19442" speed="3"/>
+	<sprite id="19449" speed="3"/>
+	<sprite id="19468" speed="3"/>
+	<sprite id="19471" speed="3"/>
+	<sprite id="19494" speed="3"/>
+	<sprite id="19586" speed="3"/>
+	<sprite id="19589" speed="3"/>
+	<sprite id="19592" speed="3"/>
+	<sprite id="19618" speed="3"/>
+	<sprite id="19621" speed="3"/>
+	<sprite id="19624" speed="3"/>
+	<sprite id="19652" speed="3"/>
+	<sprite id="19656" speed="3"/>
+	<sprite id="19659" speed="3"/>
+	<sprite id="19666" speed="3"/>
+	<sprite id="19669" speed="3"/>
+	<sprite id="19671" speed="3"/>
+	<sprite id="19673" speed="3"/>
+	<sprite id="19689" speed="3"/>
+	<sprite id="19722" speed="3"/>
+	<sprite id="19726" speed="3"/>
+	<sprite id="19738" speed="3"/>
+	<sprite id="19824" speed="3"/>
+	<sprite id="19825" speed="3"/>
+	<sprite id="20065" speed="3"/>
+<sprite id="20066" speed="3"/>
+<sprite id="20067" speed="3"/>
+<sprite id="20068" speed="3"/>
+<sprite id="20069" speed="3"/>
+<sprite id="20070" speed="3"/>
+<sprite id="20071" speed="3"/>
+<sprite id="20072" speed="3"/>
+<sprite id="20073" speed="3"/>
+<sprite id="20074" speed="3"/>
+<sprite id="20075" speed="3"/>
+<sprite id="20076" speed="3"/>
+<sprite id="20077" speed="3"/>
+<sprite id="20078" speed="3"/>
+<sprite id="20079" speed="3"/>
+<sprite id="20080" speed="3"/>
+<sprite id="20081" speed="3"/>
+<sprite id="20082" speed="3"/>
+<sprite id="20083" speed="3"/>
+<sprite id="20084" speed="3"/>
+<sprite id="20085" speed="3"/>
+<sprite id="20086" speed="3"/>
+<sprite id="20087" speed="3"/>
+<sprite id="20088" speed="3"/>
+<sprite id="20089" speed="3"/>
+<sprite id="20090" speed="3"/>
+<sprite id="20091" speed="3"/>
+<sprite id="20092" speed="3"/>
+<sprite id="20093" speed="3"/>
+<sprite id="20094" speed="3"/>
+<sprite id="20095" speed="3"/>
+<sprite id="20096" speed="3"/>
+<sprite id="20097" speed="3"/>
+<sprite id="20098" speed="3"/>
+<sprite id="20099" speed="3"/>
+<sprite id="20100" speed="3"/>
+<sprite id="20101" speed="3"/>
+<sprite id="20102" speed="3"/>
+<sprite id="20103" speed="3"/>
+<sprite id="20104" speed="3"/>
+<sprite id="20263" speed="3"/>
+<sprite id="20267" speed="3"/>
+<sprite id="20270" speed="3"/>
+<sprite id="20274" speed="3"/>
+<sprite id="20301" speed="3"/>
+<sprite id="20302" speed="3"/>
+<sprite id="20303" speed="3"/>
+<sprite id="20304" speed="3"/>
+<sprite id="20569" speed="3"/>
+<sprite id="20579" speed="3"/>
+<sprite id="20612" speed="3"/>
+<sprite id="20619" speed="3"/>
+</spriterun>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>あ、ご苦労様です。浄化の儀式を行い、これらの霊魂を安楽の地へ送り出そうと思います。</p>
+		<p>感謝の印にプレゼントを用意しました。何かの役に立つといいのですが。</p>
+  </dialog>
+</npcdialog>

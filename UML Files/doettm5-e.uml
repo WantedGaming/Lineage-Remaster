@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+    <p>
+戦地の血の臭いが濃くなってきた…
+<br/>
+はやくここを離れたほうがいいよ…
+</p>
+  </dialog>
+</npcdialog>

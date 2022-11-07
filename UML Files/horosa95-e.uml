@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="dialog" title="Conversation">
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<portrait>PO_002</portrait>
+		<name>ケプリシャ</name>
+		<job>[占星術師]</job>
+  </npc>
+  <dialog>
+    <p><br/><font fg="ffffaf">今日の運勢です。</font></p>
+    <p>思いがけない大金が手に入るでしょう。</p>
+    <p>倉庫に置き忘れているアイテムはないか確認してみましょう。しまいこんでいる間に時価が上がっているはずです。</p>
+	<p>しかしさらに値上がりすることを見込んでそのままにしていると、今日ほど儲かるチャンスは二度とやってこないでしょう。<br/><br/></p>
+    <p><a link="keplisha3">占い結果を心に留めておきます</a></p>
+  </dialog>
+</npcdialog>

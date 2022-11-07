@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>揺らぐ者</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 愚かな魂め…
+		 貴様は今どこに向かっている！今すぐ亡者の傀儡になるのをやめ、真の王者であられるバルログ様を受け入れるのだ！
+		<br/>
+		<br/>
+		<br/>
+		<a action="1">バルログの意志を受け入れる</a>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

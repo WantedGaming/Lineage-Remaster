@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p><font fg="ffffff">アンナベル：</font><br/><br/></p>
+    <p>村の西にある沼地には行ってみましたか？</p>
+    <p>あそこにある沼の穴に落ちると、別の場所に落ちるそうです。</p>
+    <p>特にアリゲーターがたくさんいる島に落ちたら、大変です！</p>
+    <p>行った人によると、巨大なアリゲーターもいるそうです！だから、近づかないほうが良いですよ。</p>
+  </dialog>
+</npcdialog>

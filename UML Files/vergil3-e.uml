@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>防具商店</title>
+  <npc>
+    <name>バージル</name>
+    <job>[防具商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <p><font fg="ffffff"><var src="0"/>%</font>だ。ギラン領主は最も金のある領主のひとりだ。</p>
+  </dialog>
+</npcdialog>

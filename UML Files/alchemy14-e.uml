@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>Alchemists</name>
+  </npc>
+  <dialog>
+    <p>Extract 40 Spirit Orbs from Marble Legacy.<br/></p>
+    <p>How many Marble Legacy will you extract Spirit Orbs from? 1,000 Adena is required per piece, as there is a lot of work involved in extracting the materials.<br/><br/><br/></p>
+    <p><a action="d">1</a><br/></p>
+    <p><a action="e">10</a><br/></p>
+    <p><a action="f">50</a><br/><br/><br/></p>
+    <p><img src="331" link="alchemy5"/><br/></p>
+  </dialog>
+</npcdialog>

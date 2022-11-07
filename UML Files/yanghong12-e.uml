@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ヤンホン</name>
+	</npc>
+	<dialog>
+		<p>材料が足りません。受け取った材料をお返しします。<br/>
+		<br/>
+		<font fg="ffffaf">+1マジック ヘルム：真</font>の製作するには、次の材料が必要です。<br/>
+		<br/>
+		 <font fg="ffffaf">+7マジック ヘルム2個</font><br/>
+		<font fg="ffffaf">200,000Adena</font><br/>
+		<br/>
+		<br/>
+		<a link="yanghong10">再度合成を試みる</a></p>
+	</dialog>
+	
+</npcdialog>
+

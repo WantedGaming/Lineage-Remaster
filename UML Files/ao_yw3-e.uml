@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>旅人</name>
+  </npc>
+  <dialog>
+    <p>どうしました？私は今オーレン村に行く予定です。行き先が同じなら一緒に行ってあげますよ。</p>
+    <p>オークごときが出たとしても、私のパンチで余裕で倒せますよ！ハハハ！</p>
+    <p>それで、どうしますか？<br/><br/><br/></p>
+    <p><a action="start">一緒に行ってください</a></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バルログの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 グルルル…<br/>
+		 堕落した霊魂よ、お前の主は誰だ…！<br/>
+		<br/>
+		<a action="1">私の永遠の主はバルログ様だけです…</a>
+		</p>
+	</dialog>
+</npcdialog>

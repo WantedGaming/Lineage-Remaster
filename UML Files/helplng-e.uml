@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>言語</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">その他：言語</font><br/></p>
+	<p>リネージュは現在、日本語のサポートのみとなっています。<br/></p>
+	<p><font fg="ffffaf">日本語モードへの切り替え</font><br/>
+	ゲームをプレーする際には頻繁に日本語モードへの切り替えが必要になります。キーボードの半角/全角キーを押しても変換できますが、もしこの方法が効かない場合には、マウスカーソルをチャット入力ウィンドウにおいて、キーボードのALTキーと半角/全角キーを同時に押してください。<br/></p>
+	<p><img src="331" link="help"/><br/></p>
+	 </dialog>
+</npcdialog>

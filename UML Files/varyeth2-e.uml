@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>バリエス</name>
+    <job>[魔法商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <p>…魔法の研究には莫大な費用がかかります。しかし、だからといってあなたのような人にまで迷惑をかけるほど、研究規模を広げる必要はないと思っているんです。</p>
+  </dialog>
+</npcdialog>

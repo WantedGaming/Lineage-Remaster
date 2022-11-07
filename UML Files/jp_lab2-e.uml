@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ここに来るのは初めてですか？</p>
+		<p>よければ、我々に力を貸してもらえませんか。</p>
+		<p>今から渡す袋に容器が入っています。その容器に実験体の標本を入れてきてください。</p>
+		<p><a action="b">袋をください</a></p>
+	</dialog>
+
+</npcdialog>

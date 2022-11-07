@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>バーンス</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 俺たちが過ごせる村を作ってくれたのはありがたいが…
+		<br/><br/>
+		 なんでよりによって<font fg="ffffaf">ディアド要塞</font>なんだ？ここは俺たち同族の血の匂いが未だに残る場所だぞ。村を守るために彼らを殺さなければならなかった俺達の気持ちを考えてみろよ！
+		<br/>
+		<br/>
+		 これはあれだな！ラスタバドの俺たち同族たちが地上に上がれないように、ここに村を作ったんだ！きっとそうだ！なんて陰湿なやり口だ！
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

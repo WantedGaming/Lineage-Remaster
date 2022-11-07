@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エルラス</name>
+  </npc>
+  <dialog>
+	<p>
+ <font fg="ffff0">アデン</font>に暗雲が立ち込めてきましたね。<br/>
+ <font fg="fff00">アウラキア</font>様のご加護があらんことを…
+</p>
+  </dialog>
+</npcdialog>

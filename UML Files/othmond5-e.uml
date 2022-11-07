@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>オスモンド</name>
+    <job>[侍従長]</job>
+    <text>現在の城門の状態は以下のとおりです。</text>
+  </npc>
+  <dialog>
+	<var src="0"/>
+	<var src="1"/>
+	<var src="2"/>
+	<var src="3"/>
+	<var src="4"/>
+	<var src="5"/>
+
+	<p action="healegate_winda ogl">外城南門を修理する</p>
+	<p action="healegate_winda ogf">外城東門を修理する</p>
+	<p action="healigate_windawood inner gate">内城門を修理する</p>
+	<p action="autorepairon">城門自動修理命令を下す</p>
+	<p action="autorepairoff">城門自動修理命令を取り消す</p>
+  </dialog>
+</npcdialog>

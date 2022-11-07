@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>侍従長ポテンピン</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>傭兵を雇うには先に城への資金入金を済ませていなければなりません。</p>
+		<p>傭兵を配置した後に傭兵隊長コルバートを訪ねると、彼から傭兵を引き取ることができます。</p>
+		<p><a action="employ">傭兵を雇用する</a></p>
+		<p><a action="arrange">雇用した傭兵を配置する</a></p>
+	</dialog>
+
+</npcdialog>

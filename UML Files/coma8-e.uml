@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>craft</icon>
+	<title>Craft</title>
+	<npc>
+		<portrait></portrait>
+		<name>コマ</name>
+		<job>[怪しい製作職人]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 う～ん…<font fg="ffffaf">ピクシーの金色の羽</font>がもっと必要だ…<br/>
+		 そこの君…もし<font fg="ffffaf">ピクシーの金色の羽</font>を持っていたら俺にくれないか？<br/>
+		 譲ってくれるなら、ものすごい効果を持つ<font fg="ffffaf">バフスクロール</font>をやろう。<br/>
+		 <br/>
+		</p>
+		<panel type="Panel_Shop_Bt_Craft"><button action="request craft"/></panel>
+	</dialog>
+</npcdialog>

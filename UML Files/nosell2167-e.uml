@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>私のような花火売りが買えそうな物なんてありますか？</p>
+	</dialog>
+
+</npcdialog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>You didn't forget what I was going to give you, did you?</p>
+		<p>There's a price to be paid for it to restore purity.</p>
+		<p><img src="331" link="ellyonne11"/></p>
+	</dialog>
+</npcdialog>

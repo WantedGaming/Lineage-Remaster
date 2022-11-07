@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ヤヒの執政官</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		 お前からはブラッドクリスタルの臭いがしない。血なまぐさいあの臭い…<br/>
+		 <br/>
+		 愚か者め！お前がヤヒ様が与えてくださる永遠なる霊魂の儀式を望むなら、ヤヒ様に捧げるブラッドクリスタルを集めてくるのだ！<br/>
+		</p>
+		
+	</dialog>
+</npcdialog>

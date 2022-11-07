@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>Drugabert</name>
+		<job>Druga Bag Seller</job>
+		<!--text> </text-->
+	</npc>
+
+<dialog>
+	<p>Dragon Keys can not be sold between <font fg="fff000">2:00~8:00</font></p>
+	<p>In the deep night when the moon sets and the cold dew falls at dawn</p>
+	<p>The dragon's energy is too strong to make a dragon key.</p>
+	<br/>
+	<p>Sorry. Come again.</p>
+	<br/>
+</dialog>
+
+</npcdialog>

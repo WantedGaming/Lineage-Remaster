@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+	<!-- category -->
+	<!-- action -->
+	<!-- community -->
+	<!-- management -->
+	<!-- control -->
+	<!-- toggle -->
+	<!-- action -->
+	<!-- target -->
+	<!-- domain -->
+	<!-- global -->
+	<!-- view -->
+	<!-- map -->
+	<!-- target -->
+	<!-- 0: map object-->
+	<!-- 1: chating window -->
+	<!-- 2: party window -->
+	<!-- 3: pet party window -->
+	<!-- ex) target="1,0,0,1" map object, pet party window -->
+<ActionList>
+	<Action id="0" action="Action_ShoutOfSurvival" category="action" control="action" icon="5355" TitleTextID="6144"/>
+	<Action id="1" action="Action_PCcafeTeleport" category="action" control="action" icon="6911" TitleTextID="6145"/>
+	<Action id="2" action="Action_Loot" category="action" control="action" icon="5363" TitleTextID="6146"/>
+	<Action id="3" action="Action_SocialAction1" category="action" control="action" icon="5359" TitleTextID="6147"/>
+	<Action id="4" action="Action_SocialAction2" category="action" control="action" icon="5366" TitleTextID="6148"/>
+	<Action id="5" action="Action_SocialAction3" category="action" control="action" icon="5347" TitleTextID="6149"/>
+	<Action id="6" action="Action_SocialAction4" category="action" control="action" icon="5350" TitleTextID="6150"/>
+	<!--<Action action="Action_OpenMacroWin"            			category="community" control="action" icon="5352"/>-->
+	<Action id="7" action="Action_Trade" category="community" control="action" icon="5348" TitleTextID="6151"/>
+	<Action id="8" action="Action_InviteParty" category="community" control="target" target="1,1,1,0" domain="view" icon="5364" TitleTextID="6153"/>
+	<!--<Action action="Action_AddFriend"               			category="community" control="target" target="1,1,1,0" domain="global" icon="5362"/>-->
+	<Action id="9" action="Action_Exclude" category="community" control="target" target="1,1,1,0" domain="global" icon="5360" TitleTextID="6154"/>
+	<Action id="10" action="Action_OpenBookmarkWin" category="management" control="action" icon="5349" TitleTextID="6155"/>
+	<Action id="11" action="Action_BookmarkHere" category="action" control="action" icon="6564" TitleTextID="6156"/>
+	<Action id="12" action="Action_OpenShop" category="management" control="action" icon="5354" TitleTextID="6157"/>
+	<!--<Action action="Action_OpenPetManagementWin"    			category="management" control="target" target="1,1,1,1" domain="map" icon="5365"/>-->
+	<Action id="13" action="Action_Report" category="management" control="target" target="1,1,1,1" domain="global" icon="5358" TitleTextID="6158"/>
+	<Action id="14" action="Action_ArcaManageUI" category="action" control="action" icon="6544" TitleTextID="6159"/>
+	<!--<Action action="Action_ViewDropItemName"        			category="management" control="toggle" icon="5351" offIcon="5408"/> -->
+	<Action id="15" action="Action_LootAll" category="management" control="toggle" icon="5353" offIcon="5410" TitleTextID=""/>
+	<Action id="16" action="Action_CorpseTransparent" category="management" control="toggle" icon="5357" offIcon="5416" TitleTextID=""/>
+	<!--<Action action="Action_HPMPRecoveryEffect"      			category="management" control="toggle" icon="5389" offIcon="5403"/> -->
+	<Action id="17" action="Action_ShowDisableStatusIcon" category="management" control="toggle" icon="5390" offIcon="5411" TitleTextID=""/>
+	<!--<Action action="Action_DungeonTimeLimit"        			category="management" control="toggle" icon="5391" offIcon="5415"/> -->
+	<!--<Action action="Action_BrodcastToPledge"        			category="community" control="toggle" icon="5558" offIcon="5559"/>   -->
+	<!--<Action action="Action_KillScreenshot"         		 	category="community" control="toggle" icon="5795" offIcon="5796"/> -->
+	<!--<Action action="Action_ShowCraftNotice"         			category="management" control="toggle" icon="5833" offIcon="5832"/>   -->
+	<Action id="18" action="Action_MonsterOutline" category="management" control="toggle" icon="8216" offIcon="8217" TitleTextID=""/>
+	<Action id="19" action="Action_AutoSummonMagicDoll" category="management" control="toggle" icon="7247" offIcon="7246" TitleTextID=""/>
+	<!--<Action action="Action_PotionHelper"        				category="management" control="action" icon="5580"/>       <Action action="Action_TargetMarker"        				category="management" control="target" icon="5582"/> -->
+	<Action id="20" action="Action_AttackContinueByOneClick" category="management" control="toggle" icon="7278" offIcon="7277" TitleTextID=""/>
+	<Action id="21" action="Action_PvPModeSwitch" category="management" control="toggle" icon="9564" offIcon="9565" TitleTextID=""/>
+	<Action id="22" action="Action_AutoFoeSlayer" category="management" control="toggle" icon="7463" offIcon="7462" TitleTextID=""/>
+	<Action id="23" action="Action_AutoUseDragonDiamond" category="management" control="toggle" icon="6840" offIcon="7266" TitleTextID=""/>
+	<Action id="24" action="Action_SwapEquipSet" category="management" control="action" icon="7728" TitleTextID=""/>
+<Action id="25" action="Action_Record"   			    		category="management" control="action" icon="7388" TitleTextID=""/>
+  <Action id="26" action="Action_Pss" 						    category="action" control="toggle" icon="9562" offIcon="9563" TitleTextID=""/>
+	<Action id="27" action="Action_Assist" 					    category="action" control="action" icon="9629" TitleTextID=""/>
+	<!--<Action action="Action_PartyEnemyTargetAttack"			category="action" control="action" icon="9566" offIcon="9567"/>-->
+	<Action id="28" action="Action_MonsterNoTargeting"			category="action" control="toggle" icon="9627" offIcon="9626" TitleTextID=""/>
+	<Action id="29" action="Action_SummonMonsterCommand"			category="action" control="toggle" icon="10376" offIcon="10377" TitleTextID=""/>
+	<Action id="30" action="Action_SummonMonsterDismissCommand"	category="action" control="action" icon="10456" TitleTextID=""/>
+	<Action id="31" action="Action_HalpasAction"	category="action" control="toggle" icon="10475" offIcon="10474" TitleTextID=""/>
+	<Action id="32" action="Action_massteleport"	category="action" control="toggle" icon="10756" offIcon="10757" TitleTextID=""/>	
+</ActionList>

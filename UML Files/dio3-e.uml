@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>craft</icon>
+<title>Craft</title>
+  <npc>
+    <name>ディオ</name>
+		<job>[鉱石製作商人]</job>
+  </npc>
+  <dialog>
+    <p>
+ちょっと、そんな珍しいものをなぜ加工しようとするんだい？<br/>
+あ！もしかして、ティアラにある力を利用して新しいヘルムを作ろうというのかい？<br/>
+ひとまず、理論上は可能だと思う。<br/>
+一度やってみよう。私が心を込めて加工しようじゃないか。<br/>
+こんな珍しいものを触れるだけで光栄なんだ。手数料はいらないよ。ハッハッハ。<br/><br/>
+アイスクイーン ティアラを<br/><a action="request arctic stone1">：極寒のティアラの原石にする</a><br/><br/>
+アイスクイーン サンダルを<br/><a action="request arctic stone2">：極寒のサンダルの原石にする</a>
+</p>
+  </dialog>
+</npcdialog>

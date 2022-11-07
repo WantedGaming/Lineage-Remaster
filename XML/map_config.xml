@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<map_config>
+	<map beg="7787" end="7886">
+		<allow_item id="6916"/>
+		<allow_item id="6917"/>
+		<allow_item id="6918"/>
+		<allow_item id="6919"/>
+		<allow_item id="6920"/>
+		<allow_item id="6921"/>
+		<allow_item id="6922"/>
+		<allow_item id="6923"/>
+		<allow_item id="6924"/>
+		<allow_item id="6925"/>
+		<allow_item id="6926"/>
+		<allow_item id="6927"/>
+		<allow_item id="6928"/>
+		<allow_item id="6929"/>
+		<allow_item id="6930"/>
+		<allow_item id="6931"/>
+		<allow_item id="6932"/>
+		<allow_item id="6933"/>
+		<allow_item id="6934"/>
+		<allow_item id="6935"/>
+		<allow_item id="6936"/>
+		<allow_item id="6937"/>
+		<allow_item id="6938"/>
+		<allow_item id="6939"/>
+		<allow_item id="6940"/>
+		<allow_item id="6941"/>
+		<allow_item id="6942"/>
+		<allow_item id="6943"/>
+		<allow_item id="6944"/>
+		<allow_item id="6956"/>
+		<allow_item id="6965"/>
+		<allow_item cat="weapon"/>
+		<allow_item cat="armor"/>
+	</map>
+</map_config>

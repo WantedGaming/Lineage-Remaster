@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		選択した欠片の数が5個を超えたな。俺は5個までが必要なんだ。<br/>
+		すまないが、もう一度選び直してくれ。<br/>
+		<br/><br/>
+		<a action="3">選び直します</a><br/> 
+		<br/>
+		</p>
+		
+		</dialog>
+	
+</npcdialog>
+

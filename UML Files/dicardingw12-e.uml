@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>他の冒険家も挑んだがな…皆、失敗に終わった。生きて帰ってきたのはそなただけだ。</p>
+		<p>君に頼るしかない自分自身が情けない。わかった。調べによると、まだ魔族の間で大きないさかいは起きていないようだ。</p>
+		<p>それではくれぐれも体に気をつけたまえ。無事を祈ってるぞ。</p>
+	</dialog>
+	
+</npcdialog>

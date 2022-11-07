@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>もし諜報員やその文書が魔族の手に渡るようなことがあれば、今までの我々の努力は水の泡と化すだろう。</p>
+		<p>やつらは我々に気づかれないように、隠密裏に事を進めているはずだ。もしそんなことになれば、いったいどうなるのやら…考えるだけでも恐ろしい。</p>
+	</dialog>
+	
+</npcdialog>

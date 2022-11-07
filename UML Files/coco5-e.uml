@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ココ</name>
+		<job>ウィザード</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		 あなたは堕落したエルフですね。<br/>
+		 どのような理由でここに来たのかは分かりませんが、地下ダンジョンを通って歌う島に行く事もできますよ。 
+		 望みとあらば地下ダンジョンへお送りしましょう。<br/>
+		<br/><br/>
+		<a action="teleportURL">地下ダンジョンに行きます</a>
+		
+		</p>
+	</dialog>
+</npcdialog>

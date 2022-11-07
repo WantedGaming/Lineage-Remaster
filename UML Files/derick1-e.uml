@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+<dialog>
+	<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+  <p>ハイネには大きな二つの湖があるんだよ。知ってるか？<br/>
+	それが<a link="derick2">ルイス湖</a>と<a link="derick3">レイナ湖</a>だよ。<br/>
+	ま、取り立てて行く用事もないような場所だけどな。</p>
+  </dialog>
+</npcdialog>

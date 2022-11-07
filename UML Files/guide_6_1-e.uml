@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 シルバーナイトタウンで<font fg="ffafff">レベル10～51の冒険者</font>を対象にリッキーさんが指南しているそうです。行ってみるのはどうでしょう？
+		<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

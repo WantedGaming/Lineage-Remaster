@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Squall</name>
+		<job>[Teleporter]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		Do you know anything about the Land of the Abandon?<br/>
+		<br/>
+		It is the place where those who tried to revolt in the Elmore Kingdom failed and were banished.<br/>
+		<br/>
+		They are very violent and dangerious. You will be able to enter at <font fg="ffaaff">level 75 or higher.</font><br/><br/></p>
+		<panel type="Panel_Field_Abandoned_Bt">
+				<button action="a"/>
+				<button action="b"/>
+        </panel>
+	</dialog>
+</npcdialog>

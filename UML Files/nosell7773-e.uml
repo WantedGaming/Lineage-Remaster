@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>おい、お前さん。</p>
+		<p>わしをバカにしておるのか？</p>
+		<p>でなければ、何でお前さんの持ち物が何もないのか説明してくれるか？</p>
+		<p>用がないなら、あっちへ行っておくれ。</p>
+	</dialog>
+
+</npcdialog>

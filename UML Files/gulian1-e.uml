@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>
+		 ふぅ…ったく。この村は広すぎてどこがどこだかわかんねぇな…<br/><br/>
+		 けどな、地図で村の北の地域と南の地域を見渡せるようになってからは本当に便利になったんだ！前みたいに、道に迷っちまうこともなくなったしな。<br/>
+		
+		
+		</p>
+	</dialog>
+</npcdialog>

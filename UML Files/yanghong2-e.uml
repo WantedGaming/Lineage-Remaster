@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ヤンホン</name>
+	</npc>
+	<dialog>
+		<p><font fg="ffffaf">+0マジック ヘルム：真</font>の合成に必要な材料は次のとおりです。<br/>
+		<br/>
+		<font fg="ffffaf">+6マジック ヘルム4個</font><br/>
+		<font fg="ffffaf">200,000Adena</font><br/>
+		<br/>
+		<br/>
+		<a action="A">+0マジック ヘルム：真を製作する</a></p>
+	</dialog>
+</npcdialog>
+

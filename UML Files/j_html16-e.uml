@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<dialog>
+<p><font fg="ffffff">ユリエ：</font>
+<br/><br/>
+最終訓練審査官から時空の玉を受け取られましたか？<br/><br/>
+ただ、<font fg="ffafff">時空の玉</font>だけでは時空を越えることができないので、<font fg="ffafff">時空の壺</font>も一緒に持っていかなければなりません。<br/><br/>
+時空の壺が何かですって？<br/><br/>
+時空の壺を使用すれば、審査官がくれた玉と同じ<font fg="ffafff">玉をそれぞれ1個ずつ獲得</font>することができます。<br/><br/>
+時空の壺は、<font fg="ffafff">1日に1回のみ</font>使用できるということをお忘れなく！<br/><br/>
+<a action="c">時空の壺を受け取る</a><br/><br/>
+</p>
+</dialog>
+</npcdialog>

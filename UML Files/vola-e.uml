@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>shop</icon>
+  <title>Shop</title>
+	<npc>
+    <image>Talk_NPC_002</image>
+    <name>ボルラ</name>
+    <job>[武器商人]</job>
+    <text>いらっしゃい。</text>
+  </npc>
+  <dialog>
+    <panel type="Panel_Shop_Button">
+      <button action="buy"/>
+    </panel>    
+		<p>何をお探しですか？<br/>
+		<br/>
+		うちの商品は品質が良いで有名ですよ。</p>
+		<p><br/></p>
+		<p><a action="s_merchant3">Ask about recent prices</a></p>
+		
+  </dialog>
+</npcdialog>

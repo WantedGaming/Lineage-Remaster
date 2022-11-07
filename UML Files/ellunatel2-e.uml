@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<!--portrait></portrait-->
+		<name>エルナ</name>
+		<job>[Teleporter]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p>どちらに行かれますか？</p>
+		<p><a action="teleport elf-gludin">Gludin Village:<var src="0"/>Adena</a></p>
+		<p><a action="teleport elf-giran">Giran Castle Town:<var src="1"/>Adena</a></p>
+		<p><a action="teleport elf-silver">シルバーナイトタウン：<var src="2"/>Adena</a></p>
+		<p><a action="teleport elf-woods">ウッドベック村：<var src="3"/>Adena</a></p>
+		<p><a action="teleport elf-willow">Firefield Village:<var src="4"/>Adena</a></p>
+		<p><a action="teleport elf-heine">Heine Castle Town:<var src="5"/>Adena</a></p>
+		<p><a action="teleport elf-werldern">Werldern Village:<var src="6"/>Adena</a></p>
+		<p><a action="teleport elf-oren">Oren:<var src="7"/>Adena</a></p>
+		<p><a action="teleport elf-aden">Aden:<var src="8"/>Adena</a></p>
+		<p><a action="teleport elf-lowful">Lawful Temple:<var src="9"/>Adena</a></p>
+		<p><a action="teleport elf-chaos">Chaotic Temple:<var src="10"/>Adena</a></p>
+		<p><a action="teleport elf-island">Talking Island:<var src="11"/>Adena</a></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>craft</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Craft</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>シュエルメ</name>
+		<job>製作職人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+			
+		<p>ドラゴンの証32個で魔眼を製作するのは少し難しい作業です。<br/></p>
+		
+		
+		<p><a action="h">地竜の魔眼を作る</a><br/></p>
+		<p><a action="i">水竜の魔眼を作る</a><br/></p>
+		<p><a action="j">火竜の魔眼を作る</a><br/></p>
+		<p><a action="k">風竜の魔眼を作る</a><br/></p>
+		
+		<p> 命のない証に強い力を込めて魔眼を作るには、生命の歌を必要不可欠なの。<br/></p>
+		<p> その歌がずっと繰り返すよう魔眼に刻まなければなりません。歌は無料で歌ってあげますが、刻むのにはイベルビンが作る枠をはめなければなりません。<br/></p>
+		<p> ドワーフが計算高いことはご存知でしょ？寄付金で<font fg="fff000">10万Adena</font>が必要だけど…それぐらいお持ちかしら？<br/></p>
+		
+		<p><img src="331" link="sherme2"/><br/></p>
+		
+	</dialog>
+
+
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そなたの表情からすると、何かいいことがあったようだな。皆の喜ぶことであればなおさらいい。</p>
+		<p>ところで、魔族の調査はどれぐらい進んだ？</p>
+		<p><br/><br/></p>
+		<p><a action="e">移動命令書を差し出す</a><br/></p>
+	</dialog>
+	
+</npcdialog>

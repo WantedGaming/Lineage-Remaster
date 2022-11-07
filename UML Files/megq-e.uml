@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">メグ：</font></p>
+		<p>
+		<br/>
+		特に異常現象はないな！
+		<br/>
+		怪しい者たちを見たらすぐに私に話してくれ！
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

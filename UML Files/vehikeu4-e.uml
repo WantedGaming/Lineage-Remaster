@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ベヒーク</name>
+  </npc>
+  <dialog>
+    <p>海賊島の地下にあるこの共同…いや、船の墓場とでもしよう。ここが発見されたのだ。<br/>
+		<br/>
+    商人として黙っていられるわけがないだろ。憎きブアックのやつみたいに、俺も一財産儲けてやろうってことよ！</p>
+    <p><a link="vehikeu5">一体何のことなのか…</a></p>
+  </dialog>
+</npcdialog>

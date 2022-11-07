@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>sign</icon>
+  <title>イリュージョニストの幻術魔法</title>
+  <dialog>
+	<p align="center"><font fg="ffffff">イリュージョニストの幻術魔法：一般論</font><br/></p>
+	<p><font fg="ffffaf">魔法別キャラクター学習可能レベル</font>：<br/>
+	イリュージョニストの幻術魔法1：レベル15<br/>
+	イリュージョニストの幻術魔法2：レベル30<br/>
+	イリュージョニストの幻術魔法3：レベル45<br/>
+	イリュージョニストの幻術魔法4：レベル60<br/>
+	イリュージョニストの幻術魔法5：レベル75<br/>
+	パッシブ魔法：レベル80<br/></p>
+	<p><font fg="ffffaf">魔法 一般：</font><br/>
+	イリュージョニストの幻術魔法のうち、精神魔法は対象の<font fg="afffff">MR/属性抵抗</font>を無視し、物理魔法の場合、<font fg="afffff">相手の防御能力</font>の影響を受けません。<br/></p>
+	
+	<p><font fg="ffffaf">魔法材料：</font><br/>
+	イリュージョニストの幻術魔法の中には<font fg="afffff">属性石</font>という触媒が無いと使用できない魔法があります。<br/>
+	必要な数は、各魔法のヘルプに書かれています。<br/></p>
+	
+	<p><font fg="ffffaf">魔法を習う：</font><br/>
+	イリュージョニストの幻術魔法を習得するには、<font fg="afffff">記憶の水晶</font>という一種の魔法書が必要です。<br/>
+	各魔法別に<font fg="afffff">記憶の水晶</font>を獲得した後に、アイテムをダブルクリックすると習得できます。<br/></p>
+	<p><img src="331" link="helpmag"/><br/><br/></p>
+	</dialog>
+</npcdialog>

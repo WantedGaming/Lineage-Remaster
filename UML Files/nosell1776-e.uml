@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+
+	<dialog align="left">
+		<p>お客さん、所持品をもう一度確認してください。買えそうな物が全然ありません。</p>
+	</dialog>
+
+</npcdialog>

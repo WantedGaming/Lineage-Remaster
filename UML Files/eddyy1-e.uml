@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>dialog</icon>
+<title>Conversation</title>
+  <npc>
+    <name>エディ</name>
+    <job>[ペット商人]</job>
+  </npc>
+  <dialog>
+	<p>
+ あっ、ステキなチケットをお持ちですね！かわいいペットと交換しますよ。<br/>
+ <br/>
+<a action="buy 21">ハイ ウルフ交換</a><br/>
+<a action="buy 22">ハイ ドーベルマン交換</a><br/>
+<a action="buy 23">ハイ コリー交換</a><br/>
+<a action="buy 24">ハイ シェパード交換</a><br/>
+<a action="buy 25">ハイ ハスキー交換</a><br/>
+<a action="buy 26">ハイ ベアー交換</a><br/>
+<a action="buy 27">ハイ ラビット交換</a><br/>
+<a action="buy 28">ハイ キャット交換</a><br/>
+<a action="buy 29">ハイ フォックス交換</a><br/>
+<a action="buy 30">ハイ ビーグル交換</a><br/>
+<a action="buy 31">ハイ セントバーナード交換</a><br/>
+<a action="buy 32">ハイ ラクーン交換</a>
+</p>
+  </dialog>
+</npcdialog>

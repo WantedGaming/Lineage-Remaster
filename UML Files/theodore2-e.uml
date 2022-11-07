@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>エントを<font fg="ffffff">素手で叩くと</font>獲得できるエントの枝を<a link="theodorE4">ネルファ</a>に持っていけば、<font fg="ffffff">弓や矢、件、槍</font>を作るのに使えるし、その上<a link="theodorE5">アラクネ</a>から<font fg="ffffff">糸</font>を取り<font fg="ffffff">服</font>を作るのにも使えるそうだ。おまけにそれを<font fg="ffffff">噛めば毒を治す</font>こともできて、とても役立つんだ。</p>
+		<p>ときどき<font fg="ffffff">実</font>が一緒に落ちてくることもあるけど、それを食べるとつかれたエルフの体を<font fg="ffffff">回復</font>させることができるそうだ。エントの幹は私たちにとって使いやすくなっていると思わないか？それもすべてアインハザード様の意志であると思うが、私はときどき疑問を持つ。ある命が他の生命のために存在してもよいのかと。</p>
+	</dialog>
+
+</npcdialog>

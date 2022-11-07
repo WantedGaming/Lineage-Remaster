@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+<icon>warehouse</icon>
+<title>倉庫</title>
+  <npc>
+    <name>エル</name>
+		<job>[エルフ族倉庫番]</job>
+  </npc>
+  <dialog>
+	<p>
+ 申し訳ありませんが、荷物をお預かりするには信頼が足りません。<br/>
+ ふぅ…あたしもこの森を飛び出して世界中を旅行してみたいなぁ…<br/>
+倉庫番を任されてからは、どこにも行けなくなっちゃった…
+</p>
+  </dialog>
+</npcdialog>

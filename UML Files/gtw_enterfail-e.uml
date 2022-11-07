@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <portrait></portrait>
+    <name><var src="name"/></name>
+    <job>[戦場テレポーター]</job>
+  </npc>
+  <dialog>
+	<p><br/>
+	現在、占領戦は終了しています。<br/>
+	残念ですが、勝利した騎士団でなければ入場を禁ずるとの命令が城主様から下りました。<br/>
+	<br/>
+	<br/>
+	<br/>
+	</p>	
+  </dialog>
+</npcdialog>

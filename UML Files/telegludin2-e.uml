@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<npc>
+		<!--portrait> </portrait-->
+		<name>ウィザード アスター</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+	
+	<dialog align="left">
+		<p>Villages you can travel from here with their fees.</p>
+		<p>Which village do you want to travel to?</p>
+		<p><a action="teleport gludin-kent">Kent Castle Town:<var src="0"/>Adena</a></p>
+		<p><a action="teleport gludin-woods">ウッドベック村：<var src="1"/>Adena</a></p>
+		<p><a action="teleport gludin-willow">Firefield Village:<var src="2"/>Adena</a></p>
+		<p><a action="teleport gludin-giran">Giran Castle Town:<var src="3"/>Adena</a></p>
+		<p><a action="teleport gludin-silver">シルバーナイトタウン：<var src="4"/>Adena</a></p>
+		<p><a action="teleport gludin-heine">Heine Castle Town:<var src="5"/>Adena</a></p>
+		<p><a action="teleport gludin-werldern">Werldern Village:<var src="6"/>Adena</a></p>
+		<p><a action="teleport gludin-behemoth">ベヒモス：<var src="7"/>Adena</a></p>
+		<p><a action="teleport gludin-silveria">シルベリア：<var src="8"/>Adena</a></p>
+		<p><a action="teleport gludin-oren">Oren Village:<var src="9"/>Adena</a></p>
+		<p><a action="teleport gludin-aden">Aden:<var src="10"/>Adena</a></p>
+		<p><a action="teleport gludin-lowful">Lawful Temple:<var src="11"/>Adena</a></p>
+		<p><a action="teleport gludin-chaos">Chaotic Temple:<var src="12"/>Adena</a></p>
+		<p><a action="teleport gludin-grape">ウィザードの研究室：<var src="13"/>Adena</a></p>
+		<p><a action="teleport gludin-island">Talking Island:<var src="14"/>Adena</a></p>
+		<p><a action="teleport gludin-scave">Cave of Silence:<var src="15"/>Adena</a></p>
+		<p><a action="teleport gludin-diad">ディアド要塞：<var src="16"/>Adena</a></p>
+	</dialog>
+
+</npcdialog>

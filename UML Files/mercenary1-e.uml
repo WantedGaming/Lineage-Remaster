@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		現在のこの地方の領主は<font fg="ffffff"><var src="0"/></font>血盟出身の<font fg="ffffff"><var src="1"/></font>様だ。
+		<br/>
+		<a link="mercenary4">次の攻城戦の時間を聞く</a>
+		</p>
+	</dialog>
+</npcdialog>

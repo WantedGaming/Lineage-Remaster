@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<portrait></portrait>
+		<name>Marvin</name>
+		<job>[Growth Wizard]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		僕の修練がまだ足りないので、「成長と経験の魔法」を使うと疲れますね。<br/>
+		<br/>
+		 探してきてくださった女の涙は、他に調査している人がいないので僕がすべて持っていきます。<br/>
+		<br/>
+		 それからアイス キューブはブラッド様がくださるプレゼントだそうです。使っていて珍しいアイテムが出てきたら、ブラッド様のところへ行くと喜ばれるでしょう。<br/>
+		<br/>
+		 大したお返しではありませんが、残りの調査もよろしくお願いいたします。<br/>
+		<br/>
+		 早く姉に会いたいです……<br/>
+		<br/>
+		</p>
+	</dialog>
+</npcdialog>

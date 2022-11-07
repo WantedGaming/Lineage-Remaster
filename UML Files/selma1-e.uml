@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>おぞましい戦争がようやく終わって、やっと彼と結婚出来たのに、なんでこんな事に…<br/></p>
+		<p>アデン城の北側にお母様を迎えに行ったっきり、夫が何日も帰ってこないんです…<br/></p>
+		<p>夫は無事なんでしょうか？<br/></p>
+				
+	</dialog>
+
+</npcdialog>

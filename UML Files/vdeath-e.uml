@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>デスナイト</name>
+    <job>[レイド強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p><font fg="bbbbbb">クウッ……</font></p>
+	<p><font fg="0000ff">ヴァラカス</font><font fg="bbbbbb">の…気配がする…</font></p>
+	<p><font fg="bbbbbb">この縛りを…解け…</font></p>
+	<p><br/></p>
+	<p><font fg="bbbbbb">私が…この手で…倒してやる…</font></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a action="a">魔法陣に触れる</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+
+	<npc>
+		<!--portrait> </portrait-->
+		<name>古代の精霊</name>
+		<!--job> </job-->
+		<!--text> </text-->
+	</npc>
+
+	<dialog align="left">
+		<p>遠い昔、地下世界に大きな地殻変動があったのです。</p>
+		<p>それにより精霊の墓付近の地層の一部に亀裂が生じ、その亀裂にたくさんの精霊が吸い込まれ地上へと追いやられてしまったのです。 </p>
+		<p>私もその事故で、ここに独り残ることになってしまいました。</p>
+		<p><img src="331" link="pielemental"/></p>
+	</dialog>
+
+</npcdialog>

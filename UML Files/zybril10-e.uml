@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<npc>
+		<name>ジブリル</name>
+		<job>神官</job>
+	</npc>
+	<dialog>
+		<p>さあ、<font fg="ffffaf">月光の精気</font>を受け取ってください。</p>
+		<p>とても貴重なものですが、勇士様にお渡しするのであれば惜しくはありません。</p>
+		<p>大切に使ってください。</p>
+		<p>伝説とされていた、あのルナ ロング ボウが完成したら、私にも絶対に見せてくださいね。	</p>
+	</dialog>
+	
+</npcdialog>

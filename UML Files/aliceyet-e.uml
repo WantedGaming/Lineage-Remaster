@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <name>ヤヒの鍛冶屋</name>
+  </npc>
+  <dialog>
+    <p> 人間の欲は海水のようでな、満たそうとすればするほど、その乾きは酷くなっていくんだよ！グハハハ！<br/></p>
+    <p> お前は<font fg="ffaaff">アリス</font>の声が聞こえるか？よく耳を澄ましてみろ。もっと力を、もっと強い力が欲しいって叫ぶ絶望の声だ！<br/></p>
+    <p> グハハハ！何も言わなくても分かるぞ！お前もそうなんだろ！<br/><br/></p> 
+    <p> <a action="request craft">そうだ！アリスをくれ</a></p> 
+  </dialog>
+</npcdialog>

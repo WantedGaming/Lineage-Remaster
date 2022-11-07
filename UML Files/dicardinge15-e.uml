@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>どうなった？成功したか。あの忌々しい祭壇はこの世から消え去ったのか。</p>
+		<p><br/></p>
+		<p><a action="y">祭壇を破壊した証拠を見せてフレイム ボウを受け取る</a><br/>
+		<br/><br/>
+		<a action="s">祭壇を破壊した証拠を見せてフレイム ソードを受け取る</a></p>
+	</dialog>
+	
+</npcdialog>

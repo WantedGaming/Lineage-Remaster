@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>そうか…そなたの失敗のあおりを食らって、そばにいた諜報員が魔族から追われる破目になってしまった。</p>
+		<p>まあ、逃げることにかけてはあいつの右に出る者はいないからな。もう一度侵入するまでには、うまく逃げおおせるだろう。</p>
+		<p><br/></p>
+		<p>それでは、もう一度再生の聖所を破壊しに向かいたまえ。祭壇はおそらく一番奥にあるだろう。頼んだぞ。</p>
+	</dialog>
+	
+</npcdialog>

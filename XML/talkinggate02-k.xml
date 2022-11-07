@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_003</image>
+    <name>문디기</name>
+    <job>[ 문지기 ]</job>
+    <text>누구시오</text>
+  </npc>
+  <dialog>
+    <p>마을 밖은 매우 위험합니다.</p>
+    <p>그래도 나가야 한다면.. </p>
+    <p action="b">북쪽 문으로 나간다.</p>
+    <p action="c">서쪽(위) 문으로 나간다.</p>
+    <p action="d">서쪽(아래) 문으로 나간다.</p>
+    <p action="e">남쪽 문으로 나간다.</p>
+  </dialog>
+</npcdialog>

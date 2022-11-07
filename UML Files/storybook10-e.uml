@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+	<p><font fg="ffffff">[混沌の終結：イズケイル]：</font></p>
+	<p><br/></p>
+	<p>王の交代が続いたことで各領地に配置された軍師たちのほとんどが首都<font fg="ffffaf">アデン</font>へと移動していた頃、ウィザードの地<font fg="ffffaf">オーレン</font>に、この混乱を鎮めることになる<font fg="ffffaf">イズケイル</font>が彼に従う軍師と<font fg="ffffaf">ダークウィザードケレニス</font>を引き連れて現れた。</p>
+	<p><br/></p>
+	<p>ウィザードはどんなに強い魔力を持っていても、守るべき軍師がいなければ呪文を唱えることができなかった。</p>
+	<p><br/></p>
+	<p>一気に<font fg="ffffaf">オーレン</font>を支配し、命と地位を保とうと堕落したウィザードたちから盲目的な忠誠を手に入れた<font fg="ffffaf">イズケイル</font>は、服従しない者たちを次々に排除していった。</p>
+	<p><br/></p>
+	<p>ウィザードを従えた彼の部隊は、つまらない王権争奪が続いていた首都<font fg="ffffaf">アデン</font>に着くと、自らを王族だと主張し王権を狙っていた者たちを倒していき、自身を<font fg="ffffaf">ケンラウヘル1世</font>と称して王の座に着いた。</p>
+	<p><br/></p>
+	<p><font fg="ffffaf">トラビス6世</font>の忠臣で、王族の秘密を知る最後の者であった王室のウィザードたちは、首都にいた先代の王の従事者たちとともに逃げていた。</p>
+	<p><br/></p>
+	<p>逃げた者をひとりも生かしておくなという<font fg="ffffaf">ケンラウヘル</font>の命により、<font fg="ffffaf">グルーディオ</font>で<font fg="ffffaf">ケレニスのダークウィザードたち</font>と<font fg="ffffaf">王室のウィザード</font>の残酷な戦争が起きたのだ。</p>
+	<p><br/></p>
+	<p><br/></p>
+	<p><a link="storybook03">* 戻る</a></p>
+	<p><br/></p>
+	<p><a link="storybook11">* 大虐殺：グルーディオ</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

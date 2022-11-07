@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+	    <br/> 
+		<p><font fg="ffffaf">[Select Element]</font></p> 
+		<panel type="Panel_Learn_Spell">
+		        <button action="water"/>
+				<button action="air"/>
+				<button action="fire"/>
+				<button action="earth"/>
+        </panel>
+		<p>Looks like you're ready to accept a new spirit lineage.</p>
+		<p>The magic of the elements is, as the term implies, the magic of receiving and using the power of the elements, who are the embodiment of the fundamental forces of this world.</p>
+		<p>If you ever decide to learn a particular element, give me a shout.</p>
+		<p>The magic of the elements is divided into five major categories: <a link="ellyonne8">earth</a>, <a link="ellyonne5">fire</a>, <a link="ellyonne7">wind</a>, and <a link="ellyonne6">water</a>, and the path of the leaves.</p>
+		<p>In the case of the last mentioned leaf path, any elf with enough experience and control can learn it.</p>
+		<p>The problem is the path of each of the four remaining elements... it's difficult to merge the power of the elements into one, and you can only choose one of the four.</p>
+		<p>If you want to learn another elements, you must throw away what you have and regain purity again.</p>
+		<p><img src="331" link="ellyonne"/></p>
+	</dialog>
+</npcdialog>

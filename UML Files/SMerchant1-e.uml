@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>shop</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Shop</title>
+	
+	<npc>
+		<portrait>PO_007</portrait>
+		<name>インセンス</name>
+		<job>魔法販売人</job>
+		<!--text> </text-->
+	</npc>
+	
+	<dialog>
+		<panel type="Panel_Shop_Bt_Buy">
+			<button action="buy"/>
+		</panel>
+		<p>いらっしゃいませ。<br/></p>
+		<p>私は世界を股にかける魔法販売人<font fg="ffffaf">インセンス</font>と申します。<br/></p>
+		<p>私が会得した魔法を<font fg="ffffaf">魔法書</font>にして<font fg="ffffaf">販売</font>しております。<br/></p>
+		
+	</dialog>
+
+</npcdialog>

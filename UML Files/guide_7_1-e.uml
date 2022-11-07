@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 ウィンダウッド城近くの海岸の砂漠は、ハルパスの影響でこれ以上生命が暮らすことのできない死の砂漠になってしまいました。
+		 それでも残っていた<font fg="ffafff">リザードマン</font>が離れていくと、その場所をねらっていた<font fg="ffafff">ハーピー</font>が居住するようになり、砂漠の近くをうろついていた<font fg="ffafff">ストーン ゴーレム</font>も
+		 その近辺でよく見かけられるようになったそうです。何かあったのでしょうか？<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

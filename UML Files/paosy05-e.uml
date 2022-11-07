@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+  <npc>
+    <portrait>PO_002</portrait>
+    <name>フェオシ</name>
+    <job>[エバートの妻]</job>
+    <text>ご機嫌よう。フェオシといいます。</text>
+  </npc>
+  <dialog>
+	<p> <font fg="ffffaf">純白のティー印章交換券</font>をお持ちですか？</p>
+	<p>それでしたら、欲しい機能を選んでください。</p>
+	<p><font fg="ffaaaa">[魔法抵抗機能印章]</font></p>
+	<p action="0"> 1.印章：MR + STR</p>
+	<p action="1"> 2.印章：MR + DEX</p>
+	<p action="2"> 3.印章：MR + INT</p>
+	<p><font fg="ffaaaa">[スタン機能印章]</font></p>
+	<p action="3"> 1.印章：STUN + STR</p>
+	<p action="4"> 2.印章：STUN + DEX</p>
+	<p action="5"> 3.印章：STUN + INT</p>
+	<p><font fg="ffaaaa">[ホールド機能印章]</font></p>
+	<p action="6"> 1.印章：HOLD + STR</p>
+	<p action="7"> 2.印章：HOLD + DEX</p>
+	<p action="8"> 3.印章：HOLD + INT</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name><var src="name"/></name>
+		<job>鍛冶屋</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<br/>
+		</p><p>ふぅん、あっしが見る限り直すもんは何もねぇみてぇだが。 
+		
+		</p>
+	</dialog>
+</npcdialog>
+

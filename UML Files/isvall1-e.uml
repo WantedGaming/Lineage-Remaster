@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>Isval</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		 <p>Forgotten Island is completely shut down, so you won't be needing us anymore. Take care.</p>
+		 <panel type="Panel_Shop_bt_Buy">
+      <button action="buy"/>
+    </panel>
+		
+	</dialog>
+</npcdialog>

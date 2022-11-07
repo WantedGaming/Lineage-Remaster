@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>ナルエン</name>
+    <job>[アイテム製作師]</job>
+  </npc>
+  <dialog>
+ 	<p> あなたの音色は…あまりにも荒々しく濁っていて、調和を失い、狂ったように鳴り響いています。</p>
+	<p> まるで暗闇の向こうから聞こえる邪悪な笑い声のように…どうか本来の音色を取り戻してください。</p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

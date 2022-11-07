@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon></icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name></name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		<center><img src="2605"/></center>
+		<img src="2671" tooltip="ダークナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" link="monlists"/>
+		<img src="2673" tooltip="ダークマジスター^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" link="monlists"/>
+		<img src="2672" tooltip="ダークレンジャー^(ボウ/ガントレット)" link="monlists"/>
+		<br/>
+		<img src="2674" tooltip="ダークシャドウ^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" link="monlists"/>
+		<img src="2677" tooltip="デスナイト^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" link="monlists"/>
+		<img src="2678" tooltip="ランスマスター^(スピア/チェーンソード)" link="monlists"/>
+		<br/>
+		<img src="2675" tooltip="ダークエルフ^(ボウ/ガントレット)" link="monlists"/>
+		<br/>
+		<br/>
+		<img src="331" link="monlists"/>
+		</p>
+	</dialog>
+</npcdialog>

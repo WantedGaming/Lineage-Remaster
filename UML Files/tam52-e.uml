@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <dialog>
+    <p><font fg="ffffaf">[変身リスト]</font></p>
+    
+	<p align="center">
+    
+	<img src="5649" tooltip="ケント傭兵(ナイト)^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="tam 52a"/><blank width="10"/>
+    <img src="5650" tooltip="ケント傭兵(パイクマン)^(スピア/チェーンソード)" action="tam 52b"/><br/><br/>
+    <img src="5651" tooltip="ケント傭兵(アーチャー)^(ボウ/ガントレット)" action="tam 52c"/><blank width="10"/>
+    <img src="5652" tooltip="ケント傭兵(ウィザード)^(ダガー/ソード/ツーハンド ソード/^デュアルブレード/クロウ/キーリンク/^アックス/スタッフ)" action="tam 52d"/><br/><br/>
+    
+    </p>
+	
+  </dialog>
+</npcdialog>

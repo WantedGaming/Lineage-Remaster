@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>ご苦労だった。諜報員は無事なのか！ああ、そうか…ほんとうによかった。<br/><br/></p>
+		<p>ふむふむ…さすがあいつは有能な諜報員だけある。私の人を見る目に狂いはない。あいつの報告書のおかげで、魔族どもが魔族神殿で戦うわけと、やつらの力が徐々に強まっている理由が明らかになった。</p>
+		<p><br/><br/></p>
+		<p><a link="dicardingw7">話をもっと詳しく聞く</a></p>
+	</dialog>
+	
+</npcdialog>

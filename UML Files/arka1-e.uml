@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Magic Doll Crafting</title>
+	<npc>
+		<portrait></portrait>
+		<name>アルカ</name>
+		<job>Magic Doll Crafting</job>
+		<text>アデン国王が認めた最高の工芸職人</text>
+	</npc>
+	<dialog>
+		<p><br/>
+		材料を集めてきたのか？
+		<br/><br/></p>
+		<p><a action="request bag of arka"><font fg="ffffff">珍しいアイテムを持ってきました。</font></a><br/></p>
+		<p><br/>
+		 フム…時の流れは速いものだ…<br/>
+		 アデン最高の工芸職人になるために、故郷を離れたのが、昨日の事のように思えるのに、もうこんなにも変わっていたのか。<br/>
+		<br/>
+		 しわくちゃの老人に見えるかもしれないが、ワシはアデン国王が認めた工芸職人じゃ。ギランにある工芸店がワシの家じゃよ。<br/>
+		 弟子のアントンがしっかりしとるからのぅ。おかげでワシは何も心配せずに、国中を巡る余生を過ごせておる。<br/>
+		 <br/>
+		 死ぬ前に故郷のグルーディン村に行こうとずっと思ってたんじゃが、今まで戦争のせいで行けんかったんじゃ。<br/>
+		 長い戦争が終わって、盛大な祭りが開かれると聞いて、老体に鞭打ってでも行くしかなかろうて…<br/>
+		<br/></p>
+		<p><a link="arka2">お祭りは楽しみましたか？</a><br/>
+		   
+		   
+		</p>
+	</dialog>
+</npcdialog>

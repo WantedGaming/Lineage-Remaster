@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>歪みの支援団</name>
+    <job>[補給管理人]</job>
+  </npc>
+  <dialog>
+	<p>補給品はすべて私からお求めください。</p>
+	<p>タラス様のご命令で補給品をアデンに持ってきました。 </p>
+	<panel type="Panel_Shop_Bt_Buy">
+		<button action="buy"/>
+	</panel>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

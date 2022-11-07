@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <image>Talk_NPC_002</image>
+    <name>ビジャヤ</name>
+  </npc>
+  <dialog>
+    <p>幻影の力を吹き込む武器が無いか、Adenaが足りないですね。</p>
+  </dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	
+	<dialog align="left">
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>こんにちは。VIPのお客様！</p>
+		<p>えへっ。戦闘の役に立つ魔法をかけてあげますね。</p>
+		<p>呪文をかけますよ～。</p>
+		<p><a action="a">呪文をかけてもらう</a></p>
+	</dialog>
+
+</npcdialog>

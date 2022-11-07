@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+	<p>勤務中、異常なし！</p>
+	<p>あなたは草原地域にこれ以上用はないようですね…</p>
+	<p>まあ、それでももしかしたら、残った<font fg="ffaaff">任務</font>があるかもしれないので</p>
+	<p>必要になったら、いつでも話しかけてください！</p>
+	<p></p>
+	<p><a action="b">南の草原地帯に移動する</a></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

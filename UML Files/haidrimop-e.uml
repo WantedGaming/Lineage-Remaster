@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ドワーフ ハイドリム</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>僕はギルドから<var src="0"/>血盟とだけ取り引きするように命令されてるんだ。悪いけど外部の他のギルドを探しておくれよ。
+		<br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <portrait>1</portrait>
+    <name>ドビワ</name>
+    <job>[Tシャツ洗濯職人]</job>
+	<text>こんにちは。私はドビワといいます。</text>
+  </npc>
+  <dialog>
+	<p> 使うTシャツと<font fg="ffffaf">同じエンチャント数値の変換石</font>を使うことも絶対に忘れないでくださいね！</p>
+	<p>それともう一つ！一度変えたTシャツは、<font fg="ffffaf">元に戻せなくなる</font>ので、忘れずに覚えておいてくださいね！</p>
+  </dialog>
+</npcdialog>

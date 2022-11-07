@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog icon="shop" title="商店">
+  <dialog>
+    <p>個人商店</p>
+    <panel type="Panel_Shop_Button">
+      <button action="userShop0"/>
+      <button action="userShop1"/>
+    </panel>
+  </dialog>
+</npcdialog>

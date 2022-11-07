@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>フランコ</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		</p><p>…そうか。もうカミーラから大体のことは聞いているようだな。<br/>
+		</p><p>でもな、彼女もまた誤解してるんだ…まあそうならざるを得ない状況だったけどな。<br/>
+		</p><p>俺たちはみんな騙されてたんだ。あのホセって奴にな。<br/><br/>
+		</p><p><a link="francu6">あなたも騙されたんですか？</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <npc>
+    <image>Talk_NPC_001</image>
+    <name>엘라리온</name>
+    <job>[ 정령 마법 전수자 ]</job>
+    <text>누구시오</text>
+  </npc>
+  <dialog>
+    <p>내게 주기로 한 것을 잊어버린 것은 아니겠지?</p>
+    <p>순수함을 되찾는 데에는 그만한 대가가 따르는 법이라네.</p>
+    <br/>
+    <br/>
+    <p link="ellyonne11">돌아가기</p>
+  </dialog>
+</npcdialog>

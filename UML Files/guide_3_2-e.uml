@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 レベルが36から40のあなたのための狩り場を教えましょう。では、お望みの狩り場を選んでくださいね。
+		<br/><br/>
+		<a link="guide_3_2_2"><font fg="ffffaf">ギラン城下町の東</font></a><br/>：<a action="teleport guide3_2_2"><var src="0"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_3_2_6"><font fg="ffffaf">地下侵攻路3階</font></a><br/>：<a action="teleport guide3_2_6"><var src="1"/>Adenaでテレポートします。</a><br/><br/>
+		<a link="guide_3_2_7"><font fg="ffffaf">ハイネのダンジョン1階</font></a><br/>：<a action="teleport guide3_2_7"><var src="2"/>Adenaでテレポートします。</a><br/><br/>
+		<a action="teleportURLJ">もっとしんどいところを教えてください</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+		<!--portrait></portrait-->
+		<name>フィッシャー</name>
+		<job>[侍従長]</job>
+		<!--text></text-->
+	</npc>
+  <dialog>
+		<p>変更された税率は翌日からの適用になります。</p>
+		<p>1日に複数回税率を変えられた場合、最後に定めた税率が適用となりますのでお忘れなきようお願いいたします。</p>
+  </dialog>
+</npcdialog>

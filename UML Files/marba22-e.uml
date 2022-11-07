@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font></p>
+		<p>
+		<br/>
+		<a link="marba9">弓</a><br/>
+		<a link="marba10">ヘルム</a><br/>
+		<a link="marba11">アーマー</a><br/>
+		<a link="marba12">グローブ</a><br/>
+		<a link="marba13">ブーツ</a><br/>
+		<a link="marba14">マント</a><br/>
+		</p>
+	</dialog>
+</npcdialog>

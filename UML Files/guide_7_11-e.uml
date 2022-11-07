@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 話せる島のダンジョンはバフォメットの力で構造が変化し、登場するアンデッドの力がさらに強力になったそうです。
+		 先日まで塞がれていた地下通路は壁を壊して、メインランドのダンジョンに移動できるようになりました。
+		 メインランドのダンジョンの強力なモンスターに出くわさないように気をつけてください。<br/><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

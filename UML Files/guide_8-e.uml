@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title></title>
+	<npc>
+		<portrait></portrait>
+		<name>ウィザード</name>
+		<job></job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p>
+		 私がデポロジュー様のいる赤き騎士団の基地へお送りします。<br/>
+		 移動の際、少額の費用が発生しますので、ご注意ください。
+		<br/><br/>
+		<a action="teleport wood_depo">基地へ移動</a><br/>
+		
+		</p>
+	</dialog>
+</npcdialog>

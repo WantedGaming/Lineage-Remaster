@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<dialog>
+		<p><font fg="ffffff"><var src="name"/>：</font><br/><br/></p>
+		<p>家を持つ血盟はそこをアジトとして、より幅広い活動が出来るようになるぞ。</p>
+		<p>聞いた話だと、アジトの下には地下があるんだと？</p>
+		<p>数十年、人間が足を踏み入れてないそうだ…行ってみたくないか？	</p>
+	</dialog>
+	
+</npcdialog>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>デスナイト</name>
+    <job>[レイド強化ウィザード]</job>
+  </npc>
+  <dialog>
+	<p><font fg="0000ff">クウッ……</font></p>
+	<p><font fg="0000ff">私の…力が…クッ…</font></p>
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

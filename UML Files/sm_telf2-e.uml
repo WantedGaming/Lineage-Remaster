@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon>
+	<title>Event</title>
+	<npc>
+		<portrait></portrait>
+		<name>コア</name>
+		<job>[Event Teleport]</job>
+		<text></text>
+	</npc>
+	<dialog>
+		<p><br/>
+		ちょっと待ってください！<br/>
+		助けてくださる気持ちはありがたいのですが、
+		やつらはとても危険です！<br/>
+		倒しに行って逆にやられてしまうかもしれないので、もう少し強くなってから来てください。<br/>
+		<br/>
+		<br/>
+		一般：精霊樹の気バフの効果中であれば入場可能<br/>
+		隠された狩り場：イベント狩り場入場券を使用すると入場可能<br/>
+		</p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <npc>
+    <name>バルログの補佐官</name>
+  </npc>
+  <dialog>
+    <p>何かに打ち込む姿は美しいもの。</p>
+    <p>これはそなたが流した汗の代償…</p>
+    <p><a action="3">イアリングを受け取る</a></p>
+  </dialog>
+</npcdialog>

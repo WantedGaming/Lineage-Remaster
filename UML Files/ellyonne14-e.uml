@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+	<icon>dialog</icon> <!-- dialog, shop, enchant, warehouse -->
+	<title>Conversation</title>
+	<npc>
+		<portrait>PO_034</portrait>
+		<name><var src="name"/></name>
+		<job>[Spirit Magic Instructor]</job>
+		<!--text></text-->
+	</npc>
+	<dialog>
+		<p><br/>
+		Purity is the reason why only elves can use spirit magic.</p>
+		<p>It's not that hard for an elf who is inherently pure at heart to regain his purity again. Let me know when you're ready.</p>
+		<p>Would you like to remove the affiliation with a <font fg="ffafff"><a>candle of hope (2 candles)</a></font>?</p>
+		<br/>
+		<panel type="Panel_Initialization_Bt">
+			<button action="bm"/>
+        </panel>
+		<p><br/></p>
+		<p><img src="331" link="ellyonne11"/></p>
+	</dialog>
+</npcdialog>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npcdialog>
+  <icon>dialog</icon>
+  <title>Conversation</title>
+  <dialog>
+    <p align="left"><font fg="ffffff"><name/>：</font><br/></p>
+	<p>ここギランはアデンに隣接していて、そのせいなのか軍事的にも政治的にも、アデンから色々と目をつけられがちなんです。</p> 
+	<p>今のギラン領主は、ギラン内部に反王に反旗を翻そうとする勢力が育っていやしないかと、いつも苦心してるんです。</p> 
+	<p><br/></p>
+	<p><br/></p>
+  </dialog>
+</npcdialog>

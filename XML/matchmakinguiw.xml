@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<MatchMakingUI Toggle="true">
+	<Button Name = "Openmatch_Button" X = "203" Y = "521" BaseSurf = "5471" HighlightSurf = "5472" PushSurf = "5473" MouseEvent = "OpenMatchMaking" MostTop = "1">
+		<Image Name = "Message_Image" X = "9" Y = "-26" Surf = "5474;2;10" Activate = "0">
+			<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" Caption = "Test"/>
+			<Effect Name = "Itemshopoff_Effect" X = "-15" Y = "-20" Effect = "34" Activate = "0"/>
+			<Image Name = "Frame_Image" Surf = "5475;1"/>
+		</Image>
+	</Button>
+	<Window Name = "Messagebox_Window" X = "283" Y = "162" BaseSurf = "5483;1" FrameSurf = "5484;1" KeyboardEvent = "CloseMessageBox" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Close_Button" X = "219" Y = "11" BaseSurf = "5391" PushSurf = "5392" MouseEvent = "CloseMessageBox"/>
+		<MultiLabel Name = "Message_Label" X = "22" Y = "22" Width = "190" Height = "80" HAlign = "center" VAlign = "middle" Caption = "test"/>
+		<Button Name = "Cancel_Button" X = "90" Y = "107" BaseSurf = "5485" HighlightSurf = "5486" PushSurf = "5487;1" MouseEvent = "CloseMessageBox"/>
+	</Window>
+	<Window Name = "MatchRegister_Window" X = "231" Y = "101" BaseSurf = "5454;1" FrameSurf = "5455;1" KeyboardEvent = "CloseMatchRegister" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Close_Button" X = "323" Y = "11" BaseSurf = "5391" PushSurf = "5392" MouseEvent = "CloseMatchRegister"/>
+		<Control Name = "Intro_Control" X = "33" Y = "61" Width = "274" Height = "49">
+			<MultiEdit Name = "Intro_Edit" Width = "274" Height = "49" LimitByte = "512" LimitLine = "3"/>
+			<MultiLabel Name = "Intro_Label" Width = "274" Height = "49" String = "3256" MouseEvent = "ChangeLabel"/><!--FontColor = "128,128,128"/>-->
+		</Control>
+		<Control Name = "Type_Control" Y = "140" Width = "338" Height = "21">
+			<RadioButton Name = "Killer_Button" X = "59" BaseSurf = "5456;1" HighlightSurf = "5457;1" PushSurf = "5458;1" MouseEvent = "Killer"/>
+			<RadioButton Name = "Hunter_Button" X = "138" BaseSurf = "5459;1" HighlightSurf = "5460;1" PushSurf = "5461;1" MouseEvent = "Hunter"/>
+			<RadioButton Name = "Talker_Button" X = "217" BaseSurf = "5462;1" HighlightSurf = "5463;1" PushSurf = "5464;1" MouseEvent = "Talker"/>
+		</Control>
+		<Button Name = "Register_Button" X = "96" Y = "172" BaseSurf = "5465" HighlightSurf = "5466" PushSurf = "5467;1" MouseEvent = "Register"/>
+		<Button Name = "Cancel_Button" X = "181" Y = "172" BaseSurf = "5468" HighlightSurf = "5469" PushSurf = "5470;1" MouseEvent = "CloseMatchRegister"/>
+	</Window>
+	<Window Name = "Recommand_Window" X = "63" Y = "76" BaseSurf = "5383;1" FrameSurf = "5384;1" Moveable = "18" KeyboardEvent = "CloseMatchMaking" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Close_Button" X = "660" Y = "14" BaseSurf = "5391" PushSurf = "5392" MouseEvent = "CloseMatchMaking"/>
+		<Control Name = "Refresh_Control" X = "25" Y = "47" Width = "62" Height = "19">
+			<Button Name = "Refresh_Button" BaseSurf = "5396" HighlightSurf = "5397" PushSurf = "5398;1" MouseEvent = "Refresh"/>
+			<Image Name = "Refresh_Image" Surf = "5389"/>
+		</Control>
+		<List Name = "User_List" X = "20" Y = "90" Width = "634" Height = "220" Vertical = "1">
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "566" BaseSurf = "5410" HighlightSurf = "5411" PushSurf = "5412;1" MouseEvent = "Request"/>
+			</Control>
+		</List>
+		<Control Name = "Sort_Control" X = "0" Y = "71" Width = "674" Height = "14">
+			<Button Name = "Sort0_Button" X = "57" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "168" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "299" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "408" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "475" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "557" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+		</Control>
+		<Control Name = "Tab_Control" Y = "312" Width = "622" Height = "26">
+			<RadioButton Name = "Recommand_Button" X = "17" BaseSurf = "5444" HighlightSurf = "5445" PushSurf = "5446" MouseEvent = "ShowRecommand"/>
+			<RadioButton Name = "Request_Button" X = "122" BaseSurf = "5447" HighlightSurf = "5448" PushSurf = "5449" MouseEvent = "ShowRequest"/>
+		</Control>
+	</Window>
+	<Window Name = "Request_Window" X = "63" Y = "76" BaseSurf = "5385;1" FrameSurf = "5386;1" Moveable = "18" KeyboardEvent = "CloseMatchMaking" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Close_Button" X = "660" Y = "14" BaseSurf = "5391" PushSurf = "5392" MouseEvent = "CloseMatchMaking"/>
+		<Control Name = "Refresh_Control" X = "25" Y = "47" Width = "62" Height = "19">
+			<Button Name = "Refresh_Button" BaseSurf = "5396" HighlightSurf = "5397" PushSurf = "5398;1" MouseEvent = "Refresh"/>
+			<Image Name = "Refresh_Image" Surf = "5389"/>
+		</Control>
+		<Control Name = "Pagecontrol_Control" Y = "287" Width = "674" Height = "22">
+			<Button Name = "Start_Button" X = "243" Y = "7" BaseSurf = "5423;1" HighlightSurf = "5424;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "261" Y = "7" BaseSurf = "5426;1" HighlightSurf = "5427;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "286" Y = "7" BaseSurf = "5429;1" HighlightSurf = "5430;1" MouseEvent = "Page"/>
+			<Label Name = "Page_Label" X = "306" Y = "6" Width = "62" Height = "16" Align = "center" Caption = "1/1"/>
+			<Button Name = "Start_Button" X = "375" Y = "7" BaseSurf = "5432;1" HighlightSurf = "5433;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "391" Y = "7" BaseSurf = "5435;1" HighlightSurf = "5436;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "416" Y = "7" BaseSurf = "5438;1" HighlightSurf = "5439;1" MouseEvent = "Page"/>
+		</Control>
+		<List Name = "User_List" X = "20" Y = "90" Width = "634" Height = "220" Vertical = "1">
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+        <Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Image Name = "Type_Image" X = "21" Y = "5" Surf = "5399;1"/>
+				<Emblem Name = "Blood_Emblem" X = "64" Y = "5" Width = "16" Height = "22" EmblemID = "1"/>
+				<Label Name = "Bloodname_Label" X = "80" Width = "111" Height = "22" Align = "center" Caption = "Secret" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5453;2;25" Activate = "0">
+						<MultiLabel Name = "Tooltip_Label" X = "10" Width = "274" Height = "71" Align = "left" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Label Name = "Lordname_Label" X = "190" Width = "133" Height = "22" Align = "center" Caption = "HyoSung" MouseEvent = "Whisper"/>
+				<Label Name = "Number_Label" X = "324" Width = "83" Height = "22" Align = "center" Caption = "100" MouseEvent = "ToolTip">
+					<Image Name = "Message_Image" X = "0" Y = "-22" Surf = "5489;2;25" Activate = "0">
+						<Image Name = "Frame_Image" Surf = "5490;1"/>
+						<Label Name = "Message_Label" Width = "200" Height = "16" Align = "center" String = "3263"/>
+					</Image>
+				</Label>
+				<Label Name = "Agit_Label" X = "408" Width = "65" Height = "22" Align = "center" Caption = "Yes"/>
+				<Label Name = "War_Label" X = "474" Width = "81" Height = "22" Align = "center" Caption = "Peace" MouseEvent = "ToolTip">
+					<Image Name = "Tooltip_Image" Surf = "5488;2;20" Activate = "0">
+						<Label Name = "Tooltip_Label" Width = "107" Height = "15" Align = "center" Caption = "Tooltip"/>
+					</Image>
+				</Label>
+				<Button Name = "Cancel_Button" X = "591" Y = "3" BaseSurf = "5413;1" HighlightSurf = "5414;1" PushSurf = "5415;1" MouseEvent = "Cancel"/>
+			</Control>
+		</List>
+		<Control Name = "Sort_Control" X = "0" Y = "71" Width = "674" Height = "14">
+			<Button Name = "Sort0_Button" X = "57" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "168" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "299" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "408" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "475" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "557" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+		</Control>
+		<Control Name = "Tab_Control" Y = "312" Width = "622" Height = "26">
+			<RadioButton Name = "Recommand_Button" X = "17" BaseSurf = "5444" HighlightSurf = "5445" PushSurf = "5446" MouseEvent = "ShowRecommand"/>
+			<RadioButton Name = "Request_Button" X = "122" BaseSurf = "5447" HighlightSurf = "5448" PushSurf = "5449" MouseEvent = "ShowRequest"/>
+		</Control>
+	</Window>
+	<Window Name = "Demand_Window" X = "63" Y = "76" BaseSurf = "5387;1" FrameSurf = "5388;1" Moveable = "18" KeyboardEvent = "CloseMatchMaking" MouseEvent = "Dummy" Activate = "0">
+		<Button Name = "Close_Button" X = "660" Y = "14" BaseSurf = "5391" PushSurf = "5392" MouseEvent = "CloseMatchMaking"/>
+		<Control Name = "Register_Control" X = "30" Y = "48" Width = "62" Height = "19">
+			<Button Name = "Register_Button" BaseSurf = "5393" HighlightSurf = "5394" PushSurf = "5395;1" MouseEvent = "OpenRegister"/>
+			<Button Name = "Fixregister_Button" BaseSurf = "5407" HighlightSurf = "5408" PushSurf = "5409;1" MouseEvent = "FixRegister"/>
+		</Control>
+		<Button Name = "Cancelregister_Button" X = "98" Y = "48" BaseSurf = "5441" HighlightSurf = "5442" PushSurf = "5443;1" MouseEvent = "CancelRegister"/>
+		<Control Name = "Refresh_Control" X = "166" Y = "48" Width = "62" Height = "19">
+			<Button Name = "Refresh_Button" BaseSurf = "5396" HighlightSurf = "5397" PushSurf = "5398;1" MouseEvent = "Refresh"/>
+			<Image Name = "Refresh_Image" Surf = "5389"/>
+		</Control>
+		<Control Name = "Pagecontrol_Control" Y = "287" Width = "674" Height = "22">
+			<Button Name = "Start_Button" X = "243" Y = "7" BaseSurf = "5423;1" HighlightSurf = "5424;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "261" Y = "7" BaseSurf = "5426;1" HighlightSurf = "5427;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "286" Y = "7" BaseSurf = "5429;1" HighlightSurf = "5430;1" MouseEvent = "Page"/>
+			<Label Name = "Page_Label" X = "306" Y = "6" Width = "62" Height = "16" Align = "center" Caption = "1/1"/>
+			<Button Name = "Start_Button" X = "375" Y = "7" BaseSurf = "5432;1" HighlightSurf = "5433;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "391" Y = "7" BaseSurf = "5435;1" HighlightSurf = "5436;1" MouseEvent = "Page"/>
+			<Button Name = "Start_Button" X = "416" Y = "7" BaseSurf = "5438;1" HighlightSurf = "5439;1" MouseEvent = "Page"/>
+		</Control>
+		<Label Name = "Notice_Label" X = "90" Y = "157" Width = "494" Height = "20" Align = "center" String = "3251" Activate = "0"/>
+		<List Name = "User_List" X = "20" Y = "90" Width = "634" Height = "220" Vertical = "1">
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "581" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "581" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "581" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "581" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+			<Control Name = "UserItem0_Control" Width = "634" Height = "22">
+				<Label Name = "Connection_Label" Width = "76" Height = "22" Align = "center" Caption = "Connect"/>
+				<Label Name = "Class_Label" X = "77" Width = "118" Height = "22" Align = "center" Caption = "Class"/>
+				<Image NAme = "New_Image" X = "196" Y = "2" Surf = "5491;1"/>
+				<Label Name = "Name_Label" X = "213" Width = "115" Height = "22" Align = "center" Caption = "Name" MouseEvent = "Whisper"/>
+				<Label Name = "Alignment_Label" X = "329" Width = "63" Height = "22" Align = "center" Caption = "Chaotic"/>
+				<Label Name = "Level_Label" X = "393" Width = "85" Height = "22" Align = "center" Caption = "Death"/>
+				<Button Name = "Ranking_Button" X = "502" BaseSurf = "5404;1" HighlightSurf = "5405;1" PushSurf = "5406;1" MouseEvent = "Ranking"/>
+				<Control Name = "Request_Control" X = "549" Width = "95" Height = "22">
+					<Button Name = "Accept_Button" BaseSurf = "5416" HighlightSurf = "5417" PushSurf = "5418;1" MouseEvent = "Accept"/>
+					<Button Name = "Mail_Button" BaseSurf = "5480" HighlightSurf = "5481" PushSurf = "5482;1" MouseEvent = "Mail"/>
+					<Button Name = "Reject_Button" X = "40" BaseSurf = "5419" HighlightSurf = "5420" PushSurf = "5421;1" MouseEvent = "Reject"/>
+				</Control>
+			</Control>
+		</List>
+		<Control Name = "Sort_Control" X = "0" Y = "71" Width = "674" Height = "14">
+			<Button Name = "Sort0_Button" X = "76" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "189" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "309" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "388" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+			<Button Name = "Sort0_Button" X = "474" BaseSurf = "5402" PushSurf = "5403" MouseEvent = "Sort"/>
+		</Control>
+	</Window>
+</MatchMakingUI>
