@@ -5782,7 +5782,7 @@ Orc Search Document (Gludin)
 Orc Search Document (Windawood)
 Otherworldly Thought Powder
 Tower Portal Teleport Scroll
-Reminiscential Candle Girl Mari
+Candle of Reminiscence Girl Mari
 HP Absorption
 Chest of Fame
 Crystal of Bravery
@@ -8367,36 +8367,36 @@ dummy
 dummy
 dummy
 dummy
-%i의 힘의 특제 티셔츠
-%i의 민첩의 특제 티셔츠
-%i의 매력의 특제 티셔츠
-%i의 마력의 특제 티셔츠
-%i의 체력의 특제 티셔츠
-%i의 마나의 특제 티셔츠
+%i의 Strength 특제 T-shirt
+%i의 Dexterity 특제 T-shirt
+%i의 Charisma 특제 T-shirt
+%i의 Intelligence 특제 T-shirt
+%i의 Constiution 특제 T-shirt
+%i의 Wisdom 특제 T-shirt
 %i의 Technology Resistant Special T-shirt
-%i의 정령 내성의 특제 티셔츠
-%i의 마법 저항의 특제 티셔츠
+%i의 정령 내성의 특제 T-shirt
+%i의 마법 저항의 특제 T-shirt
 %i의 Technology Resistant T-shirt
-%i의 정령 내성의 티셔츠
-%i의 마법 저항의 티셔츠
-힘의 티셔츠 상자
-민첩의 티셔츠 상자
-매력의 티셔츠 상자
-마력의 티셔츠 상자
-체력의 티셔츠 상자
-마나의 티셔츠 상자
+%i의 정령 내성의 T-shirt
+%i의 마법 저항의 T-shirt
+Strength T-shirt 상자
+Dexterity T-shirt 상자
+Charisma T-shirt 상자
+Intelligence T-shirt 상자
+Constiution T-shirt 상자
+Wisdom T-shirt 상자
 Technology Resistant T-shirt Box
-정령 내성의 티셔츠 상자
-마법 저항의 티셔츠 상자
-힘의 티셔츠 상자 (4장)
-민첩의 티셔츠 상자 (4장)
-매력의 티셔츠 상자 (4장)
-마력의 티셔츠 상자 (4장)
-체력의 티셔츠 상자 (4장)
-마나의 티셔츠 상자 (4장)
+정령 내성의 T-shirt 상자
+마법 저항의 T-shirt 상자
+Strength T-shirt 상자 (4)
+Dexterity T-shirt 상자 (4)
+Charisma T-shirt 상자 (4)
+Intelligence T-shirt 상자 (4)
+Constiution T-shirt 상자 (4)
+Wisdom T-shirt 상자 (4)
 Technology Resistant T-shirt Box (4)
-정령 내성의 티셔츠 상자 (4장)
-마법 저항의 티셔츠 상자 (4장)
+정령 내성의 T-shirt 상자 (4)
+마법 저항의 T-shirt 상자 (4)
 Element's seal Box
 11th Black Edition Package
 11th White Edition Package
@@ -10124,7 +10124,7 @@ Christmas Pudding Package
 Christmas Present
 Warehouse Key(12th Anniv)
 Warehouse Key Box(12th Anniv)
-Candle of Remembrance (12th Anniv)
+Candle of Reminiscence (12th Anniv)
 Box of Candles of Hope(12th Anniv)
 Magic Snowman
 Magic Crystal
@@ -11420,7 +11420,7 @@ Power Grip immobilizes enemies far away from you.
 Titan Magic has a certain probability of counterattacking and damaging the opponent when damage is caused by a magical or technical attack from the opponent.
 Titan Blitz has a certain probability of counterattacking when hit by a long-range attack from an opponent, damaging the opponent.
 Note: Even precious characters have birthdays.
-Note: You can change your initial stats by using a flashlight candle.
+Note: You can change your initial stats by using Candle of Reminiscence.
 Note: Do you know Lineage Mobile Heist?
 Information: Enjoy PC room premium service.
 Note: The Aden Shop has a lot of things you can use.
@@ -11432,31 +11432,26 @@ dummy
 Congrats on leveling up: I recommend hunting ground. Check it in the memory window.
 You can used bless teleport scrolls by double-clicking it from your inventory.
 Click to open the memory window.
-\d0\fR Lv50: 낚시터
-\d0\fR Lv51: 지룡의 던전
-\d0\fR Lv52: 얼음 수정 동굴
-\d0\fU Lv53: 데포로쥬(공성)
-\d0\fU Lv54: 유리에(인던)
-\d0\fU Lv55: 55레벨 퀘스트
-\d0\fY Lv55: 수룡의 던전
-\d0\fY Lv56: 기란 감옥
-\d0\fY Lv57: 상아탑
-\d0\fY Lv58: 글루디오 던전
-\d0\fU Lv59: 말하는 섬 던전
+\d0\fR Lv50: Fishing Spot
+\d0\fR Lv51: Earth Dragon Dungeon
+\d0\fR Lv52: Ice Crystal Cave
+\d0\fU Lv53: Depardieu(Siege)
+\d0\fU Lv54: Yurie (Instance dungeon)
+\d0\fU Lv55: Level 55 Quest
+\d0\fY Lv55: Water Dragon Dungeon
+\d0\fY Lv56: Giran Prison
+\d0\fY Lv57: Ivory Tower
+\d0\fY Lv58: Gludio Dungeon
+\d0\fU Lv59: Talking Island Dungeon
 \d0\fY Lv60:
-\d0\fY Lv60: 말하는 섬 던전
-\d0\fY Lv60: 화룡의 둥지
-주문서
+\d0\fY Lv60: Talking Island Dungeon
+\d0\fY Lv60: Fire Dragon Dungeon
+Scroll
 dummy
 dummy
 dummy
 dummy
-인어 마법인형
-dummy
-dummy
-dummy
-dummy
-dummy
+Mermaid Magic Doll
 dummy
 dummy
 dummy
@@ -11467,57 +11462,62 @@ dummy
 dummy
 dummy
 dummy
-인어 마법인형
 dummy
 dummy
 dummy
 dummy
 dummy
-봄의 배지
-조우의 도시락
-조우의 보물상자
-꿈 잎사귀
-거기 있는것은 가드리아인가?
-아니면, 요사스러운 마녀인가?
-내 몸이 무겁고, 내 칼이 무딘 이유는, 꿈을 꾸고 있기 때문인가!
-너희들! 꿈에서라도 짐을 만나는 것! 영광으로 알라!
-나를 꿈꾸고 있는 너희들의 세상은, 평화라는 것을 가지고 있는가?
-모두가 자신이 정의라 말하고 있다! 그렇다면, 최후의 정의는 무엇이겠는가!
-가드리아! 내 앞에 나타나라! 더이상 기다리게 하지 말라!
-가드리아! 누가 소중한 몸으로 말에 올라타라 했는가! 미련한것!
-가드리아! 그대가 기다리는 가족들의 품으로 지금 돌아가겠다!
-신기한 회복 반지
-신기한 집중 반지
-신기한 체력 반지
-신기한 마나 반지
-신기한 마법저항 반지
-신기한 특제 회복 반지
-신기한 특제 집중 반지
-신기한 특제 체력 반지
-신기한 특제 마나 반지
-신기한 특제 마법저항 반지
-신기한 회복 반지 상자
-신기한 집중 반지 상자
-신기한 체력 반지 상자
-신기한 마나 반지 상자
-신기한 마법저항 반지 상자
-신기한 회복 반지 상자 4개묶음
-신기한 집중 반지 상자 4개묶음
-신기한 체력 반지 상자 4개묶음
-신기한 마나 반지 상자 4개묶음
-신기한 마법저항 반지 상자 4개묶음
-신기한 반지 강화 주문서
-마물의 기운
+Mermaid Magic Doll
+dummy
+dummy
+dummy
+dummy
+dummy
+Spring Badge
+Joe's Lunch
+Joe's Treasure Chest
+Dream Leaf
+Is that Gadria there?
+Or is it the Wicked Witch?
+Is the reason my body is so heavy and my blades so sharp is because I'm dreaming!
+You guys! You get to see Jim in your dreams! You should be honored!
+Does your world, where you dream of me, have anything called peace?
+Everyone says they are righteous! Then what will be the final justice!
+Gadria! Appear before me! Don't make me wait any longer!
+Gadria! Who told you to ride a horse with that precious body! You fool!
+Gadria! Let's go home now to the family you're waiting for!
+Mysterious Healing Ring
+Mysterious Concentration Ring
+Mysterious Stamina Ring
+Mysterious Mannering Ring
+Mysterious Magic Resistance Ring
+Mysterious Special Recovery Ring
+Mysterious Special Focus Ring
+Mysterious Special Physical Strength Ring
+Mysterious Special Manner Ring
+Mysterious Special Magic Resistance Ring
+Mysterious Healing Ring Box
+Mysterious Concentration Ring Box
+Mysterious Stamina Ring Box
+Mysterious Mannering Ring Box
+Mysterious Magic Resistance Ring Box
+Mysterious Healing Ring Box (4pcs)
+Mysterious Concentration Ring Box(4pcs)
+Mysterious Stamina Ring Box(4pcs)
+Mysterious Mannering Box(4pcs)
+Mysterious Magic Resistance Ring Box(4pcs)
+Mysterious Ring Exclusive Enhancement Scroll
+Evil Vitality
 Talas Boots
 Talas Gloves
 dummy
-Teleporter^세레나
-마법사 아도니스
-하딘의 분신
-베레스의 분신
-바포메트의 분신
-데몬의 분신
-드래곤의 에메랄드
+Teleporter^Serena
+Wizard Adonis
+Hardin's Clone
+Beleth's Clone
+Baphomet's Clone
+Demon's Clone
+Emerald Dragon
 dummy
 dummy
 dummy
@@ -11525,19 +11525,11 @@ dummy
 dummy
 dummy
 dummy
-린드비오르의 보물
-드래곤의 다이아몬드 상자
-드래곤의 다이아몬드 패키지
-드래곤의 에메랄드 상자
-드래곤의 에메랄드 패키지
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
+Treasure of Lindvior
+Dragon Diamond Box
+Dragon Diamond Package
+Emerald Dragon Box
+Emerald Dragon Package
 dummy
 dummy
 dummy
@@ -11557,16 +11549,24 @@ dummy
 dummy
 dummy
 dummy
-이벤트^생일요정
-생일 케이크 대마왕
-Metis's First Gift
-Metis's Second Gift
-환상케이크 L
-환상케이크 i
-환상케이크 n
-환상케이크 e
-환상케이크 a
-환상케이크 g
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+Event^Birthday Fairy
+Daimao the Birthday Cake
+Metis 1st Gift
+Metis 2nd Gift
+Fantasy Cake L
+Fantasy Cake I
+Fantasy Cake N
+Fantasy Cake E
+Fantasy Cake A
+Fantasy Cake G
 dummy
 dummy
 dummy
@@ -11621,48 +11621,48 @@ dummy
 dummy
 dummy
 dummy
-게렝의 상자
-게렝의 마력의 숨결
-아툰의 기사단원
-영웅의 변신주문서(Ken Rauhel)
-영웅의 변신주문서(Kerenis)
-영웅의 변신주문서(Hellvine)
-영웅의 변신주문서(Dante)
-영웅의 변신주문서(데스나이트75)
-영웅의 변신주문서(Lance Master 75)
-영웅의 변신주문서(다크엘프75)
-영웅의 변신주문서(Gunther)
-영웅의 변신주문서(조우)
-영웅의 변신주문서(질리언)
-영웅의 변신주문서(블루디카)
-영웅의 변신주문서(데스나이트80)
-영웅의 변신주문서(랜스마스터80)
-영웅의 변신주문서(다크엘프80)
-아툰의 변신주문서(Ken Rauhel)
-아툰의 변신주문서(Kerenis)
-아툰의 변신주문서(Hellvine)
-아툰의 변신주문서(Dante)
-아툰의 변신주문서(데스나이트)
-아툰의 변신주문서(랜스마스터)
-아툰의 변신주문서(다크엘프)
-아툰의 변신주문서(Gunther)
-아툰의 변신주문서(조우)
-아툰의 변신주문서(질리언)
-아툰의 변신주문서(블루디카)
-아툰의 변신주문서(데스나이트)
-아툰의 변신주문서(랜스마스터)
-아툰의 변신주문서(다크엘프)
-아툰의 두루마리(Ken Rauhel)
-아툰의 두루마리(Kerenis)
-아툰의 두루마리(Hellvine)
-아툰의 두루마리(Dante)
-아툰의 두루마리(Gunther)
-아툰의 두루마리(조우)
-아툰의 두루마리(질리언)
-아툰의 두루마리(블루디카)
-축복받은 무기 마법두루마리
-축복받은 갑옷 마법두루마리
-게렝의 큐브상자
+Guerin's Box
+Guerin's Magic Breath
+Knights of Atun
+Hero's Poly Scroll(Ken Rauhel)
+Hero's Poly Scroll(Kerenis)
+Hero's Poly Scroll(Hellvine)
+Hero's Poly Scroll(Dante)
+Hero's Poly Scroll(Death Knight 75)
+Hero's Poly Scroll(Lance Master 75)
+Hero's Poly Scroll(Dark Elf 75)
+Hero's Poly Scroll(Gunther)
+Hero's Poly Scroll(Jose)
+Hero's Poly Scroll(Gillian)
+Hero's Poly Scroll(Burdica)
+Hero's Poly Scroll(Death Knight 80)
+Hero's Poly Scroll(Lance Master 80)
+Hero's Poly Scroll(Dark Elf 80)
+Atun's Poly Scroll(Ken Rauhel)
+Atun's Poly Scroll(Kerenis)
+Atun's Poly Scroll(Hellvine)
+Atun's Poly Scroll(Dante)
+Atun's Poly Scroll(Death Knight)
+Atun's Poly Scroll(Lance Master)
+Atun's Poly Scroll(Dark Elf)
+Atun's Poly Scroll(Gunther)
+Atun's Poly Scroll(Jose)
+Atun's Poly Scroll(Gillian)
+Atun's Poly Scroll(Burdica)
+Atun's Poly Scroll(Death Knight)
+Atun's Poly Scroll(Lance Master)
+Atun's Poly Scroll(Dark Elf)
+Atun's Scroll(Ken Rauhel)
+Atun's Scroll(Kerenis)
+Atun's Scroll(Hellvine)
+Atun's Scroll(Dante)
+Atun's Scroll(Gunther)
+Atun's Scroll(Jose)
+Atun's Scroll(Gillian)
+Atun's Scroll(Burdica)
+Blessed Weapon Magic Scroll
+Blessed Armor Magic Scroll
+Guerin Cube Box
 만다린 오렌지
 dummy
 dummy
@@ -11682,22 +11682,22 @@ dummy
 dummy
 dummy
 dummy
-아툰의 전투의 물약
-아툰의 전투의 물약상자
+Atun's Battle Potion
+Atun's Battle Potion Box
 dummy
 dummy
 dummy
-초보자의 가속 주머니
-웰컴 패키지
-파이팅 패키지
-올딘의 소환물
-파푸리온의 보물상자
-스킬 초기화^오림의 환영
-바다 하피 상자
-바다 드레이크 상자
-하딘의 시공 구슬
-오림의 시공 구슬
-허상의 물약
+Beginner Acceleration Bag
+Welcome Package
+Good Luck Package
+Summons of Aldin
+Fafurion Treasure Chest
+Skill Reset^Illusion of Orim
+Sea Harpy Box
+Sea Drake Box
+Hardin Spacetime Ball
+Orim Spacetime Ball
+Illusion Potion
 dummy
 dummy
 dummy
@@ -11718,54 +11718,50 @@ dummy
 dummy
 dummy
 시원한 얼음부츠
-게렝의 시원한 부츠상자
+Guerin 시원한 부츠상자
 시원한 얼음부츠 상자
-힘의 티셔츠
-민첩의 티셔츠
-매력의 티셔츠
-마력의 티셔츠
-체력의 티셔츠
-마나의 티셔츠
+Strength T-shirt
+Dexterity T-shirt
+Charisma T-shirt
+Intelligence T-shirt
+Constiution T-shirt
+Wisdom T-shirt
 Technology Resistant T-shirt
-정령 내성의 티셔츠
-마법 저항의 티셔츠
-힘의 특제 티셔츠
-민첩의 특제 티셔츠
-매력의 특제 티셔츠
-마력의 특제 티셔츠
-체력의 특제 티셔츠
-마나의 특제 티셔츠
+정령 내성의 T-shirt
+마법 저항의 T-shirt
+Strength 특제 T-shirt
+Dexterity 특제 T-shirt
+Charisma 특제 T-shirt
+Intelligence 특제 T-shirt
+Constiution 특제 T-shirt
+Wisdom 특제 T-shirt
 Technology Resistant Special T-shirt
-정령 내성의 특제 티셔츠
-마법 저항의 특제 티셔츠
-힘의 티셔츠 상자
-민첩의 티셔츠 상자
-매력의 티셔츠 상자
-마력의 티셔츠 상자
-체력의 티셔츠 상자
-마나의 티셔츠 상자
+정령 내성의 특제 T-shirt
+마법 저항의 특제 T-shirt
+Strength T-shirt 상자
+Dexterity T-shirt 상자
+Charisma T-shirt 상자
+Intelligence T-shirt 상자
+Constiution T-shirt 상자
+Wisdom T-shirt 상자
 Technology Resistant T-shirt Box
-정령 내성의 티셔츠 상자
-마법 저항의 티셔츠 상자
-힘의 티셔츠 상자 (4장)
-민첩의 티셔츠 상자 (4장)
-매력의 티셔츠 상자 (4장)
-마력의 티셔츠 상자 (4장)
-체력의 티셔츠 상자 (4장)
-마나의 티셔츠 상자 (4장)
+정령 내성의 T-shirt 상자
+마법 저항의 T-shirt 상자
+Strength T-shirt 상자 (4)
+Dexterity T-shirt 상자 (4)
+Charisma T-shirt 상자 (4)
+Intelligence T-shirt 상자 (4)
+Constiution T-shirt 상자 (4)
+Wisdom T-shirt 상자 (4)
 Technology Resistant T-shirt Box (4)
-정령 내성의 티셔츠 상자 (4장)
-마법 저항의 티셔츠 상자 (4장)
+정령 내성의 T-shirt 상자 (4)
+마법 저항의 T-shirt 상자 (4)
 dummy
 dummy
 dummy
-시원한 체력물약
-시원한 마력물약
-시원 통쾌한물약
-dummy
-dummy
-dummy
-dummy
+Cool Stamia Potion
+Cool Magic Potion
+Cool Refreshing Potion
 dummy
 dummy
 dummy
@@ -11774,15 +11770,19 @@ dummy
 dummy
 dummy
 dummy
-빙고라지의 선물상자
-%i의 2010 힘 티셔츠
-%i의 2010 마력 티셔츠
+dummy
+dummy
+dummy
+dummy
+Bingo Large Gift Box
+%i의 2010 힘 T-shirt
+%i의 2010 마력 T-shirt
 %i의 2010 Technology Resistant T-shirt
-%i의 2010 마법저항 티셔츠
-%i의 2010 특제 힘 티셔츠
-%i의 2010 특제 마력 티셔츠
-%i의 2010 특제 기술내성 티셔츠
-%i의 2010 특제 마법저항 티셔츠
+%i의 2010 마법저항 T-shirt
+%i의 2010 특제 힘 T-shirt
+%i의 2010 특제 마력 T-shirt
+%i의 2010 특제 기술내성 T-shirt
+%i의 2010 특제 마법저항 T-shirt
 dummy
 dummy
 dummy
@@ -11878,7 +11878,7 @@ dummy
 dummy
 dummy
 dummy
-액자
+Picture Frame
 dummy
 dummy
 dummy
@@ -11946,9 +11946,9 @@ dummy
 dummy
 dummy
 dummy
-히오나
+Hiona
 dummy
-광포한
+Ferocious
 dummy
 dummy
 dummy
@@ -11960,39 +11960,39 @@ dummy
 dummy
 dummy
 dummy
-꿀송편
-추석 떡바구니
-수상한 쪽지
-신비한 약과
-한가위 떡바구니A
-한가위 떡바구니B
-어흥~ 내 맛있는 떡은 어디있지?
-여기 맛있는 송편이 잔뜩 있군. 냠냠~
-맛있는 송편을 못 먹고 죽을 수는 없지.
-어이쿠! 호랑이가 나타났어요.
-저는 빨리 아이들에게로 가봐야겠네요.
-으르렁~
-이곳은 나의 사냥터이다!! 어흥~
-어흥~
-도와주세요~
-집에 가고 싶어요~
-여기가 어디에요?
-전 여기 오래 머물수 없답니다.
-2분여 정도만 있을 수 있어요.
-그럼 이만. 가보겠습니다.
-배부른 호랑이
-배고픈 호랑이
-성난 호랑이
-길 잃은 어머니
-은혜 갚는 어머니
-겁먹은 아이
-호랑이가 절 공격해요~ 도와주세요!
-호랑이가 정말 크네요.
-호랑이가 쫓아오고 있어요.
-떡 하나주면 안 잡아먹지
-여기에 맛있는 송편이 있군.
-사막꽃
-샌드 웜
+Honey Rice Cake
+Rice Cake Basket
+Suspicious Note
+Mysterious Traditional Sweets
+Mid-Autumn Rice Cake Basket A
+Mid-Autumn Rice Cake Basket B
+Wow, where's my delicious rice cake?
+There are many delicious rice cakes. Mogumogu.
+You can't die without tasty rice cakes.
+Whoa! Tiger has appeared.
+I must get to my children as soon as possible.
+wow
+This is my hunting ground!!!! Won!
+Won
+Please help~!
+I want to go home!
+Where are we?
+I, I cannot stay here for long.
+I can stay for about 2 minutes.
+Now, if you'll excuse me.
+Full Tiger
+Hungry Tiger
+Angry Tiger
+Lost Mother
+Giving Mother
+Scared Child
+Tiger attacks me. Please help me!
+It is a really big tigress.
+Tiger chases after him.
+Give me one rice cake and I won't eat it.
+You have some delicious rice cakes here.
+Desert Flower
+Sandworm
 Rumtis Red Earrings
 Rumtis Blue Earrings
 Rumtis Purple Earrings
@@ -12061,24 +12061,24 @@ dummy
 dummy
 dummy
 dummy
-신묘년 송편
-신묘년 쑥송편
-신묘년 꿀떡
-신묘년 꿀송편
-헤이제
-큐오
-레오
-마지
-크루노
-샘
-외국인
-베루
-마가린
-콩
-시장상인
-주점주인
-거래상인
-점원
+New Year Rice Cake
+New Year Mugwort Rice Cake
+New Year Honey Cake
+New Year Honey Cake 2
+Haise
+Cuo
+Leo
+Magi
+Curno
+Shem
+Foreigner
+Beru
+Margarine
+Beans
+Market Merchant
+Liquor Merchant
+Trader
+Clerk
 dummy
 dummy
 dummy
@@ -12096,9 +12096,9 @@ dummy
 dummy
 dummy
 dummy
-오림 : 적의 공격으로 배가 손상됩니다. 여러번 손상되면 침몰하니 주의하세요!
-오림 : 스승님을 만나러 섬을 떠나 본토로 향하고 있습니다.
-오림 : 저는 지금 흑마법사 올딘에게 쫓기고 있습니다.
+Orim: The ship is damaged by enemy attacks. Be careful as it will sink if damaged multiple times!
+Orim: I am leaving the island for the mainland to meet my teacher.
+Orim: I am now being chased by the Necromancer Aldin.
 dummy
 dummy
 dummy
@@ -12108,27 +12108,27 @@ dummy
 dummy
 dummy
 dummy
-케이나의 표식
-비아타스의 표식
-바로메스의 표식
-엔디아스의 표식
-이데아의 표식
-티아메스의 표식
-라미아스의 표식
-바로드의 표식
-마수군왕의 표식
-마령군왕의 표식
-암살군왕의 표식
-명법군왕의 표식
-라스타바드 큐브
-나는 대마법사 하딘이다!
-자네는 지금 오림에게 속고 있는거야.
-그를 믿어서는 안돼!. 어서 이 배를 빠져 나가 말하는 섬으로 돌아가!
-기란 감옥
-라스타바드 폐허
-구호 증서
-이벤트^마법사의 주방장
-마법의 요리바구니
+Kayna's Token
+Viatas' Token
+Barometh's Token
+Mark of Endias
+Mark of Idea
+Token of Thiames
+Proof of Ramias
+Mark of Barod
+Demon King's Proof
+Demon King's Proof 2
+Assassin King's Proof
+Underworld King's Proof
+Lastabud Cube
+I am the Grand Wizard, Hardin!
+You are being deceived by Orim.
+Do not trust him! Now get off this ship and go back to Talking Island!
+Giran Prison
+Lastabad Ruins
+Petition Deed
+Event^Wizard's Head Cook
+Magic Cooking Basket
 dummy
 dummy
 dummy
@@ -12248,61 +12248,61 @@ dummy
 dummy
 dummy
 dummy
-Teleporter^피터
-할로윈 호박 장갑 2011
-할로윈 호박 각궁 2011
-할로윈 호박 양손검 2011
-할로윈 호박 지팡이 2011
-할로윈 호박 갑옷 2011
-할로윈 호박 상자 2011
-크리스마스 양말
-왕자 마법인형
-공주 마법인형
-남기사 마법인형
-여기사 마법인형
-남마법사 마법인형
-여마법사 마법인형
-남요정 마법인형
-여요정 마법인형
-남다크엘프 마법인형
-여다크엘프 마법인형
-남용기사 마법인형
-여용기사 마법인형
-남환술사 마법인형
-여환술사 마법인형
-용사의 상자
-복귀 용사의 징표
-용사의 물약지원 증서
-용사의 장비지원 증서
-용사의 무기 마법 주문서
-용사의 갑옷 마법 주문서
-용사의 속도 향상 물약
-베테르랑 단검
-베테르랑 한손검
-베테르랑 양손검
-베테르랑 보우건
-베테르랑 지팡이
-베테르랑 크로우
-베테르랑 체인 소드
-베테르랑 키링크
-베테르랑 판금 갑옷
-베테르랑 가죽 갑옷
-베테르랑 로브
-베테르랑 방패
-베테르랑 티셔츠
-베테르랑 장화
-베테르랑 해골 투구
-베테르랑 마법 망토
-홈커밍 도우미^베테르랑
+Teleporter^Peter
+Halloween Pumpkin Gloves 2012
+Halloween Pumpkin Longbow 2011
+Halloween Pumpkin Two-handed Sword 2011
+Halloween Pumpkin Staff 2011
+Halloween Pumpkin Armor 2011
+Halloween Pumpkin Box 2011
+Christmas Socks
+Monarch Magic Doll(M)
+Monarch Magic Doll(F)
+Knight Magic Doll(M)
+Knight Magic Doll(F)
+Wizard Magic Doll(M)
+Wizard Magic Doll(F)
+Elf Magic Doll(M)
+Elf Magic Doll(F)
+Dark Elf Magic Doll(M)
+Dark Elf Magic Doll(F)
+Dragon Knight Magic Doll(M)
+Dragon Knight Magic Doll(F)
+Illusionist Magic Doll(M)
+Illusionist Magic Doll(F)
+Warrior's Box
+Returning Hero's's Proof
+Proof of Hero's's Potion Support
+Proof of Warrior's Weapon Support
+Warrior's Weapon Enchant Scroll
+Warrior's Armor Enhancement Scroll
+Hero's Speed Potion
+Veteran Dagger
+Veteran Sword
+Veteran Two-Handed Sword
+Veteran Bowgun
+Veteran Staff
+Veteran Claw
+Veteran Chainsword
+Veteran Kiringku
+Veteran Plate Mail
+Veteran Leather Armor
+Veteran Robe
+Veteran Shield
+Veteran T-shirt
+Veteran High Boots
+Veteran Bone Helm
+Veteran Magic Cloak
+Home Coming Guide^Veteran
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-할로윈 축제 모자 2011
-할로윈 장신구 강화 주문서
-할로윈 호박 장비상자
+Halloween Festival Hat 2011
+Halloween Accessory Enchance Scroll
+Halloween Pumpkin Armor Box
 dummy
 Metis's Love Letter
 dummy
@@ -12328,102 +12328,102 @@ dummy
 dummy
 dummy
 dummy
-리사
+Lisa
 dummy
-오만 제작장인^무브니
-Teleporter^마에노브
-오만의 탑 1층 이동 주문서
-오만의 탑 이동 부적
-Sealed 오만의 탑 1층 이동 부적
-오만의 탑 1층 이동 부적
-오만의 탑 1층 지배 부적
-오만의 탑 2층 지배 부적
-오만의 탑 3층 지배 부적
-오만의 탑 4층 지배 부적
-오만의 탑 5층 지배 부적
-오만의 탑 6층 지배 부적
-오만의 탑 7층 지배 부적
-오만의 탑 8층 지배 부적
-오만의 탑 9층 지배 부적
-오만의 탑 10층 지배 부적
-혼돈의 오만의 탑 1층 이동 부적
-혼돈의 오만의 탑 2층 이동 부적
-혼돈의 오만의 탑 3층 이동 부적
-혼돈의 오만의 탑 4층 이동 부적
-혼돈의 오만의 탑 5층 이동 부적
-혼돈의 오만의 탑 6층 이동 부적
-혼돈의 오만의 탑 7층 이동 부적
-혼돈의 오만의 탑 8층 이동 부적
-혼돈의 오만의 탑 9층 이동 부적
-혼돈의 오만의 탑 10층 이동 부적
-변이된 오만의 탑 1층 이동 부적
-변이된 오만의 탑 2층 이동 부적
-변이된 오만의 탑 3층 이동 부적
-변이된 오만의 탑 4층 이동 부적
-변이된 오만의 탑 5층 이동 부적
-변이된 오만의 탑 6층 이동 부적
-변이된 오만의 탑 7층 이동 부적
-변이된 오만의 탑 8층 이동 부적
-변이된 오만의 탑 9층 이동 부적
-변이된 오만의 탑 10층 이동 부적
-Teleporter^마에노브의 불꽃
-가소롭구나 먹이주제에!
-굳어버린 먹이도 괜찮겠지!
-네 이놈들! 네 놈들을 모두 녹여버릴테다!
-레스 마부!
-레스 아이 마!
-레스 레네 레그 도프!
-겨우 이 정도십니까?
-이 정도로는 어림없습니다.
-이익..노예 주제에 건방지구나! 죽어라!
-너..죽..인다..
-나..의..종이 될지어다..
-사..살아있는 모..든이에게 죽음을..
-그림리퍼님에게 드릴 제물이로구나.
-심장을 두고 가면 용서해주겠다.으하하!
-네 놈들에게 특별히 극한의 공포를 느끼게 해주마!
-나의 힘을 보여주지.
-땅의 정령이여 나를 도와라.
-내게서 도망칠 수 있을 것 같으냐!
-내앞에 무릎을 꿇어라!
-자매들이여 내게 오라!
-냉혹한 바람이여! 저들을 모두 얼려버려라!
-이 정도로 나를 이길 수 있겠느냐?
-용기는 가상하구나!
-진정한 기사의 힘을 보여주마! 버텨보아라!
-건방진 놈들.
-죽음의 기운을 느껴보아라.
-사라져라.
-영생을 얻는 나에게 도전하는가!!!
-감히 신에게 도전하는가?
-힘의 차이를 느껴보아라!
-영혼이여 울부짖어라!
-여흥은 여기까지다! 너희에게 죽음을 명한다!
-왜곡의 제니스 퀸
-불신의 시어
-공포의 뱀파이어
-죽음의 좀비 로드
-지옥의 쿠거
-불사의 머미로드
-냉혹한 아이리스
-어둠의 나이트 발드
-불멸의 리치
-사신 그림 리퍼
-감시자 리퍼
-생명의 단지
-으아악! 이런 말도 안되는 일이!
-에보루타인... 당신..어디 계신가요...
-뀌에에에엑!...
-이..이럴수가..내 마성의 힘을 이겨내다니..
-내..내...오른손만..있었어도..부..분하다..
-크르르르르르...
-아..아버지...어디 계십니까..?
-나..나의 제국은 어떻게..되었는가?..
-나를 쓰러트린 것이 그대들인가? 나의 왕을 구해다오..부탁하지..
-발드..발드 그는 무사한가? 제니스..그녀는?
-오만한 인간들이여 나는 죽음의 신! 그림리퍼! 너희의 생이 끝날 때 다시 만날 것이다. 으하하하하
+Arrogant Crafter^Mubuni
+Teleporter^Maenovu
+Tower of Insolence 1F Teleport Scroll
+Tower of Insolence Teleport Amulet
+Sealed Tower of Insolence 1F Teleport Amulet
+Tower of Insolence 1F Teleport Amulet
+Tower of Insolence 1F Teleport Amulet
+Tower of Insolence 2F Teleport Amulet
+Tower of Insolence 3F Teleport Amulet
+Tower of Insolence 4F Teleport Amulet
+Tower of Insolence 5F Teleport Amulet
+Tower of Insolence 6F Teleport Amulet
+Tower of Insolence 7F Teleport Amulet
+Tower of Insolence 8F Teleport Amulet
+Tower of Insolence 9F Teleport Amulet
+Tower of Insolence 10F Teleport Amulet
+Chaotic Tower of Insolence 1F Teleport Amulet
+Chaotic Tower of Insolence 2F Teleport Amulet
+Chaotic Tower of Insolence 3F Teleport Amulet
+Chaotic Tower of Insolence 4F Teleport Amulet
+Chaotic Tower of Insolence 5F Teleport Amulet
+Chaotic Tower of Insolence 6F Teleport Amulet
+Chaotic Tower of Insolence 7F Teleport Amulet
+Chaotic Tower of Insolence 8F Teleport Amulet
+Chaotic Tower of Insolence 9F Teleport Amulet
+Chaotic Tower of Insolence 10F Teleport Amulet
+Mutated Tower of Insolence 1F Teleport Amulet
+Mutated Tower of Insolence 2F Teleport Amulet
+Mutated Tower of Insolence 3F Teleport Amulet
+Mutated Tower of Insolence 4F Teleport Amulet
+Mutated Tower of Insolence 5F Teleport Amulet
+Mutated Tower of Insolence 6F Teleport Amulet
+Mutated Tower of Insolence 7F Teleport Amulet
+Mutated Tower of Insolence 8F Teleport Amulet
+Mutated Tower of Insolence 9F Teleport Amulet
+Mutated Tower of Insolence 10F Teleport Amulet
+Teleporter^Fire of Maenob
+You make me laugh, you're the bait!
+Let's eat it slowly after it's hardened!
+You guys! You guys, I'm gonna melt you down!
+Less Mabu!
+Less Ima!
+Less rene leg dop!
+Is this all it takes?
+That's far from possible at this level.
+Kuu... You're impertinent as a slave! Die!
+You... will... die...
+You... should be... my... servant...
+I...the living, Su...death to all...
+A sacrifice to the Grim Reaper?
+I'll forgive you if you leave your heart behind. Uhhahaha!
+I'm going to give you a special taste of extreme fear!
+I will show you my power.
+O spirits of the earth! Help me.
+Do you think you can escape me?
+Kneel before me!
+Sisters, come to me!
+Ruthless winds! Freeze them all!
+Can you beat me at this level?
+I admire your courage!
+I will show you the power of a true knight! Try to endure!
+Cheeky bastards.
+Feel the aura of death.
+Go away.
+Are you challenging me for eternal life?
+Are you trying to challenge the gods?
+Taste the difference in power!
+O soul. Cry out!
+The entertainment ends here! I order you to die!
+Zenith Queen of Distortion
+Mistrust Sheer
+Fear Vampire
+Death Zombie Lord
+Hell Cougar
+Immortal Mummy Lord
+Cruel Iris
+Dark Nightvald
+Immortal Lich
+Death Grim Reaper
+Watcher Reaper
+Jar of Life
+Wow! Such an impossible thing!
+Evoltine... where are you...
+Gueeeee!
+Oh...no...how could you withstand my demonic power?
+If only... my... right... hand... could...
+Kururururu……
+Where are you...father...where are you...?
+What happened to my empire...?
+Is it you who defeated me? Save my king... please...
+Baldo... Baldo...Is he okay? Zenith... Who is she?
+Arrogant mortals. I am Grim Reaper, God of Death! We shall meet again at the end of your lives. Hahahahaha.
 \aFShea's Heart
-크윽..인간들 치고는 제법이구나..
+Kuuuh... that's not so bad for a human...
 dummy
 dummy
 dummy
@@ -12446,14 +12446,14 @@ dummy
 dummy
 dummy
 dummy
-우그누스
-겨우 이 정도 힘으로 이 곳까지 왔느냐?
-나의 분노를 자극하지 마라!
-너희의 죽음을 앞 당겨주겠다. 지금 죽어라!
+Ugnus
+How did you get here with so little?
+Don't you dare touch my wrath!
+I will hasten your death. Die now!
 dummy
 dummy
 dummy
-Warehouse^루이
+Warehouse^Louis
 dummy
 dummy
 dummy
@@ -12481,62 +12481,62 @@ dummy
 dummy
 dummy
 dummy
-군터의 편지
-장로 편지
-바포메트 편지
-데스나이트 편지
-킹버그베어 편지
-데스나이트 반지
-데스나이트 편지
-아툰에게 보내는 편지
-과거의 흔적
-용기의 증거
-시간의 흔적
-Arachnevil 다리
-Arachnevil 고기
-Memory 쪽지
-해골의 뼈
-좀비의 뼈
-켈베로스의 뼈
-데스나이트 갑옷
-드레이크의 날개
-버그베어의 목걸이
-글루딘 던전 순간이동 주문서
-카오신전 순간이동 주문서
-잊혀진 섬 순간이동 주문서
-군터의 집 순간이동 주문서
-장로의 지령1
-장로의 지령2
-장로의 지령3
-바포메트의 지령1
-바포메트의 지령2
-바포메트의 지령3
-슬라임 구출 확인서
-Memory 바구니
-Memory 보물상자
-말하는 섬의 장로인형
-던전 기억책(13주년)
-마을 기억책(13주년)
-호박파이
-군터의 조수
-Memory 장로
-Memory 바포메트
-Memory 데스나이트
-Memory 킹버그베어
-뿔난 Arachnevil
-바포메트의 해골
-바포메트의 좀비
-데스나이트의 켈베로스
-환영의 바포메트
-말하는 섬의 장로
-축하
-저 왔어요~
-아이~ 아파라
-아악!
-너도 왔구나
-나도 왔어요
-너도 왔니?
-저 나왔어요
+Gunther letter
+Elder letter
+Baphomet Letter
+Death Knight Letter
+King Bugbear Letter
+Death Knight Ring
+Death Knight Letter
+Letter to Artone
+Traces of the Past
+Proof of Courage
+Traces of Time
+Giant Spider Legs
+Giant Spider Meat
+Memory Note
+Skeleton Bones
+Zombie Bones
+Cerberus Bones
+Death Knight Armor
+Drake Wings
+Amulet of Bugbear
+Gludin Dungeon Teleport Scroll
+Chaotic Temple Teleport Scroll
+Forgotten Island Teleport Scroll
+Gunther House Teleport Scroll
+Elder's Order 1
+Elder's Order 2
+Elder's Order 3
+Baphomet Order 1
+Baphomet Order 2
+Baphomet Order 3
+Slime Rescue Confirmation
+Memory Basket
+Memory Treasure Chest
+Talking Island Elder Doll
+Dungeon Memory Book (13th Anniversary)
+Village Memory Book (13th Anniversary)
+Pumpkin Pie
+Gunther's Assistant
+Memory Elder
+Memory Baphomet
+Memory Death Knight
+Memory King Bugbear
+Angry Arachnevil
+Baphomet's Bones
+Baphomet's Zombie
+Death Knight Cerberus
+Baphomet of Illusion
+Talking Island Elder
+Congratulation
+I'm here~!
+Ah~ it hurts.
+Aah!
+You're here too.
+I came too.
+Did you come too?
+I'm here.
 dummy
 dummy
 dummy
@@ -12544,29 +12544,29 @@ dummy
 dummy
 dummy
 dummy
-수련기사 격려 패키지
-수련기사 응원 패키지
-수련기사 졸업 선물
-13주년
-골드 큐브
+Training Knight Encouragement Package
+Training Knight Support Package
+Training Knight Graduation Gift
+13th Anniversary
+Gold Cube
 dummy
-난 오래 머물수 없다.
-1분여 정도만 있을 수 있네.
-속도의 물약
-호흡의 물약
-집중의 물약
-용기의 물약
-마력의 물약
-지혜의 물약
-변신의 물약
-라스타바드 정문
+They can't stay for long.
+I can only stay for a minute or so.
+Haste Potion
+Breathing Potion
+Concentration Potion
+Brave Potion
+Magic Potion
+Wisdom Potion
+Polymorph Potion
+Lastabad Main Gate
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-아시리스 동생
+Sister of Asiris
 dummy
 dummy
 dummy
@@ -12615,19 +12615,19 @@ dummy
 dummy
 dummy
 dummy
-(특)
-이벤트^강화무기 판매상
-이벤트^기념주화 교환원
-기념주화
-확인증
+(Premium)
+Event^Enhanced Weapons Dealer
+Event^Premium Coin Exchanger
+Premium Coins
+Confirmation
 dummy
 dummy
 dummy
-두근두근 인챈트
-주머니
-오마르
-Memory 슬라임
-소환된 말하는 섬의 장로
+Heart-Pounding Enchant
+Bag
+Omar
+Memory Slime
+Summoned Talking Island Elders
 dummy
 dummy
 dummy
@@ -12637,7 +12637,7 @@ dummy
 dummy
 dummy
 dummy
-마족 무기 보호 주문서
+Demon Weapon Protection Scroll
 dummy
 dummy
 dummy
@@ -12653,11 +12653,11 @@ dummy
 dummy
 dummy
 dummy
-경험치
+EXP
 dummy
-군터의 선물 꾸러미
-조우의 선물 꾸러미
-아툰의 선물 꾸러미
+Gunther's Gift Bundle
+Joe's Gift Bundle
+Atun's Gift Bundle
 Metis Blessing Scroll
 Metis Healing Potion
 Metis Hearty Cuisine
@@ -12683,65 +12683,65 @@ dummy
 dummy
 dummy
 dummy
-달고나
-T1 달고나
-T2 달고나
-완벽한 달고나
-깨진 달고나
-특별 마법 강화원^메지버
-공식 수사관^디텍트
-흑룡 전투 패키지
-실종자의 양초
-시침핀
-속도 향상 주문서
-속도 향상 주문서 패키지
-마법주문서 패키지
-파티초대장 복제본
-드레이크 상자
-제1 강화교환권
-제2 강화교환권
-제3 강화교환권
-작은 복주머니
-복주머니
-왕복주머니
-쌀떡
-현미떡
-흑룡해 떡국
-흑룡해 현미 떡국
-주술 목걸이
-의문의 봉투
-의문의 편지
-소모품주머니
-도형
-조미료 듬뿍 해물탕
-드리엉커
-단단한 나이프
-벽 장식
-오래된 상자
-거울
-낡은 종이
-주문서 주머니
-파티초대장
-오래된 상자
-일기장
-루돌프 오르골
-머플러
-수사일지
-이벤트 아이템 판매원^세이르
-복주머니 교환원^트레이디
-노마루
-베일리스 어머니
-여관 점원
-아돈노
-에디엇
-토히키
-낚시꾼
-책장
-보석함
-식탁
-등대
-말을 탄 남자
-수상한 기둥
+Caramel Sugar Candy
+S1 Caramel Baking
+S2 Caramel Baking
+Perfectly Carmelized
+Cracked Calumet Bake
+Special Magic Enhancer^Mejiva
+Official Investigator^Detect
+Black Dragon Combat Package
+Missing Persons Candle
+hour hand pin
+Haste Scroll
+Haste Scroll Package
+Reinforced Scroll Package
+Party Invitation Copy Book
+Drake's Box
+1st Enhanced Exchange Ticket
+2nd Enhanced Exchange Ticket
+3rd Enhanced Exchange Ticket
+Small Lucky Bag
+Lucky Bag
+Large Lucky Bag
+Mochi Rice Cake Pounding
+Brown Rice Cake
+Black Dragon Rice Porridge
+Brown Rice Zoni in the Year of the Black Dragon
+Sorcery Amulet
+Mystery Envelope
+Mystery Letter
+Consumables bag
+Shape
+Hot Pot Seafood Seasoning
+Dorian Anchor
+Sturdy Knife
+wall decoration
+Old box
+mirror
+old paper
+Scroll Bag
+Party Invitation
+Old box
+Journal
+Rudolph's Music Box
+Scarf
+Investigation Journal
+Event Item Seller^Sail
+Lucky Bag Exchanger^Trady
+normal
+Baylis's Mother
+Housekeeper
+Adonno
+Ediot
+Tohiki
+Angler
+bookshelf
+Jewelry Box
+table
+lighthouse
+man on horseback
+Suspicious Pillar
 dummy
 dummy
 dummy
@@ -12753,39 +12753,39 @@ dummy
 dummy
 dummy
 dummy
-꼬마의 엄마
-꼬마
-동방장로^발타사르
-동방장로^멜키오르
-동방장로^카스파르
-저는 발타사르라고 합니다.
-저는 멜키오르라고 합니다.
-저는 카스파르라고 합니다.
-크리스마스 편지
-크리스마스 버프코인
-크리스마스 주머니
-산타의 쿠키
+Boy's Mother
+Juvenile
+Eastern Elder^Balthazar
+Eastern Elder^Melchior
+Eastern Elder^Kasper
+My name is Balthazar
+My name is Melchior
+My name is Kasper
+Christmas Letter
+Christmas Buff Coin
+Christmas Bag
+Santa's Cookies
 (A)
 (B)
 (C)
 (D)
 (E)
 (X)
-즐거운 성탄을 보내세요.
-가족과 함께 연말을
-크리스마스엔 무언가 즐거운 일이 있을거 같아~
-연애시절 그이에게서 받은 반지가 어디에 있지?
-정말 구하기 힘든 반지인데....
-배가 고파요~
-꼬르륵~~
-맛있는 쿠키가 먹고 싶다!
-아이 아파라
-때리지 말아주세요
-언렁 도망가야지
-당신에게 필요한 물건이 있을지도?
-편지를 전달해 주실 분 없으신가요?
-맛있는 쿠키가 있는데, 좀 나눠드리고 싶네요.
-반짝반짝 빛나는 코인이 필요하신분 손!
+Have a Merry Christmas!
+End of the year with family
+I think there will be something fun for Christmas~.
+I wonder where I can find the ring he gave me when we were dating?
+It's a really hard ring to get...
+I'm hungry~!
+Round and round.
+I want to eat delicious cookies!
+Oh, it hurts
+Please don't hit me.
+We have to get out of here.
+Maybe there's something you need?
+Would anyone be willing to deliver a letter?
+I have some delicious cookies, so I'd like to share some.
+Need some sparkly coins!
 dummy
 dummy
 dummy
@@ -12794,8 +12794,8 @@ dummy
 dummy
 dummy
 dummy
-떠도는 대장
-떠도는
+Wandering Captain
+Wandering
 dummy
 dummy
 dummy
@@ -12803,7 +12803,7 @@ dummy
 dummy
 dummy
 dummy
-국가대표 응원단^꼬꼬마인형 요정
+National Cheerleaders^The Little Doll Fairy
 dummy
 dummy
 dummy
@@ -12814,9 +12814,9 @@ dummy
 dummy
 dummy
 dummy
-아덴마을에 누군가 사라졌다지 뭐예요.
-어머어머, 큰일 났어요.
-대체 어디로 사라진거지?
+I heard that someone disappeared in Aden.
+Well, that's tough.
+Where the hell did they disappear to?
 dummy
 dummy
 dummy
@@ -12827,12 +12827,12 @@ dummy
 dummy
 dummy
 dummy
-아가씨~ 어디가신거여유~ 
-불완전한 마법 구슬 조각
-불완전한 마법 구슬
-마빈의 주머니
-상아탑 마법의 정수
-얼어붙은 여인의 눈물
+Girl, where are you going?
+Incomplete Magic Ball Fragment
+Incomplete Magic Ball
+Marvin's Bag
+Magical Essence of the Ivory Tower
+Tears of a Frozen Woman
 dummy
 dummy
 dummy
@@ -12846,17 +12846,17 @@ dummy
 dummy
 dummy
 dummy
-얼음 여왕의 눈물
-화염의 기운
-화염의 불씨
-얼음 큐브
-성장의 마법사^마빈
-오림이 배를 떠났습니다. 지금부터는 누구나 배를 방어할 수 있습니다.
+Tears of Ice Queen
+Flame Spirit
+Spark of Flame
+Ice Cube
+Wizard of Growth^Marvin
+Orim has left the ship. From now on anyone can defend the ship.
 dummy
-드레이크 마법 인형
-마법인형: 드레이크
-흑룡 큐브 패키지
-강화사^흑룡의 수호대
+Drake Magic Doll
+Magic Doll: Drake
+Black Dragon Cube Package
+Expert^Black Dragon's Guardian
 dummy
 dummy
 dummy
@@ -12890,34 +12890,34 @@ dummy
 dummy
 dummy
 dummy
-냉한의
-극한의 갑옷 
-극한의 투구
-극한의 부츠
-하찮은 인간들이여, 얼어 죽여주마!
-나의 혹한의 숨결을 버틸 수 있겠느냐!
-얼음 칼날들이여 저들을 모두 베어버려라!
-네게 명한다. 이 자리에서 얼어 죽어라
-시녀들은 뭐하는 것이냐? 어서 나를 받들라!
-혹한의 바람이여 이들의 숨결조차 얼어붙게 하라!
-극한의 체인소드
-냉한의 키링크
-얼음 여왕의 매력적인 티아라
+Bleak
+Extreme/Frigid Cold Mail
+Extreme/Frigid Cold Helm
+Extreme/Frigid Cold Boots
+Scumbags, let them freeze to death!
+Can you withstand my harsh extreme cold breath!
+Blades of ice. Cut them all to pieces!
+I command you. Freeze to death right here.
+What are the maids doing? Hurry up and follow me!
+It's cold wind. Freeze even when they breath!
+Extreme Cold Chainsword
+Extreme Frigid Kiringku
+Ice Queen Tiara
 dummy
-적대적인
-우호적인
-화룡의 신년 복주머니
-지룡의 신년 복주머니
-수룡의 신년 복주머니
-풍룡의 신년 복주머니
-화룡의 보물상자
-지룡의 보물상자
-수룡의 보물상자
-풍룡의 보물상자
-보안의 반지
-보안의 귀걸이
-보안의 벨트
-보안의 목걸이
+Hostile
+Friendly
+Fire Dragon New Year Lucky Bag
+Earth Dragon New Year Lucky Bag
+Water Dragon New Year Lucky Bag
+Wind Dragon New Year Lucky Bag
+Fire Dragon Treasure Chest
+Earth Dragon Treasure Chest
+Water Dragon Treasure Chest
+Wind Dragon Treasure Chest
+Security Ring
+Security Earrings
+Security Belt
+Security Amulet
 dummy
 dummy
 dummy
@@ -12943,15 +12943,15 @@ Flame Rod
 Ivory Tower Agent
 Arcane Mana Potion
 dummy
-Sealed 극한의 체인소드
-Sealed 냉한의 키링크
+Sealed Extreme Cold Chainsword
+Sealed Extreme Frigid Kiringku
 Do you know the reason for this ungainly anger and confusion of mine?
 The reason for all this confusion...was that...I'll never forgive him...
 Why did I bring her here? Why? Why?
 Human, take her behind the wall. All because of my imperfect heart...
-여왕님께 회복의 힘을!
-여왕님께 혹한의 힘을!
-여왕님의 혼란을 방해할 수는 없다!
+Give the Queen the power to heal!
+The power of the bitter cold for the queen!
+You can't interfere with the Queen's chaos!
 Can the human withstand the power of extreme cold?
 Snow Crystal
 Extreme Tiara Gemstone
@@ -12992,25 +12992,25 @@ Party Manager
 Baby, baby, where are you going?
 Let's find our baby
 Sexy Hellvine
-수줍은 조우
+Shy Jose
 Cool Dante
 Smart Ken Rauhel
 Tough Gunther
-신비로운 질리언
+Mysterious Gillian
 ?
 dummy
 dummy
 dummy
 dummy
 dummy
-얼음 여왕이 시녀의 주술로부터 자유로워졌습니다.
-수사대의 숨결
-Sealed 수사대의 깃
-잔넨
-새디
-그녀를 데려온 후 더욱 마음이 혼란스럽구나..
-난..무엇을 원하는 것일까? 그? 그녀가 없으면 그를 얻을 수 있는 것인가?
-아니야..난 이런 것을 원한 것이 아니였어. 그래..
+The Ice Queen is now free from the curse of the Handmaiden.
+The Breath of the Investigative Unit
+Sealed Investigative Unit Feathers
+Jannen
+Cedi
+My feelings are more confused since I brought her...
+What do I... what do I want? If I don't have her, can I have him?
+No, no...I'm not asking for this. Yes...
 dummy
 dummy
 dummy
@@ -13018,88 +13018,88 @@ dummy
 dummy
 dummy
 dummy
-신도의 보급품
-신도의 신성력
-탈출의 영웅[1등급]
-탈출의 영웅[2등급]
-탈출의 영웅[3등급]
-탈출의 영웅[4등급]
-탈출의 영웅[5등급]
+Follower's Supplies
+Follower's Divine Power
+Escaped Hero's[Grade 1]
+Escaped Hero's[Grade 2]
+Escaped Hero's[Grade 3]
+Escaped Hero's[Grade 4]
+Escaped Hero's[Grade 5]
 Metis's Friend
-신도
-배신한 신도
+Believer
+Betrayed Believer
 Alphabet H
 Alphabet P
 Alphabet L
-신도의 상자
-반짝이는
-판도라의 완력꽃 향수:티[30일] 상자
-판도라의 민첩꽃 향수:티[30일] 상자
-판도라의 지식꽃 향수:티[30일] 상자
-판도라의 지혜꽃 향수:티[30일] 상자
-판도라의 체력꽃 향수:티[30일] 상자
-판도라의 매력꽃 향수:티[30일] 상자
-판도라의 완력꽃 향수:티[30일]
-판도라의 민첩꽃 향수:티[30일]
-판도라의 지식꽃 향수:티[30일]
-판도라의 지혜꽃 향수:티[30일]
-판도라의 체력꽃 향수:티[30일]
-판도라의 매력꽃 향수:티[30일]
-순결한 완력꽃 향수:티[15일]
-순결한 민첩꽃 향수:티[15일]
-순결한 지식꽃 향수:티[15일]
-순결한 지혜꽃 향수:티[15일]
-순결한 체력꽃 향수:티[15일]
-순결한 매력꽃 향수:티[15일]
-판도라의 완력꽃향 티
-판도라의 민첩꽃향 티
-판도라의 지식꽃향 티
-판도라의 지혜꽃향 티
-판도라의 체력꽃향 티
-판도라의 매력꽃향 티
-순결한 완력꽃향 티
-순결한 민첩꽃향 티
-순결한 지식꽃향 티
-순결한 지혜꽃향 티
-순결한 체력꽃향 티
-순결한 매력꽃향 티
-판도라의 정령 문양:티 상자
-판도라의 땅 문양:티 상자
-판도라의 불 문양:티 상자
-판도라의 바람 문양:티 상자
-판도라의 물 문양:티 상자
-판도라의 동빙 문양:티 상자
-판도라의 암흑 문양:티 상자
-판도라의 수면 문양:티 상자
-판도라의 기술 문양:티 상자
-판도라의 정령 문양:티 상자
-판도라의 석화 문양:티 상자
-판도라의 회복 문양:티 상자
-판도라의 강철 문양:티 상자
-판도라의 멸마 문양:티 상자
-판도라의 체력 문양:티 상자
-판도라의 마나 문양:티 상자
-판도라의 정령 문양:티
-판도라의 땅 문양:티
-판도라의 불 문양:티
-판도라의 바람 문양:티
-판도라의 물 문양:티
-판도라의 동빙 문양:티
-판도라의 석화 문양:티
-판도라의 수면 문양:티
-판도라의 암흑 문양:티
-판도라의 기술 문양:티
-판도라의 정령 문양:티
-판도라의 회복 문양:티
-판도라의 강철 문양:티
-판도라의 멸마 문양:티
-판도라의 체력 문양:티
-판도라의 마나 문양:티
-회복 문양:티
-정령 문양:티
-멸마 문양:티
-체력 문양:티
-마나 문양:티
+Escape Box
+Shining
+Pandora's Floral of Strength Frangrance:T-shirt[30 Days]Box
+Pandora's Floral of Dexterity Frangrance:T-shirt[30 Days]Box
+Pandora's Floral of Intelligence Frangrance:T-shirt[30 Days]Box
+Pandora's Floral of Spirit Frangrance:T-shirt[30 Days]Box
+Pandora's Floral of Con Frangrance:T-shirt[30 Days]Box
+Pandora's Floral of CHA Frangrance:T-shirt[30 Days]Box
+Pandora's Floral of Strength Frangrance:T-shirt[30 Days]
+Pandora's Floral of Dexterity Frangrance:T-shirt[30 Days]
+Pandora's Floral of Intelligence Frangrance:T-shirt[30 Days]
+Pandora's Floral of Spirit Frangrance:T-shirt[30 Days]
+Pandora's Floral of Con Frangrance:T-shirt[30 Days]
+Pandora's Floral of CHA Frangrance:T-shirt[30 Days]
+Floral of Strength Frangrance:T-shirt[15日]
+Floral of Dexterity Frangrance:T-shirt[15日]
+Floral of Intelligence Frangrance:T-shirt[15日]
+Floral of Spirit Frangrance:T-shirt[15日]
+Floral of Physical Strength Frangrance:T-shirt[15日]
+Floral of Charm Frangrance:T-shirt[15日]
+Pandora's Floral of StrengthT-shirt
+Pandora's Dexterity Floral T-shirt
+Pandora's Intelligence Floral T-shirt
+Pandora's Spirit Floral T-shirt
+Pandora's Health Floral T-shirt
+Pandora's Charm Floral T-shirt
+Floral of Strength T-shirt
+Floral of Dexterity T-shirt
+Floral of Intelligence T-shirt
+Floral of Spirit T-shirt
+Floral of Physical Strength T-shirt
+Floral of Charm T-shirt
+Pandora Spirit Emblem: T-shirt Box
+Pandora Earth Emblem: T-shirt Box
+Pandora Fire Emblem: T-shirt Box
+Pandora Wind Emblem: T-shirt Box
+Pandora Water Emblem: T-shirt Box
+Pandora Freezing Emblem: T-shirt Box
+Pandora Darkness Emblem: T-shirt Box
+Pandora Sleep Emblem: T-shirt Box
+Pandora Technology Emblem: T-shirt Box
+Pandora Spirit Emblem: T-shirt Box
+Pandora Fear Emblem: T-shirt Box
+Pandora Recovery Emblem: T-shirt Box
+Pandora Steel Emblem: T-shirt Box
+Pandora Destruction Emblem: T-shirt Box
+Pandora Health Emblem: T-shirt Box
+Pandora Mana Emblem: T-shirt Box
+Pandora Spirit Emblem: T-shirt
+Pandora Earth Emblem: T-shirt
+Pandora Fire Emblem: T-shirt
+Pandora Wind Emblem: T-shirt
+Pandora Water Emblem: T-shirt
+Pandora Freezing Emblem: T-shirt
+Pandora Fear Emblem: T-shirt
+Pandora Sleep Emblem: T-shirt
+Pandora Darkness Emblem: T-shirt
+Pandora Technology Emblem: T-shirt
+Pandora Spirit Emblem: T-shirt
+Pandora Recovery Emblem: T-shirt
+Pandora Steel Emblem: T-shirt
+Pandora Destroyer Emblem: T-shirt
+Pandora Health Emblem: T-shirt
+Pandora Mana Emblem: T-shirt
+Recovery Emblem: T-shirt
+Spirit Emblem: T-shirt
+Destruction Emblem: T-shirt
+Health Emblem:T-shirt
+Mana Emblem: T-shirt
 문양 dummy1
 문양 dummy2
 문양 dummy3
@@ -13109,47 +13109,47 @@ Alphabet L
 문양 dummy7
 문양 dummy8
 문양 dummy9
-천연 비누:순결한 향기티
-판도라의 강력 비누:티 상자
-판도라의 강력 비누:티
-티셔츠 세탁 장인^페오시
-판도라의 완력꽃향 요정족 티
-판도라의 민첩꽃향 요정족 티
-판도라의 지식꽃향 요정족 티
-판도라의 지혜꽃향 요정족 티
-판도라의 체력꽃향 요정족 티
-판도라의 매력꽃향 요정족 티
-순결한 완력꽃향 요정족 티
-순결한 민첩꽃향 요정족 티
-순결한 지식꽃향 요정족 티
-순결한 지혜꽃향 요정족 티
-순결한 체력꽃향 요정족 티
-순결한 매력꽃향 요정족 티
-순결한 강력 비누:티
-천연 비누:판도라 향기티
-완력의 엘모어 티셔츠
-민첩의 엘모어 티셔츠
-지식의 엘모어 티셔츠
-지혜의 엘모어 티셔츠
-체력의 엘모어 티셔츠
-매력의 엘모어 티셔츠
-완력의 엘모어 티셔츠 상자
-민첩의 엘모어 티셔츠 상자
-지식의 엘모어 티셔츠 상자
-지혜의 엘모어 티셔츠 상자
-체력의 엘모어 티셔츠 상자
-매력의 엘모어 티셔츠 상자
-변환석: +0 티
-변환석: +1 티
-변환석: +2 티
-변환석: +3 티
-변환석: +4 티
-변환석: +5 티
-변환석: +6 티
-변환석: +7 티
-변환석: +8 티
-변환석: +9 티
-변환석: +10 티
+Natural Soap: Pure Floral T-shirt
+Pandora Strong Soap: T-shirt Box
+Pandora Strong Soap: T-shirt
+T-shirt Laundromat^Feoshi
+Pandora's Floral of Strength Elven T-shirt
+Pandora's Floral of Dexterity Elven T-shirt
+Pandora's Floral of Intelligence Elven T-shirt
+Pandora's Floral of Spirit Elven T-shirt
+Pandora's Floral of Con Elven T-shirt
+Pandora's Floral of CHA Elven T-shirt
+Strength Elven T-shirt
+Dexterity Elven T-shirt
+Intelligence Elven T-shirt
+Spirit Elven T-shirt
+Physical Fitness Elven T-shirt
+Charmisa Elven T-shirt
+Pure Powerful Soap: T-shirt
+Natural Soap: Pandora Floral T-shirt
+Elmore Strength T-shirt
+Elmore Dexterity T-shirt
+Elmore Intelligence T-shirt
+Elmore Spirit T-shirt
+Elmore Physical Strength T-shirt
+Elmore Charm T-shirt
+Elmore Strength T-shirt Box
+Elmore Dexterity T-shirt Box
+Elmore Intelligence T-shirt Box
+Elmore Spirit T-shirt Box
+Elmore Physical Strength T-shirt Box
+Elmore Charm T-shirt Box
+Conversion Stone: +0T
+Conversion Stone: +1T
+Conversion Stone: +2T
+Conversion Stone: +3T
+Conversion Stone: +4T
+Conversion Stone: +5T
+Conversion Stone: +6T
+Conversion Stone: +7T
+Conversion Stone: +8T
+Conversion Stone: +9T
+Conversion Stone: +10T
 dummy
 dummy
 dummy
@@ -13178,42 +13178,42 @@ dummy
 dummy
 dummy
 dummy
-카리프의 최고급 주머니
-스카터의 소지품
-붉은 눈
-교주의 소지품
-교주의 노트
-탐정의 회중시계
-변신물약
-베일리스의 편지
-신비한 캔디가루
-스카터
-교주
-베일리스
-나킬라
-너희는 신도의 모습을 하고 무엇을 하고 있는 것이냐! 빨리 예를 갖추지 못할까!
-으아아! 내 잘못이 아니야. 이럴 때 교주님은 어디로 가신 거지?
-으아아악!!제발 살려줘!!!!
-너희들도 주술의 힘을 알게되면 어쩔 수 없을 터..
-세상의 기운이 나를 중심으로 돌고 있다는 것을 아직도 모르느냐!
-으아아악! 조금 만 더. 조금만 더 내게 시간이 있었다면! 
-아... 이렇게 끝인 것인가..
-제 결혼식에 와주셔서 너무 감사드립니다. 
-쉿! 조용히해. 그녀가 올지도 몰라..
-난 시키는 대로 했을 뿐인데.. 사..살려줘..
-너희들이 그동안 내 고통을 이해할 수 있을까?
-새로운 주술의 힘을 알게 되었지.. 
-주술의 힘을 이용하여 사람들을 내 곁에 둘 수 있게 되었어.. 
-흑룡의 해를 맞이해 할파스의 기운에 대해 살짝 떠들어주니 사람들은 의심하지 않고 오히려 더 믿더군..
-할파스교라는 종교는 좋은 도구가 되었어..으하하하
-이런 좋은 힘을 나보고 포기하라고?!!! 
-절대! 절대! 난 포기할 수 없어!!!
-안그래도 베일리스가 이런 사실을 세상에 알리려 들더군..그래서 납치를 하게 되었지..
-교주의 소환물
-수사과정을 보기 위해 남장을 하고 보좌관인 척을 했지. 
-옆에 두고도 날 몰라본 소감이 어떠신가?
-여기까지 온 비밀수사대의 능력만은 인정해주지.
-여기까지다! 날 막을 자는 아무도 없어!
+Karif's Finest Lucky Bag
+Scatter's Possession
+Red Eyes
+Priest Belongings
+Faithful Notebook
+Detective Pocket Watch
+Transformation Potion
+Bayliss Letter
+Mystical Candy Powder
+Scatter
+Bishop
+Bayliss
+Nakira
+What are you doing disguised as believers? You still can't make sense of it!
+Uh-oh! It's not my fault. Where the hell did the Church Master go at a time like this?
+Aaahhh! Please help me!
+You guys can't help yourselves when it comes to knowing the power of witchcraft: ......
+Do you still not understand that the spirit of the world revolves around me!
+Uh-oh! Just a little more, just a little more time for me!
+Ah... so this is how it ends...
+Thank you so much for attending my wedding.
+Shh! Quiet. She might cry. ......
+I just did what I was told...ta...ta...help me ......
+Can you guys understand my pain so far?
+I've come to know the power of new spells...
+He was able to harness the power of witchcraft to keep people close to him...
+When the year of the Black Dragon arrived and I spoke a little about the engery of Halphas, people did not doubt, but on the contrary began to believe...
+The religion of Harpathism has been a good tool...ughahahahaha.
+You want me to give up such wonderful power!
+Never, never give up!
+Bayliss was just about to let the world know about this...that's why I kidnapped him...
+Summons of the Faithful
+I dressed as a man and pretended to be an aide in order to watch the investigative process.
+How do you feel about not noticing me beside you?
+I will only acknowledge the ability of the undercover team to get this far.
+This is it! There is no one who can stop me!
 dummy
 dummy
 dummy
@@ -13228,33 +13228,33 @@ dummy
 dummy
 dummy
 dummy
-혹한의
-판도라의 석화 문양:티
+Extreme Frigid
+Pandora Fear Emblem: T-shirt
 dummy
-판도라의 암흑 문양:티
-판도라의 기술 문양:티
-단테스의 유물 상자
-단테스의 유물 주머니
-단테스의 유물
-위대한 용사의 주문
-위대한 궁수의 주문
-위대한 법사의 주문
-위대한 치유의 주문
-달콤한 장난감 화살
-장난감 화살의 흔적
-후끈한 칵테일
-새콤한 칵테일
-영특한 칵테일
-시원한 캔디
-포획된 유니 드래곤
-포획된 테라 드래곤
-유니 드래곤의 눈물
-테라 드래곤의 눈물
-수련자의 징표
-특급 수련자의 징표
-비밀 수련장 입장권
-에킨스의 친구
-에킨스의 후손
+Pandora Technology Emblem: T-shirt
+Pandora Spirit Emblem: T-shirt
+Dantes Relic Box
+Great One's Relic Bag
+Relic of the Great
+Scroll of the Great Hero's
+Scroll of the Great Archer
+Scroll of the Great Mage
+Scroll of the Great Healer
+Sweet Toy Arrow
+Traces of Toy Arrow
+Hot Cocktail
+Sweet and Sour Cocktail
+Smart Cocktail
+Clear Candy
+Captured Unidragon
+Captured Terra Dragon
+Tears of Unidragon
+Tears of Terra Dragon
+Certificate of Practitioner
+Certificate of Special Practitioner
+Secret Training Ground Admission Ticket
+Friends of Ekins
+Descendants of Ekins
 dummy
 dummy
 dummy
@@ -13268,22 +13268,22 @@ dummy
 dummy
 dummy
 dummy
-변환석: +11 티
-크레이드
-[군주 남]
-[군주 여]
-[기사 남]
-[기사 여]
-[다크엘프 남]
-[다크엘프 여]
-[요정 남]
-[요정 여]
-[환술사 남]
-[환술사 여]
-[마법사 남]
-[마법사 여]
-[용기사 남]
-[용기사 여]
+Conversion Stone: +11T-shirt
+Clade
+[Monarch Male]
+[Monarch Female]
+[Knight Male]
+[Knight Female]
+[Dark Elf Male]
+[Dark Elf Female]
+[Elf Male]
+[Elf Female]
+[Illusionist Male]
+[Illusionist Female]
+[Wizard Male]
+[Wizard Female]
+[Dragon Knight Male]
+[Dragon Knight Female]
 dummy
 dummy
 dummy
@@ -13300,12 +13300,12 @@ dummy
 dummy
 dummy
 dummy
-교환 불가
-삭제 불가
-인챈트 불가
-창고보관 가능
-봉인 상태
-특수봉인 상태
+Can't Trade
+Can't Delete
+Can't Enchant
+Store Allowed
+Sealed
+Special Sealed
 dummy
 dummy
 dummy
@@ -13323,130 +13323,130 @@ Magic Doll: Bride
 Magic Doll: Groom
 Noble Wedding Ring
 Bowl of Love
-[큐브]불타는 사랑의 화분
-[큐브]달달한 사랑의 화분
-선물상자
-불타는 사랑의 화분
-달달한 사랑의 화분
-최고급 오리 요리
-최고급 초콜릿 무스 케익
-아이스크림
-사랑의 텔레포터
-사랑의 보석
-브라이드 마법인형
-글룸 마법인형
-케플리샤의 기억 저장 구슬
-기억 확장 구슬
+[Cube]Burning Love Bowl
+[Cube]Trembling Bowl of Love
+Gift Box
+Burning Love Bowl
+Trembling Bowl of Love
+Finest Duck Dish
+Top Quality Chocolate Mousse Cake
+Ice Cream
+Teleporter of Love
+Love Stone
+Bride Magic Doll
+Groom Magic Doll
+Keplisha Memory Orb
+Memory Expansion Bead
 dummy
-기억의 구슬
-희미한 기억의 구슬
-신비한 기억의 구슬
-선물 주머니
-마법인형의 변신 주문서
-40레벨 변신 주문서
-45레벨 변신 주문서
-50레벨 변신 주문서
-경험치 복구 주문서
-촉매 추출 주머니
-구슬 판매상^쥬비드
-삐에로 모자
-음악단 모자
-꼬마 변신막대1
-꼬마 변신막대2
-꼬마 변신막대3
-단체 변신막대1
-단체 변신막대2
-단체 변신막대3
-어른이의 선물세트
-어린이날 선물상자
-[2012] 한정판[1/8] 장난감 칼
-[2012] 한정판[2/8] 장난감 활
-[2012] 한정판[3/8] 장난감 요술봉
-[2012] 한정판[4/8] 장난감 왕관
-[2012] 한정판[5/8] 놀이공원 이용권
-[2012] 한정판[6/8] 공주님의 드레스
-[2012] 한정판[7/8] 곰 인형
-[2012] 한정판[8/8] 어른이의 초콜릿
-삐에로 티켓
-삐에로의 선물
+Memory Orb
+Faint Memory Orb
+Mysterious Memory Orb
+Gift Bag
+Magic Doll Transformation Scroll
+Level 40 Transformation Scroll
+Level 45 Transformation Scroll
+Level 50 Transformation Scroll
+Experience Restoration Scroll
+Catalyst Extraction Bag
+Jade Seller^Juvid
+Clown Hat
+Musician Hat
+Chibi Transformation Wand1
+Chibi Transformation Wand2
+Chibi Transformation Wand3
+Group Transformation Wand1
+Group Transformation Wand2
+Group Transformation Wand3
+Adult Present Set
+Children's Day Gift Box
+[2012] Limited Edition[1/8] Toy Sword
+[2012] Limited Edition[2/8] Toy Bow
+[2012] Limited Edition[3/8] Toy Wand
+[2012] Limited Edition[4/8] Toy Crown
+[2012] Limited Edition[5/8] Amusement Park Ticket
+[2012] Limited Edition[6/8] Princess Dress
+[2012] Limited Edition[7/8] Stuffed Bear
+[2012] Limited Edition[8/8] Adult Chocolate
+Clown Tickets
+Clown Present 
 Metis Bulletin Board
-삐에로
+Clown
 dummy
-영웅의 이도류
-영웅의 체인소드
-영웅의 키링크
-영웅의 단검
-영웅의 한손검
-영웅의 이도류 상자
-영웅의 체인소드 상자
-영웅의 키링크 상자
-영웅의 단검 상자
-영웅의 한손검 상자
-벽 뒤에 있는 스빈을 만나십시오.
-크로케 타이지아 슈크라이.....
-크오오...! 나의 진정한 힘을 보여주마!
-아덴 용사의 증표
-군터의 비밀상자
-영웅의 증표
-군터의 서약
-반왕의 금화
-필살의 훈장
-필살의 단검
-필살의 양손검
-필살의 지팡이
-필살의 이도류
-영웅의 구호 증서
-데포로쥬의 목걸이
-군터의 가더
-질리언의 활골무
-조우의 로브
-블루디카의 망토
-프로켈의 부츠
-실레인의 벨트
-영웅의 큐브
-수상한 영웅의 큐브
-영웅의 호령
-영웅의 훈장
-수상한 영웅의 훈장
-사냥터 관리인^노베르
-오락실 관리인^노무르
-켄라우헬의 분신
-케레니스의 분신
-헬바인의 분신
-단테스의 분신
-영웅의 호령을 외친 자들인가?!
-너희들이 영웅인 줄 아느냐!
-난 결코 쓰러지지 않는다!
-영웅의 호령을 들고만 있는 것인가?
-너희에게 마법의 자비란 없다!
-혼란의 소용돌이여 휘몰아처라!
-영웅의 호령만 외치면 영웅이 될 줄 아는가?
-양손에 족쇄를 채워주마!
-두 손이 뒤틀리고 온몸이 찢어질 것이다!
-호령을 외친 자들에게 죽음을!
-노예들아 죽어라!
-스스로를 통제할 수 없는 노예들이로군!
-불패의 Gunther
-필살의 황금 화살
-기억의 파편
+Hero's Edoryu
+Hero's Chainsword
+Hero's Kiringku
+Hero's Dagger
+Hero's Sword
+Hero's Edoryu Box
+Hero's Chainsword Box
+Hero's Kiringku Box
+Hero's Dagger Box
+Hero's Sword Box
+Meet Subin behind the wall.
+Kuroke Taijia Shurai...
+Kuoooooo! I'll show you my true power!
+Aden Warrior's Token
+Gunther's Secret Chest
+Hero's Certificate
+Gunther's Pledge
+Villain Coin
+Medal of Death
+Deadly Dagger
+Deadly Two-Handed Sword
+Deadly Staff
+Deadly Edoryu
+Hero's Petition Deed
+Amulets of Depardieu
+Gunther's Guarder
+Gillian's Bracer
+Elephant Robe
+Cloak of Burdika
+Procell Boots
+Silrain's Belt
+Hero's Cube
+Suspicious Hero's Cube
+Hero's Command
+Hero's Medal
+Suspicious Hero's Medal
+Hunting Ground Manager^Novell
+Game Room Manager^Nomi
+Ken Rahuel Alter Ego
+Cerennis Alter Ego
+Helvain Alter Ego
+Dantes Alter Ego
+Those who shouted the hero's command! ?
+You think you are heroes!
+I would never fall down!
+Do you just listen to the heroes' command?
+There is no such thing as magical mercy for you!
+Vortex of chaos, rage!
+Do you think you can become a hero just by shouting a hero's command?
+Let's put shackles on both hands!
+Your hands will twist and your whole body will rip!
+Death to those who shouted the order!
+Die, slaves!
+Slaves who can't control themselves!
+Undefeated Gunther
+Deadly Gold Arrow
+Fragments of Memory
 dummy
 dummy
 dummy
 dummy
 dummy
-린드비오르님의 성소에 침입한 자 누구인가?!
-구름의 정령들이여 나를 도와라!
-기억의 구슬 상자
-히오나의 마법 주머니
-신비한 마법 구슬 조각
-신비한 마법의 정수
-신비한 얼음 조각
-신비한 얼음 구슬
-신비한 얼음 수정 동굴 조사서
-신비한
+Who invaded the sanctuary of Lindvior!
+Cloud Spirit, help me!
+Memory Orb Box
+Hiona's Magic Bag
+Mysterious Magic Ball Fragment
+Mysterious Magical Essence
+Mysterious Ice Piece
+Mysterious Ice Ball
+Mysterious Ice Crystal Cave Report
+Mysterious
 dummy
 dummy
-웨딩 기념 상자
+Wedding Anniversary Box
 dummy
 dummy
 dummy
@@ -13510,15 +13510,15 @@ dummy
 dummy
 dummy
 dummy
-축복 상인^헤이욘
-Teleporter^러비
+Blessed Merchant^Hayon
+Teleporter^Lobby
 dummy
 dummy
 dummy
-드래곤의 자수정
-드래곤의 자수정 단지
-수상한
-(상)
+Dragon Amethyst
+Dragon Amethyst Vase
+Suspicious
+(Top)
 dummy
 dummy
 dummy
@@ -13526,40 +13526,40 @@ dummy
 dummy
 dummy
 dummy
-상아탑:야히 진영/고대 정령의 무덤/고대 거인의 무덤
-Teleporter^야누스
-강화사^수상한 강화사
+Ivory Tower: Yahee Camp/Ancient Spirit's Tomb/Ancient Giant's Tomb
+Teleporter^Janus
+Expert^Suspicious Expert
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-드래곤의 자수정 상자
-아덴왕국 장비 지급함(군주)
-아덴왕국 장비 지급함(기사)
-아덴왕국 장비 지급함(요정)
-아덴왕국 장비 지급함(마법사)
-아덴왕국 장비 지급함(다크엘프)
-아덴왕국 장비 지급함(용기사)
-아덴왕국 장비 지급함(환술사)
-아덴왕국 장비 지급 확인서
-풍룡의 징표
-비의 흔적
-바람의 흔적
-비의 보물상자
-바람의 보물상자
-마법 주문서 : 카운터 매직
+Dragon's Amethyst Box
+Aden Armor Supply Box(Monarch)
+Aden Armor Supply Box(Knight)
+Aden Armor Supply Box(Elf)
+Aden Armor Supply Box(Wizard)
+Aden Armor Supply Box(Dark Elf)
+Aden Armor Supply Box(Dragon Knight)
+Aden Armor Supply Box(Illusionist)
+Aden Kingdom Arms Supply Confirmation
+Aden Warrior Symbol
+Traces of Rain
+Traces of Wind
+Rain Treasure Chest
+Wind Treasure Chest
+Magic Scroll: Counter Magic
 dummy
 dummy
-아덴의 얼음부츠
-아덴의 구호 증서
-파푸리온의 혈흔 코인
-아덴 보급병^캐릭터 지원단
-아덴 보급병^소모품 판매원
-자~자~! 드래곤 레이드에 필요한 물품들이 있습니다! 구입하세요!
-드래곤 레이드에 필요한 물품을 싸게 지원하고 있습니다!
-아덴 보급단^콜로세움 기념 주화 교환원
+Aden Ice Boots
+Aden's Deed of Petition
+Fafurion Bloodstain Coin
+Aden Supply Soldiers^Character Support
+Aden Supply Soldiers^Consumables Merchant
+Come on, come on! We have all the items you need for Dragon Raids! Buy them now!
+We're helping you get the items you need for the Dragon Raid for less!
+Aden Quatermaster^Coliseum Coin Exchanger
 dummy
 dummy
 dummy
@@ -13573,7 +13573,7 @@ dummy
 dummy
 dummy
 dummy
-마법 주문서 : 아덴의 영광 
+Magic Scroll: Glory of Aden
 dummy
 dummy
 dummy
@@ -13586,173 +13586,173 @@ dummy
 dummy
 dummy
 dummy
-오크^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-오크 스카우트^(활/건틀렛)
-난장이^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-구울^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-해골^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-해골 궁수^(활/건틀렛)
-늑대인간^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-라이칸 스로프^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-버그베어^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-거대 개미^(무기 착용 불가)
-거대 병정 개미^(무기 착용 불가)
-웅골리언트^(무기 착용 불가)
-가스트^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-리자드맨^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-미들오움^(무기 착용 불가)
-코카트리스^(무기 착용 불가)
-키위 패롯^(지팡이)
-와일드 팡^(무기 착용 불가)
-라쿤^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-아울베어^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-랫맨^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-드래곤 플라이^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-서큐버스^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-젤라틴 큐브^(검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-탐욕스런 전사^(단검/한손검/양손검)
-수송 다크엘프^(창/체인소드)
-어쌔신^(이도류/크로우/키링크)
-장로^(지팡이)
-오크 도끼병^(도끼)
-산적 궁수^(활/건틀렛)
-백작 친위대장^(단검/한손검/양손검)
-탐욕스런 병사^(창/체인소드)
-호세^(이도류/크로우/키링크)
-흑장로^(지팡이)
-산적 도끼^(도끼)
-다크엘프 레인저^(활/건틀렛)
-쿠만^(단검/한손검/양손검)
-다크엘프 가드^(창/체인소드)
-블레이즈^(이도류/크로우/키링크)
-블랙 위자드^(지팡이)
-난장이족 장군^(도끼)
-다크엘프 시프^(활/건틀렛)
-Kurtz^(단검/한손검/양손검)
-흑기사^(창/체인소드)
-어쌔신 마스터^(이도류/크로우/키링크)
-바포메트^(지팡이)
-미노타우르스^(도끼)
-다크엘프 가드^(활/건틀렛)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-Lance Master^(창/체인소드)
-드레이크^(이도류/크로우/키링크)
-싱클레어^(지팡이)
-그레이트 미노타우르스^(도끼)
-다크 엘프^(활/건틀렛)
-Dark Knight^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-다크 매지스터^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-다크 레인저^(활/건틀렛)
-다크 쉐도우^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-Lance Master^(창/체인소드)
-다크 엘프^(활/건틀렛)
-실버 나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-실버 매지스터^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-실버 레인저^(활/건틀렛)
-실버 쉐도우^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-Lance Master^(창/체인소드)
-다크 엘프^(활/건틀렛)
-소드 마스터^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-위자드리 마스터^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-애로우 마스터^(활/건틀렛)
-쉐도우 마스터^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-랜스마스터^(창/체인소드)
-다크 엘프^(활/건틀렛)
-아크 나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-아크 위자드^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-아크 스카우^(활/건틀렛)
-아크 쉐도우^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-랜스마스터^(창/체인소드)
-다크엘프^(활/건틀렛)
-Ken Rauhel^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-Kerenis^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-Hellvine^(활/건틀렛)
-Dante^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-랜스마스터^(창/체인소드)
-다크 엘프^(활/건틀렛)
-Gunther^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-조우^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-질리언^(활/건틀렛)
-블루디카^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이)
-데스나이트^(단검/한손검/양손검/^이도류/크로우/키링크/^도끼/지팡이/체인소드)
-랜스마스터^(창/체인소드)
-다크 엘프^(활/건틀렛)
-홉고블린^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-아이들론^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-임프^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-간디오크^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-두다-마라 오크^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-오크 스카우트^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-와일드 팡^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-와일드 베놈^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-와일드 매직^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-버그베어^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-킹 버그베어^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-아이스맨^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-매드 리자드맨^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-헤비 리자드맨^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-하이 리자드맨^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-사라만다^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-불타는 전사^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-불타는 궁수^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-다이어베어^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-다이어울프^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-다이어뱃^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
-거대 수호 개미^(Cha 8/1, 14/2, 24/3, 34/4) 
-산성 개미 무리^(Cha 8/1, 14/2, 24/3, 34/4) 
-거대 산성 개미^(Cha 8/1, 14/2, 24/3, 34/4) 
-헬크리쳐^(Cha 8/1, 18/2, 30/3)
-그레이트 다크 엘리멘탈^(Cha 8/1, 18/2, 30/3)
-오튜^(Cha 8/1, 18/2, 30/3)
-헬 바운드^(Cha 14/1, 34/2)
-도폘겡어 보스^(Cha 36/1)
-그레이트 미노타우르스^(Cha 36/1)
-쿠거^(Cha 44/1)
-몬스터를 등록하실 수 있습니다.
+Orc^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Orc Scout^(Bow/Gauntlets)
+Dwarf^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Ghoul^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Skeleton^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Skeleton Archer^(Bow/Gauntlets)
+Werewolf^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Lycanthrope^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Bugbear^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Giant Ant^(Cannot Equip Weapon)
+Giant Ant Soldier^(Cannot Equip Weapon)
+Dread Spider^(Cannot Equip Weapon)
+Ghast^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Lizardman^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Middle Ohm^(Cannot Equip Weapon)
+Cockatrice^(Cannot Equip Weapon)
+Kiwi Parrot^(Staff)
+Wild Fang^(Cannot Equip Weapon)
+Raccoon^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Owl Bear^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Ratman^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Dragon Fly^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Succubus^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Gelatin Cube^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Greedy Fighter^(Dagger/Sword/Two-handed Sword)
+Carrying Dark Elf^(Spear/Chainsword)
+Assassin^(Edoryu/Claw/Kiringku)
+Elder^(Staff)
+Orc Axeman^(Axe)
+Bandit Archer^(Bow/Gauntlets)
+Earl Guard Captain^(Dagger/Sword/Two-handed Sword)
+Greedy Soldier^(Spear/Chainsword)
+Jose^(Edoryu/Claw/Kiringku)
+Black Elder^(Staff)
+Bandit Axeman^(Axe)
+Dark Elf Ranger^(Bow/Gauntlets)
+Schnova^(Dagger/Sword/Two-handed Sword)
+Dark Elf Guard^(Spear/Chainsword)
+Blaze^(Edoryu/Claw/Kiringku)
+Black Wizard^(Staff)
+Dwarf General^(Axe)
+Dark Elf Thief^(Bow/Gauntlets)
+Kurtz^(Dagger/Sword/Two-handed Sword)
+Black Knight^(Spear/Chainsword)
+Assassin Master^(Edoryu/Claw/Kiringku)
+Baphomet^(Staff)
+Minotaur^(Axe)
+Dark Elf Guard^(Bow/Gauntlets)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Drake^(Edoryu/Claw/Kiringku)
+Sinclair^(Staff)
+Great Minotaur^(Axe)
+Dark Elf^(Bow/Gauntlets)
+Dark Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Dark Magister^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Dark Ranger^(Bow/Gauntlets)
+Dark Shadow^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Dark Elf^(Bow/Gauntlets)
+Silver Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Silver Magister^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Silver Ranger^(Bow/Gauntlets)
+Silver Shadow^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Dark Elf^(Bow/Gauntlets)
+Sword Master^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Wizard Master^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Arrow Master^(Bow/Gauntlets)
+Shadow Master^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Dark Elf^(Bow/Gauntlets)
+Ark Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Ark Wizard^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Ark Scout^(Bow/Gauntlets)
+Ark Shadow^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Dark Elf^(Bow/Gauntlets)
+Ken Rauhel^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Kerenis^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Helvain^(Bow/Gauntlets)
+Dantes^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Dark Elf^(Bow/Gauntlets)
+Gunther^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Elephant^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Gillian^(Bow/Gauntlets)
+Burdika^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff)
+Death Knight^(Dagger/Sword/Two-handed Sword/^Edoryu/Claw/Kiringku/^Axe/Staff/Chainsword)
+Lance Master^(Spear/Chainsword)
+Dark Elf^(Bow/Gauntlets)
+Hobgoblin^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Eidolon^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Imp^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Ganji Orc^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Duda-Mara Orc^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Orc Scout^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Wild Fang^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Wild Venom^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Wild Magic^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Bugbear^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+King Bugbear^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Iceman^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Mad Lizardman^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Heavy Lizardman^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+High Lizardman^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Salamander^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Burning Warrior^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Burning Archer^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Dire Bear^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Dire Wolf^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Dire Bat^(Cha 8/1, 10/2, 18/3, 26/4, 34/5)
+Giant Guard Ant^(Cha 8/1, 14/2, 24/3, 34/4)
+Acid Ants Swarm^(Cha 8/1, 14/2, 24/3, 34/4)
+Giant Acid Ant^(Cha 8/1, 14/2, 24/3, 34/4)
+Hell Creature^(Cha 8/1, 18/2, 30/3)
+Greater Dark Elemental^(Cha 8/1, 18/2, 30/3)
+Autue^(Cha 8/1, 18/2, 30/3)
+Hell Hound^(Cha 14/1, 34/2)
+Doppelganger Boss^(Cha 36/1)
+Great Minotaur^(Cha 36/1)
+Cougar^(Cha 44/1)
+You can register monsters.
 dummy
 dummy
 dummy
 dummy
-*케플리샤*
-자카르
-카자르
-기억 확장 구슬 상자
-기억 저장 구슬 상자
-케팔레
-리칸트
-드라카
-오크족 정예 전사
-오크족 정예 도끼병
-오크족 정예 궁병
-오크족 정예 주술사
-오르쿠스
-포노스 오크 주술사
-포노스 오크
-포노스 오크 궁수
-포노스 오크 도끼병
-포노스 오크 전사
-포노스 오크 창병
-네크로스
-오르쿠스
-드웨르그 장군
-드웨르그 백주술사
-드웨르그 검사
-드웨르그 창병
-드웨르그 도끼병
-드웨르그 궁사
-교활한
-아르피어
-흑기사
-루푸스
-루푸스
-만년 슬라임
-변절자
-부식된
+*Keplisha*
+Jackal
+Kajal
+Bookmark Expansion Jade Box
+Memory Storage Orb Box
+Keparle
+Rekanto
+Draka
+Orc Elite Fighter
+Orc Elite Axeman
+Orc Elite Archer
+Orc Elite Shaman
+Orcus
+Phonos Orc Shaman
+Phonos Orc
+Phonos Orc Archer
+Phonos Orc Axeman
+Phonos Orc Fighter
+Phonos Orc Pikeman
+Necros
+Orcus
+Dwarf General
+Dwarf White Shaman
+Dwarf Swordsman
+Dwarf Pikeman
+Dwarf Axeman
+Dwarf Archer
+Crafty
+Alfia
+Black Knight
+Rufus
+Rufus
+Perpetual Slime
+Traitor
+Corroded
 dummy
 dummy
 dummy
@@ -13779,18 +13779,18 @@ dummy
 dummy
 dummy
 dummy
-파괴의 장궁
-할파스의 집념
-Rebel's Shield
-지혜의 부츠
-그라
-베어본 도끼병
-베어본 창병
-베어본 궁병
-베어본 기사
-아도레비트 장군
-아도레비트 마법사
-아도레비트 창병
+Destruction Longbow
+Halphas Obession
+Rebel Shield
+Wisdom Boots
+Goula
+Barebones Axeman
+Barebones Pikeman
+Barebones Archer
+Barebones Knight
+Adrebit General
+Adrebit Wizard
+Adrebit Pikeman
 dummy
 dummy
 dummy
@@ -13803,141 +13803,141 @@ dummy
 dummy
 dummy
 dummy
-아이스
-윽!부상이 심하다! 
-빨리 돌아가야한다..크.
-이곳은 어..디..크..
-길을 비켜라! 자~! 빨리빨리 승선 준비를 하도록!
-그럼 출발하자! Go! Go!
-크헉! 내..내가 이정도에서 쓰러지다니.. 분하다.. 큭! 다음에는 호락호락하지 않을거야.
-민첩의 녹차빙수
-완력의 체리빙수
-지식의 단팥빙수
-서리 당한 통수박
-더위 먹은 소
-시원한 여름 상점^바칸스
-시원한 수박이 먹고싶다!
-아이템 제작^조우의 불골렘
-천사의 지팡이
-Sealed +7 마력의 단검
-Sealed +7 광풍의 도끼
+Ice Cream
+Wow! That's a terrible injury!
+I have to get back soon... kk...
+Where am I...?
+Get out of the way! Come on! Get ready to board!
+All right, let's go! Go-go!
+Geehaw! Oh...I can't believe I'm getting beat up like this...damn... Kuh! Next time, don't be so naive.
+Shaved Ice Cream of Dexterity
+Shaved Ice Cream of Strength
+Shaved Ice Cream of Intelligence
+Frosted Watermelon
+Heat Stricken Cattle
+Cool Summer Shop^Vaction
+I'm craving some cold watermelon, man!
+Item Crafter^Elephant Lava Golem
+Angel Staff
+Sealed +7 Mana Dagger
+Sealed +7 Wind Axe
 Sealed +7 Greatsword of Doom
-Sealed +7 천사의 지팡이
-Sealed +7 혹한의 창
-Sealed +7 뇌신검
-Sealed +7 Salcheon's Bow
-Sealed +8 마력의 단검
-Sealed +8 광풍의 도끼
+Sealed +7 Angel Staff
+Sealed +7 Freezing Lancer
+Sealed +7 Lightning Edge
+Sealed +7 Angel Slayer
+Sealed +8 Mana Dagger
+Sealed +8 Wind Axe
 Sealed +8 Greatsword of Doom
-Sealed +8 천사의 지팡이
-Sealed +8 혹한의 창
-Sealed +8 뇌신검
-Sealed +8 Salcheon's Bow
-잡화 상점 '희망의 꽃'
-여관 '여행자의 오두막'
-'게렝의 마법 연구소'
-지식의 반지
-수신:
-General Store^Paperman
-Beginner Teleporter^Jeddah
-이대로 무사할 것 같으냐!
-바포메트의 추종자
-광분의 물약
-옛 말하는 섬의 주머니
-옛 말하는 섬의 진귀한 주머니
-바포메트 감옥의 열쇠
-옛 말하는 섬의
-너희는 앞으로 무시무시한 변화를 경험하게 될 것이다! 바로 이 곳에서 크하하하하.
-아직도 이 곳이 너희가 알고 있는 말하는 섬이라고 생각하는 것이냐!
-이 곳은 이제 우리들의 땅이 될 것이다!
-\f2시련의 해골
-\f2시련의 구울
-\f2시련의 해골 근위병
-\f2시련의 웅골리언트
-오크부대 전초기지
-숨겨진 오크부대 전초기지
-각별한 보석 상자 by Mr.K
-각별한 자수정 상자 by Mr.K
-빛나는 귀걸이 상자 by Mr.K
-검은달 목걸이 상자 by Mr.K
-하얀달 목걸이 상자 by Mr.K
-붉은달 목걸이 상자 by Mr.K
-몽환의 선물 상자 by Mr.K
-달콤한 옥수수
-씁쓸한 캔디
-쫄깃한 케이크
-깜짝덜컥 상자
-타가 아투바
-수상한 아투바
+Sealed +8 Angel Staff
+Sealed +8 Freezing Lancer
+Sealed +8 Lightning Edge
+Sealed +8 Angel Slayer
+General Shop^Flower of Hope
+Inn "Traveler Hut"
+"Guerin Magic Laboratory"
+Ring of Knowledge
+Receive:
+General Merchant^Paperman
+Beginner Teleporter^Jedha
+You think I'm just going to ignore this?
+Followers of Baphomet
+Frenzy Potion
+Old Talking Island Bag
+Old Talking Island Rare Bag
+Baphomet Prison Key
+Former Talking Island
+You are about to go through a horrific change! Right here in this very place. Guhahahaha!
+Do you still think this is the Talking Island you know?
+This is our land now!
+\f2Trial Skeleton
+\f2Trial Ghoul
+\f2Trial Skeleton Guard
+\f2Trial Dread Spider
+Orc Forces Outpost
+Hidden Orc Outpost
+Exceptional Jeweler by Mr.K
+Exceptional Amethyst Box by Mr.K
+Shining Earring Box by Mr.K
+Black Moon Necklace Box by Mr.K
+White Moon Necklace Box by Mr.K
+Red Moon Necklace Box by Mr.K
+Fantasy Gift Box
+Sweet Corn
+Bittersweet Candy
+Chewy Cake
+Surprise Box
+Taga Atuba
+Suspicious Atuba
 dummy
-국가대표 응원단^빅토리
-응원의 마음
-황금 메달
-훈련 중인
-진귀한 식량
+National Cheerleaders^Victory
+feeling of Support
+Gold Medal
+In training
+Rare Food
 dummy
-포노스 오크 검병
-포노스 오크 도끼병
-포노스 오크 궁병
-포노스 오크 주술사
-오크 주술사
-오크 병사
-오크 궁병
-오크 도끼병
-오크 검병
-오크 창병
+Phonos Orc Swordsman
+Phonos Orc Axeman
+Phonos Orc Archer
+Phonos Orc Shaman
+Orc Shaman
+Orc Soldier
+Orc Archer
+Orc Axe
+Orc Swordsman
+Orc Pikeman
 Destruction Claw
 dummy
 dummy
 dummy
 dummy
 dummy
-파괴의 이도류
+Destruction Edoryu
 Sealed +7 Destruction Claw
-Sealed +7 파괴의 이도류
+Sealed +7 Destruction Edoryu
 Sealed +8 Destruction Claw
-Sealed +8 파괴의 이도류
-제 1 오크부대 전초기지
-숨겨진 제 1 오크부대 전초기지
-제 2 오크부대 전초기지
-제 3 오크부대 전초기지
-제 4 오크부대 전초기지
-제 5 오크부대 전초기지
-숨겨진 제 2 오크부대 전초기지
-아투바 보급병
-힘센 한우 스테이크
-날쌘 연어 찜
-영리한 칠면조 구이
-수련의 닭고기 스프
-싸이의 시원한 음료
-숨겨진 사냥터
-차원의 마법사^카델
-요리책 미사용
+Sealed +8 Destruction Edoryu
+1st Orc Legion Outpost
+Hidden 1st Orc Legion Outpost
+2nd Orc Legion Outpost
+3rd Orc Legion Outpost
+4th Orc Legion Outpost
+5th Orc Legion Outpost
+Hidden 2nd Orc Legion Outpost
+Atuba Supply Soldier
+Powerful Steak
+Quick Boiled Salmon
+Clever Roasted Turkey
+Ordeal Chicken Soup
+Special lunch box of Lafons: not used
+Hidden Hunting Grounds
+Dimensional Wizard^Cadell
+Cookbook: not used
 dummy
 dummy
 dummy
 dummy
-제 6 오크부대 전초기지
-제 7 오크부대 전초기지
-제 8 오크부대 전초기지
-라폰스의 식권
-완력의 도시락 바구니
-민첩의 도시락 바구니
-지식의 도시락 바구니
-성장의 도시락 바구니
-명상의 지팡이
-명상의 키링크
-블러드서커
+6th Orc Legion Outpost
+7th Orc Legion Outpost
+8th Orc Legion Outpost
+Lafonse Meal Ticket
+Strength Lunch Basket
+Dexterity Lunch Basket
+Intelligence Lunch Basket
+Growing Lunch Basket
+Meditation Staff
+Meditation Kiringku
+Bloodsucker
 Commander's Helm
-고대 암살자의 장갑
-광휘의 부츠
-명궁의 장갑
-행운 목걸이
-(아머 브레이크)
-\aE흑정령의 수정 (아머 브레이크)
-시련의 거대 개미
-거대 불 개미
-암흑의
+Ancient Assassin Glove
+Shining Boots
+Archer Glove
+Lucky Amulet
+(Armor Break)
+\aEDark Spirit Crystal(Armor Break)
+Trial Giant Ant
+Giant Fire Ant
+Dark
 dummy
 dummy
 dummy
@@ -13954,12 +13954,12 @@ dummy
 dummy
 dummy
 dummy
-드워프 전사
-드워프 주술사
-드워프 검사
-드워프 창병
-드워프 도끼병
-드워프 궁사
+Dwarf Fighter
+Dwarf Shaman
+Dwarf Swordsman
+Dwarf Pikeman
+Dwarf Axeman
+Dwarf Archer
 dummy
 dummy
 dummy
@@ -13968,7 +13968,7 @@ dummy
 dummy
 dummy
 dummy
-포노스 오크 순찰병
+Phonos Orc Patrol
 dummy
 dummy
 dummy
@@ -14015,8 +14015,8 @@ dummy
 dummy
 dummy
 dummy
-린드비오르의 동상
-시련의 엘모어 대장군
+Statue of Lindvior
+Trial Elmore Marshall
 dummy
 dummy
 dummy
@@ -14029,47 +14029,47 @@ Suspicious Warehouse^Fius
 Suspicious Enchance Wizard^Fidore
 Suspicious Toy Merchant^Donkey
 Suspicious Visiting Merchant^Pierrot
-마법인형: 블레그
-마법인형: 레데그
-마법인형: 엘레그
-마법인형: 그레그
-픽시 변신막대
-픽시나무의 환영 상자
-꼬꼬마(파랑)변신망치
-꼬꼬마(노랑)변신망치
-꼬꼬마(분홍)변신망치
-땅정령의 반지
-바람정령의 반지
-물정령의 목걸이
-불정령의 귀걸이
-땅정령의 벨트
-물정령의 벨트
-바람정령의 벨트
-불정령의 벨트
-블레그 마법인형
-레데그 마법인형
-엘레그 마법인형
-그레그 마법인형
-픽시의 마법인형 상자
-픽시의 힐링포션
-픽시의 마나포션
-드루가의 신비한 주머니
-지그 피스 토레
-지그 피스 호레
-지그 기스 미레
-지그 기스 디레
-지그 기스 다레
-천상의 아즈테
-천상의 유카
-천상의 쥬라카
-천상의 블라
-천상의 에트
-천상의 토우
-천상의 스케
-천상의 만드라고라
-진귀한 물건을 가득 실은 "피에로의 유랑선"이 도착 했습니다.
-날이면 날마다 오는 기회가 아니에요. 구경들 하고 가세요~
-가져온 물건이 거의 다 팔렸군요. 이제 가봐야 겠어요!
+Magic Doll: Balrog
+Magic Doll: Ledeg
+Magic Doll: Elreg
+Magic Doll: Greg
+Pixie Transformation Wand
+Pixie Tree Illusion Box
+Chibikko (Blue) Transformation Mace
+Chibikko (Yellow) Transformation Mace
+Chibikko (Pink) Transformation Mace
+Earth Spirit Ring
+Wind Spirit Ring
+Water Spirit Amulet
+Fire Spirit Earrings
+Earth Spirit Belt
+Water Spirit Belt
+Wind Spirit Belt
+Fire Spirit Belt
+Balrog Magic Doll
+Ledeg Magic Doll
+Elreg Magic Doll
+Greg Magic Doll
+Pixie Magic Doll Box
+Pixie Healing Potion
+Pixie Mana Potion
+Druga Mysterious Bag
+Jig Pisto Training
+Jig Piss Hole
+Jig Gis Millet
+Jig Gis Dire
+jig jig
+Heavenly Azte
+Sky Yuca
+Heavenly Juraka
+Heavenly Burqa
+Heavenly Eto
+Heavenly Cane
+Heavenly Scale
+Heavenly Mandragora
+The "Clown Cruise Ship" has arrived loaded with many unusual items.
+This is a rare opportunity. Please take a look.
+Almost everything I brought was sold. I have to go soon!
 dummy
 dummy
 dummy
@@ -14085,49 +14085,49 @@ dummy
 dummy
 dummy
 dummy
-포고령 상자
-국왕의 수렵 포고령
-사냥터 출입증
-은빛의 마법 구슬 조각
-금빛의 마법 구슬 조각(PC)
-은빛의 눈물
-금빛의 눈물(PC)
-판도라의 통큰 상자
-국왕의 Reward Box
-포악한 토끼
-포악한 호랑이
-포악한 늑대
-포악한 곰
-포악한 멧돼지
-호박 랜턴
-샌드웜!!! 감히..우리의 안식처를 무너뜨리다니..절대 용서치 않겠다!
-거기 인간이여! 샌드웜을 본적 있는가?
-인간에게 물어 보는 것이 의미가 있는가?
-당연히 의미가 없지! 나약한 인간들은 샌드웜을 본 순간 바로 죽음을 맞이 했을 것이다!
-지금 인간들이 문제가 아니다. 인간들은 무시하고 샌드웜을 찾아라!
-여왕 수호 개미
-그라카스
-베이카스
-호루카스
-아르카스
-에르자베
-큰발의 마요
-질풍의 샤스키
-여..여왕님을 지켜라..
-끄르르...인간에게 당하다니..
-끄륵..워..원통하다..
-끄르르르..샌드웜에게 복수를...해..야..
-여..여왕이시여..
-인간들이여..그대들은 유일하게 샌드웜을 억누를 수 있는 존재인 나를 멸한 것이다..
-환상의 오만의 탑 지배 부적
-비장한 토끼
-비장한 호랑이
-비장한 늑대
-비장한 곰
-비장한 멧돼지
-모두 잘 숨어 있어야 하네..
-아덴 국왕의 비밀 정원
-아덴 국왕의 비밀 정원(PC)
+Decree Box
+King Hunting Decree
+Admission Ticket
+Silver Magic Ball Fragment
+Gold Magic Ball Fragment
+Tears of Silver
+Tears of Gold
+Pandora Big Box
+Royal Bounty Box
+Violent Rabbit
+Violent Tiger
+Violent Wolf
+Violent Bear
+Violent Boar
+Pumpkin Lantern
+Sandworm!! I am afraid... that you have destroyed our resting place... and I will not allow you to do so!
+Hey there, human! Have you ever seen a sandworm?
+What's the point of asking a human being?
+Of course not! A cowardly human being would die as soon as he saw the sandworms!
+Humans are not the problem now. Ignore the humans and look for the sandworms!
+Guard Ant Queen
+Gracas
+Baikas
+Horkas
+Arkas
+Ershabe
+Bigfoot Mayo
+Shusky Gale
+Girl... protect your queen...
+Krull... to be beaten by a human...
+Kuru... Hmm... It's a pity...
+Krullu... we must... avenge... the Sandworm... or...
+My... queen...
+Humans... you have destroyed me, the only one who can suppress the sandworms...
+Illusionary Tower of Insolence Telport Amulet
+Ruthless Rabbit
+Violent Tiger
+Ruthless Wolf
+Ruthless Bear
+Ruthless Boar
+Everyone hide properly...
+Royal Hunting Grounds
+Royal Hunting Grounds (PC)
 Teleporter^Doria
 Warehouse^Tori
 Master of Magic^Payhas
@@ -14168,141 +14168,141 @@ dummy
 dummy
 dummy
 dummy
-정예 흑기사
-상아탑 상위 아이템 교환
-교관의 선물 주머니
-심사관의 선물 주머니
-몬스터의 발톱
-몬스터의 이빨
-녹슨 투구
-녹슨 장갑
-녹슨 장화
-토벌대원의 주머니
-드래곤뼈 수집꾼의 주머니
-빛나는 구슬
-영롱한 구슬
-토벌의 증표
-변종 드래곤의 뼈
-기초 수련 증표
-수련자의 목걸이
-수련자의 반지
-수련자의 벨트
-Sealed +4 수련자의 견고한 투구
-Sealed +4 수련자의 견고한 갑옷
-Sealed +4 수련자의 견고한 망토
-Sealed +4 수련자의 견고한 장갑
-Sealed +4 수련자의 견고한 부츠
-Sealed +4 수련자의 견고한 방패
-Sealed +4 수련자의 신성한 투구
-Sealed +4 수련자의 신성한 로브
-Sealed +4 수련자의 신성한 망토
-Sealed +4 수련자의 신성한 장갑
-Sealed +4 수련자의 신성한 부츠
-Sealed +4 수련자의 신성한 방패
-서브 퀘스트^기초 훈련 교관
-서브 퀘스트^최종 훈련 심사관
-일일 퀘스트^토벌대원
-일일 퀘스트^드래곤뼈 수집꾼
+Elite Black Knight
+Ivory Tower High Item Exchange
+Instructor's Gift Bag
+Examiner's Gift Bag
+Monster Claws
+Monster Teeth
+Rusty Helm
+Rusty Gloves
+Rusty High Boots
+Expeditionary Sack/Bag of Debater
+Dragon Bone Collector's Pouch
+Glowing Ball
+Shining Ball
+Proof of Defeat
+Mutant Dragon Bones
+Proof of Basic Training
+Amulet of Templar
+Templar Ring
+Templar Belt
+Sealed +4 Initiate Solid Helm
+Sealed +4 Initiate Solid Armor
+Sealed +4 Initiate Solid Cloak
+Sealed +4 Initiate Solid Glove
+Sealed +4 Initiate Solid Boots
+Sealed +4 Initiate Solid Shield
+Sealed +4 Initiate Divine Helm
+Sealed +4 Initiate Divine Robe
+Sealed +4 Initiate Divine Cloak
+Sealed +4 Initiate Divine Glove
+Sealed +4 Initiate Divine Boots
+Sealed +4 Initiate Divine Shield
+Subquest^Basic Training Instructor
+Subquest^Final Training Instructor
+Daily Quest^Crusaders
+Daily Quest^Dragon Bone Collector
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-감시자의 눈
-Alchemist^호슈
-계곡
-숲
-해안가
-늪지대
-수련장 가는 길
-변종
-\f2시련의 흑기사
-\f2시련의 터틀 드래곤
-기사단의
-수련자의 견고한 투구
-수련자의 견고한 갑옷
-수련자의 견고한 망토
-수련자의 견고한 장갑
-수련자의 견고한 부츠
-수련자의 견고한 방패
-수련자의 신성한 투구
-수련자의 신성한 로브
-수련자의 신성한 망토
-수련자의 신성한 장갑
-수련자의 신성한 부츠
-수련자의 신성한 방패
-건방진것들! 모두 녹아버려라!
-별빛의 힘이여 이들을 멸하라.
-달빛의 힘이여 이들을 모두 날려버려라!
-나오너라! 나의 자식들이여.
-너희 모두에게 죽음을 명하노라!
-너희 모두에게 죽음을 명하리라!
-젤라틴 주머니
-젤라틴 체력의 목걸이
-젤라틴 지혜의 목걸이
-Spirit Magic Trainer^Sherbeth
-너의 동료들과 함께 지옥으로 보내주마!
-어둠과 함께 영원히 사라져라!
-무기 방어구 상인^볼라
-\f2시련의 엘모어 대장군
-\f2시련의 흉폭한 예티
-\f2시련의 예티
-\f2시련의 거대 개미
-용의 둥지(지룡/수룡)
+Watchful Eye
+Alchemist^Hosh
+Valley
+Forest
+Coast
+Swamp
+Training Ground Road
+Mutant
+\f2Black Knight of Trial
+\f2Turtle Dragon of Trial
+Templar
+Initiate Solid Helm
+Initiate Solid Armor
+Initiate Solid Cloak
+Initiate Solid Gloves
+Initiate Solid Boots
+Initiate Solid Shield
+Initiate Divine Helm
+Initiate Divine Robe
+Initiate Divine Cloak
+Initiate Divine Gloves
+Initiate Divine Boots
+Initiate Divine Shield
+Sassy bastards! You're all going to die!
+The power of starlight. Destroy them.
+The power of the moonlight. Blow these guys away!
+You will come out! My children.
+I order you all to die!
+I order you all to die!
+Bag of Gelatin
+Gelatin Health Amulet
+Gelatin Spirit Amulet
+Spirit Magic^Sherbeth
+I'll send you to hell with your friends!
+Disappear forever with the darkness!
+Weapon Merchant^Borla
+\f2Trial Elmore Marshall
+\f2Trial Cruel Yeti
+\f2Trial Yeti
+\f2Trial Giant Ant
+Dragon's Lair (Earth Dragon/Water Dragon)
 Teleporter^Dragon Herald
-버모스
-분노한 거대 개미
-분노한 거대 병정 개미
-분노한 거대 불 개미
-분노한 흰 개미 무리
-분노한 거대 흰 개미
-암흑의 스콜피온
-암흑의 모래 스콜피온
-암흑의 모래 꽃
-암흑의 모래 무덤
-암흑의 바실리스크
-모래 밭 그리폰
-모래 밭 리자드 맨
-모래 밭 돌 골렘
-모래 밭 괴물 눈
-암흑의 좀비
-엘모어 병사
-암흑의 엘모어 병사
-엘모어 마법사
-암흑의 엘모어 마법사
-엘모어 장군
-암흑의 엘모어 장군
-설벽의 아이스 맨
-설벽의 에티
-설벽의 아이스 골렘
-설벽의 아이언 골렘
-설벽의 샤벨 타이거
-해골 순찰병
-해골 경비병
-수상한 정원
-수상한 감옥
-광풍의 샤스키
-샤르나의 변신 주문서 (레벨 75)
-샤르나의 변신 주문서 (레벨 80)
-린드비오르의 보물상자
+Bomos
+Angry Giant Ant
+Angry Giant Ant Soldier
+Angry Giant Fire Ant
+Angry White Ants
+Angry Giant White Ants
+Dark Scorpion
+Dark Sand Scorpion
+Dark Sand Flower
+Dark Sand Grave
+Dark Basilisk
+Sandpit Griffon
+Sandpit Lizardman
+Sandpit Stone Golem
+Sandpit Floating Eye
+Dark Zombie
+Elmore Soldier
+Dark Elmore Soldier
+Elmore Wizard
+Dark Elmore Wizard
+Elmore General
+Dark Elmore General
+Snow Wall Iceman
+Snow Wall Yeti
+Snow Wall Ice Golem
+Snow Wall Iron Golem
+Snow Wall Saber Tiger
+Skeleton Patrol
+Skeleton Guard
+Suspicious Garden
+Suspicious Prison
+Shasky the Mad Wind
+Sharna's Transformation Scroll(Lvl 75)
+Sharna's Transformation Scroll(Lvl 80)
+Lindvior's Treasure Chest
 dummy
-광전사의 토끼
-에르자베의 알
-샌드웜의 모래 주머니
-땅굴 개미
-\f2시련의 돌 골렘
-숨겨진 계곡 마을 귀환 부적
-기사단의 허브
+Berserker Rabbit
+Ershabe Egg
+Sandworm Sand Bag
+Tunnel Ant
+\f2Trial Stone Golem
+Hidden Valley Village Return Amulet
+Templar Herbs
 Rumtis Gift Box
-슈팅 스타
-경비 대장의 유령
-스콜피온의 맹독
-반지대여 이벤트^피어링
-반쯤 먹힌 스콜피온
-아덴의 한 국민
+Shooting Star
+Guard Captain Ghost
+Scorpion's Deadly Poison
+Ring Rental Event^Fear Ring
+Half Eaten Scorpion
+Aden Citizen
 dummy
-슬롯오픈 이벤트^스냅퍼
+Slot Open Event^Snapper
 dummy
 dummy
 dummy
@@ -14336,17 +14336,17 @@ dummy
 dummy
 dummy
 dummy
-발심
+Balsim
 dummy
-판도라의 주문서 두루마리
-천상의 보물 상자
-라온의 동빙 반지
-라온의 석화 반지
-라온의 수면 반지
-라온의 스턴 반지
-라온의 암흑 반지
-라온의 홀드 반지
-시이니
+Pandora Scroll Pack
+Heavenly Treasure Chest
+Raon Frozen Ring
+Raon Petrified Ring
+Raon Sleep Ring
+Raon Stun Ring
+Raon Darkness Ring
+Raon Hold Ring
+Siini
 dummy
 dummy
 dummy
@@ -14359,30 +14359,30 @@ dummy
 dummy
 dummy
 dummy
-슬롯 개방 전문가^스냅퍼
-화령:4단
-수령:4단
-풍령:4단
-지령:4단
-화령:5단
-수령:5단
-풍령:5단
-지령:5단
-화령의 속성 변환 주문서
-수령의 속성 변환 주문서
-풍령의 속성 변환 주문서
-지령의 속성 변환 주문서
+Slot Release Specialist^Snapper
+Fire:4T
+Water:4T
+Wind:4T
+Earth:4T
+Fire:5T
+Water:5T
+Wind:5T
+Earth:5T
+Fire Element Change Scroll
+Water Element Change Scroll
+Wind Element Change Scroll
+Earth Element Change Scroll
 dummy
-수상한 산적
-현혹된 픽시의 악령
+Suspicious Bandit
+Enchanted Pixie Demon
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-드래곤의 큐브 상자
-드래곤의 큐브
+Dragon Cube Box
+Dragon Cube
 dummy
 dummy
 dummy
@@ -14400,18 +14400,18 @@ dummy
 dummy
 dummy
 dummy
-호박 무기 보호 주문서
-할로윈 폭죽
-단단한 호박 갑옷
-호박 장갑
-호박검
-호박 양손검
-지식의 호박 지팡이
-호박 각궁
-호박 체인소드
-호박 키링크
-어둠의 호박 갑옷
-완력의 호박 지팡이
+Pumpkin Weapon Protection Scroll
+Halloween Firework
+Durable Pumpkin Armor
+Pumpkin Gloves
+Pumpkin Sword
+Pumpkin Two-handed Sword
+Pumpkin Staff of Knowledge
+Pumpkin Longbow
+Pumpkin Chainsword
+Pumpkin Kiringku
+Dark Pumpkin Armor
+Pumpkin Staff of Strength
 dummy
 dummy
 dummy
@@ -14439,7 +14439,7 @@ dummy
 dummy
 dummy
 dummy
-드래곤 수호자
+Dragon Guardian
 dummy
 dummy
 dummy
@@ -14458,14 +14458,14 @@ dummy
 dummy
 dummy
 dummy
-코마의 축복 코인
-반왕 변신 마법서
-영웅 변신 마법서
-반왕 변신 주문서
-영웅 변신 주문서
+Blessed Coin of Koma
+Anti-King Transformation Magic Book
+Hero's Transformation Magic Book
+Anti-King Transformation Scroll
+Scroll of Hero's Transformation
 dummy
-할로윈 호박 체인소드 상자
-할로윈 호박 키링크 상자
+Halloween Pumpkin Chainsword Box
+Halloween Pumpkin Kiringku
 dummy
 dummy
 dummy
@@ -14477,27 +14477,27 @@ dummy
 dummy
 dummy
 dummy
-시련의 오염된 엔트의 껍질
-시련의 오염된 엔트의 줄기
-시련의 오염된 엔트의 열매
-시련의 시간의 균열 파편
-\fT시련의 테베 만드라고라
-\fT시련의 테베 갑충석
-\fT시련의 테베 칼비스
-\fT시련의 오염된 엔트
-\fT시련의 오염된 오크
-\fT시련의 오염된 오크 궁수
-\fT시련의 오염된 오크 투사
-\fT시련의 오염된 페어리
-\fT시련의 화염의 이빨
-\fT시련의 빙하의 이빨
-\fT시련의 바람의 이빨
-\fT시련의 대지의 이빨
-\fT시련의 오염된 간디 오크
-\fT시련의 오염된 두다-마라 오크
-\fT시련의 오염된 우두머리 페어리
-\fT시련의 에쿠 아즈테
-\fT시련의 에쿠 유카
+Trial Tainted Ent Hide
+Trial Tainted Ent Branch
+Trial Tainted Fruit of Ent
+Trial Warp in Time Fragment
+\fTTrial of Thebes Mandragora
+\fTTrial of Thebes Scarab Stone
+\fTTrial of Thebes Calvis
+\fTTrial Tainted Ent
+\fTTrial Tainted Orc
+\fTTrial Tainted Orc Archer
+\fTTrial Tainted Orc Warrior
+\fTTrial Tainted Fairy
+\fTTrial Flame Fang
+\fTTrial Glacier Fang
+\fTTrial Wind Fang
+\fTTrial Earth Fang
+\fTTrial Tainted Ganj Orc
+\fTTrial Tainted Duda-Mara Orc
+\fTTrial Tainted Fairy Queen
+\fTTrial Ek Azte
+\fTTrial Yuca
 dummy
 dummy
 dummy
@@ -14506,26 +14506,26 @@ dummy
 dummy
 dummy
 dummy
-끈질긴 녀석들.. 왜 날 내버려 두지 않는거야~!
+They are so persistent... why don't they just leave me alone!
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-펫 관리인^버즈
-\fT시련의 레서 데몬
-\fT시련의 버그베어
-누구 내게 걸린 저주를 풀어줄 사람 없소?
-거기 당신 내게 캔슬레이션을 걸어줄 수 없소?
-아아..난 영원히 자이언트의 모습으로 살아야 하는가?
-\fT시련의 아투바 오크
-\fT시련의 네루가 오크
-\fT시련의 두다-마라 오크
-\fT시련의 간디 오크
-신비한 바위 이동 주문서
-\fT시련의 미들오움
-\fT시련의 오크 장로
+Pet Keeper^Buzz
+\fTTrial Lesser Demon
+\fTTrial Bugbear
+Can anyone help me break the curse that is on me?
+Hey there, can you give me a cancel?
+Oh...must I live forever in the form of a Giant?
+\fTTrial Atuba Orc
+\fTTrial Nerga Orc
+\fTTrial Duda-Mara Orc
+\fTTrial Ganj Orc
+Mysterious Rock Teleport Scroll
+\fTTrial Middle Ohm
+\fTTrial Orc Elder
 공연장 관리인
 싸이
 \fY싸이 안티팬
@@ -14576,7 +14576,7 @@ dummy
 싸이 변신 주문서(챔피언)
 싸이의 매콤한 라면
 싸이의 큐브 상자
-싸이의 큐브
+Psy's Cube
 선물 꾸러미
 선물 꾸러미(챔피언)
 선물 꾸러미(새)
@@ -14584,88 +14584,88 @@ dummy
 승리의 훈장(챔피언)
 승리의 훈장(새)
 승리의 훈장(강남스타일)
-시련의 훈장
-Enhance Wizard^지나스
-Warehouse^큐크
-Teleporter^지그프리드
-정찰대장^파이니
-현장관리^오움
-돌아가지 못해!?
-아앗!
-트랩 함정 테스트
-그만두지 못해?!
-이얏!
-저리꺼져!
-Sealed 역사서 1장 주머니
-Sealed 역사서 2장 주머니
-Sealed 역사서 3장 주머니
-Sealed 역사서 4장 주머니
-Sealed 역사서 5장 주머니
-Sealed 역사서 6장 주머니
-Sealed 역사서 7장 주머니
-Sealed 역사서 8장 주머니
-감히 이곳이 어디라고 오는게냐?!
-으윽..강력하구나..
-마법으로 너를 지워주마!
-치잇..
-우후후..잘도!
-얕보지 말아라!
-가만두지 않는다..
-이대로 끝나는 것인가?
-바란카님한테 보내지 않겠다!
-아아...
-크크크..야수들의 먹이가 되어라!
-크읔..
-조용히 없애주마.
-이럴...수가..
-나의 검은 피를 좋아하지!
-말도 안되!
-암살군왕의 힘을 보여주마!
-단테스님..구원을...
-죽음을 선사하마!
-으....
-싸워보자! 덤벼라!
-강한 상대군..
-쿠쿠쿠...
-단테스님이여...
-감히 이곳이 어디라고 오는게냐?
-단테스님이여...
-여기는 신성한 곳! 당장 물러가거라!
-조금만 있으면 되는데..
-단테스님의 부활! 꼭 성공시키겠다!
-라스타바드의 영광이..
-너같은게 감히!
-단테스님이여...힘을..
-당장 나가거라!
-억울하다! 원통하다!
-조금만 더...더!! 기다리면 되는데! 방해 말아라!
-조금만...조...금만 더!!
-단테스님의 제물이 되거라!
-단테스님의 곁으로...
-수호병사
-이계의 검은 불꽃에 타버려라!
-크아!! 기르타스님!!
-나를 만난 것을 후회하게 해주마!
-으아!!...기르..타..스.님!
-검은 화염에 타죽어라!
-크..기르타스님...
-부서진 화염의 반지
-부서진 파도의 반지
-부서진 지진의 반지
-부서진 폭풍의 반지
-매스 텔레포트 트랩^엘레멘탈 수정
-선 버스트 트랩^마법의 구슬
-Justice: 단테스님의 부활을 방해하지 말아라!
-반지 세공사^레스아 
-아투바 오크 사냥꾼
-아투바 오크
-아투바 오크 돌격병
-아투바 오크 근위병
-아투바 오크 저격병
-아투바 오크 주술사
-시온 아투바
-아투바 영웅 토템
-염탐꾼 오크
+Medal of Trials
+Enhanced Wizard^Jinas
+Integrated Warehouse Guard^Cuke
+Teleporter^Siegfried
+Scout Captain^Finney
+Site Management^Parrots
+Are you not going home! ?
+Aah!
+Trap Tests
+Will you stop?
+Yay!
+Get lost!
+Sealed History Book 1 Chapter Bag
+Sealed History Book 2 Chapter Bag
+Sealed History Book 3 Chapter Bag
+Sealed History Book 4 Chapter Bag
+Sealed History Book 5 Chapter Bag
+Sealed History Book 6 Chapter Bag
+Sealed History Book 7 Chapter Bag
+Sealed History Book 8 Chapter Bag
+Where the hell do you think you are?
+Ugh... strong...
+I'll make you disappear with magic!
+Hey...
+Ufufu... well done!
+Don't you dare!
+You won't miss it!
+It's not going to end like this!
+I won't let you through to Master Barranca!
+Oh...
+Go feed the beasts!
+Damn...
+Shut up and go away.
+I don't know...
+This sword loves blood!
+Do not be silly!
+Witness the power of the King of Assassins!
+Mr. Dandis... help me...
+Lead us to death!
+cormorant…
+Let's fight! Let's go! Let's go!
+Strong...
+Kuh-kuh...
+Dear Dantes...
+Where the hell do you think you are?
+Dear Dantes...
+This is a sacred place! Leave now!
+A little is enough...
+Mr. Dantes is back! We will make it happen!
+Glory to Lastabad...
+Guys like you!
+Dante... Power...
+Get out now!
+It's frustrating... it's a pity!
+Just... just a little more! Wait for it! Get out of my way!
+Almost... almost!
+Be a living sacrifice to Master Dantes!
+At the side of Master Dantes...
+Guard Soldier
+Swords of the other world be fireworks!
+Gah! Master Giltas!
+I will make you regret you ever met me!
+Uh...! Gil... t... t... sama!
+Burn them with jet-black flames!
+Damn... master Gilthas...
+Chipped Flame Ring
+Chipped Water Ring
+Chipped Earth Ring
+Chipped Wind Ring
+Mass Teleport Trap^Elemental Crystal
+Sunburst Trap^Magic Orb
+High Priest: Do not interfere with Master Dantes' resurrection!
+Ring Crafter^Lesua
+Atuva Orc Hunter
+Atuva Orc
+Atuva Orc Fighter
+Atuva Orc Kingsguard
+Atuva Orc Marksman
+Atuva Orc Shaman
+Zion Atuva
+Hero's Totem of Atuva
+Orc Spy
 Atuba Orc Hideout
 dummy
 dummy
@@ -14698,14 +14698,14 @@ dummy
 dummy
 dummy
 dummy
-지상군의 증표
-픽시의 영혼
-픽시 엘릭서
-빛나는 픽시 상자
-Last Survivor^Izaas
-Suspicious Teleporter^Ziggur
-암흑의 대공동
-수상한 대공동(PC)
+Proof of Ground Forces
+Pixie Spirit
+Pixie Elixir
+Glowing Pixie Boxes
+Last Survivor^Isaas
+Suspicious Teleporter^Jiggle
+Great Hollow of Darkness
+Suspicious Hollow (PC)
 dummy
 dummy
 dummy
@@ -14737,9 +14737,9 @@ dummy
 인간들이란~ 공짜라면 사족을 못쓴다니까~
 슬슬 친구들이 올때가 됐군. 난 이만~
 여러분, 저 좀 도와주세요. 발이 묶여서 움직일 수가 없어요~
-에르자베 출현
-샌드웜 출현
-붉은 기사단의 진격
+Ershabe has spawned..
+Sandworm has spawned..
+Attack of the Red Knights
 뭐야, 이 생기다 만 녀석들은!
 가소롭군, 내 팬들을 만만히 봤다간 큰코다칠 거다!
 여러분, 조금만 더 힘내요! 빨리 쫓아내고 공연을 시작해야죠~
@@ -14812,19 +14812,19 @@ dummy
 전투 종료까지 10분 남았습니다.
 전투 종료까지 5분 남았습니다.
 전투 종료까지 1분 남았습니다.
-감시자 빅아이
-톨먼
-디시스트
-문지기
-헬 하운드
-지옥의 데몬
-뒤틀린 억압자
-고문관 스컬지
-카르마
-센티피드
-디시스트
-블레이자스
-수집자 클러스터
+Watcher's Big Eye
+Tall Man
+Disciple
+Keeper
+Hellhound
+Demon of Hell
+Twisted Oppressor
+Counselor Scorge
+Karma
+Centimeter Feed
+Disciple
+Blazer
+Cluster Collector
 dummy
 NC메신저의 선물
 픽시 상자 판매원^츠웅르
@@ -14832,9 +14832,9 @@ dummy
 dummy
 얼음 브로치 주머니
 얼음 브로치
-감히 이곳으로 기어들어오다니. 네놈의 사지를 찢어주마.
-으르르
-흐흐흐흑..
+You dare to sneak in here. I will tear you limb from limb.
+trembling
+Hmmm...
 dummy
 dummy
 dummy
@@ -14972,95 +14972,95 @@ dummy
 내가 싸이다!! 싸인해 줄까?
 내가 가짜라는 걸 어떻게 알았지?
 수상한 방문상인^트벤
-오크
-해골
-두다-마라 오크
-오크 궁수
-장로
-난쟁이
-미들오움
-거대 개미^(기타,무기 착용 불가)
-키위 패롯^(기타,무기 착용 불가)
-라쿤^(기타,무기 착용 불가)
-젤라틴 큐브^(기타,무기 착용 불가)
-오크 전사
-늑대인간
-버그베어
-오크 스카우트
-웅골리언트
-수송 다크엘프
-거대 병정 개미
-페이퍼 맨
-눈사람
-라이칸스로프
-서큐버스
-킹 버그베어
-다크엘프 가드
-산적 궁수
-다크엘프 시프
-다크엘프 위자드
-코카트리스
-맘보토끼
-맘보토끼
-드레이크
-블레이즈
-쿠만
-다크엘프 가드
-다크엘프 레인저
-바포메트
+Orc
+Skeleton
+Duda-Mara Orc
+Orc Archer
+Elder
+Dwarf
+Middle Ohm
+Giant Ant^(no weapons)
+Kiwi Parrot^(no weapons)
+Raccoon^(no weapons)
+Gelatin Cube^(no weapons)
+Orc Fighter
+Werewolf
+Bugbear
+Orc Scout
+Dread Spider
+Carrying Dark Elf
+Giant Ant Soldier
+Paperman
+Snowman
+Lycanthrope
+Succubus
+King Bugbear
+Dark Elf Guard
+Bandit Archer
+Dark Elf Thief
+Dark Elf Wizard
+Cockatrice
+Mambo Rabbit
+Mambo Rabbit
+Drake
+Blaze
+Schnova
+Dark Elf Guard
+Dark Elf Ranger
+Baphomet
 Kurtz
-어쌔신 마스터
-레서데몬
-흑기사
-불타는 궁수
-블랙 위자드
-데스나이트
-랜서
-흑장로
-다크 엘프
-베레스
+Assassin Master
+Lesser Demon
+Black Knight
+Burning Archer
+Black Wizard
+Death Knight
+Lancer
+Black Elder
+Dark Elf
+Beleth
 Dark Knight
-다크 쉐도우
-다크 레인저
-다크 매지스터
-실버 나이트
-실버 쉐도우
-실버 레인저
-실버 매지스터
-소드 마스터
-쉐도우 마스터
-애로우 마스터
-위자드리 마스터
-아크 나이트
-아크 쉐도우
-아크 스카우터
-아크 위자드
+Dark Shadow
+Dark Ranger
+Dark Magister
+Silver Knight
+Silver Shadow
+Silver Ranger
+Silver Magister
+Sword Master
+Shadow Master
+Arrow Master
+Wizard Master
+Ark Knight
+Ark Shadow
+Ark Scout
+Ark Wizard
 Ken Rauhel
 Dante
 Hellvine
 Kerenis
 Gunther
-블루디카
-질리언
-조우
-서큐버스 퀸
-발터자르
-카스파
-메르키오르
-세마
-나이트
-어쌔신
-스카우터
-위자드
-바운티헌터
-나이트워치
-스파토이
-늑대인간
-만드라고라
-샤이닝아처
+Burdica
+Gillian
+Jose
+Succubus Queen
+Balthazar
+Kasper
+Melchior
+Semar
+Knight2
+Assassin
+Scouter
+Wizard
+Bounty Hunter
+Nightwatch
+Spartoi
+Werewolf
+Mandragora
+Shining Archer
 Lance Master
-경비병
-경비병
+Guard
+Guard
 dummy
 dummy
 dummy
@@ -15072,91 +15072,91 @@ dummy
 dummy
 dummy
 dummy
-오크
-해골
-두다-마라 오크
-오크 궁수
-장로
-난쟁이
-미들오움
-거대 개미
-키위 패롯
-라쿤
-젤라틴 큐브
-오크 전사
-늑대인간
-버그베어
-오크 스카우트
-웅골리언트
-수송 다크엘프
-거대 병정 개미
-페이퍼 맨
-눈사람
-라이칸스로프
-서큐버스
-킹 버그베어
-다크엘프 가드
-산적 궁수
-다크엘프 시프
-다크엘프 위자드
-코카트리스
-맘보토끼
-맘보토끼
-드레이크
-블레이즈
-쿠만
-다크엘프 가드
-다크엘프 레인저
-바포메트
+Orc
+Skeleton
+Duda-Mara Orc
+Orc Archer
+Elder
+Dwarf
+Middle Ohm
+Giant Ant
+Kiwi Parrot
+Raccoon
+Gelatin Cube
+Orc Fighter
+Werewolf
+Bugbear
+Orc Scout
+Dread Spider
+Carrying Dark Elf
+Giant Ant Soldier
+Paperman
+Snowman
+Lycanthrope
+Succubus
+King Bugbear
+Dark Elf Guard
+Bandit Archer
+Dark Elf Thief
+Dark Elf Wizard
+Cockatrice
+Mambo Rabbit
+Mambo Rabbit
+Drake
+Blaze
+Schnova
+Dark Elf Guard
+Dark Elf Ranger
+Baphomet
 Kurtz
-어쌔신 마스터
-레서데몬
-흑기사
-불타는 궁수
-블랙 위자드
-데스나이트
-랜서
-흑장로
-다크 엘프
-베레스
+Assassin Master
+Lesser Demon
+Black Knight
+Burnig Archer
+Black Wizard
+Death Knight
+Lancer
+Black Elder
+Dark Elf
+Beleth
 Dark Knight
-쉐도우
-다크 레인저
-다크 매지스터
-실버 나이트
-실버 쉐도우
-실버 레인저
-실버 매지스터
-소드 마스터
-쉐도우 마스터
-애로우 마스터
-위자드리 마스터
-아크 나이트
-아크 쉐도우
-아크 스카우터
-아크 위자드
+Shadow
+Dark Ranger
+Dark Magister
+Silver Knight
+Silver Shadow
+Silver Ranger
+Silver Magister
+Sword Master
+Shadow Master
+Arrow Master
+Wizard Master
+Ark Knight
+Ark Shadow
+Ark Scout
+Ark Wizard
 Ken Rauhel
 Dante
 Hellvine
 Kerenis
 Gunther
-블루디카
-질리언
-조우
-서큐버스 퀸
-발터자르
-카스파
-메르키오르
-세마
-나이트
-어쌔신
-스카우터
-위자드
-바운티헌터
-나이트워치
-스파토이
-늑대인간
-만드라고라
+Burdica
+Gillian
+Jose
+Succubus Queen
+Balthazar
+Kasper
+Melchior
+Semar
+Knight3
+Assassin
+Scouter
+Wizard
+Bounty Hunter
+Nightwatch
+Spartoi
+Werewolf
+Mandragora
 dummy
 Lance Master
 dummy
@@ -15267,78 +15267,78 @@ dummy
 dummy
 dummy
 dummy
-모포의 상자:주스 50개
-순백의 티 인장:MR/STR
-순백의 티 인장:MR/DEX
-순백의 티 인장:MR/INT
-순백의 티 인장:기술/STR
-순백의 티 인장:기술/DEX
-순백의 티 인장:기술/INT
-순백의 티 인장:정령/STR
-순백의 티 인장:정령/DEX
-순백의 티 인장:정령/INT
-순백의 요정족 티:MR
-순백의 요정족 티:MR
-순백의 요정족 티:MR
-순백의 요정족 티:기술
-순백의 요정족 티:기술
-순백의 요정족 티:기술
-순백의 요정족 티:정령
-순백의 요정족 티:정령
-순백의 요정족 티:정령
-순백의 티:MR
-순백의 티:MR
-순백의 티:MR
-순백의 티:기술
-순백의 티:기술
-순백의 티:기술
-순백의 티:정령
-순백의 티:정령
-순백의 티:정령
-천연비누:순백의 티
-변환석
-순백의 티 인장 교환권
-힘의 마법저항 티셔츠 상자
-힘의 기술 티셔츠  상자
-힘의 정령 티셔츠 상자
-민첩의 마법저항 티셔츠 상자
-민첩의 기술 티셔츠 상자
-민첩의 정령 티셔츠 상자
-지식의 마법저항 티셔츠 상자
-지식의 기술 티셔츠 상자
-지식의 정령 티셔츠 상자
-매력의 마법저항 티셔츠 상자
-매력의 기술 티셔츠 상자
-매력의 정령 티셔츠 상자
-힘의 마법저항 티셔츠[%i]
-힘의 기술 티셔츠[%i]
-힘의 정령 티셔츠[%i]
-민첩의 마법저항 티셔츠[%i]
-민첩의 기술 티셔츠[%i]
-민첩의 정령 티셔츠[%i]
-지식의 마법저항 티셔츠[%i]
-지식의 기술 티셔츠[%i]
-지식의 정령 티셔츠[%i]
-매력의 마법저항 티셔츠[%i]
-매력의 기술 티셔츠[%i]
-매력의 정령 티셔츠[%i]
-특제 힘의 마법저항 티셔츠[%i]
-특제 힘의 기술 티셔츠[%i]
-특제 힘의 정령 티셔츠[%i]
-특제 민첩의 마법저항 티셔츠[%i]
-특제 민첩의 기술 티셔츠[%i]
-특제 민첩의 정령 티셔츠[%i]
-특제 지식의 마법저항 티셔츠[%i]
-특제 지식의 기술 티셔츠[%i]
-특제 지식의 정령 티셔츠[%i]
-특제 매력의 마법저항 티셔츠[%i]
-특제 매력의 기술 티셔츠[%i]
-특제 매력의 정령 티셔츠[%i]
-티셔츠 전용 마법 주문서[%i]
-자자~ 내가 왔다우~ 오늘만을 기다렸지우~?
-지금부터 딱! 24시간만 팔테니까! 어서 사가시라우~!
-이제는~우리가~헤어져야할 시간~ 다음에 또 만납시다우~!
-기르타스의 사념
+Mopo Box: 50 Juices
+Pure White Tea Seal: MR/STR
+Pure White Tea Seal: MR/DEX
+Pure White Tea Seal: MR/INT
+Pure White Tea Seal: Technology/STR
+Pure White Tea Seal: Technology/DEX
+Pure White Tea Seal: Technology/INT
+Pure White Tea Seal: Spirit/STR
+Pure White Tea Seal: Spirit/DEX
+Pure White Tea Seal: Spirit/INT
+Pure White Elven Tea: MR
+Pure White Elven Tea: MR
+Pure White Elven Tea: MR
+Pure White Elven Tea: Technology
+Pure White Elven Tea: Technology
+Pure White Elven Tea: Technology
+Pure White Elven Tea: Spirit
+Pure White Elven Tea: Spirit
+Pure White Elven Tea: Spirit
+Pure White Tea: MR
+Pure White Tea: MR
+Pure White Tea: MR
+Pure White Tea: Technology
+Pure White Tea: Technology
+Pure White Tea: Technology
+Pure White Tea: Spirit
+Pure White Tea: Spirit
+Pure White Tea: Spirit
+Natural Soap: Pure White Tea
+Conversion Stone
+Mysterious Ring Coupon
+Physical Strength Magic Resistance T-shirt Box
+Physical Strength Tech Tolerance T-shirt Box
+Physical Strength Spirit Resist T-shirt Box
+Dexterity Magic Resistance T-shirt Box
+Dexterity Tech Tolerance T-shirt Box
+Dexterity Spirit Resist T-shirt Box
+Intelligence Magic Resistance T-shirt Box
+Intelligence Tech Tolerance T-shirt Box
+Intelligence Spirit Resist T-shirt Box
+Magic Charm Resistance T-shirt Box
+Attractive Tech Tolerance T-shirt Box
+Charm Spirit Resistance T-shirt Box
+Physical Strength Magic Resistance T-shirt[%i]
+Physical Strength Tech Tolerance T-shirt[%i]
+Physical Strength Spirit Resist T-shirt[%i]
+Dexterity Magic Resistance T-shirt[%i]
+Dexterity Tech Tolerance T-shirt[%i]
+Dexterity Spirit Resist T-shirt[%i]
+Intelligence Magic Resistance T-shirt[%i]
+Intelligence Tech Tolerance T-shirt[%i]
+Intelligence Spirit Resist T-shirt[%i]
+Attractive Magic Resistance T-shirt[%i]
+Attractive Tech Tolerance T-shirt[%i]
+Charm Spirit Resistance T-shirt[%i]
+Special Strength MR T-shirt[%i]
+Special Physical Strength Tech Tolerance T-shirt[%i]
+Special Physical Strength Spirit Resist T-shirt[%i]
+Special Dexterity Magic Resistance T-shirt[%i]
+Special Dexterity Tech Tolerance T-shirt[%i]
+Special DexteritySpirit Resist T-shirt[%i]
+Special Intelligence Magic Resistance T-shirt[%i]
+Special Intelligence Tech Tolerance T-shirt[%i]
+Special Intelligence Spirit Resist T-shirt[%i]
+Special Attractive Magic Resistance T-shirt[%i]
+Special Attractive Tech Tolerance T-shirt[%i]
+Special Charm Spirit Resistance T-shirt[%i]
+Magic Scroll for T-shirt
+Now~ I'm here~ You've been waiting for just this one day, haven't you?
+Now! I'll only sell it for 24 hours! Come on, I bought it, I bought it, I bought it!
+Already~ time to say goodbye~ I hope to see you again next time!
+Thoughts of Giltas
 dummy
 dummy
 dummy
@@ -15357,12 +15357,12 @@ dummy
 dummy
 dummy
 dummy
-환영의 체인소드
-공명의 키링크
-Sealed +7 환영의 체인소드
-Sealed +7 공명의 키링크
-Sealed +8 환영의 체인소드
-Sealed +8 공명의 키링크
+Phantom Chainsword
+Resonance Kiringku
+Sealed +7 Phantom Chainsword
+Sealed +7 Resonance Kiringku
+Sealed +8 Phantom Chainsword
+Sealed +8 Resonance Kiringku
 dummy
 dummy
 dummy
@@ -15381,10 +15381,10 @@ dummy
 dummy
 dummy
 dummy
-보좌관^가웨인
-보좌관^비자야
-기르타스의 사념
-진귀한 기르타스의 사념
+Aide^Gawain
+Aide^Vijaya
+Thoughts of Giltas
+Rare Spirit of Giltas
 dummy
 dummy
 dummy
@@ -15395,7 +15395,7 @@ dummy
 dummy
 dummy
 dummy
-훈련기지 병사
+Training Base Soldiers
 dummy
 dummy
 dummy
@@ -15413,76 +15413,76 @@ dummy
 dummy
 dummy
 dummy
-Teleporter^린지
-Warehouse^지프
-이계의 튜폰
-이계의 헬 크리처
-이계의 와이번
-이계의 오튜
-이계의 투사 영혼
-이계의 기사 영혼
-이계의 마법사 영혼
-황폐한 다크엘프의 성지
-수상한 다크엘프의 성지(PC)
-신비의 큐브 선물상자
-장로의 희귀 주머니
-군왕의 희귀 주머니
+Teleporter^Ringe
+Storage^Jeff
+Otherworldly Teepon
+Otherworldly Hell Creature
+Otherworldly Wyvern
+Otherworldly Autue
+Otherworldly Warrior Soul
+Otherworldly Knight Soul
+Otherworldly Wizard Soul
+Ruined Dark Elf Sanctuary
+Suspicious Dark Elf Sanctuary (PC)
+Mysterious Cube Gift Box
+Elder Rare Bag
+Monarch Rare Bag
 dummy
 dummy
 dummy
 dummy
 dummy
-Enhance Wizard^케루디
-Enhance Wizard^포이라
-Enhance Wizard^제나두
-Enhance Wizard^이레이스
-훈련대장^카너스
-신녀^메리샤
+Enhanced Wizard^Keldy
+Enhanced Wizard^Foiler
+Enhanced Wizard^Xanadu
+Enhanced Wizard^Erase
+Training Captain^Kanas
+Messenger of Goodness^Melisha
 dummy
 dummy
 dummy
 dummy
 dummy
-변신 상인^제레미
-변신 상인^에포닌
-변신 상인^벤트
-변신 상인^아베크
-변신 상인^이자벨
-변신 상인^코헨
-변신 상인^월킨스
-변신 상인^조세프
-티셔츠 세탁 장인^도비와
-텔레포트^시장 중심지 이동
+Transformation Merchant^Jeremy
+Transformation Merchant^Eponin
+Transformation Merchant^Bento
+Transformation Merchant^Abek
+Transformation Merchant^Isabella
+Transformation Merchant^Cohen
+Transformation Merchant^Walkins
+Transformation Merchant^Joseph
+T-shirt Laundry Vendor^Dobiwa
+Teleport^Market Center
 dummy
 dummy
-Warehouse^다커
-알림: 3분 뒤 레이드가 종료됩니다.
-알림: 1분 뒤 레이드가 종료됩니다.
-알림: 10초 뒤 레이드가 종료됩니다.
-알림: 5초 뒤 레이드가 종료됩니다.
-드래곤 키(안타라스)
-드래곤 키(파푸리온)
-드래곤 키(린드비오르)
-드래곤 키(발라카스)
-아인하사드의 눈물
-기르타스의 사념체
-암살군의 생존자
-마수군의 생존자
-마령군의 생존자
-암살군의 명부
-마수군의 명부
-마령군의 명부
-생존자의 일지 1장
-생존자의 일지 2장
-생존자의 일지 3장
-지상군의 훈장
-지상군의 보급상자
-단테스의 유물 주머니(4월 10일)
+Warehouse^Dakar
+Notice: The raid will end in 3 minutes.
+Notice: The raid will end in 1 minute.
+Notice: The raid ends in 10 seconds.
+Notice: The raid ends in 5 seconds.
+Dragon Key(Antharas)
+Dragon Key(Fafurion)
+Dragon Key(Lindvior)
+Dragon Key(Valakas)
+Tears of Einhasad
+Gilthas's body of thought
+Survivors of the Assassination Army
+Survivors of the Hexenbiest Army
+Survivors of the Demon Army
+Roster of the Assassination Army
+Roster of the Hexenbiest Army
+Roster of the Demon Spirit Army
+Survivor's Journal Chapter 1
+Survivor's Journal Chapter 2
+Survivor's Journal Chapter 3
+Medal of Honor for Ground Forces
+Ground Forces Supply Boxes
+Dantes Relic Bag(April 10)
 dummy
 dummy
-영혼의 귀걸이(기사)
-영혼의 귀걸이(투사)
-영혼의 귀걸이(마법사)
+Soul Earring(Knight)
+Soul Earring(Warrior)
+Soul Earring(Wizard)
 dummy
 dummy
 dummy
@@ -15495,15 +15495,15 @@ dummy
 dummy
 dummy
 dummy
-단테스의 보물상자 열쇠
-(쇼크 스턴)
-(리덕션 아머)
-(바운스 어택)
-(솔리드 캐리지)
-(카운터 배리어)
-(콜 클랜)
-(런 클랜)
-다크엘프 생존자
+Dantes Treasure Chest Key
+(Shock Stun)
+(Reduction Armor)
+(Bounce Attack)
+(Solid Carriage)
+(Counter Barrier)
+(Call Pledge Member)
+(Rank Run)
+Dark Elf Survivors
 dummy
 dummy
 dummy
@@ -15526,20 +15526,20 @@ dummy
 dummy
 dummy
 dummy
-최상급 드래곤
-상급 드래곤
-중급 드래곤
-하급 드래곤
-최상급 자이언트
-상급 자이언트
-중급 자이언트
-하급 자이언트
+Highest Dragon
+Senior Dragon
+Intermediate Dragon
+Low Dragon
+Highest Giant
+Senior Giant
+Intermediate Giant
+Lesser Giant
 가디언의 유물 패키지(특)
 아르카의 유물 상자
-아르카의 유물 주머니
-아르카의 유물
-강화된 아르카의 유물 주머니
-강화된 아르카의 유물
+Arca Relic Bag
+Arca Relic
+Enhanced Arca Relic Bag
+Enhanced Arca Relic
 위대한 전사의 주문
 커츠의 유물 주머니(선물)
 오만의 탑 이동 주문서 두루마리
@@ -15558,36 +15558,36 @@ dummy
 dummy
 dummy
 dummy
-뉴트럴
-낚싯대
-폴의 릴 100회
-폴의 낚시 가방
-미끼
-베리아나
-블루 베리아나
-앵무 베리아나
-황금 상자
-황금 장화
-강태공의 나무상자
-마법인형 상자
-고급 마법인형 상자
+Neutral
+Fishing Rod
+Paul's Reel (100)
+Paul's Fishing Bag
+Bait
+Veriana
+Blue Veriana
+Parrot Veriana
+Golden Box
+Golden High Boots
+Taikoo Wooden Box
+Magic Doll Box
+Luxury Magic Doll Box
 dummy
 dummy
-마법인형: 리치
-Sealed 라온의 석화 반지
-Sealed 라온의 수면 반지
-Sealed 라온의 스턴 반지
-Sealed 라온의 홀드 반지
-베리 상인^행 베리
-곰돌이 인형
-리치 마법인형
-폴의 낚싯대
-라치의 모자
-파파의 모자
+Magic Doll: Lich
+Sealed Raon's Petrified Ring
+Sealed Raon's Sleep Ring
+Sealed Raon's Stun Ring
+Sealed Raon's Hold Ring
+Berry Merchant^Hen Berry
+Stuffed Bear
+Lich Magic Doll
+Paul's Fishing Rod
+Latch's Hat
+Papa's Hat
 dummy
-수상한 천상의 계곡
-상자 교환 확인증
-군왕의 영혼석 주머니
+Suspicious Sky Valley
+Box Exchange Confirmation
+King's Soul Crystal Bag
 dummy
 dummy
 dummy
@@ -15638,22 +15638,22 @@ dummy
 dummy
 dummy
 dummy
-칠흑의 오크 주술사
-칠흑의 오크 궁병
-칠흑의 오크 검병
-칠흑의 좀비
-칠흑의 해골 도끼병
-칠흑의 해골 궁수
-칠흑의 해골 창병
-칠흑의 Arachnevil
-칠흑의 웅골리언트
-칠흑의 구울
-칠흑의 버그베어
-칠흑의 돌 골렘
-칠흑의 켈베로스
-칠흑의 괴물 눈
-칠흑의 크로울링 크로
-칠흑의 킹 버그베어
+Dark Orc Shaman
+Dark Orc Archer
+Dark Orc Swordsman
+Dark Zombie
+Dark Skeleton Axeman
+Dark Skeleton Archer
+Dark Skeleton Pikeman
+Dark Giant Spider
+Dark Dread Spider
+Dark Ghoul
+Dark Bugbear
+Dark Stone Golem
+Dark Cerberus
+Dark Floating Eye
+Dark Claw
+Dark King Bugbear
 dummy
 dummy
 dummy
@@ -15663,16 +15663,16 @@ dummy
 dummy
 dummy
 dummy
-오림의 목걸이
-세마의 반지
-멸마의
-Archmage's Hat
-용아병의 혼령
-에스테반의 전투 보급품 상자
-너 같은 인간이 왜 오림과 손을 잡은 것이냐!
-인간따위가 날 번거롭게 하는구나.
-위대한 마력의 소유자에게 반역을 하는 것이냐!
-네가 아무리 그분과 친분이 있어도 나를 막을 수는 없을 것이다!
+Amulet of Orim
+Ring of Semar
+Magic Protection
+Archmage Hat
+Spirit of Spartoi
+Esteban's Combat Supply Box
+Why did a man like you join forces with Orim!
+Don't let a human being get in the way.
+You defy the owner of great magical power!
+No matter how close you are to that person, you can't stop me!
 dummy
 dummy
 dummy
@@ -15698,30 +15698,30 @@ dummy
 dummy
 dummy
 dummy
-바포메트의 심복
-바포메트님의 저주를 풀어야...
-위대한 마력의 소유자님을 위하여...
-내 정체를 너 따위에게 알려줄 수는 없다.
-겨우 이 정도로 나를 찾아온 것이냐!
-감히 군터의 제자따위가 나에게 반기를 들다니
-너에게 광기 어린 힘을 느끼게 해주마!
-너희에게 지옥을 구경시켜 주마!
-네크로맨서가 나타났습니다.
-데스나이트가 나타났습니다.
-일기장 교환^이레이스
-방패 제작장인^칼루아
-고대 물품:투구
-고대 물품:티셔츠
-고대 물품:갑옷
-고대 물품:망토
-고대 물품:장갑
-고대 물품:방패
-고대 물품:부츠
-고대 물품:무기
-(포인트샵)
-베리
-마법서 (아우라)
-(아우라)
+Confidant of Baphomet
+We must break the curse of Master Baphomet...
+For the owners of great magical powers...
+I cannot reveal my true identity to the likes of you.
+You stand against me with this level of competence!
+How dare Gunther's disciples turn against him?
+I give you a taste of the power of madness!
+I will send you all to hell!
+The Necromancer has spawned..
+Death Knight has spawned..
+Diary Exchange^Erase
+Shield Crafter^Kahula
+Antiques: Helm
+Antiques: T-shirt
+Antiques: Mail
+Antiques: Cloak
+Antiques: Gloves
+Antiques: Shield
+Antiques: Boots
+Antiques: Weapon
+(point shop)
+Berry
+Spellbook(Aura)
+(Aura)
 픽시의 단검
 픽시의 양손검
 픽시의 지팡이
@@ -15769,7 +15769,7 @@ dummy
 dummy
 dummy
 dummy
-3단 가속
+3-step acceleration
 dummy
 dummy(15774)
 dummy(15775)
@@ -15792,7 +15792,7 @@ dummy
 dummy
 dummy
 dummy
-붉은 기사단의 전령
+Herald of the Red Knights
 dummy
 dummy
 dummy
@@ -15806,26 +15806,26 @@ dummy
 dummy
 dummy(15807)
 dummy(15808)
-변신지원^커츠의 부하
+Transformation Support^Kurtz's Subordinate
 dummy(15810)
-수상한 무기 상인^바그다
-수상한 방어구 상인^메르디
+Suspicious Weapons Vendor^Bagda
+Suspicious Armor Vendor^Merdy
 dummy
 dummy
 dummy
 dummy
-축축한 낚시가방
-dummy
-dummy
-dummy
-dummy
-dummy
+Wet Fishing Bag
 dummy
 dummy
 dummy
 dummy
 dummy
-아덴 쉼시티 스페셜 상자
+dummy
+dummy
+dummy
+dummy
+dummy
+Aden Shim City Special Box
 dummy(15829)
 dummy(15830)
 dummy(15831)
@@ -15893,9 +15893,9 @@ dummy(15892)
 dummy(15893)
 dummy(15894)
 dummy(15895)
-수련던전 관리인^맷
-폭풍수련지역 관리인^앨키
-창고 관리인의 황금 열쇠
+Training Dungeon Manager^Matt
+Storm Training Area Manager^Elkie
+Warehouse Golden Key
 dummy(15899)
 dummy
 dummy
@@ -15915,17 +15915,17 @@ dummy
 dummy
 dummy
 dummy(15917)
-Sealed 실렌의 단검 [군주]
-Sealed 실렌의 양손검 [기사]
-Sealed 실렌의 활 [요정]
-Sealed 실렌의 지팡이 [마법사]
-그렘린의 보은
-그렘린의 보물상자[6월]
-그렘린의 보물상자[7월]
-그렘린의 보물상자[8월]
-그렘린의 보물상자[9월]
-그렘린의 낚시 상자
-그렘린의 큐브
+Sealed Shilen's Dagger [Monarch]
+Sealed Shilen's Two-Handed Sword [Knight]
+Sealed Shilen's Bow [Elf]
+Sealed Shilen's Staff [Wizard]
+Return of the Gremlins
+Gremlin Treasure Chest (6mth)
+Gremlin Treasure Chest (7mth)
+Gremlin Treasure Chest (8mth)
+Gremlin Treasure Chest (9mth)
+Gremlin Fishing Box
+Gremlin Cube
 dummy(15929)
 dummy
 dummy
@@ -15991,38 +15991,38 @@ dummy
 dummy
 dummy
 dummy
-조우의 변신 주문서
-조우의 이동 기억책 상자
-조우의 이동 기억책
-성장의 물약
-켄트 용병(기사)
-켄트 용병(창병)
-켄트 용병(궁수)
-켄트 용병(마법사)
-하이네 용병(기사)
-하이네 용병(창병)
-하이네 용병(궁수)
-하이네 용병(마법사)
+Jose Polymorph Scroll
+Jose Teleportation Book (100)
+Jose Teleport Book
+Growth Potion
+Kent Mercenary(Knight)
+Kent Mercenary(Pikeman)
+Kent Mercenary(Archer)
+Kent Mercenary(Wizard)
+Heine Mercenary(Knight)
+Heine Mercenary(Pikeman)
+Heine Mercenary(Archer)
+Heine Mercenary(Wizard)
 dummy
 dummy
 dummy
 dummy
 dummy
-요리 상인^알스웰
-요리 상인^카르보
-요리 상인^디퐁듀
-요리 상인^쉬멜로
-요리 상인^봉고르
-요리 상인^파프카
-요리 상인^타스라
-요리 상인^미듀멜
+Food Merchant^Alswell
+Food Merchant^Carbo
+Food Merchant^Diffondue
+Food Merchant^Sumero
+Food Merchant^Bongol
+Food Merchant^Papuca
+Food Merchant^Tathra
+Food Merchant^Midumel
 dummy(16019)
 dummy
 dummy
 dummy
 dummy
 dummy(16024)
-N코인
+NCoin
 dummy(16026)
 dummy
 dummy
@@ -16040,7 +16040,7 @@ dummy
 dummy
 dummy
 dummy(16042)
-불완전한 마법 구슬 조각 상자
+Incomplete Magic Orb Fragment Box
 구호 증서 상자
 육수단지
 생닭
@@ -16065,7 +16065,7 @@ Otis's 3 Layered Cake
 데이터
 기가 데이터
 기가 데이터 상자
-교환 확인증
+Exchange Confirmation
 와이파이존 입장권
 상아탑 보스의 영혼석 주머니
 눈사람 마법인형 상자
@@ -16077,75 +16077,75 @@ dummy
 dummy(16077)
 옵티 몽스 킹
 울레
-Warehouse^쿠웰
-Return Teleporter^웰컴
-복귀 용사 훈련소
-(어스 가디언)
-용사의 체력 회복제
-용사의 순간이동 주문서
-용사의 귀환 주문서
-Return General Store^지니
-Return Enhance Wizard^클리버
+Warehouse^Quell
+Return Teleporter^Welcome
+Returning Warrior Training Center
+(Earth Guardian)
+Warrior's Stamina Recovery Potion
+Warrior's Teleport Scroll
+Warrior's Return Scroll
+Return General Store^Genie
+Return Enhance Wizard^Cleaver
 dummy
 dummy
 dummy
-Crafted 지룡/수룡의 마안
-Crafted 탄생/풍룡의 마안
-Crafted 형상/화룡의 마안
-[+7]마력의 단검 
-[+7]광풍의 도끼
-[+7]Greatsword of Doom 
-[+7]천사의 지팡이
-[+7]혹한의 창
-[+7]뇌신검
-[+7]Salcheon's Bow
-[+8]마력의 단검 
-[+8]광풍의 도끼
-[+8]Greatsword of Doom 
-[+8]천사의 지팡이
-[+8]혹한의 창
-[+8]뇌신검
-[+8]Salcheon's Bow
-어둠의 크로우
-어둠의 이도류
-어둠의 활
-흑빛의 크로우
-흑빛의 이도류
-흑빛의 활
-은색의 크로우
-은색의 이도류
-강화 속도향상 물약
-앨리스 T1
-앨리스 T2
-앨리스 T3
-앨리스 T4
-앨리스 5단계
-앨리스 6단계
-앨리스 7단계
-앨리스
-대지의 망토
-물결의 망토
-바람의 망토
-열화의 망토
-보안서비스 선물상자
-헤이스트존(PC방)
-[+0]멸마의 판금 갑옷
-[+1]멸마의 판금 갑옷
-[+2]멸마의 판금 갑옷
-[+3]멸마의 판금 갑옷
-[+0]멸마의 비늘 갑옷
-[+1]멸마의 비늘 갑옷
-[+2]멸마의 비늘 갑옷
-[+3]멸마의 비늘 갑옷
-[+0]멸마의 가죽 갑옷
-[+1]멸마의 가죽 갑옷
-[+2]멸마의 가죽 갑옷
-[+3]멸마의 가죽 갑옷
-[+0]멸마의 로브 갑옷
-[+1]멸마의 로브 갑옷
-[+2]멸마의 로브 갑옷
-[+3]멸마의 로브 갑옷
-리니지 선물상자
+Crafted Earth Dragon/Water Dragon Eye
+Crafted Birth/Wind Dragon Eye
+Crafted Shape/Fire Dragon Eye
+[+7] Mana Dagger 
+[+7] Wind Axe
+[+7] Greatsword of Doom 
+[+7] Angel Staff
+[+7] Freezing Lancer
+[+7] Lightning Edge
+[+7] Salcheon's Bow
+[+8] Mana Dagger
+[+8] Wind Axe
+[+8] Greatsword of Doom 
+[+8] Angel Staff
+[+8] Freezing Lancer
+[+8] Lightning Edge
+[+8] Salcheon's Bow
+Dark Claw
+Dark Edoryu
+Dark Bow
+Blind Claw
+Blind Edoryu
+Blind Bow
+Silver Claw
+Silver Edoryu
+Enhanced Haste Potion
+Alice T1
+Alice T2
+Alice T3
+Alice T4
+Alice T5
+Alice T6
+Alice T7
+Alice
+Cloak of Earth
+Cloak of Water
+Cloak of Wind
+Cloak of Fire
+Security Service Gift Box
+Hast Zone(PC)
+[+0]Demon Plate Armor
+[+1]Demon Plate Armor
+[+2]Demon Plate Armor
+[+3]Demon Plate Armor
+[+0]Demon Scale Armor
+[+1]Demon Scale Armor
+[+2]Demon Scale Armor
+[+3]Demon Scale Armor
+[+0]Demon Leather Armor
+[+1]Demon Leather Armor
+[+2]Demon Leather Armor
+[+3]Demon Leather Armor
+[+0]Demon Robe
+[+1]Demon Robe
+[+2]Demon Robe
+[+3]Demon Robe
+Lineage Gift Box
 dummy(16149)
 dummy
 dummy
@@ -16159,49 +16159,49 @@ dummy
 dummy(16159)
 [+7]Destruction Claw
 [+8]Destruction Claw
-[+7]파괴의 이도류
-[+8]파괴의 이도류
-[+7]환영의 체인소드
-[+8]환영의 체인소드
-[+7]공명의 키링크
-[+8]공명의 키링크
+[+7]Destruction Edoryu
+[+8]Destruction Edoryu
+[+7]Phantom Chainsword
+[+8]Phantom Chainsword
+[+7]Resonance Kiringku
+[+8]Resonance Kiringku
 dummy
-성장의 물약 상자
+Growth Potion Box
 \aHFidelity Execution Sword
 \aHWindblade Dagger
 \aHRed Shadow's Edoryu
 \aHCrystalline Staff
-1세대 가보(지룡)
-1세대 가보(수룡)
-1세대 가보(풍룡)
-1세대 가보(화룡)
-2세대 가보(지룡)
-2세대 가보(수룡)
-2세대 가보(풍룡)
-2세대 가보(화룡)
-3세대 가보(지룡)
-3세대 가보(수룡)
-3세대 가보(풍룡)
-3세대 가보(화룡)
-4세대 가보(지룡)
-4세대 가보(수룡)
-4세대 가보(풍룡)
-4세대 가보(화룡)
-5세대 가보(지룡)
-5세대 가보(수룡)
-5세대 가보(풍룡)
-5세대 가보(화룡)
-6세대 가보(지룡)
-6세대 가보(수룡)
-6세대 가보(풍룡)
-6세대 가보(화룡)
+1 World Heirloom(Antharas)
+1 World Heirloom(Fafurion)
+1 World Heirloom(Lindvior)
+1 World Heirloom(Valakas)
+2 World Heirloom(Antharas)
+2 World Heirloom(Fafurion)
+2 World Heirloom(Lindvior)
+2 World Heirloom(Valakas)
+3 World Heirloom(Antharas)
+3 World Heirloom(Fafurion)
+3 World Heirloom(Lindvior)
+3 World Heirloom(Valakas)
+4 World Heirloom(Antharas)
+4 World Heirloom(Fafurion)
+4 World Heirloom(Lindvior)
+4 World Heirloom(Valakas)
+5 World Heirloom(Antharas)
+5 World Heirloom(Fafurion)
+5 World Heirloom(Lindvior)
+5 World Heirloom(Valakas)
+6 World Heirloom(Antharas)
+6 World Heirloom(Fafurion)
+6 World Heirloom(Lindvior)
+6 World Heirloom(Valakas)
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-검은 기사단
+Black Knight
 dummy
 dummy
 dummy
@@ -16212,18 +16212,18 @@ dummy
 dummy
 dummy
 dummy
-반왕의 Ramias
-반왕의 Barode
-반왕의 리칸트
-반왕의 리치
-반왕의 드레이크
-반왕의 타락
-반왕의 발바도스
-반왕의 나이트발드
-반왕의 흑장로
-반왕의 아리오크
-반왕의 리퍼
-반왕의 발록
+Anit-King Ramias
+Anti-King Balod
+Anti-King Rekanto
+Anti-King Lich
+Anti-King Drake
+Anti-King Fall
+Anti-King Barbados
+Anti-King Nightvald
+Anti-King Black Elder
+Anti-King Arioch
+Anti-King Reaper
+Anti-King Balrog
 dummy(16227)
 dummy
 dummy
@@ -16292,22 +16292,22 @@ dummy
 dummy
 dummy
 dummy(16924)
-Red Knights Commander^Deporoge
+Red Knights Commander^Depardieu
 Red Knights^Isilote
-Deporoge
-로엔그린
-백조 기사단
-붉은 기사단의 진격
+Depardieu
+Lohengrin
+Order of the Swan
+Attack of the Red Knights
 Siege Teleporter^Stark
-검은기사단
-질리언!달의 기사
-조우!다크스타
-이실로테!백조의 기사
-크리스터!그림자 기사
-아툰!철의 기사
-마르코의 썸머 패키지
-행 베리의 낚시 상자
-행 베리의 낚시 가방
+Black Knight
+Gillian! Knight of the Moon
+Joe! Dark Star
+Isilote! Knight of White Swan
+Christo! Knight of Shadows
+Aartone!The Iron Knight
+Marco's Summer Package
+Hen Berry's Fishing Box
+Hen Berry's Fishing Bag
 dummy
 dummy
 dummy
@@ -16349,7 +16349,7 @@ dummy
 반왕의 Ramias
 반왕의 Barode
 dummy
-단체 변신막대4
+Group Transformation Bar4
 dummy
 dummy
 dummy
@@ -16360,7 +16360,7 @@ dummy
 dummy
 dummy
 dummy
-유니콘
+Unicorn
 dummy
 dummy
 dummy
@@ -16370,12 +16370,10 @@ dummy
 맘보토끼
 dummy
 dummy
-할로윈 이벤트^허수아비 바루
-붉은 오크
+Halloween Event^Scarecrow Mia
+Red Orc
 dummy
-캥거루
-dummy
-dummy
+Kangaroo
 dummy
 dummy
 dummy
@@ -16400,10 +16398,12 @@ dummy
 dummy
 dummy
 dummy
-붉은 기사단의 상자
-붉은 기사단의 주머니
-붉은 기사단의 물약
-붉은 기사단의 반지
+dummy
+dummy
+Red Knight Box
+Red Knight Bag
+Red Knight Potion
+Red Knight Ring
 dummy
 dummy
 dummy
@@ -16445,8 +16445,8 @@ dummy
 dummy
 dummy
 dummy
-Van King Kerenis
-Van King Kurtz
+Anti-King Kerenis
+Anti-King Kurtz
 추석 선물상자
 만월의 낚싯대 주머니
 만월의 낚싯대
@@ -16455,12 +16455,12 @@ Van King Kurtz
 만월의 절편
 만월의 수정과	
 검은 기사단
-검은 기사단 부대장
+Black Knight Commander
 데포로쥬
 붉은 기사단
 Event Teleporter^Red Knight Herald
 Event Reward^Red Knights Staff
-그렘린의 보물상자[10월]
+Gremlin Treasure Chest (10mth)
 각별한 보석 상자
 깜짝덜컥 상자
 dummy
@@ -16473,19 +16473,19 @@ dummy
 dummy
 dummy
 dummy
-애도의 상자
-가이드
-기억창
-상점 열기
-시세 검색
-상인 찾기
-생존의 외침(Ctrl+E)
+Condolence Box
+Guide
+Bookmark Window
+Open Shop
+Market Search
+Merchant Search
+Survival Cry(Ctrl+E)
 dummy
 dummy
 dummy
-대미지 감소
-대미지 감소 확률
-추가 방어력
+\fHD.Reduce
+Chance Damage Reduction
+\fHDefense
 집중해 주십시오!! 데포로쥬님이 오십니다.
 이렇게 우리 붉은 기사단을 도우러 와준 그대들의 노고를 치하하네.
 서신과 부관들을 통해 이미 전해 들었겠지만 이번 임무는 정말 중요하다네.
@@ -16629,7 +16629,7 @@ dummy
 dummy
 dummy
 dummy
-드래곤 키 복구함
+Dragon Key Recovery Box
 dummy
 dummy
 dummy
@@ -16640,17 +16640,17 @@ dummy
 dummy
 dummy
 dummy
-그렘린의 보물상자[11월]
-그렘린의 보물상자[12월]
-그렘린 마법인형
-마법인형: 그렘린
-그렘린의 회상의 촛불 상자
+Gremlin Treasure Chest (Nov)
+Gremlin Treasure Chest (Dec)
+Gremlin Magic Doll
+Magic Doll: Gremlin
+Gremlin's Candlebox of Hope
 dummy
-캐릭터가 카오틱 성향이 되었습니다.
-캐릭터가 최초 사망하여 애도의 상자를 지급합니다.
-아이템은 F4 단축키로도 주을 수 있습니다.
-고기 등 요리를 먹어 배고픔 게이지를 채울 수 있습니다.
-몸이 너무 무겁습니다. 가방을 가볍게 만들어 보세요.
+Your character is now chaotic in nature. You are a very naughty.
+When a character dies for the first time, a box of condolence will be provided.
+Items can also be picked up with the F4 key.
+Meat and other foods can be eaten to satisfy the hunger gauge.
+You are too heavy. Please lighten your bag.
 dummy
 dummy
 dummy
@@ -16697,16 +16697,16 @@ dummy
 dummy
 dummy
 dummy
-헉헉..에고 힘들어~
+Hahahaha... tired...
 dummy
 dummy
-켄트성
-오크요새
-윈다우드성
-기란성
-하이네성
-지저성
-아덴성
+Kent Castle
+Orc Fortress
+Windawood Castle
+Giran Castle
+Heine Castle
+Dwarf Castle
+Aden Castle
 dummy
 dummy
 dummy
@@ -16750,15 +16750,15 @@ dummy
 dummy
 dummy
 dummy
-아덴 왕국은 모두 우리 검은 기사단이 지배하게 될 것이다.
-붉은 기사단은 켄라우헬님의 적수가 되지 못한다.
-붉은 기사단은 내일이면 흔적조차 없어지겠지 크하하하
-켄라우헬님의 무서움을 모르는 하룻강아지들이여 모두 사라져라!
-죽고 싶으면 얼마든지 덤벼보아라. 켄라우헬님과 검은 기사단의 힘을 보여주마!
+Everything in Aden is ruled by the Black Knights!
+The Red Knights are not even an enemy of Master Ken Rauhel.
+By tomorrow, the Red Knights will have disappeared without a trace, hahahaha!
+Die, you immature people who does not understand the power of Master Ken Rauhel!
+Come at me if you want to die.  Let us show you the power of Master Ken Rahuel and the power of the Black Knights!
 (ONLY TEST)
-공성 수성 자금
-공성
-수성
+Siege Defense Funds
+Siege
+Defense
 dummy
 dummy
 dummy
@@ -16768,34 +16768,34 @@ dummy
 dummy
 dummy
 dummy
-군주의 포상
+Monarch's Reward
 dummy
 Witch Kerenis
-반왕 Ken Rauhel
-승리의 체력 회복제
-이 성은 켄라우헬님의 성이다! 모두 죽어라!
-데포로쥬가 수호성들을 이끌고 오기 전에 성을 점령 해야한다!
-으윽.. 켄라우헬님..
-흑기사 부대여! 돌진!
-만만치 않은 상대군..
-다시 돌아오겠다!	
+Half King Ken Rauhel
+Victory Recovery Potion
+This castle belongs to Master Ken Rauhel! Die, all of you!
+We must take the castle before the Depardieu comes with his knights!
+Ugh....Master Ken Rauhel....
+Black knight! Charge!
+A tough opponent...
+We'll be back!
 dummy
 dummy
 dummy
 dummy
-투석기^공성병기
-포탄
+Catapult^Siege Weapon
+Cannonball
 dummy(16788)
 dummy
 dummy(16790)
-검은 기사단은 쓰러지지 않는다! 
+The Black Knights will never fall!
 dummy
-공성전이 시작되었다! 모두 경계상태를 늦추지 마라!
-여왕님께서 너희들을 삼켜버릴 것이야!
-이 진동은..!! 사막에 샌드 웜이 나타났나봐요!
-여러분! 어서 윈다우드 사막지역으로 가서 샌드 웜을 막아주세요!
-모든 대원들은 들으라! 이제 기르타스를 정벌하러 갈 때가 되었다!
-그대들의 용맹함이 우리에게 승리를 안겨주리라!
+The siege has begun! Everyone, stay alert!
+The Queen will swallow you all up!
+This vibration...! It's like a sand worm has spawned. in the desert!
+Everyone! Get out there to the Windawood Desert region and stop the Sandworms!
+All men, listen up! Now is the time to conquer Gilthas!
+Your bravery will bring us victory!
 dummy
 용의 호박 갑옷
 할로윈 이벤트^킹 버몽
@@ -16861,8 +16861,8 @@ dummy
 dummy
 dummy
 dummy
-드래곤의 연금술 용액
-드래곤의 토파즈
+Dragon Alchemy Solution
+Dragon Topaz
 dummy
 dummy
 dummy
@@ -16894,7 +16894,7 @@ dummy
 화령의 속성 변환 주문서(15주년)
 구호 증서(15주년)
 15주년 선물 상자
-스냅퍼의 반지 강화 주문서
+Snapper Ring Enchant Scroll
 Snapper Health Ring
 Snapper Magic Resistance Ring
 Snapper Focus Ring
@@ -16968,7 +16968,7 @@ dummy
 dummy
 dummy
 dummy
-헤이스트 느낌 상자
+Haste Feeling Box
 dummy
 dummy
 dummy
@@ -16986,8 +16986,8 @@ dummy
 흰 겨울의 보급품 주머니
 추운 겨울의 보급품 주머니
 조우의 변신주문서(이벤트)
-힘의 강화 코인(이벤트)
-민첩의 강화 코인(이벤트)
+Strength 강화 코인(이벤트)
+Dexterity 강화 코인(이벤트)
 dummy
 dummy
 dummy
@@ -17262,11 +17262,11 @@ dummy
 dummy
 dummy
 dummy
-이실로테
-질리언
-조우
-아툰
-크리스터
+Isilote
+Gillian
+Jose
+Aartone
+Christo
 dummy
 dummy
 dummy
@@ -17352,13 +17352,13 @@ dummy
 dummy
 dummy
 dummy
-오늘 라스타바드 던전에서 아인하사드의 축복이 증폭 되었습니다.
-오늘 용의 계곡 던전에서 아인하사드의 축복이 증폭 되었습니다.
-오늘 말하는 섬,던전에서 아인하사드의 축복이 증폭 되었습니다.
-오늘 오렌 지역에서 아인하사드의 축복이 증폭 되었습니다.
-오늘 상아탑 발록과 야히 진영에서 아인하사드의 축복이 증폭 되었습니다.
-오늘 기란 감옥에서 아인하사드의 축복이 증폭 되었습니다.
-오늘 글루딘 던전에서 아인하사드의 축복이 증폭 되었습니다.
+Einhasad's blessings is amplified in the Lastabad dungeon today.
+Einhasad's blessings is amplified in the Dragon Valley Dungeon today.
+Einhasad's blessing is amplified in the Talking Island Dungeon today.
+Einhasad's blessing is amplified in the Oren region today.
+Einhasad's blessing is amplified in the Balrog and Yahee camps of the Ivory Tower.
+Einhasad's blessings is amplified in Giran Prison today.
+Einhasad's blessings is amplified in the Gludio Dungeons today.
 dummy
 dummy
 dummy
@@ -17372,14 +17372,14 @@ dummy
 dummy
 dummy
 dummy
-이실로테 : 후방 지원은 제게 맡겨주세요.
-데포주류 : 내가 지원하겠다.
-질리언 : 지금부터 내가 지휘하겠다. 나의 지휘에 잘 따를 수 있도록!
-조우 : 잠시 적의 진영을 무너뜨리고 오겠습니다.
-크리스터 : 바람보다 더 빠르게 움직일 수 있도록!
-아툰 : 내가 수호탑까지 길을 만들겠다.
-붉은 기사단이여 진영을 갖추어라!
-아덴의 진정한 주인 데포로쥬님을 위하여!
+Isilote: Let me handle the logistics.
+데포주류: I will support you.
+Gillian: From now on, I am in command. Follow me!
+Jose: We are going to break the enemy's camp.
+크리스터: Move like the wind!
+Atun: I will lead the way to Guardian Tower.
+Red Knights, rebuild your camp!
+For the rightful Lord of Aden, Master Depardieu!
 dummy
 dummy
 dummy
@@ -17387,8 +17387,8 @@ dummy
 dummy
 dummy
 dummy
-회복의 구슬
-물의 구슬
+Healing Orb
+Water Bubble
 dummy
 dummy
 dummy
@@ -17423,12 +17423,12 @@ dummy
 dummy
 dummy
 dummy
-펫 클래스
+Pet Class
 유니콘의 징표
 유니콘 큐브 상자
 유니콘 전투 상자
 유니콘 패키지^유니콘 상점
-Girtas : 카너스가 날 정복 하라는 명령을 내렸다고?! 날 분노하게 만드는 구나.! 각오해라!!!
+Girtas: Did you think you could defeat me just by receiving the divine protection of the messenger of good? ? Know the horror of touching God's wrath. Be prepared! !
 환상의 양손검
 환상의 지팡이
 환상의 한손검
@@ -17436,8 +17436,8 @@ Girtas : 카너스가 날 정복 하라는 명령을 내렸다고?! 날 분노하게 만드는 구나.! 각�
 환상의 이도류
 환상의 체인소드
 환상의 키링크
-할로윈 무기 마법 주문서
-아툰의 무기 상자
+Halloween Weapon Enchant Scroll
+Atun's 무기 상자
 10검 수집가^아툰
 dummy
 dummy
@@ -17473,12 +17473,12 @@ dummy
 dummy
 dummy
 dummy
-포노스 토템
-포노스 Warrior's Necklace
-포노스 포상:20만
-포노스 포상:75만
-포노스 포상:300만
-포노스 포상:1000만
+Phonos Totem
+Phonos Fighter Amulet
+Phonos Reward: 20만
+Phonos Reward: 75만
+Phonos Reward: 300만
+Phonos Reward: 1000만
 승리의 화살(10발)
 승리의 강력 체력 회복제
 dummy
@@ -17516,25 +17516,25 @@ dummy
 dummy
 dummy
 dummy
-은빛 릴 50회
-금빛 릴 50회
-은빛 낚싯대
-금빛 낚싯대
-은빛 베리아나
-큰 은빛 베리아나
-금빛 베리아나
-큰 금빛 베리아나
+Silver Reels (50)
+Gold Reels (50)
+Silver Fishing Rod
+Gold Fishing Rod
+Silver Veriana
+Big Silver Veriana
+Gold Veriana
+Big Gold Veriana
 dummy
 dummy
 dummy
-성장의 마법사^에킨스
-악령의 씨앗
-유니콘 사원 열쇠
-성장의 구슬 조각
-성장의 구슬
+Wizard of Growth^Ekins
+Demon Seeds
+Unicorn Temple Key
+Growth Orbs Shard
+Growth Orbs
 dummy
-성장의 구슬 조각 상자
-장인의 무기 마법 주문서
+Growth Jade Shard Box
+Craftsman Weapong Enchant Scroll
 dummy
 dummy
 dummy
@@ -17544,12 +17544,12 @@ dummy
 dummy
 dummy
 dummy
-난쟁이 전사
-난쟁이 검사
-난쟁이 궁수
-난쟁이 창병
-난쟁이 마법사
-금화 주머니
+Dwarf Warrior
+Dwarf Swordman
+Dwarf Archer
+Dwarf Pikeman
+Dwarf Shaman
+Gold Coin Purse
 dummy
 dummy
 dummy
@@ -17588,10 +17588,10 @@ dummy
 dummy
 dummy
 dummy
-52레벨 퀘스트 아이템 상자(Normal)
-52레벨 퀘스트 아이템 상자(Blessed)
+Level 52 Quest Item Box(Normal)
+Level 52 Quest Item Box(Blessed)
 dummy
-이벤트 상인^노이뮨
+Event Merchant^Noimune
 dummy
 dummy
 dummy
@@ -17599,51 +17599,51 @@ dummy
 dummy
 dummy
 dummy
-닉스
-시페릿
-환몽
-환웅
-닉스
-니슨
-그니스
-카사
-카샨
-탐나는 성장의 열매 상자
-탐나는 성장의 열매
-드래곤 키(어둠-안타라스)
-드래곤 키(어둠-파푸리온)
-드래곤 키(어둠-린드비오르)
-드래곤 키(어둠-발라카스)
-드래곤 키(공포-안타라스)
-드래곤 키(공포-파푸리온)
-드래곤 키(공포-린드비오르)
-드래곤 키(공포-발라카스)
+Nyx
+Syferit
+Gem Gem
+Hanun Hanun
+Nyx Nyx
+Nisun Nisun
+Gunis Gunis
+Casa Casa
+Clash Kashan
+Fruit of Growth Box
+Fruit of Growth
+Dragon Key(Dark-Antharas)
+Dragon Key(Dark-Fafurion)
+Dragon Key(Dark-Lindvior)
+Dragon Key(Dark-Valakas)
+Dragon Key(Fear-Antharas)
+Dragon Key(Fear-Fafurion)
+Dragon Key(Fear-Lindvior)
+Dragon Key(Fear-Valakas)
 dummy
-어둠의 안타라스
-공포의 안타라스
-어둠의 파푸리온
-공포의 파푸리온
-어둠의 린드비오르
-공포의 린드비오르
-Teleporter^유니콘 사원 수호 마법사
+Dark Antharas
+Terrifying Antharas
+Dark Fafurion
+Terrifying Fafurion
+Dark Lindvior
+Terrifying Lindvior
+Dimensional Door^Unicorn Temple
 dummy
 dummy
-몽환의 포르시스
-몽환의 콰울
-몽환의 코트룻
-몽환의 메가
-날 부숴 버리다니! 
-이 곳에 적이 있다.
-이 놈을 잡아라
-웬 놈이냐!!
-너를 반드시 처형하겠다!.
-먹이를 놓치다니..
-으아악.
-내 보석을 노리는가?
-차라리 날 베어라. 버모스님은..
-넌 대체 누구냐?
-아악, 날 건드리다니..
-너를 기억하겠다!!
+Dreamy Polsys
+Dreamy Claw
+Dreamy Kotru
+Dreamy Maega
+How dare you hurt me!
+Here is the enemy.
+Take him down!
+Who are you!
+You will be taken down!
+You missed the mark...
+Whoa!
+Are you after jewelry?
+Cut me down once and for all. Master Bomos...
+Who are you?
+You've offended me...
+I'll never forget you!
 dummy
 dummy
 dummy
@@ -17651,15 +17651,15 @@ dummy
 dummy
 dummy
 dummy
-숨겨진 용들의 땅 입장권 상자
-숨겨진 용들의 땅 입장권
-제로스
+Hidden Dragon Land Admission Ticket Box
+Hidden Dragon Land Admission Ticket
+Zeroth
 Zeroth Staff
-완력의 부츠
-드레이크의 알
-제로스의 주머니
-대 흑장로
-제로스의 수정구
+Boots of Strength
+Drake Egg
+Zeroth Bag
+Great Black Elder
+Zeroth Soul Sphere
 dummy
 dummy
 dummy
@@ -17678,7 +17678,7 @@ dummy
 dummy
 dummy
 dummy
-그분께서 널 처단 할 거다!
+He will condemn you!
 dummy
 dummy
 dummy
@@ -17686,13 +17686,13 @@ dummy
 dummy
 dummy
 dummy
-너무 오래 지체되고 있습니다. 봉인술사를 처치해 주세요.
-너무 오래 지체되고 있습니다.
-유니콘이 사라집니다.
-유니콘
-도와주러 와 주셔서 감사합니다.
-이계의 존재가 곧 돌아올겁니다.
-그전에 제가 봉인을 풀 수 있도록 시간을 벌어주세요.
+It's taking too long, defeat the Sealman!
+It is time consuming.
+The Unicorn has disappeared.
+Unicorn
+Thank you for coming to our aid.
+The otherworldly presence is returning.
+Before that, the seal must be broken. Buy yourself some time.
 dummy
 dummy
 dummy
@@ -17700,25 +17700,25 @@ dummy
 dummy
 dummy
 dummy
-적들이 몰려오고 있습니다.
+Enemies are rushing in.
 dummy
-적들이 더 몰려옵니다. 준비해 주세요
+More enemies are coming in. Be prepared.
 dummy
 dummy
-얼마 남지 않았습니다. 조금만 더 버텨주세요
-천년 구미호가 퇴치 되었습니다.
-감사합니다!
-당분간 이계의 존재들이 침범하지 않을 것 같습니다.
-어서 몽환의 섬으로 돌아가 봐야겠군요.
-도와주셔서 감사합니다.
-선물을 드리고 싶군요. 마음에 드셨으면 좋겠네요.
-유니콘을 빼앗아가려고? 그렇게 놔둘 순 없지!!
-유니콘이 너무 많은 피해를 입었습니다.
-유니콘이 사라집니다.
-봉인술사를.. 멈춰주세요..
+We're almost there! Please hold on!
+The Nine-Tailed Fox has been defeated.
+Thank you!
+This will keep the otherworldly beings from coming for the time being.
+It's time to go back to the Island of Dreams.
+Thank you for your help.
+I am giving you a gift. I hope you like it.
+To take the unicorn? Not so fast!
+The Unicorn was severely damaged.
+Unicorns disappear.
+Please... stop... the sealers...
 dummy
-타락한 경비병
-누구냐! 어떻게 왔지?
+Corrupt Guard
+Who's there! How did you get in here!
 dummy
 dummy
 dummy
@@ -17745,26 +17745,21 @@ dummy
 dummy
 dummy
 dummy
-Nightmare Longbow
-진노의 크로우
-마법 막대(파이어스톰)
-마법 막대(정화)
+\f4Nightmare Longbow
+Claw of Wrath
+Magic Wand(Fire Storm)
+Magic Wand(Purification)
 dummy
 dummy
 dummy
 dummy
-제로스를
-드레이크를
-용의 계곡 삼거리
-완력의 벨트
-지식의 벨트
-민첩의 벨트
-지혜의 벨트
-dummy
-dummy
-dummy
-dummy
-dummy
+Zeroth
+Drake
+Dragon Valley Fork
+Belt of Strength
+Belt of Knowledge
+Belt of Dexterity
+Belt of Spirit
 dummy
 dummy
 dummy
@@ -17798,72 +17793,77 @@ dummy
 dummy
 dummy
 dummy
-살아있는 모든 존재들에게 죽음을!
-제로스님이 강림하시는 날 살아있는 모든 존재들은 절망을 느끼게 되리라.
-(탐)
-지르카 메즈 이레
-지르카 메즈 데스
-지르카 메즈 뉴크
-수상한 상자
-대 흑장로의 상자
-제로스의 영혼구
-드레이크의 피
-[전사]
-[전사 남]
-[전사 여]
-유니콘 사원 상인^크루나
+dummy
+dummy
+dummy
+dummy
+dummy
+Death to all living things!
+When Lord Xeros descends, all living things will despair.
+(TAM)
+Zilkha Maze Elay
+Zilkha Mayes Death
+Zilkha Maze Nyuk
+Suspicious Boxes
+Great Black Elder Box
+Xeros Soul Sphere
+Drake Blood
+[Warrior]
+[Warrior - M]
+[Warrior - F]
+Unicorn Temple Merchant^Kurna
 Sage's Necklace
-지룡의 빛나는 룬스톤
-수룡의 빛나는 룬스톤
-풍룡의 빛나는 룬스톤
-화룡의 빛나는 룬스톤
-신년운세
-대 흑장로님께서 널 찾으신다. 죽음을 맞이하라!!
-나는 결국 다시 부활하게 될 것이다. 바로 너희들의 손에 의하여! 으하하하..
+Earth Dragon's Shining Rune Stone
+Water Dragon's Shining Rune Stone
+Wind Dragon's Shining Rune Stone
+Fire Dragon's Shining Rune Stone
+New Year Horoscope
+The Great Black Elder is looking for you. Embrace death!
+I will be resurrected again. By your hands! Hahahaha...
 dummy
 --- New Class -------------------------------------------
-전사의 인장 (크래쉬)
-전사의 인장 (퓨리)
-전사의 인장 (슬레이어)
+Warrior Seal (Crash)
+Warrior Seal (Fury)
+Warrior Seal (Slayer)
 dummy 
-전사의 인장 (아머 가드)
-전사의 인장 (타이탄: 락)
-전사의 인장 (타이탄: 블릿)
-전사의 인장 (타이탄: 매직)
-전사의 인장 (하울)
-전사의 인장 (기간틱)
+Warrior Seal (Armor Guard)
+Warrior Seal (Titan: Lock)
+Warrior Seal (Titan: Blitz)
+Warrior Seal (Titan: Magic)
+Warrior Seal (Howl)
+Warrior Seal (Gigantic)
 dummy
-전사의 인장 (파워 그립)
-혈풍의 도끼
-거인의 도끼
+Warrior Seal (Power Grip))
+Blood Axe
+Giant Axe
 Typhoon Axe
-강철 도끼
-파푸리온의 도끼
-전사의 인장 (토마호크)
-신성 집행단 투구
-신성 집행단 망토
-전사 테스트 아이템
-엘모어 도끼
-영웅의 도끼
-시련의 도끼
-수련자의 낡은 도끼
-전사 기술 패키지
-아덴 용사의 큐브
-전사단 투구
-전사단 망토
-카운터매직 두루마리
-Sealed 혈풍의 도끼
+Iron Axe
+Fafurion Axe
+Warrior Seal(Tomahawk)
+Divine Executive Helm
+Divine Executive Cloak
+Warrior Test Item
+Elmore Axe
+Hero's Axe
+Trial Axe
+Initiate Minor Axe
+Warrior Technology Package
+Aden Warrior's Cube
+Helm of Warriors
+Warrior Cloak
+Counter Magic Scroll
+Sealed Blood Axe
 Sealed Typhoon Axe
-숨겨진 마족의 도끼
-\aE전사의 인장 (데스페라도)
-전사의 엘릭서 선물상자 (STR)
-전사의 인장 선물상자 (기간틱)
-전사의 인장 선물상자 (타이탄: 락)
-전사의 인장 선물상자 (타이탄: 블릿)
-전사의 인장 선물상자 (타이탄: 매직)
-전사의 선물상자
-엘모어 도끼 상자
-영웅의 도끼 상자
+Hidden Demon Axe
+\aEWarrior Seal (Desperado)
+Warrior Elixir Gift Box (STR)
+Warrior Seal Gift Box (Gigantic)
+Warrior Seal Gift Box (Titan: Lock)
+Warrior Seal Gift Box (Titan: Blitz)
+Warrior Seal Gift Box (Titan: Magic)
+Warrior Gift Box
+Elmore Axe Box
+Hero's Axe Box
 dummy
 dummy
 dummy
@@ -17875,20 +17875,20 @@ dummy
 dummy
 dummy
 dummy
-축하 사절단^사야
-축하 사절단^히로야
-에바의 은총
-전사의 회복 물약
-전사의 가속 물약
-전사의 마나 물약
-전사의 변신 터번(남)
-전사의 변신 터번(여)
-전사의 정성스런 요리
-전사의 정성스런 스프
-전사의 축복 주문서
-전사의 마법 코인(Dragon Skin)
-전사의 마법 코인(Iron Skin)
-전사의 보급 상자
+Celebration Mission^Saya
+Celebration Mission^Philadelphia
+Warrior Coin
+Warrior Health Potion
+Warrior Haste Potion
+Warrior Mana Potion
+Warrior Transformation Turban (M)
+Warrior Transformation Turban (F)
+Warrior Heartfelt Cuisine
+Warrior Hearty Soup
+Warrior Blessing Scroll
+Warrior Magic Coin(Dragon Skin)
+Warrior Magic Coin(Iron Skin)
+Warrior Supply Box
 기사 테스트팩
 요정 테스트팩
 법사 테스트팩
@@ -17896,14 +17896,14 @@ dummy
 용기사 테스트팩
 환술사 테스트팩
 전사 테스트팩
-대장장이의 도끼
-질풍의 도끼
-마물의 도끼
-[+0]질풍의 도끼
-[+8]질풍의 도끼
-[+0]마물의 도끼
-[+1]마물의 도끼
-[+3]마물의 도끼
+Blacksmith Axe
+Gale Axe
+Demon Axe
+[+0] Gale Axe
+[+8] Gale Axe
+[+0] Demon Axe
+[+1] Demon Axe
+[+3] Demon Axe
 dummy
 dummy
 dummy
@@ -17919,91 +17919,91 @@ dummy
 dummy
 dummy
 dummy
-신규 NPC1
-신규 NPC2
+New NPC1
+New NPC2
 --- New Class -------------------------------------------
-탐나는 성장의 열매 상자 1+1
-탐나는 성장의 열매 상자:유니콘 2+1
-몽환의 선물 상자
-호외요~ 스마트 폰으로 리니지를 할 수 있데요! 기란 마을의 크루나 상인을 만나보세요
-풍령의 보상:3만
+Fruit of Growth Box 1+1
+Fruit of Growth Box: Unicorn 2+1
+Dream Gift Box
+You can play Lineage with your smartphone! Meet the Kruna Merchant in Giran Village
+Wind Spirit's Reward:3만
 지령의 보상:35만
 수령의 보상:120만
 화령의 보상:500만
-몽환의 타파나
-몽환의 쿠리안
-몽환의 우라파
-몽환의 비아
+Dreams of Tapana
+Dreams of Kurian
+Dreams of Urapa
+Dreams of Via
 dummy
 dummy
 dummy
 dummy
-중앙 사원 황금 상자
+Central Temple Golden Box
 dummy
-불의 대정령이 나타났습니다!!!
-바람의 대정령이 나타났습니다!!!
-물의 대정령이 나타났습니다!!!
-땅의 대정령이 나타났습니다!!!
+The Great Spirit of Fire has appeared!!!
+The Great Spirit of Wind has appeared!!!
+The Great Spirit of Water has appeared!!!
+The Great Spirit of Earth has appeared!!!
 dummy
-시간이 너무 많이 지체되었습니다.
-마법 막대를 이용해 적을 처치해주세요.
-파이어 스톰 지급
-더 이상은 힘들 것 같습니다.
-조금만 더 버틸 수 있다면...
-아직 좀 더 시간이 필요합니다...
-조금만 더 저들을 막아주세요.
-저를 공격하지 못하게 해주세요.
-몸이 녹아내린다...
-아... 여기까지군...
-넌 막을 수 없을 것이다!
-어디부터 잘못된 것인가..
-왜 우리를 방해하는 것인가?
-으윽.. 후회할 것이다...
-그들의 전쟁을 막을 수 없게 되었네요.
-제법이구나.....
-유니콘의 봉인이 해제되어 던전이 종료됩니다.
-Tam
-dummy
-dummy
-dummy
-dummy
-\f=대정령이 떨어뜨린 정화 막대를 획득하셨습니다. 위험한 상황에 사용하세요.
-\f3위험한 상황입니다!! 정화 막대를 사용하셔야 합니다!!!!
-너무 많은 적들이 모여 실패하였습니다.
-으윽...주문을 방해하다니...
-그분께서 널 가만 두지 않을 것이다.
-우릴 막을 순 없다!
-행의 은빛 릴 5개 상자
-마르코의 금빛 릴 5개 상자
-dummy
-탐나는 성장의 열매 상자 5일
-탐나는 성장의 열매 5일
-탐나는 성장의 열매 상자
-탐나는 성장의 열매
+It is taking too long.
+Use the Magic Wand to defeat your enemies.
+Powerful offensive magic support
+This may be as far as we go...
+If I could just hold out a little longer...
+I need more time...
+Keep the enemy at bay a little longer.
+Please protect me.
+My body... melts...
+Ah... so this is it...
+You can't stop me!
+Where did it all go wrong...
+Why are you interfering with us?
+Ugh... you're gonna regret this...
+Couldn't prevent the fight from happening...
+That's not bad...
+The unicorn seal has been lifted. The dungeon is closed.
+TAM
 dummy
 dummy
 dummy
 dummy
+\f=We have acquired purification staff dropped by the Great Spirit. Use it when you are in a dangerous situation.
+\f3Danger! Use the Purification Staff!
+We failed because we had too many enemies.
+Ugh... I can't believe you're interrupting me.
+He will never forgive you...
+You thought you could stop us!
+Silver Reel Crate (5)
+Marco's Gold Reel (5)
 dummy
+Fruit of Growth Box (5)
+Fruit of Growth (5d)
+Fruit of Growth Box
+Fruit of Growth
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-전투 보급품 상자
-봉인술사
-방해하지 마라!
-천년 구미호
-SKT 멤버스 두루마리
-SKT상인^라이코넨
-거대 드레이크
-거대 오우거
-거대 코카트리스
-필사의 해골 돌격병
-필사의 해골 근위병
-필사의 해골 저격병
-조우의 이동 기억책 30회 상자
+dummy
+dummy
+dummy
+dummy
+dummy
+Battle Supply Box
+Sealed Warlock
+Don't interrupt me!
+Nine Tailed Fox
+SKT Member Scroll
+SKT Merchant^Raikkonen
+Giant Drake
+Giant Cougar
+Giant Cockatrice
+Frantic Skeleton Fighter
+Frantic Skeleton Guard
+Frantic Skeleton Marksman
+Encounter's Moving Memories Box (30)
 dummy
 dummy
 dummy
@@ -18178,12 +18178,12 @@ dummy
 dummy
 dummy
 dummy
-열매 판매상^크루
-1시간
-1분
-5분
-1일
-7일
+Fruit Seller^Kul
+1hr
+1mn
+5mn
+1d
+7d
 dummy
 dummy
 다이노스 릴
@@ -18230,19 +18230,19 @@ dummy
 dummy
 dummy
 dummy
-화령
-수령
-풍령
-지령
-노예
-맘보
-맘보 킹
-정령 감시자
-고대 정령의 부적
-화령 노예
-수령 노예
-풍령 노예
-지령 노예
+Fire Spirit
+Water Spirit
+Wind Spirit
+Earth Spirit
+Servant
+Mambo
+Mambo King
+Spirit Watcher
+Amulets of Ancient Spirits
+Fire Spirit Servant
+Water Spirit Servant
+Wind Spirit Servant
+Earth Spirit Servant
 dummy
 dummy
 dummy
@@ -18250,20 +18250,12 @@ dummy
 dummy
 dummy
 dummy
-허수아비^약한
-허수아비^보통
-허수아비^강한
-[+0]Zeroth Staff
-[+8]Zeroth Staff
-[+9]Zeroth Staff
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
+Scarecrow^Weak
+Scarecrow^Normal
+Scarecrow^Strong
+[+0] Zeroth Staff
+[+8] Zeroth Staff
+[+9] Zeroth Staff
 dummy
 dummy
 dummy
@@ -18272,34 +18264,42 @@ dummy
 dummy
 dummy
 dummy
-1년
-Lv 52~64: 2.0% 경험치 획득
-Lv 65~74: 2.2% 경험치 획득
-Lv 75~81: 2.4% 경험치 획득
-Lv 82 이상: 2.8% 경험치 획득
-Lv 52~64: 6.0% 경험치 획득
-Lv 65~74: 6.6% 경험치 획득
-Lv 75~81: 7.2% 경험치 획득
-Lv 82 이상: 8.4% 경험치 획득
-드래곤의 다이아몬드/에메랄드를
-드래곤의 토파즈 2개로 변환
-마법인형(리치 포함) 획득 가능
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+1y
+Lv 52~64: 2.0% Exp Gain
+Lv 65~74: 2.2% Exp Gain
+Lv 75~81: 2.4% Exp Gain
+Lv 82 이상: 2.8% Exp Gain
+Lv 52~64: 6.0% Exp Gain
+Lv 65~74: 6.6% Exp Gain
+Lv 75~81: 7.2% Exp Gain
+Lv 82 이상: 8.4% Exp Gain
+Dragon's Diamond/Emerald
+Converted Dragon Topaz (2)
+Magic doll (including lich) can be obtained
  
-- 획득 경험치는 52레벨 기준
-여기가 모바일 관련 상점입니다.
-Tam 샵에서 <크루나>를 만나 성장의 구슬(조각)을 구입하세요.
-<헤이트>를 통해 몽환의 섬에 입장하려면 성장의 구슬(조각)이 필요합니다.
-성장의 구슬(조각)과 악령의 씨앗 5개로 경험치를 획득하세요.
-단디 마법인형 상자
-쎄리 마법인형 상자
-Tam 홍보인형^쿠루
+- Experience gained is based on level 52
+This is the mobile-related store.
+Meet <Kurna> at the TAM Shop and purchase Growth Orbs (Shards).
+You can enter Dream Island by talking to <Hate>, but you will need Growth Orbs (Shards).
+You can get experience points with Growth Orbs (Shards) and 5 Evil Spirit Seeds.
+Dandi Magic Doll Box
+Serie Magic Doll Box
+Tam Manager^Kuru
 dummy
 dummy
 dummy
-몽환의 섬
-몽환의 상자(데몬)
-인챈트 +9 무기만 사용 가능
-실패 시 무기 보호(+9유지)
+Dream Island
+Phantom Box (Demon)
+Enchantment +9 Only weapons can be used
+No loss of weapon on failure (maintain +9)
 dummy
 dummy
 dummy
@@ -18316,8 +18316,8 @@ dummy
 dummy
 dummy
 dummy
-타자 변신 헬멧 상자
-투수 변신 모자 상자
+Batter Polymorph Helmet Box
+Pitcher Polymorph Helmet Box
 dummy
 dummy
 dummy
@@ -18383,12 +18383,12 @@ dummy
 dummy
 dummy
 dummy
-캐릭터를 모바일과 30일 동안 연결
-남은 시간 일주일 이내 예약 가능
-계정당 캐릭터 3개까지 연결
-Tam은 계정 내 공유
-캐릭터를 모바일과 5일 동안 연결
-캐릭터를 모바일과 365일 동안 연결
+Character earns TAM for 30 days
+Reservations can be made when time remaining is within one week
+Up to 5 characters per account linked
+TAM is shared within the account
+Character earns TAM for 5 days
+Character earns TAM for 365 days
 dummy
 dummy
 dummy
@@ -18484,9 +18484,9 @@ dummy
 dummy
 dummy
 dummy
-마빈의 큐브 10회
-꼬마^메티스
-아덴 월드에 대한 경험과 지식이 풍부한 분을 찾아요!.
+Marvin's Cube Episode 10
+Little^Metis
+We are looking for someone with rich experience and knowledge about the world of Aden!.
 dummy
 dummy
 dummy
@@ -18588,7 +18588,7 @@ dummy
 dummy
 dummy
 dummy
-마빈의 큐브 70회
+Marvin's Cube Episode 70
 dummy
 dummy
 dummy
@@ -18616,55 +18616,52 @@ dummy
 그렘린의 선물상자[8월]
 dummy
 dummy
-냉한의 기운
-농축된 얼음 여왕의 눈물
-화염의 결정
-햄의 주머니
+Extreme Frigid Air
+Concentrated Ice Queen Tears
+Flame Crystal
+Bag of Ham
 Death Knight's Fire Sowrd: Jin
-Teleporter^엘드나스
-상아탑 마법사^햄
-불타는 여우
-불타는 곰
-화룡의 레오
-화룡의 붉은 레오
-화룡의 불타는 레오
-불타는 심장
-화룡의 제물 베네보스
+Teleporter^Erdnase
+Ivory Tower Wizard^Hum
+Burning Fox
+Burning Bear
+Leo the Fire Dragon
+Fire Dragon Crimson Leo
+Burning Fire Dragon Leo
+Burning Heart
+Fire Dragon Sacrifice Benevos
 Shinny Saiha's Necklace
-벽 뒤쪽으로 숨는게 좋을거야!!!
-폭발
-나와라 나의 제물들아!
-데스나이트
-여..기.까지인가..
-환상에서 벗어날 시간이다..
-크윽..나에게 치명상을 입히다니..
-조금..만 더 깊었다면..
-크크..수면기에 들어가는 동안 너는 나의 노예가 되어 떠돌게 되리라..크하하하
-크윽..인간이 어떻게 이런 강한 힘을..
-커헉..이 저주는.. 너의 마지막 발악인가?
-크크..나의 저주는 너의 육신이 소멸할 때 까지 따라가리라...크하하하
-그 검은 발라카스 피로 인해 저주받았지만 본래의 힘이 조금은 남아 있을걸세..
-그 검의 힘을 이용하여 어서 이 곳을 빠져나가게.
-검을 사용하면 저주의 영향 때문인지 과거 나와 발라카스의 전투가 자꾸 떠오르더군...
-어쩌면 자네도 그 전투를 볼 수 있겠군. 가게나..더 이상 버틸 수 없을 것 같네.
-데스나이트의 정신이 스며듭니다.(남은시간: 30분)
-데스나이트의 의지가 느껴집니다.(남은시간: 20분)
-검이 더 거세게 불타 오릅니다.(남은시간: 10분)
-검의 힘에 눌리기 시작합니다.(남은시간: 5분)
-시간이 얼마 안남았음을 느낍니다.(남은시간: 3분)
-의식이 희미해집니다.(남은시간: 1분)
-발라카스님이 널 용서하지 않을 것이다.
-발라카스님의 저주는 널 평생 이승에서 떠돌게 할것 이다.
-화룡의
-(헬 파이어)
-상아탑 마법사^해모
+You'd better hide behind a wall!
+explosion
+Come, my sacrifices!
+Death Knight
+So much for.........
+Time to wake up from the illusion...
+Damn... you gave me a mortal wound...
+If it were just a little deeper...
+Kukuku...while you sleep, you will be my slave and wander...hahahahaha!
+How can a human being have this much power...?
+Gghh...this curse...is this your last desperate attempt?
+Kukuku... my curse will haunt you until the moment your desire is gone... hahahahaha!
+The sword was cursed by the blood of Valakas, but it should retain some of its original power...
+We're going to use the power of that sword to get out of here.
+Maybe it's the curse, but when I use the sword, my past battles with Valakas and myself rarely come to the surface...
+Maybe you can watch the fight too. Now go...I can't take much more of this.
+The spirit of the Death Knight flows in. (Time remaining: 30 minutes)
+You feel the will of the Death Knight. (Time remaining: 20 minutes)
+The sword burns up violently.(Time Left: 10min)
+The power of the sword begins to be suppressed.(Time Left: 5min)
+You feel that there is not much time left.(Time Left: 3min)
+You start to lose consciousness.(Time Left: 1min)
+Master Valakas will show no mercy to you.
+Under the curse of Master Valakas, you will continue to wander this world until you die.
+Fire Dragon's
+(Hell Fire)
+Ivory Tower Wizard^Heimo
 dummy
 dummy
-민첩의 부츠
-지식의 부츠
-dummy
-dummy
-dummy
+Boots of Dexterity
+Boots of Intelligence
 dummy
 dummy
 dummy
@@ -18684,22 +18681,25 @@ dummy
 dummy
 dummy
 dummy
-지식인챈트 질문 : 장비
+dummy
+dummy
+dummy
+Knowledge Enchantment Question: Equipment
 dummy
 dummy
 dummy
 dummy
 dummy
-진 데스나이트^(근거리 특화)
-진 데스나이트
+Jin Death Knight^(Melee Special)
+Jin Death Knight
 Ancient Salcheon's Bow
-고대한 Greatsword of Doom
+Ancient Greatsword of Doom
 Ancient Thunder Sword
-고대한 마력의 단검
-고대한 Destruction Claw
-고대한 공명의 키링크
-고대한 환영의 체인소드
-고대한 질풍의 도끼
+Ancient Mana Dagger
+Ancient Destruction Claw
+Ancient Resonance Kiringku
+Ancient Phantom Chainsword
+Ancient Windfury Axe
 아껴둔 무관의 갑옷
 아껴둔 무관의 투구
 아껴둔 무관의 망토
@@ -18715,23 +18715,23 @@ dummy
 Ancient Rumtis Blue Earrings
 Ancient Rumtis Red Earrings
 Ancient Rumtis Purple Earrings
-고대한 Snapper Health Ring
+Ancient Snapper Health Ring
 Anicient Snapper Magic Resistance Ring
-폭풍의 지원 상자
+Storm Support Box
 dummy
-각인 해제 큐브
-시간을 훔치는 시계
-블레스드 아머 두루마리
-아덴왕국 장비 지급함(전사)
-탐나는 성장의 열매 3일
+Unengraved Cube
+Time Stealing Watch
+Blessed Armor Enchant Scroll
+Aden Equipment Supply Box (Warrior)
+Fruit of Growth (3d)
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy 
-아덴 용사의 징표 상자
-거기 누구 없 소?
+Aden Champion's Token Box
+Anybody here?
 dummy
 dummy
 dummy
@@ -18746,16 +18746,16 @@ dummy
 dummy
 dummy
 dummy
-오림의 금화 상자
-오림의 장신구 상자
-오림의 서신
-아덴 사냥터
-몽환의 상자(반지)
-완력의 반지
-민첩의 반지
-오림의 장신구 마법주문서
-오림의 장신구 마법 주문서 상자
-오림의 장신구 마법 주문서 패키지
+Orim's Gold Coin Box
+Orim's Trinket Box
+Orim's letter
+Aden Hunting Ground
+Box of Dreams (Ring)
+Strength Ring
+Dexterity Ring
+Orim Ornament Magic Scroll
+Orim Ornament Magic Scroll Box
+Orim Ornament Magic Scroll Bag
 dummy
 dummy
 dummy
@@ -18783,37 +18783,37 @@ dummy
 dummy
 dummy
 dummy
-추천 장비 안내
-지식인챈트 질문 : 스탯
+Recommended Equipment Guide
+Knowledge Enchantment Question: Stats
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-창모드/전체화면 전환은 Alt+Enter로도 가능합니다.
-원하는 형태를 선택하면 즉시 변경됩니다.
-각각의 바를 움직여 볼륨을 조절할 수 있습니다.
-해상도
-배경음
-효과음
-환경음
-음  성
-음소거
-ON/OFF 기능의 옵션을 설정할 수 있습니다.
-확인을 눌러야 적용됩니다.
-단축키창 스크롤
-캐릭터 HP/MP바 보기
-드롭 아이템 표시
-NPC 이름 표시
-몬스터 시체 반투명화
-파티 자동 분배
-교환 가능
-말풍선 표시
-귓속말 가능
-혈맹 접속 알림
-게임창 항상 위에
-창고 비밀번호를 설정할 수 있습니다.
+Windowed Mode/Full Screen can also be toggled by Alt+Enter.
+Select the one you prefer and it will be reflected immediately.
+You can adjust each volume by moving the bar.
+Resolution
+Music
+Sound
+Environmental Sound
+Audio
+Mute
+ON/OFF Function
+Press OK to apply.
+Shortcut Scroll
+Show HP/MP bar
+Drop Item
+NPC Name Indication
+Monster Corpse Transparency
+Automatic Party Distribution
+Trade
+Speech Bubble
+Whisper
+Clan Connection Notice
+Always keep window on top
+You can set a warehouse password.
 dummy
 dummy
 dummy
@@ -18859,25 +18859,25 @@ dummy
 dummy
 dummy
 dummy
-각인 해제 패키지
-모..두 파괴하라..모든 것을..파괴하라..
-당신은 누구시죠?
-나? 나는..누구?? 기사..그래..나는 기사였다..그런데 나는 왜 여기에 있지?
-기..사?
-그래..나는 기사다... 자신의 작은 재주 하나만 믿고 발라카스에게 도전한 어리석은 기사..
-발라카스에게 패배하신겁니까?
-패배라..그래..결국엔 나의 패배겠지..나의 기억과 이성이 점차 사라지는 것을 보니..
-내가 이성을 잃기 전에 어서 이 검을 가지고 이 곳을 피하게.
-발라카스:누가 나를 깨우는가?
-데스나이트:발라카스! 드디어 너를 만나게 되는구나..
-발라카스:나의 잠을 깨운 댓가는..나의 노예가 되어 평생 갚게 되리라..
-데스나이트:그런 말은 내가 패배했을 때 해도 늦지 않는다.
-발라카스:크크..자신감이 넘치는구나..
-발라카스:죽어라 인간!
-일단 후퇴하지...
-건방진 녀석 따라와라!
-더욱 강력한 힘으로 제압해주지!
-동굴 안에 있는 더 큰 불의 힘을 마주하라!
+Unengraved Package
+Destroy... everything... everything...
+Who are you?
+I...I...I am...a knight...yes, I was a knight... Why are you here?
+Knight?
+That's right...I'm a knight...a foolish knight who overestimated his power and challenged Valakas...
+Were you defeated by Valakas?
+Defeated...yes...I am defeated. My memory and consciousness... are slowly fading...
+Take this sword and get out of here before I completely lose my reason.
+Valakas: Who woke me up?
+Death Knight:Valakas! You finally showed up...
+Valakas: The price for disturbing my sleep... be my slave and pay it till death...
+Death Knight: Hmmm, I'll let you say those words after you defeat me.
+Valakas: Kukuku... you have a lot of confidence...
+Valakas: Die! Human!
+If you never leave...
+You cheeky little... follow me!
+Let's use even more force to subdue them!
+Face the greater forces of fire in the cave!
 dummy
 dummy
 dummy
@@ -18934,9 +18934,9 @@ dummy
 dummy
 dummy
 dummy
-후오스
-Teleporter^지룡의 전령
-Teleporter^수룡의 전령
+Huos
+Teleporter^Earth Dragon's Herald
+Teleporter^Water Dragon's Herald
 dummy
 dummy
 dummy
@@ -18955,97 +18955,97 @@ dummy
 dummy
 dummy
 dummy
-특성
+\fHTrait
 dummy
 dummy
 dummy
-근성
-열정
-의지
+\fH근성
+\fH열정
+\fH의지
 Trainee Teleporter^Ricky
 Storm Teleporter^Kama
-물약 회복량
-소지 무게 증가율
-스노윙 보급 상자
-소모품 주머니
-[세트보너스]
+Potion Recovery
+Increase Weight Rate
+Snowing Supply Crate
+Consumable Pouch
+[Set Bonus]
 dummy
 dummy
-거인
-거인 전사
-거인 주술사
-거인 모닝스타
-수중 호흡
-흑기사 대장이 나타났습니다.
-허수아비
-"은기사 마을 귀환 주문서"를 사용하셔서 본격적인 모험을 시작해 보세요.
-공격 대상을 클릭 후 드래그를 해보세요. 자동 공격이 가능하답니다.
-드디어 기초 수련을 마치셨군요. 빨리 수련장 관리인을 만나보세요.
-바닥에 드롭 된 아이템은 클릭 혹은 F4키를 이용하여 획득하실 수 있어요.
-획득하신 아이템은 Tab키로 인벤토리를 열어 확인하실 수 있답니다.
-인벤토리의 아이템은 드래그를 통해 단축창에 등록하여 편하게 사용이 가능하답니다.
-초보자 상인 프라운: 수련에 필요한 물품을 판매하고 있습니다.
-초보자 상인 프라운: 저렴하게 판매하고 있으니 이용해 보세요.
-찾으시려는 물건이 있으신지요?
-물건을 맡기고 싶으시면 저를 찾아오세요.
-마법 전수자 페이하스: 마법이 필요하시면 저에게 오십시오.
-마법 전수자 페이하스: 마법을 배우고 싶으신가요?
-안녕하세요. 리니지에 오신 걸 환영합니다.
-도움이 필요하시면 언제든지 말씀하세요.
-허수아비를 공격하여 전투 감각을 익히십시오!
-허수아비를 통해서 레벨 5까지 훈련이 가능합니다.
-Beginner Helper^사냥터 관리인
-리키와 대화를 통해서 사냥터 안내를 받으세요.
-우와~ 드디어 수련을 마치셨군요. 제가 작은 선물을 준비했으니 받아서 사용해 보세요.
-주변에 몬스터들을 쓰러트려 보세요!
-다른 사냥터로 가고 싶으시면 언제든지 이야기해 주세요.
-이 곳에서 45레벨까지 열심히 수련하신 후 폭풍 수련 던전에 도전하세요.
-이 곳에서는 진정한 용사라 불리우는 52레벨까지 수련이 가능해요.
-은기사 마을이나 사냥터를 찾으시는 분은 저에게 오세요.
-5레벨 미만은 수련장으로 가셔서 허수아비로 수련을 하세요.
-이 곳 7층에는 안타라스의 후예 버모스가 잠들어 있습니다.
-이 곳에서는 수중에서 호흡할 수 있는 에바의 축복이 필요합니다.
-펫 관리인 버즈: 어서오세요. 펫을 보관해 드리고 있습니다.
-펫 관리인 버즈: 펫을 더 이상 키울 수 없다면 저희에게 양도해 주세요.
-혈맹 집행인: 군주님, 혈맹 창설을 도와드리겠습니다.
-혈맹 집행인: 군주라면 한 번쯤 자신만의 혈맹을 가져보는 것도 좋은 경험이 될 것입니다.
-잡화상 멜린: 수련에 필요한 물품을 판매하고 있습니다.
-잡화상 멜린: 저렴하게 판매하고 있으니 이용해 보세요.
-대장장이 아논: 크고 단단한 몬스터들을 상대하다보면 무기가 망가질 수 있습니다.
-대장장이 아논: 무기의 수리가 필요하면 저를 찾아오십시오.
-마법 전수자 로스티: 일반 마법 3단계까지! 속성으로 알려드립니다!
-마법 전수자 로스티: 364년의 마법 전수 노하우로 책을 읽을 필요도 없이 바로 알려드려요~
-정령 마법의 계열 선택과 변경을 도와드립니다.
-30레벨 이상의 요정님들은 정령 마법의 계열을 선택하실 수 있습니다.
-저렴한 가격에 마법을 걸어드립니다.
-빈 주문서를 가져오시면 마법 주문서를 만들어 드립니다.
-'강철의 문' 길드의 명예를 걸고 물건을 안전하게 보관해 드립니다.
-맡기는 건 무료지만, 찾을 때에는 물건 하나 당 무조건 30아데나 입니다.
-마법서를 판매하고 있습니다. 종류는 많지 않지만 꼭 필요한 것들이지요.
-귀한 마법서들은 사냥터 곳곳의 강한 몬스터에게서 구할 수 있답니다.
-주변 사냥터를 안내해 드립니다. 저에게 말을 걸어 주세요.
-다른 마을로 이동하고 싶으시면 언제든지 이야기해 주세요.
-[15 레벨] 무기와 방어구를 강화할 수 있는 선물을 드렸어요. ^O^
-[20 레벨] 반지 선물을 드릴게요~ 커플링은 아니니 오해하지 마세요 >_<
-[25 레벨] 벌써 25레벨이 되었네요. 두번째 반지 선물을 드릴게요 ^ㅡ^b
-[30 레벨] 마법서를 더블클릭해서 배워보세요. 마법창은 Ctrl+S 로 열어주는 센스!
-[35 레벨] 수련자의 벨트, 반지, 목걸이를 모두 착용하면 세트 보너스가 뿅! @_@
-[40 레벨] 울끈 불끈 힘이 솟는 주문서! 사용후기는 됐어요 -,.-
-[45 레벨] 레벨이 오를수록 변신 시 공격 속도가 빨라져요! 60레벨을 미리 체험해보세요.
-[50 레벨] 마을의 강화 마법사에게 무료로 버프를 받을 수 있는 선물을 드렸어요. *_*
-[52 레벨] 52레벨 데스나이트가 되셨군요. 졸업 선물을 열어보세요~ 정말 정말 축하해요!
-[53 레벨] 아덴 상점을 들렀다가 당신 것도 하나 샀어요~ 당신이 잊혀지지 않네요!
-[54 레벨] 제가 자꾸 선물을 드린다고 오해하지 마세요~ 전 만인의 연인이에요!
-[55 레벨] 벌써 다크 나이트가 되셨다니..왜 이렇게 빠르세요! 오랜만의 선물이에요!
-[56 레벨] 아이템보다 더 소중한 것은 당신과 함께하는 혈맹원 그리고 친구들이에요!
-[57 레벨] 상아탑은 두 개로 나뉘어져 있답니다. 숨겨진 두 번째 상아탑은 픽시의 세상에..
-[58 레벨] 캐릭터의 레벨 만큼 매너도 성장하고 있나요? 캐릭터는 또 다른 나라는거 잊지마세요!
-[59 레벨] 이제 조금만 더 힘내세요! 실버 나이트가 한 걸음 앞에 있어요!
-[60 레벨] 약속했던 실버 나이트가 되었군요. 마지막 선물을 받아주세요.
-안내: 이제 얼음 수정 동굴을 이용할 수 있습니다. 빠른 레벨업의 기회를 놓치지 마세요!
-안내: 경험치, 재화, 영혼석까지 무엇하나 놓칠 수 없는 기회의 땅, 상아탑을 방문해 보세요!
-안내: 글루디오 던전을 방문해 보세요! 강력해진 데스나이트가 당신을 기다리고 있습니다.
-스파이스
+Giant
+Giant Warrior
+Giant Shaman
+Giant Morningstar
+Underwater Breathing
+The Black Knight Chief has spawned..
+Scarecrow
+Use the Scroll of Return to Silver Knight Town to begin a full-scale adventure.
+Click and drag the attack target. You can attack automatically.
+You have finally finished your basic training. Please go to the training center manager.
+Dropped items can be picked up by clicking on them or using the F4 key.
+You can check the acquired items by opening the inventory with the Tab key.
+Items in the inventory can be dragged and used by registering them in the shortcut key window.
+Beginner Merchant Fraun: sells items necessary for training.
+Beginner Merchant Fraun: We will offer you a discount.
+See what you're looking for?
+If you want to leave an item with me, I can take care of it.
+Magic Instructor Peyhas: If you need magic, leave it to me.
+Magic Instructor Peyhas: Do you want to learn magic?
+Hello! Welcome to Lineage!
+If you need help, we're always here for you.
+Attack the scarecrow and get used to the sensation of fighting!
+Scarecrows can be used to train up to level 5.
+Beginner Guide^Hunt Manager
+Talk to Ricky and ask him for hunting directions.
+Wow! You have finally finished your training. We have prepared a gift for you.
+Let's take down some monsters in the area!
+If you are going to another hunting ground, we are always happy to hear from you.
+Train up to level 45 here and challenge the storm training dungeon.
+Here you can train up to level 52, which is called True Hero's.
+If you need anything for Silver Knight Town or hunting grounds, contact me!
+If you are under level 5, please train at the scarecrow in the training area.
+Here, on the seventh floor, sleeps Bomos, a descendant of Antharas.
+Here we need Eva's Blessing to be able to breathe underwater.
+Pet Manager Buzz: Welcome. We will take care of your pet.
+Pet Manager Buzz: If you cannot raise any more pets, please give them to us.
+Blood Alliance Executor: Dear Monarch, I will assist you in founding the Blood League.
+Blood Alliance Executor: It would be a good experience for a monarch to have his or her own bloodline at least once.
+Merchant Merin: We sell items necessary for training.
+Merchant Merin: We will offer it at a low price.
+Blacksmith Anon: If you defeat a big, hard monster, your weapon may break.
+Blacksmith Anon: If you want your weapon repaired, leave it to me.
+Magic Instructor Rosti: Up to 3 levels of general magic! We will let you know by attribute.
+Magic Instructor Rosti: With 364 years of magic instruction know-how, we will inform you immediately without reading the book.
+We will assist you in selecting and changing the series of spirit magic.
+Elves of level 30 and above can choose a series of spirit magic.
+We do magic at a low price.
+You can create spell scroll with a blank scroll.
+'Guild Steal' keeping items safe.
+There is no charge to deposit an item, but you will be charged 30 adena per item when you withdrawl it.
+We sell some magic books, we don't have many, but I am sure we got the ones you need.
+Rare magic books are said to be obtained from the strongest monsters.
+I can show you were to hunt, contact me for more information.
+See us when you want to move to another village.
+[Lvl 15]Here is a gift to help enchance your weapon and armor.
+[Lvl 20]Here is a ring gift, it's not an engagement ring so don't get me wrong.
+[Lvl 25]You already reached level 25! Here's another ring as a gift.
+[Lvl 30]Double-click on the magic book.  You can use CTRL+S to open the magic window.
+[Lvl 35]If you were all the rings, amulets, and belt of the trainee, you will receive a set bonus.
+[Lvl 40]A scroll to give you power.  No need for showing off now.
+[Lvl 45]Higher the level, the faster attack speed becomes when you are polymorphed.
+[Lvl 50]A gift from the Village Enchacement Wizard.
+[Lvl 52]Congrats on reaching Level 52! Sent another gift as well, really congratulations on the level up!
+[Lvl 53]I stopped by the Aden store and bought you something. You are unforgettable!
+[Lvl 54]I always give gifts, but don't get me wrong.  I don't love you!
+[Lvl 55]I can't believe I'm already a dark knight. How did it happen so fast! It's been a long time since I've had a present!
+[Lvl 56]More important than the items, are your blood clan mates and friends!
+[Lvl 57]The Ivory Tower is divided into two parts. The second, hidden ivory tower is the pixie world of...
+[Lvl 58]Are your manners growing as fast as your character's lvl? Because your character is another version of you!
+[Lvl 59]Hang in there a little longer! Silver Knight is just one step away!
+[Lvl 60]So, as promised, it's silver night. Here's one last present for you.
+Notice: The Ice Crystal Cave is now available.
+Notice: Head to Ivory Tower, you can earn exp, money and even soul crystals!
+Notice: Death Knight is waiting for you in Gludio Dungeon.  Go get him!
+spice
 Ring of Holy Strike
 dummy
 dummy
@@ -19057,11 +19057,11 @@ dummy
 dummy
 dummy
 dummy
-데몬의 탄생 귀걸이
-데몬의 검은 목걸이
-데몬의 푸른 목걸이
-데몬의 붉은 목걸이
-데몬 장신구 상인^데몬의 축하 전령
+Demon Birth Earrings
+Demon Black Necklace
+Demon Blue Necklace
+Demon Red Necklace
+Demon Trinket Vendor^Congratulatory Message
 dummy
 dummy
 dummy
@@ -19095,30 +19095,30 @@ dummy
 dummy
 dummy
 dummy
-[지원아이템] 사용기한
-나라크
-버닝 하운드
-(크래쉬)
-(퓨리)
-(슬레이어)
-(아머 가드)
-(타이탄: 락)
-(타이탄: 블릿)
-(타이탄: 매직)
-(하울)
-(기간틱)
-(데스페라도)
-(파워 그립)
-(토마호크)
-그렘린의 선물상자[9월]
-그렘린의 선물상자[10월]
-그렘린의 선물상자[11월]
-그렘린의 선물상자[12월]
-발라카스의 안식을 방해하는 자에게 죽음을!
-화룡의 둥지에 들어온 이상 절대 살아서 돌아갈 수 없을 것이다! 후하하하...
-아덴 영웅의 흔적
-영웅의 보상
-빛나는 영웅의 보상
+[Support Item] Expiration Date
+Narak
+Burning Hound
+(Crash)
+(Fury)
+(Slayer)
+(Armor Guard)
+(Titan Lock)
+(Titan Blitz)
+(Titan Magic)
+(Howl)
+(Gigantic)
+(Desperado)
+(Power Grip)
+(Tomahawk)
+Gremlin's Gift Box [SEP]
+Gremlin's Gift Box [OCT]
+Gremlin's Gift Box [NOV]
+Gremlin's Gift Box [DEC]
+Death to those who disturb the rest of Valakas!
+Now that you've invaded the fire dragon's habitat, you'll never get out alive! Hahahaha...
+Traces of Aden Heroes
+Hero's Reward
+Shining Hero's Reward
 dummy
 dummy
 dummy
@@ -19127,18 +19127,18 @@ dummy
 dummy
 dummy
 dummy
-독 내성
+Poison Resistance
 dummy
-(펌프킨 락다운)
-(라이트닝 스트라이크)
-(다크 라이트닝)
-(콜드 체이서)
-(일렉트릭 쇼크)
-(테베 체이서)
-(쿠쿨칸 체이서)
-(이블 리버스)
-(이블 트릭)
-(결속된 파푸리온의 가호)
+(Pumpkin lockdown)
+(Lightning Strike)
+(Dark Lightning)
+(Cold Chaser)
+(Electric Shock)
+(Thebe Chaser)
+(Kukulkan Chaser)
+(Evil Reverse)
+(Evil Trick)
+(Blessing of United Fafurion)
 dummy
 dummy
 dummy
@@ -19177,16 +19177,16 @@ dummy
 dummy
 dummy
 dummy
-(베놈 블레이즈)
-(마력의 린드비오르의 가호)
-(할로윈의 가호)
-(블레이즈 쇼크)
-(크리티컬 선 버스트)
-(홀드)
-(문라이트 이럽션)
-(펌프킨 커스)
-(레져넌스 쇼크)
-(팬텀 쇼크)
+(Venom Blaze)
+(Protection of Magical Lindvior)
+(Blessing of Halloween)
+(Blaze Shock)
+(Critical Sun Burst)
+(Hold)
+(Moonlight Eruption)
+(Pumpkin Cars)
+(Resonance Shock)
+(Phantom Shock)
 dummy
 dummy
 dummy
@@ -19252,33 +19252,33 @@ dummy
 dummy
 dummy
 dummy
-휴지통
-아이템 정렬
-마력의 장갑
-빛나는 마력의 장갑
-마력의 실타래
-자이언트 크로커다일
-에트
-쥬라카
-마력의 장갑
-빛나는 마력의 장갑
-마력의 핵
+Trash
+Arrange Items
+Magical Gloves
+Shining Magical Gloves
+Magic Thread
+Giant Crocodile
+Eight
+Juraka
+MagicalGloves
+Glowing Magical Gloves
+Magical Core
 dummy
 dummy
 dummy
-여왕 개미 주머니
-경비 대장
-여왕 개미를 공격해라!
-여왕 개미
-이곳을 지켜야 한다!
-그만! 가만두지 않겠다!!
-마을 아이
-수련자
-숲의 요정
-배가 고파서 체력 회복이 안되네... 고기가 먹고 싶군.
-요리를 먹으면 힘이 강해진다네 친구.
-손상된 무기는 숯돌로 수리가 된다네요~.
-오크는 공격하면 동료들이 달려 들어요~.
+Ant Queen Bag
+Guard Captain
+Attack the Ant Queen!
+Ant Queen
+Protect this place!
+No! I won't let you!
+Village Child
+Templar
+Forest Elf
+You're hungry and have no strength...You want to eat meat...
+You would feel better if you could eat something.
+You can repair damaged weapons with a whetstone.
+If you attack the orcs, their friends will jump on you.
 dummy
 dummy
 dummy
@@ -19310,20 +19310,20 @@ dummy
 dummy
 dummy
 dummy
-인벤토리 모드
-리스트 모드
-용량(%d/%d)
-성향
-단계
-사용레벨
-속성
+Inventory Mode
+List Mode
+Capacity(%d/%d)
+\fHAlignment
+\fHMagic Lv
+Usage Level
+Elemental
 dummy
 dummy
-라우풀
-축축한 목화솜
-은빛 베리아나의 비늘
-금빛 베리아나의 비늘
-굵은 실타래 단장^오발 오크
+Lawful
+Damp Cotton Wool
+Silver Bariana's Scale
+Golden Bariana's Scales
+Coarse Thread Master^Oval Orc
 Silver Cloak
 dummy
 dummy
@@ -19358,7 +19358,7 @@ dummy
 dummy
 dummy
 dummy
-30일
+30d
 dummy
 dummy
 dummy
@@ -19371,13 +19371,13 @@ dummy
 dummy
 dummy
 dummy
-일반창고
-혈맹창고
-특수창고
-고대 거인의 무덤(PC)/고대 정령의 무덤(PC)
-오우거 킹
-코카트리스 킹
-하피 퀸
+G.Warehouse
+C.Warehouse
+S.Warehouse
+Ancient Giant's Tomb(PC)/Ancient Spirit's Tomb(PC)
+Orge King
+Cockatrice King
+Harpy Queen
 dummy
 dummy
 dummy
@@ -19486,7 +19486,7 @@ dummy
 dummy
 코인 수집상^덴
 봉인해제사^언라크
-픽시의 금빛 깃털
+Pixie Golden Feather
 픽시의 나무상자 (소)
 픽시의 나무상자 (대)
 픽시의 황동상자
@@ -19500,7 +19500,7 @@ dummy
 Sealed Greatsword of Doom
 Sealed Destruction Claw
 Sealed Salcheon's Bow
-Sealed 환영의 체인소드
+Sealed Phantom Chainsword
 Sealed Red Knight's Greatsword
 Sealed Silver Cloak
 Sealed Stone Gloves
@@ -19564,10 +19564,10 @@ dummy
 dummy
 dummy
 dummy
-하피 퀸
-코카트리스 킹
-오우거 킹
-미노타우르스 골렘
+Harpy Queen
+Cockatrice King
+Orge King
+Minotaur Golem
 dummy
 dummy
 dummy
@@ -19624,32 +19624,32 @@ dummy
 dummy
 dummy
 dummy
-불 붙은 볏짚 폭탄
-언덕배기 관리인^지프리
-지프리의 언덕배기
-지프리의 체력물약
-시원한 마력물약
-언덕배기 식량
-파전
-오고
-약시
-토란
-괴기
-시케
-나무르
-고감
-도그라뎅
-숙해
-오지어
-고치
-도그라쿤
-산적
-지프리의 쑥절편(Advanced Spirit)
-지프리의 창포떡(Iron Skin)
-지프리의 시루떡(Dragon Skin)
-언덕배기 식량
-으악..
-앗 뜨거워!!
+Straw Bomb
+Hill Caretaker^Giffry
+Giffry's Hill
+Giffry's Stamina Potion
+Secret Magic Potion
+Hill Food
+Fazen
+Otko
+Yakshi
+Dolan
+Khaki
+Shikee
+Namur
+Gogan
+Tocratetom
+Zukke
+Ogio
+Cotchy
+Toclactam
+Bandit
+Giffyr's Ricecake (Advanced Spirit)
+Giffyr's Ricecake (Iron Skin)
+Giffyr's Ricecake (Dragon Skin)
+Choosuk Event Food
+Oh, my God!
+Attsy!
 dummy
 dummy
 dummy
@@ -19658,12 +19658,12 @@ dummy
 dummy
 dummy
 dummy
-힘의 마법저항 티셔츠 상자:특제
-힘의 기술 티셔츠 상자:특제
-민첩의 마법저항 티셔츠 상자:특제
-민첩의 기술 티셔츠 상자:특제
-지식의 마법저항 티셔츠 상자:특제
-지식의 기술 티셔츠 상자:특제
+Strength 마법저항 T-shirt 상자:특제
+Strength 기술 T-shirt 상자:특제
+Dexterity 마법저항 T-shirt 상자:특제
+Dexterity 기술 T-shirt 상자:특제
+지식의 마법저항 T-shirt 상자:특제
+지식의 기술 T-shirt 상자:특제
 dummy
 dummy
 dummy
@@ -19723,7 +19723,7 @@ dummy
 dummy
 dummy
 dummy
-티셔츠 전용 마법 주문서 상자
+T-shirt 전용 마법 주문서 상자
 dummy
 dummy
 dummy
@@ -19799,18 +19799,18 @@ dummy
 dummy
 dummy
 dummy
-호랑이 변신 물약
-메마른 황무지 거대 거미
-풍성한 Zeroth Staff
-풍성한 Nightbald's Two-Handed Sword
-풍성한 진노의 크로우
-풍성한 Nightmare Longbow
-풍성한 오우거의 도끼
-풍성한 극한의 체인소드
-풍성한 냉한의 키링크
-풍성한 악마의 칼
-소모품 판매상인^구부리
-언덕배기 판매상인^주버
+Tiger Transformation Potion
+Kitaras
+Lich Xeros staff
+Lich Knightvald's Two Handed Sword
+Lich Fury Claw
+Lich Nightmare Longbow
+Lich Tempest Axe
+Lich Frosty Chainsword
+Lich Extreme Frigid Kiringku
+Lich Evil Sword
+Consumables Vendor^Kubri
+Hill Vendor^Juper
 dummy
 dummy
 dummy
@@ -19874,111 +19874,111 @@ dummy
 dummy
 dummy
 dummy
-Teleporter^길리
-클라우디아 신녀^라라
-시원한 Death Knight's Fire Sowrd
-시원한 Kurtz's Sword
+Teleporter^Kiri
+Claudia's Messenger of Good^Lara
+Lich Death Knight's Fire Sowrd
+Lich Kurtz's Sword
 dummy
 dummy
 dummy
 dummy
-왜곡의 웅골리언트
-왜곡의 메두사
-왜곡의 라미아
-왜곡의 키메라
-왜곡의 코카트리스
-왜곡의 제니스 퀸
-불신의 다이어울프
-불신의 미믹
-불신의 댄싱 소드
-불신의 비홀더
-불신의 서큐버스
-불신의 시어
-공포의 파이어 에그
-공포의 켈베로스
-공포의 나이트메어
-공포의 레서 데몬
-공포의 이프리트
-공포의 아그니
-공포의 뱀파이어
-죽음의 좀비
-죽음의 스파토이
-죽음의 해골 돌격병
-죽음의 해골 저격병
-죽음의 해골 근위병
-죽음의 좀비 로드
-지옥의 고스트
-지옥의 고스트
-지옥의 네크로맨서
-지옥의 아이언 골렘
-지옥의 레서 드래곤
-지옥의 본 드래곤
-지옥의 쿠거
-불사의 구울
-불사의 좀비 병사
-불사의 좀비 마법사
-불사의 좀비 장군
-불사의 머미 로드
-잔혹한 라이칸스로프
-잔혹한 샤벨타이거
-잔혹한 혼 켈베로스
-잔혹한 아시타지오
-잔혹한 아이리스
-어둠의 불타는 궁수
-어둠의 불타는 전사
-어둠의 흑기사
-어둠의 서큐버스 퀸
-어둠의 나이트 발드
-불멸의 해골 저격병
-불멸의 해골 돌격병
-불멸의 해골 근위병
-불멸의 해골 기사
-불멸의 리치
-오만한 아시타지오
-오만한 서큐버스 퀸
-오만한 레비아탄
-오만한 아스모데우스
-오만한 우그누스
-제니스 퀸
-시어
-뱀파이어
-좀비 로드
-쿠거
-머미 로드
-아이리스
-나이트발드
-리치
-우그누스
-사신 그림 리퍼
-오만의 탑 지배 부적
+Distortion Dread Spider
+Distortion Medusa
+Distortion Ramia
+Distortion Chimera
+Distortion Cockatrice
+Distortion Zenith Queen
+Mistrust Dire Wolf
+Mistrust Mimic
+Mistrust Dancing Sword
+Mistrust Eye Monster
+Mistrust Succubus
+Mistrust Sheer
+Fear Fire Egg
+Fear Cerberus
+Fear Nightmare
+Fear Lesser Demon
+Fear Ifrit
+Fear Agni
+Fear Vampire
+Death Zombie
+Death Spartoi
+Death Skeleton Fighter
+Death Skeleton Marksman
+Death Skeleton Guard
+Death Zombie Lord
+Hell Ghost
+Hell Ghost
+Hell Necromancer
+Hell Iron Golem
+Hell Lesser Dragon
+Hell Bone Dragon
+Hell Cougar
+Immortal Ghoul
+Immortal Zombie Soldier
+Immortal Zombie Wizard
+Immortal Zombie General
+Immortal Mummy Lord
+Brutal Lycanthrope
+Brutal Saber Tiger
+Brutal Horn Cerberus
+Brutal Astagio
+Brutal Iris
+Dark Burning Archer
+Dark Burning Warrior
+Dark Black Knight
+Dark Succubus Queen
+Dark Nightvald
+Forever Skeleton Marksman
+Forever Skeleton Fighter
+Forever Skeleton Guard
+Forever Skeleton Knight
+Forever Lich
+Burning Astagio
+Burning Succubus Queen
+Burning Leviathan
+Burning Asmodeus
+Part Ugnus
+Zenith Queen
+Sheer
+Vampire
+Zombie Lord
+Cougar
+Mummy Lord
+Iris
+Knightvald
+Lich
+Ugnus
+Reaper Grim Reaper
+Tower of Insolence Control Amulet
 dummy
-호박 목걸이
-호박석
+Pumpkin Necklace
+Halloween Coin
 dummy
 dummy
 dummy
 dummy
 dummy
-소모
+Consumption
 dummy
 dummy
-지속시간
+\fHDuration
 dummy
 dummy
 dummy
 dummy
 dummy
-클라우디아 신녀^라라
+Lady Claudia^Lara
 dummy
 dummy
 dummy
 dummy
 dummy
 dummy
-드루가의 문장 확인 주문서
-유실된 드루가의 가보
-수상한 판매원^티몬스
-보물 수집가^엔더
+Druga's Crest Verification Scroll
+Lost Druga Heirloom
+Suspicious Salesman^Timons
+Treasure Collector^Ender
 dummy
 dummy
 dummy
@@ -20021,7 +20021,7 @@ dummy
 묵직한 곰
 포스 넘치는 용
 협동심 강한 쌍둥이
-강력한 힘의 영웅
+강력한 Strength 영웅
 황제 사자
 박민우의 보답 상자
 김종호의 보답 상자
@@ -20050,8 +20050,8 @@ dummy
 dummy
 dummy
 dummy
-무덤 고고학자^슈콘
-무덤 고고학자^슈고
+Tomb Archaeologist^Shukon
+Tomb Archaeologist^Shugo
 dummy
 dummy
 dummy
@@ -20174,22 +20174,22 @@ dummy
 dummy
 dummy
 dummy
-우리는 언제나 명문이였지~
-올해는 이렇지만 내년에는 달라질 것이다.
-올해는 부상으로 많은 경기를 놓쳤지만..
-내년에는 착실히 승수를 쌓아 올릴 것이다.
-우린 언제나 라이벌로 통할 것이다~
-올해 가을에는 보지 못하지만 내년에는 반드시 최고의 자리에 올라가겠다!!
-2014년 가을 잔치에 우리가 없다고는 하지만~
-내년에는 우리가 꼭 참가 하고야 말겠다!
-가을에 우리가 없는게 얼마만인지 모르겠구나.
-내년에는 꼭 가을 황제의 면목을 보여주겠다!!
-막판 뒷심이 뭔질 보여주었지만~
-거침 없는 공룡의 행보를 막을 수가 없구나..
-윽!~ 소문대로 역시 강력한 공룡이군!!
-나를 이기고 올라간 만큼 최고의 자리로 올라갔으면 하네~
-아 아니.. 어떻게??
-2살배기 공룡에게 이런 힘이..
+We've always been famous
+This year will be the same, but next year will be different.
+I missed a lot of games this year due to injuries.
+Next year, we will steadily build up the number of wins.
+We will always lead as rivals~
+I won't be able to see you this fall, but I'll definitely rise to the top next year!!
+Although it is said that we are not at the 2014 autumn party~
+Next year we will definitely participate!
+I don't know how long it will be without us in the fall.
+Next year, I will definitely show you the face of an autumn emperor!!
+But at the end of the day, I showed you what
+You can't stop the reckless march of the dinosaurs...
+Ugh!~ As the rumors say, it's a powerful dinosaur!
+As much as you beat me and climbed up, I want you to rise to the top spot.
+Oh no.. how??
+A 2-year-old dinosaur has this kind of power...
 dummy
 dummy
 dummy
@@ -20274,12 +20274,12 @@ dummy
 dummy
 dummy
 dummy
-대미지 리덕션
+Damage Reduction
 ER
 dummy
 dummy
 dummy
-MR
+\fHMR
 DG
 dummy
 dummy
@@ -20300,15 +20300,15 @@ dummy
 dummy
 dummy
 dummy
-우리 NC 다이노스가 아쉽게도 플레이오프 진출을 하지 못하였습니다.
-2015년에도 언제나 뜨거운 응원 부탁 드립니다. 2015년에도 거침없이~ 가자!!!!
+Unfortunately, our NC Dinos did not advance to the playoffs.
+We ask for your continued support in 2015 as well. Let's go without hesitation in 2015 too!!!!
 Strange Teleporter^Iki
 Strange Teleporter^Teeth
-이상한 성장의 물약
-이상한 주문서
-이상한 힐링 포션
-군터의 마나 포션
-이상한 얼음 여왕 주머니
+Strange Growth Potion
+Strange Spell
+Strange Healing Potion
+Gunther's Mana Potion
+Strange Ice Queen's Pouch
 dummy
 dummy
 dummy
@@ -20342,7 +20342,7 @@ dummy
 dummy
 dummy
 dummy
-G30 지원 상자
+G30 Support Box
 dummy
 dummy
 dummy
@@ -20381,18 +20381,18 @@ dummy
 dummy
 dummy
 dummy
-할로윈 양손검
-할로윈 지팡이
-할로윈 한손검
-할로윈 활
-할로윈 이도류
-할로윈 체인소드
-할로윈 키링크
-할로윈 도끼
-할로윈 무기 마법 주문서
-금 호박
-아이템 상인^아루
-10검 수집가^바루
+Halloween Two-Handed Sword
+Halloween Staff
+Halloween Sword
+Halloween Bow
+Halloween Edoryu
+Halloween Chainsword
+Halloween Kiringku
+Halloween Axe
+Halloween Weapon Enchant Scroll
+Gold Pumpkin
+Item Vendor^Aru
+10 Sword Collector^Baru
 dummy
 dummy
 dummy
@@ -20428,8 +20428,8 @@ dummy
 dummy
 dummy
 dummy
-강화 마법사 1회 무료 코인
-출석 타이머
+Enchancement Wizard Coin (1)
+Attendance Timer
 dummy
 dummy
 dummy
@@ -20438,9 +20438,9 @@ dummy
 dummy
 dummy
 dummy
-이벤트 기간에만 구입 할 수 있는 호박 목걸이와 벨트 등을 판매하고 있어요~ 
-이 아이템들은 딱! 11월 8일까지만 판매합니다! 서두르세요! 
-출석 완료
+Pumpkin amulets and belts available only during the event~.
+These items will be on sale until November 3rd! Hurry up!
+Attendance Complete
 dummy
 dummy
 dummy
@@ -20452,86 +20452,81 @@ dummy
 dummy
 dummy
 dummy
-던전 초기화 쿠폰: 기란 감옥
-던전 초기화 쿠폰: 정령의 무덤
-던전 초기화 쿠폰: 상아탑
+Dungeon Reset Coupon: Giran Prison
+Dungeon Reset Coupon: Spirit's Tomb
+Dungeon Reset Coupon: Ivory Tower
 dummy
 dummy
 dummy
 dummy
 dummy
-마법인형: 사이클롭스
-퓨어 엘릭서
+Magic Doll: Cyclops
+Pure Elixir
 dummy
-사이클롭스 마법인형
-자이언트 마법인형
-마법인형: 자이언트
-Crafting Table^엘릭서
-N샵 강화사^판도라
+Cyclops Magic Doll
+Giant Magic Doll
+Magic Doll: Giant
+Crafting Table^Elixir
+N Shop^Pandora
 5일
 (30+5일)
-빛나는 성장의 물약
-빛나는 신비의 큐브
-빛나는 성장의 물약 상자
-빛나는 신비의 큐브 상자
-흑장로 마법인형
-서큐버스 퀸 마법인형
-마법인형: 흑장로
-마법인형: 서큐버스 퀸
-냉한의 주머니
-빛나는 파워 패키지
-마법의 두루마리
-축복받은 드래곤의 보물 상자 10 Pack
-축복받은 드래곤의 보물 상자 10+10 Pack
-반월의 낚시 가방 5 Pack
-반월의 낚시 가방 5+5 Pack
-반월의 낚시 가방
-얼어붙은 반월의 보물
-반월의 장타 낚싯대
+Glowing Growth Potion
+Glowing Mystery Cube
+Glowing Growth Potion Box
+Glowing Mystery Cube Box
+Black Elder Magic Doll
+Succubus Queen Magic Doll
+Magic Doll: Black Elder
+Magic Doll: Succubus Queen
+Cold Bag
+Glowing Power Package
+Magic Scroll
+Blessed Dragon's Treasure Chest (10)
+Blessed Dragon's Treasure Chest (20)
+Half Moon Fishing Bag (5)
+Half Moon Fishing Bag (10)
+Half Moon Fishing Bag
+Frozen Half Moon Chest
+Half Moon Fishing Rod
 dummy
 dummy
 dummy
-드래곤의 주문서 상자
-드래곤의 장신구 상자
-드래곤의 엘릭서 상자
-16주년 선물 상자
+Dragon's Scroll Box
+Dragon's Trinket Box
+Dragon's Elixir Box
+16th Anniversary Gift Box
 dummy
 Rumtis Earring Exchange Coupon
-16주년 기념 코인
-16주년 기념 도우미^마리안
-16주년 기념 음료
-16주년 기념 요리
-16주년 기념 스프
-16주년 기념 주문서
-16주년 행운 상자
-군터의 마법 코인 (STR, DEX)
-군터의 마법 코인 (Iron Skin)
-군터의 마법 코인 (Dragon Skin)
-군터의 마법 코인 (Advanced Spirit)
-행운석
-한정 제작사^과거의 망령
-마물 봉인석(화)
-마물 봉인석(지)
-마물 봉인석(수)
-마물 봉인석(풍)
-사막 지역 전체
-발라카스 군단을
-안타라스 군단을
-파푸리온 군단을
-린드비오르 군단을
-순간 마나 회복 물약
+16th Anniversary Coin
+16th Anniversary Helper^Marian
+16th Anniversary Drink
+16th Anniversary Dish
+16th Anniversary Soup
+16th Anniversary Scroll
+16th Anniversary Lucky Box
+Gunther's Magic Coin (STR, DEX)
+Gunther's Magic Coin (Iron Skin)
+Gunther's Magic Coin (Dragon Skin)
+Gunther's Magic Coin (Advanced Spirit)
+Lucky Stone
+Limited Crafter^Ghosts of the Past
+Demon Sealing Stone(Fire)
+Demon Sealing Stone(Earth)
+Demon Sealing Stone(Water)
+Demon Sealing Stone(Wind)
+Entire Desert Region
+Valakas Legion
+Antharas Legion
+Fafurion Legion
+Lindvior Legion
+Instant Mana Recovery Potion
 dummy
 dummy
 dummy
 dummy
-몽환의 상자(인장)
+Box of Dreams (Seal)
 dummy
-스냅퍼의 반지 교환권
-dummy
-dummy
-dummy
-dummy
-dummy
+Snapper's Ring Voucher
 dummy
 dummy
 dummy
@@ -20555,79 +20550,84 @@ dummy
 dummy
 dummy
 dummy
-강철 각반
-체력 각반
-마법방어 각반
-검은 별의 각반
-신의손 Mr.K의 보은상자(힘-마법저항)
-신의손 Mr.K의 보은상자(민첩-마법저항)
-신의손 Mr.K의 보은상자(지식-마법저항)
-신의손 Mr.K의 보은상자(힘-기술내성)
-신의손 Mr.K의 보은상자(민첩-기술내성)
-신의손 Mr.K의 보은상자(지식-기술내성)
-신의손 Mr.K의 보은상자(힘-정령내성)
-신의손 Mr.K의 보은상자(민첩-정령내성)
-신의손 Mr.K의 보은상자(지식-정령내성)
-Mr.K의 특제 힘의 마법저항 티셔츠 상자
-Mr.K의 특제 민첩의 마법저항 티셔츠 상자
-Mr.K의 특제 지식의 마법저항 티셔츠 상자
-Mr.K의 특제 힘의 기술내성 티셔츠 상자
-Mr.K의 특제 민첩의 기술내성 티셔츠 상자
-Mr.K의 특제 지식의 기술내성 티셔츠 상자
-Mr.K의 특제 힘의 정령내성 티셔츠 상자
-Mr.K의 특제 민첩의 정령내성 티셔츠 상자
-Mr.K의 특제 지식의 정령내성 티셔츠 상자
-Mr.K의 특제 힘의 마법저항 티셔츠
-Mr.K의 특제 민첩의 마법저항 티셔츠
-Mr.K의 특제 지식의 마법저항 티셔츠
-Mr.K의 특제 힘의 기술내성 티셔츠
-Mr.K의 특제 민첩의 기술내성 티셔츠
-Mr.K의 특제 지식의 기술내성 티셔츠
-Mr.K의 특제 힘의 정령내성 티셔츠
-Mr.K의 특제 민첩의 정령내성 티셔츠
-Mr.K의 특제 지식의 정령내성 티셔츠
-Mr.K의 큐브
-Mr.K의 식량가방
-Mr.K의 정성스런 요리
-Mr.K의 정성스런 스프
-오림: 여러분 당황하지 마시고 배를 사수 해야 합니다.
-오림: 우리 배를 공격하고 있는 것은 올딘이라 불리는 것입니다.
-오림: 자세한 얘기는 조금 후에 하지!.
-오림: 명심하게 올딘을 상대 하려면 최소 3명이 있어야 하오! 배가 충돌하면, 적들이 뛰어들 것입니다! 조심하세요!
-오림: 적들이 난입합니다! 준비해주세요!
-오림: 주변에 이상한 기운이 느껴집니다...조심하세요!
-오림: 적들이 몰려오고 있습니다.조심하세요!
-오림: 적들이 몰려오고 있습니다.조그만 더 힘내주세요!
-오림: 드디어 올딘의 기운이 느껴집니다! 조심 하세요!
-오림: 많은 설명이 필요하진 않을것 같습니다.
-오림: 지금쯤 말하는 섬은 놈들에 의해 페허가 되었을 겁니다.
-오림: 다시 돌아가면 기억하고 있던 많은 곳들은 흔적도 남아 있지 않을겁니다.
-오림: 싸움은 시작 되었습니다. 저는 스승님을 찾아 이 싸움을 끝낼 방법을 찾겠습니다.
-오림: 이 싸움이 끝날때까지....
-오림: 여러분 어서 이 위험을 꼭 사람들에게 알려야 합니다.!!
-오림: 이 인원으로는 어떻게 할 도리가 없습니다. 모두 대피하세요.
-오림: 이 상태로는 올딘을 상대 할 수 가없습니다.!
-오림: 인원을 모아 다시 함께 오게나!
-오림: 나는 여기서 기다리겠네...
-올딘: 겨우 그정도 인원이라니... 이 배는 내가 접수하겠다.!
-오림: 적들이 후퇴 해서 잠시 숨좀 돌릴 수 있겠군요.
-적의 배가 손상되여 후퇴 하였습니다.
-오림: 올딘의 기운이 점점 느껴집니다!
-종료까지 2분 남았습니다.
-종료까지 1분 남았습니다.
-종료까지 30초 남았습니다.
-종료까지 5초 남았습니다.
-난이도 하^유키
-난이도 중^유키
 dummy
 dummy
 dummy
 dummy
 dummy
-그렘린의 마안
-포악한 악어
-비장한 악어
-비장한 사자
+Iron Gaiters
+Stamia Gaiters
+Magic Defense Gaiters
+Dark Star Gaiters
+Hand of God Mr.K Return Box(Strength - Magic Resistance)
+Hand of God Mr.K Return Box(Dexterity - Magic Resistance)
+Hand of God Mr.K Return Box(Intelligence - Magic Resistance)
+Hand of God Mr.K Return Box(Strength - Skill Resist )
+Hand of God Mr.K Return Box(Dexterity - Skill Resist )
+Hand of God Mr.K Return Box(Intellect - Skill Resist )
+Hand of God Mr.K Return Box(Strength - Spirit Resistance)
+Hand of God Mr.K Return Box(Dexterity - Spirit Resistance)
+Hand of God Mr.K Return Box(Intelligence - Spirit Resistance)
+Mr.K Special Strength MR T-shirt Box
+Mr.K Special Dexterity MR T-shirt Box
+Mr.K Special Intelligence MR T-shirt Box
+Mr.K Special Tech Strength MR T-shirt Box
+Mr.K Special Tech Dexterity MR T-shirt Box
+Mr.K Special Tech Intelligence MR T-shirt Box
+Mr.K Special Spirit Strength MR T-shirt Box
+Mr.K Special Spirit Dexterity MR T-shirt Box
+Mr.K Special Spirit Intelligence MR T-shirt Box
+Mr.K Special Strength MR T-shirt
+Mr.K Special Dexterity MR T-shirt
+Mr.K Special Intelligence MR T-shirt
+Mr.K Special Tech Strength MR T-shirt
+Mr.K Special Tech Dexterity MR T-shirt
+Mr.K Special Tech Intelligence MR T-shirt
+Mr.K Special Spirit Strength MR T-shirt
+Mr.K Special Spirit Dexterity MR T-shirt
+Mr.K Special Spirit Intelligence MR T-shirt
+Mr.K Cube
+Mr.K Food Bag
+Mr.K Hearty Cuisine
+Mr.K Hearty Soup
+Orim: First of all, please calm down. We must protect the ship.
+Orim: The person attacking our ship is named Aldin.
+Orim: We'll talk more about that later!
+Orim: It would take at least three people to deal with Aldin. Oh, and if the boat leaves the shore, the enemy will attack. Watch out!
+Orim: The enemy are breaking in! Prepare for attack!
+Orim: I sense a strange spirit... be careful!
+Orim: The enemy are gathering. Watch out!
+Orim: The enemy are gathering. Hang in there a little longer!
+Orim: Aldin is getting closer! Please be careful!
+Orim: I don't need to explain this or that any longer...
+Orim: By now, the Talking Island will have been reduced to ruins by their hands.
+Orim: When we returned, all our memories would have vanished without a trace...
+Orim: The battle has just begun. I will meet with my master and try to find a way to end this fight.
+Orim: Until the day this battle is over...
+Orim: We must tell everyone about this crisis!
+Orim: There is nothing we can do with this force. Run away!
+Orim: This is not going to be enough to fight Aldin.
+Orim: Get people together and come back!
+Orim: I'll wait here...
+Aldin: That's it... This ship belongs to me.
+Orim: The enemy has retreated. It looks like we can take a little break.
+Enemy ship damaged and retreated.
+Orim: I feel Aldin's spirit!
+You have 2 minutes left to finish.
+You have 1 minute left to finish.
+You have 30 seconds left to finish.
+You have 5 seconds left to finish
+Difficulty Easy^Yuki
+Difficulty Normal^Yuki
+dummy
+dummy
+dummy
+dummy
+dummy
+Eye of the Gremlin
+Violent Alligator
+Ruthless Alligator
+Cruel Emissary
 dummy
 dummy
 dummy
@@ -20778,8 +20778,8 @@ dummy
 Suspicious Teleporter^Pier
 dummy
 dummy
-디펜스 성공보상
-디펜스 실패보상
+Defense Success Reward
+Defense Failure Reward
 dummy
 PC방 출석체크 버프
 수상한 관리인^피코로스
@@ -20791,49 +20791,47 @@ dummy
 dummy
 dummy
 꼬꼬마(분홍)
-크리스터![입장 레벨 65~75]
-차원의 조각
-검은 숲 군단
-검은 숲 가디언
-검은 숲 수호신
-어둠의 군단
-어둠의 가디언
-어둠의 수호신
-염화의 군단
-염화의 가디언
-염화의 수호신
-차원의 체력 회복제
-차원의 고급 체력 회복제
-차원의 강력 체력 회복제
-Enhance Wizard^인터
-Enhance Wizard^데브
-Enhance Wizard^테스
-잡화 상인^어둠의 군단
-잡화 상인^염화의 군단
-잡화 상인^검은 숲의 군단
-차원의 조각
-명예의 상자
-패자의 상자
-Warehouse^바질
-Warehouse^시드
-Warehouse^스푼
-HP/MP바 두껍게
-HP/MP바 회복 상태 표시
-마우스 커서 크게 보기
-PVP 모드 상태 표시
-버프 종료 알림
-던전 남은 시간 알림
-전체 채팅
-장사 채팅
-모두 줍기
-장사글 전체보기
-채팅 파티 거부
-순간이동 조정(레벨50요정)
-투명도
+Christo[Entrance Lvl 65~75]
+Dimension Fragment
+Legion of Black Forest
+Guardian of the Black
+Guardian of the Black Forest
+Legion of Darkness
+Guardian of Dark
+Guardian of Darkness
+Legion of Fire
+Guardian of Fire
+Guardian of Flame
+Dimensional Red Potion
+Dimensional Orange Potion
+Dimensional Clear Potion
+Enhanced Wizard^Inti
+Enhanced Wizard^Differential
+Enhanced Wizard^Tess
+General Shop^Legion of Darkness
+General Shop^Legion of Fire
+General Shop^Legion of Black Forest
+Dimension Fragment
+Box of Honor
+Box of Losers
+Storage^Basil
+Storage^Sid
+Storage^Spoon
+HP/MP Bar Thicker
+HP/MP Display Recover
+Larger Mouse Cursor
+Display PVP Mode
+Buff Ending Notice
+Dungeon Remaining Time
+World Chat
+Trade Chat
+Pick Up All
+Full Promotional Text
+Deny Chat Party
+Teleport Adjust (Lv50 Elf)
+Transparent
 dummy
-HP/MP바 퍼센트(%) 표시
-dummy
-dummy
+HP/MP Bar Numeric
 dummy
 dummy
 dummy
@@ -20861,57 +20859,43 @@ dummy
 dummy
 dummy
 dummy
-아이템 제작 성공 알림
-맵 위치전송 수신
-오림 보물 상자
+dummy
+dummy
+Crafting Sucess Notice
+Receive Location Transfer
+Orim Treasure Chest
 dummy
 dummy
 dummy
 dummy
-마법인형: 에티
-마법인형: 눈사람
+Magic Doll: Yeti
+Magic Doll: Snowman
 dummy
-마법인형: 인어
-마법인형: 킹 버그베어
-마법인형: 데몬
-마법인형: 나이트발드
-마법인형: 데스나이트
-마법인형: 시어
-마법인형: 린드비오르
-마법인형: 발라카스
-마법인형: 안타라스
-마법인형: 파푸리온
-dummy
-dummy
-dummy
-드레이크 마법인형
-킹 버그베어 마법인형
-데몬 마법인형
-나이트발드 마법인형
-데스나이트 마법인형
-시어 마법인형
-린드비오르 마법인형
-발라카스 마법인형
-안타라스 마법인형
-파푸리온 마법인형
-은빛 큐브
-금빛 큐브
+Magic Doll: Mermaid
+Magic Doll: King Bugbear
+Magic Doll: Demon
+Magic Doll: Knightvald
+Magic Doll: Death Knight
+Magic Doll: Sheer
+Magic Doll: Lindvior
+Magic Doll: Valakas
+Magic Doll: Antharas
+Magic Doll: Fafurion
 dummy
 dummy
 dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-dummy
-마르코의 은빛 릴 2개 상자
-마르코의 금빛 릴 2개 상자
-마법인형 상자(한정판)
-아인하사드의 선물
-성장의 낚싯대
-성장의 릴 100회
-성장의 낚시 세트
+Drake Magic Doll
+King Bugbear Magic Doll
+Demon Magic Doll
+Knightvald Magic Doll
+Death Knight Magic Doll
+Seer Magic Doll
+Lindvior Magic Doll
+Valakas Magic Doll
+Antharas Magic Doll
+Fafurion Magic Doll
+Silver Cube
+Gold Cube
 dummy
 dummy
 dummy
@@ -20921,11 +20905,27 @@ dummy
 dummy
 dummy
 dummy
+Marco's Silver Reels Box (2)
+Marco's Gold Reels Box (2)
+Magic Doll Box (Limited Edition)
+Gift of Einhasad
+Growth Fishing Rods
+Growth Reels (100)
+Growth Fishing Set
 dummy
 dummy
-성장의 낚싯대(선물)
-성장의 릴 100회(선물)
-냉한의 던전(PC)
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+dummy
+Growth Fishing Rod(Gift)
+Growth Reels 100(Gift)
+Cold Dungeon (PC)
 dummy
 dummy
 어느 아덴 용사
@@ -20934,7 +20934,7 @@ dummy
 dummy
 dummy
 dummy
-절대 회복
+Absolute Recover
 dummy
 dummy
 dummy
@@ -20986,28 +20986,28 @@ dummy
 10년차 솔로의 선물 상자
 솔로부대장^네크라
 사랑의신녀^에리엘
-5분 뒤에 수호탑 점령전이 시작됩니다.
-수호탑 점령전이 시작되었습니다.
-강력한 마법이 부여되었습니다.
-차원의 변신 주문서
-중앙 지역으로 이동할 수 있는 다리가 생성되었습니다.
-차원의 귀환 주문서
-랭킹 3위안의 플레이어에게 가디언이 지급되었습니다.
-검은 숲 가디언 씨앗
-중앙 지역에 수호신이 소환되었습니다.
-어둠의 가디언 씨앗
-수호탑을 점령하였습니다.
-염화의 가디언 씨앗
-수호탑 점령전에 승리하였습니다.
-이실로테![입장 레벨 76~99]
-아덴 대륙 이동^클라우드
-아덴 대륙 이동^맥스
-아덴 대륙 이동^카스
-차원의 상인^검은 숲 군단
-차원의 상인^암흑의 군단
-차원의 상인^염화의 군단
-Girtas 성지 이동^차원의 오브
-아덴 대륙 이동^하이트
+The Guardian Tower Siege Battle will begin in 5 minutes.
+The battle for the Guardian Tower has begun.
+Powerful magic has been granted.
+Dimensional Polymorph Scroll
+A bridge has been generated that allows travel to the central region.
+Dimensional Return Scroll
+Guardians was awarded to the player whose ranking was in the top three.
+Black Forest Guardian Seed
+A guardian deity has been summoned to the central region.
+Dark Guardian Seed
+You have captured the Guardian Tower.
+Fire Guardian Seed
+Won the Guardian Tower Conquest Battle.
+Isilrote! [Entrance Level 76~99]
+Aden Continental Migration^Cloud
+Aden Continental Migration^Mex
+Aden Continental Migration^Dregs
+Dimensional Merchant^Legion of Black Forest
+Dimensional Merchant^Legion of Darkness
+Dimensional Merchant^Legion of Fire
+Girtas Sanctuary Transfer^Dimensional Orb
+Aden Continental Drift^Height
 dummy
 dummy
 dummy
@@ -21018,11 +21018,11 @@ dummy
 dummy
 dummy
 dummy
-블랙 위자드
-하피
-꼬꼬마(분홍)
-천상의 기사
-만다린 오렌지
+Black Wizard
+Harpy
+Little Girl (pink)
+Heavenly Knight
+Mandarin Orange
 Girl Kerenis
 dummy
 dummy
@@ -21042,21 +21042,21 @@ dummy
 dummy
 dummy
 dummy
-이 곳에 다리가 소환되면 중앙지역으로 가실 수 있습니다.
-다리는 차원의 조각을 300,000개를 모아야 소환 할 수 있습니다.
-중앙지역의 수호탑을 점령해야만 저희가 승리할 수 있습니다.
-이 방향으로 나가시면 검은 숲 군단이 지배하고 있는 지역으로 가실 수 있습니다.
-이 방향으로 나가시면 어둠의 군단이 지배하고 있는 지역으로 가실 수 있습니다.
-이 방향으로 나가시면 염화의 군단이 지배하고 있는 지역으로 가실 수 있습니다.
-이 방향의 지역은 저희가 지배하고 있어 타 군단의 방해 없이 검은 숲 군단 진영을 침공할 수 있습니다.
-이 방향의 지역은 저희가 지배하고 있어 타 군단의 방해 없이 어둠의 군단 진영을 침공할 수 있습니다.
-이 방향의 지역은 저희가 지배하고 있어 타 군단의 방해 없이 염화의 군단 진영을 침공할 수 있습니다.
-이 방향으로 나가시면 적이 코 앞에 있으니 몸 조심하시길 바랍니다.
-이 입구 부근에는 적이 없습니다. 빠르게 적을 만나고 싶으시다면 반대 입구로 나가시길 바랍니다.
-Teleporter^텔레포트 오브
-적을 물리쳐 차원의 조각을 빼앗아야 합니다.
-차원의 조각을 많이 모으면 모을 수록 전투가 유리해집니다.
-차원의 조각 2,000개 이상 모은 분들께만 보상을 드리고 있습니다.
+A bridge here would allow access to the central region.
+Collect 300,000 Dimensional Shards to summon a bridge.
+If we capture the Guardian Tower in the central region, we win.
+This direction will take you to an area controlled by the Legion of Black Forest.
+Proceeding in this direction will take you to an area controlled by the Legion of Darkness.
+Proceeding in this direction will take you to an area controlled by the Legion of Fire.
+Since we control the area, we can invade the Black Forest Army camp without interference from other legions.
+Since we control the area, we can invade the Legion of Darkness camp without interference from other legions.
+Since we control the area, we can invade the Legion of Fire camp without interference from other legions.
+If you continue in this direction, watch out for enemies right under your nose.
+There are no enemies near this entrance. If you want to encounter enemies, exit through the opposite entrance.
+Teleporter^Orb of Teleportation
+Defeat the enemy and steal the Dimension Fragment.
+The more Dimensional Fragments you collect, the more advantage you will have in battle.
+Collecting 2,000 or more Dimensional Fragment for reward.
 dummy
 dummy
 dummy
@@ -21071,7 +21071,7 @@ dummy
 dummy
 dummy
 dummy
-카너스: 기르타스를 정벌했던 곳에 차원의 문이 열렸습니다. 
+Kanus: A dimensional gate has opened where Girtas was defeated.
 dummy
 dummy
 dummy
@@ -21086,48 +21086,43 @@ dummy
 dummy
 dummy
 dummy
-차원의 속도 향상 물약
-차원의 용기의 물약
-차원의 지혜의 물약
-차원의 악마의 피
-차원의 유그드라 열매
-차원의 각인의 뼈조각
-차원의 엘븐와퍼
-차원의 결정체
-차원의 번개 소환 막대
-차원의 마력의 돌
-차원의 정령옥
-차원의 흑요석
-차원의 오리하루콘 화살
-차원의 해독제
-차원의 숫돌
-차원의 속성석
+Dimensional Speed Potion
+Dimensional Brave Potion
+Dimensional Wisdom Potion
+Dimensional Evil Blood
+Dimensional Yggdra Fruit
+Dimensional Bone Piece
+Dimensional Elven Waffles
+Dimensional Crystal
+Dimensional Call Lightning Wand
+Dimensional Magic Stone
+Dimensional Spirit Orb
+Dimensional Dark Stone
+Dimensional Orichalcum Arrow
+Dimensional Cyan Potion
+Dimensional Whetstone
+Dimensional Elemental Stone
 dummy
 dummy
 dummy
 dummy
-선물상자 상인^아르미
-아이템 제작 상인^에루스
-에루스의 선물상자
-에루스의 사탕
-에루스의 마음(아이언스킨)
-에루스의 마음(Advanced Spirit)
-에루스의 마음(전투강화)
-에루스의 체력 회복 물약
-에루스의 마력 회복 물약
-에루스의 정열 목걸이
-에루스의 진실 목걸이
-에루스의 희망 목걸이
-아르미의 큐브
-에루스의 마음(드래곤스킨)
-에루스의 선물상자들
-명
-(가득참)
-dummy
-dummy
-dummy
-dummy
-dummy
+Gift Box Merchant^Aluminum
+Item Crafting Merchant^Els
+Els Gift Box
+Els Candy
+Heart of Els(Iron Skin)
+Heart of Els(Advanced Spirit)
+Heart of Els(Battle Enchancement)
+Els Stamina Recovery Potion
+Els Magic Recovery Potion
+Els Amulet of Passion
+Els Amulet of Truth
+Els Amulet of Hope
+Els Cube
+Heart of Els(Dragon Skin)
+Els Gift Box Pile
+#
+(Full)
 dummy
 dummy
 dummy
@@ -21140,28 +21135,33 @@ dummy
 dummy
 dummy
 dummy
-카너스: 우드벡 마을에 차원의 문이 열렸습니다.
-카너스: 차원의 문이 닫힙니다.
-점령전 준비시간
-점령전 종료시간
-회피 이펙트 숨김
-클라우디아 신녀^라라
-Master of Magic^모르다
-창고지기^큐베바
-잡화 상인^세린
-Teleporter^소피
-[중국] 레이드 모집자^카울
-할아범 모프
-요조숙녀 세라
-성지순례자 호프
-꼬마^왈도
-사업가^왓슨
-귀족^로열티
-고고학자^베르디나
-예비신부^앙코
-경비대장
-경비대원
-초보자의 각반
+dummy
+dummy
+dummy
+dummy
+dummy
+Kanus: A dimensional gate has opened in the village of Woodbeck.
+Kanus: The dimensional gates close.
+Siege War Preparation Time
+Siege War Preparation Time
+Hide Dodge Effect
+Claudia Messenger of Good^Lara
+Magic Instructor^Morda
+Sokoban^Q-Bear
+General Merchant^Serine
+Teleporter^Sophie
+[China]Raid Recruiter^Caul
+Old Man Mope
+Lady Sarah
+Holy Land Pilgrim Hope
+Boy^Waldo
+Businessman^Wassun
+Nobility^Royalty
+Archaeologist^Verdina
+About to get married^Anko
+Guard Captain
+Guard
+Beginner Gaiters
 dummy
 dummy
 dummy
@@ -21231,8 +21231,8 @@ dummy
 dummy
 dummy
 액세서리 장인^율스
-+2 고대한 귀걸이 교환권
-+2 고대한 반지 교환권
++2 Ancient 귀걸이 교환권
++2 Ancient 반지 교환권
 거꾸로 모래시계
 Ancient Rumtis Purple Earrings
 Ancient Rumtis Blue Earrings
@@ -21256,7 +21256,7 @@ dummy
 dummy
 판매상인^수사대장 버그라
 수사대의 징표
-Weight
+\fHWeight
 모리아의 조수^샤브렐
 모리아의 팬^레이순
 dummy
@@ -21312,12 +21312,12 @@ dummy
 dummy
 dummy
 dummy
-마법인형: 라바 골렘
-마법인형: 다이아몬드 골렘
-T1 마법인형 자동 등록
-T2 마법인형 자동 등록
-T3 마법인형 자동 등록
-T4 마법인형 자동 등록
+Magic Doll: Lava Golem
+Magic Doll: Dire Golem
+T1 Magic Doll Auto Registration
+T2 Magic Doll Auto Registration
+T3 Magic Doll Auto Registration
+T4 Magic Doll Auto Registration
 dummy
 dummy
 dummy
@@ -22121,7 +22121,7 @@ dummy
 누에
 우기르
 지옥 문지기
-고대한 용사의 상자(T1)
+Ancient 용사의 상자(T1)
 돌아온 용사의 상자(T2)
 돌아온 용사의 상자(T3)
 돌아온 용사의 상자(T4)
@@ -22134,13 +22134,13 @@ dummy
 금빛 경비병
 dummy
 Ancient Salcheon's Bow
-고대한 Greatsword of Doom
+Ancient Greatsword of Doom
 Ancient Thunder Sword
-고대한 마력의 단검
-고대한 Destruction Claw
-고대한 공명의 키링크
-고대한 환영의 체인소드
-고대한 질풍의 도끼
+Ancient Intelligence 단검
+Ancient Destruction Claw
+Ancient Resonance Kiringku
+Ancient Phantom Chainsword
+Ancient 질풍의 도끼
 고이 아껴둔 무관의 갑옷
 고이 아껴둔 무관의 투구
 고이 아껴둔 무관의 망토
@@ -22208,7 +22208,7 @@ dummy
 조각 수박
 수박향 마력 물약
 수박맛 체력 물약
-민첩의 녹차 빙수
+Dexterity 녹차 빙수
 완력의 체리 빙수
 지식의 단팥 빙수
 dummy
@@ -22620,8 +22620,8 @@ dummy
 dummy
 dummy
 dummy
-달의 기사^질리언
-다크스타^조우
+달의 기사^Gillian
+다크스타^Jose
 dummy
 dummy
 dummy
@@ -22754,9 +22754,9 @@ dummy
 울부짖는 혼령
 썩은 살점
 빈 룬
-빛나는 마력의 룬
-찬란한 마력의 룬
-은은한 마력의 룬
+빛나는 Intelligence 룬
+찬란한 Intelligence 룬
+은은한 Intelligence 룬
 대지의 축복
 \aL펜던트 조각(해)
 \aL펜던트 조각(달)
@@ -22789,8 +22789,8 @@ dummy
 수련자의 영웅 변신 주문서(데포로쥬)
 수련자의 영웅 변신 주문서(이실로테)
 수련자의 영웅 변신 주문서(크리스터)
-수련자의 영웅 변신 주문서(질리언)
-수련자의 영웅 변신 주문서(조우)
+수련자의 영웅 변신 주문서(Gillian)
+수련자의 영웅 변신 주문서(Jose)
 dummy
 dummy
 dummy
@@ -23311,7 +23311,7 @@ dummy
 너의 모든 힘은 사라질 것이다..!
 저항해도 소용없다.
 발을 묶어주마!!
-실프의 티셔츠
+실프의 T-shirt
 군터의 방어구 상자
 dummy
 dummy
@@ -23610,23 +23610,23 @@ Ancient Rumtis Black Earrings
 재 출발의 가호
 새 출발의 가호
 탄생의 가호
-+3 고대한 반지 교환권
-+4 고대한 반지 교환권
-+5 고대한 반지 교환권
-+3 고대한 귀걸이 교환권
-+4 고대한 귀걸이 교환권
-+5 고대한 귀걸이 교환권
-고대한 보석 상자
-고대한 황금 상자
-고대한 은 상자
-고대한 동 상자
-고대한 나무 상자
-고대한 용사의 상자
-고대한 용사의 상자(T2)
-고대한 용사의 상자(T3)
-고대한 용사의 상자(T4)
-고대한 용사의 상자(5단계)
-고대한 용사의 상자(레전드)
++3 Ancient 반지 교환권
++4 Ancient 반지 교환권
++5 Ancient 반지 교환권
++3 Ancient 귀걸이 교환권
++4 Ancient 귀걸이 교환권
++5 Ancient 귀걸이 교환권
+Ancient 보석 상자
+Ancient 황금 상자
+Ancient 은 상자
+Ancient 동 상자
+Ancient 나무 상자
+Ancient 용사의 상자
+Ancient 용사의 상자(T2)
+Ancient 용사의 상자(T3)
+Ancient 용사의 상자(T4)
+Ancient 용사의 상자(5단계)
+Ancient 용사의 상자(레전드)
 [+2] Ancient Rumtis Black Earrings
 [+3] Ancient Rumtis Purple Earrings
 [+3] Ancient Rumtis Blue Earrings
@@ -23652,12 +23652,12 @@ Ancient Rumtis Black Earrings
 [+5] Ancient Snapper Health Ring
 [+5] Ancient Snapper Champion Ring
 [+5] Ancient Snapper Wisdom Ring
-Sealed 고대한 보석 상자
-Sealed 고대한 황금 상자
-Sealed 고대한 은 상자
-Sealed 고대한 동 상자
-Sealed 고대한 나무 상자
-고대한 상자 열쇠
+Sealed Ancient 보석 상자
+Sealed Ancient 황금 상자
+Sealed Ancient 은 상자
+Sealed Ancient 동 상자
+Sealed Ancient 나무 상자
+Ancient 상자 열쇠
 dummy
 dummy
 dummy
@@ -23921,14 +23921,14 @@ dummy
 dummy
 dummy
 dummy
-[1개]강철 마나의 지팡이
+[1개]강철 Wisdom 지팡이
 dummy
 dummy
 dummy
 Kurtz 
 Kerenis 
 Ken Rauhel 
-검은 데스나이트 
+검은 Death Knight 
 dummy
 dummy
 dummy
@@ -24153,7 +24153,7 @@ Sealed Water Dragon's T-shirt Box
 기사 패키지 [콜로세움]
 요정 패키지 [콜로세움]
 마법사 패키지 [콜로세움]
-다크엘프 패키지 [콜로세움]
+Dark Elf 패키지 [콜로세움]
 용기사 패키지 [콜로세움]
 환술사 패키지 [콜로세움]
 전사 패키지 [콜로세움]
@@ -24927,7 +24927,7 @@ Ascension Cloak
 신성한 요정족 방패
 진 레이피어
 신성한 완력의 목걸이
-신성한 민첩의 목걸이
+신성한 Dexterity 목걸이
 신성한 지식의 목걸이
 진 싸울아비 대검
 오우거 킹의 벨트
@@ -25328,7 +25328,7 @@ dummy
 dummy
 dummy
 고이 아껴둔
-고대한
+Ancient
 dummy
 dummy
 dummy
@@ -25345,7 +25345,7 @@ dummy
 dummy
 dummy
 [Event] 신성한 완력의 목걸이
-[Event] 신성한 민첩의 목걸이
+[Event] 신성한 Dexterity 목걸이
 [Event] 신성한 지식의 목걸이
 [Event] 신성한 영생의 목걸이
 dummy
@@ -25366,16 +25366,16 @@ dummy
 에바의 문장 교환권 패키지
 에바의 문장 교환권
 완력의 문장 주머니
-민첩의 문장 주머니
+Dexterity 문장 주머니
 지식의 문장 주머니
 완력의 문장
-민첩의 문장
+Dexterity 문장
 지식의 문장
 발라카스의 가호: 근거리
 [+3] 회복의 문장
 [+3] 성장의 문장
 [+3] 완력의 문장
-[+3] 민첩의 문장
+[+3] Dexterity 문장
 [+3] 지식의 문장
 일반 피규어 패키지
 스페셜 피규어 패키지
@@ -25462,7 +25462,7 @@ dummy
 \aF변신 지배 반지
 변신 지뱁 반지(이벤트)
 진 쉐도우
-진 랜스마스터
+진 Lance Master
 하이엘프
 진 바포메트
 포노스 오크
@@ -25472,10 +25472,10 @@ dummy
 미공개: 추후 공개 예정
 진 쉐도우
 수호성 군터^PVP Add Damage +2
-수호성 블루디카^PVP Add Damage +2
+수호성 Burdica^PVP Add Damage +2
 수호성 프로켈^PVP Add Damage +2
-수호성 질리언^PVP Add Damage +2
-수호성 조우^PVP Add Damage +2
+수호성 Gillian^PVP Add Damage +2
+수호성 Jose^PVP Add Damage +2
 Dark Castle Kurtz^PVP Add Damage +2
 암흑성 슬레이브^PVP Add Damage +2
 암흑성 아이리스^PVP Add Damage +2
@@ -25531,25 +25531,25 @@ dummy
 할파스의 권속
 Warehouse^라즈
 General Store^쿠컴벌
-Raid Enhance Wizard^데스나이트
+Raid Enhance Wizard^Death Knight
 발라카스: 크르르르.... 귀찮은 벌레들이 찾아왔구나.... 
 발라카스: 네놈들도 할파스의 권속들이냐...?
 발라카스: 상관없겠지.. 벌레라면 다 쓸어버리면 그만인 것을.
 발라카스: 감히 신성한 곳에 더러운 발을 들이민 것을 후회하게 해주마...!
 발라카스: 벌레같은 존재들이 끈질기구나! 네놈들은 똑같은 벌레들로 상대해주마!!
-데스나이트: 크그그그극....발라카스....!!
-오림: 침착하게나! 데스나이트의 힘을 이용해야 함을 잊지 말게!
+Death Knight: 크그그그극....발라카스....!!
+Orim: 침착하게나! 데스나이트의 힘을 이용해야 함을 잊지 말게!
 발라카스: 날 분노케 한 댓가를 치루게 될 것이다..!!
 발라카스: 크르르르...  한줌도 안되는 미천한 존재들이 기어코... 
 발라카스: 오늘은 한 발 물러나겠다... 하지만 비열한 족쇄가 풀리고 힘을 되찾게 되는 날...
 발라카스: 그날이 너희들의 마지막이 될 것이다...
-오림: 아아.. 절반의 성공이야... 데스나이트의 힘이 있음에도 완전히 물리치지 못하였으니...
-오림: 하지만 모두 잘 해주었네! 당분간은 발라카스도 잠잠할게야...
-오림: ..이런, 큰일일세! 이 곳을 지배하던 힘의 균형이 무너지고 있어!
-오림: 모두 서두르게! 안전한 곳으로 빨리 귀환을...!
-오림: 다들 조심하게.. 놈은 이미 잠에서 깨어났어!
-오림: 주변의 화염... 자네들을 가두기 위해 덫을 놓은 것 같으니 조심하게.
-Enhance Wizard^오림
+Orim: 아아.. 절반의 성공이야... 데스나이트의 힘이 있음에도 완전히 물리치지 못하였으니...
+Orim: 하지만 모두 잘 해주었네! 당분간은 발라카스도 잠잠할게야...
+Orim: ..이런, 큰일일세! 이 곳을 지배하던 Strength 균형이 무너지고 있어!
+Orim: 모두 서두르게! 안전한 곳으로 빨리 귀환을...!
+Orim: 다들 조심하게.. 놈은 이미 잠에서 깨어났어!
+Orim: 주변의 화염... 자네들을 가두기 위해 덫을 놓은 것 같으니 조심하게.
+Enhance Wizard^Orim
 발라카스의 가호: 원거리
 발라카스의 가호: 마법
 제르큐오! 삼 케로누..
@@ -25663,7 +25663,7 @@ dummy
 파푸리온의 보물 상자
 파푸리온 성장의 물약
 파푸리온의 버프 주머니
-파푸리온 민첩의 물약
+파푸리온 Dexterity 물약
 파푸리온 완력의 물약
 파푸리온 지식의 물약
 내가 잠에서 께어난 이상 온 세상이 죽음으로 물들리라!
@@ -25851,24 +25851,24 @@ Ascension STR Boots
 화령 4단 +9 Ancient Staff of Mana(이벤트: ~ 3/29 정기점검 시 까지)
 화령 4단 +9 Ancient Thunder Sword(이벤트: ~ 3/29 정기점검 시 까지)
 화령 4단 +9 Ancient Salcheon's Bow(이벤트: ~ 3/29 정기점검 시 까지)
-화령 4단 +9 고대한 Destruction Claw(이벤트: ~ 3/29 정기점검 시 까지)
-화령 4단 +9 고대한 공명의 키링크(이벤트: ~ 3/29 정기점검 시 까지)
-화령 4단 +9 고대한 환영의 체인소드(이벤트: ~ 3/29 정기점검 시 까지)
+화령 4단 +9 Ancient Destruction Claw(이벤트: ~ 3/29 정기점검 시 까지)
+화령 4단 +9 Ancient Resonance Kiringku(이벤트: ~ 3/29 정기점검 시 까지)
+화령 4단 +9 Ancient Phantom Chainsword(이벤트: ~ 3/29 정기점검 시 까지)
 화령 3단 +8 Ancient Crystal Dagger(이벤트: ~ 3/29 정기점검 시 까지)
 화령 3단 +8 Ancient Iron Axe(이벤트: ~ 3/29 정기점검 시 까지)
 화령 3단 +8 Ancient Staff of Mana(이벤트: ~ 3/29 정기점검 시 까지)
 화령 3단 +8 Ancient Thunder Sword(이벤트: ~ 3/29 정기점검 시 까지)
 화령 3단 +8 Ancient Salcheon's Bow(이벤트: ~ 3/29 정기점검 시 까지)
-화령 3단 +8 고대한 Destruction Claw(이벤트: ~ 3/29 정기점검 시 까지)
-화령 3단 +8 고대한 공명의 키링크(이벤트: ~ 3/29 정기점검 시 까지)
-화령 3단 +8 고대한 환영의 체인소드(이벤트: ~ 3/29 정기점검 시 까지)
+화령 3단 +8 Ancient Destruction Claw(이벤트: ~ 3/29 정기점검 시 까지)
+화령 3단 +8 Ancient Resonance Kiringku(이벤트: ~ 3/29 정기점검 시 까지)
+화령 3단 +8 Ancient Phantom Chainsword(이벤트: ~ 3/29 정기점검 시 까지)
 +5 Ascension Helm(이벤트: ~ 3/29 정기점검 시 까지)
 +6 Ascension Helm(이벤트: ~ 3/29 정기점검 시 까지)
 +5 Ascension Mask(이벤트: ~ 3/29 정기점검 시 까지)
 +6 Ascension Mask(이벤트: ~ 3/29 정기점검 시 까지)
-+1 고이 아껴둔 멸마의 판금 갑옷(이벤트: ~ 3/29 정기점검 시 까지)
-+1 고이 아껴둔 멸마의 비늘 갑옷(이벤트: ~ 3/29 정기점검 시 까지)
-+1 고이 아껴둔 멸마의 가죽 갑옷(이벤트: ~ 3/29 정기점검 시 까지)
++1 고이 아껴둔 Demon Plate Armor(이벤트: ~ 3/29 정기점검 시 까지)
++1 고이 아껴둔 Demon Scale Armor(이벤트: ~ 3/29 정기점검 시 까지)
++1 고이 아껴둔 Demon Leather Armor(이벤트: ~ 3/29 정기점검 시 까지)
 +1 고이 아껴둔 멸마의 로브(이벤트: ~ 3/29 정기점검 시 까지)
 +5 Ascension STR Gaiters(이벤트: ~ 3/29 정기점검 시 까지)
 +5 Ascension DEX Gaiters(이벤트: ~ 3/29 정기점검 시 까지)
@@ -25886,7 +25886,7 @@ Ascension Guarder(이벤트: ~ 3/29 정기점검 시 까지)
 +8 고이 아껴둔 무관의 장갑(이벤트: ~ 3/29 정기점검 시 까지)
 +7 고이 아껴둔 신관의 장갑(이벤트: ~ 3/29 정기점검 시 까지)
 +8 고이 아껴둔 신관의 장갑(이벤트: ~ 3/29 정기점검 시 까지)
-+5 고이 아껴둔 젤라틴 체력의 목걸이(이벤트: ~ 3/29 정기점검 시 까지)
++5 고이 아껴둔 젤라틴 Constiution 목걸이(이벤트: ~ 3/29 정기점검 시 까지)
 +6 Ascension Shield(이벤트: ~ 3/29 정기점검 시 까지)
 +7 Ascension Shield(이벤트: ~ 3/29 정기점검 시 까지)
 +5 Ascension DEX Boots(이벤트: ~ 3/29 정기점검 시 까지)
@@ -26158,17 +26158,17 @@ dummy
 화령 4단 +9 Ancient Staff of Mana
 화령 4단 +9 Ancient Thunder Sword
 화령 4단 +9 Ancient Salcheon's Bow
-화령 4단 +9 고대한 Destruction Claw
-화령 4단 +9 고대한 공명의 키링크
-화령 4단 +9 고대한 환영의 체인소드
+화령 4단 +9 Ancient Destruction Claw
+화령 4단 +9 Ancient Resonance Kiringku
+화령 4단 +9 Ancient Phantom Chainsword
 화령 3단 +8 Ancient Crystal Dagger
 화령 3단 +8 Ancient Iron Axe
 화령 3단 +8 Ancient Staff of Mana
 화령 3단 +8 Ancient Thunder Sword
 화령 3단 +8 Ancient Salcheon's Bow
-화령 3단 +8 고대한 Destruction Claw
-화령 3단 +8 고대한 공명의 키링크
-화령 3단 +8 고대한 환영의 체인소드
+화령 3단 +8 Ancient Destruction Claw
+화령 3단 +8 Ancient Resonance Kiringku
+화령 3단 +8 Ancient Phantom Chainsword
 드래곤의 성장 물약
 몬친 선물 상자 열쇠
 부러진 무마니 낚싯대
@@ -26234,7 +26234,7 @@ dummy
 고대의 금빛 베리아나
 레드 베리아나
 신성한 완력의 반지
-신성한 민첩의 반지
+신성한 Dexterity 반지
 신성한 지식의 반지
 월드 마법인형 레이스
 암흑룡의 수호자
@@ -26349,19 +26349,19 @@ dummy
 시간을 훔치는 시계:악세서리
 Ancient Earth Dragon's T-shirt
 [+5] 신성한 완력의 반지
-[+5] 신성한 민첩의 반지
+[+5] 신성한 Dexterity 반지
 [+5] 신성한 지식의 반지
 [+6] 신성한 완력의 반지
-[+6] 신성한 민첩의 반지
+[+6] 신성한 Dexterity 반지
 [+6] 신성한 지식의 반지
 [+7] 신성한 완력의 반지
-[+7] 신성한 민첩의 반지
+[+7] 신성한 Dexterity 반지
 [+7] 신성한 지식의 반지
 [+8] 신성한 완력의 반지
-[+8] 신성한 민첩의 반지
+[+8] 신성한 Dexterity 반지
 [+8] 신성한 지식의 반지
 [+9] 신성한 완력의 반지
-[+9] 신성한 민첩의 반지
+[+9] 신성한 Dexterity 반지
 [+9] 신성한 지식의 반지
 [+7] Ascension Cloak
 [+8] Ascension Cloak
@@ -26486,10 +26486,10 @@ dummy
 dummy
 dummy
 완력의 문장:성장
-민첩의 문장:성장
+Dexterity 문장:성장
 지식의 문장:성장
 완력의 문장:회복
-민첩의 문장:회복
+Dexterity 문장:회복
 지식의 문장:회복
 회복의 문장:성장
 Red Magic Power Spell Orb Box
@@ -26536,14 +26536,14 @@ dummy
 [+8] 완력의 문장:성장
 [+9] 완력의 문장:성장
 [+10] 완력의 문장:성장
-[+3] 민첩의 문장:성장
-[+4] 민첩의 문장:성장
-[+5] 민첩의 문장:성장
-[+6] 민첩의 문장:성장
-[+7] 민첩의 문장:성장
-[+8] 민첩의 문장:성장
-[+9] 민첩의 문장:성장
-[+10] 민첩의 문장:성장
+[+3] Dexterity 문장:성장
+[+4] Dexterity 문장:성장
+[+5] Dexterity 문장:성장
+[+6] Dexterity 문장:성장
+[+7] Dexterity 문장:성장
+[+8] Dexterity 문장:성장
+[+9] Dexterity 문장:성장
+[+10] Dexterity 문장:성장
 [+3] 지식의 문장:성장
 [+4] 지식의 문장:성장
 [+5] 지식의 문장:성장
@@ -26560,14 +26560,14 @@ dummy
 [+8] 완력의 문장:회복
 [+9] 완력의 문장:회복
 [+10] 완력의 문장:회복
-[+3] 민첩의 문장:회복
-[+4] 민첩의 문장:회복
-[+5] 민첩의 문장:회복
-[+6] 민첩의 문장:회복
-[+7] 민첩의 문장:회복
-[+8] 민첩의 문장:회복
-[+9] 민첩의 문장:회복
-[+10] 민첩의 문장:회복
+[+3] Dexterity 문장:회복
+[+4] Dexterity 문장:회복
+[+5] Dexterity 문장:회복
+[+6] Dexterity 문장:회복
+[+7] Dexterity 문장:회복
+[+8] Dexterity 문장:회복
+[+9] Dexterity 문장:회복
+[+10] Dexterity 문장:회복
 [+3] 지식의 문장:회복
 [+4] 지식의 문장:회복
 [+5] 지식의 문장:회복
@@ -26875,7 +26875,7 @@ dummy
 으윽.. 희미하게 기억이 난다..
 나의 신념은.. 틀리지 않았다..
 얼어붙은 내 심장이......
-특수 합성용 마법인형 자동 등록
+Special Magic Doll Auto Registration
 dummy
 dummy
 dummy
@@ -27320,15 +27320,15 @@ dummy
 dummy
 \aL늑대가죽
 전함 관리인^와슨
-수련자의 강화 티셔츠
+수련자의 강화 T-shirt
 장어 낚싯대
 끊어진 장어 낚싯대
 민물 장어
 새끼 장어
 요리사^민물왕
 요리사^민물왕 조수
-게렝의 마법 주머니
-게렝의 수정구
+Guerin 마법 주머니
+Guerin 수정구
 \aL영혼 조각
 사나운 멧돼지
 Beginner Helper^카시오페아
@@ -27375,30 +27375,30 @@ dummy
 화령 4단 +9 강철 도끼(Engraved)
 화령 4단 +9 Salcheon's Bow(Engraved)
 화령 4단 +9 Destruction Claw(Engraved)
-화령 4단 +9 공명의 키링크(Engraved)
+화령 4단 +9 Resonance Kiringku(Engraved)
 화령 4단 +9 천사의 지팡이(Engraved)
 화령 4단 +9 소멸자의 체인소드(Engraved)
 +6 Divine Magic Helm(Engraved)
 +6 수정 장갑(Engraved)
 +6 명궁의 장갑(Engraved)
 +6 Ascension Cloak(Engraved)
-+1 멸마의 판금 갑옷(Engraved)
-+1 멸마의 비늘 갑옷(Engraved)
-+1 멸마의 가죽 갑옷(Engraved)
++1 Demon Plate Armor(Engraved)
++1 Demon Scale Armor(Engraved)
++1 Demon Leather Armor(Engraved)
 +1 멸마의 로브(Engraved)
 +8 신관의 마력서(Engraved)
 +8 신성한 요정족 방패(Engraved)
 +8 그림자 장갑(Engraved)
-+5 젤라틴 체력의 목걸이(Engraved)
++5 젤라틴 Constiution 목걸이(Engraved)
 +5 붉은 기사단의 반지(Engraved)
-+6 마력의 장갑(Engraved)
++6 Intelligence 장갑(Engraved)
 +5 신성한 보호 벨트(Engraved)
 +5 빛나는 귀걸이(Engraved)
 +4 화령의 가더(Engraved)
 +4 풍령의 가더(Engraved)
 +4 수령의 가더(Engraved)
 +4 지령의 가더(Engraved)
-+6 민첩의 부츠(Engraved)
++6 Dexterity 부츠(Engraved)
 +6 지식의 부츠(Engraved)
 +6 완력의 부츠(Engraved)
 +6 유니콘의 완력 각반(Engraved)
@@ -27410,7 +27410,7 @@ dummy
 +4 풍령의 가더(Engraved)
 +4 수령의 가더(Engraved)
 +4 지령의 가더(Engraved)
-+6 민첩의 부츠(Engraved)
++6 Dexterity 부츠(Engraved)
 +6 지식의 부츠(Engraved)
 +6 완력의 부츠(Engraved)
 +6 유니콘의 완력 각반(Engraved)
@@ -28135,42 +28135,42 @@ dummy
 [+0] 명궁의 문장
 [+0] 현자의 문장
 dummy
-힘의 엘릭서 룬(80)
-민첩의 엘릭서 룬(80)
-체력의 엘릭서 룬(80)
+Strength 엘릭서 룬(80)
+Dexterity 엘릭서 룬(80)
+Constiution 엘릭서 룬(80)
 지식의 엘릭서 룬(80)
 지혜의 엘릭서 룬(80)
-힘의 룬 주머니(80)
-민첩의 룬 주머니(80)
-체력의 룬 주머니(80)
+Strength 룬 주머니(80)
+Dexterity 룬 주머니(80)
+Constiution 룬 주머니(80)
 지식의 룬 주머니(80)
 지혜의 룬 주머니(80)
 마력을 잃은 룬(80)
-마력의 고서(80)
-힘의 엘릭서 룬(85)
-민첩의 엘릭서 룬(85)
-체력의 엘릭서 룬(85)
+Intelligence 고서(80)
+Strength 엘릭서 룬(85)
+Dexterity 엘릭서 룬(85)
+Constiution 엘릭서 룬(85)
 지식의 엘릭서 룬(85)
 지혜의 엘릭서 룬(85)
-힘의 룬 주머니(85)
-민첩의 룬 주머니(85)
-체력의 룬 주머니(85)
+Strength 룬 주머니(85)
+Dexterity 룬 주머니(85)
+Constiution 룬 주머니(85)
 지식의 룬 주머니(85)
 지혜의 룬 주머니(85)
 마력을 잃은 룬(85)
-마력의 고서(85)
-힘의 엘릭서 룬(90)
-민첩의 엘릭서 룬(90)
-체력의 엘릭서 룬(90)
+Intelligence 고서(85)
+Strength 엘릭서 룬(90)
+Dexterity 엘릭서 룬(90)
+Constiution 엘릭서 룬(90)
 지식의 엘릭서 룬(90)
 지혜의 엘릭서 룬(90)
-힘의 룬 주머니(90)
-민첩의 룬 주머니(90)
-체력의 룬 주머니(90)
+Strength 룬 주머니(90)
+Dexterity 룬 주머니(90)
+Constiution 룬 주머니(90)
 지식의 룬 주머니(90)
 지혜의 룬 주머니(90)
 마력을 잃은 룬(90)
-마력의 고서(90)
+Intelligence 고서(90)
 발록의 선물 상자
 마빈의 선물 주머니
 베리의 선물 주머니
@@ -28386,7 +28386,7 @@ dummy
 허스키
 진돗개
 신성한 완력의 벨트
-신성한 민첩의 벨트
+신성한 Dexterity 벨트
 신성한 지식의 벨트
 신성한 지혜의 벨트
 +5 신성한 완력의 벨트
@@ -28394,11 +28394,11 @@ dummy
 +7 신성한 완력의 벨트
 +8 신성한 완력의 벨트
 +9 신성한 완력의 벨트
-+5 신성한 민첩의 벨트
-+6 신성한 민첩의 벨트
-+7 신성한 민첩의 벨트
-+8 신성한 민첩의 벨트
-+9 신성한 민첩의 벨트
++5 신성한 Dexterity 벨트
++6 신성한 Dexterity 벨트
++7 신성한 Dexterity 벨트
++8 신성한 Dexterity 벨트
++9 신성한 Dexterity 벨트
 +5 신성한 지식의 벨트
 +6 신성한 지식의 벨트
 +7 신성한 지식의 벨트
@@ -28447,18 +28447,18 @@ dummy
 dummy
 dummy
 dummy
-힘의 엘릭서 룬(70)
-민첩의 엘릭서 룬(70)
-체력의 엘릭서 룬(70)
+Strength 엘릭서 룬(70)
+Dexterity 엘릭서 룬(70)
+Constiution 엘릭서 룬(70)
 지식의 엘릭서 룬(70)
 지혜의 엘릭서 룬(70)
-힘의 룬 주머니(70)
-민첩의 룬 주머니(70)
-체력의 룬 주머니(70)
+Strength 룬 주머니(70)
+Dexterity 룬 주머니(70)
+Constiution 룬 주머니(70)
 지식의 룬 주머니(70)
 지혜의 룬 주머니(70)
 마력을 잃은 룬(70)
-마력의 고서(70)
+Intelligence 고서(70)
 고대 거인의 무덤(PC)
 진데스나이트 상자
 진데스나이트 큐브
@@ -28470,7 +28470,7 @@ dummy
 진 데스나이트의 변신 반지
 진데스나이트 선물
 진 데스나이트의 변신 주문서
-전투 지원 장비(진 데스나이트)
+전투 지원 장비(진 Death Knight)
 마법인형: 진 데스나이트의 사신
 (Engraved)
 기술서 (프라이드)(Engraved)
@@ -28746,7 +28746,7 @@ dummy
 [+7] 수령의 가더
 [+7] Zeroth Staff
 [+7] 바포메트의 지팡이
-[+7] 강철 마나의 지팡이
+[+7] 강철 Wisdom 지팡이
 [+7] Nightbald's Two-Handed Sword
 [+7] Porce's Sword
 [+9] 진 싸울아비 대검
@@ -29237,9 +29237,9 @@ dummy
 dummy
 dummy
 dummy
-진 데스나이트(전투)^PVP Add Damage +2
+진 Death Knight(전투)^PVP Add Damage +2
 진 쉐도우(전투)^PVP Add Damage +2
-진 랜스마스터(전투)^PVP Add Damage +2
+진 Lance Master(전투)^PVP Add Damage +2
 진 바포메트(전투)^PVP Add Damage +2
 진 경비병(전투)^PVP Add Damage +2
 dummy
@@ -29286,7 +29286,7 @@ Typhoon Axe
 영웅의 유물 도안 (확률 제작)
 dummy
 dummy
-징표 제작^진 데스나이트
+징표 제작^진 Death Knight
 진 데스나이트의 징표
 진 데스나이트의 징표 5개 상자
 진 데스나이트의 징표 50개 상자
@@ -29295,11 +29295,11 @@ dummy
 화령 3단 +8 강철 도끼(Engraved)
 화령 3단 +8 Salcheon's Bow(Engraved)
 화령 3단 +8 Destruction Claw(Engraved)
-화령 3단 +8 공명의 키링크(Engraved)
+화령 3단 +8 Resonance Kiringku(Engraved)
 화령 3단 +8 천사의 지팡이(Engraved)
 화령 3단 +8 파멸자의 체인소드(Engraved)
 화령 4단 +9 파멸자의 체인소드(Engraved)
-진 데스나이트 방어구 상자(Engraved)
+진 Death Knight 방어구 상자(Engraved)
 진 데스나이트의 변신 반지(Engraved)
 진 데스나이트의 성장 물약(Engraved)
 +5 Rumtis Blue Earrings(Engraved)
@@ -29743,9 +29743,9 @@ dummy
 dummy
 공성전 용사의 징표
 공성전 이동 부적
-T3 특수 합성용 마법인형 자동 등록
-T4 특수 합성용 마법인형 자동 등록
-5단계 특수 합성용 마법인형 자동 등록
+T3 Special Magic Doll Auto Registration
+T4 Special Magic Doll Auto Registration
+T5 Special Magic Doll Auto Registration
 dummy
 dummy
 dummy
@@ -29951,13 +29951,13 @@ Enhance Wizard^그루거
 바람의 노예들이여, 더러움을 날려 버려라.
 물의 고결함은 무한함이다.
 물의 노예들이여, 무한한 고통을 부여하라.
-오림... 오림... 어디 있느냐..
+Orim... Orim... 어디 있느냐..
 어리석은 인간이여.. 숙명을 거스르지 말거라...
 혼돈 속에선 사랑도 부질 없는 법..
 나약한 배신자 오림이여..
 그 아둔함이 질서를 어지럽힐 것이다.
-이제라도 마력의 소유자에게 용서를 빌라..
-마력의 제물이 되어 혼돈을 잠재우라..
+이제라도 Intelligence 소유자에게 용서를 빌라..
+Intelligence 제물이 되어 혼돈을 잠재우라..
 하찮은 사랑 따위는 저주의 불씨 일뿐..
 아둔한 마법의 힘을 소멸 시키리..
 dummy
@@ -29996,9 +29996,9 @@ Goddess of Salvation^아비가일
 dummy
 얼음 성장 릴 100회
 얼음 낚싯대
-오림.. 혹시 어디있니? 그냥 니가 느껴져.
+Orim.. 혹시 어디있니? 그냥 니가 느껴져.
 잘 모르겠어. 너를 기억하지만 정확히 누구인지를 모르겠어.
-오림..? 왠지 그리워지는 이름이야...
+Orim..? 왠지 그리워지는 이름이야...
 으으.. 괴로워.. 도와줘..
 머리가 검은 분노로 가득 차 있어... 
 두려워.. 무엇인가.. 나를 집어 삼키는 것 같아.. 
@@ -30071,7 +30071,7 @@ Teleporter^열기구
 극한 제작장인^콜트
 마족 제작장인^리넴
 벨트 제작장인^글렌
-제작 석상^용의 티셔츠
+제작 석상^용의 T-shirt
 dummy
 텍투스
 [1개] 판도라의 강력 비누:티 상자
@@ -30088,8 +30088,8 @@ dummy
 [19개] 판도라의 강력 비누:티 상자
 dummy
 dummy
-[2개]강철 마나의 지팡이
-[3개]강철 마나의 지팡이
+[2개]강철 Wisdom 지팡이
+[3개]강철 Wisdom 지팡이
 dummy
 드래곤 키 복구함(이벤트)
 아침이 되었습니다.
@@ -30130,7 +30130,7 @@ Event Reward^가브리엘
 할로윈 힐링 캔디
 할로윈 마나 캔디
 완력의 할로윈 캔디
-민첩의 할로윈 캔디
+Dexterity 할로윈 캔디
 지식의 할로윈 캔디
 할로윈 이벤트^호박나무
 할로윈 이벤트^잭 오 랜턴
@@ -30271,7 +30271,7 @@ Hero's Gift Box
 Gunther
 이실로테
 장로
-질리언
+Gillian
 Kerenis
 데스나이트가 출현하였습니다.
 리마스터 이벤트^리마다
@@ -30302,7 +30302,7 @@ Kerenis
 오림이 당신에게 작은 힘을 보탭니다.
 저주받은 안개는 심각한 오염 피해를 줍니다.
 저주받은 기운이 다가오기 시작합니다.
-오림 앞에 생성된 텔레포트 마법진으로 이동하세요.
+Orim 앞에 생성된 텔레포트 마법진으로 이동하세요.
 이제 당신의 세계로 돌아가십시오.
 모든 파티원이 사망하였습니다.
 시공 여행이 종료됩니다.
@@ -30442,7 +30442,7 @@ Event Merchant^Kai
 희망의 구슬
 폭풍의 구슬
 몽환의 구슬
-매력의 구슬
+Charisma 구슬
 불타는 상자
 불타는 사라만다
 불타는 켈베로스
@@ -30571,11 +30571,11 @@ PC Event Reward^King of Aden Aiden
 왕궁 정원을 사수하라!
 Buy Helm of King Aden
 지하 수로 입장하기
-기사단의 데스나이트 변신 반지
-기사단의 데스나이트 변신 주문서
+기사단의 Death Knight 변신 반지
+기사단의 Death Knight 변신 주문서
 기사단의 패키지 상자
 오만의탑 텔레포터^오만의 탑 이동 동상
-기사단의 티셔츠 교환권
+기사단의 T-shirt 교환권
 기사단의 스냅퍼 교환권
 기사단의 룸티스 교환권
 [+4]Rumtis Red Earrings(Normal)
@@ -30843,17 +30843,17 @@ Rebel's Shield
 Shea's Heart
 +6 신성한 완력의 벨트
 +6 신성한 지식의 벨트
-+6 신성한 민첩의 벨트
++6 신성한 Dexterity 벨트
 +6 신성한 완력의 반지
-+6 신성한 민첩의 반지
++6 신성한 Dexterity 반지
 +6 신성한 지식의 반지
 +6 신성한 완력의 목걸이
-+6 신성한 민첩의 목걸이
++6 신성한 Dexterity 목걸이
 +6 신성한 지식의 목걸이
 +7 Divine Magic Helm
 +7 수호성의 활 골무
 +7 수호성의 파워 글로브
-+7 빛나는 마력의 장갑
++7 빛나는 Intelligence 장갑
 +7 Ascension Cloak
 +7 신성한 요정족 판금 갑옷
 +7 마법방어 각반
@@ -31184,8 +31184,8 @@ dummy
 샌드웜의 행운 꾸러미
 영웅 패키지
 스페셜 영웅 패키지
-영웅의 데스나이트 변신 반지
-영웅의 티셔츠 교환권
+영웅의 Death Knight 변신 반지
+영웅의 T-shirt 교환권
 영웅의 스냅퍼 교환권
 영웅의 룸티스 교환권
 영웅의 지배 반지
@@ -31572,8 +31572,8 @@ PC방 축제 보상^아덴 국왕의 보좌관
 21주년 기념 선물 상자
 21주년 전설 변신 반지
 철의 아툰
-다크스타 조우
-달의 질리언
+다크스타 Jose
+달의 Gillian
 나이트 슬레이셔
 21주년 전설 성장 물약
 21주년 성장 물약
@@ -32294,10 +32294,10 @@ PC Room Hero's Gift Box
 +7 21주년 전설 투구 상자
 +8 21주년 전설 투구 상자
 +10 21주년 전설 투구 상자
-용의 티셔츠 보호 주문서
+용의 T-shirt 보호 주문서
 Event Crafter^Apprentice Talas
-[Event] 용의 티셔츠 보호 주문서 1장
-[Event] 용의 티셔츠 보호 주문서 10장
+[Event] 용의 T-shirt 보호 주문서 1장
+[Event] 용의 T-shirt 보호 주문서 10장
 dummy
 dummy
 dummy
@@ -32331,7 +32331,7 @@ dummy
 2020 귀걸이 확장 할인권
 2020 반지 확장 할인권(우)
 2020 반지 확장 할인권(좌)
-2020 영웅의 티셔츠 교환권
+2020 영웅의 T-shirt 교환권
 2020 영웅의 스냅퍼 교환권
 2020 영웅의 룸티스 교환권
 영웅의 순간이동 지배 반지
@@ -32395,7 +32395,7 @@ Event Crafting^스타강사 린
 블루베리 꿀떡
 딸기 꿀떡
 완력의 초콜릿
-민첩의 초콜릿
+Dexterity 초콜릿
 지식의 초콜릿
 꿀떡 상자
 Event Reward^딜리 시오스
