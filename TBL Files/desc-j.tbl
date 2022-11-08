@@ -532,7 +532,7 @@ Spellbook(Heal)
 Spellbook(Curse Blind)
 Spellbook(Bless Armor)
 Spellbook(Fireball)
-Spellbook(Enchant：DEX)
+Spellbook(Enchant:DEX)
 Spellbook(Weapon Break)
 Spellbook(Vampire Touch)
 Spellbook(Slow)
@@ -542,7 +542,7 @@ Spellbook(Greater Heal)
 Spellbook(Tame Monster)
 Spellbook(Remove Curse)
 Spellbook(Create Zombie)
-Spellbook(Enchant：STR)
+Spellbook(Enchant:STR)
 Spellbook(Haste)
 Spellbook(Cancel)
 Spellbook(Eruption)
@@ -1451,7 +1451,7 @@ Guardian Tower
 (Curse Blind)
 (Bless Armor)
 (Fireball)
-(Enchant：DEX)
+(Enchant:DEX)
 (Weapon Break)
 (Vampire Touch)
 (Slow)
@@ -1461,7 +1461,7 @@ Guardian Tower
 (Tame Monster)
 (Remove Curse)
 (Create Zombie)
-(Enchant：STR)
+(Enchant:STR)
 (Haste)
 (Cancel)
 (Eruption)
@@ -2983,7 +2983,7 @@ May there be glory... to Lastabad!
 The wrath of Gran Kain will turn this land to a sea of fire!!!
 Head of Guards
 Head of Fighters
-Yahi Flesh
+Yahee Flesh
 Fettered Soul
 Crafter^Sarsha
 Crafter^Black Knight Captain
@@ -3745,15 +3745,15 @@ Death Armor
 Scales of Death
 Cloak of Death
 Death Armor Fragment
-Helm of Yahi
-Shirt of Yahi
-Armor of Yahi
-Cloak of Yahi
-Boots of Yahi
-Gloves of Yahi
-Ring of Yahi
-Amulet of Yahi
-Earrings of Yahi
+Helm of Yahee
+Shirt of Yahee
+Armor of Yahee
+Cloak of Yahee
+Boots of Yahee
+Gloves of Yahee
+Ring of Yahee
+Amulet of Yahee
+Earrings of Yahee
 Dancing Earrings
 Twin Earrings
 Festival Earrings
@@ -3769,14 +3769,14 @@ Axe of Death
 Spear of Death
 Knife of Death
 Tailbone of Death
-Head of Yahi
-Rib of Yahi
-Claw of Yahi
-Tail of Yahi
-Wing of Yahi
-Backbone of Yahi
+Head of Yahee
+Rib of Yahee
+Claw of Yahee
+Tail of Yahee
+Wing of Yahee
+Backbone of Yahee
 Fragment of Soul Stone
-Yahi
+Yahee
 Chaos
 Death
 Priest of Chaos
@@ -3784,7 +3784,7 @@ Priest of Death
 Follower of Chaos
 Follower of Death
 Oriharukon-Plated Bone Arrow
-Guardsman of Yahi
+Guardsman of Yahee
 Diego's Old Diary
 Crumpled Up Breaking-Up Letter
 Report of Lizardman
@@ -3949,7 +3949,7 @@ Key to 3rd Floor of Temple of Shadows
 Twisting of Space
 Blacksmith of Varlok
 Agent of Varlok
-Chamberlain of Yahi
+Chamberlain of Yahee
 Assistant of Varlok
 Exhausted Lizardman Warrior
 Monett
@@ -4649,8 +4649,8 @@ Trembling Person
 Work Manager
 Varlok's Brand
 Varlok's Heavy Brand
-Yahi's Brand
-Yahi's Heavy Brand
+Yahee's Brand
+Yahee's Heavy Brand
 Hidden Troglodyte Scout
 Hidden Sea Depths Mimic
 Hidden Mermaid
@@ -4663,7 +4663,7 @@ Letter of Researchers : Human Zone Neruda Vakumo
 Letter of Researchers : Spirit Zone Dudamara Booka
 Letter of Researchers : Orc Zone Neruda Hoomo
 Head of Researcher Blood Giant
-Teleporter^Dudamara Bau
+Dudamara Bau
 Contaminated Twig
 Contaminated Fruit
 Contaminated Ecdysis
@@ -4690,8 +4690,8 @@ Root of Spirit
 Bark of Spirit
 Leaf of Spirit
 Branch of Spirit
-Blacksmith of Yahi
-Assistant of Yahi
+Blacksmith of Yahee
+Assistant of Yahee
 Researcher
 Defeated Soldier
 History of Lastabad Chapter 3
@@ -4798,8 +4798,8 @@ Zombie Wizard
 Zombie Spearman
 Skeleton Knight
 Warlock Maya
-Goddess Flora
-Goddess Amelia
+Teleporter^Goddess Flora
+Bride Amelia
 Greedy Soldier
 Greedy Warrior
 Greedy Archer
@@ -4817,12 +4817,12 @@ Treasure Urn of Arcane
 Treasure Urn of Arcane King
 Treasure Urn of Assassin
 Treasure Urn of Assassin King
-Grand Chamberlain Mammon
+Teleporter^Chief Mammon
 Trick
-Jeif
+Mischeif^Jeff
 Emai
 Lougi
-Diez
+Antiquities Expert^Dietz
 Ancient Adena
 Gloomy Anicnet Merchant
 Dreaming Teddy Bear
@@ -4849,7 +4849,7 @@ Heart of Esem
 Portrait of Esem
 Mutant
 Barbados
-Chief Security Amisu
+Teleporter^Marshal Amisu
 Summoned Creature of Maya
 Keepsake Bag
 Shabby Keepsake Bag
@@ -4881,8 +4881,8 @@ Volcanic Rock
 Iron Ore
 Armor Piece
 Teleporter^Pouare
-General Merchant^Toduram
-Shiren
+General Store^Toduram
+Spellbook Vendor^Siren
 Auk.... Bastards! Do you think this is an end! Listen carefully. Labastad will never fall!
 Huk.... Resentful with much regret! Casandra will punish you for arrogance!
 Endel
@@ -4941,7 +4941,7 @@ Rice Ball
 Aldran
 Withering Soul
 Ash of Sailor
-Army of Yahi
+Army of Yahee
 Army of Varlok
 Observer of Soul
 High Bear Choker
@@ -5107,12 +5107,12 @@ Certificate of Valor
 Breath of Ghost
 Pizza
 Magic Bag of Arka
-Cooking Merchant^Lakuki
+Grocery Merchant^Lakuki
 Ghost Soldier Full of Resentment
 Ghost Man Full of Resentment
 Ghost Woman Full of Resentment
 General Hamel Full of Resentment
-Magistrate Captain^Larson
+Marshal^Larsson
 Chirchien
 Holy Mithril Powder
 Heaven Feathers
@@ -5189,7 +5189,7 @@ Partition
 Summon of Water Elemental
 Kahel Agreement
 Blood of the Agreement
-Pet Keeper^Austin
+Pet Manager^Austin
 Taxidermy Merchant^Phillies
 Production stuffed referral
 Certificate for Ant Hunting
@@ -5198,11 +5198,11 @@ Certificate for Ramia Hunting
 Certificate for Black Tiger Hunting
 Certificate for Deer Hunting
 Certificate for Harpy Hunting
-Polymorph Merchant^Kepeulrisya
+Astrologer^Keplisha
 Bouquet Merchant^Sharon
 Blacksmith^Kuehn
 Orc Merchant^Parum
-Ghost Races^Duo
+Haunted House Manager^Duo
 Jar of Astrologers
 Beads of Astrologers
 Talisman of Astrologers
@@ -5276,8 +5276,8 @@ Wet Boots
 Wet Shield
 Short and Light Fishing Pole
 Fishing Guide^Fishing Kid
-Fishing Shop^Old Fisherman
-Merchant^Alfred
+Fisherman^Marco
+Weapon Armor Vendor^Alfred
 White Ants Troop
 Giant White Ant
 Giant Reinforced Ant
@@ -5703,17 +5703,17 @@ Memory Crystal(Cube[Avatar])
 Dragon Tablet(Burning Slash)
 Dragon Tablet(Destroy)
 Dragon Tablet(Magma Breath)
-Dragon Tablet(Awakening：Antharas)
+Dragon Tablet(Awakening:Antharas)
 Dragon Tablet(Blood Lust)
 Dragon Tablet(Force Layer)
-Dragon Tablet(Destroy：Fear)
+Dragon Tablet(Destroy:Fear)
 Dragon Tablet(Magma Arrow)
-Dragon Tablet(Awakening：Fafurion)
+Dragon Tablet(Awakening:Fafurion)
 Dragon Tablet(Mortal Body)
 Dragon Tablet(Thunder Grab)
-Dragon Tablet(Destroy：Horror)
+Dragon Tablet(Destroy:Horror)
 Dragon Tablet(Eye of Dragon)
-Dragon Tablet(Awakening：Valakas)
+Dragon Tablet(Awakening:Valakas)
 Cracked Nucleus
 Osiris Chest Top Low-Grade Closed
 Osiris Chest Bottom Low-Grade Closed
@@ -5865,14 +5865,14 @@ Mysterious Cube Box
 Village Memory Book Box
 Bible of Atonement Box
 Pet Name Change Scroll Box
-Illusionist Quest^Elder Sleyin
-Merchant^Sveil
+Elder^Sylane
+Magic Vendor^Sveil
 Teleporter^Charriere
 Blacksmith^Bahturu
 Lark
 Azael
 Elder Prochel
-Merchant^Gepharu
+Magic Vendor^Zephar
 Teleporter^Dekabia
 Blacksmith^Pual
 Talion
@@ -5925,13 +5925,13 @@ Destroy
 Magma Breath
 Awakening[Antharas]
 Blood Lust
-Force Layer
-Destroy：Fear
+Foe Sayer
+Destroy:Fear
 Magma Arrow
 Awakening[Fafurion]
 Mortal Body
 Thunder Grab
-Destroy：Horror
+Destroy:Horror
 Eye of Dragon
 Awakening[Valakas]
 Mirror Image
@@ -6114,18 +6114,18 @@ Lesser Dragon Wing
 Drake Meat
 Deep Sea Fish Meat
 Basilisk Egg
-Burning
-Blazing
-Scorching
-Soaking
-Aqueous
-Tidal
-Windy
-Storm
-Cyclone
-Clay
-Tera
-Gaia
+Burning:T1
+Blazing:T2
+Scorching:T3
+Soaking:T1
+Aqueous:T2
+Tidal:T3
+Windy:T1
+Storm:T2
+Cyclone:T3
+Clay:T1
+Tera:T2
+Gaia:T3
 In... inform Halphas ab... about the... enemy... attack
 Es... escape te... tell the leader...  Run... te... tell the leader.
 
@@ -6344,7 +6344,7 @@ Summoning Flute
 Event
 Coin
 Box
-Assistant of Mathis
+Metis's Assistant
 Elemental Stone
 Ancient Royal Seal
 Fire Ash of Soul
@@ -6613,8 +6613,8 @@ Magic Doll: Ramia
 Skeleton Key
 Lance Master Polymorph Scroll
 Dragon Blood
-3 Potion Package：Swordsman
-3 Potion Package：Warlock
+3 Potion Package:Swordsman
+3 Potion Package:Warlock
 3 Pattern Set:Swordsman
 3 Pattern Set:Warlock
 Magic Bait Box
@@ -7660,8 +7660,8 @@ huehue… [Hardin] you! KAHAHAAA!
 Whats this? Snacks everywhere!?
 [Kerenis] you're finally here!
 Wha.. What! [Kerenis] why! [Orim] What happened?
-[Yahi]! You… planned this…
-Yahi
+[Yahee]! You… planned this…
+Yahee
 Well done minions. You guys did better than expected. Kehehe.
 Even [Kerenis] has fainted, amazing! Kahehe.
 You must be curious, but that wizard wont give you much time! Kekeke.
@@ -7773,10 +7773,10 @@ Uni Dragon
 Terra Dragon
 Skull Dragon
 Merchant^Hank
-Hatchling^Bank
+Hatchling Exchange^Bank
 Merchant^Cant
 General Merchant^Irbagil
-Storage^Pamyrid
+Warehouse^Pamyrid
 Breath of Koma Kum
 Green Hatchling Egg
 Yellow Hatchling Egg
@@ -7891,7 +7891,7 @@ Magical Eye of Valakas
 Magical Eye of Birth
 Magical Eye of The Figure
 Magical Eye of Life
-Crafter^Shuerme
+Item Crafter^Shuerme
 Alchemist Sword
 Alchemist Bowgun
 Alchemist Edoryu
@@ -8420,10 +8420,10 @@ Aloubes Nia
 Aloubes Mika
 Aloubes Philip
 Torya
-Merchant^Baslin
-Storage^Bajesu
-Giant Shell
-Shell
+General Store^Baslin
+Warehouse^Bajesu
+Giant Clam
+Clam
 Blessed Teleport Scroll Spell Cloth
 Templar Magic Pouch
 Templar Potion Scroll
@@ -9192,7 +9192,7 @@ Supply Staff (Spell Power)
 Supply Goblin Armor
 Supply Boots
 Artifact Gift Box
-Amulet Merchant^Talimon
+Amulet Blacksmith^Talimon
 Magical Breath Crafter^Hugrint
 Pledge of Recovery Gift Box
 Pledge of Concentration Gift Box
@@ -9354,7 +9354,7 @@ Japan Standardization ev tw 002
 Japan Standardization ev tw 003
 Japan Standardization ev tw 004
 Japan Standardization ev tw 005
-Secret Furoshiki
+Secret Bag
 dummy
 dummy
 dummy
@@ -9383,7 +9383,7 @@ Witch's Mana Potion
 Oman Tower Teleport Scroll
 Evaporation Protection Scroll
 Varlok Dedication Scroll
-Yahi Dedication Scroll
+Yahee Dedication Scroll
 Hero's's Two-hands Sword
 Hero's's Staff
 Hero's's Bow
@@ -9469,7 +9469,7 @@ Evil Spirit Teleporter
 Warrior Reward Provider
 Diabolical Teleporter
 Costume
-Trafficer^Copeomba
+Black Trader^Copeonba
 Sealed Sword(Attack)
 Sealed Bow(Hit)
 Sealed Staff(Magic Hit)
@@ -9486,8 +9486,8 @@ Healing T-shirt
 Meditation T-shirt
 Healing T-shirt Box (4)
 Meditation T-shirt Box (4)
-Delivery Mimic Whistle：100 Juice
-Delivery Mimic Whistle：200 Juice
+Delivery Mimic Whistle:100 Juice
+Delivery Mimic Whistle:200 Juice
 Proximity Birthday Cake
 Long-distance Birthday Cake
 Magic Birthday Cake
@@ -9511,7 +9511,7 @@ Luxury Illusion Cube Box
 TOI Teleport Scroll Box
 Evaporation Protection Scroll Box
 Balrog Consecration Scroll Box
-Yahi Consecration Scroll Box
+Yahee Consecration Scroll Box
 Hero's's Two-handed Sword Box
 Hero's's Staff Box
 Hero's's Bow Box
@@ -9683,16 +9683,16 @@ Transformation Stone: Idea
 Enhanced Transformation Stone: Ramius
 Enhanced Transformation Stone: Endias
 Enhanced Transformation Stone: Idea
-Pet Merchant^Killington
+Pet Merchant^Kilton
 Pet Merchant^Merlin
 Delicious Honey Rice Cake
-Hardin's Secret Furoshiki
-Killington Contract
+Hardin's Secret Bag
+Kilton's Contract
 Merlin Contract
-Kishu Dog Cage
+Jindo Dog Basket
 Tiger Breeding Ground
-Courier Mimic Whistle: Kishu Dog Cage
-Courier Mimic Whistle: Tiger Breeding Ground
+Delivery Mimic Flute: Jindo Dog Basket
+Delivery Mimic Flute: Tiger Farm
 Scroll for Transformation of Knight of the Blue Sky
 Little Kerenis Transformation Scroll
 Black Wing Kerenis Transformation Scroll
@@ -10005,19 +10005,19 @@ Scroll of Weapon Enhancement
 Scroll of Armor Enchancement
 Weapon/Scroll of Armor Enchancement
 Balrog Consecration Luxury Scroll
-Yahi Consecration Luxury Scroll
+Yahee Consecration Luxury Scroll
 Balrog Consecration Luxury Scroll Box
-Yahi Consecration Luxury Scroll Box
-Elixir： Charm Box
-Elixir： Strength Box
-Elixir： Dexterity Box
-Elixir： Intelligence Box
-Elixir： Manapower Box
-Elixir： Magic Box
+Yahee Consecration Luxury Scroll Box
+Elixir: Charm Box
+Elixir: Strength Box
+Elixir: Dexterity Box
+Elixir: Intelligence Box
+Elixir: Manapower Box
+Elixir: Magic Box
 Balrog laughter echoes in my ears.
-Yahi's laughter echoes in my ears.
+Yahee's laughter echoes in my ears.
 The loud laughter of the Balrog echoes in your ears.
-Yahi's loud laughter echoes in your ears.
+Yahee's loud laughter echoes in your ears.
 dummy
 dummy
 dummy
@@ -10205,7 +10205,7 @@ Wanderlust Feather Boots
 Wanderlust Feather Gloves
 Buff Coin
 Buff Coin Box
-New Year Gift Bag： Kotobuki
+New Year Gift Bag: Kotobuki
 New Year Gift Bag: Fortune
 New Year Gift Bag: Wealth
 Sealed New Year Rune of Kotobuki
@@ -10763,8 +10763,8 @@ Geren Gift
 Disciple of Geren
 Standard 200 Magic Package
 Cloak of Orim
-Gelatin Cube Amulet： Swordsman
-Gelatin Cube Amulet： Warlock
+Gelatin Cube Amulet: Swordsman
+Gelatin Cube Amulet: Warlock
 dummy
 dummy
 dummy
@@ -11372,24 +11372,24 @@ dummy
 Fairy limited edition content giveaway
 Fairy limited edition level-up gift
 Fairy Limited Edition Hunting Ground Present
-Lv10Fairy Festive Gift：Get experience points and gifts when clicked
-Lv15Fairy Festive Gift：Get experience points and gifts when clicked
-Lv20Fairy Festive Gift：Get experience points and gifts when clicked
-Lv25Fairy Festive Gift：Get experience points and gifts when clicked
-Lv30Fairy Festive Gift：Get experience points and gifts when clicked
-Lv35Fairy Festive Gift：Get experience points and gifts when clicked
-Lv40Fairy Festive Gift：Get experience points and gifts when clicked
-Lv45Fairy Festive Gift：Get experience points and gifts when clicked
-Lv50Fairy Festive Gift：Get experience points and gifts when clicked
-Lv52Fairy Festive Gift：Get experience points and gifts when clicked
-Lv53Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv54Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv55Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv56Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv57Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv58Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv59Fairy limited edition giveaway：Get experience points and gifts when clicked
-Lv60Fairy limited edition giveaway：Get experience points and gifts when clicked
+Lv10Fairy Festive Gift:Get experience points and gifts when clicked
+Lv15Fairy Festive Gift:Get experience points and gifts when clicked
+Lv20Fairy Festive Gift:Get experience points and gifts when clicked
+Lv25Fairy Festive Gift:Get experience points and gifts when clicked
+Lv30Fairy Festive Gift:Get experience points and gifts when clicked
+Lv35Fairy Festive Gift:Get experience points and gifts when clicked
+Lv40Fairy Festive Gift:Get experience points and gifts when clicked
+Lv45Fairy Festive Gift:Get experience points and gifts when clicked
+Lv50Fairy Festive Gift:Get experience points and gifts when clicked
+Lv52Fairy Festive Gift:Get experience points and gifts when clicked
+Lv53Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv54Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv55Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv56Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv57Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv58Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv59Fairy limited edition giveaway:Get experience points and gifts when clicked
+Lv60Fairy limited edition giveaway:Get experience points and gifts when clicked
 Hunting Celebration Present: Additional experience gain
 Content Celebration Present: Additional experience gain
 Guide: command shortcut keys are provided.
@@ -11429,23 +11429,23 @@ Guide: The dragon dungeon has earth dragon and water dragon dungeons.
 dummy
 「Celebration」The gift given may disappear over time.
 「Level Up Celebration」 Gifts can be viewed in your inventory by clicking the icon below.
-Level Up Celebration： Recommend a place to hunt. Please bookmark to confirm.
+Level Up Celebration: Recommend a place to hunt. Please bookmark to confirm.
 Blessed Teleport Double-click on the scroll to teleport.
 Click to open your bookmarks.
-\d0\fR Lvl 50： Fishing Spot
-\d0\fR Lvl 51： Earth Dragon Dungeon
-\d0\fR Lvl 52： Ice Crystal Cave
-\d0\fU Lvl 53： Depardieu(Siege)
-\d0\fU Lvl 54： Yurie (Instance dungeon)
-\d0\fU Lvl 55： Level 55 Quest
-\d0\fY Lvl 55： Water Dragon Dungeon
-\d0\fY Lvl 56： Giran Prison
-\d0\fY Lvl 57： Ivory Tower
-\d0\fY Lvl 58： Gludio Dungeon
-\d0\fU Lvl 59： Talking Island Dungeon
-\d0\fY Lvl 60：
-\d0\fY Lvl 60： Talking Island Dungeon
-\d0\fY Lvl 60： Fire Dragon Dungeon
+\d0\fR Lvl 50: Fishing Spot
+\d0\fR Lvl 51: Earth Dragon Dungeon
+\d0\fR Lvl 52: Ice Crystal Cave
+\d0\fU Lvl 53: Depardieu(Siege)
+\d0\fU Lvl 54: Yurie (Instance dungeon)
+\d0\fU Lvl 55: Level 55 Quest
+\d0\fY Lvl 55: Water Dragon Dungeon
+\d0\fY Lvl 56: Giran Prison
+\d0\fY Lvl 57: Ivory Tower
+\d0\fY Lvl 58: Gludio Dungeon
+\d0\fU Lvl 59: Talking Island Dungeon
+\d0\fY Lvl 60:
+\d0\fY Lvl 60: Talking Island Dungeon
+\d0\fY Lvl 60: Fire Dragon Dungeon
 Scroll
 New Learning Books
 Hiren
@@ -13098,7 +13098,7 @@ Pandora Mana Emblem: T-shirt
 Recovery Emblem: T-shirt
 Spirit Emblem: T-shirt
 Destruction Emblem: T-shirt
-Health Emblem：T-shirt
+Health Emblem:T-shirt
 Mana Emblem: T-shirt
 pattern/crest/emblemdummy1
 pattern/crest/emblemdummy2
@@ -13549,7 +13549,7 @@ Traces of Rain
 Traces of Wind
 Rain Treasure Chest
 Wind Treasure Chest
-Spell Scroll：Counter Magic
+Spell Scroll:Counter Magic
 \aFFear Vampire Cloak
 dummy
 Ice Boots of Aden
@@ -13573,7 +13573,7 @@ dummy
 dummy
 dummy
 dummy
-Spell Scroll： Glory of Aden
+Spell Scroll: Glory of Aden
 dummy
 dummy
 dummy
@@ -14301,7 +14301,7 @@ Scorpion's Deadly Poison
 Ring Rental Event^Fear Ring
 Half Eaten Scorpion
 Aden Citizen
-Valakas： bic..
+Valakas: bic..
 Slot Open Event^Snapper
 dummy
 dummy
@@ -14361,13 +14361,13 @@ dummy
 dummy
 Slot Release Specialist^Snapper
 Fire:4T
-Water：4T
-Wind：4T
-Earth：4T
+Water:4T
+Wind:4T
+Earth:4T
 Fire:5T
-Water：5T
-Wind：5T
-Earth：5T
+Water:5T
+Wind:5T
+Earth:5T
 Fire Spirit Attribute Change Scroll
 Water Spirit Attribute Change Scroll
 Wind Spirit Attribute Change Scroll
@@ -17356,7 +17356,7 @@ Einhasad's blessings is amplified in the Rastabad dungeon today.
 Einhasad's blessings is amplified in the Dragon Valley Dungeon today.
 Einhasad's blessing is amplified in the Talking Island Dungeon today.
 Einhasad's blessing is amplified in the Oren region today.
-Einhasad's blessing is amplified in the Balrog and Yahi camps of the Ivory Tower.
+Einhasad's blessing is amplified in the Balrog and Yahee camps of the Ivory Tower.
 Einhasad's blessings is amplified in Giran Prison today.
 Einhasad's blessings is amplified in the Gludio Dungeons today.
 dummy
@@ -17923,7 +17923,7 @@ New NPC1
 New NPC2
 --- New Class -------------------------------------------
 Fruit of Growth Box 1+1
-Fruit of Growth Box： Unicorn 2+1
+Fruit of Growth Box: Unicorn 2+1
 Dream Gift Box
 dummy
 dummy
@@ -18273,14 +18273,14 @@ dummy
 dummy
 dummy
 dummy
-Lv 52~64：2.0% Experience Gain
-Lv 65~74：2.2% Experience Gain
-Lv 75~81：2.4% Experience Gain
-Lv 82+：2.8% Experience Gain
-Lv 52~64：6.0% Experience Gain
-Lv 65~74：6.6% Experience Gain
-Lv 75~81：7.2% Experience Gain
-Lv 82+：8.4% Experience Gain
+Lv 52~64:2.0% Experience Gain
+Lv 65~74:2.2% Experience Gain
+Lv 75~81:2.4% Experience Gain
+Lv 82+:2.8% Experience Gain
+Lv 52~64:6.0% Experience Gain
+Lv 65~74:6.6% Experience Gain
+Lv 75~81:7.2% Experience Gain
+Lv 82+:8.4% Experience Gain
 dummy
 dummy
 dummy
@@ -18868,12 +18868,12 @@ That's right...I'm a knight...a foolish knight who overestimated his power and c
 Were you defeated by Valakas?
 Defeated...yes...I am defeated. My memory and consciousness... are slowly fading...
 Take this sword and get out of here before I completely lose my reason.
-Valakas： Who woke me up?
-Death Knight：Valakas! You finally showed up...
-Valakas： The price for disturbing my sleep... be my slave and pay it till death...
-Death Knight： Hmmm, I'll let you say those words after you defeat me.
-Valakas： Kukuku... you have a lot of confidence...
-Valakas： Die! Human!
+Valakas: Who woke me up?
+Death Knight:Valakas! You finally showed up...
+Valakas: The price for disturbing my sleep... be my slave and pay it till death...
+Death Knight: Hmmm, I'll let you say those words after you defeat me.
+Valakas: Kukuku... you have a lot of confidence...
+Valakas: Die! Human!
 If you never leave...
 You cheeky little... follow me!
 Let's use even more force to subdue them!
@@ -19009,8 +19009,8 @@ Pet Manager Buzz: Welcome. We will take care of your pet.
 Pet Manager Buzz: If you cannot raise any more pets, please give them to us.
 Blood Alliance Executor: Dear Monarch, I will assist you in founding the Blood League.
 Blood Alliance Executor: It would be a good experience for a monarch to have his or her own bloodline at least once.
-Merchant Merin： We sell items necessary for training.
-Merchant Merin： We will offer it at a low price.
+Merchant Merin: We sell items necessary for training.
+Merchant Merin: We will offer it at a low price.
 Blacksmith Anon: If you defeat a big, hard monster, your weapon may break.
 Blacksmith Anon: If you want your weapon repaired, leave it to me.
 Magic Instructor Rosti: Up to 3 levels of general magic! We will let you know by attribute.
@@ -20372,7 +20372,7 @@ dummy
 dummy
 dummy
 dummy
-[%d/%d] %02d：%02d
+[%d/%d] %02d:%02d
 dummy
 dummy
 dummy
@@ -21984,7 +21984,7 @@ dummy
 dummy
 Guardian of Chaos
 Guardian of Death
-Guardian of Yahi
+Guardian of Yahee
 Guardian of Corruption
 Rank Transform^Top 20^Best 5 in each class^PVP Damage+2
 dummy
@@ -22465,25 +22465,25 @@ The Battle Begins.
 The battle is over.
 After a short time, rewards will be paid.
 After a while, you will move to the village.
-Gillian： May the blessings of the moon be with you!
-Aartone： Let me be your shield!
-Isilote： I am honored to be of assistance to you.
+Gillian: May the blessings of the moon be with you!
+Aartone: Let me be your shield!
+Isilote: I am honored to be of assistance to you.
 Christo: Nothing can stop this wind...
-Gillian： The joy of victory is with you!
-Aartone： A victory with you, I will remember.
-Isilote： I am honored to have won.
+Gillian: The joy of victory is with you!
+Aartone: A victory with you, I will remember.
+Isilote: I am honored to have won.
 Christo: Let's hope this happens again next time!
-Gillian： Hopefully the next time around we will have a better opportunity.
-Aartone： I'm sorry I showed you such an ugly fight. I am sorry.
-Isilote： It's my fault...sorry.
+Gillian: Hopefully the next time around we will have a better opportunity.
+Aartone: I'm sorry I showed you such an ugly fight. I am sorry.
+Isilote: It's my fault...sorry.
 Christo: Let this battle be a lesson.
-Gillian：
-Aartone：
-Isilote：
+Gillian:
+Aartone:
+Isilote:
 Christo: 
-Gillian： Not enough time, let's come back.
-Aartone： Was there not enough time?
-Isilote： I will be back.
+Gillian: Not enough time, let's come back.
+Aartone: Was there not enough time?
+Isilote: I will be back.
 Christo: You didn't have enough time. Call me again.
 [Taiwan]Sorcery Slate Fragment
 [Taiwan]Completed Sorcery Slate
@@ -22507,10 +22507,10 @@ General Defense Posture
 Attack Posture
 Defense Posture
 dummy
-General Attack Posture(Blood Members)：Successful Attack +2
-General Defense Posture(Blood Members)：AC-3
-Attack Posture(Blood Members)：PVP Damage +1
-Defense Posture(Blood Members)：PVP Damage Reduction +1
+General Attack Posture(Blood Members):Successful Attack +2
+General Defense Posture(Blood Members):AC-3
+Attack Posture(Blood Members):PVP Damage +1
+Defense Posture(Blood Members):PVP Damage Reduction +1
 [Taiwan]15th Anniversary Ring (Melee)
 [Taiwan]15th Anniversary Ring (Range)
 [Taiwan]15th Anniversary Ring (Magic)
@@ -22862,14 +22862,14 @@ Cockatrice Polymorph Scroll
 Mana Artifact
 Sealed Magic Crystal
 dummy
-Kerenis： Ho ho ho! You made it this far! Monster, kill him!
-Kerenis： You're doing a great job... but that's it!
-Kerenis： How about this time? Greetings, Guardian of Darkness!
-Kerenis： Claudia is mine! It's too late!
-Kerenis： I will not allow it! Forces of darkness! Stop them!
-Kerenis： Guardian of the Darkness! Stop them!
-Kerenis： You've offended me...! Well, that's okay. I've already taken care of my business.
-Kerenis： Let's go to Claudia Castle and destroy everything!
+Kerenis: Ho ho ho! You made it this far! Monster, kill him!
+Kerenis: You're doing a great job... but that's it!
+Kerenis: How about this time? Greetings, Guardian of Darkness!
+Kerenis: Claudia is mine! It's too late!
+Kerenis: I will not allow it! Forces of darkness! Stop them!
+Kerenis: Guardian of the Darkness! Stop them!
+Kerenis: You've offended me...! Well, that's okay. I've already taken care of my business.
+Kerenis: Let's go to Claudia Castle and destroy everything!
 Hero's Tempest Axe
 Hero's Tempest Axe Box
 Pixie Big Present
@@ -23374,45 +23374,45 @@ dummy
 dummy
 dummy
 dummy
-\dc\fF Lv55：Depardieu
-\dc\fF Lv55：Yurie (ID)
-\dd\f4 Lv55：North Island
-\dd\f4 Lv55：Dwarf Village
-\dd\f4 Lv56：Orc Settlements
-\dd\f4 Lv57：Orc Swamps
-\dd\f4 Lv58：Spider Forest
-\dd\f4 Lv59：BK Outpost
-\db\fB Lv55：Talking Island Dungeon
-\dc\fF Lv60：Fishing Spot
-\dc\fF Lv60：Ivory Tower
-\dd\f4 Lv60：Ruins of Death
-\dd\f4 Lv61：Tomb of the Dead
-\db\fB Lv62：Gludio Dungeon
-\dd\f4 Lv63：Orc Forest
-\db\fB Lv64：Elven Forest Dungeon
-\dd\f4 Lv65：Wasteland
-\dd\f4 Lv66：Desert
-\db\fB Lv67：SKT Dungeon
-\dd\f4 Lv68：North Kent Castle
-\dd\f4 Lv69：South Kent Castle
-\dc\fF Lv70：Giran Prison
-\dc\fF Lv70：Extreme Frigid Dungeon Ice Cave
-\dd\f4 Lv71：Jungle
-\dd\f4 Lv72：East Giran Territory
-\dd\f4 Lv73：Heine
-\dd\f4 Lv74：Mirror Forest
-\db\fB Lv75：Eva Kingdom
-\db\fB Lv76：Cave of Desire
-\db\fB Lv76：Temple of Shadows
-\dd\f4 Lv77：Oren Snow Mountain
-\dd\f4 Lv77：Twilight Mountains
-\dd\f4 Lv78：Scars of the Dark Dragon
-\dd\f4 Lv78：Elmore Fierce Battles
-\dd\f4 Lv78：Dragon Valley
-\db\fB Lv79：Tower of Insolence
-\db\fB Lv79：Dragon Dungeon
-\dd\f4 Lv80：Fire Dragon Lair
-\dd\f4 Lv80：Wind Dragon Lair
+\dc\fF Lv55:Depardieu
+\dc\fF Lv55:Yurie (ID)
+\dd\f4 Lv55:North Island
+\dd\f4 Lv55:Dwarf Village
+\dd\f4 Lv56:Orc Settlements
+\dd\f4 Lv57:Orc Swamps
+\dd\f4 Lv58:Spider Forest
+\dd\f4 Lv59:BK Outpost
+\db\fB Lv55:Talking Island Dungeon
+\dc\fF Lv60:Fishing Spot
+\dc\fF Lv60:Ivory Tower
+\dd\f4 Lv60:Ruins of Death
+\dd\f4 Lv61:Tomb of the Dead
+\db\fB Lv62:Gludio Dungeon
+\dd\f4 Lv63:Orc Forest
+\db\fB Lv64:Elven Forest Dungeon
+\dd\f4 Lv65:Wasteland
+\dd\f4 Lv66:Desert
+\db\fB Lv67:SKT Dungeon
+\dd\f4 Lv68:North Kent Castle
+\dd\f4 Lv69:South Kent Castle
+\dc\fF Lv70:Giran Prison
+\dc\fF Lv70:Extreme Frigid Dungeon Ice Cave
+\dd\f4 Lv71:Jungle
+\dd\f4 Lv72:East Giran Territory
+\dd\f4 Lv73:Heine
+\dd\f4 Lv74:Mirror Forest
+\db\fB Lv75:Eva Kingdom
+\db\fB Lv76:Cave of Desire
+\db\fB Lv76:Temple of Shadows
+\dd\f4 Lv77:Oren Snow Mountain
+\dd\f4 Lv77:Twilight Mountains
+\dd\f4 Lv78:Scars of the Dark Dragon
+\dd\f4 Lv78:Elmore Fierce Battles
+\dd\f4 Lv78:Dragon Valley
+\db\fB Lv79:Tower of Insolence
+\db\fB Lv79:Dragon Dungeon
+\dd\f4 Lv80:Fire Dragon Lair
+\dd\f4 Lv80:Wind Dragon Lair
 Magic Gate
 Disrupt Skeleton Fighter
 Disrupt Skeleton Guard
@@ -23855,14 +23855,14 @@ Stone Statue of Golden Dragon Horse
 5th Place Gacha Box
 Skill Gacha Box
 Talisman of Eternity
-[China]True Dragon Soul Stone：Growth(3d)
-[China]True Dragon Soul Stone：Strength(3d)
-[China]True Dragon Soul Stone：Quick(3d)
-[China]True Dragon Soul Stone：Intelligence(3d)
-[China]Absolute True Dragon Soul Stone：Growth(3d)
-[China]Absolute True Dragon Soul Stone：Strength(3d)
-[China]Absolute True Dragon Soul Stone：Quick(3d)
-[China]Absolute True Dragon Soul Stone：Intelligence(3d)
+[China]True Dragon Soul Stone:Growth(3d)
+[China]True Dragon Soul Stone:Strength(3d)
+[China]True Dragon Soul Stone:Quick(3d)
+[China]True Dragon Soul Stone:Intelligence(3d)
+[China]Absolute True Dragon Soul Stone:Growth(3d)
+[China]Absolute True Dragon Soul Stone:Strength(3d)
+[China]Absolute True Dragon Soul Stone:Quick(3d)
+[China]Absolute True Dragon Soul Stone:Intelligence(3d)
 [Taiwan]Sealed Orichalcum Dagger
 [Taiwan]Sealed Ice Queen Staff
 [Taiwan]Hidden Village Dragon Coin Teleport Scroll Box(10d)
@@ -24078,14 +24078,14 @@ dummy
 [Taiwan]True Incarnated Kiringku
 [Taiwan]True Incarnated Axe Box
 [Taiwan]True Incarnated Enchant Scroll
-[Taiwan]True Incarnated Enchant Scroll：+8
-[Taiwan]True Incarnated Enchant Scroll：+9
-[Taiwan]True Incarnated Enchant Scroll：+10
-[Taiwan]True Incarnated Enchant Scroll：+11
+[Taiwan]True Incarnated Enchant Scroll:+8
+[Taiwan]True Incarnated Enchant Scroll:+9
+[Taiwan]True Incarnated Enchant Scroll:+10
+[Taiwan]True Incarnated Enchant Scroll:+11
 dummy
-[Taiwan]True Incarnated Weapon Enchant Scroll Box：+9
-[Taiwan]True Incarnated Weapon Enchant Scroll Box：+10
-[Taiwan]True Incarnated Weapon Enchant Scroll Box：+11
+[Taiwan]True Incarnated Weapon Enchant Scroll Box:+9
+[Taiwan]True Incarnated Weapon Enchant Scroll Box:+10
+[Taiwan]True Incarnated Weapon Enchant Scroll Box:+11
 dummy
 [Taiwan]True Incarnated Shop^Ceehan
 [Taiwan]True Incarnated Shop^Contin
@@ -24130,7 +24130,7 @@ dummy
 dummy
 dummy
 dummy
-Fear Hit：+%d
+Fear Hit:+%d
 Earth Dragon T-shirt
 Fire Dragon T-Shirt
 Wind Dragon T-Shirt
@@ -24867,9 +24867,9 @@ Stun Hit:+4
 Destruction Hit:+1
 Destruction Hit:+2
 Destruction Hit:+4
-Fear Hit：+1
-Fear Hit：+2
-Fear Hit：+4
+Fear Hit:+1
+Fear Hit:+2
+Fear Hit:+4
 Hero'ss Package S
 dummy
 Monster Codex Booster: Hero's
@@ -25532,17 +25532,17 @@ Descendants of Halphas
 Storage^Lars
 General Merchant^Kucombol
 Raid Enchance Wizard^Death Knight
-Valakas：Ugh....those damned insects....
-Valakas：Are Kisama and the others also Halphas's dependents...?
-Valakas：Doesn't matter...if it's a bug, just kill it.
-Valakas：You will regret trampling on this sacred territory with your feet...!
-Valakas：Cheeky! You're a little worm, you're a little worm, you're a little worm!
-Death Knight：Gooooo...Valakas...!
+Valakas:Ugh....those damned insects....
+Valakas:Are Kisama and the others also Halphas's dependents...?
+Valakas:Doesn't matter...if it's a bug, just kill it.
+Valakas:You will regret trampling on this sacred territory with your feet...!
+Valakas:Cheeky! You're a little worm, you're a little worm, you're a little worm!
+Death Knight:Gooooo...Valakas...!
 Orim: Calm down! Harness the power of the Death Knight!
-Valakas：You will pay the price for offending me...!！
-Valakas：Gghhhh....a being as small as a speck....
-Valakas：So much for today... but the day the lowly shackles are broken and power regained....
-Valakas：That day will be your last day....
+Valakas:You will pay the price for offending me...!！
+Valakas:Gghhhh....a being as small as a speck....
+Valakas:So much for today... but the day the lowly shackles are broken and power regained....
+Valakas:That day will be your last day....
 Orim: Ah... half success... even with the Death Knight's power, You couldn't completely defeat him...
 Orim: But we all did our best! Valakas should be quiet for a while....
 Orim: Oh my God! The balance of power that ruled this land has been upset!
@@ -26281,7 +26281,7 @@ Nightmare Gratony
 Nightmare Avarice
 Small Noodle Dish(periodic)
 Small Beverages (periodic)
-Fruit of Growth Box：30x
+Fruit of Growth Box:30x
 6-Step Evolution Scroll
 My creatures! Kill them!
 Kisama and the others, how much more do you need to interrupt me!
@@ -26487,11 +26487,11 @@ dummy
 dummy
 Crest of Strength: Growth
 Crest of Dexterity: Growth
-Intelligence Crest：Growth
+Intelligence Crest:Growth
 Crest of Strength: Recovery
 Crest of Dexterity: Recovery
-Intelligence Crest：Recovery
-Crest of Recovery：Growth
+Intelligence Crest:Recovery
+Crest of Recovery:Growth
 Red Magic Enchance Curse Box
 dummy
 dummy
@@ -26544,14 +26544,14 @@ Fire Dragon's Lair
 +8Crest of Dexterity: Growth
 +9Crest of Dexterity: Growth
 +10Crest of Dexterity: Growth
-+3Intelligence Crest：Growth
-+4Intelligence Crest：Growth
-+5Intelligence Crest：Growth
-+6Intelligence Crest：Growth
-+7Intelligence Crest：Growth
-+8Intelligence Crest：Growth
-+9Intelligence Crest：Growth
-+10Intelligence Crest：Growth
++3Intelligence Crest:Growth
++4Intelligence Crest:Growth
++5Intelligence Crest:Growth
++6Intelligence Crest:Growth
++7Intelligence Crest:Growth
++8Intelligence Crest:Growth
++9Intelligence Crest:Growth
++10Intelligence Crest:Growth
 +3Crest of Strength: Recovery
 +4Crest of Strength: Recovery
 +5Crest of Strength: Recovery
@@ -26568,22 +26568,22 @@ Fire Dragon's Lair
 +8Crest of Dexterity: Recovery
 +9Crest of Dexterity: Recovery
 +10Crest of Dexterity: Recovery
-+3Intelligence Crest：Recovery
-+4Intelligence Crest：Recovery
-+5Intelligence Crest：Recovery
-+6Intelligence Crest：Recovery
-+7Intelligence Crest：Recovery
-+8Intelligence Crest：Recovery
-+9Intelligence Crest：Recovery
-+10Intelligence Crest：Recovery
-+3Crest of Recovery：Growth
-+4Crest of Recovery：Growth
-+5Crest of Recovery：Growth
-+6Crest of Recovery：Growth
-+7Crest of Recovery：Growth
-+8Crest of Recovery：Growth
-+9Crest of Recovery：Growth
-+10Crest of Recovery：Growth
++3Intelligence Crest:Recovery
++4Intelligence Crest:Recovery
++5Intelligence Crest:Recovery
++6Intelligence Crest:Recovery
++7Intelligence Crest:Recovery
++8Intelligence Crest:Recovery
++9Intelligence Crest:Recovery
++10Intelligence Crest:Recovery
++3Crest of Recovery:Growth
++4Crest of Recovery:Growth
++5Crest of Recovery:Growth
++6Crest of Recovery:Growth
++7Crest of Recovery:Growth
++8Crest of Recovery:Growth
++9Crest of Recovery:Growth
++10Crest of Recovery:Growth
 Blessed Leaf of Life
 dummy
 dummy
@@ -26631,7 +26631,7 @@ Teleporter^Laksh
 Teleporter^Cracks
 Teleporter^Payra
 Glory to the shadow of the flame...
-We shall rise again with the power of Master Yahi!
+We shall rise again with the power of Master Yahee!
 Gruul... I have not yet...
 I don't fear death...
 My anger will never subside!
@@ -27548,14 +27548,14 @@ Try your luck.
 When luck is on your side, everything works out.
 Light
 Poseidon
-+1Old Dawn Gaiters(Chance) Material：Scroll(1)+Hero's Coin(3)
-+1Old Dawn Gaiters(100%) Material：Scroll(5)+Hero's Coin(3)
-+2Old Dawn Gaiters(Chance) Material：Scroll(1)+Hero's Coin(3)
-+2Old Dawn Gaiters(100%) Material：Scroll(5)+Hero's Coin(3)
-+3Old Dawn Gaiters(Chance) Material：Scroll(1)+Hero's Coin(3)
-+3Old Dawn Gaiters(100%) Material：Scroll(5)+Hero's Coin(3)
-+4Old Dawn Gaiters(Chance) Material：Scroll(1)+Hero's Coin(3)
-+5Old Dawn Gaiters(Chance) Material：Scroll(1)+Hero's Coin(3)
++1Old Dawn Gaiters(Chance) Material:Scroll(1)+Hero's Coin(3)
++1Old Dawn Gaiters(100%) Material:Scroll(5)+Hero's Coin(3)
++2Old Dawn Gaiters(Chance) Material:Scroll(1)+Hero's Coin(3)
++2Old Dawn Gaiters(100%) Material:Scroll(5)+Hero's Coin(3)
++3Old Dawn Gaiters(Chance) Material:Scroll(1)+Hero's Coin(3)
++3Old Dawn Gaiters(100%) Material:Scroll(5)+Hero's Coin(3)
++4Old Dawn Gaiters(Chance) Material:Scroll(1)+Hero's Coin(3)
++5Old Dawn Gaiters(Chance) Material:Scroll(1)+Hero's Coin(3)
 Buff Coin(7 days)
 Blood Pledge Supporter^Coin Merchant
 dummy
@@ -27688,7 +27688,7 @@ It is approaching...the glorious moment when Unura will become an offering.
 Guo... guaah!
 O you who live...die.
 Violent Reaper Soul: This completes the tyrannical force.
-Wicked Reaper Soul： Kukuku...it will be a good offering.
+Wicked Reaper Soul: Kukuku...it will be a good offering.
 Let us dedicate every last drop of our souls to it.
 This will be your graveyard.
 Struggle to your death.
@@ -27697,7 +27697,7 @@ That won't open the door. Pour more soul into it.
 Keep it up. Wield your strength... kukuk...
 Kuh... uu... kuh...
 Death... approaches...
-Wicked Reaper Soul： Finally, the time has come for the completion of the wicked power...kuhuhuhuhu.
+Wicked Reaper Soul: Finally, the time has come for the completion of the wicked power...kuhuhuhuhu.
 Those who are to be the offerings of the tower have stepped into it themselves.
 Arrogant ones, I will retrieve your souls!
 Taste the infinite power of an immortal being!
@@ -28223,24 +28223,24 @@ Barbaric Gadan
 Craving Jacrito
 (Pride)
 (Blow Attack)
-(Counter Barrier： Veteran)
+(Counter Barrier: Veteran)
 Technical Book(Pride)
 Technical Book(Blow Attack)
-\aETechnical Book(Counter Barrier： Veteran)
+\aETechnical Book(Counter Barrier: Veteran)
 (Ice Meteor)
 Spellbook(Ice Meteor)
 (Lucifer)
 (Double Break: Destiny)
-(Armor Break：Destiny)
+(Armor Break:Destiny)
 Dark Spirit Crystal(Lucifer)
 \aEDark Spirit Crystal(Double Break: Destiny)
-\aEDark Spirit Crystal(Armor Break：Destiny)
+\aEDark Spirit Crystal(Armor Break:Destiny)
 (Awakening[Lindvior])
-(Thunder Grab：Brave)
-(Force Layer：Brave)
-Dragon Tablet(Thunder Grab：Brave)
+(Thunder Grab:Brave)
+(Force Layer:Brave)
+Dragon Tablet(Thunder Grab:Brave)
 Dragon Tablet(Awakening[Lindvior])
-\aEDragon Knight Tablet(Force Layer：Brave)
+\aEDragon Knight Tablet(Force Layer:Brave)
 (Focus Spirits)
 Memory Crystal(Focus Spirits)
 (Desperado: Absolute)
@@ -29262,9 +29262,9 @@ Enhanced Hero's Relic Bag(Strength)
 Enhanced Hero's Relic Bag(Dexterity)
 Enhanced Hero's Relic Bag(Intelligence)
 Hero's Relic
-Enhanced Hero's Relic： Strength
-Enhanced Hero's Relic： Clever/Smart(Quick)
-Enhanced Hero's Relic： Intelligence
+Enhanced Hero's Relic: Strength
+Enhanced Hero's Relic: Clever/Smart(Quick)
+Enhanced Hero's Relic: Intelligence
 Scroll of Great Hero'ses
 dummy
 dummy
@@ -30488,7 +30488,7 @@ Huh, I'll show you how serious I am.
 Did you come this far with this kind of power?
 Ivory Tower Talisman Box
 Violent Reaper Soul: The time has come... but it seems like an insignificant soul...
-Wicked Reaper Soul： Retreat... any more of this is a waste of time...
+Wicked Reaper Soul: Retreat... any more of this is a waste of time...
 +9Bloodsucker
 +9Blessed Orichalcum Dagger
 Araganth Eye Monster
@@ -30643,11 +30643,11 @@ Templar Water Weapon Enchant
 Templar Fire Weapon Enchant
 Hero's Gold Box
 Spellbook(Empire)
-Technical Book(Counter Barrier： Veteran)
+Technical Book(Counter Barrier: Veteran)
 Technical Book(Counter Barrier)
 Spirit Crystal(Inferno)
 Spellbook(Disintegrate)
-Dark Spirit Crystal(Armor Break：Destiny)
+Dark Spirit Crystal(Armor Break:Destiny)
 Dark Spirit Crystal(Armor Break)
 Memory Crystal(Dark Horse)
 Warrior Seal(Desperado: Absolute)
@@ -31456,20 +31456,20 @@ Queen Soldier
 Queen Assassin
 Queen Centurion
 Queen Guard Ant
-Technical Book(Reduction Armor： Veteran)
+Technical Book(Reduction Armor: Veteran)
 Technical Book(Raging Force)
 Spirit Crystal(Magic Shield)
-Spellbook(Immune To Harm：Saint)
+Spellbook(Immune To Harm:Saint)
 Spellbook(Accuracy)
-Dark Spirit Crystal(Lucifer：Destiny)
+Dark Spirit Crystal(Lucifer:Destiny)
 Dark Spirit Crystal(Shadow Step)
 Fencer Tech(Ashura)
-(Reduction Armor： Veteran)
+(Reduction Armor: Veteran)
 (Raging Force)
 (Magic Shield)
-(Immune To Harm：Saint)
+(Immune To Harm:Saint)
 (Accuracy)
-(Lucifer：Destiny)
+(Lucifer:Destiny)
 (Shadow Step)
 (Ashura)
 dummy
@@ -32030,11 +32030,11 @@ Minions of Halphas
 Halphas  Minion Chief
 Suppressed Halphas
 Halphas
-[Enchance：Normal]
-[Enchance：Advance]
-[Enchance：Rare]
-[Enchance：Hero's]
-[Enchance：Legend]
+[Enchance:Normal]
+[Enchance:Advance]
+[Enchance:Rare]
+[Enchance:Hero's]
+[Enchance:Legend]
 Transformation Jade Box(Male )
 dummy
 Hidden Eva Kingdom Waterway
@@ -32414,9 +32414,9 @@ Starving Mambo Rabbit
 Improved Hero's Relic Bag(Strength)
 Improved Hero's Relic Bag(Dexterity)
 Improved Hero's Relic Bag(Intelligence)
-Improved Hero's Relic： Strength
-Improved Hero's Relic： Dexterity
-Improved Hero's Relic： Intelligence
+Improved Hero's Relic: Strength
+Improved Hero's Relic: Dexterity
+Improved Hero's Relic: Intelligence
 dummy
 dummy
 dummy
@@ -32725,8 +32725,8 @@ Spearbook(Recovery)
 Spearbook(Pressure)
 Spearbook(Kruel)
 dummy
-\aESpearbook(Kruel：Combination)
-\aHSpearkbook(Pressure：Death Recall)
+\aESpearbook(Kruel:Combination)
+\aHSpearkbook(Pressure:Death Recall)
 dummy
 Spearbook(Dodge Break)
 Spearbook(Maelstrom)
@@ -33587,7 +33587,7 @@ Death Knight(Blood Pledge)^PVP Damage Reduction+3^All Resist +2^HP+150
 dummy
 Technical Book(Raging Force)
 Spellbook(Accuracy)
-Dragon Tablet(Force Layer：Brave)
+Dragon Tablet(Force Layer:Brave)
 Fencer Tech(Judgement)
 Dragon's Habitat Entrance
 dummy
@@ -33640,11 +33640,11 @@ dummy
 dummy
 dummy
 [Special Abilites]
-Technical Book(Reduction Armor： Veteran)
+Technical Book(Reduction Armor: Veteran)
 Technical Book(Absolute Blade)
 Spirit Crystal(Flame Soul)
 Spellbook(Polymorph)
-Dark Spirit Crystal(Lucifer：Destiny)
+Dark Spirit Crystal(Lucifer:Destiny)
 Memory Crystal(Impact)
 Warrior Seal(Titan Blitz)
 Fencer Tech(Survive)
@@ -33749,24 +33749,24 @@ dummy
 Spellbook(Call Clan Advance)
 Spirit Crystal(Liberation)
 Spirit Crystal(Elven Strike)
-Spellbook(Meditation：Beyond)
+Spellbook(Meditation:Beyond)
 Spellbook(Mass Immune To Harm)
 Dark Spirit Crystal(Moving Acceleration: Maximum)
-Dark Spirit Crystal(Shadow Armor： Destiny)
+Dark Spirit Crystal(Shadow Armor: Destiny)
 Dragon Tablet(Solid Knot)
 Dragon Tablet(Rampage)
-Memory Crystal(Bone Break： Last)
+Memory Crystal(Bone Break: Last)
 Warrior Seal(Berserker)
 (Call Clan Advance)
 (Liberation)
 (Elven Strike)
-(Meditation：Beyond)
+(Meditation:Beyond)
 (Mass Immune To Harm)
 (Moving Acceleration: Maximum)
-(Shadow Armor：Destiny)
+(Shadow Armor:Destiny)
 (Solid Knot)
 (Rampage)
-(Bone Break： Last)
+(Bone Break: Last)
 (Berserker)
 Stun Duration
 Decree of King Aden
@@ -33967,7 +33967,7 @@ dummy
 +6Hyperion's Despair
 +6Reaper Sword
 Haven Assistant^Allen
-Demon Stealing Stone： %i
+Demon Stealing Stone: %i
 Demon Stealing Stone
 Pure Elixir
 Pure Elixir(EXP)
@@ -34095,17 +34095,17 @@ Spirit Crystal(Magic Shield)
 Spirit Crystal(Elven Strike)
 Spirit Crystal(Liberation)
 Spirit Crystal(Glory Earth)
-Spellbook(Immune To Harm：Saint)
-Spellbook(Meditation：Beyond)
+Spellbook(Immune To Harm:Saint)
+Spellbook(Meditation:Beyond)
 Spellbook(Mass Immune To Harm)
 Spellbook(Eternity)
 Dark Spirit Crystal(Double Break: Destiny)
-Dark Spirit Crystal(Moving Acceleration： Maximum)
-Dark Spirit Crystal(Shadow Armor： Destiny)
+Dark Spirit Crystal(Moving Acceleration: Maximum)
+Dark Spirit Crystal(Shadow Armor: Destiny)
 Dark Spirit Crystal(Avenger)
 Dragon Tablet(Rampage)
 Dragon Tablet(Halphas)
-Memory Crystal(Bone Break： Last)
+Memory Crystal(Bone Break: Last)
 Memory Crystal(Potential)
 Warrior Seal(Berserker)
 Warrior Seal(Demolition)
@@ -34996,13 +34996,13 @@ dummy
 dummy
 Rune Secret Chest
 Golden Rune Secret Chest
-(Disintegrate： Nemesis)
-(Holy Walk： Evolution)
+(Disintegrate: Nemesis)
+(Holy Walk: Evolution)
 (Aetherial Circle)
 (Divine Protect)
 dummy
-\aeSpellbook(Disintegrate： Nemesis)
-\aeSpellbook(Holy Walk： Evolution)
+\aeSpellbook(Disintegrate: Nemesis)
+\aeSpellbook(Holy Walk: Evolution)
 \aeSpellbook(Aetherial Circle)
 \aeSpellbook(Divine Protect)
 dummy
@@ -35675,7 +35675,7 @@ dummy
 dummy
 Fencer Tech(Phantom: Death)
 Fencer Tech(Pantera: Shock)
-Spellbook(Disintegrate： Nemesis)
+Spellbook(Disintegrate: Nemesis)
 dummy
 dummy
 dummy
@@ -35906,22 +35906,22 @@ You guys are still no match for me.
 \aeSpellbook(Empire: Overlord)
 (Empire: Overlord)
 Spirit Crystal(Return to Nature)
-MP Recovery：+%d(16 sec)
+MP Recovery:+%d(16 sec)
 \aETechnical Book(Shock Attack)
-\aETechnical Book(Counter Barrier： Master)
+\aETechnical Book(Counter Barrier: Master)
 \aETechnical Book(Raging Weapon)
-\aESpirit Crystal(Soul Barrier：Armor)
+\aESpirit Crystal(Soul Barrier:Armor)
 \aESpirit Crystal(Burning Shot)
 (Shock Attack)
-(Counter Barrier： Master)
-(Soul Barrier：Armor)
+(Counter Barrier: Master)
+(Soul Barrier:Armor)
 Event^Lineage PT Completion Ceremony Statue
-(Striker Gail：Shot)
+(Striker Gail:Shot)
 Magic Wand(Meteor Strike)
 (Burning Shot)
 Rough Dragon Diamond
 Dragon Diamond Crafter^Yumi
-\aESpirit Crystal(Striker Gail：Shot)
+\aESpirit Crystal(Striker Gail:Shot)
 King of Aden
 dummy
 dummy
